@@ -5,3 +5,4 @@ export {copy} from './content';
 export {categoryLabel} from './Interior';
 export {mediaPath} from './media';
 export {legalKeys,legalPath,legalTitles} from './legal';
+export {adUnits} from './ads/config';

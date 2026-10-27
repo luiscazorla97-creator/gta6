@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc -b && vite build && vite build --ssr src/entry-server.ts --outDir .ssr && node scripts/static-pages.mjs",
+    "build": "tsc -b && vite build && vite build --ssr src/entry-server.ts --outDir .ssr && node scripts/static-pages.mjs && node scripts/build-ads.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test:e2e": "playwright test",
     "build:release": "FANSGTA_INDEXABLE=1 npm run build"

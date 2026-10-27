@@ -3,7 +3,7 @@ import { join,dirname } from 'node:path';
 const files=[];
 async function walk(path){for(const entry of await readdir(path,{withFileTypes:true})){const full=join(path,entry.name);if(entry.isDirectory())await walk(full);else if(entry.name.endsWith('.html'))files.push(full);}}
 await walk('dist');const problems=[];let links=0,schemas=0;
-for(const file of files){const html=await readFile(file,'utf8');
+for(const file of files){const html=await readFile(file,'utf8');if(file.includes('/ads/')){if(!html.includes('noindex,nofollow'))problems.push(`${file}: ad document is indexable`);continue;}
  const headings=[...html.matchAll(/<h1[\s>]/g)];if(headings.length!==1)problems.push(`${file}: expected one H1, found ${headings.length}`);
  for(const block of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)){try{const data=JSON.parse(block[1]);if(!data['@type'])throw Error('missing type');schemas++;}catch{problems.push(`${file}: invalid structured data`);}}
  for(const [,href] of html.matchAll(/<a\b[^>]*\bhref="([^"]+)"/g)){

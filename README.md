@@ -1,59 +1,52 @@
 # FansGTA · fansgta.com
 
-Independent GTA editorial portal in Spanish, English and French. This project lives in `/workspace/gta6` and never touches BarberControl or its backend.
+Independent GTA editorial portal in Spanish, English and French. Isolated checkout: `/workspace/gta6`. Never modify BarberControl or reuse its backend.
 
-## Development
+## Run and verify
 
-Node 22 or 24. No credentials are needed for development or builds.
+Node 22 or 24.
 
 ```sh
-cd /workspace/gta6
 npm ci --cache /tmp/fansgta-npm-cache --no-audit --no-fund
 npm run dev -- --port 5173
-```
-
-## Production
-
-```sh
-npm run build          # staging build: noindex
-npm run build:release  # editorial launch build: indexable
-npm run preview -- --port 4173
-```
-
-TypeScript, Vite browser compilation, SSR compilation and static generation run in sequence. The release currently generates 91 generated route documents: three homepages, 27 category pages, 60 article translations and one 404 page. Every public article and category can be read without JavaScript. Empty categories stay noindex and are excluded from the sitemap even in a release build.
-
-## Tests
-
-```sh
+npm run build          # staging: noindex
+npm run build:release  # editorial launch: eligible pages indexable
+node scripts/verify-static.mjs
 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e
 ```
 
-Playwright starts the production preview itself. Elsewhere, install a Playwright Chromium browser through its supported installer and omit the executable override. This environment blocks the Playwright download host but has system Chromium. Do not disable TLS verification.
+The production pipeline type-checks, builds the browser bundle and SSR entry, generates public HTML, then generates five isolated advertising documents. There are 28 editorial articles in three languages, category pages, four legal/contact pages per language, a custom 404 and a root homepage copy. Empty categories and advertising documents stay noindex and out of the sitemap. `npm run preview -- --port 4173` runs the built site internally. Playwright starts its preview itself; on other machines use a supported Chromium installation without disabling TLS.
 
-The browser suite covers static pages without JavaScript, real category and article URLs, multilingual SEO metadata, structured data, language switching on an article, search, favorites and persistence, map filters/progress, mobile navigation, newsletter honesty and video consent. See `docs/verification.md` for executed results.
+## Content and SEO
 
-## Editorial publishing
+`src/news.ts`, `src/articles.ts`, `src/characters.ts`, `src/expansions.ts` and `src/theories.ts` provide source-linked histories, news, guides and clearly labelled fan theories. Twenty existing pieces gained topic-specific context; six character histories and two theories were added. Article contents link to sections, related profiles are selected by relationship, and localized routes remain stable.
 
-`src/articles.ts` contains the twenty original editorial articles and their translations. Every article has its own stable localized slug, section, summary, headings, sources and dates. `src/routes.ts` defines localized category paths. Keep slugs stable; add a 301 redirect if changing one. Adding an article to the data array makes it available in its category, search, static output and sitemap on the next build. Homepage selections are curated separately in `src/App.tsx`.
+The character hub includes Jason, Lucia, Cal, Boobie, Dre’Quan, Bae-Luxe and Roxy (one joint Real Dimez history), Raul and Brian. Lori and DWNPLY are covered where named, without invented standalone biographies.
 
-These are evergreen guides and analyses, not live-verified breaking news. Links identify references rather than proving a recent source check. There are no invented release dates, cheats, mission rewards, vehicle specifications or claimed traffic counts. `src/config.ts` deliberately keeps release date/platforms unset until a live official-source check succeeds.
+Canonical, hreflang, metadata, JSON-LD, sitemap and crawlable HTML are generated in `scripts/static-pages.mjs`. Google popularity is not fabricated; indexing and ranking are not guaranteed. See `docs/search-indexing.md` for owner verification and sitemap submission. Search Console and Bing Webmaster accounts have not been connected.
 
-## Images and video
+## Media and regions
 
-Article covers and the hero now use real GTA VI imagery obtained from Rockstar’s public Media page, which invites visitors to download and share media. Images retain Rockstar credit, with source URLs recorded in public/media/credits.json. The demo map remains original and fictional. This is not a claim that Rockstar trademarks or media are public domain.
+Real Rockstar images have credits and source URLs in `public/media/credits.json`; WebP versions are served locally. The original fictional map has been replaced by a selector/gallery of Rockstar-named regions. This is not represented as a complete official map or verified geometry. A complete official map was not found in the consulted pages. Mount Kalaga is named without a substituted unrelated image when a specific asset is unavailable.
 
-A historical official first-trailer reference is available in `src/OfficialVideo.tsx`. The page does not request YouTube resources until the visitor explicitly loads the privacy-enhanced embedded player. Playback availability could not be checked live from this environment. The interaction is tested with a mocked player, not represented as an end-to-end check of YouTube.
+The first official YouTube trailer is visible without a load button, without autoplay, using the privacy-enhanced domain. External-media preferences can disable it. The policy accurately explains that player loading contacts YouTube even before playback. Tests mock player responses and do not claim live playback verification.
 
-## Deployment
+## Advertising
 
-See `docs/cloudflare-launch.md`. User authorization to launch has been given, but a production deployment requires an authenticated Cloudflare connection and working network access. Cloudflare Pages Git builds must use **`npm run build:release`**, output **`dist`**, and Node 22 or 24. The included `_headers` restricts resource origins and allows only the optional YouTube player as an external frame. `_redirects` handles `/` and the `www` host; custom domain and HTTPS verification remain required after deployment.
+See `docs/adsterra.md`. Five supplied banner formats are enabled **only after advertising acceptance**, responsive fit and viewport proximity. Scripts run in isolated sandboxed documents, avoiding shared atOptions races. Popunder is disabled and never requested. No CMS/admin exists: protected repository configuration is the current management path. No private credentials are in ad configuration.
 
-## Remaining work
+Provider script checks returned empty HTTP 403 responses from this environment. Mocks verify integration behaviour; actual fill/revenue/provider acceptance remains unverified. No AdSense or Google Analytics is connected.
 
-- Cloudflare account connection, Pages deployment, custom domains and HTTPS verification.
-- Live verification of current Rockstar announcements and image reuse terms.
-- Licensed game screenshots, when permissions are established.
-- Supabase Auth/RLS and private CMS in a **separate** Supabase project.
-- Reviewed-source daily automation; it is not running in this chat or in a worker.
-- Full map search/panning/admin and verified game data. Current map is clearly fictional, with local demo progress.
-- AdSense, analytics/consent integration, production legal/contact information and Search Console. No ad network or analytics is connected and newsletter addresses are not collected.
+## Legal and contact
+
+Privacy, cookies/preferences, terms and contact are real localized pages. The user-designated contact is `soporte@barbercontrol.org`; this does not connect databases or code to another project. The newsletter currently checks email format without storing or sending addresses. Policy text covers actual hosting, browser storage, YouTube and consent-gated Adsterra without claiming universal legal compliance.
+
+## Publication
+
+The user authorizes direct GitHub/Cloudflare publication. Repository: `luiscazorla97-creator/gta6`, production branch `main`. Cloudflare Pages project `fansgta`, command `npm run build:release`, output `dist`. Authentication is supplied through environment settings, never chat or committed files. Explicit deployment triggers have been used; do not assume webhook delivery is healthy because a source configuration exists.
+
+Pages does not support host-level `_redirects` source rules. The root uses an absolute apex redirect; deep www URLs use apex canonical metadata and a client redirect. A host-wide edge 301 would require the appropriate zone-rule access. Verify public HTTP/TLS and headers after each production change.
+
+## Still separate work
+
+Supabase Auth/RLS/private CMS, verified full game map/tools, daily reviewed-source automation, Google/Bing owner verification and any future additional networks. No purchases, paid plans or new fees have been activated by this work.
