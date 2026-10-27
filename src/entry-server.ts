@@ -4,3 +4,4 @@ export {articlePath,sectionPath,sectionKeys} from './routes';
 export {copy} from './content';
 export {categoryLabel} from './Interior';
 export {mediaPath} from './media';
+export {legalKeys,legalPath,legalTitles} from './legal';

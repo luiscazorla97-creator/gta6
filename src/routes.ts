@@ -1,3 +1,4 @@
+import { legalKeys, legalSlugs } from './legal';
 import type { Locale } from './content';
 export const sectionKeys=['news','guides','map','vehicles','missions','characters','cheats','online','community'] as const;
 export type Section = typeof sectionKeys[number];
@@ -10,6 +11,7 @@ export function sectionPath(locale:Locale,section:Section){return `/${locale}/${
 export function articlePath(locale:Locale,article:{category:Section;slug:string[]}){return `${sectionPath(locale,article.category)}${article.slug[['es','en','fr'].indexOf(locale)]}/`;}
 export function resolveRoute(path:string,locale:Locale){
  const pieces=path.split('/').filter(Boolean);if(pieces.length&&pieces[0]!==locale)return {kind:'missing' as const};if(pieces.length<=1)return {kind:'home' as const};
+ const legal=legalKeys.find(k=>legalSlugs[locale][k]===pieces[1]);if(legal&&pieces.length===2)return {kind:'legal' as const,legal};
  const section=sectionKeys.find(key=>sections[locale][key]===pieces[1]);
  if(!section)return {kind:'missing' as const};
  return pieces.length===2?{kind:'section' as const,section}:pieces.length===3?{kind:'article' as const,section,slug:pieces[2]}:{kind:'missing' as const};

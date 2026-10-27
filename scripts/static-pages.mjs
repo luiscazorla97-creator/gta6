@@ -1,7 +1,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createElement } from 'react';
 import { renderToString } from 'react-dom/server';
-import { App, articles, articlePath, sectionPath, sectionKeys, copy, categoryLabel, mediaPath } from '../.ssr/entry-server.js';
+import { App, articles, articlePath, sectionPath, sectionKeys, copy, categoryLabel, mediaPath, legalKeys, legalPath, legalTitles } from '../.ssr/entry-server.js';
 const template=await readFile('dist/index.html','utf8');
 const indexable=process.env.FANSGTA_INDEXABLE==='1';
 const origin='https://fansgta.com';
@@ -10,13 +10,13 @@ const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<
 const json=s=>JSON.stringify(s).replaceAll('<','\\u003c');
 const sitemap=[];
 let generated=0;
-async function renderPage(locale,path,{section,article,missing=false}={}) {
+async function renderPage(locale,path,{section,article,legal,missing=false}={}) {
  const li=['es','en','fr'].indexOf(locale);
  const eligible=!missing&&(!section||articles.some(a=>a.category===section));
  const canonical=origin+path;
- const title=missing?'404 — FansGTA':article?`${article.title[li]} | FansGTA`:section?`${categoryLabel(locale,section)} | GTA VI | FansGTA`:`FansGTA — ${copy[locale].hero.join(' ')}`;
- const description=article?article.excerpt[li]:section?`${categoryLabel(locale,section)} — ${descriptions[locale]}`:descriptions[locale];
- const alternate=l=>origin+(article?articlePath(l,article):section?sectionPath(l,section):`/${l}/`);
+ const title=missing?'404 — FansGTA':legal?`${legalTitles[locale][legal]} | FansGTA`:article?`${article.title[li]} | FansGTA`:section?`${categoryLabel(locale,section)} | GTA VI | FansGTA`:`FansGTA — ${copy[locale].hero.join(' ')}`;
+ const description=legal?`${legalTitles[locale][legal]} — FansGTA. soporte@barbercontrol.org`:article?article.excerpt[li]:section?`${categoryLabel(locale,section)} — ${descriptions[locale]}`:descriptions[locale];
+ const alternate=l=>origin+(legal?legalPath(l,legal):article?articlePath(l,article):section?sectionPath(l,section):`/${l}/`);
  const alternates=missing?'':['es','en','fr','x-default'].map(l=>`<link rel="alternate" hreflang="${l}" href="${alternate(l==='x-default'?'es':l)}"/>`).join('');
  const schema=[];
  if(!missing){
@@ -25,6 +25,7 @@ async function renderPage(locale,path,{section,article,missing=false}={}) {
   if(article)crumbs.push({name:article.title[li],item:canonical});
   schema.push({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});
   if(article)schema.push({'@context':'https://schema.org','@type':'BlogPosting',headline:article.title[li],description,image:origin+mediaPath(article.image),datePublished:article.published,dateModified:article.updated,inLanguage:locale,mainEntityOfPage:canonical,author:{'@type':'Organization',name:'FansGTA',url:origin},publisher:{'@type':'Organization',name:'FansGTA',url:origin},articleSection:categoryLabel(locale,section),citation:article.sources.map(s=>s.url)});
+  else if(legal)schema.push({'@context':'https://schema.org','@type':legal==='contact'?'ContactPage':'WebPage',name:legalTitles[locale][legal],url:canonical,inLanguage:locale});
   else if(!section)schema.push({'@context':'https://schema.org','@type':'WebSite',name:'FansGTA',url:origin,inLanguage:['es','en','fr']});
  }
  const meta=`<meta name="robots" content="${indexable&&eligible?'index,follow':'noindex,follow'}"/><meta property="og:type" content="${article?'article':'website'}"/><meta property="og:site_name" content="FansGTA"/><meta property="og:image" content="${origin+mediaPath(article?.image??'vice-city')}"/><meta property="og:title" content="${escape(title)}"/><meta property="og:description" content="${escape(description)}"/><meta property="og:url" content="${canonical}"/><meta property="og:locale" content="${{es:'es_ES',en:'en_US',fr:'fr_FR'}[locale]}"/><meta name="twitter:card" content="summary"/>${alternates}`+schema.map(s=>`<script type="application/ld+json">${json(s)}</script>`).join('');
@@ -38,6 +39,7 @@ async function renderPage(locale,path,{section,article,missing=false}={}) {
 }
 for(const locale of ['es','en','fr']){
  await renderPage(locale,`/${locale}/`);
+ for(const legal of legalKeys)await renderPage(locale,legalPath(locale,legal),{legal});
  for(const section of sectionKeys)await renderPage(locale,sectionPath(locale,section),{section});
  for(const article of articles)await renderPage(locale,articlePath(locale,article),{section:article.category,article});
 }
