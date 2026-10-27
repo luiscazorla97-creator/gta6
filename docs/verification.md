@@ -7,3 +7,5 @@ The release build generates 91 route documents plus the root homepage copy. Stat
 Cloudflare authentication is active. A new fansgta Pages project was created independently, connected to the gta6 GitHub repository, with npm run build:release and dist output. The fansgta.com domain association is pending: Cloudflare reports “CNAME record not set”. DNS API access for its zone was denied with authentication error 10000; Pages access does not establish DNS edit access. No BarberControl configuration was modified.
 
 Daily automated publishing, AdSense, analytics and Supabase CMS remain inactive.
+
+All 16 desktop/mobile browser tests passed after the content/media replacement. Post-optimization static checks passed. Homepages at 390 and 1440 px show zero broken images, no horizontal overflow and no page errors. The six WebP versions total 689,618 bytes. Production Cloudflare deployment of bf2f1e1 was triggered explicitly because a Git push alone did not immediately start a deployment; do not assume webhook delivery is verified.
