@@ -20,7 +20,7 @@ npm run build:release  # editorial launch build: indexable
 npm run preview -- --port 4173
 ```
 
-TypeScript, Vite browser compilation, SSR compilation and static generation run in sequence. The release currently generates 58 HTML documents: three homepages, 27 category pages, 27 article translations and one 404 page. Every public article and category can be read without JavaScript. Empty categories stay noindex and are excluded from the sitemap even in a release build.
+TypeScript, Vite browser compilation, SSR compilation and static generation run in sequence. The release currently generates 91 generated route documents: three homepages, 27 category pages, 60 article translations and one 404 page. Every public article and category can be read without JavaScript. Empty categories stay noindex and are excluded from the sitemap even in a release build.
 
 ## Tests
 
@@ -34,13 +34,13 @@ The browser suite covers static pages without JavaScript, real category and arti
 
 ## Editorial publishing
 
-`src/articles.ts` contains the nine original editorial articles and their translations. Every article has its own stable localized slug, section, summary, headings, sources and dates. `src/routes.ts` defines localized category paths. Keep slugs stable; add a 301 redirect if changing one. Adding an article to the data array makes it available in its category, search, static output and sitemap on the next build. Homepage selections are curated separately in `src/App.tsx`.
+`src/articles.ts` contains the twenty original editorial articles and their translations. Every article has its own stable localized slug, section, summary, headings, sources and dates. `src/routes.ts` defines localized category paths. Keep slugs stable; add a 301 redirect if changing one. Adding an article to the data array makes it available in its category, search, static output and sitemap on the next build. Homepage selections are curated separately in `src/App.tsx`.
 
 These are evergreen guides and analyses, not live-verified breaking news. Links identify references rather than proving a recent source check. There are no invented release dates, cheats, mission rewards, vehicle specifications or claimed traffic counts. `src/config.ts` deliberately keeps release date/platforms unset until a live official-source check succeeds.
 
 ## Images and video
 
-All local SVG images are original artwork, reproducible with `python3 scripts/art.py`. They have **not** been replaced with Rockstar screenshots: the environment cannot currently access Rockstar to check applicable reuse permissions. Do not treat fan-site status or attribution as a commercial image license. See `docs/media-rights.md`.
+Article covers and the hero now use real GTA VI imagery obtained from Rockstar’s public Media page, which invites visitors to download and share media. Images retain Rockstar credit, with source URLs recorded in public/media/credits.json. The demo map remains original and fictional. This is not a claim that Rockstar trademarks or media are public domain.
 
 A historical official first-trailer reference is available in `src/OfficialVideo.tsx`. The page does not request YouTube resources until the visitor explicitly loads the privacy-enhanced embedded player. Playback availability could not be checked live from this environment. The interaction is tested with a mocked player, not represented as an end-to-end check of YouTube.
 

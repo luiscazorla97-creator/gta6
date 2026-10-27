@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/media",
+    "credit": "GTA VI \u00a9 Rockstar Games",
+    "bytes": 475961
+  },
+  "jason": {
+    "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/media",
+    "credit": "GTA VI \u00a9 Rockstar Games",
+    "bytes": 939665
+  },
+  "lucia": {
+    "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/media",
+    "credit": "GTA VI \u00a9 Rockstar Games",
+    "bytes": 898033
+  },
+  "vice-city": {
+    "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/media",
+    "credit": "GTA VI \u00a9 Rockstar Games",
+    "bytes": 894386
+  },
+  "trailer": {
+    "url": "https://www.rockstargames.com/VI/_next/static/media/GTAVI_Launch_Trailer_poster.0_q-sdrgufc.s.jpg?imwidth=1600",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/media",
+    "credit": "GTA VI \u00a9 Rockstar Games",
+    "bytes": 1908211
+  },
+  "music": {
+    "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/media",
+    "credit": "GTA VI \u00a9 Rockstar Games",
+    "bytes": 992753
+  }
+}

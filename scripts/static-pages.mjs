@@ -1,7 +1,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createElement } from 'react';
 import { renderToString } from 'react-dom/server';
-import { App, articles, articlePath, sectionPath, sectionKeys, copy, categoryLabel } from '../.ssr/entry-server.js';
+import { App, articles, articlePath, sectionPath, sectionKeys, copy, categoryLabel, mediaPath } from '../.ssr/entry-server.js';
 const template=await readFile('dist/index.html','utf8');
 const indexable=process.env.FANSGTA_INDEXABLE==='1';
 const origin='https://fansgta.com';
@@ -24,10 +24,10 @@ async function renderPage(locale,path,{section,article,missing=false}={}) {
   if(section)crumbs.push({name:categoryLabel(locale,section),item:origin+sectionPath(locale,section)});
   if(article)crumbs.push({name:article.title[li],item:canonical});
   schema.push({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});
-  if(article)schema.push({'@context':'https://schema.org','@type':'BlogPosting',headline:article.title[li],description,datePublished:article.published,dateModified:article.updated,inLanguage:locale,mainEntityOfPage:canonical,author:{'@type':'Organization',name:'FansGTA',url:origin},publisher:{'@type':'Organization',name:'FansGTA',url:origin},articleSection:categoryLabel(locale,section),citation:article.sources.map(s=>s.url)});
+  if(article)schema.push({'@context':'https://schema.org','@type':'BlogPosting',headline:article.title[li],description,image:origin+mediaPath(article.image),datePublished:article.published,dateModified:article.updated,inLanguage:locale,mainEntityOfPage:canonical,author:{'@type':'Organization',name:'FansGTA',url:origin},publisher:{'@type':'Organization',name:'FansGTA',url:origin},articleSection:categoryLabel(locale,section),citation:article.sources.map(s=>s.url)});
   else if(!section)schema.push({'@context':'https://schema.org','@type':'WebSite',name:'FansGTA',url:origin,inLanguage:['es','en','fr']});
  }
- const meta=`<meta name="robots" content="${indexable&&eligible?'index,follow':'noindex,follow'}"/><meta property="og:type" content="${article?'article':'website'}"/><meta property="og:site_name" content="FansGTA"/><meta property="og:title" content="${escape(title)}"/><meta property="og:description" content="${escape(description)}"/><meta property="og:url" content="${canonical}"/><meta property="og:locale" content="${{es:'es_ES',en:'en_US',fr:'fr_FR'}[locale]}"/><meta name="twitter:card" content="summary"/>${alternates}`+schema.map(s=>`<script type="application/ld+json">${json(s)}</script>`).join('');
+ const meta=`<meta name="robots" content="${indexable&&eligible?'index,follow':'noindex,follow'}"/><meta property="og:type" content="${article?'article':'website'}"/><meta property="og:site_name" content="FansGTA"/><meta property="og:image" content="${origin+mediaPath(article?.image??'vice-city')}"/><meta property="og:title" content="${escape(title)}"/><meta property="og:description" content="${escape(description)}"/><meta property="og:url" content="${canonical}"/><meta property="og:locale" content="${{es:'es_ES',en:'en_US',fr:'fr_FR'}[locale]}"/><meta name="twitter:card" content="summary"/>${alternates}`+schema.map(s=>`<script type="application/ld+json">${json(s)}</script>`).join('');
  const body=renderToString(createElement(App,{initialLocale:locale,initialPath:path,initialNotFound:missing}));
  const page=template.replace('lang="es"',`lang="${locale}"`).replace(/<title>.*?<\/title>/,`<title>${escape(title)}</title>`).replace(/name="description" content="[^"]*"/,`name="description" content="${escape(description)}"`).replace('https://fansgta.com/es/',canonical).replace('</head>',meta+'</head>').replace('<div id="root"></div>',`<div id="root"${missing?' data-not-found="true"':''}>${body}</div>`);
  const target=missing?'dist/404.html':`dist${path}index.html`;
