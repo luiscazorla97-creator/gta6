@@ -10,6 +10,6 @@ Research current sources and dates. Use Google Trends/news/search when available
 
 Use authentic GTA imagery with recorded source/rights context, translated descriptive alt and captions. Preserve localized slugs, metadata, canonical, hreflang, sources near claims and relevant internal links. No general redesign or content deletion for an article batch.
 
-Advertising currently loads automatically with no site acceptance prompt, by the user's explicit 2026-10-28 instruction. Retain responsive/lazy isolated units and truthful privacy text; do not claim cookie-free ads or bypass browser/provider controls. Popunder remains disabled. See docs/adsterra.md. Real provider scripts have returned HTTP 403; passing mocks does not verify real delivery.
+Advertising currently loads automatically with no site acceptance prompt, by the user's explicit 2026-10-28 instruction. Retain responsive/lazy per-slot tags and serialized banner configuration; do not reintroduce the opaque-origin publisher iframe wrapper. Keep truthful privacy text; do not claim cookie-free ads or bypass browser/provider controls. Popunder remains disabled. See docs/adsterra.md. Real provider scripts have returned HTTP 403; passing mocks does not verify real delivery.
 
 Use npm run build:release, node scripts/verify-static.mjs and appropriate browser checks. Explicit Cloudflare deployment triggers have been required; verify public pages before claiming publication. No daily unattended publishing automation exists: batches run when the user asks.

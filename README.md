@@ -15,7 +15,7 @@ node scripts/verify-static.mjs
 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e
 ```
 
-The production pipeline type-checks, builds the browser bundle and SSR entry, generates public HTML, then generates five isolated advertising documents. There are 30 editorial articles in three languages, category pages, four legal/contact pages per language, a custom 404 and a root homepage copy. Empty categories and advertising documents stay noindex and out of the sitemap. `npm run preview -- --port 4173` runs the built site internally. Playwright starts its preview itself; on other machines use a supported Chromium installation without disabling TLS.
+The production pipeline type-checks, builds the browser bundle and SSR entry, and generates public HTML. Advertising tags load directly into page containers at runtime, without an extra FansGTA iframe. There are 30 editorial articles in three languages, category pages, four legal/contact pages per language, a custom 404 and a root homepage copy. Empty categories stay noindex and out of the sitemap. `npm run preview -- --port 4173` runs the built site internally. Playwright starts its preview itself; on other machines use a supported Chromium installation without disabling TLS.
 
 ## Content and SEO
 
@@ -33,9 +33,9 @@ The first official YouTube trailer is visible without a load button, without aut
 
 ## Advertising
 
-See `docs/adsterra.md`. Five supplied banner formats load **automatically**, subject to responsive fit and viewport proximity. The owner requested removal of the site’s acceptance prompt on 2026-10-28. Provider/browser controls remain in effect. Scripts run in isolated sandboxed documents, avoiding shared atOptions races. Popunder is disabled and never requested. No CMS/admin exists: protected repository configuration is the current management path. No private credentials are in ad configuration.
+See `docs/adsterra.md`. Five supplied banner formats load **automatically**, subject to responsive fit and viewport proximity. The owner requested removal of the site’s acceptance prompt on 2026-10-28. Provider/browser controls remain in effect. Tags execute directly in dedicated page containers, following Adsterra's documented body placement. `postscribe` serializes synchronous banner streams and their `atOptions`, supporting provider `document.write` after React renders; the native container exists before its asynchronous tag loads. All tags exclude Rocket Loader. The main-page CSP permits HTTPS creative resources without `unsafe-eval`. Popunder is disabled and never requested. No CMS/admin exists: protected repository configuration is the current management path. No private credentials are in ad configuration.
 
-Provider script checks returned empty HTTP 403 responses from this environment. Mocks verify integration behaviour; actual fill/revenue/provider acceptance remains unverified. No AdSense or Google Analytics is connected.
+The former extra iframe used an opaque sandbox origin, restricting storage and JavaScript APIs that mocks did not exercise; it has been removed. Earlier empty HTTP 403 responses from this environment did not establish a provider-side cause. Mocks verify integration behaviour, while actual creative delivery, fill, revenue and provider acceptance remain unverified. See the official [installation guide](https://help-publishers.adsterra.com/en/articles/5210780-adding-ads-to-a-static-html-site), [iframe placement terms](https://adsterra.com/publishers-terms-managed/) and [Cloudflare guidance](https://help-publishers.adsterra.com/en/articles/5213852-using-adsterra-ads-with-cloudflare). No AdSense or Google Analytics is connected.
 
 ## Legal and contact
 

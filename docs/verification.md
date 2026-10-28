@@ -8,6 +8,16 @@ Cloudflare authentication is active. A new fansgta Pages project was created ind
 
 Daily automated publishing, AdSense, analytics and Supabase CMS remain inactive.
 
+## Direct advertising integration diagnosis — 2026-10-28
+
+The previous publisher iframe added an opaque sandbox origin around each Adsterra tag. A browser regression reproduces `SecurityError` for localStorage access under that sandbox; the direct replacement supports the same storage/origin probe. Adsterra documents tags in the publisher page body, and its terms require permission for an additional publisher iframe. Existing tests had not exercised origin/storage access or provider `document.write` behavior. Earlier empty 403 responses did not establish who caused the visitor-facing failure.
+
+Tags now load directly in stable per-unit containers. Postscribe serializes synchronous banner streams and nested `document.write` calls, with configuration scoped to each stream; the native target exists before its asynchronous bootstrap. Responsive fit and proximity loading remain. The public-page CSP permits HTTPS advertising script/frame resources while retaining frame-ancestor, base-URI and form protections. No provider URLs or keys were substituted, and popunder remains disabled.
+
+The release build and static verifier passed (134 HTML documents, 4,653 internal links, 239 structured-data blocks). All 34 initial desktop/mobile tests passed, including production CSP enforcement in the advertising tests, nested scripts, configuration isolation, storage access, failed-bootstrap recovery and the old sandbox reproduction. Four additional desktop/mobile checks passed for runtime exceptions after HTTP 200 and preservation of the creative DOM across viewport changes (38 checks total). These fixtures verify integration behavior, not actual live creative delivery.
+
+Public HTTPS checks use normal certificate validation. Public Chromium diagnosis was limited by the environment proxy certificate; automatic approval review rejected adding that certificate to the persistent browser trust store. No certificate validation was disabled and no trust-store change was made. Provider URLs still returned empty HTTP 403 responses from this environment; real visitor fill remains unverified.
+
 All 16 desktop/mobile browser tests passed after the content/media replacement. Post-optimization static checks passed. Homepages at 390 and 1440 px show zero broken images, no horizontal overflow and no page errors. The six WebP versions total 689,618 bytes. Production Cloudflare deployment of bf2f1e1 was triggered explicitly because a Git push alone did not immediately start a deployment; do not assume webhook delivery is verified.
 
 ## Editorial and Adsterra update
