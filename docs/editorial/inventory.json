@@ -1,5 +1,155 @@
 [
   {
+    "id": "collector-box-no-game-2026-10-28",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "Collector’s Box de GTA 6: qué incluye y por qué el juego se vende aparte",
+      "GTA 6 Collector’s Box: what is included and why the game is separate",
+      "Coffret collector GTA 6 : contenu et jeu vendu séparément"
+    ],
+    "paths": [
+      "/es/guias/gta-6-collectors-box-incluye-juego/",
+      "/en/guides/gta-6-collectors-box-does-it-include-game/",
+      "/fr/guides/gta-6-coffret-collector-jeu-inclus/"
+    ]
+  },
+  {
+    "id": "reported-210gb-size-2026-10-28",
+    "category": "news",
+    "published": "2026-10-28",
+    "titles": [
+      "Rumor: la descarga de GTA 6 en PS5 podría rondar los 210 GB",
+      "Rumour: GTA 6 could be a 210 GB PS5 download — what remains unconfirmed",
+      "Rumeur : GTA 6 pèserait 210 Go sur PS5, ce qui reste à confirmer"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
+      "/en/news/rumour-gta-6-210gb-ps5-download-size/",
+      "/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/"
+    ]
+  },
+  {
+    "id": "gta6-preload-schedule-20261028",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "Precarga de GTA 6: fecha, hora y preparación en PS5 y Xbox",
+      "GTA 6 preload: date, time and preparation on PS5 and Xbox",
+      "Préchargement de GTA 6 : date, heure et préparation sur PS5 et Xbox"
+    ],
+    "paths": [
+      "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "/en/guides/gta-6-preload-date-time-consoles/",
+      "/fr/guides/prechargement-gta-6-date-heure-consoles/"
+    ]
+  },
+  {
+    "id": "gta6-physical-code-box-20261028",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "¿GTA 6 físico trae disco? Qué incluye la caja con código",
+      "Does physical GTA 6 include a disc? The boxed code explained",
+      "GTA 6 en boîte contient-il un disque ? Comprendre le code de téléchargement"
+    ],
+    "paths": [
+      "/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+      "/en/guides/gta-6-physical-edition-no-disc-code/",
+      "/fr/guides/gta-6-edition-physique-sans-disque-code/"
+    ]
+  },
+  {
+    "id": "gta6-code-region-20261028",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "Códigos de GTA 6: cómo comprobar la región en PS5 y Xbox",
+      "GTA 6 download codes: checking PS5 and Xbox account regions",
+      "Codes GTA 6 : vérifier la région du compte PS5 ou Xbox"
+    ],
+    "paths": [
+      "/es/guias/gta-6-codigos-region-cuenta-ps5-xbox/",
+      "/en/guides/gta-6-code-regions-ps5-xbox-account/",
+      "/fr/guides/gta-6-codes-region-compte-ps5-xbox/"
+    ]
+  },
+  {
+    "id": "gta6-upgrade-ultimate-20261028",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "Cómo pasar GTA 6 de Standard a Ultimate sin comprarlo dos veces",
+      "How to upgrade GTA 6 Standard to Ultimate without buying the game twice",
+      "Passer GTA 6 Standard à Ultimate sans acheter le jeu deux fois"
+    ],
+    "paths": [
+      "/es/guias/gta-6-mejorar-standard-ultimate-edition/",
+      "/en/guides/gta-6-upgrade-standard-ultimate-edition/",
+      "/fr/guides/gta-6-passer-standard-ultimate-edition/"
+    ]
+  },
+  {
+    "id": "gta-6-gta-plus-redemption-2026-10-28",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "Cómo canjear el mes de GTA+ de tu reserva de GTA 6",
+      "How to claim the GTA+ month from your GTA 6 preorder",
+      "Comment activer le mois de GTA+ offert avec GTA 6"
+    ],
+    "paths": [
+      "/es/guias/canjear-mes-gta-plus-reserva-gta-6/",
+      "/en/guides/claim-gta-plus-month-gta-6-preorder/",
+      "/fr/guides/activer-mois-gta-plus-precommande-gta-6/"
+    ]
+  },
+  {
+    "id": "gta-6-offline-ps5-2026-10-28",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "¿Se puede jugar GTA 6 sin internet en PS5? Lo que confirma Sony",
+      "Can you play GTA 6 offline on PS5? What Sony confirms",
+      "Peut-on jouer à GTA 6 hors ligne sur PS5 ? La réponse de Sony"
+    ],
+    "paths": [
+      "/es/guias/gta-6-jugar-sin-internet-ps5/",
+      "/en/guides/gta-6-offline-play-ps5/",
+      "/fr/guides/gta-6-jouer-hors-ligne-ps5/"
+    ]
+  },
+  {
+    "id": "gta-6-esrb-parental-controls-2026-10-28",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "GTA 6: clasificación ESRB y cómo preparar el control parental",
+      "GTA 6 age rating: ESRB information and parental controls",
+      "GTA 6 : classification ESRB et réglages du contrôle parental"
+    ],
+    "paths": [
+      "/es/guias/gta-6-clasificacion-edad-control-parental/",
+      "/en/guides/gta-6-age-rating-parental-controls/",
+      "/fr/guides/gta-6-classification-age-controle-parental/"
+    ]
+  },
+  {
+    "id": "gta6-vs-gta5-confirmed-comparison-2026-10-28",
+    "category": "guides",
+    "published": "2026-10-28",
+    "titles": [
+      "GTA 6 vs GTA 5: qué cambia en el mundo, la historia y la comparación gráfica",
+      "GTA 6 vs GTA 5: what changes in the world, story and graphics comparison",
+      "GTA 6 vs GTA 5 : ce qui change dans le monde, le récit et la comparaison graphique"
+    ],
+    "paths": [
+      "/es/guias/gta-6-vs-gta-5-diferencias-confirmadas/",
+      "/en/guides/gta-6-vs-gta-5-confirmed-differences/",
+      "/fr/guides/gta-6-vs-gta-5-differences-confirmees/"
+    ]
+  },
+  {
     "id": "ps5-features-2026-10-28",
     "category": "news",
     "published": "2026-10-28",
