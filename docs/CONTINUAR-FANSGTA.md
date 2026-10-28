@@ -36,3 +36,7 @@ El enlace https://fansgta.com/es/?ads-debug=1 activa un informe opcional al fina
 ## Historial de Codex
 
 Si se conserva el chat, abrirlo desde el historial permite seguir la misma conversación. Puede renombrarse y fijarse desde sus opciones para encontrarlo mejor. No se ha comprobado la causa del problema de historial informado por el usuario; tampoco se confirmó que la operación remota de renombrar/fijar se completara, porque la conexión con el historial se cerró. El repositorio permite continuar el proyecto aunque ese chat no esté disponible.
+
+## Publicación programada
+
+El 28 de octubre de 2026 se activó mediante Codex la tarea “Noticias diarias de FansGTA”, de frecuencia diaria con horario flexible y zona America/New_York. Su objetivo son dos noticias nuevas en español, inglés y francés (seis versiones), comprobadas y publicadas en GitHub/Cloudflare con las mismas reglas editoriales. La tarea incluye fuentes, imágenes, deduplicación, pruebas y verificación de URLs; si falta material fiable o acceso debe informarlo sin fingir una publicación. No duplica temas ni modifica anuncios. La programación se gestiona con las herramientas de automatizaciones de Codex, no editando este documento. Una programación habilitada no acredita por sí sola una ejecución completada; consultar su resultado al revisar publicaciones futuras.
