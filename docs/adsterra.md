@@ -34,6 +34,14 @@ Unit 31958936 is **disabled** and is never mounted or requested. `enabled`, `fre
 
 ## Verification limits
 
+### Error attribution and optional mobile report
+
+Postscribe temporarily forwards every global `window.onerror` to the active stream. FansGTA now treats a runtime error as that slot's failure only when the currently executing script belongs to its container or the reported source matches a script admitted to that stream. A definite failure to download the unit's bootstrap remains an error. An unscoped page exception or secondary resource failure is recorded as a warning rather than declaring the whole advertisement unavailable. No CORS attribute or browser privacy bypass was added.
+
+`?ads-debug=1` enables a client-only report at the end of the page. It identifies public unit IDs, load/runtime/resource/CSP events and the bootstrap source, with URL query/fragment information omitted. It does not send telemetry or claim that a loaded script represents a real impression. Without this query, the panel is absent and histories are not collected.
+
+The mobile top banner and the desktop leaderboard are different units, so Windows success alone does not identify the cause of an iPhone failure. Current tests compare the same responsive layout on Chromium and WebKit. WebKit's local HTTP preview excludes the HTTPS-upgrade directive because it upgrades loopback assets to HTTPS; the live site's policy retains that directive.
+
 Earlier direct checks of the supplied banner and native script endpoints returned HTTP 403 with empty JavaScript bodies from this environment, including a browser-style user agent and site referrer. Those requests did not reproduce the complete visitor browsing context and do not prove that Adsterra is responsible for the blank slots. A successful script response also does not guarantee a creative or a paid impression.
 
 Automated tests use mocked provider responses to check loading, script order, responsive widths, duplicates, failure reporting and layout. They do **not** demonstrate real creative delivery, fill rate, revenue or provider approval. Real delivery must be checked in a normal visitor session and the publisher dashboard. No alternate provider domain, unit key or fake creative is used to conceal a failure.

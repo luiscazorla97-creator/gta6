@@ -1,5 +1,7 @@
 # FansGTA · fansgta.com
 
+For resuming in a new chat, see [the continuation guide](docs/CONTINUAR-FANSGTA.md).
+
 Independent GTA editorial portal in Spanish, English and French. Isolated checkout: `/workspace/gta6`. Never modify BarberControl or reuse its backend.
 
 ## Run and verify

@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Locale } from '../content';
+import AdDebug from './AdDebug';
 // Banners now initialise automatically. No acceptance prompt or consent record
 // is created by this site. Provider/browser restrictions are not overridden.
-export function AdManager({children}:{locale:Locale;children:ReactNode}){return <>{children}</>;}
+export function AdManager({children}:{locale:Locale;children:ReactNode}){return <>{children}<AdDebug/></>;}
 export function AdInformation({locale}:{locale:Locale}){return <section className="media-preferences ad-information"><h2>{locale==='es'?'Publicidad de Adsterra':locale==='en'?'Adsterra advertising':'Publicité Adsterra'}</h2><p>{locale==='es'?'Los banners se cargan automáticamente cuando el espacio está habilitado, cabe en pantalla y se aproxima a la zona visible. FansGTA no muestra un aviso propio de aceptación publicitaria. La entrega depende de Adsterra y de los controles del navegador. El popunder sigue desactivado.':locale==='en'?'Banners load automatically when enabled, sized to fit and near the viewport. FansGTA does not show its own advertising acceptance prompt. Delivery depends on Adsterra and browser controls. Popunder remains disabled.':'Les bannières se chargent automatiquement lorsque leur emplacement est actif, adapté et proche de la zone visible. FansGTA n’affiche pas de demande d’acceptation publicitaire propre. La diffusion dépend d’Adsterra et du navigateur. Le popunder reste désactivé.'}</p></section>;}

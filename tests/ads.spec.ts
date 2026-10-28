@@ -40,7 +40,7 @@ async function rendered(page:Page,name:AdUnitName){
  return slot;
 }
 
-test.beforeEach(async({page})=>{
+test.beforeEach(async({page,browserName})=>{
  requests.set(page,[]);
  page.on('request',request=>requests.get(page)!.push(request.url()));
  // Vite preview does not apply Pages' _headers. Enforce the production CSP here
@@ -48,7 +48,10 @@ test.beforeEach(async({page})=>{
  await page.route('http://127.0.0.1:4173/**',async route=>{
   if(route.request().resourceType()!=='document')return route.continue();
   const response=await route.fetch();
-  await route.fulfill({response,headers:{...response.headers(),'content-security-policy':policy!}});
+  // WebKit upgrades even loopback assets, but this preview server uses HTTP.
+  // Keep all resource restrictions; production retains the HTTPS upgrade too.
+  const previewPolicy=browserName==='webkit'?policy!.replace(/;?\s*upgrade-insecure-requests\b/,''):policy!;
+  await route.fulfill({response,headers:{...response.headers(),'content-security-policy':previewPolicy}});
  });
  await page.route('https://www.youtube-nocookie.com/**',route=>route.fulfill({status:200,contentType:'text/html',body:'<html><body>Player fixture</body></html>'}));
  await page.route('https://bauval.org/**',provider);
@@ -140,6 +143,52 @@ test('a runtime exception after HTTP 200 reports failure and releases the next u
  await expect.poll(()=>page.evaluate(()=>document.write===(window as unknown as {fixtureOriginalWrite:typeof document.write}).fixtureOriginalWrite)).toBe(true);
  await expect.poll(()=>page.evaluate(()=>Object.prototype.hasOwnProperty.call(window,'atOptions'))).toBe(false);
  await expect(page.getByRole('heading',{level:1})).toBeVisible();
+});
+
+test('an unrelated page exception during a pending bootstrap does not mark the ad failed',async({page},info)=>{
+ const first=info.project.name==='desktop'?'leaderboard':'mobile';
+ let release:()=>void=()=>{};
+ const gate=new Promise<void>(resolve=>{release=resolve;});
+ const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
+ await page.route(`https://bauval.org/22/${adUnits[first].key}`,async route=>{await gate;await provider(route);});
+ try{
+  await page.goto(article);
+  const slot=page.locator(`.ad-slot-${first}`);await slot.scrollIntoViewIfNeeded();
+  await expect(slot.locator('.ad-provider')).toHaveAttribute('data-ad-state','loading');
+  await page.evaluate(()=>{window.setTimeout(()=>{throw new Error('Unrelated application timer failure');},0);});
+  await expect.poll(()=>errors.some(message=>message.includes('Unrelated application timer failure'))).toBe(true);
+  await expect(slot.locator('[role=status]')).toHaveCount(0);
+  release();
+  await rendered(page,first);
+  await expect(slot.locator('.ad-provider')).toHaveAttribute('data-ad-state','loaded');
+  await expect(slot.locator('[role=status]')).toHaveCount(0);
+ }finally{release();}
+});
+
+test('a secondary script failure does not declare an inserted creative unavailable',async({page},info)=>{
+ const first=info.project.name==='desktop'?'leaderboard':'mobile';
+ await page.route(`${fixtureOrigin}/nested/${first}.js`,route=>route.fulfill({status:403,contentType:'application/javascript',body:''}));
+ await page.goto(article);
+ const slot=page.locator(`.ad-slot-${first}`);await slot.scrollIntoViewIfNeeded();
+ await expect(slot.locator('iframe[data-fixture-unit]')).toHaveCount(1);
+ await expect(slot.locator('.ad-provider')).toHaveAttribute('data-ad-state','loaded');
+ await expect(slot.locator('[role=status]')).toHaveCount(0);
+ await rendered(page,'rectangle');
+});
+
+test('opt-in diagnostics identify a bootstrap download failure and stay hidden by default',async({page},info)=>{
+ const first=info.project.name==='desktop'?'leaderboard':'mobile';
+ const url=`https://bauval.org/22/${adUnits[first].key}`;
+ await page.route(url,route=>route.fulfill({status:403,contentType:'application/javascript',body:''}));
+ await page.goto(article);
+ await expect(page.getByRole('complementary',{name:'Diagnóstico de publicidad'})).toHaveCount(0);
+ await page.goto(article+'?ads-debug=1');
+ const slot=page.locator(`.ad-slot-${first}`);await slot.scrollIntoViewIfNeeded();
+ await expect(slot.locator('[role=status]')).toBeVisible();
+ const report=page.getByLabel('Informe para seleccionar y copiar');
+ await expect(report).toHaveValue(new RegExp(`${first}.*${adUnits[first].id}.*Error al cargar el script`));
+ await expect(report).toHaveValue(new RegExp(url.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
 
 test('resizing away and back preserves the rendered provider subtree without reloading it',async({page},info)=>{
