@@ -1,6 +1,6 @@
 # Adsterra integration
 
-Five banner formats are configured and enabled in `src/ads/config.ts`; no public admin/CMS exists. Units load only after affirmative advertising consent, matching viewport/container width and proximity to the viewport.
+Five banner formats are configured and enabled in `src/ads/config.ts`; no public admin/CMS exists. At the owner’s request on 2026-10-28, enabled banners load automatically, matching viewport/container width and proximity. The site no longer presents its own acceptance prompt. Provider and browser controls are not bypassed.
 
 | Unit | Placement | Width gate |
 | --- | --- | --- |
@@ -20,11 +20,11 @@ Frames are sandboxed without same-origin or top-navigation permissions. Legitima
 
 Public content retains a restrictive CSP. Only the isolated ad documents permit the HTTPS scripts, frames and resources needed by dynamically served creatives. They are noindex/nofollow, are absent from the sitemap, and retain provider snippets supplied by the user.
 
-## Consent and privacy
+## Automatic loading and privacy
 
-No ad document or provider script is requested before an affirmative advertising choice. Rejection preserves reading. Consent is versioned and expires after 90 days; change it through Cookies in the footer. Withdrawal prevents new requests and removes current page frames but cannot undo previously received third-party data. Preferences use browser localStorage; inaccessible storage falls back to the current visit only.
+Enabled units load without an acceptance step on this site. The old fansgta:ad-consent preference is no longer read and no new advertising-choice record is created. Legacy records may remain until visitors clear browser data. The cookie page now explains automatic loading and has no nonfunctional accept/reject controls. It does not claim that these provider units are cookie-free, non-personalised or universally compliant. Provider-side notices and browser restrictions are not bypassed.
 
-YouTube has a separate external-media preference. Privacy and cookie pages retain their existing text and add Adsterra purposes, provider links, supplied distribution domain and withdrawal details. No universal legal compliance is claimed.
+YouTube retains its independent external-media preference. The popunder remains disabled. Public unit management continues through protected project configuration.
 
 ## Popunder
 
@@ -32,4 +32,4 @@ Unit 31958936 is **disabled**. Its code is not emitted into any ad document, and
 
 ## Provider limitation
 
-Direct checks of the supplied banner and native script endpoints returned HTTP 403 with empty JavaScript bodies from this environment, including a normal browser-style user-agent and site referrer. The Adsterra privacy URL was reachable and redirected to `/privacy-policy-managed/`. Automated tests mock creatives to validate loading, consent, responsive sizing, namespace isolation, duplicates and layout. They do **not** demonstrate real ad delivery, revenue or provider approval. Real delivery must be checked in a normal visitor session and the publisher dashboard; no alternate code or domain has been invented to hide this limitation.
+Direct checks of the supplied banner and native script endpoints returned HTTP 403 with empty JavaScript bodies from this environment, including a normal browser-style user-agent and site referrer. The Adsterra privacy URL was reachable and redirected to `/privacy-policy-managed/`. Automated tests mock creatives to validate automatic loading, responsive sizing, namespace isolation, duplicates and layout. They do **not** demonstrate real ad delivery, revenue or provider approval. Real delivery must be checked in a normal visitor session and the publisher dashboard; no alternate code or domain has been invented to hide this limitation.

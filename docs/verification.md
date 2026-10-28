@@ -21,3 +21,7 @@ All 16 desktop/mobile browser tests passed after the content/media replacement. 
 - Cloudflare documentation confirms host-level `_redirects` sources are unsupported. Root redirect changed to an absolute apex destination; deep www pages also redirect client-side and carry apex canonical metadata. No false host-level rule remains.
 
 Public checks after deployment: apex homepage, character biography, cookie page and sitemap returned 200 over verified HTTPS; www root returned 301 to the apex Spanish homepage; a missing route returned 404. All five isolated ad documents returned 200 after Cloudflare’s normal .html pretty-URL redirect, with noindex headers and the separate advertising CSP. Live headless Chromium was blocked by the environment certificate trust chain (ERR_CERT_AUTHORITY_INVALID); TLS verification was not disabled. Local Chromium visual tests passed and Python HTTPS requests verified the public endpoints. Provider creative delivery remains unverified.
+
+## Automatic banner loading — 2026-10-28
+
+The owner explicitly requested removing the site advertising acceptance prompt. Banners now initialise automatically, preserving responsive sizing, lazy loading, sandboxing and the disabled popunder. Privacy/cookie text was updated in all three languages and no longer promises acceptance/rejection controls. Former local advertising-choice records are not consulted. Provider or browser restrictions are not bypassed, and actual fill remains dependent on Adsterra.

@@ -33,13 +33,13 @@ The first official YouTube trailer is visible without a load button, without aut
 
 ## Advertising
 
-See `docs/adsterra.md`. Five supplied banner formats are enabled **only after advertising acceptance**, responsive fit and viewport proximity. Scripts run in isolated sandboxed documents, avoiding shared atOptions races. Popunder is disabled and never requested. No CMS/admin exists: protected repository configuration is the current management path. No private credentials are in ad configuration.
+See `docs/adsterra.md`. Five supplied banner formats load **automatically**, subject to responsive fit and viewport proximity. The owner requested removal of the site’s acceptance prompt on 2026-10-28. Provider/browser controls remain in effect. Scripts run in isolated sandboxed documents, avoiding shared atOptions races. Popunder is disabled and never requested. No CMS/admin exists: protected repository configuration is the current management path. No private credentials are in ad configuration.
 
 Provider script checks returned empty HTTP 403 responses from this environment. Mocks verify integration behaviour; actual fill/revenue/provider acceptance remains unverified. No AdSense or Google Analytics is connected.
 
 ## Legal and contact
 
-Privacy, cookies/preferences, terms and contact are real localized pages. The user-designated contact is `soporte@barbercontrol.org`; this does not connect databases or code to another project. The newsletter currently checks email format without storing or sending addresses. Policy text covers actual hosting, browser storage, YouTube and consent-gated Adsterra without claiming universal legal compliance.
+Privacy, cookies/preferences, terms and contact are real localized pages. The user-designated contact is `soporte@barbercontrol.org`; this does not connect databases or code to another project. The newsletter currently checks email format without storing or sending addresses. Policy text covers actual hosting, browser storage, YouTube and automatically loaded Adsterra without claiming universal legal compliance.
 
 ## Publication
 

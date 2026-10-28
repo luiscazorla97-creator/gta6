@@ -9,5 +9,3 @@ export const adUnits = {
 } as const;
 export type AdUnitName=keyof typeof adUnits;
 export const popunder = {id:'31958936',src:'https://abscloud.org/1/411b396510ae8d6a491f3f094ff61658',enabled:false,frequencyVerifiedByProvider:false};
-export const adConsentVersion=1;
-export const adConsentDays=90;
