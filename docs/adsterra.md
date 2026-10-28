@@ -16,6 +16,8 @@ At 320 px viewport width, fixed units that do not fit the content column are ski
 
 Each unit is emitted as a dedicated `/ads/<unit>.html` document at build time. Browser-native parser ordering puts `atOptions` before its synchronous provider script. Each frame has its own global namespace, so concurrently loaded units cannot overwrite one another. React does not execute raw scripts using dangerouslySetInnerHTML. App strict-mode effects do not initialise the provider twice; a frame is created only once per mounted unit.
 
+All scripts in these documents, including `atOptions` and native height reporting, use `data-cfasync="false"` before `type="text/javascript"` to exclude them from Cloudflare Rocket Loader. Banner provider scripts remain synchronous and the native provider retains `async`. This preserves configuration order; it does not repair a provider endpoint that returns 404 or 403.
+
 Frames are sandboxed without same-origin or top-navigation permissions. Legitimate ad links can open separate tabs; no application code opens windows or intercepts navigation. Native content may report its height; the parent verifies the exact frame source and bounds the size. A provider incompatible with these restrictions may require support review; this integration does not claim unsupported compatibility.
 
 Public content retains a restrictive CSP. Only the isolated ad documents permit the HTTPS scripts, frames and resources needed by dynamically served creatives. They are noindex/nofollow, are absent from the sitemap, and retain provider snippets supplied by the user.
