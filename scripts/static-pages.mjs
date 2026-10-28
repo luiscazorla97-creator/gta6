@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createElement } from 'react';
 import { renderToString } from 'react-dom/server';
 import { App, articles, articlePath, sectionPath, sectionKeys, copy, categoryLabel, mediaPath, legalKeys, legalPath, legalTitles } from '../.ssr/entry-server.js';
+const seenIds=new Set();const seenPaths=new Set();for(const a of articles){if(seenIds.has(a.id))throw Error(`Duplicate article id: ${a.id}`);seenIds.add(a.id);for(const locale of ['es','en','fr']){const path=articlePath(locale,a);if(seenPaths.has(path))throw Error(`Duplicate article route: ${path}`);seenPaths.add(path);}}
 const template=await readFile('dist/index.html','utf8');
 const indexable=process.env.FANSGTA_INDEXABLE==='1';
 const origin='https://fansgta.com';
