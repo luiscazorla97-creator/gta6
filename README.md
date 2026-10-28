@@ -17,7 +17,7 @@ node scripts/verify-static.mjs
 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e
 ```
 
-The production pipeline type-checks, builds the browser bundle and SSR entry, and generates public HTML. Advertising tags load directly into page containers at runtime, without an extra FansGTA iframe. There are 40 editorial articles in three languages, category pages, four legal/contact pages per language, a custom 404 and a root homepage copy. Empty categories stay noindex and out of the sitemap. `npm run preview -- --port 4173` runs the built site internally. Playwright starts its preview itself; on other machines use a supported Chromium installation without disabling TLS.
+The production pipeline type-checks, builds the browser bundle and SSR entry, and generates public HTML. Advertising tags load directly into page containers at runtime, without an extra FansGTA iframe. There are 41 editorial articles in three languages, category pages, four legal/contact pages per language, a custom 404 and a root homepage copy. Empty categories stay noindex and out of the sitemap. `npm run preview -- --port 4173` runs the built site internally. Playwright starts its preview itself; on other machines use a supported Chromium installation without disabling TLS.
 
 ## Content and SEO
 
@@ -51,10 +51,10 @@ Pages does not support host-level `_redirects` source rules. The root uses an ab
 
 ## Still separate work
 
-Supabase Auth/RLS/private CMS, verified full game map/tools, daily reviewed-source automation, Google/Bing owner verification and any future additional networks. No purchases, paid plans or new fees have been activated by this work.
+Supabase Auth/RLS/private CMS, verified full game map/tools, Google/Bing owner verification and any future additional networks. No purchases, paid plans or new fees have been activated by this work.
 
 ## Requested editorial batches
 
-Follow AGENTS.md and docs/editorial/user-brief.md for each new requested batch. Review docs/editorial/inventory.json before choosing topics and update it after publication. The 2026-10-28 batch adds one verified PS5 feature report and one legal purchase/preload tutorial in three languages. Source research, interest signals, limitations and prices are recorded in docs/editorial/2026-10-28-research.md. The original batch did not enable an unattended schedule; a later user request enabled the daily “Noticias diarias de FansGTA” Codex automation for two new trilingual news topics. See docs/CONTINUAR-FANSGTA.md for its verified scope and limits.
+Follow AGENTS.md and docs/editorial/user-brief.md for each new requested batch. Review docs/editorial/inventory.json before choosing topics and update it after publication. The 2026-10-28 batch adds one verified PS5 feature report and one legal purchase/preload tutorial in three languages. Source research, interest signals, limitations and prices are recorded in docs/editorial/2026-10-28-research.md. The original batch did not enable an unattended schedule; a later user request enabled the daily “Noticias diarias de FansGTA” Codex automation, subsequently set to one new topic in three languages per day through November 19, 2026 inclusive. See docs/CONTINUAR-FANSGTA.md for its verified scope and limits.
 
 The later ten-topic request on 2026-10-28 adds thirty full localized editions through `src/batches/2026-10-28-ten.ts`, retaining the prior thirty topics. Selection, autocomplete evidence, sources and media checks are recorded in `docs/editorial/2026-10-28-ten-selection.md` and its companion research files. The aggregate includes a clearly labelled third-party size report, not an official final installation requirement.

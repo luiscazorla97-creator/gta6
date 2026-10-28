@@ -25,7 +25,7 @@ Para una nueva tanda editorial, se puede agregar:
 - `public/media/credits.json`: procedencia de imágenes oficiales.
 - `docs/adsterra.md`: integración publicitaria, pruebas y limitaciones.
 
-Al 28 de octubre de 2026 hay 40 temas, con 120 versiones localizadas. La última tanda añade 10 temas y 30 versiones. Mantener el inventario actualizado después de nuevos lotes.
+Al 28 de octubre de 2026 hay 41 temas, con 123 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
 
 ## Publicidad y diagnóstico móvil
 
@@ -39,4 +39,4 @@ Si se conserva el chat, abrirlo desde el historial permite seguir la misma conve
 
 ## Publicación programada
 
-El 28 de octubre de 2026 se activó mediante Codex la tarea “Noticias diarias de FansGTA”, de frecuencia diaria con horario flexible y zona America/New_York. Su objetivo son dos noticias nuevas en español, inglés y francés (seis versiones), comprobadas y publicadas en GitHub/Cloudflare con las mismas reglas editoriales. La tarea incluye fuentes, imágenes, deduplicación, pruebas y verificación de URLs; si falta material fiable o acceso debe informarlo sin fingir una publicación. No duplica temas ni modifica anuncios. La programación se gestiona con las herramientas de automatizaciones de Codex, no editando este documento. Una programación habilitada no acredita por sí sola una ejecución completada; consultar su resultado al revisar publicaciones futuras.
+El 28 de octubre de 2026 se activó mediante Codex la tarea “Noticias diarias de FansGTA”, de frecuencia diaria con horario flexible y zona America/New_York. El usuario ajustó el encargo a un tema por día, con una versión completa en español, inglés y francés (tres versiones), hasta el 19 de noviembre de 2026 inclusive. Las publicaciones se comprueban y guardan en GitHub/Cloudflare con las mismas reglas editoriales. La tarea incluye fuentes, imágenes, deduplicación, pruebas y verificación de URLs; si falta material fiable o acceso debe informarlo sin fingir una publicación. No duplica temas ni modifica anuncios. La programación se gestiona con las herramientas de automatizaciones de Codex, no editando este documento. Una programación habilitada no acredita por sí sola una ejecución completada; consultar su resultado al revisar publicaciones futuras.
