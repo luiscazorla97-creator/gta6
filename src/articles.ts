@@ -1,3 +1,4 @@
+import { deepArticles20261029 } from './batches/2026-10-29-deep';
 import { justice20261029 } from './batches/2026-10-29-justice';
 import { rumours20261029 } from './batches/2026-10-29-rumours';
 import { batch20261028 } from './batches/2026-10-28';
@@ -52,4 +53,4 @@ const evergreenArticles:Article[]=[
  {heading:['Una ficha debe indicar de dónde sale cada dato','A profile should show where each detail comes from','Une fiche doit préciser la source de chaque information'],paragraphs:[['En FansGTA preferimos una ficha breve con una referencia clara a una larga lista de detalles inventados. Este artículo es una guía de lectura del material promocional, no una lista de biografías confirmadas. Las fuentes originales enlazadas permiten diferenciar el material publicado por el estudio de nuestros comentarios.','FansGTA favours a short profile with clear references over a long list of invented details. This article is a guide to reading promotional material, not a list of confirmed biographies. The original sources linked below distinguish studio-published material from our commentary.','FansGTA privilégie une fiche courte et sourcée à une longue liste de détails inventés. Cet article explique comment lire le matériel promotionnel ; il ne constitue pas une liste de biographies confirmées. Les sources originales ci-dessous distinguent le matériel du studio de nos commentaires.']]}],sources:[official,trailer]})
 ];
 
-export const articles:Article[]=[...justice20261029,...rumours20261029,...cloudTestArticles20261028,...tenArticles20261028,...batch20261028,...newsArticles,...characterArticles,...theoryArticles,...evergreenArticles].map(a=>({...a,sections:[...a.sections,...(expansions[a.id]??[])]}));
+export const articles:Article[]=[...deepArticles20261029,...justice20261029,...rumours20261029,...cloudTestArticles20261028,...tenArticles20261028,...batch20261028,...newsArticles,...characterArticles,...theoryArticles,...evergreenArticles].map(a=>({...a,sections:[...a.sections,...(expansions[a.id]??[])]}));

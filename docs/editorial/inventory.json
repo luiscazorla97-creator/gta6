@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-npc-behaviour-deep-20261029",
+    "category": "guides",
+    "published": "2026-10-29",
+    "titles": [
+      "NPC de GTA 6: cómo cambia su IA y qué revela Edge",
+      "GTA 6 NPC AI: behaviour, reactions and what Edge reveals",
+      "PNJ de GTA 6 : IA, réactions et révélations d’Edge"
+    ],
+    "paths": [
+      "/es/guias/gta-6-npc-ia-comportamiento/",
+      "/en/guides/gta-6-npc-ai-behaviour/",
+      "/fr/guides/gta-6-pnj-ia-comportement/"
+    ]
+  },
+  {
+    "id": "gta6-police-wanted-deep-20261029",
+    "category": "guides",
+    "published": "2026-10-29",
+    "titles": [
+      "Policía en GTA 6: búsqueda, testigos y cómo cambia la huida",
+      "GTA 6 police: wanted levels, witnesses and escaping pursuit",
+      "Police de GTA 6 : recherche, témoins et logique de fuite"
+    ],
+    "paths": [
+      "/es/guias/gta-6-policia-busqueda-testigos/",
+      "/en/guides/gta-6-police-wanted-witnesses/",
+      "/fr/guides/gta-6-police-recherche-temoins/"
+    ]
+  },
+  {
+    "id": "gta6-ps5-pro-fps-deep-20261029",
+    "category": "guides",
+    "published": "2026-10-29",
+    "titles": [
+      "GTA 6 en PS5 Pro: 30 o 60 FPS y qué falta por confirmar",
+      "GTA 6 on PS5 Pro: 30 or 60 FPS and what remains unconfirmed",
+      "GTA 6 sur PS5 Pro : 30 ou 60 FPS, où en sont les preuves ?"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+      "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+      "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/"
+    ]
+  },
+  {
     "id": "gta6-justice-score-december-11-2026-10-29",
     "category": "news",
     "published": "2026-10-29",

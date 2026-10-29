@@ -25,7 +25,7 @@ Para una nueva tanda editorial, se puede agregar:
 - `public/media/credits.json`: procedencia de imágenes oficiales.
 - `docs/adsterra.md`: integración publicitaria, pruebas y limitaciones.
 
-Al 29 de octubre de 2026 hay 44 temas, con 132 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
+Al 29 de octubre de 2026 hay 47 temas, con 141 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
 
 ## Publicidad y diagnóstico móvil
 
@@ -44,3 +44,5 @@ El 28 de octubre de 2026 se activó mediante Codex la tarea “Noticias diarias 
 El pedido manual del 29 de octubre añade dos rumores contrastados (PC y multijugador en 2027), en los tres idiomas. El borrador de PC ya se publicó con fuentes y fecha revisadas. Ver docs/editorial/2026-10-29-rumours-research.md. La tarea diaria conserva su alcance.
 
 La ejecución diaria del 29 de octubre añade un único tema: la fecha y formatos del Original Score de Justice y el sencillo Pusher, con tres versiones completas. Se distingue del artículo existente de The Album. Investigación: docs/editorial/2026-10-29-daily-justice-research.md.
+
+El pedido manual posterior del 29 de octubre agrega tres guías de análisis (NPC, policía, rendimiento PS5 Pro), cada una en ES/EN/FR. Se conserva la programación diaria. Ver docs/editorial/2026-10-29-manual-three-research.md y el brief adjunto guardado.
