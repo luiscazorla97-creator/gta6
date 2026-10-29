@@ -25,7 +25,7 @@ Para una nueva tanda editorial, se puede agregar:
 - `public/media/credits.json`: procedencia de imágenes oficiales.
 - `docs/adsterra.md`: integración publicitaria, pruebas y limitaciones.
 
-Al 29 de octubre de 2026 hay 43 temas, con 129 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
+Al 29 de octubre de 2026 hay 44 temas, con 132 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
 
 ## Publicidad y diagnóstico móvil
 
@@ -42,3 +42,5 @@ Si se conserva el chat, abrirlo desde el historial permite seguir la misma conve
 El 28 de octubre de 2026 se activó mediante Codex la tarea “Noticias diarias de FansGTA”, de frecuencia diaria con horario flexible y zona America/New_York. El usuario ajustó el encargo a un tema por día, con una versión completa en español, inglés y francés (tres versiones), hasta el 19 de noviembre de 2026 inclusive. Las publicaciones se comprueban y guardan en GitHub/Cloudflare con las mismas reglas editoriales. La tarea incluye fuentes, imágenes, deduplicación, pruebas y verificación de URLs; si falta material fiable o acceso debe informarlo sin fingir una publicación. No duplica temas ni modifica anuncios. La programación se gestiona con las herramientas de automatizaciones de Codex, no editando este documento. Una programación habilitada no acredita por sí sola una ejecución completada; consultar su resultado al revisar publicaciones futuras.
 
 El pedido manual del 29 de octubre añade dos rumores contrastados (PC y multijugador en 2027), en los tres idiomas. El borrador de PC ya se publicó con fuentes y fecha revisadas. Ver docs/editorial/2026-10-29-rumours-research.md. La tarea diaria conserva su alcance.
+
+La ejecución diaria del 29 de octubre añade un único tema: la fecha y formatos del Original Score de Justice y el sencillo Pusher, con tres versiones completas. Se distingue del artículo existente de The Album. Investigación: docs/editorial/2026-10-29-daily-justice-research.md.
