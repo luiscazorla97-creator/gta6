@@ -1,6 +1,5 @@
 import type { Article } from '../articles';
-// Complete editorial draft, intentionally absent from the registered article list.
-// Refresh sources and set the actual publication date before a future registration.
+// Refreshed and registered for the user-authorized October 29 rumour batch.
 
 const report={label:'GamesBeat — Alexander Lee, 13/10/2026; updated 14/10/2026',url:'https://gamesbeat.com/grand-theft-auto-vis-pc-release-is-slated-for-q1-2027/'};
 const rockstar={label:'Rockstar Games — Grand Theft Auto VI',url:'https://www.rockstargames.com/VI'};
@@ -35,22 +34,22 @@ export const cloudTestPc20261028:Article[]=[{
   'The early-2027 window for GTA VI on PC remains an unconfirmed report, rather than a release date announced by Rockstar.',
   'La fenêtre de début 2027 pour GTA VI sur PC reste une information non confirmée, et non une date annoncée par Rockstar.'
  ],
- published:'2026-10-28',updated:'2026-10-28',sources:[report,rockstar,takeTwo,media],
+ published:'2026-10-29',updated:'2026-10-29',sources:[report,rockstar,takeTwo,media],
  sections:[
   {
    heading:['De dónde sale el rumor de principios de 2027','Where the early-2027 rumour comes from','D’où vient la rumeur de début 2027'],references:[report],
    paragraphs:[[
-    'La ventana de GTA 6 para PC sigue sin confirmación oficial. GamesBeat la atribuye a cuatro fuentes anónimas conocedoras de los planes de Rockstar. El artículo de Alexander Lee se publicó el 13 de octubre de 2026 y se actualizó el 14. Indicaba que Rockstar no había respondido antes de su publicación. Nuestra revisión del 28 de octubre explica ese informe: no lo presenta como una noticia recién anunciada ni como una respuesta del estudio.',
-    'GTA 6’s reported PC window remains unconfirmed. GamesBeat attributes it to four unnamed sources familiar with Rockstar’s plans. Alexander Lee’s article was published on October 13, 2026 and updated on October 14. It said Rockstar had not responded before publication. Our October 28 review explains that report; it does not present it as a fresh announcement or a statement from the studio. The distinction matters when a confident headline is shared without its original context.',
-    'La fenêtre évoquée pour GTA 6 sur PC reste sans confirmation officielle. GamesBeat l’attribue à quatre sources anonymes connaissant les projets de Rockstar. L’article d’Alexander Lee est paru le 13 octobre 2026, puis a été actualisé le 14. Il indiquait que Rockstar n’avait pas répondu avant sa publication. Notre vérification du 28 octobre explique cet article : elle ne le présente ni comme une annonce nouvelle ni comme une déclaration du studio.'
+    'La ventana de GTA 6 para PC sigue sin confirmación oficial. GamesBeat la atribuye a cuatro fuentes anónimas conocedoras de los planes de Rockstar. El artículo de Alexander Lee se publicó el 13 de octubre de 2026 y se actualizó el 14. Indicaba que Rockstar no había respondido antes de su publicación. Nuestra revisión del 29 de octubre explica ese informe: no lo presenta como una noticia recién anunciada ni como una respuesta del estudio.',
+    'GTA 6’s reported PC window remains unconfirmed. GamesBeat attributes it to four unnamed sources familiar with Rockstar’s plans. Alexander Lee’s article was published on October 13, 2026 and updated on October 14. It said Rockstar had not responded before publication. Our October 29 review explains that report; it does not present it as a fresh announcement or a statement from the studio. The distinction matters when a confident headline is shared without its original context.',
+    'La fenêtre évoquée pour GTA 6 sur PC reste sans confirmation officielle. GamesBeat l’attribue à quatre sources anonymes connaissant les projets de Rockstar. L’article d’Alexander Lee est paru le 13 octobre 2026, puis a été actualisé le 14. Il indiquait que Rockstar n’avait pas répondu avant sa publication. Notre vérification du 29 octobre explique cet article : elle ne le présente ni comme une annonce nouvelle ni comme une déclaration du studio.'
    ]]
   },
   {
    heading:['Qué muestran las fuentes oficiales actuales','What the official sources currently show','Ce qu’indiquent les sources officielles'],references:[rockstar,takeTwo,platforms],
    paragraphs:[[
-    'La web de GTA VI consultada el 28 de octubre muestra el 19 de noviembre de 2026 y las plataformas PS5 y Xbox Series X|S. La tabla de lanzamientos de Take-Two del 7 de agosto también recoge esas consolas. Son referencias para el estreno anunciado; no proporcionan una fecha de PC. Que PC no aparezca allí tampoco demuestra que Rockstar haya descartado todos sus posibles planes futuros.',
-    'The GTA VI website checked on October 28 displays November 19, 2026 and PS5 and Xbox Series X|S. Take-Two’s August 7 release table also lists those consoles. These sources document the announced launch; they do not provide a PC release date. PC’s absence from those listings does not establish that Rockstar has ruled out every possible future plan. Our separate platforms article covers that official console information.',
-    'Le site de GTA VI consulté le 28 octobre affiche le 19 novembre 2026, sur PS5 et Xbox Series X|S. Le calendrier de Take-Two du 7 août mentionne également ces consoles. Ces références documentent la sortie annoncée, sans donner de date PC. L’absence du PC dans ces listes ne démontre pas non plus que Rockstar ait écarté tout projet futur. Notre article sur les plateformes détaille ces informations officielles.'
+    'La web de GTA VI consultada el 29 de octubre muestra el 19 de noviembre de 2026 y las plataformas PS5 y Xbox Series X|S. La tabla de lanzamientos de Take-Two del 7 de agosto también recoge esas consolas. Son referencias para el estreno anunciado; no proporcionan una fecha de PC. Que PC no aparezca allí tampoco demuestra que Rockstar haya descartado todos sus posibles planes futuros.',
+    'The GTA VI website checked on October 29 displays November 19, 2026 and PS5 and Xbox Series X|S. Take-Two’s August 7 release table also lists those consoles. These sources document the announced launch; they do not provide a PC release date. PC’s absence from those listings does not establish that Rockstar has ruled out every possible future plan. Our separate platforms article covers that official console information.',
+    'Le site de GTA VI consulté le 29 octobre affiche le 19 novembre 2026, sur PS5 et Xbox Series X|S. Le calendrier de Take-Two du 7 août mentionne également ces consoles. Ces références documentent la sortie annoncée, sans donner de date PC. L’absence du PC dans ces listes ne démontre pas non plus que Rockstar ait écarté tout projet futur. Notre article sur les plateformes détaille ces informations officielles.'
    ]]
   },
   {

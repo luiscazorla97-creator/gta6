@@ -1,5 +1,35 @@
 [
   {
+    "id": "gta6-pc-q1-2027-report-2026-10-28",
+    "category": "news",
+    "published": "2026-10-29",
+    "titles": [
+      "Rumor: GTA 6 para PC apunta a principios de 2027, según GamesBeat",
+      "Rumour: GTA 6 on PC targets early 2027, according to GamesBeat",
+      "Rumeur : GTA 6 sur PC viserait début 2027, selon GamesBeat"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-pc-primer-trimestre-2027-gamesbeat/",
+      "/en/news/rumour-gta-6-pc-q1-2027-gamesbeat-report/",
+      "/fr/actualites/rumeur-gta-6-pc-premier-trimestre-2027-gamesbeat/"
+    ]
+  },
+  {
+    "id": "gta6-online-2027-clancy-2026-10-29",
+    "category": "news",
+    "published": "2026-10-29",
+    "titles": [
+      "Rumor: GTA 6 Online en 2027, qué dijo el CEO de Twitch",
+      "Rumour: GTA 6 Online in 2027 — what Twitch’s CEO said",
+      "Rumeur : GTA 6 Online en 2027, les propos du patron de Twitch"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-online-2027-dan-clancy/",
+      "/en/news/rumour-gta-6-online-2027-dan-clancy/",
+      "/fr/actualites/rumeur-gta-6-online-2027-dan-clancy/"
+    ]
+  },
+  {
     "id": "take-two-november-9-calendar-2026-10-28",
     "category": "news",
     "published": "2026-10-28",
