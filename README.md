@@ -17,7 +17,7 @@ node scripts/verify-static.mjs
 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e
 ```
 
-The production pipeline type-checks, builds the browser bundle and SSR entry, and generates public HTML. Advertising tags load directly into page containers at runtime, without an extra FansGTA iframe. There are 47 editorial articles in three languages, category pages, four legal/contact pages per language, a custom 404 and a root homepage copy. Empty categories stay noindex and out of the sitemap. `npm run preview -- --port 4173` runs the built site internally. Playwright starts its preview itself; on other machines use a supported Chromium installation without disabling TLS.
+The production pipeline type-checks, builds the browser bundle and SSR entry, and generates public HTML. Advertising tags load directly into page containers at runtime, without an extra FansGTA iframe. There are 51 editorial articles in three languages, category pages, four legal/contact pages per language, a custom 404 and a root homepage copy. Empty categories stay noindex and out of the sitemap. `npm run preview -- --port 4173` runs the built site internally. Playwright starts its preview itself; on other machines use a supported Chromium installation without disabling TLS.
 
 ## Content and SEO
 
@@ -41,7 +41,7 @@ The former extra iframe used an opaque sandbox origin, restricting storage and J
 
 ## Legal and contact
 
-Privacy, cookies/preferences, terms and contact are real localized pages. The user-designated contact is `soporte@barbercontrol.org`; this does not connect databases or code to another project. The newsletter currently checks email format without storing or sending addresses. Policy text covers actual hosting, browser storage, YouTube and automatically loaded Adsterra without claiming universal legal compliance.
+Privacy, cookies/preferences, terms and contact are real localized pages. The user-designated contact is `soporte@barbercontrol.org`; this does not connect databases or code to another project. The newsletter currently checks email format without storing or sending addresses. Policy text covers actual hosting, browser storage, YouTube, Google Analytics, AdSense verification and the temporarily paused Adsterra integration without claiming universal legal compliance.
 
 ## Publication
 

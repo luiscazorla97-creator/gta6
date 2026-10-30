@@ -1,5 +1,65 @@
 [
   {
+    "id": "gta6-dynamic-weather-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Clima de GTA 6: tormentas, viento y noches más largas",
+      "GTA 6 weather: dynamic storms, wind and longer nights",
+      "Météo de GTA 6 : orages, vent et nuits plus longues"
+    ],
+    "paths": [
+      "/es/guias/gta-6-clima-dinamico-tormentas/",
+      "/en/guides/gta-6-dynamic-weather-storms/",
+      "/fr/guides/gta-6-meteo-dynamique-orages/"
+    ]
+  },
+  {
+    "id": "gta6-jason-lucia-relationship-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Jason y Lucia en GTA 6: romance y sistema de relación",
+      "GTA 6 Jason and Lucia: romance and the relationship system",
+      "Jason et Lucia dans GTA 6 : romance et système de relation"
+    ],
+    "paths": [
+      "/es/guias/gta-6-jason-lucia-relacion-romance/",
+      "/en/guides/gta-6-jason-lucia-relationship-romance/",
+      "/fr/guides/gta-6-jason-lucia-relation-romance/"
+    ]
+  },
+  {
+    "id": "gta6-car-theft-tools-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Robar coches en GTA 6: escáner, herramientas y rastreadores",
+      "GTA 6 car theft: scanners, tools, trackers and selling cars",
+      "Voler des voitures dans GTA 6 : scanner, outils et balises"
+    ],
+    "paths": [
+      "/es/guias/gta-6-robar-coches-escaner-herramientas/",
+      "/en/guides/gta-6-steal-cars-scanner-tools/",
+      "/fr/guides/gta-6-voler-voitures-scanner-outils/"
+    ]
+  },
+  {
+    "id": "gta5-complete-cheats-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Todos los trucos de GTA 5: códigos PC, PlayStation y Xbox",
+      "All GTA 5 cheats: PC commands, PlayStation, Xbox and phone",
+      "Tous les codes GTA 5 : PC, PlayStation, Xbox et téléphone"
+    ],
+    "paths": [
+      "/es/trucos/gta-5-todos-trucos-codigos/",
+      "/en/cheats/gta-5-all-cheats-codes/",
+      "/fr/codes/gta-5-tous-codes-triche/"
+    ]
+  },
+  {
     "id": "gta6-npc-behaviour-deep-20261029",
     "category": "guides",
     "published": "2026-10-29",

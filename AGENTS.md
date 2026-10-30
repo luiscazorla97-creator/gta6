@@ -17,3 +17,5 @@ Use npm run build:release, node scripts/verify-static.mjs and appropriate browse
 On 2026-10-30 the user explicitly requested Google AdSense verification code for publisher ca-pub-1382859681401211. Preserve the single async head script and public/ads.txt; see docs/adsense.md. This does not establish Google approval or authorise adding Google units/account-side Auto Ads changes. Keep existing Adsterra integration intact.
 
 On 2026-10-30 the user also explicitly supplied Google Analytics 4 ID G-JXHZ3W8WHP. Preserve its one async loader and one gtag config in index.html. No duplicate React page-view tracker. Do not claim measured traffic or confirmed event receipt without account evidence. See docs/analytics.md.
+
+The user requested animating the existing homepage helicopter image on 2026-10-30. The two hero-motion assets are edited decorative layers, not authentic gameplay evidence. Never use them as official screenshots in articles. Original editorial assets remain unchanged. GTA V images have their own per-article credit/source; do not label them GTA VI.
