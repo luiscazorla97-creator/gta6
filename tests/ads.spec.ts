@@ -28,7 +28,7 @@ async function provider(route:Route){
  await route.fulfill({status:200,contentType:'application/javascript',body:bootstrap(name)});
 }
 async function rendered(page:Page,name:AdUnitName){
- const slot=page.locator(`.ad-slot-${name}`);
+ const slot=page.locator(`.ad-slot-${name}`).first();
  await slot.scrollIntoViewIfNeeded();
  if(name==='native'){
   await expect(slot.locator('[data-fixture-native]')).toBeVisible();
@@ -41,7 +41,9 @@ async function rendered(page:Page,name:AdUnitName){
  return slot;
 }
 
-test.beforeEach(async({page,browserName})=>{
+test.beforeEach(async({page,browserName},info)=>{
+ if(info.project.name==='desktop')await page.setViewportSize({width:1920,height:1000});
+ await page.route('https://pagead2.googlesyndication.com/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  requests.set(page,[]);
  page.on('request',request=>requests.get(page)!.push(request.url()));
  // Vite preview does not apply Pages' _headers. Enforce the production CSP here
@@ -94,7 +96,7 @@ test('direct units render under production CSP with storage, nested writes and n
   }
  }
  const urls=requests.get(page)!.filter(url=>/^https:\/\/bauval\.org\/(21|22)\/[a-f0-9]+$/.test(url));
- expect(urls).toHaveLength(units.length);expect(new Set(urls).size).toBe(units.length);
+ expect(urls).toHaveLength(units.length+(mobile?1:2));expect(new Set(urls).size).toBe(units.length);
  await expect(page.locator(`.ad-slot-${mobile?'leaderboard':'mobile'} script`)).toHaveCount(0);
  if(mobile)await expect(page.locator('.ad-slot-sidebar script')).toHaveCount(0);
  await expect.poll(()=>page.evaluate(()=>Object.prototype.hasOwnProperty.call(window,'atOptions'))).toBe(false);
@@ -119,7 +121,7 @@ test('failed bootstrap releases the writer queue and preserves the public docume
  const first=info.project.name==='mobile'?'mobile':'leaderboard';
  await page.route(`https://bauval.org/22/${adUnits[first].key}`,route=>route.fulfill({status:403,contentType:'application/javascript',body:''}));
  await page.goto(article);
- const initial=page.locator(`.ad-slot-${first}`);await initial.scrollIntoViewIfNeeded();
+ const initial=page.locator(`.ad-slot-${first}`).first();await initial.scrollIntoViewIfNeeded();
  await expect(initial.locator('[role=status]')).toHaveText('Anuncio temporalmente no disponible');
  await expect(initial.locator('iframe')).toHaveCount(0);
  await rendered(page,'rectangle');
@@ -135,7 +137,7 @@ test('a runtime exception after HTTP 200 reports failure and releases the next u
  const first=info.project.name==='mobile'?'mobile':'leaderboard';
  await page.route(`https://bauval.org/22/${adUnits[first].key}`,route=>route.fulfill({status:200,contentType:'application/javascript',body:"throw new Error('Fixture runtime bootstrap failure');"}));
  await page.goto(article);
- const initial=page.locator(`.ad-slot-${first}`);await initial.scrollIntoViewIfNeeded();
+ const initial=page.locator(`.ad-slot-${first}`).first();await initial.scrollIntoViewIfNeeded();
  await expect(initial.locator('[role=status]')).toHaveText('Anuncio temporalmente no disponible');
  await expect(initial.locator('.ad-provider')).toHaveAttribute('data-ad-state','error');
  await expect(initial.locator('iframe')).toHaveCount(0);
@@ -154,7 +156,7 @@ test('an unrelated page exception during a pending bootstrap does not mark the a
  await page.route(`https://bauval.org/22/${adUnits[first].key}`,async route=>{await gate;await provider(route);});
  try{
   await page.goto(article);
-  const slot=page.locator(`.ad-slot-${first}`);await slot.scrollIntoViewIfNeeded();
+  const slot=page.locator(`.ad-slot-${first}`).first();await slot.scrollIntoViewIfNeeded();
   await expect(slot.locator('.ad-provider')).toHaveAttribute('data-ad-state','loading');
   await page.evaluate(()=>{window.setTimeout(()=>{throw new Error('Unrelated application timer failure');},0);});
   await expect.poll(()=>errors.some(message=>message.includes('Unrelated application timer failure'))).toBe(true);
@@ -170,7 +172,7 @@ test('a secondary script failure does not declare an inserted creative unavailab
  const first=info.project.name==='desktop'?'leaderboard':'mobile';
  await page.route(`${fixtureOrigin}/nested/${first}.js`,route=>route.fulfill({status:403,contentType:'application/javascript',body:''}));
  await page.goto(article);
- const slot=page.locator(`.ad-slot-${first}`);await slot.scrollIntoViewIfNeeded();
+ const slot=page.locator(`.ad-slot-${first}`).first();await slot.scrollIntoViewIfNeeded();
  await expect(slot.locator('iframe[data-fixture-unit]')).toHaveCount(1);
  await expect(slot.locator('.ad-provider')).toHaveAttribute('data-ad-state','loaded');
  await expect(slot.locator('[role=status]')).toHaveCount(0);
@@ -184,7 +186,7 @@ test('opt-in diagnostics identify a bootstrap download failure and stay hidden b
  await page.goto(article);
  await expect(page.getByRole('complementary',{name:'Diagnóstico de publicidad'})).toHaveCount(0);
  await page.goto(article+'?ads-debug=1');
- const slot=page.locator(`.ad-slot-${first}`);await slot.scrollIntoViewIfNeeded();
+ const slot=page.locator(`.ad-slot-${first}`).first();await slot.scrollIntoViewIfNeeded();
  await expect(slot.locator('[role=status]')).toBeVisible();
  const report=page.getByLabel('Informe para seleccionar y copiar');
  await expect(report).toHaveValue(new RegExp(`${first}.*${adUnits[first].id}.*Error al cargar el script`));
@@ -209,7 +211,7 @@ test('resizing away and back preserves the rendered provider subtree without rel
  await slot.scrollIntoViewIfNeeded();
  await expect(creative).toBeVisible();
  expect(await creative.evaluate((node,previous)=>node===previous,original)).toBe(true);
- expect(requests.get(page)!.filter(url=>url===`https://bauval.org/22/${adUnits[name].key}`)).toHaveLength(1);
+ expect(requests.get(page)!.filter(url=>url===`https://bauval.org/22/${adUnits[name].key}`)).toHaveLength(2);
  await expect(slot.locator('.ad-provider')).toHaveAttribute('data-fixture-nested',adUnits[name].key);
 });
 

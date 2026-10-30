@@ -4,6 +4,7 @@ import {articlePath} from '../src/routes';
 import {mediaPath,mediaAlt} from '../src/media';
 
 test.beforeEach(async({page})=>{
+ await page.route('https://bauval.org/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  for(const host of ['https://www.googletagmanager.com/**','https://pagead2.googlesyndication.com/**'])await page.route(host,r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await page.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({status:200,contentType:'text/html',body:'<html><body>Player test</body></html>'}));
 });
@@ -23,7 +24,7 @@ test('one daily topic has three indexable language editions with sourced metadat
   expect(schema.datePublished).toBe('2026-10-30');expect(schema.dateModified).toBe('2026-10-30');expect(schema.citation).toEqual(article.sources.map(s=>s.url));
   expect(html).not.toContain('src="https://www.googletagmanager.com/gtag/js');
   expect(html.match(/src="https:\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js\?client=ca-pub-1382859681401211"/g)).toHaveLength(1);
-  expect(html).not.toContain('data-ad-unit=');
+  expect(html).toContain('data-ad-placement="top"');expect(html).toContain('data-ad-placement="bottom"');
  }
  const image=await request.get(mediaPath(article.image));expect(image.status()).toBe(200);expect(image.headers()['content-type']).toContain('image/webp');
 });
@@ -42,7 +43,7 @@ test('daily report shows the authentic cover, translated captions and working in
   for(const link of await internal.all()){
    const href=(await link.getAttribute('href'))!;expect(href).toMatch(new RegExp(`^/${locale}/`));expect((await request.get(href)).status()).toBe(200);
   }
-  await expect(page.locator('.ad-slot')).toHaveCount(0);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  await expect(page.locator('[data-ad-placement="top"]')).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   if(index<2)await page.getByRole('combobox',{name:{es:'Idioma',en:'Language',fr:'Langue'}[locale],exact:true}).selectOption(['es','en','fr'][index+1]);
  }
  expect(errors).toEqual([]);

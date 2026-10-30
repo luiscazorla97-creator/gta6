@@ -5,6 +5,7 @@ const labels={es:['Tu privacidad en FansGTA','Aceptar Analytics','Rechazar Analy
 const isAnalytics=(url:string)=>/googletagmanager\.com\/gtag\/js|google-analytics\.com/.test(url);
 
 test.beforeEach(async({context})=>{
+ await context.route('https://bauval.org/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await context.route('https://pagead2.googlesyndication.com/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await context.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({status:200,contentType:'text/html',body:'<html><body>Player test</body></html>'}));
  await context.route('https://www.googletagmanager.com/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:'document.cookie="_ga=accepted-test; path=/";document.cookie="_ga_JXHZ3W8WHP=accepted-test; path=/";fetch("https://www.google-analytics.com/g/collect?tid=G-JXHZ3W8WHP");'}));
@@ -69,6 +70,7 @@ test('withdrawal stops the SDK after reload and clears host and parent-domain An
  await Promise.all([page.waitForEvent('load'),page.getByRole('button',{name:labels.es[2],exact:true}).click()]);
  await expect(page.locator('#fansgta-ga4')).toHaveCount(0);await expect(page.locator('.analytics-consent')).toHaveCount(0);expect(requests).toEqual([]);
  const cookies=await context.cookies();expect(cookies.filter(c=>/^_ga(?:_|$)/.test(c.name))).toEqual([]);expect(cookies.some(c=>c.name==='site_setting'&&c.value==='keep')).toBe(true);
+ await page.unrouteAll({behavior:'wait'});await page.close();
 });
 
 test('withdrawal in one tab stops Analytics in another open tab',async({page,context})=>{

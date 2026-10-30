@@ -1,8 +1,14 @@
-# Current status — 30 October 2026
+# Current status — re-enabled 30 October 2026
 
-The user requested temporary removal while requesting AdSense approval. All five Adsterra units have enabled=false and popunder remains disabled. AdSlot renders no markup for disabled units; no scripts or placements are requested. Public unit IDs and the integration are retained for reversible restoration only on user request. Google AdSense verification remains installed; no approval claim. The enabled-ad fixture suite automatically skips while all units are off; tests/ads-disabled.spec.ts checks actual lack of requests and slots.
+After initially pausing Adsterra, the user explicitly requested reactivation at the top, bottom and both sides, loading automatically while awaiting AdSense approval. All five supplied banner formats are enabled. SiteAds provides top/bottom bands on every route, using 728x90 on fitting desktop screens and 320x50 on fitting mobile screens. Both 160x300 side placements appear at viewport widths of at least 1760 px, in the existing outer gutters; they scroll normally, without a custom sticky/overlay format. No article width is reduced. Existing rectangle/native placements remain; native occurs at most once per page. The former per-article top/sidebar copies were removed to keep placement intentional.
 
-The following sections document the previous enabled integration and are historical while paused.
+Top/bottom bands and fitting rails initialise eagerly without an advertising acceptance step or scrolling requirement. Inline/native remain proximity-loaded. Slots that cannot fit are skipped; 320 px screens can use the fluid native placement. The Analytics banner remains independent and blocks GA4 until acceptance. AdSense verification and ads.txt are unchanged; popunder stays disabled. No paid service, security-rule change, fake creative, anti-blocking bypass or subscription was introduced.
+
+The August 28, 2026 official static HTML guide was checked again: https://help-publishers.adsterra.com/en/articles/5210780-adding-ads-to-a-static-html-site. It states that repeating a Static Banner code counts impressions per unique visitor; the same supplied sidebar/leaderboard/mobile code is reused for its two positions, without inventing new IDs or claiming twice the revenue. Native code is not repeated. Older blog warnings about repeats are not used to invent extra units. Direct per-slot execution and the existing postscribe queue preserve atOptions through repeated instances. No provider-side frequency/approval change is made.
+
+Temporary means pending actual AdSense approval, not a guessed date. This executor has no account-side AdSense approval monitor. Retire Adsterra when the owner confirms approval or effective account access verifies it; do not claim an automatic approval transition exists.
+
+The sections below explain the adapter; the older placement table describes the earlier layout. Current placements are the site-wide bands/rails above.
 
 # Adsterra integration
 
@@ -55,3 +61,11 @@ Automated tests use mocked provider responses to check loading, script order, re
 ## Why the previous wrapper was removed
 
 The owner reports the domain approved and units active and re-supplied matching snippets. The previous integration executed them inside an extra sandboxed FansGTA iframe without `allow-same-origin`. That gives the document an opaque origin and restricts storage and some JavaScript APIs; successful mock scripts did not exercise those provider requirements. See the [iframe sandbox reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#allow-same-origin). The wrapper also differed from Adsterra's documented body placement. The direct integration removes these known differences and updates the main-page CSP accordingly. This is a correction to our integration, not evidence by itself that a real advertisement was served.
+
+## Reactivation verification — 30 October
+
+Release build and static verification passed: 200 HTML pages, 7,587 internal links, 371 structured-data blocks; 52 prior topics/156 editions retained. The combined 48-case browser run covered automatic top/bottom/sides, production-CSP provider fixtures with nested document.write/storage, failures and queue recovery, responsive sizes, native single-instance, resize preservation, Analytics rejection/acceptance/withdrawal, AdSense and article navigation. One desktop test exposed an asynchronous fixture route being fulfilled after its request context was disposed; the page route is now drained before closing that test. The targeted withdrawal check was rerun on both desktop/mobile. This was test-fixture cleanup, not a relaxed application assertion. No application change was made to mask it.
+
+Direct provider bootstrap checks with ordinary TLS/proxy, browser user-agent and FansGTA referrer returned HTTP 403 with zero-byte bodies for all five supplied endpoints in this environment. Evidence: /tmp/fansgta-adsterra-restored-endpoints.json during this run. Do not infer a universal provider-side fault or claim real fill from fixture results. No alternate domain, fake ad or bypass was introduced. Public deployment/placement verification remains required before reporting completion.
+
+Final observed results: the two withdrawal checks passed after the fixture cleanup fix; all 48 distinct checks are covered by passing results across these runs. Both placement checks passed again and desktop/mobile screenshots were visually inspected. No content overlap or page overflow found. Root Analytics-consent implementation remains unchanged; only its provider-mocking/fixture cleanup tests were adjusted. git diff --check passed.

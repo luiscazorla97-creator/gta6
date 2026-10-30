@@ -59,4 +59,4 @@ Follow AGENTS.md and docs/editorial/user-brief.md for each new requested batch. 
 
 The later ten-topic request on 2026-10-28 adds thirty full localized editions through `src/batches/2026-10-28-ten.ts`, retaining the prior thirty topics. Selection, autocomplete evidence, sources and media checks are recorded in `docs/editorial/2026-10-28-ten-selection.md` and its companion research files. The aggregate includes a clearly labelled third-party size report, not an official final installation requirement.
 
-On 2026-10-30 the user paused all Adsterra units while seeking AdSense review. The previous loading behaviour above is historical while disabled; see docs/adsterra.md. AdSense verification remains installed.
+On 2026-10-30 the user first paused Adsterra, then explicitly re-enabled its five banner formats while awaiting AdSense approval. Site-wide top/bottom bands load automatically; two sides are visible from 1760 px without narrowing the content. Inline/native placements remain, with one native code per page. Analytics consent is separate. Popunder stays disabled. See docs/adsterra.md. AdSense verification remains installed; no approval monitor is connected.
