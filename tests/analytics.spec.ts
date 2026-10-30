@@ -5,6 +5,7 @@ const labels={es:['Tu privacidad en FansGTA','Aceptar Analytics','Rechazar Analy
 const isAnalytics=(url:string)=>/googletagmanager\.com\/gtag\/js|google-analytics\.com/.test(url);
 
 test.beforeEach(async({context})=>{
+ await context.route('https://abscloud.org/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await context.route('https://bauval.org/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await context.route('https://pagead2.googlesyndication.com/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await context.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({status:200,contentType:'text/html',body:'<html><body>Player test</body></html>'}));

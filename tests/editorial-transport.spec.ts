@@ -4,6 +4,7 @@ import {articlePath} from '../src/routes';
 import {mediaPath,mediaAlt} from '../src/media';
 
 test.beforeEach(async({page})=>{
+ await page.route('https://abscloud.org/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await page.route('https://bauval.org/**',r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  for(const host of ['https://www.googletagmanager.com/**','https://pagead2.googlesyndication.com/**'])await page.route(host,r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await page.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({status:200,contentType:'text/html',body:'<html><body>Player test</body></html>'}));

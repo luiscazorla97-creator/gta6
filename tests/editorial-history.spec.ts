@@ -4,7 +4,7 @@ import {articlePath,sectionPath} from '../src/routes';
 import {mediaPath,mediaDimensions} from '../src/media';
 
 test.beforeEach(async({page})=>{
- for(const host of ['https://bauval.org/**','https://www.googletagmanager.com/**','https://pagead2.googlesyndication.com/**'])await page.route(host,r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
+ for(const host of ['https://abscloud.org/**','https://bauval.org/**','https://www.googletagmanager.com/**','https://pagead2.googlesyndication.com/**'])await page.route(host,r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
 });
 
 test('complete history series has unique localized metadata, real images and preserved integrations',async({request})=>{

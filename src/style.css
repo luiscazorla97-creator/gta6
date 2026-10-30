@@ -61,3 +61,7 @@
 .history-series li{break-inside:avoid;margin:.5rem 0}
 .history-series a[aria-current=page]{font-weight:800;color:var(--pink)}
 @media(max-width:600px){.history-series ol{columns:1}.history-article > .editorial-figure > img{max-height:420px}}
+
+.cheat-code-groups{margin:24px 0}.cheat-code-group{margin:10px 0;border:1px solid var(--border);border-radius:9px;background:var(--surface)}.cheat-code-group>summary{padding:15px 18px;cursor:pointer;font-weight:700;line-height:1.6}.cheat-code-group>summary span{color:var(--muted);font-weight:400}.cheat-code-group .cheat-table-wrap{margin:0;border:0;border-top:1px solid var(--border);border-radius:0 0 9px 9px}.cheat-code-group .cheat-table{min-width:420px}.cheat-code-group .cheat-table th[scope=row]{width:40%;min-width:145px}.cheat-code-group .cheat-table code{display:block;line-height:1.8}
+
+.editorial-figure.catalogue-art>img{object-fit:contain;max-height:420px;background:var(--surface)}

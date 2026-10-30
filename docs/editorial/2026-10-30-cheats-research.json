@@ -1,0 +1,623 @@
+{
+  "checked": "2026-10-30",
+  "baseMain": "25d49274ab1fc2cee83a9cb50400d0fb455c9155",
+  "requests": [
+    "Expand GTA VI rumour article with SEO and real GTA VI imagery",
+    "Another catalogue covering every GTA newest to oldest",
+    "Enable supplied popunder after internal navigation; community forum queued after publication"
+  ],
+  "deduplication": {
+    "inventoryRead": 69,
+    "updateExisting": "cheats-check: equivalent intent already exists, preserve original 2026-10-27 publication and all three URLs, updated 2026-10-30",
+    "newTopic": "gta-saga-cheats-newest-oldest-20261030: cross-series native-code catalogue, distinct from individual GTA V guide and the separate plot/development histories",
+    "retain": "All 17 history topics and GTA V full cheat guide retained; no daily schedule change"
+  },
+  "querySignals": [
+    {
+      "language": "es",
+      "query": "trucos gta 6",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=trucos+gta+6",
+      "status": 200,
+      "suggestions": [
+        "trucos gta 6",
+        "trucos gta 6 ps5",
+        "trucos gta 6 ps4",
+        "trucos gta 6 xbox one",
+        "trucos gta 6 xbox 360",
+        "trucos gta 6 xbox",
+        "trucos gta 6 xbox series s",
+        "trucos gta 6 ps3",
+        "trucos gta 6 pc",
+        "trucos gta 6 play 5"
+      ]
+    },
+    {
+      "language": "en",
+      "query": "gta 6 cheats",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta+6+cheats",
+      "status": 200,
+      "suggestions": [
+        "gta 6 cheats",
+        "gta 6 cheats ps5",
+        "gta 6 cheats codes",
+        "gta 6 cheats ps4",
+        "gta 6 cheats leak",
+        "gta 6 cheats xbox one",
+        "gta 6 cheats reddit",
+        "how many characters are in gta 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "query": "codes gta 6",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=codes+gta+6",
+      "status": 200,
+      "suggestions": [
+        "codes gta 6",
+        "codes gta 6 va sortir",
+        "codes gta 6 est sorti",
+        "code gta 6 ps5",
+        "code gta 6 ps4",
+        "code gta 6 xbox",
+        "code gta 6 ps3",
+        "code gta 6 xbox 360",
+        "code gta 6 xbox one",
+        "code gta 6 etoiles"
+      ]
+    },
+    {
+      "language": "es",
+      "query": "trucos gta san andreas",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=trucos+gta+san+andreas",
+      "status": 200,
+      "suggestions": [
+        "trucos gta san andreas ps2",
+        "trucos gta san andreas ps4",
+        "trucos gta san andreas",
+        "trucos gta san andreas nintendo switch",
+        "trucos gta san andreas ps5",
+        "trucos gta san andreas pc",
+        "trucos gta san andreas android",
+        "trucos gta san andreas ps4 vida infinita",
+        "trucos gta san andreas xbox 360",
+        "trucos gta san andreas ps3"
+      ]
+    }
+  ],
+  "signalLimits": "Google autocomplete indicates actual query variants, not volume or popularity rank. PS4/PS3/Xbox One/360 suggestions do not establish GTA VI platform announcements. No Trends volume or ranking invented.",
+  "sourceChecks": [
+    {
+      "key": "rumours",
+      "url": "https://www.cheatcc.com/articles/gta-6-cheats/",
+      "status": 200,
+      "final": "https://www.cheatcc.com/articles/gta-6-cheats/",
+      "bytes": 105194
+    },
+    {
+      "key": "community",
+      "url": "https://www.reddit.com/r/GTA6/comments/1l8yf77/cheats/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "vi",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "final": "https://www.rockstargames.com/VI",
+      "bytes": 1205725
+    },
+    {
+      "key": "sa-pc",
+      "url": "https://www.gtabase.com/gta-san-andreas/gta-san-andreas-cheats-pc-definitive-edition",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-san-andreas/gta-san-andreas-cheats-pc-definitive-edition",
+      "bytes": 82848
+    },
+    {
+      "key": "vc-pc",
+      "url": "https://www.gtabase.com/gta-vice-city/gta-vice-city-cheats-pc-definitive-edition",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-vice-city/gta-vice-city-cheats-pc-definitive-edition",
+      "bytes": 76340
+    },
+    {
+      "key": "iii-pc",
+      "url": "https://www.gtabase.com/gta-3/gta-3-cheats-pc-definitive-edition",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-3/gta-3-cheats-pc-definitive-edition",
+      "bytes": 64397
+    },
+    {
+      "key": "iv",
+      "url": "https://www.gtabase.com/grand-theft-auto-iv/gta-4-cheats-xbox-360-ps3-pc-full-list-of-cheat-codes",
+      "status": 200,
+      "final": "https://www.gtabase.com/grand-theft-auto-iv/gta-4-cheats-xbox-360-ps3-pc-full-list-of-cheat-codes",
+      "bytes": 138922
+    },
+    {
+      "key": "lcs",
+      "url": "https://www.gtabase.com/articles/gta-liberty-city-stories-cheats-cheat-codes-for-psp-ps2",
+      "status": 200,
+      "final": "https://www.gtabase.com/articles/gta-liberty-city-stories-cheats-cheat-codes-for-psp-ps2",
+      "bytes": 141677
+    },
+    {
+      "key": "vcs",
+      "url": "https://www.gtabase.com/articles/gta-vice-city-stories-cheats-all-cheat-codes-for-psp-ps2",
+      "status": 200,
+      "final": "https://www.gtabase.com/articles/gta-vice-city-stories-cheats-all-cheat-codes-for-psp-ps2",
+      "bytes": 133417
+    },
+    {
+      "key": "advance",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_Advance",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "cw",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_Chinatown_Wars",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_Chinatown_Wars",
+      "bytes": 57672
+    },
+    {
+      "key": "london",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_London",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "gta2",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_2",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_2",
+      "bytes": 58892
+    },
+    {
+      "key": "gta1",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_1",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_1",
+      "bytes": 55353
+    },
+    {
+      "key": "catalogue",
+      "url": "https://nextplayintel.com/cheats/",
+      "status": 200,
+      "final": "https://nextplayintel.com/cheats/",
+      "bytes": 44397
+    },
+    {
+      "key": "sa-ps",
+      "url": "https://www.gtabase.com/gta-san-andreas/gta-san-andreas-cheats-ps5-ps4-ps3-ps2",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-san-andreas/gta-san-andreas-cheats-ps5-ps4-ps3-ps2",
+      "bytes": 183541
+    },
+    {
+      "key": "sa-xbox",
+      "url": "https://www.gtabase.com/gta-san-andreas/gta-san-andreas-cheats-xbox-360-xbox-one",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-san-andreas/gta-san-andreas-cheats-xbox-360-xbox-one",
+      "bytes": 177686
+    },
+    {
+      "key": "vc-ps",
+      "url": "https://www.gtabase.com/gta-vice-city/gta-vice-city-cheats-ps5-ps4-ps3-ps2",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-vice-city/gta-vice-city-cheats-ps5-ps4-ps3-ps2",
+      "bytes": 126955
+    },
+    {
+      "key": "vc-xbox",
+      "url": "https://www.gtabase.com/gta-vice-city/gta-vice-city-cheats-xbox-360-xbox-one",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-vice-city/gta-vice-city-cheats-xbox-360-xbox-one",
+      "bytes": 120467
+    },
+    {
+      "key": "iii-ps",
+      "url": "https://www.gtabase.com/gta-3/gta-3-cheats-ps5-ps4-ps3-ps2",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-3/gta-3-cheats-ps5-ps4-ps3-ps2",
+      "bytes": 90454
+    },
+    {
+      "key": "iii-xbox",
+      "url": "https://www.gtabase.com/gta-3/gta-3-cheats-xbox-360-xbox-one",
+      "status": 200,
+      "final": "https://www.gtabase.com/gta-3/gta-3-cheats-xbox-360-xbox-one",
+      "bytes": 86255
+    },
+    {
+      "key": "advance",
+      "url": "https://www.gtabase.com/articles/grand-theft-auto-advance-cheats-all-cheat-codes-gba",
+      "status": 200,
+      "final": "https://www.gtabase.com/articles/grand-theft-auto-advance-cheats-all-cheat-codes-gba",
+      "bytes": 75068
+    },
+    {
+      "key": "advance-check",
+      "url": "https://www.igrandtheftauto.com/gtagba/cheats",
+      "status": 200,
+      "final": "https://www.igrandtheftauto.com/gtagba/cheats",
+      "bytes": 73497
+    },
+    {
+      "key": "london",
+      "url": "https://thegta.wiki/wiki/cheats-in-gta-london/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "london-check",
+      "url": "https://thegtaplace.com/topdown/gtalondon/pc-cheats/",
+      "status": 200,
+      "final": "https://thegtaplace.com/topdown/gtalondon/pc-cheats/",
+      "bytes": 23842
+    },
+    {
+      "key": "london61-check",
+      "url": "https://www.neoseeker.com/gta-london/faqs/68066-grand-theft-auto-london-1961.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "iii-check",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_III",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_III",
+      "bytes": 160923
+    },
+    {
+      "key": "vc-check",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_Vice_City",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_Vice_City",
+      "bytes": 432235
+    },
+    {
+      "key": "sa-check",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_San_Andreas",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_San_Andreas",
+      "bytes": 755375
+    },
+    {
+      "key": "iv-check",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_IV",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_IV",
+      "bytes": 97750
+    },
+    {
+      "key": "cw-check",
+      "url": "https://thegta.wiki/wiki/cheats-in-gta-chinatown-wars/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "lcs-check",
+      "url": "https://thegta.wiki/wiki/cheats-in-gta-liberty-city-stories/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "vcs-check",
+      "url": "https://thegta.wiki/wiki/cheats-in-gta-vice-city-stories/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "lcs-check",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_Liberty_City_Stories",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_Liberty_City_Stories",
+      "bytes": 161020
+    },
+    {
+      "key": "vcs-check",
+      "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_Vice_City_Stories",
+      "status": 200,
+      "final": "https://www.grandtheftwiki.com/Cheats_in_GTA_Vice_City_Stories",
+      "bytes": 57734
+    },
+    {
+      "key": "london-ps",
+      "url": "https://thegtaplace.com/topdown/gtalondon/ps-cheats/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "london-archive",
+      "url": "https://planetgrandtheftauto.gamespy.com/View7f4a.html?id=53&view=Cheats.Detail",
+      "status": 200,
+      "final": "https://planetgrandtheftauto.gamespy.com/View7f4a.html?id=53&view=Cheats.Detail",
+      "bytes": 60586
+    },
+    {
+      "key": "gta1-pc-check",
+      "url": "https://thegtaplace.com/topdown/gta/pc-cheats/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "gta2-pc-check",
+      "url": "https://thegtaplace.com/topdown/gta2/pc-cheats/",
+      "status": 200,
+      "final": "https://thegtaplace.com/topdown/gta2/pc-cheats/",
+      "bytes": 25540
+    },
+    {
+      "key": "iii-authority",
+      "url": "https://www.pcgamer.com/gta-3-cheats-pc/",
+      "status": 200,
+      "final": "https://www.pcgamer.com/gta-3-cheats-pc/",
+      "bytes": 2057020
+    },
+    {
+      "key": "vc-authority",
+      "url": "https://www.pcgamer.com/gta-vice-city-cheats-pc/",
+      "status": 200,
+      "final": "https://www.pcgamer.com/gta-vice-city-cheats-pc/",
+      "bytes": 2112379
+    },
+    {
+      "key": "sa-authority",
+      "url": "https://www.gta-sanandreas.com/buttoncheats/pc.php",
+      "status": 200,
+      "final": "https://www.gta-sanandreas.com/buttoncheats/pc.php",
+      "bytes": 133359
+    },
+    {
+      "key": "gta1-pc-check",
+      "url": "https://thegtaplace.com/topdown/gta1/pc-cheats/",
+      "status": 200,
+      "final": "https://thegtaplace.com/topdown/gta1/pc-cheats/",
+      "bytes": 24735
+    },
+    {
+      "key": "gta1-gbc",
+      "url": "https://thegtaplace.com/topdown/gta1/gbc-cheats/",
+      "status": 200,
+      "final": "https://thegtaplace.com/topdown/gta1/gbc-cheats/",
+      "bytes": 21991
+    },
+    {
+      "key": "gta2-gbc",
+      "url": "https://thegtaplace.com/topdown/gta2/gbc-cheats/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "london-ps-check",
+      "url": "https://thegtaplace.com/topdown/gtalondon/ps1-cheats/",
+      "status": 200,
+      "final": "https://thegtaplace.com/topdown/gtalondon/ps1-cheats/",
+      "bytes": 23051
+    },
+    {
+      "key": "sa-xbox-authority",
+      "url": "https://www.gta-sanandreas.com/buttoncheats/xbox.php",
+      "status": 200,
+      "final": "https://www.gta-sanandreas.com/buttoncheats/xbox.php",
+      "bytes": 141935
+    }
+  ],
+  "rumourProvenance": {
+    "official": "Rockstar GTA VI page checked fresh: premise, platforms and release date; body did not document cheat codes",
+    "commentary": "James Hudson, Cheat Code Central, October 28, 2026: prediction based on earlier games, not an official cheat announcement",
+    "originalCommunity": "https://www.reddit.com/r/GTA6/comments/1l8yf77/cheats/ read through web connector; direct cloud fetch returned 403. Existing historical discussion with requests for gravity/invincibility/Director Mode, not a newly dated leak. No invented post date or quote.",
+    "scope": "Money, health/invincibility, weapons, vehicles/jetpack, weather/gravity, input methods, edition/platform assumptions and evidence requirements. No working GTA VI sequence claimed."
+  },
+  "catalogue": {
+    "scope": "Documented built-in codes by original game release, with platform/version groups; excludes trainers, memory editors, an unbounded inventory of glitches and saved-game passwords. The catalogue does not claim exhaustive coverage of every patch or unlisted platform conversion.",
+    "order": [
+      "GTA VI (unreleased)",
+      "GTA Online",
+      "GTA V",
+      "The Ballad of Gay Tony",
+      "Chinatown Wars",
+      "The Lost and Damned",
+      "GTA IV",
+      "Vice City Stories",
+      "Liberty City Stories",
+      "San Andreas",
+      "Advance",
+      "Vice City",
+      "GTA III",
+      "GTA 2",
+      "London 1961",
+      "London 1969",
+      "GTA 1"
+    ],
+    "platformCounts": {
+      "iii": [
+        {
+          "platform": "PC",
+          "entries": 24
+        },
+        {
+          "platform": "PlayStation",
+          "entries": 24
+        },
+        {
+          "platform": "Xbox One / Series",
+          "entries": 24
+        },
+        {
+          "platform": "Xbox original",
+          "entries": 23
+        }
+      ],
+      "vc": [
+        {
+          "platform": "PC",
+          "entries": 61
+        },
+        {
+          "platform": "PlayStation",
+          "entries": 55
+        },
+        {
+          "platform": "Xbox One / Series",
+          "entries": 55
+        },
+        {
+          "platform": "Xbox original",
+          "entries": 54
+        }
+      ],
+      "sa": [
+        {
+          "platform": "PC",
+          "entries": 93
+        },
+        {
+          "platform": "PlayStation",
+          "entries": 93
+        },
+        {
+          "platform": "Xbox One / Series",
+          "entries": 93
+        },
+        {
+          "platform": "Xbox original",
+          "entries": 92
+        }
+      ],
+      "lcs": [
+        {
+          "platform": "PSP",
+          "entries": 43
+        },
+        {
+          "platform": "PS2",
+          "entries": 39
+        }
+      ],
+      "vcs": [
+        {
+          "platform": "PSP",
+          "entries": 36
+        },
+        {
+          "platform": "PS2",
+          "entries": 32
+        }
+      ],
+      "advance": [
+        {
+          "platform": "Game Boy Advance",
+          "entries": 9
+        }
+      ],
+      "iv": [
+        {
+          "platform": "PC / PS3 / Xbox 360",
+          "entries": 16
+        }
+      ],
+      "tlad": [
+        {
+          "platform": "PC / PS3 / Xbox 360",
+          "entries": 6
+        }
+      ],
+      "tbogt": [
+        {
+          "platform": "PC / PS3 / Xbox 360",
+          "entries": 9
+        }
+      ],
+      "cw": [
+        {
+          "platform": "Nintendo DS",
+          "entries": 16
+        },
+        {
+          "platform": "PSP",
+          "entries": 16
+        },
+        {
+          "platform": "iOS clásico",
+          "entries": 13
+        }
+      ],
+      "gta2": [
+        {
+          "platform": "PlayStation",
+          "entries": 12
+        },
+        {
+          "platform": "PC",
+          "entries": 26
+        },
+        {
+          "platform": "Dreamcast",
+          "entries": 17
+        }
+      ],
+      "gta1": [
+        {
+          "platform": "PlayStation",
+          "entries": 19
+        },
+        {
+          "platform": "PC",
+          "entries": 12
+        },
+        {
+          "platform": "Game Boy Color",
+          "entries": 2
+        }
+      ],
+      "london69": [
+        {
+          "platform": "PlayStation",
+          "entries": 16
+        },
+        {
+          "platform": "PC",
+          "entries": 15
+        }
+      ],
+      "london61": [
+        {
+          "platform": "PC",
+          "entries": 15
+        }
+      ]
+    },
+    "localizedInputRows": 1060,
+    "gtaV": "Reuse existing 36-entry source data and link the detailed existing edition guide. No independent copied full article.",
+    "method": "Functional labels translated originally; factual code strings transcribed, normalized and compared with linked references. No claim of hands-on execution on purchased game copies. Expandable platform tables remain in server HTML.",
+    "curation": [
+      "Excluded disputed/nonfunctional Vice City strings FULLCITYPEOPLEMINES, FREEWAYFORANGELJOY and YOUCANTLEAVEMEALONE rather than assert their effects. Excluded uncorroborated GTA III NOWEAPONSFORALL.",
+      "Corrected GUSNDHE to GUSNHDE against GTA-SanAndreas.com; added THEGAMBLER and AFZLLQLL omitted by one list. NATURALTALENT describes vehicle skills, not diving. BAGUVIX described as limited resistance, not universal immortality.",
+      "PSP cannot have R1/L1 as separate buttons: corrected those two obvious GTABase transcription entries to R/L, compared with PSP reference.",
+      "Original Xbox White/Black and Left/Right Trigger mapping explicitly documented by GTABase; cross-check matched all six populated GTA III legacy rows and 52/53 Vice City rows. Preserved modern Xbox distinction and San Andreas Xbox 360 swapping note. Legacy wiki has several visibly omitted directions; modern source sequences retained with attribution.",
+      "London 1961 shares London PC codes according to the historical Alex Carr guide found in search. Full GameFAQs/Neoseeker bodies unavailable here; no claim of full-body access.",
+      "Code entry counts are per platform, not distinct cheat effects or measured demand."
+    ]
+  },
+  "media": {
+    "reuse": [
+      "jason.webp",
+      "vice-city.webp",
+      "gta5-helicopter.webp",
+      "history-iv.webp",
+      "history-sanandreas.webp"
+    ],
+    "provenance": "Existing official assets documented in public/media/credits.json, reused in contextual editorial commentary with translated alt/caption and correct per-image credit. No AI, mods, leaked art or GTA V presented as VI.",
+    "rights": "Copyright reserved; no unrestricted reuse licence or ownership claimed."
+  },
+  "popunder": {
+    "authorizedSource": "https://abscloud.org/1/411b396510ae8d6a491f3f094ff61658",
+    "activation": "Native trusted internal-link navigation records destination intent for 60 seconds in per-tab sessionStorage; supplied SDK loads on matching destination at most once per 30 minutes per tab. Does not intercept navigation or synthesize clicks/popups.",
+    "excluded": "Consent/theme/search buttons, anchors on same path, legal/external/download links, modified clicks and new-tab targets do not arm it. Storage blocked: no activation; native navigation remains.",
+    "providerCheck": {
+      "url": "https://abscloud.org/1/411b396510ae8d6a491f3f094ff61658",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "limits": "SDK activation cap is not provider popup frequency verification. Real window opening, fill/revenue and provider dashboard frequency unverified; provider/browser controls not bypassed. Other ad unit IDs, CSP/security headers, AdSense and Analytics consent unchanged."
+  },
+  "validation": {
+    "build": "npm run build:release passed; 70 topics, 253 generated pages plus root copy",
+    "static": "node scripts/verify-static.mjs passed: 254 HTML, 10731 internal links, 479 structured-data blocks",
+    "browser": "42 distinct desktop/mobile checks covered by passing results: 38 initial passing checks plus successful corrected lazy-image checks and new language-selector checks. Dedicated catalogue suite: 8 passed; popunder: 8 passed; Analytics: 16 passed; AdSense: 2 passed; existing ad placements: 2 passed; daily report: 6 passed.",
+    "fixtureCorrection": "Image check now scrolls to lazy inline images before asserting decode. No eager-loading regression introduced.",
+    "catalogueInputs": 1193,
+    "publicPublication": "must be verified separately after main update and Cloudflare terminal success"
+  }
+}

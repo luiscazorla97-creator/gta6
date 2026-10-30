@@ -232,7 +232,7 @@ test('the old opaque sandbox blocks storage while the direct provider has its pa
  expect(result).toBe('SecurityError');
 });
 
-test('public markup and sitemap contain no disabled popunder or retired ad wrapper URLs',async({request})=>{
+test('public markup and sitemap contain no unconditional popunder or retired ad wrapper URLs',async({request})=>{
  const html=await (await request.get(article)).text();
  expect(html).toContain('BlogPosting');expect(html).toContain('index,follow');
  expect(html).not.toContain('abscloud.org');expect(html).not.toMatch(/src="\/ads\//);
