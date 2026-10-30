@@ -21,7 +21,7 @@ test('one daily topic has three indexable language editions with sourced metadat
   const schema=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(s=>s['@type']==='BlogPosting');
   expect(schema.headline).toBe(article.title[index]);expect(schema.description).toBe(article.excerpt[index]);expect(schema.inLanguage).toBe(locale);
   expect(schema.datePublished).toBe('2026-10-30');expect(schema.dateModified).toBe('2026-10-30');expect(schema.citation).toEqual(article.sources.map(s=>s.url));
-  expect(html.match(/src="https:\/\/www.googletagmanager.com\/gtag\/js\?id=G-JXHZ3W8WHP"/g)).toHaveLength(1);
+  expect(html).not.toContain('src="https://www.googletagmanager.com/gtag/js');
   expect(html.match(/src="https:\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js\?client=ca-pub-1382859681401211"/g)).toHaveLength(1);
   expect(html).not.toContain('data-ad-unit=');
  }
