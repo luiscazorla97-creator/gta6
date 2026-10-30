@@ -1,3 +1,9 @@
+# Current status — 30 October 2026
+
+The user requested temporary removal while requesting AdSense approval. All five Adsterra units have enabled=false and popunder remains disabled. AdSlot renders no markup for disabled units; no scripts or placements are requested. Public unit IDs and the integration are retained for reversible restoration only on user request. Google AdSense verification remains installed; no approval claim. The enabled-ad fixture suite automatically skips while all units are off; tests/ads-disabled.spec.ts checks actual lack of requests and slots.
+
+The following sections document the previous enabled integration and are historical while paused.
+
 # Adsterra integration
 
 Five banner formats are configured and enabled in `src/ads/config.ts`; no public admin/CMS exists. At the owner’s request on 2026-10-28, enabled banners load automatically, matching viewport/container width and proximity. The site no longer presents its own acceptance prompt. Provider and browser controls are not bypassed.

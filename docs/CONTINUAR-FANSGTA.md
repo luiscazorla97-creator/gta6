@@ -46,3 +46,5 @@ El pedido manual del 29 de octubre añade dos rumores contrastados (PC y multiju
 La ejecución diaria del 29 de octubre añade un único tema: la fecha y formatos del Original Score de Justice y el sencillo Pusher, con tres versiones completas. Se distingue del artículo existente de The Album. Investigación: docs/editorial/2026-10-29-daily-justice-research.md.
 
 El pedido manual posterior del 29 de octubre agrega tres guías de análisis (NPC, policía, rendimiento PS5 Pro), cada una en ES/EN/FR. Se conserva la programación diaria. Ver docs/editorial/2026-10-29-manual-three-research.md y el brief adjunto guardado.
+
+Estado publicitario actualizado el 30 de octubre: Adsterra temporalmente desactivado por pedido del usuario. No reactivarlo sin nuevo pedido. Código de verificación de Google AdSense instalado; aprobación pendiente de comprobar en la cuenta del titular. Ver docs/adsense.md y docs/adsterra.md.

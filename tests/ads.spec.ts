@@ -4,6 +4,7 @@ import type { Page, Route } from '@playwright/test';
 import { adUnits } from '../src/ads/config';
 import type { AdUnitName } from '../src/ads/config';
 
+test.skip(!Object.values(adUnits).some(unit=>unit.enabled),'Adsterra temporarily disabled by the user; enabled-unit fixtures resume if re-enabled.');
 const article='/es/noticias/gta-6-19-november-2026/';
 const requests=new WeakMap<Page,string[]>();
 const fixtureOrigin='https://fixtures.fansgta.test';
