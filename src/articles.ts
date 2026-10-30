@@ -1,3 +1,4 @@
+import { historyArticles } from './batches/history';
 import { transport20261030 } from './batches/2026-10-30-daily-transport';
 import { manualArticles20261030 } from './batches/2026-10-30-manual';
 import { deepArticles20261029 } from './batches/2026-10-29-deep';
@@ -12,7 +13,7 @@ import { expansions } from './expansions';
 import { newsArticles } from './news';
 import type { Section } from './routes';
 type Three=[string,string,string];
-export interface Article {id:string;category:Section;slug:Three;image:string;imageCaption?:Three;imageCredit?:{label:string;url:string};tag:Three;title:Three;excerpt:Three;body:Three;sections:{heading:Three;paragraphs:Three[];table?:{headers:Three[];rows:Three[][]};image?:{key:string;alt:Three;caption:Three};references?:{label:string;url:string}[]}[];sources:{label:string;url:string}[];published:string;updated:string;}
+export interface Article {id:string;category:Section;slug:Three;image:string;imageAlt?:Three;history?:{order:number;game:string;release:string;spoilers:boolean};imageCaption?:Three;imageCredit?:{label:string;url:string};tag:Three;title:Three;excerpt:Three;body:Three;sections:{heading:Three;paragraphs:Three[];table?:{headers:Three[];rows:Three[][]};image?:{key:string;alt:Three;caption:Three};references?:{label:string;url:string}[]}[];sources:{label:string;url:string}[];published:string;updated:string;}
 const official={label:'Rockstar Games — Grand Theft Auto VI',url:'https://www.rockstargames.com/VI'};
 const trailer={label:'Rockstar Games — Grand Theft Auto VI Trailer 1',url:'https://www.youtube.com/watch?v=QdBZY2fkU-0'};
 function article(a:Omit<Article,'published'|'updated'|'body'>):Article{return {...a,published:'2026-10-27',updated:'2026-10-27',body:a.sections[0].paragraphs[0]};}
@@ -55,4 +56,4 @@ const evergreenArticles:Article[]=[
  {heading:['Una ficha debe indicar de dónde sale cada dato','A profile should show where each detail comes from','Une fiche doit préciser la source de chaque information'],paragraphs:[['En FansGTA preferimos una ficha breve con una referencia clara a una larga lista de detalles inventados. Este artículo es una guía de lectura del material promocional, no una lista de biografías confirmadas. Las fuentes originales enlazadas permiten diferenciar el material publicado por el estudio de nuestros comentarios.','FansGTA favours a short profile with clear references over a long list of invented details. This article is a guide to reading promotional material, not a list of confirmed biographies. The original sources linked below distinguish studio-published material from our commentary.','FansGTA privilégie une fiche courte et sourcée à une longue liste de détails inventés. Cet article explique comment lire le matériel promotionnel ; il ne constitue pas une liste de biographies confirmées. Les sources originales ci-dessous distinguent le matériel du studio de nos commentaires.']]}],sources:[official,trailer]})
 ];
 
-export const articles:Article[]=[...transport20261030,...manualArticles20261030,...deepArticles20261029,...justice20261029,...rumours20261029,...cloudTestArticles20261028,...tenArticles20261028,...batch20261028,...newsArticles,...characterArticles,...theoryArticles,...evergreenArticles].map(a=>({...a,sections:[...a.sections,...(expansions[a.id]??[])]}));
+export const articles:Article[]=[...historyArticles,...transport20261030,...manualArticles20261030,...deepArticles20261029,...justice20261029,...rumours20261029,...cloudTestArticles20261028,...tenArticles20261028,...batch20261028,...newsArticles,...characterArticles,...theoryArticles,...evergreenArticles].map(a=>({...a,sections:[...a.sections,...(expansions[a.id]??[])]}));

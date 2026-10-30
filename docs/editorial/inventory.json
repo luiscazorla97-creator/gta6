@@ -1,5 +1,260 @@
 [
   {
+    "id": "history-gta1-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA 1: trama, personajes y creación",
+      "GTA 1 history: story, characters and development",
+      "Histoire de GTA 1 : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-1-trama-creacion/",
+      "/en/guides/gta-1-story-development-history/",
+      "/fr/guides/histoire-gta-1-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-london69-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA: London 1969: trama, personajes y creación",
+      "GTA: London 1969 history: story, characters and development",
+      "Histoire de GTA: London 1969 : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-london-1969-trama-creacion/",
+      "/en/guides/gta-london-1969-story-development-history/",
+      "/fr/guides/histoire-gta-london-1969-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-london61-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA: London 1961: trama, personajes y creación",
+      "GTA: London 1961 history: story, characters and development",
+      "Histoire de GTA: London 1961 : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-london-1961-trama-creacion/",
+      "/en/guides/gta-london-1961-story-development-history/",
+      "/fr/guides/histoire-gta-london-1961-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-gta2-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA 2: trama, personajes y creación",
+      "GTA 2 history: story, characters and development",
+      "Histoire de GTA 2 : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-2-trama-creacion/",
+      "/en/guides/gta-2-story-development-history/",
+      "/fr/guides/histoire-gta-2-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-gta3-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA III: trama, personajes y creación",
+      "GTA III history: story, characters and development",
+      "Histoire de GTA III : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-3-trama-creacion/",
+      "/en/guides/gta-3-story-development-history/",
+      "/fr/guides/histoire-gta-3-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-vicecity-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA: Vice City: trama, personajes y creación",
+      "GTA: Vice City history: story, characters and development",
+      "Histoire de GTA: Vice City : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-vice-city-trama-creacion/",
+      "/en/guides/gta-vice-city-story-development-history/",
+      "/fr/guides/histoire-gta-vice-city-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-advance-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA Advance: trama, personajes y creación",
+      "GTA Advance history: story, characters and development",
+      "Histoire de GTA Advance : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-advance-trama-creacion/",
+      "/en/guides/gta-advance-story-development-history/",
+      "/fr/guides/histoire-gta-advance-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-sanandreas-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA: San Andreas: trama, personajes y creación",
+      "GTA: San Andreas history: story, characters and development",
+      "Histoire de GTA: San Andreas : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-san-andreas-trama-creacion/",
+      "/en/guides/gta-san-andreas-story-development-history/",
+      "/fr/guides/histoire-gta-san-andreas-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-lcs-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA: Liberty City Stories: trama, personajes y creación",
+      "GTA: Liberty City Stories history: story, characters and development",
+      "Histoire de GTA: Liberty City Stories : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-liberty-city-stories-trama-creacion/",
+      "/en/guides/gta-liberty-city-stories-story-development-history/",
+      "/fr/guides/histoire-gta-liberty-city-stories-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-vcs-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA: Vice City Stories: trama, personajes y creación",
+      "GTA: Vice City Stories history: story, characters and development",
+      "Histoire de GTA: Vice City Stories : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-vice-city-stories-trama-creacion/",
+      "/en/guides/gta-vice-city-stories-story-development-history/",
+      "/fr/guides/histoire-gta-vice-city-stories-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-gta4-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA IV: trama, personajes y creación",
+      "GTA IV history: story, characters and development",
+      "Histoire de GTA IV : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-4-trama-creacion/",
+      "/en/guides/gta-4-story-development-history/",
+      "/fr/guides/histoire-gta-4-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-tlad-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA IV: The Lost and Damned: trama, personajes y creación",
+      "GTA IV: The Lost and Damned history: story, characters and development",
+      "Histoire de GTA IV: The Lost and Damned : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-4-the-lost-and-damned-trama-creacion/",
+      "/en/guides/gta-4-the-lost-and-damned-story-development-history/",
+      "/fr/guides/histoire-gta-4-the-lost-and-damned-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-cw-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA: Chinatown Wars: trama, personajes y creación",
+      "GTA: Chinatown Wars history: story, characters and development",
+      "Histoire de GTA: Chinatown Wars : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-chinatown-wars-trama-creacion/",
+      "/en/guides/gta-chinatown-wars-story-development-history/",
+      "/fr/guides/histoire-gta-chinatown-wars-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-tbogt-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA: The Ballad of Gay Tony: trama, personajes y creación",
+      "GTA: The Ballad of Gay Tony history: story, characters and development",
+      "Histoire de GTA: The Ballad of Gay Tony : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-the-ballad-of-gay-tony-trama-creacion/",
+      "/en/guides/gta-the-ballad-of-gay-tony-story-development-history/",
+      "/fr/guides/histoire-gta-the-ballad-of-gay-tony-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-gta5-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA V: trama, personajes y creación",
+      "GTA V history: story, characters and development",
+      "Histoire de GTA V : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-5-trama-creacion/",
+      "/en/guides/gta-5-story-development-history/",
+      "/fr/guides/histoire-gta-5-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-online-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA Online: trama, personajes y creación",
+      "GTA Online history: story, characters and development",
+      "Histoire de GTA Online : scénario, personnages et création"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-online-trama-creacion/",
+      "/en/guides/gta-online-story-development-history/",
+      "/fr/guides/histoire-gta-online-scenario-creation/"
+    ]
+  },
+  {
+    "id": "history-gta6-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Historia de GTA 6: creación y trama anunciada hasta ahora",
+      "GTA 6 history: development and the story announced so far",
+      "Histoire de GTA 6 : création et scénario annoncé à ce jour"
+    ],
+    "paths": [
+      "/es/guias/historia-gta-6-trama-creacion/",
+      "/en/guides/gta-6-story-development-history/",
+      "/fr/guides/histoire-gta-6-scenario-creation/"
+    ]
+  },
+  {
     "id": "gta6-buses-trains-edge-20261030",
     "category": "news",
     "published": "2026-10-30",

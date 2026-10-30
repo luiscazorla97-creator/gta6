@@ -50,3 +50,14 @@
 
 .site-ad-band{padding-block:1px;min-width:0}.site-ad-band .ad-slot-enabled{margin-block:20px}.site-ad-rail{display:none;position:absolute;top:148px;width:160px;z-index:5}.site-ad-rail .ad-slot-enabled{margin:0}.site-ad-rail-left{left:max(16px,calc((100vw - 1640px)/4))}.site-ad-rail-right{right:max(16px,calc((100vw - 1640px)/4))}
 @media(min-width:1760px){.site-ad-rail{display:block}}
+
+/* Show official historical catalogue artwork whole, with its portrait ratio. */
+.history-article > .editorial-figure > img{object-fit:contain;max-height:560px;width:100%;background:#10121b}
+.history-card .archive-image{object-fit:contain;background:#10121b}
+.history-notice{border-left:3px solid var(--pink);padding:1rem;background:var(--surface);border-radius:4px}
+.history-series{border:1px solid var(--border);border-radius:12px;padding:1rem;margin:1.5rem 0}
+.history-series summary{cursor:pointer;font-weight:700}
+.history-series ol{columns:2;padding-left:1.4rem}
+.history-series li{break-inside:avoid;margin:.5rem 0}
+.history-series a[aria-current=page]{font-weight:800;color:var(--pink)}
+@media(max-width:600px){.history-series ol{columns:1}.history-article > .editorial-figure > img{max-height:420px}}

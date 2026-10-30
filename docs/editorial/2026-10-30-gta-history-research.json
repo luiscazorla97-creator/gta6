@@ -1,0 +1,478 @@
+{
+  "checked": "2026-10-30",
+  "scope": "17 original histories, plot and creation, ES/EN/FR; manual series independent of daily news schedule",
+  "baseMain": "3967bc600f8dc45461833cfd191115dd0d29e3fa",
+  "previousTopics": 52,
+  "previousEditions": 156,
+  "deduplication": {
+    "method": "Read full current inventory and compare intent, not titles. No existing plot-and-development history matches these 17 topics. GTA V cheat reference and GTA VI character/location/weather guides remain distinct and linked.",
+    "previousPathsPreserved": true,
+    "excludedDuplicateProducts": [
+      "Grand Theft Auto: Director’s Cut",
+      "Grand Theft Auto: The Trilogy",
+      "The Definitive Edition",
+      "Episodes from Liberty City",
+      "platform ports/remasters: covered within original-game histories"
+    ]
+  },
+  "searchSignals": [
+    {
+      "key": "suggest-es",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=historia%20gta",
+      "final": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=historia%20gta",
+      "status": 200,
+      "bytes": 312,
+      "suggestions": [
+        "historia gta 5",
+        "historia gta",
+        "historia gta san andreas",
+        "historia gta 6",
+        "historia gta vice city",
+        "historia gta 4",
+        "historia gta 3",
+        "historia gta vi",
+        "historia gta v horas",
+        "historia gta 5 duracion"
+      ]
+    },
+    {
+      "key": "suggest-en",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta%20story",
+      "final": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta%20story",
+      "status": 200,
+      "bytes": 341,
+      "suggestions": [
+        "gta story mode cheats",
+        "gta story mode",
+        "gta story mode cheat codes",
+        "gta story",
+        "gta story mode missions in order",
+        "gta story mode length",
+        "gta storyline",
+        "gta story length",
+        "gta story mode money glitch",
+        "gta story mode characters"
+      ]
+    },
+    {
+      "key": "suggest-fr",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=histoire%20gta",
+      "final": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=histoire%20gta",
+      "status": 200,
+      "bytes": 285,
+      "suggestions": [
+        "histoire gta 6",
+        "histoire gta 5",
+        "histoire gta 5 temps",
+        "histoire gta",
+        "histoire gta 4",
+        "histoire gta san andreas",
+        "histoire gta 3",
+        "histoire gta vice city",
+        "histoire gta 6 temps"
+      ]
+    }
+  ],
+  "searchLimits": "Autocomplete is a current query-intent signal, not search volume, a popularity ranking or a Google Trends measurement. Web search returned one empty/error result during follow-up. No most-searched claim or SEO ranking guarantee.",
+  "primaryCatalogues": [
+    {
+      "game": "gta",
+      "url": "https://www.rockstargames.com/games/gta",
+      "status": 200,
+      "description": "Drive dozens of varied vehicles around three of America's toughest cities.Only the best will be able to tame the fastest cars. Only the smartest will know all the shortcuts and the whereabouts of the hottest wheels.Only the toughest will be able to..."
+    },
+    {
+      "game": "gtalondon",
+      "url": "https://www.rockstargames.com/games/gtalondon",
+      "status": 200,
+      "description": "London can be yours, but as betrayal and brutality engulf your world, you've got to keep a level head, keep earning the cash, and keep driving a sleek ride. Or you'll have your head kicked in, and no mistake, sunshine.You're playing with the big boys..."
+    },
+    {
+      "game": "gta2",
+      "url": "https://www.rockstargames.com/games/gta2",
+      "status": 200,
+      "description": "Grand Theft Auto is back. The cars are faster. The streets are busier. The bad guys are nastier. The police are angrier. And now, the FBI and the Army are getting involved...Seven ruthless gangs are involved in a ruthless power struggle and it is up to..."
+    },
+    {
+      "game": "grandtheftauto3",
+      "url": "https://www.rockstargames.com/games/grandtheftauto3",
+      "status": 200,
+      "description": "Welcome to Liberty City. Where it all began. The critically acclaimed blockbuster Grand Theft Auto III brings to life the dark and seedy underworld of Liberty City. With a massive and diverse open world, a wild cast of characters from every walk of..."
+    },
+    {
+      "game": "vicecity",
+      "url": "https://www.rockstargames.com/games/vicecity",
+      "status": 200,
+      "description": "Welcome to the 1980s. From the decade of big hair, excess, and pastel suits comes a story of one man's rise to the top of the criminal pile as Grand Theft Auto returns.Vice City is a huge urban sprawl ranging from the beach to the swamps and the glitz..."
+    },
+    {
+      "game": "sanandreas",
+      "url": "https://www.rockstargames.com/games/sanandreas",
+      "status": 200,
+      "description": "Five years ago Carl Johnson escaped from the pressures of life in Los Santos, San Andreas — a city tearing itself apart with gang trouble, drugs, and corruption. Where film stars and millionaires do their best to avoid the dealers and gangbangers.Now,..."
+    },
+    {
+      "game": "grandtheftauto-gba",
+      "url": "https://www.rockstargames.com/games/grandtheftauto-gba",
+      "status": 200,
+      "description": "The legendary, rule-breaking and genre-defying Grand Theft Auto franchise has arrived on the Game Boy Advance.Return to the streets of Liberty City in a brand-new story, all new missions, and classic open-ended Grand Theft Auto gameplay."
+    },
+    {
+      "game": "libertycitystories",
+      "url": "https://www.rockstargames.com/games/libertycitystories",
+      "status": 200,
+      "description": "There are a million stories in Liberty City. This one changes everything. Once a trusted wise guy in the Leone crime family, Toni Cipriani was forced into hiding after killing a made man. Now he's back and it's time for things to be put right.The..."
+    },
+    {
+      "game": "vicecitystories",
+      "url": "https://www.rockstargames.com/games/vicecitystories",
+      "status": 200,
+      "description": "Vice City, 1984. Opportunity abounds in a city emerging from the swamps, its growth fueled by the violent power struggle in a lucrative drug trade. Construction is everywhere as a shining metropolis rises from foundations of crime and betrayal.As a..."
+    },
+    {
+      "game": "IV",
+      "url": "https://www.rockstargames.com/games/IV",
+      "status": 200,
+      "description": "What does the American Dream mean today? For Niko Bellic, fresh off the boat from Europe, it is the hope he can escape his past. For his cousin, Roman, it is the vision that together they can find fortune in Liberty City, gateway to the land of..."
+    },
+    {
+      "game": "thelostanddamned",
+      "url": "https://www.rockstargames.com/games/episodesfromlibertycity",
+      "status": 200,
+      "description": "Liberty City worships money and status — it's heaven for those who have them, and a living nightmare for those who don’t. Johnny, a veteran member of The Lost biker gang, is caught in the middle of a vicious turf war with rival gangs for control of the..."
+    },
+    {
+      "game": "theballadofgaytony",
+      "url": "https://www.rockstargames.com/games/episodesfromlibertycity",
+      "status": 200,
+      "description": "Liberty City worships money and status — it's heaven for those who have them, and a living nightmare for those who don’t. Johnny, a veteran member of The Lost biker gang, is caught in the middle of a vicious turf war with rival gangs for control of the..."
+    },
+    {
+      "game": "chinatownwars",
+      "url": "https://www.rockstargames.com/games/chinatownwars",
+      "status": 200,
+      "description": "Following his father's murder, Huang Lee has a simple mission: deliver an ancient sword to his Uncle Kenny to ensure his family retains control of the Triad gangs of Liberty City. Huang is a spoiled rich kid who expects everything to run smoothly, but..."
+    },
+    {
+      "game": "gta-v",
+      "url": "https://www.rockstargames.com/gta-v",
+      "status": 200,
+      "description": "Grand Theft Auto V and GTA Online — now upgraded for PlayStation 5 and Xbox Series X|S with stunning visuals, faster loading, and more — delivering the action-packed, blockbuster Story Mode adventure and the dynamic, ever-evolving online world of GTA..."
+    },
+    {
+      "game": "gta-online",
+      "url": "https://www.rockstargames.com/gta-online",
+      "status": 200,
+      "description": "Experience GTA Online, a dynamic and ever-evolving online universe for up to 30 players, including all existing gameplay upgrades and content released since launch ready to enjoy solo or with friends. Now available for PlayStation 5 and Xbox Series X|S."
+    }
+  ],
+  "corroboration": [
+    {
+      "key": "gta1",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_(video_game)",
+      "status": 200,
+      "chars": 32776
+    },
+    {
+      "key": "london69",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_London_1969",
+      "status": 200,
+      "chars": 14417
+    },
+    {
+      "key": "london61",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_London_1961",
+      "status": 200,
+      "chars": 14465
+    },
+    {
+      "key": "gta2",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_2",
+      "status": 200,
+      "chars": 20073
+    },
+    {
+      "key": "gta3",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_III",
+      "status": 200,
+      "chars": 85072
+    },
+    {
+      "key": "vicecity",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City",
+      "status": 200,
+      "chars": 71906
+    },
+    {
+      "key": "sanandreas",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas",
+      "status": 200,
+      "chars": 95306
+    },
+    {
+      "key": "advance",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_Advance",
+      "status": 200,
+      "chars": 16678
+    },
+    {
+      "key": "lcs",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Liberty_City_Stories",
+      "status": 200,
+      "chars": 28846
+    },
+    {
+      "key": "vcs",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Vice_City_Stories",
+      "status": 200,
+      "chars": 24686
+    },
+    {
+      "key": "gta4",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV",
+      "status": 200,
+      "chars": 97186
+    },
+    {
+      "key": "tlad",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV:_The_Lost_and_Damned",
+      "status": 200,
+      "chars": 26194
+    },
+    {
+      "key": "tbogt",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_The_Ballad_of_Gay_Tony",
+      "status": 200,
+      "chars": 16010
+    },
+    {
+      "key": "cw",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Chinatown_Wars",
+      "status": 200,
+      "chars": 37656
+    },
+    {
+      "key": "gta5",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+      "status": 200,
+      "chars": 104446
+    },
+    {
+      "key": "online",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_Online",
+      "status": 200,
+      "chars": 85378
+    },
+    {
+      "key": "gta6",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "status": 200,
+      "chars": 111042
+    }
+  ],
+  "extraSources": [
+    {
+      "key": "iii-qa",
+      "url": "https://www.rockstargames.com/newswire/article/19861/grand-theft-auto-iii-your-questions-answered-part-one-claude-dar.html",
+      "final": "https://www.rockstargames.com/newswire/article/51974aa3a99a59/grand-theft-auto-iii-your-questions-answered-part-one-claude-dar.html",
+      "status": 200,
+      "bytes": 4798
+    },
+    {
+      "key": "iii-qa2",
+      "url": "https://www.rockstargames.com/newswire/article/25o241181oaa23/grand-theft-auto-iii-your-questions-answered-part-two-911-the-gh.html",
+      "final": "https://www.rockstargames.com/newswire/article/25o241181oaa23/grand-theft-auto-iii-your-questions-answered-part-two-911-the-gh.html",
+      "status": 200,
+      "bytes": 5789
+    },
+    {
+      "key": "online-launch",
+      "url": "https://news.xbox.com/en-us/2013/10/01/games-gta-online-available/",
+      "final": "https://news.xbox.com/en-us/2013/10/01/games-gta-online-available/",
+      "status": 200,
+      "bytes": 75629
+    },
+    {
+      "key": "london-reference",
+      "url": "https://www.gtabase.com/games/grand-theft-auto-london-1969-1961",
+      "final": "https://www.gtabase.com/games/grand-theft-auto-london-1969-1961",
+      "status": 200,
+      "bytes": 67239
+    },
+    {
+      "key": "rockstar-legal",
+      "url": "https://www.rockstargames.com/legal",
+      "final": "https://www.rockstargames.com/legal",
+      "status": 200,
+      "bytes": 3662
+    }
+  ],
+  "media": [
+    {
+      "slug": "gta",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/f34231941013a609948485830c84c072.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/gta",
+      "local": "public/media/history-gta.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 151366,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "gtalondon",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/dbc4dbe3e1d52c3fc405579090868d08.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/gtalondon",
+      "local": "public/media/history-gtalondon.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 35698,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "gta2",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/48371205a1d87d858baa85712d1f91bb.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/gta2",
+      "local": "public/media/history-gta2.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 50996,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "grandtheftauto3",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/81001f378e085cd20f8ee0182e23cb7c.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/grandtheftauto3",
+      "local": "public/media/history-grandtheftauto3.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 94128,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "vicecity",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/6bf5412b358a42300603159932412051.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/vicecity",
+      "local": "public/media/history-vicecity.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 124224,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "sanandreas",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/bbcbd2a2bb65ddad76e831c91c17b421.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/sanandreas",
+      "local": "public/media/history-sanandreas.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 121214,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "grandtheftauto-gba",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/15b671d990b1f3f941c6359b3235abf3.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/grandtheftauto-gba",
+      "local": "public/media/history-grandtheftauto-gba.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 8958,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "libertycitystories",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/ab528316ca7d31c2b041b62c4ce5dd36.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/libertycitystories",
+      "local": "public/media/history-libertycitystories.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 115870,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "vicecitystories",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/c82125e0b20342dba2008b0dcc6d55f6.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/vicecitystories",
+      "local": "public/media/history-vicecitystories.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 100720,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "IV",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/0b01707ef5603a26c1f542088f8f7c09.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/IV",
+      "local": "public/media/history-iv.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 106776,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "thelostanddamned",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/f9b044c847e4c971c6ac5d096fe3e0eb.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/episodesfromlibertycity",
+      "local": "public/media/history-thelostanddamned.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 79004,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "theballadofgaytony",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/14448aca4ceaab8680323ce19c963d68.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/episodesfromlibertycity",
+      "local": "public/media/history-theballadofgaytony.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 58936,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "chinatownwars",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/a8074783730a47af2fe5c2b67ddf7d31.jpg",
+      "sourcePage": "https://www.rockstargames.com/games/chinatownwars",
+      "local": "public/media/history-chinatownwars.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 122292,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "gta-v",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/ccac790d960f612fa0746c78b8052926.jpg",
+      "sourcePage": "https://www.rockstargames.com/gta-v",
+      "local": "public/media/history-gta-v.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 141022,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    },
+    {
+      "slug": "gta-online",
+      "source": "https://media-rockstargames-com.akamaized.net/mfe-r19/prod/__common/img/5dc0952c9e5beba577aeffe0289478bd.jpg",
+      "sourcePage": "https://www.rockstargames.com/gta-online",
+      "local": "public/media/history-gta-online.webp",
+      "width": 800,
+      "height": 988,
+      "bytes": 133344,
+      "provenance": "Rockstar Games public frontend filename-to-module artwork mapping, sites-rockstargames 21.0.5 chunk 7391"
+    }
+  ],
+  "rightsContext": "Official public promotional catalogue artwork identifies each work being reviewed in original historical commentary. Reduced 800x988 WebP, unchanged composition, credit and link; rights reserved. This is contextual editorial quotation/review, not a claim of an open or commercial reuse licence. Rockstar legal page was accessible only as a JavaScript shell, so no blanket permission is inferred. No AI, leaks, mods or GTA V art labelled as VI. Existing unedited official GTA VI hero retained.",
+  "limitations": [
+    "London 1961 uses clearly identified London 1969 parent-product art, because the official catalogue has no separate 1961 artwork. Caption explicitly explains this in all languages.",
+    "Advance uses the official catalogue’s logo, explicitly labelled promotional logo, not gameplay.",
+    "GTA VI unreleased: only publicly announced premise and development chronology; no invented ending, mission list or final review.",
+    "Chronology dates limited to verified years when sources differ on regional original release dates. GTA 2 story year left unspecified.",
+    "No direct playthrough is claimed; factual plot corroborated with referenced published histories. Official catalogue pages are JavaScript shells with accessible title/description; full article bodies not inferred from that access."
+  ],
+  "guardrails": "Previous 52 topics and paths preserved. No ad units, subscriptions, security, Analytics consent, AdSense verification, hero animation or automation schedule changed. No BarberControl work.",
+  "validation": {
+    "releaseBuild": "passed: TypeScript, Vite, SSR; 69 topics, 250 generated pages plus root copy",
+    "static": "passed: 251 HTML, 10524 internal links, 473 structured-data blocks",
+    "browser": "70 passed, desktop and mobile; all 51 history editions with actual image dimensions, translated alt/caption/credit, language switching, series links, no horizontal overflow; existing Analytics, AdSense, ad placement, hero motion and daily transport checks",
+    "externalScripts": "mocked in browser fixtures; no claim of Google account acceptance or real Adsterra creative fill",
+    "publicVerification": "separate post-deployment verification required; not inferred from GitHub push"
+  }
+}

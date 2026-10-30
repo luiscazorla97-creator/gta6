@@ -25,7 +25,9 @@ Para una nueva tanda editorial, se puede agregar:
 - `public/media/credits.json`: procedencia de imágenes oficiales.
 - `docs/adsterra.md`: integración publicitaria, pruebas y limitaciones.
 
-Al 30 de octubre de 2026 hay 52 temas, con 156 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
+Al 30 de octubre de 2026 hay 69 temas, con 207 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
+
+La serie manual de historias añadió 17 temas/51 versiones: trama y creación de GTA, London 1969/1961, GTA 2, III, Vice City, Advance, San Andreas, Liberty City Stories, Vice City Stories, IV, The Lost and Damned, Chinatown Wars, The Ballad of Gay Tony, V, Online y VI. Está en `src/batches/history*.ts`, categoría guías, con índice enlazado entre todas las entregas. VI se limita al proyecto y argumento anunciados, sin inventar el final. Las recopilaciones y remasterizaciones se explican dentro de cada original, sin duplicar campañas. Investigación, deduplicación y señales de consulta: `docs/editorial/2026-10-30-gta-history-research.json`. La programación diaria no cambia.
 
 ## Publicidad y diagnóstico móvil
 
