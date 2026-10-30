@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-buses-trains-edge-20261030",
+    "category": "news",
+    "published": "2026-10-30",
+    "titles": [
+      "GTA 6: autobuses y trenes utilizables, según Edge",
+      "GTA 6 buses and trains will be rideable, Edge reports",
+      "GTA 6 : bus et trains utilisables, selon Edge"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-autobuses-trenes-transporte-edge/",
+      "/en/news/gta-6-rideable-buses-trains-edge/",
+      "/fr/actualites/gta-6-bus-trains-transports-edge/"
+    ]
+  },
+  {
     "id": "gta6-dynamic-weather-20261030",
     "category": "guides",
     "published": "2026-10-30",

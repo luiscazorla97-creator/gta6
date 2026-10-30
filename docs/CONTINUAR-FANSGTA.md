@@ -25,7 +25,7 @@ Para una nueva tanda editorial, se puede agregar:
 - `public/media/credits.json`: procedencia de imágenes oficiales.
 - `docs/adsterra.md`: integración publicitaria, pruebas y limitaciones.
 
-Al 30 de octubre de 2026 hay 51 temas, con 153 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
+Al 30 de octubre de 2026 hay 52 temas, con 156 versiones localizadas. La tanda de diez temas añadió 30 versiones; la prueba cloud posterior incorpora una noticia sobre el calendario de Take-Two en los tres idiomas. Mantener el inventario actualizado después de nuevos lotes.
 
 ## Publicidad y diagnóstico móvil
 
@@ -50,3 +50,5 @@ El pedido manual posterior del 29 de octubre agrega tres guías de análisis (NP
 Estado publicitario actualizado el 30 de octubre: Adsterra temporalmente desactivado por pedido del usuario. No reactivarlo sin nuevo pedido. Código de verificación de Google AdSense instalado; aprobación pendiente de comprobar en la cuenta del titular. Ver docs/adsense.md y docs/adsterra.md.
 
 El pedido manual del 30 de octubre añade tres guías de GTA VI (clima, relación Jason/Lucia y robo de coches) y una guía completa de códigos de GTA V: cuatro temas, doce versiones. Investigación y deduplicación en docs/editorial/2026-10-30-manual-four-research.md. La portada conserva la escena existente con movimiento decorativo por capas, botón de pausa y respeto de movimiento reducido. Las capas editadas no son material de juego real ni imágenes para artículos. Google Analytics 4 G-JXHZ3W8WHP está instalado manualmente; la recepción de eventos debe comprobarla el titular en su cuenta. La programación diaria no cambia.
+
+La ejecución diaria del 30 de octubre publica un único tema sobre los autobuses y trenes utilizables descritos por Edge, con seguimiento de PC Gamer del mismo día. Las tres versiones distinguen lo reportado de las tarifas, rutas y opciones de viaje rápido todavía sin documentar. Ver docs/editorial/2026-10-30-daily-transport-research.md. La tanda manual previa y la programación diaria no cambian.
