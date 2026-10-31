@@ -7,6 +7,7 @@ const template=await readFile('dist/index.html','utf8');
 const indexable=process.env.FANSGTA_INDEXABLE==='1';
 const origin='https://fansgta.com';
 const descriptions={es:'Noticias con contexto, guías y análisis originales de GTA VI. Portal independiente de fans en español, inglés y francés.',en:'GTA VI news with context, original guides and analysis. An independent fan portal in English, Spanish and French.',fr:'Actualités contextualisées, guides et analyses originaux de GTA VI. Un portail de fans indépendant en français, anglais et espagnol.'};
+const cheatDescriptions={es:'Un artículo independiente de trucos por cada GTA. Elige tu juego y consulta todos sus códigos por plataforma, instrucciones y límites de edición.',en:'One independent cheat article for every GTA. Choose a game for all its platform-specific codes, instructions and edition limits.',fr:'Un article indépendant de codes par GTA. Choisissez un jeu pour ses codes par plateforme, leur activation et les limites des éditions.'};
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const json=s=>JSON.stringify(s).replaceAll('<','\\u003c');
 const sitemap=[];
@@ -16,7 +17,7 @@ async function renderPage(locale,path,{section,article,legal,missing=false}={}) 
  const eligible=!missing&&(!section||articles.some(a=>a.category===section));
  const canonical=origin+path;
  const title=missing?'404 — FansGTA':legal?`${legalTitles[locale][legal]} | FansGTA`:article?`${article.title[li]} | FansGTA`:section?`${categoryLabel(locale,section)} | ${section==='cheats'?'GTA':'GTA VI'} | FansGTA`:`FansGTA — ${copy[locale].hero.join(' ')}`;
- const description=legal?`${legalTitles[locale][legal]} — FansGTA. soporte@barbercontrol.org`:article?article.excerpt[li]:section?`${categoryLabel(locale,section)} — ${descriptions[locale]}`:descriptions[locale];
+ const description=legal?`${legalTitles[locale][legal]} — FansGTA. soporte@barbercontrol.org`:article?article.excerpt[li]:section==='cheats'?cheatDescriptions[locale]:section?`${categoryLabel(locale,section)} — ${descriptions[locale]}`:descriptions[locale];
  const alternate=l=>origin+(legal?legalPath(l,legal):article?articlePath(l,article):section?sectionPath(l,section):`/${l}/`);
  const alternates=missing?'':['es','en','fr','x-default'].map(l=>`<link rel="alternate" hreflang="${l}" href="${alternate(l==='x-default'?'es':l)}"/>`).join('');
  const schema=[];
@@ -26,6 +27,7 @@ async function renderPage(locale,path,{section,article,legal,missing=false}={}) 
   if(article)crumbs.push({name:article.title[li],item:canonical});
   schema.push({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});
   if(article)schema.push({'@context':'https://schema.org','@type':'BlogPosting',headline:article.title[li],description,image:origin+mediaPath(article.image),datePublished:article.published,dateModified:article.updated,inLanguage:locale,mainEntityOfPage:canonical,author:{'@type':'Organization',name:'FansGTA',url:origin},publisher:{'@type':'Organization',name:'FansGTA',url:origin},articleSection:categoryLabel(locale,section),citation:article.sources.map(s=>s.url)});
+  if(article?.id==='gta-saga-cheats-newest-oldest-20261030'){const guides=articles.filter(a=>a.cheats).sort((a,b)=>a.cheats.order-b.cheats.order);schema.push({'@context':'https://schema.org','@type':'ItemList',name:article.title[li],numberOfItems:guides.length,itemListElement:guides.map((a,index)=>({'@type':'ListItem',position:index+1,name:a.cheats.game,url:origin+articlePath(locale,a)}))});}
   else if(legal)schema.push({'@context':'https://schema.org','@type':legal==='contact'?'ContactPage':'WebPage',name:legalTitles[locale][legal],url:canonical,inLanguage:locale});
   else if(!section)schema.push({'@context':'https://schema.org','@type':'WebSite',name:'FansGTA',url:origin,inLanguage:['es','en','fr']});
  }

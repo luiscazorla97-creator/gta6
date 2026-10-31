@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/New_York",
+  "baseMain": "e01fb39bb46055838f2a42eef0112836cfc2986e",
+  "userClarification": "Un artículo por juego con todos sus trucos.",
+  "diagnosis": "Seventeen independent game guides already existed and responded 200. Cheats section put the broad catalogue first; that catalogue also repeated the full-series code tables, obscuring the separate game articles.",
+  "change": "Make the retained catalogue URL a directory with seventeen visible localized links and no combined code tables. Put the individual game cards first, newest to oldest, and the general index last. Add localized section copy and ItemList structured data describing the actual guide links.",
+  "deduplication": {
+    "topicsBefore": 95,
+    "topicsAfter": 95,
+    "existingRoutesRetained": 285,
+    "independentGameArticles": 17,
+    "otherArticleSectionsUnchanged": 94,
+    "preservation": "Compared serialized section SHA256 for all 94 other articles with pre-edit checkout; all match. No game codes, tables, sources, images or existing routes removed. No individual-code article generation."
+  },
+  "sources": "No new gameplay claims. Existing audited cheat sources and media provenance from docs/editorial/2026-10-30-cheats-research.json and 2026-10-30-complete-guides-research.json retained.",
+  "scopePreserved": [
+    "Daily publication schedule",
+    "Advertising and exact provider unit IDs",
+    "Analytics consent",
+    "AdSense verification",
+    "Security headers",
+    "Postponed forum",
+    "BarberControl untouched"
+  ],
+  "validation": {
+    "build": "npm run build:release passed: 95 topics, 328 generated pages plus root copy. Final build repeated after documentation updates.",
+    "browser": "28 desktop/mobile checks passed, including all three languages, 17 visible directory links, independent guide tables, section order, existing ten GTA VI analyses, language switching, responsive ad placement and AdSense verification. Four screenshots visually inspected with mocked providers.",
+    "preservation": "All 285 article routes retained; serialized sections for the 94 other articles match pre-edit SHA256.",
+    "public": "To be verified after terminal Cloudflare deployment success; do not equate GitHub update with publication."
+  }
+}
