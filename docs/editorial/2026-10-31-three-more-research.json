@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/New_York",
+  "scope": "Manual request: three new GTA VI topics, full ES/EN/FR, nine new versions. Daily one-topic schedule unchanged.",
+  "baseMain": "859b199378cb187077c69c1a83c787c6ca6bda74",
+  "inventoryBefore": {
+    "topics": 116,
+    "versions": 348
+  },
+  "inventoryAfter": {
+    "topics": 119,
+    "versions": 357
+  },
+  "deduplication": {
+    "wyman": "Specific Classic Car Collection and restoration commission, not general Ultimate contents, vehicle modifications, money missions or physical Collector’s Box. Existing pages only mention broad contents or related systems; no equivalent Wyman/restoration page.",
+    "appearance": "Named clothing/salon/tattoo offerings and edition access, distinct from physical body/fitness progression and car modification guide.",
+    "shop-robberies": "Concrete store encounters and preparation decisions in reported demonstrations, distinct from story funding, general police/NPC behaviour and car theft. Checked prior deep/NPC text for the Hooker de-escalation anecdote; not already covered.",
+    "allPriorURLs": "All 348 article paths and existing titles preserved; prior inventory records retained exactly."
+  },
+  "sources": [
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "publication": []
+    },
+    {
+      "key": "editions",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+      "publication": []
+    },
+    {
+      "key": "store",
+      "url": "https://store.rockstargames.com/game/buy-gta-vi",
+      "status": 200,
+      "title": "Grand Theft Auto VI | Rockstar Store",
+      "publication": []
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "publication": []
+    },
+    {
+      "key": "interview",
+      "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931",
+      "status": 200,
+      "title": "GTA 6: The Big Interview",
+      "publication": []
+    },
+    {
+      "key": "robberies",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/im-calling-it-gta-6-is-officially-an-immersive-sim-based-on-what-you-can-do-with-npcs/",
+      "status": 200,
+      "title": "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs | PC Gamer",
+      "publication": [
+        "2026-10-29T15:21:58Z"
+      ]
+    },
+    {
+      "key": "customisation",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-new-gameplay-details-activities-customization-confirmed-63-screenshots/",
+      "status": 200,
+      "title": "New GTA 6 activities, customization, and gameplay details revealed alongside 63 gorgeous screenshots | GamesRadar+",
+      "publication": [
+        "2026-06-24T12:51:11Z"
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "officialProductDescriptions": "Detailed Wyman, Stock 305, Sara’s and Electric Fang descriptions are in the public official GTA VI HTML React payload. Parsed JSON string chunks without executing scripts; exact text inspected alongside the rendered official edition/store lists. No claim that the short visible homepage alone contained all descriptions.",
+    "paidAccess": "Explicit official Ultimate association retained; no claim Standard lacks every classic car or every cosmetic option. Story-linked benefit availability explained from Support.",
+    "dates": "GamesRadar customization coverage June 24; IGN full interview October 7 from July demonstration, accessed through credited Best Buy Gamers copy; PC Gamer October 29 citing Edge. These are new site articles, not three claimed October 31 announcements.",
+    "opinion": "PC Gamer immersive-sim headline treated as journalist interpretation, not Rockstar classification.",
+    "rejectedMaterial": "No leaked Wyman biography, coordinates, mission names, rewards or claimed photo-mode feature list used. No fake source video viewing."
+  },
+  "interest": {
+    "signals": "Live autocomplete plus indexed coverage; no quantified ranking, audience or virality claim. Empty clothing/tattoo suggestions retained honestly.",
+    "autocomplete": [
+      {
+        "query": "gta 6 classic car collection",
+        "suggestions": [
+          "gta 6 classic car collection",
+          "gta 6 ultimate edition classic car collection",
+          "gta 5 classic cars list",
+          "who has the largest classic car collection",
+          "gta car collection list"
+        ]
+      },
+      {
+        "query": "gta 6 clothes tattoos",
+        "suggestions": []
+      },
+      {
+        "query": "gta 6 robberies",
+        "suggestions": [
+          "gta 6 robberies",
+          "gta 6 robbery system",
+          "gta 6 robbery video",
+          "gta 6 robbery leak reddit",
+          "gta 6 robbery leak video",
+          "gta 6 robbery reddit",
+          "gta 6 robbing store",
+          "gta 6 robbing houses",
+          "gta 6 robbing",
+          "gta 6 robbing store leak"
+        ]
+      }
+    ]
+  },
+  "media": {
+    "newOfficialOptimizedWebP": 7,
+    "imagesPerArticle": 3,
+    "gallery": "https://www.rockstargames.com/VI/media/screenshots",
+    "rights": "Current official media download/share context checked; copyright reserved, no unrestricted reuse licence asserted. Exact source URLs, original names, dimensions and credit in public/media/credits.json.",
+    "inspection": "Six new Wyman/business screenshots visually inspected as a contact sheet. Jason_and_Lucia_04 from the earlier official download was revalidated against current gallery names and used as contextual shop-robbery cover. Two additional existing authentic images are contextual; no inference of a measured route.",
+    "transparency": "Not AI, mods, leaked development footage, GTA V or the edited decorative hero layers."
+  },
+  "invariants": "No ads, security, design, subscriptions, services, schedule or BarberControl changes. No purchases or messages to third parties.",
+  "validation": {
+    "buildRelease": "passed initial content build",
+    "static": "401 HTML, 18057 internal links, 776 structured-data blocks",
+    "browser": "6 tests passed, desktop/mobile in ES/EN/FR: all nine pages, image decode and credit, localized metadata and schema, comparison tables, working localized internal links, real language selector, no horizontal overflow, no unsolicited Analytics/popunder SDK requests. Ad providers mocked; no impression or revenue claim."
+  }
+}

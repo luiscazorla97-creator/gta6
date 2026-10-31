@@ -1,0 +1,620 @@
+[
+  {
+    "key": "wyman",
+    "category": "vehicles",
+    "slug": [
+      "gta-6-wyman-coches-clasicos-restauracion",
+      "gta-6-wyman-classic-cars-restoration",
+      "gta-6-wyman-voitures-classiques-restauration"
+    ],
+    "title": [
+      "Wyman en GTA 6: coches clásicos y restauración de Ultimate",
+      "GTA 6 Wyman: classic cars and Ultimate’s restoration activity",
+      "Wyman GTA 6 : voitures classiques et restauration Ultimate"
+    ],
+    "excerpt": [
+      "Rockstar presenta la colección de coches clásicos de Wyman para GTA 6 Ultimate. Qué se restaura, diferencias con talleres y fotos oficiales.",
+      "Rockstar’s GTA 6 Ultimate Classic Car Collection explained: Wyman, restoration, how it differs from mod shops and official screenshots.",
+      "La collection de voitures classiques de Wyman dans GTA 6 Ultimate : restauration, différences avec les ateliers et captures officielles."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué ha anunciado Rockstar sobre Wyman",
+          "What Rockstar has announced about Wyman",
+          "Ce que Rockstar a annoncé sur Wyman"
+        ],
+        "paragraphs": [
+          [
+            "Wyman aparece nombrado en la descripción oficial de Classic Car Collection de GTA VI Ultimate Edition. Rockstar lo presenta como el personaje que encarga recuperar y revitalizar coches clásicos abandonados o proyectos sin terminar. Esa es la base de esta guía, revisada el 31 de octubre de 2026: una actividad concreta de la edición, sin inventar una biografía completa ni recurrir a vídeos de desarrollo filtrados. La captura de portada también procede de la colección oficial dedicada a Wyman.",
+            "Wyman is named in the official description of GTA VI Ultimate Edition’s Classic Car Collection. Rockstar presents him as the character commissioning the recovery and revival of abandoned classics and unfinished project cars. This guide, reviewed October 31, 2026, builds on that specific activity rather than an invented biography or leaked development footage. Its cover also comes from the official Wyman image collection, giving the feature a direct visual reference rather than a generic car picture.",
+            "Wyman est nommé dans la description officielle de Classic Car Collection, un avantage de GTA VI Ultimate Edition. Rockstar le présente comme le commanditaire d’une remise en état de classiques abandonnés et de projets automobiles inachevés. Ce guide, vérifié le 31 octobre 2026, porte sur cette activité précise, sans biographie inventée ni vidéo de développement divulguée. Sa couverture provient aussi de la collection officielle consacrée à Wyman."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Buscar, recuperar y restaurar: el recorrido descrito",
+          "Finding, recovering and restoring: the described loop",
+          "Chercher, récupérer et restaurer : le principe annoncé"
+        ],
+        "paragraphs": [
+          [
+            "La propuesta conecta exploración y colección: localizar un coche o proyecto, ocuparse de su recuperación y devolverle una condición que permita disfrutarlo como clásico. El anuncio no detalla todos los pasos de taller ni convierte esa idea en una simulación pieza por pieza. Por eso diferenciamos la actividad anunciada de su ejecución pendiente de comprobar. No damos ubicaciones exactas, una lista de componentes ni una secuencia de botones que Rockstar todavía no haya documentado como tutorial.",
+            "The proposition links exploration and collecting: finding a car or project, recovering it and bringing it back as a classic. The announcement does not specify every workshop action or promise a component-by-component simulation. The announced activity and its eventual implementation therefore remain separate. No exact locations, component checklist or button sequence is supplied here as if Rockstar had already published a complete walkthrough. An appealing restoration premise can be explained without manufacturing those missing steps.",
+            "La proposition relie exploration et collection : trouver un véhicule ou projet, le récupérer et lui redonner sa place de classique. L’annonce ne détaille pas chaque geste d’atelier et ne promet pas une simulation pièce par pièce. Le principe annoncé reste donc distinct de sa mise en œuvre à vérifier. Nous ne fournissons ni emplacements exacts, ni liste de composants, ni commandes présentées comme un tutoriel déjà documenté."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Una actividad de Ultimate, no una promesa para todas las ediciones",
+          "An Ultimate activity, not a promise for every edition",
+          "Une activité Ultimate, pas une promesse pour toutes les éditions"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar Support enumera Classic Car Collection entre los contenidos de Ultimate. Esa asociación es importante si estás comparando compras: la existencia de coches clásicos en el mundo no demuestra acceso a este encargo desde Standard. Tampoco significa que todos los modelos antiguos queden fuera del juego base. La decisión debe apoyarse en la lista concreta de beneficios de cada edición y en sus condiciones, no en asumir que una palabra como colección define todo el catálogo de vehículos.",
+            "Rockstar Support lists Classic Car Collection among Ultimate’s contents. That matters when comparing purchases: classic cars existing in the world does not establish Standard access to this commission. Equally, the benefit does not mean every old vehicle is excluded from the base game. Edition decisions should follow the specific benefit list and its conditions rather than assuming that the word collection defines the entire vehicle roster. The general Ultimate guide is linked below for the broader edition comparison.",
+            "Rockstar Support classe Classic Car Collection parmi les contenus Ultimate. La présence de voitures anciennes dans le monde ne prouve donc pas l’accès à cette commande depuis Standard. À l’inverse, cet avantage ne signifie pas que tous les modèles anciens sont exclus du jeu de base. La comparaison doit porter sur les bénéfices précis et leurs conditions, pas sur une interprétation du mot collection comme catalogue automobile complet."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Restaurar no equivale a personalizar un coche cualquiera",
+          "Restoration differs from modifying an arbitrary car",
+          "Restaurer ne signifie pas modifier n’importe quelle voiture"
+        ],
+        "paragraphs": [
+          [
+            "Un taller de modificaciones responde a otra intención: cambiar un vehículo que ya tienes o mejorar su aspecto y comportamiento. La comisión de Wyman se presenta alrededor de recuperar proyectos determinados. Pueden compartir el interés por los coches, pero no deben confundirse como si fueran un único menú. Nuestra guía de personalización trata los talleres por separado. Tampoco trasladamos automáticamente a esta actividad el combustible, el robo o el almacenamiento: cada sistema necesita su propia evidencia.",
+            "A modification shop serves a different purpose: altering a vehicle already owned or changing its appearance and behaviour. Wyman’s commission is framed around recovering particular projects. Both appeal to car enthusiasts, but they should not be treated as one menu. The customisation guide handles mod shops separately. Fuel, theft and storage are not automatically imported into the restoration activity either; each system needs its own evidence before practical advice can connect them.",
+            "Un atelier de modifications répond à un autre besoin : transformer un véhicule possédé ou modifier son apparence et son comportement. La commande de Wyman concerne la récupération de projets particuliers. Les deux intéressent les amateurs d’automobile sans former nécessairement un menu unique. Notre guide des ateliers traite la personnalisation séparément. Carburant, vol et rangement ne sont pas transposés automatiquement : chaque système exige ses propres preuves."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Qué muestran las imágenes oficiales de la colección",
+          "What the official collection images show",
+          "Ce que montrent les images officielles"
+        ],
+        "paragraphs": [
+          [
+            "La galería ofrece a Wyman junto a un taller y varias vistas de coches clásicos. La vista lateral del vehículo turquesa deja apreciar proporciones, pintura y ruedas; el detalle del coche claro se concentra en frontal y llantas. Son fotografías promocionales del juego, no capturas de un editor de piezas que hayamos probado. Sus acabados ilustran el interés visual de la colección, pero no revelan precios, estadísticas de aceleración ni la cantidad total de coches que se podrán restaurar.",
+            "The gallery shows Wyman beside a workshop and several classic-car views. The turquoise car’s side view highlights proportions, paint and wheels, while the pale car detail focuses on its nose and wheel design. These are official game images, not a parts editor tested by this site. Their finish illustrates the collection’s visual appeal without exposing prices, acceleration statistics or the total number of cars available to restore. Visual detail and mechanical specifications should be read separately.",
+            "La galerie montre Wyman près d’un atelier et plusieurs vues de classiques. Le profil turquoise souligne proportions, peinture et roues ; le détail du véhicule clair montre son avant et ses jantes. Ce sont des images promotionnelles du jeu, pas un éditeur de pièces testé par notre site. Elles illustrent l’intérêt visuel sans révéler prix, accélération ou nombre total de voitures à restaurer."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Coleccionar coches y comprar la Collector’s Box son cosas distintas",
+          "Collecting cars differs from buying the Collector’s Box",
+          "Collectionner des voitures et acheter le coffret sont distincts"
+        ],
+        "paragraphs": [
+          [
+            "Classic Car Collection es contenido dentro de GTA VI Ultimate; la Collector’s Box es una colección física de objetos que se vende aparte del juego. El parecido de los nombres puede crear confusión en búsquedas o tiendas. Tener una caja de coleccionismo no sustituye una licencia ni demuestra acceso a una actividad digital. Para revisar el producto físico, nuestra guía conserva sus detalles y disponibilidad por mercado; aquí mantenemos el foco en el encargo de Wyman y los coches dentro del juego.",
+            "Classic Car Collection is in-game Ultimate content, while the Collector’s Box contains physical merchandise sold separately from the game. Similar names can confuse searches and shopping. Owning merchandise does not replace a game licence or establish access to a digital activity. The separate box guide retains its product and market-availability details. This page stays focused on Wyman’s commission and the cars inside the game, helping readers distinguish two genuinely different purchases before making assumptions about access.",
+            "Classic Car Collection est du contenu numérique Ultimate ; le coffret collector rassemble des objets physiques vendus séparément du jeu. Leurs noms voisins peuvent créer une confusion dans les recherches. Posséder le coffret ne remplace pas une licence et ne prouve pas l’accès à l’activité. Le guide du produit physique conserve ses conditions par marché. Ici, le sujet reste la commande de Wyman et les voitures du jeu."
+          ]
+        ],
+        "table": {
+          "headers": [
+            [
+              "Producto",
+              "Product",
+              "Produit"
+            ],
+            [
+              "Qué se obtiene",
+              "What it provides",
+              "Ce qui est fourni"
+            ],
+            [
+              "Distinción útil",
+              "Useful distinction",
+              "Distinction utile"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Classic Car Collection",
+                "Classic Car Collection",
+                "Classic Car Collection"
+              ],
+              [
+                "Actividad de restauración dentro del juego",
+                "In-game restoration activity",
+                "Activité de restauration dans le jeu"
+              ],
+              [
+                "Incluida en la lista de beneficios Ultimate",
+                "Listed among Ultimate benefits",
+                "Répertoriée parmi les avantages Ultimate"
+              ]
+            ],
+            [
+              [
+                "Collector’s Box",
+                "Collector’s Box",
+                "Coffret collector"
+              ],
+              [
+                "Objetos físicos de coleccionismo",
+                "Physical collectible merchandise",
+                "Objets physiques de collection"
+              ],
+              [
+                "El juego se compra por separado",
+                "The game is purchased separately",
+                "Le jeu est acheté séparément"
+              ]
+            ],
+            [
+              [
+                "Taller de modificaciones",
+                "Vehicle mod shop",
+                "Atelier de modifications"
+              ],
+              [
+                "Personalización de vehículos",
+                "Vehicle customisation",
+                "Personnalisation automobile"
+              ],
+              [
+                "No equivale al encargo de restauración",
+                "Distinct from the restoration commission",
+                "Distinct de la commande de restauration"
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes: disponibilidad, recompensas y mapa",
+          "FAQ: availability, rewards and maps",
+          "FAQ : disponibilité, récompenses et carte"
+        ],
+        "paragraphs": [
+          [
+            "¿Hay una ruta verificada para encontrar todos los proyectos? Todavía no la publicamos. ¿Conocemos recompensas, número final de coches y condiciones de cada encargo? Las fuentes usadas no completan ese catálogo. ¿Ultimate entrega todos sus beneficios inmediatamente? Rockstar indica que hay contenidos vinculados al desarrollo de la historia; poseer la edición no equivale a disponer de todo desde el primer minuto. Cuando existan datos jugables, la guía podrá añadir recorridos comprobables sin reciclar coordenadas inventadas de un mapa de fans.",
+            "Is there a verified route for every project? None is claimed here. Are all rewards, vehicle totals and commission conditions catalogued? These sources do not complete that list. Does Ultimate supply every benefit immediately? Rockstar describes contents linked to story progress, so edition ownership does not mean everything is available in the opening minute. Verified gameplay can later support reproducible routes instead of invented coordinates recycled from fan maps. The current guide explains the feature without pretending it is already a completed treasure map.",
+            "Existe-t-il un parcours vérifié pour tous les projets ? Nous n’en annonçons pas. Toutes les récompenses et conditions sont-elles connues ? Ces sources ne complètent pas ce catalogue. Ultimate débloque-t-elle tout immédiatement ? Rockstar décrit des contenus liés à la progression narrative ; posséder l’édition ne garantit pas tout dès la première minute. Des données jouables permettront ensuite d’ajouter de vrais parcours, sans coordonnées inventées."
+          ]
+        ]
+      }
+    ],
+    "images": [
+      "feature-wyman-01",
+      "feature-wyman-02",
+      "feature-wyman-05"
+    ],
+    "refs": [
+      "official",
+      "editions",
+      "store"
+    ],
+    "related": [
+      "gta-6-ultimate-edition",
+      "gta6-car-customisation-20261031",
+      "collector-box-no-game-2026-10-28"
+    ]
+  },
+  {
+    "key": "appearance",
+    "category": "guides",
+    "slug": [
+      "gta-6-ropa-tatuajes-peluquerias-personalizacion",
+      "gta-6-clothes-tattoos-hair-character-customisation",
+      "gta-6-vetements-tatouages-coiffure-personnalisation"
+    ],
+    "title": [
+      "Ropa y tatuajes de GTA 6: Stock 305, Sara’s y Electric Fang",
+      "GTA 6 clothes and tattoos: Stock 305, Sara’s and Electric Fang",
+      "Vêtements et tatouages GTA 6 : Stock 305, Sara’s, Electric Fang"
+    ],
+    "excerpt": [
+      "Personalización de Jason y Lucia en GTA 6: ropa, pelo, barba, maquillaje, uñas y tatuajes. Beneficios de Ultimate y límites del catálogo base.",
+      "GTA 6 character customisation: clothing, hair, facial hair, makeup, nails and tattoos. Ultimate benefits and what the base-game catalogue does not establish.",
+      "Personnalisation GTA 6 : vêtements, coiffure, barbe, maquillage, ongles et tatouages. Avantages Ultimate et limites du catalogue de base."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué opciones de aspecto están documentadas",
+          "Which appearance options are documented",
+          "Quelles possibilités sont documentées"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar presenta ropa, estilos de salón y tatuajes para Jason y Lucia en los beneficios de GTA VI Ultimate. La página oficial identifica Stock 305, Sara’s Unisex Salon y Electric Fang Tattoo. Esta guía, revisada el 31 de octubre de 2026, distingue esos establecimientos concretos de la personalización general. No suponemos que todo lo que lleva un NPC pueda comprarse ni que las opciones de una edición describan el catálogo completo de otra. Las capturas utilizadas proceden de la galería oficial.",
+            "Rockstar presents clothing, salon styles and tattoos for Jason and Lucia through GTA VI Ultimate’s benefits. The official page names Stock 305, Sara’s Unisex Salon and Electric Fang Tattoo. Reviewed October 31, 2026, this guide distinguishes those specific establishments from general character customisation. It does not assume every NPC outfit is purchasable or that one edition’s options define another’s complete catalogue. All pictures come from the official gallery, allowing the discussion to follow named features rather than an invented menu.",
+            "Rockstar présente vêtements, styles de salon et tatouages pour Jason et Lucia parmi les avantages GTA VI Ultimate. La page officielle nomme Stock 305, Sara’s Unisex Salon et Electric Fang Tattoo. Ce guide, vérifié le 31 octobre 2026, distingue ces établissements de la personnalisation générale. Il ne suppose pas que toutes les tenues des PNJ soient achetables ni qu’une édition définisse le catalogue complet d’une autre. Les captures sont officielles."
+          ]
+        ],
+        "table": {
+          "headers": [
+            [
+              "Local",
+              "Business",
+              "Établissement"
+            ],
+            [
+              "Opciones anunciadas",
+              "Announced options",
+              "Options annoncées"
+            ],
+            [
+              "Acceso descrito",
+              "Described access",
+              "Accès décrit"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Stock 305",
+                "Stock 305",
+                "Stock 305"
+              ],
+              [
+                "Ropa urbana para Jason y Lucia",
+                "Streetwear for Jason and Lucia",
+                "Vêtements urbains pour Jason et Lucia"
+              ],
+              [
+                "Beneficio de Ultimate, no catálogo completo del juego base",
+                "Ultimate benefit, not a complete base-game catalogue",
+                "Avantage Ultimate, pas le catalogue complet du jeu de base"
+              ]
+            ],
+            [
+              [
+                "Sara’s Unisex Salon",
+                "Sara’s Unisex Salon",
+                "Sara’s Unisex Salon"
+              ],
+              [
+                "Estilos de salón, barba, maquillaje y uñas",
+                "Salon styles, facial hair, makeup and nails",
+                "Coiffure, barbe, maquillage et ongles"
+              ],
+              [
+                "Beneficio de Ultimate",
+                "Ultimate benefit",
+                "Avantage Ultimate"
+              ]
+            ],
+            [
+              [
+                "Electric Fang Tattoo",
+                "Electric Fang Tattoo",
+                "Electric Fang Tattoo"
+              ],
+              [
+                "Más de 50 tatuajes de firma de FAILE",
+                "More than 50 signature tattoos by FAILE",
+                "Plus de 50 tatouages signés FAILE"
+              ],
+              [
+                "Beneficio de Ultimate",
+                "Ultimate benefit",
+                "Avantage Ultimate"
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Stock 305: ropa urbana con acceso ligado a Ultimate",
+          "Stock 305: streetwear linked to Ultimate access",
+          "Stock 305 : vêtements urbains liés à Ultimate"
+        ],
+        "paragraphs": [
+          [
+            "La descripción oficial sitúa Stock 305 en Stockyard y lo presenta como un destino de moda urbana para ambos protagonistas. Indica expresamente su relación con Ultimate. Eso permite identificar una oferta concreta, pero no contar todas las tiendas de ropa de Leonida. La imagen de portada muestra a Jason y Lucia con prendas y accesorios distintos junto al local; sirve para observar estilo y combinaciones, no para anunciar que cada objeto del decorado sea seleccionable.",
+            "The official description places Stock 305 in Stockyard and presents streetwear looks for both protagonists, explicitly linked to Ultimate. That identifies a particular offering, not the total number of clothing stores in Leonida. The cover shows Jason and Lucia with different garments and accessories beside the location. It supports observations about styling and combinations without proving every displayed object can be selected. A named shop and a complete wardrobe catalogue are different levels of information.",
+            "La description situe Stock 305 à Stockyard et présente des looks urbains pour les deux protagonistes, explicitement liés à Ultimate. Cela identifie une offre précise, pas le nombre total de boutiques de Leonida. La couverture montre Jason et Lucia avec différentes tenues et accessoires près du lieu. Elle permet d’observer le style sans annoncer que chaque objet du décor soit sélectionnable."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Sara’s: cabello, barba, maquillaje y uñas",
+          "Sara’s: hair, facial hair, makeup and nails",
+          "Sara’s : coiffure, barbe, maquillage et ongles"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar describe estilos de salón para ambos personajes, con vello facial para Jason y maquillaje y uñas para Lucia. Son categorías anunciadas; todavía no equivalen a un menú completo con todos sus colores, longitudes y precios. Conviene separar cambiar un estilo de afirmar que el pelo crece con el tiempo: son sistemas distintos. Tampoco trasladamos automáticamente las reglas de crecimiento de Red Dead Redemption 2. La fotografía de Sara’s identifica el establecimiento y su ambiente, sin reemplazar una prueba del editor.",
+            "Rockstar describes salon styles for both leads, with facial-hair options for Jason and makeup and nails for Lucia. Those are announced categories rather than a complete menu of colours, lengths and prices. Changing a style is also different from hair growing over time. Red Dead Redemption 2’s growth rules are not automatically imported here. The Sara’s picture identifies the location and atmosphere without substituting for a tested character editor or establishing how every selection works.",
+            "Rockstar décrit des styles de salon pour les deux personnages, avec pilosité faciale pour Jason et maquillage et ongles pour Lucia. Ces catégories ne constituent pas un menu complet de couleurs, longueurs et prix. Changer de style diffère aussi d’une croissance des cheveux avec le temps. Nous ne transposons pas les règles de Red Dead Redemption 2. L’image identifie le lieu, sans remplacer un test de son éditeur."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Electric Fang y los diseños de FAILE",
+          "Electric Fang and FAILE’s designs",
+          "Electric Fang et les créations de FAILE"
+        ],
+        "paragraphs": [
+          [
+            "La presentación oficial de Electric Fang anuncia más de cincuenta tatuajes de firma para Jason y Lucia, diseñados por el colectivo artístico FAILE, dentro del beneficio de Ultimate. Esa cifra describe esta oferta, no el total de tatuajes de todo GTA VI. La captura de Lucia en el estudio muestra la ambientación y una sesión de tatuaje. No revela por sí sola si se podrán mover dibujos libremente, superponerlos, quitarlos o crear diseños propios; esas posibilidades necesitan una demostración específica.",
+            "Electric Fang’s official description advertises more than fifty signature tattoos for Jason and Lucia by the artist collective FAILE as an Ultimate benefit. That count concerns this offering, not every tattoo in GTA VI. The picture of Lucia in the studio shows its atmosphere and a tattoo session. It does not establish freely positioned designs, layering, removal or user-created art. Those are separate capabilities requiring specific evidence rather than assumptions based on the presence of a tattoo shop.",
+            "La présentation d’Electric Fang annonce plus de cinquante tatouages signés pour Jason et Lucia, conçus par le collectif FAILE dans cet avantage Ultimate. Ce chiffre décrit cette offre, pas tous les tatouages GTA VI. L’image montre Lucia pendant une séance. Elle ne confirme ni déplacement libre des motifs, ni superposition, effacement ou création personnelle : ces possibilités nécessitent des preuves spécifiques."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Aspecto visual y condición física son consultas distintas",
+          "Visual styling and physical condition are separate questions",
+          "Apparence et condition physique sont distinctes"
+        ],
+        "paragraphs": [
+          [
+            "Vestirse, cambiar un peinado y elegir un tatuaje modifican la presentación del personaje. Entrenar, comer o descansar pertenecen a otros sistemas. No hay que asumir que una prenda mejora una estadística o que un tatuaje concede una ventaja: el aspecto por sí solo no demuestra esos efectos. Nuestra guía de gimnasio y salud desarrolla la condición física, mientras esta página organiza las opciones visuales. Esa separación permite comparar estilos sin convertir cada elección estética en una supuesta mejora de rendimiento.",
+            "Clothing, hairstyles and tattoos affect presentation. Training, food and rest belong to other systems. A garment should not be assumed to improve an attribute or a tattoo to grant an advantage merely because it changes appearance. The gym and health guide covers conditioning separately, while this page organises visual options. That separation helps readers compare styles without turning every cosmetic choice into an imagined performance upgrade or confusing a shop’s presentation with a complete character-progression system.",
+            "Tenues, coiffures et tatouages modifient la présentation. Entraînement, nourriture et repos appartiennent à d’autres systèmes. Une apparence différente ne prouve ni amélioration de statistique ni avantage particulier. Notre guide de sport et santé traite la condition physique, tandis que cette page organise les choix visuels. On peut ainsi comparer les styles sans transformer chaque option esthétique en amélioration supposée des performances."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Qué comprobar al comparar Standard y Ultimate",
+          "What to check when comparing Standard and Ultimate",
+          "Que vérifier entre Standard et Ultimate"
+        ],
+        "paragraphs": [
+          [
+            "Los negocios nombrados en esta guía se anuncian como beneficios de Ultimate. Eso no demuestra que Standard carezca de toda personalización, pero tampoco autoriza a prometer acceso a estos locales con cualquier compra. Antes de elegir, revisa la lista actual de contenidos y la posibilidad de mejora de edición. Los extras pueden estar vinculados a capítulos de la historia, según Rockstar Support. Comprar una edición no significa necesariamente ver todos sus estilos y establecimientos al comenzar la primera escena.",
+            "The named businesses are advertised as Ultimate benefits. That neither proves Standard lacks all customisation nor establishes access to these particular shops with any purchase. Check the current content list and edition-upgrade terms before choosing. Rockstar Support also describes extras linked to story chapters. Buying an edition does not necessarily make every style and location available in the opening scene. The linked upgrade guide covers the purchase procedure without importing unsupported assumptions about the base-game wardrobe.",
+            "Les établissements sont annoncés comme avantages Ultimate. Cela ne prouve ni l’absence totale de personnalisation dans Standard ni l’accès universel à ces boutiques. Vérifiez la liste et les conditions de mise à niveau. Rockstar Support décrit aussi des extras liés aux chapitres de l’histoire. Acheter l’édition ne rend donc pas nécessairement chaque style et chaque lieu accessible dès la première scène."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes: conjuntos, catálogo y cambios de personaje",
+          "FAQ: outfits, catalogues and character switching",
+          "FAQ : tenues, catalogue et changement de personnage"
+        ],
+        "paragraphs": [
+          [
+            "¿Hay una lista completa de prendas y precios? No la ofrecen las fuentes revisadas. ¿Podremos guardar conjuntos, copiar ropa de NPC o usar un diseñador libre? No lo anunciamos sin pruebas. ¿Los dos protagonistas tienen las mismas opciones? Las descripciones ya diferencian algunas categorías; no deben suponerse menús idénticos. ¿Cambiar de ropa elimina siempre una búsqueda policial? Es otra cuestión y depende del sistema de identificación, explicado en su propia guía. Aquí reunimos el aspecto documentado, sin inventar funciones para completar un catálogo.",
+            "Is every garment and price listed? These sources do not supply that catalogue. Can players save outfits, copy NPC clothing or use a free-form designer? No such promise is made here without evidence. Do both protagonists have identical options? The descriptions already distinguish some categories, so identical menus should not be assumed. Does changing clothes always clear police attention? That belongs to the separate identification system. This guide collects documented visual choices without inventing features to fill an imagined complete catalogue.",
+            "Toutes les pièces et tous les prix sont-ils connus ? Ces sources ne les recensent pas. Peut-on sauvegarder des tenues, copier celles des PNJ ou utiliser un créateur libre ? Nous ne l’annonçons pas sans preuve. Les deux personnages ont-ils les mêmes choix ? Certaines catégories sont déjà distinguées. Changer de tenue efface-t-il toute recherche policière ? Cela dépend du système d’identification, traité dans son propre guide."
+          ]
+        ]
+      }
+    ],
+    "images": [
+      "feature-stock305",
+      "feature-saras",
+      "feature-electricfang"
+    ],
+    "refs": [
+      "official",
+      "editions",
+      "customisation"
+    ],
+    "related": [
+      "gta6-gym-health-explained-20261030",
+      "gta6-upgrade-ultimate-20261028",
+      "gta6-police-wanted-deep-20261029"
+    ]
+  },
+  {
+    "key": "shop-robberies",
+    "category": "missions",
+    "slug": [
+      "gta-6-robos-tiendas-comercios-preparacion",
+      "gta-6-store-robberies-businesses-planning",
+      "gta-6-braquages-magasins-commerces-preparation"
+    ],
+    "title": [
+      "Robos a tiendas en GTA 6: objetivos, preparación y reacciones",
+      "GTA 6 store robberies: targets, preparation and reactions",
+      "Braquages GTA 6 : magasins, préparation et réactions"
+    ],
+    "excerpt": [
+      "Robos a comercios en GTA 6 según IGN y Edge: ejemplos mostrados, decisiones, testigos y límites. Guía sin rutas, recompensas o códigos inventados.",
+      "GTA 6 business robberies in IGN and Edge reporting: demonstrated examples, decisions, witnesses and limits, without invented rewards or routes.",
+      "Les braquages GTA 6 selon IGN et Edge : exemples, choix, témoins et limites, sans itinéraires, récompenses ou codes inventés."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué describen los avances sobre robar comercios",
+          "What previews describe about business robberies",
+          "Ce que les aperçus décrivent"
+        ],
+        "paragraphs": [
+          [
+            "Los robos a comercios de GTA 6 forman parte de la actividad entre misiones descrita por Rob Nelson en la entrevista de IGN publicada íntegramente el 7 de octubre de 2026. La demostración incluye negocios concretos y decisiones durante el golpe. Esta guía también incorpora una anécdota de Phil Hooker recogida por PC Gamer el 29 de octubre a partir de Edge. Son reportes con fechas identificadas, no pruebas propias ni una lista completa de establecimientos que ya hayamos recorrido.",
+            "GTA 6 business robberies belong to the between-mission activity Rob Nelson describes in IGN’s full interview published October 7, 2026. The demonstration includes particular businesses and decisions during a robbery. This guide also examines Phil Hooker’s anecdote reported by PC Gamer on October 29 from Edge’s feature. These are dated accounts rather than our own hands-on tests or a complete list of locations already explored. The focus is how the activity is described, not a fabricated launch-day walkthrough.",
+            "Les braquages de commerces font partie des activités entre missions décrites par Rob Nelson dans l’entretien IGN publié intégralement le 7 octobre 2026. La démonstration présente des commerces précis et des décisions pendant l’action. Ce guide ajoute une anecdote de Phil Hooker rapportée par PC Gamer le 29 octobre à partir d’Edge. Ce sont des comptes rendus datés, pas nos tests ni une liste complète de lieux parcourus."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Dos ejemplos de la demostración: empeños y electrónica",
+          "Two demonstration examples: pawn shops and electronics",
+          "Deux exemples : prêteur sur gages et électronique"
+        ],
+        "paragraphs": [
+          [
+            "La entrevista recoge una visita a una casa de empeños y otra situación en una tienda de auriculares. Ambos ejemplos ayudan a concretar el alcance del sistema sin convertir una declaración amplia en una garantía de que todos los negocios del mapa se puedan robar. Tampoco permiten asignar a cada local un horario, una dirección o una recompensa fija. Para una futura guía de objetivos habrá que verificar la ubicación, las condiciones de acceso y cómo se repite cada actividad dentro del juego.",
+            "The interview includes a pawn-shop visit and another situation at a headphone retailer. Those examples make the activity more concrete without converting broad wording into a guarantee that every mapped business is robbable. They cannot establish each shop’s hours, address or fixed payout either. A future target guide needs verified locations, entry conditions and repeatability. These distinctions preserve the useful demonstrated examples while avoiding an unsupported directory built from shop signs seen in promotional footage.",
+            "L’entretien présente une visite chez un prêteur sur gages et une autre situation dans une boutique de casques audio. Ces exemples précisent le système sans garantir le braquage de tous les commerces. Ils ne définissent ni horaires, ni adresses, ni gains fixes. Un futur guide devra vérifier lieux, conditions d’accès et répétition de l’activité, sans fabriquer un annuaire à partir d’enseignes promotionnelles."
+          ]
+        ],
+        "table": {
+          "headers": [
+            [
+              "Referencia",
+              "Reference",
+              "Référence"
+            ],
+            [
+              "Ejemplo descrito",
+              "Described example",
+              "Exemple décrit"
+            ],
+            [
+              "Cómo interpretarlo",
+              "How to read it",
+              "Interprétation"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "IGN, 7 de octubre",
+                "IGN, October 7",
+                "IGN, 7 octobre"
+              ],
+              [
+                "Casa de empeños y reparto de posiciones",
+                "Pawn shop and different character positions",
+                "Prêteur sur gages et positions des personnages"
+              ],
+              [
+                "Situación demostrada, sin reglas universales para cada local",
+                "A demonstrated situation, not universal rules for every shop",
+                "Situation montrée, pas des règles universelles pour chaque commerce"
+              ]
+            ],
+            [
+              [
+                "IGN, 7 de octubre",
+                "IGN, October 7",
+                "IGN, 7 octobre"
+              ],
+              [
+                "Tienda de auriculares y elección ante una caja fuerte",
+                "Headphone store and a safe-related choice",
+                "Boutique de casques et choix devant un coffre"
+              ],
+              [
+                "Decisiones con consecuencias para el botín",
+                "Choices with consequences for the take",
+                "Choix avec conséquences sur le butin"
+              ]
+            ],
+            [
+              [
+                "Edge vía PC Gamer, 29 de octubre",
+                "Edge via PC Gamer, October 29",
+                "Edge via PC Gamer, 29 octobre"
+              ],
+              [
+                "Diálogo que hace salir a clientes del negocio",
+                "Dialogue prompting shop customers to leave",
+                "Dialogue incitant des clients à quitter le commerce"
+              ],
+              [
+                "Anécdota de un desarrollador, no una receta garantizada",
+                "Developer anecdote, not a guaranteed recipe",
+                "Anecdote de développeur, pas une recette garantie"
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "La preparación que Nelson comenta durante la partida",
+          "The preparation Nelson discusses during the demonstration",
+          "La préparation évoquée pendant la démonstration"
+        ],
+        "paragraphs": [
+          [
+            "Nelson comenta que debería haber preparado un vehículo para la salida, antes de continuar con la situación tal como se presenta. Lo significativo para el diseño es que llegar a un negocio no agota las decisiones del jugador: también importa cómo se plantea la actividad. No transformamos ese comentario en una ruta óptima ni lo trasladamos al mundo real. En GTA VI todavía habrá que comprobar qué se puede preparar, qué cambia con el contexto y qué consecuencias tiene improvisar o repetir un intento.",
+            "Nelson comments that he should have arranged a vehicle for the exit before continuing with the situation as it stands. The design point is that reaching the business does not exhaust player decisions; the approach to the activity also matters. This is not presented as an optimal route or real-world advice. GTA VI testing will still need to establish available preparation, contextual differences and the consequences of improvising or repeating an attempt under comparable game conditions.",
+            "Nelson remarque qu’il aurait dû préparer un véhicule pour repartir, puis continue dans la situation présente. L’intérêt de design est que l’arrivée au commerce n’épuise pas les choix : la préparation compte aussi. Ce n’est ni un parcours optimal ni un conseil réel. Il faudra vérifier dans GTA VI les préparatifs possibles, les variations de contexte et les conséquences d’une tentative improvisée ou répétée."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Cajas fuertes: opciones con consecuencias para el botín",
+          "Safes: choices with consequences for the take",
+          "Coffres : des choix avec conséquences sur le butin"
+        ],
+        "paragraphs": [
+          [
+            "En el relato de la demostración, buscar una combinación y utilizar explosivos no son alternativas equivalentes: Nelson explica que estos últimos dañarían parte del contenido. Ese contraste sugiere decisiones sobre cómo resolver una situación, no únicamente llegar a un marcador. No conocemos todas las herramientas, sus precios o una combinación universal. Las cifras y el rendimiento por hora deberán medirse cuando existan partidas reproducibles; presentar ahora un método de dinero infalible iría más allá de la evidencia disponible.",
+            "In the demonstration account, finding a combination and using explosives are not equivalent choices: Nelson explains that the latter would damage some contents. That contrast makes the situation more than simply reaching a marker. It does not supply every tool, its price or a universal combination. Hourly earnings require reproducible measurements. An infallible money method would go beyond the evidence, whereas explaining the documented trade-off gives readers a concrete reason to pay attention to different approaches.",
+            "Dans la démonstration, chercher une combinaison et employer des explosifs ne sont pas équivalents : Nelson explique que ces derniers endommageraient une partie du contenu. Cela suggère des décisions au-delà d’un simple marqueur à atteindre. Nous ne connaissons ni tous les outils, ni leurs prix, ni un code universel. Les gains horaires demandent des mesures reproductibles, pas une méthode d’argent infaillible annoncée avant vérification."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Testigos y diálogo: la anécdota recogida por PC Gamer",
+          "Witnesses and dialogue in PC Gamer’s reported anecdote",
+          "Témoins et dialogue dans l’anecdote rapportée"
+        ],
+        "paragraphs": [
+          [
+            "PC Gamer recoge que Hooker provocó brevemente a clientes de una tienda dentro del juego y luego rebajó la tensión, consiguiendo que se fueran antes del robo. Es un ejemplo de interacción entre sistemas narrado por un desarrollador; no demuestra que todos los NPC respondan siempre igual. La etiqueta immersive sim del titular es la interpretación del periodista, no una categoría técnica anunciada por Rockstar. El valor de la escena está en que una conversación puede modificar la situación, sin convertirla en una solución garantizada.",
+            "PC Gamer recounts Hooker briefly provoking shop customers inside the game and then de-escalating, prompting them to leave before the robbery. It is a developer’s example of interacting systems, not proof that every NPC always responds identically. The headline’s immersive-sim label is the journalist’s interpretation rather than a Rockstar technical classification. The useful point is that conversation can change a situation. That can be explained without turning one anecdote into a guaranteed solution to every encounter.",
+            "PC Gamer raconte que Hooker a brièvement provoqué des clients dans le jeu puis désamorcé la tension, les faisant partir avant le braquage. C’est un exemple de systèmes liés, pas la preuve d’une réaction identique de tous les PNJ. Le terme immersive sim du titre relève de l’interprétation journalistique, pas d’une classification Rockstar. L’intérêt est qu’une conversation puisse modifier une situation sans devenir une solution garantie."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Robar un comercio no define todo el sistema policial",
+          "A shop robbery does not define the entire police system",
+          "Un braquage ne définit pas tout le système policier"
+        ],
+        "paragraphs": [
+          [
+            "Identificación, testigos y persecución tienen su propia complejidad. Una reacción mostrada en una tienda no fija un tiempo universal de llegada de agentes ni explica todas las condiciones para perder una búsqueda. Por eso enlazamos la guía policial y el análisis del perfil criminal sin repetirlos como si fueran instrucciones comprobadas de este local. El artículo de financiación de misiones también responde otra pregunta: para qué pueden necesitarse fondos durante la historia. Aquí el foco sigue en las decisiones del robo a comercios.",
+            "Identification, witnesses and pursuit have their own complexity. One shop encounter cannot establish a universal police arrival time or every condition for losing attention. The police and Criminal Profile guides are therefore linked rather than repeated as a tested walkthrough for this location. Mission-funding coverage answers another question: why story progress may require money. This page stays focused on business-robbery decisions, keeping connected systems available through relevant links without merging their separate search intents into a duplicated general guide.",
+            "Identification, témoins et poursuite ont leur propre complexité. Une scène ne définit ni délai universel d’arrivée policière ni toutes les conditions de fuite. Les guides de police et de profil criminel sont donc liés sans devenir un tutoriel testé pour ce commerce. Le financement des missions répond encore à une autre question : l’utilité des fonds dans l’histoire. Ici, le sujet reste les choix du braquage."
+          ]
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes: objetivos, repetición y recompensas",
+          "FAQ: targets, repetition and rewards",
+          "FAQ : cibles, répétition et récompenses"
+        ],
+        "paragraphs": [
+          [
+            "¿Podremos robar cualquier negocio o casa? Los ejemplos revisados no justifican esa garantía universal. ¿Hay una lista oficial de todos los objetivos? No la presentamos como disponible. ¿Podemos recomendar el mejor comercio para ganar dinero? Faltan mediciones y condiciones comparables. ¿Hace falta jugar siempre en pareja? La entrevista habla de alternativas en el mundo abierto, pero cada situación necesita sus propias reglas. Las imágenes de esta página son material auténtico de GTA VI; no representan un recorrido realizado por FansGTA ni indican coordenadas de un comercio concreto.",
+            "Can every business or home be robbed? These examples do not establish that universal guarantee. Is an official complete target list provided here? No. Can the best money-making business be recommended? Measurements and comparable conditions are missing. Must every activity be performed as a pair? The interview discusses alternatives in the open world, but individual situations still need their own rules. The pictures are authentic GTA VI material, not documentation of a FansGTA playthrough or coordinates for a particular shop.",
+            "Tous les commerces ou maisons sont-ils braquables ? Ces exemples ne garantissent pas cette universalité. Une liste officielle complète est-elle fournie ? Non. Peut-on recommander le commerce le plus rentable ? Il manque mesures et conditions comparables. Faut-il toujours agir en duo ? L’entretien décrit des possibilités, mais chaque situation conserve ses règles. Les images authentiques ne documentent pas une partie FansGTA et ne donnent pas les coordonnées d’un commerce."
+          ]
+        ]
+      }
+    ],
+    "images": [
+      "feature-shop-robbery",
+      "feature-couple",
+      "raul-bautista"
+    ],
+    "refs": [
+      "interview",
+      "robberies",
+      "official"
+    ],
+    "related": [
+      "gta6-mission-money-explained-20261030",
+      "gta6-police-wanted-deep-20261029",
+      "gta6-criminal-profile-explained-20261030"
+    ]
+  }
+]

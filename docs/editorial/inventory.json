@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-more-wyman-20261031",
+    "category": "vehicles",
+    "published": "2026-10-31",
+    "titles": [
+      "Wyman en GTA 6: coches clásicos y restauración de Ultimate",
+      "GTA 6 Wyman: classic cars and Ultimate’s restoration activity",
+      "Wyman GTA 6 : voitures classiques et restauration Ultimate"
+    ],
+    "paths": [
+      "/es/vehiculos/gta-6-wyman-coches-clasicos-restauracion/",
+      "/en/vehicles/gta-6-wyman-classic-cars-restoration/",
+      "/fr/vehicules/gta-6-wyman-voitures-classiques-restauration/"
+    ]
+  },
+  {
+    "id": "gta6-more-appearance-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Ropa y tatuajes de GTA 6: Stock 305, Sara’s y Electric Fang",
+      "GTA 6 clothes and tattoos: Stock 305, Sara’s and Electric Fang",
+      "Vêtements et tatouages GTA 6 : Stock 305, Sara’s, Electric Fang"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ropa-tatuajes-peluquerias-personalizacion/",
+      "/en/guides/gta-6-clothes-tattoos-hair-character-customisation/",
+      "/fr/guides/gta-6-vetements-tatouages-coiffure-personnalisation/"
+    ]
+  },
+  {
+    "id": "gta6-more-shop-robberies-20261031",
+    "category": "missions",
+    "published": "2026-10-31",
+    "titles": [
+      "Robos a tiendas en GTA 6: objetivos, preparación y reacciones",
+      "GTA 6 store robberies: targets, preparation and reactions",
+      "Braquages GTA 6 : magasins, préparation et réactions"
+    ],
+    "paths": [
+      "/es/misiones/gta-6-robos-tiendas-comercios-preparacion/",
+      "/en/missions/gta-6-store-robberies-businesses-planning/",
+      "/fr/missions/gta-6-braquages-magasins-commerces-preparation/"
+    ]
+  },
+  {
     "id": "gta6-interest-south-park-20261031",
     "category": "news",
     "published": "2026-10-31",

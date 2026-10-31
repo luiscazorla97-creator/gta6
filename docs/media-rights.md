@@ -19,3 +19,8 @@ The current official screenshot gallery and its download/share context were chec
 ## Daily Collector’s Box update — 2026-10-31
 
 The existing Vice City 11 cover is retained as authentic GTA VI setting imagery, explicitly captioned as neither a photograph of the box nor its contents. Its original official JPEG returned HTTP 200 and the Rockstar media page still offers download/share. Exact provenance remains in public/media/credits.json; translated alt/caption and explicit Rockstar credit accompany the optimized local WebP. No retailer/Famitsu product image, AI image, leaked asset or decorative hero edit was copied. Rights remain with Rockstar/Take-Two; no unrestricted licence is asserted.
+
+
+## Manual three-topic expansion — 2026-10-31
+
+Seven authentic official GTA VI screenshots added: Wyman collection 01/02/05, Stock 305 01, Sara’s Salon 01, Electric Fang 02 and Jason and Lucia 04. Current official gallery provenance and download/share context were checked. The six benefit images were inspected as a contact sheet; Jason and Lucia 04 was previously inspected and its current gallery filename revalidated. Assets are resized/re-encoded WebP at 1400×788, with translated descriptive alt/captions and explicit Rockstar credit. Each article has three images; robbery visuals provide context rather than an invented tested route. No AI, mods, leaks, GTA V substitutions or edited decorative hero assets are used. Copyright remains reserved; no unrestricted licence is asserted.
