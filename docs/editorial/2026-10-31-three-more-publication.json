@@ -1,0 +1,218 @@
+{
+  "commit": "6af99d7b5e5c5ec167c14a9789bc58ed67278ce1",
+  "deployment": "494f9018-edf0-465f-b0a1-2af76f6da49d",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-31T23:54:56.779995Z",
+    "status": "success"
+  },
+  "scope": "Manual three new topics, ES/EN/FR; daily schedule unchanged.",
+  "publicPages": [
+    {
+      "url": "https://fansgta.com/es/vehiculos/gta-6-wyman-coches-clasicos-restauracion/",
+      "status": 200,
+      "locale": "es",
+      "title": "Wyman en GTA 6: coches clásicos y restauración de Ultimate",
+      "images": [
+        "/media/feature-wyman-01.webp",
+        "/media/feature-wyman-02.webp",
+        "/media/feature-wyman-05.webp"
+      ],
+      "internalLinks": [
+        "/es/guias/gta-6-collectors-box-incluye-juego/",
+        "/es/guias/gta-6-personalizacion-coches-talleres/",
+        "/es/noticias/gta-6-ultimate-edition/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/gta-6-wyman-classic-cars-restoration/",
+      "status": 200,
+      "locale": "en",
+      "title": "GTA 6 Wyman: classic cars and Ultimate’s restoration activity",
+      "images": [
+        "/media/feature-wyman-01.webp",
+        "/media/feature-wyman-02.webp",
+        "/media/feature-wyman-05.webp"
+      ],
+      "internalLinks": [
+        "/en/guides/gta-6-car-customisation-mod-shops/",
+        "/en/guides/gta-6-collectors-box-does-it-include-game/",
+        "/en/news/gta-6-ultimate-edition/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/gta-6-wyman-voitures-classiques-restauration/",
+      "status": 200,
+      "locale": "fr",
+      "title": "Wyman GTA 6 : voitures classiques et restauration Ultimate",
+      "images": [
+        "/media/feature-wyman-01.webp",
+        "/media/feature-wyman-02.webp",
+        "/media/feature-wyman-05.webp"
+      ],
+      "internalLinks": [
+        "/fr/actualites/gta-6-ultimate-edition/",
+        "/fr/guides/gta-6-coffret-collector-jeu-inclus/",
+        "/fr/guides/gta-6-personnalisation-voitures-ateliers/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ropa-tatuajes-peluquerias-personalizacion/",
+      "status": 200,
+      "locale": "es",
+      "title": "Ropa y tatuajes de GTA 6: Stock 305, Sara’s y Electric Fang",
+      "images": [
+        "/media/feature-stock305.webp",
+        "/media/feature-saras.webp",
+        "/media/feature-electricfang.webp"
+      ],
+      "internalLinks": [
+        "/es/guias/gta-6-gimnasio-comida-salud-resistencia/",
+        "/es/guias/gta-6-mejorar-standard-ultimate-edition/",
+        "/es/guias/gta-6-policia-busqueda-testigos/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-clothes-tattoos-hair-character-customisation/",
+      "status": 200,
+      "locale": "en",
+      "title": "GTA 6 clothes and tattoos: Stock 305, Sara’s and Electric Fang",
+      "images": [
+        "/media/feature-stock305.webp",
+        "/media/feature-saras.webp",
+        "/media/feature-electricfang.webp"
+      ],
+      "internalLinks": [
+        "/en/guides/gta-6-gym-food-health-stamina/",
+        "/en/guides/gta-6-police-wanted-witnesses/",
+        "/en/guides/gta-6-upgrade-standard-ultimate-edition/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-vetements-tatouages-coiffure-personnalisation/",
+      "status": 200,
+      "locale": "fr",
+      "title": "Vêtements et tatouages GTA 6 : Stock 305, Sara’s, Electric Fang",
+      "images": [
+        "/media/feature-stock305.webp",
+        "/media/feature-saras.webp",
+        "/media/feature-electricfang.webp"
+      ],
+      "internalLinks": [
+        "/fr/guides/gta-6-passer-standard-ultimate-edition/",
+        "/fr/guides/gta-6-police-recherche-temoins/",
+        "/fr/guides/gta-6-salle-sport-nourriture-sante-endurance/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/gta-6-robos-tiendas-comercios-preparacion/",
+      "status": 200,
+      "locale": "es",
+      "title": "Robos a tiendas en GTA 6: objetivos, preparación y reacciones",
+      "images": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-couple.webp",
+        "/media/raul-bautista.webp"
+      ],
+      "internalLinks": [
+        "/es/guias/gta-6-dinero-misiones-historia-atracos-edge/",
+        "/es/guias/gta-6-perfil-criminal-professional-irredeemable/",
+        "/es/guias/gta-6-policia-busqueda-testigos/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/missions/gta-6-store-robberies-businesses-planning/",
+      "status": 200,
+      "locale": "en",
+      "title": "GTA 6 store robberies: targets, preparation and reactions",
+      "images": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-couple.webp",
+        "/media/raul-bautista.webp"
+      ],
+      "internalLinks": [
+        "/en/guides/gta-6-criminal-profile-professional-irredeemable/",
+        "/en/guides/gta-6-money-story-missions-heists-edge/",
+        "/en/guides/gta-6-police-wanted-witnesses/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/gta-6-braquages-magasins-commerces-preparation/",
+      "status": 200,
+      "locale": "fr",
+      "title": "Braquages GTA 6 : magasins, préparation et réactions",
+      "images": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-couple.webp",
+        "/media/raul-bautista.webp"
+      ],
+      "internalLinks": [
+        "/fr/guides/gta-6-argent-missions-histoire-braquages-edge/",
+        "/fr/guides/gta-6-police-recherche-temoins/",
+        "/fr/guides/gta-6-profil-criminel-professional-irredeemable/"
+      ]
+    }
+  ],
+  "publicImages": [
+    {
+      "url": "https://fansgta.com/media/feature-couple.webp",
+      "status": 200,
+      "bytes": 65196
+    },
+    {
+      "url": "https://fansgta.com/media/feature-electricfang.webp",
+      "status": 200,
+      "bytes": 77700
+    },
+    {
+      "url": "https://fansgta.com/media/feature-saras.webp",
+      "status": 200,
+      "bytes": 95336
+    },
+    {
+      "url": "https://fansgta.com/media/feature-shop-robbery.webp",
+      "status": 200,
+      "bytes": 78968
+    },
+    {
+      "url": "https://fansgta.com/media/feature-stock305.webp",
+      "status": 200,
+      "bytes": 164392
+    },
+    {
+      "url": "https://fansgta.com/media/feature-wyman-01.webp",
+      "status": 200,
+      "bytes": 110660
+    },
+    {
+      "url": "https://fansgta.com/media/feature-wyman-02.webp",
+      "status": 200,
+      "bytes": 68952
+    },
+    {
+      "url": "https://fansgta.com/media/feature-wyman-05.webp",
+      "status": 200,
+      "bytes": 49044
+    },
+    {
+      "url": "https://fansgta.com/media/raul-bautista.webp",
+      "status": 200,
+      "bytes": 34644
+    }
+  ],
+  "bundle": "/assets/index-I4B3SAKD.js",
+  "css": "/assets/index-Bd4d0erj.css",
+  "publicAssetsAndImagesMatchTestedRelease": true,
+  "sitemap": "all nine new URLs present with October 31 lastmod",
+  "browser": "6 tests passed, all nine pages on desktop/mobile: images, tables, metadata/schema, real language selector and localized working internal links. Ads mocked; no fill/revenue inference.",
+  "buildRelease": "passed",
+  "static": "401 HTML, 18057 internal links, 776 JSON-LD blocks",
+  "inventory": {
+    "topics": 119,
+    "versions": 357,
+    "old348ArticleURLsAndTitlesPreserved": true
+  },
+  "execution": "Managed cloud using authorized GitHub and Cloudflare connections; no user PC dependency.",
+  "unchanged": "Ads, Analytics consent, design, security, subscriptions, services, schedule and BarberControl."
+}

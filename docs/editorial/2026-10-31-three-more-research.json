@@ -125,6 +125,16 @@
   "validation": {
     "buildRelease": "passed initial content build",
     "static": "401 HTML, 18057 internal links, 776 structured-data blocks",
-    "browser": "6 tests passed, desktop/mobile in ES/EN/FR: all nine pages, image decode and credit, localized metadata and schema, comparison tables, working localized internal links, real language selector, no horizontal overflow, no unsolicited Analytics/popunder SDK requests. Ad providers mocked; no impression or revenue claim."
+    "browser": "6 tests passed, desktop/mobile in ES/EN/FR: all nine pages, image decode and credit, localized metadata and schema, comparison tables, working localized internal links, real language selector, no horizontal overflow, no unsolicited Analytics/popunder SDK requests. Ad providers mocked; no impression or revenue claim.",
+    "public": "Passed: all nine new localized URLs, nine distinct images, canonical/hreflang/JSON-LD, tables, actual localized internal links, sitemap and byte-identical tested JS/CSS/WebP."
+  },
+  "publication": {
+    "commit": "6af99d7b5e5c5ec167c14a9789bc58ed67278ce1",
+    "deployment": "494f9018-edf0-465f-b0a1-2af76f6da49d",
+    "status": "deploy/success",
+    "topics": 3,
+    "versions": 9,
+    "images": 9,
+    "evidence": "docs/editorial/2026-10-31-three-more-publication.json"
   }
 }
