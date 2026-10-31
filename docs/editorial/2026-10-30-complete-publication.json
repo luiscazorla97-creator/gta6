@@ -1,0 +1,805 @@
+{
+  "commit": "7515bdb9fab90e7033359ad2ba20eb1efa01b625",
+  "deployment": "b98a6053-0858-4480-9901-e6beac29dc4d",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-10-31T00:12:52.904176Z",
+    "ended_on": "2026-10-31T00:12:59.79428Z",
+    "status": "success"
+  },
+  "newTopics": 25,
+  "newEditions": 75,
+  "publicPages": [
+    {
+      "id": "gta6-map-scale-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-tamano-mapa-leonida-comparacion-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-map-scale-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-map-size-leonida-edge-comparison/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-map-scale-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-taille-carte-leonida-comparaison-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-interiors-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-interiores-edificios-casas-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-interiors-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-interiors-enterable-buildings-houses-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-interiors-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-interieurs-batiments-maisons-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-fuel-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-gasolina-repostar-combustible-coches/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-fuel-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-fuel-refuelling-cars-explained/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-fuel-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-essence-ravitaillement-voitures/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-loadout-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-armas-inventario-rueda-maletero/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-loadout-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-weapons-inventory-wheel-car-trunk/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-loadout-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-armes-inventaire-roue-coffre/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-criminal-profile-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-perfil-criminal-professional-irredeemable/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-criminal-profile-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-criminal-profile-professional-irredeemable/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-criminal-profile-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-profil-criminel-professional-irredeemable/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-switching-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-cambiar-jason-lucia-personajes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-switching-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-switch-jason-lucia-characters/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-switching-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-changer-jason-lucia-personnages/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-gym-health-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-gimnasio-comida-salud-resistencia/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-gym-health-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-gym-food-health-stamina/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-gym-health-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-salle-sport-nourriture-sante-endurance/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-street-races-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-carreras-callejeras-encuentros-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-street-races-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-street-races-world-encounters-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-street-races-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-courses-rue-rencontres-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-mission-money-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-dinero-misiones-historia-atracos-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-mission-money-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-money-story-missions-heists-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-mission-money-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-argent-missions-histoire-braquages-edge/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-scooter-bros-explained-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-scooter-bros-pedir-coche-personal/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-scooter-bros-explained-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-scooter-bros-personal-car-delivery/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "gta6-scooter-bros-explained-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-scooter-bros-livraison-voiture-personnelle/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-online-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-online-codigos-dinero-limites/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-online-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-online-cheats-money-codes-limits/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-online-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-online-argent-limites/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-tbogt-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-the-ballad-of-gay-tony-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-tbogt-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-the-ballad-of-gay-tony-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-tbogt-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-the-ballad-of-gay-tony-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-cw-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-chinatown-wars-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-cw-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-chinatown-wars-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-cw-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-chinatown-wars-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-tlad-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-the-lost-and-damned-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-tlad-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-the-lost-and-damned-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-tlad-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-the-lost-and-damned-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-iv-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-4-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-iv-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-4-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-iv-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-4-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-vcs-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-vice-city-stories-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-vcs-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-vice-city-stories-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-vcs-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-vice-city-stories-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-lcs-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-liberty-city-stories-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-lcs-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-liberty-city-stories-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-lcs-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-liberty-city-stories-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-sa-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-san-andreas-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-sa-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-san-andreas-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-sa-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-san-andreas-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-advance-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-advance-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-advance-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-advance-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-advance-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-advance-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-vc-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-vice-city-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-vc-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-vice-city-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-vc-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-vice-city-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-iii-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-3-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-iii-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-3-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-iii-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-3-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-gta2-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-2-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-gta2-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-2-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-gta2-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-2-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-london61-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-london-1961-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-london61-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-london-1961-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-london61-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-london-1961-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-london69-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-london-1969-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-london69-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-london-1969-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-london69-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-london-1969-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-gta1-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-1-codigos-plataformas/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-gta1-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-1-cheats-codes-platforms/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    },
+    {
+      "id": "cheats-gta1-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-1-plateformes/",
+      "status": 200,
+      "metadata": "verified",
+      "cover": "verified",
+      "providerSDK": "single head script"
+    }
+  ],
+  "publicImages": [
+    {
+      "path": "/media/ambrosia.webp",
+      "bytes": 118590,
+      "sha256": "ddc749ed919fe4783bbc397aff94dd882dbb4184a5397d040a38269ea8def687"
+    },
+    {
+      "path": "/media/grassrivers.webp",
+      "bytes": 179052,
+      "sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6"
+    },
+    {
+      "path": "/media/history-chinatownwars.webp",
+      "bytes": 122292,
+      "sha256": "6ec74e59858a24173362207db6509d36f3befd1ecfdc6a92b8abe94b6ee1745e"
+    },
+    {
+      "path": "/media/history-grandtheftauto-gba.webp",
+      "bytes": 8958,
+      "sha256": "a14debf357e96c8c8da1c3321eeaedf284614e4a5d5a28eae6f3177e1e790a48"
+    },
+    {
+      "path": "/media/history-grandtheftauto3.webp",
+      "bytes": 94128,
+      "sha256": "e7d626d219f41329b1ad5c6bfeb58b41c233f80cf8cc02cc8e4d7b6b2ed07c38"
+    },
+    {
+      "path": "/media/history-gta.webp",
+      "bytes": 151366,
+      "sha256": "4ba94b0f384ab58b407d24d8620d4ec668cd20478f9ebf8f90a9d85a0a36bdd8"
+    },
+    {
+      "path": "/media/history-gta-online.webp",
+      "bytes": 133344,
+      "sha256": "988988eacc42675c6d9ebcb01f0afe4b9e39cf677fe19918329a0d34af2247ce"
+    },
+    {
+      "path": "/media/history-gta2.webp",
+      "bytes": 50996,
+      "sha256": "72bdce651254707006a311848d731c135d9605648ccb9448a1155583c2f85f4b"
+    },
+    {
+      "path": "/media/history-gtalondon.webp",
+      "bytes": 35698,
+      "sha256": "2350bfd39fc360c1edde318392aeaf7dd9fd6c5608862978c68118f1be2a1589"
+    },
+    {
+      "path": "/media/history-iv.webp",
+      "bytes": 106776,
+      "sha256": "ac8341abe977146b9912bfe9de361e063be9f81b76c5e15e1b30570ce3520d4c"
+    },
+    {
+      "path": "/media/history-libertycitystories.webp",
+      "bytes": 115870,
+      "sha256": "e87bd6009c2f01d952515e4b4f2fd7433d548ac8df0826706eb7a2ec2f00db4e"
+    },
+    {
+      "path": "/media/history-sanandreas.webp",
+      "bytes": 121214,
+      "sha256": "7c67d365e65179c115b87b97c7f107ff74791a6f1c782657e3d6f7e588cad339"
+    },
+    {
+      "path": "/media/history-theballadofgaytony.webp",
+      "bytes": 58936,
+      "sha256": "53e6f63700d9cb5cdc882f6df333933b3d83446f5c49cd28e780eeeaa3e58790"
+    },
+    {
+      "path": "/media/history-thelostanddamned.webp",
+      "bytes": 79004,
+      "sha256": "f4e8e15e812624c616204ec91ce2d585da623d695a8ee085c991cfe089bcc94f"
+    },
+    {
+      "path": "/media/history-vicecity.webp",
+      "bytes": 124224,
+      "sha256": "a10329cce7396f8b16bf8c445cb894fc7643ac65fc195ab412ab2893fb00f60d"
+    },
+    {
+      "path": "/media/history-vicecitystories.webp",
+      "bytes": 100720,
+      "sha256": "206fb3cc649a6d2e15a8d4048c4d7d241d19ec7f4ac960dd5367e2b6a096e006"
+    },
+    {
+      "path": "/media/jason.webp",
+      "bytes": 68710,
+      "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1"
+    },
+    {
+      "path": "/media/lucia.webp",
+      "bytes": 65852,
+      "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff"
+    },
+    {
+      "path": "/media/port-gellhorn.webp",
+      "bytes": 124482,
+      "sha256": "79bb2cb2a797e1421ad26e73507fc63dd5d1557e73f40316d81d523f4b6d601d"
+    },
+    {
+      "path": "/media/raul-bautista.webp",
+      "bytes": 34644,
+      "sha256": "26f567f6fee36d09c9e268eac528d09a3dc32f9cd5f09e29a246b970a35592a0"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016"
+    }
+  ],
+  "bundle": "/assets/index-P4HPLPYA.js",
+  "css": "/assets/index-BrU_bY_M.css",
+  "browserChecks": 72,
+  "sourceSignals": "Autocomplete query wording + dated original reporting; no top-ten ranking claim",
+  "provider": "Real popunder remains unverified; source endpoint returned 403 from this cloud. Browser fixtures use mocked SDK.",
+  "dailySchedule": "unchanged",
+  "forum": "still postponed; no paid service created",
+  "initialPropagation": "The first request immediately after deployment received a transient 404; subsequent normal HTTPS checks verified all 75 new URLs and asset bytes on fansgta.com.",
+  "recordedUTC": "2026-10-31T00:15:01.634410+00:00"
+}

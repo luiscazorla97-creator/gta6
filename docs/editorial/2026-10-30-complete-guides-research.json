@@ -284,7 +284,7 @@
     "build": "npm run build:release passed: 95 topics, 328 generated pages plus root copy.",
     "static": "node scripts/verify-static.mjs passed: 329 HTML, 14886 internal links and 629 structured-data blocks. git diff --check passed.",
     "browser": "72 distinct desktop/mobile checks covered by passing results. Initial run: 68 passed, four copy-completeness checks failed an unnecessarily strict cross-language word threshold. Threshold corrected for natural translation length; real language-selector checks added. Dedicated editorial rerun: 14 passed, visiting all 75 new editions on desktop and mobile. Remaining 58 ad/Analytics/AdSense/catalogue/popunder cases already passed; no changes to that runtime after those passes.",
-    "publicPublication": "To be checked after main update and Cloudflare terminal success. No real popunder delivery verified."
+    "publicPublication": "Verified all 75 new public URLs, 21 images and exact tested JS/CSS bytes after terminal Cloudflare success. Published content commit 7515bdb9fab90e7033359ad2ba20eb1efa01b625; deployment b98a6053-0858-4480-9901-e6beac29dc4d. See 2026-10-30-complete-publication.json. Real provider popunder still unverified."
   },
   "newPublicPaths": [
     {
