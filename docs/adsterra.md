@@ -83,3 +83,7 @@ Se sustituye ese cargador por una única etiqueta async en index.html, antes de 
 ## Laterales 160 × 600 solicitados el 31 de octubre
 
 El usuario entregó la clave 83b265326d039193990417c5911eaf72 y su script https://bauval.org/22/83b265326d039193990417c5911eaf72. Sustituye la anterior unidad lateral 160×300 (clave bda767ca1714356b89730236ba25d4cd, ID histórico 31958939) en ambos costados. No se adivina un nuevo ID numérico del panel: la clave sirve como referencia local de diagnóstico. El adaptador conserva atOptions {key,format:iframe,height:600,width:160,params:{}} durante cada ejecución serializada y la exclusión Rocket Loader. Ambos laterales usan la misma unidad suministrada en contenedores independientes. Se muestran desde 1760px cuando caben en los márgenes, sin superponer texto ni forzar 320px extra en móvil. Las pruebas usan anuncios simulados; no acreditan entrega real, impresiones o ingresos del proveedor.
+
+## Decisión vigente: solo banners estáticos (31 de octubre)
+
+El usuario pidió retirar el anuncio que abre una ventana al hacer clic por considerarlo invasivo. Se elimina la etiqueta abscloud de la cabecera, se marca popunder.enabled=false y se corrige la información publicitaria ES/EN/FR. Este pedido sustituye las autorizaciones previas del popunder: no reactivarlo sin una solicitud nueva explícita. Continúan los banners superiores, inferiores, inline/nativo y ambos laterales 160×600 con sus claves y carga serializada. No cambia Analytics, AdSense ni las reglas de seguridad. No se añaden interceptores para compensar el SDK retirado.

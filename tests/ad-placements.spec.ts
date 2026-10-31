@@ -36,5 +36,5 @@ test('top, bottom and fitting side placements load automatically while Analytics
    await page.screenshot({path:`test-results/ad-placements-${info.project.name}.png`});
   }
  }
- expect(requests.some(u=>u.includes('abscloud.org'))).toBe(true);expect(requests.some(u=>u.includes('googletagmanager.com/gtag/js'))).toBe(false);
+ expect(requests.some(u=>u.includes('abscloud.org'))).toBe(false);expect(requests.some(u=>u.includes('googletagmanager.com/gtag/js'))).toBe(false);
 });
