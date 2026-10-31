@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/New_York",
+  "execution": "Cloud runtime with GitHub and Cloudflare authorized connections; no user PC dependency.",
+  "scope": "One existing topic updated in ES/EN/FR; no duplicate/new article.",
+  "commit": "cf904f0fab5d50546b52d612faf28a3f8c8ffa8c",
+  "deployment": "8aa94f83-52eb-49f7-a907-3956203d48e9",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-31T21:24:33.854075Z",
+    "status": "success"
+  },
+  "publicPages": [
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-collectors-box-incluye-juego/",
+      "status": 200,
+      "locale": "es",
+      "title": "Collector’s Box de GTA 6: Japón, 99.980 yenes y juego aparte",
+      "stockSnapshot": "unavailable at October 31 21:17 UTC",
+      "originalPublication": "2026-10-28",
+      "updated": "2026-10-31",
+      "internalLinks": [
+        "/es/guias/donde-comprar-reservar-descargar-gta-6/",
+        "/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+        "/es/noticias/gta-6-ultimate-edition/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-collectors-box-does-it-include-game/",
+      "status": 200,
+      "locale": "en",
+      "title": "GTA 6 Collector’s Box: Japan’s ¥99,980 listing and stock check",
+      "stockSnapshot": "unavailable at October 31 21:17 UTC",
+      "originalPublication": "2026-10-28",
+      "updated": "2026-10-31",
+      "internalLinks": [
+        "/en/guides/gta-6-physical-edition-no-disc-code/",
+        "/en/guides/where-to-buy-preorder-download-gta-6/",
+        "/en/news/gta-6-ultimate-edition/"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-coffret-collector-jeu-inclus/",
+      "status": 200,
+      "locale": "fr",
+      "title": "Coffret collector GTA 6 : Japon, 99 980 yens et jeu séparé",
+      "stockSnapshot": "unavailable at October 31 21:17 UTC",
+      "originalPublication": "2026-10-28",
+      "updated": "2026-10-31",
+      "internalLinks": [
+        "/fr/actualites/gta-6-ultimate-edition/",
+        "/fr/guides/gta-6-edition-physique-sans-disque-code/",
+        "/fr/guides/ou-acheter-precommander-telecharger-gta-6/"
+      ]
+    }
+  ],
+  "cover": "https://fansgta.com/media/vice-city.webp",
+  "coverAndPublicAssetBytesMatchTestedRelease": true,
+  "bundle": "/assets/index-D__QqJh3.js",
+  "css": "/assets/index-Bd4d0erj.css",
+  "sitemap": "all 3 existing URLs updated to October 31",
+  "browser": "4 desktop/mobile tests passed, checking all three editions, original image decoding, source/internal links, real locale selector, explicit Japan/JPY/tax/stock/time and preserved original date. Ad providers mocked; no fill or revenue inference.",
+  "buildRelease": "passed",
+  "static": "392 HTML, 17625 internal links, 758 structured-data blocks",
+  "inventory": {
+    "topics": 116,
+    "versions": 348,
+    "updatedTopics": 1,
+    "newTopics": 0,
+    "allPreviousArticlePathsPreserved": true
+  },
+  "schedule": "unchanged; publication authorized only through November 19, 2026 inclusive, America/New_York",
+  "untouched": "Ads, security rules, subscriptions, design, BarberControl. No purchases or third-party messages."
+}

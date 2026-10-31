@@ -102,6 +102,12 @@
       "url": "https://trends.google.com/trends/explore?date=now%207-d&q=GTA%206%20Collectors%20Box",
       "error": "HTTP Error 429: Too Many Requests",
       "checkedUTC": "2026-10-31T21:17:55.416107+00:00"
+    },
+    {
+      "key": "existingEditionsSupport",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "checked": "2026-10-31"
     }
   ],
   "interest": {
@@ -147,6 +153,16 @@
   "validation": {
     "releaseBuild": "passed",
     "static": "392 HTML, 17625 internal links, 758 JSON-LD blocks",
-    "browser": "4 tests passed: three language routes, metadata, original/updated dates, market/currency/tax/stock/time, real language selector, original decoded credited cover, localized working internal links, no horizontal overflow, no popunder or unsolicited Analytics requests. Desktop and mobile."
+    "browser": "4 tests passed: three language routes, metadata, original/updated dates, market/currency/tax/stock/time, real language selector, original decoded credited cover, localized working internal links, no horizontal overflow, no popunder or unsolicited Analytics requests. Desktop and mobile.",
+    "public": "Passed: 3 existing URLs show current Japan price/unavailable snapshot, original publication and update date, canonical/hreflang/JSON-LD, credited cover and localized working links. JS/CSS/image bytes equal tested release; all 3 sitemap lastmod values October 31."
+  },
+  "publication": {
+    "commit": "cf904f0fab5d50546b52d612faf28a3f8c8ffa8c",
+    "deployment": "8aa94f83-52eb-49f7-a907-3956203d48e9",
+    "status": "deploy/success",
+    "updatedTopics": 1,
+    "versions": 3,
+    "newTopics": 0,
+    "evidence": "docs/editorial/2026-10-31-daily-collector-japan-publication.json"
   }
 }
