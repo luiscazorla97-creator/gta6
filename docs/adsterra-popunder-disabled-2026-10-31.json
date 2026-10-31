@@ -1,0 +1,66 @@
+{
+  "commit": "8e97158ab3aa66ede055c3be672bd8ba0ffd251e",
+  "deployment": "14051696-e454-4203-b09b-d6588b032d4f",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-10-31T17:26:10.464638Z",
+    "ended_on": "2026-10-31T17:26:17.628576Z",
+    "status": "success"
+  },
+  "publicPages": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/trucos-gta-vice-city-stories-codigos-plataformas/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-animales-fauna-especies-leonida/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    }
+  ],
+  "bundle": "/assets/index-vlfMZ38q.js",
+  "css": "/assets/index-77LYaSJd.css",
+  "popunder": "Disabled; SDK removed from all generated HTML and production bundle. Native navigation and static banners retained.",
+  "browser": "28 desktop/mobile checks passed with mocked ad providers; no real fill or revenue claim.",
+  "recordedUTC": "2026-10-31T17:26:54.477435+00:00",
+  "validation": "npm run build:release and verify-static passed: 362 HTML, 16173 internal links, 698 structured-data blocks; 28 desktop/mobile browser checks passed."
+}
