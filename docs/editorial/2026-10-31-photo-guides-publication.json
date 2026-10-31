@@ -1,0 +1,217 @@
+{
+  "commit": "62d7610e47e26f3349f1292aeede3598656846db",
+  "deployment": "9bb2b605-4078-41a2-8838-72f11a2e44e8",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-10-31T17:18:22.995047Z",
+    "ended_on": "2026-10-31T17:18:31.08673Z",
+    "status": "success"
+  },
+  "publicPages": [
+    {
+      "id": "gta-online-omaggio-twitch-drops-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/gta-online/turismo-omaggio-gratis-twitch-drops-nopixel/",
+      "status": 200
+    },
+    {
+      "id": "gta-online-omaggio-twitch-drops-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/gta-online/free-turismo-omaggio-twitch-drops-nopixel/",
+      "status": 200
+    },
+    {
+      "id": "gta-online-omaggio-twitch-drops-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/gta-online/turismo-omaggio-gratuite-twitch-drops-nopixel/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-vice-city-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-vice-city-barrios-lugares-imagenes/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-vice-city-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-vice-city-neighbourhoods-locations-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-vice-city-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-vice-city-quartiers-lieux-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-leonida-keys-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-leonida-keys-islas-bares-imagenes/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-leonida-keys-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-leonida-keys-islands-bars-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-leonida-keys-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-leonida-keys-iles-bars-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-grassrivers-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-grassrivers-pantanos-manglares-imagenes/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-grassrivers-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-grassrivers-wetlands-mangroves-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-grassrivers-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-grassrivers-marais-mangroves-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-port-gellhorn-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-port-gellhorn-costa-moteles-imagenes/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-port-gellhorn-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-port-gellhorn-coast-motels-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-port-gellhorn-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-port-gellhorn-cote-motels-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-ambrosia-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-ambrosia-refineria-moteros-imagenes/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-ambrosia-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-ambrosia-refinery-bikers-images/",
+      "status": 200
+    },
+    {
+      "id": "gta6-place-ambrosia-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-ambrosia-raffinerie-motards-images/",
+      "status": 200
+    }
+  ],
+  "images": [
+    {
+      "path": "/media/ambrosia.webp",
+      "bytes": 118590,
+      "sha256": "ddc749ed919fe4783bbc397aff94dd882dbb4184a5397d040a38269ea8def687"
+    },
+    {
+      "path": "/media/grassrivers.webp",
+      "bytes": 179052,
+      "sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6"
+    },
+    {
+      "path": "/media/history-gta-online.webp",
+      "bytes": 133344,
+      "sha256": "988988eacc42675c6d9ebcb01f0afe4b9e39cf677fe19918329a0d34af2247ce"
+    },
+    {
+      "path": "/media/leonida-keys.webp",
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d"
+    },
+    {
+      "path": "/media/port-gellhorn.webp",
+      "bytes": 124482,
+      "sha256": "79bb2cb2a797e1421ad26e73507fc63dd5d1557e73f40316d81d523f4b6d601d"
+    },
+    {
+      "path": "/media/region-ambrosia-02.webp",
+      "bytes": 73828,
+      "sha256": "abdda8dfb0cdcb5cc1e79158069956000737bb8c4f76cccab42d347ce328b441"
+    },
+    {
+      "path": "/media/region-ambrosia-03.webp",
+      "bytes": 103904,
+      "sha256": "4d1fa116cdc04a5d0ecb1e4c1f732b94d7f5c6a18cb9e1395ccd554711797ca8"
+    },
+    {
+      "path": "/media/region-grassrivers-02.webp",
+      "bytes": 146246,
+      "sha256": "90c7c5ec23d38a0b007a762e11442133739ea98acfe95b4b30e8e85350207b7e"
+    },
+    {
+      "path": "/media/region-grassrivers-03.webp",
+      "bytes": 183120,
+      "sha256": "0095192f3ece6df1c6cbb56de34ba49215f347eca8cbd6508bc3c6f7ac401a57"
+    },
+    {
+      "path": "/media/region-leonida-keys-02.webp",
+      "bytes": 225064,
+      "sha256": "29aaa782c451bccfd51aa0daa10f3be24ae93d8c6aa02d946645fd4dba5066ac"
+    },
+    {
+      "path": "/media/region-leonida-keys-03.webp",
+      "bytes": 232604,
+      "sha256": "a05cb8512d5725e250adc2461bc262b7ceb3ca3bec87e6d2d98286e8b97b19d3"
+    },
+    {
+      "path": "/media/region-port-gellhorn-02.webp",
+      "bytes": 100334,
+      "sha256": "bc3008887d8e4b05a1ecdf85874bc027672ab5262904567497c572082b0a5ace"
+    },
+    {
+      "path": "/media/region-port-gellhorn-03.webp",
+      "bytes": 51636,
+      "sha256": "cd0a6bb53d473d817c8eae264bfb170b7034c6dd6c25a7ccbfeafb9b1eaaf173"
+    },
+    {
+      "path": "/media/region-vice-city-02.webp",
+      "bytes": 97548,
+      "sha256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077"
+    },
+    {
+      "path": "/media/region-vice-city-03.webp",
+      "bytes": 231656,
+      "sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016"
+    }
+  ],
+  "bundle": "/assets/index-9z6QttQA.js",
+  "css": "/assets/index-77LYaSJd.css",
+  "topics": 106,
+  "editions": 318,
+  "browserChecks": 30,
+  "sidebar": "160x600 on both wide-screen rails; real provider fill not verified",
+  "dailySchedule": "unchanged",
+  "searchRanking": "No numerical popularity ranking claimed.",
+  "recordedUTC": "2026-10-31T17:19:36.969643+00:00",
+  "sidebarProviderCheck": {
+    "url": "https://bauval.org/22/83b265326d039193990417c5911eaf72",
+    "status": 403,
+    "bytes": 0
+  },
+  "providerLimit": "403 in this executor context does not establish a universal visitor failure. Exact banner code/geometry tested with fixtures and public bundle; real fill/revenue not claimed."
+}

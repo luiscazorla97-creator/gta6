@@ -150,5 +150,19 @@
   "imageLimit": "Ten new official JPGs reduced/re-encoded only into 1400x788 WebP and visually inspected; five existing official covers reused. Credits and translated alt/captions inline. No AI, mod, leak or altered motion-hero asset. Candidate GAMINGbible image endpoint returned 403 and was excluded; news uses correctly labelled original GTA Online catalogue artwork, not an invented car image.",
   "seo": "Distinct localized titles/slugs/excerpts, five readable sections per guide, contextual internal links, three images each and intrinsic dimensions, lazy inline loading. No ranking, traffic or position guarantees.",
   "advertising": "Supplied sidebar key replaces 160x300 in both rails with atOptions160x600; no numeric provider ID invented. Other units, GA consent, popunder, CSP and subscriptions unchanged. Real fill/revenue not established by fixtures.",
-  "validation": "Release/static checks passed. Thirty distinct desktop/mobile checks covered by passing results; dedicated six-check editorial rerun passed after adding three-image JSON-LD arrays. All 18 editions visited, lazy image decoding/credit verified, language selector and internal references checked. Both sidebar fixture creatives assert exact 160x600 dimensions and supplied /22/ URL; queue, failures, CSP and responsive behaviour passed. Public production verification still required after deployment."
+  "validation": "Release/static checks passed. Thirty distinct desktop/mobile checks covered by passing results; dedicated six-check editorial rerun passed after adding three-image JSON-LD arrays. All 18 editions visited, lazy image decoding/credit verified, language selector and internal references checked. Both sidebar fixture creatives assert exact 160x600 dimensions and supplied /22/ URL; queue, failures, CSP and responsive behaviour passed. Public production verification still required after deployment.",
+  "publicVerification": {
+    "commit": "62d7610e47e26f3349f1292aeede3598656846db",
+    "deployment": "9bb2b605-4078-41a2-8838-72f11a2e44e8",
+    "status": "deploy/success",
+    "pages": 18,
+    "images": 16,
+    "bundle": "Exact tested JS/CSS bytes verified on production, supplied sidebar key present and old sidebar key absent.",
+    "static": "362 HTML, 16173 internal links, 698 structured-data blocks.",
+    "provider": {
+      "url": "https://bauval.org/22/83b265326d039193990417c5911eaf72",
+      "status": 403,
+      "bytes": 0
+    }
+  }
 }
