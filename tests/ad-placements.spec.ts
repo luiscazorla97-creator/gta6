@@ -72,3 +72,36 @@ for(const width of [390,1024,1279,1280,1366,1440,1600,1920]){
   expect(requests.some(u=>u.includes('googletagmanager.com/gtag/js'))).toBe(false);
  });
 }
+
+for(const height of [780,900,700]){
+ test(`side banners follow wheel scrolling only when fully fitting at ${height}px height`,async({page},info)=>{
+  test.skip(info.project.name!=='desktop','Desktop sticky rail coverage');
+  await page.setViewportSize({width:1366,height});await mockBanners(page);
+  const requests:string[]=[];page.on('request',r=>requests.push(r.url()));
+  for(const path of ['/es/','/es/noticias/gta-6-autobuses-trenes-transporte-edge/']){
+   await page.goto(path);
+   const frames=['left','right'].map(side=>page.locator(`[data-ad-placement="${side}"] iframe`));
+   for(const frame of frames)await expect(frame).toHaveCount(1);
+   const consent=page.getByRole('button',{name:'Rechazar Analytics',exact:true});if(await consent.isVisible())await consent.click();
+   const initial=await Promise.all(frames.map(frame=>frame.boundingBox()));
+   const loads=requests.filter(u=>u.endsWith(adUnits.sidebar.key)).length;
+   await page.mouse.wheel(0,900);
+   await expect.poll(()=>page.evaluate(()=>scrollY)).toBeGreaterThan(500);
+   for(let i=0;i<frames.length;i++){
+    if(height>=780){
+     await expect.poll(async()=>Math.abs((await frames[i].boundingBox())!.y-initial[i]!.y)).toBeLessThan(1);
+     const box=(await frames[i].boundingBox())!,header=(await page.locator('.site-header').boundingBox())!;
+     expect(box.y).toBeGreaterThanOrEqual(header.y+header.height);
+     expect(box.y+box.height).toBeLessThanOrEqual(height-8);
+    }else await expect.poll(async()=>(await frames[i].boundingBox())!.y).toBeLessThan(initial[i]!.y-500);
+   }
+   if(height===900)await page.screenshot({path:`test-results/sticky-rails-${path==='/es/'?'home':'article'}.png`});
+   await page.evaluate(()=>window.scrollTo({top:document.documentElement.scrollHeight,behavior:'instant'}));
+   const footer=(await page.locator('footer').boundingBox())!;
+   for(const frame of frames){const box=(await frame.boundingBox())!;expect(box.y+box.height).toBeLessThanOrEqual(footer.y+1);await expect(frame).toHaveCount(1);}
+   expect(requests.filter(u=>u.endsWith(adUnits.sidebar.key)).length).toBe(loads);
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  }
+  expect(requests.some(u=>u.includes('abscloud.org'))).toBe(false);
+ });
+}

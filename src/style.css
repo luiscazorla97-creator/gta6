@@ -50,6 +50,8 @@
 
 .site-ad-layout{position:relative}.site-page{min-width:0}.site-ad-band{padding-block:1px;min-width:0}.site-ad-band .ad-slot-enabled{margin-block:20px}.site-ad-rail{display:none;width:160px}.site-ad-rail .ad-slot-enabled{margin:0}
 @media(min-width:1280px){.site-ad-layout{display:grid;grid-template-columns:160px minmax(0,1320px) 160px;column-gap:24px;width:min(1688px,calc(100% - 32px));margin-inline:auto;align-items:start}.site-page{grid-column:2;grid-row:1}.site-page .shell{width:calc(100% - 32px)}.site-ad-rail{display:block;grid-row:1;padding-top:21px}.site-ad-rail-left{grid-column:1}.site-ad-rail-right{grid-column:3}}
+/* Follow page scrolling only when the full 600px ad fits below the sticky header. */
+@media(min-width:1280px) and (min-height:780px){.site-ad-rail{position:sticky;top:126px}}
 @media(min-width:1280px) and (max-width:1599px){.site-page .category-grid{grid-template-columns:repeat(3,1fr)}.site-page .news-layout{grid-template-columns:1fr}.site-page .editorial{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:15px 20px;gap:20px}.site-page .editorial-title{grid-column:1/-1;padding:0}.site-page .editorial-item{border:0;padding:0}.site-page .editorial-note{display:none}.site-page .guide-grid{grid-template-columns:1fr 1fr}.site-page .guide-community{grid-column:1/-1;min-height:150px}.site-page .newsletter{flex-wrap:wrap}.site-page .newsletter form{width:100%;margin-left:80px}.site-page .archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* Show official historical catalogue artwork whole, with its portrait ratio. */
