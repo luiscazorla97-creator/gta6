@@ -1,0 +1,96 @@
+{
+  "providerCheck": {
+    "url": "https://bauval.org/22/83b265326d039193990417c5911eaf72",
+    "httpStatusFromCloud": 403,
+    "responseBytes": 0,
+    "interpretation": "Cloud check only; does not establish availability in visitor browsers or fill."
+  },
+  "layout": {
+    "desktopMinWidth": 1280,
+    "sideWidth": 160,
+    "sideHeight": 600,
+    "gap": 24,
+    "testedWidths": [
+      390,
+      1024,
+      1279,
+      1280,
+      1366,
+      1440,
+      1600,
+      1920
+    ]
+  },
+  "commit": "8946f7930ad12df1e90ae8396d35e3234a672052",
+  "deployment": "e3e5f5ca-6cdb-43a1-8a3b-8456f36e724d",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-31T17:40:40.248133Z",
+    "status": "success"
+  },
+  "publicPages": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/trucos-gta-vice-city-stories-codigos-plataformas/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-autobuses-trenes-transporte-edge/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200,
+      "popunder": "absent",
+      "staticAdPlacements": "retained"
+    }
+  ],
+  "bundle": "/assets/index-CW1RIHkm.js",
+  "css": "/assets/index-CaBSSGxi.css",
+  "popunder": "Disabled; SDK removed from all generated HTML and production bundle. Native navigation and static banners retained.",
+  "browser": "36 browser checks passed; 8 duplicate mobile boundary cases skipped. Eight viewport widths tested on homepage and article with mocked providers; no real fill or revenue claim.",
+  "publicationMethod": "Tested release uploaded directly to the existing Cloudflare Pages project with Wrangler 4.156.0; API deployment remained queued until this upload. No project/security/schedule changes.",
+  "validation": {
+    "buildRelease": "passed",
+    "staticHTML": 362,
+    "internalLinks": 16173,
+    "structuredDataBlocks": 698,
+    "browserPassed": 36,
+    "duplicateMobileBoundaryCasesSkipped": 8,
+    "publicAssetBytesMatchTestedRelease": true
+  }
+}
