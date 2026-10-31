@@ -104,5 +104,14 @@
   "limitations": "Guides reviewed today use older dated evidence. Store language list does not prove voice tracks. Fishing is attributed press reporting, not a personal hands-on test. No invented prices, coordinates, controls or subscription inclusion date.",
   "validation": "Initial release build and static verification passed; six browser checks passed across ES/EN/FR on desktop/mobile, covering all fifteen new pages, image decode, internal references and real language selector. Final release build repeated after adding accessible fishing corroboration and documentation. Public verification required after deployment.",
   "fishingAccess": "Yahoo full body returned 403; indexed GameSpot/Yahoo statements and accessible iGrandTheftAuto TGG report corroborate catch-and-release. No claim of watching the original full video. Additional source linked next to assertions.",
-  "dateCaution": "Game Informer time element 2026-11-19 is the game release date, not article publication; article byline explicitly says September 29, 2026."
+  "dateCaution": "Game Informer time element 2026-11-19 is the game release date, not article publication; article byline explicitly says September 29, 2026.",
+  "publicVerification": {
+    "commit": "652c774b17a7d6903a87e350bec52b193c21612e",
+    "deployment": "97b6600d-f784-46cb-84e1-df238ba9bff0",
+    "status": "deploy/success",
+    "pages": 15,
+    "images": 5,
+    "assets": "Public JS/CSS bytes match final tested release build.",
+    "static": "344 HTML, 15438 internal links, 662 structured-data blocks."
+  }
 }

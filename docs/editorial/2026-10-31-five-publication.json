@@ -1,0 +1,137 @@
+{
+  "commit": "652c774b17a7d6903a87e350bec52b193c21612e",
+  "deployment": "97b6600d-f784-46cb-84e1-df238ba9bff0",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-10-31T16:47:47.297502Z",
+    "ended_on": "2026-10-31T16:47:54.702292Z",
+    "status": "success"
+  },
+  "publicPages": [
+    {
+      "id": "gta6-languages-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-idiomas-doblaje-subtitulos/",
+      "status": 200
+    },
+    {
+      "id": "gta6-languages-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-languages-voiceover-subtitles/",
+      "status": 200
+    },
+    {
+      "id": "gta6-languages-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-langues-doublage-sous-titres/",
+      "status": 200
+    },
+    {
+      "id": "gta6-fishing-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-pesca-captura-suelta/",
+      "status": 200
+    },
+    {
+      "id": "gta6-fishing-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-fishing-catch-release/",
+      "status": 200
+    },
+    {
+      "id": "gta6-fishing-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-peche-capture-relache/",
+      "status": 200
+    },
+    {
+      "id": "gta6-wildlife-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-animales-fauna-especies-leonida/",
+      "status": 200
+    },
+    {
+      "id": "gta6-wildlife-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-animals-wildlife-leonida-species/",
+      "status": 200
+    },
+    {
+      "id": "gta6-wildlife-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-animaux-faune-especes-leonida/",
+      "status": 200
+    },
+    {
+      "id": "gta6-car-customisation-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-personalizacion-coches-talleres/",
+      "status": 200
+    },
+    {
+      "id": "gta6-car-customisation-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-car-customisation-mod-shops/",
+      "status": 200
+    },
+    {
+      "id": "gta6-car-customisation-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-personnalisation-voitures-ateliers/",
+      "status": 200
+    },
+    {
+      "id": "gta6-subscriptions-20261031",
+      "locale": "es",
+      "url": "https://fansgta.com/es/guias/gta-6-game-pass-ps-plus-suscripciones/",
+      "status": 200
+    },
+    {
+      "id": "gta6-subscriptions-20261031",
+      "locale": "en",
+      "url": "https://fansgta.com/en/guides/gta-6-game-pass-ps-plus-subscriptions/",
+      "status": 200
+    },
+    {
+      "id": "gta6-subscriptions-20261031",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/guides/gta-6-game-pass-ps-plus-abonnements/",
+      "status": 200
+    }
+  ],
+  "images": [
+    {
+      "path": "/media/grassrivers.webp",
+      "bytes": 179052,
+      "sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6"
+    },
+    {
+      "path": "/media/hero.webp",
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4"
+    },
+    {
+      "path": "/media/leonida-keys.webp",
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d"
+    },
+    {
+      "path": "/media/lucia.webp",
+      "bytes": 65852,
+      "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff"
+    },
+    {
+      "path": "/media/port-gellhorn.webp",
+      "bytes": 124482,
+      "sha256": "79bb2cb2a797e1421ad26e73507fc63dd5d1557e73f40316d81d523f4b6d601d"
+    }
+  ],
+  "bundle": "/assets/index-DzYdsgyY.js",
+  "css": "/assets/index-BocTkxLh.css",
+  "topics": 100,
+  "editions": 300,
+  "browserChecks": 6,
+  "dailySchedule": "unchanged",
+  "searchRanking": "No numerical popularity ranking claimed.",
+  "recordedUTC": "2026-10-31T16:48:42.058950+00:00"
+}
