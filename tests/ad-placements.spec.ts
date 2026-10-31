@@ -23,7 +23,7 @@ test('top, bottom and fitting side placements load automatically while Analytics
   const content=(await page.locator('.header-main.shell').boundingBox())!;
   for(const side of ['left','right']){
    const rail=page.locator(`[data-ad-placement="${side}"]`);await expect(rail).toHaveCount(1);
-   if(desktop){await expect(rail.locator('iframe')).toHaveCount(1);const box=(await rail.boundingBox())!;if(side==='left')expect(box.x+box.width).toBeLessThanOrEqual(content.x);else expect(box.x).toBeGreaterThanOrEqual(content.x+content.width);}
+   if(desktop){await expect(rail.locator('iframe')).toHaveCount(1);await expect(rail.locator('iframe')).toHaveAttribute('width','160');await expect(rail.locator('iframe')).toHaveAttribute('height','600');await expect(rail.locator('script').first()).toHaveAttribute('src','https://bauval.org/22/83b265326d039193990417c5911eaf72');const box=(await rail.boundingBox())!;if(side==='left')expect(box.x+box.width).toBeLessThanOrEqual(content.x);else expect(box.x).toBeGreaterThanOrEqual(content.x+content.width);}
    else {await expect(rail).toBeHidden();await expect(rail.locator('script')).toHaveCount(0);}
   }
   expect(await page.locator(`#container-${adUnits.native.key}`).count()).toBeLessThanOrEqual(1);

@@ -1,5 +1,95 @@
 [
   {
+    "id": "gta-online-omaggio-twitch-drops-20261031",
+    "category": "online",
+    "published": "2026-10-31",
+    "titles": [
+      "GTA Online: Turismo Omaggio gratis con Twitch Drops, pasos y plazos",
+      "GTA Online: free Turismo Omaggio Twitch Drop, steps and deadlines",
+      "GTA Online : Turismo Omaggio gratuite, Twitch Drops et dates"
+    ],
+    "paths": [
+      "/es/gta-online/turismo-omaggio-gratis-twitch-drops-nopixel/",
+      "/en/gta-online/free-turismo-omaggio-twitch-drops-nopixel/",
+      "/fr/gta-online/turismo-omaggio-gratuite-twitch-drops-nopixel/"
+    ]
+  },
+  {
+    "id": "gta6-place-vice-city-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Vice City en GTA 6: barrios, lugares e imágenes oficiales",
+      "Vice City in GTA 6: neighbourhoods and official images",
+      "Vice City dans GTA 6 : quartiers, lieux et images officielles"
+    ],
+    "paths": [
+      "/es/guias/gta-6-vice-city-barrios-lugares-imagenes/",
+      "/en/guides/gta-6-vice-city-neighbourhoods-locations-images/",
+      "/fr/guides/gta-6-vice-city-quartiers-lieux-images/"
+    ]
+  },
+  {
+    "id": "gta6-place-leonida-keys-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Leonida Keys en GTA 6: islas, bares y vida costera",
+      "GTA 6 Leonida Keys: islands, bars and coastal life",
+      "Leonida Keys GTA 6 : îles, bars et vie côtière"
+    ],
+    "paths": [
+      "/es/guias/gta-6-leonida-keys-islas-bares-imagenes/",
+      "/en/guides/gta-6-leonida-keys-islands-bars-images/",
+      "/fr/guides/gta-6-leonida-keys-iles-bars-images/"
+    ]
+  },
+  {
+    "id": "gta6-place-grassrivers-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Grassrivers en GTA 6: pantanos, manglares y caimanes",
+      "GTA 6 Grassrivers: wetlands, mangroves and alligators",
+      "Grassrivers GTA 6 : marais, mangroves et alligators"
+    ],
+    "paths": [
+      "/es/guias/gta-6-grassrivers-pantanos-manglares-imagenes/",
+      "/en/guides/gta-6-grassrivers-wetlands-mangroves-images/",
+      "/fr/guides/gta-6-grassrivers-marais-mangroves-images/"
+    ]
+  },
+  {
+    "id": "gta6-place-port-gellhorn-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Port Gellhorn en GTA 6: costa, moteles y vida local",
+      "GTA 6 Port Gellhorn: coastline, motels and local life",
+      "Port Gellhorn GTA 6 : côte, motels et vie locale"
+    ],
+    "paths": [
+      "/es/guias/gta-6-port-gellhorn-costa-moteles-imagenes/",
+      "/en/guides/gta-6-port-gellhorn-coast-motels-images/",
+      "/fr/guides/gta-6-port-gellhorn-cote-motels-images/"
+    ]
+  },
+  {
+    "id": "gta6-place-ambrosia-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Ambrosia en GTA 6: Allied Crystal, industria y moteros",
+      "GTA 6 Ambrosia: Allied Crystal, industry and bikers",
+      "Ambrosia GTA 6 : Allied Crystal, industrie et motards"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ambrosia-refineria-moteros-imagenes/",
+      "/en/guides/gta-6-ambrosia-refinery-bikers-images/",
+      "/fr/guides/gta-6-ambrosia-raffinerie-motards-images/"
+    ]
+  },
+  {
     "id": "gta6-languages-20261031",
     "category": "guides",
     "published": "2026-10-31",

@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/New_York",
+  "scope": "Five new GTA VI location guides, three official images each, plus one conditional GTA Online news article, all ES/EN/FR. User also explicitly requests supplied 160x600 banner on both sides.",
+  "baseMain": "9cb04ad71a7bc6fce1b58faf45e41d3ebe97c389",
+  "deduplication": {
+    "before": 100,
+    "after": 106,
+    "oldRoutesRetained": 300,
+    "locationIntent": "Each region has its own guide and specific officially named landmarks/visual analysis; existing broad Leonida overview remains the parent and does not get republished.",
+    "newsIntent": "No existing Omaggio/nopixel V Twitch Drops reward article. Historical GTA Online and general cheat-limit articles are different intents."
+  },
+  "sources": {
+    "locations": [
+      "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+      "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+      "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+      "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+      "https://www.rockstargames.com/VI/only-in-leonida/ambrosia"
+    ],
+    "method": "Read public HTML including embedded official region descriptions and official filename/alt mappings; no claim of playing the final game.",
+    "newsSupport": "https://support.rockstargames.com/articles/2fa9lK5MnHwf6ZwXivF5CG/receiving-the-grotti-turismo-omaggio-and-rockstar-motorsport-livery-from-nopixel-v-twitch-drops-in-grand-theft-auto-online",
+    "newsArticle": "https://www.gamingbible.com/news/free-gta-online-dlc-announced-rockstar-965810-20261030",
+    "newsCampaign": "https://www.rockstargames.com/gta-online/twitch-drops",
+    "dates": "Rockstar support updated October 30 says Twitch claim by November 1 and in-game by November 11, availability within 72h. GAMINGbible published October 31 00:00 GMT (October 30 in NY) mentions November 2 11:59 GMT and four viewing hours. The article explicitly identifies the disagreement and prioritises the earlier official date, not the longer press window. No exact official cutoff hour invented.",
+    "campaignLimit": "Public campaign page is JS-only from this executor; four-hour viewing description attributed to GAMINGbible, exact eligibility must be checked in Twitch. No account access or redemption performed."
+  },
+  "images": [
+    {
+      "key": "region-vice-city-02",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 97548,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-vice-city-03",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 231656,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-leonida-keys-02",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_02.0~ptk-53gl0lq.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 225064,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-leonida-keys-03",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_03.0v_3~-9ceyixc.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 232604,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-grassrivers-02",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 146246,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-grassrivers-03",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_03.14cuv-vg9orw4.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 183120,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-port-gellhorn-02",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_02.00e7cz6lwrup-.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 100334,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-port-gellhorn-03",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_03.00c2b0eh7sm~q.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 51636,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-ambrosia-02",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_02.0wtqs05ozl.ym.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 73828,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    },
+    {
+      "key": "region-ambrosia-03",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_03.0vt46a.1s.7-y.jpg",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
+      "owner": "Rockstar Games",
+      "credit": "GTA VI © Rockstar Games",
+      "checked": "2026-10-31",
+      "width": 1400,
+      "height": 788,
+      "bytes": 103904,
+      "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+    }
+  ],
+  "imageLimit": "Ten new official JPGs reduced/re-encoded only into 1400x788 WebP and visually inspected; five existing official covers reused. Credits and translated alt/captions inline. No AI, mod, leak or altered motion-hero asset. Candidate GAMINGbible image endpoint returned 403 and was excluded; news uses correctly labelled original GTA Online catalogue artwork, not an invented car image.",
+  "seo": "Distinct localized titles/slugs/excerpts, five readable sections per guide, contextual internal links, three images each and intrinsic dimensions, lazy inline loading. No ranking, traffic or position guarantees.",
+  "advertising": "Supplied sidebar key replaces 160x300 in both rails with atOptions160x600; no numeric provider ID invented. Other units, GA consent, popunder, CSP and subscriptions unchanged. Real fill/revenue not established by fixtures.",
+  "validation": "Release/static checks passed. Thirty distinct desktop/mobile checks covered by passing results; dedicated six-check editorial rerun passed after adding three-image JSON-LD arrays. All 18 editions visited, lazy image decoding/credit verified, language selector and internal references checked. Both sidebar fixture creatives assert exact 160x600 dimensions and supplied /22/ URL; queue, failures, CSP and responsive behaviour passed. Public production verification still required after deployment."
+}
