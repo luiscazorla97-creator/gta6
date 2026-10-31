@@ -5,7 +5,7 @@ import type {AdUnitName} from '../src/ads/config';
 test('top, bottom and fitting side placements load automatically while Analytics remains optional',async({page},info)=>{
  const desktop=info.project.name==='desktop';if(desktop)await page.setViewportSize({width:1920,height:1000});
  const requests:string[]=[];page.on('request',r=>requests.push(r.url()));
- for(const host of ['https://pagead2.googlesyndication.com/**','https://www.googletagmanager.com/**'])await page.route(host,r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
+ for(const host of ['https://abscloud.org/**','https://pagead2.googlesyndication.com/**','https://www.googletagmanager.com/**'])await page.route(host,r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await page.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({status:200,contentType:'text/html',body:'<html><body>Player fixture</body></html>'}));
  await page.route('https://bauval.org/**',r=>{
   const name=(Object.keys(adUnits) as AdUnitName[]).find(n=>r.request().url().endsWith(adUnits[n].key))!;
@@ -36,5 +36,5 @@ test('top, bottom and fitting side placements load automatically while Analytics
    await page.screenshot({path:`test-results/ad-placements-${info.project.name}.png`});
   }
  }
- expect(requests.some(u=>u.includes('abscloud.org'))).toBe(false);expect(requests.some(u=>u.includes('googletagmanager.com/gtag/js'))).toBe(false);
+ expect(requests.some(u=>u.includes('abscloud.org'))).toBe(true);expect(requests.some(u=>u.includes('googletagmanager.com/gtag/js'))).toBe(false);
 });

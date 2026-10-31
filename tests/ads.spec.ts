@@ -66,7 +66,7 @@ test.beforeEach(async({page,browserName},info)=>{
  await page.route('https://abscloud.org/**',route=>route.abort());
 });
 test.afterEach(async({page})=>{
- expect(requests.get(page)!.filter(url=>/abscloud\.org|\/ads\//.test(url))).toEqual([]);
+ expect(requests.get(page)!.filter(url=>/\/ads\//.test(url))).toEqual([]);
 });
 
 test('banners load automatically without acceptance UI even with a legacy record',async({page})=>{
@@ -232,10 +232,10 @@ test('the old opaque sandbox blocks storage while the direct provider has its pa
  expect(result).toBe('SecurityError');
 });
 
-test('public markup and sitemap contain no unconditional popunder or retired ad wrapper URLs',async({request})=>{
+test('public markup includes one head popunder and no retired ad wrapper URLs',async({request})=>{
  const html=await (await request.get(article)).text();
  expect(html).toContain('BlogPosting');expect(html).toContain('index,follow');
- expect(html).not.toContain('abscloud.org');expect(html).not.toMatch(/src="\/ads\//);
+ expect((html.match(/https:\/\/abscloud\.org\/1\//g)??[]).length).toBe(1);expect(html.indexOf('abscloud.org')).toBeLessThan(html.indexOf('</head>'));expect(html).not.toMatch(/src="\/ads\//);
  const sitemap=await (await request.get('/sitemap.xml')).text();
  expect(sitemap).not.toContain('/ads/');
 });

@@ -4,7 +4,7 @@ const discussion={label:'r/GTA6 — Cheats: discusión original de la comunidad 
 const report={label:'James Hudson / Cheat Code Central — GTA 6 Cheat Codes, 28 October 2026',url:'https://www.cheatcc.com/articles/gta-6-cheats/'};
 const gta5=internal('GTA V: códigos por plataforma','trucos/gta-5-todos-trucos-codigos');
 export const cheatsRumours20261030:Article={
- id:'cheats-check',category:'cheats',slug:['verificar-trucos-gta-6','verify-gta-6-cheat-codes','verifier-codes-gta-6'],image:'jason',
+ id:'cheats-check',category:'cheats',cheats:{game:'GTA VI',order:0},slug:['verificar-trucos-gta-6','verify-gta-6-cheat-codes','verifier-codes-gta-6'],image:'jason',
  tag:['RUMORES · TRUCOS DE GTA VI','RUMOURS · GTA VI CHEATS','RUMEURS · CODES GTA VI'],
  title:['Rumores de trucos de GTA 6: dinero, invencibilidad y claves','GTA 6 cheat rumours: money, invincibility and code claims','Rumeurs de codes GTA 6 : argent, invincibilité et astuces'],
  excerpt:['Qué sabemos de los rumores de trucos de GTA 6: dinero, invencibilidad, vehículos y teléfono. Fuentes, antecedentes y códigos aún sin verificar.','GTA 6 cheat rumours explained: money, invincibility, vehicles and phone codes. Sources, earlier games and what remains unverified.','Rumeurs de codes GTA 6 : argent, invincibilité, véhicules et téléphone. Sources, précédents et combinaisons encore non vérifiées.'],

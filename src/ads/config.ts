@@ -8,4 +8,6 @@ export const adUnits = {
  native: {id:'31958937',key:'cbd880f526c21f808d22e8b7905e4e68',width:0,height:360,enabled:true,placement:'native'},
 } as const;
 export type AdUnitName=keyof typeof adUnits;
-export const popunder = {id:'31958936',src:'https://abscloud.org/1/411b396510ae8d6a491f3f094ff61658',enabled:true,providerFrequencyVerified:false,activationIntervalMs:30*60*1000,navigationWindowMs:60*1000};
+// The single publisher script lives in index.html, before </head>.
+// Its frequency and window behaviour belong to the provider and browser.
+export const popunder = {id:'31958936',src:'https://abscloud.org/1/411b396510ae8d6a491f3f094ff61658',enabled:true,providerFrequencyVerified:false};

@@ -147,6 +147,7 @@ const sections:Article['sections']=[
  'Le classement suit la sortie originale, pas l’époque du scénario ou une remastérisation. Vice City Stories précède donc Vice City malgré une intrigue antérieure. L’index historique de FansGTA relie 17 articles sur scénarios et création. Ce catalogue rassemble les codes tout en conservant le guide GTA V et la page de rumeurs GTA VI comme contenus complémentaires.'
  ]],[internal('Historias de toda la saga','guias/historia-gta-1-trama-creacion')])
 ];
+export const sagaGameSections=new Map(sagaCheatOrder.map((key,index)=>[key,sections[index+2]]));
 export const sagaCheats20261030:Article={
  id:'gta-saga-cheats-newest-oldest-20261030',category:'cheats',slug:['todos-trucos-gta-juegos-nuevos-antiguos','all-gta-cheats-newest-to-oldest','tous-codes-gta-du-plus-recent-au-plus-ancien'],
  image:'gta5-helicopter',imageAlt:['Helicóptero Buzzard en una captura oficial de GTA V sobre Los Santos','Buzzard helicopter above Los Santos in an official GTA V screenshot','Hélicoptère Buzzard au-dessus de Los Santos dans une capture officielle de GTA V'],

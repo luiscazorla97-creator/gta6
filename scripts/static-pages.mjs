@@ -15,7 +15,7 @@ async function renderPage(locale,path,{section,article,legal,missing=false}={}) 
  const li=['es','en','fr'].indexOf(locale);
  const eligible=!missing&&(!section||articles.some(a=>a.category===section));
  const canonical=origin+path;
- const title=missing?'404 — FansGTA':legal?`${legalTitles[locale][legal]} | FansGTA`:article?`${article.title[li]} | FansGTA`:section?`${categoryLabel(locale,section)} | GTA VI | FansGTA`:`FansGTA — ${copy[locale].hero.join(' ')}`;
+ const title=missing?'404 — FansGTA':legal?`${legalTitles[locale][legal]} | FansGTA`:article?`${article.title[li]} | FansGTA`:section?`${categoryLabel(locale,section)} | ${section==='cheats'?'GTA':'GTA VI'} | FansGTA`:`FansGTA — ${copy[locale].hero.join(' ')}`;
  const description=legal?`${legalTitles[locale][legal]} — FansGTA. soporte@barbercontrol.org`:article?article.excerpt[li]:section?`${categoryLabel(locale,section)} — ${descriptions[locale]}`:descriptions[locale];
  const alternate=l=>origin+(legal?legalPath(l,legal):article?articlePath(l,article):section?sectionPath(l,section):`/${l}/`);
  const alternates=missing?'':['es','en','fr','x-default'].map(l=>`<link rel="alternate" hreflang="${l}" href="${alternate(l==='x-default'?'es':l)}"/>`).join('');

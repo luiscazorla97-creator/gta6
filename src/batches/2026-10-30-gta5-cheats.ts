@@ -10,7 +10,7 @@ const names=(row:typeof gta5Cheats[number]):T=>[...row.name];
 const codeTable:NonNullable<Article['sections'][number]['table']>={headers:[['Truco','Cheat','Code'],['Código PC','PC command','Commande PC'],['Teléfono del juego','In-game phone','Téléphone du jeu']],rows:gta5Cheats.map(row=>[names(row),same(row.pc),same(row.phone)])};
 const consoleTable=(key:'playstation'|'xbox'):NonNullable<Article['sections'][number]['table']>=>({headers:[['Truco','Cheat','Code'],['Secuencia de botones','Button sequence','Combinaison de touches']],rows:gta5Cheats.map(row=>[names(row),same(row[key])])});
 export const gta5Cheats20261030=make30({
- id:'gta5-complete-cheats-20261030',category:'cheats',image:'gta5-helicopter',
+ id:'gta5-complete-cheats-20261030',category:'cheats',cheats:{game:'GTA V',order:2},image:'gta5-helicopter',
  slug:['gta-5-todos-trucos-codigos','gta-5-all-cheats-codes','gta-5-tous-codes-triche'],
  title:['Todos los trucos de GTA 5: códigos PC, PlayStation y Xbox','All GTA 5 cheats: PC commands, PlayStation, Xbox and phone','Tous les codes GTA 5 : PC, PlayStation, Xbox et téléphone'],
  excerpt:['Los 36 códigos de GTA 5: salud, armas, invencibilidad, coches y helicópteros. Tablas para PC, PlayStation y Xbox, teléfonos y requisitos de edición.','All 36 GTA 5 code entries: health, weapons, invincibility, cars and helicopters. PC, PlayStation and Xbox tables, phone numbers and edition limits.','Les 36 codes GTA 5 : santé, armes, invincibilité, voitures et hélicoptères. Tableaux PC, PlayStation, Xbox, numéros et conditions selon l’édition.'],

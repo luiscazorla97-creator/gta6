@@ -1,0 +1,616 @@
+{
+  "runDate": "2026-10-30",
+  "timezone": "America/New_York",
+  "checkedUTC": "2026-10-31T00:03:43Z or later",
+  "userScope": "15 missing per-game cheat guides plus 10 distinct GTA VI topics, each ES/EN/FR. Existing GTA V and GTA VI cheat guides retain URLs. Daily schedule and postponed forum unchanged.",
+  "baseMain": "e8a6b455ebce27e7b689a9fdecb5241b3a127989",
+  "deduplication": {
+    "before": 70,
+    "after": 95,
+    "newCheatTopics": 15,
+    "newGtaVITopics": 10,
+    "newEditions": 75,
+    "oldRoutesRetained": 210,
+    "hubVersusSpecific": "Existing full-series factual tables retained. New single-game guides target activation, effect interpretation, compatibility and troubleshooting, not renamed copies of the hub. GTA V/VI equivalent pages updated only with navigation metadata; no duplicate posts. Episodes include shared GTA IV phone numbers as well as their exclusive ones.",
+    "gtaVITopics": [
+      {
+        "key": "map-scale",
+        "distinctFrom": "gta-6-leonida-locations",
+        "reason": "Dedicated query about map-scale rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "interiors",
+        "distinctFrom": "gta6-npc-behaviour-deep-20261029",
+        "reason": "Dedicated query about interiors rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "fuel",
+        "distinctFrom": "gta6-car-theft-tools-20261030",
+        "reason": "Dedicated query about fuel rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "loadout",
+        "distinctFrom": "gta6-police-wanted-deep-20261029",
+        "reason": "Dedicated query about loadout rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "criminal-profile",
+        "distinctFrom": "gta6-jason-lucia-relationship-20261030",
+        "reason": "Dedicated query about criminal-profile rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "switching",
+        "distinctFrom": "lucia-caminos-profile",
+        "reason": "Dedicated query about switching rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "gym-health",
+        "distinctFrom": "gta6-jason-lucia-relationship-20261030",
+        "reason": "Dedicated query about gym-health rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "street-races",
+        "distinctFrom": "vehicle-evidence",
+        "reason": "Dedicated query about street-races rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "mission-money",
+        "distinctFrom": "gta6-car-theft-tools-20261030",
+        "reason": "Dedicated query about mission-money rather than the existing related guide intent; related source links deliberately retained."
+      },
+      {
+        "key": "scooter-bros",
+        "distinctFrom": "vehicle-evidence",
+        "reason": "Dedicated query about scooter-bros rather than the existing related guide intent; related source links deliberately retained."
+      }
+    ]
+  },
+  "interestSignals": [
+    {
+      "query": "gta 6 tamaño mapa",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+tama%C3%B1o+mapa",
+      "suggestions": [
+        "gta 6 tamaño mapa",
+        "tamaño mapa gta 6 vs red dead redemption 2"
+      ],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 interiores",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+interiores",
+      "suggestions": [
+        "gta 6 interiores",
+        "gta 6 interiores explorables"
+      ],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 gasolina",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+gasolina",
+      "suggestions": [
+        "gta 6 gasolina",
+        "gta 6 tendra sistema de gasolina",
+        "gta 6 tera gasolina",
+        "gta 6 posto de gasolina",
+        "vazamento gta 6 gasolina",
+        "gta 6 tera sistema de gasolina",
+        "gta 6 vazamento posto de gasolina"
+      ],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 armas inventario",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+armas+inventario",
+      "suggestions": [],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 perfil criminal",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+perfil+criminal",
+      "suggestions": [
+        "gta 6 perfil criminal"
+      ],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 cambiar personaje",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+cambiar+personaje",
+      "suggestions": [],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 gimnasio",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+gimnasio",
+      "suggestions": [
+        "gta 6 gimnasio"
+      ],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 carreras",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+carreras",
+      "suggestions": [
+        "gta 6 carreras"
+      ],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 dinero misiones",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+dinero+misiones",
+      "suggestions": [],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    },
+    {
+      "query": "gta 6 scooter bros",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+scooter+bros",
+      "suggestions": [
+        "gta 6 scooter bros"
+      ],
+      "meaning": "autocomplete wording only; not search volume, ranking or daily growth"
+    }
+  ],
+  "interestLimit": "Autocomplete establishes query wording, not daily search volume, popularity ranking or growth. Fresh October 29 Edge coverage and verified October 30 follow-ups justify relevance; no claim these are today’s top ten. Older context dates remain older, not relabelled as announcements made today.",
+  "sourceChecks": [
+    {
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-map-size-is-so-big-it-rivals-gta-4-gta-5-and-red-dead-redemption-2s-combined-and-rockstar-devs-are-still-discovering-places-theyve-never-seen/",
+      "status": 200,
+      "title": "GTA 6 map size is so big it rivals GTA 4, GTA 5, and Red Dead Redemption 2's combined – and Rockstar devs are still discovering places they've never seen | GamesRadar+",
+      "publishedSignals": [
+        "2026-10-30T12:18:15Z"
+      ],
+      "bytes": 2352118
+    },
+    {
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6s-controversial-refuelling-action-reportedly-takes-about-10-seconds-to-perform-which-rockstars-co-studio-head-says-is-pretty-fast-for-a-fill-up/",
+      "status": 200,
+      "title": "Grand Theft Auto 6's controversial refuelling action reportedly takes about 10 seconds to perform, which Rockstar's co-studio head says is 'pretty fast for a fill-up' | PC Gamer",
+      "publishedSignals": [
+        "2026-09-05T12:16:31Z"
+      ],
+      "bytes": 2090497
+    },
+    {
+      "url": "https://www.techradar.com/gaming/rockstar-spent-months-if-not-years-trying-a-million-different-things-that-would-replace-the-weapon-wheel-to-make-loadouts-more-realistic-in-gta-6",
+      "status": 200,
+      "title": "Rockstar 'spent months, if not years, trying a million different things that would replace the weapon wheel' to make loadouts 'more realistic' in GTA 6 | TechRadar",
+      "publishedSignals": [
+        "2026-10-20T13:21:12Z"
+      ],
+      "bytes": 1973419
+    },
+    {
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-souped-up-red-dead-redemption-2-style-morality-system-will-scale-from-professional-to-irredeemable-so-players-can-decide-what-kind-of-criminal-they-want-to-be/",
+      "status": 200,
+      "title": "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be | PC Gamer",
+      "publishedSignals": [
+        "2026-10-30T15:23:59Z"
+      ],
+      "bytes": 2088091
+    },
+    {
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-wont-let-you-switch-between-lucia-and-jason-whenever-you-want-because-it-would-be-unnatural-for-story-progression/",
+      "status": 200,
+      "title": "GTA 6 won’t let you switch between Lucia and Jason whenever you want because it would be \"unnatural\" for story progression | GamesRadar+",
+      "publishedSignals": [
+        "2026-08-31T17:00:00Z"
+      ],
+      "bytes": 2346627
+    },
+    {
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/you-can-have-your-life-in-the-game-gta-6-promises-to-be-an-rpg-like-nothing-the-series-has-ever-seen-but-rockstar-says-theres-still-a-balance-to-strike/",
+      "status": 200,
+      "title": "\"You can have your life in the game\": GTA 6 promises to be an RPG like nothing the series has ever seen, but Rockstar says there's still a balance to strike | GamesRadar+",
+      "publishedSignals": [
+        "2026-10-29T10:40:00Z"
+      ],
+      "bytes": 2353851
+    },
+    {
+      "url": "https://www.gtaboom.com/gta-6-edge-preview-new-gameplay-details-5848",
+      "status": 200,
+      "title": "GTA 6 Preview Details Fuel, Car Trackers, Public Transport and Reactive Police Searches | GTA BOOM",
+      "publishedSignals": [
+        "2026-10-30T00:04:50.248+00:00",
+        "2026-10-30T16:17:00+00:00",
+        "2026-10-30T10:19:00+00:00",
+        "2026-10-30T07:34:44.281+00:00"
+      ],
+      "bytes": 809593
+    },
+    {
+      "url": "https://unplayed.gg/blog/gta-6-new-gameplay-details-edge-preview",
+      "status": 200,
+      "title": "GTA 6 New Gameplay Details: Criminal Profile, K9 Cops & More | UNPLAYED.GG",
+      "publishedSignals": [
+        "2026-10-30T04:44:38.773Z",
+        "2026-10-30T12:21:22.471Z",
+        "2026-10-18T16:02:49.587Z",
+        "2026-10-28T04:54:34.931Z"
+      ],
+      "bytes": 332732
+    },
+    {
+      "url": "https://www.gamesradar.com/edge/gtavi-cover/",
+      "status": 200,
+      "title": "Grand Theft Auto VI exclusive – The state that never sleeps | GamesRadar+",
+      "publishedSignals": [
+        "2026-10-29T00:01:00Z"
+      ],
+      "bytes": 2308671
+    },
+    {
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "publishedSignals": [],
+      "bytes": 1205725
+    },
+    {
+      "url": "https://support.rockstargames.com/articles/43itkOFP7W4y8Kxy0XMLZ9/impact-of-suspensions-and-bans-on-rockstar-games-accounts",
+      "status": 200,
+      "title": "Impact of suspensions and bans on Rockstar Games Accounts - Rockstar Games Customer Support",
+      "publishedSignals": [],
+      "bytes": 161590
+    },
+    {
+      "url": "https://support.rockstargames.com/articles/1nenwhZlVrJY6CTFeSS2Fx/grand-theft-auto-online-battleye-faq",
+      "status": 200,
+      "title": "Grand Theft Auto Online BattlEye FAQ - Rockstar Games Customer Support",
+      "publishedSignals": [],
+      "bytes": 193456
+    }
+  ],
+  "primary": "Edge issue 430, Simon Parkin: October 29 2026 at 00:01 UTC; direct body read in cloud. Reported demo is not a FansGTA hands-on test; no inventions of exact stats, prices or controls.",
+  "cheatReferences": "Reuses audited functional code data, normalization and references in docs/editorial/2026-10-30-cheats-research.json; newly written activation, effects and compatibility explanations. Native offline game codes, not external online cheating tools.",
+  "media": {
+    "source": "Existing official Rockstar game artwork/screenshots in public/media/credits.json. Correct game credit, localized alt and captions; optimized WebP reused, no AI, mods or leaks. Decorative hero motion is excluded.",
+    "limitations": [
+      "London 1961 has no distinct physical cover: required London 1969 base artwork is expressly labelled in all three languages, never passed off as 1961 gameplay.",
+      "Advance uses Rockstar’s official promotional logo and labels it as logo, not screenshot.",
+      "Candidate third-party London 1961 screenshot returned HTTP 403; file-page copyright/fair-use wording not treated as a commercial reuse licence. No new third-party image downloaded or published.",
+      "Official images illustrate context, not proof of every feature or an unlimited rights grant."
+    ]
+  },
+  "popunder": {
+    "causeFound": "Not inside banner: SDK waited for completed native navigation and reserved 30 minutes even after a download failure. Corrected to one async head script on every document, preserving exact source/data-cfasync and existing ad units/security/Analytics consent.",
+    "providerCheck": {
+      "status": 403,
+      "bytes": 0,
+      "url": "https://abscloud.org/1/411b396510ae8d6a491f3f094ff61658"
+    },
+    "limit": "403 persists in this cloud context. Fixtures verify SDK placement and first trusted click availability, not real ad opening or provider frequency."
+  },
+  "validation": {
+    "build": "npm run build:release passed: 95 topics, 328 generated pages plus root copy.",
+    "static": "node scripts/verify-static.mjs passed: 329 HTML, 14886 internal links and 629 structured-data blocks. git diff --check passed.",
+    "browser": "72 distinct desktop/mobile checks covered by passing results. Initial run: 68 passed, four copy-completeness checks failed an unnecessarily strict cross-language word threshold. Threshold corrected for natural translation length; real language-selector checks added. Dedicated editorial rerun: 14 passed, visiting all 75 new editions on desktop and mobile. Remaining 58 ad/Analytics/AdSense/catalogue/popunder cases already passed; no changes to that runtime after those passes.",
+    "publicPublication": "To be checked after main update and Cloudflare terminal success. No real popunder delivery verified."
+  },
+  "newPublicPaths": [
+    {
+      "id": "gta6-map-scale-explained-20261030",
+      "titles": [
+        "Tamaño del mapa de GTA 6: qué significa la comparación de Edge",
+        "GTA 6 map size: what Edge’s Leonida comparison means",
+        "Taille de la carte GTA 6 : comprendre la comparaison d’Edge"
+      ],
+      "paths": [
+        "/es/guias/gta-6-tamano-mapa-leonida-comparacion-edge/",
+        "/en/guides/gta-6-map-size-leonida-edge-comparison/",
+        "/fr/guides/gta-6-taille-carte-leonida-comparaison-edge/"
+      ]
+    },
+    {
+      "id": "gta6-interiors-explained-20261030",
+      "titles": [
+        "Interiores de GTA 6: más edificios y casas, según Edge",
+        "GTA 6 interiors: more buildings and homes, according to Edge",
+        "Intérieurs GTA 6 : davantage de bâtiments et maisons selon Edge"
+      ],
+      "paths": [
+        "/es/guias/gta-6-interiores-edificios-casas-edge/",
+        "/en/guides/gta-6-interiors-enterable-buildings-houses-edge/",
+        "/fr/guides/gta-6-interieurs-batiments-maisons-edge/"
+      ]
+    },
+    {
+      "id": "gta6-fuel-explained-20261030",
+      "titles": [
+        "Gasolina en GTA 6: combustible, repostaje y estado del motor",
+        "GTA 6 fuel: refuelling and engine condition explained",
+        "Essence dans GTA 6 : ravitaillement et état du moteur"
+      ],
+      "paths": [
+        "/es/guias/gta-6-gasolina-repostar-combustible-coches/",
+        "/en/guides/gta-6-fuel-refuelling-cars-explained/",
+        "/fr/guides/gta-6-essence-ravitaillement-voitures/"
+      ]
+    },
+    {
+      "id": "gta6-loadout-explained-20261030",
+      "titles": [
+        "Armas de GTA 6: inventario limitado, rueda y maletero",
+        "GTA 6 weapons: limited loadouts, the wheel and car storage",
+        "Armes GTA 6 : inventaire limité, roue et coffre"
+      ],
+      "paths": [
+        "/es/guias/gta-6-armas-inventario-rueda-maletero/",
+        "/en/guides/gta-6-weapons-inventory-wheel-car-trunk/",
+        "/fr/guides/gta-6-armes-inventaire-roue-coffre/"
+      ]
+    },
+    {
+      "id": "gta6-criminal-profile-explained-20261030",
+      "titles": [
+        "Perfil criminal de GTA 6: de Professional a Irredeemable",
+        "GTA 6 Criminal Profile: Professional to Irredeemable",
+        "Profil criminel GTA 6 : de Professional à Irredeemable"
+      ],
+      "paths": [
+        "/es/guias/gta-6-perfil-criminal-professional-irredeemable/",
+        "/en/guides/gta-6-criminal-profile-professional-irredeemable/",
+        "/fr/guides/gta-6-profil-criminel-professional-irredeemable/"
+      ]
+    },
+    {
+      "id": "gta6-switching-explained-20261030",
+      "titles": [
+        "Cambiar entre Jason y Lucia en GTA 6: posibilidades y límites",
+        "Switching Jason and Lucia in GTA 6: options and limits",
+        "Changer entre Jason et Lucia dans GTA 6 : possibilités et limites"
+      ],
+      "paths": [
+        "/es/guias/gta-6-cambiar-jason-lucia-personajes/",
+        "/en/guides/gta-6-switch-jason-lucia-characters/",
+        "/fr/guides/gta-6-changer-jason-lucia-personnages/"
+      ]
+    },
+    {
+      "id": "gta6-gym-health-explained-20261030",
+      "titles": [
+        "Gimnasio y comida en GTA 6: salud, resistencia y lo mostrado",
+        "GTA 6 gyms and food: health, stamina and what was shown",
+        "Sport et nourriture GTA 6 : santé, endurance et aperçu"
+      ],
+      "paths": [
+        "/es/guias/gta-6-gimnasio-comida-salud-resistencia/",
+        "/en/guides/gta-6-gym-food-health-stamina/",
+        "/fr/guides/gta-6-salle-sport-nourriture-sante-endurance/"
+      ]
+    },
+    {
+      "id": "gta6-street-races-explained-20261030",
+      "titles": [
+        "Carreras callejeras en GTA 6: el encuentro que mostró Edge",
+        "GTA 6 street races: the world encounter described by Edge",
+        "Courses de rue GTA 6 : la rencontre décrite par Edge"
+      ],
+      "paths": [
+        "/es/guias/gta-6-carreras-callejeras-encuentros-edge/",
+        "/en/guides/gta-6-street-races-world-encounters-edge/",
+        "/fr/guides/gta-6-courses-rue-rencontres-edge/"
+      ]
+    },
+    {
+      "id": "gta6-mission-money-explained-20261030",
+      "titles": [
+        "Dinero en GTA 6: por qué algunas misiones requieren fondos",
+        "GTA 6 money: why some story missions need funding",
+        "Argent GTA 6 : pourquoi certaines missions exigent des fonds"
+      ],
+      "paths": [
+        "/es/guias/gta-6-dinero-misiones-historia-atracos-edge/",
+        "/en/guides/gta-6-money-story-missions-heists-edge/",
+        "/fr/guides/gta-6-argent-missions-histoire-braquages-edge/"
+      ]
+    },
+    {
+      "id": "gta6-scooter-bros-explained-20261030",
+      "titles": [
+        "Scooter Bros en GTA 6: cómo se describe la entrega del coche",
+        "GTA 6 Scooter Bros: personal car delivery explained",
+        "Scooter Bros GTA 6 : livraison de voiture expliquée"
+      ],
+      "paths": [
+        "/es/guias/gta-6-scooter-bros-pedir-coche-personal/",
+        "/en/guides/gta-6-scooter-bros-personal-car-delivery/",
+        "/fr/guides/gta-6-scooter-bros-livraison-voiture-personnelle/"
+      ]
+    },
+    {
+      "id": "cheats-online-20261030",
+      "titles": [
+        "Trucos de GTA Online: códigos, dinero y límites reales",
+        "GTA Online cheats: money codes and the actual limits",
+        "Codes GTA Online : argent et limites réelles"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-online-codigos-dinero-limites/",
+        "/en/cheats/gta-online-cheats-money-codes-limits/",
+        "/fr/codes/codes-gta-online-argent-limites/"
+      ]
+    },
+    {
+      "id": "cheats-tbogt-20261030",
+      "titles": [
+        "Trucos de GTA: The Ballad of Gay Tony: códigos y cómo activarlos",
+        "GTA: The Ballad of Gay Tony cheats: codes and how to enter them",
+        "Codes de GTA: The Ballad of Gay Tony : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-the-ballad-of-gay-tony-codigos-plataformas/",
+        "/en/cheats/gta-the-ballad-of-gay-tony-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-the-ballad-of-gay-tony-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-cw-20261030",
+      "titles": [
+        "Trucos de GTA: Chinatown Wars: códigos y cómo activarlos",
+        "GTA: Chinatown Wars cheats: codes and how to enter them",
+        "Codes de GTA: Chinatown Wars : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-chinatown-wars-codigos-plataformas/",
+        "/en/cheats/gta-chinatown-wars-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-chinatown-wars-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-tlad-20261030",
+      "titles": [
+        "Trucos de GTA IV: The Lost and Damned: códigos y cómo activarlos",
+        "GTA IV: The Lost and Damned cheats: codes and how to enter them",
+        "Codes de GTA IV: The Lost and Damned : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-the-lost-and-damned-codigos-plataformas/",
+        "/en/cheats/gta-the-lost-and-damned-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-the-lost-and-damned-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-iv-20261030",
+      "titles": [
+        "Trucos de GTA IV: códigos y cómo activarlos",
+        "GTA IV cheats: codes and how to enter them",
+        "Codes de GTA IV : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-4-codigos-plataformas/",
+        "/en/cheats/gta-4-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-4-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-vcs-20261030",
+      "titles": [
+        "Trucos de GTA: Vice City Stories: códigos y cómo activarlos",
+        "GTA: Vice City Stories cheats: codes and how to enter them",
+        "Codes de GTA: Vice City Stories : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-vice-city-stories-codigos-plataformas/",
+        "/en/cheats/gta-vice-city-stories-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-vice-city-stories-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-lcs-20261030",
+      "titles": [
+        "Trucos de GTA: Liberty City Stories: códigos y cómo activarlos",
+        "GTA: Liberty City Stories cheats: codes and how to enter them",
+        "Codes de GTA: Liberty City Stories : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-liberty-city-stories-codigos-plataformas/",
+        "/en/cheats/gta-liberty-city-stories-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-liberty-city-stories-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-sa-20261030",
+      "titles": [
+        "Trucos de GTA: San Andreas: códigos y cómo activarlos",
+        "GTA: San Andreas cheats: codes and how to enter them",
+        "Codes de GTA: San Andreas : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-san-andreas-codigos-plataformas/",
+        "/en/cheats/gta-san-andreas-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-san-andreas-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-advance-20261030",
+      "titles": [
+        "Trucos de GTA Advance: códigos y cómo activarlos",
+        "GTA Advance cheats: codes and how to enter them",
+        "Codes de GTA Advance : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-advance-codigos-plataformas/",
+        "/en/cheats/gta-advance-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-advance-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-vc-20261030",
+      "titles": [
+        "Trucos de GTA: Vice City: códigos y cómo activarlos",
+        "GTA: Vice City cheats: codes and how to enter them",
+        "Codes de GTA: Vice City : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-vice-city-codigos-plataformas/",
+        "/en/cheats/gta-vice-city-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-vice-city-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-iii-20261030",
+      "titles": [
+        "Trucos de GTA III: códigos y cómo activarlos",
+        "GTA III cheats: codes and how to enter them",
+        "Codes de GTA III : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-3-codigos-plataformas/",
+        "/en/cheats/gta-3-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-3-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-gta2-20261030",
+      "titles": [
+        "Trucos de GTA 2: códigos y cómo activarlos",
+        "GTA 2 cheats: codes and how to enter them",
+        "Codes de GTA 2 : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-2-codigos-plataformas/",
+        "/en/cheats/gta-2-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-2-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-london61-20261030",
+      "titles": [
+        "Trucos de GTA: London 1961: códigos y cómo activarlos",
+        "GTA: London 1961 cheats: codes and how to enter them",
+        "Codes de GTA: London 1961 : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-london-1961-codigos-plataformas/",
+        "/en/cheats/gta-london-1961-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-london-1961-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-london69-20261030",
+      "titles": [
+        "Trucos de GTA: London 1969: códigos y cómo activarlos",
+        "GTA: London 1969 cheats: codes and how to enter them",
+        "Codes de GTA: London 1969 : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-london-1969-codigos-plataformas/",
+        "/en/cheats/gta-london-1969-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-london-1969-plateformes/"
+      ]
+    },
+    {
+      "id": "cheats-gta1-20261030",
+      "titles": [
+        "Trucos de GTA 1: códigos y cómo activarlos",
+        "GTA 1 cheats: codes and how to enter them",
+        "Codes de GTA 1 : liste et activation"
+      ],
+      "paths": [
+        "/es/trucos/trucos-gta-1-codigos-plataformas/",
+        "/en/cheats/gta-1-cheats-codes-platforms/",
+        "/fr/codes/codes-gta-1-plateformes/"
+      ]
+    }
+  ]
+}

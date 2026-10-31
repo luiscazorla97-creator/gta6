@@ -1,5 +1,380 @@
 [
   {
+    "id": "gta6-map-scale-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Tamaño del mapa de GTA 6: qué significa la comparación de Edge",
+      "GTA 6 map size: what Edge’s Leonida comparison means",
+      "Taille de la carte GTA 6 : comprendre la comparaison d’Edge"
+    ],
+    "paths": [
+      "/es/guias/gta-6-tamano-mapa-leonida-comparacion-edge/",
+      "/en/guides/gta-6-map-size-leonida-edge-comparison/",
+      "/fr/guides/gta-6-taille-carte-leonida-comparaison-edge/"
+    ]
+  },
+  {
+    "id": "gta6-interiors-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Interiores de GTA 6: más edificios y casas, según Edge",
+      "GTA 6 interiors: more buildings and homes, according to Edge",
+      "Intérieurs GTA 6 : davantage de bâtiments et maisons selon Edge"
+    ],
+    "paths": [
+      "/es/guias/gta-6-interiores-edificios-casas-edge/",
+      "/en/guides/gta-6-interiors-enterable-buildings-houses-edge/",
+      "/fr/guides/gta-6-interieurs-batiments-maisons-edge/"
+    ]
+  },
+  {
+    "id": "gta6-fuel-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Gasolina en GTA 6: combustible, repostaje y estado del motor",
+      "GTA 6 fuel: refuelling and engine condition explained",
+      "Essence dans GTA 6 : ravitaillement et état du moteur"
+    ],
+    "paths": [
+      "/es/guias/gta-6-gasolina-repostar-combustible-coches/",
+      "/en/guides/gta-6-fuel-refuelling-cars-explained/",
+      "/fr/guides/gta-6-essence-ravitaillement-voitures/"
+    ]
+  },
+  {
+    "id": "gta6-loadout-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Armas de GTA 6: inventario limitado, rueda y maletero",
+      "GTA 6 weapons: limited loadouts, the wheel and car storage",
+      "Armes GTA 6 : inventaire limité, roue et coffre"
+    ],
+    "paths": [
+      "/es/guias/gta-6-armas-inventario-rueda-maletero/",
+      "/en/guides/gta-6-weapons-inventory-wheel-car-trunk/",
+      "/fr/guides/gta-6-armes-inventaire-roue-coffre/"
+    ]
+  },
+  {
+    "id": "gta6-criminal-profile-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Perfil criminal de GTA 6: de Professional a Irredeemable",
+      "GTA 6 Criminal Profile: Professional to Irredeemable",
+      "Profil criminel GTA 6 : de Professional à Irredeemable"
+    ],
+    "paths": [
+      "/es/guias/gta-6-perfil-criminal-professional-irredeemable/",
+      "/en/guides/gta-6-criminal-profile-professional-irredeemable/",
+      "/fr/guides/gta-6-profil-criminel-professional-irredeemable/"
+    ]
+  },
+  {
+    "id": "gta6-switching-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Cambiar entre Jason y Lucia en GTA 6: posibilidades y límites",
+      "Switching Jason and Lucia in GTA 6: options and limits",
+      "Changer entre Jason et Lucia dans GTA 6 : possibilités et limites"
+    ],
+    "paths": [
+      "/es/guias/gta-6-cambiar-jason-lucia-personajes/",
+      "/en/guides/gta-6-switch-jason-lucia-characters/",
+      "/fr/guides/gta-6-changer-jason-lucia-personnages/"
+    ]
+  },
+  {
+    "id": "gta6-gym-health-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Gimnasio y comida en GTA 6: salud, resistencia y lo mostrado",
+      "GTA 6 gyms and food: health, stamina and what was shown",
+      "Sport et nourriture GTA 6 : santé, endurance et aperçu"
+    ],
+    "paths": [
+      "/es/guias/gta-6-gimnasio-comida-salud-resistencia/",
+      "/en/guides/gta-6-gym-food-health-stamina/",
+      "/fr/guides/gta-6-salle-sport-nourriture-sante-endurance/"
+    ]
+  },
+  {
+    "id": "gta6-street-races-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Carreras callejeras en GTA 6: el encuentro que mostró Edge",
+      "GTA 6 street races: the world encounter described by Edge",
+      "Courses de rue GTA 6 : la rencontre décrite par Edge"
+    ],
+    "paths": [
+      "/es/guias/gta-6-carreras-callejeras-encuentros-edge/",
+      "/en/guides/gta-6-street-races-world-encounters-edge/",
+      "/fr/guides/gta-6-courses-rue-rencontres-edge/"
+    ]
+  },
+  {
+    "id": "gta6-mission-money-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Dinero en GTA 6: por qué algunas misiones requieren fondos",
+      "GTA 6 money: why some story missions need funding",
+      "Argent GTA 6 : pourquoi certaines missions exigent des fonds"
+    ],
+    "paths": [
+      "/es/guias/gta-6-dinero-misiones-historia-atracos-edge/",
+      "/en/guides/gta-6-money-story-missions-heists-edge/",
+      "/fr/guides/gta-6-argent-missions-histoire-braquages-edge/"
+    ]
+  },
+  {
+    "id": "gta6-scooter-bros-explained-20261030",
+    "category": "guides",
+    "published": "2026-10-30",
+    "titles": [
+      "Scooter Bros en GTA 6: cómo se describe la entrega del coche",
+      "GTA 6 Scooter Bros: personal car delivery explained",
+      "Scooter Bros GTA 6 : livraison de voiture expliquée"
+    ],
+    "paths": [
+      "/es/guias/gta-6-scooter-bros-pedir-coche-personal/",
+      "/en/guides/gta-6-scooter-bros-personal-car-delivery/",
+      "/fr/guides/gta-6-scooter-bros-livraison-voiture-personnelle/"
+    ]
+  },
+  {
+    "id": "cheats-online-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA Online: códigos, dinero y límites reales",
+      "GTA Online cheats: money codes and the actual limits",
+      "Codes GTA Online : argent et limites réelles"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-online-codigos-dinero-limites/",
+      "/en/cheats/gta-online-cheats-money-codes-limits/",
+      "/fr/codes/codes-gta-online-argent-limites/"
+    ]
+  },
+  {
+    "id": "cheats-tbogt-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA: The Ballad of Gay Tony: códigos y cómo activarlos",
+      "GTA: The Ballad of Gay Tony cheats: codes and how to enter them",
+      "Codes de GTA: The Ballad of Gay Tony : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-the-ballad-of-gay-tony-codigos-plataformas/",
+      "/en/cheats/gta-the-ballad-of-gay-tony-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-the-ballad-of-gay-tony-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-cw-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA: Chinatown Wars: códigos y cómo activarlos",
+      "GTA: Chinatown Wars cheats: codes and how to enter them",
+      "Codes de GTA: Chinatown Wars : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-chinatown-wars-codigos-plataformas/",
+      "/en/cheats/gta-chinatown-wars-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-chinatown-wars-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-tlad-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA IV: The Lost and Damned: códigos y cómo activarlos",
+      "GTA IV: The Lost and Damned cheats: codes and how to enter them",
+      "Codes de GTA IV: The Lost and Damned : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-the-lost-and-damned-codigos-plataformas/",
+      "/en/cheats/gta-the-lost-and-damned-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-the-lost-and-damned-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-iv-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA IV: códigos y cómo activarlos",
+      "GTA IV cheats: codes and how to enter them",
+      "Codes de GTA IV : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-4-codigos-plataformas/",
+      "/en/cheats/gta-4-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-4-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-vcs-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA: Vice City Stories: códigos y cómo activarlos",
+      "GTA: Vice City Stories cheats: codes and how to enter them",
+      "Codes de GTA: Vice City Stories : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-vice-city-stories-codigos-plataformas/",
+      "/en/cheats/gta-vice-city-stories-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-vice-city-stories-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-lcs-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA: Liberty City Stories: códigos y cómo activarlos",
+      "GTA: Liberty City Stories cheats: codes and how to enter them",
+      "Codes de GTA: Liberty City Stories : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-liberty-city-stories-codigos-plataformas/",
+      "/en/cheats/gta-liberty-city-stories-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-liberty-city-stories-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-sa-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA: San Andreas: códigos y cómo activarlos",
+      "GTA: San Andreas cheats: codes and how to enter them",
+      "Codes de GTA: San Andreas : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-san-andreas-codigos-plataformas/",
+      "/en/cheats/gta-san-andreas-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-san-andreas-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-advance-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA Advance: códigos y cómo activarlos",
+      "GTA Advance cheats: codes and how to enter them",
+      "Codes de GTA Advance : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-advance-codigos-plataformas/",
+      "/en/cheats/gta-advance-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-advance-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-vc-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA: Vice City: códigos y cómo activarlos",
+      "GTA: Vice City cheats: codes and how to enter them",
+      "Codes de GTA: Vice City : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-vice-city-codigos-plataformas/",
+      "/en/cheats/gta-vice-city-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-vice-city-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-iii-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA III: códigos y cómo activarlos",
+      "GTA III cheats: codes and how to enter them",
+      "Codes de GTA III : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-3-codigos-plataformas/",
+      "/en/cheats/gta-3-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-3-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-gta2-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA 2: códigos y cómo activarlos",
+      "GTA 2 cheats: codes and how to enter them",
+      "Codes de GTA 2 : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-2-codigos-plataformas/",
+      "/en/cheats/gta-2-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-2-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-london61-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA: London 1961: códigos y cómo activarlos",
+      "GTA: London 1961 cheats: codes and how to enter them",
+      "Codes de GTA: London 1961 : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-london-1961-codigos-plataformas/",
+      "/en/cheats/gta-london-1961-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-london-1961-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-london69-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA: London 1969: códigos y cómo activarlos",
+      "GTA: London 1969 cheats: codes and how to enter them",
+      "Codes de GTA: London 1969 : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-london-1969-codigos-plataformas/",
+      "/en/cheats/gta-london-1969-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-london-1969-plateformes/"
+    ]
+  },
+  {
+    "id": "cheats-gta1-20261030",
+    "category": "cheats",
+    "published": "2026-10-30",
+    "titles": [
+      "Trucos de GTA 1: códigos y cómo activarlos",
+      "GTA 1 cheats: codes and how to enter them",
+      "Codes de GTA 1 : liste et activation"
+    ],
+    "paths": [
+      "/es/trucos/trucos-gta-1-codigos-plataformas/",
+      "/en/cheats/gta-1-cheats-codes-platforms/",
+      "/fr/codes/codes-gta-1-plateformes/"
+    ]
+  },
+  {
     "id": "gta-saga-cheats-newest-oldest-20261030",
     "category": "cheats",
     "published": "2026-10-30",
