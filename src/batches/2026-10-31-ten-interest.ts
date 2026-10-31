@@ -11,7 +11,7 @@ const sources:Record<string,{label:string;url:string}>={
  extended:{label:'Rockstar Games · An Extended Look · August 27, 2026',url:'https://www.rockstargames.com/VI/an-extended-look'},
  southpark:{label:'VGC · South Park footage · October 29, 2026',url:'https://www.videogameschronicle.com/news/the-latest-episode-of-south-park-features-exclusive-gta-6-footage-where-a-man-is-hit-in-the-head-with-dog-poo/'},
  southpark2:{label:'Insider Gaming · South Park footage · October 29, 2026',url:'https://insider-gaming.com/new-grand-theft-auto-6-gameplay-revealed-during-south-park/'},
- activities:{label:'iGrandTheftAuto · TGG activity preview report · October 29, 2026',url:'https://www.igrandtheftauto.com/gta6/news/gta-6-side-activities-detailed-gyms-fishing-basketball-hunting-racing-and-more'},
+ activities:{label:'iGrandTheftAuto · TGG activity preview report · September 3, 2026',url:'https://www.igrandtheftauto.com/gta6/news/gta-6-side-activities-detailed-gyms-fishing-basketball-hunting-racing-and-more'},
  phone:{label:'IGN / Rachel Weber, via Best Buy Gamers · October 7, 2026',url:'https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931'},
  phone2:{label:'IGN · original full interview',url:'https://www.ign.com/articles/gta-6-the-big-interview'},
  driving:{label:'GamesRadar+ · Rob Nelson on driving · September 4, 2026',url:'https://www.gamesradar.com/games/grand-theft-auto/gta-6-driving-is-the-best-parts-of-gta-4-but-with-the-accessibility-of-gta-5-says-rockstar-boss/'},

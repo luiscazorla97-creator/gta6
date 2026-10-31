@@ -278,7 +278,7 @@
     "phone": "IGN full interview October 7, accessed via credited Best Buy Gamers reprint. Direct IGN unavailable; no claim of directly viewing that page or watching source videos.",
     "driving": "GamesRadar publication September 4.",
     "combat": "iGrandTheftAuto byline September 2.",
-    "activities": "iGrandTheftAuto/TGG recap page dated October 29; preview recollections, not our hands-on test.",
+    "activities": "iGrandTheftAuto byline says September 3, 2026. October 29 belongs to a linked screenshot gallery, not this report. Source label corrected in final release; preview recollections, not our hands-on test.",
     "mount": "Initial guessed national-park URL returned 404; replaced by actual official /kalaga endpoint and screenshot collection. No invented measurements."
   },
   "limitations": "Google Trends returned HTTP 429. No volume/ranking dataset obtained. Some topics use older relevant reporting with original dates; only the South Park item is a recent event. Original YouTube links identify reported sources; no claim of watching complete original videos. No leaks, AI imagery, generated gameplay, guessed controls, mission locations or performance tests.",
@@ -291,6 +291,7 @@
   "validation": {
     "buildRelease": "passed initial final-content build",
     "static": "392 HTML, 17613 internal links, 758 structured-data blocks",
-    "browser": "6 tests passed: all 30 localized articles checked on desktop and mobile, with 3 decoded official images each, heading/metadata/canonical/hreflang/JSON-LD, internal links, language selector, no horizontal overflow and Analytics gate preserved. Fixtures mock ad providers; no ad impressions inferred."
+    "browser": "6 tests passed: all 30 localized articles checked on desktop and mobile, with 3 decoded official images each, heading/metadata/canonical/hreflang/JSON-LD, internal links, language selector, no horizontal overflow and Analytics gate preserved. Fixtures mock ad providers; no ad impressions inferred.",
+    "dateCorrection": "Source-label date corrected after checking the explicit byline; all article publication dates remain October 31. No claim that older preview mechanics are new announcements."
   }
 }
