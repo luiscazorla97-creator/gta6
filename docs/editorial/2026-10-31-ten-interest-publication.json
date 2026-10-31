@@ -1,0 +1,444 @@
+{
+  "commit": "c860aa33a699e0ebda90bbbd14c79512cd8c85a7",
+  "deployment": "c5a7636e-e266-419b-8697-46c0da2aa928",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-31T18:23:10.447856Z",
+    "status": "success"
+  },
+  "topics": 10,
+  "versions": 30,
+  "publicPages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-south-park-gameplay-episodio-que-muestra/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/vice-city.webp",
+        "/media/feature-phone.webp",
+        "/media/feature-couple.webp"
+      ],
+      "title": "GTA 6 en South Park: el gameplay que convirtió un gag en noticia"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-south-park-gameplay-episode-explained/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/vice-city.webp",
+        "/media/feature-phone.webp",
+        "/media/feature-couple.webp"
+      ],
+      "title": "GTA 6 in South Park: the gameplay behind the viral joke"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-south-park-gameplay-episode-explique/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/vice-city.webp",
+        "/media/feature-phone.webp",
+        "/media/feature-couple.webp"
+      ],
+      "title": "GTA 6 dans South Park : le gameplay derrière la blague"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-buceo-mundo-submarino-oxigeno/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-diving.webp",
+        "/media/feature-boats.webp",
+        "/media/region-leonida-keys-02.webp"
+      ],
+      "title": "Buceo en GTA 6: mundo submarino, oxígeno y qué se ha mostrado"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-diving-underwater-world-oxygen/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-diving.webp",
+        "/media/feature-boats.webp",
+        "/media/region-leonida-keys-02.webp"
+      ],
+      "title": "GTA 6 diving: underwater exploration, oxygen and the evidence"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-plongee-monde-sous-marin-oxygene/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-diving.webp",
+        "/media/feature-boats.webp",
+        "/media/region-leonida-keys-02.webp"
+      ],
+      "title": "Plongée GTA 6 : fonds marins, oxygène et éléments montrés"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-telefono-aplicaciones-snapmatic-redes/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-phone.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-bar.webp"
+      ],
+      "title": "Teléfono de GTA 6: Snapmatic, aplicaciones y funciones reportadas"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-phone-apps-snapmatic-social-media/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-phone.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-bar.webp"
+      ],
+      "title": "GTA 6 phone: Snapmatic, apps and reported features"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-telephone-applications-snapmatic-reseaux/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-phone.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-bar.webp"
+      ],
+      "title": "Téléphone GTA 6 : Snapmatic, applications et fonctions rapportées"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-baloncesto-billar-minigolf-deportes/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-kayak.webp",
+        "/media/feature-bar.webp",
+        "/media/leonida-keys.webp"
+      ],
+      "title": "Deportes de GTA 6: baloncesto, billar y minigolf en los avances"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-basketball-pool-mini-golf-sports/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-kayak.webp",
+        "/media/feature-bar.webp",
+        "/media/leonida-keys.webp"
+      ],
+      "title": "GTA 6 sports: basketball, pool and mini-golf preview guide"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-basket-billard-mini-golf-sports/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-kayak.webp",
+        "/media/feature-bar.webp",
+        "/media/leonida-keys.webp"
+      ],
+      "title": "Sports GTA 6 : basket, billard et mini-golf dans les aperçus"
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/gta-6-conduccion-fisicas-gta-4-gta-5/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-driver.webp",
+        "/media/feature-bike.webp",
+        "/media/region-port-gellhorn-02.webp"
+      ],
+      "title": "Conducción de GTA 6: peso de GTA 4 y accesibilidad de GTA 5"
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/gta-6-driving-physics-gta-4-gta-5/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-driver.webp",
+        "/media/feature-bike.webp",
+        "/media/region-port-gellhorn-02.webp"
+      ],
+      "title": "GTA 6 driving: GTA 4 weight and GTA 5 accessibility explained"
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/gta-6-conduite-physique-gta-4-gta-5/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-driver.webp",
+        "/media/feature-bike.webp",
+        "/media/region-port-gellhorn-02.webp"
+      ],
+      "title": "Conduite GTA 6 : poids de GTA 4 et accessibilité de GTA 5"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-primera-persona-camara-lanzamiento/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/lucia.webp"
+      ],
+      "title": "Rumor: GTA 6 sin primera persona completa, qué dicen los avances"
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-first-person-camera-launch/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/lucia.webp"
+      ],
+      "title": "Rumour: GTA 6 without full first-person mode? Preview evidence"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-premiere-personne-camera-sortie/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/lucia.webp"
+      ],
+      "title": "Rumeur : GTA 6 sans vue subjective complète ? Les aperçus"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-duracion-historia-80-horas-contexto/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/vice-city.webp"
+      ],
+      "title": "Duración de GTA 6: qué significa la partida de unas 80 horas"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-story-length-80-hour-playthrough-explained/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/vice-city.webp"
+      ],
+      "title": "GTA 6 length: what the roughly 80-hour playthrough means"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-duree-histoire-partie-80-heures-contexte/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/vice-city.webp"
+      ],
+      "title": "Durée GTA 6 : comprendre la partie d’environ 80 heures"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mount-kalaga-parque-montanas-imagenes/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-mountain.webp",
+        "/media/feature-bike.webp",
+        "/media/feature-kayak.webp"
+      ],
+      "title": "Mount Kalaga en GTA 6: montañas, caminos e imágenes oficiales"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-mount-kalaga-national-park-mountains-images/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-mountain.webp",
+        "/media/feature-bike.webp",
+        "/media/feature-kayak.webp"
+      ],
+      "title": "GTA 6 Mount Kalaga: mountains, trails and official images"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-mount-kalaga-parc-montagnes-images/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-mountain.webp",
+        "/media/feature-bike.webp",
+        "/media/feature-kayak.webp"
+      ],
+      "title": "Mount Kalaga GTA 6 : montagnes, sentiers et images officielles"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-paracaidas-helicopteros-vuelo/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-helicopter.webp",
+        "/media/vice-city.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "title": "Paracaídas y helicópteros de GTA 6: qué se ha mostrado del vuelo"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-parachuting-helicopters-flight/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-helicopter.webp",
+        "/media/vice-city.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "title": "GTA 6 parachutes and helicopters: what the footage shows"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-parachute-helicopteres-vol/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-helicopter.webp",
+        "/media/vice-city.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "title": "Parachutes et hélicoptères GTA 6 : ce que montrent les images"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-combate-apuntado-cobertura-retroceso/",
+      "status": 200,
+      "locale": "es",
+      "images": [
+        "/media/feature-aiming.webp",
+        "/media/feature-couple.webp",
+        "/media/feature-fight.webp"
+      ],
+      "title": "Combate de GTA 6: apuntado, cobertura y retroceso según los avances"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-combat-aiming-cover-recoil/",
+      "status": 200,
+      "locale": "en",
+      "images": [
+        "/media/feature-aiming.webp",
+        "/media/feature-couple.webp",
+        "/media/feature-fight.webp"
+      ],
+      "title": "GTA 6 combat: aiming, cover and recoil in preview reports"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-combat-visee-couverture-recul/",
+      "status": 200,
+      "locale": "fr",
+      "images": [
+        "/media/feature-aiming.webp",
+        "/media/feature-couple.webp",
+        "/media/feature-fight.webp"
+      ],
+      "title": "Combat GTA 6 : visée, couverture et recul selon les aperçus"
+    }
+  ],
+  "publicImages": [
+    {
+      "url": "https://fansgta.com/media/feature-aiming.webp",
+      "status": 200,
+      "bytes": 67802
+    },
+    {
+      "url": "https://fansgta.com/media/feature-bar.webp",
+      "status": 200,
+      "bytes": 86226
+    },
+    {
+      "url": "https://fansgta.com/media/feature-bike.webp",
+      "status": 200,
+      "bytes": 184396
+    },
+    {
+      "url": "https://fansgta.com/media/feature-boats.webp",
+      "status": 200,
+      "bytes": 171234
+    },
+    {
+      "url": "https://fansgta.com/media/feature-couple.webp",
+      "status": 200,
+      "bytes": 65196
+    },
+    {
+      "url": "https://fansgta.com/media/feature-diving.webp",
+      "status": 200,
+      "bytes": 97286
+    },
+    {
+      "url": "https://fansgta.com/media/feature-driver.webp",
+      "status": 200,
+      "bytes": 44940
+    },
+    {
+      "url": "https://fansgta.com/media/feature-fight.webp",
+      "status": 200,
+      "bytes": 45184
+    },
+    {
+      "url": "https://fansgta.com/media/feature-helicopter.webp",
+      "status": 200,
+      "bytes": 58038
+    },
+    {
+      "url": "https://fansgta.com/media/feature-kayak.webp",
+      "status": 200,
+      "bytes": 231688
+    },
+    {
+      "url": "https://fansgta.com/media/feature-mountain.webp",
+      "status": 200,
+      "bytes": 226130
+    },
+    {
+      "url": "https://fansgta.com/media/feature-phone.webp",
+      "status": 200,
+      "bytes": 68872
+    },
+    {
+      "url": "https://fansgta.com/media/leonida-keys.webp",
+      "status": 200,
+      "bytes": 126662
+    },
+    {
+      "url": "https://fansgta.com/media/lucia.webp",
+      "status": 200,
+      "bytes": 65852
+    },
+    {
+      "url": "https://fansgta.com/media/region-leonida-keys-02.webp",
+      "status": 200,
+      "bytes": 225064
+    },
+    {
+      "url": "https://fansgta.com/media/region-port-gellhorn-02.webp",
+      "status": 200,
+      "bytes": 100334
+    },
+    {
+      "url": "https://fansgta.com/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602
+    }
+  ],
+  "bundle": "/assets/index-Dq_kiLmr.js",
+  "css": "/assets/index-Bd4d0erj.css",
+  "publicAssetBytesMatchTestedRelease": true,
+  "sitemap": "all 30 URLs present",
+  "inventory": {
+    "topics": 116,
+    "versions": 348,
+    "previous318ArticleURLsPreserved": true
+  },
+  "browser": "6 desktop/mobile tests passed; all 30 article versions with image decoding, localized metadata, schema, sources, internal links and real language selector. Ads mocked; no revenue claim.",
+  "static": "392 HTML, 17613 internal links, 758 structured-data blocks.",
+  "dailySchedule": "unchanged; one topic/day ES/EN/FR through November 19, 2026 America/New_York",
+  "publicationMethod": "Verified release compiled in cloud and uploaded to existing Cloudflare Pages fansgta production branch main with Wrangler 4.156.0."
+}

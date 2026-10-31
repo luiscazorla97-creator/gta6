@@ -292,6 +292,17 @@
     "buildRelease": "passed initial final-content build",
     "static": "392 HTML, 17613 internal links, 758 structured-data blocks",
     "browser": "6 tests passed: all 30 localized articles checked on desktop and mobile, with 3 decoded official images each, heading/metadata/canonical/hreflang/JSON-LD, internal links, language selector, no horizontal overflow and Analytics gate preserved. Fixtures mock ad providers; no ad impressions inferred.",
-    "dateCorrection": "Source-label date corrected after checking the explicit byline; all article publication dates remain October 31. No claim that older preview mechanics are new announcements."
+    "dateCorrection": "Source-label date corrected after checking the explicit byline; all article publication dates remain October 31. No claim that older preview mechanics are new announcements.",
+    "public": "Passed: 30 localized URLs, 17 unique referenced images, canonical/hreflang/schema/sitemap and exact public assets."
+  },
+  "publicVerification": {
+    "commit": "c860aa33a699e0ebda90bbbd14c79512cd8c85a7",
+    "deployment": "c5a7636e-e266-419b-8697-46c0da2aa928",
+    "status": "deploy/success",
+    "pages": 30,
+    "images": 17,
+    "newOfficialImages": 12,
+    "assets": "Public JS/CSS and all referenced image bytes match the verified release. All 30 URLs in sitemap.",
+    "evidence": "docs/editorial/2026-10-31-ten-interest-publication.json"
   }
 }
