@@ -1,0 +1,61 @@
+{
+  "commit": "9b0cbc9e04042137f15cec571e268732bc4f35ba",
+  "deployment": "db6478a8-06c6-43ee-a917-96feb716177a",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-31T17:47:59.255515Z",
+    "status": "success"
+  },
+  "publicPages": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-autobuses-trenes-transporte-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/trucos-gta-vice-city-stories-codigos-plataformas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200
+    }
+  ],
+  "bundle": "/assets/index-mbV4F1Cx.js",
+  "css": "/assets/index-Bd4d0erj.css",
+  "publicAssetBytesMatchTestedRelease": true,
+  "browser": {
+    "passed": 17,
+    "duplicateMobileBoundaryCasesSkipped": 11,
+    "scrollTests": "Wheel scrolling checked on homepage and article at 1366px width and 780/900px height, full creatives remain below header; normal scrolling at 700px height. Both rails stop before footer and do not reload scripts on scroll."
+  },
+  "buildRelease": "passed",
+  "staticVerification": {
+    "html": 362,
+    "internalLinks": 16173,
+    "structuredDataBlocks": 698
+  },
+  "provider": "Real delivery confirmed by user screenshot before this layout-only change; no traffic or revenue claim. Provider loader and units unchanged.",
+  "popunder": "disabled",
+  "analytics": "independent consent retained"
+}
