@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/New_York",
+  "scope": "One daily topic, complete ES/EN/FR: update the equivalent Collector’s Box article; do not create duplicate pages.",
+  "baseMain": "6e886491a6c95466cc9fe326832d33caeaa6cb97",
+  "execution": {
+    "provider": "managed cloud",
+    "runtime": "connected/running, current observations; unrestricted HTTP policy enforced",
+    "github": "Fetched main from GitHub during this execution; clean existing cloud checkout fast-forwarded without changes.",
+    "cloudflare": "Authorized API read of existing fansgta project succeeded; production branch main.",
+    "localPCDependency": false,
+    "secretHandling": "Existing named runtime bindings used normally through session proxy. No values inspected, printed or requested.",
+    "deadline": "No publication after November 19, 2026 inclusive in America/New_York; rechecked before publishing."
+  },
+  "deduplication": {
+    "inventoryTopics": 116,
+    "inventoryVersions": 348,
+    "checked": "All 116 IDs and ES/EN/FR titles/paths inspected, plus existing Collector’s Box full article. No Capcom/Japan coverage found.",
+    "selectedId": "collector-box-no-game-2026-10-28",
+    "decision": "Update existing guide in all three languages, retaining id/category/slugs/original publication October 28. New updated date October 31. No new topic or relocated URL.",
+    "relatedNotDuplicates": [
+      "General buying/download guide",
+      "Standard physical code-in-box explanation",
+      "Ultimate Edition digital extras"
+    ],
+    "manualBatch": "The ten manually published October 31 topics are retained and are not reused as new daily news."
+  },
+  "noveltyAndDates": {
+    "lastDailyRecord": "October 30 public-transport report; October 31 manual publications are separate.",
+    "officialNewsReview": "Rockstar GTA VI index latest item is October 29 Justice score, already covered. Other home/news items are older. Take-Two news index checked; no fabricated new release-date story.",
+    "announcement": "October 29, 2026 Capcom announcement reproduced by Famitsu.",
+    "preorderOpening": "October 30, 2026 at 12:00 JST (UTC+9).",
+    "newObservation": "Previously unreported Japan-market price and availability snapshot verified October 31, 2026, 21:17 UTC. This update reports current listing facts, not a same-day announcement or a proven moment when stock changed.",
+    "listedDeliveryStart": "November 19, 2026, not a guaranteed individual arrival or early playable access."
+  },
+  "verifiedClaims": {
+    "market": "Japan",
+    "currency": "JPY (Japanese yen)",
+    "price": 99980,
+    "tax": "included",
+    "snapshotUTC": "2026-10-31T21:17Z",
+    "product": "C00009901",
+    "stockIndicator": "在庫：×",
+    "wording": "Unavailable when checked, without claiming permanent sellout, a restock date or purchasable units.",
+    "gameIncluded": false,
+    "checkoutPerformed": false,
+    "currencyConversions": false,
+    "internationalShippingInferred": false
+  },
+  "sourceChecks": [
+    {
+      "key": "ecapcom",
+      "url": "https://www.e-capcom.com/shop/g/gC00009901/",
+      "status": 200,
+      "title": "イーカプコン　|Grand Theft Auto VI:The Goodtime State - Vice City Collection: その他グッズ CAPCOM公式通販サイト",
+      "checkedUTC": "2026-10-31T21:17:53.867077+00:00"
+    },
+    {
+      "key": "famitsu",
+      "url": "https://www.famitsu.com/article/202610/92485",
+      "status": 200,
+      "title": "『GTA6』99980円の超豪華コレクターズBOX「Vice City Collection」10月30日12時より予約開始。フィギュアやキャップやショットグラスが付いたオトナ向けアイテム | ゲーム・エンタメ最新情報のファミ通.com",
+      "checkedUTC": "2026-10-31T21:17:55.416270+00:00"
+    },
+    {
+      "key": "rockstarCollection",
+      "url": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+      "status": 200,
+      "title": "Grand Theft Auto VI: The Goodtime State – Vice City™ Collection | Rockstar Store",
+      "checkedUTC": "2026-10-31T21:17:53.484544+00:00"
+    },
+    {
+      "key": "rockstarAnnouncement",
+      "url": "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l",
+      "status": 200,
+      "title": "Pre-Order The Goodtime State – Vice City Collection Now While Supplies Last - Rockstar Games",
+      "checkedUTC": "2026-10-31T21:17:53.000603+00:00"
+    },
+    {
+      "key": "rockstarNews",
+      "url": "https://www.rockstargames.com/newswire?tag=722",
+      "status": 200,
+      "title": "Newswire - Rockstar Games",
+      "checkedUTC": "2026-10-31T21:17:52.689349+00:00"
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "checkedUTC": "2026-10-31T21:17:54.006064+00:00"
+    },
+    {
+      "key": "takeTwo",
+      "url": "https://ir.take2games.com/news-releases",
+      "status": 200,
+      "title": "Press Releases | Take-Two Interactive Software, Inc.",
+      "checkedUTC": "2026-10-31T21:17:58.390921+00:00"
+    },
+    {
+      "key": "trends",
+      "url": "https://trends.google.com/trends/explore?date=now%207-d&q=GTA%206%20Collectors%20Box",
+      "error": "HTTP Error 429: Too Many Requests",
+      "checkedUTC": "2026-10-31T21:17:55.416107+00:00"
+    }
+  ],
+  "interest": {
+    "signals": "Live Google autocomplete contains collector-box price/contents/sold-out queries; recent October 29 Japanese press coverage and official storefront. Not measured volume or a popularity ranking.",
+    "autocomplete": [
+      {
+        "query": "gta 6 collectors box",
+        "suggestions": [
+          "gta 6 collectors box",
+          "gta 6 collectors box items",
+          "gta 6 collectors box price",
+          "gta 6 collectors box map",
+          "gta 6 collectors box reddit",
+          "gta 6 collectors box for $400",
+          "gta 6 collectors box contents",
+          "gta 6 collectors box ebay",
+          "gta 6 collectors box spoon",
+          "gta 6 collectors box sold out"
+        ]
+      },
+      {
+        "query": "gta 6 collector edition japan",
+        "suggestions": [
+          "gta 6 collector's edition japan",
+          "gta online jdm cars list",
+          "gta 5 jdm cars list",
+          "will cj be in gta 6"
+        ]
+      }
+    ],
+    "trends": "HTTP 429; no comparative volume or trend ranking obtained."
+  },
+  "media": {
+    "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+    "sourcePage": "https://www.rockstargames.com/VI/media",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 894386,
+    "localOptimizedPath": "/media/vice-city.webp",
+    "reuseContext": "Existing authentic official GTA VI image, visually contextual city cover, explicitly not merchandise photograph. Official media download/share checked again; copyright retained, no unrestricted licence claimed."
+  },
+  "invariants": "No changes to ads, security rules, design, subscriptions, services, schedule or BarberControl. No purchases or messages to third parties.",
+  "validation": {
+    "releaseBuild": "passed",
+    "static": "392 HTML, 17625 internal links, 758 JSON-LD blocks",
+    "browser": "4 tests passed: three language routes, metadata, original/updated dates, market/currency/tax/stock/time, real language selector, original decoded credited cover, localized working internal links, no horizontal overflow, no popunder or unsolicited Analytics requests. Desktop and mobile."
+  }
+}

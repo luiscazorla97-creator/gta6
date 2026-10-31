@@ -14,3 +14,8 @@ The official media/share publication and all sixteen existing optimized WebP fil
 ## Manual ten-topic batch — 2026-10-31
 
 The current official screenshot gallery and its download/share context were checked again. Twelve selected GTA VI originals were visually inspected and resized/re-encoded to 1400×788 WebP; exact URLs, original names, sizes and attribution are in public/media/credits.json. Every new article has a cover and two contextual images with translated alt/captions and source links. Underwater imagery is the official Leonida Keys 04 screenshot. Mount Kalaga uses its own official road/bike/kayak collection. South Park reporting uses contextual GTA VI imagery, not copied television frames. Sports images illustrate leisure/characters and do not claim to show basketball controls or results. No AI assets, decorative helicopter edits, mods, leaked builds or GTA V substitutes are used. Rights remain with Rockstar/Take-Two; no unrestricted licence is asserted.
+
+
+## Daily Collector’s Box update — 2026-10-31
+
+The existing Vice City 11 cover is retained as authentic GTA VI setting imagery, explicitly captioned as neither a photograph of the box nor its contents. Its original official JPEG returned HTTP 200 and the Rockstar media page still offers download/share. Exact provenance remains in public/media/credits.json; translated alt/caption and explicit Rockstar credit accompany the optimized local WebP. No retailer/Famitsu product image, AI image, leaked asset or decorative hero edit was copied. Rights remain with Rockstar/Take-Two; no unrestricted licence is asserted.

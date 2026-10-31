@@ -1,3 +1,4 @@
+import {updateCollectorJapan20261031} from './2026-10-31-daily-collector-japan';
 import type { Article } from '../articles';
 
 const collection={label:'Rockstar Store — The Goodtime State: Vice City Collection',url:'https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection'};
@@ -11,7 +12,7 @@ const insider={label:'Insider Gaming — reported 210 GB download, 27 October 20
 const computerbase={label:'ComputerBase — reported download size, 27 October 2026',url:'https://www.computerbase.de/news/gaming/preload-ab-12-november-gta-6-ist-210-gigabyte-gross.100042/'};
 const media={label:'Rockstar Games — official GTA VI media and sharing downloads',url:'https://www.rockstargames.com/VI/media'};
 
-export const collectorStorage20261028:Article[]=[
+const collectorStorageBase:Article[]=[
  {
   id:'collector-box-no-game-2026-10-28',category:'guides',
   slug:['gta-6-collectors-box-incluye-juego','gta-6-collectors-box-does-it-include-game','gta-6-coffret-collector-jeu-inclus'],
@@ -139,3 +140,4 @@ export const collectorStorage20261028:Article[]=[
   ],
  },
 ];
+export const collectorStorage20261028:Article[]=collectorStorageBase.map(updateCollectorJapan20261031);
