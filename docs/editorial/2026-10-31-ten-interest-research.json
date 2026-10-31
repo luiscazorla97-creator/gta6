@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/New_York",
+  "scope": "Manual ten distinct topics, complete ES/EN/FR (30 versions). Daily one-topic schedule through November 19 unchanged.",
+  "baseMain": "eaeab96bf495fc109baf9f7aec04d22753317162",
+  "inventoryBefore": {
+    "topics": 106,
+    "versions": 318
+  },
+  "inventoryAfter": {
+    "topics": 116,
+    "versions": 348
+  },
+  "oldArticlePathsPreserved": true,
+  "deduplication": {
+    "south-park": "Specific television sequence and episode, distinct from official launch-trailer recap and generic trailer-reading guide.",
+    "underwater": "Submerged exploration and air management, distinct from fishing rules, species catalogue and Keys region guide.",
+    "phone": "In-game phone interface and social-app evidence, distinct from individual scanner/theft, Scooter Bros and relationship guides.",
+    "sports": "Court/table leisure games, distinct from gym/body progression and vehicle racing.",
+    "driving": "Handling feel and evaluation criteria, distinct from fuel, modifications, theft and generic vehicle-evidence guide.",
+    "first-person": "Qualified report about a selectable complete camera perspective, distinct from frame rates/PS5 Pro and platform timing.",
+    "length": "Meaning of reported playthrough duration, distinct from narrative history and mission-money systems.",
+    "mount-kalaga": "Dedicated visual park guide; completes missing region rather than duplicating the general place directory or five existing regional guides.",
+    "parachuting": "Aerial traversal and evidence for jumping, distinct from general vehicle identification and city geography.",
+    "combat": "Aim/cover/recoil and evaluation, distinct from inventory capacity, NPC behaviour and Criminal Profile."
+  },
+  "interest": "Current indexed reporting and live Google autocomplete wording, not measured search volume, a popularity ranking, or ten new announcements. Sparse or empty suggestions are retained honestly. No promise of virality, ranking or audience.",
+  "autocomplete": [
+    {
+      "query": "gta 6 south park",
+      "suggestions": [
+        "gta 6 south park",
+        "gta 6 south park joke",
+        "gta 6 south park episode",
+        "gta 6 south park meme",
+        "south park gta 6 reference",
+        "south park gta 6 reddit",
+        "that's when gta 6 comes out south park",
+        "south park gta 6 gif",
+        "south park gta 6 quote",
+        "south park that's when gta 6 comes out"
+      ]
+    },
+    {
+      "query": "gta 6 buceo",
+      "suggestions": [
+        "gta 6 buceo"
+      ]
+    },
+    {
+      "query": "gta 6 telefono",
+      "suggestions": [
+        "gta 6 telefono"
+      ]
+    },
+    {
+      "query": "gta 6 baloncesto",
+      "suggestions": [
+        "gta 6 baloncesto",
+        "gta 6 leak baloncesto"
+      ]
+    },
+    {
+      "query": "gta 6 conduccion",
+      "suggestions": [
+        "gta 6 conduccion"
+      ]
+    },
+    {
+      "query": "gta 6 primera persona",
+      "suggestions": [
+        "gta 6 primera persona",
+        "gta 6 tendra primera persona",
+        "gta 6 tiene primera persona",
+        "gta 6 sin primera persona",
+        "gta 6 modo primera persona",
+        "gta 6 va tener primera persona",
+        "gta 6 contara con primera persona",
+        "gta 6 tendra camara en primera persona",
+        "gta 6 se podra jugar en primera persona",
+        "porque gta 6 no tendra primera persona"
+      ]
+    },
+    {
+      "query": "gta 6 duracion",
+      "suggestions": [
+        "gta 6 duracion",
+        "gta 6 duracion historia",
+        "gta 6 duracion campaña",
+        "gta 6 netflix duracion",
+        "trailer gta 6 duracion",
+        "gta 6 trailer 3 duracion",
+        "gta 6 trailer netflix duracion"
+      ]
+    },
+    {
+      "query": "gta 6 mount kalaga",
+      "suggestions": [
+        "gta 6 mount kalaga",
+        "gta 6 mount kalaga based on",
+        "gta 6 mount kalaga national park",
+        "gta 6 mount kalaga reddit",
+        "gta 6 mount kalaga real life",
+        "gta 6 mount kalaga screenshot",
+        "gta 6 mount kalaga leak",
+        "gta 6 mount kalaga height",
+        "gta 6 map mount kalaga"
+      ]
+    },
+    {
+      "query": "gta 6 paracaidas",
+      "suggestions": [
+        "gta 6 paracaidas",
+        "lucia gta 6 paracaidas",
+        "lucia gta 6 paracaidas video",
+        "filtracion gta 6 lucia paracaidas"
+      ]
+    },
+    {
+      "query": "gta 6 sigilo",
+      "suggestions": []
+    }
+  ],
+  "sourceAccess": [
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "published": []
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "published": []
+    },
+    {
+      "key": "mount",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida/mount-kalaga-national-park",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "ign",
+      "url": "https://www.ign.com/articles/gta-6-the-big-interview",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "key": "activities",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-side-activities-detailed-gyms-fishing-basketball-hunting-racing-and-more",
+      "status": 200,
+      "title": "GTA 6 Side Activities Detailed: Gyms, Fishing, Basketball, Hunting, Racing and More - GTA VI News",
+      "published": []
+    },
+    {
+      "key": "driving",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-driving-is-the-best-parts-of-gta-4-but-with-the-accessibility-of-gta-5-says-rockstar-boss/",
+      "status": 200,
+      "title": "GTA 6 driving is \"the best parts\" of GTA 4 but with \"the accessibility of GTA 5,\" says Rockstar boss | GamesRadar+",
+      "published": [
+        "2026-09-04T21:45:56Z"
+      ]
+    },
+    {
+      "key": "camera",
+      "url": "https://insider-gaming.com/gta-6-drops-first-person-mode-at-launch/",
+      "status": 200,
+      "title": "Grand Theft Auto 6 Drops First-Person Mode at Launch, It's Claimed - Insider Gaming",
+      "published": [
+        "2026-08-28T06:49:13+00:00"
+      ]
+    },
+    {
+      "key": "southpark",
+      "url": "https://www.videogameschronicle.com/news/the-latest-episode-of-south-park-features-exclusive-gta-6-footage-where-a-man-is-hit-in-the-head-with-dog-poo/",
+      "status": 200,
+      "title": "The latest episode of South Park features exclusive GTA 6 footage where a man is hit in the head with dog poo | VGC",
+      "published": [
+        "2026-10-29T10:01:24+00:00"
+      ]
+    },
+    {
+      "key": "union",
+      "url": "https://www.gamedeveloper.com/business/rockstar-workers-to-vote-on-unionization-ahead-of-grand-theft-auto-vi-release",
+      "status": 200,
+      "title": "Rockstar workers to vote on unionization right as GTA VI launches",
+      "published": []
+    },
+    {
+      "key": "extended",
+      "url": "https://www.rockstargames.com/VI/an-extended-look",
+      "status": 200,
+      "title": "Grand Theft Auto VI: An Extended Look",
+      "published": []
+    },
+    {
+      "key": "mount",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "published": []
+    },
+    {
+      "key": "gallery",
+      "url": "https://www.rockstargames.com/VI/media/screenshots",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "published": []
+    },
+    {
+      "key": "combat",
+      "url": "https://www.igrandtheftauto.com/news/gta-6-youtuber-previews-reveal-even-more-gameplay-details",
+      "status": 200,
+      "title": "GTA 6 YouTuber Previews Reveal Even More Gameplay Details - iGrandTheftAuto.com",
+      "published": []
+    },
+    {
+      "key": "phone",
+      "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931",
+      "status": 200,
+      "title": "GTA 6: The Big Interview",
+      "published": []
+    },
+    {
+      "key": "duration",
+      "url": "https://insider-gaming.com/gta-6-playthrough-80-hours-rockstar/",
+      "status": 200,
+      "title": "GTA 6 Could Take About 80 Hours to Complete - Insider Gaming",
+      "published": [
+        "2026-08-27T22:31:50+00:00"
+      ]
+    },
+    {
+      "key": "combat",
+      "url": "https://www.igrandtheftauto.com/gta6/news/new-gta-6-gameplay-details-highlight-limited-weapon-slots-and-advanced-police-ai",
+      "status": 200,
+      "title": "New GTA 6 Gameplay Details Highlight Limited Weapon Slots and Advanced Police AI - GTA VI News",
+      "published": []
+    },
+    {
+      "key": "southpark2",
+      "url": "https://insider-gaming.com/new-grand-theft-auto-6-gameplay-revealed-during-south-park/",
+      "status": 200,
+      "title": "New Grand Theft Auto 6 Gameplay Revealed During South Park - Insider Gaming",
+      "published": [
+        "2026-10-29T03:44:15+00:00"
+      ]
+    },
+    {
+      "key": "camera2",
+      "url": "https://www.gtaboom.com/content-creators-say-gta-6-preview-builds-do-not-have-a-first-person-mode-4930",
+      "status": 200,
+      "title": "GTA 6 Preview Builds Reportedly Lack Full First Person Mode | GTA BOOM",
+      "published": [
+        "2026-09-04T22:03:33.402+00:00"
+      ]
+    },
+    {
+      "key": "duration2",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/how-long-is-gta-6-about-80-hours-according-to-one-rockstar-devs-playthrough/",
+      "status": 200,
+      "title": "How long is GTA 6? About 80 hours, according to one Rockstar dev's playthrough | GamesRadar+",
+      "published": [
+        "2026-08-27T20:50:45Z"
+      ]
+    },
+    {
+      "key": "trends",
+      "url": "https://trends.google.com/trends/explore?date=now%207-d&q=Grand%20Theft%20Auto%20VI",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "dateNotes": {
+    "southPark": "Episode broadcast October 28; VGC/Insider coverage October 29. Not a new announcement on October 31.",
+    "length": "August 27 coverage of developer February 2026 playthrough, not a new Edge measurement and not a final campaign or 100% runtime.",
+    "camera": "Insider August 28 report explicitly qualified; rumour in all titles/intros. Supporting GTA BOOM publication September 4.",
+    "phone": "IGN full interview October 7, accessed via credited Best Buy Gamers reprint. Direct IGN unavailable; no claim of directly viewing that page or watching source videos.",
+    "driving": "GamesRadar publication September 4.",
+    "combat": "iGrandTheftAuto byline September 2.",
+    "activities": "iGrandTheftAuto/TGG recap page dated October 29; preview recollections, not our hands-on test.",
+    "mount": "Initial guessed national-park URL returned 404; replaced by actual official /kalaga endpoint and screenshot collection. No invented measurements."
+  },
+  "limitations": "Google Trends returned HTTP 429. No volume/ranking dataset obtained. Some topics use older relevant reporting with original dates; only the South Park item is a recent event. Original YouTube links identify reported sources; no claim of watching complete original videos. No leaks, AI imagery, generated gameplay, guessed controls, mission locations or performance tests.",
+  "media": {
+    "newOfficialWebP": 12,
+    "perArticleImages": 3,
+    "provenance": "Exact official gallery asset URLs, original filename, visual inspection, owner, credit, dimensions and editorial reuse context in public/media/credits.json. Official gallery explicitly offers download/share; copyright reserved, no unrestricted licence asserted.",
+    "inspection": "Contact sheets inspected for 40 official promotional images; only selected originals resized/re-encoded. Captions contextual; sports images do not purport to show basketball HUD and South Park imagery is not a copied episode frame."
+  },
+  "validation": {
+    "buildRelease": "passed initial final-content build",
+    "static": "392 HTML, 17613 internal links, 758 structured-data blocks",
+    "browser": "6 tests passed: all 30 localized articles checked on desktop and mobile, with 3 decoded official images each, heading/metadata/canonical/hreflang/JSON-LD, internal links, language selector, no horizontal overflow and Analytics gate preserved. Fixtures mock ad providers; no ad impressions inferred."
+  }
+}

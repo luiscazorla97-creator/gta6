@@ -9,3 +9,8 @@ Historical trailer playback is still optional and consent-gated. Tests mock the 
 ## Ten-topic batch, checked 2026-10-28
 
 The official media/share publication and all sixteen existing optimized WebP files were checked again for this batch. Covers use only those credited authentic assets. Captions identify game imagery used illustratively for purchase/settings guides; they do not claim to show a store UI, package or measured performance. A further Leonida Keys image supports the comparison’s setting section, with translated alt/caption and linked source. Rights remain with Rockstar/Take-Two; no public-domain or unrestricted commercial licence is asserted. Research and limits are recorded in docs/editorial/2026-10-28-search-media-research.md.
+
+
+## Manual ten-topic batch — 2026-10-31
+
+The current official screenshot gallery and its download/share context were checked again. Twelve selected GTA VI originals were visually inspected and resized/re-encoded to 1400×788 WebP; exact URLs, original names, sizes and attribution are in public/media/credits.json. Every new article has a cover and two contextual images with translated alt/captions and source links. Underwater imagery is the official Leonida Keys 04 screenshot. Mount Kalaga uses its own official road/bike/kayak collection. South Park reporting uses contextual GTA VI imagery, not copied television frames. Sports images illustrate leisure/characters and do not claim to show basketball controls or results. No AI assets, decorative helicopter edits, mods, leaked builds or GTA V substitutes are used. Rights remain with Rockstar/Take-Two; no unrestricted licence is asserted.

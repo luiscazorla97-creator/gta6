@@ -1,5 +1,155 @@
 [
   {
+    "id": "gta6-interest-south-park-20261031",
+    "category": "news",
+    "published": "2026-10-31",
+    "titles": [
+      "GTA 6 en South Park: el gameplay que convirtió un gag en noticia",
+      "GTA 6 in South Park: the gameplay behind the viral joke",
+      "GTA 6 dans South Park : le gameplay derrière la blague"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-south-park-gameplay-episodio-que-muestra/",
+      "/en/news/gta-6-south-park-gameplay-episode-explained/",
+      "/fr/actualites/gta-6-south-park-gameplay-episode-explique/"
+    ]
+  },
+  {
+    "id": "gta6-interest-underwater-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Buceo en GTA 6: mundo submarino, oxígeno y qué se ha mostrado",
+      "GTA 6 diving: underwater exploration, oxygen and the evidence",
+      "Plongée GTA 6 : fonds marins, oxygène et éléments montrés"
+    ],
+    "paths": [
+      "/es/guias/gta-6-buceo-mundo-submarino-oxigeno/",
+      "/en/guides/gta-6-diving-underwater-world-oxygen/",
+      "/fr/guides/gta-6-plongee-monde-sous-marin-oxygene/"
+    ]
+  },
+  {
+    "id": "gta6-interest-phone-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Teléfono de GTA 6: Snapmatic, aplicaciones y funciones reportadas",
+      "GTA 6 phone: Snapmatic, apps and reported features",
+      "Téléphone GTA 6 : Snapmatic, applications et fonctions rapportées"
+    ],
+    "paths": [
+      "/es/guias/gta-6-telefono-aplicaciones-snapmatic-redes/",
+      "/en/guides/gta-6-phone-apps-snapmatic-social-media/",
+      "/fr/guides/gta-6-telephone-applications-snapmatic-reseaux/"
+    ]
+  },
+  {
+    "id": "gta6-interest-sports-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Deportes de GTA 6: baloncesto, billar y minigolf en los avances",
+      "GTA 6 sports: basketball, pool and mini-golf preview guide",
+      "Sports GTA 6 : basket, billard et mini-golf dans les aperçus"
+    ],
+    "paths": [
+      "/es/guias/gta-6-baloncesto-billar-minigolf-deportes/",
+      "/en/guides/gta-6-basketball-pool-mini-golf-sports/",
+      "/fr/guides/gta-6-basket-billard-mini-golf-sports/"
+    ]
+  },
+  {
+    "id": "gta6-interest-driving-20261031",
+    "category": "vehicles",
+    "published": "2026-10-31",
+    "titles": [
+      "Conducción de GTA 6: peso de GTA 4 y accesibilidad de GTA 5",
+      "GTA 6 driving: GTA 4 weight and GTA 5 accessibility explained",
+      "Conduite GTA 6 : poids de GTA 4 et accessibilité de GTA 5"
+    ],
+    "paths": [
+      "/es/vehiculos/gta-6-conduccion-fisicas-gta-4-gta-5/",
+      "/en/vehicles/gta-6-driving-physics-gta-4-gta-5/",
+      "/fr/vehicules/gta-6-conduite-physique-gta-4-gta-5/"
+    ]
+  },
+  {
+    "id": "gta6-interest-first-person-20261031",
+    "category": "news",
+    "published": "2026-10-31",
+    "titles": [
+      "Rumor: GTA 6 sin primera persona completa, qué dicen los avances",
+      "Rumour: GTA 6 without full first-person mode? Preview evidence",
+      "Rumeur : GTA 6 sans vue subjective complète ? Les aperçus"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-primera-persona-camara-lanzamiento/",
+      "/en/news/rumour-gta-6-first-person-camera-launch/",
+      "/fr/actualites/rumeur-gta-6-premiere-personne-camera-sortie/"
+    ]
+  },
+  {
+    "id": "gta6-interest-length-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Duración de GTA 6: qué significa la partida de unas 80 horas",
+      "GTA 6 length: what the roughly 80-hour playthrough means",
+      "Durée GTA 6 : comprendre la partie d’environ 80 heures"
+    ],
+    "paths": [
+      "/es/guias/gta-6-duracion-historia-80-horas-contexto/",
+      "/en/guides/gta-6-story-length-80-hour-playthrough-explained/",
+      "/fr/guides/gta-6-duree-histoire-partie-80-heures-contexte/"
+    ]
+  },
+  {
+    "id": "gta6-interest-mount-kalaga-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Mount Kalaga en GTA 6: montañas, caminos e imágenes oficiales",
+      "GTA 6 Mount Kalaga: mountains, trails and official images",
+      "Mount Kalaga GTA 6 : montagnes, sentiers et images officielles"
+    ],
+    "paths": [
+      "/es/guias/gta-6-mount-kalaga-parque-montanas-imagenes/",
+      "/en/guides/gta-6-mount-kalaga-national-park-mountains-images/",
+      "/fr/guides/gta-6-mount-kalaga-parc-montagnes-images/"
+    ]
+  },
+  {
+    "id": "gta6-interest-parachuting-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Paracaídas y helicópteros de GTA 6: qué se ha mostrado del vuelo",
+      "GTA 6 parachutes and helicopters: what the footage shows",
+      "Parachutes et hélicoptères GTA 6 : ce que montrent les images"
+    ],
+    "paths": [
+      "/es/guias/gta-6-paracaidas-helicopteros-vuelo/",
+      "/en/guides/gta-6-parachuting-helicopters-flight/",
+      "/fr/guides/gta-6-parachute-helicopteres-vol/"
+    ]
+  },
+  {
+    "id": "gta6-interest-combat-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Combate de GTA 6: apuntado, cobertura y retroceso según los avances",
+      "GTA 6 combat: aiming, cover and recoil in preview reports",
+      "Combat GTA 6 : visée, couverture et recul selon les aperçus"
+    ],
+    "paths": [
+      "/es/guias/gta-6-combate-apuntado-cobertura-retroceso/",
+      "/en/guides/gta-6-combat-aiming-cover-recoil/",
+      "/fr/guides/gta-6-combat-visee-couverture-recul/"
+    ]
+  },
+  {
     "id": "gta-online-omaggio-twitch-drops-20261031",
     "category": "online",
     "published": "2026-10-31",
