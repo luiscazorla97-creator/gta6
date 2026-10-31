@@ -27,6 +27,7 @@
     "build": "npm run build:release passed: 95 topics, 328 generated pages plus root copy. Final build repeated after documentation updates.",
     "browser": "28 desktop/mobile checks passed, including all three languages, 17 visible directory links, independent guide tables, section order, existing ten GTA VI analyses, language switching, responsive ad placement and AdSense verification. Four screenshots visually inspected with mocked providers.",
     "preservation": "All 285 article routes retained; serialized sections for the 94 other articles match pre-edit SHA256.",
-    "public": "To be verified after terminal Cloudflare deployment success; do not equate GitHub update with publication."
+    "public": "Verified 57 public URLs (51 per-game editions, three index editions and three cheat sections), 16 original images and exact tested JS/CSS bytes after deploy/success. Content commit 0d454891a2ec82c3dc86278098b88b4d7a1e9404; Cloudflare 63fb321c-e47b-406f-a5ae-93c0664208d7. See 2026-10-30-per-game-cheats-publication.json.",
+    "static": "329 HTML, 14838 internal links and 632 structured-data blocks verified; git diff --check passed."
   }
 }

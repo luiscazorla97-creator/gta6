@@ -1,0 +1,557 @@
+{
+  "commit": "0d454891a2ec82c3dc86278098b88b4d7a1e9404",
+  "deployment": "63fb321c-e47b-406f-a5ae-93c0664208d7",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-10-31T00:32:26.26346Z",
+    "ended_on": "2026-10-31T00:32:36.918399Z",
+    "status": "success"
+  },
+  "publicArticlesAndIndex": [
+    {
+      "id": "cheats-check",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+      "status": 200,
+      "tableCodeCells": 6,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-check",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+      "status": 200,
+      "tableCodeCells": 6,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-check",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+      "status": 200,
+      "tableCodeCells": 6,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-online-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-online-codigos-dinero-limites/",
+      "status": 200,
+      "tableCodeCells": 0,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-online-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-online-cheats-money-codes-limits/",
+      "status": 200,
+      "tableCodeCells": 0,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-online-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-online-argent-limites/",
+      "status": 200,
+      "tableCodeCells": 0,
+      "content": "independent game guide"
+    },
+    {
+      "id": "gta5-complete-cheats-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/gta-5-todos-trucos-codigos/",
+      "status": 200,
+      "tableCodeCells": 144,
+      "content": "independent game guide"
+    },
+    {
+      "id": "gta5-complete-cheats-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-5-all-cheats-codes/",
+      "status": 200,
+      "tableCodeCells": 144,
+      "content": "independent game guide"
+    },
+    {
+      "id": "gta5-complete-cheats-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/gta-5-tous-codes-triche/",
+      "status": 200,
+      "tableCodeCells": 144,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-tbogt-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-the-ballad-of-gay-tony-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 25,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-tbogt-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-the-ballad-of-gay-tony-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 25,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-tbogt-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-the-ballad-of-gay-tony-plateformes/",
+      "status": 200,
+      "tableCodeCells": 25,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-cw-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-chinatown-wars-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 45,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-cw-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-chinatown-wars-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 45,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-cw-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-chinatown-wars-plateformes/",
+      "status": 200,
+      "tableCodeCells": 45,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-tlad-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-the-lost-and-damned-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 22,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-tlad-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-the-lost-and-damned-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 22,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-tlad-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-the-lost-and-damned-plateformes/",
+      "status": 200,
+      "tableCodeCells": 22,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-iv-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-4-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 16,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-iv-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-4-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 16,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-iv-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-4-plateformes/",
+      "status": 200,
+      "tableCodeCells": 16,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-vcs-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-vice-city-stories-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 68,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-vcs-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-vice-city-stories-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 68,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-vcs-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-vice-city-stories-plateformes/",
+      "status": 200,
+      "tableCodeCells": 68,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-lcs-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-liberty-city-stories-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 82,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-lcs-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-liberty-city-stories-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 82,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-lcs-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-liberty-city-stories-plateformes/",
+      "status": 200,
+      "tableCodeCells": 82,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-sa-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-san-andreas-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 371,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-sa-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-san-andreas-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 371,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-sa-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-san-andreas-plateformes/",
+      "status": 200,
+      "tableCodeCells": 371,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-advance-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-advance-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 9,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-advance-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-advance-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 9,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-advance-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-advance-plateformes/",
+      "status": 200,
+      "tableCodeCells": 9,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-vc-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-vice-city-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 225,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-vc-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-vice-city-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 225,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-vc-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-vice-city-plateformes/",
+      "status": 200,
+      "tableCodeCells": 225,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-iii-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-3-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 95,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-iii-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-3-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 95,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-iii-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-3-plateformes/",
+      "status": 200,
+      "tableCodeCells": 95,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-gta2-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-2-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 55,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-gta2-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-2-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 55,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-gta2-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-2-plateformes/",
+      "status": 200,
+      "tableCodeCells": 55,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-london61-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-london-1961-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 15,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-london61-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-london-1961-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 15,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-london61-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-london-1961-plateformes/",
+      "status": 200,
+      "tableCodeCells": 15,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-london69-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-london-1969-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 31,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-london69-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-london-1969-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 31,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-london69-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-london-1969-plateformes/",
+      "status": 200,
+      "tableCodeCells": 31,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-gta1-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/trucos-gta-1-codigos-plataformas/",
+      "status": 200,
+      "tableCodeCells": 33,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-gta1-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/gta-1-cheats-codes-platforms/",
+      "status": 200,
+      "tableCodeCells": 33,
+      "content": "independent game guide"
+    },
+    {
+      "id": "cheats-gta1-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/codes-gta-1-plateformes/",
+      "status": 200,
+      "tableCodeCells": 33,
+      "content": "independent game guide"
+    },
+    {
+      "id": "gta-saga-cheats-newest-oldest-20261030",
+      "locale": "es",
+      "url": "https://fansgta.com/es/trucos/todos-trucos-gta-juegos-nuevos-antiguos/",
+      "status": 200,
+      "tableCodeCells": 0,
+      "content": "visible directory with no combined tables"
+    },
+    {
+      "id": "gta-saga-cheats-newest-oldest-20261030",
+      "locale": "en",
+      "url": "https://fansgta.com/en/cheats/all-gta-cheats-newest-to-oldest/",
+      "status": 200,
+      "tableCodeCells": 0,
+      "content": "visible directory with no combined tables"
+    },
+    {
+      "id": "gta-saga-cheats-newest-oldest-20261030",
+      "locale": "fr",
+      "url": "https://fansgta.com/fr/codes/tous-codes-gta-du-plus-recent-au-plus-ancien/",
+      "status": 200,
+      "tableCodeCells": 0,
+      "content": "visible directory with no combined tables"
+    }
+  ],
+  "publicSections": [
+    {
+      "url": "https://fansgta.com/es/trucos/",
+      "status": 200,
+      "gameCardsFirst": 17,
+      "indexLast": true
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/",
+      "status": 200,
+      "gameCardsFirst": 17,
+      "indexLast": true
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/",
+      "status": 200,
+      "gameCardsFirst": 17,
+      "indexLast": true
+    }
+  ],
+  "publicImages": [
+    {
+      "path": "/media/gta5-helicopter.webp",
+      "bytes": 83814,
+      "sha256": "f6807c24be4ccf306d33450dd8a6c6b4d4933cbef8bd9931cc7febc8c20163bb"
+    },
+    {
+      "path": "/media/history-chinatownwars.webp",
+      "bytes": 122292,
+      "sha256": "6ec74e59858a24173362207db6509d36f3befd1ecfdc6a92b8abe94b6ee1745e"
+    },
+    {
+      "path": "/media/history-grandtheftauto-gba.webp",
+      "bytes": 8958,
+      "sha256": "a14debf357e96c8c8da1c3321eeaedf284614e4a5d5a28eae6f3177e1e790a48"
+    },
+    {
+      "path": "/media/history-grandtheftauto3.webp",
+      "bytes": 94128,
+      "sha256": "e7d626d219f41329b1ad5c6bfeb58b41c233f80cf8cc02cc8e4d7b6b2ed07c38"
+    },
+    {
+      "path": "/media/history-gta.webp",
+      "bytes": 151366,
+      "sha256": "4ba94b0f384ab58b407d24d8620d4ec668cd20478f9ebf8f90a9d85a0a36bdd8"
+    },
+    {
+      "path": "/media/history-gta-online.webp",
+      "bytes": 133344,
+      "sha256": "988988eacc42675c6d9ebcb01f0afe4b9e39cf677fe19918329a0d34af2247ce"
+    },
+    {
+      "path": "/media/history-gta2.webp",
+      "bytes": 50996,
+      "sha256": "72bdce651254707006a311848d731c135d9605648ccb9448a1155583c2f85f4b"
+    },
+    {
+      "path": "/media/history-gtalondon.webp",
+      "bytes": 35698,
+      "sha256": "2350bfd39fc360c1edde318392aeaf7dd9fd6c5608862978c68118f1be2a1589"
+    },
+    {
+      "path": "/media/history-iv.webp",
+      "bytes": 106776,
+      "sha256": "ac8341abe977146b9912bfe9de361e063be9f81b76c5e15e1b30570ce3520d4c"
+    },
+    {
+      "path": "/media/history-libertycitystories.webp",
+      "bytes": 115870,
+      "sha256": "e87bd6009c2f01d952515e4b4f2fd7433d548ac8df0826706eb7a2ec2f00db4e"
+    },
+    {
+      "path": "/media/history-sanandreas.webp",
+      "bytes": 121214,
+      "sha256": "7c67d365e65179c115b87b97c7f107ff74791a6f1c782657e3d6f7e588cad339"
+    },
+    {
+      "path": "/media/history-theballadofgaytony.webp",
+      "bytes": 58936,
+      "sha256": "53e6f63700d9cb5cdc882f6df333933b3d83446f5c49cd28e780eeeaa3e58790"
+    },
+    {
+      "path": "/media/history-thelostanddamned.webp",
+      "bytes": 79004,
+      "sha256": "f4e8e15e812624c616204ec91ce2d585da623d695a8ee085c991cfe089bcc94f"
+    },
+    {
+      "path": "/media/history-vicecity.webp",
+      "bytes": 124224,
+      "sha256": "a10329cce7396f8b16bf8c445cb894fc7643ac65fc195ab412ab2893fb00f60d"
+    },
+    {
+      "path": "/media/history-vicecitystories.webp",
+      "bytes": 100720,
+      "sha256": "206fb3cc649a6d2e15a8d4048c4d7d241d19ec7f4ac960dd5367e2b6a096e006"
+    },
+    {
+      "path": "/media/jason.webp",
+      "bytes": 68710,
+      "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1"
+    }
+  ],
+  "bundle": "/assets/index-DpXyRpJa.js",
+  "css": "/assets/index-BocTkxLh.css",
+  "independentGameArticles": 17,
+  "topics": 95,
+  "localizedArticles": 285,
+  "existingArticleRoutesRetained": 285,
+  "otherArticleSectionsUnchanged": 94,
+  "localBrowserChecks": 28,
+  "dailySchedule": "unchanged",
+  "adAndAnalyticsConfiguration": "unchanged",
+  "recordedUTC": "2026-10-31T00:33:08.845384+00:00"
+}
