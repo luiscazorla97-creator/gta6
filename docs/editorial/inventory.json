@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-languages-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Idiomas de GTA 6: español, doblaje y subtítulos",
+      "GTA 6 languages: voice acting, Spanish and subtitles",
+      "Langues GTA 6 : doublage français et sous-titres"
+    ],
+    "paths": [
+      "/es/guias/gta-6-idiomas-doblaje-subtitulos/",
+      "/en/guides/gta-6-languages-voiceover-subtitles/",
+      "/fr/guides/gta-6-langues-doublage-sous-titres/"
+    ]
+  },
+  {
+    "id": "gta6-fishing-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Pesca en GTA 6: captura y suelta, equipo y límites",
+      "GTA 6 fishing: catch and release, equipment and limits",
+      "Pêche GTA 6 : capture, remise à l’eau et limites"
+    ],
+    "paths": [
+      "/es/guias/gta-6-pesca-captura-suelta/",
+      "/en/guides/gta-6-fishing-catch-release/",
+      "/fr/guides/gta-6-peche-capture-relache/"
+    ]
+  },
+  {
+    "id": "gta6-wildlife-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Animales de GTA 6: fauna de Leonida y especies reportadas",
+      "GTA 6 animals: Leonida wildlife and reported species",
+      "Animaux GTA 6 : faune de Leonida et espèces rapportées"
+    ],
+    "paths": [
+      "/es/guias/gta-6-animales-fauna-especies-leonida/",
+      "/en/guides/gta-6-animals-wildlife-leonida-species/",
+      "/fr/guides/gta-6-animaux-faune-especes-leonida/"
+    ]
+  },
+  {
+    "id": "gta6-car-customisation-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "Personalización de coches en GTA 6: talleres y límites",
+      "GTA 6 car customisation: mod shops and known limits",
+      "Personnalisation des voitures GTA 6 : ateliers et limites"
+    ],
+    "paths": [
+      "/es/guias/gta-6-personalizacion-coches-talleres/",
+      "/en/guides/gta-6-car-customisation-mod-shops/",
+      "/fr/guides/gta-6-personnalisation-voitures-ateliers/"
+    ]
+  },
+  {
+    "id": "gta6-subscriptions-20261031",
+    "category": "guides",
+    "published": "2026-10-31",
+    "titles": [
+      "GTA 6 en Game Pass y PS Plus: qué incluye cada suscripción",
+      "GTA 6 on Game Pass and PS Plus: subscription questions",
+      "GTA 6 sur Game Pass et PS Plus : comprendre les abonnements"
+    ],
+    "paths": [
+      "/es/guias/gta-6-game-pass-ps-plus-suscripciones/",
+      "/en/guides/gta-6-game-pass-ps-plus-subscriptions/",
+      "/fr/guides/gta-6-game-pass-ps-plus-abonnements/"
+    ]
+  },
+  {
     "id": "gta6-map-scale-explained-20261030",
     "category": "guides",
     "published": "2026-10-30",

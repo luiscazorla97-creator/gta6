@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/New_York",
+  "scope": "Manual five distinct GTA VI guides, complete ES/EN/FR. Daily schedule unchanged.",
+  "baseMain": "6d59db25dfa8960f8f86041b151c3dbea87bcd06",
+  "interest": "Autocomplete query wording and current indexed coverage, not measured daily volume or a top-five ranking. Original report dates preserved; no invented new announcements.",
+  "deduplication": {
+    "languages": "Language/audio intent distinct from general buying and regional voucher guide.",
+    "fishing": "Catch-and-release activity distinct from funding story missions.",
+    "wildlife": "Species/habitats distinct from general geography and human NPC behaviour.",
+    "car-customisation": "Modifications/edition compatibility distinct from theft, security and fuel.",
+    "subscriptions": "Catalogue licence vs subscription perks, distinct from the existing GTA+ redemption procedure."
+  },
+  "checks": [
+    {
+      "key": "languages",
+      "query": "gta 6 idiomas",
+      "source": {
+        "label": "Rockstar Store · idiomas disponibles",
+        "url": "https://store.rockstargames.com/es/game/buy-gta-vi"
+      },
+      "suggestions": [
+        "gta 6 idiomas",
+        "gta 6 idiomas oficiales",
+        "gta 6 idiomas disponibles",
+        "gta 6 idiomas confirmados",
+        "gta 6 idiomas suportados"
+      ],
+      "status": 200,
+      "title": "Grand Theft Auto VI | Rockstar Store",
+      "dateSignals": []
+    },
+    {
+      "key": "fishing",
+      "query": "gta 6 pesca",
+      "source": {
+        "label": "GameSpot via Yahoo · fishing and hunting report",
+        "url": "https://tech.yahoo.com/gaming/articles/gta-6-fishing-hunting-doesn-135303566.html"
+      },
+      "suggestions": [
+        "gta 6 pesca",
+        "gta 6 vai ter pesca"
+      ],
+      "accessError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "wildlife",
+      "query": "gta 6 animales",
+      "source": {
+        "label": "Marcus Stewart / Game Informer · September 29, 2026",
+        "url": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species"
+      },
+      "suggestions": [
+        "gta 6 animales",
+        "gta 6 animales confirmados",
+        "gta 6 tendra animales"
+      ],
+      "status": 200,
+      "title": "Exclusive: Grand Theft Auto VI Includes Over 170 Animal Species",
+      "dateSignals": [
+        "2026-11-19T12:00:00Z"
+      ]
+    },
+    {
+      "key": "car-customisation",
+      "query": "gta 6 personalizacion coches",
+      "source": {
+        "label": "TechRadar · official screenshot and press-release report, June 24, 2026",
+        "url": "https://www.techradar.com/gaming/there-are-63-new-grand-theft-auto-6-screenshots-to-pore-over-giving-us-our-first-look-at-some-of-the-key-mechanics-of-the-upcoming-gta-game-1"
+      },
+      "suggestions": [],
+      "status": 200,
+      "title": "There are 63 new Grand Theft Auto 6 screenshots to pore over, giving us our first look at some of the key mechanics of the upcoming GTA game | TechRadar",
+      "dateSignals": [
+        "2026-06-24T18:20:25Z",
+        "2026-06-24T18:20:25Z"
+      ]
+    },
+    {
+      "key": "subscriptions",
+      "query": "gta 6 game pass",
+      "source": {
+        "label": "PlayStation · GTA VI official product FAQ",
+        "url": "https://www.playstation.com/en-gb/games/grand-theft-auto-vi/"
+      },
+      "suggestions": [
+        "gta 6 game pass",
+        "gta 6 game pass ultimate",
+        "gta 6 game pass xbox",
+        "gta 6 game pass streaming",
+        "gta 6 game pass pc",
+        "gta 6 game pass day one",
+        "gta 6 game pass cloud",
+        "gta 6 game pass release date",
+        "gta 6 price game pass",
+        "gta 6 game pass reddit"
+      ],
+      "status": 200,
+      "title": "Grand Theft Auto VI - PS5 Games | PlayStation (UK) ",
+      "dateSignals": []
+    }
+  ],
+  "media": "Reuse original official credited WebP lucia, leonida-keys, grassrivers, port-gellhorn and hero. Exact sources and rights context in public/media/credits.json and docs/media-rights.md. No AI/decorative edited assets.",
+  "limitations": "Guides reviewed today use older dated evidence. Store language list does not prove voice tracks. Fishing is attributed press reporting, not a personal hands-on test. No invented prices, coordinates, controls or subscription inclusion date.",
+  "validation": "Initial release build and static verification passed; six browser checks passed across ES/EN/FR on desktop/mobile, covering all fifteen new pages, image decode, internal references and real language selector. Final release build repeated after adding accessible fishing corroboration and documentation. Public verification required after deployment.",
+  "fishingAccess": "Yahoo full body returned 403; indexed GameSpot/Yahoo statements and accessible iGrandTheftAuto TGG report corroborate catch-and-release. No claim of watching the original full video. Additional source linked next to assertions.",
+  "dateCaution": "Game Informer time element 2026-11-19 is the game release date, not article publication; article byline explicitly says September 29, 2026."
+}
