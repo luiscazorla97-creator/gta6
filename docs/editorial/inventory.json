@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-launch-day-pto-bamboohr-20261101",
+    "category": "news",
+    "published": "2026-11-01",
+    "titles": [
+      "GTA 6 y días libres: la tasa de solicitudes sube un 13 %",
+      "GTA 6 launch-day leave request rate rises 13%, says BambooHR",
+      "GTA 6 : un taux de demandes de congés en hausse de 13 %"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-dias-libres-solicitudes-bamboohr/",
+      "/en/news/gta-6-launch-time-off-bamboohr-study/",
+      "/fr/actualites/gta-6-sortie-conges-etude-bamboohr/"
+    ]
+  },
+  {
     "id": "gta6-focus-20261101",
     "category": "guides",
     "published": "2026-11-01",

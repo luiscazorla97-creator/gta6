@@ -1,0 +1,137 @@
+{
+  "executionDate": "2026-11-01",
+  "checkedAt": "2026-11-01T22:28:20.214288+00:00",
+  "timezone": "America/New_York",
+  "scope": "Exactly1 GTA VI news topic, complete ES/EN/FR versions. No schedule changes. Authorised through2026-11-19inclusive, date checked before publishing.",
+  "status": "Prepared; all required local checks passed, public publication pending.",
+  "runtime": {
+    "provider": "cloud",
+    "observationsCurrent": true,
+    "specRevision": 7,
+    "networkPolicy": "unrestricted/enforced",
+    "github": "Fresh origin/main obtained from GitHub; HEAD/origin both70059d2905f5a493e88fb969aea3719ed8254ea2 before work. Connected GitHub tools for writes.",
+    "cloudflare": "Account variable and API token observed ready; real deploy/public checks required separately.",
+    "userPCRequired": false
+  },
+  "priorDailyEvidence": "docs/editorial/2026-10-31-daily-collector-japan-publication.json",
+  "topic": {
+    "id": "gta6-launch-day-pto-bamboohr-20261101",
+    "title": [
+      "GTA 6 y días libres: la tasa de solicitudes sube un 13 %",
+      "GTA 6 launch-day leave request rate rises 13%, says BambooHR",
+      "GTA 6 : un taux de demandes de congés en hausse de 13 %"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-dias-libres-solicitudes-bamboohr/",
+      "/en/news/gta-6-launch-time-off-bamboohr-study/",
+      "/fr/actualites/gta-6-sortie-conges-etude-bamboohr/"
+    ],
+    "publicationDate": "2026-11-01"
+  },
+  "freshness": {
+    "newsHook": "MarketWatch article by Aditi Shrikant, originally2026-10-31T04:30:00Z, updated2026-11-01T16:35:00Z (11:35NewYork, EST), read directly; modification after previous daily execution. No claim to know which paragraphs changed.",
+    "primaryData": "BambooHR report publishedOctober22, platform pullOctober19 and surveyOctober9–20. These dates are explicitly retained in article. Not presented as new measurements made November1.",
+    "officialPriority": "Fresh Rockstar official homepage and Take-Two releases consulted; home features latest GTA VI OriginalScoreOctober29, already covered. Take-Two release table latestOctober13 results-call announcement already covered. No new announcement fabricated.",
+    "dataClaims": "13percent is relative request-rate increase versus equivalent third Thursday of November2024/2025, not13percentagepoints or13percent of all workers.18percent is stated intent among survey respondents, separate from platform records. n1530fulltimeUSemployees versus3.4millionactiveUSemployee aggregated platform records2024–2026. Requests and intentions are not actual launch-day absences.",
+    "excluded": "No productivity cost, GDP loss, sales forecast, global-workforce extrapolation, 32percent social-media poll without complete sampling detail, sick-leave claim specific to GTA VI, or causation guarantee."
+  },
+  "sources": [
+    {
+      "key": "bamboo",
+      "url": "https://www.bamboohr.com/resources/data-at-work/data-stories/gta-pto",
+      "status": 200,
+      "dates": []
+    },
+    {
+      "key": "marketwatch",
+      "url": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3",
+      "status": 200,
+      "dates": [
+        "2026-11-01T16:35:00.000Z",
+        "2026-10-31T04:30:00.000Z",
+        "2026-11-01T16:35:00.000Z",
+        "2026-10-31T04:30:00.000Z"
+      ]
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "bytes": 1205725
+    },
+    {
+      "key": "newswire",
+      "url": "https://www.rockstargames.com/newswire?tag=722",
+      "status": 200,
+      "bytes": 4133
+    },
+    {
+      "key": "take-two",
+      "url": "https://taketwointeractivesoftwareinc.gcs-web.com/news-releases",
+      "status": 200,
+      "bytes": 44117
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "bytes": 799053
+    },
+    {
+      "key": "cover",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+      "status": 200,
+      "bytes": 894386
+    }
+  ],
+  "interest": {
+    "autocomplete": {
+      "query": "gta 6 day off work",
+      "suggestions": [
+        "gta 6 day off work"
+      ]
+    },
+    "signal": "Current indexed MarketWatch update and identifiable primary request-rate data; self-query-only autocomplete is minimal and not treated as ranking evidence.",
+    "limits": "No invented Google Trends values, search volumes, audience ranking or real visitor measurement."
+  },
+  "deduplication": {
+    "articlesChecked": 138,
+    "versionsChecked": 414,
+    "hits": []
+  },
+  "inventory": {
+    "beforeTopics": 138,
+    "beforeVersions": 414,
+    "afterTopics": 139,
+    "afterVersions": 417,
+    "oldRecords": "All138 old records/414paths and titles preserved exactly. One new topic only.",
+    "decision": "No equivalent existing topic for workforce leave requests or BambooHR/MarketWatch survey. Launch-date/preload guides internally linked, not duplicated."
+  },
+  "media": {
+    "key": "vice-city",
+    "source": "Rockstar official Vice_City_11 screenshot, exact original URL and optimized WebP provenance in public/media/credits.json.",
+    "checks": "Original HTTP200; visually inspected current local WebP. Official media download/share context confirmed. Copyright reserved, no unrestricted/public-domain licence asserted.",
+    "captions": "Translated alt/caption and explicit Rockstar link identify game setting as contextual, not real employee/study imagery.",
+    "noSubstitutions": "No AI, mods, leaks, GTA V or edited animated hero layers."
+  },
+  "validation": {
+    "buildRelease": "passed",
+    "static": {
+      "HTML": 461,
+      "internalLinks": 20676,
+      "structuredDataBlocks": 896
+    },
+    "browser": "6passed: all3versions desktop/mobile, metadata/canonical/hreflang/schema/date/sitemap, decoded credited cover,3row comparison table, localized internal200links, real selector navigation, nooverflow, no popunder/unconditional Analytics scripts. Provider ad scripts stubbed; no adfill claim.",
+    "diffCheck": "passed",
+    "public": "Pending actual deployment/URL verification."
+  },
+  "unchanged": [
+    "AdSense verification and ads.txt",
+    "Adsterra static units/rails and disabled popunder",
+    "Analytics consent",
+    "Design/security rules",
+    "Subscriptions/paid services",
+    "BarberControl",
+    "Daily cadence/end date"
+  ]
+}
