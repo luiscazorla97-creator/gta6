@@ -1,0 +1,675 @@
+{
+  "date": "2026-11-01",
+  "request": "Manual batch of10 original developed GTA articles, authentic imagery, search-focused SEO. Follow established ES/EN/FR system. Top10 Google is a goal, never a guarantee.",
+  "status": "Final release/static/browser checks passed; public publication pending.",
+  "baseCommit": "099408a3ca123ed69f48ae86bb1e92197f5ec287",
+  "runtime": {
+    "provider": "cloud",
+    "observationsCurrent": true,
+    "specRevision": 7,
+    "networkPolicy": "unrestricted/enforced",
+    "github": "Fresh origin/main fetched before work; connected GitHub publication tools",
+    "cloudflare": "Account variable and token observed ready; real deployment/public outcome recorded separately",
+    "userPCRequired": false
+  },
+  "topics": [
+    {
+      "id": "gta6-focus-20261101",
+      "titles": [
+        "Focus en GTA 6: para qué sirve y en qué se parece a Eagle Eye",
+        "GTA 6 Focus mode: what it does and how it compares to Eagle Eye",
+        "Focus dans GTA 6 : son rôle et le lien avec Eagle Eye"
+      ],
+      "paths": [
+        "/es/guias/gta-6-focus-eagle-eye-detectar-policia/",
+        "/en/guides/gta-6-focus-mode-eagle-eye-police/",
+        "/fr/guides/gta-6-mode-focus-eagle-eye-police/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-ryde-me-20261101",
+      "titles": [
+        "Ryde Me en GTA 6: taxi, pasajeros y viaje rápido según IGN",
+        "GTA 6 Ryde Me: taxis, passengers and fast travel in IGN’s preview",
+        "Ryde Me dans GTA 6 : taxi, passagers et voyage rapide selon IGN"
+      ],
+      "paths": [
+        "/es/guias/gta-6-ryde-me-taxi-viaje-rapido/",
+        "/en/guides/gta-6-ryde-me-taxi-fast-travel/",
+        "/fr/guides/gta-6-ryde-me-taxi-voyage-rapide/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-impound-20261101",
+      "titles": [
+        "Depósito policial en GTA 6: el robo de coche que mostró Rockstar",
+        "GTA 6 police impound: the car theft Rockstar demonstrated",
+        "Fourrière dans GTA 6 : le vol de voiture montré par Rockstar"
+      ],
+      "paths": [
+        "/es/misiones/gta-6-deposito-policial-robo-coches-ign/",
+        "/en/missions/gta-6-police-impound-car-theft-preview/",
+        "/fr/missions/gta-6-fourriere-police-vol-voiture-apercu/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-cash-bank-20261101",
+      "titles": [
+        "Dinero en GTA 6: efectivo, banco y pérdidas al morir o ser detenido",
+        "GTA 6 money: cash, bank accounts and losses on death or arrest",
+        "Argent dans GTA 6 : espèces, banque et pertes après une arrestation"
+      ],
+      "paths": [
+        "/es/guias/gta-6-efectivo-banco-perder-dinero-wasted-busted/",
+        "/en/guides/gta-6-cash-bank-losing-money-wasted-busted/",
+        "/fr/guides/gta-6-especes-banque-perte-argent-wasted-busted/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-mission-routes-20261101",
+      "titles": [
+        "Misiones de GTA 6: rutas alternativas y libertad sin perder la historia",
+        "GTA 6 missions: alternative routes and freedom within the story",
+        "Missions GTA 6 : itinéraires alternatifs et liberté narrative"
+      ],
+      "paths": [
+        "/es/misiones/gta-6-misiones-rutas-alternativas-libertad/",
+        "/en/missions/gta-6-missions-alternative-routes-freedom/",
+        "/fr/missions/gta-6-missions-itineraires-alternatifs-liberte/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-world-encounters-20261101",
+      "titles": [
+        "Encuentros en GTA 6: decisiones, personajes y motivos para volver",
+        "GTA 6 encounters: choices, characters and reasons to return",
+        "Rencontres GTA 6 : choix, personnages et raisons de revenir"
+      ],
+      "paths": [
+        "/es/guias/gta-6-encuentros-mundo-abierto-decisiones/",
+        "/en/guides/gta-6-open-world-encounters-choices/",
+        "/fr/guides/gta-6-rencontres-monde-ouvert-choix/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-hud-20261101",
+      "titles": [
+        "HUD de GTA 6: minimapa, información en pantalla e inmersión",
+        "GTA 6 HUD: minimap, on-screen information and immersion",
+        "HUD de GTA 6 : minicarte, informations et immersion"
+      ],
+      "paths": [
+        "/es/guias/gta-6-hud-minimapa-interfaz-inmersion/",
+        "/en/guides/gta-6-hud-minimap-interface-immersion/",
+        "/fr/guides/gta-6-hud-minicarte-interface-immersion/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-ps5-storage-20261101",
+      "titles": [
+        "GTA 6 en PS5: SSD M.2, USB y cómo preparar el almacenamiento",
+        "GTA 6 on PS5: M.2 SSD, USB and preparing your storage",
+        "GTA 6 sur PS5 : SSD M.2, USB et préparation du stockage"
+      ],
+      "paths": [
+        "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+        "/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+        "/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-xbox-storage-20261101",
+      "titles": [
+        "GTA 6 en Xbox Series X|S: USB, SSD y tarjetas de expansión",
+        "GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+        "GTA 6 sur Xbox Series X|S : USB, SSD et cartes d’extension"
+      ],
+      "paths": [
+        "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+        "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+        "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "id": "gta6-preorder-cancel-20261101",
+      "titles": [
+        "Cancelar una reserva de GTA 6: reembolso en PS5, Xbox y otras tiendas",
+        "Cancel a GTA 6 preorder: refunds on PS5, Xbox and other stores",
+        "Annuler GTA 6 : remboursement sur PS5, Xbox et autres boutiques"
+      ],
+      "paths": [
+        "/es/guias/gta-6-cancelar-reserva-reembolso-ps5-xbox/",
+        "/en/guides/gta-6-cancel-preorder-refund-ps5-xbox/",
+        "/fr/guides/gta-6-annuler-precommande-remboursement-ps5-xbox/"
+      ],
+      "published": "2026-11-01"
+    }
+  ],
+  "deduplication": {
+    "method": "All128 prior inventory records/384paths and article text/section intents compared; keyword matches include generic English verbs and are not treated as equivalent intent. Narrow practical questions differentiated from broad existing topics; preserve old inventory records exactly.",
+    "matches": {
+      "focus": [
+        {
+          "id": "gta6-gang-compounds-20261101",
+          "title": "Bandas de GTA 6: recintos y el golpe a PTT Youngin$",
+          "heading": "Cómo prepararse sin inventar una solución de la misión",
+          "paragraph": "Como criterio de planificación, interesa distinguir el objetivo, las salidas posibles y la forma de abandonar la zona. Es una lectura del requisito oficial de escapar a salvo, no una secuencia probada de puertas, enemigos o controles. Hasta contar con una misión accesible no sería serio indicar una entrada secreta o una combinación ganadora de armas."
+        },
+        {
+          "id": "gta6-more-shop-robberies-20261031",
+          "title": "Robos a tiendas en GTA 6: objetivos, preparación y reacciones",
+          "heading": "Qué describen los avances sobre robar comercios",
+          "paragraph": "Los robos a comercios de GTA 6 forman parte de la actividad entre misiones descrita por Rob Nelson en la entrevista de IGN publicada íntegramente el 7 de octubre de 2026. La demostración incluye negocios concretos y decisiones durante el golpe. Esta guía también incorpora una anécdota de Phil Hooker recogida por PC Gamer el 29 de octubre a partir de Edge. Son reportes con fechas identificadas, no pruebas propias ni una lista completa de establecimientos que ya hayamos recorrido."
+        },
+        {
+          "id": "gta6-interest-phone-20261031",
+          "title": "Teléfono de GTA 6: Snapmatic, aplicaciones y funciones reportadas",
+          "heading": "Aplicaciones funcionales y nombres todavía provisionales",
+          "paragraph": "La entrevista también describe herramientas relacionadas con vehículos y servicios. Ya explicamos el escáner de coches y Scooter Bros en sus guías específicas; aquí importa cómo se reúnen distintas tareas en un mismo dispositivo. Las listas de internet pueden mezclar nombres oídos en vídeos, marcas registradas y funciones vistas. No damos por instalada una aplicación solo porque exista un dominio parecido, y tampoco equiparamos una marca ficticia con todos los servicios de una empresa real."
+        },
+        {
+          "id": "gta6-interest-combat-20261031",
+          "title": "Combate de GTA 6: apuntado, cobertura y retroceso según los avances",
+          "heading": "Leer una escena de combate sin inventar una IA completa",
+          "paragraph": "Una escena muestra posiciones y acciones concretas; no revela todas las decisiones posibles de un enemigo. Evitamos concluir que siempre flanqueará, pedirá refuerzos o abandonará una posición por un único ejemplo. La guía de NPC desarrolla la conducta del mundo por separado. Aquí importa identificar lo que el jugador puede leer: exposición, líneas de visión, espacio para moverse y señales de impacto. Esos criterios servirán para evaluar la claridad del combate cuando pueda probarse."
+        },
+        {
+          "id": "history-tlad-20261030",
+          "title": "Historia de GTA IV: The Lost and Damned: trama, personajes y creación",
+          "heading": "Creación del episodio y ediciones posteriores",
+          "paragraph": "Rockstar North desarrolló The Lost and Damned, estrenado como contenido descargable para Xbox 360 en 2009. Las versiones de PlayStation 3 y PC llegaron en 2010. También se distribuyó junto a The Ballad of Gay Tony en Episodes from Liberty City. La ciudad compartida permitió concentrar la personalidad del episodio en sus protagonistas, vehículos y atmósfera. Es una campaña propia y no un paquete de carreras de motos ni una misión adicional de Niko. Su contraste con el lujo y el exceso del episodio de Luis es una parte esencial del conjunto."
+        },
+        {
+          "id": "gta6-vs-gta5-confirmed-comparison-2026-10-28",
+          "title": "GTA 6 vs GTA 5: qué cambia en el mundo, la historia y la comparación gráfica",
+          "heading": "La respuesta rápida: qué podemos comparar hoy",
+          "paragraph": "GTA 6 cambia el escenario y el centro de su relato respecto a GTA 5. Las páginas oficiales permiten contrastar esos elementos con nombres concretos. La comparación gráfica necesita otro criterio: estamos poniendo un juego publicado frente a material promocional de su sucesor. Comprobado el 28 de octubre de 2026, este artículo separa diferencias anunciadas de medidas que todavía no podemos reproducir. No es una reseña anticipada ni presupone que FansGTA haya probado GTA VI."
+        }
+      ],
+      "ryde": [
+        {
+          "id": "history-sanandreas-20261030",
+          "title": "Historia de GTA: San Andreas: trama, personajes y creación",
+          "heading": "CJ vuelve a Los Santos en 1992",
+          "paragraph": "GTA: San Andreas cuenta la historia de Carl «CJ» Johnson, que regresa de Liberty City tras el asesinato de su madre en 1992. Su hermano Sweet permanece ligado a Grove Street y le reprocha haberse marchado. Kendl, Big Smoke y Ryder forman parte del círculo al que CJ intenta volver, mientras el agente Frank Tenpenny utiliza su autoridad para extorsionarlo. La pregunta inicial es familiar: recuperar un hogar y una relación rota. Esa búsqueda termina creciendo hasta abarcar un estado entero y sus distintas formas de poder."
+        },
+        {
+          "id": "history-sanandreas-20261030",
+          "title": "Historia de GTA: San Andreas: trama, personajes y creación",
+          "heading": "Grove Street y la traición de Big Smoke y Ryder",
+          "paragraph": "CJ ayuda a reconstruir la posición de Grove Street Families, pero Cesar Vialpando le muestra que Big Smoke y Ryder colaboran con los Ballas y Tenpenny. Sweet acaba detenido y CJ queda desplazado al campo bajo el control de los policías corruptos. La revelación rompe la confianza en los amigos de siempre y cambia la escala del juego. Los encargos rurales, los encuentros con The Truth y el apoyo de Cesar y Kendl permiten reconstruir una vida lejos del barrio, aunque la situación de Sweet mantiene abierto el conflicto original."
+        }
+      ],
+      "impound": [],
+      "cash": [],
+      "routes": [
+        {
+          "id": "history-gta2-20261030",
+          "title": "Historia de GTA 2: trama, personajes y creación",
+          "heading": "Cómo progresa y termina la aventura",
+          "paragraph": "El jugador reúne dinero suficiente para avanzar por las zonas de la ciudad, mientras combina misiones de bandas con la libertad de sus calles. Las relaciones pueden acabar en ataques de los propios jefes, de modo que la prosperidad no garantiza protección. No hay un único gran dilema final construido como los de GTA IV o GTA V: la resolución responde al modelo de superar distritos y sobrevivir al enfrentamiento criminal. Esa diferencia ayuda a valorar el juego con sus propias reglas, sin inventar una historia dramática que nunca contó."
+        },
+        {
+          "id": "history-gta5-20261030",
+          "title": "Historia de GTA V: trama, personajes y creación",
+          "heading": "Los tres finales de GTA V explicados",
+          "paragraph": "La decisión final recae en Franklin. La opción A conduce a la muerte de Trevor; la B, a la de Michael. La opción C busca salvar a ambos mediante un enfrentamiento conjunto contra sus enemigos, con ayuda de Lamar y Lester, y termina con los tres protagonistas vivos. Son rutas alternativas de la campaña: explicar una no elimina las otras. Aunque contenidos posteriores puedan referirse a personajes supervivientes, este resumen no transforma una interpretación de continuidad en una confirmación universal de que el jugador solo tuvo una elección válida."
+        }
+      ],
+      "encounters": [],
+      "hud": [],
+      "ps5ssd": [
+        {
+          "id": "ps5-features-2026-10-28",
+          "title": "GTA 6 en PS5: DualSense, audio 3D y funciones confirmadas",
+          "heading": "Qué anuncia realmente PlayStation para GTA VI",
+          "paragraph": "La página oficial de PlayStation enumera audio Tempest 3D, carga rápida mediante el SSD, respuesta háptica, gatillos adaptativos y altavoz integrado del DualSense para GTA VI. Lo comprobamos el 28 de octubre de 2026. Son características publicadas por la plataforma, no conclusiones extraídas de una filtración. La ficha también muestra PS5 Pro Enhanced, pero no convierte por sí sola esa etiqueta en una cifra de fotogramas, resolución o ventaja medida frente a otra consola."
+        },
+        {
+          "id": "ps5-features-2026-10-28",
+          "title": "GTA 6 en PS5: DualSense, audio 3D y funciones confirmadas",
+          "heading": "Tempest 3D y SSD: qué significa la presentación",
+          "paragraph": "Sony destaca el posicionamiento del sonido y el uso del SSD de PS5. Esto explica qué tecnologías promociona para el juego, pero no es un cronómetro independiente. Expresiones comerciales sobre rapidez no permiten asegurar que nunca haya una pantalla de carga. Tampoco cuantifican el comportamiento de todos los equipos de audio. Para una comparación de tiempos o calidad necesitaríamos condiciones de prueba publicadas y versiones equivalentes."
+        }
+      ],
+      "xboxssd": [],
+      "refund": [
+        {
+          "id": "gta-6-gta-plus-redemption-2026-10-28",
+          "title": "Cómo canjear el mes de GTA+ de tu reserva de GTA 6",
+          "heading": "Si la oferta no aparece",
+          "paragraph": "Comprueba primero la cuenta, la tienda, el tipo de compra y el plazo. La mejora Ultimate comprada por separado no da derecho a la oferta de Sony. El canje está limitado por cuenta y devolver el juego para reservarlo de nuevo no genera otro mes, según Rockstar. Si todo coincide y sigue faltando la promoción, conserva el recibo y consulta el soporte de la tienda. No repitas compras ni compartas contraseñas intentando desbloquearla."
+        },
+        {
+          "id": "legal-purchase-download-2026-10-28",
+          "title": "Dónde comprar, reservar y descargar GTA 6: guía paso a paso",
+          "heading": "3. Elige edición: el juego completo y un upgrade no son lo mismo",
+          "paragraph": "El mes promocional de GTA+ requiere seguir sus instrucciones de canje y puede continuar como suscripción de pago hasta cancelarlo. La ficha especifica límites por cuenta y fecha de reclamación; revisá los términos antes de activar la promoción. Reservar el juego y canjear una suscripción son operaciones distintas. FansGTA no procesa el pago ni solicita tus credenciales."
+        }
+      ]
+    },
+    "decisions": {
+      "focus": "Named detection mode versus general police search, NPC AI or aiming; no invented activation controls or exclusive character powers.",
+      "ryde-me": "Passenger ride-hailing versus bus routes, personal vehicle delivery or generic phone apps. Name attributed to IGN notes, no fares or booking UI invented.",
+      "impound": "Specific contact-driven police impound theft, explicitly NOT a personal-car recovery guide, versus generic vehicle entry tools.",
+      "cash-bank": "Risk management of carried cash versus bank balances; distinct from mission funding and money-making activities. No deposit UI or fee formula invented.",
+      "mission-routes": "Narrative mission design, alternate exits and guided-to-systemic transitions; distinct from shop targets or story funding. No unverified endings/mission counts.",
+      "world-encounters": "Optional encounter continuity, choices and return visits; distinct from generic NPC reactions, no100percent/missable checklist invented.",
+      "hud": "Interface hiding and readability versus phone services and full-map geography; no leaked/mod HUD images or invented final accessibility menus.",
+      "ps5-storage": "Practical supported storage/archive/run distinctions and Sony M.2 requirements; distinct from game size rumour, preload date and generic PS5 features.",
+      "xbox-storage": "Series storage compatibility and archives; separate platform workflow from PS5, no extrapolated PS5size or own installation/performance test.",
+      "preorder-cancel": "Seller-specific cancellation/refund steps, market-specific PlayStation terms and Microsoft order route; distinct from purchase tutorial, code-region and subscription redemption."
+    }
+  },
+  "sources": [
+    {
+      "key": "ign",
+      "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931",
+      "status": 200,
+      "title": [
+        "GTA 6: The Big Interview"
+      ],
+      "published": [],
+      "textChars": 59601
+    },
+    {
+      "key": "famitsu",
+      "url": "https://www.famitsu.com/article/202608/85753",
+      "status": 200,
+      "title": [
+        "『GTA6』実機プレイを見て開発者に訊いた。恋人にもただのパートナーにも変化する主人公の関係性、行動で周囲の反応が変わる”犯罪プロファイル“。新たな挑戦が『GTA』に変革をもたらす【独占インタビュー】 | ゲーム・エンタメ最新情報のファミ通.com"
+      ],
+      "published": [
+        "2026-08-28T04:00:00+09:00"
+      ],
+      "textChars": 24004
+    },
+    {
+      "key": "famitsu-en",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
+      "status": 200,
+      "title": [
+        "GTA 6: Famitsu&#039;s Full Rob Nelson Interview Translated Into English - GTA VI News"
+      ],
+      "published": [
+        "2026-09-09T09:38:28+01:00"
+      ],
+      "textChars": 54668
+    },
+    {
+      "key": "elpais",
+      "url": "https://elpais.com/cultura/2026-08-27/el-pais-accede-en-exclusiva-a-gta-vi-de-la-mano-de-sus-creadores-primeras-impresiones-del-videojuego-mas-esperado-de-la-historia.html",
+      "status": 200,
+      "title": [
+        "EL PAÍS accede en exclusiva a ‘GTA VI’ de la mano de sus creadores: primeras impresiones del videojuego más esperado de la historia | Cultura | EL PAÍS"
+      ],
+      "published": [
+        "2026-08-27T21:00:00+02:00"
+      ],
+      "textChars": 26860
+    },
+    {
+      "key": "pais-summary",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-details-revealed-by-el-pas-hidden-ui-npc-encounters-vehicle-hacking-and-more",
+      "status": 200,
+      "title": [
+        "GTA 6 Details Revealed by EL PAÍS: Hidden UI, NPC Encounters, Vehicle Hacking &amp; More - GTA VI News"
+      ],
+      "published": [
+        "2026-08-28T10:44:27+01:00"
+      ],
+      "textChars": 15959
+    },
+    {
+      "key": "mission-report",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/with-gta-6-missions-rockstar-has-made-a-very-conscious-effort-to-open-things-up/",
+      "status": 200,
+      "title": [
+        "With GTA 6 missions, Rockstar has \"made a very conscious effort to open things up\" | GamesRadar+"
+      ],
+      "published": [
+        "2026-10-08T10:05:51+00:00"
+      ],
+      "textChars": 15083
+    },
+    {
+      "key": "ps5storage",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5-manage-storage-space/",
+      "status": 200,
+      "title": [
+        "How to manage PS5 console storage space "
+      ],
+      "published": [],
+      "textChars": 6387
+    },
+    {
+      "key": "ps5m2",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5-install-m2-ssd/",
+      "status": 200,
+      "title": [
+        "How to add an M.2 SSD to a PS5 console (US) "
+      ],
+      "published": [],
+      "textChars": 15121
+    },
+    {
+      "key": "ps5usb",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5-extended-storage/",
+      "status": 200,
+      "title": [
+        "USB extended storage on PlayStation 5 consoles "
+      ],
+      "published": [],
+      "textChars": 8050
+    },
+    {
+      "key": "xboxstorage",
+      "url": "https://support.xbox.com/en-US/help/hardware-network/storage/manage-storage",
+      "status": 200,
+      "title": [
+        "XBOX Support"
+      ],
+      "published": [],
+      "textChars": 59
+    },
+    {
+      "key": "xboxexpansion",
+      "url": "https://support.xbox.com/en-US/help/hardware-network/storage/use-storage-expansion-card-xbox-series-x-s",
+      "status": 200,
+      "title": [
+        "XBOX Support"
+      ],
+      "published": [],
+      "textChars": 59
+    },
+    {
+      "key": "seagate",
+      "url": "https://www.seagate.com/ca/en/support/kb/using-an-external-usb-drive-with-an-xbox-series-x-or-s/",
+      "status": 200,
+      "title": [
+        "Using an external USB drive with an Xbox Series X or S | Seagate Canada"
+      ],
+      "published": [],
+      "textChars": 14507
+    },
+    {
+      "key": "psrefund",
+      "url": "https://www.playstation.com/en-gb/support/store/cancel-ps-store-pre-order/",
+      "status": 200,
+      "title": [
+        "How to cancel a digital content pre-order from PlayStation Store "
+      ],
+      "published": [],
+      "textChars": 3944
+    },
+    {
+      "key": "pspolicy",
+      "url": "https://www.playstation.com/en-us/legal/playstation-store-cancellation-policy/",
+      "status": 200,
+      "title": [
+        "PlayStation Store cancellation policy (US) "
+      ],
+      "published": [],
+      "textChars": 12822
+    },
+    {
+      "key": "msrefund",
+      "url": "https://support.microsoft.com/en-us/accounts-billing/cancel-an-order-or-pre-order-from-microsoft-store",
+      "status": 200,
+      "title": [
+        "Cancel an order or pre-order from Microsoft Store | Microsoft Support"
+      ],
+      "published": [],
+      "textChars": 11799
+    },
+    {
+      "key": "purchasefaq",
+      "url": "https://support.rockstargames.com/articles/40DHWEDBnq5jUuWJqKcH02/grand-theft-auto-vi-pre-order-purchase-support-faq",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI Pre-Order Purchase Support FAQ - Rockstar Games Customer Support"
+      ],
+      "published": [],
+      "textChars": 2193
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI - Rockstar Games"
+      ],
+      "published": [],
+      "textChars": 2282
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI - Rockstar Games"
+      ],
+      "published": [],
+      "textChars": 2252
+    }
+  ],
+  "sourceDates": {
+    "ign": "Rachel Weber / IGN, full interview October7,2026 from July preview. Accessible credited Best Buy republication read fresh, not own gameplay.",
+    "famitsu": "Original August28,2026 04:00 JST; English translation September9 by Psy labelled translation; both freshly read. Cash loss source is carried money, not all wealth.",
+    "elpais": "Original August27,2026 21:00 CEST read directly; iGrandTheftAuto recap August28 corroborates hidden-interface claim.",
+    "missionReport": "GamesRadar+ October8 referring to same IGN source, not independent second demonstration.",
+    "support": "Current Sony/Microsoft/Rockstar/Seagate documentation checked November1; market USpolicy explicitly identified, no approval guarantee or assumptions from language.",
+    "xboxAccess": "Xbox official endpoints HTTP200 but59character JavaScript shell; storage rules read from accessible primary manufacturer Seagate documentation, not invented from shell.",
+    "all": "These are10 new site guides, not10 newly announced Rockstar features or claims of own release testing."
+  },
+  "interest": {
+    "signals": [
+      {
+        "query": "gta 6 focus mode",
+        "suggestions": [
+          "gta 6 focus mode",
+          "what to expect in gta 6",
+          "what is the theme of gta 6",
+          "gta v director mode settings",
+          "what is gta director mode"
+        ]
+      },
+      {
+        "query": "gta 6 ryde me",
+        "suggestions": [
+          "gta 6 ryde me",
+          "what to expect in gta 6"
+        ]
+      },
+      {
+        "query": "gta 6 impound",
+        "suggestions": [
+          "gta 6 impound location",
+          "gta 6 impound",
+          "gta 6 impound lot",
+          "where is gta 5 car impound"
+        ]
+      },
+      {
+        "query": "gta 6 bank account",
+        "suggestions": [
+          "gta 6 bank account",
+          "is gta 6 free",
+          "is gta 6 in development",
+          "how much is gta 6 when it comes out"
+        ]
+      },
+      {
+        "query": "gta 6 mission freedom",
+        "suggestions": [
+          "gta 6 mission freedom",
+          "how many missions are in gta 6",
+          "how many missions will be in gta 6"
+        ]
+      },
+      {
+        "query": "gta 6 random encounters",
+        "suggestions": [
+          "gta 6 random encounters",
+          "gta 6 random encounter leak",
+          "gta 6 random events",
+          "gta 6 random events list",
+          "gta 6 random events leak",
+          "gta 6 random events reddit",
+          "gta 6 how many random encounters",
+          "will gta 6 have random encounters like rdr2",
+          "will gta 6 have random encounters",
+          "what happens if you fail a random event gta v"
+        ]
+      },
+      {
+        "query": "gta 6 hud",
+        "suggestions": [
+          "gta 6 hud mod",
+          "gta 6 hud",
+          "gta 6 hud gta 5",
+          "gta 6 hud mod for gta 5",
+          "gta 6 hud concept",
+          "gta 6 budget",
+          "gta 6 hud icons",
+          "gta 6 hud map",
+          "gta 6 hud reddit",
+          "gta 6 hud for gta sa"
+        ]
+      },
+      {
+        "query": "gta 6 ps5 ssd",
+        "suggestions": [
+          "gta 6 ps5 ssd",
+          "gta 6 ssd requirements ps5",
+          "will ps5 have gta 6",
+          "can you play gta 6 on ps5",
+          "gta 6 on ps5 release date",
+          "gta 6 ps5 price"
+        ]
+      },
+      {
+        "query": "gta 6 xbox storage",
+        "suggestions": [
+          "gta 6 xbox storage",
+          "gta 6 xbox storage size",
+          "gta 6 xbox storage space",
+          "gta 6 xbox storage requirements",
+          "gta 6 storage xbox series x",
+          "gta 6 xbox memory",
+          "gta 6 xbox memory size",
+          "gta 6 xbox series x storage size",
+          "gta 6 xbox series s storage size",
+          "gta vi xbox series s storage"
+        ]
+      },
+      {
+        "query": "gta 6 pre order refund",
+        "suggestions": [
+          "gta 6 pre order refund",
+          "gta 6 pre order cancel",
+          "gta 6 pre order return",
+          "refund gta 6 pre order ps5",
+          "can you refund gta 6 pre order",
+          "can u refund gta 6 pre order",
+          "can i refund gta 6 pre order on ps5",
+          "how to refund gta 6 pre order xbox",
+          "can i refund gta 6 pre order on xbox",
+          "how much is it to pre order gta 6"
+        ]
+      }
+    ],
+    "selection": "Autocomplete plus current indexed coverage and practical user questions. Some Focus/Ryde queries have sparse/generic adjacent suggestions; not labelled a popularity ranking. Mod/leak suggestions excluded from evidentiary assets.",
+    "limits": "No quantified search volumes, account Search Console data, Trends ranking, audience forecast, keyword-density target or top10 Google guarantee."
+  },
+  "originality": "Independently structured tri-language explanations, practical comparisons and clearly hypothetical examples; no copy/paste source prose, no invented quotes/leaks/rewards. Related guides linked rather than repeated.",
+  "media": {
+    "countPerArticle": 3,
+    "uniqueReusedOriginals": 9,
+    "source": "Rockstar official media Download and share rechecked; editorial promotional use, copyright reserved. No public-domain/unrestricted licence asserted.",
+    "checks": [
+      {
+        "key": "feature-aiming",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-bar",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-boats",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-couple",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-driver",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-mountain",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-phone",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-safehouse-enduro",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "status": 200
+      }
+    ],
+    "inspection": "Fresh contact sheet inspected; optimized1400x788 WebP with descriptive translated alt/caption/credit. Images are explicitly contextual, not verified Focus/HUD/banking/hardware/refund screens or impound routes. No AI, mods, leaks, GTA V or decorative edited hero assets.",
+    "provenance": "public/media/credits.json; src/batches/2026-11-01-ten-nov-media.json"
+  },
+  "validation": {
+    "initialBuildRelease": "passed",
+    "static": {
+      "HTML": 458,
+      "internalLinks": 20547,
+      "structuredDataBlocks": 890
+    },
+    "initialBrowser": "6passed, all30newversions on desktop/mobile, actual language selector, 3decoded/credited images, metadata/schema/sitemap/localized links/tables, nooverflow. Ad scripts mocked, no creativefill claim.",
+    "inventory": "138topics/414versions;128 prior records retained exactly;384oldURLs/titles preserved.",
+    "final": "Final Xbox copy refinement verified in the rebuilt and browser-tested release; no executor implementation details in product copy.",
+    "finalRelease": "passed",
+    "finalStatic": {
+      "HTML": 458,
+      "internalLinks": 20547,
+      "structuredDataBlocks": 890
+    },
+    "finalBrowser": "6/6 passed again on final release, covering all30versions across desktop/mobile, real language navigation, 3decoded credited images, links, metadata, dates, tables, indexability and no page overflow."
+  },
+  "unchanged": [
+    "Daily schedule:1topic/day through2026-11-19inclusive America/New_York",
+    "Advertising units/static rails/disabled popunder",
+    "Analytics consent and AdSense code/ads.txt",
+    "Security rules",
+    "Subscriptions/paid services",
+    "BarberControl"
+  ]
+}

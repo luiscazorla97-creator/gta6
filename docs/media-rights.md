@@ -32,3 +32,7 @@ Six new authentic GTA VI originals from the current official gallery: Mount Kala
 ## Manual seven-topic request — 2026-11-01
 
 Ten existing official GTA VI WebP originals reused for six new guides; their exact original URLs returned200 and were visually inspected in a fresh contact sheet. Three images per guide, with translated descriptive alt, contextual captions and Rockstar credit. The NPC update retains its existing three credited official settings. Dog, map and sweat articles explicitly do not claim to show a dog UI, final map interface or measured sweat effect. Media download/share context rechecked; copyright reserved, no unrestricted licence asserted. No AI/mod/leak/GTA V or decorative hero edits.
+
+## Manual ten-guide batch — 2026-11-01
+
+Nine existing authentic GTA VI originals reused, all source URLs returned200 and current contact sheet visually inspected. Thirty placements across ten guides, with translated alt/captions and linked Rockstar credit; exact original provenance remains in public/media/credits.json. Official download/share context rechecked. Captions/text explicitly distinguish contextual visuals from tested Focus, HUD, banking, impound, console-storage and refund interfaces. WebP originals remain unchanged. No AI, mods, leaks, GTA V substitutes or decorative hero edits; copyright remains reserved, with no unrestricted reuse licence asserted.

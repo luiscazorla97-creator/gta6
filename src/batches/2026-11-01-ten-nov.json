@@ -1,0 +1,1581 @@
+[
+  {
+    "key": "focus",
+    "category": "guides",
+    "slug": [
+      "gta-6-focus-eagle-eye-detectar-policia",
+      "gta-6-focus-mode-eagle-eye-police",
+      "gta-6-mode-focus-eagle-eye-police"
+    ],
+    "title": [
+      "Focus en GTA 6: para qué sirve y en qué se parece a Eagle Eye",
+      "GTA 6 Focus mode: what it does and how it compares to Eagle Eye",
+      "Focus dans GTA 6 : son rôle et le lien avec Eagle Eye"
+    ],
+    "excerpt": [
+      "Rob Nelson mostró Focus para localizar elementos y policías en GTA 6. Analizamos su utilidad, sus límites y la diferencia con el apuntado a cámara lenta.",
+      "Rob Nelson demonstrated GTA 6 Focus to locate objects and police. Explore its purpose, limits and difference from slow-motion aiming.",
+      "Rob Nelson a montré Focus pour repérer des éléments et des policiers dans GTA 6. Utilité, limites et différence avec la visée au ralenti."
+    ],
+    "imageKeys": [
+      "feature-aiming",
+      "feature-phone",
+      "feature-couple"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La respuesta: una ayuda para leer el entorno",
+          "The answer: help with reading your surroundings",
+          "La réponse : une aide à la lecture de l’environnement"
+        ],
+        "paragraphs": [
+          [
+            "Focus es el nombre que Rob Nelson utiliza en la entrevista completa de IGN publicada el 7 de octubre de 2026. Durante la demostración, un policía cercano aparece resaltado y el desarrollador compara la función con Eagle Eye de Red Dead Redemption 2. La presenta como una ayuda para encontrar elementos del mapa, incluidos agentes. No es una habilidad bautizada por fans a partir de una filtración.",
+            "Focus is the name Rob Nelson uses in IGN’s full interview published on October 7, 2026. A nearby police officer is highlighted during the demonstration, and Nelson compares the feature to Red Dead Redemption 2’s Eagle Eye. He describes it as helping locate things in the world, including officers. This is not a fan-named ability inferred from a leak.",
+            "Focus est le nom utilisé par Rob Nelson dans l’entretien complet d’IGN publié le 7 octobre 2026. Un policier proche apparaît en surbrillance pendant la démonstration, et Nelson compare cette fonction à Eagle Eye de Red Dead Redemption 2. Elle aide à repérer des éléments, dont les agents ; ce n’est pas un nom inventé par des fans à partir d’une fuite."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Por qué detectar no equivale a escapar",
+          "Why detection is not the same as escaping",
+          "Pourquoi repérer ne signifie pas s’échapper"
+        ],
+        "paragraphs": [
+          [
+            "La utilidad práctica es disponer de información antes de decidir por dónde moverse. Como análisis, identificar a un agente puede cambiar la elección entre cruzar una calle, esperar o buscar otra salida. Pero resaltar al policía no elimina su capacidad de observar, no borra una denuncia y no garantiza una ruta segura. La información que ofrece una herramienta y las reglas de búsqueda pertenecen a capas distintas del juego.",
+            "Its practical value is information before choosing a direction. In our analysis, spotting an officer could change a decision to cross a street, wait or find another exit. Highlighting that officer does not remove their ability to observe, erase a report or guarantee a safe route. Information tools and wanted-system rules are different layers of play.",
+            "Son intérêt pratique est l’information avant de choisir un déplacement. Selon notre analyse, repérer un agent peut modifier le choix entre traverser, attendre ou chercher une sortie. La surbrillance ne supprime ni son observation ni un signalement et ne garantit pas un trajet sûr. Outil d’information et recherche policière sont deux systèmes distincts."
+          ],
+          [
+            "Nuestra guía de policía explica testigos, alertas y cambios de vehículo. Aquí nos centramos en cómo leer una señal adicional del entorno, sin repetir aquella guía ni prometer que Focus funcione como un botón para perder estrellas.",
+            "Our police guide separately covers witnesses, alerts and vehicle changes. Here the focus is reading an additional environmental cue, without duplicating that guide or presenting Focus as a button for removing wanted stars.",
+            "Notre guide de la police traite séparément témoins, alertes et changements de véhicule. Ici, il s’agit de lire un indice supplémentaire, sans présenter Focus comme une commande supprimant les étoiles."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-police"
+        ]
+      },
+      {
+        "heading": [
+          "Eagle Eye y Dead Eye no significan lo mismo",
+          "Eagle Eye and Dead Eye are not interchangeable",
+          "Eagle Eye et Dead Eye ne sont pas interchangeables"
+        ],
+        "paragraphs": [
+          [
+            "La comparación de Nelson es con Eagle Eye, una referencia a la observación. No permite deducir todas las reglas de Dead Eye, asociado al combate en Red Dead. Una escena de disparos ralentizados y un modo de detección pueden verse parecidos en un montaje, pero cumplen funciones diferentes. La guía de combate aborda el apuntado por separado para no confundir ambas preguntas.",
+            "Nelson’s comparison is with Eagle Eye, a reference to observation. It does not establish every rule of Red Dead’s combat-oriented Dead Eye. Slow-motion shooting and a detection mode can look similar in an edited sequence while serving different purposes. Our combat guide treats aiming separately to keep those questions distinct.",
+            "Nelson cite Eagle Eye, une référence à l’observation. Cela ne prouve pas la reprise des règles de Dead Eye, lié au combat dans Red Dead. Visée au ralenti et détection peuvent se ressembler au montage tout en remplissant des fonctions différentes. Notre guide du combat traite donc la visée séparément."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-combat"
+        ]
+      },
+      {
+        "heading": [
+          "Qué está demostrado y qué necesita otra prueba",
+          "What was demonstrated and what needs another check",
+          "Ce qui est montré et ce qui reste à vérifier"
+        ],
+        "paragraphs": [
+          [
+            "Esta separación ayuda a interpretar vídeos y titulares sin convertir una comparación en una ficha completa de poderes. El ejemplo publicado es concreto; las cantidades y condiciones de activación requieren información adicional.",
+            "This distinction helps interpret videos and headlines without turning a comparison into a complete ability specification. The published example is concrete; numerical limits and activation conditions require further evidence.",
+            "Cette distinction évite de transformer une comparaison en fiche complète de pouvoirs. L’exemple publié est concret ; les limites chiffrées et les conditions d’activation demandent d’autres preuves."
+          ],
+          [
+            "Para leer una escena con orden, separa tres preguntas: qué información se muestra, qué interpretación haces y qué acción decides. Por ejemplo, un agente resaltado puede estar cerca sin estar persiguiéndote; la distancia por sí sola no demuestra sospecha. Elegir alejarse sería una decisión del jugador, no una evasión automática activada por Focus. Este método evita confundir una ayuda de observación con un poder que controla a los demás. También permite comparar vídeos: primero identifica la señal visible y solo después evalúa la consecuencia, sin atribuir al modo todo lo que ocurre durante el montaje.",
+            "To read a scene carefully, separate displayed information, your interpretation and your chosen action. A highlighted officer might be nearby without pursuing you; distance alone does not demonstrate suspicion. Moving away would be a player decision rather than automatic evasion triggered by Focus. This separates observation assistance from control over other characters. It also helps compare videos: identify the visible cue before interpreting the consequence, rather than attributing everything in an edited sequence to the mode.",
+            "Pour lire une scène, séparez information affichée, interprétation et action choisie. Un agent en surbrillance peut être proche sans vous poursuivre ; la distance ne prouve pas la suspicion. S’éloigner serait une décision du joueur, pas une fuite automatique provoquée par Focus. Cette méthode distingue observation et contrôle des autres personnages. Elle aide aussi à comparer des vidéos : identifiez d’abord le signal visible, puis sa conséquence, sans attribuer au mode tout ce qui survient au montage."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Pregunta",
+              "Question",
+              "Question"
+            ],
+            [
+              "Respuesta respaldada",
+              "Supported answer",
+              "Réponse étayée"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "¿Cómo se llama?",
+                "What is it called?",
+                "Quel est son nom ?"
+              ],
+              [
+                "Nelson lo llama Focus.",
+                "Nelson calls it Focus.",
+                "Nelson l’appelle Focus."
+              ]
+            ],
+            [
+              [
+                "¿Qué se mostró?",
+                "What was shown?",
+                "Qu’a-t-on vu ?"
+              ],
+              [
+                "Un agente resaltado durante la demostración.",
+                "An officer highlighted during the demonstration.",
+                "Un agent en surbrillance pendant la démonstration."
+              ]
+            ],
+            [
+              [
+                "¿Duración, coste y controles finales?",
+                "Duration, cost and final controls?",
+                "Durée, coût et commandes finales ?"
+              ],
+              [
+                "Sin especificación completa verificada.",
+                "No complete verified specification.",
+                "Pas de spécification complète vérifiée."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Cómo lo comprobaríamos en una guía jugable",
+          "How we would test it for a hands-on guide",
+          "Comment le vérifier dans un guide pratique"
+        ],
+        "paragraphs": [
+          [
+            "Una prueba útil repetiría la misma escena con y sin Focus, anotando distancia, obstáculos y situación de búsqueda. También distinguiría que algo aparezca resaltado de que se registre automáticamente en el mapa. Son criterios de comprobación de FansGTA, no resultados de una copia final. No damos botones universales, alcance en metros o una barra de recarga que no hemos verificado.",
+            "A useful test would repeat a scene with and without Focus, noting distance, obstacles and wanted status. It would also distinguish highlighting an object from automatically recording it on the map. These are FansGTA’s test criteria, rather than finished-game results. We do not provide universal buttons, a metre range or an unverified recharge meter.",
+            "Un test utile répéterait une scène avec et sans Focus en notant distance, obstacles et recherche policière. Il distinguerait aussi surbrillance et enregistrement automatique sur la carte. Ce sont des critères FansGTA, pas des résultats du jeu final. Nous n’inventons ni touche universelle, ni portée en mètres, ni jauge de recharge."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Fecha, imágenes y preguntas frecuentes",
+          "Date, images and common questions",
+          "Date, images et questions fréquentes"
+        ],
+        "paragraphs": [
+          [
+            "Revisado el 1 de noviembre de 2026 con la republicación acreditada de IGN en Best Buy. No es un anuncio nuevo de hoy ni una prueba personal. Las imágenes oficiales ilustran observación y acción, no una captura verificada de la interfaz de Focus. ¿Es exclusivo de Jason? La escena por sí sola no establece exclusividad. ¿Confirma poderes distintos para cada protagonista? Hace falta una descripción específica, no trasladar automáticamente el esquema de GTA V.",
+            "Checked November 1, 2026 using IGN’s credited Best Buy republication. This is not today’s announcement or a hands-on test. Official images illustrate observation and action rather than a verified Focus interface. Is it exclusive to Jason? The scene alone does not establish exclusivity. Does it confirm separate powers for both leads? That requires specific evidence rather than importing GTA V’s design.",
+            "Vérifié le 1er novembre 2026 dans la republication créditée d’IGN chez Best Buy. Ce n’est ni une annonce du jour ni un test personnel. Les images officielles illustrent observation et action, pas une interface Focus vérifiée. Exclusif à Jason ? La scène ne le prouve pas. Des pouvoirs propres à chaque protagoniste ? Il faut une description précise, sans transposer GTA V."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ryde-me",
+    "category": "guides",
+    "slug": [
+      "gta-6-ryde-me-taxi-viaje-rapido",
+      "gta-6-ryde-me-taxi-fast-travel",
+      "gta-6-ryde-me-taxi-voyage-rapide"
+    ],
+    "title": [
+      "Ryde Me en GTA 6: taxi, pasajeros y viaje rápido según IGN",
+      "GTA 6 Ryde Me: taxis, passengers and fast travel in IGN’s preview",
+      "Ryde Me dans GTA 6 : taxi, passagers et voyage rapide selon IGN"
+    ],
+    "excerpt": [
+      "IGN describe Ryde Me como un servicio de transporte de GTA 6. Qué se vio del viaje, qué explica Nelson y qué falta saber de tarifas y reservas.",
+      "IGN describes Ryde Me as GTA 6’s ride-hailing service. What the journey showed, what Nelson explained and what remains unknown about fares and booking.",
+      "IGN décrit Ryde Me comme un service de transport dans GTA 6. Trajet observé, propos de Nelson et inconnues sur les tarifs et réservations."
+    ],
+    "imageKeys": [
+      "feature-driver",
+      "feature-phone",
+      "feature-boats"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué es Ryde Me y de dónde sale el nombre",
+          "What Ryde Me is and where the name comes from",
+          "Ryde Me : rôle et origine du nom"
+        ],
+        "paragraphs": [
+          [
+            "Ryde Me aparece en las notas de la entrevista de IGN del 7 de octubre de 2026 como la versión de un servicio tipo Uber dentro de GTA VI. Durante la demostración, Jason y Lucia se desplazan hacia una casa de empeños. Es importante atribuir el nombre al texto periodístico: no lo convertimos en una ficha oficial de aplicación con funciones que el artículo no muestra.",
+            "Ryde Me appears in IGN’s October 7, 2026 interview notes as GTA VI’s equivalent of an Uber-style service. During the demonstration, Jason and Lucia travel towards a pawn shop. The name should be attributed to the reporting rather than turned into an official app specification containing features the article never shows.",
+            "Ryde Me apparaît dans les notes de l’entretien IGN du 7 octobre 2026 comme un équivalent de service Uber dans GTA VI. Jason et Lucia se rendent chez un prêteur sur gages pendant la démonstration. Le nom vient de ce récit journalistique, pas d’une fiche officielle détaillant toutes les fonctions d’une application."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Ir de pasajero cambia el ritmo del recorrido",
+          "Riding as a passenger changes the journey’s rhythm",
+          "Être passager change le rythme du trajet"
+        ],
+        "paragraphs": [
+          [
+            "Nelson explica que se puede realizar el trayecto conversando y lo relaciona con el viaje rápido. Eso respalda un desplazamiento acompañado dentro del mundo, pero no nos da por sí solo la pantalla de selección de destino o el botón para saltar el viaje. Conviene separar la conversación durante un recorrido de una transición instantánea: son dos formas de resolver el tiempo de desplazamiento.",
+            "Nelson discusses riding through the journey while talking and connects this with fast travel. That supports a passenger journey within the world, without providing a destination-selection screen or a skip button. Conversation during travel and an instant transition should be distinguished as different ways of handling travel time.",
+            "Nelson évoque un trajet pendant lequel on peut discuter et le relie au voyage rapide. Cela étaye un déplacement comme passager sans montrer écran de destination ou touche pour passer le trajet. Conversation pendant le parcours et transition instantanée restent deux façons différentes de gérer le temps."
+          ],
+          [
+            "Como análisis, un viaje con conductor puede permitir mirar el paisaje o escuchar a los personajes. No afirmamos que todas las conversaciones sean únicas ni que el conductor reaccione a cualquier destino o decisión.",
+            "In our analysis, a driven journey can make room for scenery and character dialogue. That does not establish unique conversations on every trip or a driver response to every destination and decision.",
+            "Selon notre analyse, un trajet avec chauffeur laisse de la place au paysage et aux dialogues. Cela ne prouve pas des conversations inédites à chaque trajet ou une réponse du conducteur à chaque choix."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Ryde Me, autobuses y Scooter Bros: servicios distintos",
+          "Ryde Me, buses and Scooter Bros are different services",
+          "Ryde Me, bus et Scooter Bros : des services distincts"
+        ],
+        "paragraphs": [
+          [
+            "No todos los servicios de movilidad tienen la misma función. Un conductor que transporta al protagonista no equivale a una ruta de autobús, y tampoco a un servicio que entrega o traslada un vehículo personal. Ya tratamos autobuses y Scooter Bros en sus propias guías; enlazarlos evita repetir explicaciones o atribuir todas sus funciones a una sola aplicación del teléfono.",
+            "Not every mobility service serves the same purpose. Transporting the protagonist is different from a bus route or delivering a personal vehicle. Our separate bus and Scooter Bros guides cover those subjects; linking them avoids combining their functions into one phone app.",
+            "Tous les services de mobilité ne remplissent pas le même rôle. Transporter le protagoniste diffère d’une ligne de bus ou de la livraison d’un véhicule personnel. Nos guides sur les bus et Scooter Bros traitent ces sujets séparément, sans regrouper leurs fonctions dans une seule application."
+          ]
+        ],
+        "refs": [
+          "related-transport",
+          "related-scooter"
+        ]
+      },
+      {
+        "heading": [
+          "Tarifas y destinos: lo que no debemos dar por hecho",
+          "Fares and destinations: what cannot be assumed",
+          "Tarifs et destinations : ce qu’il ne faut pas supposer"
+        ],
+        "paragraphs": [
+          [
+            "El viaje mostrado no ofrece una tabla de precios, un coste por distancia ni un catálogo completo de lugares atendidos. Tampoco demuestra que se pueda pedir un coche desde cualquier punto del agua o durante una persecución. Esas restricciones tienen consecuencias prácticas y necesitan comprobarse; publicar una tarifa inventada sería menos útil que dejar clara la pregunta pendiente.",
+            "The demonstrated journey gives no fare table, distance rate or complete destination list. It also does not establish that a car can be requested from anywhere on the water or during a chase. Those restrictions matter practically and need checking; an invented fare would be less useful than identifying the unanswered question.",
+            "Le trajet montré ne fournit ni grille tarifaire, ni prix à la distance, ni liste complète de destinations. Il ne prouve pas qu’un véhicule puisse être appelé depuis l’eau ou pendant une poursuite. Ces restrictions pratiques demandent une vérification ; mieux vaut les préciser qu’inventer un tarif."
+          ],
+          [
+            "Para elegir cómo desplazarte, compara tres objetivos personales: llegar a un sitio, recorrer la ciudad y pasar tiempo con los personajes. Son motivos distintos aunque compartan destino. Si buscas explorar, un recorrido con conductor puede interesar por lo que deja observar; si buscas controlar cada giro, conducir responde a otra preferencia. Este es un marco para elegir, no un ranking medido de servicios. Cuando haya acceso al juego, una comparación justa deberá mantener origen y destino, indicar si se ha saltado el trayecto y separar el tiempo de espera del tiempo de viaje.",
+            "When choosing transport, separate reaching a destination, exploring the city and spending time with characters. Those are different goals despite sharing an endpoint. A passenger ride may suit observing the scenery, while driving suits choosing each turn. This is a decision framework, not a measured service ranking. A fair comparison would keep origin and destination constant, state whether travel was skipped and separate waiting from journey time.",
+            "Pour choisir un transport, distinguez atteindre une destination, visiter la ville et passer du temps avec les personnages. Ces objectifs diffèrent malgré une arrivée identique. Être passager peut favoriser l’observation ; conduire permet de choisir chaque virage. C’est un cadre de décision, pas un classement mesuré. Une comparaison juste conserverait départ et arrivée, préciserait si le trajet est passé et séparerait attente et déplacement."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Qué comprobar antes de usarlo como atajo",
+          "What to check before treating it as a shortcut",
+          "Que vérifier avant d’en faire un raccourci"
+        ],
+        "paragraphs": [
+          [
+            "Una futura guía paso a paso debe identificar cómo se solicita, dónde recoge al personaje, si admite a ambos protagonistas y qué ocurre al cancelar. Para comparar su rapidez habría que medir el mismo trayecto conduciendo y como pasajero. No hacemos esa comparación con tiempos inventados: FansGTA no ha probado una copia final y la demostración no sustituye esas mediciones.",
+            "A future walkthrough should identify booking, pickup, whether both leads can ride and cancellation rules. Comparing its speed requires timing the same route as driver and passenger. FansGTA has not tested a finished copy, and the demonstration cannot substitute for those measurements.",
+            "Un futur guide devra identifier réservation, prise en charge, présence des deux protagonistes et annulation. Comparer sa rapidité demande de chronométrer le même trajet au volant et comme passager. FansGTA n’a pas testé de copie finale, et la démonstration ne remplace pas ces mesures."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "¿Es un anuncio de GTA 6 Online?",
+          "Does this announce GTA 6 Online transport?",
+          "Cela annonce-t-il un service pour GTA 6 Online ?"
+        ],
+        "paragraphs": [
+          [
+            "No. La escena pertenece a la demostración de la campaña de Jason y Lucia y no define servicios de un futuro modo multijugador. Esta guía, revisada el 1 de noviembre, conserva la fecha real de la fuente. Las imágenes son capturas oficiales de vehículos, teléfono y Leonida como contexto; no presentan una pantalla de reserva verificada ni una ruta ya completada por nosotros.",
+            "No. The scene belongs to Jason and Lucia’s campaign demonstration and does not specify a future multiplayer mode’s services. This guide, checked November 1, retains the source’s actual date. Official vehicle, phone and Leonida images provide context rather than a verified booking screen or a route completed by us.",
+            "Non. La scène appartient à la démonstration de campagne de Jason et Lucia et ne définit pas les services d’un futur multijoueur. Guide vérifié le 1er novembre, avec date réelle de la source. Les images officielles apportent du contexte, sans présenter un écran de réservation vérifié ou un parcours testé par nous."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-online"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "impound",
+    "category": "missions",
+    "slug": [
+      "gta-6-deposito-policial-robo-coches-ign",
+      "gta-6-police-impound-car-theft-preview",
+      "gta-6-fourriere-police-vol-voiture-apercu"
+    ],
+    "title": [
+      "Depósito policial en GTA 6: el robo de coche que mostró Rockstar",
+      "GTA 6 police impound: the car theft Rockstar demonstrated",
+      "Fourrière dans GTA 6 : le vol de voiture montré par Rockstar"
+    ],
+    "excerpt": [
+      "El avance de IGN mostró un robo en un depósito policial de GTA 6. Contacto, código de acceso y huida: qué ocurrió y qué no es una guía final.",
+      "IGN’s GTA 6 preview included a police impound theft. Contact, access code and escape: what happened and why this is not a final walkthrough.",
+      "L’aperçu IGN de GTA 6 montre un vol à la fourrière. Contact, code d’accès et fuite : les faits, sans inventer une solution finale."
+    ],
+    "imageKeys": [
+      "feature-driver",
+      "feature-couple",
+      "feature-safehouse-enduro"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Un encargo descubierto durante el recorrido",
+          "A job noticed during the drive",
+          "Un objectif repéré pendant le trajet"
+        ],
+        "paragraphs": [
+          [
+            "Durante la entrevista completa de IGN, Rob Nelson cambia su plan de robar un negocio al pasar junto a un depósito policial. Un contacto relacionado con coches había señalado un vehículo y facilitado un código para entrar. La escena muestra cómo una oportunidad del mundo puede desviar una sesión; no confirma que ese depósito sea el único ni que todas las incursiones empiecen de la misma forma.",
+            "During IGN’s full interview, Rob Nelson changes his plan to rob a business after passing a police impound. A vehicle contact had identified a car and provided an entry code. The scene shows a world opportunity redirecting a session, without establishing that this is the only impound or that every break-in begins the same way.",
+            "Pendant l’entretien complet d’IGN, Rob Nelson abandonne son idée de braquer un commerce en passant devant une fourrière. Un contact lié aux voitures avait signalé un véhicule et fourni un code d’entrée. Cette scène illustre une occasion qui réoriente une session, sans prouver que toutes les incursions suivent ce modèle."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Robar un objetivo no es recuperar tu coche",
+          "Stealing a target is not recovering your own car",
+          "Voler une cible n’est pas récupérer sa propre voiture"
+        ],
+        "paragraphs": [
+          [
+            "La demostración trata de entrar para llevarse un coche que interesa a un contacto. Es distinto de pagar una multa para recuperar un vehículo personal confiscado. No publicamos una tarifa, un teléfono de recuperación o una ubicación de menú basándonos en esta escena. Una guía de recuperación necesitaría una fuente que mostrase expresamente esa operación y sus condiciones.",
+            "The demonstration concerns entering to take a car wanted by a contact. That differs from paying a fee to recover an impounded personal vehicle. This scene cannot justify a recovery charge, phone number or menu location. A recovery guide would need evidence explicitly demonstrating that operation and its conditions.",
+            "La démonstration consiste à prendre une voiture intéressant un contact. Cela diffère du paiement d’une somme pour récupérer son véhicule personnel saisi. Cette scène ne permet pas de donner tarif, téléphone ou menu de récupération. Il faudrait une source montrant expressément cette opération et ses conditions."
+          ],
+          [
+            "También lo separamos de la guía general de robo de coches: aquella explica herramientas y tipos de vehículo; aquí importan el lugar protegido, la información previa y la salida del recinto.",
+            "It also differs from our general car-theft guide, which covers tools and vehicle types. Here the subjects are a protected location, prior information and leaving the compound.",
+            "Le sujet diffère aussi de notre guide du vol de voitures : celui-ci traite outils et types de véhicules ; ici comptent le lieu protégé, les informations préalables et la sortie."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-car-theft"
+        ]
+      },
+      {
+        "heading": [
+          "El código de entrada no es un truco universal",
+          "The entry code is not a universal cheat",
+          "Le code d’entrée n’est pas un code universel"
+        ],
+        "paragraphs": [
+          [
+            "Nelson explica que el contacto les dio un código. No se publica una combinación válida para todas las puertas ni una secuencia que podamos trasladar al juego final. El dato muestra una relación entre obtener información y acceder a un objetivo. Por eso no etiquetamos números vistos en material ajeno como contraseñas verificadas o códigos de trucos.",
+            "Nelson explains that the contact supplied a code. That does not publish a combination for every door or a sequence transferable to the final game. It illustrates a connection between obtaining information and reaching a target. Numbers seen elsewhere are therefore not being labelled verified passwords or cheats.",
+            "Nelson explique que le contact a fourni un code. Cela ne publie ni combinaison pour toutes les portes ni séquence applicable au jeu final. L’intérêt est le lien entre information et accès à une cible. Des nombres vus ailleurs ne deviennent donc pas des mots de passe ou codes de triche vérifiés."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Huida, daños y valor del coche",
+          "Escape, damage and vehicle value",
+          "Fuite, dégâts et valeur du véhicule"
+        ],
+        "paragraphs": [
+          [
+            "En el recorrido descrito, Nelson comenta que un comprador paga menos por un coche dañado y contempla repararlo. Ese detalle convierte la huida en algo más que llegar al destino: conservar el vehículo podría importar para el ingreso. No da una fórmula de depreciación ni un precio que permita calcular el beneficio de cada choque. Tampoco establece que todos los encargos apliquen idénticas condiciones.",
+            "In the described drive, Nelson says a fence pays less for a damaged car and considers repairing it. That gives escaping a purpose beyond reaching a destination: preserving the vehicle could matter to the payout. It does not provide a depreciation formula, collision price or proof that every job has identical terms.",
+            "Pendant le trajet décrit, Nelson indique qu’un receleur paie moins une voiture endommagée et envisage une réparation. La fuite ne consiste donc pas seulement à atteindre une destination : préserver le véhicule peut compter. Cela ne donne ni formule de dépréciation, ni coût par choc, ni règle identique pour tous les contrats."
+          ],
+          [
+            "La conservación del coche plantea una decisión interesante, aunque todavía no podamos calcularla: una ruta más corta puede exponerlo a más daños que un rodeo. Para comparar ambas no basta con mirar el pago final; habría que considerar reparaciones, tiempo y condiciones de entrega. Es un ejemplo de análisis de riesgo, no una afirmación de que el rodeo sea siempre mejor. También conviene distinguir el objetivo solicitado de otros vehículos parecidos del recinto: una guía útil deberá mostrar cómo identifica el encargo al coche correcto, en vez de recomendar llevarse cualquiera que se parezca a la imagen.",
+            "Preserving the car suggests an interesting decision even without exact numbers: a shorter route could expose it to more damage than a detour. Comparing them would require repairs, time and delivery conditions, rather than the final payout alone. This is risk analysis, not proof that a detour is always better. A walkthrough must also distinguish the requested target from similar vehicles, demonstrating how the job identifies the correct car rather than recommending anything resembling a screenshot.",
+            "Préserver la voiture pose une décision intéressante même sans chiffres : un trajet court pourrait l’exposer davantage qu’un détour. Il faudrait comparer réparations, temps et conditions de livraison, pas seulement paiement final. C’est une analyse du risque, pas la preuve qu’un détour gagne toujours. Une solution devra aussi distinguer la cible demandée des véhicules ressemblants et montrer comment le contrat identifie la bonne voiture."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Cómo analizar la preparación sin inventar una ruta",
+          "How to analyse preparation without inventing a route",
+          "Analyser la préparation sans inventer un parcours"
+        ],
+        "paragraphs": [
+          [
+            "Una futura solución debería comprobar el requisito del contacto, el acceso, el objetivo correcto y las condiciones de entrega. Esas son preguntas de preparación, no cuatro pasos ya probados. Evitamos añadir guardias, horarios, entradas secretas o un método garantizado para no levantar sospechas. La guía de policía ofrece contexto sobre alertas; no convierte el recinto en una zona con un número de estrellas fijo.",
+            "A future walkthrough should verify contact requirements, access, the correct target and delivery terms. Those are preparation questions, rather than four tested steps. We do not invent guards, schedules, secret entrances or a guaranteed stealth method. Our police guide supplies context without assigning a fixed wanted level to this compound.",
+            "Une future solution devra vérifier contact, accès, bonne cible et conditions de livraison. Ce sont des questions de préparation, pas quatre étapes testées. Nous n’inventons ni gardes, ni horaires, ni entrée secrète, ni méthode garantie. Notre guide de la police apporte du contexte sans attribuer un indice fixe à ce lieu."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-police"
+        ]
+      },
+      {
+        "heading": [
+          "Qué aporta esta escena al mundo abierto",
+          "What this scene suggests about the open world",
+          "L’intérêt de cette scène pour le monde ouvert"
+        ],
+        "paragraphs": [
+          [
+            "Lo interesante es la conexión entre conversación, oportunidad y decisión durante un trayecto. Eso no significa que cada edificio tenga un encargo ni que todos los encuentros sean aleatorios. La fuente se publicó el 7 de octubre y esta guía se revisó el 1 de noviembre de 2026. Las capturas oficiales son contexto de vehículos y protagonistas; no muestran una infiltración completada por FansGTA ni la puerta exacta del depósito.",
+            "The interesting link is conversation, opportunity and decision during a journey. It does not establish a job in every building or that all encounters are random. The source was published October 7; this guide was checked November 1, 2026. Official vehicle and protagonist images provide context, rather than a FansGTA-completed infiltration or the impound’s exact door.",
+            "L’intérêt est le lien entre conversation, occasion et décision pendant un trajet. Cela ne prouve ni contrat dans chaque bâtiment ni rencontres toujours aléatoires. Source du 7 octobre, guide vérifié le 1er novembre 2026. Les images officielles sont contextuelles, sans montrer une infiltration testée par FansGTA ou la porte exacte de la fourrière."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "cash-bank",
+    "category": "guides",
+    "slug": [
+      "gta-6-efectivo-banco-perder-dinero-wasted-busted",
+      "gta-6-cash-bank-losing-money-wasted-busted",
+      "gta-6-especes-banque-perte-argent-wasted-busted"
+    ],
+    "title": [
+      "Dinero en GTA 6: efectivo, banco y pérdidas al morir o ser detenido",
+      "GTA 6 money: cash, bank accounts and losses on death or arrest",
+      "Argent dans GTA 6 : espèces, banque et pertes après une arrestation"
+    ],
+    "excerpt": [
+      "Famitsu describe efectivo y cuenta bancaria en GTA 6. Qué dinero está expuesto al morir o ser detenido y qué falta comprobar sobre depósitos y comisiones.",
+      "Famitsu describes GTA 6 cash and bank accounts. Which money is exposed on death or arrest, and what remains unknown about deposits and fees.",
+      "Famitsu décrit espèces et compte bancaire dans GTA 6. Argent exposé après mort ou arrestation, et inconnues sur dépôts et frais."
+    ],
+    "imageKeys": [
+      "feature-phone",
+      "feature-bar",
+      "feature-couple"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Dos lugares para el dinero, dos riesgos diferentes",
+          "Two places for money, different exposure",
+          "Deux réserves d’argent, des risques différents"
+        ],
+        "paragraphs": [
+          [
+            "Rob Nelson explica a Famitsu que el dinero de una cuenta bancaria se distingue del efectivo que lleva el personaje. La entrevista japonesa es del 28 de agosto de 2026; la traducción inglesa consultada se publicó el 9 de septiembre. La diferencia importa porque la descripción del riesgo se refiere al dinero que se lleva encima, no a una confiscación automática de todo el patrimonio.",
+            "Rob Nelson tells Famitsu that banked money is separate from cash carried by the character. The Japanese interview dates to August 28, 2026; the English translation checked was published September 9. This matters because the described risk concerns carried cash, rather than automatic confiscation of all wealth.",
+            "Rob Nelson explique à Famitsu que le compte bancaire se distingue des espèces portées par le personnage. L’entretien japonais date du 28 août 2026 ; la traduction anglaise consultée du 9 septembre. Le risque décrit concerne l’argent sur soi, pas une confiscation automatique de tout le patrimoine."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "famitsu-en"
+        ]
+      },
+      {
+        "heading": [
+          "Qué dice la fuente sobre Wasted y Busted",
+          "What the source says about Wasted and Busted",
+          "Ce que dit la source sur Wasted et Busted"
+        ],
+        "paragraphs": [
+          [
+            "Nelson señala que acabar abatido o detenido expone el efectivo y describe su pérdida cuando el personaje cae frente a policías o civiles. Por ello recomienda guardarlo en un lugar seguro. No lo transformamos en una tabla de gastos médicos, honorarios o multas: la entrevista no ofrece esos importes ni demuestra que exista una única penalización para cualquier situación.",
+            "Nelson says being taken down or arrested puts carried cash at risk and describes losing it when the character is defeated by police or civilians. He therefore recommends depositing it safely. This does not supply hospital costs, legal fees or a fine table, or prove one penalty covers every situation.",
+            "Nelson évoque le risque pesant sur les espèces en cas de défaite ou d’arrestation, puis leur perte face aux policiers ou civils. Il recommande donc de les déposer à l’abri. Cela ne fournit ni frais médicaux, ni honoraires, ni barème d’amendes, ni règle unique pour toutes les situations."
+          ],
+          [
+            "El banco no debe presentarse como invulnerabilidad financiera. La fuente respalda separar reservas y exposición; otras posibles deducciones, obligaciones o eventos de la historia necesitan pruebas propias.",
+            "A bank account should not be presented as financial invulnerability. The source supports separating reserves and exposure; other deductions, obligations or story events need their own evidence.",
+            "Le compte bancaire ne doit pas devenir une promesse d’invulnérabilité financière. La source distingue réserves et exposition ; d’autres prélèvements ou événements narratifs demandent leurs propres preuves."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "famitsu-en"
+        ]
+      },
+      {
+        "heading": [
+          "Un ejemplo para entender la diferencia",
+          "An example to understand the distinction",
+          "Un exemple pour comprendre la distinction"
+        ],
+        "paragraphs": [
+          [
+            "Como ejemplo inventado únicamente para explicar el concepto, imagina una reserva en el banco y otra cantidad en el bolsillo. Proteger el efectivo reduciría lo que llevas expuesto durante una actividad arriesgada. No damos cantidades porque no conocemos límites de depósito, mínimos de compra o costes de operación. El ejemplo no describe una partida ni una estrategia de beneficio comprobada.",
+            "As an explicitly hypothetical explanation, imagine one reserve in the bank and another in your pocket. Depositing cash would reduce what you carry into a risky activity. No amounts are assigned because deposit limits, purchase minimums and transaction costs remain unverified. This is neither a recorded playthrough nor a tested profit strategy.",
+            "À titre d’exemple hypothétique, imaginez une réserve à la banque et une autre en poche. Déposer les espèces réduirait la somme exposée pendant une activité risquée. Nous ne chiffrons pas l’exemple : plafonds, minimums d’achat et frais restent non vérifiés. Ce n’est ni une partie enregistrée ni une stratégie de gain testée."
+          ]
+        ],
+        "refs": [
+          "famitsu-en"
+        ]
+      },
+      {
+        "heading": [
+          "Depósitos: por qué no damos una ruta de menú inventada",
+          "Deposits: why there is no invented menu walkthrough",
+          "Dépôts : pourquoi ne pas inventer un chemin de menu"
+        ],
+        "paragraphs": [
+          [
+            "Saber que existe una cuenta no confirma que todas las operaciones se hagan desde el teléfono, un cajero o una aplicación concreta. Para publicar instrucciones hacen falta el lugar de acceso, los requisitos y una transacción visible. No copiamos el menú de GTA Online ni su comportamiento como si fuera el de GTA VI. El parecido de un servicio no garantiza el mismo procedimiento.",
+            "A bank account does not establish that every operation uses a phone, ATM or named app. A walkthrough requires the access point, requirements and a demonstrated transaction. GTA Online’s menus and behaviour cannot simply be copied into GTA VI instructions. Similar services need not share a procedure.",
+            "Un compte ne prouve pas que toutes les opérations passent par téléphone, distributeur ou application nommée. Un guide demande accès, conditions et transaction visible. Les menus de GTA Online ne peuvent pas être copiés comme instructions de GTA VI : des services similaires peuvent fonctionner autrement."
+          ],
+          [
+            "Un presupuesto de sesión puede separar lo que esperas gastar de lo que prefieres conservar como reserva. No asignamos porcentajes óptimos: sin conocer precios y accesos no sería serio decir que siempre lleves una cantidad determinada. La idea es comprobar el saldo antes y después de una acción para entender qué reserva cambió. Si una prueba futura registra pérdidas, deberá anotar las condiciones de muerte o detención y evitar mezclar una compra previa con la penalización. Esa disciplina permite explicar el sistema sin presentar una coincidencia como una tarifa fija.",
+            "A session budget can distinguish expected spending from savings, without assigning an optimal percentage. Unknown prices and access rules make a fixed recommended cash amount unjustified. Check balances before and after an action to identify which reserve changed. Future loss testing should record death or arrest conditions and avoid confusing an earlier purchase with the penalty. That makes it possible to explain the system without turning a coincidence into a fixed charge.",
+            "Un budget de session peut distinguer dépenses prévues et réserve sans imposer de pourcentage optimal. Sans prix ni conditions d’accès, recommander une somme fixe serait injustifié. Comparer les soldes avant et après une action permet d’identifier la réserve modifiée. Un futur test devra noter les conditions de défaite ou d’arrestation sans confondre achat antérieur et pénalité, afin de ne pas transformer une coïncidence en tarif fixe."
+          ]
+        ],
+        "refs": [
+          "famitsu-en",
+          "related-phone"
+        ]
+      },
+      {
+        "heading": [
+          "Conseguir dinero y conservarlo son preguntas distintas",
+          "Earning money and protecting it are different questions",
+          "Gagner et conserver son argent sont deux questions distinctes"
+        ],
+        "paragraphs": [
+          [
+            "La guía de fondos para misiones explica la relación entre ingresos y progresión. Esta página se centra en conservar lo obtenido. Cazar, vender coches o robar pueden ser actividades económicas, pero una lista de ingresos no resuelve cuánto dinero llevas expuesto. Tampoco prometemos pagos por hora, intereses bancarios o una inversión que garantice duplicar los fondos: faltan datos para esos cálculos.",
+            "Our mission-funding guide examines income and progression. This page concerns preserving earnings. Hunting, car sales and robberies may provide income, but an earnings list does not answer how much cash is exposed. We promise neither hourly rates, bank interest nor an investment guaranteed to double funds: the necessary data is unavailable.",
+            "Notre guide du financement des missions traite des revenus et de la progression. Ici, il s’agit de conserver l’argent obtenu. Chasse, ventes et braquages peuvent rapporter, sans répondre au risque des espèces portées. Nous ne promettons ni revenu horaire, ni intérêts, ni placement doublant les fonds : les données manquent."
+          ]
+        ],
+        "refs": [
+          "related-money",
+          "related-hunting"
+        ]
+      },
+      {
+        "heading": [
+          "Qué revisar cuando llegue la versión final",
+          "What to check in the release version",
+          "Que vérifier dans la version finale"
+        ],
+        "paragraphs": [
+          [
+            "Comprobaremos qué pantalla distingue cada saldo, cuándo cambia el efectivo y qué deducciones muestra una muerte o detención. También habrá que diferenciar una regla general de una misión especial. Revisado el 1 de noviembre de 2026: las imágenes oficiales de personajes y teléfono son ilustrativas, no pantallas bancarias verificadas. Esta página no vende moneda ni dirige a servicios de dinero de terceros.",
+            "We would check how balances are distinguished, when cash changes and which deductions appear after death or arrest. General rules must also be separated from special missions. Checked November 1, 2026: official character and phone images are illustrative, rather than verified banking screens. This page sells no currency and links to no third-party money services.",
+            "Nous vérifierons la distinction des soldes, les variations d’espèces et les prélèvements après mort ou arrestation, en séparant règles générales et missions particulières. Vérifié le 1er novembre 2026 : les images officielles sont illustratives, pas des écrans bancaires vérifiés. Cette page ne vend aucune monnaie et ne dirige vers aucun vendeur tiers."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "famitsu-en"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "mission-routes",
+    "category": "missions",
+    "slug": [
+      "gta-6-misiones-rutas-alternativas-libertad",
+      "gta-6-missions-alternative-routes-freedom",
+      "gta-6-missions-itineraires-alternatifs-liberte"
+    ],
+    "title": [
+      "Misiones de GTA 6: rutas alternativas y libertad sin perder la historia",
+      "GTA 6 missions: alternative routes and freedom within the story",
+      "Missions GTA 6 : itinéraires alternatifs et liberté narrative"
+    ],
+    "excerpt": [
+      "Rockstar describe misiones de GTA 6 con salidas alternativas y persecuciones más abiertas. Dos ejemplos de IGN explican el cambio y sus límites.",
+      "Rockstar describes GTA 6 missions with alternative exits and more open chases. Two IGN examples explain the change and its limits.",
+      "Rockstar décrit des missions GTA 6 avec sorties alternatives et poursuites plus ouvertes. Deux exemples IGN expliquent ce changement et ses limites."
+    ],
+    "imageKeys": [
+      "feature-couple",
+      "feature-driver",
+      "feature-aiming"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La idea: abrir posibilidades donde encajen",
+          "The idea: open up choices where they fit",
+          "L’idée : ouvrir les possibilités quand elles conviennent"
+        ],
+        "paragraphs": [
+          [
+            "Rob Nelson explica en la entrevista de IGN que Rockstar ha intentado abrir las misiones sin sacrificar su calidad narrativa. GamesRadar+ retomó esas declaraciones el 8 de octubre de 2026. Es un objetivo de diseño respaldado por ejemplos concretos, no una promesa de libertad absoluta en cada encargo. La pregunta útil es qué parte de una misión permite improvisar y cuál necesita conservar una secuencia.",
+            "In IGN’s interview, Rob Nelson explains Rockstar’s effort to open up missions without sacrificing narrative quality. GamesRadar+ revisited the statements on October 8, 2026. Concrete examples support the design goal, rather than unlimited freedom in every job. The useful question is which parts permit improvisation and which need a particular sequence.",
+            "Dans l’entretien IGN, Rob Nelson explique la volonté d’ouvrir les missions sans sacrifier leur qualité narrative. GamesRadar+ a repris ces propos le 8 octobre 2026. Des exemples étayent cet objectif, sans promettre une liberté absolue dans chaque mission. Il faut distinguer les passages ouverts à l’improvisation des séquences nécessaires au récit."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "mission-report"
+        ]
+      },
+      {
+        "heading": [
+          "El edificio con varias salidas",
+          "The building with multiple exits",
+          "L’immeuble aux sorties multiples"
+        ],
+        "paragraphs": [
+          [
+            "Nelson cita una misión de la presentación Extended Look en la que los personajes intentan salir de un edificio alto. Según su explicación, hay varias rutas para escapar. Eso establece alternativas en ese escenario, pero no que todas las ventanas o puertas sean utilizables. Una solución futura debería identificar las salidas realmente disponibles y sus condiciones, sin confundir decorado con un camino válido.",
+            "Nelson cites an Extended Look mission in which the characters try to escape a tower block. He explains that it has multiple exit routes. That establishes alternatives in that scenario, rather than usable paths through every window and door. A future walkthrough should identify available exits and conditions without mistaking scenery for a valid route.",
+            "Nelson cite une mission d’Extended Look où les personnages cherchent à quitter une tour. Il explique qu’elle propose plusieurs sorties. Cela confirme des alternatives dans ce scénario, pas une issue par chaque fenêtre ou porte. Une future solution devra identifier les passages réellement accessibles sans confondre décor et chemin valide."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "mission-report"
+        ]
+      },
+      {
+        "heading": [
+          "La huida con Raul: cuándo cambia el control",
+          "The Raul escape: when control changes",
+          "La fuite avec Raul : le changement de contrôle"
+        ],
+        "paragraphs": [
+          [
+            "Otro ejemplo empieza con Jason disparando mientras Lucia conduce; después, el jugador pasa a conducir. Nelson reconoce que el primer tramo está guiado y explica que, más adelante, apartarse de la ruta recomendada no impide necesariamente escapar. Es una combinación de puesta en escena y persecución sistémica, no la desaparición de todas las instrucciones de misión.",
+            "Another example begins with Jason shooting while Lucia drives, before control changes to driving. Nelson describes the first stretch as guided and says deviating from the suggested route later need not prevent escape. It combines staging with a systemic chase rather than removing every mission instruction.",
+            "Un autre exemple commence avec Jason qui tire pendant que Lucia conduit, puis le joueur prend le volant. Nelson décrit un premier passage guidé et explique qu’ensuite quitter l’itinéraire conseillé n’empêche pas nécessairement la fuite. Cela combine mise en scène et poursuite systémique, sans supprimer toutes les consignes."
+          ],
+          [
+            "Esta diferencia también evita confundir a un compañero capaz de conducir con un modo cooperativo para dos jugadores. Cambiar de puesto o protagonista dentro de la escena no anuncia una segunda persona controlando la partida.",
+            "This also distinguishes a capable AI driver from two-player cooperation. Switching seats or protagonists within the scene does not announce a second player controlling the session.",
+            "Cela distingue aussi un partenaire capable de conduire d’un mode coopératif à deux. Changer de siège ou de protagoniste n’annonce pas un second joueur."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-switching"
+        ]
+      },
+      {
+        "heading": [
+          "Qué significa que una misión sea sistémica",
+          "What a systemic mission means here",
+          "Le sens d’une mission systémique ici"
+        ],
+        "paragraphs": [
+          [
+            "En este contexto, el interés está en que sistemas como la persecución o el robo se comporten de forma coherente dentro y fuera de una misión. Como análisis, esa continuidad permite aplicar lo aprendido en el mundo abierto. No significa que cada personaje reaccione de cualquier manera ni que el guion carezca de estados de fallo. Hay que evaluar cada misión antes de afirmar que admite cualquier estrategia.",
+            "Here the point is consistency between systems such as pursuits or robberies inside missions and in free roam. In our analysis, that continuity lets players apply what they learned outside missions. It does not establish unrestricted reactions or scripts without failure states. Each mission needs checking before claiming every strategy works.",
+            "L’enjeu est la cohérence des systèmes de poursuite ou de braquage en mission et en exploration. Selon notre analyse, cette continuité permet de réutiliser ce que l’on a appris. Elle ne prouve ni réactions illimitées ni absence d’échec prévu par le scénario. Chaque mission demande une vérification avant de promettre toute stratégie."
+          ],
+          [
+            "Para comparar dos rutas habrá que distinguir libertad táctica de libertad narrativa. La primera permite variar recorrido o forma de resolver un obstáculo; la segunda cambia lo que sucede en la historia. Los ejemplos de salida alternativa respaldan principalmente la primera. También importa el momento del control: una persecución puede empezar dirigida y abrirse después sin resultar contradictoria. Una solución bien documentada debería señalar ese cambio de fase, de modo que el lector sepa cuándo está siguiendo una secuencia y cuándo puede escoger una salida probada, sin recibir falsos avisos de que cualquier desviación hará fallar la misión.",
+            "Route comparisons should separate tactical from narrative freedom. The former changes movement or obstacle handling; the latter changes the story’s outcome. Alternative exits chiefly support the first. Control timing matters too: a chase can begin as a guided sequence and open up later without contradiction. A documented walkthrough should mark that transition so readers know when a tested alternative becomes available, rather than falsely warning that every deviation fails the mission.",
+            "Comparer des parcours demande de distinguer liberté tactique et narrative : varier le déplacement ou un obstacle n’est pas changer l’issue du récit. Les sorties alternatives étayent surtout la première. Une poursuite peut aussi commencer guidée puis s’ouvrir. Une solution documentée devrait signaler cette transition afin d’indiquer quand une alternative testée devient disponible, sans prétendre que tout écart provoque un échec."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Rejugabilidad sin inventar finales o número de misiones",
+          "Replay value without inventing endings or mission counts",
+          "Rejouabilité sans inventer fins ou nombre de missions"
+        ],
+        "paragraphs": [
+          [
+            "Probar otra salida puede cambiar el recorrido sin cambiar el desenlace narrativo. Por eso distinguimos ruta, táctica y final: tres conceptos que suelen mezclarse en titulares. Los ejemplos no proporcionan un total de misiones, un árbol completo de decisiones o una lista de finales. Nuestra guía de duración trata las horas citadas en avances; esta analiza cómo se puede recorrer una misma situación.",
+            "Trying another exit can change the route without changing the narrative outcome. Route, tactic and ending are different concepts often merged in headlines. The examples provide neither a mission total nor a complete choice tree or ending list. Our length guide separately covers reported playtime; this article examines different ways through one situation.",
+            "Une autre sortie peut changer le trajet sans modifier l’issue narrative. Itinéraire, tactique et fin sont donc trois notions distinctes. Ces exemples ne donnent ni total de missions, ni arbre complet de choix, ni liste de fins. Notre guide de durée traite séparément les heures rapportées ; ici, nous analysons les parcours possibles d’une situation."
+          ]
+        ],
+        "refs": [
+          "mission-report",
+          "related-length"
+        ]
+      },
+      {
+        "heading": [
+          "Qué debería demostrar una buena solución de misión",
+          "What a good mission walkthrough should demonstrate",
+          "Ce qu’une bonne solution de mission doit démontrer"
+        ],
+        "paragraphs": [
+          [
+            "Al publicar soluciones comprobaremos objetivo, requisitos, rutas probadas y causas de fallo; indicaremos si una alternativa se ha repetido con éxito. Hasta entonces, esta es una guía de diseño basada en la demostración, revisada el 1 de noviembre de 2026. Las imágenes oficiales de acción aportan contexto, sin fingir que muestran cada salida o una misión terminada por FansGTA.",
+            "Future walkthroughs should verify objectives, requirements, tested paths and failure conditions, identifying whether an alternative succeeded repeatedly. Until then, this is a preview-based design guide checked November 1, 2026. Official action images provide context without pretending to show every exit or a FansGTA-completed mission.",
+            "Nos futures solutions vérifieront objectifs, conditions, parcours testés et causes d’échec, en indiquant les alternatives reproduites. Pour l’instant, ce guide de conception s’appuie sur la démonstration, vérifiée le 1er novembre 2026. Les images officielles ne prétendent montrer ni chaque sortie ni une mission terminée par FansGTA."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "mission-report"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "world-encounters",
+    "category": "guides",
+    "slug": [
+      "gta-6-encuentros-mundo-abierto-decisiones",
+      "gta-6-open-world-encounters-choices",
+      "gta-6-rencontres-monde-ouvert-choix"
+    ],
+    "title": [
+      "Encuentros en GTA 6: decisiones, personajes y motivos para volver",
+      "GTA 6 encounters: choices, characters and reasons to return",
+      "Rencontres GTA 6 : choix, personnages et raisons de revenir"
+    ],
+    "excerpt": [
+      "El avance de IGN mostró un encuentro opcional de Lucia con consecuencias al regresar. Qué revela sobre explorar GTA 6 sin inventar una lista de eventos.",
+      "IGN showed an optional Lucia encounter with a later follow-up. What it reveals about GTA 6 exploration without inventing a complete event list.",
+      "IGN a montré une rencontre facultative de Lucia suivie d’un retour possible. Son intérêt pour l’exploration, sans inventer une liste complète d’événements."
+    ],
+    "imageKeys": [
+      "feature-bar",
+      "feature-phone",
+      "feature-couple"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Un ejemplo concreto en lugar de una lista inventada",
+          "A concrete example rather than an invented checklist",
+          "Un exemple concret plutôt qu’une liste inventée"
+        ],
+        "paragraphs": [
+          [
+            "La entrevista de IGN incluye un encuentro de Lucia con un hombre en un contenedor. Nelson explica que se le puede dar medicación o no hacerlo, y que al volver puede ofrecer asesoramiento legal. Es un ejemplo pequeño, pero útil: una acción fuera de la misión principal puede dejar un motivo para regresar. No publicamos un catálogo de todos los encuentros del juego a partir de esa escena.",
+            "IGN’s interview includes Lucia meeting a man in a dumpster. Nelson says she can give him medication or choose not to, and that returning can lead to legal advice. It is a small but useful example of an action outside the main mission creating a reason to return. It does not establish a catalogue of every encounter.",
+            "L’entretien IGN montre Lucia rencontrant un homme dans un conteneur. Nelson explique qu’elle peut lui donner des médicaments ou non, puis revenir pour obtenir des conseils juridiques. Ce petit exemple illustre une action hors mission donnant une raison de revenir. Il ne constitue pas une liste de toutes les rencontres."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Opcional no significa aleatorio en todos sus detalles",
+          "Optional does not mean random in every detail",
+          "Facultatif ne signifie pas entièrement aléatoire"
+        ],
+        "paragraphs": [
+          [
+            "Un encuentro puede aparecer durante una sesión de mundo abierto y seguir teniendo diálogos, condiciones y consecuencias escritas. Por eso evitamos decir que el juego genera historias infinitas. La sorpresa del jugador y la estructura interna del evento son cosas distintas: un momento que Nelson no esperaba durante la demostración no prueba que no existieran reglas para producirlo.",
+            "An encounter can arise during free roam while still having authored dialogue, conditions and consequences. It does not establish infinitely generated stories. Player surprise and an event’s internal structure are different: Nelson being surprised during the demonstration does not show that the encounter had no rules.",
+            "Une rencontre peut survenir en exploration tout en ayant dialogues, conditions et conséquences écrits. Cela ne prouve pas des histoires générées à l’infini. Surprise du joueur et structure de l’événement sont distinctes : un moment inattendu pour Nelson n’est pas forcément sans règles."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Qué puede cambiar una decisión y qué no sabemos",
+          "What a choice can change and what remains unknown",
+          "Les effets possibles d’un choix et leurs limites"
+        ],
+        "paragraphs": [
+          [
+            "La opción de ayudar o no ayudar demuestra una decisión en ese encuentro. La fuente no especifica una recompensa monetaria, un contador universal de bondad o una obligación para completar la historia. Tampoco detalla todas las variantes de la respuesta al regresar. No convertimos el asesoramiento mencionado en una reducción garantizada de multas o en una mecánica completa de abogados.",
+            "The option to help establishes a decision in that encounter. The source specifies no cash reward, universal goodness meter or requirement for story completion, nor every return-visit variation. Mentioned legal advice cannot be turned into guaranteed lower fines or a complete lawyer system.",
+            "Aider ou non constitue un choix dans cette rencontre. La source ne précise ni récompense financière, ni compteur universel de bonté, ni obligation narrative, ni toutes les variantes du retour. Les conseils mentionnés ne deviennent pas une réduction garantie des amendes ou un système complet d’avocats."
+          ],
+          [
+            "La guía de perfil criminal explica otro sistema. Una escena de ayuda no basta para demostrar que todos los eventos se valoren del mismo modo o que exista una única puntuación moral que controle la campaña.",
+            "Our criminal-profile guide covers a separate system. One helpful interaction cannot establish identical scoring for every event or a single moral score governing the campaign.",
+            "Notre guide du profil criminel traite un autre système. Une aide ponctuelle ne prouve ni notation identique de tous les événements ni score moral unique contrôlant la campagne."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-profile"
+        ]
+      },
+      {
+        "heading": [
+          "Explorar con atención sin convertirlo en una tarea de iconos",
+          "Exploring attentively without turning it into icon chasing",
+          "Explorer attentivement sans courir après les icônes"
+        ],
+        "paragraphs": [
+          [
+            "Como propuesta editorial, conviene escuchar conversaciones y observar lugares por los que se vuelve a pasar. Eso es una forma de acercarse al mundo descrito, no una condición de desbloqueo confirmada. No recomendamos esperar un número inventado de horas, cambiar repetidamente de personaje o visitar coordenadas de mapas de fans para forzar eventos que aún no hemos probado.",
+            "As an editorial suggestion, listening and observing places you revisit fits the world being described. It is not a confirmed unlock condition. We do not recommend waiting an invented number of hours, repeatedly switching characters or visiting fan-map coordinates to force untested events.",
+            "Comme conseil éditorial, écouter et observer les lieux revisités correspond au monde décrit, sans constituer une condition de déblocage confirmée. Nous ne conseillons ni attente chiffrée inventée, ni changements répétés de personnage, ni coordonnées de fans pour forcer des événements non testés."
+          ],
+          [
+            "No hace falta que todas las decisiones tengan una recompensa económica para resultar relevantes. Un diálogo posterior puede dar continuidad a una persona y convertir un lugar de paso en una referencia reconocible. Esa es una lectura del ejemplo mostrado, no una promesa de consecuencias permanentes para cada peatón. Para evaluar la continuidad habrá que volver bajo condiciones comparables y comprobar si la respuesta depende de ayudar, de un avance narrativo o de otro requisito. Sin esa comprobación, atribuir un cambio únicamente a la elección del jugador sería precipitado.",
+            "Not every meaningful decision needs a cash reward. Later dialogue can give a character continuity and turn a passing location into a recognisable landmark. This interprets the shown example rather than promising permanent consequences for every pedestrian. Testing continuity would mean returning under comparable conditions and checking whether a response depends on helping, story progression or another requirement. Without that check, attributing a change solely to the player’s choice would be premature.",
+            "Une décision intéressante ne demande pas forcément de récompense financière. Un dialogue ultérieur peut donner une continuité au personnage et rendre un lieu reconnaissable. C’est une lecture de l’exemple, pas une promesse de conséquences permanentes pour chaque passant. Il faudra revenir dans des conditions comparables pour distinguer effet de l’aide, progression narrative ou autre condition. Sans cela, attribuer tout changement au choix serait prématuré."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Cómo evitar spoilers en una futura guía",
+          "How a future guide can avoid spoilers",
+          "Éviter les spoilers dans un futur guide"
+        ],
+        "paragraphs": [
+          [
+            "Una ficha útil separaría el requisito inicial del resultado: ubicación comprobada, personaje controlado, señal de inicio y advertencia antes de explicar consecuencias. Ese formato permite buscar ayuda sin leer todo el desenlace. Por ahora no añadimos nombres de misiones ni relaciones no publicadas. El ejemplo del contenedor procede de un avance público y no revela el final de la historia de Jason y Lucia.",
+            "A useful entry would separate starting conditions from outcomes: verified location, controlled character, trigger and a warning before consequences. That lets readers seek help without reading the full resolution. We add no unpublished mission names or relationships. The dumpster example comes from public reporting and does not reveal Jason and Lucia’s ending.",
+            "Une fiche utile séparerait conditions et résultat : lieu vérifié, protagoniste, déclenchement et avertissement avant les conséquences. On pourrait ainsi demander de l’aide sans lire toute la résolution. Nous n’ajoutons aucun nom de mission ou lien inédit. L’exemple public du conteneur ne révèle pas la fin du duo."
+          ]
+        ],
+        "refs": [
+          "related-spoilers",
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "No es una lista para conseguir el 100 %",
+          "This is not a 100% completion checklist",
+          "Ce n’est pas une liste pour atteindre 100 %"
+        ],
+        "paragraphs": [
+          [
+            "La escena no establece cuántos encuentros hay, cuáles cuentan para el porcentaje o si alguno puede perderse. Revisado el 1 de noviembre de 2026 a partir de IGN del 7 de octubre. Las capturas oficiales ilustran personajes y ambientes; no muestran al hombre del contenedor ni una ubicación comprobada del evento. Una lista de completado se publicará solo cuando sus requisitos puedan verificarse.",
+            "The scene establishes neither event count, percentage requirements nor missable encounters. Checked November 1, 2026 using IGN’s October 7 interview. Official images illustrate characters and settings rather than the man or a verified event location. A completion checklist requires verifiable requirements first.",
+            "La scène n’établit ni nombre de rencontres, ni contribution au pourcentage, ni événements manquables. Vérifié le 1er novembre 2026 avec l’entretien IGN du 7 octobre. Les images officielles illustrent personnages et lieux, pas cet homme ou sa position vérifiée. Une liste de complétion demande des conditions vérifiables."
+          ]
+        ],
+        "refs": [
+          "ign"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "hud",
+    "category": "guides",
+    "slug": [
+      "gta-6-hud-minimapa-interfaz-inmersion",
+      "gta-6-hud-minimap-interface-immersion",
+      "gta-6-hud-minicarte-interface-immersion"
+    ],
+    "title": [
+      "HUD de GTA 6: minimapa, información en pantalla e inmersión",
+      "GTA 6 HUD: minimap, on-screen information and immersion",
+      "HUD de GTA 6 : minicarte, informations et immersion"
+    ],
+    "excerpt": [
+      "EL PAÍS describe una interfaz de GTA 6 que puede ocultarse. Qué significa para jugar, qué falta del menú final y por qué no son pruebas las filtraciones.",
+      "EL PAÍS describes a GTA 6 interface that can be hidden. What that means for play, what remains unknown about final settings and why leaks are not proof.",
+      "EL PAÍS décrit une interface masquable dans GTA 6. Son intérêt, les limites des réglages connus et pourquoi les fuites ne constituent pas une preuve."
+    ],
+    "imageKeys": [
+      "feature-phone",
+      "feature-driver",
+      "feature-mountain"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La interfaz como opción, no como una obligación constante",
+          "The interface as an option rather than a constant requirement",
+          "L’interface comme option plutôt que présence obligatoire"
+        ],
+        "paragraphs": [
+          [
+            "EL PAÍS informó el 27 de agosto de 2026 de que la interfaz de GTA VI puede ajustarse hasta ocultarse por completo. La explicación se vincula a mirar más al mundo y depender menos de iconos. Es una observación periodística de la demostración de Rockstar, no un menú final recorrido por FansGTA. HUD significa la información superpuesta a la escena, como indicadores o avisos durante el juego.",
+            "On August 27, 2026, EL PAÍS reported that GTA VI’s interface can be adjusted until completely hidden. The explanation concerns looking at the world rather than relying on icons. This is reporting from Rockstar’s demonstration, not FansGTA navigating a final settings menu. HUD means information overlaid on the scene, such as indicators and gameplay prompts.",
+            "Le 27 août 2026, EL PAÍS a indiqué que l’interface de GTA VI peut être ajustée jusqu’à disparaître complètement, afin de regarder davantage le monde que les icônes. Ce récit vient de la démonstration de Rockstar, pas d’un menu final testé par FansGTA. Le HUD désigne les informations superposées à la scène, comme les jauges et indications."
+          ]
+        ],
+        "refs": [
+          "elpais",
+          "pais-summary"
+        ]
+      },
+      {
+        "heading": [
+          "Ocultar el HUD no equivale a eliminar información del juego",
+          "Hiding the HUD does not erase game information",
+          "Masquer le HUD ne supprime pas les informations du jeu"
+        ],
+        "paragraphs": [
+          [
+            "Una cosa es no ver un indicador y otra que deje de existir la regla que representa. Como análisis, una pantalla despejada puede favorecer la observación, pero también exigir más atención a señales visuales o sonoras. No implica automáticamente dificultad superior, bonificaciones ni desactivación de la policía. La configuración de la presentación y las reglas de simulación son conceptos separados.",
+            "Not seeing an indicator is different from removing the underlying rule. In our analysis, a clear screen can encourage observation while requiring more attention to visual or audio cues. It does not automatically imply increased difficulty, bonuses or disabled police. Presentation settings and simulation rules are separate concepts.",
+            "Ne pas voir un indicateur ne supprime pas la règle correspondante. Selon notre analyse, un écran dégagé favorise l’observation mais demande davantage d’attention aux indices visuels ou sonores. Cela ne signifie pas automatiquement difficulté supérieure, bonus ou police désactivée. Présentation et règles de simulation sont distinctes."
+          ]
+        ],
+        "refs": [
+          "elpais"
+        ]
+      },
+      {
+        "heading": [
+          "Minimapa, mapa completo y teléfono cumplen funciones diferentes",
+          "Minimap, full map and phone serve different purposes",
+          "Minicarte, carte complète et téléphone ont des rôles distincts"
+        ],
+        "paragraphs": [
+          [
+            "El minimapa acompaña la navegación inmediata; el mapa completo permite orientarse a otra escala; el teléfono reúne servicios e interacciones descritos por otras fuentes. No deducimos del HUD ocultable que los tres desaparezcan siempre juntos. La entrevista de Famitsu aporta información sobre un mapa 3D revelado al explorar, que desarrollamos en su guía propia. Cada elemento necesita su comprobación.",
+            "A minimap supports immediate navigation, a full map provides a wider view, and the phone hosts services and interactions described elsewhere. A hideable HUD does not establish that all three always disappear together. Famitsu’s interview discusses an exploration-revealed 3D map, covered in its own guide. Each element needs separate verification.",
+            "La minicarte sert à s’orienter immédiatement, la carte complète donne une vue plus large et le téléphone regroupe des services décrits ailleurs. Un HUD masquable ne prouve pas que ces trois éléments disparaissent toujours ensemble. Famitsu évoque une carte 3D révélée en explorant, traitée dans notre guide dédié. Chaque élément demande sa vérification."
+          ]
+        ],
+        "refs": [
+          "related-map-discovery",
+          "related-phone"
+        ]
+      },
+      {
+        "heading": [
+          "Qué no revela una captura de una versión antigua",
+          "What an old-build screenshot cannot establish",
+          "Ce qu’une capture d’une ancienne version ne prouve pas"
+        ],
+        "paragraphs": [
+          [
+            "La posición de una barra en un vídeo antiguo no confirma la interfaz de lanzamiento. Tampoco una captura de un mod demuestra opciones de GTA VI. Para explicar el HUD nos limitamos a material oficial y coberturas identificadas: no utilizamos imágenes filtradas, paquetes de interfaces para otros juegos o reconstrucciones de fans como pruebas del producto final.",
+            "A bar’s position in an old video does not establish the launch interface. A mod screenshot likewise cannot demonstrate GTA VI settings. This guide uses official material and identified reporting rather than leaked images, interface packs for other games or fan reconstructions as final-product evidence.",
+            "La position d’une jauge dans une ancienne vidéo ne prouve pas l’interface de lancement. Une capture de mod ne démontre pas non plus les réglages de GTA VI. Nous utilisons matériel officiel et presse identifiée, pas fuites, interfaces pour d’autres jeux ou reconstitutions de fans comme preuves du produit final."
+          ],
+          [
+            "Las imágenes de esta página ilustran personajes, vehículos y paisajes. No se presentan como pantallas verificadas de ajustes, ni justifican instrucciones para un menú que todavía no hemos probado.",
+            "The images illustrate characters, vehicles and scenery. They are not verified settings screens and do not justify instructions for an untested menu.",
+            "Les images illustrent personnages, véhicules et paysages. Elles ne sont pas des écrans de réglages vérifiés et ne justifient pas un chemin de menu non testé."
+          ],
+          [
+            "Antes de modificar la presentación, conviene elegir qué problema quieres resolver. Buscar una imagen despejada para observar el paisaje no es lo mismo que necesitar indicaciones legibles desde un sofá. Como método general, cambia una opción cada vez y comprueba si sigues identificando objetivo, peligro y navegación; no es una ruta de ajustes confirmada para GTA VI. Una pantalla puede parecer limpia en una captura y resultar incómoda durante una persecución. Por eso una recomendación útil debe explicar la situación y la información que se pierde, no declarar un único preset superior para todos.",
+            "Before changing presentation, identify the problem you want to solve. A clear view for scenery differs from readable directions across a living room. As a general method, change one option at a time and check objective, danger and navigation readability; this is not a confirmed GTA VI menu path. A clean screenshot can still be awkward during a chase. Useful advice should explain the situation and lost information rather than declare one preset best for everyone.",
+            "Avant de changer la présentation, identifiez le besoin : dégager le paysage diffère de lire des indications depuis un canapé. En méthode générale, modifiez une option à la fois et vérifiez objectif, danger et navigation ; ce n’est pas un menu confirmé de GTA VI. Une capture épurée peut devenir inconfortable en poursuite. Un conseil utile doit préciser la situation et les informations perdues, pas imposer un préréglage universel."
+          ]
+        ],
+        "refs": [
+          "elpais"
+        ]
+      },
+      {
+        "heading": [
+          "Qué buscar en los ajustes cuando se pueda comprobar",
+          "What to examine when settings become testable",
+          "Que vérifier lorsque les réglages seront accessibles"
+        ],
+        "paragraphs": [
+          [
+            "Una futura revisión debería comprobar tamaño del texto, contraste, avisos contextuales, lectura del minimapa y persistencia de las elecciones al recargar. Son criterios editoriales, no cinco opciones confirmadas. La mejor configuración dependerá de pantalla, distancia y preferencias: no proponemos ocultarlo todo como una mejora universal ni como una forma comprobada de aumentar los FPS.",
+            "A future review should examine text size, contrast, contextual prompts, minimap readability and whether choices persist after reloading. These are editorial criteria, not five confirmed settings. The best configuration depends on screen, distance and preference; hiding everything is neither a universal improvement nor a verified FPS boost.",
+            "Un futur test devrait examiner taille du texte, contraste, indications contextuelles, lisibilité et conservation des choix après rechargement. Ce sont des critères éditoriaux, pas cinq options confirmées. Le réglage dépendra de l’écran, de la distance et des préférences ; tout masquer n’est ni universellement mieux ni un gain de FPS vérifié."
+          ]
+        ],
+        "refs": [
+          "elpais"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes sobre el HUD",
+          "HUD questions answered",
+          "Questions fréquentes sur le HUD"
+        ],
+        "paragraphs": [
+          [
+            "¿Hay un preset sin HUD? La fuente habla de poder ocultar la interfaz, sin detallar aquí el nombre de un preset. ¿Se pueden elegir todas las barras por separado? No hay un menú completo verificado en este artículo. ¿Es igual en todas las plataformas? No hemos comparado versiones finales. Revisión del 1 de noviembre de 2026; se mantiene la fecha real del reportaje y no se promete un ajuste de accesibilidad no anunciado.",
+            "Is there a no-HUD preset? The report describes hiding the interface without specifying a preset name here. Can every meter be toggled separately? This article has no verified complete menu. Is it identical across platforms? We have not compared final versions. Checked November 1, 2026, preserving the report date and promising no unannounced accessibility setting.",
+            "Existe-t-il un préréglage sans HUD ? La source décrit le masquage sans en donner ici le nom. Chaque jauge peut-elle être choisie séparément ? Aucun menu complet n’est vérifié dans cet article. Est-ce identique sur toutes les plateformes ? Nous n’avons pas comparé les versions finales. Vérifié le 1er novembre 2026, sans inventer de réglage d’accessibilité."
+          ]
+        ],
+        "refs": [
+          "elpais",
+          "pais-summary"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ps5-storage",
+    "category": "guides",
+    "slug": [
+      "gta-6-ps5-ssd-m2-usb-almacenamiento",
+      "gta-6-ps5-m2-ssd-usb-storage",
+      "gta-6-ps5-ssd-m2-usb-stockage"
+    ],
+    "title": [
+      "GTA 6 en PS5: SSD M.2, USB y cómo preparar el almacenamiento",
+      "GTA 6 on PS5: M.2 SSD, USB and preparing your storage",
+      "GTA 6 sur PS5 : SSD M.2, USB et préparation du stockage"
+    ],
+    "excerpt": [
+      "Un disco USB no ejecuta juegos de PS5. Prepara espacio para GTA 6, distingue archivo e instalación y comprueba los requisitos oficiales de un SSD M.2.",
+      "A USB drive cannot run PS5 games. Prepare space for GTA 6, distinguish archiving from installation and check official M.2 SSD requirements.",
+      "Un disque USB ne lance pas les jeux PS5. Préparez GTA 6 en distinguant archivage et installation, avec les exigences officielles d’un SSD M.2."
+    ],
+    "imageKeys": [
+      "feature-safehouse-exterior",
+      "feature-phone",
+      "feature-driver"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La respuesta rápida: para jugar necesitas almacenamiento compatible",
+          "The short answer: playing needs supported storage",
+          "La réponse : jouer demande un stockage compatible"
+        ],
+        "paragraphs": [
+          [
+            "Sony permite ejecutar juegos de PS5 desde el almacenamiento de la consola o desde un SSD M.2 compatible instalado en ella. El almacenamiento ampliado USB sirve para guardar sus datos, pero exige copiarlos de vuelta antes de jugar. Esa es una regla de PS5, no un requisito inventado por Rockstar para GTA VI. La guía prepara la consola sin afirmar que la descarga del juego ya esté disponible.",
+            "Sony allows PS5 games to run from console storage or an installed compatible M.2 SSD. USB extended storage can hold their data, but it must be copied back before play. This is a PS5 rule, not a GTA VI-specific Rockstar requirement. The guide prepares storage without claiming the game is already downloadable.",
+            "Sony permet de lancer les jeux PS5 depuis le stockage de la console ou un SSD M.2 compatible installé. Le stockage étendu USB conserve leurs données, mais il faut les recopier avant de jouer. C’est une règle PS5, pas une exigence propre à GTA VI. Ce guide prépare la console sans annoncer un téléchargement déjà disponible."
+          ]
+        ],
+        "refs": [
+          "ps5storage",
+          "ps5m2",
+          "ps5usb"
+        ]
+      },
+      {
+        "heading": [
+          "1. Mira el espacio libre antes de comprar un disco",
+          "1. Check free space before buying a drive",
+          "1. Vérifiez l’espace libre avant d’acheter"
+        ],
+        "paragraphs": [
+          [
+            "En PS5, Sony indica Ajustes > Almacenamiento para consultar el espacio. Revisa qué ocupa juegos, capturas y otros datos antes de decidir que necesitas ampliar. La capacidad anunciada de una consola y el espacio disponible no son lo mismo. El dato útil para instalar es el espacio libre real, junto al tamaño que muestre la tienda o la propia consola para el producto concreto.",
+            "Sony directs PS5 users to Settings > Storage to inspect capacity. Review games, captures and other data before assuming an upgrade is needed. Advertised capacity is not the same as available space. Installation depends on actual free space and the size shown by the store or console for the specific product.",
+            "Sony indique Paramètres > Stockage pour consulter l’espace PS5. Examinez jeux, captures et autres données avant de conclure qu’une extension est nécessaire. Capacité annoncée et espace disponible diffèrent. L’installation dépend de l’espace libre réel et de la taille affichée pour le produit par la boutique ou la console."
+          ],
+          [
+            "No usamos el rumor de unos 210 GB como medida definitiva ni recomendamos reservar una cantidad exacta adicional para parches que Rockstar no haya especificado. La guía de tamaño explica la procedencia de esa cifra por separado.",
+            "The roughly 210 GB report is not treated as final, and no exact extra patch allowance is invented. Our download-size guide separately explains that figure’s origin.",
+            "Le chiffre rapporté d’environ 210 Go n’est pas traité comme définitif, et nous n’inventons pas de réserve exacte pour les correctifs. Notre guide de taille explique séparément son origine."
+          ]
+        ],
+        "refs": [
+          "ps5storage",
+          "related-size"
+        ]
+      },
+      {
+        "heading": [
+          "2. Decide entre mover, borrar o ampliar",
+          "2. Choose between moving, deleting and expanding",
+          "2. Choisissez déplacer, supprimer ou étendre"
+        ],
+        "paragraphs": [
+          [
+            "Si tienes juegos que no estás usando, mover sus datos a USB puede liberar el espacio de ejecución sin volver a descargarlos después. Borrar una instalación es otra operación y no equivale a borrar la partida guardada. Sony gestiona esos tipos de datos por separado; revisa la categoría seleccionada antes de confirmar y no formatees una unidad con archivos que quieras conservar.",
+            "Moving unused games to USB can free playable storage while retaining an archive. Deleting an installation is a different operation from deleting a save. Sony manages these data categories separately; check the selected category before confirming and do not format a drive containing files you want to keep.",
+            "Déplacer les jeux inutilisés sur USB libère du stockage jouable en conservant une archive. Supprimer une installation diffère de supprimer une sauvegarde. Sony gère ces catégories séparément : vérifiez votre sélection avant confirmation et ne formatez pas une unité contenant des fichiers à conserver."
+          ]
+        ],
+        "refs": [
+          "ps5storage",
+          "ps5usb"
+        ]
+      },
+      {
+        "heading": [
+          "3. Comprueba el SSD M.2 con la ficha de Sony",
+          "3. Check an M.2 SSD against Sony’s requirements",
+          "3. Comparez le SSD M.2 aux exigences Sony"
+        ],
+        "paragraphs": [
+          [
+            "La ficha oficial consultada el 1 de noviembre de 2026 pide un M.2 NVMe PCIe Gen4x4 compatible, con disipación y dimensiones adecuadas; recomienda lectura secuencial de 5.500 MB/s o superior. La capacidad admitida indicada es de 250 GB a 8 TB. Cumplir solo el número comercial de velocidad no sustituye revisar todos los requisitos físicos y de conexión.",
+            "Sony’s requirements checked November 1, 2026 specify compatible PCIe Gen4x4 M.2 NVMe storage, suitable dimensions and heat dissipation, recommending sequential reads of at least 5,500 MB/s. The listed capacity range is 250 GB to 8 TB. An advertised speed alone does not replace checking physical and interface requirements.",
+            "Les exigences Sony vérifiées le 1er novembre 2026 précisent un M.2 NVMe PCIe Gen4x4 compatible, des dimensions adaptées et une dissipation thermique, avec lecture séquentielle recommandée d’au moins 5 500 Mo/s. La capacité indiquée va de 250 Go à 8 To. La vitesse commerciale seule ne suffit pas."
+          ],
+          [
+            "Para la instalación física sigue las instrucciones oficiales de tu modelo y actualiza el software de la consola. No necesitas comprar una marca concreta para seguir esta guía y FansGTA no promete más FPS por ampliar almacenamiento.",
+            "Follow the official instructions for your console model and update system software before physical installation. This guide requires no specific brand and promises no FPS increase from more storage.",
+            "Suivez les instructions officielles de votre modèle et mettez le système à jour avant installation physique. Ce guide n’impose aucune marque et ne promet aucun gain de FPS."
+          ],
+          [
+            "Guardar los archivos del juego y conservar la partida son tareas distintas. La tabla de Sony separa datos de juegos, datos guardados y capturas; mover una instalación a USB no equivale a exportar una partida de PS5 al mismo disco. Si tu objetivo es liberar espacio, identifica primero qué categoría ocupa la capacidad. Si tu objetivo es conservar progresos, consulta la sección específica de datos guardados. Las opciones de nube pueden depender de una suscripción, pero esta guía no necesita activar ninguna ni presenta el almacenamiento USB de juegos como una copia universal de todos los datos.",
+            "Game files and saved progress are different data categories. Sony’s table separates installations, saves and captures; moving a game to USB does not export its PS5 save to that same drive. For space management, first identify the category using capacity. For progress protection, consult saved-data guidance. Cloud options may require a subscription, but this guide neither activates one nor presents USB game archives as universal backups of every data type.",
+            "Fichiers du jeu et progression sauvegardée sont distincts. Sony sépare installations, sauvegardes et captures ; déplacer un jeu sur USB n’y exporte pas sa sauvegarde PS5. Pour libérer de la place, identifiez la catégorie occupée ; pour conserver la progression, consultez les données sauvegardées. Certaines options cloud exigent un abonnement, mais ce guide n’en active aucun et ne présente pas l’USB comme sauvegarde universelle."
+          ]
+        ],
+        "refs": [
+          "ps5m2"
+        ]
+      },
+      {
+        "heading": [
+          "Dónde guardar y desde dónde jugar",
+          "Where to store and where to play",
+          "Où stocker et depuis où jouer"
+        ],
+        "paragraphs": [
+          [
+            "La distinción entre archivo y ejecución resuelve la mayoría de las dudas. Un SSD externo por USB sigue siendo USB: llamarlo SSD no lo convierte en la ampliación M.2 interna.",
+            "Archiving versus execution resolves the main confusion. An external USB SSD is still USB storage; the SSD label does not make it an installed M.2 expansion.",
+            "La distinction archivage/exécution résout l’essentiel. Un SSD externe USB reste du stockage USB ; son nom ne le transforme pas en extension M.2 installée."
+          ]
+        ],
+        "refs": [
+          "ps5m2",
+          "ps5usb"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Ubicación",
+              "Location",
+              "Emplacement"
+            ],
+            [
+              "Uso con juegos de PS5",
+              "Use with PS5 games",
+              "Usage avec jeux PS5"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Almacenamiento de consola",
+                "Console storage",
+                "Stockage console"
+              ],
+              [
+                "Instalar y jugar.",
+                "Install and play.",
+                "Installer et jouer."
+              ]
+            ],
+            [
+              [
+                "M.2 compatible instalado",
+                "Installed compatible M.2",
+                "M.2 compatible installé"
+              ],
+              [
+                "Instalar y jugar.",
+                "Install and play.",
+                "Installer et jouer."
+              ]
+            ],
+            [
+              [
+                "Almacenamiento ampliado USB",
+                "USB extended storage",
+                "Stockage étendu USB"
+              ],
+              [
+                "Guardar; copiar de vuelta para jugar.",
+                "Archive; copy back to play.",
+                "Archiver ; recopier pour jouer."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Comprobación final antes de instalar GTA VI",
+          "Final checks before installing GTA VI",
+          "Dernières vérifications avant installation"
+        ],
+        "paragraphs": [
+          [
+            "Comprueba licencia y cuenta, espacio libre y destino de instalación cuando la descarga esté habilitada. Precargar, instalar y poder iniciar el juego son estados distintos. Si la consola pide más espacio, usa el aviso real en vez de una cifra de una red social. Las imágenes de GTA VI son contexto editorial, no fotografías del hardware ni mediciones del rendimiento de una unidad.",
+            "When downloading is enabled, check account licence, free space and installation destination. Preloading, installation and playable access are different states. If more space is requested, follow the console’s actual notice rather than a social-media figure. GTA VI images are editorial context, not hardware photographs or drive benchmarks.",
+            "Lorsque le téléchargement sera activé, vérifiez licence, compte, espace libre et destination. Préchargement, installation et accès au jeu sont distincts. En cas d’espace insuffisant, suivez l’avertissement réel de la console plutôt qu’un chiffre social. Les images GTA VI ne sont ni photos matérielles ni mesures de performances."
+          ]
+        ],
+        "refs": [
+          "ps5storage",
+          "related-preload"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "xbox-storage",
+    "category": "guides",
+    "slug": [
+      "gta-6-xbox-series-s-x-almacenamiento-usb-expansion",
+      "gta-6-xbox-series-s-x-storage-usb-expansion",
+      "gta-6-xbox-series-s-x-stockage-usb-extension"
+    ],
+    "title": [
+      "GTA 6 en Xbox Series X|S: USB, SSD y tarjetas de expansión",
+      "GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+      "GTA 6 sur Xbox Series X|S : USB, SSD et cartes d’extension"
+    ],
+    "excerpt": [
+      "Prepara espacio para GTA 6 en Xbox Series S o X: diferencia un disco USB de una expansión compatible y evita confundir guardar el juego con poder ejecutarlo.",
+      "Prepare GTA 6 storage on Xbox Series S or X: distinguish USB drives from compatible expansion storage, and archiving from running a game.",
+      "Préparez le stockage GTA 6 sur Xbox Series S ou X : distinguez USB et extension compatible, puis archivage et lancement du jeu."
+    ],
+    "imageKeys": [
+      "feature-driver",
+      "feature-boats",
+      "feature-safehouse-exterior"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "El punto clave: no todo almacenamiento sirve para ejecutar",
+          "The key point: not all storage can run a game",
+          "L’essentiel : tout stockage ne permet pas de jouer"
+        ],
+        "paragraphs": [
+          [
+            "Para los juegos nativos optimizados de Xbox Series X|S, hay que distinguir el almacenamiento interno o una tarjeta de expansión compatible del archivo en USB. La documentación de Seagate para Series X y S explica que los juegos optimizados guardados en USB deben trasladarse al almacenamiento de ejecución. Esta regla de la plataforma orienta la preparación de GTA VI, sin fingir que hemos probado su instalación final.",
+            "For native Xbox Series X|S-optimised games, internal storage or compatible expansion cards differ from USB archives. Seagate’s Series X and S documentation explains that optimised games stored on USB must be transferred to playable storage. This platform rule guides GTA VI preparation without pretending its final installation has been tested.",
+            "Pour les jeux natifs optimisés Xbox Series X|S, stockage interne et carte d’extension compatible se distinguent de l’archivage USB. Seagate explique que les jeux optimisés archivés sur USB doivent être transférés vers un stockage jouable. Cette règle prépare GTA VI sans prétendre avoir testé son installation finale."
+          ]
+        ],
+        "refs": [
+          "xboxstorage",
+          "xboxexpansion",
+          "seagate"
+        ]
+      },
+      {
+        "heading": [
+          "1. Consulta la capacidad disponible de tu consola",
+          "1. Check your console’s available capacity",
+          "1. Consultez la capacité disponible"
+        ],
+        "paragraphs": [
+          [
+            "Empieza por la sección de almacenamiento de los ajustes de Xbox y comprueba qué unidad está ocupada. Las versiones de Series S y Series X no tienen por qué ofrecer la misma capacidad libre, y una cifra de capacidad comercial no equivale a espacio disponible. La consola debe mostrar el destino real de la instalación; no deduzcas que un juego está en el SSD interno solo porque aparece en tu biblioteca.",
+            "Start with Xbox settings’ storage section and check which device is occupied. Series S and Series X versions need not have equal free space, and advertised capacity is not available capacity. Check the actual installation destination; a game appearing in your library does not establish that it is on the internal SSD.",
+            "Commencez par le stockage dans les paramètres Xbox et vérifiez l’unité occupée. Les modèles Series S et X n’offrent pas nécessairement le même espace libre ; capacité commerciale et disponibilité diffèrent. Vérifiez la destination réelle : la présence d’un jeu dans la bibliothèque ne prouve pas son installation sur le SSD interne."
+          ],
+          [
+            "Usa el tamaño publicado para tu versión cuando esté disponible. El rumor de descarga citado para PS5 no es una medida verificada de Xbox y no permite afirmar que Series S y Series X necesiten exactamente lo mismo.",
+            "Use the size published for your version when available. A PS5 download report is not a verified Xbox measurement and cannot establish identical Series S and X requirements.",
+            "Utilisez la taille publiée pour votre version lorsqu’elle sera disponible. Un chiffre rapporté pour PS5 ne mesure pas Xbox et ne prouve pas des besoins identiques sur Series S et X."
+          ]
+        ],
+        "refs": [
+          "xboxstorage",
+          "related-size"
+        ]
+      },
+      {
+        "heading": [
+          "2. Usa el USB como archivo si necesitas liberar espacio",
+          "2. Use USB as an archive when freeing space",
+          "2. Utilisez l’USB comme archive pour libérer de la place"
+        ],
+        "paragraphs": [
+          [
+            "Un archivo local puede evitar descargar de nuevo otros juegos al reorganizar la biblioteca. La documentación del fabricante cita USB 3.0 o posterior y al menos 128 GB para almacenamiento externo de juegos; cumplir eso no convierte la unidad en una tarjeta de expansión. Un SSD conectado por USB sigue sujeto a las limitaciones del USB aunque su caja anuncie una velocidad alta.",
+            "A local archive can avoid redownloading other games while reorganising a library. The manufacturer lists USB 3.0 or later and at least 128 GB for external game storage; meeting those requirements does not make it an expansion card. A USB-connected SSD remains USB storage despite its advertised speed.",
+            "Une archive locale évite parfois de retélécharger d’autres jeux. Le fabricant indique USB 3.0 ou ultérieur et au moins 128 Go pour le stockage externe de jeux ; cela n’en fait pas une carte d’extension. Un SSD connecté en USB reste soumis aux limites de l’USB malgré sa vitesse annoncée."
+          ]
+        ],
+        "refs": [
+          "seagate"
+        ]
+      },
+      {
+        "heading": [
+          "3. Comprueba una expansión por compatibilidad, no por el nombre SSD",
+          "3. Check compatibility rather than the SSD label",
+          "3. Vérifiez la compatibilité, pas seulement le nom SSD"
+        ],
+        "paragraphs": [
+          [
+            "Una tarjeta diseñada para la ranura de expansión de Series X|S es un producto distinto de un disco externo genérico. Antes de comprar, comprueba la compatibilidad indicada para tu consola y la capacidad necesaria. No recomendamos aquí un precio, una oferta o una marca como única opción: no hemos realizado una comparación comercial y no hace falta activar servicios de pago para revisar tu espacio.",
+            "A card designed for the Series X|S expansion slot differs from a generic external drive. Check console compatibility and required capacity before purchasing. This is not a price comparison or a claim that one brand is the only choice; no paid service is needed merely to inspect storage.",
+            "Une carte conçue pour le port d’extension Series X|S diffère d’un disque externe générique. Vérifiez compatibilité et capacité avant achat. Ce guide ne compare pas les prix et ne présente aucune marque comme choix unique ; aucun service payant n’est requis pour consulter l’espace."
+          ],
+          [
+            "En una biblioteca mixta, que un juego antiguo arranque desde USB no demuestra que un título nativo de Series X|S pueda hacerlo. El fabricante distingue los juegos no optimizados, que pueden tener otras posibilidades de ejecución. Comprueba siempre el producto y su aviso de almacenamiento en la consola. Esta diferencia explica una confusión frecuente sin culpar al cable o al disco de un fallo que puede ser simplemente una regla de compatibilidad. No extrapolamos excepciones de juegos anteriores a GTA VI ni publicamos un supuesto adaptador USB que lo convierta en expansión compatible.",
+            "In a mixed library, an older game launching from USB does not establish that a native Series X|S title can. The manufacturer distinguishes non-optimised games with different playback possibilities. Check the specific product and console storage notice. This explains a common confusion without blaming a cable for a compatibility rule. Older-game exceptions are not extended to GTA VI, and no supposed USB adapter is presented as equivalent to supported expansion storage.",
+            "Dans une bibliothèque mixte, lancer un ancien jeu depuis USB ne prouve pas qu’un titre natif Series X|S le permette. Le fabricant distingue les jeux non optimisés aux possibilités différentes. Vérifiez le produit et l’avis de stockage réel. Cela évite d’accuser le câble d’une règle de compatibilité. Les exceptions anciennes ne sont pas étendues à GTA VI, et aucun adaptateur USB n’est présenté comme extension compatible."
+          ]
+        ],
+        "refs": [
+          "xboxexpansion",
+          "seagate"
+        ]
+      },
+      {
+        "heading": [
+          "Qué cambia al mover un juego y qué no",
+          "What moving a game does and does not change",
+          "Ce que déplacer un jeu change ou non"
+        ],
+        "paragraphs": [
+          [
+            "Mover los datos no compra una licencia ni convierte una edición en otra. Tampoco sustituye el acceso a la cuenta que posee el producto. Antes de borrar o formatear, distingue instalación, archivo y datos personales; comprueba que la operación elegida sea la que buscas. Si la consola solicita mover el juego para iniciarlo, sigue el aviso real en lugar de cambiar repetidamente de cable esperando que desaparezca la limitación.",
+            "Moving data does not purchase a licence, change editions or replace access to the owning account. Before deleting or formatting, distinguish installation, archive and personal data, and check the selected operation. If the console requests moving a game before launch, follow that notice rather than repeatedly swapping cables to overcome a storage limitation.",
+            "Déplacer les données n’achète pas de licence, ne change pas d’édition et ne remplace pas le compte propriétaire. Avant suppression ou formatage, distinguez installation, archive et données personnelles. Si la console demande de déplacer le jeu avant lancement, suivez l’avis réel au lieu de changer de câble pour contourner la limitation."
+          ]
+        ],
+        "refs": [
+          "xboxstorage",
+          "seagate"
+        ]
+      },
+      {
+        "heading": [
+          "Lista final para preparar GTA VI sin falsas promesas",
+          "A final GTA VI preparation checklist without false promises",
+          "Dernières vérifications sans fausses promesses"
+        ],
+        "paragraphs": [
+          [
+            "Revisa cuenta, licencia, espacio y unidad de destino; después consulta el calendario oficial de descarga. Precargar no habilita por sí solo el juego. Guía contrastada el 1 de noviembre de 2026 con Xbox Support y la documentación de almacenamiento del fabricante. Antes de comprar una expansión, consulta sus requisitos vigentes. Las imágenes oficiales de GTA VI son ilustrativas, no fotos de hardware ni benchmarks.",
+            "Check account, licence, free space and destination, then consult official download timing. Preloading does not itself unlock play. Checked November 1, 2026 against Xbox Support and manufacturer storage documentation. Check current requirements before buying expansion storage. Official GTA VI images are illustrative, not hardware photographs or benchmarks.",
+            "Vérifiez compte, licence, espace et destination, puis le calendrier officiel. Le préchargement ne débloque pas le jeu. Guide vérifié le 1er novembre 2026 avec Xbox Support et la documentation du fabricant. Consultez les exigences actuelles avant tout achat. Les images officielles GTA VI ne sont ni photos matérielles ni benchmarks."
+          ]
+        ],
+        "refs": [
+          "seagate",
+          "xboxstorage",
+          "related-preload"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "preorder-cancel",
+    "category": "guides",
+    "slug": [
+      "gta-6-cancelar-reserva-reembolso-ps5-xbox",
+      "gta-6-cancel-preorder-refund-ps5-xbox",
+      "gta-6-annuler-precommande-remboursement-ps5-xbox"
+    ],
+    "title": [
+      "Cancelar una reserva de GTA 6: reembolso en PS5, Xbox y otras tiendas",
+      "Cancel a GTA 6 preorder: refunds on PS5, Xbox and other stores",
+      "Annuler GTA 6 : remboursement sur PS5, Xbox et autres boutiques"
+    ],
+    "excerpt": [
+      "La cancelación de GTA 6 depende de dónde reservaste. Localiza el pedido, revisa las condiciones de descarga y usa el soporte correcto en PS5 o Xbox.",
+      "Cancelling GTA 6 depends on where you preordered. Find your order, check download conditions and use the correct PS5 or Xbox support route.",
+      "L’annulation de GTA 6 dépend du vendeur. Retrouvez la commande, vérifiez les conditions de téléchargement et contactez le bon support PS5 ou Xbox."
+    ],
+    "imageKeys": [
+      "feature-phone",
+      "feature-safehouse-exterior",
+      "feature-safehouse-enduro"
+    ],
+    "tag": [
+      "GTA VI · GUÍA DETALLADA",
+      "GTA VI · DETAILED GUIDE",
+      "GTA VI · GUIDE DÉTAILLÉ"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "1. Identifica al vendedor antes de solicitar la devolución",
+          "1. Identify the seller before requesting a refund",
+          "1. Identifiez le vendeur avant de demander un remboursement"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar dirige las consultas sobre reservas compradas en PlayStation y Xbox a sus respectivos soportes. Para compras en otras tiendas, remite al vendedor; para determinadas compras físicas de Rockstar Store señala Xsolla. Esa distinción debe ser el primer paso: el título GTA VI y la cuenta de Rockstar no identifican por sí solos quién cobró el pedido. Busca el recibo y la referencia de compra.",
+            "Rockstar directs PlayStation and Xbox preorder questions to their respective support teams, other retailer purchases to the seller, and certain Rockstar Store physical purchases to Xsolla. That is the first distinction: the GTA VI title and a Rockstar account alone do not identify who charged the order. Find the receipt and order reference.",
+            "Rockstar dirige les questions PlayStation et Xbox vers leurs supports, les autres achats vers le vendeur et certains achats physiques Rockstar Store vers Xsolla. C’est la première distinction : le titre GTA VI et un compte Rockstar n’identifient pas celui qui a encaissé. Retrouvez reçu et référence de commande."
+          ]
+        ],
+        "refs": [
+          "purchasefaq"
+        ]
+      },
+      {
+        "heading": [
+          "2. PlayStation: comprueba fecha y comienzo de descarga",
+          "2. PlayStation: check timing and whether downloading began",
+          "2. PlayStation : date et début du téléchargement"
+        ],
+        "paragraphs": [
+          [
+            "La política estadounidense consultada distingue reservas pagadas más de 14 días antes del lanzamiento y reservas pagadas 14 días o menos antes. En el primer caso contempla cancelar antes del lanzamiento; en el segundo, hasta 14 días después del pago, sujeto a las condiciones. Empezar a descargar o transmitir la parte principal, incluida la precarga, afecta a la elegibilidad salvo las excepciones indicadas por Sony.",
+            "The checked US policy distinguishes preorders paid more than 14 days before release from those paid 14 days or less before it. The first can be cancelled before release; the second has a window up to 14 days after payment, subject to conditions. Downloading or streaming the main content, including preloading, affects eligibility except where Sony’s stated exceptions apply.",
+            "La politique américaine distingue précommandes payées plus de 14 jours avant sortie et celles payées 14 jours ou moins avant. Les premières peuvent être annulées avant sortie ; les secondes dans les 14 jours suivant paiement, sous conditions. Télécharger ou diffuser le contenu principal, y compris le préchargement, affecte l’éligibilité sauf exceptions Sony."
+          ],
+          [
+            "Estas son referencias de mercado identificadas, no una garantía aplicable a todos los países. Abre el soporte correspondiente a la región de tu cuenta. Si estás evaluando cancelar, revisa las descargas automáticas antes de que comiencen: no prometemos que desinstalar después revierta una descarga ya iniciada.",
+            "These are identified market references, not universal country rules. Open support for your account region. If considering cancellation, review automatic downloads before they begin; uninstalling afterwards is not promised to reverse an already started download.",
+            "Ces références de marché ne sont pas universelles. Consultez le support de la région de votre compte. Si vous envisagez une annulation, vérifiez les téléchargements automatiques avant leur début ; désinstaller ensuite ne garantit pas d’annuler un téléchargement commencé."
+          ]
+        ],
+        "refs": [
+          "pspolicy",
+          "psrefund"
+        ]
+      },
+      {
+        "heading": [
+          "3. Xbox: busca el pedido en el historial de Microsoft",
+          "3. Xbox: find the order in Microsoft’s order history",
+          "3. Xbox : retrouvez la commande dans l’historique Microsoft"
+        ],
+        "paragraphs": [
+          [
+            "Microsoft indica entrar en el historial de pedidos de la cuenta y buscar la reserva. Cuando aparece Cancelar artículo, esa es la vía de cancelación documentada; revisa después la confirmación. Si no aparece, puede haberse cobrado y corresponder una solicitud de reembolso de Xbox. La ausencia del botón no demuestra por sí sola que el dinero se haya perdido ni autoriza a comprar otra copia para probar.",
+            "Microsoft directs users to account order history and the preorder. When Cancel item is available, it is the documented cancellation route; check the confirmation afterwards. If absent, the order may already have been charged and an Xbox refund request may be appropriate. A missing button alone proves neither lost money nor a need to buy another copy.",
+            "Microsoft indique de retrouver la précommande dans l’historique du compte. Lorsque Annuler l’article apparaît, c’est la voie documentée ; vérifiez ensuite la confirmation. Son absence peut signifier que le paiement a été effectué et qu’une demande Xbox est nécessaire. Cela ne prouve ni perte définitive de l’argent ni nécessité d’un second achat."
+          ]
+        ],
+        "refs": [
+          "msrefund"
+        ]
+      },
+      {
+        "heading": [
+          "4. Caja física, código y compras a otro vendedor",
+          "4. Physical boxes, codes and other retailers",
+          "4. Boîtes, codes et autres vendeurs"
+        ],
+        "paragraphs": [
+          [
+            "La caja comercial con código y la licencia digital no deben confundirse con una política única de devoluciones. El vendedor puede aplicar condiciones distintas según envío, apertura o canje. La FAQ de Rockstar identifica la tienda a la que preguntar; no sustituye sus términos. Para Rockstar Store físico, sigue el enlace de soporte de Xsolla que aparece en esa FAQ, sin enviar credenciales a intermediarios.",
+            "A code-in-box product and a digital licence do not imply one refund policy. Seller conditions can differ with dispatch, opening or redemption. Rockstar’s FAQ identifies whom to ask rather than replacing those terms. For Rockstar Store physical purchases, follow the FAQ’s Xsolla support route without sending credentials to intermediaries.",
+            "Boîte avec code et licence numérique n’impliquent pas une politique unique. Les conditions peuvent dépendre d’expédition, ouverture ou utilisation du code. La FAQ Rockstar identifie l’interlocuteur sans remplacer ses termes. Pour l’achat physique Rockstar Store, suivez son lien Xsolla sans transmettre vos identifiants à des intermédiaires."
+          ],
+          [
+            "Un ejemplo ayuda a interpretar los plazos sin prometer una aprobación. Bajo la política estadounidense citada, una compra pagada muchas semanas antes de salir pertenece a un supuesto distinto de otra realizada pocos días antes. Después hay que comprobar si empezó la descarga principal y qué excepciones reconoce la tienda. No basta con contar días desde el lanzamiento. La región de la cuenta también importa: leer esta guía en español o francés no convierte una compra estadounidense en europea. Si el recibo y la política no coinciden con el ejemplo, usa las condiciones de tu pedido y pide al soporte que identifique el motivo de la resolución.",
+            "An example clarifies timing without promising approval. Under the cited US policy, payment weeks before release falls into a different category from payment a few days beforehand. Main-content downloading and store exceptions must then be checked; counting days from release alone is insufficient. Account region matters too: reading in Spanish or French does not turn a US purchase into a European one. If the receipt differs, use the order’s terms and ask support to explain its decision.",
+            "Un exemple précise les délais sans garantir l’accord : sous la politique américaine citée, un paiement plusieurs semaines avant sortie diffère d’un paiement quelques jours avant. Il faut ensuite vérifier téléchargement principal et exceptions ; compter depuis la sortie ne suffit pas. La langue de lecture ne transforme pas non plus un achat américain en européen. En cas de différence, utilisez les conditions de votre commande et demandez au support le motif de sa décision."
+          ]
+        ],
+        "refs": [
+          "purchasefaq",
+          "related-codebox"
+        ]
+      },
+      {
+        "heading": [
+          "Qué conviene conservar y qué revisar después",
+          "What to retain and what to check afterwards",
+          "Quels éléments conserver et vérifier ensuite"
+        ],
+        "paragraphs": [
+          [
+            "Guarda referencia de pedido, fecha, edición y comunicación del soporte. Verifica si el estado dice cancelado, solicitado o reembolsado: no son sinónimos. Si una reserva incluye contenido adicional o una promoción, revisa si al cancelar se revoca ese beneficio. No recomendamos canjear ventajas para retenerlas tras una devolución ni afirmamos que repetir una compra genere promociones adicionales.",
+            "Keep order reference, date, edition and support correspondence. Cancelled, requested and refunded are not interchangeable statuses. If the preorder includes extras or a promotion, check whether cancellation revokes them. We do not recommend redeeming benefits to retain them after a refund or claim that repeat purchases generate extra promotions.",
+            "Conservez référence, date, édition et échanges avec le support. Annulé, demandé et remboursé ne sont pas synonymes. Vérifiez le sort des bonus ou promotions après annulation. Nous ne conseillons ni de conserver indûment des avantages ni de répéter les achats pour multiplier les promotions."
+          ]
+        ],
+        "refs": [
+          "pspolicy",
+          "msrefund",
+          "related-gtaplus"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes y fecha de comprobación",
+          "Common questions and check date",
+          "Questions fréquentes et date de vérification"
+        ],
+        "paragraphs": [
+          [
+            "¿FansGTA tramita el reembolso? No; el trámite se hace con el vendedor. ¿Cambiar de edición requiere comprar otra vez? Consulta primero pedido y soporte: no damos por obligatorio duplicar el pago. ¿La política cambia con el idioma de este artículo? No: importan mercado, cuenta y términos aplicables. Revisado el 1 de noviembre de 2026. Las imágenes oficiales son contexto del juego, no recibos, pantallas de soporte ni prueba de una devolución aprobada.",
+            "Does FansGTA process refunds? No; contact the seller. Does changing edition require another purchase? Check the order and support first rather than assuming duplicate payment is necessary. Does this article’s language determine policy? No: market, account and applicable terms matter. Checked November 1, 2026. Official images are game context, not receipts, support screens or refund approvals.",
+            "FansGTA traite-t-il les remboursements ? Non, le vendeur s’en charge. Changer d’édition impose-t-il un second achat ? Vérifiez d’abord commande et support. La langue de cet article détermine-t-elle la politique ? Non : marché, compte et conditions comptent. Vérifié le 1er novembre 2026. Les images officielles ne sont ni reçus, ni écrans de support, ni preuves de remboursement."
+          ]
+        ],
+        "refs": [
+          "purchasefaq",
+          "psrefund",
+          "msrefund"
+        ]
+      }
+    ]
+  }
+]

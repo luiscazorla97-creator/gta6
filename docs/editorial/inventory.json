@@ -1,5 +1,155 @@
 [
   {
+    "id": "gta6-focus-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Focus en GTA 6: para qué sirve y en qué se parece a Eagle Eye",
+      "GTA 6 Focus mode: what it does and how it compares to Eagle Eye",
+      "Focus dans GTA 6 : son rôle et le lien avec Eagle Eye"
+    ],
+    "paths": [
+      "/es/guias/gta-6-focus-eagle-eye-detectar-policia/",
+      "/en/guides/gta-6-focus-mode-eagle-eye-police/",
+      "/fr/guides/gta-6-mode-focus-eagle-eye-police/"
+    ]
+  },
+  {
+    "id": "gta6-ryde-me-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Ryde Me en GTA 6: taxi, pasajeros y viaje rápido según IGN",
+      "GTA 6 Ryde Me: taxis, passengers and fast travel in IGN’s preview",
+      "Ryde Me dans GTA 6 : taxi, passagers et voyage rapide selon IGN"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ryde-me-taxi-viaje-rapido/",
+      "/en/guides/gta-6-ryde-me-taxi-fast-travel/",
+      "/fr/guides/gta-6-ryde-me-taxi-voyage-rapide/"
+    ]
+  },
+  {
+    "id": "gta6-impound-20261101",
+    "category": "missions",
+    "published": "2026-11-01",
+    "titles": [
+      "Depósito policial en GTA 6: el robo de coche que mostró Rockstar",
+      "GTA 6 police impound: the car theft Rockstar demonstrated",
+      "Fourrière dans GTA 6 : le vol de voiture montré par Rockstar"
+    ],
+    "paths": [
+      "/es/misiones/gta-6-deposito-policial-robo-coches-ign/",
+      "/en/missions/gta-6-police-impound-car-theft-preview/",
+      "/fr/missions/gta-6-fourriere-police-vol-voiture-apercu/"
+    ]
+  },
+  {
+    "id": "gta6-cash-bank-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Dinero en GTA 6: efectivo, banco y pérdidas al morir o ser detenido",
+      "GTA 6 money: cash, bank accounts and losses on death or arrest",
+      "Argent dans GTA 6 : espèces, banque et pertes après une arrestation"
+    ],
+    "paths": [
+      "/es/guias/gta-6-efectivo-banco-perder-dinero-wasted-busted/",
+      "/en/guides/gta-6-cash-bank-losing-money-wasted-busted/",
+      "/fr/guides/gta-6-especes-banque-perte-argent-wasted-busted/"
+    ]
+  },
+  {
+    "id": "gta6-mission-routes-20261101",
+    "category": "missions",
+    "published": "2026-11-01",
+    "titles": [
+      "Misiones de GTA 6: rutas alternativas y libertad sin perder la historia",
+      "GTA 6 missions: alternative routes and freedom within the story",
+      "Missions GTA 6 : itinéraires alternatifs et liberté narrative"
+    ],
+    "paths": [
+      "/es/misiones/gta-6-misiones-rutas-alternativas-libertad/",
+      "/en/missions/gta-6-missions-alternative-routes-freedom/",
+      "/fr/missions/gta-6-missions-itineraires-alternatifs-liberte/"
+    ]
+  },
+  {
+    "id": "gta6-world-encounters-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Encuentros en GTA 6: decisiones, personajes y motivos para volver",
+      "GTA 6 encounters: choices, characters and reasons to return",
+      "Rencontres GTA 6 : choix, personnages et raisons de revenir"
+    ],
+    "paths": [
+      "/es/guias/gta-6-encuentros-mundo-abierto-decisiones/",
+      "/en/guides/gta-6-open-world-encounters-choices/",
+      "/fr/guides/gta-6-rencontres-monde-ouvert-choix/"
+    ]
+  },
+  {
+    "id": "gta6-hud-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "HUD de GTA 6: minimapa, información en pantalla e inmersión",
+      "GTA 6 HUD: minimap, on-screen information and immersion",
+      "HUD de GTA 6 : minicarte, informations et immersion"
+    ],
+    "paths": [
+      "/es/guias/gta-6-hud-minimapa-interfaz-inmersion/",
+      "/en/guides/gta-6-hud-minimap-interface-immersion/",
+      "/fr/guides/gta-6-hud-minicarte-interface-immersion/"
+    ]
+  },
+  {
+    "id": "gta6-ps5-storage-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "GTA 6 en PS5: SSD M.2, USB y cómo preparar el almacenamiento",
+      "GTA 6 on PS5: M.2 SSD, USB and preparing your storage",
+      "GTA 6 sur PS5 : SSD M.2, USB et préparation du stockage"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+      "/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+      "/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/"
+    ]
+  },
+  {
+    "id": "gta6-xbox-storage-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "GTA 6 en Xbox Series X|S: USB, SSD y tarjetas de expansión",
+      "GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+      "GTA 6 sur Xbox Series X|S : USB, SSD et cartes d’extension"
+    ],
+    "paths": [
+      "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+      "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+      "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/"
+    ]
+  },
+  {
+    "id": "gta6-preorder-cancel-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Cancelar una reserva de GTA 6: reembolso en PS5, Xbox y otras tiendas",
+      "Cancel a GTA 6 preorder: refunds on PS5, Xbox and other stores",
+      "Annuler GTA 6 : remboursement sur PS5, Xbox et autres boutiques"
+    ],
+    "paths": [
+      "/es/guias/gta-6-cancelar-reserva-reembolso-ps5-xbox/",
+      "/en/guides/gta-6-cancel-preorder-refund-ps5-xbox/",
+      "/fr/guides/gta-6-annuler-precommande-remboursement-ps5-xbox/"
+    ]
+  },
+  {
     "id": "gta6-roleplay-20261101",
     "category": "guides",
     "published": "2026-11-01",
