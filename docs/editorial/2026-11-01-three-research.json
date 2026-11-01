@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "timezone": "America/New_York",
   "request": "Manual publication of three new GTA VI topics, each complete in Spanish, English and French. Daily one-topic schedule unchanged; authorised final daily date 2026-11-19 inclusive.",
-  "status": "Prepared and locally verified; production publication pending.",
+  "status": "Published and publicly verified",
   "baseline": {
     "main": "8d515fb2562c948af4ba82214b4bf0f73306962f",
     "topics": 119,
@@ -411,7 +411,7 @@
     },
     "browser": "6/6 passed: all nine article variants tested on desktop and mobile, images decoded with translated alt/captions and credits, source/internal links, tables, no page overflow, JSON-LD/canonical/hreflang/sitemap, actual language-selector navigation; no unconditional Analytics or popunder requests. Third-party ad scripts stubbed; not evidence of ad creative fill.",
     "existingContent": "119 prior inventory records/357 prior paths and titles preserved; total now122 topics/366 versions.",
-    "limitations": "Initial local browser server could not bind under default restricted network execution; normal cloud network-enabled execution passed. Production verification pending. Existing Vite bundle-size advisory remains; no redesign undertaken."
+    "limitations": "Existing Vite bundle-size advisory remains. YouTube tunnel403 prevented direct video viewing; accessible coverage used and original linked. Ad mocks are not proof of creative fill. All required publication checks completed."
   },
   "unchanged": [
     "Daily automation cadence/end date",
@@ -421,5 +421,14 @@
     "Security rules",
     "BarberControl",
     "Paid services and subscriptions"
-  ]
+  ],
+  "publication": {
+    "runtimeCommit": "e19c0b3697e226fbf235781286006fc9ac881ddd",
+    "deploymentId": "9c0e9b66-2989-41b9-871c-981e58c63552",
+    "verifiedAt": "2026-11-01T17:00:44.830257+00:00",
+    "publicPages": 9,
+    "exactProductionAssets": 11,
+    "internalPublicLinks": 90,
+    "evidence": "docs/editorial/2026-11-01-three-publication.json"
+  }
 }
