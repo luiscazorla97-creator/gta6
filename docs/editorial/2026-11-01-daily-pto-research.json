@@ -3,7 +3,7 @@
   "checkedAt": "2026-11-01T22:28:20.214288+00:00",
   "timezone": "America/New_York",
   "scope": "Exactly1 GTA VI news topic, complete ES/EN/FR versions. No schedule changes. Authorised through2026-11-19inclusive, date checked before publishing.",
-  "status": "Prepared; all required local checks passed, public publication pending.",
+  "status": "Published and publicly verified",
   "runtime": {
     "provider": "cloud",
     "observationsCurrent": true,
@@ -123,7 +123,7 @@
     },
     "browser": "6passed: all3versions desktop/mobile, metadata/canonical/hreflang/schema/date/sitemap, decoded credited cover,3row comparison table, localized internal200links, real selector navigation, nooverflow, no popunder/unconditional Analytics scripts. Provider ad scripts stubbed; no adfill claim.",
     "diffCheck": "passed",
-    "public": "Pending actual deployment/URL verification."
+    "public": "Passed: all3 public URLs200, exact metadata/dates/indexability, original credited cover, sitemap,57internal200links and4production assets byte-equal to tested release."
   },
   "unchanged": [
     "AdSense verification and ads.txt",
@@ -133,5 +133,14 @@
     "Subscriptions/paid services",
     "BarberControl",
     "Daily cadence/end date"
-  ]
+  ],
+  "publication": {
+    "runtimeCommit": "c80bff341f73dcab6ec4707db27bca64a0dbe49a",
+    "deployment": "c0afb72f-12d5-48ca-974e-59b617ff8029",
+    "verifiedAt": "2026-11-01T22:30:19.011112+00:00",
+    "publicVersions": 3,
+    "exactAssets": 4,
+    "internalLinks": 57,
+    "evidence": "docs/editorial/2026-11-01-daily-pto-publication.json"
+  }
 }
