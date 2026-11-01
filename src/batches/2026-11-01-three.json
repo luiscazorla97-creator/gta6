@@ -1,0 +1,791 @@
+[
+  {
+    "key": "hunting",
+    "category": "guides",
+    "slug": [
+      "gta-6-caza-animales-dinero-actividad",
+      "gta-6-hunting-animals-money-activity",
+      "gta-6-chasse-animaux-argent-activite"
+    ],
+    "imageKeys": [
+      "feature-hunters",
+      "feature-forest-wildlife",
+      "feature-mountain"
+    ],
+    "tag": [
+      "GTA VI · CAZA Y NATURALEZA",
+      "GTA VI · HUNTING AND WILDLIFE",
+      "GTA VI · CHASSE ET NATURE"
+    ],
+    "title": [
+      "Caza en GTA 6: animales, dinero y diferencias con RDR2",
+      "GTA 6 hunting: animals, money and differences from RDR2",
+      "Chasse dans GTA 6 : animaux, argent et différences avec RDR2"
+    ],
+    "excerpt": [
+      "La caza de GTA 6 dará dinero mediante un contacto de Jason, según TGG. Repasamos lo explicado por Rockstar y qué falta saber sobre presas y recompensas.",
+      "GTA 6 hunting pays through a contact of Jason’s, according to TGG. Here is what Rockstar has explained and what remains unknown about prey and rewards.",
+      "La chasse dans GTA 6 rapportera de l’argent via un contact de Jason, selon TGG. Voici les détails connus et les limites sur les proies et récompenses."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "¿Habrá caza en GTA 6? De dónde sale la información",
+          "Will GTA 6 have hunting? Where the information comes from",
+          "Y aura-t-il de la chasse dans GTA 6 ? Les sources"
+        ],
+        "paragraphs": [
+          [
+            "Sí: la caza aparece entre las actividades descritas tras las presentaciones de GTA VI en Rockstar North. El desglose de TGG y la cobertura de iGrandTheftAuto del 3 de septiembre de 2026 vinculan esta actividad a ganar dinero y a un personaje que conoce a Jason. Es información de un avance con explicaciones del estudio, no una ruta que FansGTA haya probado con el juego terminado.",
+            "Yes: hunting is among the activities described after the GTA VI presentations at Rockstar North. TGG’s breakdown and iGrandTheftAuto’s September 3, 2026 report connect the activity to earning money and to someone who knows Jason. This comes from preview information and the studio’s explanations, rather than a route FansGTA has tested in the finished game.",
+            "Oui : la chasse figure parmi les activités décrites après les présentations de GTA VI chez Rockstar North. La vidéo de TGG et l’article d’iGrandTheftAuto du 3 septembre 2026 la relient à un revenu et à une connaissance de Jason. Ces informations viennent d’un aperçu et des explications du studio, pas d’un parcours testé par FansGTA dans le jeu final."
+          ],
+          [
+            "Esta guía está revisada el 1 de noviembre de 2026. La fecha de revisión no convierte aquellas declaraciones de septiembre en un anuncio nuevo: sirve para reunir lo verificable y responder qué se puede esperar de la actividad sin completar sus huecos con rumores.",
+            "This guide was checked on November 1, 2026. That check does not turn September’s statements into a new announcement: it brings together the verifiable details and explains what to expect without filling the gaps with rumours.",
+            "Ce guide a été vérifié le 1er novembre 2026. Cette vérification ne transforme pas les déclarations de septembre en nouvelle annonce : elle rassemble les éléments vérifiables sans combler les lacunes par des rumeurs."
+          ]
+        ],
+        "refs": [
+          "activities",
+          "tgg"
+        ]
+      },
+      {
+        "heading": [
+          "Cómo se relaciona la caza con el dinero de Jason",
+          "How hunting connects to Jason and earning money",
+          "Le lien entre la chasse, Jason et l’argent"
+        ],
+        "paragraphs": [
+          [
+            "El dato útil es su función económica: el avance la presenta como una forma de conseguir dinero, introducida mediante alguien del entorno de Jason. Eso la distingue de una simple animación ambiental. Sin embargo, la cobertura consultada no identifica un precio por animal, un punto de venta concreto ni una cadena de encargos que podamos reproducir paso a paso.",
+            "Its practical purpose is economic: the preview presents it as a way to earn money, introduced through someone Jason knows. That makes it more than background wildlife animation. However, the coverage checked does not identify a price per animal, a specific selling point or a sequence of jobs that we can reproduce step by step.",
+            "Son rôle pratique est économique : l’aperçu la présente comme un moyen de gagner de l’argent, introduit par une connaissance de Jason. Il ne s’agit donc pas simplement d’animaux dans le décor. Les sources consultées ne donnent toutefois ni prix par animal, ni lieu de vente précis, ni suite de contrats reproductible étape par étape."
+          ],
+          [
+            "Que Jason sea el vínculo narrativo tampoco demuestra que Lucia quede excluida. Para afirmar quién puede participar, cuándo se desbloquea o si se permite acudir con la pareja hace falta una explicación específica de esos requisitos. Por ahora no publicamos un nombre inventado para ese contacto.",
+            "Jason being the narrative connection does not establish that Lucia is excluded. Specifying who can participate, when it unlocks or whether a partner can come along requires evidence about those particular requirements. We are not assigning an invented name to the contact.",
+            "Le lien narratif avec Jason ne prouve pas que Lucia soit exclue. Savoir qui peut participer, quand l’activité devient accessible ou si le partenaire peut accompagner demande une explication précise de ces conditions. Nous n’attribuons pas de nom inventé à ce contact."
+          ]
+        ],
+        "refs": [
+          "activities"
+        ]
+      },
+      {
+        "heading": [
+          "Animales y lugares: qué muestran las imágenes oficiales",
+          "Animals and locations: what official images show",
+          "Animaux et lieux : ce que montrent les images officielles"
+        ],
+        "paragraphs": [
+          [
+            "La galería de Mount Kalaga contiene una escena de dos personas con rifles entre los árboles y otra de fauna junto al agua. Son imágenes auténticas de Rockstar y encajan con el entorno natural del parque. Permiten observar el escenario y sus animales; no muestran una pantalla de recompensas, un marcador de misión ni una tabla de especies cazables.",
+            "The Mount Kalaga gallery includes two people carrying rifles among the trees and wildlife beside water. These are authentic Rockstar images that illustrate the park’s natural setting. They show the environment and its animals, rather than a reward screen, a mission marker or a list of huntable species.",
+            "La galerie de Mount Kalaga montre deux personnes portant des fusils dans les bois, ainsi que des animaux au bord de l’eau. Ces images authentiques de Rockstar illustrent le cadre naturel du parc. Elles ne présentent ni écran de récompenses, ni marqueur de mission, ni liste des espèces que l’on peut chasser."
+          ],
+          [
+            "Por eso conviene separar dos búsquedas: ver qué fauna aparece en Leonida y averiguar qué presas admite una actividad concreta. Nuestro catálogo de animales cubre la primera. Para la segunda no trasladamos automáticamente cada especie vista en una captura a una lista de objetivos de caza, ni marcamos coordenadas deducidas de un paisaje.",
+            "Two searches should therefore stay separate: discovering Leonida’s wildlife and finding out which animals a particular activity accepts as targets. Our wildlife guide addresses the former. For the latter, we do not automatically turn every pictured species into a hunting target or derive exact coordinates from scenery.",
+            "Il faut donc distinguer deux recherches : découvrir la faune de Leonida et connaître les proies acceptées par une activité précise. Notre guide des animaux traite la première. Pour la seconde, chaque espèce visible ne devient pas automatiquement une cible de chasse, et un paysage ne suffit pas à donner des coordonnées."
+          ]
+        ],
+        "refs": [
+          "gallery",
+          "kalaga",
+          "related-wildlife"
+        ]
+      },
+      {
+        "heading": [
+          "Caza, pesca y fauna: tres conceptos distintos",
+          "Hunting, fishing and wildlife are different subjects",
+          "Chasse, pêche et faune : trois notions distinctes"
+        ],
+        "paragraphs": [
+          [
+            "La diferencia entre estas actividades ayuda a elegir qué información consultar. La misma cobertura de TGG distingue la finalidad económica de la caza de la pesca con devolución de las capturas. Tener animales en el mundo, por su parte, no constituye por sí solo un sistema de contratos.",
+            "The distinction helps you choose the relevant information. The same TGG coverage separates hunting’s economic purpose from fishing’s catch-and-release approach. Animals existing in the world do not, by themselves, establish a contract system.",
+            "Cette distinction aide à consulter les bonnes informations. La même couverture de TGG sépare l’objectif économique de la chasse de la remise à l’eau des poissons. La présence d’animaux dans le monde ne constitue pas, à elle seule, un système de contrats."
+          ]
+        ],
+        "refs": [
+          "activities",
+          "related-fishing"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Tema",
+              "Subject",
+              "Sujet"
+            ],
+            [
+              "Lo respaldado por las fuentes",
+              "What the sources support",
+              "Ce que les sources étayent"
+            ],
+            [
+              "Límite de la información",
+              "Information limit",
+              "Limite des informations"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Caza",
+                "Hunting",
+                "Chasse"
+              ],
+              [
+                "Una forma de ganar dinero vinculada a un contacto de Jason.",
+                "A way to earn money linked to a contact of Jason’s.",
+                "Un revenu lié à une connaissance de Jason."
+              ],
+              [
+                "Sin tarifas ni lista completa de presas verificadas.",
+                "No verified rates or complete prey list.",
+                "Pas de tarifs ni de liste complète des proies vérifiés."
+              ]
+            ],
+            [
+              [
+                "Pesca",
+                "Fishing",
+                "Pêche"
+              ],
+              [
+                "Capturar y soltar; se describen desafíos y contenido asociado.",
+                "Catch and release, with challenges and associated content described.",
+                "Attraper puis relâcher, avec des défis et du contenu associé décrits."
+              ],
+              [
+                "No convertirla en una venta de peces no documentada.",
+                "Do not assume an undocumented fish-selling loop.",
+                "Ne pas supposer une vente de poissons non documentée."
+              ]
+            ],
+            [
+              [
+                "Fauna ambiental",
+                "World wildlife",
+                "Faune du monde"
+              ],
+              [
+                "Animales visibles en material oficial de Leonida.",
+                "Animals visible in official Leonida material.",
+                "Animaux visibles dans le matériel officiel de Leonida."
+              ],
+              [
+                "Una aparición no confirma que una especie sea una presa.",
+                "An appearance does not confirm a species is huntable.",
+                "Une apparition ne confirme pas qu’une espèce est chassable."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Por qué no es correcto copiar el sistema de RDR2",
+          "Why RDR2’s systems cannot simply be copied across",
+          "Pourquoi il ne faut pas recopier les systèmes de RDR2"
+        ],
+        "paragraphs": [
+          [
+            "La comparación con Red Dead Redemption 2 es comprensible por sus bosques, animales y seguimiento de las necesidades de los protagonistas. Pero el resumen del avance diferencia expresamente la caza de GTA VI de los sistemas de caza y fabricación del western. Compartir ideas de diseño no confirma compartir sus menús o su economía.",
+            "Comparisons with Red Dead Redemption 2 are understandable given the forests, animals and character needs. However, the preview summary explicitly distinguishes GTA VI’s hunting from the western’s hunting and crafting systems. Shared design ideas do not establish shared menus or an identical economy.",
+            "La comparaison avec Red Dead Redemption 2 se comprend au vu des forêts, des animaux et des besoins des personnages. Le résumé de l’aperçu distingue pourtant la chasse de GTA VI des systèmes de chasse et de fabrication du western. Des idées de conception communes ne prouvent pas des menus ou une économie identiques."
+          ],
+          [
+            "No hay base suficiente en estas fuentes para prometer pieles de tres estrellas, animales legendarios, talismanes, un trampero o recetas de fabricación. Tampoco hay una prueba propia que permita recomendar un arma para conservar la calidad de una piel. Si buscas esos detalles, una guía fiable debe identificar primero una fuente específica de GTA VI.",
+            "These sources do not justify promising three-star pelts, legendary animals, talismans, a trapper or crafting recipes. Nor do we have a hands-on test that would justify recommending a weapon to preserve pelt quality. Reliable advice about those details needs GTA VI-specific evidence first.",
+            "Ces sources ne permettent pas de promettre des peaux trois étoiles, des animaux légendaires, des talismans, un trappeur ou des recettes de fabrication. Nous n’avons pas non plus testé une arme pour préserver la qualité d’une peau. Des conseils fiables sur ces points demandent d’abord une source propre à GTA VI."
+          ]
+        ],
+        "refs": [
+          "activities"
+        ]
+      },
+      {
+        "heading": [
+          "¿Será una forma rápida de ganar dinero?",
+          "Will hunting be a fast way to make money?",
+          "La chasse permettra-t-elle de gagner rapidement de l’argent ?"
+        ],
+        "paragraphs": [
+          [
+            "Todavía no podemos calcular una rentabilidad por hora. Harían falta la recompensa, el tiempo del recorrido, los gastos y las condiciones de entrega. Una cifra de ingresos sin esos datos sería una estimación presentada como guía. Lo verificable es la finalidad de ganar dinero, no su posición entre los métodos más eficientes.",
+            "We cannot calculate hourly returns yet. That would require rewards, journey times, expenses and delivery conditions. An earnings figure without those inputs would be an estimate disguised as a guide. The supported point is that hunting earns money, rather than that it ranks among the most efficient methods.",
+            "Nous ne pouvons pas encore calculer un revenu horaire. Il faudrait connaître les récompenses, les trajets, les dépenses et les conditions de livraison. Un montant sans ces données serait une estimation présentée comme un guide. La source étaye un revenu, pas un classement parmi les méthodes les plus rentables."
+          ],
+          [
+            "La guía de fondos para misiones explica por separado por qué el dinero puede importar en la progresión de la historia. No mezclamos esa explicación con un supuesto requisito de cazar para avanzar: el avance consultado no establece esa obligación.",
+            "Our mission-funding guide separately explains why money can matter to story progression. That does not establish a requirement to hunt in order to advance: the preview checked does not describe such an obligation.",
+            "Notre guide sur les fonds nécessaires aux missions explique séparément l’importance possible de l’argent dans l’histoire. Cela ne signifie pas qu’il faille chasser pour progresser : l’aperçu consulté n’établit pas cette obligation."
+          ]
+        ],
+        "refs": [
+          "activities",
+          "related-money"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes sobre la caza de GTA VI",
+          "GTA VI hunting FAQ",
+          "Questions fréquentes sur la chasse dans GTA VI"
+        ],
+        "paragraphs": [
+          [
+            "¿Se podrá cazar en todo el mapa? No hay una delimitación completa de zonas en las fuentes citadas. Mount Kalaga aporta contexto visual oficial, pero eso no permite declarar que sea el único lugar ni señalar un inicio de misión exacto.",
+            "Can you hunt across the entire map? The cited sources do not provide a complete boundary for hunting areas. Mount Kalaga supplies official visual context, but that does not make it the only location or reveal an exact mission start.",
+            "Pourra-t-on chasser sur toute la carte ? Les sources citées ne délimitent pas toutes les zones. Mount Kalaga fournit un contexte visuel officiel, sans être nécessairement le seul lieu ni révéler un départ de mission exact."
+          ],
+          [
+            "¿Se venden los animales y cuánto pagan? La actividad se describe como una fuente de dinero, pero aún no tenemos un procedimiento de venta y una tabla de pagos verificados. ¿Tiene las mismas reglas que la pesca? No: la cobertura distingue la caza con finalidad económica de la pesca con devolución. Consulta las guías enlazadas para ampliar esos dos temas sin confundirlos.",
+            "Are animals sold, and how much do they pay? Hunting is described as a source of money, but we do not yet have a verified sales procedure or payout table. Does it follow fishing’s rules? No: the coverage distinguishes hunting for money from catch-and-release fishing. The linked guides explain the related subjects separately.",
+            "Vend-on les animaux, et à quel prix ? La chasse est décrite comme un revenu, mais nous n’avons pas de procédure de vente ni de barème vérifiés. Suit-elle les règles de la pêche ? Non : les sources distinguent la chasse rémunératrice de la pêche avec remise à l’eau. Les guides liés développent séparément ces sujets."
+          ]
+        ],
+        "refs": [
+          "activities",
+          "related-fishing",
+          "related-kalaga"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "gang-compounds",
+    "category": "missions",
+    "slug": [
+      "gta-6-bandas-recintos-ptt-youngins",
+      "gta-6-gangs-compounds-ptt-youngins",
+      "gta-6-gangs-repaires-ptt-youngins"
+    ],
+    "imageKeys": [
+      "feature-ptt-compound",
+      "feature-aiming",
+      "feature-couple"
+    ],
+    "tag": [
+      "GTA VI · BANDAS Y RECINTOS",
+      "GTA VI · GANGS AND COMPOUNDS",
+      "GTA VI · GANGS ET REPAIRES"
+    ],
+    "title": [
+      "Bandas de GTA 6: recintos y el golpe a PTT Youngin$",
+      "GTA 6 gangs: compounds and the PTT Youngin$ raid",
+      "Gangs de GTA 6 : repaires et raid des PTT Youngin$"
+    ],
+    "excerpt": [
+      "GTA 6 tendrá recintos de bandas como objetivos. Explicamos el de PTT Youngin$ en Southside, su vínculo con Ultimate y qué se sabe de las recompensas.",
+      "GTA 6 features gang compounds as targets. Explore the PTT Youngin$ site in Southside, its Ultimate Edition connection and what is known about the rewards.",
+      "GTA 6 prévoit des repaires de gangs à attaquer. Voici celui des PTT Youngin$ à Southside, son lien avec Ultimate et les récompenses décrites."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué se ha dicho sobre las bandas en GTA 6",
+          "What has been said about gangs in GTA 6",
+          "Ce qui a été annoncé sur les gangs dans GTA 6"
+        ],
+        "paragraphs": [
+          [
+            "Los recintos de bandas forman parte de las oportunidades de acción descritas por Rob Nelson. En la entrevista de IGN publicada el 7 de octubre de 2026, disponible íntegra en Best Buy Gamers, el responsable de Rockstar North los enumera junto a los robos y el robo de coches para compradores. Eso respalda la existencia de objetivos relacionados con bandas; no ofrece un catálogo de todas las organizaciones del juego.",
+            "Gang compounds are among the action opportunities described by Rob Nelson. In IGN’s October 7, 2026 interview, available in full through Best Buy Gamers, Rockstar North’s co-studio head lists them alongside robberies and stealing cars for fences. That supports the existence of gang-related targets, rather than a complete catalogue of the game’s organisations.",
+            "Les repaires de gangs font partie des possibilités d’action décrites par Rob Nelson. Dans l’entretien d’IGN publié le 7 octobre 2026, disponible intégralement chez Best Buy Gamers, le codirecteur de Rockstar North les cite avec les braquages et les vols de voitures pour des receleurs. Cela étaye l’existence de ces cibles, sans fournir un catalogue de toutes les organisations du jeu."
+          ],
+          [
+            "Hay además un caso con nombre propio en las fichas oficiales: PTT Youngin$. Esta guía reúne la entrevista y las descripciones de Rockstar y PlayStation, comprobadas el 1 de noviembre. No presenta una partida propia ni convierte la fecha de revisión en la de un anuncio nuevo.",
+            "There is also a named example in the official listings: PTT Youngin$. This guide brings together the interview and Rockstar and PlayStation descriptions, checked on November 1. It is not a hands-on playthrough, and the review date is not being presented as a new announcement date.",
+            "Un exemple porte aussi un nom dans les fiches officielles : PTT Youngin$. Ce guide réunit l’entretien et les descriptions de Rockstar et PlayStation, vérifiés le 1er novembre. Il ne s’agit pas d’une partie effectuée par FansGTA, ni d’une nouvelle annonce à cette date."
+          ]
+        ],
+        "refs": [
+          "interview",
+          "official",
+          "sony"
+        ]
+      },
+      {
+        "heading": [
+          "Quiénes son PTT Youngin$ y dónde está su recinto",
+          "Who are PTT Youngin$, and where is their compound?",
+          "Qui sont les PTT Youngin$, et où se trouve leur repaire ?"
+        ],
+        "paragraphs": [
+          [
+            "La descripción oficial sitúa a PTT Youngin$ en Southside, Vice City, y los presenta como una banda especialmente ruidosa y activa en redes sociales. En la web de Rockstar, el beneficio figura como “PTT YOUNGIN$ Illegal Goods Store”, bajo la categoría “Gang Compound”. En PlayStation aparece como “PTT YOUNGIN$ COMPOUND”. Son dos denominaciones del contenido descrito, no dos misiones distintas que debamos sumar.",
+            "The official description places PTT Youngin$ in Southside, Vice City, and portrays them as a particularly loud, socially active gang. Rockstar’s site calls the benefit “PTT YOUNGIN$ Illegal Goods Store”, under “Gang Compound”. PlayStation lists “PTT YOUNGIN$ COMPOUND”. These are different labels for the described content, rather than two separate missions to count.",
+            "La description officielle situe les PTT Youngin$ à Southside, Vice City, et les présente comme un gang particulièrement bruyant et actif sur les réseaux sociaux. Le site de Rockstar nomme cet avantage « PTT YOUNGIN$ Illegal Goods Store », sous « Gang Compound ». PlayStation utilise « PTT YOUNGIN$ COMPOUND ». Ce sont des intitulés différents du contenu décrit, pas deux missions à additionner."
+          ],
+          [
+            "La imagen promocional muestra a varios miembros reunidos fuera del local, con una moto y alguien grabando con el teléfono. La estética ayuda a reconocer la presentación de la banda, pero no revela su jerarquía, número de integrantes o posición exacta en el mapa jugable. Southside es la localización textual comprobada; no añadimos coordenadas de mapas de fans como si fueran de Rockstar.",
+            "The promotional image shows members outside the store, with a motorcycle and someone filming on a phone. It establishes the gang’s visual presentation, without revealing its hierarchy, total membership or exact playable-map position. Southside is the verified textual location; fan-map coordinates are not being passed off as Rockstar’s.",
+            "L’image promotionnelle montre des membres devant le local, avec une moto et une personne filmant au téléphone. Elle aide à reconnaître le gang sans révéler sa hiérarchie, ses effectifs ou sa position exacte sur la carte jouable. Southside est la localisation textuelle vérifiée ; les coordonnées de cartes de fans ne deviennent pas celles de Rockstar."
+          ]
+        ],
+        "refs": [
+          "official",
+          "sony",
+          "gallery"
+        ]
+      },
+      {
+        "heading": [
+          "En qué consiste el golpe y qué recompensa promete",
+          "What the raid involves and what rewards are described",
+          "Le principe du raid et les récompenses décrites"
+        ],
+        "paragraphs": [
+          [
+            "La ficha propone asaltar el recinto y escapar a salvo para conseguir objetos especiales y contrabando específico. El objetivo descrito incluye tanto la entrada como la salida: no se limita a mirar una tienda ni a comprar en un comercio de mercancías ilegales. La palabra “Store” del nombre no basta para deducir que funcione como un vendedor normal.",
+            "The listing describes raiding the compound and escaping safely to obtain special items and distinct contraband. Both the raid and the escape are part of that description: this is not simply sightseeing or shopping at an illegal-goods retailer. “Store” in the name does not establish ordinary vendor functionality.",
+            "La fiche décrit un raid suivi d’une fuite réussie pour obtenir des objets spéciaux et une contrebande particulière. L’assaut et la sortie font donc partie du principe annoncé : il ne s’agit pas seulement de visiter un magasin ou d’y faire des achats. Le mot « Store » ne prouve pas un fonctionnement de vendeur classique."
+          ],
+          [
+            "No se detallan aquí el valor del botín, un inventario completo de objetos, las condiciones de venta o la frecuencia con que podría repetirse. Por eso no prometemos un arma exclusiva concreta ni una ruta de dinero infinito. La formulación oficial es más limitada que esas interpretaciones y debe conservarse al comparar ediciones.",
+            "These listings do not specify loot value, a complete item inventory, sale conditions or replay frequency. We therefore do not promise a particular exclusive weapon or an infinite-money route. The official wording is narrower than those interpretations and should remain so when comparing editions.",
+            "Ces fiches ne détaillent ni la valeur du butin, ni tous les objets, ni les conditions de vente, ni une fréquence de répétition. Nous ne promettons donc pas une arme exclusive précise ou un revenu infini. La formulation officielle est plus limitée, y compris pour comparer les éditions."
+          ]
+        ],
+        "refs": [
+          "official",
+          "sony"
+        ]
+      },
+      {
+        "heading": [
+          "PTT Youngin$ y Ultimate: qué incluye cada afirmación",
+          "PTT Youngin$ and Ultimate: keeping the claims separate",
+          "PTT Youngin$ et Ultimate : distinguer les informations"
+        ],
+        "paragraphs": [
+          [
+            "El recinto concreto de PTT Youngin$ está anunciado entre los extras de Ultimate Edition. En cambio, la entrevista habla de recintos de bandas como parte de las acciones del mundo abierto. No se puede convertir un extra identificado en una conclusión de que todas las bandas, todos los recintos o todos los enfrentamientos estén reservados a Ultimate.",
+            "The specific PTT Youngin$ compound is advertised among the Ultimate Edition extras. The interview, meanwhile, discusses gang compounds as open-world action opportunities. One named benefit does not establish that all gangs, every compound or every confrontation is exclusive to Ultimate.",
+            "Le repaire précis des PTT Youngin$ est annoncé parmi les suppléments d’Ultimate Edition. L’entretien parle pour sa part des repaires de gangs parmi les possibilités d’action du monde ouvert. Un avantage identifié ne signifie pas que tous les gangs, tous les repaires ou tous les affrontements soient réservés à Ultimate."
+          ]
+        ],
+        "refs": [
+          "official",
+          "sony",
+          "editions"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Elemento",
+              "Item",
+              "Élément"
+            ],
+            [
+              "Fuente y alcance",
+              "Source and scope",
+              "Source et portée"
+            ],
+            [
+              "Qué no demuestra",
+              "What it does not establish",
+              "Ce que cela ne prouve pas"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Recintos de bandas",
+                "Gang compounds",
+                "Repaires de gangs"
+              ],
+              [
+                "Rob Nelson los menciona como oportunidades de acción.",
+                "Rob Nelson mentions them as action opportunities.",
+                "Rob Nelson les cite parmi les possibilités d’action."
+              ],
+              [
+                "No es una lista completa de ubicaciones.",
+                "It is not a complete location list.",
+                "Ce n’est pas une liste complète des lieux."
+              ]
+            ],
+            [
+              [
+                "PTT Youngin$ Compound",
+                "PTT Youngin$ Compound",
+                "PTT Youngin$ Compound"
+              ],
+              [
+                "Beneficio concreto anunciado para Ultimate.",
+                "A specific advertised Ultimate benefit.",
+                "Un avantage précis annoncé pour Ultimate."
+              ],
+              [
+                "No demuestra que todas las bandas sean un extra de pago.",
+                "It does not make all gangs a paid extra.",
+                "Cela ne rend pas tous les gangs payants."
+              ]
+            ],
+            [
+              [
+                "Objetos y contrabando",
+                "Items and contraband",
+                "Objets et contrebande"
+              ],
+              [
+                "Recompensa descrita para una fuga exitosa del recinto.",
+                "Described reward for escaping the compound safely.",
+                "Récompense décrite après une fuite réussie du repaire."
+              ],
+              [
+                "Sin cantidades, tarifas o catálogo completo en estas fichas.",
+                "No quantities, rates or full catalogue in these listings.",
+                "Pas de quantités, de tarifs ou de catalogue complet dans ces fiches."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Cómo prepararse sin inventar una solución de la misión",
+          "How to think about preparation without inventing a walkthrough",
+          "Préparer le raid sans inventer une solution de mission"
+        ],
+        "paragraphs": [
+          [
+            "Como criterio de planificación, interesa distinguir el objetivo, las salidas posibles y la forma de abandonar la zona. Es una lectura del requisito oficial de escapar a salvo, no una secuencia probada de puertas, enemigos o controles. Hasta contar con una misión accesible no sería serio indicar una entrada secreta o una combinación ganadora de armas.",
+            "Planning can focus on the objective, possible exits and getting away from the area. That follows from the official requirement to escape safely; it is not a tested sequence of doors, enemies or controls. Without an accessible mission, a secret entrance or a guaranteed weapon combination would be invented advice.",
+            "La préparation peut se concentrer sur l’objectif, les sorties possibles et la fuite hors de la zone. C’est une lecture de la condition officielle de s’échapper à l’abri, pas une suite testée de portes, d’ennemis ou de commandes. Sans mission accessible, une entrée secrète ou une combinaison d’armes garantie serait un conseil inventé."
+          ],
+          [
+            "Nuestras guías de policía e inventario de armas explican los sistemas descritos en los avances. Sirven como contexto, sin atribuir al recinto un nivel de búsqueda, un número de guardias o una cantidad de munición que las fuentes no dan. Las imágenes de acción dentro de esta guía son material oficial contextual, no capturas de una ruta completada en PTT.",
+            "Our police and weapon-inventory guides explain systems described in previews. They provide context without assigning this compound a wanted level, guard count or ammunition requirement that the sources do not give. The action images here are official contextual material, rather than screenshots of a completed PTT route.",
+            "Nos guides sur la police et l’inventaire des armes expliquent les systèmes décrits dans les aperçus. Ils apportent du contexte sans attribuer au repaire un indice de recherche, un nombre de gardes ou un besoin en munitions non sourcés. Les images d’action sont officielles et contextuelles, pas celles d’un parcours terminé chez les PTT."
+          ]
+        ],
+        "refs": [
+          "official",
+          "related-police",
+          "related-weapons"
+        ]
+      },
+      {
+        "heading": [
+          "Bandas, territorios y robos a comercios no son lo mismo",
+          "Gangs, territory control and shop robberies are different",
+          "Gangs, contrôle de territoire et braquages sont distincts"
+        ],
+        "paragraphs": [
+          [
+            "Atacar una base de una banda no confirma un sistema de conquista territorial al estilo de San Andreas. Haría falta saber si hay zonas capturables, disputas persistentes y reglas de control. La frase de la entrevista no aporta esas mecánicas, así que no publicamos un mapa de territorios ni una lista de jefes como datos confirmados.",
+            "Attacking a gang base does not establish San Andreas-style territory conquest. That would require evidence of capturable areas, persistent conflicts and control rules. The interview’s wording does not provide those mechanics, so we are not publishing a territory map or boss roster as confirmed data.",
+            "Attaquer une base de gang ne prouve pas un système de conquête territoriale à la San Andreas. Il faudrait connaître les zones capturables, les conflits persistants et les règles de contrôle. La phrase de l’entretien ne donne pas ces mécaniques : nous ne présentons donc pas de carte des territoires ou de chefs comme confirmée."
+          ],
+          [
+            "Tampoco duplicamos aquí nuestra guía de robos a tiendas. Aquella resuelve la búsqueda sobre comercios y reacciones; esta se centra en un recinto de una organización, en sus recompensas descritas y en su condición de extra de Ultimate. Esa diferencia evita confundir dos oportunidades de acción mencionadas por Nelson.",
+            "This also stays separate from our store-robbery guide. That article covers businesses and reactions; this one focuses on an organisation’s compound, its described rewards and the named Ultimate benefit. The distinction avoids merging two action opportunities Nelson lists separately.",
+            "Ce sujet reste aussi distinct de notre guide des braquages de magasins. Celui-ci traite des commerces et des réactions ; le présent article se concentre sur le repaire d’une organisation, ses récompenses décrites et l’avantage Ultimate identifié. La distinction respecte deux possibilités d’action citées séparément par Nelson."
+          ]
+        ],
+        "refs": [
+          "interview",
+          "related-robberies"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes sobre PTT Youngin$",
+          "PTT Youngin$ FAQ",
+          "Questions fréquentes sur les PTT Youngin$"
+        ],
+        "paragraphs": [
+          [
+            "¿Está en GTA Online? Las fichas citadas lo presentan entre los beneficios de GTA VI; no es una actividad de GTA Online ya disponible. ¿Dónde se encuentra? La referencia oficial es Southside, Vice City, sin una ruta calle por calle en el material revisado.",
+            "Is it in GTA Online? The cited listings present it among GTA VI’s benefits; it is not an already available GTA Online activity. Where is it? The official reference is Southside, Vice City, without street-by-street directions in the material checked.",
+            "Est-ce dans GTA Online ? Les fiches citées le présentent parmi les avantages de GTA VI ; ce n’est pas une activité de GTA Online déjà disponible. Où se trouve-t-il ? La référence officielle est Southside, Vice City, sans itinéraire rue par rue dans les documents vérifiés."
+          ],
+          [
+            "¿Hace falta Ultimate para este recinto? Es el contenido concreto anunciado para esa edición. ¿Podrá repetirse para conseguir contrabando ilimitado? Las fuentes revisadas no permiten prometer esa frecuencia o esa cantidad. Antes de elegir una edición, consulta la comparación y las condiciones vigentes de tu tienda.",
+            "Does this compound require Ultimate? It is the specific content advertised for that edition. Can it be replayed for unlimited contraband? The checked sources do not justify promising that frequency or quantity. Consult the edition comparison and your store’s current terms before choosing.",
+            "Faut-il Ultimate pour ce repaire ? C’est le contenu précis annoncé pour cette édition. Peut-on le refaire pour obtenir une contrebande illimitée ? Les sources vérifiées ne permettent de promettre ni cette fréquence ni cette quantité. Consultez la comparaison des éditions et les conditions de votre boutique avant de choisir."
+          ]
+        ],
+        "refs": [
+          "sony",
+          "editions",
+          "related-ultimate"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "safehouses",
+    "category": "guides",
+    "slug": [
+      "gta-6-casas-refugios-jason-garajes",
+      "gta-6-houses-safehouses-jason-garages",
+      "gta-6-maisons-planques-jason-garages"
+    ],
+    "imageKeys": [
+      "feature-safehouse-exterior",
+      "feature-safehouse-enduro",
+      "feature-safehouse-kayak"
+    ],
+    "tag": [
+      "GTA VI · CASAS Y REFUGIOS",
+      "GTA VI · HOMES AND SAFEHOUSES",
+      "GTA VI · MAISONS ET PLANQUES"
+    ],
+    "title": [
+      "Casas de GTA 6: refugios de Jason y Lucia, garajes y extras",
+      "GTA 6 houses: Jason and Lucia’s safehouses, garages and extras",
+      "Maisons de GTA 6 : planques de Jason et Lucia, garages et bonus"
+    ],
+    "excerpt": [
+      "Los refugios de GTA 6 cambian con la historia y tienen rutinas compartidas. Así es la casa de Jason, qué explica Rockstar sobre garajes y qué añade Ultimate.",
+      "GTA 6 safehouses change with the story and feature shared routines. Explore Jason’s home, Rockstar’s garage details and the extras advertised for Ultimate.",
+      "Les planques de GTA 6 évoluent avec l’histoire et les routines du duo. Maison de Jason, garages et bonus Ultimate : voici ce qu’explique Rockstar."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La casa de Jason: quién es el propietario",
+          "Jason’s house: who owns it?",
+          "La maison de Jason : qui en est propriétaire ?"
+        ],
+        "paragraphs": [
+          [
+            "Jason vive en una propiedad de Brian Heder sin pagar alquiler, a cambio de ayudar con ciertos trabajos locales. Ese es el acuerdo que describe la biografía oficial de Brian en la web de GTA VI. Por tanto, llamar “casa de Jason” al lugar donde reside no significa que la haya comprado ni que Rockstar haya publicado una tienda de viviendas.",
+            "Jason lives rent-free at one of Brian Heder’s properties in exchange for helping with local shakedowns. That is the arrangement described in Brian’s official GTA VI biography. Calling it “Jason’s house” therefore refers to where he lives, rather than establishing that he bought it or that Rockstar has published a housing marketplace.",
+            "Jason loge sans payer de loyer dans une propriété de Brian Heder, en échange de son aide pour des intimidations locales. C’est l’accord décrit dans la biographie officielle de Brian sur le site de GTA VI. Parler de « maison de Jason » désigne donc son lieu de vie, sans prouver un achat ou l’existence d’un catalogue immobilier."
+          ],
+          [
+            "Rob Nelson sitúa la primera casa de Jason en los Leonida Keys en su entrevista con Famitsu del 28 de agosto de 2026. La traducción inglesa de iGrandTheftAuto apareció el 9 de septiembre. Hemos consultado tanto el original japonés como esa traducción y las descripciones oficiales, revisadas el 1 de noviembre. No son anuncios nuevos de hoy.",
+            "Rob Nelson places Jason’s first home in the Leonida Keys in his August 28, 2026 Famitsu interview. iGrandTheftAuto published an English translation on September 9. We checked both the Japanese original and that translation alongside official descriptions on November 1; these are not new announcements from today.",
+            "Rob Nelson situe la première maison de Jason dans les Leonida Keys lors de son entretien avec Famitsu du 28 août 2026. La traduction anglaise d’iGrandTheftAuto a été publiée le 9 septembre. Nous avons consulté le japonais original et cette traduction, avec les descriptions officielles, le 1er novembre : ce ne sont pas de nouvelles annonces du jour."
+          ]
+        ],
+        "refs": [
+          "people",
+          "famitsu-original",
+          "famitsu"
+        ]
+      },
+      {
+        "heading": [
+          "Refugios que cambian con los capítulos de la historia",
+          "Safehouses that change as the story progresses",
+          "Des planques qui changent au fil des chapitres"
+        ],
+        "paragraphs": [
+          [
+            "La explicación de Famitsu vincula los cambios de refugio al avance de la historia por capítulos. Los personajes pasan por distintos lugares y las personas que conviven allí mantienen sus rutinas. Es una diferencia importante respecto a imaginar una lista de apartamentos desbloqueados únicamente al reunir una cantidad de dinero.",
+            "The Famitsu explanation links changing safehouses to chapter-based story progression. The characters move between places, with the people living there following their own routines. That differs from imagining an apartment catalogue unlocked simply by reaching a cash threshold.",
+            "L’explication donnée à Famitsu lie les changements de planque à la progression de l’histoire par chapitres. Les personnages passent par plusieurs lieux dont les occupants suivent leurs propres routines. Cela diffère d’un catalogue d’appartements accessible uniquement après avoir accumulé une somme d’argent."
+          ],
+          [
+            "No damos el nombre de cada casa ni una secuencia completa de mudanzas: las fuentes no ofrecen ese recorrido. La comparación de Nelson con los campamentos de Red Dead Redemption 2 se refiere a la sensación de habitar un lugar y relacionarse con quienes están allí. No confirma que GTA VI copie las mejoras o la caja de donaciones de aquel juego.",
+            "The sources do not supply every house name or a full sequence of moves, so neither do we. Nelson’s comparison with Red Dead Redemption 2’s camps concerns inhabiting a place and interacting with the people there. It does not confirm that GTA VI copies that game’s upgrades or donation box.",
+            "Les sources ne donnent ni le nom de chaque maison ni toutes les étapes des déménagements. La comparaison de Nelson avec les camps de Red Dead Redemption 2 concerne la sensation de vivre quelque part et d’interagir avec ses occupants. Elle ne confirme pas la reprise des améliorations ou de la caisse de dons de ce jeu."
+          ]
+        ],
+        "refs": [
+          "famitsu-original",
+          "famitsu",
+          "interview"
+        ]
+      },
+      {
+        "heading": [
+          "Qué se puede hacer dentro: rutinas y convivencia",
+          "What happens inside: routines and shared spaces",
+          "À l’intérieur : routines et vie commune"
+        ],
+        "paragraphs": [
+          [
+            "En la demostración descrita por IGN, Jason toma una bebida de la nevera, examina un libro e interactúa con Lucia. Nelson explica que el personaje no controlado sigue un horario y que se puede cambiar entre ambos, con restricciones en determinados momentos narrativos. El interés del refugio está en esa convivencia, no solo en atravesar una puerta para ver una animación.",
+            "In the demonstration described by IGN, Jason takes a drink from the fridge, examines a book and interacts with Lucia. Nelson explains that the uncontrolled character follows a schedule and that switching is possible, with restrictions at particular story moments. The safehouse’s appeal lies in shared routines, rather than simply stepping through a door for an animation.",
+            "Dans la démonstration décrite par IGN, Jason prend une boisson dans le réfrigérateur, examine un livre et interagit avec Lucia. Nelson explique que le personnage non contrôlé suit un emploi du temps et que le changement de protagoniste est possible, avec des restrictions narratives. L’intérêt de la planque tient à cette vie commune, au-delà du simple franchissement d’une porte."
+          ],
+          [
+            "También se describen pequeños arreglos de aspecto, como recortar el pelo o afeitarlo. La entrevista distingue esas acciones de conseguir un peinado nuevo en una peluquería. Nuestra guía de ropa y tatuajes desarrolla esa personalización; aquí importa que el refugio permita algunas acciones cotidianas sin sustituir todos los servicios de la ciudad.",
+            "Minor appearance changes, such as shortening or shaving hair, are also described. The interview distinguishes them from obtaining a new style at a salon. Our clothes and tattoos guide covers that customisation; the point here is that the safehouse supports some everyday actions without replacing every city service.",
+            "De petits changements d’apparence sont aussi décrits, comme raccourcir ou raser les cheveux. L’entretien distingue ces gestes d’une nouvelle coiffure obtenue dans un salon. Notre guide des vêtements et tatouages développe cette personnalisation ; la planque permet certains gestes quotidiens sans remplacer tous les services de la ville."
+          ]
+        ],
+        "refs": [
+          "interview",
+          "related-appearance",
+          "related-switching"
+        ]
+      },
+      {
+        "heading": [
+          "Casas y garajes: qué se compra y qué cambia con la historia",
+          "Houses and garages: purchases versus story progression",
+          "Maisons et garages : achats ou progression de l’histoire"
+        ],
+        "paragraphs": [
+          [
+            "No hay que confundir un refugio narrativo con espacio para vehículos. Nelson sí explica a Famitsu que se pueden comprar garajes por el mapa para ampliar el número de vehículos propios. En la situación inicial descrita hay sitio para tres vehículos; eso no equivale a una capacidad máxima universal para todo el juego.",
+            "A story safehouse should not be confused with vehicle storage. Nelson explicitly tells Famitsu that garages can be bought around the map to expand personal-vehicle capacity. The early situation described has space for three vehicles; that is not a universal maximum for the whole game.",
+            "Une planque narrative ne doit pas être confondue avec le stockage des véhicules. Nelson explique bien à Famitsu que l’on peut acheter des garages sur la carte pour posséder davantage de véhicules. La situation initiale décrite offre trois places ; ce n’est pas une limite universelle pour tout le jeu."
+          ]
+        ],
+        "refs": [
+          "famitsu-original",
+          "famitsu"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Elemento",
+              "Feature",
+              "Élément"
+            ],
+            [
+              "Información disponible",
+              "Available information",
+              "Informations disponibles"
+            ],
+            [
+              "Cómo interpretarlo",
+              "How to read it",
+              "Interprétation"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Refugios",
+                "Safehouses",
+                "Planques"
+              ],
+              [
+                "Cambian al progresar por los capítulos de la historia.",
+                "Change as the story progresses through chapters.",
+                "Changent au fil des chapitres de l’histoire."
+              ],
+              [
+                "No es un catálogo confirmado de viviendas para comprar.",
+                "This is not a confirmed housing catalogue.",
+                "Ce n’est pas un catalogue confirmé de logements à acheter."
+              ]
+            ],
+            [
+              [
+                "Garajes",
+                "Garages",
+                "Garages"
+              ],
+              [
+                "Nelson describe su compra para ampliar el espacio de vehículos.",
+                "Nelson describes buying them to expand vehicle capacity.",
+                "Nelson décrit leur achat pour augmenter le nombre de places."
+              ],
+              [
+                "No trasladar esa compra automáticamente a casas o negocios.",
+                "Do not extend that purchase claim to homes or businesses.",
+                "Ne pas étendre cette possibilité aux maisons ou commerces."
+              ]
+            ],
+            [
+              [
+                "Vehículos de Ultimate",
+                "Ultimate vehicles",
+                "Véhicules Ultimate"
+              ],
+              [
+                "Dinka Enduro y Crest Kayak en el beneficio de la casa de Jason.",
+                "Dinka Enduro and Crest Kayak in Jason’s safehouse benefit.",
+                "Dinka Enduro et Crest Kayak dans l’avantage de la maison de Jason."
+              ],
+              [
+                "Son extras identificados, no la compra del refugio.",
+                "Named extras, rather than purchasing the safehouse.",
+                "Des bonus identifiés, pas l’achat de la planque."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "La nevera: el sistema de compras que Rockstar simplificó",
+          "The fridge: the grocery system Rockstar simplified",
+          "Le réfrigérateur : le système de courses simplifié"
+        ],
+        "paragraphs": [
+          [
+            "Una respuesta de Famitsu aclara un malentendido frecuente. El equipo probó comprar alimentos en una tienda, llevarlos a casa y reponer la nevera. Nelson explica que aquello volvía el sistema demasiado complicado y que tuvieron que simplificarlo. Contar ese experimento como una función actual completa invertiría el sentido de su respuesta.",
+            "A Famitsu answer clears up a frequent misunderstanding. The team experimented with buying groceries at a store, bringing them home and restocking the fridge. Nelson explains that this made the system too complicated and had to be simplified. Presenting the experiment as a complete current feature would reverse the meaning of his answer.",
+            "Une réponse à Famitsu dissipe un malentendu fréquent. L’équipe a essayé l’achat d’aliments en magasin, leur transport à la maison et le réapprovisionnement du réfrigérateur. Nelson explique que le système devenait trop complexe et a dû être simplifié. Présenter cet essai comme une fonctionnalité actuelle complète inverserait le sens de sa réponse."
+          ],
+          [
+            "Eso no elimina la comida de la vida de los protagonistas. La entrevista relaciona comer y entrenar con su estado físico, un tema que desarrollamos en la guía de gimnasio y alimentación. La distinción útil es entre consumir una bebida o un tentempié y tener que gestionar un inventario doméstico de supermercado: la segunda obligación no queda respaldada por ese experimento descartado.",
+            "That does not remove food from the characters’ lives. The interview connects eating and training with physical condition, covered in our gym and food guide. The useful distinction is between having a drink or snack and being required to manage a household grocery inventory: the discarded experiment does not support that second obligation.",
+            "Cela ne supprime pas la nourriture de la vie des protagonistes. L’entretien relie l’alimentation et l’entraînement à leur condition physique, sujet de notre guide sur le sport et les repas. Il faut distinguer boire ou grignoter de l’obligation de gérer les stocks du foyer : l’essai abandonné ne confirme pas cette seconde contrainte."
+          ]
+        ],
+        "refs": [
+          "famitsu-original",
+          "famitsu",
+          "related-gym"
+        ]
+      },
+      {
+        "heading": [
+          "Qué añade Ultimate en la casa de Jason",
+          "What Ultimate adds at Jason’s safehouse",
+          "Les bonus Ultimate à la maison de Jason"
+        ],
+        "paragraphs": [
+          [
+            "El beneficio “Jason’s Safehouse Vehicles” describe dos vehículos: la motocicleta Dinka Enduro con tonos militares y el Crest Kayak. La galería oficial muestra el exterior del refugio y ambos vehículos, por eso usamos esas imágenes auténticas como portada e ilustraciones. No son fotografías de una propiedad comprable ni capturas de un menú de personalización inmobiliaria.",
+            "The “Jason’s Safehouse Vehicles” benefit describes two vehicles: the military-coloured Dinka Enduro motorcycle and the Crest Kayak. The official gallery shows the home’s exterior and both vehicles, which is why these authentic images illustrate this guide. They are not pictures of a purchasable property or screenshots of a housing-customisation menu.",
+            "L’avantage « Jason’s Safehouse Vehicles » décrit deux véhicules : la moto Dinka Enduro aux couleurs militaires et le Crest Kayak. La galerie officielle montre l’extérieur de la maison et ces deux véhicules, d’où leur utilisation pour illustrer ce guide. Ce ne sont pas des images d’une propriété à acheter ou d’un menu de décoration."
+          ],
+          [
+            "La presencia del Vapid Ganado en la imagen exterior tampoco convierte todos los vehículos visibles en parte de ese mismo beneficio. Rockstar describe otros extras por separado. Para comparar compras conviene leer el nombre y contenido de cada ventaja, además de la plataforma y condiciones de la tienda, sin deducir paquetes completos a partir de una sola captura.",
+            "The Vapid Ganado appearing in the exterior shot does not make every pictured vehicle part of that same benefit. Rockstar describes other extras separately. Compare each benefit’s name and contents alongside the platform and store terms, rather than deducing an entire package from a single screenshot.",
+            "La présence du Vapid Ganado sur l’image extérieure ne signifie pas non plus que chaque véhicule visible relève du même avantage. Rockstar décrit d’autres bonus séparément. Il faut comparer les intitulés et contenus, ainsi que la plateforme et les conditions de la boutique, sans déduire tout un lot d’une seule capture."
+          ]
+        ],
+        "refs": [
+          "official",
+          "sony",
+          "related-ultimate"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes sobre las casas de GTA VI",
+          "GTA VI homes and safehouses FAQ",
+          "Questions fréquentes sur les maisons de GTA VI"
+        ],
+        "paragraphs": [
+          [
+            "¿Se podrán comprar mansiones y apartamentos como en GTA Online? Los refugios descritos se relacionan con el progreso narrativo; las fuentes citadas no proporcionan una tienda de mansiones o apartamentos para reproducir ese modelo. La compra que Nelson sí detalla es la de garajes. No trasladamos los precios o servicios de GTA Online a la campaña de GTA VI.",
+            "Can you buy mansions and apartments as in GTA Online? The described safehouses follow story progression; the cited sources do not provide a mansion or apartment marketplace that reproduces that model. The purchase Nelson does detail concerns garages. GTA Online prices and services cannot be transferred to GTA VI’s campaign.",
+            "Pourra-t-on acheter des villas et appartements comme dans GTA Online ? Les planques décrites suivent la progression narrative ; les sources citées ne donnent pas de marché immobilier reprenant ce modèle. L’achat détaillé par Nelson concerne les garages. Les prix et services de GTA Online ne peuvent pas être transposés à la campagne de GTA VI."
+          ],
+          [
+            "¿Necesito Ultimate para tener una casa? El extra identificado son los vehículos de la casa de Jason, no el acceso general a los refugios de la historia. ¿Hay un listado completo de ubicaciones y mejoras? No en el material revisado. Esta guía se limita al acuerdo con Brian, las rutinas mostradas, la progresión de refugios y los extras anunciados; no inventa direcciones o precios.",
+            "Do you need Ultimate to have a home? The named extra concerns Jason’s safehouse vehicles, rather than general access to story safehouses. Is there a full list of locations and upgrades? Not in the material checked. This guide covers Brian’s arrangement, demonstrated routines, safehouse progression and advertised extras without inventing addresses or prices.",
+            "Faut-il Ultimate pour avoir une maison ? Le bonus identifié concerne les véhicules de la maison de Jason, pas l’accès général aux planques de l’histoire. Existe-t-il une liste complète des lieux et améliorations ? Pas dans les documents vérifiés. Ce guide couvre l’accord avec Brian, les routines montrées, les changements de planque et les bonus annoncés, sans inventer d’adresse ou de prix."
+          ]
+        ],
+        "refs": [
+          "people",
+          "famitsu-original",
+          "sony",
+          "related-interiors"
+        ]
+      }
+    ]
+  }
+]

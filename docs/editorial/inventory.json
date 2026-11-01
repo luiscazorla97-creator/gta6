@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-hunting-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Caza en GTA 6: animales, dinero y diferencias con RDR2",
+      "GTA 6 hunting: animals, money and differences from RDR2",
+      "Chasse dans GTA 6 : animaux, argent et différences avec RDR2"
+    ],
+    "paths": [
+      "/es/guias/gta-6-caza-animales-dinero-actividad/",
+      "/en/guides/gta-6-hunting-animals-money-activity/",
+      "/fr/guides/gta-6-chasse-animaux-argent-activite/"
+    ]
+  },
+  {
+    "id": "gta6-gang-compounds-20261101",
+    "category": "missions",
+    "published": "2026-11-01",
+    "titles": [
+      "Bandas de GTA 6: recintos y el golpe a PTT Youngin$",
+      "GTA 6 gangs: compounds and the PTT Youngin$ raid",
+      "Gangs de GTA 6 : repaires et raid des PTT Youngin$"
+    ],
+    "paths": [
+      "/es/misiones/gta-6-bandas-recintos-ptt-youngins/",
+      "/en/missions/gta-6-gangs-compounds-ptt-youngins/",
+      "/fr/missions/gta-6-gangs-repaires-ptt-youngins/"
+    ]
+  },
+  {
+    "id": "gta6-safehouses-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Casas de GTA 6: refugios de Jason y Lucia, garajes y extras",
+      "GTA 6 houses: Jason and Lucia’s safehouses, garages and extras",
+      "Maisons de GTA 6 : planques de Jason et Lucia, garages et bonus"
+    ],
+    "paths": [
+      "/es/guias/gta-6-casas-refugios-jason-garajes/",
+      "/en/guides/gta-6-houses-safehouses-jason-garages/",
+      "/fr/guides/gta-6-maisons-planques-jason-garages/"
+    ]
+  },
+  {
     "id": "gta6-more-wyman-20261031",
     "category": "vehicles",
     "published": "2026-10-31",

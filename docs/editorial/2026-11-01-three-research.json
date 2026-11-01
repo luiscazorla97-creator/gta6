@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-01",
+  "timezone": "America/New_York",
+  "request": "Manual publication of three new GTA VI topics, each complete in Spanish, English and French. Daily one-topic schedule unchanged; authorised final daily date 2026-11-19 inclusive.",
+  "status": "Prepared and locally verified; production publication pending.",
+  "baseline": {
+    "main": "8d515fb2562c948af4ba82214b4bf0f73306962f",
+    "topics": 119,
+    "versions": 357
+  },
+  "execution": {
+    "provider": "cloud",
+    "observationsCurrent": true,
+    "networkPolicy": "unrestricted/enforced",
+    "specRevision": 7,
+    "github": "Fresh origin/main fetched before editing; connected GitHub tools used for publication.",
+    "cloudflare": "Configured account variable and API token ready; actual production outcome recorded separately after deployment.",
+    "localUserPCRequired": false
+  },
+  "topics": [
+    {
+      "id": "gta6-hunting-20261101",
+      "category": "guides",
+      "published": "2026-11-01",
+      "titles": [
+        "Caza en GTA 6: animales, dinero y diferencias con RDR2",
+        "GTA 6 hunting: animals, money and differences from RDR2",
+        "Chasse dans GTA 6 : animaux, argent et différences avec RDR2"
+      ],
+      "paths": [
+        "/es/guias/gta-6-caza-animales-dinero-actividad/",
+        "/en/guides/gta-6-hunting-animals-money-activity/",
+        "/fr/guides/gta-6-chasse-animaux-argent-activite/"
+      ]
+    },
+    {
+      "id": "gta6-gang-compounds-20261101",
+      "category": "missions",
+      "published": "2026-11-01",
+      "titles": [
+        "Bandas de GTA 6: recintos y el golpe a PTT Youngin$",
+        "GTA 6 gangs: compounds and the PTT Youngin$ raid",
+        "Gangs de GTA 6 : repaires et raid des PTT Youngin$"
+      ],
+      "paths": [
+        "/es/misiones/gta-6-bandas-recintos-ptt-youngins/",
+        "/en/missions/gta-6-gangs-compounds-ptt-youngins/",
+        "/fr/missions/gta-6-gangs-repaires-ptt-youngins/"
+      ]
+    },
+    {
+      "id": "gta6-safehouses-20261101",
+      "category": "guides",
+      "published": "2026-11-01",
+      "titles": [
+        "Casas de GTA 6: refugios de Jason y Lucia, garajes y extras",
+        "GTA 6 houses: Jason and Lucia’s safehouses, garages and extras",
+        "Maisons de GTA 6 : planques de Jason et Lucia, garages et bonus"
+      ],
+      "paths": [
+        "/es/guias/gta-6-casas-refugios-jason-garajes/",
+        "/en/guides/gta-6-houses-safehouses-jason-garages/",
+        "/fr/guides/gta-6-maisons-planques-jason-garages/"
+      ]
+    }
+  ],
+  "deduplication": {
+    "method": "Compared all 119 existing articles and translations by search intent, titles, paths and relevant body/section matches. All prior records retained exactly.",
+    "matches": {
+      "hunting": [
+        {
+          "id": "gta6-interest-underwater-20261031",
+          "title": "Buceo en GTA 6: mundo submarino, oxígeno y qué se ha mostrado",
+          "headings": [
+            "La captura oficial de Leonida Keys",
+            "Equipo, oxígeno y capacidad pulmonar: qué dicen los avances",
+            "Explorar no es lo mismo que pescar o cazar",
+            "Fauna y peligros: una imagen no define una regla de ataque",
+            "Preguntas frecuentes: submarinos, tesoros y controles"
+          ]
+        },
+        {
+          "id": "gta6-interest-sports-20261031",
+          "title": "Deportes de GTA 6: baloncesto, billar y minigolf en los avances",
+          "headings": [
+            "Baloncesto: habilidad del jugador y alcance del minijuego",
+            "Billar: una actividad social con ritmo propio",
+            "Minigolf no confirma automáticamente golf completo",
+            "Tenis y otras pistas: la decoración también cuenta",
+            "Preguntas frecuentes: reglas, dinero y multijugador"
+          ]
+        },
+        {
+          "id": "gta6-interest-parachuting-20261031",
+          "title": "Paracaídas y helicópteros de GTA 6: qué se ha mostrado del vuelo",
+          "headings": [
+            "Un salto mostrado y un sistema completo de desafíos",
+            "La imagen oficial del helicóptero de Mount Kalaga",
+            "Volar, saltar y aterrizar requieren comprobaciones diferentes",
+            "La ciudad vertical frente al paisaje abierto",
+            "Preguntas frecuentes: aeropuertos, trucos y compras"
+          ]
+        },
+        {
+          "id": "gta6-fishing-20261031",
+          "title": "Pesca en GTA 6: captura y suelta, equipo y límites",
+          "headings": [
+            "La respuesta y la fuente",
+            "Qué está documentado",
+            "Cómo comprobarlo y evitar confusiones",
+            "Preguntas frecuentes y guía relacionada"
+          ]
+        },
+        {
+          "id": "gta6-wildlife-20261031",
+          "title": "Animales de GTA 6: fauna de Leonida y especies reportadas",
+          "headings": [
+            "Cómo comprobarlo y evitar confusiones"
+          ]
+        }
+      ],
+      "gang-compounds": [],
+      "safehouses": [
+        {
+          "id": "gta6-place-leonida-keys-20261031",
+          "title": "Leonida Keys en GTA 6: islas, bares y vida costera",
+          "headings": [
+            "Lugares, identidad y contexto"
+          ]
+        },
+        {
+          "id": "history-sanandreas-20261030",
+          "title": "Historia de GTA: San Andreas: trama, personajes y creación",
+          "headings": [
+            "El final de CJ, Big Smoke y Tenpenny"
+          ]
+        },
+        {
+          "id": "history-vcs-20261030",
+          "title": "Historia de GTA: Vice City Stories: trama, personajes y creación",
+          "headings": [
+            "El final y su relación con Vice City"
+          ]
+        },
+        {
+          "id": "gta6-jason-lucia-relationship-20261030",
+          "title": "Jason y Lucia en GTA 6: romance y sistema de relación",
+          "headings": [
+            "Refugios, conversaciones y pequeños gestos"
+          ]
+        },
+        {
+          "id": "jason-duval-profile",
+          "title": "Quién es Jason Duval: el pasado que Rockstar revela para GTA 6",
+          "headings": [
+            "Brian Heder, Cal Hampton y el cambio que supone Lucia"
+          ]
+        },
+        {
+          "id": "cal-hampton",
+          "title": "Cal Hampton en GTA 6: historia, relaciones y papel en Leonida",
+          "headings": [
+            "Quién es Cal Hampton y cómo conoce a Jason",
+            "¿Cal confirma que habrá misterios o alienígenas?"
+          ]
+        },
+        {
+          "id": "brian-heder",
+          "title": "Brian Heder en GTA 6: historia, relaciones y papel en Leonida",
+          "headings": [
+            "Quién es Brian Heder y de dónde viene su influencia",
+            "El negocio de embarcaciones y la mención a Lori",
+            "La casa de Jason y las obligaciones que la acompañan",
+            "Qué podemos interpretar y qué no está confirmado"
+          ]
+        },
+        {
+          "id": "gta-6-cal-hampton-mysteries",
+          "title": "Cal Hampton y los misterios de GTA 6: conspiraciones, vigilancia y teorías de fans",
+          "headings": [
+            "La personalidad de Cal es el punto de partida",
+            "Cómo seguir una teoría sin confundirla con una guía"
+          ]
+        },
+        {
+          "id": "characters-context",
+          "title": "Personajes de GTA 6: cómo analizar un tráiler sin inventar biografías",
+          "headings": [
+            "Cómo se conectan las fichas de personajes de Leonida"
+          ]
+        }
+      ]
+    },
+    "decisions": {
+      "hunting": "Economic hunting activity and its introduction via a contact of Jason. Distinct from species catalogue, catch-and-release fishing and diving. No invented prey list, money rates, RDR2 crafting or legendary hunts.",
+      "gang-compounds": "Named PTT Youngin$ compound/raid and its specific Ultimate association. Distinct from store robbery encounters, criminal profile and a general edition summary. No complete gang roster, coordinates, territory-conquest or repeatability claims.",
+      "safehouses": "Story-changing homes, Brian’s rent-free arrangement, everyday routines and distinction from purchasable garages. Distinct from Jason/Brian biographies, relationship mechanics and general building-interior coverage. The discarded grocery-restocking prototype is explicitly not described as a current full feature. Only named safehouse vehicles are attributed to that benefit."
+    }
+  },
+  "sources": [
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "published": []
+    },
+    {
+      "key": "people",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "published": []
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "published": []
+    },
+    {
+      "key": "gallery",
+      "url": "https://www.rockstargames.com/VI/media/screenshots",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "published": []
+    },
+    {
+      "key": "editions",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+      "published": []
+    },
+    {
+      "key": "sony",
+      "url": "https://store.playstation.com/en-us/product/EP1004-PPSA01547_00-GTAVIULTIMATE001/",
+      "status": 200,
+      "title": "Grand Theft Auto VI: Ultimate Edition",
+      "published": []
+    },
+    {
+      "key": "interview",
+      "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931",
+      "status": 200,
+      "title": "GTA 6: The Big Interview",
+      "published": []
+    },
+    {
+      "key": "activities",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-side-activities-detailed-gyms-fishing-basketball-hunting-racing-and-more",
+      "status": 200,
+      "title": "GTA 6 Side Activities Detailed: Gyms, Fishing, Basketball, Hunting, Racing and More - GTA VI News",
+      "published": []
+    },
+    {
+      "key": "gameSpot",
+      "url": "https://tech.yahoo.com/gaming/articles/gta-6-fishing-hunting-doesn-135303566.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "famitsu",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
+      "status": 200,
+      "title": "GTA 6: Famitsu's Full Rob Nelson Interview Translated Into English - GTA VI News",
+      "published": []
+    }
+  ],
+  "sourceLinkChecks": [
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "final": "https://www.rockstargames.com/VI"
+    },
+    {
+      "key": "people",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida",
+      "status": 200,
+      "final": "https://www.rockstargames.com/VI/only-in-leonida"
+    },
+    {
+      "key": "gallery",
+      "url": "https://www.rockstargames.com/VI/media/screenshots",
+      "status": 200,
+      "final": "https://www.rockstargames.com/VI/media/screenshots"
+    },
+    {
+      "key": "kalaga",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
+      "status": 200,
+      "final": "https://www.rockstargames.com/VI/only-in-leonida/kalaga"
+    },
+    {
+      "key": "activities",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-side-activities-detailed-gyms-fishing-basketball-hunting-racing-and-more",
+      "status": 200,
+      "final": "https://www.igrandtheftauto.com/gta6/news/gta-6-side-activities-detailed-gyms-fishing-basketball-hunting-racing-and-more"
+    },
+    {
+      "key": "tgg",
+      "url": "https://www.youtube.com/watch?v=4imTpB82edE&t=259s",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "key": "famitsu-original",
+      "url": "https://www.famitsu.com/article/202608/85753",
+      "status": 200,
+      "final": "https://www.famitsu.com/article/202608/85753"
+    },
+    {
+      "key": "famitsu",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
+      "status": 200,
+      "final": "https://www.igrandtheftauto.com/gta6/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
+    },
+    {
+      "key": "interview",
+      "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931",
+      "status": 200,
+      "final": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931"
+    },
+    {
+      "key": "sony",
+      "url": "https://store.playstation.com/en-us/product/EP1004-PPSA01547_00-GTAVIULTIMATE001/",
+      "status": 200,
+      "final": "https://store.playstation.com/en-us/product/EP1004-PPSA01547_00-GTAVIULTIMATE001/"
+    },
+    {
+      "key": "editions",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "final": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+    }
+  ],
+  "datesAndAccess": {
+    "activities": "iGrandTheftAuto byline September 3, 2026, 11:00AM. Original TGG video linked from that report, timestamp 4:19 for fishing/hunting. YouTube request blocked by executor tunnel 403; no claim of direct video viewing or transcript verification. Supported by accessible report and indexed GameSpot/Yahoo corroboration (Yahoo full article HTTP403).",
+    "famitsu": "Original Famitsu page read successfully, updated August 28, 2026, 04:00. English translation published September 9, 2026, 09:38AM, labelled as translation and read alongside Japanese original. Garages purchasable; narrative houses change by chapter; fridge-restocking grocery prototype simplified.",
+    "interview": "IGN/Rachel Weber full interview published October 7, 2026, accessed via credited Best Buy Gamers copy. Demonstration was earlier; do not recast it as a November 1 announcement.",
+    "official": "Current public Rockstar HTML includes serialized benefit descriptions for PTT Illegal Goods Store and Jason’s Safehouse Vehicles. Parsed JSON string chunks without script evaluation and cross-checked Sony official listing. Brian’s bio visible on official People & Places.",
+    "propertyRumour": "Search results about TGG no-house-purchases claim are not treated as directly reviewed video evidence. Article relies on directly checked Famitsu story progression/garage distinction, without publishing a house purchase catalogue.",
+    "publicationDates": "These are new site guides dated November 1, based on identified earlier material, not three new November 1 Rockstar announcements."
+  },
+  "interest": {
+    "method": "Live Google autocomplete and indexed search results accessed November 1. Suggestions demonstrate query variants, not measured search volume or ranking.",
+    "autocomplete": [
+      {
+        "query": "gta 6 hunting",
+        "suggestions": [
+          "gta 6 hunting",
+          "gta 6 hunting and fishing",
+          "gta 6 hunting screenshot",
+          "gta 6 hunting reddit",
+          "gta 6 hunting system",
+          "gta 6 hunting side activities",
+          "gta 6 hunting animals",
+          "gta 6 hunters",
+          "gta 6 hunter helicopter",
+          "gta 6 gator hunting"
+        ]
+      },
+      {
+        "query": "gta 6 gangs",
+        "suggestions": [
+          "gta 6 gangs",
+          "gta 6 gangs list",
+          "gta 6 gangsters",
+          "gta 6 gangs reddit",
+          "gta 6 gangs wiki",
+          "gta 6 gangs map",
+          "gta 6 gangs names",
+          "gta 6 gangs and factions",
+          "gta 6 gangsta",
+          "gta 6 gangsta paradise"
+        ]
+      },
+      {
+        "query": "gta 6 safehouses",
+        "suggestions": [
+          "gta 6 safehouses",
+          "gta 6 safehouses reddit",
+          "gta 6 safehouse customization",
+          "gta 6 safehouse in the hills",
+          "gta 6 no safehouses",
+          "gta 6 buy safehouses",
+          "will gta 6 have safehouses",
+          "gta 6 can you buy safehouses",
+          "will lamar be in gta 6",
+          "will trevor be in gta 6"
+        ]
+      }
+    ],
+    "limits": "No access to account traffic, quantified Trends ranking, guaranteed virality or SEO placement. No claim that these are the three most searched topics."
+  },
+  "media": {
+    "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+    "sharingContext": "https://www.rockstargames.com/VI/media offers Download and share, rechecked. Copyright remains with Rockstar/Take-Two; no unrestricted commercial/public-domain licence asserted.",
+    "newAssets": 6,
+    "imagesPerArticle": 3,
+    "format": "1400x788 optimized WebP",
+    "provenance": "public/media/credits.json and src/batches/2026-11-01-three-media.json",
+    "inspection": "All six new originals inspected as contact sheet; wildlife also inspected at full detail. Three reused contextual originals inspected again. No AI, mods, leaks, GTA V or decorative edited hero layers. Gang action images explicitly contextual, not proof of a completed PTT route."
+  },
+  "checks": {
+    "buildRelease": "passed",
+    "static": {
+      "HTML": 410,
+      "internalLinks": 18477,
+      "structuredDataBlocks": 794
+    },
+    "browser": "6/6 passed: all nine article variants tested on desktop and mobile, images decoded with translated alt/captions and credits, source/internal links, tables, no page overflow, JSON-LD/canonical/hreflang/sitemap, actual language-selector navigation; no unconditional Analytics or popunder requests. Third-party ad scripts stubbed; not evidence of ad creative fill.",
+    "existingContent": "119 prior inventory records/357 prior paths and titles preserved; total now122 topics/366 versions.",
+    "limitations": "Initial local browser server could not bind under default restricted network execution; normal cloud network-enabled execution passed. Production verification pending. Existing Vite bundle-size advisory remains; no redesign undertaken."
+  },
+  "unchanged": [
+    "Daily automation cadence/end date",
+    "Advertising units and static placement",
+    "Disabled popunder",
+    "Analytics consent and AdSense verification",
+    "Security rules",
+    "BarberControl",
+    "Paid services and subscriptions"
+  ]
+}
