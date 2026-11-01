@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "request": "Two user-linked subjects plus five additional GTA VI search-interest topics, original ES/EN/FR text. Publish authorised.",
-  "status": "Prepared; build/static/browser checks passed; public verification pending.",
+  "status": "Published and publicly verified",
   "baseCommit": "4718e203bf1e4fdc3ed2db63b247fb37ef18d5e2",
   "scope": {
     "new": 6,
@@ -494,5 +494,14 @@
     "Security rules",
     "Subscriptions",
     "BarberControl"
-  ]
+  ],
+  "publication": {
+    "commit": "b08d875a312a9d55c4d92cfc2241fbee37a443dc",
+    "deployment": "027ee789-3cb4-40d5-827c-00b8d7099ac3",
+    "verifiedAt": "2026-11-01T17:19:32.768905+00:00",
+    "versions": 21,
+    "exactAssets": 15,
+    "internalLinks": 102,
+    "proof": "docs/editorial/2026-11-01-seven-publication.json"
+  }
 }

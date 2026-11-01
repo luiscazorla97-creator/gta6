@@ -1,0 +1,704 @@
+{
+  "verifiedAt": "2026-11-01T17:19:32.768905+00:00",
+  "runtimeCommit": "b08d875a312a9d55c4d92cfc2241fbee37a443dc",
+  "deploymentId": "027ee789-3cb4-40d5-827c-00b8d7099ac3",
+  "environment": "production",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-11-01T17:19:19.878997Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-roleplay-vida-leonida-campana/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-roleplay-life-leonida-story-mode/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-roleplay-vie-leonida-mode-histoire/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-dormir-sueno-descanso-ojeras/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-sleep-rest-tiredness/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-sommeil-repos-fatigue/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-perros-acariciar-mascotas/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-dogs-petting-pets/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-chiens-caresser-animaux-compagnie/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-sudor-baile-realismo-personajes/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-sweat-system-dancing-realism/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-transpiration-danse-realisme/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mapa-3d-exploracion-zonas-ocultas/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-3d-map-exploration-hidden-areas/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-carte-3d-exploration-zones-masquees/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-microtransacciones-campana-dinero-real/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-microtransactions-story-mode-real-money/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-microtransactions-campagne-argent-reel/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-npc-ia-comportamiento/",
+      "status": 200,
+      "published": "2026-10-29",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-npc-ai-behaviour/",
+      "status": 200,
+      "published": "2026-10-29",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-pnj-ia-comportement/",
+      "status": 200,
+      "published": "2026-10-29",
+      "updated": "2026-11-01",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://fansgta.com/assets/index-Bd4d0erj.css",
+      "status": 200,
+      "bytes": 56990,
+      "sha256": "c3c9a7be7e108a3f205fd1ea5266d7aa971fdf52b10241717ea11e377a7d1611",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/index-DxXwMCC2.js",
+      "status": 200,
+      "bytes": 1756095,
+      "sha256": "c5889acfa9bac46bceae5407c1da69ce6a430e5e378292858c2f4252472e7c19",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/ambrosia.webp",
+      "status": 200,
+      "bytes": 118590,
+      "sha256": "ddc749ed919fe4783bbc397aff94dd882dbb4184a5397d040a38269ea8def687",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-bar.webp",
+      "status": 200,
+      "bytes": 86226,
+      "sha256": "0e51012e3078f110b1f684e05da7f6a35fadda67e9ed1c5ca2e6ef395988867f",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-boats.webp",
+      "status": 200,
+      "bytes": 171234,
+      "sha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-couple.webp",
+      "status": 200,
+      "bytes": 65196,
+      "sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-driver.webp",
+      "status": 200,
+      "bytes": 44940,
+      "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-fight.webp",
+      "status": 200,
+      "bytes": 45184,
+      "sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-forest-wildlife.webp",
+      "status": 200,
+      "bytes": 162150,
+      "sha256": "823504ce9ad23baf3a2135f61ac505d7c580217b2bc83efbd2717e087ca6fc1a",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-mountain.webp",
+      "status": 200,
+      "bytes": 226130,
+      "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-phone.webp",
+      "status": 200,
+      "bytes": 68872,
+      "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-safehouse-enduro.webp",
+      "status": 200,
+      "bytes": 122660,
+      "sha256": "114ea8ec0d9a67ca935455640820edb01dae4bfa041d699e7923b01c639db861",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-safehouse-exterior.webp",
+      "status": 200,
+      "bytes": 150756,
+      "sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/port-gellhorn.webp",
+      "status": 200,
+      "bytes": 124482,
+      "sha256": "79bb2cb2a797e1421ad26e73507fc63dd5d1557e73f40316d81d523f4b6d601d",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedDist": true
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/characters/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/characters/gta-6-characters-spoiler-free-analysis/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/community/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-animals-wildlife-leonida-species/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-dogs-petting-pets/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-dynamic-weather-storms/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-gym-food-health-stamina/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-houses-safehouses-jason-garages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-jason-lucia-relationship-romance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-map-size-leonida-edge-comparison/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-money-story-missions-heists-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-phone-apps-snapmatic-social-media/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-roleplay-life-leonida-story-mode/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-sleep-rest-tiredness/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-sweat-system-dancing-realism/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-switch-jason-lucia-characters/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/gta-6-leonida-locations/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/gta-6-official-map-or-fan-map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-rideable-buses-trains-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/privacy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/terms/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/comunidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/contacto/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-animales-fauna-especies-leonida/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cambiar-jason-lucia-personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-casas-refugios-jason-garajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-clima-dinamico-tormentas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-dinero-misiones-historia-atracos-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-dormir-sueno-descanso-ojeras/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-gimnasio-comida-salud-resistencia/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-jason-lucia-relacion-romance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-perros-acariciar-mascotas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-roleplay-vida-leonida-campana/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-sudor-baile-realismo-personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-tamano-mapa-leonida-comparacion-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-telefono-aplicaciones-snapmatic-redes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/gta-6-leonida-locations/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-autobuses-trenes-transporte-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/personajes/personajes-gta-6-analisis-sin-spoilers/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/privacidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/terminos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-bus-trains-transports-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/carte-gta-6-officielle-ou-fans/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/gta-6-leonida-locations/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/communaute/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/conditions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/confidentialite/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-animaux-faune-especes-leonida/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-argent-missions-histoire-braquages-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-changer-jason-lucia-personnages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-chiens-caresser-animaux-compagnie/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-jason-lucia-relation-romance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-maisons-planques-jason-garages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-meteo-dynamique-orages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-roleplay-vie-leonida-mode-histoire/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-salle-sport-nourriture-sante-endurance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-sommeil-repos-fatigue/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-taille-carte-leonida-comparaison-edge/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-telephone-applications-snapmatic-reseaux/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-transpiration-danse-realisme/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/personnages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/personnages/personnages-gta-6-analyse-sans-spoilers/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/",
+      "status": 200
+    }
+  ],
+  "sitemap": "21 affected paths present",
+  "tests": "6 browser tests cover21versions on desktop/mobile; production assets exactly match tested release",
+  "inventory": "128topics/384versions; 122 previous inventory records and366paths preserved",
+  "scope": "6 new topics and existing NPC guide updated; original NPC URLs/publication date retained; daily unchanged",
+  "limits": "No search-volume ranking or SEO position promised; sources access limits recorded in research; ad fill and Analytics reception not measured"
+}
