@@ -1,5 +1,95 @@
 [
   {
+    "id": "gta6-roleplay-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Roleplay en GTA 6: vivir en Leonida sin confundirlo con GTA RP",
+      "GTA 6 roleplay: life in Leonida versus GTA RP servers",
+      "Roleplay dans GTA 6 : vivre à Leonida, sans confondre avec GTA RP"
+    ],
+    "paths": [
+      "/es/guias/gta-6-roleplay-vida-leonida-campana/",
+      "/en/guides/gta-6-roleplay-life-leonida-story-mode/",
+      "/fr/guides/gta-6-roleplay-vie-leonida-mode-histoire/"
+    ]
+  },
+  {
+    "id": "gta6-sleep-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Dormir en GTA 6: descanso, ojeras y lo que cuentan los avances",
+      "GTA 6 sleep: rest, tiredness and what previews describe",
+      "Dormir dans GTA 6 : repos, fatigue et détails des aperçus"
+    ],
+    "paths": [
+      "/es/guias/gta-6-dormir-sueno-descanso-ojeras/",
+      "/en/guides/gta-6-sleep-rest-tiredness/",
+      "/fr/guides/gta-6-sommeil-repos-fatigue/"
+    ]
+  },
+  {
+    "id": "gta6-dogs-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Perros en GTA 6: acariciar, estudiar y qué sabemos de las mascotas",
+      "GTA 6 dogs: petting, studying and what is known about pets",
+      "Chiens dans GTA 6 : caresser, étudier et avoir un animal"
+    ],
+    "paths": [
+      "/es/guias/gta-6-perros-acariciar-mascotas/",
+      "/en/guides/gta-6-dogs-petting-pets/",
+      "/fr/guides/gta-6-chiens-caresser-animaux-compagnie/"
+    ]
+  },
+  {
+    "id": "gta6-sweat-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Sudor en GTA 6: cómo el baile explica su detalle visual",
+      "GTA 6 sweat system: what dancing reveals about visual detail",
+      "Transpiration dans GTA 6 : la danse et le détail visuel"
+    ],
+    "paths": [
+      "/es/guias/gta-6-sudor-baile-realismo-personajes/",
+      "/en/guides/gta-6-sweat-system-dancing-realism/",
+      "/fr/guides/gta-6-transpiration-danse-realisme/"
+    ]
+  },
+  {
+    "id": "gta6-map-discovery-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Mapa 3D de GTA 6: explorar y revelar las zonas ocultas",
+      "GTA 6 3D map: exploration and revealing hidden areas",
+      "Carte 3D de GTA 6 : explorer et révéler les zones masquées"
+    ],
+    "paths": [
+      "/es/guias/gta-6-mapa-3d-exploracion-zonas-ocultas/",
+      "/en/guides/gta-6-3d-map-exploration-hidden-areas/",
+      "/fr/guides/gta-6-carte-3d-exploration-zones-masquees/"
+    ]
+  },
+  {
+    "id": "gta6-microtransactions-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "Microtransacciones en GTA 6: qué se dijo sobre pagar en la campaña",
+      "GTA 6 microtransactions: what was said about story-mode payments",
+      "Microtransactions GTA 6 : les déclarations sur la campagne"
+    ],
+    "paths": [
+      "/es/guias/gta-6-microtransacciones-campana-dinero-real/",
+      "/en/guides/gta-6-microtransactions-story-mode-real-money/",
+      "/fr/guides/gta-6-microtransactions-campagne-argent-reel/"
+    ]
+  },
+  {
     "id": "gta6-hunting-20261101",
     "category": "guides",
     "published": "2026-11-01",

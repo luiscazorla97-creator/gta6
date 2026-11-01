@@ -1,0 +1,122 @@
+{
+  "feature-phone": {
+    "alt": [
+      "Jason sosteniendo un teléfono junto a una embarcación",
+      "Jason holding a phone beside a boat",
+      "Jason tenant un téléphone près d’un bateau"
+    ],
+    "caption": [
+      "Jason sosteniendo un teléfono junto a una embarcación. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Jason holding a phone beside a boat. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Jason tenant un téléphone près d’un bateau. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-boats": {
+    "alt": [
+      "Embarcaciones y personas en las aguas de Leonida Keys",
+      "Boats and people on the waters of Leonida Keys",
+      "Bateaux et personnages dans les eaux de Leonida Keys"
+    ],
+    "caption": [
+      "Embarcaciones y personas en las aguas de Leonida Keys. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Boats and people on the waters of Leonida Keys. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Bateaux et personnages dans les eaux de Leonida Keys. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-safehouse-enduro": {
+    "alt": [
+      "Motocicleta Dinka Enduro de tonos militares frente a una puerta verde en GTA VI",
+      "Military-coloured Dinka Enduro motorcycle in front of a green door in GTA VI",
+      "Moto Dinka Enduro aux couleurs militaires devant une porte verte dans GTA VI"
+    ],
+    "caption": [
+      "Motocicleta Dinka Enduro de tonos militares frente a una puerta verde en GTA VI. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Military-coloured Dinka Enduro motorcycle in front of a green door in GTA VI. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Moto Dinka Enduro aux couleurs militaires devant une porte verte dans GTA VI. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-fight": {
+    "alt": [
+      "Lucia en una escena de combate cuerpo a cuerpo de GTA VI",
+      "Lucia in a GTA VI close-combat scene",
+      "Lucia dans une scène de combat rapproché GTA VI"
+    ],
+    "caption": [
+      "Lucia en una escena de combate cuerpo a cuerpo de GTA VI. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Lucia in a GTA VI close-combat scene. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Lucia dans une scène de combat rapproché GTA VI. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-safehouse-exterior": {
+    "alt": [
+      "Exterior de la casa de Jason con Vapid Ganado, Dinka Enduro y Crest Kayak en GTA VI",
+      "Jason’s safehouse exterior with a Vapid Ganado, Dinka Enduro and Crest Kayak in GTA VI",
+      "Extérieur de la maison de Jason avec Vapid Ganado, Dinka Enduro et Crest Kayak dans GTA VI"
+    ],
+    "caption": [
+      "Exterior de la casa de Jason con Vapid Ganado, Dinka Enduro y Crest Kayak en GTA VI. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Jason’s safehouse exterior with a Vapid Ganado, Dinka Enduro and Crest Kayak in GTA VI. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Extérieur de la maison de Jason avec Vapid Ganado, Dinka Enduro et Crest Kayak dans GTA VI. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-mountain": {
+    "alt": [
+      "Carretera entre laderas arboladas de Mount Kalaga en GTA VI",
+      "Road between wooded slopes in Mount Kalaga in GTA VI",
+      "Route entre des versants boisés de Mount Kalaga dans GTA VI"
+    ],
+    "caption": [
+      "Carretera entre laderas arboladas de Mount Kalaga en GTA VI. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Road between wooded slopes in Mount Kalaga in GTA VI. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Route entre des versants boisés de Mount Kalaga dans GTA VI. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-couple": {
+    "alt": [
+      "Jason y Lucia armados dentro de un edificio en una imagen oficial de GTA VI",
+      "Armed Jason and Lucia inside a building in an official GTA VI image",
+      "Jason et Lucia armés à l’intérieur d’un bâtiment sur une image officielle de GTA VI"
+    ],
+    "caption": [
+      "Jason y Lucia armados dentro de un edificio en una imagen oficial de GTA VI. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Armed Jason and Lucia inside a building in an official GTA VI image. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Jason et Lucia armés à l’intérieur d’un bâtiment sur une image officielle de GTA VI. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-bar": {
+    "alt": [
+      "Jason y otro personaje dentro de un bar en GTA VI",
+      "Jason and another character inside a bar in GTA VI",
+      "Jason et un autre personnage dans un bar GTA VI"
+    ],
+    "caption": [
+      "Jason y otro personaje dentro de un bar en GTA VI. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Jason and another character inside a bar in GTA VI. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Jason et un autre personnage dans un bar GTA VI. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-driver": {
+    "alt": [
+      "Jason y otro personaje dentro de un coche en GTA VI",
+      "Jason and another character inside a car in GTA VI",
+      "Jason et un autre personnage dans une voiture GTA VI"
+    ],
+    "caption": [
+      "Jason y otro personaje dentro de un coche en GTA VI. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Jason and another character inside a car in GTA VI. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Jason et un autre personnage dans une voiture GTA VI. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  },
+  "feature-forest-wildlife": {
+    "alt": [
+      "Fauna junto a una charca bajo los árboles de Mount Kalaga en GTA VI",
+      "Wildlife beside a pool beneath the trees of Mount Kalaga in GTA VI",
+      "Animaux près d’une mare sous les arbres de Mount Kalaga dans GTA VI"
+    ],
+    "caption": [
+      "Fauna junto a una charca bajo los árboles de Mount Kalaga en GTA VI. Captura oficial de GTA VI usada como contexto; no muestra una prueba de las funciones descritas.",
+      "Wildlife beside a pool beneath the trees of Mount Kalaga in GTA VI. Official GTA VI screenshot used as context; it does not demonstrate testing of the described features.",
+      "Animaux près d’une mare sous les arbres de Mount Kalaga dans GTA VI. Capture officielle de GTA VI utilisée comme contexte ; elle ne montre pas un test des fonctions décrites."
+    ]
+  }
+}

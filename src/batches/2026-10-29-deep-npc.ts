@@ -1,7 +1,8 @@
+import {updateNpc20261101} from './2026-11-01-npc-update';
 import {makeArticle,section as s,image,edge,ign,official,media,internal} from './2026-10-29-deep-shared';
 const places=internal('Lugares de Leonida','mapa/gta-6-leonida-locations');
 const people=internal('Personajes: pruebas e interpretación','personajes/personajes-gta-6-analisis-sin-spoilers');
-export const npcDeep20261029=makeArticle({
+export const npcDeep20261029=updateNpc20261101(makeArticle({
  id:'gta6-npc-behaviour-deep-20261029',category:'guides',image:'vice-city',
  slug:['gta-6-npc-ia-comportamiento','gta-6-npc-ai-behaviour','gta-6-pnj-ia-comportement'],
  title:['NPC de GTA 6: cómo cambia su IA y qué revela Edge','GTA 6 NPC AI: behaviour, reactions and what Edge reveals','PNJ de GTA 6 : IA, réactions et révélations d’Edge'],
@@ -60,4 +61,4 @@ export const npcDeep20261029=makeArticle({
  'Vérification du 29 octobre 2026. La source principale est le reportage Edge de Simon Parkin ; l’entretien de Rachel Weber avec Rob Nelson a été lu dans sa republication créditée par Best Buy, datée du 7 octobre. Nous n’avons pas joué à une copie de test. Les informations comportementales viennent de ces démonstrations et entretiens ; les critères proposés relèvent de l’analyse FansGTA. Persistance exacte des souvenirs, limites du dialogue et comportement dans toutes les situations restent non vérifiés.',
  ]], [edge,ign,media]),
  ]
-});
+}));

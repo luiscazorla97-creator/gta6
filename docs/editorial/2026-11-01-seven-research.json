@@ -1,0 +1,498 @@
+{
+  "date": "2026-11-01",
+  "request": "Two user-linked subjects plus five additional GTA VI search-interest topics, original ES/EN/FR text. Publish authorised.",
+  "status": "Prepared; build/static/browser checks passed; public verification pending.",
+  "baseCommit": "4718e203bf1e4fdc3ed2db63b247fb37ef18d5e2",
+  "scope": {
+    "new": 6,
+    "updated": 1,
+    "versions": 21,
+    "daily": "Unchanged; one topic per daily run through2026-11-19 inclusive America/New_York"
+  },
+  "topics": [
+    {
+      "id": "gta6-roleplay-20261101",
+      "title": [
+        "Roleplay en GTA 6: vivir en Leonida sin confundirlo con GTA RP",
+        "GTA 6 roleplay: life in Leonida versus GTA RP servers",
+        "Roleplay dans GTA 6 : vivre à Leonida, sans confondre avec GTA RP"
+      ],
+      "paths": [
+        "/es/guias/gta-6-roleplay-vida-leonida-campana/",
+        "/en/guides/gta-6-roleplay-life-leonida-story-mode/",
+        "/fr/guides/gta-6-roleplay-vie-leonida-mode-histoire/"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-01"
+    },
+    {
+      "id": "gta6-sleep-20261101",
+      "title": [
+        "Dormir en GTA 6: descanso, ojeras y lo que cuentan los avances",
+        "GTA 6 sleep: rest, tiredness and what previews describe",
+        "Dormir dans GTA 6 : repos, fatigue et détails des aperçus"
+      ],
+      "paths": [
+        "/es/guias/gta-6-dormir-sueno-descanso-ojeras/",
+        "/en/guides/gta-6-sleep-rest-tiredness/",
+        "/fr/guides/gta-6-sommeil-repos-fatigue/"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-01"
+    },
+    {
+      "id": "gta6-dogs-20261101",
+      "title": [
+        "Perros en GTA 6: acariciar, estudiar y qué sabemos de las mascotas",
+        "GTA 6 dogs: petting, studying and what is known about pets",
+        "Chiens dans GTA 6 : caresser, étudier et avoir un animal"
+      ],
+      "paths": [
+        "/es/guias/gta-6-perros-acariciar-mascotas/",
+        "/en/guides/gta-6-dogs-petting-pets/",
+        "/fr/guides/gta-6-chiens-caresser-animaux-compagnie/"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-01"
+    },
+    {
+      "id": "gta6-sweat-20261101",
+      "title": [
+        "Sudor en GTA 6: cómo el baile explica su detalle visual",
+        "GTA 6 sweat system: what dancing reveals about visual detail",
+        "Transpiration dans GTA 6 : la danse et le détail visuel"
+      ],
+      "paths": [
+        "/es/guias/gta-6-sudor-baile-realismo-personajes/",
+        "/en/guides/gta-6-sweat-system-dancing-realism/",
+        "/fr/guides/gta-6-transpiration-danse-realisme/"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-01"
+    },
+    {
+      "id": "gta6-map-discovery-20261101",
+      "title": [
+        "Mapa 3D de GTA 6: explorar y revelar las zonas ocultas",
+        "GTA 6 3D map: exploration and revealing hidden areas",
+        "Carte 3D de GTA 6 : explorer et révéler les zones masquées"
+      ],
+      "paths": [
+        "/es/guias/gta-6-mapa-3d-exploracion-zonas-ocultas/",
+        "/en/guides/gta-6-3d-map-exploration-hidden-areas/",
+        "/fr/guides/gta-6-carte-3d-exploration-zones-masquees/"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-01"
+    },
+    {
+      "id": "gta6-microtransactions-20261101",
+      "title": [
+        "Microtransacciones en GTA 6: qué se dijo sobre pagar en la campaña",
+        "GTA 6 microtransactions: what was said about story-mode payments",
+        "Microtransactions GTA 6 : les déclarations sur la campagne"
+      ],
+      "paths": [
+        "/es/guias/gta-6-microtransacciones-campana-dinero-real/",
+        "/en/guides/gta-6-microtransactions-story-mode-real-money/",
+        "/fr/guides/gta-6-microtransactions-campagne-argent-reel/"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-01"
+    },
+    {
+      "id": "gta6-npc-behaviour-deep-20261029",
+      "title": [
+        "NPC de GTA 6: cómo cambia su IA y qué revela Edge",
+        "GTA 6 NPC AI: behaviour, reactions and what Edge reveals",
+        "PNJ de GTA 6 : IA, réactions et révélations d’Edge"
+      ],
+      "paths": [
+        "/es/guias/gta-6-npc-ia-comportamiento/",
+        "/en/guides/gta-6-npc-ai-behaviour/",
+        "/fr/guides/gta-6-pnj-ia-comportement/"
+      ],
+      "published": "2026-10-29",
+      "updated": "2026-11-01"
+    }
+  ],
+  "deduplication": {
+    "inventoryBefore": 122,
+    "recordsPreserved": 122,
+    "previousPathsPreserved": 366,
+    "intentMatches": {
+      "roleplay": [
+        {
+          "id": "gta6-hunting-20261101",
+          "title": "Caza en GTA 6: animales, dinero y diferencias con RDR2"
+        },
+        {
+          "id": "gta6-gym-health-explained-20261030",
+          "title": "Gimnasio y comida en GTA 6: salud, resistencia y lo mostrado"
+        },
+        {
+          "id": "gta6-online-2027-clancy-2026-10-29",
+          "title": "Rumor: GTA 6 Online en 2027, qué dijo el CEO de Twitch"
+        }
+      ],
+      "sleep": [
+        {
+          "id": "gta6-map-scale-explained-20261030",
+          "title": "Tamaño del mapa de GTA 6: qué significa la comparación de Edge"
+        },
+        {
+          "id": "gta6-interiors-explained-20261030",
+          "title": "Interiores de GTA 6: más edificios y casas, según Edge"
+        },
+        {
+          "id": "gta6-fuel-explained-20261030",
+          "title": "Gasolina en GTA 6: combustible, repostaje y estado del motor"
+        },
+        {
+          "id": "gta6-loadout-explained-20261030",
+          "title": "Armas de GTA 6: inventario limitado, rueda y maletero"
+        },
+        {
+          "id": "gta6-criminal-profile-explained-20261030",
+          "title": "Perfil criminal de GTA 6: de Professional a Irredeemable"
+        },
+        {
+          "id": "gta6-switching-explained-20261030",
+          "title": "Cambiar entre Jason y Lucia en GTA 6: posibilidades y límites"
+        },
+        {
+          "id": "gta6-gym-health-explained-20261030",
+          "title": "Gimnasio y comida en GTA 6: salud, resistencia y lo mostrado"
+        },
+        {
+          "id": "gta6-street-races-explained-20261030",
+          "title": "Carreras callejeras en GTA 6: el encuentro que mostró Edge"
+        },
+        {
+          "id": "gta6-mission-money-explained-20261030",
+          "title": "Dinero en GTA 6: por qué algunas misiones requieren fondos"
+        },
+        {
+          "id": "gta6-scooter-bros-explained-20261030",
+          "title": "Scooter Bros en GTA 6: cómo se describe la entrega del coche"
+        },
+        {
+          "id": "history-gta4-20261030",
+          "title": "Historia de GTA IV: trama, personajes y creación"
+        },
+        {
+          "id": "gta6-buses-trains-edge-20261030",
+          "title": "GTA 6: autobuses y trenes utilizables, según Edge"
+        },
+        {
+          "id": "gta6-dynamic-weather-20261030",
+          "title": "Clima de GTA 6: tormentas, viento y noches más largas"
+        },
+        {
+          "id": "gta6-jason-lucia-relationship-20261030",
+          "title": "Jason y Lucia en GTA 6: romance y sistema de relación"
+        },
+        {
+          "id": "gta6-car-theft-tools-20261030",
+          "title": "Robar coches en GTA 6: escáner, herramientas y rastreadores"
+        },
+        {
+          "id": "gta6-npc-behaviour-deep-20261029",
+          "title": "NPC de GTA 6: cómo cambia su IA y qué revela Edge"
+        },
+        {
+          "id": "gta6-police-wanted-deep-20261029",
+          "title": "Policía en GTA 6: búsqueda, testigos y cómo cambia la huida"
+        }
+      ],
+      "dogs": [
+        {
+          "id": "gta6-interest-south-park-20261031",
+          "title": "GTA 6 en South Park: el gameplay que convirtió un gag en noticia"
+        },
+        {
+          "id": "gta6-police-wanted-deep-20261029",
+          "title": "Policía en GTA 6: búsqueda, testigos y cómo cambia la huida"
+        }
+      ],
+      "sweat": [],
+      "map": [],
+      "microtransactions": [
+        {
+          "id": "gta6-interest-phone-20261031",
+          "title": "Teléfono de GTA 6: Snapmatic, aplicaciones y funciones reportadas"
+        },
+        {
+          "id": "gta6-mission-money-explained-20261030",
+          "title": "Dinero en GTA 6: por qué algunas misiones requieren fondos"
+        }
+      ]
+    },
+    "decisions": "600000 animations incorporated into existing NPC guide, preserving its three URLs and original publication. Roleplay overview explicitly distinguishes campaign life from GTA RP servers. Five new focused intents: sleep, dog interactions versus adoption, exertion/sweat visuals, exploration-fog/3Dmap interface versus geographic size, and campaign microtransactions versus editions/subscriptions/future online monetisation. Not seven duplicate articles or new Rockstar announcements."
+  },
+  "sources": [
+    {
+      "roleplay": {
+        "url": "https://www.tweaktown.com/news/114390/gta-6-developer-says-you-can-have-your-life-in-the-game-as-rockstar-outlines-roleplay-depth/index.html",
+        "status": 200,
+        "dates": [
+          "2026-10-29T12:37:13-05:00"
+        ]
+      }
+    },
+    {
+      "animation": {
+        "url": "https://www.creativebloq.com/news/rockstar-art-directed-600-000-animations-so-that-gta-6s-passers-by-feel-like-real-people",
+        "status": 200,
+        "dates": [
+          "2026-10-31T08:00:00+00:00"
+        ]
+      }
+    },
+    {
+      "edge": {
+        "url": "https://www.gamesradar.com/edge/gtavi-cover/",
+        "status": 200,
+        "dates": [
+          "2026-10-29T00:01:00+00:00"
+        ]
+      }
+    },
+    {
+      "dog": {
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-lead-says-gta-6-takes-npc-interactions-much-further-than-red-dead-redemption-2-and-its-system-is-returning-and-evolved/",
+        "status": 200,
+        "dates": [
+          "2026-08-27T20:13:56+00:00"
+        ]
+      }
+    },
+    {
+      "key": "sweat",
+      "url": "https://rockstarintel.com/gta-6s-realistic-sweat-system-detailed/",
+      "status": 200,
+      "published": [
+        "2026-10-14T13:02:39+00:00",
+        "2026-10-14T13:02:39+00:00",
+        "2026-10-14T14:02:39+01:00"
+      ]
+    },
+    {
+      "key": "micro",
+      "url": "https://www.pushsquare.com/news/2026/08/gta-6-contains-no-microtransactions-or-generative-ai-rockstar-says",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "famitsu",
+      "url": "https://www.famitsu.com/article/202608/85753",
+      "status": 200,
+      "published": [
+        "2026-08-28T04:00:00+09:00"
+      ]
+    },
+    {
+      "key": "activities",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-side-activities-detailed-gyms-fishing-basketball-hunting-racing-and-more",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "published": []
+    }
+  ],
+  "accessNotes": [
+    "User-linked TweakTown read directly; original Edge report independently read. Creative Bloq follow-up October31 derives from same Edge October29 report, not independent corroboration.",
+    "PSU web-search open successfully returned article by Michael Harradence August28 with Kinda Funny attribution; direct Python requests to PSU and Push Square403. No assertion of watching original podcast.",
+    "Activities report was successfully read and saved earlier today under /tmp/fansgta-20261101-three, checked September3byline. Later refetch403 recorded; same-day successful source retained. No claim of watching TGG video, blocked by tunnel.",
+    "Famitsu original read successfully August28date; translated interview saved earlier today supports sleep/3Dmap context. No invented hour counts or final button layouts.",
+    "RockstarINTEL October14 directly read; Jason Schreier account attributed, not own technical test.",
+    "No copy/paste of source prose or source images; texts independently structured with analysis/limits; no fake quotes."
+  ],
+  "interest": {
+    "signals": [
+      {
+        "query": "gta 6 roleplay",
+        "suggestions": [
+          "gta 6 roleplay",
+          "gta 6 roleplay ps5",
+          "gta 6 roleplay console",
+          "gta 6 roleplay servers",
+          "gta 6 roleplay release date",
+          "gta 6 roleplay mode",
+          "gta 6 roleplay reddit",
+          "gta 6 roleplay leaks",
+          "gta 6 roleplay game",
+          "gta 6 roleplay pc"
+        ]
+      },
+      {
+        "query": "gta 6 animations",
+        "suggestions": [
+          "gta 6 animations",
+          "gta 6 animations look bad",
+          "gta 6 animations reddit",
+          "gta 6 animations look stiff",
+          "gta 6 animation count",
+          "gta 6 animation count rockstar",
+          "gta 6 animation leak video",
+          "gta 6 animation leak",
+          "gta 6 animation style",
+          "gta 6 animation website"
+        ]
+      },
+      {
+        "query": "gta 6 sleep",
+        "suggestions": [
+          "gta 6 sleep",
+          "gta 6 sleeping dogs",
+          "gta 6 sleep system",
+          "gta 6 character sleep tracking",
+          "gta 6 vs sleeping dogs",
+          "gta 6 can you sleep with lucia",
+          "sleepwalking gta 6",
+          "how long do you sleep in gta 5",
+          "can you sleep in gta 5",
+          "what does sleeping do in gta online"
+        ]
+      },
+      {
+        "query": "gta 6 dogs",
+        "suggestions": [
+          "gta 6 dogs",
+          "gta 6 dog poop",
+          "gta 6 dog name",
+          "gta 6 dog meme",
+          "gta 6 dog breeds",
+          "gta 6 dog rico",
+          "gta 6 dog pet",
+          "gta 6 dog picture",
+          "gta 6 dog leash",
+          "grand theft auto 6 dog"
+        ]
+      },
+      {
+        "query": "gta 6 sweat",
+        "suggestions": [
+          "gta 6 sweat",
+          "gta 6 sweater",
+          "gta 6 sweatshirt",
+          "gta 6 sweat system",
+          "gta 6 sweating system details",
+          "gta 6 sweat physics",
+          "gta 6 sweaty lucia",
+          "gta 6 sweaty",
+          "gta 6 realistic sweat system",
+          "gta 6 advanced sweat system"
+        ]
+      },
+      {
+        "query": "gta 6 3d map",
+        "suggestions": [
+          "gta 6 3d map",
+          "gta 6 3d map model",
+          "gta 6 3d map leak",
+          "gta 6 3d mapping project",
+          "gta 6 3d map download",
+          "gta 6 map 3d print",
+          "gta 6 map 3d view",
+          "gta 6 map 3d viewer",
+          "gta 6 3d interactive map",
+          "gta 6 3d mini map"
+        ]
+      },
+      {
+        "query": "gta 6 microtransactions",
+        "suggestions": [
+          "gta 6 microtransactions",
+          "gta 6 microtransactions reddit",
+          "gta 6 microtransactions single player",
+          "gta 6 no microtransactions",
+          "gta 6 online microtransactions",
+          "rockstar games gta 6 microtransactions",
+          "will gta 6 have microtransactions",
+          "does gta 6 have microtransactions",
+          "gta 6 will have no microtransactions",
+          "does gta 5 have microtransactions"
+        ]
+      }
+    ],
+    "limits": "Autocomplete and current indexed reporting, not a quantified top-five ranking, search volume, traffic forecast or Google position guarantee. Sources predate November1 and retain dates."
+  },
+  "media": {
+    "source": "Official Rockstar download/share media publication rechecked; all10 reused-original URLs HTTP200, copyright reserved, no unrestricted licence asserted.",
+    "checks": [
+      {
+        "key": "feature-phone",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-boats",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-safehouse-enduro",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-fight",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-mountain",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-couple",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-bar",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-driver",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-forest-wildlife",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_05.0_~vto-o2zxok.jpg?imwidth=1400",
+        "status": 200
+      }
+    ],
+    "inspection": "Current contact sheet visually reviewed; original genuine GTA VI WebP reused. 3 images per article with translated alt/caption/credit; no AI/mod/leak/GTA V. Dog/map/sweat illustrations explicitly contextual, no claim of showing dog UI, final map UI or technical sweat test.",
+    "provenance": "public/media/credits.json; new captions in src/batches/2026-11-01-seven-media.json"
+  },
+  "validation": {
+    "buildRelease": "passed",
+    "static": {
+      "HTML": 428,
+      "internalLinks": 19251,
+      "structuredData": 830
+    },
+    "browser": "6 passed; 21 affected variants desktop/mobile, title/description/canonical/hreflang/schema/sitemap, 3 decoded images, localised links, no overflow, real language-selector navigation, no popunder or unconditional Analytics. Third-party ad scripts mocked, no fill claim.",
+    "inventory": "128 topics,384versions; previous122records/366paths retained exactly."
+  },
+  "unchanged": [
+    "Daily automation",
+    "Advertising and disabled popunder",
+    "Analytics consent/AdSense verification",
+    "Security rules",
+    "Subscriptions",
+    "BarberControl"
+  ]
+}

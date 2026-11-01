@@ -1,0 +1,154 @@
+{
+  "official": {
+    "label": "Rockstar Games · GTA VI / Ultimate Edition",
+    "url": "https://www.rockstargames.com/VI"
+  },
+  "people": {
+    "label": "Rockstar Games · Brian Heder / Only in Leonida",
+    "url": "https://www.rockstargames.com/VI/only-in-leonida"
+  },
+  "gallery": {
+    "label": "Rockstar Games · GTA VI Screenshots",
+    "url": "https://www.rockstargames.com/VI/media/screenshots"
+  },
+  "kalaga": {
+    "label": "Rockstar Games · Mount Kalaga",
+    "url": "https://www.rockstargames.com/VI/only-in-leonida/kalaga"
+  },
+  "activities": {
+    "label": "iGrandTheftAuto · TGG / Rob Nelson · 2026-09-03",
+    "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-side-activities-detailed-gyms-fishing-basketball-hunting-racing-and-more"
+  },
+  "tgg": {
+    "label": "TGG · Gyms, Basketball, Fishing, Hunting and Everything Else · 2026-09-03 · 4:19",
+    "url": "https://www.youtube.com/watch?v=4imTpB82edE&t=259s"
+  },
+  "famitsu-original": {
+    "label": "Famitsu · Rob Nelson · 2026-08-28 · 日本語",
+    "url": "https://www.famitsu.com/article/202608/85753"
+  },
+  "famitsu": {
+    "label": "Famitsu · Rob Nelson · 2026-08-28 · 日本語",
+    "url": "https://www.famitsu.com/article/202608/85753"
+  },
+  "interview": {
+    "label": "IGN / Rachel Weber · Best Buy Gamers · 2026-10-07",
+    "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931"
+  },
+  "sony": {
+    "label": "PlayStation Store · GTA VI: Ultimate Edition · US",
+    "url": "https://store.playstation.com/en-us/product/EP1004-PPSA01547_00-GTAVIULTIMATE001/"
+  },
+  "editions": {
+    "label": "Rockstar Support · GTA VI Platforms, Editions, and Versions",
+    "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+  },
+  "related-wildlife": {
+    "label": "FansGTA · Animales de GTA 6: fauna de Leonida y especies reportadas",
+    "url": "https://fansgta.com/es/guias/gta-6-animales-fauna-especies-leonida/"
+  },
+  "related-fishing": {
+    "label": "FansGTA · Pesca en GTA 6: captura y suelta, equipo y límites",
+    "url": "https://fansgta.com/es/guias/gta-6-pesca-captura-suelta/"
+  },
+  "related-kalaga": {
+    "label": "FansGTA · Mount Kalaga en GTA 6: montañas, caminos e imágenes oficiales",
+    "url": "https://fansgta.com/es/guias/gta-6-mount-kalaga-parque-montanas-imagenes/"
+  },
+  "related-money": {
+    "label": "FansGTA · Dinero en GTA 6: por qué algunas misiones requieren fondos",
+    "url": "https://fansgta.com/es/guias/gta-6-dinero-misiones-historia-atracos-edge/"
+  },
+  "related-police": {
+    "label": "FansGTA · Policía en GTA 6: búsqueda, testigos y cómo cambia la huida",
+    "url": "https://fansgta.com/es/guias/gta-6-policia-busqueda-testigos/"
+  },
+  "related-weapons": {
+    "label": "FansGTA · Armas de GTA 6: inventario limitado, rueda y maletero",
+    "url": "https://fansgta.com/es/guias/gta-6-armas-inventario-rueda-maletero/"
+  },
+  "related-robberies": {
+    "label": "FansGTA · Robos a tiendas en GTA 6: objetivos, preparación y reacciones",
+    "url": "https://fansgta.com/es/misiones/gta-6-robos-tiendas-comercios-preparacion/"
+  },
+  "related-ultimate": {
+    "label": "FansGTA · Ultimate Edition de GTA 6: qué anuncia la portada oficial",
+    "url": "https://fansgta.com/es/noticias/gta-6-ultimate-edition/"
+  },
+  "related-appearance": {
+    "label": "FansGTA · Ropa y tatuajes de GTA 6: Stock 305, Sara’s y Electric Fang",
+    "url": "https://fansgta.com/es/guias/gta-6-ropa-tatuajes-peluquerias-personalizacion/"
+  },
+  "related-gym": {
+    "label": "FansGTA · Gimnasio y comida en GTA 6: salud, resistencia y lo mostrado",
+    "url": "https://fansgta.com/es/guias/gta-6-gimnasio-comida-salud-resistencia/"
+  },
+  "related-interiors": {
+    "label": "FansGTA · Interiores de GTA 6: más edificios y casas, según Edge",
+    "url": "https://fansgta.com/es/guias/gta-6-interiores-edificios-casas-edge/"
+  },
+  "related-switching": {
+    "label": "FansGTA · Cambiar entre Jason y Lucia en GTA 6: posibilidades y límites",
+    "url": "https://fansgta.com/es/guias/gta-6-cambiar-jason-lucia-personajes/"
+  },
+  "roleplay": {
+    "label": "Jak Connor · TweakTown · 2026-10-29",
+    "url": "https://www.tweaktown.com/news/114390/gta-6-developer-says-you-can-have-your-life-in-the-game-as-rockstar-outlines-roleplay-depth/index.html"
+  },
+  "edge": {
+    "label": "Simon Parkin · Edge · 2026-10-29",
+    "url": "https://www.gamesradar.com/edge/gtavi-cover/"
+  },
+  "creative": {
+    "label": "Creative Bloq · 2026-10-31",
+    "url": "https://www.creativebloq.com/news/rockstar-art-directed-600-000-animations-so-that-gta-6s-passers-by-feel-like-real-people"
+  },
+  "dog": {
+    "label": "GamesRadar+ · 2026-08-27",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-lead-says-gta-6-takes-npc-interactions-much-further-than-red-dead-redemption-2-and-its-system-is-returning-and-evolved/"
+  },
+  "sweat": {
+    "label": "Aaron Trueman · RockstarINTEL · 2026-10-14",
+    "url": "https://rockstarintel.com/gta-6s-realistic-sweat-system-detailed/"
+  },
+  "micro": {
+    "label": "Michael Harradence · PlayStation Universe · 2026-08-28",
+    "url": "https://www.psu.com/news/grand-theft-auto-vi-will-not-feature-microtransactions-or-generative-ai/"
+  },
+  "related-homes": {
+    "label": "FansGTA · Casas de GTA 6: refugios de Jason y Lucia, garajes y extras",
+    "url": "https://fansgta.com/es/guias/gta-6-casas-refugios-jason-garajes/"
+  },
+  "related-relationship": {
+    "label": "FansGTA · Jason y Lucia en GTA 6: romance y sistema de relación",
+    "url": "https://fansgta.com/es/guias/gta-6-jason-lucia-relacion-romance/"
+  },
+  "related-online": {
+    "label": "FansGTA · Rumor: GTA 6 Online en 2027, qué dijo el CEO de Twitch",
+    "url": "https://fansgta.com/es/noticias/rumor-gta-6-online-2027-dan-clancy/"
+  },
+  "related-transport": {
+    "label": "FansGTA · GTA 6: autobuses y trenes utilizables, según Edge",
+    "url": "https://fansgta.com/es/noticias/gta-6-autobuses-trenes-transporte-edge/"
+  },
+  "related-weather": {
+    "label": "FansGTA · Clima de GTA 6: tormentas, viento y noches más largas",
+    "url": "https://fansgta.com/es/guias/gta-6-clima-dinamico-tormentas/"
+  },
+  "related-map": {
+    "label": "FansGTA · Mapa de GTA 6: diferencias entre un mapa oficial y una reconstrucción de fans",
+    "url": "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/"
+  },
+  "related-scale": {
+    "label": "FansGTA · Tamaño del mapa de GTA 6: qué significa la comparación de Edge",
+    "url": "https://fansgta.com/es/guias/gta-6-tamano-mapa-leonida-comparacion-edge/"
+  },
+  "related-phone": {
+    "label": "FansGTA · Teléfono de GTA 6: Snapmatic, aplicaciones y funciones reportadas",
+    "url": "https://fansgta.com/es/guias/gta-6-telefono-aplicaciones-snapmatic-redes/"
+  },
+  "related-buy": {
+    "label": "FansGTA · Dónde comprar, reservar y descargar GTA 6: guía paso a paso",
+    "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/"
+  }
+}
