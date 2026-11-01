@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "request": "Manual batch of10 original developed GTA articles, authentic imagery, search-focused SEO. Follow established ES/EN/FR system. Top10 Google is a goal, never a guarantee.",
-  "status": "Final release/static/browser checks passed; public publication pending.",
+  "status": "Published and publicly verified",
   "baseCommit": "099408a3ca123ed69f48ae86bb1e92197f5ec287",
   "runtime": {
     "provider": "cloud",
@@ -671,5 +671,14 @@
     "Security rules",
     "Subscriptions/paid services",
     "BarberControl"
-  ]
+  ],
+  "publication": {
+    "runtimeCommit": "5fa6006f755e9cc443dda1b640d81da35a80a63c",
+    "deployment": "b1da15d4-e790-495d-827f-149810da5fdf",
+    "verifiedAt": "2026-11-01T20:57:49.788945+00:00",
+    "versions": 30,
+    "exactAssets": 13,
+    "internalLinks": 120,
+    "evidence": "docs/editorial/2026-11-01-ten-nov-publication.json"
+  }
 }
