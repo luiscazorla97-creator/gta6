@@ -52,3 +52,7 @@ Eight existing authentic GTA VI promotional originals reused, all exact source U
 ## Collector guide expansion — 2026-11-02
 
 Two new authentic product promotional images from the first-party Rockstar Store listing: closed and open Vice City Collection box. Original 1440x1440 PNGs visually inspected, resized to 1200x1200 WebP without cropping or compositing, 23,884 and 102,356 bytes. Exact CDN URLs, source page, original names and rights context added to public/media/credits.json. Original credited product commentary; copyright/trademarks reserved and no unrestricted licence or own product test asserted. Translated alt/captions identify official product imagery; full-image contain display uses the existing catalogue class only for collector keys. Existing Vice City official screenshot rechecked HTTP 200 and retained as contextual third image. No AI, mods, leaks or GTA V substitutes.
+
+## Daily Walmart rumour — 2026-11-02
+
+Existing authentic Vice City11 official screenshot reused unchanged; exact original URL HTTP200 and optimized1600x900WebP visually inspected. Official gallery download/share context checked. Translated alt/caption and Rockstar credit identify game-setting context, explicitly not a Walmart bag or proof of unknown gift contents. Copyright reserved, no unrestricted licence claimed. No AI, mods, leaked images, GTA V substitutes or decorative hero edits.

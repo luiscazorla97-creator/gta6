@@ -1,0 +1,356 @@
+{
+  "date": "2026-11-02",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-02T22:53:02.819440+00:00",
+  "deadlineCheck": {
+    "lastAuthorizedDateInclusive": "2026-11-19",
+    "nowNewYork": "2026-11-02T17:53:02.819039-05:00",
+    "allowed": true
+  },
+  "request": "Daily run: exactly one GTA VI news topic, complete ES/EN/FR. Manual batches are separate; do not alter cadence or publish after final date.",
+  "status": "Prepared and checked; public verification pending",
+  "baseline": "186dca036847bc345b395b2a11995d27b5b3e1cf freshly fetched from GitHub main before work",
+  "runtime": {
+    "provider": "cloud",
+    "specRevision": 8,
+    "observationsCurrent": true,
+    "networkPolicy": "unrestricted/enforced",
+    "credentials": "Cloudflare account variable and domain-bound API token ready; connected GitHub write tools used; actual outcomes recorded separately. No secret values printed/requested.",
+    "userPCRequired": false
+  },
+  "topic": {
+    "id": "gta6-walmart-surprise-bag-20261102",
+    "title": [
+      "Rumor: Walmart añadiría un regalo sorpresa a las reservas de GTA 6",
+      "Rumour: GTA 6 Walmart preorders may include a mystery gift",
+      "Rumeur : un cadeau surprise avec les précommandes GTA 6 chez Walmart"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-walmart-regalo-sorpresa-reservas/",
+      "/en/news/rumour-gta-6-walmart-preorder-mystery-gift/",
+      "/fr/actualites/rumeur-gta-6-walmart-precommande-cadeau-surprise/"
+    ]
+  },
+  "lastDaily": "2026-11-01 PTO/BambooHR report; later manual guides and Collector update do not replace or expand the daily task.",
+  "officialReview": {
+    "Rockstar": "Official game page and GTA VI Newswire checked. Latest listed GTA VI announcement October29 Justice score already covered; no invented new official news. Raw Newswire is JavaScript shell, indexed dated list consulted too.",
+    "TakeTwo": "Official news list checked; November9 results event was announced October13 and already has an existing article. No repeated calendar story.",
+    "Retailer": "Actual US Walmart PS5/Xbox product pages HTTP200, retrieved November2 at22:48UTC; no surprise/delight/GMD bonus mention in public text. They do specify code-in-box, November12 delivery wording and November19 playable access."
+  },
+  "sourceChecks": [
+    {
+      "key": "intel",
+      "url": "https://rockstarintel.com/new-gta-6-pre-order-bonus-leaked-and-its-a-surprise/",
+      "status": 200,
+      "title": "New GTA 6 Pre-Order Bonus Leaked And It's A \"Surprise\" - RockstarINTEL",
+      "checkedAt": "2026-11-02T22:46:10.960542+00:00",
+      "dates": [
+        "2026-11-02T11:45:39+00:00",
+        "2026-11-02T11:49:54+00:00",
+        "2026-11-02T11:45:39+00:00",
+        "2026-11-02T11:49:54+00:00",
+        "2026-11-02T11:45:39+00:00",
+        "2026-11-02T11:49:54+00:00"
+      ],
+      "textChars": 5116
+    },
+    {
+      "key": "beebom",
+      "url": "https://beebom.com/gta-6-walmart-pre-order-surprise-ps5-xbox/",
+      "status": 200,
+      "title": "GTA 6 Walmart Pre-Orders Reportedly Include a \"Surprise\" for PS5 and Xbox Players | Beebom",
+      "checkedAt": "2026-11-02T22:46:09.853961+00:00",
+      "dates": [
+        "2026-11-02T09:09:36+05:30"
+      ],
+      "textChars": 6388
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "checkedAt": "2026-11-02T22:46:10.087318+00:00",
+      "dates": [],
+      "textChars": 2284
+    },
+    {
+      "key": "newswire",
+      "url": "https://www.rockstargames.com/newswire?tag=722",
+      "status": 200,
+      "title": "Newswire - Rockstar Games",
+      "checkedAt": "2026-11-02T22:46:09.906310+00:00",
+      "dates": [],
+      "textChars": 27
+    },
+    {
+      "key": "take-two",
+      "url": "https://ir.take2games.com/news-releases",
+      "status": 200,
+      "title": "take-two",
+      "checkedAt": "2026-11-02T22:46:11.154443+00:00",
+      "dates": [],
+      "textChars": 12955
+    },
+    {
+      "key": "sony",
+      "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "status": 200,
+      "title": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+      "checkedAt": "2026-11-02T22:46:11.137767+00:00",
+      "dates": [],
+      "textChars": 10748
+    },
+    {
+      "key": "editions",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+      "checkedAt": "2026-11-02T22:46:10.512364+00:00",
+      "dates": [],
+      "textChars": 6262
+    },
+    {
+      "key": "rectify",
+      "url": "https://www.rectifygaming.com/gta-6-pre-orders-at-walmart-will-come-with-a-sample-bag/",
+      "status": 200,
+      "title": "GTA 6 Pre-Orders at Walmart will come with a \"sample bag\" — Rectify Gaming",
+      "dates": [
+        "2026-11-01T22:33:40+00:00",
+        "2026-11-01T22:34:23+00:00",
+        "2026-11-01T22:33:40+00:00",
+        "2026-11-01T22:34:23+00:00"
+      ],
+      "textChars": 4677,
+      "checkedAt": "2026-11-02T22:46:57.227526+00:00"
+    },
+    {
+      "key": "nintendeal",
+      "url": "https://x.com/Nintendeal/status/2117050523006509208",
+      "status": 200,
+      "title": "Nintendeal on X: \"Grand Theft Auto VI pre-orders from Walmart will have a \"surprise\" included with the delivery\n\nPS5: https://t.co/rg1UXrdlNv\nXbox: https://t.co/O5uIsoNGwx #ad\" / X",
+      "dates": [],
+      "textChars": 1531,
+      "checkedAt": "2026-11-02T22:46:57.336067+00:00"
+    },
+    {
+      "key": "nxrcssist",
+      "url": "https://x.com/nxrcssist/status/2116754237505798468",
+      "status": 200,
+      "title": "narc on X: \"@TGGonYT @AbdulRa91177312 Yo TGG I have gta 6 info via Walmart that no one’s shown. Your DM’s are closed is there a way I can communicate w you\" / X",
+      "dates": [],
+      "textChars": 1083,
+      "checkedAt": "2026-11-02T22:46:57.138504+00:00"
+    },
+    {
+      "key": "smallo92",
+      "url": "https://x.com/smallo92/status/2116762038206628215",
+      "status": 200,
+      "title": "Smallo on X: \"People who preordered GTAVI at Walmart have a chance to score a goodie bag with their preorder.\n\nNot sure what's in these goodie bags, but I assume it's GTAVI related items!\n\nSource: @nxrcssist\" / X",
+      "dates": [],
+      "textChars": 1629,
+      "checkedAt": "2026-11-02T22:46:57.207961+00:00"
+    },
+    {
+      "key": "walmart",
+      "url": "https://www.walmart.com/browse/video-games/grand-theft-auto-vi/2636_7899038_6635346_3810518",
+      "status": 200,
+      "title": "Grand Theft Auto VI in Grand Theft Auto - Walmart.com",
+      "dates": [],
+      "textChars": 18928,
+      "checkedAt": "2026-11-02T22:46:58.768684+00:00"
+    },
+    {
+      "key": "walmart-ps5",
+      "url": "https://www.walmart.com/ip/Grand-Theft-Auto-VI-PlayStation-5-Game-Code-in-Box-Delivers-11-12-26-Playable-11-19-26/20482917228",
+      "status": 200,
+      "title": "Grand Theft Auto VI, PlayStation 5 Game, (Code in Box, Delivers 11/12/26, Playable 11/19/26) - Walmart.com",
+      "textChars": 18046,
+      "surpriseMentionInPublicText": false,
+      "checkedAt": "2026-11-02T22:48:48.940850+00:00"
+    },
+    {
+      "key": "walmart-xbox",
+      "url": "https://www.walmart.com/ip/Grand-Theft-Auto-VI-Xbox-Series-X-S-Game-Code-In-Box-Delivers-11-12-26-Playable-11-19-26/20459958275",
+      "status": 200,
+      "title": "Grand Theft Auto VI, Xbox Series X/S Game, (Code In Box, Delivers 11/12/26, Playable 11/19/26) - Walmart.com",
+      "textChars": 17381,
+      "surpriseMentionInPublicText": false,
+      "checkedAt": "2026-11-02T22:48:49.352894+00:00"
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media/screenshots",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "textChars": 5393,
+      "surpriseMentionInPublicText": false,
+      "checkedAt": "2026-11-02T22:48:47.410391+00:00"
+    }
+  ],
+  "noveltyAndDates": {
+    "earlyPosts": "Smallo and @nxrcssist posts display November1; deleted-post notice appears for @nxrcssist. Smallo remains readable. No claim November2 started the rumour.",
+    "rectify": "November1,22:33:40UTC, anonymous-source report, modified22:34:23.",
+    "nintendeal": "Original public post displays November2; no timezone inferred from its displayed clock. #ad disclosed on that post; our merchant links contain no affiliate/shortener tracking.",
+    "beebom": "November2,09:09:36+05:30 (03:39:36UTC).",
+    "rockstarIntel": "November2,11:45:39UTC, modified11:49:54.",
+    "freshness": "New November2 coverage after the previous daily run; older initial social posts explicitly dated. This is news about an unconfirmed retailer rumour, not an official November2 promotion announcement."
+  },
+  "evidenceAssessment": {
+    "confirmed": "The cited reporting and social posts exist with these dates. Official game platforms/date and code-in-box format checked. Walmart product pages readable.",
+    "unconfirmed": "Current live promotion, actual bag contents, eligibility, participating locations, per-order stock/allocation and individual bag delivery date. Absence from public product text does not prove cancellation or falsehood.",
+    "noInference": "No promised snacks, map, branded objects, game disc, money value, general international eligibility or early playable access. No210GB claim adopted from a secondary source.",
+    "primaryAccess": "Search-service opens of X returned403, but normal cloud HTTP retrieval returned200 with readable original post text without login or bypass. Both outcomes recorded. @nxrcssist deleted notice treated as a limitation, not independent proof.",
+    "rumourLabels": "Rumor/Rumour/Rumeur in all titles, tags and introductions; sources adjacent to claims and explicit public-listing limitation.",
+    "mediaReports": "Several outlets repeating a screenshot are not described as independent confirmations."
+  },
+  "deduplication": {
+    "topicsScanned": 144,
+    "versionsScanned": 432,
+    "scan": {
+      "topics": 144,
+      "versions": 432,
+      "hits": [
+        {
+          "id": "gta6-world-encounters-20261101",
+          "title": [
+            "Encuentros en GTA 6: decisiones, personajes y motivos para volver",
+            "GTA 6 encounters: choices, characters and reasons to return",
+            "Rencontres GTA 6 : choix, personnages et raisons de revenir"
+          ],
+          "sections": [
+            {
+              "heading": [
+                "Opcional no significa aleatorio en todos sus detalles",
+                "Optional does not mean random in every detail",
+                "Facultatif ne signifie pas entièrement aléatoire"
+              ],
+              "paragraphs": [
+                [
+                  "Un encuentro puede aparecer durante una sesión de mundo abierto y seguir teniendo diálogos, condiciones y consecuencias escritas. Por eso evitamos decir que el juego genera historias infinitas. La sorpresa del jugador y la estructura interna del evento son cosas distintas: un momento que Nelson no esperaba durante la demostración no prueba que no existieran reglas para producirlo.",
+                  "An encounter can arise during free roam while still having authored dialogue, conditions and consequences. It does not establish infinitely generated stories. Player surprise and an event’s internal structure are different: Nelson being surprised during the demonstration does not show that the encounter had no rules.",
+                  "Une rencontre peut survenir en exploration tout en ayant dialogues, conditions et conséquences écrits. Cela ne prouve pas des histoires générées à l’infini. Surprise du joueur et structure de l’événement sont distinctes : un moment inattendu pour Nelson n’est pas forcément sans règles."
+                ]
+              ],
+              "references": [
+                {
+                  "label": "GTA 6: The Big Interview",
+                  "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931"
+                }
+              ],
+              "image": {
+                "key": "feature-phone",
+                "alt": [
+                  "Jason sosteniendo un teléfono junto a una embarcación",
+                  "Jason holding a phone beside a boat",
+                  "Jason tenant un téléphone près d’un bateau"
+                ],
+                "caption": [
+                  "Jason sosteniendo un teléfono junto a una embarcación. Captura promocional oficial usada como contexto; no muestra una prueba de esta guía.",
+                  "Jason holding a phone beside a boat. Official promotional screenshot used as context; it does not show a test of this guide.",
+                  "Jason tenant un téléphone près d’un bateau. Capture promotionnelle officielle utilisée comme contexte ; elle ne montre pas un test de ce guide."
+                ],
+                "credit": {
+                  "label": "GTA VI © Rockstar Games",
+                  "url": "https://www.rockstargames.com/VI/media/screenshots"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "gta6-npc-behaviour-deep-20261029",
+          "title": [
+            "NPC de GTA 6: cómo cambia su IA y qué revela Edge",
+            "GTA 6 NPC AI: behaviour, reactions and what Edge reveals",
+            "PNJ de GTA 6 : IA, réactions et révélations d’Edge"
+          ],
+          "sections": [
+            {
+              "heading": [
+                "Encuentros emergentes: sorpresa con reglas",
+                "Emergent encounters: surprises within rules",
+                "Rencontres émergentes : la surprise dans un cadre de règles"
+              ],
+              "paragraphs": [
+                [
+                  "Un sistema emergente produce situaciones a partir de elementos que interactúan. No significa que todos los eventos sean aleatorios o que no exista contenido escrito. Para analizar una secuencia, conviene preguntar qué inició el encuentro, qué opciones conservaba el jugador y qué condición lo terminó. Ese esquema ayuda a distinguir una interacción de una escena cinematográfica. No presentamos aquí una lista de eventos confirmados ni una ruta para activarlos: sin acceso a la versión final, esos pasos serían una invención.",
+                  "An emergent system produces situations from interacting elements. It does not mean every event is random or that authored content disappears. When analysing a sequence, ask what started the encounter, which choices remained available and what ended it. That framework helps distinguish interaction from a cinematic scene. This is not a confirmed-event checklist or an activation route: without access to the final version, such instructions would be invented.",
+                  "Un système émergent produit des situations à partir d’éléments qui interagissent. Cela ne signifie ni événements tous aléatoires ni disparition du contenu écrit. Pour examiner une séquence, demandez ce qui déclenche la rencontre, quels choix restent disponibles et ce qui y met fin. Ce cadre distingue interaction et cinématique. Nous ne donnons pas de liste d’événements confirmés ni d’itinéraire pour les déclencher : sans version finale, ces instructions seraient inventées."
+                ]
+              ],
+              "references": [
+                {
+                  "label": "Simon Parkin / Edge — The state that never sleeps, 29 October 2026",
+                  "url": "https://www.gamesradar.com/edge/gtavi-cover/"
+                },
+                {
+                  "label": "Rachel Weber / IGN — The Big Interview, 7 October 2026 (Best Buy republication)",
+                  "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "decision": "No Walmart/gift-promotion equivalent found. Generic surprise words in NPC/encounter sections are unrelated. Buying guide, Vintage Vice City Pack, physical-code guide and Collector box are linked as distinct intents rather than duplicated.",
+    "newTopics": 1,
+    "newVersions": 3,
+    "priorRecordsUnchanged": 144,
+    "priorURLsPreserved": 432,
+    "totalTopics": 145,
+    "totalVersions": 435
+  },
+  "interest": {
+    "method": "Fresh specialist coverage in RockstarINTEL/Beebom on November2 plus current autocomplete phrasing for Walmart preorder bonus. Qualitative interest, not a rank or volume.",
+    "autocomplete": [
+      {
+        "query": "gta 6 walmart preorder",
+        "suggestions": [
+          "gta 6 walmart preorder bonus",
+          "gta 6 walmart preorder",
+          "grand theft auto 6 preorder walmart",
+          "gta 6 pre order walmart canada",
+          "how much is it to pre order gta 6",
+          "how to pre order gta 6",
+          "gta 6 pre order price",
+          "gta 6 release date pre order",
+          "is gta 6 in stores"
+        ],
+        "source": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+walmart+preorder"
+      },
+      {
+        "query": "gta 6 walmart surprise bag",
+        "suggestions": [],
+        "source": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+walmart+surprise+bag"
+      }
+    ],
+    "limits": "No numeric Trends/Search Console series available. Exact surprise-bag query returned no autocomplete suggestions; not presented as popularity evidence."
+  },
+  "media": {
+    "cover": {
+      "key": "vice-city",
+      "source": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 894386
+      },
+      "originalStatus": 200,
+      "originalBytes": 894386,
+      "localSHA256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "checkedAt": "2026-11-02T22:49:23.044577+00:00"
+    },
+    "visuallyInspected": true,
+    "rights": "Unchanged authentic official Vice City screenshot, optimized1600x900WebP, original Rockstar gallery URL checkedHTTP200. Download/share gallery context rechecked. Copyright reserved; no unrestricted licence asserted. Alt/caption/credit translated and explicit that the image is not a Walmart bag or gift evidence. No AI/mod/leak/GTA V/edited hero imagery used."
+  },
+  "validation": {
+    "release": "npm run build:release passed; existing large-bundle advisory remains.",
+    "static": "node scripts/verify-static.mjs passed:479HTML,21516internal links,932JSON-LD blocks.",
+    "browser": "6passed:all3language versions on desktop/mobile, rumour labeling, sources, one decoded credited cover, localized internal links, metadata/dates/schema/sitemap, actual language selector and no overflow. External ad/Analytics SDKs stubbed; no ad-fill/Analytics-receipt assertion.",
+    "inventory": "145topics/435versions;144previous records unchanged and432priorURLs preserved."
+  },
+  "preserved": "Design, all previous articles, static ads/side rails, popunder disabled, Analytics consent, AdSense verification, security, subscriptions, paid services and daily cadence/end date unchanged. No third-party messages or purchases."
+}

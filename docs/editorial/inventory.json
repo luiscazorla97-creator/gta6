@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-walmart-surprise-bag-20261102",
+    "category": "news",
+    "published": "2026-11-02",
+    "titles": [
+      "Rumor: Walmart añadiría un regalo sorpresa a las reservas de GTA 6",
+      "Rumour: GTA 6 Walmart preorders may include a mystery gift",
+      "Rumeur : un cadeau surprise avec les précommandes GTA 6 chez Walmart"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-walmart-regalo-sorpresa-reservas/",
+      "/en/news/rumour-gta-6-walmart-preorder-mystery-gift/",
+      "/fr/actualites/rumeur-gta-6-walmart-precommande-cadeau-surprise/"
+    ]
+  },
+  {
     "id": "gta6-coop-split-screen-20261102",
     "category": "guides",
     "published": "2026-11-02",
