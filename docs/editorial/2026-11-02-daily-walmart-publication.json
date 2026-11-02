@@ -1,0 +1,363 @@
+{
+  "verifiedAt": "2026-11-02T22:56:16.569536+00:00",
+  "runtimeCommit": "9de0bf90bc2e2749a9e42ad5a5e5bca97862f138",
+  "deploymentId": "a7b7a71d-a567-46a7-b149-5bcfa4941517",
+  "environment": "production",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-11-02T22:55:11.795001Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-walmart-regalo-sorpresa-reservas/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "ae8211eb1d0cd2fd758c7fb952694acc69e81f3beb113766f9fa9ae201ef8a27"
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-walmart-preorder-mystery-gift/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "f3732303b6f3e283fc7ac19a14d6f780136809bbc65caa3bcff198121c732501"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-walmart-precommande-cadeau-surprise/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "fd0665ff07353963030e7a3456e391f0bee8c56d3dc0e4bbe538beb56d78ab7e"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://fansgta.com/assets/index-Bd4d0erj.css",
+      "status": 200,
+      "bytes": 56990,
+      "sha256": "c3c9a7be7e108a3f205fd1ea5266d7aa971fdf52b10241717ea11e377a7d1611",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/index-DK7d3Fwr.js",
+      "status": 200,
+      "bytes": 2027592,
+      "sha256": "330f7a38b9306ce30173c56485154c3758e8b046d8876fea068c8bd13e6d31ba",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/postscribe-Ca8l2Ih4.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "ccbf14397b9ceea95ddb0d3cf56133af07d92aaf88c807b464e563024b12bf49",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedDist": true
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/characters/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/community/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-cancel-preorder-refund-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-collectors-box-does-it-include-game/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-physical-edition-no-disc-code/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-launch-time-off-bamboohr-study/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-south-park-gameplay-episode-explained/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-vintage-vice-city-pack/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-first-person-camera-launch/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/privacy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/terms/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/comunidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/contacto/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cancelar-reserva-reembolso-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-collectors-box-incluye-juego/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-dias-libres-solicitudes-bamboohr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-south-park-gameplay-episodio-que-muestra/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-vintage-vice-city-pack/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-primera-persona-camara-lanzamiento/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/privacidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/terminos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-sortie-conges-etude-bamboohr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-south-park-gameplay-episode-explique/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-vintage-vice-city-pack/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-premiere-personne-camera-sortie/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/communaute/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/conditions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/confidentialite/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-annuler-precommande-remboursement-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-coffret-collector-jeu-inclus/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-edition-physique-sans-disque-code/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/personnages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/",
+      "status": 200
+    }
+  ],
+  "sitemap": {
+    "url": "https://fansgta.com/sitemap.xml",
+    "status": 200,
+    "newPathsPresent": 3
+  },
+  "browserChecks": "6passed locally:3language versions desktop/mobile, decodedimages, actual language-selector navigation, sources, metadata, tables and overflow. Public assets match those tested bytes; public HTML parsed independently. External advertising and Analytics SDKs stubbed in browser checks, so no ad-fill or Analytics-receipt assertion.",
+  "inventory": {
+    "topics": 145,
+    "versions": 435,
+    "priorTopicsUnchanged": 144,
+    "priorURLsPreserved": 432
+  },
+  "cloud": "Managed cloud provider; connected GitHub write tools and Cloudflare API/file deployment. No user-PC files/processes required. This successful run does not guarantee future executor availability.",
+  "entireArticleText": "Complete article text in all3languages matches the tested release, including rumour qualification and absent-bonus limitation."
+}

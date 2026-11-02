@@ -8,7 +8,7 @@
     "allowed": true
   },
   "request": "Daily run: exactly one GTA VI news topic, complete ES/EN/FR. Manual batches are separate; do not alter cadence or publish after final date.",
-  "status": "Prepared and checked; public verification pending",
+  "status": "Published and publicly verified",
   "baseline": "186dca036847bc345b395b2a11995d27b5b3e1cf freshly fetched from GitHub main before work",
   "runtime": {
     "provider": "cloud",
@@ -352,5 +352,17 @@
     "browser": "6passed:all3language versions on desktop/mobile, rumour labeling, sources, one decoded credited cover, localized internal links, metadata/dates/schema/sitemap, actual language selector and no overflow. External ad/Analytics SDKs stubbed; no ad-fill/Analytics-receipt assertion.",
     "inventory": "145topics/435versions;144previous records unchanged and432priorURLs preserved."
   },
-  "preserved": "Design, all previous articles, static ads/side rails, popunder disabled, Analytics consent, AdSense verification, security, subscriptions, paid services and daily cadence/end date unchanged. No third-party messages or purchases."
+  "preserved": "Design, all previous articles, static ads/side rails, popunder disabled, Analytics consent, AdSense verification, security, subscriptions, paid services and daily cadence/end date unchanged. No third-party messages or purchases.",
+  "publication": {
+    "contentCommit": "9de0bf90bc2e2749a9e42ad5a5e5bca97862f138",
+    "deploymentId": "a7b7a71d-a567-46a7-b149-5bcfa4941517",
+    "environment": "production",
+    "stage": "deploy/success",
+    "verifiedAt": "2026-11-02T22:56:16.569536+00:00",
+    "pages": 3,
+    "assetsMatchingTestedDist": 4,
+    "publicInternalLinks": 69,
+    "completeTextMatchesRelease": true,
+    "evidence": "docs/editorial/2026-11-02-daily-walmart-publication.json"
+  }
 }
