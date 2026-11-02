@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-02",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-02T18:35:10.355478+00:00",
+  "request": "User requests an original SEO guide about GTA6 Collectors Edition price, items and preorders only if not already covered. Equivalent existing guide found; expanded in ES/EN/FR instead of creating duplicate URLs.",
+  "status": "Prepared and checked; public verification pending",
+  "baseline": "4749b2eacd783eb024e6c9560f2c4e605a450c26 freshly fetched from GitHub main",
+  "runtime": {
+    "provider": "cloud",
+    "specRevision": 8,
+    "observationsCurrent": true,
+    "networkPolicy": "unrestricted/enforced",
+    "credentials": "Domain-bound Cloudflare API token and account observed ready; connected GitHub tools used for writes. No secret values read or printed.",
+    "userPCRequired": false
+  },
+  "topic": {
+    "id": "collector-box-no-game-2026-10-28",
+    "title": [
+      "GTA 6 Collector’s Edition: precio, contenido y reservas",
+      "GTA 6 Collector’s Edition: price, contents and preorders",
+      "GTA 6 Collector’s Edition : prix, contenu et précommandes"
+    ],
+    "paths": [
+      "/es/guias/gta-6-collectors-box-incluye-juego/",
+      "/en/guides/gta-6-collectors-box-does-it-include-game/",
+      "/fr/guides/gta-6-coffret-collector-jeu-inclus/"
+    ],
+    "published": "2026-10-28",
+    "updated": "2026-11-02"
+  },
+  "deduplication": {
+    "topicsScanned": 144,
+    "versionsScanned": 432,
+    "equivalent": "collector-box-no-game-2026-10-28",
+    "previousUpdate": "2026-10-31 Japan price/stock update",
+    "decision": "Retain same id/category/slugs and October28 publication. Broaden existing guide from Japan-focused title to the exact collector-edition search intent with current US/Japan prices, eleven-item table, edition comparison, shipping/region information, FAQ and official product photographs. No new article or URL.",
+    "unrelatedRecordsUnchanged": 143,
+    "allExistingURLsPreserved": 432,
+    "totalTopics": 144,
+    "totalVersions": 432
+  },
+  "sourceChecks": [
+    {
+      "key": "store",
+      "url": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+      "status": 200,
+      "title": "store",
+      "checkedAt": "2026-11-02T18:26:32.813495+00:00",
+      "dates": [],
+      "textChars": 5080
+    },
+    {
+      "key": "announce",
+      "url": "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l",
+      "status": 200,
+      "title": "Pre-Order The Goodtime State – Vice City Collection Now While Supplies Last - Rockstar Games",
+      "checkedAt": "2026-11-02T18:26:32.667628+00:00",
+      "dates": [],
+      "textChars": 94
+    },
+    {
+      "key": "editions",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+      "checkedAt": "2026-11-02T18:26:32.625108+00:00",
+      "dates": [],
+      "textChars": 6262
+    },
+    {
+      "key": "ecapcom",
+      "url": "https://www.e-capcom.com/shop/g/gC00009901/",
+      "status": 200,
+      "title": "イーカプコン　|Grand Theft Auto VI:The Goodtime State - Vice City Collection: その他グッズ CAPCOM公式通販サイト",
+      "encoding": "shift_jis",
+      "checkedAt": "2026-11-02T18:27:18.542015+00:00",
+      "priceJPY": 99980,
+      "taxIncluded": true,
+      "stockIndicator": "在庫：×",
+      "gameIncluded": false
+    },
+    {
+      "key": "capcom-release",
+      "url": "https://www.famitsu.com/article/202610/92485",
+      "status": 200,
+      "title": "capcom-release",
+      "checkedAt": "2026-11-02T18:26:32.962746+00:00",
+      "dates": [
+        "2026-10-29T15:51:00+09:00",
+        "2026-10-29T15:53:27+09:00"
+      ],
+      "textChars": 5813
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "checkedAt": "2026-11-02T18:26:33.069810+00:00",
+      "dates": [],
+      "textChars": 2284
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "checkedAt": "2026-11-02T18:26:32.980175+00:00",
+      "dates": [],
+      "textChars": 2254
+    }
+  ],
+  "sourceDates": {
+    "reveal": "September24,2026 Rockstar announcement, as corroborated by official GTA VI page news index. Not presented as a November2 reveal.",
+    "requestedHeadline": "Exact headline matched VICE/Brent Koepp article dated September24,2026. That article is discovery context only; no text, images or quotes copied from it.",
+    "japan": "Capcom announcement October29, preorders opening October30 at12:00JST. Both original dates preserved.",
+    "updated": "November2,2026 live pricing/product/stock check; original article publication remains October28."
+  },
+  "verifiedClaims": {
+    "us": {
+      "country": "US",
+      "currency": "USD",
+      "originalPrice": 399.99,
+      "salePrice": 399.99,
+      "purchasable": true,
+      "visible": true,
+      "isPhysical": true
+    },
+    "usMarketEvidence": "Public product data explicitly country US and currency USD; not inferred merely from a dollar symbol or language. Product399.99USD, excludes final delivery/possible taxes; no checkout/stock allocation performed.",
+    "japan": {
+      "currency": "JPY",
+      "price": 99980,
+      "taxIncluded": true,
+      "stockIndicator": "在庫：×",
+      "date": "2026-11-02",
+      "encoding": "shift_jis decoded correctly; unavailable snapshot, not permanent sellout."
+    },
+    "gameIncluded": false,
+    "itemEntries": 11,
+    "shipmentStart": "November19,2026 according to official product FAQ; not guaranteed individual arrival.",
+    "orderLimit": "Official consumer FAQ says one purchase per person and login required. Internal SKU maxQuantity is not treated as the policy.",
+    "regions": "Official list includes Spain, France, US, UK, Canada and other European countries; no Latin American countries found in that list. Japan has separate e-Capcom terms.",
+    "restrictions": "e-Capcom item says non-cancellable; no policy transferred between merchants.",
+    "currencyConversions": false,
+    "ordersOrCheckoutPerformed": false,
+    "rumours": "None used; exact headline is not an assertion of a new reveal."
+  },
+  "interest": {
+    "method": "User-selected intent corroborated by current Google autocomplete; no popularity ranking or measured demand inferred.",
+    "autocomplete": [
+      {
+        "query": "gta 6 collectors edition",
+        "suggestions": [
+          "gta 6 collectors edition",
+          "gta 6 collectors edition pre order",
+          "gta 6 collectors edition price",
+          "gta 6 collectors edition where to buy",
+          "gta 6 collectors edition items",
+          "gta 6 collectors edition release date",
+          "gta 6 collectors edition box",
+          "gta 6 collectors edition leak",
+          "gta 6 collectors edition reddit",
+          "gta 6 collectors edition ebay"
+        ],
+        "source": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+collectors+edition"
+      },
+      {
+        "query": "gta 6 collectors box",
+        "suggestions": [
+          "gta 6 collectors box",
+          "gta 6 collectors box items",
+          "gta 6 collectors box price",
+          "gta 6 collectors box reddit",
+          "gta 6 collectors box map",
+          "gta 6 collectors box for $400",
+          "gta 6 collectors box contents",
+          "gta 6 collectors box ebay",
+          "gta 6 collectors box spoon",
+          "gta 6 collectors box sold out"
+        ],
+        "source": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+collectors+box"
+      },
+      {
+        "query": "gta 6 collectors edition price",
+        "suggestions": [
+          "gta 6 collectors edition price",
+          "gta 6 collectors edition price aud",
+          "gta 6 collectors edition price uk",
+          "gta 6 collectors edition price australia",
+          "gta 6 collector's edition price in india",
+          "gta 6 collector's edition price canada",
+          "gta 6 collector's edition price ps5",
+          "gta 6 collector's edition price reddit",
+          "gta 6 collector's edition price breakdown",
+          "gta 6 collector's edition price cad"
+        ],
+        "source": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+collectors+edition+price"
+      }
+    ],
+    "limits": "No numeric Google Trends/Search Console series or top10 ranking evidence available; none invented."
+  },
+  "media": {
+    "newAssets": [
+      {
+        "key": "collector-box-closed",
+        "originalURL": "https://images.ctfassets.net/h1rqp7q66d54/7oD5JrJwPbKnOvJHYJOOls/3bd0371706222d53640907814156e91f/GTAVI_CE_Box_Closed_1440x1440.png",
+        "status": 200,
+        "originalDimensions": [
+          1440,
+          1440
+        ],
+        "optimizedDimensions": [
+          1200,
+          1200
+        ],
+        "optimizedBytes": 23884,
+        "sha256": "f1e44f408cc81162be30198e3e3ca8f2b218a6fa81afc351968d17fc0648395b",
+        "visuallyInspected": true
+      },
+      {
+        "key": "collector-box-open",
+        "originalURL": "https://images.ctfassets.net/h1rqp7q66d54/oUv7kz3o5ZHK96pgSEr80/a5c6343cdf67e3a95cf9cdd172ebe30b/GTAVI_CE_Box_Open_1440x1440.png",
+        "status": 200,
+        "originalDimensions": [
+          1440,
+          1440
+        ],
+        "optimizedDimensions": [
+          1200,
+          1200
+        ],
+        "optimizedBytes": 102356,
+        "sha256": "339478a038e61d572567b2309b36b2f51ce79755a0454e16c5dd948a96a0780f",
+        "visuallyInspected": true
+      }
+    ],
+    "reused": {
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+      "status": 200,
+      "localBytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016"
+    },
+    "placements": 3,
+    "rights": "Two authentic Rockstar Store promotional product images on its first-party listing, with linked provenance, original names, reserved copyright/trademark context and translated credit/alt/captions. Used to identify/comment on the product, no unrestricted licence or own product test asserted. Existing official Vice City image reused as game-setting context.",
+    "processing": "Product images resized1440square to1200square and WebP only, no crop/composite/AI/mod/leak/substitute. Contain presentation is scoped to collector image keys, using the existing catalogue class; other image behavior unchanged."
+  },
+  "validation": {
+    "release": "npm run build:release passed; existing Vite large-bundle advisory remains.",
+    "static": "node scripts/verify-static.mjs passed:476HTML,21372internal links,926JSON-LD blocks.",
+    "browser": "4passed. All3languages checked on desktop/mobile for current metadata, original publication, sitemap/hreflang, actual selector navigation, current US/Japan prices,11item rows,3decodedcreditedimages, full uncropped product presentation and overflow. External advertising/Analytics SDKs stubbed, not an ad-fill/event-receipt test.",
+    "identity": "All432priorURLs preserved; only one inventory record updated. Other143records unchanged."
+  },
+  "preserved": "Daily1-topic schedule through November19 inclusive America/New_York, advertisements/side rails, popunder disabled, Analytics consent, AdSense verification, security, subscriptions, previous topics and general design unchanged. No third-party messages/purchases/account changes."
+}

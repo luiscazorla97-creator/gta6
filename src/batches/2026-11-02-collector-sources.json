@@ -1,0 +1,54 @@
+{
+  "store": {
+    "label": "Rockstar Store · The Goodtime State – Vice City Collection · checked 2 November 2026",
+    "url": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection"
+  },
+  "announce": {
+    "label": "Rockstar Games · Collector’s Box announcement · 24 September 2026",
+    "url": "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l"
+  },
+  "editions": {
+    "label": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+    "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+  },
+  "ecapcom": {
+    "label": "e-Capcom · Japan listing C00009901 · checked 2 November 2026",
+    "url": "https://www.e-capcom.com/shop/g/gC00009901/"
+  },
+  "capcom-release": {
+    "label": "Capcom announcement via Famitsu · 29 October 2026",
+    "url": "https://www.famitsu.com/article/202610/92485"
+  },
+  "official": {
+    "label": "Grand Theft Auto VI - Rockstar Games",
+    "url": "https://www.rockstargames.com/VI"
+  },
+  "media": {
+    "label": "Grand Theft Auto VI - Rockstar Games",
+    "url": "https://www.rockstargames.com/VI/media"
+  },
+  "gallery": {
+    "label": "Rockstar Games · GTA VI official screenshots",
+    "url": "https://www.rockstargames.com/VI/media/screenshots"
+  },
+  "related-buy": {
+    "label": "FansGTA · Dónde comprar, reservar y descargar GTA 6: guía paso a paso",
+    "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/"
+  },
+  "related-ultimate": {
+    "label": "FansGTA · Ultimate Edition de GTA 6: qué anuncia la portada oficial",
+    "url": "https://fansgta.com/es/noticias/gta-6-ultimate-edition/"
+  },
+  "related-physical": {
+    "label": "FansGTA · ¿GTA 6 físico trae disco? Qué incluye la caja con código",
+    "url": "https://fansgta.com/es/guias/gta-6-edicion-fisica-sin-disco-codigo/"
+  },
+  "related-preload": {
+    "label": "FansGTA · Precarga de GTA 6: fecha, hora y preparación en PS5 y Xbox",
+    "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+  },
+  "related-map": {
+    "label": "FansGTA · Mapa de GTA 6: diferencias entre un mapa oficial y una reconstrucción de fans",
+    "url": "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/"
+  }
+}

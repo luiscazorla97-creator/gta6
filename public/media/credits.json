@@ -740,5 +740,29 @@
     "bytes": 126864,
     "checked": "2026-11-01",
     "useContext": "Authentic GTA VI promotional screenshot in the official download/share gallery, visually inspected; editorial illustration, copyright reserved. No gameplay testing or unrestricted licence asserted."
+  },
+  "collector-box-closed": {
+    "url": "https://images.ctfassets.net/h1rqp7q66d54/7oD5JrJwPbKnOvJHYJOOls/3bd0371706222d53640907814156e91f/GTAVI_CE_Box_Closed_1440x1440.png",
+    "sourcePage": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+    "owner": "Rockstar Games / Take-Two Interactive",
+    "credit": "GTA VI Collector’s Box © Rockstar Games · Rockstar Store",
+    "originalName": "GTAVI_CE_Box_Closed_1440x1440.png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 23884,
+    "checked": "2026-11-02",
+    "useContext": "Authentic official product promotional image on Rockstar Store, used to identify and discuss this product in original credited editorial coverage. Copyright and trademarks reserved; no unrestricted reuse licence asserted. Resized and WebP-encoded only, no cropping, AI, compositing or gameplay claims."
+  },
+  "collector-box-open": {
+    "url": "https://images.ctfassets.net/h1rqp7q66d54/oUv7kz3o5ZHK96pgSEr80/a5c6343cdf67e3a95cf9cdd172ebe30b/GTAVI_CE_Box_Open_1440x1440.png",
+    "sourcePage": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+    "owner": "Rockstar Games / Take-Two Interactive",
+    "credit": "GTA VI Collector’s Box © Rockstar Games · Rockstar Store",
+    "originalName": "GTAVI_CE_Box_Open_1440x1440.png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 102356,
+    "checked": "2026-11-02",
+    "useContext": "Authentic official product promotional image on Rockstar Store, used to identify and discuss this product in original credited editorial coverage. Copyright and trademarks reserved; no unrestricted reuse licence asserted. Resized and WebP-encoded only, no cropping, AI, compositing or gameplay claims."
   }
 }

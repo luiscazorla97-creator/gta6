@@ -1,0 +1,41 @@
+{
+  "collector-box-closed": {
+    "alt": [
+      "Caja negra cerrada de GTA VI Vice City Collection sobre fondo rosa, con logotipos VI y Vice City Leonida",
+      "Closed black GTA VI Vice City Collection box on a pink background, with VI and Vice City Leonida logos",
+      "Coffret noir fermé GTA VI Vice City Collection sur fond rose, avec logos VI et Vice City Leonida"
+    ],
+    "caption": [
+      "Imagen promocional oficial de la Collector’s Box. Los objetos de la colección se venden sin GTA VI.",
+      "Official promotional image of the Collector’s Box. The collectible merchandise is sold without GTA VI.",
+      "Visuel promotionnel officiel du coffret collector. Les objets sont vendus sans GTA VI."
+    ],
+    "source": "https://images.ctfassets.net/h1rqp7q66d54/7oD5JrJwPbKnOvJHYJOOls/3bd0371706222d53640907814156e91f/GTAVI_CE_Box_Closed_1440x1440.png"
+  },
+  "collector-box-open": {
+    "alt": [
+      "Caja abierta de GTA VI Vice City Collection con varios niveles, gorra y piezas de Macca the Gator",
+      "Open GTA VI Vice City Collection box with multiple layers, hat and Macca the Gator collectibles",
+      "Coffret GTA VI Vice City Collection ouvert, à plusieurs niveaux, avec casquette et objets Macca the Gator"
+    ],
+    "caption": [
+      "Presentación oficial de la caja abierta y sus compartimentos. Es una imagen de producto de Rockstar Store, no una fotografía propia de una unidad recibida.",
+      "Official presentation of the opened box and its compartments. This is a Rockstar Store product image, not our photograph of a delivered unit.",
+      "Présentation officielle du coffret ouvert et de ses compartiments. Image produit Rockstar Store, pas notre photo d’un exemplaire reçu."
+    ],
+    "source": "https://images.ctfassets.net/h1rqp7q66d54/oUv7kz3o5ZHK96pgSEr80/a5c6343cdf67e3a95cf9cdd172ebe30b/GTAVI_CE_Box_Open_1440x1440.png"
+  },
+  "vice-city": {
+    "alt": [
+      "Paisaje de Vice City al atardecer en una captura oficial de GTA VI",
+      "Vice City at sunset in an official GTA VI screenshot",
+      "Paysage de Vice City au coucher du soleil sur une capture officielle GTA VI"
+    ],
+    "caption": [
+      "Vice City en una captura oficial del juego. El paisaje aporta contexto a la colección; no muestra un envío ni un mapa de entrega.",
+      "Vice City in an official game screenshot. The setting provides context for the collection, rather than showing a shipment or delivery map.",
+      "Vice City sur une capture officielle du jeu. Le paysage contextualise la collection sans montrer une livraison ni une carte de transport."
+    ],
+    "source": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600"
+  }
+}

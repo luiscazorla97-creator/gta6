@@ -1,3 +1,4 @@
+import {updateCollector20261102} from './2026-11-02-collector';
 import {updateCollectorJapan20261031} from './2026-10-31-daily-collector-japan';
 import type { Article } from '../articles';
 
@@ -140,4 +141,4 @@ const collectorStorageBase:Article[]=[
   ],
  },
 ];
-export const collectorStorage20261028:Article[]=collectorStorageBase.map(updateCollectorJapan20261031);
+export const collectorStorage20261028:Article[]=collectorStorageBase.map(updateCollectorJapan20261031).map(updateCollector20261102);

@@ -39,7 +39,7 @@ Nine existing authentic GTA VI originals reused, all source URLs returned200 and
 
 ## Daily PTO report — 2026-11-01
 
-The authentic official Vice City 11 original was rechecked (HTTP200) and its optimized1600x900 WebP visually inspected. It remains unchanged, with original provenance in public/media/credits.json. Translated alt/captions and Rockstar credit identify it as contextual GTA VI setting imagery, not study participants or evidence of workforce data. Current official download/share context checked. Copyright remains reserved; no unrestricted reuse licence claimed. No AI/mod/leak/GTA V or edited hero asset used.
+The authentic official Vice City 11 original was rechecked (HTTP 200) and its optimized1600x900 WebP visually inspected. It remains unchanged, with original provenance in public/media/credits.json. Translated alt/captions and Rockstar credit identify it as contextual GTA VI setting imagery, not study participants or evidence of workforce data. Current official download/share context checked. Copyright remains reserved; no unrestricted reuse licence claimed. No AI/mod/leak/GTA V or edited hero asset used.
 
 ## Manual mobile / Switch2 guides — 2026-11-01 New York
 
@@ -47,4 +47,8 @@ Six authentic GTA VI originals reused; all original URLs returned200 and a fresh
 
 ## Manual three-guide batch — 2026-11-02
 
-Eight existing authentic GTA VI promotional originals reused, all exact source URLs HTTP200 and a fresh contact sheet visually inspected. Three1400x788WebP images per guide, with translated alt/captions and linked Rockstar credit. Original provenance remains in public/media/credits.json. Current official download/share gallery context rechecked; copyright reserved, no unrestricted licence claimed. Contextual images are not PS4/XboxOne builds, proof of human co-op, scanner menus or garage catalogues. The Ultimate safehouse promotional image is identified without implying that edition is required for registration. No AI, mods, leaks, GTA V or edited hero layers.
+Eight existing authentic GTA VI promotional originals reused, all exact source URLs HTTP 200 and a fresh contact sheet visually inspected. Three1400x788WebP images per guide, with translated alt/captions and linked Rockstar credit. Original provenance remains in public/media/credits.json. Current official download/share gallery context rechecked; copyright reserved, no unrestricted licence claimed. Contextual images are not PS4/XboxOne builds, proof of human co-op, scanner menus or garage catalogues. The Ultimate safehouse promotional image is identified without implying that edition is required for registration. No AI, mods, leaks, GTA V or edited hero layers.
+
+## Collector guide expansion — 2026-11-02
+
+Two new authentic product promotional images from the first-party Rockstar Store listing: closed and open Vice City Collection box. Original 1440x1440 PNGs visually inspected, resized to 1200x1200 WebP without cropping or compositing, 23,884 and 102,356 bytes. Exact CDN URLs, source page, original names and rights context added to public/media/credits.json. Original credited product commentary; copyright/trademarks reserved and no unrestricted licence or own product test asserted. Translated alt/captions identify official product imagery; full-image contain display uses the existing catalogue class only for collector keys. Existing Vice City official screenshot rechecked HTTP 200 and retained as contextual third image. No AI, mods, leaks or GTA V substitutes.
