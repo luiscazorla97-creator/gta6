@@ -3,7 +3,7 @@
   "timezone": "America/New_York",
   "checkedAt": "2026-11-02T18:35:10.355478+00:00",
   "request": "User requests an original SEO guide about GTA6 Collectors Edition price, items and preorders only if not already covered. Equivalent existing guide found; expanded in ES/EN/FR instead of creating duplicate URLs.",
-  "status": "Prepared and checked; public verification pending",
+  "status": "Published and publicly verified",
   "baseline": "4749b2eacd783eb024e6c9560f2c4e605a450c26 freshly fetched from GitHub main",
   "runtime": {
     "provider": "cloud",
@@ -250,5 +250,17 @@
     "browser": "4passed. All3languages checked on desktop/mobile for current metadata, original publication, sitemap/hreflang, actual selector navigation, current US/Japan prices,11item rows,3decodedcreditedimages, full uncropped product presentation and overflow. External advertising/Analytics SDKs stubbed, not an ad-fill/event-receipt test.",
     "identity": "All432priorURLs preserved; only one inventory record updated. Other143records unchanged."
   },
-  "preserved": "Daily1-topic schedule through November19 inclusive America/New_York, advertisements/side rails, popunder disabled, Analytics consent, AdSense verification, security, subscriptions, previous topics and general design unchanged. No third-party messages/purchases/account changes."
+  "preserved": "Daily1-topic schedule through November19 inclusive America/New_York, advertisements/side rails, popunder disabled, Analytics consent, AdSense verification, security, subscriptions, previous topics and general design unchanged. No third-party messages/purchases/account changes.",
+  "publication": {
+    "contentCommit": "3272614c9e5c7eee50581e067b3a2d322b5302de",
+    "deploymentId": "ef2030c6-e6eb-4138-889c-80f3170d2bdd",
+    "environment": "production",
+    "stage": "deploy/success",
+    "verifiedAt": "2026-11-02T18:40:13.339518+00:00",
+    "pages": 3,
+    "assetsMatchingTestedDist": 6,
+    "internalLinks": 66,
+    "entireArticleTextMatchesRelease": true,
+    "evidence": "docs/editorial/2026-11-02-collector-publication.json"
+  }
 }

@@ -1,0 +1,367 @@
+{
+  "verifiedAt": "2026-11-02T18:40:13.339518+00:00",
+  "runtimeCommit": "3272614c9e5c7eee50581e067b3a2d322b5302de",
+  "deploymentId": "ef2030c6-e6eb-4138-889c-80f3170d2bdd",
+  "environment": "production",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-11-02T18:38:38.153362Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-collectors-box-incluye-juego/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "bf003311dbe077080affe3f3d2bf516cfd88eac8956e0385571055d99de0f4db",
+      "articleContent": "Entire article text matches tested release, including market-specific US/Japan prices, unavailable Japan snapshot and table rows2/11/3."
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-collectors-box-does-it-include-game/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "d161c70421b8be05f3cd10dd92ae414f8f78a37e4d81085c1323369e25ff0cfb",
+      "articleContent": "Entire article text matches tested release, including market-specific US/Japan prices, unavailable Japan snapshot and table rows2/11/3."
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-coffret-collector-jeu-inclus/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "504be0aa9788a00f5ac8fdc4bfd1745a1c8b263ba562da3d864966275bd15774",
+      "articleContent": "Entire article text matches tested release, including market-specific US/Japan prices, unavailable Japan snapshot and table rows2/11/3."
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://fansgta.com/assets/index-BZaaxDct.js",
+      "status": 200,
+      "bytes": 2006988,
+      "sha256": "11487a29a71c62530f36e83ae7fa192fe25e84851a34fff6e6cf657ca74901c5",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/index-Bd4d0erj.css",
+      "status": 200,
+      "bytes": 56990,
+      "sha256": "c3c9a7be7e108a3f205fd1ea5266d7aa971fdf52b10241717ea11e377a7d1611",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/postscribe-CQdFGHbx.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "742c21a5b03f2e323226f6c7ba779039dd6142361eb029e14b826fa96ffa155d",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/collector-box-closed.webp",
+      "status": 200,
+      "bytes": 23884,
+      "sha256": "f1e44f408cc81162be30198e3e3ca8f2b218a6fa81afc351968d17fc0648395b",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/collector-box-open.webp",
+      "status": 200,
+      "bytes": 102356,
+      "sha256": "339478a038e61d572567b2309b36b2f51ce79755a0454e16c5dd948a96a0780f",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedDist": true
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/characters/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/community/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-co-op-two-players-split-screen/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-personal-vehicles-registration-garages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-physical-edition-no-disc-code/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/gta-6-official-map-or-fan-map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/privacy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/terms/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/comunidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/contacto/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-coches-personales-registro-garajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cooperativo-dos-jugadores-pantalla-dividida/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/privacidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/terminos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/carte-gta-6-officielle-ou-fans/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/communaute/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/conditions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/confidentialite/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-cooperation-deux-joueurs-ecran-partage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-edition-physique-sans-disque-code/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-vehicules-personnels-immatriculation-garages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/personnages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/",
+      "status": 200
+    }
+  ],
+  "sitemap": {
+    "url": "https://fansgta.com/sitemap.xml",
+    "status": 200,
+    "updatedPathsPresent": 3
+  },
+  "browserChecks": "4passed locally:3language versions desktop/mobile, decodedimages, actual language-selector navigation, sources, metadata, tables and overflow. Public assets match those tested bytes; public HTML parsed independently. External advertising and Analytics SDKs stubbed in browser checks, so no ad-fill or Analytics-receipt assertion.",
+  "inventory": {
+    "topics": 144,
+    "versions": 432,
+    "otherTopicsUnchanged": 143,
+    "priorURLsPreserved": 432
+  },
+  "cloud": "Managed cloud provider; connected GitHub write tools and Cloudflare API/file deployment. No user-PC files/processes required. This successful run does not guarantee future executor availability."
+}
