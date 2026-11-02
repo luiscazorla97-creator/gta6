@@ -1,0 +1,74 @@
+{
+  "official": {
+    "label": "Grand Theft Auto VI - Rockstar Games",
+    "url": "https://www.rockstargames.com/VI"
+  },
+  "editions": {
+    "label": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+    "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+  },
+  "sony": {
+    "label": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+    "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+  },
+  "remote": {
+    "label": "PS Remote Play | Download the PS Remote Play app and stream PS5 and PS4 games to your device | PlayStation (US) ",
+    "url": "https://www.playstation.com/en-us/remote-play/"
+  },
+  "remote-guide": {
+    "label": "Control your PS5 console from a mobile device | PS Remote Play",
+    "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100003.html"
+  },
+  "xbox-remote": {
+    "label": "Xbox April Update: Buy Games with the Xbox App on Mobile, Stream Your Own Game on Console, and More - XBOX Wire",
+    "url": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/"
+  },
+  "vgc": {
+    "label": "Will GTA 6 make its way to Switch 2? Nintendo isn’t saying | VGC",
+    "url": "https://www.videogameschronicle.com/news/will-gta-6-make-its-way-to-switch-2-nintendo-isnt-saying/"
+  },
+  "media": {
+    "label": "Grand Theft Auto VI - Rockstar Games",
+    "url": "https://www.rockstargames.com/VI/media"
+  },
+  "trilogy": {
+    "label": "Grand Theft Auto: The Trilogy - The Definitive Edition - Rockstar Games",
+    "url": "https://www.rockstargames.com/trilogy"
+  },
+  "variety": {
+    "label": "variety",
+    "url": "https://variety.com/2026/gaming/news/legend-of-zelda-movie-gta-6-nintendo-devon-pritchard-interview-1236906466/"
+  },
+  "trilogy-news": {
+    "label": "trilogy-news",
+    "url": "https://www.rockstargames.com/newswire/article/25ak3481oa1384/grand-theft-auto-the-trilogy-the-definitive-edition-now-available"
+  },
+  "gallery": {
+    "label": "Rockstar Games · GTA VI Screenshots",
+    "url": "https://www.rockstargames.com/VI/media/screenshots"
+  },
+  "related-subscriptions": {
+    "label": "FansGTA · GTA 6 en Game Pass y PS Plus: qué incluye cada suscripción",
+    "url": "https://fansgta.com/es/guias/gta-6-game-pass-ps-plus-suscripciones/"
+  },
+  "related-buy": {
+    "label": "FansGTA · Dónde comprar, reservar y descargar GTA 6: guía paso a paso",
+    "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/"
+  },
+  "related-preload": {
+    "label": "FansGTA · Precarga de GTA 6: fecha, hora y preparación en PS5 y Xbox",
+    "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+  },
+  "related-platforms": {
+    "label": "FansGTA · GTA 6 en PS5 y Xbox Series X|S: las plataformas de la web oficial",
+    "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/"
+  },
+  "related-history": {
+    "label": "FansGTA · Historia de GTA: Vice City: trama, personajes y creación",
+    "url": "https://fansgta.com/es/guias/historia-gta-vice-city-trama-creacion/"
+  },
+  "related-mobile": {
+    "label": "FansGTA · GTA 6 en Android y iPhone",
+    "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/"
+  }
+}

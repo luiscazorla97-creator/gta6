@@ -40,3 +40,7 @@ Nine existing authentic GTA VI originals reused, all source URLs returned200 and
 ## Daily PTO report — 2026-11-01
 
 The authentic official Vice City 11 original was rechecked (HTTP200) and its optimized1600x900 WebP visually inspected. It remains unchanged, with original provenance in public/media/credits.json. Translated alt/captions and Rockstar credit identify it as contextual GTA VI setting imagery, not study participants or evidence of workforce data. Current official download/share context checked. Copyright remains reserved; no unrestricted reuse licence claimed. No AI/mod/leak/GTA V or edited hero asset used.
+
+## Manual mobile / Switch2 guides — 2026-11-01 New York
+
+Six authentic GTA VI originals reused; all original URLs returned200 and a fresh contact sheet was visually inspected. Three images per guide,1400x788 optimizedWebP, translated descriptive alt/contextual captions and Rockstar credit; original provenance retained in public/media/credits.json. They explicitly show neither a native mobile app nor a NintendoSwitch2 build. Official download/share context checked; copyright reserved, no unrestricted licence asserted. No AI/mod/leak/GTA V or edited hero layers.

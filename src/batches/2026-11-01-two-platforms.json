@@ -1,0 +1,489 @@
+[
+  {
+    "key": "mobile-remote",
+    "category": "guides",
+    "slug": [
+      "gta-6-android-iphone-apk-remote-play",
+      "gta-6-android-iphone-apk-remote-play",
+      "gta-6-android-iphone-apk-lecture-distance"
+    ],
+    "title": [
+      "GTA 6 en Android y iPhone: APK, versión móvil y Remote Play",
+      "GTA 6 on Android and iPhone: APKs, mobile versions and Remote Play",
+      "GTA 6 sur Android et iPhone : APK, version mobile et Remote Play"
+    ],
+    "excerpt": [
+      "GTA 6 no tiene versión anunciada para Android o iPhone. Sony sí lista Remote Play: requisitos para transmitir desde PS5 y diferencias con una APK.",
+      "GTA 6 has no announced Android or iPhone version. Sony lists Remote Play support: how PS5 streaming differs from a mobile game or APK.",
+      "GTA 6 n’a pas de version Android ou iPhone annoncée. Sony indique Remote Play : comment le streaming PS5 diffère d’un jeu mobile ou d’une APK."
+    ],
+    "tag": [
+      "GTA VI · MÓVIL Y REMOTE PLAY",
+      "GTA VI · MOBILE AND REMOTE PLAY",
+      "GTA VI · MOBILE ET REMOTE PLAY"
+    ],
+    "imageKeys": [
+      "feature-phone",
+      "feature-safehouse-exterior",
+      "feature-driver"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "¿Existe GTA 6 para Android o iPhone?",
+          "Is there an Android or iPhone version of GTA 6?",
+          "Existe-t-il une version Android ou iPhone de GTA 6 ?"
+        ],
+        "paragraphs": [
+          [
+            "Al comprobarlo el 1 de noviembre de 2026, Rockstar anuncia GTA VI para PS5 y Xbox Series X|S, con lanzamiento el 19 de noviembre. No incluye una edición nativa de Android o iOS. Por tanto, instalar una aplicación que use su nombre no demuestra tener una versión oficial del juego. Una guía sobre jugar desde el móvil debe empezar por distinguir dónde se ejecuta el software.",
+            "As checked November 1, 2026, Rockstar lists GTA VI for PS5 and Xbox Series X|S, launching November 19. No native Android or iOS edition is listed. Installing an app using its name therefore does not establish an official version. A mobile-play guide needs to distinguish where the game actually runs.",
+            "Vérification du 1er novembre 2026 : Rockstar annonce GTA VI sur PS5 et Xbox Series X|S pour le 19 novembre, sans édition native Android ou iOS. Installer une application portant son nom ne prouve donc pas qu’il s’agisse du jeu officiel. Il faut d’abord distinguer l’appareil qui exécute réellement le logiciel."
+          ]
+        ],
+        "refs": [
+          "official",
+          "editions"
+        ]
+      },
+      {
+        "heading": [
+          "Versión móvil, Remote Play y nube no son lo mismo",
+          "Mobile games, Remote Play and cloud gaming are different",
+          "Jeu mobile, Remote Play et cloud sont distincts"
+        ],
+        "paragraphs": [
+          [
+            "La ficha oficial de PlayStation para GTA VI indica compatibilidad con Remote Play. El móvil puede actuar como pantalla y dispositivo de control mientras el juego se ejecuta en la consola. Eso no instala GTA VI en el teléfono, no sustituye su licencia y no adelanta el estreno. Tampoco demuestra que esté incluido en un catálogo de juego en la nube.",
+            "GTA VI’s official PlayStation page lists Remote Play support. The phone can act as display and controller while the console runs the game. That does not install GTA VI on the phone, replace its licence or unlock it before launch. Nor does it establish inclusion in a cloud-gaming catalogue.",
+            "La fiche officielle PlayStation de GTA VI indique Remote Play. Le téléphone sert d’écran et de commande tandis que la console exécute le jeu. Cela n’installe pas GTA VI sur le mobile, ne remplace pas sa licence et ne débloque pas l’accès avant sortie. Cela ne confirme pas non plus un catalogue cloud."
+          ]
+        ],
+        "refs": [
+          "sony",
+          "remote",
+          "related-subscriptions"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Modalidad",
+              "Mode",
+              "Mode"
+            ],
+            [
+              "Dónde corre el juego",
+              "Where the game runs",
+              "Où le jeu tourne"
+            ],
+            [
+              "Situación comprobada",
+              "Checked status",
+              "État vérifié"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Edición nativa móvil",
+                "Native mobile edition",
+                "Édition mobile native"
+              ],
+              [
+                "En el teléfono.",
+                "On the phone.",
+                "Sur le téléphone."
+              ],
+              [
+                "No anunciada por Rockstar.",
+                "Not announced by Rockstar.",
+                "Non annoncée par Rockstar."
+              ]
+            ],
+            [
+              [
+                "PS Remote Play",
+                "PS Remote Play",
+                "PS Remote Play"
+              ],
+              [
+                "En tu PS5, con imagen transmitida al móvil.",
+                "On your PS5, with video streamed to the phone.",
+                "Sur votre PS5, avec vidéo transmise au téléphone."
+              ],
+              [
+                "La ficha de GTA VI indica compatibilidad.",
+                "GTA VI’s listing declares support.",
+                "La fiche GTA VI indique la compatibilité."
+              ]
+            ],
+            [
+              [
+                "Juego en la nube",
+                "Cloud gaming",
+                "Jeu dans le cloud"
+              ],
+              [
+                "En un servidor del proveedor.",
+                "On the provider’s server.",
+                "Sur un serveur du fournisseur."
+              ],
+              [
+                "No deducible de la compatibilidad con Remote Play.",
+                "Not established by Remote Play support.",
+                "Non établi par Remote Play."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Cómo preparar PS Remote Play en el móvil",
+          "How to prepare PS Remote Play on your phone",
+          "Préparer PS Remote Play sur mobile"
+        ],
+        "paragraphs": [
+          [
+            "Primero comprueba la consola, la cuenta y el acceso al juego. En PS5, la guía de Sony indica Ajustes > Sistema > Uso a distancia y activar esa función. Después instala PS Remote Play desde los enlaces de Sony a Google Play o App Store e inicia sesión con la misma cuenta que utilizas en la consola. Es una preparación de la función de PS5, no un acceso anticipado a GTA VI.",
+            "First check the console, account and game access. Sony’s guide directs PS5 users to Settings > System > Remote Play and enabling the feature. Then install PS Remote Play through Sony’s Google Play or App Store links and sign in with the console’s account. This prepares a PS5 feature rather than providing early GTA VI access.",
+            "Vérifiez d’abord console, compte et accès au jeu. Sony indique sur PS5 Paramètres > Système > Lecture à distance, puis l’activation. Installez ensuite PS Remote Play via les liens Sony vers Google Play ou App Store et utilisez le même compte que sur la console. Cela prépare une fonction PS5, pas un accès anticipé à GTA VI."
+          ],
+          [
+            "Si quieres iniciar una sesión mientras PS5 está en reposo, Sony documenta dos ajustes adicionales: mantener la conexión a Internet y permitir encender la consola desde la red. Revisa la guía enlazada para tu sistema actualizado. Puedes comprobar la conexión con un juego compatible que ya tengas disponible; esa prueba no demuestra todavía el rendimiento de GTA VI.",
+            "Starting from rest mode requires the documented options to stay connected to the internet and enable turning PS5 on from the network. Follow Sony’s guide for updated settings. You can test connectivity with an available supported game; that does not yet measure GTA VI performance.",
+            "Démarrer depuis le repos demande les options documentées de connexion Internet et d’allumage de la PS5 depuis le réseau. Suivez le guide Sony à jour. Vous pouvez tester la connexion avec un jeu compatible déjà disponible ; cela ne mesure pas encore les performances de GTA VI."
+          ]
+        ],
+        "refs": [
+          "remote-guide"
+        ]
+      },
+      {
+        "heading": [
+          "Conexión, controles y calidad: qué debes comprobar",
+          "Connection, controls and quality: what to check",
+          "Connexion, commandes et qualité : que vérifier"
+        ],
+        "paragraphs": [
+          [
+            "Sony establece al menos 5 Mbps y recomienda 15 Mbps o más para una mejor experiencia, tanto de subida como de bajada en su guía. El resultado también depende de estabilidad, latencia y red móvil: tener una cifra alta de velocidad no garantiza una respuesta idéntica a jugar delante de la consola. Comprueba la compatibilidad de tu dispositivo y mando en el soporte oficial, sin asumir que cualquier accesorio funcione.",
+            "Sony lists at least 5 Mbps and recommends 15 Mbps or more for a better experience, including upload and download in its guide. Stability, latency and mobile connectivity also matter; a high speed figure does not guarantee local-console responsiveness. Check official device and controller compatibility rather than assuming every accessory works.",
+            "Sony indique au moins 5 Mbit/s et recommande 15 Mbit/s ou plus, en émission et réception dans son guide. Stabilité, latence et réseau mobile comptent aussi : une vitesse élevée ne garantit pas la réactivité d’une partie devant la console. Vérifiez appareil et manette dans le support officiel."
+          ],
+          [
+            "Con datos móviles, la transmisión consume tu tarifa. Antes de una sesión larga, comprueba la conexión utilizada y las condiciones de tu operador. Esta guía no asigna una resolución, un consumo por hora ni unos FPS a GTA VI: no hemos probado la versión final por Remote Play.",
+            "Mobile streaming uses your data allowance. Before a long session, check the active connection and carrier terms. This guide assigns no resolution, hourly usage or frame rate to GTA VI; we have not tested the final game through Remote Play.",
+            "Le streaming mobile consomme votre forfait. Vérifiez connexion utilisée et conditions de l’opérateur avant une longue session. Ce guide ne donne ni résolution, ni consommation horaire, ni FPS pour GTA VI : nous n’avons pas testé le jeu final par Remote Play."
+          ]
+        ],
+        "refs": [
+          "remote",
+          "remote-guide"
+        ]
+      },
+      {
+        "heading": [
+          "¿Y si tengo una Xbox Series X o Series S?",
+          "What if you own an Xbox Series X or S?",
+          "Et avec une Xbox Series X ou Series S ?"
+        ],
+        "paragraphs": [
+          [
+            "Xbox documentó en abril de 2025 su acceso remoto desde un navegador compatible mediante xbox.com/remoteplay. Es una función para transmitir desde tu consola y debe distinguirse de ejecutar un juego en servidores de Xbox. Consulta la ruta oficial vigente y sus requisitos; no copiamos instrucciones antiguas que sitúan siempre la función dentro de la aplicación móvil.",
+            "In April 2025, Xbox documented remote access through a supported browser at xbox.com/remoteplay. It streams from your console, unlike running a game on Xbox’s servers. Consult the current official route and requirements rather than relying on old instructions that always place the feature in the mobile app.",
+            "En avril 2025, Xbox a documenté l’accès distant depuis un navigateur compatible sur xbox.com/remoteplay. Il transmet depuis votre console, à distinguer des serveurs Xbox. Consultez la route officielle et ses exigences actuelles plutôt que des instructions anciennes plaçant toujours la fonction dans l’application mobile."
+          ],
+          [
+            "La existencia del servicio no es una prueba propia de GTA VI en todos los móviles ni una confirmación de su inclusión en Game Pass. Para una guía de rendimiento del juego harán falta verificaciones después de su disponibilidad.",
+            "The service’s existence is neither our own GTA VI test across phones nor confirmation of Game Pass inclusion. A game-specific performance guide requires checks once it is available.",
+            "L’existence du service ne constitue ni un test de GTA VI sur tous les mobiles ni une confirmation Game Pass. Des mesures propres au jeu demanderont des vérifications après sa disponibilité."
+          ]
+        ],
+        "refs": [
+          "xbox-remote",
+          "related-subscriptions"
+        ]
+      },
+      {
+        "heading": [
+          "Qué comprobar ante una supuesta APK de GTA 6",
+          "What to check when offered a supposed GTA 6 APK",
+          "Que vérifier devant une prétendue APK GTA 6"
+        ],
+        "paragraphs": [
+          [
+            "Verifica si Rockstar enlaza ese producto, quién figura como editor y qué plataforma promete. No existe en las fuentes oficiales revisadas una APK de GTA VI para jugar sin consola. Eso no permite afirmar sin analizarlo que cada archivo sea malware; sí impide presentarlo como una distribución oficial comprobada. No introduzcas datos de cuenta o pago para desbloquear una descarga no respaldada por el editor.",
+            "Check whether Rockstar links the product, who publishes it and which platform it claims to support. The checked official sources offer no GTA VI APK for console-free play. That does not prove every file is malware without analysis, but it does prevent calling it a verified official distribution. Do not provide account or payment details to unlock an unsupported download.",
+            "Vérifiez le lien depuis Rockstar, l’éditeur et la plateforme annoncée. Les sources officielles consultées ne proposent aucune APK GTA VI pour jouer sans console. Cela ne prouve pas que chaque fichier soit malveillant, mais interdit de le présenter comme distribution officielle vérifiée. Ne transmettez pas de données de compte ou de paiement pour débloquer un téléchargement non reconnu."
+          ]
+        ],
+        "refs": [
+          "official",
+          "related-buy"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes sobre jugar desde el teléfono",
+          "Common questions about playing from a phone",
+          "Questions fréquentes sur le jeu depuis un téléphone"
+        ],
+        "paragraphs": [
+          [
+            "¿La aplicación de Remote Play incluye GTA VI? No: transmite una consola y su acceso al juego. ¿El teléfono puede sustituir a PS5? No en este método. ¿Una reserva permite jugar hoy? No adelanta el estreno. ¿La imagen del teléfono en esta página demuestra una versión móvil? No: son capturas oficiales del mundo de GTA VI, con pies que identifican su uso ilustrativo. La compatibilidad publicada y una prueba real de rendimiento siguen siendo cosas distintas.",
+            "Does Remote Play include GTA VI? No: it streams a console with access to the game. Can the phone replace PS5? Not with this method. Does preordering let you play today? It does not advance release. Does the phone pictured here prove a mobile edition? No: these are contextual official GTA VI screenshots. Listed compatibility and measured performance remain different things.",
+            "Remote Play inclut-il GTA VI ? Non : il transmet une console disposant de l’accès au jeu. Le mobile remplace-t-il la PS5 ? Pas avec cette méthode. La précommande permet-elle de jouer aujourd’hui ? Elle n’avance pas la sortie. Le téléphone illustré prouve-t-il une édition mobile ? Non : les captures officielles sont contextuelles. Compatibilité annoncée et performances mesurées restent distinctes."
+          ]
+        ],
+        "refs": [
+          "sony",
+          "remote",
+          "official",
+          "related-preload"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "switch2-status",
+    "category": "guides",
+    "slug": [
+      "gta-6-nintendo-switch-2-anuncio-plataformas",
+      "gta-6-nintendo-switch-2-announcement-status",
+      "gta-6-nintendo-switch-2-annonce-plateformes"
+    ],
+    "title": [
+      "GTA 6 en Switch 2: qué dijo Nintendo y qué está anunciado",
+      "GTA 6 on Switch 2: what Nintendo said and what is announced",
+      "GTA 6 sur Switch 2 : propos de Nintendo et annonces vérifiées"
+    ],
+    "excerpt": [
+      "GTA 6 no tiene versión anunciada para Switch 2. Revisamos la respuesta de Nintendo, las plataformas oficiales y qué debe mostrar una reserva fiable.",
+      "GTA 6 has no announced Switch 2 version. Check Nintendo’s response, the official platforms and what a credible preorder listing needs to show.",
+      "GTA 6 n’a pas de version Switch 2 annoncée. Réponse de Nintendo, plateformes officielles et vérifications avant une précommande."
+    ],
+    "tag": [
+      "GTA VI · NINTENDO SWITCH 2",
+      "GTA VI · NINTENDO SWITCH 2",
+      "GTA VI · NINTENDO SWITCH 2"
+    ],
+    "imageKeys": [
+      "feature-helicopter",
+      "feature-mountain",
+      "feature-boats"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "¿GTA 6 sale en Nintendo Switch 2?",
+          "Is GTA 6 coming to Nintendo Switch 2?",
+          "GTA 6 sort-il sur Nintendo Switch 2 ?"
+        ],
+        "paragraphs": [
+          [
+            "A fecha de 1 de noviembre de 2026, las plataformas que Rockstar anuncia para GTA VI son PS5 y Xbox Series X|S, con estreno el 19 de noviembre. Switch 2 no figura en esa lista. La respuesta útil para comprar o planificar es que no hay una edición de Switch 2 confirmada en las fuentes revisadas; no convertir esa ausencia en una afirmación de que jamás pueda existir.",
+            "As of November 1, 2026, Rockstar lists PS5 and Xbox Series X|S for GTA VI’s November 19 launch. Switch 2 is absent. For purchasing or planning, the supported answer is that no Switch 2 edition is confirmed in the checked sources, rather than that one could never exist.",
+            "Au 1er novembre 2026, Rockstar annonce GTA VI sur PS5 et Xbox Series X|S pour le 19 novembre. Switch 2 n’y figure pas. Pour acheter ou planifier, la réponse étayée est qu’aucune édition Switch 2 n’est confirmée dans les sources consultées, sans affirmer qu’elle ne pourrait jamais exister."
+          ]
+        ],
+        "refs": [
+          "official",
+          "editions"
+        ]
+      },
+      {
+        "heading": [
+          "La respuesta de Devon Pritchard no fue un anuncio de versión",
+          "Devon Pritchard’s response was not a port announcement",
+          "La réponse de Devon Pritchard n’annonce pas un portage"
+        ],
+        "paragraphs": [
+          [
+            "VGC publicó el 10 de octubre la respuesta de Devon Pritchard, presidenta de Nintendo of America, a una pregunta de Variety, cuya entrevista se publicó el 9 de octubre. La directiva remitió el asunto a Take-Two y Rockstar y señaló que no tenía nada que anunciar por su parte. Ese es el alcance de la declaración: no confirma desarrollo, fecha o reserva, y tampoco es una cancelación comunicada por Rockstar.",
+            "On October 10, VGC reported Nintendo of America president Devon Pritchard’s response to Variety’s October 9 interview. She referred the question to Take-Two and Rockstar and said she had nothing to announce. That establishes neither development, a date or preorders, nor a Rockstar cancellation announcement.",
+            "Le 10 octobre, VGC a rapporté la réponse de Devon Pritchard, présidente de Nintendo of America, à Variety, dont l’entretien a été publié le 9 octobre. Elle a renvoyé la question à Take-Two et Rockstar en précisant n’avoir rien à annoncer. Cela ne confirme ni développement, ni date, ni précommande, et ne constitue pas une annulation annoncée par Rockstar."
+          ],
+          [
+            "Esta guía revisa el estado de la información; no presenta aquellas declaraciones de octubre como noticias publicadas hoy. Las versiones que circulan con años concretos o cifras de rendimiento necesitan una fuente adicional identificable.",
+            "This guide checks the information status rather than presenting October’s comments as today’s news. Claims attaching a year or performance figures need additional identifiable evidence.",
+            "Ce guide vérifie l’état des informations sans présenter les propos d’octobre comme nouvelles du jour. Les affirmations donnant une année ou des performances demandent une preuve supplémentaire identifiable."
+          ]
+        ],
+        "refs": [
+          "vgc",
+          "variety"
+        ]
+      },
+      {
+        "heading": [
+          "Qué tendría que mostrar una confirmación útil",
+          "What a useful confirmation would establish",
+          "Ce qu’une confirmation utile devrait établir"
+        ],
+        "paragraphs": [
+          [
+            "Para tratar una versión como anunciada buscaríamos el nombre exacto del producto y la plataforma en una comunicación de Rockstar, Take-Two o una ficha oficial de Nintendo. Si hay una fecha, debe pertenecer a esa edición y no copiarse del estreno de PS5 y Xbox. Un marcador de tienda de terceros, una carátula de fans o una imagen editada no sustituyen esos datos.",
+            "An announcement should identify the exact product and platform through Rockstar, Take-Two or an official Nintendo listing. Any date must apply to that edition rather than being copied from PS5 and Xbox. Third-party placeholders, fan box art and edited images cannot substitute for those facts.",
+            "Une annonce devrait identifier produit et plateforme via Rockstar, Take-Two ou une fiche Nintendo officielle. La date doit concerner cette édition plutôt qu’être copiée de PS5 et Xbox. Une fiche provisoire tierce, une jaquette de fans ou une image retouchée ne remplace pas ces éléments."
+          ],
+          [
+            "No basta con que una tienda permita dejar un correo o aceptar una notificación: eso expresa interés del comprador, no un calendario de lanzamiento del editor. Antes de pagar, comprueba quién vende y qué producto concreto está contratado.",
+            "A store accepting an email or notification request records customer interest rather than a publisher release schedule. Before paying, check the seller and the exact product being offered.",
+            "Une boutique recueillant un courriel ou une notification enregistre un intérêt, pas un calendrier de l’éditeur. Avant paiement, vérifiez vendeur et produit exact."
+          ]
+        ],
+        "refs": [
+          "official",
+          "editions",
+          "related-buy"
+        ]
+      },
+      {
+        "heading": [
+          "Versión nativa, nube y retrocompatibilidad son preguntas distintas",
+          "Native releases, cloud play and backward compatibility differ",
+          "Version native, cloud et rétrocompatibilité sont distincts"
+        ],
+        "paragraphs": [
+          [
+            "Una consola puede recibir un port nativo, acceder a un servicio remoto o ejecutar una edición antigua compatible: son operaciones diferentes. No se debe usar una noticia sobre una de ellas para anunciar automáticamente las otras. En particular, un vídeo mostrado en una pantalla portátil no identifica por sí solo dónde se está ejecutando el juego.",
+            "A console might receive a native port, access a remote service or run a compatible older edition. These are different operations; reporting one does not establish the others. A video on a handheld screen does not, by itself, identify where the game runs.",
+            "Une console peut recevoir un portage natif, accéder à un service distant ou lancer une ancienne édition compatible. Ces opérations diffèrent ; annoncer l’une ne prouve pas les autres. Une vidéo sur écran portable n’identifie pas à elle seule l’appareil exécutant le jeu."
+          ]
+        ],
+        "refs": [
+          "official",
+          "related-mobile"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Concepto",
+              "Concept",
+              "Notion"
+            ],
+            [
+              "Qué significa",
+              "Meaning",
+              "Sens"
+            ],
+            [
+              "Lo que no demuestra",
+              "What it does not establish",
+              "Ce que cela ne prouve pas"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Port nativo de GTA VI",
+                "Native GTA VI port",
+                "Portage natif GTA VI"
+              ],
+              [
+                "Edición preparada para esa plataforma.",
+                "An edition built for that platform.",
+                "Édition adaptée à cette plateforme."
+              ],
+              [
+                "No está anunciado para Switch 2 en las fuentes revisadas.",
+                "Not announced for Switch 2 in the checked sources.",
+                "Non annoncé sur Switch 2 dans les sources consultées."
+              ]
+            ],
+            [
+              [
+                "Transmisión remota",
+                "Remote streaming",
+                "Transmission distante"
+              ],
+              [
+                "La ejecución ocurre en otro equipo.",
+                "The game runs on another machine.",
+                "Le jeu tourne sur un autre appareil."
+              ],
+              [
+                "No confirma una aplicación o servicio de GTA VI para Switch 2.",
+                "Does not confirm a GTA VI Switch 2 app or service.",
+                "Ne confirme aucun service ou application GTA VI Switch 2."
+              ]
+            ],
+            [
+              [
+                "Retrocompatibilidad",
+                "Backward compatibility",
+                "Rétrocompatibilité"
+              ],
+              [
+                "Compatibilidad de una edición anterior.",
+                "Support for an older edition.",
+                "Compatibilité d’une édition antérieure."
+              ],
+              [
+                "No crea una edición de GTA VI que no esté anunciada.",
+                "Does not create an unannounced GTA VI edition.",
+                "Ne crée pas une édition GTA VI non annoncée."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Otros GTA en Nintendo no equivalen a GTA VI",
+          "Other Nintendo GTA releases are not GTA VI",
+          "Les autres GTA Nintendo ne sont pas GTA VI"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar distribuyó The Trilogy – The Definitive Edition para Nintendo Switch: reúne GTA III, Vice City y San Andreas. Esa recopilación es un producto diferente. Encontrar el nombre Grand Theft Auto en una tienda no significa que se trate de la sexta entrega. Comprueba siempre el subtítulo y la plataforma de la ficha; tampoco extrapolamos la compatibilidad de un producto a otro sin verificarla.",
+            "Rockstar released The Trilogy – The Definitive Edition for Nintendo Switch, collecting GTA III, Vice City and San Andreas. It is a different product. A store listing containing Grand Theft Auto does not necessarily concern the sixth game. Check subtitle and platform, and do not extend one product’s compatibility to another without verification.",
+            "Rockstar a publié The Trilogy – The Definitive Edition sur Nintendo Switch, réunissant GTA III, Vice City et San Andreas. C’est un produit distinct. Le nom Grand Theft Auto dans une boutique ne désigne pas forcément le sixième épisode. Vérifiez sous-titre et plateforme sans transposer la compatibilité d’un produit à un autre."
+          ]
+        ],
+        "refs": [
+          "trilogy-news",
+          "related-history"
+        ]
+      },
+      {
+        "heading": [
+          "¿Puede el hardware demostrar por sí solo que habrá un port?",
+          "Can hardware specifications establish a future port?",
+          "Le matériel peut-il prouver un futur portage ?"
+        ],
+        "paragraphs": [
+          [
+            "No. Que una consola ejecute otro juego exigente no demuestra una decisión comercial ni la implementación de GTA VI. Para hablar de resolución, FPS o recortes harían falta datos de una versión identificada. Por eso esta guía no publica una tabla inventada de rendimiento de Switch 2 ni da por hecho un modo en la nube. Un análisis de posibilidades debe seguir etiquetado como análisis, no como anuncio.",
+            "No. Running another demanding game establishes neither a commercial decision nor a GTA VI implementation. Resolution, FPS and compromises require an identified version’s data. This guide therefore supplies no invented Switch 2 performance table or assumed cloud mode. Technical possibilities remain analysis rather than announcements.",
+            "Non. Exécuter un autre jeu exigeant ne prouve ni décision commerciale ni implémentation de GTA VI. Résolution, FPS et compromis demandent des données d’une version identifiée. Nous n’inventons donc ni tableau de performances Switch 2 ni mode cloud. Une possibilité technique reste une analyse, pas une annonce."
+          ]
+        ],
+        "refs": [
+          "official",
+          "vgc"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes antes de comprar o esperar",
+          "Common questions before buying or waiting",
+          "Questions avant d’acheter ou d’attendre"
+        ],
+        "paragraphs": [
+          [
+            "¿Sale el 19 de noviembre en Switch 2? Esa fecha corresponde a las plataformas anunciadas por Rockstar, no a una versión Nintendo confirmada. ¿Está cancelado? Las fuentes no anuncian una cancelación de un producto previamente presentado. ¿Habrá edición en 2027? No damos un año sin anuncio verificable. ¿Las imágenes son de Switch 2? No: son capturas promocionales oficiales de GTA VI usadas como contexto, sin atribuirles rendimiento de Nintendo.",
+            "Does it launch November 19 on Switch 2? That date applies to Rockstar’s announced platforms, not a confirmed Nintendo edition. Is it cancelled? The sources announce no cancellation of a previously unveiled product. Is there a 2027 edition? No year is assigned without verifiable announcement. Are these Switch 2 screenshots? No: they are contextual official GTA VI promotional images, with no Nintendo performance claim.",
+            "Sort-il le 19 novembre sur Switch 2 ? Cette date concerne les plateformes annoncées, pas une édition Nintendo confirmée. Est-il annulé ? Les sources n’annoncent pas l’annulation d’un produit déjà présenté. Une édition 2027 ? Nous ne donnons aucune année sans annonce vérifiable. Les images viennent-elles de Switch 2 ? Non : ce sont des captures promotionnelles officielles GTA VI, sans attribution de performances Nintendo."
+          ]
+        ],
+        "refs": [
+          "official",
+          "vgc",
+          "related-platforms"
+        ]
+      }
+    ]
+  }
+]

@@ -1,5 +1,35 @@
 [
   {
+    "id": "gta6-mobile-remote-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "GTA 6 en Android y iPhone: APK, versión móvil y Remote Play",
+      "GTA 6 on Android and iPhone: APKs, mobile versions and Remote Play",
+      "GTA 6 sur Android et iPhone : APK, version mobile et Remote Play"
+    ],
+    "paths": [
+      "/es/guias/gta-6-android-iphone-apk-remote-play/",
+      "/en/guides/gta-6-android-iphone-apk-remote-play/",
+      "/fr/guides/gta-6-android-iphone-apk-lecture-distance/"
+    ]
+  },
+  {
+    "id": "gta6-switch2-status-20261101",
+    "category": "guides",
+    "published": "2026-11-01",
+    "titles": [
+      "GTA 6 en Switch 2: qué dijo Nintendo y qué está anunciado",
+      "GTA 6 on Switch 2: what Nintendo said and what is announced",
+      "GTA 6 sur Switch 2 : propos de Nintendo et annonces vérifiées"
+    ],
+    "paths": [
+      "/es/guias/gta-6-nintendo-switch-2-anuncio-plataformas/",
+      "/en/guides/gta-6-nintendo-switch-2-announcement-status/",
+      "/fr/guides/gta-6-nintendo-switch-2-annonce-plateformes/"
+    ]
+  },
+  {
     "id": "gta6-launch-day-pto-bamboohr-20261101",
     "category": "news",
     "published": "2026-11-01",

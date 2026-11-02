@@ -1,0 +1,359 @@
+{
+  "date": "2026-11-01",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-02T01:20:42.289294+00:00",
+  "request": "Manual2-topic publication, following established ES/EN/FR original-content/SEO/authentic-image brief. Daily schedule unchanged.",
+  "status": "Final release/static/browser checks passed; public publication pending.",
+  "baseline": "d7af5172d160b2d3ba7674ca865552aea6ec137e freshly fetched from GitHub main before edits",
+  "runtime": {
+    "provider": "cloud",
+    "specRevision": 7,
+    "observationsCurrent": true,
+    "networkPolicy": "unrestricted/enforced",
+    "credentials": "Cloudflare account variable/token ready; connected GitHub write tools used; actual outcomes verified separately.",
+    "userPCRequired": false
+  },
+  "topics": [
+    {
+      "id": "gta6-mobile-remote-20261101",
+      "title": [
+        "GTA 6 en Android y iPhone: APK, versión móvil y Remote Play",
+        "GTA 6 on Android and iPhone: APKs, mobile versions and Remote Play",
+        "GTA 6 sur Android et iPhone : APK, version mobile et Remote Play"
+      ],
+      "paths": [
+        "/es/guias/gta-6-android-iphone-apk-remote-play/",
+        "/en/guides/gta-6-android-iphone-apk-remote-play/",
+        "/fr/guides/gta-6-android-iphone-apk-lecture-distance/"
+      ]
+    },
+    {
+      "id": "gta6-switch2-status-20261101",
+      "title": [
+        "GTA 6 en Switch 2: qué dijo Nintendo y qué está anunciado",
+        "GTA 6 on Switch 2: what Nintendo said and what is announced",
+        "GTA 6 sur Switch 2 : propos de Nintendo et annonces vérifiées"
+      ],
+      "paths": [
+        "/es/guias/gta-6-nintendo-switch-2-anuncio-plataformas/",
+        "/en/guides/gta-6-nintendo-switch-2-announcement-status/",
+        "/fr/guides/gta-6-nintendo-switch-2-annonce-plateformes/"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI - Rockstar Games"
+      ],
+      "dates": [],
+      "textChars": 2282
+    },
+    {
+      "key": "editions",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support"
+      ],
+      "dates": [],
+      "textChars": 6260
+    },
+    {
+      "key": "sony",
+      "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI - PS5 Games | PlayStation (US) "
+      ],
+      "dates": [],
+      "textChars": 10692
+    },
+    {
+      "key": "remote",
+      "url": "https://www.playstation.com/en-us/remote-play/",
+      "status": 200,
+      "title": [
+        "PS Remote Play | Download the PS Remote Play app and stream PS5 and PS4 games to your device | PlayStation (US) "
+      ],
+      "dates": [],
+      "textChars": 12410
+    },
+    {
+      "key": "remote-guide",
+      "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100003.html",
+      "status": 200,
+      "title": [
+        "Control your PS5 console from a mobile device | PS Remote Play"
+      ],
+      "dates": [],
+      "textChars": 8529
+    },
+    {
+      "key": "xbox-remote",
+      "url": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/",
+      "status": 200,
+      "title": [
+        "Xbox April Update: Buy Games with the Xbox App on Mobile, Stream Your Own Game on Console, and More - XBOX Wire"
+      ],
+      "dates": [
+        "2025-04-16T16:00:00+00:00",
+        "2025-04-25T21:37:38+00:00",
+        "2025-04-16T16:00:00+00:00",
+        "2025-04-25T21:37:38+00:00",
+        "2025-04-16T09:00:00"
+      ],
+      "textChars": 10412
+    },
+    {
+      "key": "vgc",
+      "url": "https://www.videogameschronicle.com/news/will-gta-6-make-its-way-to-switch-2-nintendo-isnt-saying/",
+      "status": 200,
+      "title": [
+        "Will GTA 6 make its way to Switch 2? Nintendo isn’t saying | VGC"
+      ],
+      "dates": [
+        "2026-10-10T12:07:44+00:00",
+        "2026-10-10T12:07:44+00:00",
+        "2026-10-10T13:07:44+01:00"
+      ],
+      "textChars": 7287
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI - Rockstar Games"
+      ],
+      "dates": [],
+      "textChars": 2252
+    },
+    {
+      "key": "trilogy",
+      "url": "https://www.rockstargames.com/trilogy",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto: The Trilogy - The Definitive Edition - Rockstar Games"
+      ],
+      "dates": [],
+      "textChars": 71
+    },
+    {
+      "key": "variety",
+      "url": "https://variety.com/2026/gaming/news/legend-of-zelda-movie-gta-6-nintendo-devon-pritchard-interview-1236906466/",
+      "status": 200,
+      "dates": [
+        "2026-10-09T14:00:00+00:00",
+        "2026-10-09T14:00:00+00:00"
+      ],
+      "textChars": 10771
+    },
+    {
+      "key": "trilogy-news",
+      "url": "https://www.rockstargames.com/newswire/article/25ak3481oa1384/grand-theft-auto-the-trilogy-the-definitive-edition-now-available",
+      "status": 200,
+      "dates": [],
+      "textChars": 85
+    }
+  ],
+  "dateNotes": {
+    "localDate": "UTC host is November2, but America/New_York and client date are November1; publication date follows NewYork.",
+    "switch2": "Original Variety interview October9,2026 14:00Z read directly; VGC October10follow-up refers to same interview, not independent corroboration. Explicit no-announcement status, not new November1 announcement, cancellation or confirmed future port. Insider speculation omitted.",
+    "mobile": "Current Sony GTA VI product page explicitly lists Remote Play supported; setup from primary Sony guide. Official Rockstar platforms currentlyPS5/XboxSeries. No Android/iOS native edition inferred from streaming. No claim of actual prerelease gameplay.",
+    "xbox": "April16,2025 official Xbox Wire documents browser-based remote play route; dated in article and linked, not claimed as a new announcement or tested GTA VI mobile performance.",
+    "trilogy": "Official Rockstar Trilogy newsroom endpoint returned200 butJSshell; product scope/NintendoSwitch release corroborated by indexed original Rockstar news result. No claim of native GTA VI or automatic Switch2 backward compatibility."
+  },
+  "interest": {
+    "signals": [
+      {
+        "query": "gta 6 android",
+        "suggestions": [
+          "gta 6 android app",
+          "gta 6 android wallpaper",
+          "gta 6 android game",
+          "gta 6 android release date",
+          "gta 6 android mobile game",
+          "gta 6 android phone game"
+        ]
+      },
+      {
+        "query": "gta 6 iphone",
+        "suggestions": [
+          "gta 6 iphone wallpaper",
+          "gta 6 iphone",
+          "gta 6 iphone case",
+          "gta 6 iphone background",
+          "gta 6 iphone wallpaper 4k",
+          "gta 6 iphone wallpaper hd 4k",
+          "gta 6 iphone cover",
+          "gta 6 iphone theme",
+          "gta 6 iphone 17 wallpaper",
+          "gta 6 iphone ringtone download"
+        ]
+      },
+      {
+        "query": "gta 6 apk",
+        "suggestions": [
+          "gta 6 apk download uptodown",
+          "gta 6 apk meme",
+          "gta 6 apk app download offline"
+        ]
+      },
+      {
+        "query": "gta 6 switch 2",
+        "suggestions": [
+          "gta 6 switch 2",
+          "gta 6 switch 2 release date",
+          "gta 6 switch 2 reddit",
+          "gta 6 switch 2 rumors",
+          "gta 6 switch 2 release",
+          "gta 6 switch 2 port",
+          "gta 6 switch 2 pre order",
+          "gta 6 switch 2 version",
+          "gta 6 switch 2 2027",
+          "gta 6 switch 2 possible"
+        ]
+      },
+      {
+        "query": "gta 6 crossplay",
+        "suggestions": [
+          "gta 6 crossplay",
+          "gta 6 crossplay xbox ps5",
+          "gta 6 crossplay pc ps5",
+          "gta 6 crossplay between consoles",
+          "gta 6 crossplay pc xbox",
+          "gta 6 crossplay console",
+          "gta 6 crossplay online",
+          "gta 6 crossplay reddit",
+          "gta 6 crossplay between xbox and playstation",
+          "gta 6 crossplay pc"
+        ]
+      },
+      {
+        "query": "gta 6 ps4",
+        "suggestions": [
+          "gta 6 ps4",
+          "gta 6 ps4 release date",
+          "gta 6 ps4 pro",
+          "gta 6 ps4 price",
+          "gta 6 ps4 controller",
+          "gta 6 ps4 pre order",
+          "gta 6 ps4 meme",
+          "gta 6 ps4 disc",
+          "gta 6 ps4 cheat codes",
+          "gta 6 ps4 reddit"
+        ]
+      }
+    ],
+    "selection": "Android/game/APK and Switch2/date/port query variants present. iPhone suggestions dominated wallpapers/accessories, explicitly NOT interpreted as mobile-game demand. Crossplay/PS4 queries sampled but not chosen for this batch.",
+    "limits": "No measured search volume, current top-two rank, Google Trends chart, audience guarantee or account traffic evidence. Articles selected for live query relevance and distinct useful answers."
+  },
+  "deduplication": {
+    "articles": 139,
+    "versions": 417,
+    "hits": {
+      "mobile": [
+        {
+          "id": "gta6-interest-phone-20261031",
+          "title": "Teléfono de GTA 6: Snapmatic, aplicaciones y funciones reportadas",
+          "heading": "Preguntas frecuentes y falsas descargas para móvil",
+          "text": "¿Hay que descargar Snapmatic desde una tienda de aplicaciones? No para utilizar el teléfono mostrado dentro de GTA VI. ¿Una APK permite acceder a la versión de consola? Las fuentes de esta guía no autorizan esa promesa. ¿Existe una lista final de todas las apps y menús? No la presentamos como comprobada. Usa los enlaces oficiales para el juego y evita introducir credenciales o datos de pago en páginas que prometan acceso anticipado por instalar una aplicación ajena."
+        },
+        {
+          "id": "cheats-cw-20261030",
+          "title": "Trucos de GTA: Chinatown Wars: códigos y cómo activarlos",
+          "heading": "Ediciones, límites y errores frecuentes",
+          "text": "La lista de iOS clásico documenta palabras mediante teclado externo, no una combinación táctil universal. No trasladamos esas instrucciones a Android o a cualquier parche móvil sin una referencia de esa edición. La adaptación de PSP cambia presentación y controles respecto a DS; elegir la máquina correcta es el primer paso cuando una combinación no responde."
+        },
+        {
+          "id": "cheats-lcs-20261030",
+          "title": "Trucos de GTA: Liberty City Stories: códigos y cómo activarlos",
+          "heading": "Ediciones, límites y errores frecuentes",
+          "text": "Las referencias distinguen 43 entradas de PSP y 39 de PS2. No se presentan como códigos táctiles comprobados para iOS o Android: la edición móvil no hereda por obligación la entrada del mando. Esta guía cubre las combinaciones nativas documentadas, no guardados descargables ni menús externos. El contador de la tabla indica filas de esa plataforma."
+        },
+        {
+          "id": "legal-purchase-download-2026-10-28",
+          "title": "Dónde comprar, reservar y descargar GTA 6: guía paso a paso",
+          "heading": "Preguntas frecuentes: PC, descargas gratuitas y tamaño",
+          "text": "¿Puedo descargar GTA VI gratis o mediante un APK? Las fuentes consultadas no ofrecen esa vía; no enlazamos cracks, APK ni supuestas betas. ¿Hay requisitos de PC? No se verificaron una fecha ni una ficha técnica de PC. ¿Cuánto ocupa? Esta comprobación no proporciona un tamaño verificado por plataforma. ¿Puedo jugar hoy si reservo? La reserva no adelanta la fecha por sí sola. Volvé a comprobar tu tienda cuando habilite la precarga o el juego."
+        }
+      ],
+      "switch2": []
+    }
+  },
+  "intentDecisions": {
+    "mobile": "Old purchase guide and in-game-phone guide have shortAPK FAQ warnings, but no external-mobile play guide, primary Sony GTA VI Remote Play listing or console/mobile setup comparison. New guide answers native versus streamed play, distinct from in-world phone apps and buying/preloading.",
+    "switch2": "No existing NintendoSwitch2 guide. Distinct from broad confirmed PS5/Xbox platform summary: primary Nintendo executive response, verifying listings, native/cloud/compatibility distinctions and purchase checklist.",
+    "preservation": "139 prior records and417URLs/titles preserved exactly; now141topics/423versions."
+  },
+  "media": {
+    "imagesPerArticle": 3,
+    "uniqueOriginals": 6,
+    "provenance": "public/media/credits.json; descriptive translated alt/captions in src/batches/2026-11-01-two-platforms-media.json",
+    "checks": [
+      {
+        "key": "feature-boats",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-driver",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-helicopter",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-mountain",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-phone",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "status": 200
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "status": 200
+      }
+    ],
+    "inspection": "Fresh contact sheet visually inspected. Genuine official GTA VI1400x788 WebP originals reused; explicitly contextual, no claim that they show Android/iPhone app or Nintendo Switch2 build.",
+    "rights": "Official download/share context rechecked; copyright reserved. No unrestricted/public-domain licence asserted, AI, mods, leaks, GTA V or decorative hero edits."
+  },
+  "validation": {
+    "buildRelease": "passed",
+    "static": {
+      "HTML": 467,
+      "internalLinks": 20952,
+      "structuredDataBlocks": 908
+    },
+    "browser": "6passed: all6versions desktop/mobile, titles/metas/canonical/hreflang/schema/dates/sitemap,7sections/3rowtable perarticle,3decoded credited images, localised200links and actual locale-selector navigation, nooverflow, no popunder/unconditional Analytics. Provider ad scripts stubbed; no adfill claim.",
+    "diff": "passed",
+    "public": "Pending actual production/URL checks.",
+    "finalBuildRelease": "passed after caption refinement",
+    "finalStatic": {
+      "HTML": 467,
+      "internalLinks": 20952,
+      "structuredDataBlocks": 908
+    },
+    "finalBrowser": "6passed on final caption-refined release, covering all6versions on desktop/mobile."
+  },
+  "unchanged": [
+    "Daily1topic cadence andNovember19inclusive end date",
+    "AdSense verification andads.txt",
+    "Static Adsterra/disabled popunder",
+    "Analytics consent",
+    "Design/security rules",
+    "Paid services/subscriptions",
+    "BarberControl"
+  ]
+}
