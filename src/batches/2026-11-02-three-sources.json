@@ -1,0 +1,74 @@
+{
+  "official": {
+    "label": "Grand Theft Auto VI - Rockstar Games",
+    "url": "https://www.rockstargames.com/VI"
+  },
+  "sony": {
+    "label": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+    "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+  },
+  "editions": {
+    "label": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+    "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+  },
+  "announce": {
+    "label": "Rockstar Games · Pre-Order Grand Theft Auto VI on June 25 (24 June 2026)",
+    "url": "https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25"
+  },
+  "famitsu": {
+    "label": "Famitsu · Rob Nelson interview (28 August 2026)",
+    "url": "https://www.famitsu.com/article/202608/85753"
+  },
+  "translation": {
+    "label": "iGrandTheftAuto · English translation of Famitsu interview (9 September 2026)",
+    "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
+  },
+  "ign": {
+    "label": "IGN / Rachel Weber · GTA 6: The Big Interview (7 October 2026, Best Buy licensed republication)",
+    "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931"
+  },
+  "remote-ps4": {
+    "label": "Control your PS5 console from a PS4 console | PS Remote Play",
+    "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100005.html"
+  },
+  "media": {
+    "label": "Grand Theft Auto VI - Rockstar Games",
+    "url": "https://www.rockstargames.com/VI/media"
+  },
+  "gallery": {
+    "label": "Rockstar Games · GTA VI Screenshots",
+    "url": "https://www.rockstargames.com/VI/media/screenshots"
+  },
+  "related-switching": {
+    "label": "FansGTA · Cambiar entre Jason y Lucia en GTA 6: posibilidades y límites",
+    "url": "https://fansgta.com/es/guias/gta-6-cambiar-jason-lucia-personajes/"
+  },
+  "related-offline": {
+    "label": "FansGTA · ¿Se puede jugar GTA 6 sin internet en PS5? Lo que confirma Sony",
+    "url": "https://fansgta.com/es/guias/gta-6-jugar-sin-internet-ps5/"
+  },
+  "related-online": {
+    "label": "FansGTA · Rumor: GTA 6 Online en 2027, qué dijo el CEO de Twitch",
+    "url": "https://fansgta.com/es/noticias/rumor-gta-6-online-2027-dan-clancy/"
+  },
+  "related-mobile": {
+    "label": "FansGTA · GTA 6 en Android y iPhone: APK, versión móvil y Remote Play",
+    "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/"
+  },
+  "related-theft": {
+    "label": "FansGTA · Robar coches en GTA 6: escáner, herramientas y rastreadores",
+    "url": "https://fansgta.com/es/guias/gta-6-robar-coches-escaner-herramientas/"
+  },
+  "related-houses": {
+    "label": "FansGTA · Casas de GTA 6: refugios de Jason y Lucia, garajes y extras",
+    "url": "https://fansgta.com/es/guias/gta-6-casas-refugios-jason-garajes/"
+  },
+  "related-inventory": {
+    "label": "FansGTA · Armas de GTA 6: inventario limitado, rueda y maletero",
+    "url": "https://fansgta.com/es/guias/gta-6-armas-inventario-rueda-maletero/"
+  },
+  "related-platforms": {
+    "label": "FansGTA · GTA 6 en PS5 y Xbox Series X|S: las plataformas de la web oficial",
+    "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/"
+  }
+}

@@ -44,3 +44,7 @@ The authentic official Vice City 11 original was rechecked (HTTP200) and its opt
 ## Manual mobile / Switch2 guides — 2026-11-01 New York
 
 Six authentic GTA VI originals reused; all original URLs returned200 and a fresh contact sheet was visually inspected. Three images per guide,1400x788 optimizedWebP, translated descriptive alt/contextual captions and Rockstar credit; original provenance retained in public/media/credits.json. They explicitly show neither a native mobile app nor a NintendoSwitch2 build. Official download/share context checked; copyright reserved, no unrestricted licence asserted. No AI/mod/leak/GTA V or edited hero layers.
+
+## Manual three-guide batch — 2026-11-02
+
+Eight existing authentic GTA VI promotional originals reused, all exact source URLs HTTP200 and a fresh contact sheet visually inspected. Three1400x788WebP images per guide, with translated alt/captions and linked Rockstar credit. Original provenance remains in public/media/credits.json. Current official download/share gallery context rechecked; copyright reserved, no unrestricted licence claimed. Contextual images are not PS4/XboxOne builds, proof of human co-op, scanner menus or garage catalogues. The Ultimate safehouse promotional image is identified without implying that edition is required for registration. No AI, mods, leaks, GTA V or edited hero layers.

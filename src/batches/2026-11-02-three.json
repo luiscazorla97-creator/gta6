@@ -1,0 +1,713 @@
+[
+  {
+    "key": "coop-split-screen",
+    "category": "guides",
+    "slug": [
+      "gta-6-cooperativo-dos-jugadores-pantalla-dividida",
+      "gta-6-co-op-two-players-split-screen",
+      "gta-6-cooperation-deux-joueurs-ecran-partage"
+    ],
+    "title": [
+      "GTA 6 cooperativo: dos jugadores, pantalla dividida y campaña",
+      "GTA 6 co-op: two players, split-screen and the story campaign",
+      "GTA 6 en coopération : deux joueurs, écran partagé et campagne"
+    ],
+    "excerpt": [
+      "GTA 6 se presenta como una experiencia para un jugador. Explicamos por qué Jason y Lucia no confirman cooperativo ni pantalla dividida y qué dice Sony.",
+      "GTA 6 is listed as a single-player experience. Why Jason and Lucia do not establish co-op or split-screen, and what Sony’s listing actually says.",
+      "GTA 6 est présenté comme une expérience solo. Pourquoi Jason et Lucia ne confirment ni coopération ni écran partagé, selon la fiche Sony."
+    ],
+    "tag": [
+      "GTA VI · JUGADORES Y MODOS",
+      "GTA VI · PLAYERS AND MODES",
+      "GTA VI · JOUEURS ET MODES"
+    ],
+    "imageKeys": [
+      "feature-couple",
+      "feature-fight",
+      "feature-driver"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La respuesta oficial: campaña para un jugador",
+          "The official answer: a single-player campaign",
+          "La réponse officielle : une campagne solo"
+        ],
+        "paragraphs": [
+          [
+            "La ficha de GTA VI en PlayStation indica un jugador y su sección de preguntas describe una experiencia single-player. Rockstar también anuncia la aventura de Jason y Lucia como un juego para un jugador. Es la información que puedes utilizar para planificar una compra hoy, 2 de noviembre de 2026: las fuentes no anuncian una campaña cooperativa para dos personas ni un modo de pantalla dividida.",
+            "GTA VI’s PlayStation listing specifies one player and its FAQ describes a single-player experience. Rockstar also presents Jason and Lucia’s adventure as a single-player game. That is the basis for purchase planning as of November 2, 2026: the checked sources announce neither a two-person cooperative campaign nor split-screen.",
+            "La fiche PlayStation indique un joueur et sa FAQ décrit une expérience solo, comme la présentation Rockstar. C’est la base pour préparer un achat au 2 novembre 2026 : les sources consultées n’annoncent ni campagne coopérative à deux ni écran partagé."
+          ]
+        ],
+        "refs": [
+          "sony",
+          "announce"
+        ]
+      },
+      {
+        "heading": [
+          "Dos protagonistas no equivalen a dos jugadores",
+          "Two protagonists do not mean two players",
+          "Deux protagonistes ne signifient pas deux joueurs"
+        ],
+        "paragraphs": [
+          [
+            "En la demostración descrita por IGN, el jugador puede pasar de un protagonista a otro mientras el compañero actúa mediante los sistemas del juego. Que Lucia conduzca mientras Jason dispara demuestra colaboración dentro de la escena, no una segunda cuenta conectada. La guía sobre cambio de personaje explica cuándo la historia limita ese control; aquí respondemos a una pregunta distinta: cuántas personas controlan simultáneamente la campaña.",
+            "In IGN’s described demonstration, control can switch between protagonists while the companion is handled by the game. Lucia driving while Jason shoots demonstrates cooperation within the scene, rather than a second connected account. Our character-switching guide covers narrative restrictions; this article answers the different question of how many people control the campaign simultaneously.",
+            "Dans la démonstration décrite par IGN, le contrôle passe entre les protagonistes tandis que le jeu gère le partenaire. Lucia au volant pendant que Jason tire illustre une collaboration narrative, pas un second compte connecté. Notre guide du changement de personnage traite les restrictions ; ici, la question est le nombre de personnes jouant simultanément."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-switching"
+        ]
+      },
+      {
+        "heading": [
+          "Los modos que conviene distinguir",
+          "The modes worth distinguishing",
+          "Les modes à distinguer"
+        ],
+        "paragraphs": [
+          [
+            "Un personaje acompañante, un segundo mando y una sesión online son cosas diferentes. Esta comparación evita trasladar funciones de otros juegos a GTA VI o comprar un accesorio para un modo no anunciado.",
+            "A companion, a second controller and an online session are different things. This comparison avoids importing another game’s features or buying an accessory for an unannounced mode.",
+            "Partenaire, seconde manette et session en ligne sont distincts. Cette comparaison évite de transposer les fonctions d’un autre jeu ou d’acheter un accessoire pour un mode non annoncé."
+          ]
+        ],
+        "refs": [
+          "sony",
+          "ign"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Concepto",
+              "Concept",
+              "Notion"
+            ],
+            [
+              "Qué implica",
+              "What it involves",
+              "Signification"
+            ],
+            [
+              "Estado de GTA VI",
+              "GTA VI status",
+              "État de GTA VI"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Campaña solo",
+                "Solo campaign",
+                "Campagne solo"
+              ],
+              [
+                "Una persona controla la partida.",
+                "One person controls the session.",
+                "Une personne contrôle la partie."
+              ],
+              [
+                "Descrita por las fuentes oficiales.",
+                "Described by official sources.",
+                "Décrite officiellement."
+              ]
+            ],
+            [
+              [
+                "Cooperativo local",
+                "Local co-op",
+                "Coopération locale"
+              ],
+              [
+                "Dos personas juegan en la misma consola.",
+                "Two people play on one console.",
+                "Deux personnes jouent sur une console."
+              ],
+              [
+                "No anunciado en las fichas revisadas.",
+                "Not announced in the checked listings.",
+                "Non annoncé dans les fiches consultées."
+              ]
+            ],
+            [
+              [
+                "Pantalla dividida",
+                "Split-screen",
+                "Écran partagé"
+              ],
+              [
+                "Vistas simultáneas para varios jugadores.",
+                "Simultaneous views for multiple players.",
+                "Vues simultanées pour plusieurs joueurs."
+              ],
+              [
+                "Sin confirmación oficial revisada.",
+                "No checked official confirmation.",
+                "Aucune confirmation officielle vérifiée."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Por qué la conexión online no confirma multijugador",
+          "Why online connectivity does not establish multiplayer",
+          "Pourquoi la connexion ne prouve pas le multijoueur"
+        ],
+        "paragraphs": [
+          [
+            "Una tienda puede describir descargas, cuentas, servicios o compras dentro del juego sin anunciar una campaña multijugador. La disponibilidad de juego offline tampoco determina un futuro GTA Online. Son etiquetas sobre acceso y funciones, no un sustituto de la descripción de modos. Por eso no inferimos cooperativo de una advertencia de Internet ni lo descartamos para siempre por la etiqueta de campaña: informamos del producto anunciado.",
+            "A store can mention downloads, accounts, services or purchases without announcing a multiplayer campaign. Offline capability likewise does not specify a future GTA Online. These are access and feature labels, rather than mode announcements. We therefore neither infer co-op from internet requirements nor make permanent claims about future products: this guide covers the announced game.",
+            "Une boutique peut mentionner téléchargements, comptes ou achats sans annoncer une campagne multijoueur. Le jeu hors ligne ne définit pas non plus un futur GTA Online. Ces indications d’accès ne remplacent pas une annonce de modes. Nous ne déduisons donc pas la coopération d’une connexion et ne faisons pas de promesse définitive sur de futurs produits."
+          ]
+        ],
+        "refs": [
+          "sony",
+          "related-offline",
+          "related-online"
+        ]
+      },
+      {
+        "heading": [
+          "Remote Play y compartir el mando no añaden un modo",
+          "Remote Play and passing the controller do not add a mode",
+          "Remote Play et échange de manette n’ajoutent pas un mode"
+        ],
+        "paragraphs": [
+          [
+            "Ver la imagen de la consola en otro dispositivo no crea una segunda perspectiva de juego. Del mismo modo, turnarse el mando entre familiares es una forma de compartir una sesión, no la confirmación de una campaña diseñada para dos jugadores. Nuestra guía de móviles explica la transmisión remota por separado. No damos pasos para activar un menú cooperativo inexistente en la información comprobada.",
+            "Displaying a console on another device does not create a second player view. Taking turns with a controller is sharing a session, rather than confirmation of a campaign built for two. Our mobile guide explains streaming separately. We provide no instructions for enabling a co-op menu absent from the checked information.",
+            "Afficher la console sur un autre appareil ne crée pas de seconde perspective. Se passer la manette partage une session, sans confirmer une campagne conçue pour deux. Notre guide mobile explique la transmission séparément. Nous n’inventons pas de procédure pour un menu coopératif absent des informations vérifiées."
+          ]
+        ],
+        "refs": [
+          "related-mobile",
+          "sony"
+        ]
+      },
+      {
+        "heading": [
+          "Qué tendría que anunciar Rockstar para cambiar la respuesta",
+          "What announcement would change this answer",
+          "Quelle annonce modifierait cette réponse"
+        ],
+        "paragraphs": [
+          [
+            "Buscaríamos una comunicación del editor que identifique el modo, el número de jugadores y las plataformas. Si habla de online, habría que distinguir juego cruzado, invitaciones, cuentas y acceso al servicio. Un vídeo con dos personajes o una lista de deseos no cubre esos requisitos. Tampoco trasladamos a GTA VI una función de GTA Online o un mod creado para otra entrega.",
+            "A publisher announcement should identify the mode, player count and platforms. For online play, crossplay, invitations, accounts and service access would require separate checks. A two-character video or wishlist does not establish those requirements, and features from GTA Online or another game’s mod cannot be transferred to GTA VI.",
+            "Une annonce devrait préciser mode, nombre de joueurs et plateformes. En ligne, crossplay, invitations, comptes et accès demanderaient des vérifications distinctes. Deux personnages en vidéo ou une liste de souhaits ne suffisent pas. Une fonction de GTA Online ou d’un mod ne se transpose pas à GTA VI."
+          ]
+        ],
+        "refs": [
+          "official",
+          "related-online"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas rápidas antes de organizar una partida",
+          "Quick questions before planning a session",
+          "Questions avant de préparer une partie"
+        ],
+        "paragraphs": [
+          [
+            "¿Puedo comprarlo contando con una campaña a dos mandos? Las fichas revisadas no respaldan esa expectativa. ¿Cambiar entre Jason y Lucia es cooperativo? No: es control alternado dentro de una experiencia solo. ¿Las imágenes muestran dos jugadores humanos? No lo demuestran; son capturas oficiales de los personajes y escenas del juego. Esta guía conserva el alcance de las fuentes y no presenta una prueba de una copia final.",
+            "Should you buy expecting a two-controller campaign? The checked listings do not support that expectation. Is switching Jason and Lucia co-op? It is alternating control in a solo experience. Do these images demonstrate two human players? No: official character and scene screenshots do not establish that. This guide retains the sources’ scope rather than claiming a final-copy test.",
+            "Faut-il acheter en comptant sur une campagne à deux manettes ? Les fiches ne l’étayent pas. Changer de protagoniste est-il coopératif ? C’est un contrôle alterné dans une expérience solo. Les images montrent-elles deux joueurs humains ? Elles ne le prouvent pas. Ce guide respecte les sources sans prétendre tester une copie finale."
+          ]
+        ],
+        "refs": [
+          "sony",
+          "ign"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ps4-xbox-one",
+    "category": "guides",
+    "slug": [
+      "gta-6-ps4-xbox-one-compatibilidad-remote-play",
+      "gta-6-ps4-xbox-one-compatibility-remote-play",
+      "gta-6-ps4-xbox-one-compatibilite-lecture-distance"
+    ],
+    "title": [
+      "GTA 6 en PS4 y Xbox One: compatibilidad y Remote Play",
+      "GTA 6 on PS4 and Xbox One: compatibility and Remote Play",
+      "GTA 6 sur PS4 et Xbox One : compatibilité et lecture à distance"
+    ],
+    "excerpt": [
+      "GTA 6 no se ejecuta en PS4 y Xbox One no figura entre sus plataformas. Aclaramos PS4 Pro, One X y la diferencia con Remote Play desde una PS5.",
+      "GTA 6 does not run on PS4, and Xbox One is not an announced platform. PS4 Pro, One X and streaming from a PS5 through Remote Play explained.",
+      "GTA 6 ne tourne pas sur PS4 et Xbox One ne figure pas parmi ses plateformes. PS4 Pro, One X et Remote Play depuis une PS5 : les différences."
+    ],
+    "tag": [
+      "GTA VI · COMPATIBILIDAD",
+      "GTA VI · COMPATIBILITY",
+      "GTA VI · COMPATIBILITÉ"
+    ],
+    "imageKeys": [
+      "feature-helicopter",
+      "feature-phone",
+      "feature-mountain"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué consolas figuran para GTA VI",
+          "Which consoles are listed for GTA VI",
+          "Quelles consoles sont annoncées pour GTA VI"
+        ],
+        "paragraphs": [
+          [
+            "GTA VI está anunciado para PlayStation 5 y Xbox Series X|S. La ficha oficial de PlayStation responde expresamente que no es jugable en PlayStation 4; Rockstar tampoco incluye Xbox One en su relación de plataformas. Comprobado el 2 de noviembre de 2026, esto significa que no conviene comprar una copia esperando instalarla de forma nativa en una PS4 o Xbox One. La salida anunciada es el 19 de noviembre de 2026: reservar no significa poder jugar hoy.",
+            "GTA VI is announced for PlayStation 5 and Xbox Series X|S. PlayStation explicitly states that it is not playable on PlayStation 4, while Rockstar’s platform list does not include Xbox One. Checked on November 2, 2026, this means you should not buy a copy expecting a native installation on either older console. The announced release is November 19, 2026; a preorder does not provide playable access today.",
+            "GTA VI est annoncé sur PlayStation 5 et Xbox Series X|S. PlayStation précise qu’il n’est pas jouable sur PlayStation 4 ; la liste Rockstar ne comprend pas Xbox One. Au 2 novembre 2026, acheter en espérant une installation native sur ces anciennes consoles serait donc une erreur. La sortie annoncée est le 19 novembre 2026 : précommander ne donne pas accès au jeu aujourd’hui."
+          ]
+        ],
+        "refs": [
+          "official",
+          "editions",
+          "sony"
+        ]
+      },
+      {
+        "heading": [
+          "PS4 Pro y Xbox One X siguen siendo la generación anterior",
+          "PS4 Pro and Xbox One X remain older-generation consoles",
+          "PS4 Pro et Xbox One X appartiennent à la génération précédente"
+        ],
+        "paragraphs": [
+          [
+            "El nombre puede confundir: Xbox One X no es Xbox Series X, y Xbox One S no es Series S. De igual manera, una PS4 Pro sigue perteneciendo a la familia PS4; no se convierte en PS5 por tener mejoras respecto al modelo base. La comprobación útil es leer el nombre completo de la consola y la plataforma de la compra, no elegir solo por la letra X, S o la palabra Pro.",
+            "The names can mislead: Xbox One X is not Xbox Series X, and Xbox One S is not Series S. Similarly, PS4 Pro remains part of the PS4 family rather than becoming a PS5 through its hardware upgrades. Read the console’s full name and the purchase platform instead of relying on the letter X, S or the word Pro.",
+            "Les noms prêtent à confusion : Xbox One X n’est pas Xbox Series X, et Xbox One S n’est pas Series S. Une PS4 Pro reste une PS4 malgré ses améliorations. Vérifiez le nom complet de la console et la plateforme de l’achat, plutôt qu’une lettre X, S ou la mention Pro."
+          ]
+        ],
+        "refs": [
+          "editions",
+          "sony",
+          "related-platforms"
+        ]
+      },
+      {
+        "heading": [
+          "Compatibilidad nativa: tabla para no confundir modelos",
+          "Native compatibility: distinguishing the models",
+          "Compatibilité native : distinguer les modèles"
+        ],
+        "paragraphs": [
+          [
+            "Esta tabla describe las plataformas anunciadas, no resultados de rendimiento. Una captura promocional de GTA VI tampoco demuestra cómo funciona el juego en una máquina concreta.",
+            "This table describes announced platforms rather than performance test results. A promotional screenshot does not establish how GTA VI runs on a particular machine.",
+            "Ce tableau décrit les plateformes annoncées, pas des mesures de performances. Une capture promotionnelle ne démontre pas le fonctionnement sur une machine précise."
+          ]
+        ],
+        "refs": [
+          "sony",
+          "editions"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Familia",
+              "Family",
+              "Famille"
+            ],
+            [
+              "Modelos que suelen confundirse",
+              "Commonly confused models",
+              "Modèles souvent confondus"
+            ],
+            [
+              "Situación comprobada",
+              "Checked status",
+              "Situation vérifiée"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "PlayStation 4",
+                "PlayStation 4",
+                "PlayStation 4"
+              ],
+              [
+                "PS4 y PS4 Pro",
+                "PS4 and PS4 Pro",
+                "PS4 et PS4 Pro"
+              ],
+              [
+                "La ficha de Sony excluye PS4.",
+                "Sony’s listing excludes PS4.",
+                "La fiche Sony exclut PS4."
+              ]
+            ],
+            [
+              [
+                "Xbox One",
+                "Xbox One",
+                "Xbox One"
+              ],
+              [
+                "Xbox One, One S y One X",
+                "Xbox One, One S and One X",
+                "Xbox One, One S et One X"
+              ],
+              [
+                "No figuran en las plataformas anunciadas.",
+                "Not listed among announced platforms.",
+                "Absents des plateformes annoncées."
+              ]
+            ],
+            [
+              [
+                "Generación anunciada",
+                "Announced generation",
+                "Génération annoncée"
+              ],
+              [
+                "PS5 y Xbox Series X|S",
+                "PS5 and Xbox Series X|S",
+                "PS5 et Xbox Series X|S"
+              ],
+              [
+                "Plataformas indicadas por Rockstar.",
+                "Platforms specified by Rockstar.",
+                "Plateformes indiquées par Rockstar."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Qué puede hacer una PS4 con Remote Play de PS5",
+          "What PS4 can do with PS5 Remote Play",
+          "Ce que permet Remote Play de PS5 sur PS4"
+        ],
+        "paragraphs": [
+          [
+            "Sony documenta una función general para controlar una PS5 desde una PS4. En ese caso, la PS5 ejecuta el juego y la PS4 recibe la imagen y envía las órdenes del mando. No instala una versión PS4 de GTA VI, no sustituye a la PS5 y no elimina la necesidad de disponer del juego y cumplir sus condiciones de acceso. La ficha de GTA VI indica compatibilidad con Remote Play, pero esta explicación no es una prueba propia de la versión final.",
+            "Sony documents a general feature for controlling a PS5 from a PS4. The PS5 runs the game; the PS4 receives video and sends controller input. That does not install a PS4 version of GTA VI, replace the PS5 or remove the need to own the game and meet its access conditions. GTA VI’s listing marks Remote Play support, but this explanation is not our own final-version test.",
+            "Sony documente le contrôle d’une PS5 depuis une PS4. La PS5 exécute le jeu ; la PS4 reçoit l’image et transmet les commandes. Ce n’est ni une version PS4 de GTA VI, ni un remplacement de la PS5, ni un accès sans disposer du jeu. La fiche GTA VI indique Remote Play, mais cette explication ne constitue pas notre propre test de la version finale."
+          ]
+        ],
+        "refs": [
+          "remote-ps4",
+          "sony",
+          "related-mobile"
+        ]
+      },
+      {
+        "heading": [
+          "Preparar la conexión entre PS4 y PS5",
+          "Preparing the PS4-to-PS5 connection",
+          "Préparer la connexion entre PS4 et PS5"
+        ],
+        "paragraphs": [
+          [
+            "Según la guía de Sony, actualiza ambas consolas y utiliza la misma cuenta de PlayStation. En la PS5, activa Uso a distancia dentro de Ajustes, Sistema. Enciéndela o déjala en modo reposo; para despertarla por red, habilita las opciones correspondientes de conexión a Internet y encendido desde la red. En la pantalla de inicio de PS4 abre PS5 Remote Play y busca tu PS5. Es la preparación del servicio de Sony: no un método para descargar GTA VI en PS4.",
+            "Sony’s guide says to update both consoles and use the same PlayStation account. On PS5, enable Remote Play under Settings, System. Turn it on or leave it in rest mode; network wake requires the relevant internet-connection and network-power settings. On the PS4 home screen, open PS5 Remote Play and choose Find Your PS5. These are service setup steps, not instructions for downloading GTA VI onto PS4.",
+            "Le guide Sony demande des consoles à jour et le même compte PlayStation. Sur PS5, activez Lecture à distance dans Paramètres, Système. Allumez-la ou utilisez le mode repos ; le réveil à distance nécessite les options de connexion Internet et de mise sous tension par le réseau. Sur l’accueil PS4, ouvrez PS5 Remote Play et recherchez votre PS5. Cette préparation du service ne télécharge pas GTA VI sur PS4."
+          ],
+          [
+            "Sony recomienda al menos 5 Mbps de subida y bajada y 15 Mbps para obtener mejores resultados. Son recomendaciones generales de Remote Play, no requisitos técnicos de GTA VI ni una garantía de latencia. La experiencia depende también de la red local y de las condiciones de la conexión.",
+            "Sony recommends at least 5 Mbps upload and download, or 15 Mbps for best performance. Those are general Remote Play recommendations, not GTA VI system requirements or a latency guarantee. The local network and connection conditions also affect the experience.",
+            "Sony recommande au moins 5 Mbit/s en envoi et réception, ou 15 Mbit/s pour de meilleurs résultats. Ce sont des recommandations générales de Remote Play, pas des exigences GTA VI ni une garantie de latence. Le réseau local et les conditions de connexion comptent aussi."
+          ]
+        ],
+        "refs": [
+          "remote-ps4"
+        ]
+      },
+      {
+        "heading": [
+          "Por qué la nube no confirma una versión Xbox One",
+          "Why cloud streaming does not confirm an Xbox One version",
+          "Pourquoi le cloud ne confirme pas une version Xbox One"
+        ],
+        "paragraphs": [
+          [
+            "Para recomendar juego en la nube haría falta comprobar que GTA VI figure en el catálogo del servicio, en la región y con las condiciones aplicables. Que un dispositivo pueda transmitir otros juegos no demuestra que pueda transmitir este. Las fuentes revisadas no permiten prometer acceso a GTA VI desde Xbox One mediante una suscripción, ni una actualización que convierta una copia de otra entrega en GTA VI.",
+            "Recommending cloud play would require checking GTA VI in the service catalogue, region and applicable access terms. A device streaming other games does not establish that it can stream this one. The checked sources do not support promising GTA VI on Xbox One through a subscription or an upgrade that converts another GTA game into GTA VI.",
+            "Recommander le cloud nécessiterait de vérifier GTA VI dans le catalogue du service, la région et les conditions d’accès. Transmettre d’autres jeux ne prouve pas que cet appareil transmette celui-ci. Les sources consultées ne permettent de promettre ni GTA VI sur Xbox One via un abonnement, ni une mise à niveau transformant un ancien GTA en GTA VI."
+          ]
+        ],
+        "refs": [
+          "official",
+          "editions"
+        ]
+      },
+      {
+        "heading": [
+          "Qué revisar antes de comprar",
+          "What to check before buying",
+          "Que vérifier avant d’acheter"
+        ],
+        "paragraphs": [
+          [
+            "Identifica tu consola, abre la ficha oficial de su tienda y comprueba plataforma, edición y región de la cuenta. Si una oferta dice PS4 o Xbox One, contrástala con Rockstar antes de pagar. Si lo que buscas es jugar a distancia, separa la consola que ejecuta el juego de la pantalla que lo recibe. Las imágenes de esta guía son material oficial contextual de GTA VI; no muestran una supuesta edición para la generación anterior.",
+            "Identify your console, open its official store listing and check platform, edition and account region. Compare any offer claiming PS4 or Xbox One support with Rockstar before paying. For streaming, distinguish the console running the game from the screen receiving it. These official GTA VI images provide context rather than showing a purported older-generation edition.",
+            "Identifiez votre console, puis vérifiez plateforme, édition et région du compte dans la boutique officielle. Confrontez toute offre PS4 ou Xbox One aux informations Rockstar avant de payer. En lecture à distance, distinguez la console qui exécute le jeu de l’écran qui le reçoit. Les images officielles servent de contexte ; elles ne montrent pas une prétendue édition d’ancienne génération."
+          ]
+        ],
+        "refs": [
+          "editions",
+          "sony",
+          "related-platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "personal-vehicles",
+    "category": "guides",
+    "slug": [
+      "gta-6-coches-personales-registro-garajes",
+      "gta-6-personal-vehicles-registration-garages",
+      "gta-6-vehicules-personnels-immatriculation-garages"
+    ],
+    "title": [
+      "Coches personales de GTA 6: registro, garajes y vehículos robados",
+      "GTA 6 personal vehicles: registration, garages and stolen cars",
+      "Véhicules personnels de GTA 6 : immatriculation, garages et vols"
+    ],
+    "excerpt": [
+      "Qué cuentan Famitsu e IGN sobre registrar coches en GTA 6, ampliar el garaje y distinguir un vehículo propio de uno robado que desaparece al reiniciar.",
+      "What Famitsu and IGN report about registering GTA 6 cars, expanding garage space and telling personal vehicles from temporary stolen ones.",
+      "Ce que rapportent Famitsu et IGN sur l’immatriculation dans GTA 6, les garages et la différence entre véhicule personnel et voiture volée temporaire."
+    ],
+    "tag": [
+      "GTA VI · VEHÍCULOS Y GARAJES",
+      "GTA VI · VEHICLES AND GARAGES",
+      "GTA VI · VÉHICULES ET GARAGES"
+    ],
+    "imageKeys": [
+      "feature-driver",
+      "feature-safehouse-exterior",
+      "feature-bike"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Robar un coche y convertirlo en propio son decisiones distintas",
+          "Stealing a car and making it yours are different decisions",
+          "Voler une voiture et en devenir propriétaire sont distincts"
+        ],
+        "paragraphs": [
+          [
+            "El sistema de coches personales de GTA VI distingue entre utilizar un vehículo robado temporalmente y registrarlo como propio, según la entrevista de Famitsu a Rob Nelson publicada el 28 de agosto de 2026. IGN añade, en su entrevista del 7 de octubre, que un escáner del teléfono informa del coste de registro y del valor de venta. Esta guía reúne esas descripciones comprobadas el 2 de noviembre: no es un tutorial basado en una copia final ni un anuncio nuevo de hoy.",
+            "GTA VI distinguishes temporarily using a stolen vehicle from registering it as your own, according to Famitsu’s August 28, 2026 interview with Rob Nelson. IGN’s October 7 interview adds that a phone scanner shows registration cost and sale value. This guide brings those descriptions together as checked on November 2; it is neither a final-copy walkthrough nor a newly announced feature today.",
+            "GTA VI distingue l’utilisation temporaire d’un véhicule volé de son immatriculation comme véhicule personnel, selon l’entretien Famitsu avec Rob Nelson du 28 août 2026. L’entretien IGN du 7 octobre ajoute qu’un scanner du téléphone indique coût d’immatriculation et valeur de vente. Ce guide rassemble ces descriptions vérifiées le 2 novembre : ce n’est ni un test final ni une nouvelle annonce du jour."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "translation",
+          "ign"
+        ]
+      },
+      {
+        "heading": [
+          "Qué información aporta el escáner del teléfono",
+          "What the phone scanner tells you",
+          "Les informations du scanner du téléphone"
+        ],
+        "paragraphs": [
+          [
+            "En la demostración descrita por IGN, el escáner permite examinar el vehículo antes de decidir qué hacer con él. Además del cierre, alarma o rastreador, muestra cuánto valdría venderlo y cuánto costaría registrarlo. El valor de venta y el coste de registro responden a decisiones diferentes: obtener dinero por un vehículo o conservarlo como transporte propio. No hay base para dar una tarifa universal ni para asegurar que todos los modelos tengan idénticas condiciones.",
+            "In IGN’s described demonstration, the scanner lets you assess a vehicle before deciding what to do with it. Alongside lock, alarm and tracker information, it shows sale value and registration cost. Those figures serve different decisions: earning money from a vehicle or keeping it as personal transport. They do not establish a universal fee or identical conditions for every model.",
+            "Dans la démonstration décrite par IGN, le scanner aide à examiner le véhicule avant de choisir son usage. En plus de la serrure, de l’alarme et du traceur, il indique valeur de vente et coût d’immatriculation. Ces montants correspondent à deux décisions : obtenir de l’argent ou garder son moyen de transport. Ils ne fixent ni tarif universel ni conditions identiques pour tous les modèles."
+          ],
+          [
+            "La guía sobre herramientas de robo explica cómo se accede a distintos coches. Aquí el foco está en lo que ocurre después: decidir si merece la pena reservar una plaza para ese vehículo. La captura oficial del conductor ilustra el contexto, no el menú final del escáner.",
+            "Our theft-tools guide covers getting into different cars. Here the focus is what comes next: deciding whether a vehicle deserves a storage slot. The official driving image provides context, not a view of the scanner’s final menu.",
+            "Notre guide des outils de vol traite l’accès aux voitures. Ici, il s’agit de la suite : décider si ce véhicule mérite une place. La capture officielle de conduite illustre le contexte, pas le menu final du scanner."
+          ]
+        ],
+        "refs": [
+          "ign",
+          "related-theft"
+        ]
+      },
+      {
+        "heading": [
+          "Tres estados que conviene diferenciar",
+          "Three vehicle states to distinguish",
+          "Trois situations à distinguer"
+        ],
+        "paragraphs": [
+          [
+            "Tener acceso a un coche no equivale siempre a conservarlo entre sesiones. Esta comparación resume el alcance de la entrevista, sin convertir ejemplos de una demostración en reglas para todos los vehículos especiales.",
+            "Access to a car does not always mean retaining it between sessions. This comparison summarises the interview without turning demonstration examples into rules for every special vehicle.",
+            "Accéder à une voiture ne signifie pas toujours la conserver entre les sessions. Ce tableau résume l’entretien sans transformer ses exemples en règles pour tous les véhicules spéciaux."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "translation",
+          "ign"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Situación",
+              "Situation",
+              "Situation"
+            ],
+            [
+              "Qué describe la fuente",
+              "What the source describes",
+              "Description de la source"
+            ],
+            [
+              "Decisión del jugador",
+              "Player decision",
+              "Choix du joueur"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Robado sin registrar",
+                "Stolen, unregistered",
+                "Volé, non immatriculé"
+              ],
+              [
+                "Uso temporal e icono gris.",
+                "Temporary use and a grey icon.",
+                "Usage temporaire et icône grise."
+              ],
+              [
+                "No dar por asegurada su conservación.",
+                "Do not assume it will be retained.",
+                "Ne pas présumer sa conservation."
+              ]
+            ],
+            [
+              [
+                "Vehículo personal",
+                "Personal vehicle",
+                "Véhicule personnel"
+              ],
+              [
+                "Registro y almacenamiento propio.",
+                "Registration and owned-vehicle storage.",
+                "Immatriculation et stockage personnel."
+              ],
+              [
+                "Valorar coste y plaza disponible.",
+                "Weigh the cost and available space.",
+                "Évaluer coût et place disponible."
+              ]
+            ],
+            [
+              [
+                "Colección ampliada",
+                "Expanded collection",
+                "Collection agrandie"
+              ],
+              [
+                "Compra de garajes para más vehículos.",
+                "Buying garages to hold more vehicles.",
+                "Achat de garages pour plus de véhicules."
+              ],
+              [
+                "Consultar capacidad y condiciones reales.",
+                "Check actual capacity and terms.",
+                "Vérifier capacité et conditions réelles."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Las tres plazas iniciales no son el máximo de todo el juego",
+          "The initial three spaces are not a game-wide maximum",
+          "Trois places initiales ne sont pas le maximum global"
+        ],
+        "paragraphs": [
+          [
+            "Famitsu sitúa el espacio para tres vehículos al principio del juego y explica que comprar garajes permite ampliar la colección. En el ejemplo de tener esas tres plazas ocupadas y querer otro coche personal, Nelson habla de vender uno para hacer sitio. Es importante conservar ambos matices: la capacidad se refiere al comienzo y existen ampliaciones. No equivale a decir que solo pueden existir tres coches propios durante toda la historia.",
+            "Famitsu places the three-vehicle storage limit at the beginning and explains that purchasing garages expands the collection. In the example of filling those three spaces and wanting another personal car, Nelson describes selling one to make room. Both qualifications matter: it is initial capacity, and expansion exists. It is not a claim that only three owned cars can exist throughout the story.",
+            "Famitsu situe les trois places au début du jeu et précise que l’achat de garages agrandit la collection. Dans l’exemple où ces places sont occupées, Nelson explique qu’il faut vendre un véhicule pour accueillir un autre véhicule personnel. Il faut conserver les deux nuances : capacité initiale et possibilité d’extension. Ce n’est pas une limite de trois véhicules pendant toute l’histoire."
+          ],
+          [
+            "El reportaje no proporciona una lista exhaustiva de garajes con dirección, precio y capacidad. Por eso no publicamos ubicaciones inventadas ni rutas para comprar una propiedad concreta. La guía de viviendas trata refugios e inmuebles como tema separado.",
+            "The report does not supply a complete garage list with addresses, prices and capacity. We therefore cannot provide verified purchase routes for specific properties. Our housing guide treats safehouses and property as a separate topic.",
+            "Le reportage ne fournit pas une liste complète avec adresses, prix et capacités. Nous ne pouvons donc pas proposer de parcours d’achat vérifié pour chaque propriété. Notre guide immobilier traite séparément refuges et logements."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "translation",
+          "related-houses"
+        ]
+      },
+      {
+        "heading": [
+          "Por qué un coche robado puede desaparecer al reiniciar",
+          "Why a stolen car may disappear after restarting",
+          "Pourquoi un véhicule volé peut disparaître au redémarrage"
+        ],
+        "paragraphs": [
+          [
+            "La entrevista distingue los vehículos robados sin registrar mediante un icono gris: permanecen durante un tiempo, pero desaparecen al reiniciar el juego. Es una regla descrita para el transporte temporal, no una afirmación de que se borre todo el garaje o la partida. Tampoco demuestra que dejar un coche en cualquier calle lo convierta en propiedad. Antes de tratarlo como parte de tu colección, importa comprobar su estado en el sistema de vehículos personales.",
+            "The interview describes unregistered stolen vehicles with a grey icon: they remain for a while but disappear when the game restarts. That concerns temporary transport, rather than erasing the garage or save file. It also does not establish that parking on any street makes a car yours. Before treating it as part of your collection, its personal-vehicle status matters.",
+            "L’entretien décrit les véhicules volés non immatriculés avec une icône grise : ils restent un temps, puis disparaissent au redémarrage du jeu. Cela concerne un transport temporaire, pas l’effacement du garage ou de la sauvegarde. Se garer dans n’importe quelle rue ne suffit donc pas à établir la propriété. Avant d’intégrer une voiture à sa collection, son statut doit être vérifié."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "translation"
+        ]
+      },
+      {
+        "heading": [
+          "Qué relación tienen los coches propios con las armas",
+          "How personal vehicles connect to weapons",
+          "Le lien entre véhicules personnels et armes"
+        ],
+        "paragraphs": [
+          [
+            "Nelson también vincula los vehículos personales con el almacenamiento de armas. Esto da una utilidad adicional al coche que decides conservar: no se reduce a su aspecto o velocidad. Nuestra guía del inventario explica el acceso al equipo y sus límites sin repetirlo aquí. La comparación con los caballos de Red Dead Redemption 2 ayuda a entender la distinción entre propio y temporal; no importa automáticamente seguros, establos o mecánicas completas de aquel juego a GTA VI.",
+            "Nelson also connects personal vehicles with weapon storage, giving the car you keep a purpose beyond appearance or speed. Our inventory guide explains equipment access and limits separately. His comparison with Red Dead Redemption 2’s horses illustrates owned versus temporary transport; it does not import that game’s complete mechanics, insurance or stables into GTA VI.",
+            "Nelson relie aussi les véhicules personnels au stockage des armes. La voiture conservée a donc une utilité au-delà du style ou de la vitesse. Notre guide d’inventaire détaille séparément l’accès à l’équipement. La comparaison avec les chevaux de Red Dead Redemption 2 éclaire la distinction personnel/temporaire ; elle n’importe pas toutes les mécaniques de cet autre jeu."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "translation",
+          "related-inventory"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes: vender, registrar y ampliar",
+          "Common questions: selling, registering and expanding",
+          "Questions fréquentes : vendre, immatriculer et agrandir"
+        ],
+        "paragraphs": [
+          [
+            "¿Robar basta para quedarme un coche para siempre? La entrevista separa uso temporal y registro. ¿El escáner garantiza un beneficio? Muestra información para decidir, no una ganancia universal. ¿Tres plazas significa tres vehículos como máximo? No: se describe el inicio y la compra de garajes para ampliar. ¿Ya se conocen todos los precios y menús? Las fuentes citadas no contienen un catálogo completo. Las imágenes oficiales ilustran vehículos y escenarios; no son capturas propias de una partida final.",
+            "Does theft alone keep a car forever? The interview separates temporary use and registration. Does the scanner guarantee profit? It informs a decision rather than establishing universal earnings. Is three vehicles the maximum? The account describes initial space and garage purchases for expansion. Are all prices and menus known? The cited sources provide no complete catalogue. Official images illustrate vehicles and settings rather than our own final-game session.",
+            "Voler suffit-il à garder une voiture définitivement ? L’entretien distingue usage temporaire et immatriculation. Le scanner garantit-il un bénéfice ? Il informe un choix, sans gain universel. Trois véhicules est-il le maximum ? Le récit décrit le début et l’extension par garages. Tous les prix et menus sont-ils connus ? Les sources ne donnent pas de catalogue complet. Les images officielles illustrent véhicules et décors, pas notre propre partie finale."
+          ]
+        ],
+        "refs": [
+          "famitsu",
+          "ign",
+          "related-theft"
+        ]
+      }
+    ]
+  }
+]

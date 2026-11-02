@@ -1,0 +1,471 @@
+{
+  "date": "2026-11-02",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-02T16:36:39.242046+00:00",
+  "request": "Manual request: publica 3 articulos mas. Three new topics, each complete ES/EN/FR. Daily task and November19 inclusive end date unchanged.",
+  "status": "Prepared and checked; public verification pending",
+  "baseline": "9077ae68d0a8cb36dc77fd667239797cfaba8dcf freshly fetched from GitHub main before edits",
+  "runtime": {
+    "provider": "cloud",
+    "specRevision": 8,
+    "observationsCurrent": true,
+    "networkPolicy": "unrestricted/enforced",
+    "credentials": "Cloudflare account variable and domain-bound API token observed ready; connected GitHub tools available. Successful outcomes documented separately.",
+    "userPCRequired": false
+  },
+  "topics": [
+    {
+      "id": "gta6-coop-split-screen-20261102",
+      "category": "guides",
+      "title": [
+        "GTA 6 cooperativo: dos jugadores, pantalla dividida y campaña",
+        "GTA 6 co-op: two players, split-screen and the story campaign",
+        "GTA 6 en coopération : deux joueurs, écran partagé et campagne"
+      ],
+      "paths": [
+        "/es/guias/gta-6-cooperativo-dos-jugadores-pantalla-dividida/",
+        "/en/guides/gta-6-co-op-two-players-split-screen/",
+        "/fr/guides/gta-6-cooperation-deux-joueurs-ecran-partage/"
+      ]
+    },
+    {
+      "id": "gta6-ps4-xbox-one-20261102",
+      "category": "guides",
+      "title": [
+        "GTA 6 en PS4 y Xbox One: compatibilidad y Remote Play",
+        "GTA 6 on PS4 and Xbox One: compatibility and Remote Play",
+        "GTA 6 sur PS4 et Xbox One : compatibilité et lecture à distance"
+      ],
+      "paths": [
+        "/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+        "/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+        "/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/"
+      ]
+    },
+    {
+      "id": "gta6-personal-vehicles-20261102",
+      "category": "guides",
+      "title": [
+        "Coches personales de GTA 6: registro, garajes y vehículos robados",
+        "GTA 6 personal vehicles: registration, garages and stolen cars",
+        "Véhicules personnels de GTA 6 : immatriculation, garages et vols"
+      ],
+      "paths": [
+        "/es/guias/gta-6-coches-personales-registro-garajes/",
+        "/en/guides/gta-6-personal-vehicles-registration-garages/",
+        "/fr/guides/gta-6-vehicules-personnels-immatriculation-garages/"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI - Rockstar Games"
+      ],
+      "dates": [],
+      "textChars": 2282
+    },
+    {
+      "key": "sony",
+      "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI - PS5 Games | PlayStation (US) "
+      ],
+      "dates": [],
+      "textChars": 10692
+    },
+    {
+      "key": "editions",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support"
+      ],
+      "dates": [],
+      "textChars": 6260
+    },
+    {
+      "key": "announce",
+      "url": "https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25",
+      "status": 200,
+      "title": [
+        "Pre-Order Grand Theft Auto VI on June 25 - Rockstar Games"
+      ],
+      "dates": [],
+      "textChars": 57
+    },
+    {
+      "key": "famitsu",
+      "url": "https://www.famitsu.com/article/202608/85753",
+      "status": 200,
+      "title": [
+        "『GTA6』実機プレイを見て開発者に訊いた。恋人にもただのパートナーにも変化する主人公の関係性、行動で周囲の反応が変わる”犯罪プロファイル“。新たな挑戦が『GTA』に変革をもたらす【独占インタビュー】 | ゲーム・エンタメ最新情報のファミ通.com"
+      ],
+      "dates": [
+        "2026-08-28T04:00:00+09:00",
+        "2026-08-28T12:29:11+09:00"
+      ],
+      "textChars": 23973
+    },
+    {
+      "key": "translation",
+      "url": "https://www.igrandtheftauto.com/gta6/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
+      "status": 200,
+      "title": [
+        "GTA 6: Famitsu&#039;s Full Rob Nelson Interview Translated Into English - GTA VI News"
+      ],
+      "dates": [
+        "2026-09-09T09:38:28+01:00",
+        "2026-09-09T09:38:28+01:00"
+      ],
+      "textChars": 54668
+    },
+    {
+      "key": "ign",
+      "url": "https://www.bestbuy.com/gamers/gamers-articles/pcmcat1791490206931",
+      "status": 200,
+      "title": [
+        "GTA 6: The Big Interview"
+      ],
+      "dates": [],
+      "textChars": 59601
+    },
+    {
+      "key": "remote-ps4",
+      "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100005.html",
+      "status": 200,
+      "title": [
+        "Control your PS5 console from a PS4 console | PS Remote Play"
+      ],
+      "dates": [],
+      "textChars": 4866
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "title": [
+        "Grand Theft Auto VI - Rockstar Games"
+      ],
+      "dates": [],
+      "textChars": 2252
+    }
+  ],
+  "sourceDates": {
+    "announce": "Rockstar June24,2026 preorder announcement; raw HTTP returns JavaScript shell, indexed source checked. Sony independently supports the single-player claim.",
+    "editions": "Rockstar support last updated August18,2026; platform list live checked November2.",
+    "sony": "Live product listing, not presented as a dated new announcement. One player, single-player FAQ, not playable on PS4, Remote Play support.",
+    "famitsu": "Original interview published August28,2026 at04:00JST, updated12:29JST. English translation September9,2026.",
+    "ign": "Rachel Weber IGN interview October7,2026; July demonstration discussed; licensed full text hosted by Best Buy.",
+    "remote-ps4": "Sony official general guide for PS5 controlled from PS4 (1100005), not the PS5-to-PS5 guide1100004. No own final GTA VI test."
+  },
+  "interest": {
+    "method": "Current Google autocomplete responses and current search coverage checked November2; these indicate phrasing and ambiguity, not measured popularity.",
+    "autocomplete": [
+      {
+        "query": "gta 6 co op",
+        "suggestions": [
+          "gta 6 co op",
+          "gta 6 co op campaign",
+          "gta 6 co op story mode",
+          "gta 6 co op story",
+          "gta 6 co op mode",
+          "gta 6 co op split screen",
+          "gta 6 co op gameplay",
+          "gta 6 co op online",
+          "gta 6 co op play",
+          "gta 6 co op multiplayer"
+        ]
+      },
+      {
+        "query": "gta 6 split screen",
+        "suggestions": [
+          "gta 6 split screen",
+          "gta 6 split screen co op",
+          "gta 6 split screen ps5",
+          "grand theft auto 6 split screen",
+          "gta 6 dual screen wallpaper",
+          "gta 6 dual screen",
+          "gta 6 multiplayer split screen",
+          "can gta 6 split screen",
+          "gta 6 online split screen",
+          "gta 6 2 player split screen"
+        ]
+      },
+      {
+        "query": "gta 6 ps4",
+        "suggestions": [
+          "gta 6 ps4",
+          "gta 6 ps4 release date",
+          "gta 6 ps4 pro",
+          "gta 6 ps4 price",
+          "gta 6 ps4 controller",
+          "gta 6 ps4 pre order",
+          "gta 6 ps4 meme",
+          "gta 6 ps4 disc",
+          "gta 6 ps4 cheat codes",
+          "gta 6 ps4 reddit"
+        ]
+      },
+      {
+        "query": "gta 6 xbox one",
+        "suggestions": [
+          "gta 6 xbox one",
+          "gta 6 xbox one x",
+          "gta 6 xbox one release date",
+          "gta 6 xbox one pre order",
+          "gta 6 xbox one price",
+          "gta 6 xbox one series x",
+          "gta 6 xbox one digital download",
+          "gta 6 xbox one controller",
+          "gta 6 xbox one x release date",
+          "gta 6 xbox one disc"
+        ]
+      },
+      {
+        "query": "gta 6 personal vehicles",
+        "suggestions": [
+          "gta 6 personal vehicles",
+          "gta 6 personal car",
+          "gta 6 jason personal car",
+          "what cars will be in gta 6",
+          "will the gta 5 characters be in gta 6",
+          "is there an official trailer for gta 6"
+        ]
+      },
+      {
+        "query": "gta 6 garages",
+        "suggestions": [
+          "gta 6 garages",
+          "will gta 6 have garages",
+          "biggest gta garage",
+          "can you get a garage in gta 4",
+          "how many garages are there in gta v"
+        ]
+      }
+    ],
+    "limits": "No Google Trends numeric series or Search Console data available. No volumes, relative ranking, most-searched or guaranteed Google placement asserted. Wallpaper and older-game suggestions excluded as irrelevant."
+  },
+  "deduplication": {
+    "articlesChecked": 141,
+    "versionsChecked": 423,
+    "method": "Scanned titles, localized slugs, headings and paragraphs across every existing article, with manual review of close search intents.",
+    "decisions": [
+      {
+        "topic": "co-op / split-screen",
+        "closest": [
+          "gta6-switching-explained-20261030",
+          "gta6-jason-lucia-relationship-20261030",
+          "gta6-mission-routes-20261101",
+          "gta-6-offline-ps5-2026-10-28",
+          "gta6-online-2027-clancy-2026-10-29"
+        ],
+        "decision": "Existing character/mission guides briefly warn against inferring co-op; none has player-count/local-mode intent. Dedicated comparison and purchase-expectation guide, linked to switching/offline/online. No duplicate news announcement."
+      },
+      {
+        "topic": "PS4 / Xbox One",
+        "closest": [
+          "ps5-features-2026-10-28",
+          "legal-purchase-download-2026-10-28",
+          "gta6-mobile-remote-20261101",
+          "gta6-switch2-status-20261101"
+        ],
+        "decision": "Previous platform guide has one PS4 exclusion paragraph; mobile guide concerns Android/iPhone. New older-console intent adds model-name distinctions and official PS4-as-PS5-client instructions. No invented native version/cloud guarantee."
+      },
+      {
+        "topic": "personal cars / garages",
+        "closest": [
+          "gta6-car-theft-tools-20261030",
+          "gta6-safehouses-20261101",
+          "gta6-loadout-explained-20261030",
+          "gta6-impound-20261101"
+        ],
+        "decision": "Theft-tools guide covers entry/tools and briefly registration; housing mentions three starting spaces and purchasable garages. Dedicated ownership/temporary persistence/scanner-choice guide links to both instead of copying tool or property sections. Capacity contextualized as initial, not global maximum."
+      }
+    ],
+    "matchedIds": {
+      "coop": [
+        "gta-6-offline-ps5-2026-10-28",
+        "gta6-interest-length-20261031",
+        "gta6-jason-lucia-relationship-20261030",
+        "gta6-mission-routes-20261101",
+        "gta6-police-wanted-deep-20261029",
+        "gta6-switching-explained-20261030",
+        "gta6-vs-gta5-confirmed-comparison-2026-10-28"
+      ],
+      "older": [
+        "gta5-complete-cheats-20261030",
+        "legal-purchase-download-2026-10-28",
+        "ps5-features-2026-10-28"
+      ],
+      "personal": [
+        "gta6-car-theft-tools-20261030",
+        "gta6-code-region-20261028",
+        "gta6-dogs-20261101",
+        "gta6-impound-20261101",
+        "gta6-mission-money-explained-20261030",
+        "gta6-ryde-me-20261101"
+      ]
+    },
+    "priorInventoryRecordsUnchanged": 141,
+    "priorURLsPreserved": 423,
+    "newTopics": 3,
+    "newVersions": 9,
+    "totalTopics": 144,
+    "totalVersions": 432
+  },
+  "media": {
+    "checks": {
+      "images": [
+        {
+          "key": "feature-couple",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalResponseBytes": 907752,
+          "localBytes": 65196,
+          "sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+          "visuallyInspected": true
+        },
+        {
+          "key": "feature-fight",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalResponseBytes": 301343,
+          "localBytes": 45184,
+          "sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+          "visuallyInspected": true
+        },
+        {
+          "key": "feature-driver",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalResponseBytes": 898215,
+          "localBytes": 44940,
+          "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+          "visuallyInspected": true
+        },
+        {
+          "key": "feature-helicopter",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalResponseBytes": 333806,
+          "localBytes": 58038,
+          "sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+          "visuallyInspected": true
+        },
+        {
+          "key": "feature-phone",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalResponseBytes": 827207,
+          "localBytes": 68872,
+          "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+          "visuallyInspected": true
+        },
+        {
+          "key": "feature-mountain",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalResponseBytes": 1274178,
+          "localBytes": 226130,
+          "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+          "visuallyInspected": true
+        },
+        {
+          "key": "feature-safehouse-exterior",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalResponseBytes": 1924231,
+          "localBytes": 150756,
+          "sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "useContext": "Authentic GTA VI promotional screenshot in the official download/share gallery, visually inspected; editorial illustration, copyright reserved. No gameplay testing or unrestricted licence asserted.",
+          "visuallyInspected": true
+        },
+        {
+          "key": "feature-bike",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalResponseBytes": 961160,
+          "localBytes": 184396,
+          "sha256": "21877f3ec04c980ee67bf19e860a0a4c8493e27a86d3c5d6e06b10498e20a827",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+          "visuallyInspected": true
+        }
+      ],
+      "gallery": {
+        "status": 200,
+        "downloadMention": true,
+        "shareMention": true
+      }
+    },
+    "placementsPerArticle": 3,
+    "uniqueExistingAssets": 8,
+    "inspection": "Fresh contact sheet visually inspected. Eight optimized1400x788 official WebP originals reused without alteration; alt/captions translated. Credits/source URLs retained. Ultimate safehouse promotional image identified as such, no Ultimate requirement for vehicle registration inferred.",
+    "rights": "Official Rockstar download/share gallery rechecked. Authentic promotional material used for original attributed editorial commentary, copyright reserved; no public-domain or unrestricted reuse licence claimed. No AI/mod/leak/GTA V/decorative hero substitute."
+  },
+  "validation": {
+    "release": "npm run build:release passed; Vite existing large-chunk advisory remains.",
+    "static": "node scripts/verify-static.mjs passed:476HTML,21366internal links,926JSON-LD blocks.",
+    "browser": "6passed:all9versions across Chromium desktop1440x1000 and mobile390x844, actual selector navigation, three decoded credited images, section tables, localized links and metadata. Advertising/Analytics external SDKs stubbed; no claim of ad fill or Analytics event receipt.",
+    "inventory": "All141previous records unchanged,423URLs preserved;144topics/432versions."
+  },
+  "preserved": "Design, previous content, static ads/side rails, popunder disabled, independent Analytics consent, AdSense verification, security, daily schedule and services unchanged."
+}

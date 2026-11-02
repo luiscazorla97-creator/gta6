@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-coop-split-screen-20261102",
+    "category": "guides",
+    "published": "2026-11-02",
+    "titles": [
+      "GTA 6 cooperativo: dos jugadores, pantalla dividida y campaña",
+      "GTA 6 co-op: two players, split-screen and the story campaign",
+      "GTA 6 en coopération : deux joueurs, écran partagé et campagne"
+    ],
+    "paths": [
+      "/es/guias/gta-6-cooperativo-dos-jugadores-pantalla-dividida/",
+      "/en/guides/gta-6-co-op-two-players-split-screen/",
+      "/fr/guides/gta-6-cooperation-deux-joueurs-ecran-partage/"
+    ]
+  },
+  {
+    "id": "gta6-ps4-xbox-one-20261102",
+    "category": "guides",
+    "published": "2026-11-02",
+    "titles": [
+      "GTA 6 en PS4 y Xbox One: compatibilidad y Remote Play",
+      "GTA 6 on PS4 and Xbox One: compatibility and Remote Play",
+      "GTA 6 sur PS4 et Xbox One : compatibilité et lecture à distance"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+      "/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+      "/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/"
+    ]
+  },
+  {
+    "id": "gta6-personal-vehicles-20261102",
+    "category": "guides",
+    "published": "2026-11-02",
+    "titles": [
+      "Coches personales de GTA 6: registro, garajes y vehículos robados",
+      "GTA 6 personal vehicles: registration, garages and stolen cars",
+      "Véhicules personnels de GTA 6 : immatriculation, garages et vols"
+    ],
+    "paths": [
+      "/es/guias/gta-6-coches-personales-registro-garajes/",
+      "/en/guides/gta-6-personal-vehicles-registration-garages/",
+      "/fr/guides/gta-6-vehicules-personnels-immatriculation-garages/"
+    ]
+  },
+  {
     "id": "gta6-mobile-remote-20261101",
     "category": "guides",
     "published": "2026-11-01",
