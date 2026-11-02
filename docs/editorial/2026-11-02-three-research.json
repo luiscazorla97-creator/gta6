@@ -3,7 +3,7 @@
   "timezone": "America/New_York",
   "checkedAt": "2026-11-02T16:36:39.242046+00:00",
   "request": "Manual request: publica 3 articulos mas. Three new topics, each complete ES/EN/FR. Daily task and November19 inclusive end date unchanged.",
-  "status": "Prepared and checked; public verification pending",
+  "status": "Published and publicly verified",
   "baseline": "9077ae68d0a8cb36dc77fd667239797cfaba8dcf freshly fetched from GitHub main before edits",
   "runtime": {
     "provider": "cloud",
@@ -467,5 +467,16 @@
     "browser": "6passed:all9versions across Chromium desktop1440x1000 and mobile390x844, actual selector navigation, three decoded credited images, section tables, localized links and metadata. Advertising/Analytics external SDKs stubbed; no claim of ad fill or Analytics event receipt.",
     "inventory": "All141previous records unchanged,423URLs preserved;144topics/432versions."
   },
-  "preserved": "Design, previous content, static ads/side rails, popunder disabled, independent Analytics consent, AdSense verification, security, daily schedule and services unchanged."
+  "preserved": "Design, previous content, static ads/side rails, popunder disabled, independent Analytics consent, AdSense verification, security, daily schedule and services unchanged.",
+  "publication": {
+    "contentCommit": "e6c2d4452d60eae2378d12fc9c8b3c2c99ca6074",
+    "deploymentId": "b992377c-98e6-4f45-8912-810b45f4e9cb",
+    "environment": "production",
+    "stage": "deploy/success",
+    "verifiedAt": "2026-11-02T16:41:18.525662+00:00",
+    "pages": 9,
+    "assetsMatchingTestedDist": 11,
+    "internalLinks": 75,
+    "evidence": "docs/editorial/2026-11-02-three-publication.json"
+  }
 }

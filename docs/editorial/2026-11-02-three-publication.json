@@ -1,0 +1,490 @@
+{
+  "verifiedAt": "2026-11-02T16:41:18.525662+00:00",
+  "runtimeCommit": "e6c2d4452d60eae2378d12fc9c8b3c2c99ca6074",
+  "deploymentId": "b992377c-98e6-4f45-8912-810b45f4e9cb",
+  "environment": "production",
+  "stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-11-02T16:39:48.020792Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cooperativo-dos-jugadores-pantalla-dividida/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "71c39500afa6d53fda27b35b6b39aea34c08a2d5003310a5c06db5eebabdc8ad"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-co-op-two-players-split-screen/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "6cc3287b123d568ce180c3a800ca7ccf7485af2e3c6de64bc27559cd48216362"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-cooperation-deux-joueurs-ecran-partage/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "4c9bbebb6b95f0c025e13866c0a356f329f92d230cd35a8701ff34491b75eb22"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "2badfc997e7474e8a59ab0c3e3478e5f8ff3f63261a3e10dd0fe79ae52d8deee"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "61a6fc4c39a96c575d13e8731e8d6c4d5652b96e75d57ab0cd24ecc2ff10b3f0"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "0060d0162a55796eddae1f74589a21f4d0032e3b6557b12d4122c75412637d97"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-coches-personales-registro-garajes/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "8506b698768e56acee9bb99347472b3d8ca98d57054b6c5e3d8c242f57c873a0"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-personal-vehicles-registration-garages/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "838f65471e447537724f50ecf0d320e0f5097027629c0376eb6b122e00559cbe"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-vehicules-personnels-immatriculation-garages/",
+      "status": 200,
+      "published": "2026-11-02",
+      "updated": "2026-11-02",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "htmlSHA256": "83e742e35215732bbb03687688825b7b598590195bb6e13b5bc8b78f113d419e"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://fansgta.com/assets/index-BGWbTnoX.js",
+      "status": 200,
+      "bytes": 1972932,
+      "sha256": "d3ffb48a67cc4b375629c5adb3901ce60ca0026c264f7a10de27221b0299fcbc",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/index-Bd4d0erj.css",
+      "status": 200,
+      "bytes": 56990,
+      "sha256": "c3c9a7be7e108a3f205fd1ea5266d7aa971fdf52b10241717ea11e377a7d1611",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-bike.webp",
+      "status": 200,
+      "bytes": 184396,
+      "sha256": "21877f3ec04c980ee67bf19e860a0a4c8493e27a86d3c5d6e06b10498e20a827",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-couple.webp",
+      "status": 200,
+      "bytes": 65196,
+      "sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-driver.webp",
+      "status": 200,
+      "bytes": 44940,
+      "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-fight.webp",
+      "status": 200,
+      "bytes": 45184,
+      "sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-helicopter.webp",
+      "status": 200,
+      "bytes": 58038,
+      "sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-mountain.webp",
+      "status": 200,
+      "bytes": 226130,
+      "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-phone.webp",
+      "status": 200,
+      "bytes": 68872,
+      "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-safehouse-exterior.webp",
+      "status": 200,
+      "bytes": 150756,
+      "sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/postscribe-Cwc7ZOXG.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "d63b88f41d482cfbbd64199629068c1f36868e868bfc4cd4fe2d04cd52a0e7e2",
+      "matchesTestedDist": true
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/characters/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/community/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-android-iphone-apk-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-co-op-two-players-split-screen/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-houses-safehouses-jason-garages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-offline-play-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-personal-vehicles-registration-garages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-steal-cars-scanner-tools/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-switch-jason-lucia-characters/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-weapons-inventory-wheel-car-trunk/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/privacy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/terms/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/comunidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/contacto/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-armas-inventario-rueda-maletero/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cambiar-jason-lucia-personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-casas-refugios-jason-garajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-coches-personales-registro-garajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cooperativo-dos-jugadores-pantalla-dividida/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-jugar-sin-internet-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-robar-coches-escaner-herramientas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/privacidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/terminos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/communaute/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/conditions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/confidentialite/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-armes-inventaire-roue-coffre/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-changer-jason-lucia-personnages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-cooperation-deux-joueurs-ecran-partage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-jouer-hors-ligne-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-maisons-planques-jason-garages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-vehicules-personnels-immatriculation-garages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-voler-voitures-scanner-outils/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/personnages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/",
+      "status": 200
+    }
+  ],
+  "sitemap": {
+    "url": "https://fansgta.com/sitemap.xml",
+    "status": 200,
+    "newPathsPresent": 9
+  },
+  "browserChecks": "6passed locally:9language versions desktop/mobile, decodedimages, actual language-selector navigation, sources, metadata, tables and overflow. Public assets match those tested bytes; public HTML parsed independently. External advertising and Analytics SDKs stubbed in browser checks, so no ad-fill or Analytics-receipt assertion.",
+  "inventory": {
+    "topics": 144,
+    "versions": 432,
+    "priorTopicsUnchanged": 141,
+    "priorURLsPreserved": 423
+  },
+  "cloud": "Managed cloud provider; connected GitHub write tools and Cloudflare API/file deployment. No user-PC files/processes required. This successful run does not guarantee future executor availability.",
+  "initialCheck": "The first custom-domain article request immediately after deployment returned404. Subsequent requests and the complete public verification succeeded without content changes; no success was claimed from CLI output alone."
+}
