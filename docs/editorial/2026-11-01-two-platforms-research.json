@@ -3,7 +3,7 @@
   "timezone": "America/New_York",
   "checkedAt": "2026-11-02T01:20:42.289294+00:00",
   "request": "Manual2-topic publication, following established ES/EN/FR original-content/SEO/authentic-image brief. Daily schedule unchanged.",
-  "status": "Final release/static/browser checks passed; public publication pending.",
+  "status": "Published and publicly verified",
   "baseline": "d7af5172d160b2d3ba7674ca865552aea6ec137e freshly fetched from GitHub main before edits",
   "runtime": {
     "provider": "cloud",
@@ -338,7 +338,7 @@
     },
     "browser": "6passed: all6versions desktop/mobile, titles/metas/canonical/hreflang/schema/dates/sitemap,7sections/3rowtable perarticle,3decoded credited images, localised200links and actual locale-selector navigation, nooverflow, no popunder/unconditional Analytics. Provider ad scripts stubbed; no adfill claim.",
     "diff": "passed",
-    "public": "Pending actual production/URL checks.",
+    "public": "Passed: all6public URLs200 with exact metadata/dates, 3credited images perarticle, sitemap/69internal200links;9production assets byte-equal to final tested release.",
     "finalBuildRelease": "passed after caption refinement",
     "finalStatic": {
       "HTML": 467,
@@ -355,5 +355,14 @@
     "Design/security rules",
     "Paid services/subscriptions",
     "BarberControl"
-  ]
+  ],
+  "publication": {
+    "runtimeCommit": "9a183c3b201803ae6439bab72b135471a4237547",
+    "deployment": "79ce35c6-24bc-42b9-889e-3272a8148a79",
+    "verifiedAt": "2026-11-02T01:24:49.839536+00:00",
+    "publicVersions": 6,
+    "exactAssets": 9,
+    "internalLinks": 69,
+    "evidence": "docs/editorial/2026-11-01-two-platforms-publication.json"
+  }
 }
