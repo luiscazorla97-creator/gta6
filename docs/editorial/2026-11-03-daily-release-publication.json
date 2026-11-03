@@ -1,0 +1,350 @@
+{
+  "verifiedAt": "2026-11-03T23:01:49.033205+00:00",
+  "runtimeCommit": "edce9c76125b224cc1bff6a2f07f3264e78d0e03",
+  "deploymentId": "a1d7b011-affd-4af1-bf95-83c8b40a7042",
+  "environment": "production",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-03T23:01:23.079496Z",
+    "ended_on": "2026-11-03T23:01:31.901582Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200,
+      "published": "2026-10-27",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "fb7e3c80a2c74d4bd59f390d4da766da87866cb1a6fa8180f37a6a92b0cedb2f"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200,
+      "published": "2026-10-27",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "4ea8a0625a37441baff4f9a4a0d970715acea69f1de30b6999e6fe3f48429fa8"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200,
+      "published": "2026-10-27",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "bda9a3f9000c968b74b77621b81f4cb180cf8f4f8ca0108a8a7faffd76c08df6"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://fansgta.com/assets/index-CcmSzc7O.css",
+      "status": 200,
+      "bytes": 57020,
+      "sha256": "e0422507ef7aeadbe0c14ed35ae2e5ab3f10888549085d5018e289d0f0d7a9e6",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/index-s4-A1SSE.js",
+      "status": 200,
+      "bytes": 2129863,
+      "sha256": "221616def7cb3ad932fd8dc5bd448182f5d4db10b00cdfa71fd6c4989db64c27",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/postscribe-y8dznZHP.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "e49f25b70d7ec5ee4a37da80ee83e609d337fa2e3e35e6750b469dcf0b77fca1",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedDist": true
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/characters/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/community/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-code-regions-ps5-xbox-account/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-download-time-212-gb/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/avoid-spoilers-mission-guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-miami-advertising-vice-city-agreement/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/privacy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/terms/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/comunidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/contacto/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-codigos-region-cuenta-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/privacidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/terminos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-miami-publicite-accord-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/communaute/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/conditions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/confidentialite/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-codes-region-compte-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-temps-telechargement-212-go/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/eviter-spoilers-guides-missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/personnages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/",
+      "status": 200
+    }
+  ],
+  "sitemap": {
+    "url": "https://fansgta.com/sitemap.xml",
+    "status": 200,
+    "newPathsPresent": 0,
+    "updatedPathsPresent": 3
+  },
+  "browserChecks": "6passed locally:all3updated language pages desktop/mobile. Actual language selector, decoded image, sources, milestone table and overflow checked. Public full text and assets match tested release. SDK fixtures do not verify real adfill/Analytics receipt.",
+  "inventory": {
+    "topics": 150,
+    "versions": 450,
+    "newTopics": 0,
+    "existingTopicsUpdated": 1,
+    "priorTopicsUnchanged": 149,
+    "allPriorURLsPreserved": 450
+  },
+  "cloud": "Actual managed-cloud execution with connected GitHub tools and authorized Cloudflare existing GitHub integration build/deployment API. No userPC files/processes required; this run does not guarantee future executor availability.",
+  "deploymentMethod": {
+    "method": "Cloudflare Pages official create-deployment API with existing GitHub source connection, branch main",
+    "sourceCommit": "edce9c76125b224cc1bff6a2f07f3264e78d0e03",
+    "deploymentId": "a1d7b011-affd-4af1-bf95-83c8b40a7042",
+    "sourceCloneBuildDeploy": "All stages success; no direct asset upload or credential/network/security changes were needed in this run."
+  }
+}

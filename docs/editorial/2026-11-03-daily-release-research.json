@@ -8,7 +8,7 @@
     "allowed": true
   },
   "request": "Daily single-theme execution: full ES/EN/FR publication or equivalent update. No schedule change.",
-  "status": "Prepared and checked; public verification pending",
+  "status": "Published and publicly verified",
   "baseline": {
     "mainCommit": "ef44644eabedbb3f41600c75b0b39af84cad0bdc",
     "topics": 150,
@@ -257,7 +257,7 @@
     "static": "node scripts/verify-static.mjs passed:494HTML,22224internal links,962structured-data blocks.",
     "browser": "6passed:ES/EN/FR desktop/mobile. Localizedtitle/description, canonical/hreflang/schema, originalpublication and actualupdatedate, sitemap, officialsource adjacent,3rowmilestone table, decoded1600x900creditedimage, actualselector navigation and nooverflow. SDK fixtures do not verify realAdsterrafill/Analyticsreceipt. Initial sandbox listenerEPERM was resolved with authorized network capability; no securitysettings changed.",
     "inventory": "150topics/450versions,149otherarticles deeplyidentical,450URLs retained.",
-    "public": "pending"
+    "public": "3 language pages full text/metadata/schema/dates/indexability match tested release; sitemap checked; all4resources byte-identical;63internal linksHTTP200."
   },
   "preserved": [
     "originalURLs and originalpublicationdate",
@@ -265,5 +265,15 @@
     "design, ads, Analytics consent, security rules, subscriptions",
     "single daily theme through2026-11-19 inclusive America/New_York",
     "BarberControl untouched; no thirdpartymessages or purchases"
-  ]
+  ],
+  "publication": {
+    "evidence": "docs/editorial/2026-11-03-daily-release-publication.json",
+    "commit": "edce9c76125b224cc1bff6a2f07f3264e78d0e03",
+    "deploymentId": "a1d7b011-affd-4af1-bf95-83c8b40a7042",
+    "pages": 3,
+    "assets": 4,
+    "internalLinks": 63,
+    "verifiedAt": "2026-11-03T23:01:49.033205+00:00",
+    "method": "Existing Cloudflare Pages GitHub integration production build"
+  }
 }
