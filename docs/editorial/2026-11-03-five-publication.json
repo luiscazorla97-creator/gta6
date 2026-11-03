@@ -1,0 +1,991 @@
+{
+  "verifiedAt": "2026-11-03T20:43:30.119213+00:00",
+  "runtimeCommit": "761cc0b03faa3c7ffee7bf8ce458a93e53ebad93",
+  "deploymentId": "6ae81149-4a6f-4281-a011-24785ad2a287",
+  "environment": "production",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-03T20:42:32.811542Z",
+    "ended_on": "2026-11-03T20:42:42.343887Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "983c9043eb70aff7b4d8a9093599cd5ec6113062ff43e1579006fe298454f4cb"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-download-time-212-gb/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "65b745f963e15f12f5988973562e61201a2c592fa9037613de10697dcf66e283"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-temps-telechargement-212-go/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "d240c1684c0870e73c0e0c227638e75aaa74dc0629a9ac1b4eeb8bbff75fcc5f"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "ee5145b8eb63bf270a428b3ffbea737a2c62b91c334b1c96409639d5417e8e91"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-leonida-map-poster-official-download/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "18f812df8a09f59c31f5a8a0d7787c7459a0d890cf3a633596019ec35d81913f"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "e28805e36b31eaabedf58a5a63bcd8af1192707e687f84e79ccd2c34c8d79796"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "09c5ab270735fbe3432767cf824d4facfab31cb649669448795383fe263bd92b"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-miami-advertising-vice-city-agreement/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "1e94b0ad8e4b9d0d1d15cff44b2190ec796eaf18eb76c53a2cd143030fbffe53"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-miami-publicite-accord-vice-city/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "0ed5dd8a3bca03ff579db9bc967bfc72a6c5be44bccc2847677c00c124d35fb0"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "c9b3e76873323bd92578d2de7795e54608c8b183c3fb8724685b6597ffa6438a"
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "77ebcd5b599ee12b94ec1f7d8898759d748eb19b179f2fa8437fe31035ab5c37"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "699ae3041d0a56945e853c8897ab1d44b77f306559e0f5d3c0215cbd31717da7"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "6c09e03a23350c7be74c5e56daf989c02693fe8f9730ba9d95f4f7d87e62e26a"
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "9a94f1f1b951b7ee5308b4918917d91684cfdd9d2260dce5ed839024764e0214"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+      "status": 200,
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "7e67cd079115bcd3c703918efe66510ef37d64b153ed99e2c4bcda655e837aa8"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "90084e878b3513dc7fc0f3b658d6d7c3142f407a8632e9b514fe75c2c0bf6d84"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "3b5c55223dbb5cddefe5e76b1ce186cb76143953a70e43ada762358370fd1751"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "ac64a9d4546c97742fd0413bf0c0aa489b5f7a47969e78afdcc07980ec4af18a"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "a8f40cb51972bb1141a73abf24cc70946832e8cdcfb12ddd7cc863a528f49406"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "6b1cf03e7bc420cb3b6894fcaec5108e81803c7fb5a8ae6cc2ec9796af30993d"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+      "status": 200,
+      "published": "2026-11-01",
+      "updated": "2026-11-03",
+      "figures": 3,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "1eb27d28d3b8a154cf506c7743f01cda62541ec8b9c1567ae523fc738c12d656"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "af9e759d9e10c4e27061ca4bdc406a6f84c73da00268acd8403fb6667b0e77b1"
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-210gb-ps5-download-size/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "2517c27d74d4f672bc69f78c342fd095bdd794708bd3f21fd689f3bbbe9381b5"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "5ddf81c7cb97389350db9d42ba9d06c2521745c7f621bd2087359901976a60c1"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "ecae871fce4b79ba68e9548858b36e53f3fc59a2cd6f61797f98678eeed4fa62"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "4c5d42005e4b47834ab159dfbbbfac32ced9d6e21ca7c679ce7fafd9a2831a90"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "c01d44b900735d6c5413a335321cad79024f4b9113edce39018752fec2901f39"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "686fee4e2038bfa156d1db3562bb3070982624da0e45278376e29f6cabe05f7e"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-physical-edition-no-disc-code/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "abb9427ad29f831506b8188373776acfe6ef181266e758c3e897e82f02f74a73"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-edition-physique-sans-disque-code/",
+      "status": 200,
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "figures": 1,
+      "metadata": "title/description/canonical/hreflang/JSON-LD/indexability correct",
+      "entireArticleTextMatchesTestedRelease": true,
+      "htmlSHA256": "e6a01bedfd9a4ef3c155a2ab740d262c61c4fadb1236c6b569471707e96a8fc5"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://fansgta.com/assets/index-CcmSzc7O.css",
+      "status": 200,
+      "bytes": 57020,
+      "sha256": "e0422507ef7aeadbe0c14ed35ae2e5ab3f10888549085d5018e289d0f0d7a9e6",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/index-GYR2iUUv.js",
+      "status": 200,
+      "bytes": 2115300,
+      "sha256": "6c852b161793bbc14d223ae6247eb81c23cf9421a03e4111a130c3b37b02f043",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/assets/postscribe-o9wMc79k.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "7960981ebddd4fee5f5f04a8256a5e03b364cb1cf8360a665fe51d54385b3391",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/ambrosia.webp",
+      "status": 200,
+      "bytes": 118590,
+      "sha256": "ddc749ed919fe4783bbc397aff94dd882dbb4184a5397d040a38269ea8def687",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-aiming.webp",
+      "status": 200,
+      "bytes": 67802,
+      "sha256": "1dbfed56d4aa069a13263263de089100a6a8b3a8c0b5a8e5d85b7c39797e7ae8",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-bar.webp",
+      "status": 200,
+      "bytes": 86226,
+      "sha256": "0e51012e3078f110b1f684e05da7f6a35fadda67e9ed1c5ca2e6ef395988867f",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-bike.webp",
+      "status": 200,
+      "bytes": 184396,
+      "sha256": "21877f3ec04c980ee67bf19e860a0a4c8493e27a86d3c5d6e06b10498e20a827",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-boats.webp",
+      "status": 200,
+      "bytes": 171234,
+      "sha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-couple.webp",
+      "status": 200,
+      "bytes": 65196,
+      "sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-driver.webp",
+      "status": 200,
+      "bytes": 44940,
+      "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-fight.webp",
+      "status": 200,
+      "bytes": 45184,
+      "sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-helicopter.webp",
+      "status": 200,
+      "bytes": 58038,
+      "sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-kayak.webp",
+      "status": 200,
+      "bytes": 231688,
+      "sha256": "db833ca5ce72a6d9fc19f7419cd83b578ce49ae303d733c29aef2771acb63b99",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-mountain.webp",
+      "status": 200,
+      "bytes": 226130,
+      "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-phone.webp",
+      "status": 200,
+      "bytes": 68872,
+      "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/feature-safehouse-exterior.webp",
+      "status": 200,
+      "bytes": 150756,
+      "sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/leonida-keys.webp",
+      "status": 200,
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/region-vice-city-02.webp",
+      "status": 200,
+      "bytes": 97548,
+      "sha256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/region-vice-city-03.webp",
+      "status": 200,
+      "bytes": 231656,
+      "sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+      "matchesTestedDist": true
+    },
+    {
+      "url": "https://fansgta.com/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedDist": true
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/characters/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/community/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-3d-map-exploration-hidden-areas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-clothes-tattoos-hair-character-customisation/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-co-op-two-players-split-screen/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-code-regions-ps5-xbox-account/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-collectors-box-does-it-include-game/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-download-time-212-gb/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-leonida-map-poster-official-download/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-physical-edition-no-disc-code/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-upgrade-standard-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-vice-city-neighbourhoods-locations-images/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/gta-6-official-map-or-fan-map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/avoid-spoilers-mission-guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-album-34-tracks/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-miami-advertising-vice-city-agreement/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-210gb-ps5-download-size/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-walmart-preorder-mystery-gift/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/privacy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/terms/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/comunidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/contacto/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-codigos-region-cuenta-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-collectors-box-incluye-juego/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cooperativo-dos-jugadores-pantalla-dividida/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mapa-3d-exploracion-zonas-ocultas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mejorar-standard-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ropa-tatuajes-peluquerias-personalizacion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-vice-city-barrios-lugares-imagenes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-album-34-tracks/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-walmart-regalo-sorpresa-reservas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/personajes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/privacidad/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/terminos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-album-34-tracks/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-miami-publicite-accord-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-nike-travis-scott-air-force-1/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-walmart-precommande-cadeau-surprise/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/carte-gta-6-officielle-ou-fans/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/communaute/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/conditions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/confidentialite/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/contact/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/cookies/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/gta-online/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-carte-3d-exploration-zones-masquees/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-codes-region-compte-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-coffret-collector-jeu-inclus/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-cooperation-deux-joueurs-ecran-partage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-edition-physique-sans-disque-code/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-passer-standard-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-temps-telechargement-212-go/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-vetements-tatouages-coiffure-personnalisation/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-vice-city-quartiers-lieux-images/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/eviter-spoilers-guides-missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/personnages/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/",
+      "status": 200
+    }
+  ],
+  "sitemap": {
+    "url": "https://fansgta.com/sitemap.xml",
+    "status": 200,
+    "newPathsPresent": 15,
+    "updatedPathsPresent": 15
+  },
+  "browserChecks": "12passed locally:all15newand15updated language pages desktop/mobile, plus previous ten-guide regression. Actual language selector, decoded images, sources, tables and overflow checked. Public full text and assets match tested release. SDK fixtures do not verify real adfill/Analytics receipt.",
+  "inventory": {
+    "topics": 150,
+    "versions": 450,
+    "newTopics": 5,
+    "existingTopicsUpdated": 5,
+    "priorTopicsUnchanged": 140,
+    "allPriorURLsPreserved": 435
+  },
+  "cloud": "Actual managed-cloud execution with connected GitHub tools and authorized Cloudflare file deployment/API. No userPC files/processes required; this run does not guarantee future executor availability.",
+  "deploymentMethod": {
+    "method": "Cloudflare Pages existing GitHub integration, manual API production build from main HEAD",
+    "sourceCommit": "761cc0b03faa3c7ffee7bf8ce458a93e53ebad93",
+    "deploymentId": "6ae81149-4a6f-4281-a011-24785ad2a287",
+    "cloudflareCloneBuildDeploy": "All stages success; no schedule or security settings changed.",
+    "directUploadAttempts": [
+      {
+        "wrangler": "4.157.0",
+        "result": "Failed POST /pages/assets/upload with401 Unauthorized: authentication failed for integration codex-secret-api.cloudflare.com"
+      },
+      {
+        "wrangler": "4.156.2",
+        "result": "Same401; no deployment created by either direct-upload attempt."
+      }
+    ],
+    "recovery": "Authorized standard create-deployment API with branch main succeeded using the existing GitHub connection. Actual public text and all resources were verified against the tested release.",
+    "futureLimit": "This run proves this cloud deployment only, not future service availability."
+  }
+}

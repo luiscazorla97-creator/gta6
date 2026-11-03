@@ -8,7 +8,7 @@
     "allowed": true
   },
   "request": "Manual request: publish5new GTA6 articles with current interest. Five new topics, each full ES/EN/FR; independently update equivalent existing launch guidance. Daily1-topic cadence/end date unchanged.",
-  "status": "Prepared and checked; public verification pending",
+  "status": "Published and publicly verified",
   "baseline": "efccaaacdd4b24f1d54be1771d9a761e8805ff1f freshly fetched from GitHub main",
   "runtime": {
     "provider": "cloud",
@@ -827,5 +827,32 @@
     "browser": "12passed: new5and updated5in all3languages desktop/mobile, plus prior ten-guide regression suite including updatedstorage pages. Images decoded/credited, canonical/hreflang/metadata/schema/dates, sitemap, sources/localizedlinks and real selector navigation checked. SDK fixtures do not verify real adfill/Analytics receipt.",
     "inventory": "150topics/450versions;5new+5updates,435oldURLs retained,140unrelated inventoryrecords unchanged."
   },
-  "preserved": "General design, all previous topics/URLs, staticadvertisements/sidebar units, popunderdisabled, independentAnalyticsconsent, AdSenseverification, security, subscriptions and dailycadence/enddate unchanged. No purchases/paidservices/thirdpartymessages."
+  "preserved": "General design, all previous topics/URLs, staticadvertisements/sidebar units, popunderdisabled, independentAnalyticsconsent, AdSenseverification, security, subscriptions and dailycadence/enddate unchanged. No purchases/paidservices/thirdpartymessages.",
+  "publication": {
+    "evidence": "docs/editorial/2026-11-03-five-publication.json",
+    "commit": "761cc0b03faa3c7ffee7bf8ce458a93e53ebad93",
+    "deploymentId": "6ae81149-4a6f-4281-a011-24785ad2a287",
+    "pages": 30,
+    "assets": 21,
+    "internalLinks": 123,
+    "verifiedAt": "2026-11-03T20:43:30.119213+00:00",
+    "deploymentMethod": {
+      "method": "Cloudflare Pages existing GitHub integration, manual API production build from main HEAD",
+      "sourceCommit": "761cc0b03faa3c7ffee7bf8ce458a93e53ebad93",
+      "deploymentId": "6ae81149-4a6f-4281-a011-24785ad2a287",
+      "cloudflareCloneBuildDeploy": "All stages success; no schedule or security settings changed.",
+      "directUploadAttempts": [
+        {
+          "wrangler": "4.157.0",
+          "result": "Failed POST /pages/assets/upload with401 Unauthorized: authentication failed for integration codex-secret-api.cloudflare.com"
+        },
+        {
+          "wrangler": "4.156.2",
+          "result": "Same401; no deployment created by either direct-upload attempt."
+        }
+      ],
+      "recovery": "Authorized standard create-deployment API with branch main succeeded using the existing GitHub connection. Actual public text and all resources were verified against the tested release.",
+      "futureLimit": "This run proves this cloud deployment only, not future service availability."
+    }
+  }
 }
