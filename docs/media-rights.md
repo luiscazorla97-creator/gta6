@@ -56,3 +56,7 @@ Two new authentic product promotional images from the first-party Rockstar Store
 ## Daily Walmart rumour — 2026-11-02
 
 Existing authentic Vice City11 official screenshot reused unchanged; exact original URL HTTP200 and optimized1600x900WebP visually inspected. Official gallery download/share context checked. Translated alt/caption and Rockstar credit identify game-setting context, explicitly not a Walmart bag or proof of unknown gift contents. Copyright reserved, no unrestricted licence claimed. No AI, mods, leaked images, GTA V substitutes or decorative hero edits.
+
+## Manual five-topic batch — 2026-11-03
+
+Fourteen existing authentic GTA VI screenshots reused for fifteen placements across five new articles, with fresh localized alt/captions and linked Rockstar credit. Eighteen distinct originals across all affected new/updated guides rechecked HTTP200 and visually inspected, including the unchanged original official hero keyart; no decorative animated hero layer used. Original source URLs and ownership remain in public/media/credits.json. Official download/share context checked; copyrightreserved, no unrestrictedlicence claimed. Contextual game images are not measured downloads, the unpublished November19 mapfile, actualMiami ad photographs, Nikeproduct images or a FansGTA reviewcopy. No AI, mods, leakedimages or GTA V substitutes.

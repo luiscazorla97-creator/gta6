@@ -1,0 +1,831 @@
+{
+  "date": "2026-11-03",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-03T20:29:50.674583+00:00",
+  "deadlineCheck": {
+    "lastAuthorizedDateInclusive": "2026-11-19",
+    "nowNewYork": "2026-11-03T15:29:50.672578-05:00",
+    "allowed": true
+  },
+  "request": "Manual request: publish5new GTA6 articles with current interest. Five new topics, each full ES/EN/FR; independently update equivalent existing launch guidance. Daily1-topic cadence/end date unchanged.",
+  "status": "Prepared and checked; public verification pending",
+  "baseline": "efccaaacdd4b24f1d54be1771d9a761e8805ff1f freshly fetched from GitHub main",
+  "runtime": {
+    "provider": "cloud",
+    "specRevision": 8,
+    "observationsCurrent": true,
+    "networkPolicy": "unrestricted/enforced",
+    "credentials": "Domain-bound Cloudflare API token and account observed ready; connected GitHub write tools used. Successful outcomes recorded separately, no secrets printed/requested.",
+    "userPCRequired": false
+  },
+  "newTopics": [
+    {
+      "id": "gta6-download-duration-20261103",
+      "titles": [
+        "Cuánto tarda en descargar GTA 6: estimaciones para hasta 212 GB",
+        "GTA 6 download time: estimates for up to 212 GB",
+        "Temps de téléchargement GTA 6 : estimations jusqu’à 212 Go"
+      ],
+      "category": "guides",
+      "paths": [
+        "/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+        "/en/guides/gta-6-download-time-212-gb/",
+        "/fr/guides/gta-6-temps-telechargement-212-go/"
+      ]
+    },
+    {
+      "id": "gta6-printable-map-20261103",
+      "titles": [
+        "Mapa de GTA 6 para descargar: fecha y póster oficial de Leonida",
+        "GTA 6 map download: official Leonida poster and release date",
+        "Carte GTA 6 à télécharger : affiche officielle et date annoncée"
+      ],
+      "category": "guides",
+      "paths": [
+        "/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
+        "/en/guides/gta-6-leonida-map-poster-official-download/",
+        "/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/"
+      ]
+    },
+    {
+      "id": "gta6-miami-campaign-20261103",
+      "titles": [
+        "GTA 6 transforma Miami: qué incluye el acuerdo de 3,9 millones",
+        "GTA 6 in Miami: what the $3.9 million advertising package covers",
+        "GTA 6 à Miami : le contenu du dispositif publicitaire à 3,9 millions"
+      ],
+      "category": "news",
+      "paths": [
+        "/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+        "/en/news/gta-6-miami-advertising-vice-city-agreement/",
+        "/fr/actualites/gta-6-miami-publicite-accord-vice-city/"
+      ]
+    },
+    {
+      "id": "gta6-nike-rumour-20261103",
+      "titles": [
+        "Rumor: GTA 6, Nike y Travis Scott prepararían unas Air Force 1",
+        "Rumour: GTA 6, Nike and Travis Scott Air Force 1s reported",
+        "Rumeur : des Nike Air Force 1 GTA 6 avec Travis Scott"
+      ],
+      "category": "news",
+      "paths": [
+        "/es/noticias/rumor-gta-6-nike-travis-scott-air-force-1/",
+        "/en/news/rumour-gta-6-nike-travis-scott-air-force-1/",
+        "/fr/actualites/rumeur-gta-6-nike-travis-scott-air-force-1/"
+      ]
+    },
+    {
+      "id": "gta6-review-embargo-20261103",
+      "titles": [
+        "Rumor: los análisis de GTA 6 llegarían el 18 de noviembre",
+        "Rumour: GTA 6 reviews may arrive on November 18",
+        "Rumeur : les tests de GTA 6 arriveraient le 18 novembre"
+      ],
+      "category": "news",
+      "paths": [
+        "/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+        "/en/news/rumour-gta-6-review-embargo-date-scores/",
+        "/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/"
+      ]
+    }
+  ],
+  "updatedExisting": [
+    {
+      "id": "gta6-ps5-storage-20261101",
+      "titles": [
+        "GTA 6 en PS5: SSD M.2, USB y cómo preparar el almacenamiento",
+        "GTA 6 on PS5: M.2 SSD, USB and preparing your storage",
+        "GTA 6 sur PS5 : SSD M.2, USB et préparation du stockage"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-03",
+      "paths": [
+        "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+        "/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+        "/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/"
+      ]
+    },
+    {
+      "id": "gta6-xbox-storage-20261101",
+      "titles": [
+        "GTA 6 en Xbox Series X|S: USB, SSD y tarjetas de expansión",
+        "GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+        "GTA 6 sur Xbox Series X|S : USB, SSD et cartes d’extension"
+      ],
+      "published": "2026-11-01",
+      "updated": "2026-11-03",
+      "paths": [
+        "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+        "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+        "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/"
+      ]
+    },
+    {
+      "id": "reported-210gb-size-2026-10-28",
+      "titles": [
+        "GTA 6 necesita hasta 212 GB: tamaño oficial de la precarga",
+        "GTA 6 needs up to 212 GB: official preload storage requirement",
+        "GTA 6 demande jusqu’à 212 Go : espace officiel du préchargement"
+      ],
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "paths": [
+        "/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
+        "/en/news/rumour-gta-6-210gb-ps5-download-size/",
+        "/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/"
+      ]
+    },
+    {
+      "id": "gta6-preload-schedule-20261028",
+      "titles": [
+        "Precarga de GTA 6: empieza el 10 de noviembre, horarios y cajas con código",
+        "GTA 6 preload: November 10 start, times and boxed codes",
+        "Préchargement GTA 6 : dès le 10 novembre, horaires et codes en boîte"
+      ],
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "paths": [
+        "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+        "/en/guides/gta-6-preload-date-time-consoles/",
+        "/fr/guides/prechargement-gta-6-date-heure-consoles/"
+      ]
+    },
+    {
+      "id": "gta6-physical-code-box-20261028",
+      "titles": [
+        "¿GTA 6 físico trae disco? Qué incluye la caja con código",
+        "Does physical GTA 6 include a disc? The boxed code explained",
+        "GTA 6 en boîte contient-il un disque ? Comprendre le code de téléchargement"
+      ],
+      "published": "2026-10-28",
+      "updated": "2026-11-03",
+      "paths": [
+        "/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+        "/en/guides/gta-6-physical-edition-no-disc-code/",
+        "/fr/guides/gta-6-edition-physique-sans-disque-code/"
+      ]
+    }
+  ],
+  "sourceChecks": [
+    {
+      "key": "preload-announcement",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+      "status": 200,
+      "title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
+      "dates": [],
+      "textChars": 69,
+      "checkedAt": "2026-11-03T20:09:22.614187+00:00"
+    },
+    {
+      "key": "preload-faq",
+      "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+      "status": 200,
+      "title": "Grand Theft Auto VI Pre-Load FAQ - Rockstar Games Customer Support",
+      "dates": [],
+      "textChars": 2578,
+      "checkedAt": "2026-11-03T20:09:22.827543+00:00"
+    },
+    {
+      "key": "reviews",
+      "url": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/",
+      "status": 200,
+      "title": "Grand Theft Auto 6 Review Embargo Date Details - Insider Gaming",
+      "dates": [
+        "2026-10-26T16:54:31+00:00",
+        "2026-10-26T17:03:09+00:00",
+        "2026-10-26T16:54:31+00:00",
+        "2026-10-26T17:03:09+00:00"
+      ],
+      "textChars": 7846,
+      "checkedAt": "2026-11-03T20:09:22.868353+00:00"
+    },
+    {
+      "key": "sneakers",
+      "url": "https://www.soleretriever.com/news/articles/travis-scott-cactus-jack-rockstar-games-nike-air-force-1-low-gta-6-pack-release-date-november-2026",
+      "status": 200,
+      "title": "Travis Scott’s Cactus Jack x Rockstar Games x Nike Air Force 1 Low GTA 6 Pack Releases November 2026",
+      "dates": [
+        "2026-10-31T14:00:19.807Z",
+        "2026-10-31T14:00:25.345Z"
+      ],
+      "textChars": 9241,
+      "checkedAt": "2026-11-03T20:09:23.221067+00:00"
+    },
+    {
+      "key": "miami",
+      "url": "https://www.wlrn.org/light/government-politics/2026-10-29/miami-dade-announces-4-million-gta-vi-marketing-agreement-with-rockstar",
+      "status": 200,
+      "title": "WLRN",
+      "dates": [],
+      "textChars": 2805,
+      "checkedAt": "2026-11-03T20:09:23.159851+00:00"
+    },
+    {
+      "key": "intel-preload",
+      "url": "https://rockstarintel.com/gta-6-pre-load-date-changes-release-time-physical-map-confirmed/",
+      "status": 200,
+      "title": "GTA 6 Pre-Load Date Changes, Release Time & Physical Map Confirmed - RockstarINTEL",
+      "dates": [
+        "2026-11-03T16:38:00+00:00",
+        "2026-11-03T16:45:29+00:00",
+        "2026-11-03T16:38:00+00:00",
+        "2026-11-03T16:45:29+00:00",
+        "2026-11-03T16:38:00+00:00",
+        "2026-11-03T16:45:29+00:00"
+      ],
+      "textChars": 5622,
+      "checkedAt": "2026-11-03T20:09:24.460582+00:00"
+    },
+    {
+      "key": "press-reprint",
+      "url": "https://www.savingcontent.com/2026/11/03/grand-theft-auto-vi-pre-load-begins-on-november-10th/",
+      "status": 200,
+      "title": "Grand Theft Auto VI pre-load begins on November 10th - Saving Content",
+      "dates": [
+        "2026-11-03T09:00:56-07:00",
+        "2026-11-03T09:02:42-07:00",
+        "2026-11-03T09:00:56-07:00",
+        "2026-11-03T09:02:42-07:00"
+      ],
+      "textChars": 3213,
+      "checkedAt": "2026-11-03T20:11:43.429782+00:00"
+    },
+    {
+      "key": "county",
+      "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1793224106473569",
+      "status": 200,
+      "title": "Miami-Dade County announces marketing package with Rockstar Games ahead of Grand Theft Auto VI release",
+      "dates": [],
+      "textChars": 16399,
+      "checkedAt": "2026-11-03T20:11:42.718029+00:00"
+    },
+    {
+      "key": "review-original",
+      "url": "https://x.com/NateTheHate2/status/2114749073953873963",
+      "status": 200,
+      "title": "Original public post · review-original",
+      "dates": [],
+      "textChars": 1486,
+      "checkedAt": "2026-11-03T20:11:42.769308+00:00"
+    },
+    {
+      "key": "watermark-update",
+      "url": "https://www.notebookcheck.net/GTA-6-may-not-have-watermarked-reviews-but-some-other-insane-security-measures-are-in-place.1437534.0.html",
+      "status": 200,
+      "title": "GTA 6 may not have watermarked reviews, but some other ‘insane security measures’ are in place - Notebookcheck News",
+      "dates": [
+        "2026-10-29T18:22:00+01:00",
+        "2026-10-29T18:22:53+01:00"
+      ],
+      "textChars": 5117,
+      "checkedAt": "2026-11-03T20:11:42.586643+00:00"
+    },
+    {
+      "key": "sneaker-original",
+      "url": "https://x.com/SoleRetriever/status/2116515111896539295",
+      "status": 200,
+      "title": "Original public post · sneaker-original",
+      "dates": [],
+      "textChars": 1742,
+      "checkedAt": "2026-11-03T20:11:43.707796+00:00"
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "checkedAt": "2026-11-03T20:22:50.874097+00:00"
+    },
+    {
+      "key": "gallery",
+      "url": "https://www.rockstargames.com/VI/media/screenshots",
+      "status": 200,
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "checkedAt": "2026-11-03T20:22:50.781921+00:00"
+    },
+    {
+      "key": "store",
+      "url": "https://store.rockstargames.com/",
+      "status": 200,
+      "title": "store",
+      "checkedAt": "2026-11-03T20:22:50.785958+00:00"
+    },
+    {
+      "key": "network-ps",
+      "url": "https://www.playstation.com/en-us/support/connectivity/internet-connect-playstation/",
+      "status": 200,
+      "title": "How to set up an internet connection on PlayStation consoles ",
+      "checkedAt": "2026-11-03T20:22:50.619151+00:00"
+    },
+    {
+      "key": "network-xbox",
+      "url": "https://support.xbox.com/help/games-apps/troubleshooting/troubleshoot-slow-game-or-app-downloads-on-xbox-one",
+      "status": 200,
+      "title": "Original public post · network-xbox",
+      "checkedAt": "2026-11-03T20:22:50.978906+00:00"
+    },
+    {
+      "key": "ps-download",
+      "url": "https://www.playstation.com/en-us/support/games/pre-order-games-automatic-download-ps-store/",
+      "status": 200,
+      "title": "How to pre-order and auto-download games from PlayStation™Store ",
+      "checkedAt": "2026-11-03T20:22:51.317587+00:00"
+    },
+    {
+      "key": "sneaker-origin",
+      "url": "https://sneakermarket.ro/news/cactus-jack-x-rockstar-x-air-force-1-low-black-fire-pink-jj7604-001",
+      "status": 200,
+      "title": "Cactus Jack x Rockstar x Air Force 1 Low Release Details",
+      "checkedAt": "2026-11-03T20:13:48.708187+00:00",
+      "dates": [
+        "2026-10-31T07:01:40+00:00",
+        "2026-11-01T23:02:20+00:00",
+        "2026-10-31T07:01:40+00:00",
+        "2026-11-01T23:02:20+00:00"
+      ]
+    }
+  ],
+  "datesAndEvidence": {
+    "officialNewAnnouncement": "Rockstar November3 Pre-Load Begins on November10; official GTA VI site links announcement, sourceFAQ updatedNovember3 readable. Newswire raw response is JavaScript shell, indexed official excerpt and full attributed press release reproduction at Saving Content cross-checked.",
+    "preloadFacts": "PS5digital November10 localmidnight; Xboxglobal November10 00:00GMT; boxedcodes retailers fromNovember12; up to212GB depending ondevice, not exact allplatform sizes.",
+    "poster": "Official indexed wording and attributed press release: free digital printable coverposter/Leonidamap on officialsite November19; physicalposter shortlyafterlaunch is a separate product. No active file URL, dimensions, present availability or market-specific physical finalprice invented.",
+    "miami": "PRIMARY county release dated October28,2026, not October29 (WLRN follow-up date). Packagevalued3.9millionUSD includes earlier975,000USD Kaseyaarrangement; separate mediaoperators/municipal agreements not added as a second total. Designs subject tocountyapproval; allocatedfunds not completedpark.",
+    "nike": "SneakerMarket originalOctober31, updatedNovember1; SoleRetrieverOctober31 report and originalpublicpost accessible. Colourways/November19 date remain reported. No claimed authenticated internal documents, official sale/market price, productstock, in-game role or wanted-level inference. No leakedshoephoto used.",
+    "reviews": "NateTheHate originalpostOctober26 accessible; InsiderGamingOctober26 claims independentverification. This is not a Rockstar confirmation or our own presscopy; no worldwide embargohour/score invented. Watermark dispute datedOctober29 and its counterclaims retained.",
+    "notAdopted": "A secondary November3 story inferred an exact playable midnight launch. The checked official announcement/FAQ and full attributed pressrelease do not establish that here. No unverified unlock-hour guide or timezone-launch promise was published.",
+    "network": "Connection sources are platform guidance; Xbox response is a JavaScript support shell. Download model is our transparent math, not a network benchmark or undocumented GTA6 test."
+  },
+  "deduplication": {
+    "topicsChecked": 145,
+    "versionsChecked": 435,
+    "scan": {
+      "topicsChecked": 145,
+      "versionsChecked": 435,
+      "hits": {
+        "duration": [
+          {
+            "id": "reported-210gb-size-2026-10-28",
+            "title": "Rumor: la descarga de GTA 6 en PS5 podría rondar los 210 GB",
+            "heading": "Cuánto tardaría: un ejemplo hipotético, no una previsión",
+            "paragraphs": [
+              [
+                "Si, solo como supuesto matemático, una descarga tuviera 210 GB decimales, a 100 Mb/s constantes tardaría unas 4 horas y 40 minutos en transferir esos datos. El cálculo divide el volumen convertido a bits por la velocidad; no mide GTA VI ni tu conexión. La velocidad sostenida, las pausas y el funcionamiento del servicio pueden cambiar el tiempo real. Este ejemplo sirve para entender la escala, no para garantizar una duración.",
+                "As a mathematical assumption only, a download of 210 decimal GB would take about 4 hours and 40 minutes to transfer at a constant 100 Mb/s. This divides the amount converted to bits by the transfer rate; it measures neither GTA VI nor your connection. Sustained speed, pauses and service conditions can change the actual time. The example illustrates scale rather than promising a download duration.",
+                "À titre de simple hypothèse mathématique, transférer 210 Go décimaux à 100 Mb/s constants demanderait environ 4 heures et 40 minutes. Le calcul divise le volume converti en bits par le débit ; il ne mesure ni GTA VI ni votre connexion. Débit soutenu, interruptions et fonctionnement du service peuvent modifier le temps réel. L’exemple donne un ordre de grandeur, pas une durée garantie."
+              ]
+            ]
+          }
+        ],
+        "map": [
+          {
+            "id": "gta6-map-discovery-20261101",
+            "title": "Mapa 3D de GTA 6: explorar y revelar las zonas ocultas",
+            "heading": "Qué explicó Rockstar sobre el mapa 3D",
+            "paragraphs": [
+              [
+                "En Famitsu, el 28 de agosto de 2026, Rob Nelson describe un mapa 3D y explica que las áreas no exploradas están ocultas hasta que se visitan. Sitúa además el comienzo de la historia en los Leonida Keys. La información se refiere a la representación y descubrimiento del mundo; no publica sus medidas ni una descarga oficial del mapa completo.",
+                "In Famitsu’s August 28, 2026 interview, Rob Nelson describes a 3D map and explains that unexplored areas remain hidden until visited. He also places the story’s beginning in the Leonida Keys. This concerns how the world is represented and discovered, rather than publishing its dimensions or an official full-map download.",
+                "Dans Famitsu, le 28 août 2026, Rob Nelson décrit une carte 3D dont les zones inexplorées restent masquées jusqu’à leur visite. Il situe aussi le début de l’histoire dans les Leonida Keys. Cela concerne la représentation et la découverte du monde, pas ses dimensions ou un téléchargement officiel de la carte complète."
+              ]
+            ]
+          },
+          {
+            "id": "collector-box-no-game-2026-10-28",
+            "title": "GTA 6 Collector’s Edition: precio, contenido y reservas",
+            "heading": "Preguntas frecuentes sobre precio, mapa y acceso al juego",
+            "paragraphs": [
+              [
+                "¿Incluye GTA 6 para PS5, Xbox o PC? No incluye una licencia para ninguna plataforma. Los objetos físicos no confirman una versión del juego para PC. ¿El póster es un mapa? La lista oficial incluye un póster a doble cara con un mapa de Leonida; eso no convierte esta guía en una verificación del mapa jugable final ni de sus coordenadas. Nuestra sección de mapas distingue el material oficial de las reconstrucciones de fans.",
+                "Does it include GTA 6 for PS5, Xbox or PC? It includes no game licence for any platform. Physical merchandise does not announce a PC game version. Is the poster a map? The official contents include a double-sided poster with a Leonida map; this guide does not verify the final playable map or coordinates. Our map guide distinguishes official material from fan reconstructions.",
+                "Comprend-il GTA 6 sur PS5, Xbox ou PC ? Il ne comprend aucune licence, quelle que soit la plateforme. Les objets n’annoncent pas une version PC. L’affiche contient-elle une carte ? Le contenu officiel cite une affiche recto verso avec carte de Leonida ; ce guide ne vérifie ni carte jouable finale ni coordonnées. Notre guide cartographique distingue matériel officiel et reconstitutions."
+              ],
+              [
+                "¿Se puede reservar ahora? Comprueba la ficha de tu mercado: el 2 de noviembre la estadounidense mostraba opción de reserva y la japonesa indicaba falta de disponibilidad. ¿El precio de Estados Unidos incluye envío gratis? No; la tienda excluye este producto del envío gratuito. ¿La caja mejora Standard a Ultimate? No, esa mejora es un producto digital diferente. ¿Hay fecha de reposición garantizada? Las fuentes consultadas no la establecen.",
+                "Can you preorder now? Check your market’s listing: on November 2 the US listing displayed a preorder option, while Japan’s showed unavailable. Does the US price include free delivery? No; the store excludes this product from free shipping. Does the box upgrade Standard to Ultimate? No, that is a separate digital product. Is a restock date guaranteed? The checked sources establish none.",
+                "Peut-on précommander maintenant ? Vérifiez votre marché : le 2 novembre, la fiche américaine affichait une option et la japonaise une indisponibilité. Le prix américain comprend-il une livraison gratuite ? Non, le produit est exclu de cette offre. Le coffret transforme-t-il Standard en Ultimate ? Non, c’est un produit numérique distinct. Une date de réapprovisionnement est-elle garantie ? Les sources ne l’établissent pas."
+              ]
+            ]
+          }
+        ],
+        "miami": [],
+        "nike": [],
+        "reviews": []
+      }
+    },
+    "decisions": [
+      {
+        "new": "download-duration",
+        "closest": "reported-210gb-size-2026-10-28",
+        "decision": "Size report had one100Mbps hypothetical example. Dedicated six-rate download-duration/units/bottleneck guide has separate intent; size report updated to current official212GB and links the full duration guide."
+      },
+      {
+        "new": "printable-map",
+        "closest": [
+          "map-context",
+          "gta6-map-discovery-20261101",
+          "collector-box-no-game-2026-10-28"
+        ],
+        "decision": "These cover fan reconstructions/in-game3D discovery/merchandise. New official November19 printable download announcement and retrieval/printing distinctions not previously covered; no fake downloadablefile."
+      },
+      {
+        "new": "miami-campaign",
+        "closest": "gta6-place-vice-city-20261031",
+        "decision": "Existing guide is in-game districts, not real-world government advertising package. Official county release supplies distinct scope and funding."
+      },
+      {
+        "new": "nike-rumour",
+        "decision": "No equivalent Nike/CactusJack article found across all translations. Rumour title/intro/tags in everylanguage, dated sources and original accessible links."
+      },
+      {
+        "new": "review-embargo",
+        "decision": "No equivalent review-calendar/score article. Existing generaltrailers/spoiler guides linked; pressdate remains rumour and watermarkcounterclaims included."
+      }
+    ],
+    "newTopics": 5,
+    "newVersions": 15,
+    "existingTopicsUpdated": 5,
+    "existingVersionsUpdated": 15,
+    "unchangedPriorRecords": 140,
+    "allPriorURLsPreserved": 435,
+    "totalTopics": 150,
+    "totalVersions": 450
+  },
+  "interest": {
+    "method": "Current Googleautocomplete plus current original/official/presscoverage. No absolute searchvolume or relative popularityranking available; none invented.",
+    "suggestions": [
+      {
+        "query": "gta 6 download time",
+        "suggestions": [
+          "gta 6 download time",
+          "gta 6 download time calculator",
+          "rockstar games gta 6 download time",
+          "why is gta 6 taking so long",
+          "how many gb will gta 6 be"
+        ],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+download+time"
+      },
+      {
+        "query": "gta 6 map download",
+        "suggestions": [
+          "gta 6 map download",
+          "gta 6 map download offline",
+          "gta 6 map download leak",
+          "gta 6 map download apk",
+          "gta 6 map download size",
+          "minecraft gta 6 map download",
+          "gta 6 2015 map download",
+          "gta 6 full map download",
+          "gta 6 3d map download",
+          "gta 6 2014 map download"
+        ],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+map+download"
+      },
+      {
+        "query": "gta 6 miami advertising",
+        "suggestions": [
+          "gta 6 miami advertising",
+          "gta 6 miami advertising campaign",
+          "gta 6 miami ad",
+          "gta 6 miami marketing",
+          "gta 6 miami marketing rejection",
+          "gta 6 miami marketing campaign",
+          "gta 6 miami marketing deal",
+          "rockstar gta 6 miami marketing",
+          "is gta 6 in miami",
+          "is gta 6 in florida"
+        ],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+miami+advertising"
+      },
+      {
+        "query": "gta 6 nike travis scott",
+        "suggestions": [],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+nike+travis+scott"
+      },
+      {
+        "query": "gta 6 reviews embargo",
+        "suggestions": [
+          "gta 6 review embargo",
+          "gta 6 review embargo date",
+          "why is gta 6 taking so long",
+          "why so long for gta 6",
+          "should i buy gta 5 or wait for gta 6"
+        ],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+reviews+embargo"
+      },
+      {
+        "query": "gta 6 preload",
+        "suggestions": [
+          "gta 6 preload",
+          "gta 6 preload date",
+          "gta 6 preload meaning",
+          "gta 6 preload november 10th",
+          "gta 6 preload nov 10",
+          "gta 6 preload time",
+          "gta 6 preload size",
+          "gta 6 preload ps5",
+          "gta 6 preload countdown",
+          "gta 6 preload xbox"
+        ],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+preload"
+      },
+      {
+        "query": "gta 6 file size",
+        "suggestions": [
+          "gta 6 file size",
+          "gta 6 file size ps5",
+          "gta 6 file size xbox",
+          "gta 6 file size xbox series s",
+          "gta 6 file size pc",
+          "gta 6 file size leak",
+          "gta 6 file size estimate",
+          "gta 6 file size reddit",
+          "gta 6 file size rumor",
+          "gta 6 file size prediction"
+        ],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta+6+file+size"
+      }
+    ],
+    "limits": "No connected SearchConsole/Trends/keyword-volume tools found. Nike exactquery has no autocomplete; interest is recent sneaker/gaming coverage, not claimed Googlequery demand. Map suggestions for APKs/mods/leaks/Minecraft not treated as official-map demand."
+  },
+  "calculations": {
+    "model": "DecimalGB; seconds=212*8000/Mbps; round up to fullminute; constant rate with no pauses/overhead/installation/patches. Not measured GTA6 performance.",
+    "rates": [
+      {
+        "mbps": 20,
+        "minutesRoundedUp": 1414
+      },
+      {
+        "mbps": 50,
+        "minutesRoundedUp": 566
+      },
+      {
+        "mbps": 100,
+        "minutesRoundedUp": 283
+      },
+      {
+        "mbps": 300,
+        "minutesRoundedUp": 95
+      },
+      {
+        "mbps": 500,
+        "minutesRoundedUp": 57
+      },
+      {
+        "mbps": 1000,
+        "minutesRoundedUp": 29
+      }
+    ],
+    "preloadTimezoneExamples": "00:00GMT November10 is19:00EST November9 NewYork and16:00PST November9 LosAngeles (IANA zones checked). These are preload times, not playable unlock hours."
+  },
+  "media": {
+    "sources": [
+      {
+        "key": "feature-phone",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 827207,
+        "localBytes": 68872,
+        "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-driver",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 898215,
+        "localBytes": 44940,
+        "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-helicopter",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 333806,
+        "localBytes": 58038,
+        "sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-mountain",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 1274178,
+        "localBytes": 226130,
+        "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-kayak",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_06.166ouq5pjd7h0.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 1291623,
+        "localBytes": 231688,
+        "sha256": "db833ca5ce72a6d9fc19f7419cd83b578ce49ae303d733c29aef2771acb63b99",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-boats",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 891284,
+        "localBytes": 171234,
+        "sha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "vice-city",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "originalResponseBytes": 894386,
+        "localBytes": 116602,
+        "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "dimensions": [
+          1600,
+          900
+        ]
+      },
+      {
+        "key": "region-vice-city-02",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+        "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "status": 200,
+        "originalResponseBytes": 528149,
+        "localBytes": 97548,
+        "sha256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "region-vice-city-03",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "status": 200,
+        "originalResponseBytes": 1247197,
+        "localBytes": 231656,
+        "sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-couple",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 907752,
+        "localBytes": 65196,
+        "sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-bike",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 961160,
+        "localBytes": 184396,
+        "sha256": "21877f3ec04c980ee67bf19e860a0a4c8493e27a86d3c5d6e06b10498e20a827",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-bar",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 491345,
+        "localBytes": 86226,
+        "sha256": "0e51012e3078f110b1f684e05da7f6a35fadda67e9ed1c5ca2e6ef395988867f",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-fight",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 301343,
+        "localBytes": 45184,
+        "sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-aiming",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 410561,
+        "localBytes": 67802,
+        "sha256": "1dbfed56d4aa069a13263263de089100a6a8b3a8c0b5a8e5d85b7c39797e7ae8",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "ambrosia",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_01.0rqphs0gazkm..jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 715141,
+        "localBytes": 118590,
+        "sha256": "ddc749ed919fe4783bbc397aff94dd882dbb4184a5397d040a38269ea8def687",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "leonida-keys",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 846989,
+        "localBytes": 126662,
+        "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "originalResponseBytes": 1924231,
+        "localBytes": 150756,
+        "sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+        "dimensions": [
+          1400,
+          788
+        ]
+      },
+      {
+        "key": "hero",
+        "source": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "originalResponseBytes": 475961,
+        "localBytes": 143776,
+        "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+        "dimensions": [
+          1600,
+          800
+        ]
+      }
+    ],
+    "placementsPerNewArticle": 3,
+    "uniqueImagesNewTopics": 14,
+    "uniqueImagesAllAffected": 18,
+    "inspection": "Fresh contact sheet14new-topic screenshots plus reused oldcovers inspected; safehouse and originalhero artwork inspected individually. All exactoriginalURLs HTTP200. No pixels changed.",
+    "rights": "Authentic official Rockstar game screenshots/keyart from its media/download-share context, copyrightreserved; no unrestrictedlicence asserted. Existing originalprovenance retained in public/media/credits.json. Localizedalt/captions/credit distinguish gamecontext from actual networkmeasurements, announced mapfile, realMiami advertising, leaked/unconfirmed shoes or a FansGTA reviewcopy. No AI/mod/leak/GTA V/editeddecorativehero imagery used."
+  },
+  "validation": {
+    "release": "npm run build:release passed; existing Vite large-bundle advisory remains.",
+    "static": "node scripts/verify-static.mjs passed:494HTML,22206internal links,962JSON-LD blocks.",
+    "browser": "12passed: new5and updated5in all3languages desktop/mobile, plus prior ten-guide regression suite including updatedstorage pages. Images decoded/credited, canonical/hreflang/metadata/schema/dates, sitemap, sources/localizedlinks and real selector navigation checked. SDK fixtures do not verify real adfill/Analytics receipt.",
+    "inventory": "150topics/450versions;5new+5updates,435oldURLs retained,140unrelated inventoryrecords unchanged."
+  },
+  "preserved": "General design, all previous topics/URLs, staticadvertisements/sidebar units, popunderdisabled, independentAnalyticsconsent, AdSenseverification, security, subscriptions and dailycadence/enddate unchanged. No purchases/paidservices/thirdpartymessages."
+}

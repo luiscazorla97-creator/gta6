@@ -1,0 +1,1103 @@
+[
+  {
+    "key": "download-duration",
+    "category": "guides",
+    "slug": [
+      "gta-6-cuanto-tarda-descargar-212-gb",
+      "gta-6-download-time-212-gb",
+      "gta-6-temps-telechargement-212-go"
+    ],
+    "title": [
+      "Cuánto tarda en descargar GTA 6: estimaciones para hasta 212 GB",
+      "GTA 6 download time: estimates for up to 212 GB",
+      "Temps de téléchargement GTA 6 : estimations jusqu’à 212 Go"
+    ],
+    "excerpt": [
+      "Calcula cuánto podría tardar GTA 6 con 20, 50, 100 o 1.000 Mbps. Usamos el máximo oficial de 212 GB y distinguimos estimaciones de tiempos reales.",
+      "Estimate GTA 6 download time at 20, 50, 100 or 1,000 Mbps using the official up-to-212-GB preload figure. Assumptions, bottlenecks and preparation.",
+      "Estimez le téléchargement GTA 6 à 20, 50, 100 ou 1 000 Mbit/s avec le maximum officiel de 212 Go. Hypothèses, limites et préparation."
+    ],
+    "tag": [
+      "GUÍA · DESCARGA Y CONEXIÓN",
+      "GUIDE · DOWNLOAD AND CONNECTION",
+      "GUIDE · TÉLÉCHARGEMENT ET CONNEXION"
+    ],
+    "imageKeys": [
+      "feature-phone",
+      "feature-driver",
+      "feature-helicopter"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La base del cálculo: hasta 212 GB, no una duración garantizada",
+          "The starting point: up to 212 GB, not a guaranteed duration",
+          "Point de départ : jusqu’à 212 Go, sans durée garantie"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar indica desde el 3 de noviembre de 2026 que la precarga de GTA VI necesita hasta 212 GB disponibles según el dispositivo. Si planificas con ese máximo y mantienes 100 Mbps durante toda la transferencia, el cálculo ideal da unas 4 horas y 43 minutos, redondeando hacia arriba. Es una estimación matemática de FansGTA, no una medición del juego ni una promesa para tu conexión.",
+            "Rockstar’s November 3, 2026 FAQ says GTA VI preloading needs up to 212 GB of free space depending on the device. Planning with that maximum and a sustained 100 Mbps gives an ideal transfer estimate of about 4 hours 43 minutes, rounded up. This is FansGTA’s calculation, not a measured GTA VI download or a promise for your connection.",
+            "La FAQ Rockstar du 3 novembre 2026 prévoit jusqu’à 212 Go disponibles selon l’appareil. Avec ce maximum et 100 Mbit/s constants, le transfert idéal représente environ 4 h 43, arrondi au-dessus. C’est un calcul FansGTA, pas une mesure GTA VI ni une promesse pour votre connexion."
+          ]
+        ],
+        "refs": [
+          "preload-faq"
+        ]
+      },
+      {
+        "heading": [
+          "Mbps y MB/s: la diferencia que cambia la cuenta",
+          "Mbps versus MB/s: the distinction that changes the calculation",
+          "Mbit/s et Mo/s : la distinction qui change le calcul"
+        ],
+        "paragraphs": [
+          [
+            "Los proveedores suelen anunciar megabits por segundo; algunas pantallas de descarga muestran megabytes por segundo. Ocho bits forman un byte: 100 Mbps equivalen teóricamente a 12,5 MB/s antes de gastos de protocolo. Comparar directamente 100 Mbps con 100 MB/s multiplica por ocho lo que esperas de la línea. Usa la unidad que realmente muestra tu consola y una velocidad sostenida, no solo el máximo de tu tarifa.",
+            "Internet plans commonly use megabits per second, while download interfaces may show megabytes per second. Eight bits make one byte: 100 Mbps theoretically equals 12.5 MB/s before protocol overhead. Treating 100 Mbps as 100 MB/s makes the expected rate eight times too high. Use the displayed unit and a sustained rate rather than only the plan’s headline maximum.",
+            "Les offres Internet utilisent souvent des mégabits par seconde, alors qu’une interface peut afficher des mégaoctets. Huit bits font un octet : 100 Mbit/s correspondent théoriquement à 12,5 Mo/s avant les surcoûts du protocole. Confondre 100 Mbit/s et 100 Mo/s multiplie l’attente par huit. Utilisez la bonne unité et un débit soutenu."
+          ]
+        ],
+        "refs": [
+          "preload-faq"
+        ]
+      },
+      {
+        "heading": [
+          "Tabla orientativa de descarga para 212 GB",
+          "Estimated transfer times for 212 GB",
+          "Durées indicatives pour 212 Go"
+        ],
+        "paragraphs": [
+          [
+            "El modelo usa GB decimales: segundos = 212 × 8.000 ÷ Mbps. Redondeamos hacia arriba al minuto completo. Supone una sola transferencia continua al ritmo indicado, sin pausas, otras descargas, instalación o actualizaciones adicionales. Una consola puede necesitar menos que ese máximo; por eso no asignamos 212 GB exactos a todas las versiones.",
+            "The model uses decimal GB: seconds = 212 × 8,000 ÷ Mbps. Results round up to a whole minute. It assumes one uninterrupted transfer at that constant rate, without other downloads, installation or additional updates. A device may need less than the stated maximum, so 212 GB is not assigned as an exact size to every version.",
+            "Le modèle utilise des Go décimaux : secondes = 212 × 8 000 ÷ Mbit/s. Arrondi à la minute supérieure, il suppose un transfert continu au débit indiqué, sans autres téléchargements, installation ou mises à jour. Un appareil peut nécessiter moins que ce maximum ; 212 Go n’est donc pas attribué comme taille exacte à chaque version."
+          ]
+        ],
+        "refs": [
+          "preload-faq"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Velocidad sostenida",
+              "Sustained speed",
+              "Débit soutenu"
+            ],
+            [
+              "Tiempo ideal redondeado",
+              "Rounded ideal time",
+              "Durée idéale arrondie"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "20 Mbps",
+                "20 Mbps",
+                "20 Mbit/s"
+              ],
+              [
+                "23 h 34 min",
+                "23 hr 34 min",
+                "23 h 34 min"
+              ]
+            ],
+            [
+              [
+                "50 Mbps",
+                "50 Mbps",
+                "50 Mbit/s"
+              ],
+              [
+                "9 h 26 min",
+                "9 hr 26 min",
+                "9 h 26 min"
+              ]
+            ],
+            [
+              [
+                "100 Mbps",
+                "100 Mbps",
+                "100 Mbit/s"
+              ],
+              [
+                "4 h 43 min",
+                "4 hr 43 min",
+                "4 h 43 min"
+              ]
+            ],
+            [
+              [
+                "300 Mbps",
+                "300 Mbps",
+                "300 Mbit/s"
+              ],
+              [
+                "1 h 35 min",
+                "1 hr 35 min",
+                "1 h 35 min"
+              ]
+            ],
+            [
+              [
+                "500 Mbps",
+                "500 Mbps",
+                "500 Mbit/s"
+              ],
+              [
+                "57 min",
+                "57 min",
+                "57 min"
+              ]
+            ],
+            [
+              [
+                "1.000 Mbps",
+                "1,000 Mbps",
+                "1 000 Mbit/s"
+              ],
+              [
+                "29 min",
+                "29 min",
+                "29 min"
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Por qué el tiempo real puede aumentar",
+          "Why the actual time may be longer",
+          "Pourquoi la durée réelle peut augmenter"
+        ],
+        "paragraphs": [
+          [
+            "La velocidad de una tarifa no mide por sí sola la descarga desde los servidores de una tienda. Wi-Fi, tráfico doméstico, pausas, colas y cambios del ritmo de transferencia pueden modificar el resultado. La comprobación útil es observar varios minutos de progreso en la consola. Si cae a la mitad el ritmo sostenido, el modelo duplica la duración; un pico breve no compensa horas a menor velocidad.",
+            "A plan’s speed is not a measurement of a store-server download. Wi-Fi conditions, household traffic, pauses, queues and changing transfer rates can affect the result. Observe several minutes of actual console progress. Halving the sustained rate doubles this model’s duration; a short peak does not offset hours at a lower rate.",
+            "Le débit d’une offre ne mesure pas un transfert depuis les serveurs d’une boutique. Wi-Fi, trafic domestique, pauses, files et variations peuvent changer le résultat. Observez plusieurs minutes de progression sur la console. Diviser le débit soutenu par deux double la durée du modèle ; une pointe brève ne compense pas des heures plus lentes."
+          ]
+        ],
+        "refs": [
+          "network-ps",
+          "network-xbox"
+        ]
+      },
+      {
+        "heading": [
+          "Deja preparada la precarga, no solo el cronómetro",
+          "Prepare preloading, not just a stopwatch",
+          "Préparer le préchargement, pas seulement le chronomètre"
+        ],
+        "paragraphs": [
+          [
+            "La fecha digital actual es el 10 de noviembre: medianoche local en PS5 y 00:00 GMT en Xbox Series X|S. Una caja con código sigue teniendo disponibilidad prevista desde el 12; necesitas recibir y canjear el código. Revisa espacio libre, cuenta de compra y descarga automática con las instrucciones de tu plataforma. La guía de calendario explica las fechas y evita confundir esta estimación con acceso para jugar.",
+            "The current digital date is November 10: local midnight on PS5 and 00:00 GMT on Xbox Series X|S. Boxed codes remain scheduled from November 12; you need to receive and redeem the code. Check free space, the purchasing account and your platform’s automatic-download instructions. Our schedule guide covers the dates rather than treating a transfer estimate as playable access.",
+            "La date numérique actuelle est le 10 novembre : minuit local sur PS5 et 00 h GMT sur Xbox Series X|S. Les boîtes avec code restent prévues à partir du 12 ; il faut recevoir puis activer le code. Vérifiez espace, compte d’achat et téléchargement automatique. Notre calendrier distingue ces étapes de l’accès au jeu."
+          ]
+        ],
+        "refs": [
+          "preload-faq",
+          "press-reprint",
+          "related-preload"
+        ]
+      },
+      {
+        "heading": [
+          "Descargar, instalar y actualizar no son la misma tarea",
+          "Downloading, installing and updating are separate tasks",
+          "Télécharger, installer et mettre à jour sont distincts"
+        ],
+        "paragraphs": [
+          [
+            "Esta tabla calcula una transferencia, no cuánto tardará la consola en completar todos sus trabajos. No publicamos un tamaño inventado para el parche de lanzamiento ni sumamos porcentajes de espacio sin fuente. El dato oficial es hasta 212 GB disponibles para la precarga, según dispositivo. Comprueba el requisito que muestre tu consola y conserva el contexto si lo comparas con el antiguo reporte de 210 GB.",
+            "The table estimates a transfer rather than every console processing task. We invent neither a launch-patch size nor an extra storage percentage. The official figure is up to 212 GB available for preloading, device-dependent. Read your console’s actual requirement and retain that context when comparing it with the older 210 GB report.",
+            "Le tableau estime un transfert, pas toutes les opérations de la console. Nous n’inventons ni taille de patch de lancement ni pourcentage d’espace supplémentaire. La donnée officielle reste jusqu’à 212 Go disponibles selon l’appareil. Vérifiez l’exigence affichée et ce contexte face à l’ancien chiffre rapporté de 210 Go."
+          ]
+        ],
+        "refs": [
+          "preload-faq",
+          "related-size"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes para planificar la descarga",
+          "Download-planning FAQ",
+          "Questions pour planifier le téléchargement"
+        ],
+        "paragraphs": [
+          [
+            "¿Cuánto tardará con mi fibra? Utiliza el ritmo sostenido de descarga, no solo el contratado. ¿Es un test real de GTA VI? No: son escenarios matemáticos con un máximo oficial. ¿Vale para PC? No anuncia una versión de PC ni sus requisitos. ¿Terminar antes permite jugar antes? No: la descarga no adelanta el lanzamiento del 19 de noviembre. Las imágenes son capturas oficiales del juego, no mediciones de una red.",
+            "How long with fibre? Use sustained download speed rather than only the subscribed rate. Is this a GTA VI test? No: mathematical scenarios use an official maximum. Does it establish PC requirements? No. Does finishing sooner unlock the game early? No: downloading does not move the November 19 launch. The images are official game screenshots rather than network measurements.",
+            "Combien de temps avec la fibre ? Utilisez le débit soutenu, pas seulement l’offre souscrite. Est-ce un test GTA VI ? Non : ce sont des scénarios mathématiques avec un maximum officiel. Cela définit-il des exigences PC ? Non. Finir plus tôt débloque-t-il le jeu ? Non : le téléchargement n’avance pas la sortie du 19 novembre. Les images officielles ne mesurent aucun réseau."
+          ]
+        ],
+        "refs": [
+          "preload-faq",
+          "related-platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "printable-map",
+    "category": "guides",
+    "slug": [
+      "gta-6-mapa-leonida-poster-descarga-oficial",
+      "gta-6-leonida-map-poster-official-download",
+      "gta-6-carte-leonida-affiche-telechargement-officiel"
+    ],
+    "title": [
+      "Mapa de GTA 6 para descargar: fecha y póster oficial de Leonida",
+      "GTA 6 map download: official Leonida poster and release date",
+      "Carte GTA 6 à télécharger : affiche officielle et date annoncée"
+    ],
+    "excerpt": [
+      "Rockstar anuncia un mapa de Leonida y póster imprimibles para el 19 de noviembre. Dónde buscarlos, qué formato falta por confirmar y qué pasa con la versión física.",
+      "Rockstar announces a printable Leonida map and cover-art poster for November 19. Where to find them, what remains unknown and the physical version.",
+      "Rockstar annonce une carte de Leonida et une affiche imprimables pour le 19 novembre. Site officiel, détails encore inconnus et version physique."
+    ],
+    "tag": [
+      "GTA VI · MAPA Y DESCARGAS",
+      "GTA VI · MAP AND DOWNLOADS",
+      "GTA VI · CARTE ET TÉLÉCHARGEMENTS"
+    ],
+    "imageKeys": [
+      "feature-mountain",
+      "feature-kayak",
+      "feature-boats"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "El mapa imprimible oficial está anunciado para el 19 de noviembre",
+          "The official printable map is announced for November 19",
+          "La carte imprimable officielle est annoncée pour le 19 novembre"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar ha anunciado el 3 de noviembre de 2026 que añadirá a su web oficial un póster de portada de GTA VI y un mapa de Leonida como descarga digital gratuita el 19 de noviembre. Hoy no presentamos esos archivos como disponibles ni enlazamos una supuesta copia anticipada. Esta guía explica dónde revisar la publicación cuando llegue la fecha y cómo distinguirla de reconstrucciones de fans o imágenes filtradas.",
+            "Rockstar’s November 3, 2026 announcement says an official GTA VI cover-art poster and Leonida map will become a free digital download on its website on November 19. We do not present those files as available today or link an alleged early copy. This guide explains where to check at release and how to distinguish them from fan reconstructions or leaks.",
+            "Rockstar annonce le 3 novembre 2026 une affiche de couverture GTA VI et une carte de Leonida en téléchargement gratuit sur son site le 19 novembre. Nous ne présentons pas ces fichiers comme disponibles aujourd’hui et ne lions aucune copie anticipée supposée. Ce guide distingue cette publication des reconstitutions ou fuites."
+          ]
+        ],
+        "refs": [
+          "preload-announcement",
+          "press-reprint"
+        ]
+      },
+      {
+        "heading": [
+          "Qué incluye el anuncio y qué todavía no detalla",
+          "What the announcement includes and does not specify",
+          "Ce que précise l’annonce et ce qui manque encore"
+        ],
+        "paragraphs": [
+          [
+            "El comunicado habla de portada y mapa imprimibles. No aporta aquí un enlace activo al archivo, dimensiones finales de impresión, tipo de papel recomendado ni un catálogo de puntos del juego. Por eso no prometemos un PDF en un tamaño concreto, una versión interactiva o marcadores de coleccionables. Una ilustración de Leonida puede orientar visualmente sin sustituir un recorrido comprobado dentro del juego.",
+            "The release describes printable cover artwork and a map. It supplies no active file link here, final print dimensions, paper recommendation or in-game marker catalogue. We therefore promise neither a specific PDF size, an interactive version nor collectible markers. A Leonida illustration can provide visual orientation without replacing verified in-game routes.",
+            "Le communiqué décrit une couverture et une carte imprimables, sans lien actif ici, dimensions finales, papier recommandé ou catalogue de marqueurs. Nous ne promettons donc ni PDF d’un format précis, ni version interactive, ni emplacements d’objets. Une illustration peut orienter sans remplacer des itinéraires vérifiés dans le jeu."
+          ]
+        ],
+        "refs": [
+          "preload-announcement",
+          "press-reprint",
+          "related-map-context"
+        ]
+      },
+      {
+        "heading": [
+          "Tres productos que no conviene mezclar",
+          "Three products to keep separate",
+          "Trois produits à distinguer"
+        ],
+        "paragraphs": [
+          [
+            "La palabra mapa aparece en productos distintos. El anuncio del 3 de noviembre no convierte una compra previa del juego en un pedido del póster físico ni demuestra que todas las cajas lleven papel dentro. Comprueba qué producto describe cada fuente.",
+            "Map appears in several different product descriptions. The November 3 announcement neither turns a previous game purchase into a physical-poster order nor establishes paper in every game box. Check which product a source describes.",
+            "Le mot carte apparaît dans plusieurs produits. L’annonce du 3 novembre ne transforme pas l’achat du jeu en commande d’affiche physique et ne prouve pas qu’une carte papier accompagne chaque boîte. Vérifiez le produit concerné."
+          ]
+        ],
+        "refs": [
+          "press-reprint",
+          "related-physical",
+          "related-collector"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Producto",
+              "Product",
+              "Produit"
+            ],
+            [
+              "Qué sabemos",
+              "What is known",
+              "Information disponible"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Descarga digital imprimible",
+                "Printable digital download",
+                "Téléchargement imprimable"
+              ],
+              [
+                "Anunciada gratis para el 19 de noviembre en la web oficial.",
+                "Announced free for November 19 on the official site.",
+                "Annoncé gratuit le 19 novembre sur le site officiel."
+              ]
+            ],
+            [
+              [
+                "Póster físico posterior",
+                "Later physical poster",
+                "Affiche physique ultérieure"
+              ],
+              [
+                "Previsto después del lanzamiento en Rockstar Store; condiciones a revisar.",
+                "Planned after launch on Rockstar Store; check its terms.",
+                "Prévu après la sortie sur Rockstar Store ; conditions à vérifier."
+              ]
+            ],
+            [
+              [
+                "Collector’s Box",
+                "Collector’s Box",
+                "Coffret collector"
+              ],
+              [
+                "Colección independiente con objetos y sin licencia de GTA VI.",
+                "Separate merchandise collection without a GTA VI licence.",
+                "Collection d’objets distincte sans licence GTA VI."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Cómo localizar la descarga cuando se publique",
+          "How to locate the download when it is released",
+          "Trouver le téléchargement lors de sa publication"
+        ],
+        "paragraphs": [
+          [
+            "1. Abre la web de GTA VI desde Rockstar el 19 de noviembre o después. 2. Busca la publicación oficial de mapa y póster, contrastándola con el Newswire. 3. Lee el formato y las condiciones que acompañen al archivo antes de descargar. 4. Guarda la procedencia para distinguirlo de una imagen compartida por terceros. Si aún no hay enlace visible, no sustituimos ese paso por una dirección inventada.",
+            "1. Open Rockstar’s GTA VI website on or after November 19. 2. Find the official map/poster publication and cross-check the Newswire. 3. Read the file format and accompanying terms before downloading. 4. Retain the source to distinguish it from a third-party repost. If no link is visible yet, we do not substitute an invented address.",
+            "1. Ouvrez le site GTA VI de Rockstar à partir du 19 novembre. 2. Recherchez la publication carte/affiche et comparez avec le Newswire. 3. Lisez format et conditions avant téléchargement. 4. Conservez la source pour distinguer un fichier officiel d’une republication. Sans lien visible, aucune adresse n’est inventée."
+          ]
+        ],
+        "refs": [
+          "official",
+          "preload-announcement"
+        ]
+      },
+      {
+        "heading": [
+          "Imprimirlo no convierte una captura en una ruta verificada",
+          "Printing does not turn a picture into a verified route",
+          "Imprimer ne transforme pas une image en itinéraire vérifié"
+        ],
+        "paragraphs": [
+          [
+            "Cuando exista el archivo, su resolución y proporciones determinarán qué impresión conserva mejor el detalle. Hasta entonces no damos medidas ni simulamos una impresión que no hemos probado. Para guías de exploración harán falta distancias, accesos y condiciones comprobados. Las capturas oficiales de paisajes de esta página son contexto de Leonida, no el mapa anunciado ni pruebas de coordenadas.",
+            "Once a file exists, its resolution and proportions will determine suitable printing. Until then, no dimensions or untested print results are supplied. Exploration guides need checked distances, access and conditions. This page’s official landscapes provide Leonida context; they are neither the announced map nor coordinate evidence.",
+            "Lorsque le fichier existera, résolution et proportions détermineront l’impression adaptée. D’ici là, aucune dimension ni impression non testée n’est donnée. Un guide d’exploration exige distances et accès vérifiés. Nos paysages officiels contextualisent Leonida ; ils ne sont ni la carte annoncée ni des coordonnées prouvées."
+          ]
+        ],
+        "refs": [
+          "press-reprint",
+          "related-map-discovery"
+        ]
+      },
+      {
+        "heading": [
+          "El póster de tienda llegará después: no hagas equivalencias",
+          "The store poster comes later: avoid assuming equivalence",
+          "L’affiche boutique arrivera après : éviter les équivalences"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar también prevé una versión física a doble cara poco después del lanzamiento. No confundas esa previsión con un artículo ya disponible para tu dirección o una entrega garantizada. Esta guía no calcula precio final, envío o impuestos para un mercado que todavía no hemos comprobado. La ficha de Rockstar Store, cuando esté publicada, deberá aclarar las condiciones concretas.",
+            "Rockstar also plans a double-sided physical version shortly after launch. That is not proof of current availability for your address or guaranteed delivery. We calculate no final price, shipping or tax for an unchecked market. Its eventual Rockstar Store listing should provide the relevant terms.",
+            "Rockstar prévoit aussi une version physique recto verso peu après la sortie. Cela ne garantit ni disponibilité actuelle à votre adresse ni livraison. Nous ne calculons pas prix final, frais ou taxes pour un marché non vérifié. La future fiche Rockstar Store devra préciser les conditions."
+          ]
+        ],
+        "refs": [
+          "preload-announcement",
+          "press-reprint",
+          "store"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes: mapa gratis, juego y spoilers",
+          "FAQ: free map, the game and spoilers",
+          "Questions : carte gratuite, jeu et spoilers"
+        ],
+        "paragraphs": [
+          [
+            "¿Puedo descargarlo ya? El anuncio fija el 19 de noviembre, no el día de esta guía. ¿Es GTA VI gratis? No: se anuncia material imprimible, no una licencia. ¿Es el mapa interactivo de FansGTA? No, son recursos distintos. ¿Mostraremos ubicaciones filtradas para completarlo? No usamos filtraciones para rellenar lo que aún no se ha publicado. Revisa también nuestra guía para consultar contenido sin arruinarte la historia.",
+            "Can you download it now? The announcement specifies November 19, not this guide’s date. Is GTA VI free? No: printable material is announced, not a game licence. Is this FansGTA’s interactive map? No, these are separate resources. Will leaks fill missing locations? We do not use leaks to complete unpublished material. Our spoiler guide helps plan what to view.",
+            "Peut-on télécharger maintenant ? L’annonce fixe le 19 novembre, pas la date de ce guide. GTA VI est-il gratuit ? Non : il s’agit de documents imprimables, pas d’une licence. Est-ce la carte interactive FansGTA ? Non, ce sont des ressources distinctes. Les fuites compléteront-elles les lieux ? Nous n’utilisons pas de fuites pour remplir l’inédit. Consultez aussi notre guide sans spoilers."
+          ]
+        ],
+        "refs": [
+          "preload-announcement",
+          "related-map-context",
+          "related-spoilers"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "miami-campaign",
+    "category": "news",
+    "slug": [
+      "gta-6-miami-publicidad-acuerdo-vice-city",
+      "gta-6-miami-advertising-vice-city-agreement",
+      "gta-6-miami-publicite-accord-vice-city"
+    ],
+    "title": [
+      "GTA 6 transforma Miami: qué incluye el acuerdo de 3,9 millones",
+      "GTA 6 in Miami: what the $3.9 million advertising package covers",
+      "GTA 6 à Miami : le contenu du dispositif publicitaire à 3,9 millions"
+    ],
+    "excerpt": [
+      "Miami-Dade anunció un paquete publicitario de 3,9 millones de USD para GTA VI. Aeropuerto, PortMiami, Kaseya Center y qué está previsto, no inaugurado.",
+      "Miami-Dade announced a US$3.9 million GTA VI advertising package. Airport, PortMiami, Kaseya Center and the distinction between plans and installations.",
+      "Miami-Dade annonce un dispositif publicitaire GTA VI à 3,9 millions USD. Aéroport, PortMiami, Kaseya Center : annonces et installations à distinguer."
+    ],
+    "tag": [
+      "GTA VI · MIAMI Y VICE CITY",
+      "GTA VI · MIAMI AND VICE CITY",
+      "GTA VI · MIAMI ET VICE CITY"
+    ],
+    "imageKeys": [
+      "vice-city",
+      "region-vice-city-02",
+      "region-vice-city-03"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La campaña real de GTA VI tiene un anuncio fechado",
+          "The real-world GTA VI campaign has a dated announcement",
+          "La campagne réelle GTA VI dispose d’une annonce datée"
+        ],
+        "paragraphs": [
+          [
+            "Miami-Dade anunció el 28 de octubre de 2026 un paquete de marketing y publicidad valorado en 3,9 millones de dólares estadounidenses, USD, vinculado al estreno de GTA VI del 19 de noviembre. FansGTA revisó el comunicado oficial el 3 de noviembre. No es una ampliación del mapa del juego ni un nuevo anuncio de hoy: es una campaña en el condado de Florida que inspira parte del contexto de Vice City.",
+            "Miami-Dade announced a marketing and advertising package valued at US$3.9 million on October 28, 2026, ahead of GTA VI’s November 19 release. FansGTA checked the official statement on November 3. This is neither an in-game map expansion nor a new announcement today: it is a campaign in the Florida county associated with Vice City’s real-world context.",
+            "Miami-Dade a annoncé le 28 octobre 2026 un dispositif marketing et publicitaire évalué à 3,9 millions de dollars américains, USD, avant la sortie GTA VI du 19 novembre. FansGTA a vérifié le communiqué le 3 novembre. Ce n’est ni une extension du jeu ni une annonce du jour : il s’agit d’une campagne réelle dans le comté de Floride."
+          ]
+        ],
+        "refs": [
+          "county",
+          "miami",
+          "official"
+        ]
+      },
+      {
+        "heading": [
+          "Los 975.000 dólares del Kaseya Center están dentro del total",
+          "The Kaseya Center’s $975,000 is included in the total",
+          "Les 975 000 dollars du Kaseya Center sont inclus dans le total"
+        ],
+        "paragraphs": [
+          [
+            "El comunicado incluye dentro de los 3,9 millones de USD el acuerdo anterior de 975.000 USD para el rótulo Welcome to Vice City sobre el Kaseya Center. No corresponde sumar ambas cifras como si fueran contratos independientes. También distingue el acuerdo del condado de compras publicitarias realizadas mediante empresas que gestionan espacios en el aeropuerto y el transporte. El paquete no significa que todo ese importe llegue de una sola vez a una única caja pública.",
+            "The statement includes the earlier US$975,000 Kaseya Center Welcome to Vice City rooftop arrangement within the US$3.9 million package. Adding both figures would double-count part of the total. It also distinguishes the county agreement from advertising bought through airport and transportation media operators. The package does not establish that its entire value reaches one public account in a single payment.",
+            "Le communiqué inclut l’accord antérieur de 975 000 USD pour l’inscription Welcome to Vice City sur le Kaseya Center dans les 3,9 millions USD. Additionner les deux reviendrait à compter deux fois une partie du total. Il distingue aussi accord du comté et achats auprès d’opérateurs publicitaires de l’aéroport et des transports. Cela ne prouve pas un versement intégral unique à une caisse publique."
+          ]
+        ],
+        "refs": [
+          "county"
+        ]
+      },
+      {
+        "heading": [
+          "Qué lugares forman parte de los planes",
+          "Which locations are in the plans",
+          "Quels lieux figurent dans les projets"
+        ],
+        "paragraphs": [
+          [
+            "El interés visual está en varios espacios de paso, no solo en un cartel. El comunicado habla de instalaciones previstas y señala que diseños e instalaciones quedan sujetos a aprobación y normas del condado. La tabla no es una lista de visitas disponibles ni un calendario de inauguraciones.",
+            "The visual campaign extends beyond one sign into several travel spaces. The release describes planned installations and says designs remain subject to county approval and content rules. This table is neither an open-attraction list nor an inauguration timetable.",
+            "La campagne dépasse une seule enseigne et vise plusieurs espaces de passage. Le communiqué décrit des projets soumis aux approbations et règles du comté. Ce tableau n’est ni une liste d’attractions ouvertes ni un calendrier d’inauguration."
+          ]
+        ],
+        "refs": [
+          "county",
+          "miami"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Lugar",
+              "Location",
+              "Lieu"
+            ],
+            [
+              "Qué describe el comunicado",
+              "What the release describes",
+              "Description du communiqué"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Miami International Airport",
+                "Miami International Airport",
+                "Miami International Airport"
+              ],
+              [
+                "Iluminación temática y publicidad en pasarelas entre aparcamientos y terminales.",
+                "Themed lighting and walkway advertising between parking and terminals.",
+                "Éclairage thématique et publicité dans les passerelles entre parkings et terminaux."
+              ]
+            ],
+            [
+              [
+                "PortMiami",
+                "PortMiami",
+                "PortMiami"
+              ],
+              [
+                "Elementos e iluminación promocionales previstos.",
+                "Planned promotional lighting and installations.",
+                "Éclairage et éléments promotionnels prévus."
+              ]
+            ],
+            [
+              [
+                "Armarios de semáforos seleccionados",
+                "Selected traffic-signal cabinets",
+                "Certaines armoires de signalisation"
+              ],
+              [
+                "Revestimientos decorativos; no todos los semáforos del condado.",
+                "Decorative wraps, not every traffic signal in the county.",
+                "Habillages décoratifs, pas tous les feux du comté."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Quién paga la producción y qué se dice del parque",
+          "Who covers production and what is said about the park",
+          "Qui finance la production et que dit-on du parc ?"
+        ],
+        "paragraphs": [
+          [
+            "Según el condado, Rockstar cubre costes de instalación, mantenimiento y retirada bajo su acuerdo. El comunicado vincula fondos del acuerdo anterior del Kaseya Center con el desarrollo del parque Dan Paul Plaza detrás del recinto. Asignar fondos y terminar un parque son hechos distintos: no anunciamos una apertura, un presupuesto final de obras o un parque ya construido.",
+            "The county says Rockstar covers installation, maintenance and removal under its agreement. Its statement links funds from the earlier Kaseya Center arrangement to developing Dan Paul Plaza behind the venue. Allocating money is distinct from completing a park; no opening date, final construction budget or completed park is claimed here.",
+            "Le comté indique que Rockstar couvre installation, maintenance et retrait dans le cadre de l’accord. Il relie les fonds de l’accord antérieur du Kaseya Center au développement de Dan Paul Plaza derrière l’enceinte. Affecter des fonds ne signifie pas terminer un parc : aucune ouverture, enveloppe finale de travaux ou réalisation achevée n’est annoncée ici."
+          ]
+        ],
+        "refs": [
+          "county"
+        ]
+      },
+      {
+        "heading": [
+          "Miami, Miami Beach y Miami-Dade no son un único acuerdo",
+          "Miami, Miami Beach and Miami-Dade are not one agreement",
+          "Miami, Miami Beach et Miami-Dade : des accords distincts"
+        ],
+        "paragraphs": [
+          [
+            "La fuente oficial también menciona acuerdos separados de las ciudades de Miami y Miami Beach, entre ellos publicidad temporal en el centro y en equipamientos de concesiones de playa. No los convertimos en parte automática del total del condado ni en una lista de nuevas localizaciones jugables. La campaña promociona GTA VI en espacios reales; los barrios de Vice City siguen siendo un tema distinto.",
+            "The official release also mentions separate arrangements by Miami and Miami Beach, including downtown banners and advertising on beach-concession equipment. They are not automatically added to the county total or treated as newly playable locations. This campaign markets GTA VI in real spaces; Vice City’s game districts are a separate subject.",
+            "La source mentionne aussi des accords séparés des villes de Miami et Miami Beach, avec bannières temporaires et publicité sur équipements de concessions de plage. Ils ne sont pas automatiquement ajoutés au total du comté ni traités comme nouveaux lieux jouables. La campagne réelle et les quartiers du jeu restent distincts."
+          ]
+        ],
+        "refs": [
+          "county",
+          "related-vice-city"
+        ]
+      },
+      {
+        "heading": [
+          "Qué muestran nuestras imágenes y qué no muestran",
+          "What our images do and do not show",
+          "Ce que montrent nos images"
+        ],
+        "paragraphs": [
+          [
+            "Las imágenes de esta noticia son capturas auténticas de Vice City publicadas por Rockstar. Ilustran la relación temática con Miami, pero no son fotografías del aeropuerto, el puerto o un montaje publicitario terminado. El condado enlaza diseños conceptuales: una propuesta visual tampoco prueba que una instalación ya funcione o permanezca accesible en una fecha concreta.",
+            "This story uses authentic Rockstar Vice City screenshots. They illustrate the Miami connection rather than photographing the airport, port or completed advertising. The county links conceptual designs; a proposal likewise does not establish that an installation is operating or accessible on a particular date.",
+            "Nos images sont d’authentiques captures Vice City de Rockstar. Elles illustrent le lien avec Miami, sans photographier aéroport, port ou publicité terminée. Le comté lie des rendus conceptuels ; un projet ne prouve pas non plus une installation en service ou accessible à une date précise."
+          ]
+        ],
+        "refs": [
+          "county",
+          "gallery"
+        ]
+      },
+      {
+        "heading": [
+          "Por qué esta campaña interesa fuera del videojuego",
+          "Why the campaign matters beyond the game",
+          "L’intérêt de la campagne au-delà du jeu"
+        ],
+        "paragraphs": [
+          [
+            "El anuncio permite seguir cómo una ficción utiliza su referente geográfico para promocionarse y cómo las administraciones describen los ingresos asociados. Es una señal de conversación sobre GTA VI fuera de las consolas, no una medición de ventas ni una prueba de que cualquier foto compartida sea oficial. Para valorar nuevos carteles, contrasta lugar, fecha y procedencia antes de asociarlos a un evento confirmado.",
+            "The announcement shows how fiction uses its geographic inspiration for marketing and how authorities describe associated revenue. It signals a GTA VI conversation beyond consoles, rather than measuring sales or authenticating every shared photo. Check location, date and source before treating a new sign as a confirmed event.",
+            "L’annonce montre comment une fiction mobilise son inspiration géographique et comment les autorités présentent les recettes associées. Elle témoigne d’une conversation au-delà des consoles, sans mesurer les ventes ni authentifier toute photo partagée. Vérifiez lieu, date et source avant d’en déduire un événement confirmé."
+          ]
+        ],
+        "refs": [
+          "county",
+          "miami",
+          "related-release"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "nike-rumour",
+    "category": "news",
+    "slug": [
+      "rumor-gta-6-nike-travis-scott-air-force-1",
+      "rumour-gta-6-nike-travis-scott-air-force-1",
+      "rumeur-gta-6-nike-travis-scott-air-force-1"
+    ],
+    "title": [
+      "Rumor: GTA 6, Nike y Travis Scott prepararían unas Air Force 1",
+      "Rumour: GTA 6, Nike and Travis Scott Air Force 1s reported",
+      "Rumeur : des Nike Air Force 1 GTA 6 avec Travis Scott"
+    ],
+    "excerpt": [
+      "Reportes apuntan a tres Air Force 1 de Cactus Jack, Nike y Rockstar. Revisamos origen, fecha rumoreada y por qué aún no son una reserva oficial.",
+      "Reports point to three Cactus Jack, Nike and Rockstar Air Force 1s. The original sources, rumoured date and why this is not an official preorder guide.",
+      "Des sources évoquent trois Air Force 1 Cactus Jack, Nike et Rockstar. Origine, date rapportée et limites d’une collaboration encore traitée comme rumeur."
+    ],
+    "tag": [
+      "RUMOR · GTA VI Y MODA",
+      "RUMOUR · GTA VI AND FASHION",
+      "RUMEUR · GTA VI ET MODE"
+    ],
+    "imageKeys": [
+      "feature-couple",
+      "feature-bike",
+      "feature-bar"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "La colaboración se trata como rumor, no como anuncio de Nike",
+          "The collaboration is treated as a rumour, not a Nike announcement",
+          "Une rumeur, pas une annonce Nike"
+        ],
+        "paragraphs": [
+          [
+            "Nike, Cactus Jack de Travis Scott y Rockstar Games estarían preparando unas Air Force 1 relacionadas con GTA VI, según reportes de Sneaker Market y Sole Retriever iniciados el 31 de octubre de 2026. Es un rumor: esta noticia no confirma disponibilidad, precio oficial por país ni una venta abierta. FansGTA revisó las fuentes el 3 de noviembre y conserva sus fechas originales.",
+            "Nike, Travis Scott’s Cactus Jack and Rockstar Games are reportedly preparing GTA VI-related Air Force 1s, according to Sneaker Market and Sole Retriever reports beginning October 31, 2026. This is a rumour, not confirmation of availability, official regional pricing or an open sale. FansGTA checked the sources on November 3 while retaining their original dates.",
+            "Nike, Cactus Jack de Travis Scott et Rockstar Games prépareraient des Air Force 1 liées à GTA VI, selon des reportages Sneaker Market et Sole Retriever lancés le 31 octobre 2026. C’est une rumeur, sans confirmation de disponibilité, prix régional officiel ou vente ouverte. FansGTA a vérifié les sources le 3 novembre en conservant leurs dates."
+          ]
+        ],
+        "refs": [
+          "sneaker-origin",
+          "sneakers",
+          "sneaker-original"
+        ]
+      },
+      {
+        "heading": [
+          "La cadena de fuentes: reportes de zapatillas y calendarios citados",
+          "The source chain: sneaker reports and cited calendars",
+          "La chaîne des sources : reportages et calendriers cités"
+        ],
+        "paragraphs": [
+          [
+            "Sneaker Market describe documentos y calendarios comerciales como origen de su información. Sole Retriever menciona dos modelos que habrían aparecido en el calendario de la tienda canadiense Livestock bajo la etiqueta Nike x Cactus Jack x RS y atribuye el tercero a Sneaker Market. Ese es el alcance del reporte: no hemos autenticado sus documentos internos ni completado una compra de esos productos.",
+            "Sneaker Market cites documents and retail calendars. Sole Retriever describes two pairs reportedly listed by Canadian retailer Livestock as Nike x Cactus Jack x RS and attributes the third to Sneaker Market. We have neither authenticated those internal documents nor completed a purchase of the products.",
+            "Sneaker Market cite documents et calendriers commerciaux. Sole Retriever décrit deux modèles qui auraient figuré chez le revendeur canadien Livestock sous Nike x Cactus Jack x RS et attribue le troisième à Sneaker Market. Nous n’avons ni authentifié ces documents internes ni acheté ces produits."
+          ],
+          [
+            "Las letras RS y la relación con Rockstar forman parte de la interpretación descrita por los reportes. Que varios medios la repitan no sustituye un anuncio público de las marcas con condiciones de venta. Enlazamos la fuente especializada y su publicación original, en lugar de usar una fotografía filtrada como prueba definitiva.",
+            "The RS interpretation and Rockstar connection are part of the reporting. Repetition across outlets does not replace a public brand announcement with sales terms. We link the specialist source and original post instead of using a leaked photo as definitive proof.",
+            "L’interprétation de RS et le lien Rockstar font partie du reportage. Leur répétition ne remplace pas une annonce publique des marques et ses conditions. Nous lions la source spécialisée et sa publication originale sans utiliser une photo filtrée comme preuve définitive."
+          ]
+        ],
+        "refs": [
+          "sneaker-origin",
+          "sneakers",
+          "sneaker-original"
+        ]
+      },
+      {
+        "heading": [
+          "Los tres colores reportados",
+          "The three reported colourways",
+          "Les trois coloris rapportés"
+        ],
+        "paragraphs": [
+          [
+            "Estos nombres identifican lo que describen las fuentes, no un catálogo oficial de FansGTA. No asignamos tallas, cantidades fabricadas o disponibilidad a cada país. Tampoco deducimos funciones de GTA VI a partir de estrellas o dibujos que aparezcan en unas supuestas zapatillas.",
+            "These names identify what the sources describe, not an official FansGTA catalogue. We assign no sizes, production quantities or country availability. Stars or graphics on alleged shoes also establish no GTA VI gameplay feature.",
+            "Ces noms reprennent les sources, pas un catalogue officiel FansGTA. Nous n’attribuons ni tailles, volumes fabriqués ou disponibilité par pays. Étoiles ou graphismes d’une chaussure supposée ne prouvent aucune mécanique GTA VI."
+          ]
+        ],
+        "refs": [
+          "sneaker-origin",
+          "sneakers"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Nombre reportado",
+              "Reported name",
+              "Nom rapporté"
+            ],
+            [
+              "Alcance",
+              "Status",
+              "Portée"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Black / Fire Pink",
+                "Black / Fire Pink",
+                "Black / Fire Pink"
+              ],
+              [
+                "Modelo descrito por fuentes especializadas; lanzamiento sin verificar por FansGTA.",
+                "Specialist report; release not verified by FansGTA.",
+                "Modèle décrit par des sources spécialisées ; lancement non vérifié par FansGTA."
+              ]
+            ],
+            [
+              [
+                "White / Fire Pink",
+                "White / Fire Pink",
+                "White / Fire Pink"
+              ],
+              [
+                "Color reportado, sin garantía de unidades o tallas.",
+                "Reported colourway, no stock or size guarantee.",
+                "Coloris rapporté, sans garantie de stock ou de tailles."
+              ]
+            ],
+            [
+              [
+                "Multi-Color",
+                "Multi-Color",
+                "Multi-Color"
+              ],
+              [
+                "Tercera variante reportada, no una compra disponible confirmada.",
+                "Third reported variant, not a confirmed available purchase.",
+                "Troisième variante rapportée, pas un achat disponible confirmé."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "El 19 de noviembre es una fecha reportada para las zapatillas",
+          "November 19 is a reported sneaker date",
+          "Le 19 novembre est une date rapportée pour les chaussures"
+        ],
+        "paragraphs": [
+          [
+            "Las fuentes sitúan la posible salida de las Air Force 1 el 19 de noviembre de 2026, coincidiendo con el estreno del juego. La fecha oficial de GTA VI no confirma por sí sola el calendario de una colaboración comercial. Una tienda podría cambiar una ficha o limitar mercados: no trasladamos la fecha del videojuego a una garantía de entrega de zapatillas.",
+            "Sources place the possible sneaker release on November 19, 2026, alongside the game. GTA VI’s official date does not itself confirm a collaboration’s retail calendar. A retailer could change a listing or limit markets; the game date is not a sneaker-delivery guarantee.",
+            "Les sources situent une sortie possible au 19 novembre 2026, comme le jeu. La date officielle GTA VI ne confirme pas à elle seule un calendrier commercial. Une fiche peut changer ou limiter ses marchés ; la date du jeu ne garantit aucune livraison de chaussures."
+          ]
+        ],
+        "refs": [
+          "sneaker-origin",
+          "sneakers",
+          "related-release"
+        ]
+      },
+      {
+        "heading": [
+          "Precio, reservas y tiendas: qué falta para recomendar una compra",
+          "Price, preorders and stores: what a purchase recommendation needs",
+          "Prix, précommandes et boutiques : les éléments manquants"
+        ],
+        "paragraphs": [
+          [
+            "Los importes que circulan son cifras de reportes, no una tarifa oficial que hayamos comprobado para tu mercado. Esta guía no convierte monedas ni ofrece un enlace de reserva como si estuviera abierto. Para evaluar una compra harán falta vendedor autorizado, país de entrega, moneda, precio final, tallas y condiciones. El idioma de un artículo no determina esos datos.",
+            "Circulating amounts are reported figures, not an official price we have verified for your market. We neither convert currencies nor present a preorder link as open. A purchase assessment needs an authorised seller, destination, currency, final price, sizing and terms. An article’s language does not supply those details.",
+            "Les montants en circulation sont rapportés, pas un tarif officiel vérifié pour votre marché. Nous ne convertissons pas les monnaies et ne présentons aucune précommande comme ouverte. Il faudra vendeur autorisé, destination, devise, prix final, tailles et conditions ; la langue d’un article ne les détermine pas."
+          ]
+        ],
+        "refs": [
+          "sneaker-origin",
+          "sneakers"
+        ]
+      },
+      {
+        "heading": [
+          "Una colaboración de moda no prueba un personaje jugable",
+          "A fashion collaboration does not prove a playable character",
+          "Une collaboration de mode ne prouve pas un personnage jouable"
+        ],
+        "paragraphs": [
+          [
+            "Un producto promocional, una participación musical y un papel dentro de la historia son afirmaciones distintas. Este rumor no demuestra que Travis Scott sea un protagonista o que sus supuestas zapatillas den ventajas en la campaña. Tampoco convierte una imagen de ropa del juego en una fotografía del producto. Las tres capturas oficiales de esta página ilustran GTA VI y no muestran las Air Force 1 reportadas.",
+            "Merchandise, music participation and a story role are separate claims. This rumour establishes neither a playable Travis Scott protagonist nor campaign perks from alleged shoes. Game clothing imagery is not a product photograph. This page’s three official screenshots illustrate GTA VI rather than the reported Air Force 1s.",
+            "Produit promotionnel, musique et rôle narratif sont des affirmations distinctes. La rumeur ne prouve ni protagoniste jouable Travis Scott ni bonus de campagne lié aux chaussures. Un vêtement dans le jeu n’est pas une photo produit. Nos trois captures officielles illustrent GTA VI, pas ces Air Force 1 supposées."
+          ]
+        ],
+        "refs": [
+          "sneakers",
+          "related-album",
+          "related-appearance"
+        ]
+      },
+      {
+        "heading": [
+          "Qué comprobar si aparece un anuncio oficial",
+          "What to check if an official announcement appears",
+          "Que vérifier lors d’une éventuelle annonce officielle"
+        ],
+        "paragraphs": [
+          [
+            "Busca una publicación de las marcas o una ficha verificable que identifique el modelo y las condiciones de tu región. Si aparece nueva información, esta noticia podrá actualizarse sin crear otro rumor idéntico. Hasta entonces, los colores y la fecha son datos atribuidos a terceros, y las imágenes filtradas o recreaciones no se utilizan aquí como portada oficial.",
+            "Look for a brand announcement or verifiable listing identifying the model and regional terms. This story can be updated if evidence appears, without duplicating the rumour. Until then, colours and dates remain attributed reports, and leaked or recreated imagery is not used as official cover art.",
+            "Recherchez une annonce des marques ou une fiche vérifiable précisant modèle et conditions régionales. Cet article pourra être actualisé sans doublon. D’ici là, coloris et dates restent attribués à des tiers ; aucune image filtrée ou recréée n’est utilisée comme couverture officielle."
+          ]
+        ],
+        "refs": [
+          "sneaker-origin",
+          "sneakers",
+          "sneaker-original"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "review-embargo",
+    "category": "news",
+    "slug": [
+      "rumor-gta-6-fecha-analisis-embargo-notas",
+      "rumour-gta-6-review-embargo-date-scores",
+      "rumeur-gta-6-date-tests-embargo-notes"
+    ],
+    "title": [
+      "Rumor: los análisis de GTA 6 llegarían el 18 de noviembre",
+      "Rumour: GTA 6 reviews may arrive on November 18",
+      "Rumeur : les tests de GTA 6 arriveraient le 18 novembre"
+    ],
+    "excerpt": [
+      "NateTheHate e Insider Gaming sitúan los análisis de GTA 6 el 18 de noviembre. Qué está reportado, qué no confirma Rockstar y cómo leer futuras notas.",
+      "NateTheHate and Insider Gaming place GTA 6 reviews on November 18. The report, Rockstar’s unconfirmed embargo details and how to assess future scores.",
+      "NateTheHate et Insider Gaming évoquent des tests GTA 6 le 18 novembre. Informations rapportées, limites de confirmation et lecture des futures notes."
+    ],
+    "tag": [
+      "RUMOR · ANÁLISIS Y EMBARGO",
+      "RUMOUR · REVIEWS AND EMBARGO",
+      "RUMEUR · TESTS ET EMBARGO"
+    ],
+    "imageKeys": [
+      "feature-driver",
+      "feature-fight",
+      "feature-aiming"
+    ],
+    "sections": [
+      {
+        "heading": [
+          "El 18 de noviembre es una fecha reportada, no un embargo oficial aquí verificado",
+          "November 18 is reported, not an official embargo verified here",
+          "Le 18 novembre est rapporté, pas un embargo officiel vérifié ici"
+        ],
+        "paragraphs": [
+          [
+            "Los análisis de GTA VI se publicarían el 18 de noviembre de 2026, según NateTheHate e Insider Gaming. Lo tratamos como rumor sobre el calendario de prensa: no hemos verificado un comunicado de Rockstar con esa fecha y una hora de embargo. La revisión de FansGTA es del 3 de noviembre; el reporte original del 26 de octubre no se presenta como una revelación de hoy.",
+            "GTA VI reviews may publish on November 18, 2026, according to NateTheHate and Insider Gaming. We treat this as a reported press-schedule rumour, without a verified Rockstar statement confirming that date and an embargo time. FansGTA checked it November 3; the original October 26 report is not presented as today’s reveal.",
+            "Les tests GTA VI paraîtraient le 18 novembre 2026 selon NateTheHate et Insider Gaming. Nous traitons ce calendrier comme une rumeur rapportée, sans communiqué Rockstar vérifié fixant date et heure d’embargo. Vérification FansGTA le 3 novembre : le reportage du 26 octobre n’est pas présenté comme une révélation du jour."
+          ]
+        ],
+        "refs": [
+          "review-original",
+          "reviews",
+          "official"
+        ]
+      },
+      {
+        "heading": [
+          "La fuente original y la verificación que afirma el medio",
+          "The original source and the outlet’s stated verification",
+          "La source originale et la vérification revendiquée par le média"
+        ],
+        "paragraphs": [
+          [
+            "NateTheHate publicó el 26 de octubre que Rockstar había comenzado a distribuir códigos de prensa y situó el embargo el 18 de noviembre. Ese mismo día, Insider Gaming afirmó que podía verificar el reporte de forma independiente. Esa es una afirmación del medio: FansGTA enlaza ambas fuentes, pero no afirma haber recibido un código, leído un contrato de prensa o comprobado ese embargo por cuenta propia.",
+            "NateTheHate posted October 26 that Rockstar had begun distributing review codes and named November 18 for the embargo. Insider Gaming said that day it could independently verify the report. That is the outlet’s assertion: FansGTA links both sources without claiming its own code, press agreement or independent embargo verification.",
+            "NateTheHate a écrit le 26 octobre que Rockstar distribuait des codes presse et a cité le 18 novembre. Insider Gaming a affirmé le même jour pouvoir vérifier l’information indépendamment. C’est l’affirmation du média : FansGTA lie les deux sources sans revendiquer code, contrat presse ou vérification indépendante de l’embargo."
+          ],
+          [
+            "La fecha de estreno del juego y la de publicación de análisis tampoco son intercambiables. Rockstar mantiene el lanzamiento de GTA VI el 19 de noviembre; disponer de una copia de prensa no significa que un comprador tenga acceso anticipado.",
+            "The game’s release and review publication are separate dates. Rockstar lists November 19 for GTA VI; press access does not establish early access for retail buyers.",
+            "Sortie du jeu et publication des tests sont distinctes. Rockstar annonce GTA VI pour le 19 novembre ; un accès presse ne donne pas d’accès anticipé aux acheteurs."
+          ]
+        ],
+        "refs": [
+          "review-original",
+          "reviews",
+          "related-release"
+        ]
+      },
+      {
+        "heading": [
+          "Análisis, avance y nota de usuarios: tres cosas distintas",
+          "Review, preview and user score: three different things",
+          "Test, aperçu et note utilisateurs : trois notions"
+        ],
+        "paragraphs": [
+          [
+            "Para interpretar lo que aparezca en buscadores, comprueba qué tipo de pieza estás leyendo. Un tráiler o una demostración observada puede aportar información real sin ser un análisis de la versión final. Tampoco una puntuación mostrada en una captura aislada valida una media de críticas.",
+            "Check the type of coverage in search results. A trailer or observed demonstration can supply real information without being a final-version review. A score in an isolated screenshot likewise does not verify a review aggregate.",
+            "Vérifiez le type de contenu affiché en recherche. Une bande-annonce ou démonstration observée peut informer sans tester la version finale. Une note dans une capture isolée ne valide pas davantage une moyenne critique."
+          ]
+        ],
+        "refs": [
+          "reviews",
+          "related-trailers"
+        ],
+        "table": {
+          "headers": [
+            [
+              "Tipo",
+              "Type",
+              "Type"
+            ],
+            [
+              "Qué deberías buscar",
+              "What to look for",
+              "Éléments à vérifier"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Avance",
+                "Preview",
+                "Aperçu"
+              ],
+              [
+                "Condiciones de la demostración y límites de lo observado.",
+                "Demonstration conditions and limits of observation.",
+                "Conditions de démonstration et limites de l’observation."
+              ]
+            ],
+            [
+              [
+                "Análisis",
+                "Review",
+                "Test"
+              ],
+              [
+                "Plataforma, versión, método y explicación de la valoración.",
+                "Platform, version, method and reasoning.",
+                "Plateforme, version, méthode et justification."
+              ]
+            ],
+            [
+              [
+                "Nota de usuarios",
+                "User score",
+                "Note utilisateurs"
+              ],
+              [
+                "Origen, fecha y reglas del servicio que la publica.",
+                "Origin, date and the service’s scoring rules.",
+                "Origine, date et règles du service de notation."
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "La discusión sobre marcas de agua no prueba una nota",
+          "The watermark dispute establishes no score",
+          "Le débat sur les filigranes ne prouve aucune note"
+        ],
+        "paragraphs": [
+          [
+            "Otro rumor de finales de octubre hablaba de nombres de periodistas como marcas de agua en las copias. Notebookcheck recogió el 29 de octubre las objeciones de Tom Henderson y NateTheHate a esa versión. No adoptamos la afirmación inicial como una política de Rockstar confirmada, ni especulamos sobre mecanismos privados. Este debate tampoco revela si el juego gustará o qué puntuación tendrá.",
+            "A separate late-October claim described reviewer-name watermarks. Notebookcheck reported Tom Henderson and NateTheHate disputing that version on October 29. We do not adopt the initial claim as confirmed Rockstar policy or speculate about private security mechanisms. That dispute establishes no verdict or score.",
+            "Une autre affirmation de fin octobre évoquait des filigranes nominatifs. Notebookcheck a rapporté le 29 octobre les objections de Tom Henderson et NateTheHate. Nous ne transformons pas l’allégation initiale en politique Rockstar confirmée et ne spéculons pas sur des mécanismes privés. Ce débat ne révèle aucune appréciation ou note."
+          ]
+        ],
+        "refs": [
+          "watermark-update",
+          "review-original"
+        ]
+      },
+      {
+        "heading": [
+          "Cómo comparar futuros análisis sin inventar rendimiento",
+          "Comparing future reviews without inventing performance",
+          "Comparer les futurs tests sans inventer les performances"
+        ],
+        "paragraphs": [
+          [
+            "Cuando existan análisis, mira la plataforma concreta, el estado de actualización y si las conclusiones distinguen historia, controles y rendimiento. Una captura promocional no mide FPS. Tampoco trasladamos a GTA VI las notas de GTA V o GTA IV, ni promediamos rumores para fabricar una puntuación. Nuestra guía de PS5 Pro conserva las preguntas de rendimiento como tales mientras falten pruebas verificadas.",
+            "When reviews exist, check the tested platform, update state and whether they distinguish story, controls and performance. Promotional screenshots do not measure FPS. We neither transfer older GTA scores nor average rumours into a verdict. Our PS5 Pro guide retains performance questions as questions until verifiable tests exist.",
+            "Lorsque les tests existeront, vérifiez plateforme, mise à jour et distinction entre histoire, commandes et performances. Une image promotionnelle ne mesure pas les FPS. Nous ne transférons pas les notes des anciens GTA et ne fabriquons aucune moyenne de rumeurs. Notre guide PS5 Pro conserve les questions de performances tant que les preuves manquent."
+          ]
+        ],
+        "refs": [
+          "reviews",
+          "related-pro"
+        ]
+      },
+      {
+        "heading": [
+          "Evitar spoilers sin confundir silencio con mala señal",
+          "Avoiding spoilers without treating silence as a verdict",
+          "Éviter les spoilers sans interpréter le silence comme un verdict"
+        ],
+        "paragraphs": [
+          [
+            "Puedes decidir leer solo apartados técnicos o una conclusión sin historia cuando se publiquen. Comprueba antes cómo cada medio etiqueta escenas, personajes y finales. Si todavía no aparecen análisis, un supuesto embargo o un cambio de horario no demuestra por sí solo un problema del juego. Esta página no publica filtraciones ni describe finales para aprovechar la búsqueda de notas.",
+            "Once reviews publish, you can choose technical sections or spoiler-free conclusions. Check how outlets label scenes, characters and endings. Before publication, an alleged embargo or schedule change does not itself prove a game problem. This page publishes neither leaks nor endings to capture review searches.",
+            "Vous pourrez choisir parties techniques ou conclusions sans récit lors de leur publication. Vérifiez l’étiquetage des scènes, personnages et fins. Avant publication, un embargo supposé ou changement d’horaire ne démontre pas à lui seul un défaut du jeu. Cette page ne publie ni fuites ni fins pour capter la recherche de notes."
+          ]
+        ],
+        "refs": [
+          "related-spoilers",
+          "reviews"
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes: hora, Metacritic y copias de prensa",
+          "FAQ: embargo time, scores and review copies",
+          "Questions : heure, notes et copies presse"
+        ],
+        "paragraphs": [
+          [
+            "¿A qué hora salen los análisis? Las fuentes citadas no permiten fijar aquí una hora oficial mundial. ¿Ya hay una nota de GTA VI validada por esta página? No publicamos ninguna. ¿Una captura de un agregado basta? Revisa la página original y su fecha. ¿FansGTA está jugando una copia de prensa? Esta noticia no afirma eso: sus imágenes son material promocional oficial y sus hechos están atribuidos a las fuentes enlazadas.",
+            "What time do reviews publish? These sources establish no official worldwide hour here. Does this page validate a GTA VI score? No score is published. Is an aggregate screenshot enough? Check the original page and date. Is FansGTA playing a review copy? This story claims no such access: the imagery is official promotional material and reporting is attributed.",
+            "À quelle heure paraîtront les tests ? Ces sources ne fixent ici aucune heure mondiale officielle. Cette page valide-t-elle une note GTA VI ? Aucune note n’est publiée. Une capture d’agrégateur suffit-elle ? Vérifiez sa page originale et sa date. FansGTA joue-t-il une copie presse ? Cet article ne revendique aucun accès : images promotionnelles officielles et informations attribuées."
+          ]
+        ],
+        "refs": [
+          "review-original",
+          "reviews",
+          "gallery"
+        ]
+      }
+    ]
+  }
+]

@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-download-duration-20261103",
+    "category": "guides",
+    "published": "2026-11-03",
+    "titles": [
+      "Cuánto tarda en descargar GTA 6: estimaciones para hasta 212 GB",
+      "GTA 6 download time: estimates for up to 212 GB",
+      "Temps de téléchargement GTA 6 : estimations jusqu’à 212 Go"
+    ],
+    "paths": [
+      "/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+      "/en/guides/gta-6-download-time-212-gb/",
+      "/fr/guides/gta-6-temps-telechargement-212-go/"
+    ]
+  },
+  {
+    "id": "gta6-printable-map-20261103",
+    "category": "guides",
+    "published": "2026-11-03",
+    "titles": [
+      "Mapa de GTA 6 para descargar: fecha y póster oficial de Leonida",
+      "GTA 6 map download: official Leonida poster and release date",
+      "Carte GTA 6 à télécharger : affiche officielle et date annoncée"
+    ],
+    "paths": [
+      "/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
+      "/en/guides/gta-6-leonida-map-poster-official-download/",
+      "/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/"
+    ]
+  },
+  {
+    "id": "gta6-miami-campaign-20261103",
+    "category": "news",
+    "published": "2026-11-03",
+    "titles": [
+      "GTA 6 transforma Miami: qué incluye el acuerdo de 3,9 millones",
+      "GTA 6 in Miami: what the $3.9 million advertising package covers",
+      "GTA 6 à Miami : le contenu du dispositif publicitaire à 3,9 millions"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+      "/en/news/gta-6-miami-advertising-vice-city-agreement/",
+      "/fr/actualites/gta-6-miami-publicite-accord-vice-city/"
+    ]
+  },
+  {
+    "id": "gta6-nike-rumour-20261103",
+    "category": "news",
+    "published": "2026-11-03",
+    "titles": [
+      "Rumor: GTA 6, Nike y Travis Scott prepararían unas Air Force 1",
+      "Rumour: GTA 6, Nike and Travis Scott Air Force 1s reported",
+      "Rumeur : des Nike Air Force 1 GTA 6 avec Travis Scott"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-nike-travis-scott-air-force-1/",
+      "/en/news/rumour-gta-6-nike-travis-scott-air-force-1/",
+      "/fr/actualites/rumeur-gta-6-nike-travis-scott-air-force-1/"
+    ]
+  },
+  {
+    "id": "gta6-review-embargo-20261103",
+    "category": "news",
+    "published": "2026-11-03",
+    "titles": [
+      "Rumor: los análisis de GTA 6 llegarían el 18 de noviembre",
+      "Rumour: GTA 6 reviews may arrive on November 18",
+      "Rumeur : les tests de GTA 6 arriveraient le 18 novembre"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+      "/en/news/rumour-gta-6-review-embargo-date-scores/",
+      "/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/"
+    ]
+  },
+  {
     "id": "gta6-walmart-surprise-bag-20261102",
     "category": "news",
     "published": "2026-11-02",
@@ -222,7 +297,8 @@
       "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
       "/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
       "/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/"
-    ]
+    ],
+    "updated": "2026-11-03"
   },
   {
     "id": "gta6-xbox-storage-20261101",
@@ -237,7 +313,8 @@
       "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
       "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
       "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/"
-    ]
+    ],
+    "updated": "2026-11-03"
   },
   {
     "id": "gta6-preorder-cancel-20261101",
@@ -1595,30 +1672,32 @@
     "category": "news",
     "published": "2026-10-28",
     "titles": [
-      "Rumor: la descarga de GTA 6 en PS5 podría rondar los 210 GB",
-      "Rumour: GTA 6 could be a 210 GB PS5 download — what remains unconfirmed",
-      "Rumeur : GTA 6 pèserait 210 Go sur PS5, ce qui reste à confirmer"
+      "GTA 6 necesita hasta 212 GB: tamaño oficial de la precarga",
+      "GTA 6 needs up to 212 GB: official preload storage requirement",
+      "GTA 6 demande jusqu’à 212 Go : espace officiel du préchargement"
     ],
     "paths": [
       "/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
       "/en/news/rumour-gta-6-210gb-ps5-download-size/",
       "/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/"
-    ]
+    ],
+    "updated": "2026-11-03"
   },
   {
     "id": "gta6-preload-schedule-20261028",
     "category": "guides",
     "published": "2026-10-28",
     "titles": [
-      "Precarga de GTA 6: fecha, hora y preparación en PS5 y Xbox",
-      "GTA 6 preload: date, time and preparation on PS5 and Xbox",
-      "Préchargement de GTA 6 : date, heure et préparation sur PS5 et Xbox"
+      "Precarga de GTA 6: empieza el 10 de noviembre, horarios y cajas con código",
+      "GTA 6 preload: November 10 start, times and boxed codes",
+      "Préchargement GTA 6 : dès le 10 novembre, horaires et codes en boîte"
     ],
     "paths": [
       "/es/guias/precarga-gta-6-fecha-hora-consolas/",
       "/en/guides/gta-6-preload-date-time-consoles/",
       "/fr/guides/prechargement-gta-6-date-heure-consoles/"
-    ]
+    ],
+    "updated": "2026-11-03"
   },
   {
     "id": "gta6-physical-code-box-20261028",
@@ -1633,7 +1712,8 @@
       "/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
       "/en/guides/gta-6-physical-edition-no-disc-code/",
       "/fr/guides/gta-6-edition-physique-sans-disque-code/"
-    ]
+    ],
+    "updated": "2026-11-03"
   },
   {
     "id": "gta6-code-region-20261028",
