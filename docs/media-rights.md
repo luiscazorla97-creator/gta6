@@ -60,3 +60,8 @@ Existing authentic Vice City11 official screenshot reused unchanged; exact origi
 ## Manual five-topic batch — 2026-11-03
 
 Fourteen existing authentic GTA VI screenshots reused for fifteen placements across five new articles, with fresh localized alt/captions and linked Rockstar credit. Eighteen distinct originals across all affected new/updated guides rechecked HTTP200 and visually inspected, including the unchanged original official hero keyart; no decorative animated hero layer used. Original source URLs and ownership remain in public/media/credits.json. Official download/share context checked; copyrightreserved, no unrestrictedlicence claimed. Contextual game images are not measured downloads, the unpublished November19 mapfile, actualMiami ad photographs, Nikeproduct images or a FansGTA reviewcopy. No AI, mods, leakedimages or GTA V substitutes.
+
+
+## Daily regional release-time update — 2026-11-03
+
+Existing Vice City 11 authentic official screenshot retained unchanged as the launch-news cover. Its exact first-party original and official media/download-share page were checked HTTP 200 again; optimized 1600×900 WebP visually inspected. Source/ownership remain in public/media/credits.json. Translated descriptive alt/captions and linked Rockstar credit distinguish contextual game scenery from timing evidence, which comes from Rockstar Support. Copyright remains reserved; no unrestricted licence, AI image, mod, leaked build, GTA V substitution or edited hero layer is asserted or used.

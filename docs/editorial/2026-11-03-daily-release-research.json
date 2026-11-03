@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-03",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-03T22:57:23.750731+00:00",
+  "deadlineCheck": {
+    "localDate": "2026-11-03",
+    "lastAuthorizedDate": "2026-11-19",
+    "allowed": true
+  },
+  "request": "Daily single-theme execution: full ES/EN/FR publication or equivalent update. No schedule change.",
+  "status": "Prepared and checked; public verification pending",
+  "baseline": {
+    "mainCommit": "ef44644eabedbb3f41600c75b0b39af84cad0bdc",
+    "topics": 150,
+    "versions": 450,
+    "lastDaily": "2026-11-02 Walmart rumour",
+    "lastManualVerifiedAt": "2026-11-03T20:43:30.119213+00:00"
+  },
+  "runtime": {
+    "provider": "cloud",
+    "observedRevision": 8,
+    "observationsCurrent": true,
+    "networkPolicy": "unrestricted/enforced",
+    "credentialReadiness": "Cloudflare account and domain-bound token ready; actual Pages project GET succeeded, no credential values printed/requested. Connected GitHub tools available.",
+    "userPCRequired": false
+  },
+  "selectedTheme": {
+    "id": "gta-6-19-november-2026",
+    "action": "Update equivalent launch-date report; do not add duplicate release-hour URLs",
+    "originalPublication": "2026-10-27",
+    "actualUpdate": "2026-11-03",
+    "titles": [
+      "GTA 6: Rockstar confirma la hora de lanzamiento por regiones",
+      "GTA 6 release time: Rockstar confirms local midnight",
+      "Heure de sortie de GTA 6 : Rockstar confirme minuit local"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-19-november-2026/",
+      "/en/news/gta-6-19-november-2026/",
+      "/fr/actualites/gta-6-19-november-2026/"
+    ]
+  },
+  "sourceChecks": [
+    {
+      "key": "regional",
+      "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
+      "status": 200,
+      "bytes": 156019,
+      "sha256": "9e977f73234395b26e72db38b54452f805c4295a66efb999244afae612af4b50",
+      "checkedAt": "2026-11-03T22:53:22.826015+00:00"
+    },
+    {
+      "key": "preload",
+      "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+      "status": 200,
+      "bytes": 183857,
+      "sha256": "efcbb91cfbdef9e374be5b438dc3bb88b1c3b28183925b916c51f451fe4150f6",
+      "checkedAt": "2026-11-03T22:53:23.087006+00:00"
+    },
+    {
+      "key": "rockstar",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "bytes": 1224337,
+      "sha256": "4ea3ee6b7e67c85dbf03539785e697b827a0f3e4e36e36dc8120eebd6861485d",
+      "checkedAt": "2026-11-03T22:53:23.450463+00:00"
+    },
+    {
+      "key": "take2",
+      "url": "https://taketwointeractivesoftwareinc.gcs-web.com/news-releases",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "datesAndEvidence": {
+    "primary": "Rockstar regional support article Last Updated November3,2026; rawHTTP200 full article. PS5 and Xbox Series X|S release midnight localtime November19 in all regions.",
+    "supportIndex": "Rockstar VI support index independently lists regional timing article November3; opened through search tool and original link followed.",
+    "preload": "Separate November3 officialFAQ crosschecked: PS5 Nov10 localmidnight; Xbox Nov10 00:00GMT worldwide; upto212GB device-dependent.",
+    "novelty": "Launch-hour confirmation was not present in the existing date article or previous manual batch, which expressly declined to infer hours from the preload FAQ. Source provides day, not publication hour; no claim made that it was posted after the20:43 manual verification. It is newly checked information for this daily update since the last daily execution.",
+    "limits": "No invented country-by-country store exception list, earlyaccess guarantee, region-switch steps, PC date or finalbuild access. No prices needed or asserted. TakeTwo raw press index returned anHTTPerror; current indexed release list showed October13 calendar item already covered, so it did not supply this news."
+  },
+  "deduplication": {
+    "scannedTopics": 150,
+    "scannedVersions": 450,
+    "allTitlesBodiesAndSources": true,
+    "hits": [
+      {
+        "id": "gta6-download-duration-20261103",
+        "title": [
+          "Cuánto tarda en descargar GTA 6: estimaciones para hasta 212 GB",
+          "GTA 6 download time: estimates for up to 212 GB",
+          "Temps de téléchargement GTA 6 : estimations jusqu’à 212 Go"
+        ],
+        "terms": [
+          "midnight",
+          "medianoche",
+          "minuit"
+        ]
+      },
+      {
+        "id": "gta6-ps5-storage-20261101",
+        "title": [
+          "GTA 6 en PS5: SSD M.2, USB y cómo preparar el almacenamiento",
+          "GTA 6 on PS5: M.2 SSD, USB and preparing your storage",
+          "GTA 6 sur PS5 : SSD M.2, USB et préparation du stockage"
+        ],
+        "terms": [
+          "midnight",
+          "medianoche",
+          "minuit"
+        ]
+      },
+      {
+        "id": "gta6-xbox-storage-20261101",
+        "title": [
+          "GTA 6 en Xbox Series X|S: USB, SSD y tarjetas de expansión",
+          "GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+          "GTA 6 sur Xbox Series X|S : USB, SSD et cartes d’extension"
+        ],
+        "terms": [
+          "midnight",
+          "medianoche",
+          "minuit"
+        ]
+      },
+      {
+        "id": "cheats-sa-20261030",
+        "title": [
+          "Trucos de GTA: San Andreas: códigos y cómo activarlos",
+          "GTA: San Andreas cheats: codes and how to enter them",
+          "Codes de GTA: San Andreas : liste et activation"
+        ],
+        "terms": [
+          "midnight",
+          "medianoche",
+          "minuit"
+        ]
+      },
+      {
+        "id": "gta6-preload-schedule-20261028",
+        "title": [
+          "Precarga de GTA 6: empieza el 10 de noviembre, horarios y cajas con código",
+          "GTA 6 preload: November 10 start, times and boxed codes",
+          "Préchargement GTA 6 : dès le 10 novembre, horaires et codes en boîte"
+        ],
+        "terms": [
+          "midnight",
+          "medianoche",
+          "minuit"
+        ]
+      },
+      {
+        "id": "gta6-physical-code-box-20261028",
+        "title": [
+          "¿GTA 6 físico trae disco? Qué incluye la caja con código",
+          "Does physical GTA 6 include a disc? The boxed code explained",
+          "GTA 6 en boîte contient-il un disque ? Comprendre le code de téléchargement"
+        ],
+        "terms": [
+          "midnight",
+          "medianoche",
+          "minuit"
+        ]
+      }
+    ],
+    "equivalentSelected": "gta-6-19-november-2026",
+    "adjacentIntents": [
+      "gta6-preload-schedule-20261028: download opening, not playable unlock",
+      "release-sources: methodology, explicitly directs to this dated report",
+      "storage/duration/boxed codes: downloading or hardware, not release timing"
+    ],
+    "scope": "Exactlyone existing topic updated in3languages;150topics/450versions retained. Deep equality confirms149unrelated articles unchanged and all450priorURLs preserved."
+  },
+  "interest": {
+    "method": "Current Google autocomplete queries in ES/EN/FR and dated coverage on search; qualitative only.",
+    "suggestions": [
+      {
+        "query": "gta 6 release time",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta%206%20release%20time",
+        "suggestions": [
+          "gta 6 release time",
+          "gta 6 release time pst",
+          "gta 6 release time est",
+          "gta 6 release time cst",
+          "gta 6 release timeline",
+          "gta 6 release time usa",
+          "gta 6 release time zone",
+          "gta 6 release time of day",
+          "gta 6 release time ps5",
+          "gta 6 release time reddit"
+        ],
+        "checkedAt": "2026-11-03T22:53:51.783575+00:00"
+      },
+      {
+        "query": "gta 6 hora lanzamiento",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta%206%20hora%20lanzamiento",
+        "suggestions": [
+          "lanzamiento gta 6 hora",
+          "gta 6 fecha de lanzamiento hora",
+          "gta 6 fecha y hora de lanzamiento",
+          "hora lanzamiento gta 6 españa",
+          "gta 6 netflix hora de lanzamiento"
+        ],
+        "checkedAt": "2026-11-03T22:53:51.970379+00:00"
+      },
+      {
+        "query": "gta 6 heure sortie",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=gta%206%20heure%20sortie",
+        "suggestions": [
+          "gta 6 heure sortie",
+          "gta 6 heure sortie france",
+          "gta vi heure sortie",
+          "gta 6 heure de sortie precommande",
+          "gta 6 heure de sortie 19 novembre",
+          "gta 6 date sortie heure",
+          "heure de sortie gta 6 netflix",
+          "sortie gta 6 heure française",
+          "gta 6 trailer heure de sortie",
+          "gta 6 trailer 2 heure de sortie"
+        ],
+        "checkedAt": "2026-11-03T22:53:52.181709+00:00"
+      }
+    ],
+    "limits": "No connected SearchConsole/GoogleTrends/keywordvolume tool available. Suggestions are neither volume nor ranking; Netflix and trailer/preorder suggestions excluded as different intents. Third-party time claims were not used as source of truth."
+  },
+  "media": {
+    "key": "vice-city",
+    "checks": [
+      {
+        "key": "original",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      },
+      {
+        "key": "gallery",
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "bytes": 813168,
+        "sha256": "274be7e7d234d3c603274324bd3671f209c629899a5e2c2092d42f5064089401"
+      }
+    ],
+    "local": {
+      "file": "public/media/vice-city.webp",
+      "bytes": 116602,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "visuallyInspected": true
+    },
+    "rights": "Current original firstpartyURL and official media/download-share context checkedHTTP200. Existing provenance public/media/credits.json; copyrightreserved, no unrestrictedlicence asserted. Translatedalt/captions and linkedRockstarcredit. Imageprovides gamecontext, not timer evidence. NoAI/mod/leak/GTA V/editedherolayer."
+  },
+  "validation": {
+    "release": "npm run build:release passed. Existing Vite large-bundle advisory only.",
+    "static": "node scripts/verify-static.mjs passed:494HTML,22224internal links,962structured-data blocks.",
+    "browser": "6passed:ES/EN/FR desktop/mobile. Localizedtitle/description, canonical/hreflang/schema, originalpublication and actualupdatedate, sitemap, officialsource adjacent,3rowmilestone table, decoded1600x900creditedimage, actualselector navigation and nooverflow. SDK fixtures do not verify realAdsterrafill/Analyticsreceipt. Initial sandbox listenerEPERM was resolved with authorized network capability; no securitysettings changed.",
+    "inventory": "150topics/450versions,149otherarticles deeplyidentical,450URLs retained.",
+    "public": "pending"
+  },
+  "preserved": [
+    "originalURLs and originalpublicationdate",
+    "149 unrelated topics deeply identical",
+    "design, ads, Analytics consent, security rules, subscriptions",
+    "single daily theme through2026-11-19 inclusive America/New_York",
+    "BarberControl untouched; no thirdpartymessages or purchases"
+  ]
+}

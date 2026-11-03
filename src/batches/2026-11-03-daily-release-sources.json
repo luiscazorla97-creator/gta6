@@ -1,0 +1,34 @@
+{
+  "regional": {
+    "label": "Rockstar Support — regional pre-load and release times (3 November 2026)",
+    "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s"
+  },
+  "preload": {
+    "label": "Rockstar Support — Grand Theft Auto VI Pre-Load FAQ (3 November 2026)",
+    "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq"
+  },
+  "game": {
+    "label": "Rockstar Games — Grand Theft Auto VI",
+    "url": "https://www.rockstargames.com/VI"
+  },
+  "gallery": {
+    "label": "Rockstar Games — GTA VI official media",
+    "url": "https://www.rockstargames.com/VI/media"
+  },
+  "related-preload": {
+    "label": "FansGTA — precarga",
+    "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+  },
+  "related-download": {
+    "label": "FansGTA — duración de descarga",
+    "url": "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/"
+  },
+  "related-regions": {
+    "label": "FansGTA — región de códigos y cuenta",
+    "url": "https://fansgta.com/es/guias/gta-6-codigos-region-cuenta-ps5-xbox/"
+  },
+  "related-spoilers": {
+    "label": "FansGTA — evitar spoilers",
+    "url": "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/"
+  }
+}
