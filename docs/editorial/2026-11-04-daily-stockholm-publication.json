@@ -1,0 +1,177 @@
+{
+  "verifiedAt": "2026-11-04T22:32:58.075894+00:00",
+  "commit": "2e7074a81d6b6b33207f5e342cf568bd0f8604f1",
+  "deploymentId": "3062cccb-f4d2-4c55-9022-bce0c9c05e9f",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-04T22:32:08.649651Z",
+    "ended_on": "2026-11-04T22:32:25.533143Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-anuncio-gigante-estocolmo/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 1,
+      "catalogueTopics": 154,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "09c57214aaa7524b5de0795ef7e0fb693f5a02e6095703979580ba0589390b02"
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-stockholm-billboard-photo/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 1,
+      "catalogueTopics": 154,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "d6d31bf3569715c2be90bcd271cd70638da2b338567ea1595c895cc798a684ca"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-publicite-geante-stockholm/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 1,
+      "catalogueTopics": 154,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "3c0dbf3405d20b25cbdbc59a430e9217972376b0dddbb9efea1a9d12fab55283"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "dailyReportLinked": true
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "dailyReportLinked": true
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "dailyReportLinked": true
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "dailyReportLinked": true
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "dailyReportLinked": true
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "dailyReportLinked": true
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-CCJ82Hgh.js",
+      "status": 200,
+      "bytes": 352167,
+      "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-CDYx5jIm.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+      "status": 200,
+      "bytes": 99926,
+      "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-480.webp",
+      "status": 200,
+      "bytes": 26716,
+      "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-800.webp",
+      "status": 200,
+      "bytes": 62618,
+      "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-miami-advertising-vice-city-agreement/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-miami-publicite-accord-vice-city/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "e6bdbb6e1b10b231cab8e86851a9efd8a87d3cf0d33b4f136cd86706755c4225",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS reads with TLS validation. Full visible text, metadata, canonical/hreflang, schema, image and JS/CSS bytes and discoverability checked against tested release. Browser interactions used local provider fixtures; this is not proof of creative fill or guaranteed audience."
+}
