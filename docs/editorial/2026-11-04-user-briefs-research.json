@@ -1,0 +1,516 @@
+{
+  "status": "prepared-not-published",
+  "checkedAt": "2026-11-04T23:09:35.059548+00:00",
+  "request": "User supplied physical-map VICE link, Mark Tilbury savings headline and IGN combined preload/release-size/poster headline. Manual batch; no change to daily cadence or November19 deadline.",
+  "cloud": {
+    "actor": "managed cloud running, observations_current true, network unrestricted/enforced; Cloudflare account/token ready; GitHub main freshly read via authorized connection",
+    "main": "3f44cd6fc0bfdf1eb86dc6518b6a7de4921bb158",
+    "tree": "04f75879dec5894d57e7f6ef5800a55aaf87f0d6",
+    "userPCUsed": false
+  },
+  "decisions": [
+    {
+      "intent": "Physical map / cover-art poster / how to buy",
+      "action": "Update gta6-printable-map-20261103 in ES/EN/FR; retain all3 URLs and November3 original publication. Add announcedUSD0.99 and gift-with-purchase terms, conditional buying steps and final-price/stock limits; preserve existing digital-download guidance and images.",
+      "date": "Rockstar announcement November3; VICE follow-up November4 at8:32am. Do not present announcement as new November4 event.",
+      "limits": "Original Newswire URL returnedHTTP200 but only69visible characters/client shell. Crosscheck exact Rockstar press-release wording reproduced by Saving Content against readableHTTP200VICE and IGN coverage. Price is announcedUSDreference, not a checked country-specific delivered quote; no exact physical-sale date, stock, taxes or shipping confirmed. Store homepageHTTP200 has no poster/map listing in rendered text; no fabricated direct buy URL."
+    },
+    {
+      "intent": "Preload / global release / install size",
+      "action": "Update gta6-preload-schedule-20261028, preserve all3URLs and October28 publication. Keep existing November3 official details; add Xbox preload timezone table, distinct playable-release explanation and current official regional source. Existing size and launch articles linked, not duplicated.",
+      "primary": "Rockstar Support regional and preload FAQ pages bothHTTP200, LastUpdatedNovember3; PS5Nov10localmidnight, XboxNov10at00GMT, releaseNov19localmidnight, upto212GBdevice-dependent.",
+      "calculation": "IANA zoneinfo verified from2026-11-10T00:00:00Z: NewYorkNov9at19EST; MexicoCityNov9at18CST; BuenosAiresNov9at21UTC-3; MadridNov10at01CET; LondonNov10at00GMT. Table applies toXboxpreloadonly. No inferred multi-time-zone store/account release exceptions or copied secondary SydneyDST abbreviations."
+    },
+    {
+      "intent": "Buying GTA VI / Mark Tilbury / allegedUSD5000saving",
+      "action": "One new news/analysis topic gta6-tilbury-savings-20261104, ES/EN/FR, original budget examples and calculations.",
+      "date": "October31video date attributed to matching November2Dexerto and Parade reports; ThePCEnthusiast reportNovember3, VICE follow-upNovember4. Not described as video posted today.",
+      "classification": "Reported opinion / hypothetical spending comparison, not Rockstar reward, verified personal saving, measured gameplay duration or financial return. No claim to independently audit creator net worth.",
+      "primaryLinks": [
+        "https://www.youtube.com/watch?v=zd1O7AdonNs",
+        "https://www.instagram.com/reel/DfKxUVlOJ2-/"
+      ],
+      "primaryLimits": "YouTube and Instagram web opens throttled; oEmbed request tunnel403. No bypass, playback or transcript verification claimed. Original linked, reliance on3readable independently authored coverage reports disclosed in article. No video frames copied or unsolicited player embed.",
+      "ownCalculations": "50xUSD100 avoided minusUSD99.99 =USD4900.01;10xUSD20minusUSD99.99=USD100.01;0minusUSD99.99=-USD99.99. Conditional simulations, not typical national spending. Verified arithmetic independently.",
+      "checkedPrice": "PlayStationStoreUSUltimatePS5productEP1004-PPSA01547_00-GTAVIULTIMATE001,HTTP200USD99.99checkedNovember4. USmarket andUSD explicit in everylocale, no conversion to local European/Latin-American prices."
+    }
+  ],
+  "deduplication": {
+    "topicsCompared": 154,
+    "localizedURLsCompared": 462,
+    "method": "Complete exported Article objects (including all translations and bodies), inventory and closest map, preload, launch, size, purchase/edition and budget intents compared. No Tilbury/savings equivalent; number-only regex hits were unrelated Miami finance and cheat codes.",
+    "preservation": {
+      "existingTopics": 154,
+      "unrelatedCompleteArticlesPreserved": 152,
+      "updatedTopics": [
+        "gta6-printable-map-20261103",
+        "gta6-preload-schedule-20261028"
+      ],
+      "totalTopics": 155,
+      "totalLocalizedURLs": 465,
+      "selectedTopics": [
+        {
+          "id": "gta6-tilbury-savings-20261104",
+          "category": "news",
+          "published": "2026-11-04",
+          "titles": [
+            "¿GTA 6 ahorra 5.000 dólares? El cálculo de Mark Tilbury",
+            "Can GTA 6 save you $5,000? Mark Tilbury’s claim explained",
+            "GTA 6 fait-il économiser 5 000 $ ? Le calcul de Mark Tilbury"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-ahorrar-5000-dolares-mark-tilbury-calculo/",
+            "/en/news/gta-6-save-5000-dollars-mark-tilbury-maths/",
+            "/fr/actualites/gta-6-economiser-5000-dollars-mark-tilbury-calcul/"
+          ]
+        },
+        {
+          "id": "gta6-printable-map-20261103",
+          "category": "guides",
+          "published": "2026-11-03",
+          "titles": [
+            "Mapa físico de GTA 6: precio anunciado y cómo comprarlo",
+            "GTA 6 physical map: announced price and how to buy it",
+            "Carte physique GTA 6 : prix annoncé et comment l’acheter"
+          ],
+          "paths": [
+            "/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
+            "/en/guides/gta-6-leonida-map-poster-official-download/",
+            "/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/"
+          ],
+          "updated": "2026-11-04"
+        },
+        {
+          "id": "gta6-preload-schedule-20261028",
+          "category": "guides",
+          "published": "2026-10-28",
+          "titles": [
+            "Precarga de GTA 6: fecha, horarios globales y hasta 212 GB",
+            "GTA 6 preload: start date, global times and up to 212 GB",
+            "Préchargement GTA 6 : date, horaires et jusqu’à 212 Go"
+          ],
+          "paths": [
+            "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+            "/en/guides/gta-6-preload-date-time-consoles/",
+            "/fr/guides/prechargement-gta-6-date-heure-consoles/"
+          ],
+          "updated": "2026-11-04"
+        }
+      ],
+      "newTopics": [
+        {
+          "id": "gta6-tilbury-savings-20261104",
+          "category": "news",
+          "published": "2026-11-04",
+          "titles": [
+            "¿GTA 6 ahorra 5.000 dólares? El cálculo de Mark Tilbury",
+            "Can GTA 6 save you $5,000? Mark Tilbury’s claim explained",
+            "GTA 6 fait-il économiser 5 000 $ ? Le calcul de Mark Tilbury"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-ahorrar-5000-dolares-mark-tilbury-calculo/",
+            "/en/news/gta-6-save-5000-dollars-mark-tilbury-maths/",
+            "/fr/actualites/gta-6-economiser-5000-dollars-mark-tilbury-calcul/"
+          ]
+        }
+      ],
+      "clientAssetsUnchanged": [
+        {
+          "path": "assets/index-BkQBpQi9.css",
+          "bytes": 57621,
+          "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+        },
+        {
+          "path": "assets/index-CCJ82Hgh.js",
+          "bytes": 352167,
+          "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14"
+        },
+        {
+          "path": "assets/postscribe-CDYx5jIm.js",
+          "bytes": 18060,
+          "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c"
+        }
+      ]
+    }
+  },
+  "sourceChecks": {
+    "checkedAt": "2026-11-04T23:02:24.284538+00:00",
+    "sources": [
+      {
+        "label": "vice-map",
+        "url": "https://www.vice.com/en/article/gta-6-physical-map-release-date-price-how-to-buy/",
+        "status": 200,
+        "bytes": 373421,
+        "sha256": "55466a5aca56f4b8513a356ed7edf876d2b146922c44baaa72570a7b3e7270ed",
+        "snippets": [
+          "ical Map Will Be Sold After Launch – How to Buy Rockstar confirms the GTA 6 physical map will cost $0.99 after launch. Here’s how to buy it or download a free printable version. By Brent Koepp November 4, 2026, 8:32am Share: Share on X (Opens in new window) X Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard Add Us On Google Rockstar Games has confirmed that a physical GTA 6 map will be available to p",
+          "y when the game launches . Videos by VICE If you want a physical copy, Rockstar is also releasing a double-sided version through the Rockstar Store. The GTA 6 physical map and poster will cost $0.99 on its own, or be included as a free gift with any Rockstar Store purchase. However, you will have to wait a little longer for that version. While the free digital download arrives on November 19, Rockstar says the physical version will be available “shortly afte",
+          " by VICE If you want a physical copy, Rockstar is also releasing a double-sided version through the Rockstar Store. The GTA 6 physical map and poster will cost $0.99 on its own, or be included as a free gift with any Rockstar Store purchase. However, you will have to wait a little longer for that version. While the free digital download arrives on November 19, Rockstar says the physical version will be available “shortly after launch.” An exact release date ha",
+          "ing a double-sided version through the Rockstar Store. The GTA 6 physical map and poster will cost $0.99 on its own, or be included as a free gift with any Rockstar Store purchase. However, you will have to wait a little longer for that version. While the free digital download arrives on November 19, Rockstar says the physical version will be available “shortly after launch.” An exact release date has not been announced. How to Get the GTA 6 Map for ",
+          "he GTA 6 physical map and poster will cost $0.99 on its own, or be included as a free gift with any Rockstar Store purchase. However, you will have to wait a little longer for that version. While the free digital download arrives on November 19, Rockstar says the physical version will be available “shortly after launch.” An exact release date has not been announced. How to Get the GTA 6 Map for Free or Buy a Physical Copy Screenshot: Rockstar Games Players hav"
+        ],
+        "oembed": null
+      },
+      {
+        "label": "rockstar-announcement",
+        "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+        "status": 200,
+        "bytes": 5652,
+        "sha256": "37edf90d6070d30e15ee41298c8975370b808bd931a4b4241ddb7b18b3c56b78",
+        "snippets": [],
+        "oembed": null
+      },
+      {
+        "label": "rockstar-faq",
+        "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+        "status": 200,
+        "bytes": 184268,
+        "sha256": "af5f3c9f69547898f00a3694c155ec9e86c82d86a8beb9604ed61f7603cad311",
+        "snippets": [],
+        "oembed": null
+      },
+      {
+        "label": "rockstar-regional",
+        "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
+        "status": 200,
+        "bytes": 156373,
+        "sha256": "655f371a2509f5d256f96f45a404aeff39ef040cdb2ef02dd85cb03129270350",
+        "snippets": [],
+        "oembed": null
+      },
+      {
+        "label": "primary-video-oembed",
+        "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dzd1O7AdonNs&format=json",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "label": "pc-tilbury",
+        "url": "https://thepcenthusiast.com/mark-tilbury-gta-6-financial-advice/",
+        "status": 200,
+        "bytes": 171931,
+        "sha256": "1bdf66844fa122c7c0c2eee9597eb0448b336926d2ef71440b3e8024848cd19f",
+        "snippets": [
+          "rategy. How Buying GTA 6 Could Apparently Save You $5,000 Tilbury begins his calculations with the $99.99 Ultimate Edition of GTA 6, which costs $20 more than the $79.99 Standard Edition. He estimates that completing the game will take around 80 hours, bringing the entertainment cost to approximately $1.25 per hour. Factor in side missions, exploration, and other activities, and he figures players could easily spend 200 hours playing GTA 6. That bring",
+          "ctor in side missions, exploration, and other activities, and he figures players could easily spend 200 hours playing GTA 6. That brings the cost down to just 50 cents per hour. Of course, those are Tilbury’s estimates. Rockstar hasn’t officially confirmed how long GTA 6 will take to complete. He then assumes someone plays GTA 6 for four hours every evening, providing 50 nights of entertainment. If that person went out instead and spent $100 each night on"
+        ],
+        "oembed": null
+      },
+      {
+        "label": "press-release-reprint",
+        "url": "https://www.savingcontent.com/2026/11/03/grand-theft-auto-vi-pre-load-begins-on-november-10th/",
+        "status": 200,
+        "bytes": 122676,
+        "sha256": "e7b21120a785f3de365f6c544cdd40ae32f8006a4a16cbd4d747f0a54cb14f69",
+        "snippets": [
+          "heft Auto VI cover art poster and map of Leonida as a free digital download to the official site. A double-sided physical version of this poster will also be made available shortly after launch from the Rockstar Store — for $0.99 on its own or as a free gift with any purchase from the Rockstar Store. Share this news Reddit Pinterest Copy Link Copied! News More News “The Mongolian Expanse” Update brings a bigger open-world to The Legend of Khiimori today Nov ",
+          "ble-sided physical version of this poster will also be made available shortly after launch from the Rockstar Store — for $0.99 on its own or as a free gift with any purchase from the Rockstar Store. Share this news Reddit Pinterest Copy Link Copied! News More News “The Mongolian Expanse” Update brings a bigger open-world to The Legend of Khiimori today Nov 4, 2026 Earn the Greek Pantheon’s blessings or wrath in all-new city builder Theos: Cities of Myth – out ",
+          "sion of this poster will also be made available shortly after launch from the Rockstar Store — for $0.99 on its own or as a free gift with any purchase from the Rockstar Store. Share this news Reddit Pinterest Copy Link Copied! News More News “The Mongolian Expanse” Update brings a bigger open-world to The Legend of Khiimori today Nov 4, 2026 Earn the Greek Pantheon’s blessings or wrath in all-new city builder Theos: Cities of Myth – out now Nov 4, 2",
+          " launch from the Rockstar Store — for $0.99 on its own or as a free gift with any purchase from the Rockstar Store. Share this news Reddit Pinterest Copy Link Copied! News More News “The Mongolian Expanse” Update brings a bigger open-world to The Legend of Khiimori today Nov 4, 2026 Earn the Greek Pantheon’s blessings or wrath in all-new city builder Theos: Cities of Myth – out now Nov 4, 2026 Chivalric expansion Knights of Fardensa launches December 9th on St"
+        ],
+        "oembed": null
+      }
+    ]
+  },
+  "additionalSourceChecks": [
+    {
+      "label": "dexerto",
+      "url": "https://www.dexerto.com/gta/self-made-millionaire-says-gta-6-could-actually-save-players-5k-3423893/",
+      "status": 200,
+      "bytes": 323646,
+      "sourceLinks": [
+        "https://www.instagram.com/dexerto/?hl=en",
+        "https://www.instagram.com/p/DfKxUVlOJ2-/?hl=en",
+        "https://www.instagram.com/reel/DfKxUVlOJ2-/?utm_source=ig_embed",
+        "https://www.instagram.com/reel/DfKxUVlOJ2-/?utm_source=ig_embed&utm_campaign=loading",
+        "https://www.youtube.com/@dexerto"
+      ],
+      "snippets": [
+        "eves it could save players around $5000 each. Article continues after ad In his October 31 video, the self-made millionaire noted that if the game takes 80 hours to complete, it’ll cost you around $1.25 per hour, but that could drop as low "
+      ]
+    },
+    {
+      "label": "parade",
+      "url": "https://parade.com/entertainment/millionaire-claims-playing-gta-6-could-save-gamers-5000-and-his-reasoning-has-people-cracking-up",
+      "status": 200,
+      "bytes": 802213,
+      "sourceLinks": [
+        "https://www.instagram.com/bethebuddha/",
+        "https://www.instagram.com/parademag/",
+        "https://www.instagram.com/petersterri",
+        "https://www.youtube.com/embed/zd1O7AdonNs?feature=oembed",
+        "https://www.youtube.com/user/ParadeMagazine",
+        "https://youtu.be/zd1O7AdonNs?si=zYotmCUfEN0T5NJR"
+      ],
+      "snippets": [
+        "pending money on GTA 6 might be a surprisingly smart financial decision. In the Oct. 31 video, titled “ How GTA 6 Could Save You $5,000 ,” Tilbury breaks down the cost of the game compared with other forms of entertainment, and his reaso"
+      ]
+    },
+    {
+      "label": "rockstar-store",
+      "url": "https://store.rockstargames.com/",
+      "status": 200,
+      "bytes": 1209115,
+      "sourceLinks": [
+        "https://www.youtube.com/iframe_api"
+      ],
+      "snippets": [
+        "l COMING SOON Grand Theft Auto VI: The Goodtime State – Vice City™ Collection $399.99 Out of stock Blue Grand Theft Auto VI Goodtime State Tee $29.99 Out of stock Grand Theft Auto VI – Vice City Zippo® Lighter $39.99 Out of stock Grand"
+      ]
+    },
+    {
+      "label": "ultimate-sony-us",
+      "url": "https://store.playstation.com/en-us/product/EP1004-PPSA01547_00-GTAVIULTIMATE001",
+      "status": 200,
+      "bytes": 496435,
+      "sourceLinks": [
+        "https://www.instagram.com/PlayStation",
+        "https://www.youtube.com/user/PlayStation"
+      ],
+      "snippets": [
+        "n Rockstar Games 11/19/2026 05:00 AM UTC PS5 Ultimate Edition PS5 Pro Enhanced $99.99 1-month GTA+ subscription with digital pre-order of full game on PS Store. Claim anytime before March 31. Auto-renews. Check Game and Legal Info belo",
+        "timate Edition Upgrade Vintage Vice City Pack One Month of GTA+ 9-Day Pre-load $99.99 1-month GTA+ subscription with digital pre-order of full game on PS Store. Claim anytime before March 31. Auto-renews. Check Game and Legal Info belo"
+      ]
+    }
+  ],
+  "interestAndMedia": {
+    "checkedAt": "2026-11-04T23:06:37.362257+00:00",
+    "images": [
+      {
+        "key": "feature-boats",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalBytes": 891284,
+        "sha256": "5f2226e90602403ac0b8feea520a501c2872015627456448c0be85768d5ef7ae",
+        "credit": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games",
+          "originalName": "Leonida_Keys_05",
+          "width": 1400,
+          "height": 788,
+          "bytes": 171234,
+          "checked": "2026-10-31",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+        }
+      },
+      {
+        "key": "feature-couple",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalBytes": 907752,
+        "sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+        "credit": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games",
+          "originalName": "Jason_and_Lucia_02",
+          "width": 1400,
+          "height": 788,
+          "bytes": 65196,
+          "checked": "2026-10-31",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+        }
+      },
+      {
+        "key": "feature-kayak",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_06.166ouq5pjd7h0.jpg?imwidth=1400",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalBytes": 1291623,
+        "sha256": "290b5eb17a45ab4c8c318fb173e6c400bf0e80a74b529591da554d214fddd32a",
+        "credit": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_06.166ouq5pjd7h0.jpg?imwidth=1400",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games",
+          "originalName": "Mount_Kalaga_National_Park_06",
+          "width": 1400,
+          "height": 788,
+          "bytes": 231688,
+          "checked": "2026-10-31",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+        }
+      },
+      {
+        "key": "feature-mountain",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalBytes": 1274178,
+        "sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+        "credit": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games",
+          "originalName": "Mount_Kalaga_National_Park_04",
+          "width": 1400,
+          "height": 788,
+          "bytes": 226130,
+          "checked": "2026-10-31",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+        }
+      },
+      {
+        "key": "hero",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalBytes": 475961,
+        "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8",
+        "credit": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "credit": "GTA VI © Rockstar Games",
+          "bytes": 475961
+        }
+      },
+      {
+        "key": "leonida-keys",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalBytes": 846989,
+        "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+        "credit": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games"
+        }
+      },
+      {
+        "key": "vice-city",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalBytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "credit": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "credit": "GTA VI © Rockstar Games",
+          "bytes": 894386
+        }
+      }
+    ],
+    "signals": [
+      {
+        "query": "gta 6 map poster",
+        "status": 200,
+        "response": [
+          "gta 6 map poster",
+          [
+            "gta 6 map poster",
+            "gta 6 map poster rockstar",
+            "gta vi map poster",
+            "gta 6 map print",
+            "gta 6 leonida map poster",
+            "gta 6 map 3d print",
+            "will gta 6 have a map poster",
+            "what will the gta 6 map be",
+            "how big will gta 6 map be"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                3
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                512,
+                650,
+                390
+              ],
+              [
+                512,
+                650,
+                390
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "query": "gta 6 preload time",
+        "status": 200,
+        "response": [
+          "gta 6 preload time",
+          [
+            "gta 6 preload time",
+            "why is gta 6 taking so long",
+            "how long until gta 6 is released"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                650,
+                390
+              ],
+              [
+                512,
+                650,
+                390
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "query": "gta 6 mark tilbury",
+        "status": 200,
+        "response": [
+          "gta 6 mark tilbury",
+          []
+        ]
+      }
+    ]
+  },
+  "interestLimits": "Current coverage of November2-4 and autocomplete signals used qualitatively. MarkTilbury query returned no suggestions. No measured query volume, popularity rank, guaranteed SEO position, view totals or growth asserted.",
+  "mediaReuse": "7original official source images returned200image/*;3new-article images visually inspected (unmodified official hero art, Jason/Lucia vault and ViceCity11). Existing map3images and preloadcover retained. All credited originals already documented in public/media/credits.json and official Media download/share publication; optimized WebP/AVIF responsive variants unchanged, with localized alt/contextual captions. Copyright reserved; no unrestricted licence claimed. No influencer photography, fan maps, AI/mod/leak/GTA V substitutes or edited decorative hero assets copied.",
+  "checks": {
+    "build": "npm run build:release passed;155topics/465localized versions",
+    "static": "node scripts/verify-static.mjs passed:509HTML,22899internal links,992structured-data blocks",
+    "browser": "6cases passed:3locales x2viewports, each visiting all3selected topics (18article/locale/viewport combinations); full intro/sections/tables, images, sources, localized links, canonical/hreflang/dates/schema, language navigation, sitemap/category discovery, no horizontal overflow/JS errors, single AdSense/SocialBar and Analytics gate. Provider SDKs stubbed; not evidence of creative fill.",
+    "public": "pending deployment and realHTTPSverification"
+  },
+  "preserved": "152unrelatedcompletearticles and inventory records unchanged;2equivalentarticles updated with original publication/slugs/images retained;1topic added. Design,clientJS/CSS,publicity,SocialBar,Popunder-off,Analyticsconsent,AdSense,security,cache and daily schedule unchanged."
+}

@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-tilbury-savings-20261104",
+    "category": "news",
+    "published": "2026-11-04",
+    "titles": [
+      "¿GTA 6 ahorra 5.000 dólares? El cálculo de Mark Tilbury",
+      "Can GTA 6 save you $5,000? Mark Tilbury’s claim explained",
+      "GTA 6 fait-il économiser 5 000 $ ? Le calcul de Mark Tilbury"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-ahorrar-5000-dolares-mark-tilbury-calculo/",
+      "/en/news/gta-6-save-5000-dollars-mark-tilbury-maths/",
+      "/fr/actualites/gta-6-economiser-5000-dollars-mark-tilbury-calcul/"
+    ]
+  },
+  {
     "id": "gta6-stockholm-billboard-20261104",
     "category": "news",
     "published": "2026-11-04",
@@ -79,15 +94,16 @@
     "category": "guides",
     "published": "2026-11-03",
     "titles": [
-      "Mapa de GTA 6 para descargar: fecha y póster oficial de Leonida",
-      "GTA 6 map download: official Leonida poster and release date",
-      "Carte GTA 6 à télécharger : affiche officielle et date annoncée"
+      "Mapa físico de GTA 6: precio anunciado y cómo comprarlo",
+      "GTA 6 physical map: announced price and how to buy it",
+      "Carte physique GTA 6 : prix annoncé et comment l’acheter"
     ],
     "paths": [
       "/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
       "/en/guides/gta-6-leonida-map-poster-official-download/",
       "/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/"
-    ]
+    ],
+    "updated": "2026-11-04"
   },
   {
     "id": "gta6-miami-campaign-20261103",
@@ -1748,16 +1764,16 @@
     "category": "guides",
     "published": "2026-10-28",
     "titles": [
-      "Precarga de GTA 6: empieza el 10 de noviembre, horarios y cajas con código",
-      "GTA 6 preload: November 10 start, times and boxed codes",
-      "Préchargement GTA 6 : dès le 10 novembre, horaires et codes en boîte"
+      "Precarga de GTA 6: fecha, horarios globales y hasta 212 GB",
+      "GTA 6 preload: start date, global times and up to 212 GB",
+      "Préchargement GTA 6 : date, horaires et jusqu’à 212 Go"
     ],
     "paths": [
       "/es/guias/precarga-gta-6-fecha-hora-consolas/",
       "/en/guides/gta-6-preload-date-time-consoles/",
       "/fr/guides/prechargement-gta-6-date-heure-consoles/"
     ],
-    "updated": "2026-11-03"
+    "updated": "2026-11-04"
   },
   {
     "id": "gta6-physical-code-box-20261028",
