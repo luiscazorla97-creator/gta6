@@ -25,7 +25,7 @@ test('reduced motion keeps the exact original photo and avoids loading edited la
 });
 test('a failed decorative layer leaves the original photo and functional page',async({page})=>{
  await providers(page);await page.emulateMedia({reducedMotion:'no-preference'});
- await page.route('**/hero-motion-background.webp',r=>r.abort());await page.goto('/en/');
+ let failed=false;await page.route(/hero-motion-background[^/]*\.(?:webp|avif)/,r=>{failed=true;return r.abort();});await page.goto('/en/');await expect.poll(()=>failed).toBe(true);
  await expect(page.locator('.hero-motion-layers')).toHaveCount(0);await expect(page.locator('.hero-art')).toBeVisible();
  await expect(page.locator('.hero h1')).toContainText('Everything GTA 6');
 });

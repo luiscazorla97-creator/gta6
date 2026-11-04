@@ -33,7 +33,9 @@ for(const a of historyArticles)test(`${a.history!.game}: all language versions, 
   await expect(page).toHaveURL(articlePath(locale,a));await expect(page.getByRole('heading',{level:1})).toHaveText(a.title[li]);
   const figure=page.locator('.history-article>.editorial-figure'),img=figure.locator('img'),size=mediaDimensions(a.image);
   await expect(img).toHaveAttribute('alt',a.imageAlt![li]);await expect(img).toHaveAttribute('src',mediaPath(a.image));
-  await expect.poll(()=>img.evaluate((e:HTMLImageElement)=>[e.complete,e.naturalWidth,e.naturalHeight])).toEqual([true,size.width,size.height]);
+  await expect.poll(()=>img.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0&&e.naturalHeight>0)).toBe(true);
+  await expect(img).toHaveAttribute('width',String(size.width));await expect(img).toHaveAttribute('height',String(size.height));
+  const ratio=await img.evaluate((e:HTMLImageElement)=>e.naturalWidth/e.naturalHeight);expect(Math.abs(ratio-size.width/size.height)).toBeLessThan(.01);
   await expect(img).toHaveCSS('object-fit','contain');await expect(figure.locator('figcaption')).toContainText(a.imageCaption![li]);
   await expect(figure.locator('figcaption a')).toHaveAttribute('href',a.imageCredit!.url);await expect(page.locator('.history-notice')).toBeVisible();
   const series=page.locator('.history-series');await series.locator('summary').click();await expect(series.locator('a')).toHaveCount(17);

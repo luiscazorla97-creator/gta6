@@ -70,3 +70,16 @@
 .editorial-figure.catalogue-art>img{object-fit:contain;max-height:420px;background:var(--surface)}
 
 .cheat-game-index li{padding-block:6px}.cheat-game-index a{font-weight:700;text-decoration:underline;text-underline-offset:4px}.cheat-index-description{display:block;color:var(--muted);font-size:13px;line-height:1.6;margin-top:4px}
+
+/* Reserve the existing top/bottom creatives before hydration, at their actual fit. */
+.site-ad-band{container-type:inline-size;container-name:ad-band}
+@media(max-width:767px){@container ad-band (min-width:320px){
+ .site-ad-band .ad-slot-mobile{margin-block:20px;text-align:center}
+ .site-ad-band .ad-slot-mobile>.ad-label,.site-ad-band .ad-slot-mobile>.ad-reserved{display:block}
+}}
+@media(min-width:768px){@container ad-band (min-width:728px){
+ .site-ad-band .ad-slot-leaderboard{margin-block:20px;text-align:center}
+ .site-ad-band .ad-slot-leaderboard>.ad-label,.site-ad-band .ad-slot-leaderboard>.ad-reserved{display:block}
+}}
+
+.hero-aircraft-art{position:absolute;inset:0;width:100%;height:100%}

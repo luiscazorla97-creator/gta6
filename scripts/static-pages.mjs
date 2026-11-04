@@ -1,15 +1,21 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createElement } from 'react';
 import { renderToString } from 'react-dom/server';
-import { App, articles, articlePath, sectionPath, sectionKeys, copy, categoryLabel, mediaPath, legalKeys, legalPath, legalTitles } from '../.ssr/entry-server.js';
+import { App, articles, articlePath, sectionPath, sectionKeys, copy, categoryLabel, mediaPath, avifSources, heroImageSizes, phoneImage, legalKeys, legalPath, legalTitles } from '../.ssr/entry-server.js';
 const seenIds=new Set();const seenPaths=new Set();for(const a of articles){if(seenIds.has(a.id))throw Error(`Duplicate article id: ${a.id}`);seenIds.add(a.id);for(const locale of ['es','en','fr']){const path=articlePath(locale,a);if(seenPaths.has(path))throw Error(`Duplicate article route: ${path}`);seenPaths.add(path);}}
-const template=await readFile('dist/index.html','utf8');
+let template=await readFile('dist/index.html','utf8');
+// The complete small stylesheet is inlined to avoid a render-blocking round trip.
+const cssLinks=[...template.matchAll(/<link[^>]+rel="stylesheet"[^>]+>/g)];
+for(const [link] of cssLinks){const href=link.match(/href="([^"]+)"/)?.[1];if(href?.startsWith('/assets/'))template=template.replace(link,'<style data-site-styles>'+await readFile('dist'+href,'utf8')+'</style>');}
+
 const indexable=process.env.FANSGTA_INDEXABLE==='1';
 const origin='https://fansgta.com';
 const descriptions={es:'Noticias con contexto, guías y análisis originales de GTA VI. Portal independiente de fans en español, inglés y francés.',en:'GTA VI news with context, original guides and analysis. An independent fan portal in English, Spanish and French.',fr:'Actualités contextualisées, guides et analyses originaux de GTA VI. Un portail de fans indépendant en français, anglais et espagnol.'};
 const cheatDescriptions={es:'Un artículo independiente de trucos por cada GTA. Elige tu juego y consulta todos sus códigos por plataforma, instrucciones y límites de edición.',en:'One independent cheat article for every GTA. Choose a game for all its platform-specific codes, instructions and edition limits.',fr:'Un article indépendant de codes par GTA. Choisissez un jeu pour ses codes par plateforme, leur activation et les limites des éditions.'};
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const json=s=>JSON.stringify(s).replaceAll('<','\\u003c');
+const readingTimes=Object.fromEntries(articles.map(a=>[a.id,[0,1,2].map(li=>Math.max(1,Math.ceil([a.excerpt[li],...a.sections.flatMap(s=>[s.heading[li],...s.paragraphs.map(p=>p[li]),...(s.table?.rows.flatMap(row=>row.map(cell=>cell[li]))??[])])].join(' ').split(/\s+/).length/200)))]));
+const summaries=articles.map(({sections:_,body:__,sources:___,imageCaption:____,...a})=>({...a,sections:[],body:['','',''],sources:[]}));
 const sitemap=[];
 let generated=0;
 async function renderPage(locale,path,{section,article,legal,missing=false}={}) {
@@ -33,8 +39,13 @@ async function renderPage(locale,path,{section,article,legal,missing=false}={}) 
  }
  const imageAlt=article?.imageAlt?.[li];
  const meta=(imageAlt?`<meta property="og:image:alt" content="${escape(imageAlt)}"/><meta name="twitter:image:alt" content="${escape(imageAlt)}"/>`:'')+`<meta name="robots" content="${indexable&&eligible?'index,follow':'noindex,follow'}"/><meta property="og:type" content="${article?'article':'website'}"/><meta property="og:site_name" content="FansGTA"/><meta property="og:image" content="${origin+mediaPath(article?.image??'vice-city')}"/><meta property="og:title" content="${escape(title)}"/><meta property="og:description" content="${escape(description)}"/><meta property="og:url" content="${canonical}"/><meta property="og:locale" content="${{es:'es_ES',en:'en_US',fr:'fr_FR'}[locale]}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="${origin+mediaPath(article?.image??'vice-city')}"/><meta name="twitter:title" content="${escape(title)}"/><meta name="twitter:description" content="${escape(description)}"/>${alternates}`+schema.map(s=>`<script type="application/ld+json">${json(s)}</script>`).join('');
+ // Other languages remain available at their unchanged URLs. Only the active
+ // locale's listing text is needed for this document's search/cards/bookmarks.
+ const localized=a=>Object.fromEntries(Object.entries(a).map(([k,v])=>[k,['title','excerpt','tag','imageAlt','imageCaption'].includes(k)&&Array.isArray(v)?v.map((s,i)=>i===li?s:''):v]));
+ const pageData=json({articles:summaries.map(a=>a.id===article?.id?article:localized(a)),readingTimes});
  const body=renderToString(createElement(App,{initialLocale:locale,initialPath:path,initialNotFound:missing}));
- const page=template.replace('lang="es"',`lang="${locale}"`).replace(/<title>.*?<\/title>/,`<title>${escape(title)}</title>`).replace(/name="description" content="[^"]*"/,`name="description" content="${escape(description)}"`).replace('https://fansgta.com/es/',canonical).replace('</head>',meta+'</head>').replace('<div id="root"></div>',`<div id="root"${missing?' data-not-found="true"':''}>${body}</div>`);
+ const preload=!section&&!legal&&!missing?`<link rel="preload" as="image" media="(max-width:480px)" type="image/avif" href="${escape(phoneImage('vice-city'))}" fetchpriority="high"/><link rel="preload" as="image" media="(min-width:481px)" type="image/avif" imagesrcset="${escape(avifSources('vice-city'))}" imagesizes="${escape(heroImageSizes)}" fetchpriority="high"/>`:'';
+ const page=template.replace(/(<meta name="viewport"[^>]+>)/,(_,viewport)=>viewport+preload).replace('lang="es"',`lang="${locale}"`).replace(/<title>.*?<\/title>/,`<title>${escape(title)}</title>`).replace(/name="description" content="[^"]*"/,`name="description" content="${escape(description)}"`).replace('https://fansgta.com/es/',canonical).replace('</head>',meta+'</head>').replace('</body>',`<script id="fansgta-page-data" type="application/json">${pageData}</script></body>`).replace('<div id="root"></div>',`<div id="root"${missing?' data-not-found="true"':''}>${body}</div>`);
  const target=missing?'dist/404.html':`dist${path}index.html`;
  await mkdir(target.slice(0,target.lastIndexOf('/')),{recursive:true});await writeFile(target,page);
  if(!section&&!missing&&locale==='es')await writeFile('dist/index.html',page);

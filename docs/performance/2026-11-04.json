@@ -1,0 +1,849 @@
+{
+  "date": "2026-11-04",
+  "timezone": "America/New_York",
+  "preparedAt": "2026-11-04T18:07:59.489502+00:00",
+  "status": "Validated locally; deployment/public verification pending",
+  "baselineCommit": "27748176b2c81d2e6e23160825f9441b257d1ea1",
+  "userSuppliedPageSpeed": {
+    "performance": 55,
+    "SEO": 100,
+    "accessibility": 96,
+    "bestPractices": 92,
+    "FCP": 11200,
+    "LCP": 15500,
+    "SI": 11200,
+    "TBT": 90,
+    "CLS": 0,
+    "note": "User-supplied measurements; no original Lighthouse trace/report URL. Not directly comparable with this cloud lab."
+  },
+  "method": {
+    "lighthouse": "13.6.0",
+    "chromium": "154.0.8037.57 Debian Linux",
+    "url": "/es/ (root serves the same Spanish homepage)",
+    "mobile": "Default Lighthouse simulated mobile:4xCPU,150msRTT,1638.4Kbps; three final runs and three preserved-baseline runs. Desktop uses preset=desktop.",
+    "origin": "Local release preview on4173, byte-preserved baseline on4174. Same unmodified thirdparty SDK URLs requested; nothing removed/blocked to obtain a score.",
+    "limits": "Environment browser cannot validate the managed proxy CA. Thirdparty HTTPS SDK requests consequently fail in both Lighthouse configurations; these lab scores are not a live advertising/Analytics delivery test or a new public PSI score. Real provider latency and Google locations will differ.",
+    "publicPSI": "Google Pagespeed API returned429 RESOURCE_EXHAUSTED, dailyquota0. No API key requested or paid service activated.",
+    "browserTrust": "Automatic approval review rejected both global NSS and temporary-profile CA import proposals as unapproved trust changes. Neither executed. No certificate/TLS/proxy/site-security bypass applied. Existing identified HTTPS CLI checks validate TLS and workHTTP200."
+  },
+  "findings": {
+    "LCP": "Homepageimg.hero-art:Vice City scene. The original is discoverable/eager/highpriority already, but 2.13MB boot JavaScript, a renderblocking CSS request and competing/later decorative image paints delayed rendering. A transparent1672x941 helicopter layer with only169x89visiblepixels could become a later LCP candidate.",
+    "fonts": "Arial/Helvetica systemfonts; no external font chain to remove.",
+    "CSS": "57KB stylesheet (~13KBcompressed), one renderblocking roundtrip. Inlined unchanged stylesheet in generatedHTML, no design/color modifications.",
+    "server": "Identified live HTTPSGETs200 in0.35–0.52s total; curl TTFB0.391508s in this region. These checks do not reproduce a15sserverdelay; they do not establish Google/user-locationTTFB.",
+    "CLS": "Lab reproduced0.1239567 at mobile/0.0686578desktop from topbanner appearing only after hydration. Existing responsive band space now reserved before hydration without changing unit IDs, serialisation or request timing."
+  },
+  "changes": {
+    "delivery": "Full original article corpus remains server-side and unchanged. Client hydrates current full report plus complete catalogue metadata in active language, precomputed readingtimes, all routes/search/bookmarks and translations. No article text/editing schema/inventory/schedule changes. Full-page navigation retained.",
+    "JavaScript": {
+      "beforeBytes": 2129863,
+      "afterBytes": 352049,
+      "beforeGzipBuild": 700110,
+      "assets": [
+        {
+          "file": "dist/assets/postscribe-479-oCyp.js",
+          "bytes": 18060,
+          "gzip": 6360,
+          "sha256": "d075c84e1342bbb8fc404492dedaae969bdbb2737ca66cdb6fc10c0d4ec56863"
+        },
+        {
+          "file": "dist/assets/index-DUhWrRPW.js",
+          "bytes": 352049,
+          "gzip": 111487,
+          "sha256": "08a136acfa90b430d6a2767786ad3a67a55f89ee557f7929cbd8f5d173eef5eb"
+        },
+        {
+          "file": "dist/assets/index-BkQBpQi9.css",
+          "bytes": 57621,
+          "gzip": 13015,
+          "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+        }
+      ]
+    },
+    "images": {
+      "originals": "All original public/media assets and credits retained. Automatic Sharp0.34.5 build derivatives:WebP480/800/1200 without enlargement; AVIF forhero/background; responsive sizes and reserved dimensions; cover eager/highpriority, belowfoldlazy.",
+      "phone": "At<=480px the unchanged620px-tall centred cover already hides sidecolumns. Phone derivative removes only those invisible columns, retaining full verticalresolution and the same visible frame; fallback/fullframe used above480px. Desktop/editorial composition retained.",
+      "phoneHero": {
+        "file": "responsive/b12a0f8c5f35/vice-city-phone.avif",
+        "bytes": 36780,
+        "originalWebPBytes": 116602
+      },
+      "helicopter": {
+        "file": "responsive/d1ca2cc3e75c/hero-motion-helicopter-trimmed.webp",
+        "from": [
+          1672,
+          941
+        ],
+        "to": [
+          169,
+          89
+        ],
+        "position": [
+          958,
+          169
+        ],
+        "visibleDecodedChannelDifferences": 0,
+        "placement": "Same viewBox/centre-cover geometry and animation/pause/reducedmotion controls; no motion removal.",
+        "encoding": "Lossless crop of the existing alpha layer."
+      },
+      "sourceOwnership": "Derivative sizes of existing credited source assets; no new game images, AI/mod/leak substitutes or ownership claim."
+    },
+    "priority": "Matching media-specific heroAVIFpreload after viewportmeta; decorative layers start after the still image paints and browser idle, remainfunctional. Native YouTubeiframe loading=lazy retains existing media preference.",
+    "cache": "Assets/derived-images use content-versioned URLs with one-yearimmutable browser caching. Originalmedia revalidate after1hour. HTML retains Pages max-age0/must-revalidate; sitemap/robots explicitly max-age0. Securityheaders unchanged.",
+    "accessibility": "96 retained. Existing contrast findings documented, not changed by altering the user-preserved palette.",
+    "adsAnalytics": "All5 Adsterraunits, both top/bottom requests and160x600rails, exactkeys/URLs, writer serialisation, RocketLoader exclusion, disabledpopunder, AdSense verification and Analytics consent retained."
+  },
+  "metrics": {
+    "units": "milliseconds except dimensionless CLS and0–100scores",
+    "baselineMobileRuns": [
+      {
+        "name": "paired-before-mobile-1",
+        "scores": {
+          "performance": 92,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 871.80915,
+        "LCP": 2411.6183,
+        "SI": 1525.311821752014,
+        "TBT": 132,
+        "CLS": 0.1239567477547839
+      },
+      {
+        "name": "paired-before-mobile-2",
+        "scores": {
+          "performance": 90,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 870.89795,
+        "LCP": 2332.7959,
+        "SI": 2238.136949299406,
+        "TBT": 224.5,
+        "CLS": 0.1239567477547839
+      },
+      {
+        "name": "paired-before-mobile-3",
+        "scores": {
+          "performance": 53,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 3167.507625,
+        "LCP": 7164.351125,
+        "SI": 4214.571564143416,
+        "TBT": 432,
+        "CLS": 0.1239567477547839
+      }
+    ],
+    "finalMobileRuns": [
+      {
+        "name": "release-after-mobile-1",
+        "scores": {
+          "performance": 98,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 940.9038,
+        "LCP": 2340.8076,
+        "SI": 1185.658536038527,
+        "TBT": 33.5,
+        "CLS": 0
+      },
+      {
+        "name": "release-after-mobile-2",
+        "scores": {
+          "performance": 97,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 816.74545,
+        "LCP": 2347.4909,
+        "SI": 904.0636108353544,
+        "TBT": 102,
+        "CLS": 0
+      },
+      {
+        "name": "release-after-mobile-3",
+        "scores": {
+          "performance": 98,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 938.5554,
+        "LCP": 2323.1108,
+        "SI": 938.5554,
+        "TBT": 10.5,
+        "CLS": 0
+      }
+    ],
+    "baselineMobileMedian": {
+      "performance": 90,
+      "FCP": 871.80915,
+      "LCP": 2411.6183,
+      "SI": 2238.136949299406,
+      "TBT": 224.5,
+      "CLS": 0.1239567477547839
+    },
+    "finalMobileMedian": {
+      "performance": 98,
+      "FCP": 938.5554,
+      "LCP": 2340.8076,
+      "SI": 938.5554,
+      "TBT": 33.5,
+      "CLS": 0
+    },
+    "baselineDesktop": {
+      "name": "before-desktop",
+      "scores": {
+        "performance": 97,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "FCP": 234.7217,
+      "LCP": 1099.4434,
+      "SI": 505.8637039599772,
+      "TBT": 11,
+      "CLS": 0.0686578007469148
+    },
+    "finalDesktop": {
+      "name": "release-after-desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "FCP": 224.8421,
+      "LCP": 603.60525,
+      "SI": 400.8476359301344,
+      "TBT": 0,
+      "CLS": 0
+    },
+    "initialColdRun": {
+      "categories": {
+        "performance": 0.64,
+        "accessibility": 0.96,
+        "best-practices": 0.96,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 3117.2434,
+        "largest-contentful-paint": 6845.734600000001,
+        "speed-index": 4278.849433295965,
+        "total-blocking-time": 123.5,
+        "cumulative-layout-shift": 0.1239567477547839,
+        "server-response-time": 20
+      },
+      "failedAudits": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "display": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "sourceLocation",
+                "valueType": "source-location",
+                "label": "Source"
+              },
+              {
+                "key": "description",
+                "valueType": "code",
+                "label": "Description"
+              }
+            ],
+            "items": [
+              {
+                "source": "network",
+                "description": "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+                "sourceLocation": {
+                  "type": "source-location",
+                  "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211",
+                  "urlProvider": "network",
+                  "line": 0,
+                  "column": 0
+                }
+              },
+              {
+                "source": "network",
+                "description": "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+                "sourceLocation": {
+                  "type": "source-location",
+                  "url": "https://bauval.org/22/dbf84eee9139b77715547797e3baa939",
+                  "urlProvider": "network",
+                  "line": 0,
+                  "column": 0
+                }
+              },
+              {
+                "source": "network",
+                "description": "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+                "sourceLocation": {
+                  "type": "source-location",
+                  "url": "https://bauval.org/22/dbf84eee9139b77715547797e3baa939",
+                  "urlProvider": "network",
+                  "line": 0,
+                  "column": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "display": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-0-BUTTON",
+                  "path": "1,HTML,1,BODY,0,DIV,5,DIV,2,DIV,1,MAIN,1,DIV,4,SECTION,1,DIV,0,BUTTON",
+                  "selector": "div.shell > section#map > div.region-tabs > button",
+                  "boundingRect": {
+                    "top": 4173,
+                    "bottom": 4210,
+                    "left": 18,
+                    "right": 79,
+                    "width": 61,
+                    "height": 37
+                  },
+                  "snippet": "<button aria-pressed=\"true\">",
+                  "nodeLabel": "Vice City",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.44 (foreground color: #ffffff, background color: #ff2d9b, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-1-BUTTON",
+                  "path": "1,HTML,1,BODY,0,DIV,5,DIV,2,DIV,1,MAIN,1,DIV,7,SECTION,2,FORM,0,DIV,2,BUTTON",
+                  "selector": "section#newsletter > form > div.email-field > button",
+                  "boundingRect": {
+                    "top": 6241,
+                    "bottom": 6275,
+                    "left": 288,
+                    "right": 367,
+                    "width": 79,
+                    "height": 34
+                  },
+                  "snippet": "<button type=\"submit\">",
+                  "nodeLabel": "Avísame",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.11 (foreground color: #ffffff, background color: #e52b94, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-2-P",
+                  "path": "1,HTML,1,BODY,0,DIV,6,FOOTER,1,DIV,0,P",
+                  "selector": "div#root > footer > div.shell > p",
+                  "boundingRect": {
+                    "top": 6660,
+                    "bottom": 6706,
+                    "left": 18,
+                    "right": 394,
+                    "width": 376,
+                    "height": 46
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "© 2026 FansGTA. Imágenes de GTA VI © Rockstar Games.\nPortal independiente de fa…",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.38 (foreground color: #747687, background color: #090b13, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "relatedNode": {
+                        "type": "node",
+                        "lhId": "1-3-FOOTER",
+                        "path": "1,HTML,1,BODY,0,DIV,6,FOOTER",
+                        "selector": "body > div#root > footer",
+                        "boundingRect": {
+                          "top": 6478,
+                          "bottom": 6751,
+                          "left": 0,
+                          "right": 412,
+                          "width": 412,
+                          "height": 273
+                        },
+                        "snippet": "<footer>",
+                        "nodeLabel": "FANSGTA.\n\nHecho para quienes siempre quieren explorar un poco más.\n\nPreferencia…"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT",
+                "RGAAv4",
+                "RGAA-3.2.1"
+              ]
+            }
+          }
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "display": "Est savings of 42 KiB",
+          "details": {
+            "type": "opportunity",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "source",
+                  "valueType": "code"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceBytes"
+                },
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "subItemsHeading": {
+                  "key": "sourceWastedBytes"
+                },
+                "label": "Est Savings"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4173/assets/index-s4-A1SSE.js",
+                "totalBytes": 689884,
+                "wastedBytes": 42634,
+                "wastedPercent": 6.1799319937114925
+              }
+            ],
+            "overallSavingsMs": 300,
+            "overallSavingsBytes": 42634,
+            "sortedBy": [
+              "wastedBytes"
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "metricSavings": {
+                "FCP": 0,
+                "LCP": 300
+              }
+            }
+          }
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "display": "Est savings of 253 KiB",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": ""
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL",
+                "subItemsHeading": {
+                  "key": "reason",
+                  "valueType": "text"
+                }
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Resource Size"
+              },
+              {
+                "key": "wastedBytes",
+                "valueType": "bytes",
+                "label": "Est Savings",
+                "subItemsHeading": {
+                  "key": "wastedBytes",
+                  "valueType": "bytes"
+                }
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4173/media/trailer.webp",
+                "totalBytes": 138750,
+                "wastedBytes": 120674,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (1600x900) for its displayed dimensions (578x325). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 120674
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-0-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,5,DIV,2,DIV,1,MAIN,1,DIV,2,SECTION,1,DIV,0,DIV,1,ARTICLE,0,A,0,IMG",
+                  "selector": "div.news-grid > article.story-card > a.story-image > img",
+                  "boundingRect": {
+                    "top": 2112,
+                    "bottom": 2320,
+                    "left": 19,
+                    "right": 393,
+                    "width": 374,
+                    "height": 208
+                  },
+                  "snippet": "<img src=\"/media/feature-couple.webp\" alt=\"\" width=\"1800\" height=\"1000\" loading=\"lazy\">",
+                  "nodeLabel": "div.news-grid > article.story-card > a.story-image > img"
+                },
+                "url": "http://127.0.0.1:4173/media/feature-couple.webp",
+                "totalBytes": 65196,
+                "wastedBytes": 50811,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (1400x780) for its displayed dimensions (655x368). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 50811
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-1-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,5,DIV,2,DIV,1,MAIN,1,DIV,2,SECTION,1,DIV,0,DIV,2,ARTICLE,0,A,0,IMG",
+                  "selector": "div.news-grid > article.story-card > a.story-image > img",
+                  "boundingRect": {
+                    "top": 2623,
+                    "bottom": 2831,
+                    "left": 19,
+                    "right": 393,
+                    "width": 374,
+                    "height": 208
+                  },
+                  "snippet": "<img src=\"/media/feature-driver.webp\" alt=\"\" width=\"1800\" height=\"1000\" loading=\"lazy\">",
+                  "nodeLabel": "div.news-grid > article.story-card > a.story-image > img"
+                },
+                "url": "http://127.0.0.1:4173/media/feature-driver.webp",
+                "totalBytes": 44940,
+                "wastedBytes": 34977,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "This image file is larger than it needs to be (1400x777) for its displayed dimensions (655x368). Use responsive images to reduce the image download size.",
+                      "wastedBytes": 34977
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-2-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,5,DIV,2,DIV,1,MAIN,0,SECTION,0,DIV,0,IMG",
+                  "selector": "main#main > section#top > div.hero-scene > img.hero-art",
+                  "boundingRect": {
+                    "top": 182,
+                    "bottom": 802,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 620
+                  },
+                  "snippet": "<img class=\"hero-art\" src=\"/media/vice-city.webp\" alt=\"\" width=\"1600\" height=\"900\" fetchpriority=\"high\">",
+                  "nodeLabel": "main#main > section#top > div.hero-scene > img.hero-art"
+                },
+                "url": "http://127.0.0.1:4173/media/vice-city.webp",
+                "totalBytes": 116602,
+                "wastedBytes": 26874,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image’s download size",
+                      "wastedBytes": 26874
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-3-IMG",
+                  "path": "1,HTML,1,BODY,0,DIV,5,DIV,2,DIV,1,MAIN,0,SECTION,0,DIV,1,DIV,0,IMG",
+                  "selector": "section#top > div.hero-scene > div.hero-motion-layers > img.hero-motion-base",
+                  "boundingRect": {
+                    "top": 182,
+                    "bottom": 802,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 620
+                  },
+                  "snippet": "<img class=\"hero-motion-base\" alt=\"\" width=\"1672\" height=\"941\" src=\"/media/hero-motion-background.webp\">",
+                  "nodeLabel": "section#top > div.hero-scene > div.hero-motion-layers > img.hero-motion-base"
+                },
+                "url": "http://127.0.0.1:4173/media/hero-motion-background.webp",
+                "totalBytes": 124230,
+                "wastedBytes": 26193,
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "reason": "Increasing the image compression factor could improve this image’s download size",
+                      "wastedBytes": 26193
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "wastedBytes": 259529
+            }
+          }
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "display": null,
+          "details": {
+            "type": "list",
+            "items": [
+              {
+                "type": "list-section",
+                "value": {
+                  "type": "network-tree",
+                  "chains": {
+                    "9250C61C234E5ABFEE498E673E5618B4": {
+                      "url": "http://127.0.0.1:4173/es/",
+                      "navStartToEndTime": 64,
+                      "transferSize": 7901,
+                      "isLongest": true,
+                      "children": {
+                        "1089.3": {
+                          "url": "http://127.0.0.1:4173/assets/index-s4-A1SSE.js",
+                          "navStartToEndTime": 285,
+                          "transferSize": 700998,
+                          "isLongest": true,
+                          "children": {
+                            "1089.28": {
+                              "url": "http://127.0.0.1:4173/assets/postscribe-y8dznZHP.js",
+                              "navStartToEndTime": 450,
+                              "transferSize": 6751,
+                              "isLongest": true,
+                              "children": {}
+                            }
+                          }
+                        },
+                        "1089.4": {
+                          "url": "http://127.0.0.1:4173/assets/index-CcmSzc7O.css",
+                          "navStartToEndTime": 104,
+                          "transferSize": 13338,
+                          "children": {}
+                        }
+                      }
+                    }
+                  },
+                  "longestChain": {
+                    "duration": 450
+                  }
+                }
+              },
+              {
+                "type": "list-section",
+                "title": "Preconnected origins",
+                "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+                "value": {
+                  "type": "text",
+                  "value": "No origins were preconnected"
+                }
+              },
+              {
+                "type": "list-section",
+                "title": "Preconnect candidates",
+                "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+                "value": {
+                  "type": "text",
+                  "value": "No additional origins are good candidates for preconnecting"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "display": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              },
+              {
+                "key": "totalBytes",
+                "valueType": "bytes",
+                "label": "Transfer Size"
+              },
+              {
+                "key": "wastedMs",
+                "valueType": "timespanMs",
+                "label": "Duration"
+              }
+            ],
+            "items": [
+              {
+                "url": "http://127.0.0.1:4173/assets/index-CcmSzc7O.css",
+                "totalBytes": 13338,
+                "wastedMs": 159
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "variation": "Initial baseline cold run64/6.85sLCP differed markedly from repeated warm-host baseline90–92. All final mobile runs97–98,2.323–2.347sLCP. No initial outlier is silently used as a median."
+  },
+  "validation": {
+    "build": "npm run build:release passed; Sharp derivatives emitted automatically.",
+    "static": "494HTML,22224internal links,962JSON-LD blocks verified.",
+    "editorialPreservation": {
+      "htmlPages": 494,
+      "visibleText": "identical",
+      "metadataCanonicalHreflangJSONLD": "identical",
+      "articles": 150,
+      "versions": 450,
+      "articleObjects": "identical",
+      "sitemapRobots": "byte-identical"
+    },
+    "functional": "Original144-case selection:99passed,34oldexact-resolution assertions failed,11desktop-only scenarios skipped onmobile. Responsive-aware width/height/aspect assertions fixed;56-case rerun including all34history cases passed. Unique aggregate133passed/11profile-specific skips; final18-case home/hero/performance rerun and4-casebudget rerun passed. Allfixtures use local ad responses only for functional tests; do not establish realcreativefill.",
+    "visual": [
+      {
+        "width": 390,
+        "locale": "es",
+        "geometryDelta": 0,
+        "meanChannelDifference": 0.23689316239316238,
+        "channelsWithDifferenceOver25": 0.0013068376068376068
+      },
+      {
+        "width": 390,
+        "locale": "en",
+        "geometryDelta": 0,
+        "meanChannelDifference": 0.23421196581196582,
+        "channelsWithDifferenceOver25": 0.0012615384615384615
+      },
+      {
+        "width": 390,
+        "locale": "fr",
+        "geometryDelta": 0,
+        "meanChannelDifference": 0.2296811965811966,
+        "channelsWithDifferenceOver25": 0.001223931623931624
+      },
+      {
+        "width": 1440,
+        "locale": "es",
+        "geometryDelta": 0,
+        "meanChannelDifference": 0.3664085648148148,
+        "channelsWithDifferenceOver25": 0.0004729166666666667
+      },
+      {
+        "width": 1440,
+        "locale": "en",
+        "geometryDelta": 0,
+        "meanChannelDifference": 0.36459907407407405,
+        "channelsWithDifferenceOver25": 0.000462962962962963
+      },
+      {
+        "width": 1440,
+        "locale": "fr",
+        "geometryDelta": 0,
+        "meanChannelDifference": 0.3635138888888889,
+        "channelsWithDifferenceOver25": 0.0004412037037037037
+      }
+    ],
+    "public": "pending"
+  },
+  "constraints": {
+    "articlesRewritten": 0,
+    "articlesDeleted": 0,
+    "topicCount": 150,
+    "versions": 450,
+    "editorialSchedule": "unchanged;1theme/daythrough2026-11-19inclusiveAmerica/New_York",
+    "BarberControl": "untouched",
+    "securityRules": "unchanged",
+    "purchases": "none"
+  },
+  "changedFiles": [
+    "docs/CONTINUAR-FANSGTA.md",
+    "docs/performance/2026-11-04.json",
+    "package-lock.json",
+    "package.json",
+    "public/_headers",
+    "scripts/responsive-media.ts",
+    "scripts/static-pages.mjs",
+    "src/App.tsx",
+    "src/HeroScene.tsx",
+    "src/Interior.tsx",
+    "src/OfficialVideo.tsx",
+    "src/Regions.tsx",
+    "src/client-articles.ts",
+    "src/entry-server.ts",
+    "src/media.ts",
+    "src/page-data.ts",
+    "src/style.css",
+    "tests/editorial-daily-release-20261103.spec.ts",
+    "tests/editorial-history.spec.ts",
+    "tests/hero-motion.spec.ts",
+    "tests/performance.spec.ts",
+    "vite.config.ts"
+  ],
+  "gitAccess": "Git CLI fetch later lost its temporary authentication; the existing authorized GitHub connection independently confirmed main27748176 and is used for verified blob/tree/commit/ref writes. No credentials requested or inspected."
+}
