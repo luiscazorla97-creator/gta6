@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-04",
+  "checkedAt": "2026-11-04T20:18:25.749490+00:00",
+  "status": "Published; installation and site behavior verified. Visual Social Bar delivery unconfirmed because the real provider response was empty.",
+  "request": "Add only the supplied Social Bar code globally while preserving all current content, languages, design, SEO, banners and functionality. No popunder, artificial behavior or account-side changes.",
+  "baseline": "441560edf82b06232388a9ade86d49740be91f1b; the prior three-article request was published and publicly verified separately before Social Bar work",
+  "production": {
+    "commit": "d2571f65e02060debf1be73c90275f0a2cb30674",
+    "deploymentId": "58829974-c773-4819-9b8c-7af8fa83a098",
+    "stage": "deploy/success",
+    "evidence": "docs/ads/socialbar-2026-11-04-publication.json",
+    "pages": 37,
+    "resources": 273,
+    "verifiedAt": "2026-11-04T20:13:47.162016+00:00"
+  },
+  "installation": {
+    "onlyProductionCodeFile": "index.html",
+    "originalTag": "<script data-cfasync=\"false\" src=\"https://bauval.org/14/72f531d35d71d31735aa4e4bae1dae41\"></script>",
+    "placement": "Shared HTML template, near closing body; last executable body script, followed only by inert page JSON in generated pages. Outside React root, without an effect or navigation loader.",
+    "officialGuide": "https://adsterra.com/blog/publishers-guide-to-social-bar/",
+    "coverage": "All503generated HTML files, covering ES/EN/FR homepages, categories, articles and legal/error documents. Root redirects to ES as before.",
+    "duplicateHandling": "One tag per document. State changes, dialogs, bookmarks and same-document anchors do not inject another. Full document navigation loads one tag in the new page.",
+    "attributes": "Original src and data-cfasync=false retained; no additional async/type/crossorigin, wrapper, atOptions, timer, click handler or frequency control.",
+    "otherAds": "All five banner formats and placement/queue configuration unchanged. Google AdSense single loader/account meta/ads.txt preserved. Popunder remains disabled. Analytics retains its independent consent gate."
+  },
+  "preservation": {
+    "filesCompared": 794,
+    "HTMLFilesWithExactlyOneOriginalSocialBarTag": 503,
+    "allOtherBytesIdentical": true,
+    "preserved": "Article text/images, translations, full metadata/canonical/hreflang/JSON-LD, CSS, hydrationdata, JS, sitemap,robots,ads.txt,security/cache headers and current banner placements."
+  },
+  "validation": {
+    "build": "npm run build:release passed",
+    "static": "node scripts/verify-static.mjs passed:503HTML,22635internal links,980JSON-LD blocks",
+    "browserFixtures": {
+      "uniquePassedAcrossRuns": 39,
+      "skipped": 1,
+      "scope": "Nine Social Bar desktop/mobile/tablet cases, six existing performance cases, two AdSense cases and22banner cases. Mocked provider responses used for functional tests only. Covers once-per-document load, state changes, hash links, full navigation, reload, language selection, menu/dialog keyboard behavior, overflow, banner document.write/storage/serialization/errors and disabled popunder.",
+      "reruns": "One new mobile assertion was corrected to address the menu button by its stable aria-controls after its label changes on opening. Two existing desktop checks encountered a transient missing local document during a simultaneous rebuild; both passed when rerun after the build finished. No application logic was changed to suppress failures."
+    },
+    "publicHTTP": {
+      "pages": 37,
+      "resources": 273,
+      "scope": "Public route text, metadata/schema/canonical/hreflang, style/page data and resource bytes match the tested release. Every sampled page contains the exact original tag once. Sitemap,robots.txt,ads.txt and cache/security headers verified."
+    },
+    "realBrowser": {
+      "checkedAt": "2026-11-04T20:13:57.779Z",
+      "results": [
+        {
+          "path": "/es/",
+          "width": 1440,
+          "height": 1000,
+          "status": 200,
+          "tagCount": 1,
+          "rocketLoaderExcluded": "false",
+          "inBody": true,
+          "title": "FansGTA — Todo sobre GTA 6. Un solo lugar.",
+          "overflow": false,
+          "AdSenseLoaders": 1,
+          "popunderTags": 0,
+          "CSPEvents": [],
+          "socialBootstrapRequests": 1,
+          "socialResponses": [
+            {
+              "status": 200,
+              "contentType": "application/javascript"
+            }
+          ],
+          "failedRequests": [],
+          "JavaScriptExceptions": [],
+          "certificateErrors": 0,
+          "SDKMocked": false,
+          "TLSVerificationEnabled": true
+        },
+        {
+          "path": "/en/news/",
+          "width": 1024,
+          "height": 1366,
+          "status": 200,
+          "tagCount": 1,
+          "rocketLoaderExcluded": "false",
+          "inBody": true,
+          "title": "News | GTA VI | FansGTA",
+          "overflow": false,
+          "AdSenseLoaders": 1,
+          "popunderTags": 0,
+          "CSPEvents": [],
+          "socialBootstrapRequests": 1,
+          "socialResponses": [
+            {
+              "status": 200,
+              "contentType": "application/javascript"
+            }
+          ],
+          "failedRequests": [],
+          "JavaScriptExceptions": [],
+          "certificateErrors": 0,
+          "SDKMocked": false,
+          "TLSVerificationEnabled": true
+        },
+        {
+          "path": "/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+          "width": 390,
+          "height": 844,
+          "status": 200,
+          "tagCount": 1,
+          "rocketLoaderExcluded": "false",
+          "inBody": true,
+          "title": "GTA 6 peut-il gagner le GOTY 2026 ? Les règles expliquées | FansGTA",
+          "overflow": false,
+          "AdSenseLoaders": 1,
+          "popunderTags": 0,
+          "CSPEvents": [],
+          "socialBootstrapRequests": 1,
+          "socialResponses": [
+            {
+              "status": 200,
+              "contentType": "application/javascript"
+            }
+          ],
+          "failedRequests": [],
+          "JavaScriptExceptions": [],
+          "certificateErrors": 0,
+          "SDKMocked": false,
+          "TLSVerificationEnabled": true
+        }
+      ],
+      "limits": "Real SDK responses recorded; presence of a tag or an HTTP200 bootstrap would not alone prove creative fill or revenue. No ad clicks, provider interceptions, alternate domains or browser-security bypasses."
+    },
+    "extendedMobileCheck": {
+      "checkedAt": "2026-11-04T20:16:03.350Z",
+      "page": "/es/",
+      "pageStatus": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mobileEmulation": true,
+      "SDKStatus": 200,
+      "SDKBytes": 0,
+      "SDKContentSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "SDKRequests": 1,
+      "waitAfterLoadMs": 15000,
+      "JavaScriptExceptions": [],
+      "networkByDomainAndStatus": {
+        "fansgta.com|200": 7,
+        "pagead2.googlesyndication.com|200": 3,
+        "static.cloudflareinsights.com|200": 1,
+        "googleads.g.doubleclick.net|200": 2,
+        "bauval.org|200": 3,
+        "fansgta.com|204": 1,
+        "ep1.adtrafficquality.google|200": 1,
+        "ep2.adtrafficquality.google|200": 2,
+        "www.google.com|200": 1,
+        "ep2.adtrafficquality.google|204": 1,
+        "ep1.adtrafficquality.google|204": 1
+      },
+      "DOM": {
+        "outsideRootElements": [
+          {
+            "tag": "INS",
+            "id": "",
+            "className": "adsbygoogle adsbygoogle-noablate",
+            "visible": false
+          },
+          {
+            "tag": "IFRAME",
+            "id": "",
+            "className": "",
+            "visible": false
+          }
+        ],
+        "frames": [
+          {
+            "title": "GTA VI · Primer tráiler oficial",
+            "origin": "https://www.youtube-nocookie.com"
+          },
+          {
+            "title": "Advertisement",
+            "origin": "https://googleads.g.doubleclick.net"
+          },
+          {
+            "title": "",
+            "origin": "https://www.google.com"
+          },
+          {
+            "title": "",
+            "origin": "https://googleads.g.doubleclick.net"
+          }
+        ],
+        "scriptCount": 1,
+        "overflow": false
+      },
+      "SDKMocked": false,
+      "adClicksPerformed": 0,
+      "frequencyControlsChanged": false
+    },
+    "visual": "Actual production screenshots at1440x1000,1024x1366and390x844 inspected. Existing site layout preserved. No identifiable Social Bar creative visible in the captured checks; 15-second follow-up received an empty bootstrap."
+  },
+  "providerResult": {
+    "directHTTPS": {
+      "url": "https://bauval.org/14/72f531d35d71d31735aa4e4bae1dae41",
+      "checkedAt": "2026-11-04T19:56:11.425840+00:00",
+      "method": "Normal managed HTTPS proxy, TLS verification enabled; no alternate domain, address or browser-control bypass.",
+      "status": 403,
+      "contentType": "application/javascript",
+      "bytes": 0
+    },
+    "publisherBrowser": "Real ordinary browser visits to public FansGTA returned HTTP200 for the original bootstrap, one request per document, no certificate errors, no CSP violations, no JavaScript exceptions. No provider interception or alternate domain.",
+    "bodyCheck": {
+      "status": 200,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "waitAfterLoadMs": 15000
+    },
+    "interpretation": "Script presence and successful HTTP status do not prove a visible ad. An empty JavaScript response cannot initialize the Social Bar on this observed visit. Reason for the empty response is unknown; no claim of account inactivity, universal provider failure, creative fill, impressions or revenue.",
+    "remainingAction": "If no Social Bar appears in the owner’s normal browser, ask Adsterra to verify this exact unit for fansgta.com and investigate the empty bootstrap response. No account-side access was available here. No credentials requested."
+  },
+  "temporaryCloudBrowser": {
+    "authorization": "Existing user approval for managed proxy CA in a temporary cloud Chrome profile reused for normally validated production HTTPS.",
+    "scope": "Only the task-owned profile Custom ServerCertificate database; OS/shared NSS/PC/site security and proxy policy unchanged. No ignore-certificate-errors flags.",
+    "profileRemoved": true,
+    "removedAt": "2026-11-04T20:18:25.749490+00:00",
+    "path": "/tmp/fansgta-socialbar-20261104/browser-profile"
+  },
+  "sourceFiles": [
+    "index.html",
+    "AGENTS.md",
+    "docs/adsterra.md",
+    "tests/socialbar.spec.ts",
+    "tests/ads.spec.ts"
+  ],
+  "noOtherChanges": "No published article, image, translation, link, SEO field, sitemap or editorial schedule edited by the Social Bar change. No ad clicks performed, SDK behavior/frequency altered or additional format installed."
+}
