@@ -1,15 +1,16 @@
 {
   "date": "2026-11-04",
-  "checkedAt": "2026-11-04T19:18:50.438473+00:00",
-  "status": "Real HTTPS baseline measured; countdown guard validated; new deployment and follow-up audit pending",
-  "authorization": "User explicitly approved managed proxy CA import into a temporary cloud Chromium profile. Only the profile Custom ServerCertificate database was changed; no OS/shared NSS/PC/site trust store or site security settings. Normal TLS validation remained enabled. Profile cleanup pending.",
+  "checkedAt": "2026-11-04T19:26:37.505280+00:00",
+  "status": "Published, verified over public HTTPS, real-SDK mobile and desktop audits completed; temporary browser profile removed",
+  "authorization": "User explicitly approved the managed proxy CA in a temporary cloud Chromium profile. Only that profile Custom ServerCertificate database was changed. Normal TLS validation stayed enabled. The entire task-owned temporary profile has now been removed; OS/shared NSS/PC/site trust stores and site security settings were never changed.",
   "method": {
     "url": "https://fansgta.com/es/",
-    "engine": "Lighthouse13.6.0 / Chromium154.0.8037.57",
-    "settings": "Default simulatedmobile;3runs and1desktoppreset run against production. Realnetwork, no mocked/intercepted/blocked SDKrequests. Connected via normalcloudproxy.",
-    "storage": "Lighthouse defaultstorage/cache reset. Temporaryprofile CA permits realHTTPSresources; noignorecertificateerrors flags.",
-    "limits": "Cloudroute/CPU and adresponses vary;notGooglePageSpeedbackend or CrUX. PublicrealSDKcosts differ from previous local98score. Cannot confirm realcreativefill/revenue.",
-    "certErrors": 0
+    "engine": "Lighthouse 13.6.0 / Chromium 154.0.8037.57",
+    "settings": "Default simulated mobile: 4x CPU slowdown, 150 ms RTT, 1638.4 Kbps; three mobile runs and one desktop preset run against production before and after the countdown guard. Real network via normal cloud proxy; no mocked, intercepted or blocked SDK requests.",
+    "storage": "Lighthouse default storage/cache reset between runs. Temporary profile CA enabled normally validated HTTPS; no ignore-certificate-errors flags.",
+    "limits": "Cloud route, CPU and ad responses vary. These are public-HTTPS Lighthouse lab runs, not Google PageSpeed backend results or CrUX field data. Real SDK costs differ from the earlier local 98 score. Adsterra returned HTTP 403 from this cloud route, so creative fill and revenue cannot be verified here.",
+    "certErrors": 0,
+    "units": "Milliseconds except dimensionless CLS and 0–100 scores"
   },
   "baselineRuntimeCommit": "479542ebe94b2a15a2aad203e4baa942ab7837b1",
   "beforeRuns": [
@@ -185,8 +186,8 @@
       "src/App.tsx",
       "tests/performance.spec.ts"
     ],
-    "behavior": "Keep the1second timer and exactroundedday transition. ReturnpreviousReactstate if visible daycount is identical, avoiding unnecessary parent/children rerenders. No visual/advertising/language/editorial/schedule changes.",
-    "validation": "npmrunbuild:release and verifystatic passed:494HTML/22224internallinks/962JSONLD.16targeted tests passed. Frozen-clock2second launch-boundary checks pass in desktop/mobile. All150fullarticleobjects unchanged."
+    "behavior": "Keep the one-second timer and exact rounded-day transition. Return previous React state while the visible remaining-day count is identical, avoiding unnecessary page rerenders. No visual, advertising, language, editorial or schedule changes.",
+    "validation": "npm run build:release and node scripts/verify-static.mjs passed: 494 HTML pages, 22,224 internal links, 962 JSON-LD blocks. Sixteen targeted mobile/desktop tests passed, plus two deterministic launch-boundary checks. All 150 full article objects remain deeply identical."
   },
   "GooglePageSpeed": {
     "API": "Previously returned429 dailyquotaexhausted.",
@@ -259,5 +260,227 @@
     ],
     "interpretation": "UI could not resolve URL; GoogleDNS and CloudflareDNS both resolvedpublicA records successfully. Do not infer brokenDNS or change DNS/WAF rules from this generic UIerror. Cannot claim a new GooglePSIscore."
   },
-  "after": "pending"
+  "after": {
+    "runtimeCommit": "167bc75cbff9add691ef35dd47cad336ec67f029",
+    "deploymentId": "d3f6a9a6-c7ba-40b9-8e56-2683f4b56a1c",
+    "publicationEvidence": "docs/performance/2026-11-04-countdown-publication.json",
+    "runs": [
+      {
+        "name": "mobile-1",
+        "scores": {
+          "performance": 90,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 1327.341,
+        "LCP": 1327.341,
+        "SI": 1921.6732763193404,
+        "TBT": 408.5,
+        "CLS": 0,
+        "homepageStatus": 200,
+        "networkByDomainAndStatus": {
+          "fansgta.com|200": 10,
+          "pagead2.googlesyndication.com|200": 3,
+          "static.cloudflareinsights.com|200": 1,
+          "googleads.g.doubleclick.net|200": 2,
+          "pagead2.googlesyndication.com|204": 1,
+          "bauval.org|403": 2,
+          "ep1.adtrafficquality.google|200": 1,
+          "fansgta.com|204": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "certificateErrors": 0,
+        "LCPElement": [
+          {
+            "selector": "section#top > div.hero-scene > picture > img.hero-art",
+            "label": "section#top > div.hero-scene > picture > img.hero-art"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "name": "mobile-2",
+        "scores": {
+          "performance": 94,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 1211.9222,
+        "LCP": 2775.1642,
+        "SI": 1788.6679703046866,
+        "TBT": 142,
+        "CLS": 0,
+        "homepageStatus": 200,
+        "networkByDomainAndStatus": {
+          "fansgta.com|200": 10,
+          "pagead2.googlesyndication.com|200": 3,
+          "static.cloudflareinsights.com|200": 1,
+          "bauval.org|403": 2,
+          "googleads.g.doubleclick.net|200": 2,
+          "pagead2.googlesyndication.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "fansgta.com|204": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "certificateErrors": 0,
+        "LCPElement": [
+          {
+            "selector": "section#top > div.hero-scene > picture > img.hero-art",
+            "label": "section#top > div.hero-scene > picture > img.hero-art"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "name": "mobile-3",
+        "scores": {
+          "performance": 96,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 1278.2435999999998,
+        "LCP": 1729.8243999999997,
+        "SI": 1673.7034149230542,
+        "TBT": 227,
+        "CLS": 0,
+        "homepageStatus": 200,
+        "networkByDomainAndStatus": {
+          "fansgta.com|200": 10,
+          "pagead2.googlesyndication.com|200": 3,
+          "static.cloudflareinsights.com|200": 1,
+          "bauval.org|403": 2,
+          "googleads.g.doubleclick.net|200": 2,
+          "pagead2.googlesyndication.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "fansgta.com|204": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "certificateErrors": 0,
+        "LCPElement": [
+          {
+            "selector": "section#top > div.hero-scene > picture > img.hero-art",
+            "label": "section#top > div.hero-scene > picture > img.hero-art"
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "name": "desktop",
+        "scores": {
+          "performance": 98,
+          "accessibility": 96,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "FCP": 424.3755,
+        "LCP": 1030.6718,
+        "SI": 806.0909808834231,
+        "TBT": 26.499999999999886,
+        "CLS": 0,
+        "homepageStatus": 200,
+        "networkByDomainAndStatus": {
+          "fansgta.com|200": 12,
+          "pagead2.googlesyndication.com|200": 3,
+          "static.cloudflareinsights.com|200": 1,
+          "www.youtube-nocookie.com|200": 7,
+          "googleads.g.doubleclick.net|200": 2,
+          "pagead2.googlesyndication.com|204": 1,
+          "bauval.org|403": 4,
+          "fonts.gstatic.com|200": 1,
+          "www.google.com|200": 2,
+          "ep1.adtrafficquality.google|200": 1,
+          "fansgta.com|204": 1,
+          "i.ytimg.com|-1": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.youtube-nocookie.com|204": 1,
+          "jnn-pa.googleapis.com|200": 2,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "certificateErrors": 0,
+        "LCPElement": [
+          {
+            "selector": "section#top > div.hero-scene > picture > img.hero-art",
+            "label": "section#top > div.hero-scene > picture > img.hero-art"
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "mobileMedian": {
+      "performance": 94,
+      "FCP": 1278.2435999999998,
+      "LCP": 1729.8243999999997,
+      "SI": 1788.6679703046866,
+      "TBT": 227,
+      "CLS": 0
+    },
+    "desktop": {
+      "name": "desktop",
+      "scores": {
+        "performance": 98,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "FCP": 424.3755,
+      "LCP": 1030.6718,
+      "SI": 806.0909808834231,
+      "TBT": 26.499999999999886,
+      "CLS": 0,
+      "homepageStatus": 200,
+      "networkByDomainAndStatus": {
+        "fansgta.com|200": 12,
+        "pagead2.googlesyndication.com|200": 3,
+        "static.cloudflareinsights.com|200": 1,
+        "www.youtube-nocookie.com|200": 7,
+        "googleads.g.doubleclick.net|200": 2,
+        "pagead2.googlesyndication.com|204": 1,
+        "bauval.org|403": 4,
+        "fonts.gstatic.com|200": 1,
+        "www.google.com|200": 2,
+        "ep1.adtrafficquality.google|200": 1,
+        "fansgta.com|204": 1,
+        "i.ytimg.com|-1": 1,
+        "ep2.adtrafficquality.google|200": 2,
+        "www.youtube-nocookie.com|204": 1,
+        "jnn-pa.googleapis.com|200": 2,
+        "ep2.adtrafficquality.google|204": 1,
+        "ep1.adtrafficquality.google|204": 1
+      },
+      "certificateErrors": 0,
+      "LCPElement": [
+        {
+          "selector": "section#top > div.hero-scene > picture > img.hero-art",
+          "label": "section#top > div.hero-scene > picture > img.hero-art"
+        }
+      ],
+      "warnings": []
+    },
+    "checkedAt": "2026-11-04T19:26:37.505280+00:00"
+  },
+  "conclusion": {
+    "mobileScoreGoal90Met": true,
+    "medianLCPGoal2500msMet": true,
+    "allMobileRunsLCPGoal2500msMet": false,
+    "CLSZeroEveryRun": true,
+    "interpretation": "The day-count guard removes redundant work while retaining the exact visible behavior. Changes between these real-SDK lab runs also include provider/network variation and are not a controlled attribution of all metric differences to the guard. Advertising was preserved; remaining third-party blocking is reported rather than hidden to improve the score."
+  },
+  "temporaryProfileCleanup": {
+    "completedAt": "2026-11-04T19:26:37.505280+00:00",
+    "removed": "/tmp/fansgta-performance-20261104/browser-profile",
+    "scope": "Only the task-owned temporary browser profile; no global trust changes"
+  }
 }

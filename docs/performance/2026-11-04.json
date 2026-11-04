@@ -22,9 +22,9 @@
     "url": "/es/ (root serves the same Spanish homepage)",
     "mobile": "Default Lighthouse simulated mobile:4xCPU,150msRTT,1638.4Kbps; three final runs and three preserved-baseline runs. Desktop uses preset=desktop.",
     "origin": "Local release preview on4173, byte-preserved baseline on4174. Same unmodified thirdparty SDK URLs requested; nothing removed/blocked to obtain a score.",
-    "limits": "Environment browser cannot validate the managed proxy CA. Thirdparty HTTPS SDK requests consequently fail in both Lighthouse configurations; these lab scores are not a live advertising/Analytics delivery test or a new public PSI score. Real provider latency and Google locations will differ.",
+    "limits": "The earlier local before/after audits could not validate external SDK certificates and must not be read as a public Google score. Subsequent user-authorized temporary-profile trust enabled real public HTTPS audits with Google SDKs executing; see publicHTTPSAudit. The temporary profile was removed afterward.",
     "publicPSI": "Google Pagespeed API returned429 RESOURCE_EXHAUSTED, dailyquota0. No API key requested or paid service activated.",
-    "browserTrust": "Automatic approval review rejected both global NSS and temporary-profile CA import proposals as unapproved trust changes. Neither executed. No certificate/TLS/proxy/site-security bypass applied. Existing identified HTTPS CLI checks validate TLS and workHTTP200."
+    "browserTrust": "Initial automatic reviews denied unapproved CA imports; neither proposal executed then. The user subsequently explicitly approved a temporary cloud Chrome profile only. Its per-profile managed proxy CA was added with normal TLS validation, public audits completed, and the entire profile removed. OS/shared NSS/PC/site security settings were unchanged."
   },
   "findings": {
     "LCP": "Homepageimg.hero-art:Vice City scene. The original is discoverable/eager/highpriority already, but 2.13MB boot JavaScript, a renderblocking CSS request and competing/later decorative image paints delayed rendering. A transparent1672x941 helicopter layer with only169x89visiblepixels could become a later LCP candidate.",
@@ -57,6 +57,26 @@
           "bytes": 57621,
           "gzip": 13015,
           "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+        }
+      ],
+      "latestCountdownAssets": [
+        {
+          "file": "dist/assets/index-BkQBpQi9.css",
+          "bytes": 57621,
+          "gzip": 13015,
+          "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+        },
+        {
+          "file": "dist/assets/index-CCJ82Hgh.js",
+          "bytes": 352167,
+          "gzip": 111552,
+          "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14"
+        },
+        {
+          "file": "dist/assets/postscribe-CDYx5jIm.js",
+          "bytes": 18060,
+          "gzip": 6361,
+          "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c"
         }
       ]
     },
@@ -91,7 +111,8 @@
     "priority": "Matching media-specific heroAVIFpreload after viewportmeta; decorative layers start after the still image paints and browser idle, remainfunctional. Native YouTubeiframe loading=lazy retains existing media preference.",
     "cache": "Assets/derived-images use content-versioned URLs with one-yearimmutable browser caching. Originalmedia revalidate after1hour. HTML retains Pages max-age0/must-revalidate; sitemap/robots explicitly max-age0. Securityheaders unchanged.",
     "accessibility": "96 retained. Existing contrast findings documented, not changed by altering the user-preserved palette.",
-    "adsAnalytics": "All5 Adsterraunits, both top/bottom requests and160x600rails, exactkeys/URLs, writer serialisation, RocketLoader exclusion, disabledpopunder, AdSense verification and Analytics consent retained."
+    "adsAnalytics": "All5 Adsterraunits, both top/bottom requests and160x600rails, exactkeys/URLs, writer serialisation, RocketLoader exclusion, disabledpopunder, AdSense verification and Analytics consent retained.",
+    "countdown": "The one-second release timer now returns unchanged React state while the visible rounded day count is the same. It still updates on the correct second at launch; mobile and desktop clock-boundary tests passed."
   },
   "metrics": {
     "units": "milliseconds except dimensionless CLS and0–100scores",
@@ -831,6 +852,9 @@
   "changedFiles": [
     "docs/CONTINUAR-FANSGTA.md",
     "docs/adsense.md",
+    "docs/performance/2026-11-04-countdown-publication.json",
+    "docs/performance/2026-11-04-public-audit.json",
+    "docs/performance/2026-11-04-publication.json",
     "docs/performance/2026-11-04.json",
     "index.html",
     "package-lock.json",
@@ -894,7 +918,44 @@
       "TBT": 703,
       "CLS": 0
     },
-    "differenceFromLocal": "RealGoogleSDKexecutes and addsblocking; previous98was local, notpublicGooglePSI.",
-    "state": "Baseline recorded; targeted countdown guard and follow-up audit pending"
+    "finalMobileMedian": {
+      "performance": 94,
+      "FCP": 1278.2435999999998,
+      "LCP": 1729.8243999999997,
+      "SI": 1788.6679703046866,
+      "TBT": 227,
+      "CLS": 0
+    },
+    "finalDesktop": {
+      "scores": {
+        "performance": 98,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "FCP": 424.3755,
+      "LCP": 1030.6718,
+      "SI": 806.0909808834231,
+      "TBT": 26.499999999999886,
+      "CLS": 0
+    },
+    "differenceFromLocal": "Google AdSense and quality scripts execute on public HTTPS and add blocking. The earlier local 98 is not a public Google PageSpeed score. Adsterra returned 403 from this cloud route; no ad requests were removed or intercepted.",
+    "state": "Complete, source deployed and verified; temporary profile removed",
+    "GooglePageSpeed": "API quota exhausted; UI could not resolve URL although both Google and Cloudflare public DNS resolved successfully. No new Google PageSpeed score is claimed.",
+    "conclusion": {
+      "mobileScoreGoal90Met": true,
+      "medianLCPGoal2500msMet": true,
+      "allMobileRunsLCPGoal2500msMet": false,
+      "CLSZeroEveryRun": true,
+      "interpretation": "The day-count guard removes redundant work while retaining the exact visible behavior. Changes between these real-SDK lab runs also include provider/network variation and are not a controlled attribution of all metric differences to the guard. Advertising was preserved; remaining third-party blocking is reported rather than hidden to improve the score."
+    }
+  },
+  "countdownPublication": {
+    "evidence": "docs/performance/2026-11-04-countdown-publication.json",
+    "commit": "167bc75cbff9add691ef35dd47cad336ec67f029",
+    "deploymentId": "d3f6a9a6-c7ba-40b9-8e56-2683f4b56a1c",
+    "pages": 28,
+    "resources": 273,
+    "verifiedAt": "2026-11-04T19:25:05.211822+00:00"
   }
 }
