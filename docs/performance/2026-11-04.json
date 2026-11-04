@@ -758,7 +758,7 @@
     "editorialPreservation": {
       "htmlPages": 494,
       "visibleText": "identical",
-      "metadataCanonicalHreflangJSONLD": "identical",
+      "metadataCanonicalHreflangJSONLD": "Canonical/hreflang/article metadata and JSON-LD identical; one newly authorized global AdSense account meta added.",
       "articles": 150,
       "versions": 450,
       "articleObjects": "identical",
@@ -823,7 +823,9 @@
   },
   "changedFiles": [
     "docs/CONTINUAR-FANSGTA.md",
+    "docs/adsense.md",
     "docs/performance/2026-11-04.json",
+    "index.html",
     "package-lock.json",
     "package.json",
     "public/_headers",
@@ -839,11 +841,31 @@
     "src/media.ts",
     "src/page-data.ts",
     "src/style.css",
+    "tests/adsense.spec.ts",
     "tests/editorial-daily-release-20261103.spec.ts",
     "tests/editorial-history.spec.ts",
     "tests/hero-motion.spec.ts",
     "tests/performance.spec.ts",
     "vite.config.ts"
   ],
-  "gitAccess": "Git CLI fetch later lost its temporary authentication; the existing authorized GitHub connection independently confirmed main27748176 and is used for verified blob/tree/commit/ref writes. No credentials requested or inspected."
+  "gitAccess": "Git CLI fetch later lost its temporary authentication; the existing authorized GitHub connection independently confirmed main27748176 and is used for verified blob/tree/commit/ref writes. No credentials requested or inspected.",
+  "authorizedFollowup": {
+    "request": "Add Google AdSense loader, ads.txt row and publisher account meta",
+    "change": "Existing single loader and exact ads.txt row already present. Added only one google-adsense-account meta in shared head; all3languages. No duplicate script/adunit or account-side settings change.",
+    "publisher": "ca-pub-1382859681401211",
+    "approval": "Not established by code installation"
+  },
+  "cacheRevalidationNote": "Some already-cached unchanged originals still return the former4hour maxage at the edge; deployed policy is1hour onrevalidation. New content-versioned resources verify1yearimmutable. HTML remains maxage0 for article freshness. No purge or securityrules changed.",
+  "adsTxtVerification": {
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "canonicalURL": "https://fansgta.com/ads.txt",
+    "HTTP": "redirects to HTTPS and returns same200text",
+    "www": "200samepublisherrow",
+    "row": "google.com, pub-1382859681401211, DIRECT, f08c47fec0942fa0",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "robots": "Only/admin disallowed, ads.txtallowed",
+    "GoogleAccountStatus": "ScreenshotPreparing/Notfound is not contradicted by ourpublicfilecheck; cannot observe Googlescrawlaccountlogs. Google says automaticrechecks can take days or uptoamonth withfewadrequests. No approval claim.",
+    "officialHelp": "https://support.google.com/adsense/answer/12171244?hl=es"
+  }
 }

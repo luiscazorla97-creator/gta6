@@ -3,6 +3,7 @@ test('AdSense verification script is present exactly once on each language and a
  for(const locale of ['es','en','fr']){
   const response=await request.get('/'+locale+'/');expect(response.status()).toBe(200);
   const html=await response.text();
+  expect([...html.matchAll(/<meta name="google-adsense-account" content="ca-pub-1382859681401211"\/>/g)]).toHaveLength(1);
   const scripts=[...html.matchAll(/<script\b[^>]*src="https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-1382859681401211"[^>]*>/g)].map(m=>m[0]);
   expect(scripts).toHaveLength(1);expect(scripts[0]).toContain('async');expect(scripts[0]).toContain('crossorigin="anonymous"');expect(scripts[0]).toContain('data-cfasync="false"');
  }
