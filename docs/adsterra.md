@@ -99,3 +99,18 @@ Validación: 36 pruebas de navegador aprobadas (8 duplicados de cobertura de anc
 ## Laterales que acompañan el desplazamiento — 2026-10-31
 
 El usuario aportó una captura con anuncios reales en ambos costados y arriba; queda confirmada su visualización en ese navegador, sin inferir impresiones de otros visitantes ni ingresos. Luego solicitó que los dos laterales sigan al desplazarse con la rueda del mouse. Se usa position:sticky con top:126px dentro de las columnas reservadas, únicamente desde 1280px de ancho y 780px de alto. La etiqueta, separación y creatividad de 600px caben bajo el encabezado; en ventanas de menor altura se mantiene el desplazamiento normal para que toda la creatividad sea accesible. Los laterales terminan en el borde inferior de la distribución, antes del pie. No hay control de scroll por JavaScript, cambios de claves, regeneración de iframes ni recargas publicitarias al desplazarse. El popunder permanece desactivado y Analytics conserva su consentimiento.
+
+
+## Social Bar solicitado el 4 de noviembre de 2026
+
+El usuario añadió expresamente Social Bar, conservando los cinco formatos de banners anteriores. Este pedido amplía la decisión anterior de mantener únicamente banners; el popunder sigue desactivado. Se instala el fragmento exacto en `index.html`, dentro del cuerpo, antes de `</body>`:
+
+```html
+<script data-cfasync="false" src="https://bauval.org/14/72f531d35d71d31735aa4e4bae1dae41"></script>
+```
+
+La [guía oficial de Social Bar](https://adsterra.com/blog/publishers-guide-to-social-bar/) indica colocar el código antes del cierre del cuerpo. La plantilla estática común lo conserva en portada, categorías, artículos y páginas legales de ES/EN/FR. El JSON inerte de hidratación se incorpora después; Social Bar es el último script ejecutable del cuerpo. No se inyecta desde React: los cambios de estado y las anclas de la misma página no generan nuevas etiquetas. Una navegación completa crea otro documento con una sola etiqueta, como corresponde a una carga por página.
+
+Se conservan URL y `data-cfasync="false"` originales. No se añade iframe, `atOptions`, temporizador, carga por clic, control de frecuencia, clic automático ni formato extra. Los cargadores y claves de banners, AdSense, Analytics y la política de seguridad conservan sus archivos y configuración. La interfaz que sirva Social Bar depende del proveedor.
+
+La primera consulta HTTPS al endpoint desde la ruta normal de esta nube respondió HTTP 403 con cuerpo vacío. Esto no demuestra una falla universal del proveedor ni permite afirmar entrega de creatividades. Se distinguen la presencia pública de la etiqueta, las pruebas funcionales con un SDK simulado y el resultado del SDK real. La publicación y comprobación final se registrarán en `docs/ads/socialbar-2026-11-04.json`.

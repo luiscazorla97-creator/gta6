@@ -26,3 +26,6 @@ On October 31 the user supplied a replacement 160x600 sidebar tag, key 83b265326
 
 
 On October 31 the user confirmed real banner delivery with a screenshot, then explicitly requested that both side banners follow page scrolling. Side rails now use CSS sticky below the 126px header only at viewport widths >=1280px and heights >=780px, so the complete 600px creative fits. On shorter desktops they scroll normally; they remain hidden below the width threshold. Keep their reserved columns, stop at the layout boundary before the footer, and never reload/refresh the provider on scroll. This supersedes the earlier non-sticky placement description, without authorizing popunders.
+
+
+On November 4 the user explicitly authorized Social Bar in addition to all existing banners. Preserve the single supplied tag https://bauval.org/14/72f531d35d71d31735aa4e4bae1dae41 with data-cfasync=false near the closing body tag in index.html. The shared static template covers every route and locale; do not add a React loader, duplicate on navigation, wrap it in the banner writer or change its behavior/frequency. This request permits Social Bar only; the abscloud popunder stays disabled. Existing banner units, IDs, placement/serialization, Analytics consent, AdSense and security rules remain unchanged. Real provider delivery must be checked separately from script presence or fixtures.

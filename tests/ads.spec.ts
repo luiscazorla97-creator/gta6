@@ -22,6 +22,9 @@ function bootstrap(name:AdUnitName){
  return `(()=>{${probe}const unit=window.atOptions;if(!unit||unit.key!=='${unit.key}'||unit.width!==${unit.width}||unit.height!==${unit.height})throw new Error('Wrong banner configuration');const target=document.currentScript.closest('.ad-provider');target.dataset.fixtureStorage='ok';target.dataset.fixtureKey=unit.key;document.write(${JSON.stringify(creative+nested)});})()`;
 }
 async function provider(route:Route){
+ if(route.request().url()==='https://bauval.org/14/72f531d35d71d31735aa4e4bae1dae41'){
+  await route.fulfill({status:200,contentType:'application/javascript',body:''});return;
+ }
  const key=new URL(route.request().url()).pathname.split('/').pop();
  const name=(Object.keys(adUnits) as AdUnitName[]).find(name=>adUnits[name].key===key);
  if(!name)throw new Error('Unexpected provider URL: '+route.request().url());
@@ -112,7 +115,7 @@ test('narrow screens skip fixed banners that do not fit and keep native fluid',a
  await rendered(page,'native');
  await expect(page.locator('.ad-slot-mobile script')).toHaveCount(0);
  await expect(page.locator('.ad-slot-rectangle script')).toHaveCount(0);
- expect(requests.get(page)!.filter(url=>url.startsWith('https://bauval.org/'))).toEqual([`https://bauval.org/21/${adUnits.native.key}`]);
+ expect(requests.get(page)!.filter(url=>/^https:\/\/bauval\.org\/(21|22)\//.test(url))).toEqual([`https://bauval.org/21/${adUnits.native.key}`]);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
 
