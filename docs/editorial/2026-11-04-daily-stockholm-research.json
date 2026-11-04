@@ -1,0 +1,247 @@
+{
+  "status": "prepared-not-published",
+  "checkedAt": "2026-11-04T22:27:46.361625+00:00",
+  "scope": {
+    "dailyTopics": 1,
+    "locales": [
+      "es",
+      "en",
+      "fr"
+    ],
+    "lastAuthorizedDate": "2026-11-19",
+    "timezone": "America/New_York",
+    "scheduleChanged": false
+  },
+  "cloud": {
+    "workspace": "managed cloud execution /workspace/gta6",
+    "githubMainReadFromAuthorizedConnection": "d539d98bc8ed2ddeb0a02984fef86bddf10185c4",
+    "githubWriteAndCloudflareCredentials": "effective connections checked; no user PC or desktop process used"
+  },
+  "lastDailyRun": "2026-11-03-daily-release-research.json",
+  "topic": {
+    "id": "gta6-stockholm-billboard-20261104",
+    "intent": "New dated fan photo report of GTA VI outdoor advertising attributed to Stockholm; location and installation not independently verified",
+    "classification": "rumour / attributed unconfirmed report in every title, introduction and tag",
+    "primaryPublishedAt": "2026-11-04T12:21:45+00:00",
+    "primaryLocationCommentUpdatedAt": "2026-11-04T14:21:36+00:00",
+    "eventDate": "Installation date unknown; November 4 is publication date only"
+  },
+  "deduplication": {
+    "existingTopicsCompared": 153,
+    "existingLocalizedURLsCompared": 459,
+    "checked": "All exported complete Article objects (titles, body, sections, translations, sources) and inventory reviewed; explicit country/address keyword scan plus semantic comparison with advertising, preorder and release coverage",
+    "countryAndLocationKeywordMatches": [],
+    "closest": [
+      {
+        "id": "gta6-miami-campaign-20261103",
+        "decision": "Distinct local reported installation, not the documented Miami-Dade agreement. Link existing coverage; do not add the Swedish sighting to the Miami contract."
+      },
+      {
+        "id": "gta6-burger-shot-miami-20261104",
+        "decision": "Distinct from restaurant locations and concessions; no duplicate food/visit guide."
+      },
+      {
+        "id": "gta-6-19-november-2026",
+        "decision": "Launch/preload timing already updated by the last daily run. Link existing report without repeating it as new news."
+      }
+    ]
+  },
+  "interest": {
+    "evidence": [
+      "Dated November 4 original Reddit photo post with readable discussion and address supplied by its author",
+      "November 4 YouGTA report indexed in current search; this repeats the same Reddit source, not independent location confirmation",
+      "Current Google autocomplete returns gta 6 stockholm; a suggestion is not search volume, growth or a popularity ranking"
+    ],
+    "autocomplete": {
+      "label": "suggest-stockholm",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta%206%20stockholm",
+      "status": 200,
+      "contentType": "text/javascript; charset=UTF-8",
+      "bytes": 114,
+      "suggestions": [
+        "gta 6 stockholm",
+        [
+          "gta 6 stockholm",
+          "gta 6 storage size"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ]
+    },
+    "limits": "No measured search volume, rank, fan-vote count, guaranteed traffic or sales claimed. Search snippets gave a November 4 date for an older PlanetGTA6 article whose opened page retained October 26; excluded as primary proof."
+  },
+  "sources": [
+    {
+      "label": "Reddit original post and public native Atom metadata",
+      "url": "https://www.reddit.com/r/GTA6/comments/1xnmto5/gta_6_promotion_in_stockholm/",
+      "metadataURL": "https://www.reddit.com/r/GTA6/comments/1xnmto5/gta_6_promotion_in_stockholm/.rss",
+      "result": "Read through web tool; public RSS HTTP200 supplies exact publication date. JSON endpoint403 was not bypassed."
+    },
+    {
+      "label": "Author location comment",
+      "url": "https://www.reddit.com/r/GTA6/comments/1xnmto5/gta_6_promotion_in_stockholm/19s4r4o8hi6zp/",
+      "result": "Skanstull station / Ringvägen100, attributed only. Not independently geolocated."
+    },
+    {
+      "label": "Current-interest secondary coverage",
+      "url": "https://yougta.com/noticias/reddit-com-gta-6-promotion-in-stockholm-0d3ab27f",
+      "publishedAt": "2026-11-04T12:36:00-03:00",
+      "result": "HTTP200; repeat coverage, not independent confirmation."
+    },
+    {
+      "label": "Rockstar homepage",
+      "url": "https://www.rockstargames.com/VI",
+      "result": "HTTP200; November19 release on PS5 and XboxSeries X|S remains the official baseline."
+    },
+    {
+      "label": "Take-Two press index",
+      "url": "https://www.take2games.com/ir/press-releases",
+      "result": "HTTP200; no later GTA VI announcement found. Earnings-calendar topic already covered."
+    },
+    {
+      "label": "Rockstar preload FAQ",
+      "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+      "result": "HTTP200; updated November3, already covered. No duplicate daily article."
+    }
+  ],
+  "primaryMetadata": [
+    {
+      "title": "GTA 6 Promotion in Stockholm",
+      "published": "2026-11-04T12:21:45+00:00",
+      "updated": "2026-11-04T12:21:45+00:00",
+      "author": "/u/aDiDasMeatBall",
+      "link": "https://www.reddit.com/r/GTA6/comments/1xnmto5/gta_6_promotion_in_stockholm/",
+      "imageURLs": [
+        "https://preview.redd.it/4jsahe379lzh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=53102e065f14af4374729e60a64f036b70aa8694"
+      ],
+      "text": "                 Super cool seeing stuff like this, can't wait for the release 😭       submitted by     /u/aDiDasMeatBall       [link]       [comments]      "
+    },
+    {
+      "title": "/u/aDiDasMeatBall on GTA 6 Promotion in Stockholm",
+      "published": null,
+      "updated": "2026-11-04T14:21:36+00:00",
+      "author": "/u/aDiDasMeatBall",
+      "link": "https://www.reddit.com/r/GTA6/comments/1xnmto5/gta_6_promotion_in_stockholm/19s4r4o8hi6zp/",
+      "imageURLs": [],
+      "text": "   Det är var precis utanför skanstull stationen, ringvägen 100!    "
+    },
+    {
+      "title": "/u/zyrien on GTA 6 Promotion in Stockholm",
+      "published": null,
+      "updated": "2026-11-04T12:57:43+00:00",
+      "author": "/u/zyrien",
+      "link": "https://www.reddit.com/r/GTA6/comments/1xnmto5/gta_6_promotion_in_stockholm/19s4ndzfp4wyr/",
+      "imageURLs": [],
+      "text": "   Look at the last picture ;-) Ringvägen 100, Skanstull    "
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "topic": "Preload November10 / up to212GB / regional launch time",
+      "reason": "Official November3 update already covered and updated; new search crawl dates do not make it new."
+    },
+    {
+      "topic": "Reuters Breakingviews November4 column",
+      "reason": "Original returned401; no incomplete secondhand opinion article forced to fill quota."
+    },
+    {
+      "topic": "International billboard city totals / campaign spending / new trailer",
+      "reason": "Not verified from primary evidence; do not infer from this photo."
+    }
+  ],
+  "media": {
+    "coverKey": "hero",
+    "original": {
+      "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+      "owner": "Rockstar Games",
+      "sourcePage": "https://www.rockstargames.com/VI/media",
+      "credit": "GTA VI © Rockstar Games",
+      "bytes": 475961
+    },
+    "result": "Official JPEG returned200 image/jpeg475961bytes; existing unedited1600x800WebP visually inspected. Official Media page currently invites Download and share and offers original artwork downloads. Editorial contextual reuse with Rockstar credit, translated alt/caption; copyright reserved, no unrestricted licence claimed. Existing AVIF/WebP responsive derivatives used unchanged.",
+    "officialGallery": "https://www.rockstargames.com/VI/media",
+    "fanPhoto": {
+      "url": "https://i.redd.it/4jsahe379lzh1.jpeg",
+      "result": "Research-only direct image HTTP200 visually inspected (Jason/Lucia wall advertising). No fan-photo reuse licence obtained, so not copied to site or repository; original post linked. Search tool auto-alt incorrectly called it GTA V; visual examination used instead."
+    }
+  },
+  "preservation": {
+    "articles": "All153 existing Article objects and all153 inventory records must remain byte-equivalent as JSON-normalized values; one topic only added.",
+    "advertisingSecurityDesignAndSchedule": "No source changes to ads, Social Bar, Popunder configuration, Analytics consent, AdSense, security, cache rules, CSS, layout or schedule."
+  },
+  "checks": {
+    "build": "npm run build:release passed; 154 topics /462 localized versions",
+    "static": "node scripts/verify-static.mjs passed:506 HTML,22761 internal links,986 structured-data blocks",
+    "browser": {
+      "result": "6 passed on Chromium:3 locales across desktop1440x1000 andmobile390x844",
+      "coverage": [
+        "full visible introduction and all section paragraphs",
+        "official responsive cover decoded, translated alt/caption and credit",
+        "metadata,canonical,all3 hreflang, BlogPosting publication/update dates and citations",
+        "localized internal links HTTP200",
+        "language selector real navigation, no horizontal overflow or JS exceptions",
+        "archive and sitemap discoverability",
+        "single AdSense and Social Bar tags, no GA4 before Analytics consent, no abscloud popunder"
+      ],
+      "scope": "Provider SDKs stubbed for deterministic local interactions; not evidence of creative delivery. Initial browser run revealed that Article.body is not rendered separately by this system; the complete unconfirmed-report introduction was added to the first section and all6 cases then passed."
+    },
+    "preservation": {
+      "existingTopicsPreserved": 153,
+      "existingInventoryRecordsPreserved": 153,
+      "totalTopics": 154,
+      "totalLocalizedURLs": 462,
+      "newTopics": [
+        {
+          "id": "gta6-stockholm-billboard-20261104",
+          "category": "news",
+          "published": "2026-11-04",
+          "titles": [
+            "Rumor: un anuncio gigante de GTA 6 aparece en Estocolmo",
+            "Rumour: giant GTA 6 billboard reported in Stockholm",
+            "Rumeur : une publicité géante GTA 6 signalée à Stockholm"
+          ],
+          "paths": [
+            "/es/noticias/rumor-gta-6-anuncio-gigante-estocolmo/",
+            "/en/news/rumour-gta-6-stockholm-billboard-photo/",
+            "/fr/actualites/rumeur-gta-6-publicite-geante-stockholm/"
+          ]
+        }
+      ],
+      "clientAssetsUnchanged": [
+        {
+          "path": "assets/index-BkQBpQi9.css",
+          "bytes": 57621,
+          "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+        },
+        {
+          "path": "assets/index-CCJ82Hgh.js",
+          "bytes": 352167,
+          "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14"
+        },
+        {
+          "path": "assets/postscribe-CDYx5jIm.js",
+          "bytes": 18060,
+          "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c"
+        }
+      ]
+    },
+    "public": "pending production deployment and public verification"
+  },
+  "deadlineCheck": {
+    "localDate": "2026-11-04",
+    "lastAuthorizedDate": "2026-11-19",
+    "allowed": true
+  }
+}

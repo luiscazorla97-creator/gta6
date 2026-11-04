@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-stockholm-billboard-20261104",
+    "category": "news",
+    "published": "2026-11-04",
+    "titles": [
+      "Rumor: un anuncio gigante de GTA 6 aparece en Estocolmo",
+      "Rumour: giant GTA 6 billboard reported in Stockholm",
+      "Rumeur : une publicité géante GTA 6 signalée à Stockholm"
+    ],
+    "paths": [
+      "/es/noticias/rumor-gta-6-anuncio-gigante-estocolmo/",
+      "/en/news/rumour-gta-6-stockholm-billboard-photo/",
+      "/fr/actualites/rumeur-gta-6-publicite-geante-stockholm/"
+    ]
+  },
+  {
     "id": "gta6-burger-shot-miami-20261104",
     "category": "news",
     "published": "2026-11-04",
