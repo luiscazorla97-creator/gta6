@@ -30,7 +30,13 @@ export default function App({initialLocale,initialNotFound=false,initialPath}:{i
  useEffect(()=>{setSaved(read<string[]>('fansgta:favorites',[]).filter(id=>stories.some(s=>s.id===id)));setTheme(read<string>('fansgta:theme','dark'));setClock(Date.now());},[]);
  useEffect(()=>{document.documentElement.dataset.theme=theme;},[theme]);
  useEffect(()=>{document.documentElement.lang=locale;if(location.hostname==='www.fansgta.com'||(location.hostname==='fansgta.com'&&location.protocol==='http:'))location.replace('https://fansgta.com'+location.pathname+location.search+location.hash);},[locale]);
- useEffect(()=>{if(!release.date)return;const timer=setInterval(()=>setClock(Date.now()),1000);return()=>clearInterval(timer);},[]);
+ useEffect(()=>{
+  if(!release.date)return;
+  const target=new Date(release.date).getTime();
+  const remainingDays=(now:number)=>Math.max(0,Math.ceil((target-now)/86400000));
+  const timer=setInterval(()=>{const next=Date.now();setClock(previous=>previous!==null&&remainingDays(previous)===remainingDays(next)?previous:next);},1000);
+  return()=>clearInterval(timer);
+ },[]);
  useEffect(()=>{if(modal){modalTrigger.current=document.activeElement as HTMLElement;dialog.current?.showModal();document.body.style.overflow='hidden';}else{dialog.current?.close();document.body.style.overflow='';modalTrigger.current?.focus();}return()=>{document.body.style.overflow='';};},[modal]);
  function changeLocale(l:Locale){write('fansgta:locale',l);const next=currentArticle?articlePath(l,currentArticle):route.kind==='section'?sectionPath(l,route.section):route.kind==='legal'?legalPath(l,route.legal):`/${l}/`;location.assign(next);}
  useEffect(()=>{const pop=()=>setLocale(detectLocale());window.addEventListener('popstate',pop);return()=>window.removeEventListener('popstate',pop);},[]);

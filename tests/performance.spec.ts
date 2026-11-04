@@ -1,3 +1,4 @@
+import{release}from'../src/config';
 import{test,expect}from'@playwright/test';
 import{articles}from'../src/articles';
 test.beforeEach(async({page})=>{
@@ -21,4 +22,13 @@ test('only the requested report has a body in the hydration data',async({page})=
  const data=JSON.parse((await page.locator('#fansgta-page-data').textContent())!);expect(data.articles).toHaveLength(articles.length);const full=data.articles.filter((a:{sections:unknown[]})=>a.sections.length);expect(full).toHaveLength(1);expect(full[0].id).toBe('gta-6-19-november-2026');expect(data.readingTimes[full[0].id]).toHaveLength(3);
  await expect(page.locator('h1')).toHaveText(full[0].title[2]);await expect(page.locator('.article-body>section')).toHaveCount(full[0].sections.length);
  await page.getByRole('combobox',{name:'Langue',exact:true}).selectOption('es');await expect(page.locator('h1')).toHaveText(full[0].title[0]);
+});
+
+test('the day countdown still crosses the launch boundary at second precision',async({page})=>{
+ await page.clock.install({time:new Date(new Date(release.date!).getTime()-10000)});
+ await page.clock.pauseAt(new Date(new Date(release.date!).getTime()-2000));
+ await page.goto('/es/');
+ await expect(page.locator('.release-copy h2')).toHaveText('1 días');
+ await page.clock.runFor(3000);
+ await expect(page.locator('.release-copy h2')).toHaveText('0 días');
 });

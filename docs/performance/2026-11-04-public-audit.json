@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-04",
+  "checkedAt": "2026-11-04T19:18:50.438473+00:00",
+  "status": "Real HTTPS baseline measured; countdown guard validated; new deployment and follow-up audit pending",
+  "authorization": "User explicitly approved managed proxy CA import into a temporary cloud Chromium profile. Only the profile Custom ServerCertificate database was changed; no OS/shared NSS/PC/site trust store or site security settings. Normal TLS validation remained enabled. Profile cleanup pending.",
+  "method": {
+    "url": "https://fansgta.com/es/",
+    "engine": "Lighthouse13.6.0 / Chromium154.0.8037.57",
+    "settings": "Default simulatedmobile;3runs and1desktoppreset run against production. Realnetwork, no mocked/intercepted/blocked SDKrequests. Connected via normalcloudproxy.",
+    "storage": "Lighthouse defaultstorage/cache reset. Temporaryprofile CA permits realHTTPSresources; noignorecertificateerrors flags.",
+    "limits": "Cloudroute/CPU and adresponses vary;notGooglePageSpeedbackend or CrUX. PublicrealSDKcosts differ from previous local98score. Cannot confirm realcreativefill/revenue.",
+    "certErrors": 0
+  },
+  "baselineRuntimeCommit": "479542ebe94b2a15a2aad203e4baa942ab7837b1",
+  "beforeRuns": [
+    {
+      "name": "mobile-1",
+      "scores": {
+        "performance": 85,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "FCP": 1439.45,
+      "LCP": 1439.45,
+      "SI": 2082.2651510082615,
+      "TBT": 569,
+      "CLS": 0,
+      "homepageStatus": 200,
+      "networkByDomainAndStatus": {
+        "fansgta.com|200": 10,
+        "pagead2.googlesyndication.com|200": 3,
+        "static.cloudflareinsights.com|200": 1,
+        "bauval.org|403": 2,
+        "googleads.g.doubleclick.net|200": 2,
+        "pagead2.googlesyndication.com|204": 1,
+        "ep1.adtrafficquality.google|200": 1,
+        "fansgta.com|204": 1,
+        "ep2.adtrafficquality.google|200": 2,
+        "www.google.com|200": 1,
+        "ep2.adtrafficquality.google|204": 1,
+        "ep1.adtrafficquality.google|204": 1
+      },
+      "certificateErrors": 0,
+      "LCPElement": [
+        {
+          "selector": "section#top > div.hero-scene > picture > img.hero-art",
+          "label": "section#top > div.hero-scene > picture > img.hero-art"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "mobile-2",
+      "scores": {
+        "performance": 76,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "FCP": 1214.0936,
+      "LCP": 2635.3581999999997,
+      "SI": 1895.9693310404473,
+      "TBT": 918.0000000000005,
+      "CLS": 0,
+      "homepageStatus": 200,
+      "networkByDomainAndStatus": {
+        "fansgta.com|200": 10,
+        "pagead2.googlesyndication.com|200": 3,
+        "static.cloudflareinsights.com|200": 1,
+        "googleads.g.doubleclick.net|200": 2,
+        "bauval.org|403": 2,
+        "ep1.adtrafficquality.google|200": 1,
+        "fansgta.com|204": 1,
+        "ep2.adtrafficquality.google|200": 2,
+        "www.google.com|200": 1,
+        "ep2.adtrafficquality.google|204": 1,
+        "ep1.adtrafficquality.google|204": 1
+      },
+      "certificateErrors": 0,
+      "LCPElement": [
+        {
+          "selector": "section#top > div.hero-scene > picture > img.hero-art",
+          "label": "section#top > div.hero-scene > picture > img.hero-art"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "mobile-3",
+      "scores": {
+        "performance": 81,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "FCP": 1312.3510999999999,
+      "LCP": 2265.455,
+      "SI": 1638.8555670157007,
+      "TBT": 703,
+      "CLS": 0,
+      "homepageStatus": 200,
+      "networkByDomainAndStatus": {
+        "fansgta.com|200": 10,
+        "pagead2.googlesyndication.com|200": 3,
+        "static.cloudflareinsights.com|200": 1,
+        "bauval.org|403": 2,
+        "googleads.g.doubleclick.net|200": 2,
+        "pagead2.googlesyndication.com|204": 1,
+        "ep1.adtrafficquality.google|200": 1,
+        "fansgta.com|204": 1,
+        "ep2.adtrafficquality.google|200": 2,
+        "www.google.com|200": 1,
+        "ep2.adtrafficquality.google|204": 1,
+        "ep1.adtrafficquality.google|204": 1
+      },
+      "certificateErrors": 0,
+      "LCPElement": [
+        {
+          "selector": "section#top > div.hero-scene > picture > img.hero-art",
+          "label": "section#top > div.hero-scene > picture > img.hero-art"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "FCP": 405.6934,
+      "LCP": 851.6109499999999,
+      "SI": 743.3577250817507,
+      "TBT": 55,
+      "CLS": 0,
+      "homepageStatus": 200,
+      "networkByDomainAndStatus": {
+        "fansgta.com|200": 12,
+        "pagead2.googlesyndication.com|200": 3,
+        "static.cloudflareinsights.com|200": 1,
+        "www.youtube-nocookie.com|200": 7,
+        "bauval.org|403": 4,
+        "googleads.g.doubleclick.net|200": 2,
+        "pagead2.googlesyndication.com|204": 1,
+        "fonts.gstatic.com|200": 1,
+        "www.google.com|200": 2,
+        "i.ytimg.com|-1": 1,
+        "ep1.adtrafficquality.google|200": 1,
+        "fansgta.com|204": 1,
+        "ep2.adtrafficquality.google|200": 2,
+        "www.youtube-nocookie.com|204": 1,
+        "jnn-pa.googleapis.com|200": 2,
+        "ep2.adtrafficquality.google|204": 1,
+        "ep1.adtrafficquality.google|204": 1
+      },
+      "certificateErrors": 0,
+      "LCPElement": [
+        {
+          "selector": "section#top > div.hero-scene > picture > img.hero-art",
+          "label": "section#top > div.hero-scene > picture > img.hero-art"
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "beforeMobileMedian": {
+    "performance": 81,
+    "FCP": 1312.3510999999999,
+    "LCP": 2265.455,
+    "SI": 1895.9693310404473,
+    "TBT": 703,
+    "CLS": 0
+  },
+  "findings": {
+    "GoogleSDK": "GoogleAdSense/quality scripts returned200/204; their longtasks dominated blockingtime. IndividualobservedGoogle tasks317–438ms, additionalbootstrap150–339ms.",
+    "Adsterra": "Bauval.org returned403 fromthiscloudroute. Requests were notblockedbythetest and no units were removed, skipped or changed. No providerrestriction bypass attempted.",
+    "ownWork": "Trace also contains firstparty longtasks. Source inspection found App setClock(Date.now()) everysecond while displayuses only roundedremainingdays, causing avoidable fullpagerenders. This does not prove everyfirstparty task camefromthat timer.",
+    "other": "SEOlabs100,accessibility96,bestpractices96,CLS0 maintained; desktop99."
+  },
+  "change": {
+    "files": [
+      "src/App.tsx",
+      "tests/performance.spec.ts"
+    ],
+    "behavior": "Keep the1second timer and exactroundedday transition. ReturnpreviousReactstate if visible daycount is identical, avoiding unnecessary parent/children rerenders. No visual/advertising/language/editorial/schedule changes.",
+    "validation": "npmrunbuild:release and verifystatic passed:494HTML/22224internallinks/962JSONLD.16targeted tests passed. Frozen-clock2second launch-boundary checks pass in desktop/mobile. All150fullarticleobjects unchanged."
+  },
+  "GooglePageSpeed": {
+    "API": "Previously returned429 dailyquotaexhausted.",
+    "UI": {
+      "url": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Ffansgta.com%2Fes%2F&form_factor=mobile",
+      "text": "PageSpeed Insights\nCopy Link\nDocs\nThis site uses cookies from Google to deliver its services and to analyze traffic.\nLearn More.\nOk, Got it.\n\nEnter a valid URL\n\nAnalyze\nUnable to resolve https://fansgta.com/es/. Try checking the URL for validity.\nMore on PageSpeed Insights\nWhat's new\nDocumentation\nLearn about Web Performance\nAsk questions on Stack Overflow\nMailing list\nRelated Content\nUpdates\nWeb Fundamentals\nCase Studies\nPodcasts\nConnect\nTwitter\nYoutube\nChrome\nFirebase\nAll products\nTerms and Privacy Policy\nFor details, see the Google Developers Site Policies.",
+      "checkedAt": "2026-11-04T19:11:11.660Z"
+    },
+    "DNS": [
+      {
+        "source": "google-A",
+        "Status": 0,
+        "AD": false,
+        "Answer": [
+          {
+            "name": "fansgta.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "172.67.217.13"
+          },
+          {
+            "name": "fansgta.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "104.21.35.94"
+          }
+        ],
+        "Comment": "Response from 108.162.192.59."
+      },
+      {
+        "source": "google-NS",
+        "Status": 0,
+        "AD": false,
+        "Answer": [
+          {
+            "name": "fansgta.com.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "kanye.ns.cloudflare.com."
+          },
+          {
+            "name": "fansgta.com.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "ali.ns.cloudflare.com."
+          }
+        ],
+        "Comment": "Response from 172.64.33.189."
+      },
+      {
+        "source": "cloudflare-A",
+        "Status": 0,
+        "AD": false,
+        "Answer": [
+          {
+            "name": "fansgta.com",
+            "type": 1,
+            "TTL": 300,
+            "data": "104.21.35.94"
+          },
+          {
+            "name": "fansgta.com",
+            "type": 1,
+            "TTL": 300,
+            "data": "172.67.217.13"
+          }
+        ],
+        "Comment": null
+      }
+    ],
+    "interpretation": "UI could not resolve URL; GoogleDNS and CloudflareDNS both resolvedpublicA records successfully. Do not infer brokenDNS or change DNS/WAF rules from this generic UIerror. Cannot claim a new GooglePSIscore."
+  },
+  "after": "pending"
+}
