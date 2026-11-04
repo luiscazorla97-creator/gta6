@@ -1,0 +1,535 @@
+{
+  "verifiedAt": "2026-11-04T20:00:47.120955+00:00",
+  "commit": "e4639351edef7af75c31d5585b46e27e571f6099",
+  "deploymentId": "15acb97f-c737-43bf-b69b-7936643e3028",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-04T19:59:40.156381Z",
+    "ended_on": "2026-11-04T19:59:54.698804Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-burger-shot-cluckin-bell-miami-donde-comer/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "db362d759fb49deea43cfe9eff02b86ac1f75b386f68d644cd61162618be9f80"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-burger-shot-cluckin-bell-miami-locations/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "397d9178e7b5ea70e24fb4a622654a3d4eebb2e26b7a1b8ccde91fcfad6b351f"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-burger-shot-cluckin-bell-miami-adresses/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "cc76209abf15330c92935fd4548036dd4b4c1200359e36472d26916bcadbad15"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "946741f021b50c07d682b154b83df6044d54e2c0acedfdc01d3b2069f24a8734"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "ad10db6ca2ff78ce9c340b7d1b561c85f40ea067a4c48cc2049a358bd662d4da"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "80b0485b0098429ada146c9fb790093310aa4dabf3c76c503a7ca1865c92a7c0"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ocho-anos-desarrollo-proximo-juego-rockstar/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "94563833452cbe43045bed7b09183396fb5f39b9d652405ac356c392750e3e59"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-eight-years-development-next-rockstar-game/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "87f3bae1f842bb530cf19df74419e4356f57d5c78e3da9f885171964d3191285"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-huit-ans-developpement-prochain-jeu-rockstar/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 153,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "a2101fbda6e1a89d7f052f1e0869e6b058d6baa8d65433abadc67c1cd34f7765"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "allThreeArticlesLinked": true
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "allThreeArticlesLinked": true
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "allThreeArticlesLinked": true
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "allThreeArticlesLinked": true
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "allThreeArticlesLinked": true
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "allThreeArticlesLinked": true
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-CCJ82Hgh.js",
+      "status": 200,
+      "bytes": 352167,
+      "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-CDYx5jIm.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/feature-bar.webp",
+      "status": 200,
+      "bytes": 86226,
+      "sha256": "0e51012e3078f110b1f684e05da7f6a35fadda67e9ed1c5ca2e6ef395988867f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-couple.webp",
+      "status": 200,
+      "bytes": 65196,
+      "sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-helicopter.webp",
+      "status": 200,
+      "bytes": 58038,
+      "sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-mountain.webp",
+      "status": 200,
+      "bytes": 226130,
+      "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-phone.webp",
+      "status": 200,
+      "bytes": 68872,
+      "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/jason.webp",
+      "status": 200,
+      "bytes": 68710,
+      "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/region-vice-city-02.webp",
+      "status": 200,
+      "bytes": 97548,
+      "sha256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/region-vice-city-03.webp",
+      "status": 200,
+      "bytes": 231656,
+      "sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/018f821f99f0/region-vice-city-02-1200.webp",
+      "status": 200,
+      "bytes": 74530,
+      "sha256": "721d7cccae531384dd201b925de40917c70855af3e7a496eaaf4b4f2e55a5530",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/018f821f99f0/region-vice-city-02-480.webp",
+      "status": 200,
+      "bytes": 23718,
+      "sha256": "d918fb3864a217d38ce4b2803ed25c7cc2cf33c8e1055fcf21834e3e2be2e341",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/018f821f99f0/region-vice-city-02-800.webp",
+      "status": 200,
+      "bytes": 46228,
+      "sha256": "8182fc767fd846c6a7c041043660d14afb2b4834b1de9449e85d702ad93d0212",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+      "status": 200,
+      "bytes": 43596,
+      "sha256": "db0ff1811aed2490683588c9bea0f08b8a4e9c22c82bed2c56b9c9ee3bb47417",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/726ed6602c0d/feature-helicopter-480.webp",
+      "status": 200,
+      "bytes": 13798,
+      "sha256": "334bbfeb93703785ab7e54da142093e4662bede32e9c16cf28b855238b0c96e4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/726ed6602c0d/feature-helicopter-800.webp",
+      "status": 200,
+      "bytes": 27880,
+      "sha256": "3e9436a04ff52680fd0f6fbbfbecc49057d1ecee61a5ced6101ffa9fa4dcbf2f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-1200.webp",
+      "status": 200,
+      "bytes": 51110,
+      "sha256": "f81c43086bdf633909d5522e20d74db6dad013e39e5eb039351c926450270771",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-480.webp",
+      "status": 200,
+      "bytes": 17104,
+      "sha256": "65e638c54352d3417858a9625f9bc8094a524af6a7ff3b6ffbfba52be08f2e49",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-800.webp",
+      "status": 200,
+      "bytes": 34622,
+      "sha256": "f2645efb3e758ce131d003802eff2c4ff34c71a82738fac6242cb662b0362583",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-1200.webp",
+      "status": 200,
+      "bytes": 50778,
+      "sha256": "3cf972c759fe1104fdf1623ef1b1fd6392b72781d77420bca7d9651c976e48cc",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-480.webp",
+      "status": 200,
+      "bytes": 17224,
+      "sha256": "9b8c108d96d1f897b8ab49b1913c6a277a518de30efdad97a02c97ee82fd5213",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-800.webp",
+      "status": 200,
+      "bytes": 32424,
+      "sha256": "d5dd41066df944a0429c9239c5fb57f41ee541bd72c8a67719f801a66bfb5502",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+      "status": 200,
+      "bytes": 81668,
+      "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+      "status": 200,
+      "bytes": 25098,
+      "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+      "status": 200,
+      "bytes": 55436,
+      "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/cc95a0408a0b/region-vice-city-03-1200.webp",
+      "status": 200,
+      "bytes": 161800,
+      "sha256": "f1e01a81192f23e973ce8b1b232230b52bbdcea356e22169a1845e4273805c15",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/cc95a0408a0b/region-vice-city-03-480.webp",
+      "status": 200,
+      "bytes": 38138,
+      "sha256": "69723ca07628233d9d2c459f9e7639f8aaed227ea86f4ae638bce6b8d308b7c0",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/cc95a0408a0b/region-vice-city-03-800.webp",
+      "status": 200,
+      "bytes": 87694,
+      "sha256": "c4e0a66391777a1e8184605452e2bf6d9bcf9c5b424350cb8dbcc66a22e42c07",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e1873e6402f9/feature-bar-1200.webp",
+      "status": 200,
+      "bytes": 65712,
+      "sha256": "8f18c03c6b895c0691f74d472857504351be5204b5643e2cd408664d77707890",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e1873e6402f9/feature-bar-480.webp",
+      "status": 200,
+      "bytes": 21660,
+      "sha256": "7dd06d9acefaad7e7bf49fd7394c035ca098e9f233dcce52ae4ec78ab9fc8b5c",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e1873e6402f9/feature-bar-800.webp",
+      "status": 200,
+      "bytes": 41162,
+      "sha256": "cfdd039c58ba0e3e801605b98ffaa00dd1dad20d25ca837a8edc3e68273cd5db",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-1200.webp",
+      "status": 200,
+      "bytes": 53756,
+      "sha256": "8ed69491f5730174cc303c4baa97d1c01590fedb5b55e8ab457aa99d9adfd04f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-480.webp",
+      "status": 200,
+      "bytes": 17284,
+      "sha256": "31961b38611cb609180f4f020a701f2877eb710545e4758eacafecb735c22d3b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-800.webp",
+      "status": 200,
+      "bytes": 33742,
+      "sha256": "30221c20b37def65f23d48d68b95146091569ad0336400bacc83f38b193ac1b9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-1200.webp",
+      "status": 200,
+      "bytes": 150068,
+      "sha256": "52da88fb17173df7565f24215518e8683725833b31a23a95234f93b359d05a0a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-480.webp",
+      "status": 200,
+      "bytes": 31458,
+      "sha256": "ed7b911d0463c54cae87ed976c98440b89235430bc1cb321b5bfde04b1372836",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-800.webp",
+      "status": 200,
+      "bytes": 78644,
+      "sha256": "37f5c32a0094acd38fd46246b759a8cc201a1388c6337b43fd86b1441144144a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-5-story-development-history/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-story-development-history/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-vice-city-neighbourhoods-locations-images/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-miami-advertising-vice-city-agreement/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-vice-city-barrios-lugares-imagenes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/historia-gta-5-trama-creacion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/historia-gta-6-trama-creacion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-miami-publicite-accord-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-vice-city-quartiers-lieux-images/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/histoire-gta-5-scenario-creation/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/histoire-gta-6-scenario-creation/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "2bc2d79a760dae3eed90d9c55543103e13c0a5c2c38d928688b2304143684e3b",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS reads with TLS validation. Full visible text, metadata, canonical/hreflang, schema, image and JS/CSS bytes and discoverability checked against tested release. Browser interactions used local provider fixtures; this is not proof of creative fill or guaranteed audience."
+}

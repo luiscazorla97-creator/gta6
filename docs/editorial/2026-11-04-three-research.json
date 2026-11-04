@@ -8,7 +8,7 @@
     "allowed": true
   },
   "request": "Manual request for three new GTA VI topics with current interest and potential for sharing, each complete in Spanish, English and French. No changes to daily automation or its scope/deadline. No audience or ranking guarantees.",
-  "status": "Release and browser checks passed; source upload and public deployment verification pending",
+  "status": "Published and publicly verified",
   "baseline": "61376382bd1adaf44af03cb57f10736581852b82 fetched from current GitHub main; existing clean cloud checkout matched this exact remote commit",
   "runtime": {
     "provider": "cloud",
@@ -586,6 +586,17 @@
       }
     ],
     "scope": "Editorial data and registration only. Global design, code behavior, advertising, security, consent, cache and schedule preserved. Optimized client JS/CSS bytes remain identical.",
-    "visual": "ES mobile Burger Shot/GOTY and desktop development screenshots inspected; navigation and article layout fit without horizontal overflow. All nine versions tested at both viewport sizes."
+    "visual": "ES mobile Burger Shot/GOTY and desktop development screenshots inspected; navigation and article layout fit without horizontal overflow. All nine versions tested at both viewport sizes.",
+    "public": "Nine new pages HTTP200 with full visible text, metadata, canonical/hreflang, JSON-LD and image credits matching the tested release. Six discovery pages link all three articles;39resources match tested bytes,18related localized links return200; sitemap,robots.txt,ads.txt verified."
+  },
+  "publication": {
+    "evidence": "docs/editorial/2026-11-04-three-publication.json",
+    "commit": "e4639351edef7af75c31d5585b46e27e571f6099",
+    "deploymentId": "15acb97f-c737-43bf-b69b-7936643e3028",
+    "verifiedAt": "2026-11-04T20:00:47.120955+00:00",
+    "pages": 9,
+    "discoveryPages": 6,
+    "resources": 39,
+    "internalLinks": 18
   }
 }
