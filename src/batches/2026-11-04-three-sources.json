@@ -1,0 +1,78 @@
+{
+  "arena": {
+    "label": "Kaseya Center · Vice City Concessions",
+    "url": "https://www.kaseyacenter.com/plan-your-visit/food-beverage"
+  },
+  "arena-visit": {
+    "label": "Kaseya Center · A–Z Guide",
+    "url": "https://www.kaseyacenter.com/guest-services/a-z-guide"
+  },
+  "burger-report": {
+    "label": "iGrandTheftAuto · 23 October 2026",
+    "url": "https://www.igrandtheftauto.com/gta6/news/burger-shot-and-cluckin-bell-available-irl-at-miamis-kaseya-center"
+  },
+  "skinny": {
+    "label": "Skinny Louie · Official locations and ordering",
+    "url": "https://www.skinnylouie.com/"
+  },
+  "skinny-post": {
+    "label": "Skinny Louie · Original Instagram announcement",
+    "url": "https://www.instagram.com/p/De1rYl2sKKw/"
+  },
+  "awards": {
+    "label": "The Game Awards · Official FAQ & Rules",
+    "url": "https://thegameawards.com/faq"
+  },
+  "awards-home": {
+    "label": "The Game Awards · Official 2026 event",
+    "url": "https://thegameawards.com/"
+  },
+  "development": {
+    "label": "RockstarINTEL · Hooker and Garbut interview report, 14 October",
+    "url": "https://rockstarintel.com/rockstar-claim-gta-6-means-their-next-game-wont-take-to-make/"
+  },
+  "development-cross": {
+    "label": "Push Square · Rockstar technology interview, 14 October",
+    "url": "https://www.pushsquare.com/news/2026/10/gta-6-tech-will-help-create-the-next-rockstar-game-wont-be-another-8-year-wait"
+  },
+  "original-interview": {
+    "label": "Bloomberg · Jason Schreier, The Making of GTA VI",
+    "url": "https://www.bloomberg.com/features/2026-grand-theft-auto-6-making-of/"
+  },
+  "rdr2-launch": {
+    "label": "Rockstar Games · Red Dead Redemption 2, 26 October 2018",
+    "url": "https://www.rockstargames.com/newswire/article/4k412883895ka4/Red-Dead-Redemption-2-Now-Available"
+  },
+  "official": {
+    "label": "Rockstar Games · Grand Theft Auto VI",
+    "url": "https://www.rockstargames.com/VI"
+  },
+  "gallery": {
+    "label": "Rockstar Games · Official GTA VI screenshots",
+    "url": "https://www.rockstargames.com/VI/media/screenshots"
+  },
+  "related-miami": {
+    "label": "FansGTA · Miami-Dade and Vice City advertising",
+    "url": "https://fansgta.com/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/"
+  },
+  "related-vice-city": {
+    "label": "FansGTA · Vice City locations",
+    "url": "https://fansgta.com/es/guias/gta-6-vice-city-barrios-lugares-imagenes/"
+  },
+  "related-reviews": {
+    "label": "FansGTA · Review embargo reports",
+    "url": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/"
+  },
+  "related-release": {
+    "label": "FansGTA · GTA VI release date and launch time",
+    "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/"
+  },
+  "related-history-five": {
+    "label": "FansGTA · GTA V story and development history",
+    "url": "https://fansgta.com/es/guias/historia-gta-5-trama-creacion/"
+  },
+  "related-history-six": {
+    "label": "FansGTA · GTA VI story and development history",
+    "url": "https://fansgta.com/es/guias/historia-gta-6-trama-creacion/"
+  }
+}

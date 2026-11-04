@@ -1,0 +1,110 @@
+{
+  "vice-city": {
+    "alt": [
+      "Helicóptero sobre la bahía de Vice City al atardecer en GTA VI",
+      "Helicopter above Vice City’s bay at sunset in GTA VI",
+      "Hélicoptère au-dessus de la baie de Vice City au coucher du soleil dans GTA VI"
+    ],
+    "caption": [
+      "Vista oficial de Vice City, la ciudad ficticia que da contexto a la campaña de GTA VI en Miami.",
+      "Official view of Vice City, the fictional city providing context for GTA VI’s Miami campaign.",
+      "Vue officielle de Vice City, la ville fictive qui donne son contexte à la campagne GTA VI à Miami."
+    ]
+  },
+  "region-vice-city-02": {
+    "alt": [
+      "Dos personajes en un balcón sobre una piscina y la playa de Vice City",
+      "Two characters on a balcony overlooking a pool and Vice City’s beach",
+      "Deux personnages sur un balcon dominant une piscine et la plage de Vice City"
+    ],
+    "caption": [
+      "Escena promocional de Vice City publicada por Rockstar; el entorno de GTA VI traslada la estética de Florida al juego.",
+      "Promotional Vice City scene published by Rockstar, bringing Florida’s atmosphere into GTA VI.",
+      "Scène promotionnelle de Vice City publiée par Rockstar, transposant l’atmosphère de Floride dans GTA VI."
+    ]
+  },
+  "region-vice-city-03": {
+    "alt": [
+      "Hoteles, calles y canchas de baloncesto de Vice City en GTA VI",
+      "Hotels, streets and basketball courts in GTA VI’s Vice City",
+      "Hôtels, rues et terrains de basket de Vice City dans GTA VI"
+    ],
+    "caption": [
+      "Vice City en una captura oficial del juego. La campaña de restaurantes ocurre en la Miami real.",
+      "Vice City in an official game screenshot. The restaurant campaign takes place in real-world Miami.",
+      "Vice City sur une capture officielle du jeu. L’opération de restauration se déroule dans la Miami réelle."
+    ]
+  },
+  "feature-couple": {
+    "alt": [
+      "Lucia y Jason armados frente a una cámara acorazada en GTA VI",
+      "Armed Lucia and Jason beside a vault in GTA VI",
+      "Lucia et Jason armés près d’une chambre forte dans GTA VI"
+    ],
+    "caption": [
+      "Jason y Lucia en una captura oficial de GTA VI, el juego cuya fecha se compara con el calendario de los premios.",
+      "Jason and Lucia in an official GTA VI screenshot, illustrating the game being assessed against the awards calendar.",
+      "Jason et Lucia sur une capture officielle GTA VI, le jeu dont la date est comparée au calendrier des récompenses."
+    ]
+  },
+  "feature-helicopter": {
+    "alt": [
+      "Helicóptero de noticias sobre las montañas de Mount Kalaga al atardecer",
+      "News helicopter above Mount Kalaga’s mountains at sunset",
+      "Hélicoptère de presse au-dessus des montagnes de Mount Kalaga au coucher du soleil"
+    ],
+    "caption": [
+      "Paisaje oficial de GTA VI publicado por Rockstar. La valoración crítica del juego corresponde a una evaluación completa.",
+      "Official GTA VI scenery published by Rockstar. Critical assessment of the game requires a full evaluation.",
+      "Paysage officiel GTA VI publié par Rockstar. L’évaluation critique du jeu demande un examen complet."
+    ]
+  },
+  "feature-mountain": {
+    "alt": [
+      "Carretera con tráfico entre las laderas de Mount Kalaga en GTA VI",
+      "Road traffic between Mount Kalaga’s slopes in GTA VI",
+      "Route et circulation entre les versants de Mount Kalaga dans GTA VI"
+    ],
+    "caption": [
+      "Una carretera de Leonida en una imagen promocional oficial de GTA VI.",
+      "A Leonida road in an official GTA VI promotional image.",
+      "Une route de Leonida sur une image promotionnelle officielle de GTA VI."
+    ]
+  },
+  "jason": {
+    "alt": [
+      "Jason tras una valla con una pistola y luces policiales al fondo",
+      "Jason behind a fence holding a pistol, with police lights in the background",
+      "Jason derrière un grillage avec un pistolet et des gyrophares à l’arrière-plan"
+    ],
+    "caption": [
+      "Primer plano de Jason en una captura oficial de GTA VI. Rockstar conserva los derechos del material promocional.",
+      "Close-up of Jason in an official GTA VI screenshot. Rockstar retains the rights to the promotional material.",
+      "Gros plan de Jason sur une capture officielle GTA VI. Rockstar conserve les droits du matériel promotionnel."
+    ]
+  },
+  "feature-phone": {
+    "alt": [
+      "Jason con una pistola junto a un avión y embarcaciones al fondo",
+      "Jason holding a pistol beside an aircraft, with boats in the background",
+      "Jason tenant un pistolet près d’un avion, avec des bateaux à l’arrière-plan"
+    ],
+    "caption": [
+      "Personaje, iluminación y entorno en una escena oficial de GTA VI publicada por Rockstar.",
+      "Character, lighting and surroundings in an official GTA VI scene published by Rockstar.",
+      "Personnage, éclairage et environnement dans une scène officielle GTA VI publiée par Rockstar."
+    ]
+  },
+  "feature-bar": {
+    "alt": [
+      "Jason apoyado en la barra de un bar con botellas y letreros de neón",
+      "Jason at a bar counter with bottles and neon signs",
+      "Jason au comptoir d’un bar, avec des bouteilles et des enseignes lumineuses"
+    ],
+    "caption": [
+      "Captura oficial de Jason en un bar de GTA VI, usada para acompañar el análisis del trabajo creativo.",
+      "Official screenshot of Jason in a GTA VI bar, accompanying discussion of the creative work.",
+      "Capture officielle de Jason dans un bar de GTA VI, accompagnant l’analyse du travail créatif."
+    ]
+  }
+}

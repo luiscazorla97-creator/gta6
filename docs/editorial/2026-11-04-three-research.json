@@ -1,0 +1,591 @@
+{
+  "date": "2026-11-04",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-04T19:53:27.197889+00:00",
+  "deadlineCheck": {
+    "nowNewYork": "2026-11-04T14:53:27.197889-05:00",
+    "lastAuthorizedDateInclusive": "2026-11-19",
+    "allowed": true
+  },
+  "request": "Manual request for three new GTA VI topics with current interest and potential for sharing, each complete in Spanish, English and French. No changes to daily automation or its scope/deadline. No audience or ranking guarantees.",
+  "status": "Release and browser checks passed; source upload and public deployment verification pending",
+  "baseline": "61376382bd1adaf44af03cb57f10736581852b82 fetched from current GitHub main; existing clean cloud checkout matched this exact remote commit",
+  "runtime": {
+    "provider": "cloud",
+    "observationsCurrent": true,
+    "specRevision": 8,
+    "networkPolicy": "unrestricted/enforced",
+    "credentials": "Existing connected GitHub tools and domain-bound Cloudflare API token/account observed ready. Actual write and deployment outcomes recorded separately; no secrets printed or requested.",
+    "userPCRequired": false
+  },
+  "newTopics": [
+    {
+      "id": "gta6-burger-shot-miami-20261104",
+      "category": "news",
+      "published": "2026-11-04",
+      "titles": [
+        "GTA 6 lleva Burger Shot y Cluckin’ Bell a Miami: dónde están",
+        "GTA 6 brings Burger Shot and Cluckin’ Bell to Miami: locations",
+        "GTA 6 : Burger Shot et Cluckin’ Bell existent à Miami"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-burger-shot-cluckin-bell-miami-donde-comer/",
+        "/en/news/gta-6-burger-shot-cluckin-bell-miami-locations/",
+        "/fr/actualites/gta-6-burger-shot-cluckin-bell-miami-adresses/"
+      ]
+    },
+    {
+      "id": "gta6-goty-eligibility-20261104",
+      "category": "news",
+      "published": "2026-11-04",
+      "titles": [
+        "¿GTA 6 puede ganar el GOTY 2026? La fecha límite lo permite",
+        "Can GTA 6 win GOTY 2026? The eligibility deadline explained",
+        "GTA 6 peut-il gagner le GOTY 2026 ? Les règles expliquées"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+        "/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+        "/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/"
+      ]
+    },
+    {
+      "id": "gta6-development-eight-years-20261104",
+      "category": "news",
+      "published": "2026-11-04",
+      "titles": [
+        "GTA 6: ocho años de espera y el plan de Rockstar para el futuro",
+        "GTA 6’s eight-year wait: Rockstar’s plan for what comes next",
+        "GTA 6 : huit ans d’attente et le plan de Rockstar pour la suite"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-ocho-anos-desarrollo-proximo-juego-rockstar/",
+        "/en/news/gta-6-eight-years-development-next-rockstar-game/",
+        "/fr/actualites/gta-6-huit-ans-developpement-prochain-jeu-rockstar/"
+      ]
+    }
+  ],
+  "deduplication": {
+    "compared": "All150 complete serialized article objects and450 localized URLs plus inventory. Search intent and body content compared, not titles alone.",
+    "decisions": [
+      {
+        "newId": "gta6-burger-shot-miami-20261104",
+        "closestExisting": [
+          "gta6-miami-campaign-20261103",
+          "gta6-place-vice-city-20261031"
+        ],
+        "distinction": "Real food concessions, exact arena sections, temporary Skinny Louie window and visit checks. Existing campaign report covers county contracts, airport/port installations and funding; no Burger Shot/Cluckin Bell body coverage. Existing Vice City guide covers the virtual city."
+      },
+      {
+        "newId": "gta6-goty-eligibility-20261104",
+        "closestExisting": [
+          "gta6-review-embargo-20261103",
+          "gta-6-19-november-2026"
+        ],
+        "distinction": "Awards eligibility and nomination/voting process, separate from the review embargo and launch countdown. No Game Awards coverage found in existing full article bodies."
+      },
+      {
+        "newId": "gta6-development-eight-years-20261104",
+        "closestExisting": [
+          "history-gta6-20261030",
+          "gta6-npc-behaviour-deep-20261029"
+        ],
+        "distinction": "October14 Hooker/Garbut interview on reusable engine/tools/team and future production cadence. Existing history covers the story and public chronology; NPC analysis focuses on character behavior."
+      }
+    ]
+  },
+  "interest": {
+    "suggestions": [
+      {
+        "language": "es",
+        "query": "gta 6 burger shot",
+        "suggestions": [
+          "gta 6 burger shot",
+          "gta 6 burger shot leak",
+          "will gta 6 have burger shot"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 burger shot",
+        "suggestions": [
+          "gta 6 burger shot",
+          "gta 6 burgershot leak",
+          "will gta 6 have burger shot",
+          "where is burger shot in gta 5",
+          "is gta 6 in stores",
+          "how much space does gta 6 take",
+          "what can you play gta 6 on"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 goty",
+        "suggestions": [
+          "gta 6 goty",
+          "gta 6 goty 2026",
+          "gta 6 goty 2027",
+          "gta 6 goty 2025",
+          "gta 6 goty reddit",
+          "gta 6 goty 2026 or 2027",
+          "gta 6 sera goty",
+          "polymarket gta 6 goty",
+          "gta 6 ganara el goty",
+          "gta 6 puede ser goty"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 game awards",
+        "suggestions": [
+          "gta 6 game awards",
+          "gta 6 game awards 2026",
+          "gta 6 game awards reddit",
+          "gta 6 game awards 2025",
+          "gta 6 game awards trailer",
+          "gta 6 game awards eligibility",
+          "gta 6 game awards 2024",
+          "gta 6 game awards nomination",
+          "gta 6 game awards announcement",
+          "gta 6 game awards 2026 or 2027"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 goty",
+        "suggestions": [
+          "gta 6 goty 2026",
+          "gta 6 goty",
+          "gta 6 goty reddit",
+          "gta 6 goty 2027",
+          "gta 6 goty 2026 or 2027",
+          "gta 6 goty 2025",
+          "gta 6 goty 2026 ou 2027",
+          "polymarket gta 6 goty",
+          "gta vi goty 2026",
+          "gta iv goty"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 desarrollo",
+        "suggestions": [
+          "gta 6 desarrollo",
+          "gta 6 desarrollo precio",
+          "gta 6 tiempo desarrollo",
+          "gta 6 años de desarrollo",
+          "gta 6 sigue en desarrollo",
+          "gta 6 inicio de desarrollo",
+          "cuanto cuesta gta 6 desarrollo",
+          "gta 6 presupuesto de desarrollo",
+          "gta 6 cuanto lleva en desarrollo",
+          "gta 6 cuando empezo el desarrollo"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 development",
+        "suggestions": [
+          "gta 6 development team",
+          "gta 6 development cost",
+          "gta 6 development time",
+          "gta 6 development",
+          "gta 6 development start date",
+          "gta 6 development team picture",
+          "gta 6 development budget",
+          "gta 6 development timeline",
+          "gta 6 development start",
+          "gta 6 development team photo"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 développement",
+        "suggestions": [
+          "gta 6 développement prix",
+          "gta 6 développement",
+          "gta 6 développement détails",
+          "gta 6 développement contenu",
+          "budget développement gta 6",
+          "gta 6 dev",
+          "gta 6 dev leak",
+          "gta 6 development date",
+          "gta 6 development cost",
+          "gta 6 dev team"
+        ]
+      }
+    ],
+    "coverage": [
+      {
+        "topic": "Burger Shot",
+        "observed": "October23 iGrandTheftAuto report, current official arena directory, search coverage by Dexerto/Insider Gaming/Secret Miami. Generic brand suggestions do not establish restaurant-specific volume."
+      },
+      {
+        "topic": "GOTY",
+        "observed": "Current queried suggestions include GOTY2026,2026or2027, eligibility and nominations. Official current rules/homepage supply primary evidence."
+      },
+      {
+        "topic": "Development",
+        "observed": "Current suggestions include development time, start date, team and budget across queried ES/EN/FR. October14 reports retain the real interview date; no claim of a fresh announcement today."
+      }
+    ],
+    "GoogleTrends": "Explore endpoint returnedHTTP429. No Trends index, volume, top-three ranking or guaranteed virality inferred.",
+    "limitations": "Autocomplete and current coverage are qualitative signals, not search-volume/rankings or guarantees of virality."
+  },
+  "sourceChecks": [
+    {
+      "key": "arena",
+      "url": "https://www.kaseyacenter.com/plan-your-visit/food-beverage",
+      "status": 200,
+      "finalURL": "https://www.kaseyacenter.com/plan-your-visit/food-beverage",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 26704,
+      "sha256": "d4850fcb4a08f05adb49435e1a8c11d11cf317f45a5f4521b0894781503fcf77",
+      "title": null
+    },
+    {
+      "key": "arena-visit",
+      "url": "https://www.kaseyacenter.com/plan-your-visit/know-before-you-go",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "burger-report",
+      "url": "https://www.igrandtheftauto.com/gta6/news/burger-shot-and-cluckin-bell-available-irl-at-miamis-kaseya-center",
+      "status": 200,
+      "finalURL": "https://www.igrandtheftauto.com/gta6/news/burger-shot-and-cluckin-bell-available-irl-at-miamis-kaseya-center",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 78128,
+      "sha256": "698eca8b1166efc5c0db36628379b8c7259b0767753f2817cc9d9879a8736a3c",
+      "title": "Burger Shot and Cluckin&#039; Bell Available IRL at Miami&#039;s Kaseya Center! - GTA VI News"
+    },
+    {
+      "key": "skinny",
+      "url": "https://skinnylouie.com/",
+      "status": 200,
+      "finalURL": "https://www.skinnylouie.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 2074258,
+      "sha256": "033eeaeadf873f2506813223dacacd27c24241ca3d32f6f7e88c0b69914ccdf1",
+      "title": "SKINNY LOUIE | Smash Burgers"
+    },
+    {
+      "key": "awards",
+      "url": "https://thegameawards.com/faq",
+      "status": 200,
+      "finalURL": "https://thegameawards.com/faq",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 134293,
+      "sha256": "3d1cf6d3d5d8136a55179560ca0e379200a092ce4c839be085995a3bcfc13813",
+      "title": "FAQ &amp; Rules | The Game Awards"
+    },
+    {
+      "key": "awards-home",
+      "url": "https://thegameawards.com/",
+      "status": 200,
+      "finalURL": "https://thegameawards.com/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 117439,
+      "sha256": "de8bc307f1548d9ea98dad251a330cb62d5e3505751ce97df9225be4722c9ad0",
+      "title": "The Game Awards - December 10, 2026"
+    },
+    {
+      "key": "development",
+      "url": "https://rockstarintel.com/rockstar-claim-gta-6-means-their-next-game-wont-take-to-make/",
+      "status": 200,
+      "finalURL": "https://rockstarintel.com/rockstar-claim-gta-6-means-their-next-game-wont-take-to-make/",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 197596,
+      "sha256": "a1d6e6e913c4e373438018592a9e5a0a55ecdd37aedec5c07349108cc9fcde65",
+      "title": "Rockstar Claim GTA 6 Means Their Next Game Won&#039;t Take As Long To Make - RockstarINTEL"
+    },
+    {
+      "key": "development-cross",
+      "url": "https://www.pushsquare.com/news/2026/10/gta-6-tech-will-help-create-the-next-rockstar-game-wont-be-another-8-year-wait",
+      "status": 200,
+      "finalURL": "https://www.pushsquare.com/news/2026/10/gta-6-tech-will-help-create-the-next-rockstar-game-wont-be-another-8-year-wait",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 151946,
+      "sha256": "01b05c5bfc4a09b2ff017c55b97ef8d0959d92267f579f0313e21dcdbed63f73",
+      "title": "GTA 6 Tech Will Help Create the Next Rockstar Game, Won&#039;t Be Another 8-Year Wait | Push Square"
+    },
+    {
+      "key": "original-interview",
+      "url": "https://www.bloomberg.com/features/2026-grand-theft-auto-6-making-of/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "finalURL": "https://www.rockstargames.com/VI",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1224337,
+      "sha256": "4ea3ee6b7e67c85dbf03539785e697b827a0f3e4e36e36dc8120eebd6861485d",
+      "title": "Grand Theft Auto VI - Rockstar Games"
+    },
+    {
+      "key": "gallery",
+      "url": "https://www.rockstargames.com/VI/media/screenshots",
+      "status": 200,
+      "finalURL": "https://www.rockstargames.com/VI/media/screenshots",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 2221546,
+      "sha256": "f3d2d44219dafa395986c98be77ed4e6ffc82b24c011870d420097ff17df9dce",
+      "title": "Grand Theft Auto VI - Rockstar Games"
+    },
+    {
+      "key": "trends",
+      "url": "https://trends.google.com/trends/explore?date=now%207-d&q=GTA%206",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "additionalSourceChecks": [
+    {
+      "key": "arena-visit",
+      "url": "https://www.kaseyacenter.com/guest-services/a-z-guide",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "finalURL": "https://www.kaseyacenter.com/guest-services/a-z-guide",
+      "bytes": 165120,
+      "sha256": "a363019f9de76c4edfca6b817287504572b350b9c2d3e7e20f6bc531f8413604"
+    },
+    {
+      "key": "skinny-post",
+      "url": "https://www.instagram.com/p/De1rYl2sKKw/",
+      "status": 200,
+      "contentType": "text/html; charset=\"utf-8\"",
+      "finalURL": "https://www.instagram.com/p/De1rYl2sKKw/",
+      "bytes": 546144,
+      "sha256": "1b3bf0c4429ac2d8a82486d502f67897042d1955683e4fc14fa406a6b719deb9",
+      "contentAssessment": "Original post attempted; article relies on dated iGrandTheftAuto attribution plus independent official venue directory. A login shell is not treated as readable post text."
+    },
+    {
+      "key": "rdr2-launch",
+      "url": "https://www.rockstargames.com/newswire/article/4k412883895ka4/Red-Dead-Redemption-2-Now-Available",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "finalURL": "https://www.rockstargames.com/newswire/article/4k412883895ka4/Red-Dead-Redemption-2-Now-Available",
+      "bytes": 4946,
+      "sha256": "031c5a6a38bcc92b778b03cc366ab9a1ad4cb87fb6ca0913e1ad444a19f3b396"
+    }
+  ],
+  "evidenceLimits": {
+    "originalInterview": "Canonical Bloomberg URL returned403. Original linked for attribution without gift/access tokens. Interview facts attributed to readable same-day RockstarINTEL and Push Square reports referring to the same original interview; not two independent primary interviews. No paywall bypass.",
+    "Instagram": "Original Skinny Louie post HTTP200 but only an Instagram shell was readable. Florida window attributed to the dated October23 report. Independent official venue directory verifies concessions; every Florida branch is not claimed to have completed its rollout.",
+    "arenaPayload": "Gzip response decompressed and checked for actual section numbers/food categories. Guessed visit URL returned404; replaced by official linked /guest-services/a-z-guide, verified200.",
+    "TGA": "Current production FAQ and homepage checked, not an old staging FAQ. November20at9p.m.PT cutoff, November19 launch, mid-November nominees and December10 ceremony distinguished. Eligibility does not establish nomination or victory.",
+    "timeConversion": "2026-11-20T21:00:00 America/Los_Angeles equals2026-11-21T05:00:00UTC, verified with zoneinfo."
+  },
+  "media": [
+    {
+      "key": "vice-city",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+      "bytes": 894386,
+      "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+      "sourcePage": "https://www.rockstargames.com/VI/media",
+      "localWebPBytes": 116602,
+      "localSHA256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    },
+    {
+      "key": "region-vice-city-02",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+      "bytes": 528149,
+      "sha256": "3f12452834bb07a0a13dabdf019881f372151d4740cdcf0937ac5fe03554d8eb",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+      "localWebPBytes": 97548,
+      "localSHA256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    },
+    {
+      "key": "region-vice-city-03",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+      "bytes": 1247197,
+      "sha256": "d6a56aadc2823cb97a33db087de1700f6a0fd5528b140107ec20823f23aac918",
+      "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+      "localWebPBytes": 231656,
+      "localSHA256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    },
+    {
+      "key": "feature-couple",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+      "bytes": 907752,
+      "sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+      "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+      "localWebPBytes": 65196,
+      "localSHA256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    },
+    {
+      "key": "feature-helicopter",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+      "bytes": 333806,
+      "sha256": "828ad45819b4121f3a341b25cbc93cd6595099eb2d53068d1cef4f1853ab38d4",
+      "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+      "localWebPBytes": 58038,
+      "localSHA256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    },
+    {
+      "key": "feature-mountain",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+      "bytes": 1274178,
+      "sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+      "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+      "localWebPBytes": 226130,
+      "localSHA256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    },
+    {
+      "key": "jason",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+      "bytes": 939665,
+      "sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba",
+      "sourcePage": "https://www.rockstargames.com/VI/media",
+      "localWebPBytes": 68710,
+      "localSHA256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    },
+    {
+      "key": "feature-phone",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+      "bytes": 827207,
+      "sha256": "c5bd34d1d328ce465d33f0aad4a7af7359ca1f81d95434019243518a5af3f00f",
+      "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+      "localWebPBytes": 68872,
+      "localSHA256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    },
+    {
+      "key": "feature-bar",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "finalURL": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+      "bytes": 491345,
+      "sha256": "574868fd7e51c80dd111cef250a1f2e1c98b353fe1f156d42862e3b1c7e31970",
+      "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+      "localWebPBytes": 86226,
+      "localSHA256": "0e51012e3078f110b1f684e05da7f6a35fadda67e9ed1c5ca2e6ef395988867f",
+      "visualInspection": "Existing image viewed directly; new descriptive ES/EN/FR alt and caption checked against the visible scene.",
+      "rightsContext": "Authentic Rockstar promotional source; official GTA VI site offers screenshot download/share. Copyright remains Rockstar; reduced credited editorial commentary, not an unrestricted/CC licence. Existing source image remains unchanged; optimized responsive derivatives generated by release build. No AI, mods, leaks or GTA V substitutes."
+    }
+  ],
+  "editorialPreservation": {
+    "method": "Deep comparison of complete JSON-serialized article objects, omitting undefined optional fields equally in both snapshots. Existing inventory records preserved including optional updated dates.",
+    "articlesBefore": 150,
+    "articlesAfter": 153,
+    "unchangedCompleteArticleObjects": 150,
+    "unchangedOldInventoryRecords": 150,
+    "oldURLsPreserved": 450,
+    "newURLs": 9,
+    "allURLs": 459,
+    "newTopics": [
+      {
+        "id": "gta6-burger-shot-miami-20261104",
+        "category": "news",
+        "published": "2026-11-04",
+        "titles": [
+          "GTA 6 lleva Burger Shot y Cluckin’ Bell a Miami: dónde están",
+          "GTA 6 brings Burger Shot and Cluckin’ Bell to Miami: locations",
+          "GTA 6 : Burger Shot et Cluckin’ Bell existent à Miami"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-burger-shot-cluckin-bell-miami-donde-comer/",
+          "/en/news/gta-6-burger-shot-cluckin-bell-miami-locations/",
+          "/fr/actualites/gta-6-burger-shot-cluckin-bell-miami-adresses/"
+        ]
+      },
+      {
+        "id": "gta6-goty-eligibility-20261104",
+        "category": "news",
+        "published": "2026-11-04",
+        "titles": [
+          "¿GTA 6 puede ganar el GOTY 2026? La fecha límite lo permite",
+          "Can GTA 6 win GOTY 2026? The eligibility deadline explained",
+          "GTA 6 peut-il gagner le GOTY 2026 ? Les règles expliquées"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+          "/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+          "/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/"
+        ]
+      },
+      {
+        "id": "gta6-development-eight-years-20261104",
+        "category": "news",
+        "published": "2026-11-04",
+        "titles": [
+          "GTA 6: ocho años de espera y el plan de Rockstar para el futuro",
+          "GTA 6’s eight-year wait: Rockstar’s plan for what comes next",
+          "GTA 6 : huit ans d’attente et le plan de Rockstar pour la suite"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-ocho-anos-desarrollo-proximo-juego-rockstar/",
+          "/en/news/gta-6-eight-years-development-next-rockstar-game/",
+          "/fr/actualites/gta-6-huit-ans-developpement-prochain-jeu-rockstar/"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "release": "npm run build:release passed",
+    "static": "node scripts/verify-static.mjs passed:503HTML/22635internal links/980JSON-LD blocks",
+    "browser": "Six article checks passed across ES/EN/FR on mobile and desktop, plus six existing performance regression checks. Both English article checks passed again after the final wording clarification. Article images, complete text, metadata/schema, source links, archive/sitemap discoverability, consent preservation and language selection verified. Ad SDKs were mocked for functional checks; this is not proof of creative delivery.",
+    "assets": [
+      {
+        "file": "index-BkQBpQi9.css",
+        "bytes": 57621,
+        "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+        "identicalToPerformanceOptimizedRelease": true
+      },
+      {
+        "file": "index-CCJ82Hgh.js",
+        "bytes": 352167,
+        "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14",
+        "identicalToPerformanceOptimizedRelease": true
+      },
+      {
+        "file": "postscribe-CDYx5jIm.js",
+        "bytes": 18060,
+        "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c",
+        "identicalToPerformanceOptimizedRelease": true
+      }
+    ],
+    "scope": "Editorial data and registration only. Global design, code behavior, advertising, security, consent, cache and schedule preserved. Optimized client JS/CSS bytes remain identical.",
+    "visual": "ES mobile Burger Shot/GOTY and desktop development screenshots inspected; navigation and article layout fit without horizontal overflow. All nine versions tested at both viewport sizes."
+  }
+}

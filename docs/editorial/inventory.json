@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-burger-shot-miami-20261104",
+    "category": "news",
+    "published": "2026-11-04",
+    "titles": [
+      "GTA 6 lleva Burger Shot y Cluckin’ Bell a Miami: dónde están",
+      "GTA 6 brings Burger Shot and Cluckin’ Bell to Miami: locations",
+      "GTA 6 : Burger Shot et Cluckin’ Bell existent à Miami"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-burger-shot-cluckin-bell-miami-donde-comer/",
+      "/en/news/gta-6-burger-shot-cluckin-bell-miami-locations/",
+      "/fr/actualites/gta-6-burger-shot-cluckin-bell-miami-adresses/"
+    ]
+  },
+  {
+    "id": "gta6-goty-eligibility-20261104",
+    "category": "news",
+    "published": "2026-11-04",
+    "titles": [
+      "¿GTA 6 puede ganar el GOTY 2026? La fecha límite lo permite",
+      "Can GTA 6 win GOTY 2026? The eligibility deadline explained",
+      "GTA 6 peut-il gagner le GOTY 2026 ? Les règles expliquées"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+      "/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+      "/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/"
+    ]
+  },
+  {
+    "id": "gta6-development-eight-years-20261104",
+    "category": "news",
+    "published": "2026-11-04",
+    "titles": [
+      "GTA 6: ocho años de espera y el plan de Rockstar para el futuro",
+      "GTA 6’s eight-year wait: Rockstar’s plan for what comes next",
+      "GTA 6 : huit ans d’attente et le plan de Rockstar pour la suite"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-ocho-anos-desarrollo-proximo-juego-rockstar/",
+      "/en/news/gta-6-eight-years-development-next-rockstar-game/",
+      "/fr/actualites/gta-6-huit-ans-developpement-prochain-jeu-rockstar/"
+    ]
+  },
+  {
     "id": "gta6-download-duration-20261103",
     "category": "guides",
     "published": "2026-11-03",
