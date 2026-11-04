@@ -10,5 +10,5 @@ export default defineConfig(async({isSsrBuild,command})=>{
   resolveId(source:string,importer?:string){
    if(command==='build'&&!isSsrBuild&&importer&&path.resolve(path.dirname(importer),source)==path.resolve('src/articles'))return path.resolve('src/client-articles.ts');
   },
- }],define:{__MEDIA_VARIANTS__:JSON.stringify(manifest)}};
+ }],define:{__MEDIA_VARIANTS__:JSON.stringify(command==='build'?manifest:{})}};
 });

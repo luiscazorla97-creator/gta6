@@ -2,7 +2,7 @@
   "date": "2026-11-04",
   "timezone": "America/New_York",
   "preparedAt": "2026-11-04T18:07:59.489502+00:00",
-  "status": "Validated locally; deployment/public verification pending",
+  "status": "Published and publicly verified",
   "baselineCommit": "27748176b2c81d2e6e23160825f9441b257d1ea1",
   "userSuppliedPageSpeed": {
     "performance": 55,
@@ -809,7 +809,14 @@
         "channelsWithDifferenceOver25": 0.0004412037037037037
       }
     ],
-    "public": "pending"
+    "public": "28publicpages fulltext/metadata/schema/CSS/page-data match testedrelease;273resources includingall generated variants/originalWebP/JS/CSS byte-identical; cache/securityheaders and sitemap/robots/ads.txt checked.",
+    "development": {
+      "loaded": true,
+      "heroOriginalFallback": true,
+      "url": "http://127.0.0.1:4175/media/vice-city.webp",
+      "releaseEquivalence": "Serve-mode guard keeps original image fallback in development. Rebuild confirms all785releasefiles byte-identical to the publicly verified479542e release; no productionoutput change."
+    },
+    "AdSense": "2desktop/mobile checks passed; all494HTML have oneaccountmeta and oneloader. Canonicalads.txt,HTTPredirect,www200sameexactrow; not Googleapproval."
   },
   "constraints": {
     "articlesRewritten": 0,
@@ -855,7 +862,7 @@
     "publisher": "ca-pub-1382859681401211",
     "approval": "Not established by code installation"
   },
-  "cacheRevalidationNote": "Some already-cached unchanged originals still return the former4hour maxage at the edge; deployed policy is1hour onrevalidation. New content-versioned resources verify1yearimmutable. HTML remains maxage0 for article freshness. No purge or securityrules changed.",
+  "cacheRevalidationNote": "Some unchanged original images and robots.txt retain previously cached4hour headers, including cache-busted reads; these finite entries still require revalidation and their bytes are unchanged. NewversionedJS/CSS/derivedimages verified1yearimmutable;HTMLandsitemapmaxage0,ads.txtmaxage0. No zone purge or securitysettingchanges.",
   "adsTxtVerification": {
     "status": 200,
     "contentType": "text/plain; charset=utf-8",
@@ -867,5 +874,14 @@
     "robots": "Only/admin disallowed, ads.txtallowed",
     "GoogleAccountStatus": "ScreenshotPreparing/Notfound is not contradicted by ourpublicfilecheck; cannot observe Googlescrawlaccountlogs. Google says automaticrechecks can take days or uptoamonth withfewadrequests. No approval claim.",
     "officialHelp": "https://support.google.com/adsense/answer/12171244?hl=es"
+  },
+  "publication": {
+    "evidence": "docs/performance/2026-11-04-publication.json",
+    "commit": "479542ebe94b2a15a2aad203e4baa942ab7837b1",
+    "deploymentId": "e39c8439-2613-4cdb-bb0d-6a510e26e719",
+    "pages": 28,
+    "resources": 273,
+    "verifiedAt": "2026-11-04T18:28:50.143756+00:00",
+    "method": "Existing authorized Cloudflare Pages GitHub integration; release built/cloned/deployed in cloud."
   }
 }
