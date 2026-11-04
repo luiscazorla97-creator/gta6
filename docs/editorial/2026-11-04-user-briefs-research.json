@@ -1,5 +1,5 @@
 {
-  "status": "prepared-not-published",
+  "status": "published-publicly-verified",
   "checkedAt": "2026-11-04T23:09:35.059548+00:00",
   "request": "User supplied physical-map VICE link, Mark Tilbury savings headline and IGN combined preload/release-size/poster headline. Manual batch; no change to daily cadence or November19 deadline.",
   "cloud": {
@@ -510,7 +510,33 @@
     "build": "npm run build:release passed;155topics/465localized versions",
     "static": "node scripts/verify-static.mjs passed:509HTML,22899internal links,992structured-data blocks",
     "browser": "6cases passed:3locales x2viewports, each visiting all3selected topics (18article/locale/viewport combinations); full intro/sections/tables, images, sources, localized links, canonical/hreflang/dates/schema, language navigation, sitemap/category discovery, no horizontal overflow/JS errors, single AdSense/SocialBar and Analytics gate. Provider SDKs stubbed; not evidence of creative fill.",
-    "public": "pending deployment and realHTTPSverification"
+    "public": {
+      "result": "passed",
+      "evidence": "docs/editorial/2026-11-04-user-briefs-publication.json",
+      "contentCommit": "c893bfc89422a1fa036e7a243fd984cb9f1fd9c6",
+      "deploymentId": "2cab27ec-1efd-457e-b4d5-bc35dbbfe9f4",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-04T23:12:15.907767Z",
+        "ended_on": "2026-11-04T23:12:32.703451Z",
+        "status": "success"
+      },
+      "articlePagesHTTP200": 9,
+      "homeAndCategoryDiscoveryPages": 9,
+      "matchingPublicResources": 31,
+      "localizedInternalLinksHTTP200": 27,
+      "changes": {
+        "newTopics": 1,
+        "updatedTopics": 2,
+        "newLocalizedURLs": 3,
+        "updatedLocalizedURLs": 6,
+        "originalPublicationDatesAndSlugsRetainedForUpdates": true,
+        "ownRuntimeAssetReferencesMatchRelease": true
+      },
+      "verified": "Full visible text, metadata, canonical/hreflang, JSON-LD, image and JS/CSS bytes and asset references match tested release. Sitemap, robots.txt and ads.txt match release.",
+      "limits": "Public HTTPS reads with TLS validation; browser interactions used local provider fixtures. Not proof of ad creative fill, video playback or future audience/ranking."
+    }
   },
-  "preserved": "152unrelatedcompletearticles and inventory records unchanged;2equivalentarticles updated with original publication/slugs/images retained;1topic added. Design,clientJS/CSS,publicity,SocialBar,Popunder-off,Analyticsconsent,AdSense,security,cache and daily schedule unchanged."
+  "preserved": "152unrelatedcompletearticles and inventory records unchanged;2equivalentarticles updated with original publication/slugs/images retained;1topic added. Design,clientJS/CSS,publicity,SocialBar,Popunder-off,Analyticsconsent,AdSense,security,cache and daily schedule unchanged.",
+  "publishedAt": "2026-11-04T23:12:56.732902+00:00"
 }

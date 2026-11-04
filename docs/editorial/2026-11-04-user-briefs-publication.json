@@ -1,0 +1,551 @@
+{
+  "verifiedAt": "2026-11-04T23:12:56.732902+00:00",
+  "commit": "c893bfc89422a1fa036e7a243fd984cb9f1fd9c6",
+  "deploymentId": "2cab27ec-1efd-457e-b4d5-bc35dbbfe9f4",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-04T23:12:15.907767Z",
+    "ended_on": "2026-11-04T23:12:32.703451Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ahorrar-5000-dolares-mark-tilbury-calculo/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "6ad857bb58bb73abb6b230a430b29e83c407b5b359174dace8b3bb5e85dcd6d2"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-save-5000-dollars-mark-tilbury-maths/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2eac40e37d9ec92026a8dbc6e293f9403c42de6b33dbb42ee42b42237c3656c1"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-economiser-5000-dollars-mark-tilbury-calcul/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "403e41f3a96c5b574f33abec5ba7fcf5c627bd33da3d4ede5bd7de85cbcbe26f"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "145c96f469aaddb16295af1a61e9d6b5b8829766ad47ca476801e66ea02454f1"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-leonida-map-poster-official-download/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "5cddf5bb0963ad55fd46d9df24df37a1f6acce5df0133844a53e34ca7c780039"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "1e6a52e6a66c5a7172e1476fc80e99fae46adee057fe6a57314944b9cd2fd8fa"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 1,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "91b6c397d65776ff52f7ceeef6ddd0333555db849fbf2bfb400ae96ba795dd25"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 1,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "1bf320fb7cd4ca52e7d59be9ac25397320d2080c08525022c1939491e0e2d464"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 1,
+      "catalogueTopics": 155,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "7851247f39d7b56601a7190b361fb73001c527cbf706472b15a96645a10bd0b6"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-tilbury-savings-20261104"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-tilbury-savings-20261104"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-printable-map-20261103",
+        "gta6-preload-schedule-20261028"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-tilbury-savings-20261104"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-tilbury-savings-20261104"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-printable-map-20261103",
+        "gta6-preload-schedule-20261028"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-tilbury-savings-20261104"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-tilbury-savings-20261104"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-printable-map-20261103",
+        "gta6-preload-schedule-20261028"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-CCJ82Hgh.js",
+      "status": 200,
+      "bytes": 352167,
+      "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-CDYx5jIm.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/feature-boats.webp",
+      "status": 200,
+      "bytes": 171234,
+      "sha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-couple.webp",
+      "status": 200,
+      "bytes": 65196,
+      "sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-kayak.webp",
+      "status": 200,
+      "bytes": 231688,
+      "sha256": "db833ca5ce72a6d9fc19f7419cd83b578ce49ae303d733c29aef2771acb63b99",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-mountain.webp",
+      "status": 200,
+      "bytes": 226130,
+      "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/leonida-keys.webp",
+      "status": 200,
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-1200.webp",
+      "status": 200,
+      "bytes": 93324,
+      "sha256": "84fbdff3ad4c2f89a4cf2c21be87aa564e26a5f532260a8c17773cae8e474ee0",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-480.webp",
+      "status": 200,
+      "bytes": 24002,
+      "sha256": "444cd67a07083650e8f933db084ef0d37cd6a804e291a02782ec72645710300e",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-800.webp",
+      "status": 200,
+      "bytes": 54794,
+      "sha256": "5b59cffc8a3d1a8c126c5951e4db8f0e1a1de79dbd94c36160ac42d2ae694823",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+      "status": 200,
+      "bytes": 99926,
+      "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-480.webp",
+      "status": 200,
+      "bytes": 26716,
+      "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-800.webp",
+      "status": 200,
+      "bytes": 62618,
+      "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/27c132857069/feature-boats-1200.webp",
+      "status": 200,
+      "bytes": 127604,
+      "sha256": "6e13b7a58f4a36b9bfd8105aa8188b91ba486537326e43f3ded7eacac3ae3a97",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/27c132857069/feature-boats-480.webp",
+      "status": 200,
+      "bytes": 35384,
+      "sha256": "22952938a3e0df853bbb6a15108a344463d574162368490366c92033c98774b7",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/27c132857069/feature-boats-800.webp",
+      "status": 200,
+      "bytes": 74392,
+      "sha256": "f00cc06922c66cb5d601236bd996d585b514826785c4758a462ec36f0f3a5f42",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-1200.webp",
+      "status": 200,
+      "bytes": 50778,
+      "sha256": "3cf972c759fe1104fdf1623ef1b1fd6392b72781d77420bca7d9651c976e48cc",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-480.webp",
+      "status": 200,
+      "bytes": 17224,
+      "sha256": "9b8c108d96d1f897b8ab49b1913c6a277a518de30efdad97a02c97ee82fd5213",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-800.webp",
+      "status": 200,
+      "bytes": 32424,
+      "sha256": "d5dd41066df944a0429c9239c5fb57f41ee541bd72c8a67719f801a66bfb5502",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+      "status": 200,
+      "bytes": 81668,
+      "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+      "status": 200,
+      "bytes": 25098,
+      "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+      "status": 200,
+      "bytes": 55436,
+      "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e0d0cc24376b/feature-kayak-1200.webp",
+      "status": 200,
+      "bytes": 159176,
+      "sha256": "430dc7d5fff7bce5b1c1bd6f757194b3d83e7624541e429dddc1c15e6bba55c9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e0d0cc24376b/feature-kayak-480.webp",
+      "status": 200,
+      "bytes": 33212,
+      "sha256": "b15085f919d8f9c4327123f55d6291d2654c1c8bf60282ad6e85dfc41484787d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e0d0cc24376b/feature-kayak-800.webp",
+      "status": 200,
+      "bytes": 81762,
+      "sha256": "b83a4b601f21852c24feb1d3998280e46d563bae95134d700e57ff6506d58293",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-1200.webp",
+      "status": 200,
+      "bytes": 150068,
+      "sha256": "52da88fb17173df7565f24215518e8683725833b31a23a95234f93b359d05a0a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-480.webp",
+      "status": 200,
+      "bytes": 31458,
+      "sha256": "ed7b911d0463c54cae87ed976c98440b89235430bc1cb321b5bfde04b1372836",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-800.webp",
+      "status": 200,
+      "bytes": 78644,
+      "sha256": "37f5c32a0094acd38fd46246b759a8cc201a1388c6337b43fd86b1441144144a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-3d-map-exploration-hidden-areas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-collectors-box-does-it-include-game/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-download-time-212-gb/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-physical-edition-no-disc-code/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/map/gta-6-official-map-or-fan-map/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/avoid-spoilers-mission-guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-210gb-ps5-download-size/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-collectors-box-incluye-juego/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mapa-3d-exploracion-zonas-ocultas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/carte/carte-gta-6-officielle-ou-fans/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-carte-3d-exploration-zones-masquees/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-coffret-collector-jeu-inclus/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-edition-physique-sans-disque-code/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-temps-telechargement-212-go/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/eviter-spoilers-guides-missions/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "28c22482854c78a1451cd186267400c1edf9c3c2c19328bd5fb24a3eeff4c7ed",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS reads with TLS validation. Full visible text, metadata, canonical/hreflang, schema, image and JS/CSS bytes and discoverability checked against tested release. Browser interactions used local provider fixtures; this is not proof of creative fill or guaranteed audience.",
+  "changes": {
+    "newTopics": 1,
+    "updatedTopics": 2,
+    "newLocalizedURLs": 3,
+    "updatedLocalizedURLs": 6,
+    "originalPublicationDatesAndSlugsRetainedForUpdates": true,
+    "ownRuntimeAssetReferencesMatchRelease": true
+  }
+}
