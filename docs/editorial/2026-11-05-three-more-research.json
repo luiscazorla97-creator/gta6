@@ -1,0 +1,542 @@
+{
+  "status": "prepared-not-published",
+  "checkedAt": "2026-11-05T23:52:36.868480+00:00",
+  "date": "2026-11-05",
+  "timezone": "America/New_York",
+  "scope": {
+    "manualTopics": 3,
+    "localizedVersions": 9,
+    "dailyScheduleChanged": false,
+    "dailyTopicLimit": 1,
+    "dailyLastAuthorizedDate": "2026-11-19"
+  },
+  "baseline": {
+    "freshMain": "30841d6a9e6b0fdc769a1a3b1f2883fc2464db77",
+    "tree": "e6ffb1069bf7adc57b165dd6c409b5bd5a43f7f4",
+    "topics": 168,
+    "localizedURLs": 504,
+    "fullArticleSnapshot": true,
+    "cleanCloudCheckoutMatchedCurrentGitHubMain": true
+  },
+  "cloud": {
+    "provider": "cloud",
+    "currentObservations": true,
+    "runtime": "connected/running/spec8",
+    "network": "unrestricted/enforced",
+    "credentials": "CFaccountId anddomainboundtoken observedready;actualAPIreadbelow",
+    "desktopDependency": false,
+    "actualCloudflareRead": {
+      "project": "fansgta",
+      "canonicalDeployment": "2a7e1740-a08c-480d-a07a-fe5c91223581",
+      "commit": "b5f5728e25a2400a8605c949cd454595ea9a25b4",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-05T22:15:04.633341Z",
+        "ended_on": "2026-11-05T22:15:21.232552Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    }
+  },
+  "newTopics": [
+    {
+      "id": "gta6-spectrum-speed-lift-20261105",
+      "category": "news",
+      "published": "2026-11-05",
+      "titles": [
+        "GTA 6: Spectrum ofrece más velocidad gratis a clientes elegibles",
+        "GTA 6: Spectrum offers a free speed boost to eligible customers",
+        "GTA 6 : Spectrum augmente gratuitement le débit de clients admissibles"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-spectrum-mejora-velocidad-gratis-requisitos/",
+        "/en/news/gta-6-spectrum-free-speed-boost-eligibility/",
+        "/fr/actualites/gta-6-spectrum-debit-gratuit-conditions/"
+      ]
+    },
+    {
+      "id": "gta6-selfridges-experience-20261105",
+      "category": "news",
+      "published": "2026-11-05",
+      "titles": [
+        "GTA 6 en Selfridges desde el 9 de noviembre: qué se anunció",
+        "GTA 6 at Selfridges from November 9: what was announced",
+        "GTA 6 chez Selfridges dès le 9 novembre : ce qui est annoncé"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-selfridges-experiencia-9-noviembre-detalles/",
+        "/en/news/gta-6-selfridges-experience-november-9-details/",
+        "/fr/actualites/gta-6-selfridges-experience-9-novembre-details/"
+      ]
+    },
+    {
+      "id": "gta6-ps5-household-sharing-20261105",
+      "category": "guides",
+      "published": "2026-11-05",
+      "titles": [
+        "Compartir GTA 6 en PS5: otros perfiles, licencias y límites",
+        "GTA 6 game sharing on PS5: profiles, licences and limits",
+        "Partager GTA 6 sur PS5 : profils, licences et limites"
+      ],
+      "paths": [
+        "/es/guias/gta-6-compartir-ps5-perfiles-licencias-limites/",
+        "/en/guides/gta-6-ps5-game-sharing-profiles-licence-limits/",
+        "/fr/guides/gta-6-partager-ps5-profils-licences-limites/"
+      ]
+    }
+  ],
+  "research": {
+    "spectrum": {
+      "checkedAt": "2026-11-05T23:48:27.301745+00:00",
+      "sourceResults": [
+        {
+          "key": "spectrum-primary",
+          "url": "https://corporate.charter.com/newsroom/spectrum-giving-free-gig-speed-lift-thanksgiving-grand-theft-auto",
+          "status": 200,
+          "bytes": 1794556,
+          "sha256": "f2f84b76730f392fbae8e9f9c234e72c166c115aa8cb5ef2ee530607a102761a"
+        },
+        {
+          "key": "spectrum-terms",
+          "url": "https://www.spectrum.net/thank-you",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "key": "spectrum-dexerto",
+          "url": "https://www.dexerto.com/gta/spectrum-offers-free-gta-6-internet-upgrade-to-download-massive-212gb-game-in-under-30-minutes-3425202/",
+          "status": 200,
+          "bytes": 311071,
+          "sha256": "f94689093b2366cb9a8d130622a06008991b07d2fdc860eb68b2461c0d3f2716"
+        },
+        {
+          "key": "rockstar-preload-faq",
+          "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+          "status": 200,
+          "bytes": 184268,
+          "sha256": "753eae4a4aa3fdb83203940e7c058dbb2e08fff042f92c757b76179603a95c43"
+        }
+      ],
+      "interest": [
+        {
+          "query": "gta 6 spectrum",
+          "status": 200,
+          "suggestions": [
+            "gta 6 spectrum",
+            "gta 6 spec",
+            "what to expect in gta 6",
+            "is gta 6 in development",
+            "is gta 6 confirmed"
+          ]
+        },
+        {
+          "query": "gta 6 internet speed",
+          "status": 200,
+          "suggestions": [
+            "gta 6 internet speed requirements",
+            "gta 6 internet connection",
+            "how many mb is gta 6",
+            "how many gb will gta 6 be",
+            "why is gta 6 taking so long"
+          ]
+        },
+        {
+          "query": "gta 6 kodak black",
+          "status": 200,
+          "suggestions": [
+            "gta 6 kodak black",
+            "gta 6 kodak black song",
+            "gta 6 kodak black reddit",
+            "gta 6 kodak black skrilla",
+            "gta 6 trailer kodak black",
+            "gta 6 soundtrack kodak black",
+            "gta 6 extended look kodak black",
+            "will gta 6 have kodak black",
+            "kodak black gta 6 trailer song",
+            "kodak black gta 6 leak"
+          ]
+        }
+      ],
+      "topic": "Spectrum Gig Speed Lift around GTA VI preload, US eligible existing subscribers",
+      "dedup": "All168completeArticles checked; no Spectrum/Charter/gigabit/Kodak terms exist. Existing download-duration guide is calculations/general rates; preloadguide isplatformschedule. News about distinct time-limited ISP promotion not already covered.",
+      "facts": {
+        "announcementDate": "2026-11-04",
+        "activationWindow": "Opt-in now throughNov30 inMySpectrum;speed startsNov9",
+        "boostWindow": "Nov9–30,2026",
+        "eligible": "qualified residentialcustomers;qualifyingplans;compatibleequipment;nooutstandingobligationtoSpectrum;restrictionsapply;subjecttochange",
+        "speed": "to1Gig;existing1Gig customersinselectareascan2Gig",
+        "ending": "returnsoriginaltierNov30;nochangesbill;noactionneeded",
+        "under30Minutes": "Attributed marketing claim, no performance test or guarantee;212GBat1Gbps mathematically~28.27minbeforeoverhead so congestion/storage/server/WiFi matter. Actualeligibleofferreadaccountneededbutwewillnotlogintoaccountsoractivateanything.",
+        "release": "Fasterdownload≠earlyplay;Nov10preload/Nov19release unchanged"
+      },
+      "limits": [
+        "No measuredvolumeorGoogleranking",
+        "No accounteligibilityverified",
+        "No logins,purchases,planchanges orpaidserviceactivation",
+        "Newsroomsourcewordlim200inwebtool;usefactualnews+ownmath/context withoutcopiedprose",
+        "No guaranteeallUSaddresses/2Gigavailable"
+      ],
+      "media": "Use existingauthenticcreditedRockstarGTA VI context, captionnotISPtestedbenchmark. Charterpageallowsmediaeditorialuseonlybutbroadbandartisnotagamescreenshot.",
+      "secondaryPublicationMetadata": [
+        "2026-11-05T16:34:35.000Z"
+      ],
+      "authoredFile": "src/batches/2026-11-05-three-spectrum.ts",
+      "authoredWordsESENFR": [
+        550,
+        490,
+        513
+      ],
+      "mediaVisualInspection": [
+        "feature-launch-gallery-bridge:openbridge,waterfront,twilightskyline",
+        "feature-launch-gallery-duo:JasonLuciadancefloorblueviolet",
+        "leonida-keys:aircraftislandsbridge"
+      ],
+      "mediaReuseContext": "All3existingunmodifiedRockstarassetsinspectedwithview_image;officialcreditsalreadyregistered;contextcaptionsdoNOTpresentgameimageasSpectrumapp,speedtestornewGTAfunction",
+      "topicIntent": "Newsaboutatime-limitedUSISPpromotionandeligibility,notasecondgenericdownload-time/preloadguide"
+    },
+    "selfridges": {
+      "date": "2026-11-05",
+      "original": "https://www.instagram.com/reels/DfXFo35RCad/",
+      "originalHTTPStatus": 200,
+      "originalSHA256": "bc8c96663387175dc65ad76999f405d88609db662790ddc556c8cb4bc790a954",
+      "scope": "Read public original caption metadata and account/date. Did not claim to watch full reel; no login or bypass. Post announces Nov9start but does not name a branch,products,prices,openingtime,playabledemo or Rockstarrole.",
+      "secondary": "https://www.gtaboom.com/selfridges-is-opening-a-grand-theft-auto-vi-experience-in-london-on-november-9-47d2",
+      "secondaryDate": "2026-11-05",
+      "sourceConflict": "Secondary attribution ofOxfordStreet vsotherreportsTrafford; originalcaptiondoesnotnamebranch. Do not choose/confirma venue ortransplant storeopeninghours toevent.",
+      "officialEvents": "https://www.selfridges.com/GB/en/stores/events/london-events/",
+      "eventsHTTPStatus": 200,
+      "eventsLimit": "PublicLondon events listreadasplanningreference,notproof ofGTAvenue.",
+      "dedup": "All168fullarticles andinventory read. No Selfridges/Kodak story. Miami campaign andStockholm areseparateeventsnotduplicate. Existing launchgallery linkscontext only.",
+      "interest": "Todaycoverage+autocomplete,nometricsrankorvolume",
+      "originalPublicMetadataVerified": {
+        "account": "theofficialselfridges",
+        "postDate": "2026-11-05",
+        "startDate": "2026-11-09",
+        "captionBranchesProductsDemoPriceRole": "Not specified; no complete reel playback claimed"
+      }
+    },
+    "householdSharing": {
+      "checkedAt": "2026-11-05T23:51:04.430526+00:00",
+      "articleFile": "src/batches/2026-11-05-three-sharing.ts",
+      "export": "sharing20261105",
+      "id": "gta6-ps5-household-sharing-20261105",
+      "scope": "One practical PS5 household profiles/game-entitlement guide, not new Rockstar feature news or a pre-release game test. NoXbox extrapolation, simultaneousplay guarantee or account/password sharing instructions.",
+      "dedup": {
+        "catalogueArticles": 168,
+        "inventoryRecords": 168,
+        "fullArticlesParsed": true,
+        "existingEquivalentTitle": null,
+        "overlap": {
+          "gta-6-offline-ps5-2026-10-28": "Already covers offline entitlement,3activationsteps,onePS5limit andpadlock paragraph. Newarticle centres otherlocalprofilesvslicenceownership,nontransferableGTA+month,Pluscloudexclusion,account-boundbackups/security. Linkoldarticle insteadreproduceofflineprotocol.",
+          "prepare": "Generalconsolechecklistonly,nostandalonehouseholdentitlementguide.",
+          "gta6-ps5-save-backup-20261105": "Fullcloud/USBbackupworkflow,notwhoownsaccess;linkwithnoprocedurerepetition.",
+          "gta6-subscriptions-20261031": "Serviceinclusionguide,notlocalprofilepermissions;linked.",
+          "gta-6-gta-plus-redemption-2026-10-28": "FullGTA+claimworkflow,notlicencesharing;newarticleusesonlyaccount-boundeligibilityboundary."
+        }
+      },
+      "sources": [
+        {
+          "key": "consoleSharing",
+          "url": "https://www.playstation.com/en-us/support/account/ps5-console-sharing-offline-play/",
+          "status": 200,
+          "sha256": "8b3961f1e33cebe35f4837256b4a18c9a72ae37c32c3bd4c173731cffcb41f72",
+          "bytes": 171695
+        },
+        {
+          "key": "plusSharing",
+          "url": "https://www.playstation.com/en-us/support/subscriptions/share-playstation-plus/",
+          "status": 200,
+          "sha256": "e2651c6f52169cb6eb3da7985d1895b0f2f3fd02c70a5833937a77155dc3e39b",
+          "bytes": 151069
+        },
+        {
+          "key": "offer",
+          "url": "https://www.playstation.com/en-us/support/games/gta-vi-offer-terms/",
+          "status": 200,
+          "sha256": "e1bf5cc134dd151c134ebbca7973634c3bc86cea1bec5fee65a0119024066351",
+          "bytes": 155629
+        },
+        {
+          "key": "gameListing",
+          "url": "https://store.playstation.com/en-us/product/EP1004-PPSA01547_00-GTAVISTANDARD001/",
+          "status": 200,
+          "sha256": "6c5d80591caff5ee792b72b429978a8fc81ea8d2f366084a617d8937b747e1dd",
+          "bytes": 465988
+        },
+        {
+          "key": "security",
+          "url": "https://www.playstation.com/en-us/support/account/security-best-practice/",
+          "status": 200,
+          "sha256": "5ae11ec0cc6c4f1eef5668e39a92457bf2daabdb3d6a6322bf179c00d10b33e0",
+          "bytes": 164402
+        },
+        {
+          "key": "backup",
+          "url": "https://www.playstation.com/en-us/support/hardware/back-up-ps5-data-USB/",
+          "status": 200,
+          "sha256": "4af4e9b28dc6ef751724d0b0b953b6a229c973085c55f65d8947e0656a0dd4ce",
+          "bytes": 158215
+        }
+      ],
+      "facts": {
+        "gameSpecific": "CurrentUSStandardlistingexplicitlyauthorisesmainPS5ConsoleSharingandotherPS5withsameaccount;1player/offlineenabled. NotproofallUltimatebenefitsorsimultaneousplay.",
+        "consoleFeature": "Sony:otherusersofenabledPS5canplaypurchased/downloadedgames;onePS5activationperaccountatatime.",
+        "promotion": "USofficialGTA+offertermsrestrictmonthtopurchasingaccountonly/nontransferable/oneredemptionperaccount;noactivationperformed.",
+        "plus": "Sony sharescertainPSPlusbenefitsbutnotcloudstorage. Do notconflatePSPluswithGTA+.",
+        "saves": "Sony requires sameaccountforrestoringbacked-upsaveddatatoanotherPS5. NewarticledoesnotinventGTA6slotcountsortransferbetweenfamilymembers.",
+        "security": "Sonywarnsagainstsharingcredentials;noaccountsale/passwordexchangeinstructions."
+      },
+      "interest": [
+        {
+          "query": "gta 6 game sharing",
+          "status": 200,
+          "suggestions": [
+            "gta 6 game sharing",
+            "gta 6 game sharing ps5",
+            "gta 6 game share price",
+            "gta 6 game share xbox",
+            "gta 6 game share ultimate edition",
+            "gta 6 game share name",
+            "will gta 6 allow game sharing",
+            "how much is a share in rockstar games",
+            "gta 6 game size"
+          ]
+        },
+        {
+          "query": "gta 6 share ps5",
+          "status": 200,
+          "suggestions": [
+            "gta 6 share ps5",
+            "can you play gta 6 on ps5",
+            "how much is gta 6 on ps5",
+            "is gta 6 available for ps5",
+            "will ps5 have gta 6",
+            "is gta 6 out on ps5"
+          ]
+        }
+      ],
+      "interestLimits": "FreshGoogleautocompleteisqualitativesignalonly,novolume/rankingorclaimthesearetop3searches. CurrentsearchresultsalsoincludedOct31/Nov3communityquestionsbutnotusedasmechanicalproof.",
+      "media": {
+        "checks": [
+          {
+            "key": "hero",
+            "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+            "status": 200,
+            "contentType": "image/jpeg",
+            "bytes": 475961,
+            "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8",
+            "owner": "Rockstar Games",
+            "sourcePage": "https://www.rockstargames.com/VI/media"
+          },
+          {
+            "key": "vice-city",
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+            "status": 200,
+            "contentType": "image/jpeg",
+            "bytes": 894386,
+            "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+            "owner": "Rockstar Games",
+            "sourcePage": "https://www.rockstargames.com/VI/media"
+          },
+          {
+            "key": "leonida-keys",
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+            "status": 200,
+            "contentType": "image/jpeg",
+            "bytes": 846989,
+            "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+            "owner": "Rockstar Games",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots"
+          }
+        ],
+        "visualInspection": "All3existingofficiallocalassetsviewed:heroofficialillustrationJason/Luciapalmscar;ViceCitysunsetbayandhelicopter;LeonidaKeysseaplane/islands/bridges. Contextualimages,notPS5menus,saveUIorcoopscreens.",
+        "rights": "ExistingofficialRockstarMediaassets,source/creditsretained;DownloadAndSharecontextcopyrightreserved. NoAI/mods/leaks/GTA V,nonewmediaedits.",
+        "translated": "3figureswithlocalizedalt/captionandRockstarcredit."
+      },
+      "editorialValidation": {
+        "words": [
+          593,
+          525,
+          596
+        ],
+        "metaCharacters": [
+          156,
+          154,
+          150
+        ],
+        "languages": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "sourceURLs": 7
+      },
+      "notChanged": "Nootherrepositoryfiles, ads, security, design, scheduling, Github orCloudflare mutation."
+    }
+  },
+  "interest": [
+    {
+      "query": "gta 6 spectrum",
+      "status": 200,
+      "suggestions": [
+        "gta 6 spectrum",
+        "gta 6 spec",
+        "what to expect in gta 6",
+        "is gta 6 in development",
+        "is gta 6 confirmed"
+      ]
+    },
+    {
+      "query": "gta 6 selfridges",
+      "status": 200,
+      "suggestions": [
+        "gta 6 selfridges"
+      ]
+    },
+    {
+      "query": "gta 6 game sharing",
+      "status": 200,
+      "suggestions": [
+        "gta 6 game sharing",
+        "gta 6 game sharing ps5",
+        "gta 6 game share price",
+        "gta 6 game share xbox",
+        "gta 6 game share ultimate edition",
+        "gta 6 game share name",
+        "will gta 6 allow game sharing",
+        "how much is a share in rockstar games",
+        "gta 6 game size"
+      ]
+    }
+  ],
+  "interestLimit": "Qualitative Googleautocomplete anddatedcurrentcoverage; no measuredGoogleTrends volumes,ranks,mostsearchedclaim or audience/position guarantee. Sharing is a practical household-entitlement guide, not new Rockstar gameplay news. Spectrum original Nov4, todaycoverage Nov5;Selfridges originalNov5.",
+  "media": {
+    "checks": {
+      "images": [
+        {
+          "key": "feature-launch-gallery-bridge",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+          "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+          "owner": "Rockstar Games",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalBytes": 1132950,
+          "sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1"
+        },
+        {
+          "key": "feature-launch-gallery-duo",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+          "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+          "owner": "Rockstar Games",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalBytes": 1017759,
+          "sha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57"
+        },
+        {
+          "key": "leonida-keys",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalBytes": 846989,
+          "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1"
+        },
+        {
+          "key": "hero",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "owner": "Rockstar Games",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalBytes": 475961,
+          "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8"
+        },
+        {
+          "key": "vice-city",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "owner": "Rockstar Games",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "originalBytes": 894386,
+          "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+        }
+      ],
+      "officialMediaHTTP200DownloadAndShare": true
+    },
+    "visualInspection": "Root previously inspected the new gallery originals in this conversation; delegated authors also visually inspected all reused originals. FiveunmodifiedauthenticexistingRockstar assets,threefigures/topic;noAI/mod/leak/GTA V or decorativehero layers. Imagescontextualnotbroadbandbenchmarks,Selfridgesinstallation,PS5menus ormultiplayerproof.",
+    "rights": "Official MediaDownloadAndShare recheckedHTTP200;Copyrightreserved,attributedcontextualeditorialusewithoriginalsourcedlinks,notunrestrictedlicenceclaim. All76existingcreditrecords/assetsintendedunchanged.",
+    "optimization": "ExistingWebPresponsivevariants, eager/high-prioritycovers andlazyinlineimages,3translatedalt/caption tuplesandcreditperarticle."
+  },
+  "independentEditorialAudit": "Read-only second reviewer checked all3articles,localizedfactparity,primarysourcebounds,8distinctinternalURLsexist,andintentdedupagainst168completeoldarticles.No meaningfulissuesfound.",
+  "checks": {
+    "build": "npm run build:release passed:171topics/513versions,556generatedroutes",
+    "static": "node scripts/verify-static.mjs passed:557HTML,24960internal links,1088structured-data blocks",
+    "browser": {
+      "result": "6passed25.7seconds",
+      "coverage": "3topics x3locales xdesktop/mobile =18article/locale/viewport combinations. Allparagraphs/headings/tables,3decodedofficialimagesperarticle,localizedalt/caption/credit,canonical/hreflang/metas/JSONLD dates/citations,internalURLslocalizedHTTP200,selectoractualnavigation,sitemap/archives,nohorizontaloverfloworJSexceptions,singleAdSense/SocialBar,noGA4beforeconsent. Representative screenshots inspected.",
+      "scope": "LocalbrowserproviderSDKs stubbed,notproof ofadcreativefill orsubscriber/accounteligibility."
+    },
+    "public": "pending"
+  },
+  "preservation": {
+    "existingCompleteArticlesPreserved": 168,
+    "existingInventoryRecordsPreserved": 168,
+    "existingMediaCreditsPreserved": 76,
+    "totalTopics": 171,
+    "totalLocalizedURLs": 513,
+    "newTopics": [
+      {
+        "id": "gta6-spectrum-speed-lift-20261105",
+        "category": "news",
+        "published": "2026-11-05",
+        "titles": [
+          "GTA 6: Spectrum ofrece más velocidad gratis a clientes elegibles",
+          "GTA 6: Spectrum offers a free speed boost to eligible customers",
+          "GTA 6 : Spectrum augmente gratuitement le débit de clients admissibles"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-spectrum-mejora-velocidad-gratis-requisitos/",
+          "/en/news/gta-6-spectrum-free-speed-boost-eligibility/",
+          "/fr/actualites/gta-6-spectrum-debit-gratuit-conditions/"
+        ]
+      },
+      {
+        "id": "gta6-selfridges-experience-20261105",
+        "category": "news",
+        "published": "2026-11-05",
+        "titles": [
+          "GTA 6 en Selfridges desde el 9 de noviembre: qué se anunció",
+          "GTA 6 at Selfridges from November 9: what was announced",
+          "GTA 6 chez Selfridges dès le 9 novembre : ce qui est annoncé"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-selfridges-experiencia-9-noviembre-detalles/",
+          "/en/news/gta-6-selfridges-experience-november-9-details/",
+          "/fr/actualites/gta-6-selfridges-experience-9-novembre-details/"
+        ]
+      },
+      {
+        "id": "gta6-ps5-household-sharing-20261105",
+        "category": "guides",
+        "published": "2026-11-05",
+        "titles": [
+          "Compartir GTA 6 en PS5: otros perfiles, licencias y límites",
+          "GTA 6 game sharing on PS5: profiles, licences and limits",
+          "Partager GTA 6 sur PS5 : profils, licences et limites"
+        ],
+        "paths": [
+          "/es/guias/gta-6-compartir-ps5-perfiles-licencias-limites/",
+          "/en/guides/gta-6-ps5-game-sharing-profiles-licence-limits/",
+          "/fr/guides/gta-6-partager-ps5-profils-licences-limites/"
+        ]
+      }
+    ],
+    "clientAssetsUnchanged": {
+      "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+    }
+  }
+}

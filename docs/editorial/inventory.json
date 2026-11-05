@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-spectrum-speed-lift-20261105",
+    "category": "news",
+    "published": "2026-11-05",
+    "titles": [
+      "GTA 6: Spectrum ofrece más velocidad gratis a clientes elegibles",
+      "GTA 6: Spectrum offers a free speed boost to eligible customers",
+      "GTA 6 : Spectrum augmente gratuitement le débit de clients admissibles"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-spectrum-mejora-velocidad-gratis-requisitos/",
+      "/en/news/gta-6-spectrum-free-speed-boost-eligibility/",
+      "/fr/actualites/gta-6-spectrum-debit-gratuit-conditions/"
+    ]
+  },
+  {
+    "id": "gta6-selfridges-experience-20261105",
+    "category": "news",
+    "published": "2026-11-05",
+    "titles": [
+      "GTA 6 en Selfridges desde el 9 de noviembre: qué se anunció",
+      "GTA 6 at Selfridges from November 9: what was announced",
+      "GTA 6 chez Selfridges dès le 9 novembre : ce qui est annoncé"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-selfridges-experiencia-9-noviembre-detalles/",
+      "/en/news/gta-6-selfridges-experience-november-9-details/",
+      "/fr/actualites/gta-6-selfridges-experience-9-novembre-details/"
+    ]
+  },
+  {
+    "id": "gta6-ps5-household-sharing-20261105",
+    "category": "guides",
+    "published": "2026-11-05",
+    "titles": [
+      "Compartir GTA 6 en PS5: otros perfiles, licencias y límites",
+      "GTA 6 game sharing on PS5: profiles, licences and limits",
+      "Partager GTA 6 sur PS5 : profils, licences et limites"
+    ],
+    "paths": [
+      "/es/guias/gta-6-compartir-ps5-perfiles-licencias-limites/",
+      "/en/guides/gta-6-ps5-game-sharing-profiles-licence-limits/",
+      "/fr/guides/gta-6-partager-ps5-profils-licences-limites/"
+    ]
+  },
+  {
     "id": "gta6-launch-gallery-20261105",
     "category": "news",
     "published": "2026-11-05",
