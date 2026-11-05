@@ -1,5 +1,155 @@
 [
   {
+    "id": "gta6-xbox-series-x-bite-20261105",
+    "category": "news",
+    "published": "2026-11-05",
+    "titles": [
+      "GTA 6 y Xbox Series X-BITE: la consola caimán que puedes ganar",
+      "GTA 6 and Xbox Series X-BITE: the alligator console giveaway",
+      "GTA 6 et Xbox Series X-BITE : le concours de la console alligator"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-xbox-series-x-bite-consola-caiman-sorteo/",
+      "/en/news/gta-6-xbox-series-x-bite-alligator-console-sweepstakes/",
+      "/fr/actualites/gta-6-xbox-series-x-bite-console-alligator-concours/"
+    ]
+  },
+  {
+    "id": "gta6-rockstar-union-vote-20261105",
+    "category": "news",
+    "published": "2026-11-05",
+    "titles": [
+      "GTA 6 y Rockstar: la votación sindical del 12 al 26 de noviembre",
+      "GTA 6 developer Rockstar faces a November 12–26 union vote",
+      "GTA 6 : le vote syndical chez Rockstar prévu du 12 au 26 novembre"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-rockstar-votacion-sindical-noviembre/",
+      "/en/news/gta-6-rockstar-union-recognition-vote-november/",
+      "/fr/actualites/gta-6-rockstar-vote-reconnaissance-syndicat-novembre/"
+    ]
+  },
+  {
+    "id": "gta6-preorder-sales-estimate-20261105",
+    "category": "news",
+    "published": "2026-11-05",
+    "titles": [
+      "Reservas de GTA 6: Sensor Tower estima 751 millones de dólares",
+      "GTA 6 preorders: Sensor Tower estimates $751 million",
+      "Précommandes GTA 6 : 751 millions de dollars estimés"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-reservas-751-millones-estimacion-sensor-tower/",
+      "/en/news/gta-6-preorders-751-million-sensor-tower-estimate/",
+      "/fr/actualites/gta-6-precommandes-751-millions-estimation-sensor-tower/"
+    ]
+  },
+  {
+    "id": "gta6-kai-cenat-marathon-20261105",
+    "category": "news",
+    "published": "2026-11-05",
+    "titles": [
+      "Maratón de Kai Cenat antes de GTA 6: horario, juegos y dónde verlo",
+      "Kai Cenat’s GTA marathon before GTA 6: time, games and where to watch",
+      "Marathon GTA de Kai Cenat avant GTA 6 : horaires, jeux et diffusion"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-maraton-kai-cenat-horario-juegos-ver/",
+      "/en/news/gta-6-kai-cenat-marathon-start-time-games-watch/",
+      "/fr/actualites/gta-6-marathon-kai-cenat-horaires-jeux-regarder/"
+    ]
+  },
+  {
+    "id": "gta6-wardogs-december-break-20261105",
+    "category": "news",
+    "published": "2026-11-05",
+    "titles": [
+      "GTA 6 en los planes de Wardogs: Bulkhead prepara una pausa en diciembre",
+      "Wardogs studio plans December break and points fans to GTA 6",
+      "Le studio de Wardogs prévoit une pause et invite à jouer à GTA 6"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-wardogs-bulkhead-pausa-diciembre-joe-brammer/",
+      "/en/news/gta-6-wardogs-bulkhead-december-break-joe-brammer/",
+      "/fr/actualites/gta-6-wardogs-bulkhead-pause-decembre-joe-brammer/"
+    ]
+  },
+  {
+    "id": "gta6-dualsense-limited-editions-20261105",
+    "category": "guides",
+    "published": "2026-11-05",
+    "titles": [
+      "Mando DualSense de GTA 6: ediciones, precio anunciado y reservas",
+      "GTA 6 DualSense controller: editions, announced price and preorders",
+      "Manette DualSense GTA 6 : éditions, prix annoncé et précommandes"
+    ],
+    "paths": [
+      "/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/",
+      "/en/guides/gta-6-dualsense-limited-edition-controller-price-preorder/",
+      "/fr/guides/gta-6-manette-dualsense-edition-limitee-prix-precommande/"
+    ]
+  },
+  {
+    "id": "gta6-trophies-achievements-20261105",
+    "category": "guides",
+    "published": "2026-11-05",
+    "titles": [
+      "Trofeos de GTA 6: lista, platino y qué falta por confirmar",
+      "GTA 6 trophies: the list, Platinum and what remains unconfirmed",
+      "Trophées GTA 6 : liste, platine et informations non confirmées"
+    ],
+    "paths": [
+      "/es/guias/gta-6-trofeos-logros-platino-lista-confirmada/",
+      "/en/guides/gta-6-trophies-achievements-platinum-confirmed-list/",
+      "/fr/guides/gta-6-trophees-succes-platine-liste-confirmee/"
+    ]
+  },
+  {
+    "id": "gta6-crossplay-cross-progression-20261105",
+    "category": "guides",
+    "published": "2026-11-05",
+    "titles": [
+      "¿GTA 6 tendrá crossplay entre PS5 y Xbox? Lo que está anunciado",
+      "Will GTA 6 have PS5 and Xbox crossplay? What is announced",
+      "GTA 6 aura-t-il le crossplay PS5 et Xbox ? Le point officiel"
+    ],
+    "paths": [
+      "/es/guias/gta-6-crossplay-ps5-xbox-juego-cruzado/",
+      "/en/guides/gta-6-crossplay-ps5-xbox-cross-progression/",
+      "/fr/guides/gta-6-crossplay-ps5-xbox-jeu-progression-croises/"
+    ]
+  },
+  {
+    "id": "gta6-vr-psvr2-cinematic-20261105",
+    "category": "guides",
+    "published": "2026-11-05",
+    "titles": [
+      "¿GTA 6 en VR? PS VR2, modo cinemático y compatibilidad",
+      "GTA 6 in VR? PS VR2, cinematic mode and compatibility",
+      "GTA 6 en VR ? PS VR2, mode cinématique et compatibilité"
+    ],
+    "paths": [
+      "/es/guias/gta-6-vr-psvr2-modo-cinematico-compatibilidad/",
+      "/en/guides/gta-6-vr-psvr2-cinematic-mode-compatibility/",
+      "/fr/guides/gta-6-vr-psvr2-mode-cinematique-compatibilite/"
+    ]
+  },
+  {
+    "id": "gta6-streamer-mode-music-rights-20261105",
+    "category": "guides",
+    "published": "2026-11-05",
+    "titles": [
+      "GTA 6 y modo streamer: música, copyright y directos en Twitch o YouTube",
+      "GTA 6 streamer mode: music rights, Twitch and YouTube broadcasts",
+      "GTA 6 et mode streamer : musique, droits, Twitch et YouTube"
+    ],
+    "paths": [
+      "/es/guias/gta-6-modo-streamer-musica-copyright-twitch-youtube/",
+      "/en/guides/gta-6-streamer-mode-music-copyright-twitch-youtube/",
+      "/fr/guides/gta-6-mode-streamer-musique-droits-twitch-youtube/"
+    ]
+  },
+  {
     "id": "gta6-tilbury-savings-20261104",
     "category": "news",
     "published": "2026-11-04",

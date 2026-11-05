@@ -1,0 +1,1276 @@
+{
+  "status": "prepared-not-published",
+  "checkedAt": "2026-11-05T05:49:03.342621+00:00",
+  "localDate": "2026-11-05",
+  "timezone": "America/New_York",
+  "scope": {
+    "manualTopics": 10,
+    "locales": [
+      "es",
+      "en",
+      "fr"
+    ],
+    "dailyScheduleChanged": false,
+    "dailyLastAuthorizedDate": "2026-11-19"
+  },
+  "baseline": {
+    "githubMain": "20873277596ea4b9b896d72a062ba7ddac363367",
+    "tree": "dabe86ac09e6d35ca81a098deaae8dc604b2594d",
+    "topics": 155,
+    "localizedURLs": 465,
+    "cleanCheckoutMatchedFreshGithubRead": true
+  },
+  "runtime": {
+    "cloud": true,
+    "environmentReady": "Current managed environment rechecked after transient configuration-change response. Running/connected, observations_current true, revision8, unrestricted/enforced, Cloudflare bindings ready; no values printed.",
+    "userPCUsed": false,
+    "access": "Authorized GitHub connection used; Cloudflare production deployment and public verification still required."
+  },
+  "selection": [
+    {
+      "key": "xbox-series-x-bite",
+      "category": "news",
+      "titles": [
+        "GTA 6 y Xbox Series X-BITE: la consola caimán que puedes ganar",
+        "GTA 6 and Xbox Series X-BITE: the alligator console giveaway",
+        "GTA 6 et Xbox Series X-BITE : le concours de la console alligator"
+      ],
+      "deduplication": [
+        {
+          "id": "gta6-place-grassrivers-20261031",
+          "reason": "Existing wildlife/setting guide, not Microsoft hardware competition or eligibility."
+        }
+      ]
+    },
+    {
+      "key": "rockstar-union-vote",
+      "category": "news",
+      "titles": [
+        "GTA 6 y Rockstar: la votación sindical del 12 al 26 de noviembre",
+        "GTA 6 developer Rockstar faces a November 12–26 union vote",
+        "GTA 6 : le vote syndical chez Rockstar prévu du 12 au 26 novembre"
+      ],
+      "deduplication": [
+        {
+          "id": "gta6-development-eight-years-20261104",
+          "reason": "Existing interview about development tools/future cadence, not UK collective-recognition ballot."
+        }
+      ]
+    },
+    {
+      "key": "preorder-sales-estimate",
+      "category": "news",
+      "titles": [
+        "Reservas de GTA 6: Sensor Tower estima 751 millones de dólares",
+        "GTA 6 preorders: Sensor Tower estimates $751 million",
+        "Précommandes GTA 6 : 751 millions de dollars estimés"
+      ],
+      "deduplication": [
+        {
+          "id": "take-two-november-9-calendar-2026-10-28",
+          "reason": "Earnings-event calendar, not Sensor Tower digital preorder model; link instead of duplicating calendar."
+        },
+        {
+          "id": "gta6-tilbury-savings-20261104",
+          "reason": "Personal hypothetical budget comparison, not game revenue/preorder estimates."
+        }
+      ]
+    },
+    {
+      "key": "kai-cenat-marathon",
+      "category": "news",
+      "titles": [
+        "Maratón de Kai Cenat antes de GTA 6: horario, juegos y dónde verlo",
+        "Kai Cenat’s GTA marathon before GTA 6: time, games and where to watch",
+        "Marathon GTA de Kai Cenat avant GTA 6 : horaires, jeux et diffusion"
+      ],
+      "deduplication": [
+        {
+          "id": "gta6-online-2027-clancy-2026-10-29",
+          "reason": "TwitchCEO multiplayer-date rumour, not KaiCenat classic-game event."
+        },
+        {
+          "id": "history-gta3-20261030",
+          "reason": "Existing histories linked; do not repackage them as new game-history articles."
+        }
+      ]
+    },
+    {
+      "key": "wardogs-december-break",
+      "category": "news",
+      "titles": [
+        "GTA 6 en los planes de Wardogs: Bulkhead prepara una pausa en diciembre",
+        "Wardogs studio plans December break and points fans to GTA 6",
+        "Le studio de Wardogs prévoit une pause et invite à jouer à GTA 6"
+      ],
+      "deduplication": [
+        {
+          "id": "gta6-development-eight-years-20261104",
+          "reason": "Different studio and employment/rest statement, not Rockstar future pipeline."
+        }
+      ]
+    },
+    {
+      "key": "dualsense-limited-editions",
+      "category": "guides",
+      "titles": [
+        "Mando DualSense de GTA 6: ediciones, precio anunciado y reservas",
+        "GTA 6 DualSense controller: editions, announced price and preorders",
+        "Manette DualSense GTA 6 : éditions, prix annoncé et précommandes"
+      ],
+      "deduplication": [
+        {
+          "id": "ps5-features-2026-10-28",
+          "reason": "Existing software haptics/audio feature report, not limited-controller designs, retail terms and regional recommended prices."
+        }
+      ]
+    },
+    {
+      "key": "trophies-achievements",
+      "category": "guides",
+      "titles": [
+        "Trofeos de GTA 6: lista, platino y qué falta por confirmar",
+        "GTA 6 trophies: the list, Platinum and what remains unconfirmed",
+        "Trophées GTA 6 : liste, platine et informations non confirmées"
+      ],
+      "deduplication": [
+        {
+          "id": "cheats-check",
+          "reason": "Existing conditional discussion of cheats and trophies, not actual list verification, Platinum scope or platform trophy viewing."
+        },
+        {
+          "id": "gta6-goty-eligibility-20261104",
+          "reason": "Industryawards eligibility is a different intent from in-game trophies and achievements."
+        }
+      ]
+    },
+    {
+      "key": "crossplay-cross-progression",
+      "category": "guides",
+      "titles": [
+        "¿GTA 6 tendrá crossplay entre PS5 y Xbox? Lo que está anunciado",
+        "Will GTA 6 have PS5 and Xbox crossplay? What is announced",
+        "GTA 6 aura-t-il le crossplay PS5 et Xbox ? Le point officiel"
+      ],
+      "deduplication": [
+        {
+          "id": "gta6-coop-split-screen-20261102",
+          "reason": "Local two-person campaign/splitscreen intent; incidental mention of future crossplay lacks a focused cross-platform explanation."
+        },
+        {
+          "id": "gta6-online-2027-clancy-2026-10-29",
+          "reason": "Future multiplayer date rumour, not platform interoperability and transfer/licence distinctions."
+        },
+        {
+          "id": "gta6-vs-gta5-confirmed-comparison-2026-10-28",
+          "reason": "Broad game comparison has one warning not to transfer GTA Online conditions, rather than a dedicated crossplay buying checklist."
+        }
+      ]
+    },
+    {
+      "key": "vr-psvr2-cinematic",
+      "category": "guides",
+      "titles": [
+        "¿GTA 6 en VR? PS VR2, modo cinemático y compatibilidad",
+        "GTA 6 in VR? PS VR2, cinematic mode and compatibility",
+        "GTA 6 en VR ? PS VR2, mode cinématique et compatibilité"
+      ],
+      "deduplication": [
+        {
+          "id": "gta6-interest-first-person-20261031",
+          "reason": "Camera perspective report, not headset compatibility, virtual cinema and Sony system configuration."
+        }
+      ]
+    },
+    {
+      "key": "streamer-mode-music-rights",
+      "category": "guides",
+      "titles": [
+        "GTA 6 y modo streamer: música, copyright y directos en Twitch o YouTube",
+        "GTA 6 streamer mode: music rights, Twitch and YouTube broadcasts",
+        "GTA 6 et mode streamer : musique, droits, Twitch et YouTube"
+      ],
+      "deduplication": [
+        {
+          "id": "gta-6-radio-music",
+          "reason": "Music/radio announcement, not broadcast/monetization permissions or streamer audio preparation."
+        },
+        {
+          "id": "spoilers",
+          "reason": "General guide-reading spoiler advice; broadcasting rights is a different intent."
+        }
+      ]
+    }
+  ],
+  "intentReview": {
+    "method": "Complete155 exported Article objects including titles, body, all sections/translations, sources and inventory compared semantically with closest intents. Exact source/subject and feature-term scans retained no existing X-BITE, SensorTower, Bulkhead/Wardogs, KaiCenat, limited DualSense, VR-cinema or streamer guide. Crossplay incidental paragraphs reviewed in full; new article focuses network interoperation rather than local co-op, comparison or Online release date.",
+    "existingArticlesPreserved": {
+      "existingCompleteArticlesPreserved": 155,
+      "existingInventoryRecordsPreserved": 155,
+      "totalTopics": 165,
+      "totalLocalizedURLs": 495,
+      "newTopics": [
+        {
+          "id": "gta6-xbox-series-x-bite-20261105",
+          "category": "news",
+          "published": "2026-11-05",
+          "titles": [
+            "GTA 6 y Xbox Series X-BITE: la consola caimán que puedes ganar",
+            "GTA 6 and Xbox Series X-BITE: the alligator console giveaway",
+            "GTA 6 et Xbox Series X-BITE : le concours de la console alligator"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-xbox-series-x-bite-consola-caiman-sorteo/",
+            "/en/news/gta-6-xbox-series-x-bite-alligator-console-sweepstakes/",
+            "/fr/actualites/gta-6-xbox-series-x-bite-console-alligator-concours/"
+          ]
+        },
+        {
+          "id": "gta6-rockstar-union-vote-20261105",
+          "category": "news",
+          "published": "2026-11-05",
+          "titles": [
+            "GTA 6 y Rockstar: la votación sindical del 12 al 26 de noviembre",
+            "GTA 6 developer Rockstar faces a November 12–26 union vote",
+            "GTA 6 : le vote syndical chez Rockstar prévu du 12 au 26 novembre"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-rockstar-votacion-sindical-noviembre/",
+            "/en/news/gta-6-rockstar-union-recognition-vote-november/",
+            "/fr/actualites/gta-6-rockstar-vote-reconnaissance-syndicat-novembre/"
+          ]
+        },
+        {
+          "id": "gta6-preorder-sales-estimate-20261105",
+          "category": "news",
+          "published": "2026-11-05",
+          "titles": [
+            "Reservas de GTA 6: Sensor Tower estima 751 millones de dólares",
+            "GTA 6 preorders: Sensor Tower estimates $751 million",
+            "Précommandes GTA 6 : 751 millions de dollars estimés"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-reservas-751-millones-estimacion-sensor-tower/",
+            "/en/news/gta-6-preorders-751-million-sensor-tower-estimate/",
+            "/fr/actualites/gta-6-precommandes-751-millions-estimation-sensor-tower/"
+          ]
+        },
+        {
+          "id": "gta6-kai-cenat-marathon-20261105",
+          "category": "news",
+          "published": "2026-11-05",
+          "titles": [
+            "Maratón de Kai Cenat antes de GTA 6: horario, juegos y dónde verlo",
+            "Kai Cenat’s GTA marathon before GTA 6: time, games and where to watch",
+            "Marathon GTA de Kai Cenat avant GTA 6 : horaires, jeux et diffusion"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-maraton-kai-cenat-horario-juegos-ver/",
+            "/en/news/gta-6-kai-cenat-marathon-start-time-games-watch/",
+            "/fr/actualites/gta-6-marathon-kai-cenat-horaires-jeux-regarder/"
+          ]
+        },
+        {
+          "id": "gta6-wardogs-december-break-20261105",
+          "category": "news",
+          "published": "2026-11-05",
+          "titles": [
+            "GTA 6 en los planes de Wardogs: Bulkhead prepara una pausa en diciembre",
+            "Wardogs studio plans December break and points fans to GTA 6",
+            "Le studio de Wardogs prévoit une pause et invite à jouer à GTA 6"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-wardogs-bulkhead-pausa-diciembre-joe-brammer/",
+            "/en/news/gta-6-wardogs-bulkhead-december-break-joe-brammer/",
+            "/fr/actualites/gta-6-wardogs-bulkhead-pause-decembre-joe-brammer/"
+          ]
+        },
+        {
+          "id": "gta6-dualsense-limited-editions-20261105",
+          "category": "guides",
+          "published": "2026-11-05",
+          "titles": [
+            "Mando DualSense de GTA 6: ediciones, precio anunciado y reservas",
+            "GTA 6 DualSense controller: editions, announced price and preorders",
+            "Manette DualSense GTA 6 : éditions, prix annoncé et précommandes"
+          ],
+          "paths": [
+            "/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/",
+            "/en/guides/gta-6-dualsense-limited-edition-controller-price-preorder/",
+            "/fr/guides/gta-6-manette-dualsense-edition-limitee-prix-precommande/"
+          ]
+        },
+        {
+          "id": "gta6-trophies-achievements-20261105",
+          "category": "guides",
+          "published": "2026-11-05",
+          "titles": [
+            "Trofeos de GTA 6: lista, platino y qué falta por confirmar",
+            "GTA 6 trophies: the list, Platinum and what remains unconfirmed",
+            "Trophées GTA 6 : liste, platine et informations non confirmées"
+          ],
+          "paths": [
+            "/es/guias/gta-6-trofeos-logros-platino-lista-confirmada/",
+            "/en/guides/gta-6-trophies-achievements-platinum-confirmed-list/",
+            "/fr/guides/gta-6-trophees-succes-platine-liste-confirmee/"
+          ]
+        },
+        {
+          "id": "gta6-crossplay-cross-progression-20261105",
+          "category": "guides",
+          "published": "2026-11-05",
+          "titles": [
+            "¿GTA 6 tendrá crossplay entre PS5 y Xbox? Lo que está anunciado",
+            "Will GTA 6 have PS5 and Xbox crossplay? What is announced",
+            "GTA 6 aura-t-il le crossplay PS5 et Xbox ? Le point officiel"
+          ],
+          "paths": [
+            "/es/guias/gta-6-crossplay-ps5-xbox-juego-cruzado/",
+            "/en/guides/gta-6-crossplay-ps5-xbox-cross-progression/",
+            "/fr/guides/gta-6-crossplay-ps5-xbox-jeu-progression-croises/"
+          ]
+        },
+        {
+          "id": "gta6-vr-psvr2-cinematic-20261105",
+          "category": "guides",
+          "published": "2026-11-05",
+          "titles": [
+            "¿GTA 6 en VR? PS VR2, modo cinemático y compatibilidad",
+            "GTA 6 in VR? PS VR2, cinematic mode and compatibility",
+            "GTA 6 en VR ? PS VR2, mode cinématique et compatibilité"
+          ],
+          "paths": [
+            "/es/guias/gta-6-vr-psvr2-modo-cinematico-compatibilidad/",
+            "/en/guides/gta-6-vr-psvr2-cinematic-mode-compatibility/",
+            "/fr/guides/gta-6-vr-psvr2-mode-cinematique-compatibilite/"
+          ]
+        },
+        {
+          "id": "gta6-streamer-mode-music-rights-20261105",
+          "category": "guides",
+          "published": "2026-11-05",
+          "titles": [
+            "GTA 6 y modo streamer: música, copyright y directos en Twitch o YouTube",
+            "GTA 6 streamer mode: music rights, Twitch and YouTube broadcasts",
+            "GTA 6 et mode streamer : musique, droits, Twitch et YouTube"
+          ],
+          "paths": [
+            "/es/guias/gta-6-modo-streamer-musica-copyright-twitch-youtube/",
+            "/en/guides/gta-6-streamer-mode-music-copyright-twitch-youtube/",
+            "/fr/guides/gta-6-mode-streamer-musique-droits-twitch-youtube/"
+          ]
+        }
+      ],
+      "clientAssetsUnchanged": [
+        {
+          "path": "assets/index-BkQBpQi9.css",
+          "bytes": 57621,
+          "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+        },
+        {
+          "path": "assets/index-CCJ82Hgh.js",
+          "bytes": 352167,
+          "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14"
+        },
+        {
+          "path": "assets/postscribe-CDYx5jIm.js",
+          "bytes": 18060,
+          "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c"
+        }
+      ]
+    }
+  },
+  "datesAndEvidence": {
+    "xbox-bite": "Official Xbox announcementNovember3; full official rules priority. Primary rules include50USstates/DC/PuertoRico, physical presence,18+and local-majority conditions, no purchase needed; Nov3at09PT-Nov10at23:59PT. Blog short eligibility omitsPuertoRico. No Rockstar official edition, bundledgame, performance advantage or marketing-contract claim inferred. TweakTown link readHTTP200 as third-party Florida/GTA connection only.",
+    "union": "PCGamer andGameDeveloper original reports bothOctober27, with plannedNov12-26UKrecognition ballot. Original union statement not directly retrieved. No result, strike, delay or current-day announcement invented. Two reports can rely on the same statement; not represented as independent audits.",
+    "sales": "DexertoNovember4 andInsiderGamingNovember3 reportSensorTowerNovember3snapshot:7.71milliondigitalPS5/Xboxpreorders,USD751million,74/26split. Primary trackerHTTP200 explains estimates but dynamic figures not readable; numeric detail attributed to coverage. No first-hand counter read, officialTakeTwocount, unique-player count, profit or comparable first-day record asserted.",
+    "kai": "SportskeedaNovember3attributes announcement toNovember2livestream. TOIdisplaysNovember4butISO2026-11-04T02:30:00+05:30 isNovember3UTC; both source displaydates kept. PlannedNov5at15EST; fivegamesIII/ViceCity/SanAndreas/IV/V. OfficialTwitchchannelHTTP200shell only; no claim to observe live broadcast or finish. Own timezone conversions verified from2026-11-05T20:00Z, no paid access or early GTA VI access inferred.",
+    "wardogs": "GamesRadar andInsiderGaming reportsNovember3onJoeBrammerEdgeinterview. Primary magazine article not retrieved directly; reported futureDecemberrest plan clearly attributed. No server closure, collaboration, sales loss, permanent shutdown or GTA VI change inferred.",
+    "controller": "Sony primaryBlogSeptember3, preorderSeptember10, launchfromNovember19. Announced recommendedUSUSD84.99,Spain/FranceEUR84.99,UKGBP74.99 recheckedNovember5; not current checkout price/stock. BlackDirectdistribution andWhiteparticipatingretailers fromprimary. Everylanguage identifiesmarkets/currencies/date, no universaldelivery/bundledgame/exclusive software features inferred.",
+    "guides": "Trophies, crossplay, VR and streamer mode explicitly report limited official evidence as ofNovember5, not a claim of universal nonexistence or permanent exclusion. No finalbuild tested, invented trophylist/count/Platinum, cross-platformservers, nativeVR/PCmod, streamer toggle, claim immunity or monetization licence. Current Sony primary menu paths for trophy viewing/capture andVRcinema checked; generic console function distinguished from GTA VI feature.",
+    "copyright": "RockstarPolicyJanuary10,2025readHTTP200: occasional noncommercial scope andreservedrights, noleakedprerelease footage/isolatedcinematic grants. YouTube rights policyreadHTTP200. Twitchliveportalrendererror; indexedofficialFAQtext consulted; scope not testedlive. No third-party messages or licensing requests sent."
+  },
+  "interest": {
+    "initial": {
+      "checkedAt": "2026-11-05T05:33:19.723196+00:00",
+      "results": [
+        {
+          "query": "gta 6 xbox alligator",
+          "status": 200,
+          "suggestions": [
+            "gta 6 xbox alligator",
+            "can you get gta 6 on xbox one",
+            "can you play gta 6 on xbox one",
+            "how to get gta 6 on xbox one",
+            "how much is gta 6 xbox one",
+            "can u play gta 6 on xbox one"
+          ]
+        },
+        {
+          "query": "gta 6 union vote",
+          "status": 200,
+          "suggestions": []
+        },
+        {
+          "query": "gta 6 pre order sales",
+          "status": 200,
+          "suggestions": [
+            "gta 6 pre order sales",
+            "gta 6 pre order sales revenue",
+            "gta 6 pre order sales as of today",
+            "gta 6 pre order sales first day",
+            "gta 6 pre order sales total",
+            "gta 6 pre order sales to date",
+            "gta 6 pre order sales numbers so far",
+            "gta 6 pre order sales amount",
+            "gta 6 pre order sales estimate",
+            "gta 6 pre order sales ps5"
+          ]
+        },
+        {
+          "query": "gta 6 kai cenat",
+          "status": 200,
+          "suggestions": [
+            "gta 6 kai cenat",
+            "gta 6 trailer kai cenat",
+            "gta 6 early access kai cenat",
+            "gta 6 extended look kai cenat",
+            "gta 6 trailer reaction kai cenat",
+            "kai cenat gta 6 or child",
+            "kai cenat gta 6 reaction",
+            "kai cenat gta 6 early",
+            "can i play gta 6 on kai cenat",
+            "kai cenat gta 6 stream"
+          ]
+        },
+        {
+          "query": "gta 6 wardogs",
+          "status": 200,
+          "suggestions": [
+            "wardogs gta 6",
+            "will niko bellic be in gta 6",
+            "is niko bellic going to be in gta 6",
+            "how many characters are in gta 6",
+            "will cj return in gta 6",
+            "how many characters will be in gta 6"
+          ]
+        },
+        {
+          "query": "gta 6 dualsense controller",
+          "status": 200,
+          "suggestions": [
+            "gta 6 dualsense controller",
+            "gta 6 dualsense controller pre-order",
+            "gta 6 dualsense controller release date",
+            "gta 6 dualsense controller black",
+            "gta 6 dualsense controller best buy",
+            "gta 6 dualsense controller pre-order best buy",
+            "gta 6 dualsense controller amazon",
+            "gta 6 dualsense controller limited edition",
+            "gta 6 dualsense controller reddit",
+            "gta 6 dualsense controller price"
+          ]
+        },
+        {
+          "query": "gta 6 trophies",
+          "status": 200,
+          "suggestions": [
+            "gta 6 trophies",
+            "gta 6 trophies leaked",
+            "gta 6 trophy list",
+            "gta 6 trophy guide",
+            "gta 6 awards",
+            "gta 6 awards won",
+            "gta 6 ps5 trophies",
+            "gta 6 ps trophies",
+            "gta 6 all trophies",
+            "gta 6 psn trophies"
+          ]
+        },
+        {
+          "query": "gta 6 save game ps5",
+          "status": 200,
+          "suggestions": []
+        },
+        {
+          "query": "gta 6 streamer mode",
+          "status": 200,
+          "suggestions": [
+            "gta 6 streamer mode",
+            "will gta 6 have streamer mode",
+            "how to get gta 6",
+            "can you play gta on twitch",
+            "does gta 6 have a trailer",
+            "are they working on gta 6"
+          ]
+        },
+        {
+          "query": "gta 6 hdr settings",
+          "status": 200,
+          "suggestions": []
+        }
+      ],
+      "limits": "Autocomplete is qualitative, not query volume/ranking. Empty results remain recorded; no highly-searched assertion without volume."
+    },
+    "additional": [
+      {
+        "query": "gta 6 crossplay",
+        "status": 200,
+        "suggestions": [
+          "gta 6 crossplay",
+          "gta 6 crossplay xbox ps5",
+          "gta 6 crossplay pc ps5",
+          "gta 6 crossplay console",
+          "gta 6 crossplay pc xbox",
+          "gta 6 crossplay online",
+          "gta 6 crossplay between consoles",
+          "gta 6 crossplay reddit",
+          "gta 6 crossplay between xbox and playstation",
+          "gta 6 crossplay pc"
+        ]
+      },
+      {
+        "query": "gta 6 vr",
+        "status": 200,
+        "suggestions": [
+          "gta 6 vr",
+          "gta 6 vr compatible",
+          "gta 6 vram requirements",
+          "gta 6 vrock",
+          "gta 6 vr support",
+          "gta 6 vrr",
+          "gta 6 vr guy",
+          "gta 6 vr headset",
+          "gta 6 vram",
+          "gta 6 vr mod"
+        ]
+      },
+      {
+        "query": "gta 6 save game",
+        "status": 200,
+        "suggestions": [
+          "gta 6 save game",
+          "gta 6 save file",
+          "gta 6 save file size",
+          "is gta 6 worth it",
+          "how to save game gta 5"
+        ]
+      },
+      {
+        "query": "gta 6 hdr",
+        "status": 200,
+        "suggestions": [
+          "gta 6 hdr",
+          "gta 6 hdr leaks",
+          "gta 6 hd wallpaper",
+          "gta 6 hdd size",
+          "gta 6 hd screenshots",
+          "gta 6 hd images",
+          "gta 6 hd space",
+          "gta 6 hd",
+          "gta 6 hdd requirements",
+          "gta 6 hd map"
+        ]
+      }
+    ],
+    "limits": "Qualitative current coverage and autocomplete, no query-volume service or ranking data. Some queries returnedempty; recorded, not equated with zero demand. No top10Google, viral audience or high-volume certainty promised. HDR/cloudbackup candidates not selected; chosenVR/crossplay have direct current autocomplete demand and distinct primary-intent coverage."
+  },
+  "sourceChecks": [
+    {
+      "checkedAt": "2026-11-05T05:30:49.402024+00:00",
+      "sources": [
+        {
+          "key": "xbox-bite",
+          "url": "https://news.xbox.com/en-us/2026/11/03/xbox-series-x-bite-console-sweepstakes/",
+          "status": 200,
+          "bytes": 87790,
+          "publicationDates": [
+            "2026-11-03T17:00:00+00:00",
+            "2026-11-03T17:00:00+00:00"
+          ],
+          "links": [
+            "https://www.youtube.com/watch?v=uvcfI8RPZYc"
+          ],
+          "snippets": [
+            "T-Mobile Customers Read Return of XBOX · Return of XBOX Hello from Seattle: XBOX FanFest Comes Home November 12 Browse XBOX consoles XBOX games XBOX Game Pass XBOX accessories Resources XBOX News XBOX Support Leadership Team Feedback Community Standards Photosensitive Seizure Warning User Research at XBOX Microsoft Store Microsoft account Microsoft Store Support Returns Orders tracking Store locations Reward"
+          ]
+        },
+        {
+          "key": "dualsense",
+          "url": "https://blog.playstation.com/2026/09/03/first-look-at-the-grand-theft-auto-vi-limited-edition-dualsense-wireless-controllers/",
+          "status": 200,
+          "bytes": 222340,
+          "publicationDates": [],
+          "links": [
+            "https://direct.playstation.com/"
+          ],
+          "snippets": [
+            "alSense wireless controllers will launch starting on November 19 for a recommended retail price of $84.99 USD/ ¥12,480 (including tax) / €84.99/ £74.99.** Pre-orders start September 10 at 10:00am Local time. direct.playstation.com Purchase Information Starting on September 10 at 7:00am PT/10:00am ET in the U.S., and 10:00am local time in the U.K., France, Germany, Austria, Spain, Italy, Netherlands, Be",
+            "ch starting on November 19 for a recommended retail price of $84.99 USD/ ¥12,480 (including tax) / €84.99/ £74.99.** Pre-orders start September 10 at 10:00am Local time. direct.playstation.com Purchase Information Starting on September 10 at 7:00am PT/10:00am ET in the U.S., and 10:00am local time in the U.K., France, Germany, Austria, Spain, Italy, Netherlands, Belgium, and Luxembourg, players will be"
+          ]
+        },
+        {
+          "key": "preorders-dexerto",
+          "url": "https://www.dexerto.com/gta/gta-6-has-already-made-over-750-million-in-pre-orders-report-3424767/",
+          "status": 200,
+          "bytes": 297469,
+          "publicationDates": [
+            "2026-11-04T15:22:37.000Z"
+          ],
+          "links": [
+            "https://sensortower.com/grand-theft-auto-VI/sales-tracker",
+            "https://www.youtube.com/@dexerto"
+          ],
+          "snippets": [
+            "rom analytics firm Sensor Tower, Rockstar’s highly anticipated sequel has accumulated approximately 7.71 million digital pre-orders across PS5 and Xbox Series X|S, generating an estimated $751 million in revenue. 70% of pre-orders are on PlayStation 5 Figures published by the firm indicate that PlayStation accounts for 74% of pre-orders, compared with 26% for the Xbox Series X|S. That translates to ar",
+            "roximately 7.71 million digital pre-orders across PS5 and Xbox Series X|S, generating an estimated $751 million in revenue. 70% of pre-orders are on PlayStation 5 Figures published by the firm indicate that PlayStation accounts for 74% of pre-orders, compared with 26% for the Xbox Series X|S. That translates to around 5.74 million copies on PlayStation, generating $559 million, while Xbox accounts for anothe",
+            "al copies aren’t included. Article continues after ad Article continues after ad GTA 6’s estimated $751 million in digital preorders is already approaching that first-day figure, although the comparison isn’t exact. Sensor Tower’s numbers are unofficial estimates, while Take-Two’s figures cover sales after GTA 5 launched. GTA 6 releases on November 19, 2026, for PS5 and Xbox Series X|S, with preloading set t"
+          ]
+        },
+        {
+          "key": "union-pcgamer",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-will-hold-union-vote-right-on-top-of-grand-theft-auto-6-release/",
+          "status": 200,
+          "bytes": 2090399,
+          "publicationDates": [
+            "2026-10-27T22:23:23+00:00"
+          ],
+          "links": [
+            "https://www.youtube.com/@pcgamer",
+            "https://www.youtube.com/user/pcgamer"
+          ],
+          "snippets": [
+            "s, though they may have only whet appetites for the reveal The vote to recognize the union will run November 12-26, the week leading up, and then the week after, GTA 6's November 19 launch on consoles. Rockstar hasn't commented on the looming vote, but Rockstar head of publishing Jennifer Kolbe indicated in Bloomberg's recent look at the making of GTA that the studio won't fight it: \"We go where the team goe"
+          ]
+        },
+        {
+          "key": "union-gamedeveloper",
+          "url": "https://www.gamedeveloper.com/business/rockstar-workers-to-vote-on-unionization-ahead-of-grand-theft-auto-vi-release",
+          "status": 200,
+          "bytes": 452024,
+          "publicationDates": [
+            "2026-10-27T19:34:13.000Z"
+          ],
+          "links": [],
+          "snippets": [
+            "e, layoffs, flexible working arrangements, and generative AI policies. Workers will begin voting on November 12, 2026 and will have until November 26 to say \"yay\" or \"nay\" to the union. They'll be doing so shortly after Rockstar head of publishing Jennifer Koble commented on the union drive, saying \"we go where the team goes. If they want a union, they will have a union.\" The vote is taking place independent",
+            "nts, and generative AI policies. Workers will begin voting on November 12, 2026 and will have until November 26 to say \"yay\" or \"nay\" to the union. They'll be doing so shortly after Rockstar head of publishing Jennifer Koble commented on the union drive, saying \"we go where the team goes. If they want a union, they will have a union.\" The vote is taking place independently of an ongoing tribunal over Rocksta"
+          ]
+        },
+        {
+          "key": "wardogs-insider",
+          "url": "https://insider-gaming.com/wardogs-ceo-go-play-gta-studio-shut-down/",
+          "status": 200,
+          "bytes": 302670,
+          "publicationDates": [
+            "2026-11-03T12:30:24+00:00",
+            "2026-11-03T12:30:24+00:00"
+          ],
+          "links": [
+            "https://www.youtube.com/@insider_gaming?sub_confirmation=1",
+            "https://youtube.com/@insider_gaming"
+          ],
+          "snippets": [
+            " WARDOGS CEO Tells Fans To 'Go Play GTA' As Studio Plans One-Month Break in December - Insider Gaming Maybe Not Static File --> Maybe Not Static File --> Maybe Not Static File --> Maybe Not Static File --> Maybe Not Static File --> Excluded option --> External URL: https://challenges.cloudflare.com/turnstile/v0/api.js --> × --> --> Search Menu H HOME N News E Exclusives R Reviews G",
+            " News · November 3, 2026 WARDOGS CEO Tells Fans To ‘Go Play GTA’ As Studio Plans One-Month Break in December Joe Brammer, the CEO of WARDOGS’ developer, Bulkhead Studios, has spoken exclusively to Edge Magazine about the road ahead in the first-person shooter space. He has announced that the team at Bulkhead will be taking a much-deserved break lasting the entirety of December , allowing them to cool off ",
+            "as announced that the team at Bulkhead will be taking a much-deserved break lasting the entirety of December , allowing them to cool off after months of painstaking work to bring WARDOGS to market. This might leave some fans dismayed, but the outspoken CEO didn’t mince words and stated outright that they should go and play Grand Theft Auto 6 instead while the team goes on a detox. WARDOGS Development Halt"
+          ]
+        },
+        {
+          "key": "kai-toi",
+          "url": "https://timesofindia.indiatimes.com/world/us-streamers/kai-cenats-gta-6-countdown-marathon-date-time-game-order-and-the-14-day-challenge-explained/articleshow/135512697.cms",
+          "status": 200,
+          "bytes": 317402,
+          "publicationDates": [
+            "2026-11-04T02:30:00+05:30"
+          ],
+          "links": [
+            "https://www.youtube.com/timesofindia?sub_confirmation=1"
+          ],
+          "snippets": [
+            "tch star Kai Cenat has confirmed that his five-game GTA marathon will begin on November 5, 2026, at 3 PM EST. He plans to play Grand Theft Auto 3, Vice City, San Andreas, GTA 4, and GTA 5 before GTA 6 arrives on November 19. The announcement has led to questions about whether he can finish all five games in time. While some fans are excited to watch him revisit the older titles, others believe he has "
+          ]
+        }
+      ]
+    },
+    {
+      "checkedAt": "2026-11-05T05:32:15.337746+00:00",
+      "sources": [
+        {
+          "key": "sensortower",
+          "url": "https://sensortower.com/grand-theft-auto-VI/sales-tracker",
+          "status": 200,
+          "bytes": 98315,
+          "textBytes": 722,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": [
+            "https://www.googletagmanager.com/ns.html?id=GTM-5C3257H"
+          ]
+        },
+        {
+          "key": "xbox-rules",
+          "url": "https://rules.xboxpromotions.com/xbite",
+          "status": 200,
+          "bytes": 28359,
+          "textBytes": 22480,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "xbox-cloud",
+          "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/cloud-game-saves-faq",
+          "status": 200,
+          "bytes": 2909,
+          "textBytes": 61,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "xbox-hdr",
+          "url": "https://support.xbox.com/en-US/help/hardware-network/display-sound/hdr-on-xbox-one",
+          "status": 200,
+          "bytes": 2909,
+          "textBytes": 61,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "ps5-hdr",
+          "url": "https://www.playstation.com/en-us/support/hardware/ps5-enable-adjust-hdr/",
+          "status": 200,
+          "bytes": 143503,
+          "textBytes": 3091,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "ps5-cloud",
+          "url": "https://www.playstation.com/en-us/support/subscriptions/ps5-ps-plus-cloud-storage/",
+          "status": 200,
+          "bytes": 162743,
+          "textBytes": 6106,
+          "publicationDates": [],
+          "snippets": [
+            " (PS5) or Saved Data (PS4) . For PS5® games, select Sync Saved Data > Auto-Sync Saved Data . For PlayStation®4 games, select Auto-Upload . For PS5 games, turn on Enable Auto-Sync . For PS4® games, turn on Enable Auto-Upload . You can also turn on or",
+            "ayStation®4 games, select Auto-Upload . For PS5 games, turn on Enable Auto-Sync . For PS4® games, turn on Enable Auto-Upload . You can also turn on or off this setting for each of your games. For PS5 games, both your console and cloud storage will s"
+          ],
+          "iframes": []
+        },
+        {
+          "key": "ps5-backup",
+          "url": "https://www.playstation.com/en-us/support/hardware/back-up-ps5-data-USB/",
+          "status": 200,
+          "bytes": 158215,
+          "textBytes": 5500,
+          "publicationDates": [],
+          "snippets": [
+            "a. Update your game status before backing up your data. Manually sync trophies PS5 console data you can back up You can back up the following data: Games and apps Saved data Screenshots and video clips Settings All user data saved on your PS5 conso"
+          ],
+          "iframes": []
+        },
+        {
+          "key": "ps-trophies",
+          "url": "https://www.playstation.com/en-us/support/games/how-to-earn-trophies-on-playstation--consoles/",
+          "status": 200,
+          "bytes": 171448,
+          "textBytes": 7863,
+          "publicationDates": [],
+          "snippets": [
+            " How to earn trophies on PlayStation consoles Support Home PlayStation Status Account & Security PS Store & Refunds Subscriptions Games Hardware & Repairs Online Safety Connectivity PC Earn t",
+            "criptions Games Hardware & Repairs Online Safety Connectivity PC Earn trophies on PlayStation consoles How to earn trophies on PlayStation consoles Learn about trophy settings, how your trophy level is determined, and how to sync your trophies on P"
+          ],
+          "iframes": []
+        },
+        {
+          "key": "xbox-achievements",
+          "url": "https://support.xbox.com/en-US/help/games-apps/achievements/troubleshoot-achievements-challenges",
+          "status": 200,
+          "bytes": 2909,
+          "textBytes": 61,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "rockstar-policy",
+          "url": "https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material",
+          "status": 200,
+          "bytes": 177600,
+          "textBytes": 4708,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "rockstar-vi",
+          "url": "https://www.rockstargames.com/VI",
+          "status": 200,
+          "bytes": 1224337,
+          "textBytes": 2280,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "xbox-vi",
+          "url": "https://www.xbox.com/en-US/games/grand-theft-auto-vi",
+          "status": 200,
+          "bytes": 438573,
+          "textBytes": 5489,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "ps-vi",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+          "status": 200,
+          "bytes": 379939,
+          "textBytes": 12489,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "wardogs-gamesradar",
+          "url": "https://www.gamesradar.com/games/fps/go-play-gta-6-we-need-to-detox-wardogs-studio-bulkhead-is-taking-a-month-long-break-and-it-wants-to-make-sure-players-know-they-can-f-off/",
+          "status": 200,
+          "bytes": 2345689,
+          "textBytes": 23821,
+          "publicationDates": [
+            "2026-11-03T11:19:24+00:00"
+          ],
+          "snippets": [],
+          "iframes": []
+        },
+        {
+          "key": "ps-direct",
+          "url": "https://direct.playstation.com/",
+          "status": 200,
+          "bytes": 254610,
+          "textBytes": 8775,
+          "publicationDates": [],
+          "snippets": [],
+          "iframes": []
+        }
+      ]
+    },
+    {
+      "checkedAt": "2026-11-05T05:35:25.768108+00:00",
+      "sources": [
+        {
+          "key": "kai-sportskeeda",
+          "url": "https://www.sportskeeda.com/us/streamers/news-kai-cenat-s-gta-marathon-starting-date-time-list-games",
+          "status": 200,
+          "bytes": 423693,
+          "textBytes": 4099,
+          "publicationDates": [
+            "2026-11-03T05:12:02+00:00"
+          ],
+          "downloadShare": null,
+          "snippets": [
+            " Twitch star Kai Cenat has officially announced that he will commence his GTA marathon on November 5, 2026, starting at 3 PM EST . During a livestream on November 2, 2026, Kai Cenat disclosed that he would be playing all of the mainline GTA titles ahead of GTA 6's launch on November 19, 2026. Ad The",
+            "icially announced that he will commence his GTA marathon on November 5, 2026, starting at 3 PM EST . During a livestream on November 2, 2026, Kai Cenat disclosed that he would be playing all of the mainline GTA titles ahead of GTA 6's launch on November 19, 2026. Ad The two-time Streamer of th",
+            "ly announced that he will commence his GTA marathon on November 5, 2026, starting at 3 PM EST . During a livestream on November 2, 2026, Kai Cenat disclosed that he would be playing all of the mainline GTA titles ahead of GTA 6's launch on November 19, 2026. Ad The two-time Streamer of the Ye"
+          ]
+        },
+        {
+          "key": "kai-twitch",
+          "url": "https://www.twitch.tv/kaicenat",
+          "status": 200,
+          "bytes": 234683,
+          "textBytes": 19,
+          "publicationDates": [],
+          "downloadShare": null,
+          "snippets": []
+        },
+        {
+          "key": "vr-cinema",
+          "url": "https://www.playstation.com/en-us/support/hardware/ps-vr2-cinematic-mode/",
+          "status": 200,
+          "bytes": 151661,
+          "textBytes": 4055,
+          "publicationDates": [],
+          "downloadShare": null,
+          "snippets": [
+            "} {TITLE} {PARAGRAPH} {FEATURE_ICON} {FEATURE_TITLE} {FEATURE_DESC} {BTN_LABEL} \"> {LINK_RESTART} "
+          ]
+        },
+        {
+          "key": "vr-compatibility",
+          "url": "https://www.playstation.com/en-us/support/hardware/ps-vr2-compatibility/",
+          "status": 200,
+          "bytes": 146375,
+          "textBytes": 3803,
+          "publicationDates": [],
+          "downloadShare": null,
+          "snippets": [
+            "} {TITLE} {PARAGRAPH} {FEATURE_ICON} {FEATURE_TITLE} {FEATURE_DESC} {BTN_LABEL} \"> {LINK_RESTART} "
+          ]
+        },
+        {
+          "key": "youtube-video",
+          "url": "https://support.google.com/youtube/answer/138161?hl=en",
+          "status": 200,
+          "bytes": 1613763,
+          "textBytes": 5071,
+          "publicationDates": [],
+          "downloadShare": null,
+          "snippets": []
+        },
+        {
+          "key": "official-media",
+          "url": "https://www.rockstargames.com/VI/media",
+          "status": 200,
+          "bytes": 813168,
+          "textBytes": 2254,
+          "publicationDates": [],
+          "downloadShare": true,
+          "snippets": []
+        },
+        {
+          "key": "preorders-insider",
+          "url": "https://insider-gaming.com/gta-6-has-made-over-750-million-in-pre-sales/",
+          "status": 200,
+          "bytes": 299662,
+          "textBytes": 6175,
+          "publicationDates": [
+            "2026-11-03T16:39:12+00:00",
+            "2026-11-03T16:39:12+00:00"
+          ],
+          "downloadShare": null,
+          "snippets": [
+            " $750 Million in Pre-Sales New data confirms that GTA 6’s pre-order sales have jumped to $750 million with just over two weeks left until release. Players were informed earlier in October that GTA 6 had already generated well over $600 million in revenue just from the pre-orders on PS5 and XBOX Serie",
+            "lion Units Across PS5 and XBOX Series Consoles Analytics firm Sensor Tower reported over $750 million in revenue for GTA 6 as of November 3. The data includes estimated pre-orders, copies sold, and worldwide revenue. The latest update reveals that GTA 6 has already sold 7.71 million units, with 74% s",
+            "copies sold, and worldwide revenue. The latest update reveals that GTA 6 has already sold 7.71 million units, with 74% sold on the PS5 and 26% on the XBOX Series consoles. Out of the $750 million in revenue, $559 million comes from PS5, with 5.74 million units sold, and $192 million comes from"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.tweaktown.com/news/114483/xbox-cant-promote-gta-6-so-it-stuffed-an-xbox-series-x-inside-a-five-foot-alligator/index.html",
+      "status": 200,
+      "bytes": 248580
+    }
+  ],
+  "accessLimits": [
+    "TrueTrophies403not bypassed; absence of its data not used to prove no list",
+    "GameSpot crossplay URLrestricted in webtool; no bypass or full-read claim, excluded from cited sources",
+    "XboxsupportURLs returnedclientrender shells, so XboxHDR/cloudsave-menu guides not based on imagined readable text",
+    "TwitchportalCSSerror; indexedofficialtext only",
+    "Primary SensorTower numbers dynamic, no direct unreadable counter claim"
+  ],
+  "media": {
+    "checks": {
+      "checkedAt": "2026-11-05T05:44:58.452986+00:00",
+      "images": [
+        {
+          "key": "boobie-ike",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Boobie_Ike_01.0-wji2pg5anfs.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 1535353,
+          "sourceSha256": "dffd1367ec1358c247a9cff824c99530cd7379cbf44480698252c3a09ebffb04",
+          "localSha256": "43958a13110bc970d4f46a9656693eeac2884853c18c5fcd05f8552cdb8c4c29",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Boobie_Ike_01.0-wji2pg5anfs.jpg?imwidth=1600",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games"
+          }
+        },
+        {
+          "key": "drequan-priest",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/DreQuan_Priest_01.0_0~wi-ipdj35.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 752480,
+          "sourceSha256": "dfc18f843c8d36a90a5329ab8715340db317083e94f6809a0aac32a39ee388f1",
+          "localSha256": "1391d838e0b2ada3e027e93db149a6adefbbbc7fc0074aa2487e37b02f717107",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/DreQuan_Priest_01.0_0~wi-ipdj35.jpg?imwidth=1600",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games"
+          }
+        },
+        {
+          "key": "feature-boats",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 891284,
+          "sourceSha256": "5f2226e90602403ac0b8feea520a501c2872015627456448c0be85768d5ef7ae",
+          "localSha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games",
+            "originalName": "Leonida_Keys_05",
+            "width": 1400,
+            "height": 788,
+            "bytes": 171234,
+            "checked": "2026-10-31",
+            "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+          }
+        },
+        {
+          "key": "feature-couple",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 907752,
+          "sourceSha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+          "localSha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games",
+            "originalName": "Jason_and_Lucia_02",
+            "width": 1400,
+            "height": 788,
+            "bytes": 65196,
+            "checked": "2026-10-31",
+            "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+          }
+        },
+        {
+          "key": "feature-driver",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 898215,
+          "sourceSha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+          "localSha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games",
+            "originalName": "Jason_and_Lucia_06",
+            "width": 1400,
+            "height": 788,
+            "bytes": 44940,
+            "checked": "2026-10-31",
+            "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+          }
+        },
+        {
+          "key": "feature-kayak",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_06.166ouq5pjd7h0.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 1291623,
+          "sourceSha256": "290b5eb17a45ab4c8c318fb173e6c400bf0e80a74b529591da554d214fddd32a",
+          "localSha256": "db833ca5ce72a6d9fc19f7419cd83b578ce49ae303d733c29aef2771acb63b99",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_06.166ouq5pjd7h0.jpg?imwidth=1400",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games",
+            "originalName": "Mount_Kalaga_National_Park_06",
+            "width": 1400,
+            "height": 788,
+            "bytes": 231688,
+            "checked": "2026-10-31",
+            "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+          }
+        },
+        {
+          "key": "feature-mountain",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 1274178,
+          "sourceSha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+          "localSha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games",
+            "originalName": "Mount_Kalaga_National_Park_04",
+            "width": 1400,
+            "height": 788,
+            "bytes": 226130,
+            "checked": "2026-10-31",
+            "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+          }
+        },
+        {
+          "key": "feature-phone",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 827207,
+          "sourceSha256": "c5bd34d1d328ce465d33f0aad4a7af7359ca1f81d95434019243518a5af3f00f",
+          "localSha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games",
+            "originalName": "Jason_Duval_08",
+            "width": 1400,
+            "height": 788,
+            "bytes": 68872,
+            "checked": "2026-10-31",
+            "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+          }
+        },
+        {
+          "key": "grassrivers",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 1258095,
+          "sourceSha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5",
+          "localSha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games"
+          }
+        },
+        {
+          "key": "hero",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 475961,
+          "sourceSha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8",
+          "localSha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+            "owner": "Rockstar Games",
+            "sourcePage": "https://www.rockstargames.com/VI/media",
+            "credit": "GTA VI © Rockstar Games",
+            "bytes": 475961
+          }
+        },
+        {
+          "key": "jason",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 939665,
+          "sourceSha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba",
+          "localSha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+            "owner": "Rockstar Games",
+            "sourcePage": "https://www.rockstargames.com/VI/media",
+            "credit": "GTA VI © Rockstar Games",
+            "bytes": 939665
+          }
+        },
+        {
+          "key": "leonida-keys",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 846989,
+          "sourceSha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+          "localSha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+            "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games"
+          }
+        },
+        {
+          "key": "lucia",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 898033,
+          "sourceSha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c",
+          "localSha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+            "owner": "Rockstar Games",
+            "sourcePage": "https://www.rockstargames.com/VI/media",
+            "credit": "GTA VI © Rockstar Games",
+            "bytes": 898033
+          }
+        },
+        {
+          "key": "music",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 992753,
+          "sourceSha256": "2d90d15104f191cde43bc37334c1a7959a7e3c9d5c56cfde44f28b0c80f7af07",
+          "localSha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+            "owner": "Rockstar Games",
+            "sourcePage": "https://www.rockstargames.com/VI/media",
+            "credit": "GTA VI © Rockstar Games",
+            "bytes": 992753
+          }
+        },
+        {
+          "key": "region-grassrivers-02",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 859665,
+          "sourceSha256": "89574ed17bfc0c6aaae59c25813644c2bcfad2b777739ecb855b23692b841858",
+          "localSha256": "90c7c5ec23d38a0b007a762e11442133739ea98acfe95b4b30e8e85350207b7e",
+          "provenance": {
+            "key": "region-grassrivers-02",
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+            "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+            "owner": "Rockstar Games",
+            "credit": "GTA VI © Rockstar Games",
+            "checked": "2026-10-31",
+            "width": 1400,
+            "height": 788,
+            "bytes": 146246,
+            "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+          }
+        },
+        {
+          "key": "vice-city",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 894386,
+          "sourceSha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+          "localSha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+          "provenance": {
+            "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+            "owner": "Rockstar Games",
+            "sourcePage": "https://www.rockstargames.com/VI/media",
+            "credit": "GTA VI © Rockstar Games",
+            "bytes": 894386
+          }
+        }
+      ]
+    },
+    "officialGallery": "https://www.rockstargames.com/VI/media",
+    "galleryHTTP200DownloadAndShareVerified": true,
+    "method": "16existing authentic unmodified Rockstar sources returned200image/*, exact provenance/owner retained in public/media/credits.json. All16visually inspected in research-only contact sheet;30placements/90localized placements with descriptive translated alt/contextual captions andcredit. Existing optimizedWebP/AVIFresponsive pipeline unchanged. No AI/mod/leak/GTA V/editedheromotion or third-party influencer/hardware photo copied. Copyright reserved; no unrestricted licence claimed."
+  },
+  "checks": {
+    "build": "npm run build:release passed after fixing new editorial media tuple typing;538generatedroutes/539HTMLverification,165topics/495versions",
+    "static": "node scripts/verify-static.mjs passed:539HTML,24186internal links,1052structured-data blocks",
+    "browser": {
+      "result": "6 passed (1.2 minutes)",
+      "coverage": "10articles x3locales x2viewports =60article/locale/viewport combinations; full introductions/paragraphs/tables,3officialimagesdecoded per article, translatedalt/captions, sources, localizedinternal linksHTTP200, real language navigation, canonical/hreflang/meta/schema dates and citations, no horizontal overflow or JS exceptions, archives/sitemap discovery, singleAdSense/SocialBar and noGA4beforeconsent.",
+      "scope": "Provider SDKs stubbed for deterministic local browser interactions, not proof of creative fill. Screenshots recorded for all10 Spanish desktop/mobile pages; representative controller-mobile and presales-desktop captures visually inspected. Geometry and complete content checked across all60 page/locale/viewport combinations."
+    },
+    "public": "pending"
+  },
+  "preserved": "All155completeoldarticles and155inventory records remain intact. Design, JS/CSS bytes, images, adsunits/placements, SocialBar, Popunder-off, Analyticsconsent, AdSense, cache/security rules and daily frequency unchanged."
+}
