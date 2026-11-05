@@ -1,5 +1,5 @@
 {
-  "status": "prepared-not-published",
+  "status": "published-verified",
   "checkedAt": "2026-11-05T17:27:35.597387+00:00",
   "date": "2026-11-05",
   "timezone": "America/New_York",
@@ -304,7 +304,25 @@
       "coverage": "2topics x3locales x2viewports =12article/locale/viewport combinations: full introductions/sections/tables,all3decodedofficialimages,translatedalt/caption/credit,canonical/hreflang/meta/schema dates/citations,localizedinternal linksHTTP200,language selector navigation,sitemap/archives,nohorizontaloverfloworJSexceptions,singleAdSense/SocialBar,noGA4beforeconsent.",
       "scope": "ProviderSDKs stubbed for local functional checks; not proof of creative delivery. Screenshots recorded for bothSpanishdesktop/mobile pages; representative captures inspected separately."
     },
-    "public": "pending deployment and verification"
+    "public": {
+      "newPagesHTTP200": 6,
+      "discoveryPages": 9,
+      "releaseMatchingResources": 27,
+      "localizedInternalLinksHTTP200": 15,
+      "SEOFiles": [
+        "/sitemap.xml",
+        "/robots.txt",
+        "/ads.txt"
+      ],
+      "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match tested release. Browser interactions used local provider fixtures; not proof of creative fill, incident diagnosis on reader devices or final GTA VI save behaviour.",
+      "initialRead": "An immediate post-deploy request returned404; default Python User-Agent diagnostic requests returned403. A subsequent check using the existing honest FansGTA-publication-check/1.0 User-Agent and unchanged TLS/security succeeded on the custom domain and Pages URL, then all six canonical URLs passed the complete verifier. No security/cache rule was changed; the initial response cause was not independently established."
+    }
   },
-  "unchanged": "All165oldArticle objects and165inventory records retained; only2topics added. All3clientJS/CSS assets byte-identical. No changes to adsunits/placement,SocialBar,Popunder-off,GA4consent,AdSense,security,cache,design or daily scheduling."
+  "unchanged": "All165oldArticle objects and165inventory records retained; only2topics added. All3clientJS/CSS assets byte-identical. No changes to adsunits/placement,SocialBar,Popunder-off,GA4consent,AdSense,security,cache,design or daily scheduling.",
+  "publication": {
+    "commit": "a47460a5752ff5f0ba3f1f46f34d30dc44bb70f2",
+    "deploymentId": "4039fc8e-b950-47f3-8603-98c682d5c860",
+    "verifiedAt": "2026-11-05T17:32:50.367059+00:00",
+    "proof": "docs/editorial/2026-11-05-two-publication.json"
+  }
 }

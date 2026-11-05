@@ -1,0 +1,442 @@
+{
+  "verifiedAt": "2026-11-05T17:32:50.367059+00:00",
+  "commit": "a47460a5752ff5f0ba3f1f46f34d30dc44bb70f2",
+  "deploymentId": "4039fc8e-b950-47f3-8603-98c682d5c860",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-05T17:31:19.531188Z",
+    "ended_on": "2026-11-05T17:31:40.071953Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 167,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "46e95d3430c966f5df9bf1701b84908caff4f8b7ee71039f885b60172751b296"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-fake-download-early-access-scams-netcraft/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 167,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "816268c3b2adc28092b9591a29895c5ad16036167a9355df899c25f0c536ffe2"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-arnaques-telechargement-acces-anticipe-netcraft/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 167,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "4099dae0c0b9eb1b43e4fa823052e7d3d2181b1aad9952d110caae807c85bcac"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 167,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "de09ce448b6ae1fdf95f67358907a6019bd18397c2672a6475d696ff0ce41cdd"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-save-data-cloud-backup-guide/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 167,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2f3df8bdca86e28ca6a9b3e991f96454249e9cb7b9a728894b35ef98d03a56b7"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-sauvegardes-copie-securite-cloud/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 167,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2f4b9a82cc21c07b1cbde2708e9f476bcd75d78c10b36b3b69f5c7d9ddb072f8"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-netcraft-scam-report-20261105",
+        "gta6-ps5-save-backup-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-netcraft-scam-report-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-ps5-save-backup-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-netcraft-scam-report-20261105",
+        "gta6-ps5-save-backup-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-netcraft-scam-report-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-ps5-save-backup-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-netcraft-scam-report-20261105",
+        "gta6-ps5-save-backup-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-netcraft-scam-report-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-ps5-save-backup-20261105"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-CCJ82Hgh.js",
+      "status": 200,
+      "bytes": 352167,
+      "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-CDYx5jIm.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/feature-phone.webp",
+      "status": 200,
+      "bytes": 68872,
+      "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/jason.webp",
+      "status": 200,
+      "bytes": 68710,
+      "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/leonida-keys.webp",
+      "status": 200,
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/lucia.webp",
+      "status": 200,
+      "bytes": 65852,
+      "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-1200.webp",
+      "status": 200,
+      "bytes": 93324,
+      "sha256": "84fbdff3ad4c2f89a4cf2c21be87aa564e26a5f532260a8c17773cae8e474ee0",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-480.webp",
+      "status": 200,
+      "bytes": 24002,
+      "sha256": "444cd67a07083650e8f933db084ef0d37cd6a804e291a02782ec72645710300e",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-800.webp",
+      "status": 200,
+      "bytes": 54794,
+      "sha256": "5b59cffc8a3d1a8c126c5951e4db8f0e1a1de79dbd94c36160ac42d2ae694823",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+      "status": 200,
+      "bytes": 99926,
+      "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-480.webp",
+      "status": 200,
+      "bytes": 26716,
+      "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-800.webp",
+      "status": 200,
+      "bytes": 62618,
+      "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-1200.webp",
+      "status": 200,
+      "bytes": 51110,
+      "sha256": "f81c43086bdf633909d5522e20d74db6dad013e39e5eb039351c926450270771",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-480.webp",
+      "status": 200,
+      "bytes": 17104,
+      "sha256": "65e638c54352d3417858a9625f9bc8094a524af6a7ff3b6ffbfba52be08f2e49",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-800.webp",
+      "status": 200,
+      "bytes": 34622,
+      "sha256": "f2645efb3e758ce131d003802eff2c4ff34c71a82738fac6242cb662b0362583",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-1200.webp",
+      "status": 200,
+      "bytes": 51282,
+      "sha256": "a214defe4eabffdc9ee37d81e400c47a42c23cc08e6ebac3f6aa88e7e5860e10",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-480.webp",
+      "status": 200,
+      "bytes": 18834,
+      "sha256": "4233d532d0c6a13f7af9df721ce7290de5fa790b8e683e8811b86d941e054dbd",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-800.webp",
+      "status": 200,
+      "bytes": 36354,
+      "sha256": "b21e566773f614eff278fc031fc2ac9eb28924d47630fdf075490fc6b75a9cd5",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+      "status": 200,
+      "bytes": 81668,
+      "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+      "status": 200,
+      "bytes": 25098,
+      "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+      "status": 200,
+      "bytes": 55436,
+      "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-1200.webp",
+      "status": 200,
+      "bytes": 53756,
+      "sha256": "8ed69491f5730174cc303c4baa97d1c01590fedb5b55e8ab457aa99d9adfd04f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-480.webp",
+      "status": 200,
+      "bytes": 17284,
+      "sha256": "31961b38611cb609180f4f020a701f2877eb710545e4758eacafecb735c22d3b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-800.webp",
+      "status": 200,
+      "bytes": 33742,
+      "sha256": "30221c20b37def65f23d48d68b95146091569ad0336400bacc83f38b193ac1b9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-save-data-cloud-backup-guide/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-fake-download-early-access-scams-netcraft/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-arnaques-telechargement-acces-anticipe-netcraft/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-sauvegardes-copie-securite-cloud/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "af28f372667bcbf22261bf664e1a3e8fa6dc0862323b299bb333eb6f3cd33691",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match tested release. Browser interactions used local provider fixtures; not proof of creative fill, incident diagnosis on reader devices or final GTA VI save behaviour."
+}
