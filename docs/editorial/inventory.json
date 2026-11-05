@@ -1,5 +1,35 @@
 [
   {
+    "id": "gta6-netcraft-scam-report-20261105",
+    "category": "news",
+    "published": "2026-11-05",
+    "titles": [
+      "Alerta GTA 6: Netcraft analiza falsas descargas y accesos anticipados",
+      "GTA 6 scam alert: Netcraft examines fake downloads and early access",
+      "Alerte GTA 6 : Netcraft analyse les faux téléchargements et accès anticipés"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/",
+      "/en/news/gta-6-fake-download-early-access-scams-netcraft/",
+      "/fr/actualites/gta-6-arnaques-telechargement-acces-anticipe-netcraft/"
+    ]
+  },
+  {
+    "id": "gta6-ps5-save-backup-20261105",
+    "category": "guides",
+    "published": "2026-11-05",
+    "titles": [
+      "Partidas de GTA 6 en PS5: cómo preparar la copia de seguridad",
+      "GTA 6 PS5 saves: preparing cloud sync and a backup",
+      "Sauvegardes GTA 6 sur PS5 : préparer le cloud et une copie"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+      "/en/guides/gta-6-ps5-save-data-cloud-backup-guide/",
+      "/fr/guides/gta-6-ps5-sauvegardes-copie-securite-cloud/"
+    ]
+  },
+  {
     "id": "gta6-xbox-series-x-bite-20261105",
     "category": "news",
     "published": "2026-11-05",

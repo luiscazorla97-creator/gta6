@@ -1,0 +1,310 @@
+{
+  "status": "prepared-not-published",
+  "checkedAt": "2026-11-05T17:27:35.597387+00:00",
+  "date": "2026-11-05",
+  "timezone": "America/New_York",
+  "scope": {
+    "manualTopics": 2,
+    "locales": [
+      "es",
+      "en",
+      "fr"
+    ],
+    "dailyScheduleChanged": false,
+    "dailyLastAuthorizedDate": "2026-11-19"
+  },
+  "baseline": {
+    "githubMainFreshlyRead": "4639be4279265511eac86ab89af2562308b468c8",
+    "tree": "5fba87f15dc31a616f73178235fbbc75180f277e",
+    "topics": 165,
+    "localizedURLs": 495,
+    "cleanCheckoutMatched": true
+  },
+  "cloud": {
+    "readiness": "Connected/running, observations_current true, revision8, unrestricted/enforced, Cloudflare account and domain-bound token ready; no values printed",
+    "userPCUsed": false,
+    "github": "Authorized connection; main checked before work and checked again before publishing"
+  },
+  "selected": [
+    {
+      "id": "gta6-netcraft-scam-report-20261105",
+      "intent": "Current, attributed security-research report about fake GTA VI releases and access lures",
+      "evidence": "OriginalNetcraft reportNovember3,2026; HelpNetSecurity followupNovember5at11:41:50UTC. DomainsfirstseenJuly1-October27. Coverage distinguishes observedpage requests, samplefindings and untestedbehaviours; walletprompt not proof of walletdraining.",
+      "dedup": "All165completeArticle objects and inventory reviewed. No Netcraft source/story exists. Existing mobile guide has one generic APK-verification paragraph; legal buying/preload guides explain valid purchases. New report concerns a specifically dated investigation across download/payment/offer gates, not a replacement for those guides.",
+      "limits": "No malicious hostnames made clickable, actor pages visited, files downloaded/executed, wallets connected, payments made, offers completed, readers’ devices diagnosed or account compromise inferred. Only legitimate publisher/security/report/support pages fetched. No leaked imagery copied. No false blanket assertion that all fan sites or wallet prompts are malicious."
+    },
+    {
+      "id": "gta6-ps5-save-backup-20261105",
+      "intent": "Practical preparation of PS5 save-data cloud sync and whole-console USB backups before GTA VI launch",
+      "evidence": "Freshly read Sony cloud-sync, fullUSBbackup/restore and storage documentation HTTP200; officialGTA VI release remainsNovember19PS5/Xbox.",
+      "dedup": "Existing PS5 M.2/USB storage guide distinguishes install data and saves in one paragraph but contains no backup workflow; existing cross-progression guide addresses platforms/accounts rather than within-PS5 data recovery. No backup/FAT32/cloud-sync article found across completebody/translations.",
+      "limits": "Console-level official steps only; no final GTA VI save menu, autosave/manual-slot count, savefilesize or recovery test claimed. CloudPSPlus requirement stated without purchasing/activating subscription. Mostrecent sync is not promised as version-history archive. FullUSBrestore erases current PS5data; M.2/extendedUSB game installs and trophy sync exclusions accurately distinguished. No operation performed on user hardware/accounts."
+    }
+  ],
+  "sources": {
+    "checkedAt": "2026-11-05T17:20:01.537897+00:00",
+    "sources": [
+      {
+        "key": "netcraft",
+        "url": "https://www.netcraft.com/blog/how-attackers-are-capitalizing-on-the-hype-around-the-grand-theft-auto-vi-release",
+        "status": 200,
+        "bytes": 622183,
+        "dates": [],
+        "downloadShare": null
+      },
+      {
+        "key": "cloud",
+        "url": "https://www.playstation.com/en-us/support/subscriptions/ps5-ps-plus-cloud-storage/",
+        "status": 200,
+        "bytes": 162743,
+        "dates": [],
+        "downloadShare": null
+      },
+      {
+        "key": "backup",
+        "url": "https://www.playstation.com/en-us/support/hardware/back-up-ps5-data-USB/",
+        "status": 200,
+        "bytes": 158215,
+        "dates": [],
+        "downloadShare": null
+      },
+      {
+        "key": "storage",
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-manage-storage-space/",
+        "status": 200,
+        "bytes": 191281,
+        "dates": [],
+        "downloadShare": null
+      },
+      {
+        "key": "rockstar",
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "bytes": 1240905,
+        "dates": [],
+        "downloadShare": null
+      },
+      {
+        "key": "media",
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "bytes": 814420,
+        "dates": [],
+        "downloadShare": true
+      }
+    ]
+  },
+  "secondary": {
+    "url": "https://www.helpnetsecurity.com/2026/11/05/gta-6-scams-fake-leaks-early-access/",
+    "status": 200,
+    "bytes": 87046,
+    "dates": [
+      "2026-11-05T11:41:50+00:00",
+      "2026-11-05T11:41:50+00:00"
+    ],
+    "primaryLinks": [
+      "https://www.helpnetsecurity.com/tag/netcraft/",
+      "https://www.netcraft.com/blog/how-attackers-are-capitalizing-on-the-hype-around-the-grand-theft-auto-vi-release"
+    ]
+  },
+  "interestAndImages": {
+    "checkedAt": "2026-11-05T17:23:56.910198+00:00",
+    "images": [
+      {
+        "key": "feature-phone",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "status": 200,
+        "bytes": 827207,
+        "sha256": "c5bd34d1d328ce465d33f0aad4a7af7359ca1f81d95434019243518a5af3f00f",
+        "provenance": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games",
+          "originalName": "Jason_Duval_08",
+          "width": 1400,
+          "height": 788,
+          "bytes": 68872,
+          "checked": "2026-10-31",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+        }
+      },
+      {
+        "key": "hero",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 475961,
+        "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8",
+        "provenance": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "credit": "GTA VI © Rockstar Games",
+          "bytes": 475961
+        }
+      },
+      {
+        "key": "jason",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 939665,
+        "sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba",
+        "provenance": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "credit": "GTA VI © Rockstar Games",
+          "bytes": 939665
+        }
+      },
+      {
+        "key": "leonida-keys",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 846989,
+        "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+        "provenance": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games"
+        }
+      },
+      {
+        "key": "lucia",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 898033,
+        "sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c",
+        "provenance": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "credit": "GTA VI © Rockstar Games",
+          "bytes": 898033
+        }
+      },
+      {
+        "key": "vice-city",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "provenance": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "credit": "GTA VI © Rockstar Games",
+          "bytes": 894386
+        }
+      }
+    ],
+    "signals": [
+      {
+        "query": "gta 6 scam",
+        "status": 200,
+        "suggestions": [
+          "gta 6 scam",
+          "gta 6 scam tiktok",
+          "gta 6 rip off",
+          "gta 6 ultimate edition scam"
+        ]
+      },
+      {
+        "query": "gta 6 early access",
+        "status": 200,
+        "suggestions": [
+          "gta 6 early access",
+          "gta 6 early access date",
+          "gta 6 early access ps5",
+          "gta 6 early access price",
+          "gta 6 early access pre order",
+          "gta 6 early access for streamers",
+          "gta 6 early access xbox",
+          "gta 6 early access gameplay",
+          "gta 6 early access cyberleek",
+          "gta 6 early access military"
+        ]
+      },
+      {
+        "query": "gta 6 save game",
+        "status": 200,
+        "suggestions": [
+          "gta 6 save game",
+          "gta 6 save file",
+          "gta 6 save file size",
+          "is gta 6 worth it",
+          "how to save game gta 5"
+        ]
+      }
+    ]
+  },
+  "interestLimits": "Current dated reporting plus autocomplete queries; no measured volume, rank or guaranteed audience/Google position. The specific PS5 workflow is a useful distinct preparation question, not fabricated new Rockstar feature news.",
+  "media": "Six existing unmodified authentic Rockstar originals returned200image/*; their source/owner remain in public/media/credits.json. All were visually inspected in the prior same-day16-imagecontactsheet and reused unchanged; new translated alt/captions contextualise that these are game imagery, not malware screenshots, save menus or recovery evidence. Official MediaHTTP200DownloadAndShare rechecked. Copyright reserved; no unrestricted licence claimed. Threeimages/topic with existing responsiveWebP/AVIF pipeline; no AI/mod/leak/GTA V or decorative hero edits.",
+  "preservation": {
+    "existingCompleteArticlesPreserved": 165,
+    "existingInventoryRecordsPreserved": 165,
+    "totalTopics": 167,
+    "totalLocalizedURLs": 501,
+    "newTopics": [
+      {
+        "id": "gta6-netcraft-scam-report-20261105",
+        "category": "news",
+        "published": "2026-11-05",
+        "titles": [
+          "Alerta GTA 6: Netcraft analiza falsas descargas y accesos anticipados",
+          "GTA 6 scam alert: Netcraft examines fake downloads and early access",
+          "Alerte GTA 6 : Netcraft analyse les faux téléchargements et accès anticipés"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/",
+          "/en/news/gta-6-fake-download-early-access-scams-netcraft/",
+          "/fr/actualites/gta-6-arnaques-telechargement-acces-anticipe-netcraft/"
+        ]
+      },
+      {
+        "id": "gta6-ps5-save-backup-20261105",
+        "category": "guides",
+        "published": "2026-11-05",
+        "titles": [
+          "Partidas de GTA 6 en PS5: cómo preparar la copia de seguridad",
+          "GTA 6 PS5 saves: preparing cloud sync and a backup",
+          "Sauvegardes GTA 6 sur PS5 : préparer le cloud et une copie"
+        ],
+        "paths": [
+          "/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+          "/en/guides/gta-6-ps5-save-data-cloud-backup-guide/",
+          "/fr/guides/gta-6-ps5-sauvegardes-copie-securite-cloud/"
+        ]
+      }
+    ],
+    "clientAssetsUnchanged": [
+      {
+        "path": "assets/index-BkQBpQi9.css",
+        "bytes": 57621,
+        "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+      },
+      {
+        "path": "assets/index-CCJ82Hgh.js",
+        "bytes": 352167,
+        "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14"
+      },
+      {
+        "path": "assets/postscribe-CDYx5jIm.js",
+        "bytes": 18060,
+        "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c"
+      }
+    ]
+  },
+  "checks": {
+    "build": "npm run build:release passed:167topics/501versions,544generatedroutes",
+    "static": "node scripts/verify-static.mjs passed:545HTML,24444internal links,1064structured-data blocks",
+    "browser": {
+      "result": "6passed20.8seconds",
+      "coverage": "2topics x3locales x2viewports =12article/locale/viewport combinations: full introductions/sections/tables,all3decodedofficialimages,translatedalt/caption/credit,canonical/hreflang/meta/schema dates/citations,localizedinternal linksHTTP200,language selector navigation,sitemap/archives,nohorizontaloverfloworJSexceptions,singleAdSense/SocialBar,noGA4beforeconsent.",
+      "scope": "ProviderSDKs stubbed for local functional checks; not proof of creative delivery. Screenshots recorded for bothSpanishdesktop/mobile pages; representative captures inspected separately."
+    },
+    "public": "pending deployment and verification"
+  },
+  "unchanged": "All165oldArticle objects and165inventory records retained; only2topics added. All3clientJS/CSS assets byte-identical. No changes to adsunits/placement,SocialBar,Popunder-off,GA4consent,AdSense,security,cache,design or daily scheduling."
+}

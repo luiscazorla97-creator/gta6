@@ -1,0 +1,50 @@
+{
+  "netcraft": {
+    "label": "Netcraft — GTA VI release phishing-lure research, November 3, 2026",
+    "url": "https://www.netcraft.com/blog/how-attackers-are-capitalizing-on-the-hype-around-the-grand-theft-auto-vi-release"
+  },
+  "helpnet": {
+    "label": "Help Net Security — GTA 6 scams report, November 5, 2026",
+    "url": "https://www.helpnetsecurity.com/2026/11/05/gta-6-scams-fake-leaks-early-access/"
+  },
+  "cloud": {
+    "label": "PlayStation Support — PS5 saved-data cloud storage and sync",
+    "url": "https://www.playstation.com/en-us/support/subscriptions/ps5-ps-plus-cloud-storage/"
+  },
+  "backup": {
+    "label": "PlayStation Support — full PS5 USB backup and restore",
+    "url": "https://www.playstation.com/en-us/support/hardware/back-up-ps5-data-USB/"
+  },
+  "storage": {
+    "label": "PlayStation Support — managing PS5 game, save and capture storage",
+    "url": "https://www.playstation.com/en-us/support/hardware/ps5-manage-storage-space/"
+  },
+  "rockstar": {
+    "label": "Rockstar Games — Grand Theft Auto VI",
+    "url": "https://www.rockstargames.com/VI"
+  },
+  "related-purchase": {
+    "label": "FansGTA — Compra oficial de GTA 6",
+    "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/"
+  },
+  "related-mobile": {
+    "label": "FansGTA — GTA 6 en Android y iPhone",
+    "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/"
+  },
+  "related-preload": {
+    "label": "FansGTA — Precarga y horarios de GTA 6",
+    "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+  },
+  "related-ps5-storage": {
+    "label": "FansGTA — Almacenamiento de GTA 6 en PS5",
+    "url": "https://fansgta.com/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/"
+  },
+  "related-saves": {
+    "label": "FansGTA — Proteger las partidas de GTA 6 en PS5",
+    "url": "https://fansgta.com/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/"
+  },
+  "related-security": {
+    "label": "FansGTA — La investigación de Netcraft sobre falsos accesos a GTA 6",
+    "url": "https://fansgta.com/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/"
+  }
+}

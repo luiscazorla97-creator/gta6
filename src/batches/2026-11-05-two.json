@@ -1,0 +1,329 @@
+[
+  {
+    "key": "netcraft-scam-report",
+    "category": "news",
+    "slug": [
+      "gta-6-estafas-descargas-acceso-anticipado-netcraft",
+      "gta-6-fake-download-early-access-scams-netcraft",
+      "gta-6-arnaques-telechargement-acces-anticipe-netcraft"
+    ],
+    "title": [
+      "Alerta GTA 6: Netcraft analiza falsas descargas y accesos anticipados",
+      "GTA 6 scam alert: Netcraft examines fake downloads and early access",
+      "Alerte GTA 6 : Netcraft analyse les faux téléchargements et accès anticipés"
+    ],
+    "excerpt": [
+      "Netcraft analiza falsas copias de GTA 6, pagos y verificaciones engañosas. Qué observó el informe, sus límites y cómo distinguir reserva, precarga y acceso.",
+      "Netcraft examines fake GTA 6 copies, payments and misleading verification gates. The report’s findings, its limits and how preorders differ from playable access.",
+      "Netcraft analyse fausses copies GTA 6, paiements et vérifications trompeuses. Constats, limites et différence entre précommande, préchargement et accès."
+    ],
+    "tag": [
+      "ACTUALIDAD · SEGURIDAD Y ACCESO",
+      "NEWS · SECURITY AND ACCESS",
+      "ACTUALITÉS · SÉCURITÉ ET ACCÈS"
+    ],
+    "imageKeys": [
+      "feature-phone",
+      "hero",
+      "jason"
+    ],
+    "pictureContext": [
+      "Imagen promocional oficial del juego; no muestra una web examinada por Netcraft ni una prueba de malware.",
+      "Official game promotional image, not a website examined by Netcraft or a malware test.",
+      "Image promotionnelle officielle du jeu, pas un site examiné par Netcraft ou un test de logiciel malveillant."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué alerta se ha publicado y de cuándo es el estudio",
+          "What was reported and when the research appeared",
+          "Quelle alerte a été publiée et quand date l’étude"
+        ],
+        "paragraphs": [
+          [
+            "Una investigación de Netcraft sobre sitios que aprovechan la espera de GTA 6 describe falsas descargas, accesos anticipados y ofertas que buscan pagos o datos personales. El informe original es del 3 de noviembre de 2026; Help Net Security lo recoge el día 5. La noticia es ese análisis identificado, no la disponibilidad de una copia jugable ni una alerta que Rockstar haya enviado a todas las cuentas.",
+            "Netcraft research into sites exploiting the GTA 6 countdown describes fake downloads, early access and offers seeking payments or personal information. The original report appeared November 3, 2026; Help Net Security covered it on November 5. The news is this identified research, rather than a playable release or a warning Rockstar sent to every account.",
+            "Une étude Netcraft sur des sites exploitant l’attente de GTA 6 décrit faux téléchargements, accès anticipés et offres recherchant paiements ou données personnelles. Le rapport original date du 3 novembre 2026 ; Help Net Security le reprend le 5. L’actualité est cette étude identifiée, pas une version jouable ou une alerte envoyée par Rockstar à tous les comptes."
+          ]
+        ],
+        "refs": [
+          "netcraft",
+          "helpnet"
+        ]
+      },
+      {
+        "heading": [
+          "Cuatro tipos de promesas detectadas",
+          "Four types of promises identified",
+          "Quatre catégories de promesses identifiées"
+        ],
+        "paragraphs": [
+          [
+            "Netcraft revisó dominios temáticos vistos por primera vez entre el 1 de julio y el 27 de octubre. Agrupa los reclamos en supuestas filtraciones completas, juego antes del estreno, versiones móviles inexistentes en el catálogo oficial y regalos gratuitos. Algunas páginas piden instalar un programa; otras ocultan la supuesta clave tras encuestas u ofertas. El aspecto de tienda o una cuenta atrás no acredita que detrás exista el producto prometido.",
+            "Netcraft reviewed themed domains first seen between July 1 and October 27. It groups the lures into alleged full leaks, pre-release play, mobile versions absent from the official catalogue and free giveaways. Some pages request an installer; others gate an alleged key behind surveys or offers. A storefront design or countdown establishes no delivery of the promised product.",
+            "Netcraft a examiné des domaines thématiques apparus entre le 1er juillet et le 27 octobre. Les leurres portent sur prétendues versions divulguées complètes, jeu avant sortie, versions mobiles absentes du catalogue officiel et cadeaux gratuits. Certaines pages demandent un programme ; d’autres bloquent une prétendue clé derrière des sondages ou offres. Un aspect de boutique ou un compteur ne prouve pas la livraison du produit."
+          ]
+        ],
+        "refs": [
+          "netcraft",
+          "helpnet"
+        ]
+      },
+      {
+        "heading": [
+          "Qué demuestra el informe y qué no puede generalizarse",
+          "What the report establishes and what cannot be generalised",
+          "Ce que démontre le rapport et ce qui ne se généralise pas"
+        ],
+        "paragraphs": [
+          [
+            "El estudio distingue lo que una página muestra de lo que se ha probado que hace. Sus autores explican que, salvo indicación contraria, no pagaron, completaron ofertas ni conectaron una cartera. Una petición de conexión a una wallet es una señal de riesgo, pero por sí sola no prueba un vaciado de fondos. Tampoco convierte en maliciosos todos los sitios de fans. FansGTA atribuye los hallazgos a esa investigación y no afirma haber ejecutado muestras ni analizado el dispositivo de ningún lector.",
+            "The study separates displayed requests from demonstrated behaviour. Unless otherwise stated, its authors did not pay, complete offers or connect a wallet. A wallet-connection prompt is a risk signal, but alone proves no theft of funds. Nor does the report make every fan site malicious. FansGTA attributes findings to that research and claims neither sample execution nor analysis of readers’ devices.",
+            "L’étude distingue les demandes affichées des comportements démontrés. Sauf indication contraire, ses auteurs n’ont ni payé, ni terminé les offres, ni connecté de portefeuille. Une demande de connexion constitue un signal de risque, pas à elle seule la preuve d’un vol de fonds. Le rapport ne rend pas malveillant tout site de fans. FansGTA attribue les constats à cette recherche sans prétendre exécuter des échantillons ou analyser les appareils des lecteurs."
+          ]
+        ],
+        "refs": [
+          "netcraft"
+        ]
+      },
+      {
+        "heading": [
+          "Reserva, precarga y poder jugar: la comprobación decisiva",
+          "Preordering, preloading and playing: the crucial check",
+          "Précommander, précharger et jouer : la vérification décisive"
+        ],
+        "paragraphs": [
+          [
+            "La referencia oficial revisada el 5 de noviembre sigue siendo GTA VI para PS5 y Xbox Series X|S con estreno el 19 de noviembre. Una reserva acredita una compra según sus condiciones; la precarga prepara archivos; ninguna operación concede por sí sola acceso anterior al autorizado. Revisá una oferta desde el dominio del editor o la tienda oficial, contrastá la plataforma y el estado del pedido y evitá usar un enlace recibido como única prueba. La guía de compra y la de precarga reúnen esos pasos sin repetirlos aquí.",
+            "The official reference checked November 5 remains GTA VI for PS5 and Xbox Series X|S on November 19. A preorder establishes a purchase under its terms; preloading prepares files; neither alone creates earlier playable access. Check an offer through the publisher or official storefront, compare platform and order status, and do not treat a received link as its own proof. Our buying and preload guides cover those procedures separately.",
+            "La référence officielle vérifiée le 5 novembre reste GTA VI sur PS5 et Xbox Series X|S le 19 novembre. Une précommande établit un achat selon ses conditions ; le préchargement prépare les fichiers ; aucun ne crée à lui seul un accès anticipé. Vérifiez l’offre depuis l’éditeur ou la boutique officielle, comparez plateforme et commande, et ne prenez pas le lien reçu pour sa propre preuve. Nos guides d’achat et de préchargement traitent séparément ces démarches."
+          ]
+        ],
+        "refs": [
+          "rockstar",
+          "related-purchase",
+          "related-preload"
+        ]
+      },
+      {
+        "heading": [
+          "Una revisión práctica antes de introducir datos o pagar",
+          "A practical check before entering details or paying",
+          "Un contrôle pratique avant de saisir des données ou payer"
+        ],
+        "paragraphs": [
+          [
+            "Compará la promesa con lo anunciado y preguntate qué acción exige: instalar, iniciar sesión, pagar o completar ofertas. Que una web imite una marca no verifica su identidad. Si ya compartiste credenciales, revisá la seguridad desde la aplicación o web oficial de esa cuenta; si pagaste, conservá el comprobante y consultá al proveedor de pago por sus canales habituales. No hace falta volver al sitio sospechoso para comprobar si una promesa era cierta. Nuestra guía de partidas en PS5 explica, por separado, cómo preparar la protección del progreso con herramientas de Sony.",
+            "Compare the promise with official announcements and identify the requested action: install, sign in, pay or complete offers. Copied branding does not verify identity. If credentials were shared, review security through the account’s official app or website; if payment was made, retain the receipt and use the payment provider’s normal support channels. Revisiting a suspicious site is not necessary to test its promise. Our separate PS5 save guide explains preparing progress protection with Sony’s tools.",
+            "Comparez la promesse aux annonces officielles et identifiez l’action demandée : installer, se connecter, payer ou terminer des offres. Une marque copiée ne vérifie pas l’identité. Si vous avez partagé des identifiants, vérifiez la sécurité depuis l’application ou le site officiel du compte ; si vous avez payé, conservez le reçu et contactez le prestataire par ses canaux habituels. Retourner sur le site suspect n’est pas nécessaire. Notre guide distinct PS5 explique la préparation de la protection des sauvegardes avec les outils Sony."
+          ]
+        ],
+        "refs": [
+          "netcraft",
+          "related-saves"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "ps5-save-backup",
+    "category": "guides",
+    "slug": [
+      "gta-6-ps5-partidas-guardadas-copia-seguridad-nube",
+      "gta-6-ps5-save-data-cloud-backup-guide",
+      "gta-6-ps5-sauvegardes-copie-securite-cloud"
+    ],
+    "title": [
+      "Partidas de GTA 6 en PS5: cómo preparar la copia de seguridad",
+      "GTA 6 PS5 saves: preparing cloud sync and a backup",
+      "Sauvegardes GTA 6 sur PS5 : préparer le cloud et une copie"
+    ],
+    "excerpt": [
+      "Prepará PS5 para proteger tus futuras partidas de GTA 6: sincronización con PS Plus, estado de la nube y diferencias con una copia USB completa de la consola.",
+      "Prepare PS5 to protect future GTA 6 progress: PS Plus sync, cloud status and how a full USB console backup differs from the game’s installation files.",
+      "Préparer la PS5 pour ses futures sauvegardes GTA 6 : synchronisation PS Plus, état du cloud et différence avec une copie USB complète de la console."
+    ],
+    "tag": [
+      "GUÍA · DATOS GUARDADOS EN PS5",
+      "GUIDE · PS5 SAVE DATA",
+      "GUIDE · SAUVEGARDES PS5"
+    ],
+    "imageKeys": [
+      "vice-city",
+      "lucia",
+      "leonida-keys"
+    ],
+    "pictureContext": [
+      "Contexto visual de GTA VI; no muestra un menú de guardado, un archivo de partida ni una prueba de recuperación.",
+      "GTA VI visual context, not a save menu, save file or recovery test.",
+      "Contexte visuel GTA VI, pas un menu de sauvegarde, un fichier de partie ou un test de récupération."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué podés preparar antes de empezar GTA 6",
+          "What you can prepare before starting GTA 6",
+          "Ce qu’on peut préparer avant de commencer GTA 6"
+        ],
+        "paragraphs": [
+          [
+            "Para proteger tus futuras partidas de GTA 6 en PS5, podés revisar ahora las herramientas de datos guardados de Sony: sincronización con la nube de PlayStation Plus y copia completa de la consola en USB. Esta guía está comprobada con su documentación el 5 de noviembre de 2026. Describe funciones de PS5, no un menú de guardado de GTA VI ni una recuperación de partidas de un juego que todavía no hemos probado.",
+            "To protect future GTA 6 progress on PS5, review Sony’s save-data tools now: PlayStation Plus cloud synchronisation and a full console USB backup. This guide checks Sony’s documentation on November 5, 2026. It describes PS5 functions, rather than GTA VI’s own save menu or a recovery test of a game we have not played.",
+            "Pour protéger ses futures parties GTA 6 sur PS5, on peut déjà vérifier les outils Sony : synchronisation PlayStation Plus et copie USB complète de la console. Ce guide s’appuie sur la documentation vérifiée le 5 novembre 2026. Il décrit des fonctions PS5, pas un menu GTA VI ou un test de récupération d’un jeu que nous n’avons pas essayé."
+          ]
+        ],
+        "refs": [
+          "cloud",
+          "backup",
+          "rockstar"
+        ]
+      },
+      {
+        "heading": [
+          "Instalación, partida y capturas son datos diferentes",
+          "Installation, progress and captures are different data",
+          "Installation, progression et captures sont des données distinctes"
+        ],
+        "paragraphs": [
+          [
+            "Mover una instalación para liberar espacio no es lo mismo que guardar una copia de tu progreso. Sony separa juegos y aplicaciones, datos guardados y capturas. Antes de borrar o mover archivos, identificá la categoría que estás viendo. Tampoco se puede deducir el tamaño de una partida a partir de los gigabytes de descarga del juego: aquí no damos un tamaño de guardado de GTA VI todavía sin comprobar.",
+            "Moving an installation to free space is different from copying progress. Sony separates games and applications, saved data and captures. Identify the selected category before deleting or moving files. A game’s download size also does not determine its save-file size; we provide no unverified GTA VI save-size figure.",
+            "Déplacer une installation pour libérer de l’espace diffère de copier sa progression. Sony distingue jeux et applications, données sauvegardées et captures. Identifiez la catégorie avant de supprimer ou déplacer des fichiers. Le poids du téléchargement ne donne pas celui d’une sauvegarde ; nous ne fournissons pas de taille GTA VI non vérifiée."
+          ]
+        ],
+        "table": {
+          "headers": [
+            [
+              "Tipo de datos",
+              "Data type",
+              "Type de données"
+            ],
+            [
+              "Qué representa",
+              "What it represents",
+              "Ce qu’il représente"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Archivos del juego",
+                "Game files",
+                "Fichiers du jeu"
+              ],
+              [
+                "La instalación necesaria para ejecutar el producto",
+                "The installation needed to run the product",
+                "L’installation nécessaire pour lancer le produit"
+              ]
+            ],
+            [
+              [
+                "Datos guardados",
+                "Saved data",
+                "Données sauvegardées"
+              ],
+              [
+                "Tu progreso y estado de partida",
+                "Your progress and saved game state",
+                "Votre progression et l’état de partie"
+              ]
+            ],
+            [
+              [
+                "Capturas y vídeos",
+                "Screenshots and clips",
+                "Captures et vidéos"
+              ],
+              [
+                "Imágenes y grabaciones, no la partida recuperable",
+                "Images and recordings, not restorable progress",
+                "Images et enregistrements, pas une progression restaurable"
+              ]
+            ]
+          ]
+        },
+        "refs": [
+          "storage",
+          "related-ps5-storage"
+        ]
+      },
+      {
+        "heading": [
+          "Preparar la sincronización de PS5 con PS Plus",
+          "Preparing PS5 cloud synchronisation with PS Plus",
+          "Préparer la synchronisation PS5 avec PS Plus"
+        ],
+        "paragraphs": [
+          [
+            "La nube de datos guardados requiere una suscripción PlayStation Plus. En PS5, Sony indica Ajustes > Datos guardados y ajustes de juegos/aplicaciones > Datos guardados (PS5) > Sincronizar datos guardados > Sincronizar automáticamente. Revisá la preferencia general y la del juego cuando aparezca. Para sincronizar en reposo, la consola necesita la conexión a Internet correspondiente y las actualizaciones automáticas activadas. Son ajustes del sistema; no hay que buscar un supuesto botón de nube dentro de GTA VI.",
+            "Save-data cloud storage requires PlayStation Plus. Sony’s PS5 route is Settings > Saved Data and Game/App Settings > Saved Data (PS5) > Sync Saved Data > Auto-Sync Saved Data. Review the general and per-game preferences when available. Rest-mode sync also needs the relevant internet connection and automatic-update settings enabled. These are system settings, not a supposed GTA VI cloud button.",
+            "Le cloud des sauvegardes nécessite PlayStation Plus. Sur PS5, Sony indique Paramètres > Données sauvegardées et paramètres des jeux/applications > Données sauvegardées (PS5) > Synchroniser les données sauvegardées > Synchronisation automatique. Vérifiez les préférences générales et du jeu lorsqu’elles seront disponibles. En repos, connexion Internet et mises à jour automatiques doivent être activées. Ce sont des réglages système, pas un prétendu bouton cloud GTA VI."
+          ]
+        ],
+        "refs": [
+          "cloud"
+        ]
+      },
+      {
+        "heading": [
+          "Comprobar la copia más reciente antes de cambiar de consola",
+          "Checking the latest copy before changing consoles",
+          "Vérifier la copie récente avant de changer de console"
+        ],
+        "paragraphs": [
+          [
+            "Sony ofrece Ver estado de sincronización dentro de Sincronizar datos guardados; también permite comprobarlo desde las opciones del juego en el inicio. Revisá esa información antes de pasar a otra PS5 y utilizá la misma cuenta de PlayStation que conserva los datos. La sincronización mantiene el estado más reciente: no la trates como un archivo ilimitado de todas las versiones anteriores de una partida. Si hay un conflicto, compará la información mostrada antes de elegir qué copia conservar.",
+            "Sony provides View Sync Status under Sync Saved Data and a check through a game’s home-screen options. Review that status before moving to another PS5 and use the PlayStation account holding the data. Synchronisation maintains the latest state; do not treat it as an unlimited archive of earlier save versions. If a conflict appears, compare the displayed information before choosing which copy to retain.",
+            "Sony propose Afficher l’état de synchronisation dans les données synchronisées et une vérification via les options du jeu à l’accueil. Consultez cet état avant de passer à une autre PS5 et utilisez le compte PlayStation détenteur des données. La synchronisation conserve l’état récent ; ce n’est pas une archive illimitée des versions précédentes. En cas de conflit, comparez les informations avant de choisir la copie à conserver."
+          ]
+        ],
+        "refs": [
+          "cloud"
+        ]
+      },
+      {
+        "heading": [
+          "Copia USB completa: alcance y diferencia con restaurar",
+          "Full USB backup: scope and the difference from restoring",
+          "Copie USB complète : portée et différence avec la restauration"
+        ],
+        "paragraphs": [
+          [
+            "Para una copia completa, Sony usa Ajustes > Sistema > Software del sistema > Copia de seguridad y restauración > Crear copia de seguridad de tu PS5. La unidad compatible debe usar FAT32 o exFAT y tener espacio; una unidad de almacenamiento ampliado para juegos utiliza otro formato. Elegí los datos que querés conservar y seguí la guía oficial, sin apagar la consola durante la operación. Revisá primero qué contiene el USB antes de prepararlo para otro uso. Sony excluye de esa copia los juegos y aplicaciones instalados en M.2 o almacenamiento ampliado USB: esas unidades se conservan por separado.",
+            "Sony’s full-backup route is Settings > System > System Software > Back Up and Restore > Back Up Your PS5. A supported drive needs FAT32 or exFAT and enough space; game extended storage uses a different format. Select the data to preserve and follow the official guide without powering off during the operation. Check existing USB contents before preparing it for another use. Sony excludes games and apps installed on M.2 or extended USB storage from this backup; retain those drives separately.",
+            "La copie complète Sony passe par Paramètres > Système > Logiciel système > Sauvegarder et restaurer > Sauvegarder votre PS5. Une unité compatible nécessite FAT32 ou exFAT et suffisamment d’espace ; le stockage étendu des jeux utilise un autre format. Choisissez les données et suivez le guide officiel sans éteindre la console. Vérifiez le contenu du support avant de le préparer pour un autre usage. Sony exclut de cette copie les jeux et applications sur M.2 ou stockage USB étendu ; ces supports se conservent séparément."
+          ],
+          [
+            "Restaurar esa copia completa borra los datos actuales de la PS5, según Sony. No es lo mismo que descargar desde la nube el guardado de un juego, ni un paso para probar por curiosidad si la copia funciona. La documentación también indica que los trofeos se sincronizan por separado. Si necesitás recuperar datos concretos, identificá primero qué procedimiento corresponde y qué estado de la consola va a reemplazar.",
+            "Sony warns that restoring this full backup erases current PS5 data. That differs from downloading one game’s cloud save and is not a casual test of whether a backup works. Trophies also need separate synchronisation. Before recovery, identify the procedure needed and which existing console state it will replace.",
+            "Sony précise que restaurer cette copie complète efface les données actuelles de la PS5. Cela diffère du téléchargement d’une sauvegarde cloud d’un jeu et ne constitue pas un simple test de copie. Les trophées se synchronisent aussi séparément. Avant une récupération, identifiez la procédure adaptée et l’état existant qu’elle remplacera."
+          ]
+        ],
+        "refs": [
+          "backup",
+          "storage"
+        ]
+      },
+      {
+        "heading": [
+          "Qué falta comprobar dentro de GTA VI",
+          "What still needs checking inside GTA VI",
+          "Ce qu’il faudra vérifier dans GTA VI"
+        ],
+        "paragraphs": [
+          [
+            "El estreno oficial sigue anunciado para el 19 de noviembre. Al jugar habrá que comprobar el funcionamiento real del guardado automático, las opciones manuales y los avisos de escritura; esta guía no inventa sus menús ni un número de ranuras. Para prepararte ya, podés revisar las preferencias de PS5 con un juego que tengas y comprobar tu cuenta y la fecha de la última sincronización. Una descarga externa que prometa una partida de GTA 6 al 100 % no sustituye esos mecanismos oficiales.",
+            "The official release remains November 19. Actual autosaving, manual options and write indicators need checking in the released game; this guide invents no menus or slot count. Prepare now by reviewing PS5 preferences with a game you own and checking your account and latest sync status. An external download promising a 100% GTA 6 save does not replace those official mechanisms.",
+            "La sortie officielle reste le 19 novembre. Sauvegarde automatique, options manuelles et indicateurs d’écriture devront être vérifiés dans le jeu publié ; ce guide n’invente ni menus ni nombre d’emplacements. Préparez-vous avec un jeu déjà possédé en contrôlant préférences PS5, compte et dernière synchronisation. Un téléchargement externe promettant une partie GTA 6 à 100 % ne remplace pas ces mécanismes officiels."
+          ]
+        ],
+        "refs": [
+          "rockstar",
+          "cloud",
+          "related-security"
+        ]
+      }
+    ]
+  }
+]
