@@ -1,0 +1,470 @@
+{
+  "verifiedAt": "2026-11-05T23:57:40.135867+00:00",
+  "commit": "7bb87ffdbdd2843df17f1cbf9aa7b4f87434d994",
+  "deploymentId": "644ff328-10ea-4162-bd60-bf42c09c4901",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-05T23:57:09.470192Z",
+    "ended_on": "2026-11-05T23:57:26.308591Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-spectrum-mejora-velocidad-gratis-requisitos/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "a2da53895e23a4e8cc1208352f83e9f2bd73da8a05ecc4fda72fb91a63d6c405"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-spectrum-free-speed-boost-eligibility/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "1e127e625d73e90dd9466421d0ff11b2fba8a28b7990079fc76c876bf14384e4"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-spectrum-debit-gratuit-conditions/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "ae8ac015c05f15018eb4bed54554399584d2f8977eb8a802edf30b0aa74f789d"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-selfridges-experiencia-9-noviembre-detalles/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "d165427d89a845f491110e60c0ae80d2490b872e569838a254a6d5a4c7747013"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-selfridges-experience-november-9-details/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "aadf4bcbcec14efa9dcd9efde49e2b56a08a95926610d061a520b3eaef84458b"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-selfridges-experience-9-novembre-details/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2c3e7cfa41fb78876969ebac3484ce4f3adf6d186627843e5d8646199f1e2a0e"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-compartir-ps5-perfiles-licencias-limites/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "06a14049ad489ec23c3ebecde5d6414cf232a2534552363fe4ae101ad419d4f4"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-game-sharing-profiles-licence-limits/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "41084421cbca65d3afab0f07f57202e608543ecf5553577841598c7028158538"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-partager-ps5-profils-licences-limites/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 171,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "1c798f2c65cb4d6be8280a76d548618f5d27cf7e02490f7f26ea82cb7aae5e05"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-spectrum-speed-lift-20261105",
+        "gta6-selfridges-experience-20261105",
+        "gta6-ps5-household-sharing-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-spectrum-speed-lift-20261105",
+        "gta6-selfridges-experience-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-ps5-household-sharing-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-spectrum-speed-lift-20261105",
+        "gta6-selfridges-experience-20261105",
+        "gta6-ps5-household-sharing-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-spectrum-speed-lift-20261105",
+        "gta6-selfridges-experience-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-ps5-household-sharing-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-spectrum-speed-lift-20261105",
+        "gta6-selfridges-experience-20261105",
+        "gta6-ps5-household-sharing-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-spectrum-speed-lift-20261105",
+        "gta6-selfridges-experience-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-ps5-household-sharing-20261105"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-8AA3PAdw.js",
+      "status": 200,
+      "bytes": 352487,
+      "sha256": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-B631hZsa.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/feature-launch-gallery-bridge.webp",
+      "status": 200,
+      "bytes": 217872,
+      "sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-launch-gallery-duo.webp",
+      "status": 200,
+      "bytes": 83104,
+      "sha256": "a5b1f81670525391afd949feb04853fe7f1599f5491d2369f5924dff9449e677",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/leonida-keys.webp",
+      "status": 200,
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-1200.webp",
+      "status": 200,
+      "bytes": 93324,
+      "sha256": "84fbdff3ad4c2f89a4cf2c21be87aa564e26a5f532260a8c17773cae8e474ee0",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-480.webp",
+      "status": 200,
+      "bytes": 24002,
+      "sha256": "444cd67a07083650e8f933db084ef0d37cd6a804e291a02782ec72645710300e",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-800.webp",
+      "status": 200,
+      "bytes": 54794,
+      "sha256": "5b59cffc8a3d1a8c126c5951e4db8f0e1a1de79dbd94c36160ac42d2ae694823",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+      "status": 200,
+      "bytes": 99926,
+      "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-480.webp",
+      "status": 200,
+      "bytes": 26716,
+      "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-800.webp",
+      "status": 200,
+      "bytes": 62618,
+      "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/195a578472dd/feature-launch-gallery-duo-1200.webp",
+      "status": 200,
+      "bytes": 52900,
+      "sha256": "8e326a95e04533aa19e726948b33bca2aae96bca762d7e46e64f0527cb8490f2",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/195a578472dd/feature-launch-gallery-duo-480.webp",
+      "status": 200,
+      "bytes": 16652,
+      "sha256": "d003cfc1f2d9e31aa43d6dcd74477c38b9ffca117747d976707d1d8bf2d2e8cc",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/195a578472dd/feature-launch-gallery-duo-800.webp",
+      "status": 200,
+      "bytes": 32936,
+      "sha256": "0f46dffa7788826919e79725a1691170e496de433aa400f35be3ae9288c00e68",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-1200.webp",
+      "status": 200,
+      "bytes": 136310,
+      "sha256": "2c167a13fcf0cf7bd5b92a177df709b11c8b9fc85e3a52cbde2ca44ae543d3ad",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-480.webp",
+      "status": 200,
+      "bytes": 34362,
+      "sha256": "ac702339970096415884c33bf68058573f2e20e81129e62979425918e5c5a438",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-800.webp",
+      "status": 200,
+      "bytes": 77148,
+      "sha256": "7aacbd03cfe0261e65d724ec96ebc8ab116548d021a684b0244c40b69e1af819",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+      "status": 200,
+      "bytes": 81668,
+      "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+      "status": 200,
+      "bytes": 25098,
+      "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+      "status": 200,
+      "bytes": 55436,
+      "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-download-time-212-gb/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-game-pass-ps-plus-subscriptions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-offline-play-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-save-data-cloud-backup-guide/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-miami-advertising-vice-city-agreement/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-game-pass-ps-plus-suscripciones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-jugar-sin-internet-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-miami-publicite-accord-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-game-pass-ps-plus-abonnements/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-jouer-hors-ligne-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-sauvegardes-copie-securite-cloud/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-temps-telechargement-212-go/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "78b4d6fe7735ada1244d19686e895891478019546710ae1cf3dc71e08905002c",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match tested release. Browser interactions used local provider fixtures; not proof of advertising creative fill, subscriber eligibility or unannounced GTA VI gameplay features."
+}

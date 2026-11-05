@@ -1,5 +1,5 @@
 {
-  "status": "prepared-not-published",
+  "status": "published-verified",
   "checkedAt": "2026-11-05T23:52:36.868480+00:00",
   "date": "2026-11-05",
   "timezone": "America/New_York",
@@ -36,7 +36,9 @@
         "status": "success"
       },
       "actualAPIRead": true
-    }
+    },
+    "executionCompletedWithEffectiveAccess": true,
+    "futureAvailability": "This completedcloudrun doesnotguarantee futureexecutor/connectionavailability."
   },
   "newTopics": [
     {
@@ -469,7 +471,7 @@
     "rights": "Official MediaDownloadAndShare recheckedHTTP200;Copyrightreserved,attributedcontextualeditorialusewithoriginalsourcedlinks,notunrestrictedlicenceclaim. All76existingcreditrecords/assetsintendedunchanged.",
     "optimization": "ExistingWebPresponsivevariants, eager/high-prioritycovers andlazyinlineimages,3translatedalt/caption tuplesandcreditperarticle."
   },
-  "independentEditorialAudit": "Read-only second reviewer checked all3articles,localizedfactparity,primarysourcebounds,8distinctinternalURLsexist,andintentdedupagainst168completeoldarticles.No meaningfulissuesfound.",
+  "independentEditorialAudit": "Read-only second reviewer checked all3articles,localizedfactparity,primarysourcebounds,internalURLsagainstinventory,andintentdedupagainst168completeoldarticles.No meaningfulissuesfound.",
   "checks": {
     "build": "npm run build:release passed:171topics/513versions,556generatedroutes",
     "static": "node scripts/verify-static.mjs passed:557HTML,24960internal links,1088structured-data blocks",
@@ -478,7 +480,18 @@
       "coverage": "3topics x3locales xdesktop/mobile =18article/locale/viewport combinations. Allparagraphs/headings/tables,3decodedofficialimagesperarticle,localizedalt/caption/credit,canonical/hreflang/metas/JSONLD dates/citations,internalURLslocalizedHTTP200,selectoractualnavigation,sitemap/archives,nohorizontaloverfloworJSexceptions,singleAdSense/SocialBar,noGA4beforeconsent. Representative screenshots inspected.",
       "scope": "LocalbrowserproviderSDKs stubbed,notproof ofadcreativefill orsubscriber/accounteligibility."
     },
-    "public": "pending"
+    "public": {
+      "newPagesHTTP200": 9,
+      "discoveryPages": 9,
+      "releaseMatchingResources": 23,
+      "localizedInternalLinksHTTP200": 21,
+      "SEOFiles": [
+        "/sitemap.xml",
+        "/robots.txt",
+        "/ads.txt"
+      ],
+      "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match tested release. Browser interactions used local provider fixtures; not proof of advertising creative fill, subscriber eligibility or unannounced GTA VI gameplay features."
+    }
   },
   "preservation": {
     "existingCompleteArticlesPreserved": 168,
@@ -538,5 +551,11 @@
       "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
       "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
     }
+  },
+  "publication": {
+    "commit": "7bb87ffdbdd2843df17f1cbf9aa7b4f87434d994",
+    "deploymentId": "644ff328-10ea-4162-bd60-bf42c09c4901",
+    "verifiedAt": "2026-11-05T23:57:40.135867+00:00",
+    "proof": "docs/editorial/2026-11-05-three-more-publication.json"
   }
 }
