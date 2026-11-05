@@ -1,0 +1,1128 @@
+{
+  "verifiedAt": "2026-11-05T05:54:17.468313+00:00",
+  "commit": "5f4383cbd68fc46454f2c08e2aa2991cec5b6bc6",
+  "deploymentId": "845c909c-06ab-46b0-9795-5dbe92de68ce",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-05T05:53:27.332115Z",
+    "ended_on": "2026-11-05T05:53:41.27905Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-xbox-series-x-bite-consola-caiman-sorteo/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "73081142fffd8a8939d23afa74ef1839079a81d2dee4dcfe46393d53aeabc1e3"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-xbox-series-x-bite-alligator-console-sweepstakes/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "391086627a03eb41d4fd61bf5b039b8f86f6639e9cbb74dc6f33686041c43971"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-xbox-series-x-bite-console-alligator-concours/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "9945be6943fe9d3be8b129868ee05dc596bb8f38ce28084fc7f4f2a39eae884f"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-rockstar-votacion-sindical-noviembre/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "b94beed1e74ef48d8896ee2eee1dd66718944628358fbfd5ad9dcc16208cfb8f"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-rockstar-union-recognition-vote-november/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "b6036118143423cd34b67b8ad5ad4473a50badd9025176cefb4f939d1eedbd22"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-rockstar-vote-reconnaissance-syndicat-novembre/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "ec117dbfe7f2478eccacfd557cef83bc3a259239af7f08f3a091362085d39a0a"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-reservas-751-millones-estimacion-sensor-tower/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "fc128ebbf7b859d7b26cb1b5eda85e6b20ffd09a1994a59e360a9424eb02a52a"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-preorders-751-million-sensor-tower-estimate/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "7fc1f9256607e30fadf6587ae1da482e4bc126cc4d7767190be09f1859e07a40"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-precommandes-751-millions-estimation-sensor-tower/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "e336bb89ffcc1ca1d56d219ebefa9406684be8647ceb431166207ef74fd46359"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-maraton-kai-cenat-horario-juegos-ver/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "cd106a653724e6e453fc1f8a404716ff85cbe878c7f395bd6b6b650d5a674226"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-kai-cenat-marathon-start-time-games-watch/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "e01c62bd55817392d0b26eb5429e61bb68c80b9797d0d476e4c55ee30075caa3"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-marathon-kai-cenat-horaires-jeux-regarder/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2e68fc56200ea2c98c3094dcaf1a81c3256564f2283eae8a299f140568d67967"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-wardogs-bulkhead-pausa-diciembre-joe-brammer/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "60d85ee6925eec18383e5fa35b6fe93fa15c48f91494f891899e5c81726baace"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-wardogs-bulkhead-december-break-joe-brammer/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "84efbfecb286c3a9e67a1b7d8053cf9389699ff04c9ea735302c3fbbd511f4c9"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-wardogs-bulkhead-pause-decembre-joe-brammer/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "bb7c90df2e9273175c6a0031028e63a42077d23a6a2e3003a28ed5ef9145fdea"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "9c1d7ec5165420b33348e17d9425db368db46318fd21f60b078f09e2841eb4ad"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-dualsense-limited-edition-controller-price-preorder/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "16cd3fa55ff938a19ed0b8630855a760e25a70a9578d9fd24398875635bd78b7"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-manette-dualsense-edition-limitee-prix-precommande/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "5de246775ff3eecb3d376b364782587109534a332c94386b3cbcad54234364dc"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-trofeos-logros-platino-lista-confirmada/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "c62f748828e5ede620e494ecb8f49de3c2b8f1a24f1ae9c6adfd81f23533c387"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-trophies-achievements-platinum-confirmed-list/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "5e8676238349793f3e5fdfaf512aa27d7004ffdc9b853e50f898d6b883dc81ee"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-trophees-succes-platine-liste-confirmee/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "def6a5cc75fe1a2515fa3db780a2c49d104d087948201ea19dc5d4ec71cc71ce"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-crossplay-ps5-xbox-juego-cruzado/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "b26fce60e6944f34bb716162bd0d27601aa55dcc425b6c5584719eb042a67e5e"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-crossplay-ps5-xbox-cross-progression/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "b3997cc64bc366dc3a923c8a8bbd73571cced9ab54dc3fa0825a3d3a4afd09b1"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-crossplay-ps5-xbox-jeu-progression-croises/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "516790c330ce40d13d7a6a0c2f66206d9589fccb1f59cd215455a0c5bf531e45"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-vr-psvr2-modo-cinematico-compatibilidad/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "5be3ebe16dffe2d5975bb38c018aaaeb710c4bd96d86e8c82b842f25a6bcf70f"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-vr-psvr2-cinematic-mode-compatibility/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2df4f30806daf0d06f8e2e16cbf79203102b5995e4b2298548fa08479ca6e7b9"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-vr-psvr2-mode-cinematique-compatibilite/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "9dcf2f3ff7eb29dd24e9e9f141bf32f87ccae3d409b39439b2010fd61da1f232"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-modo-streamer-musica-copyright-twitch-youtube/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "ade8d3675560f288a1dbaa687e638cd28a9f35a47d57ad2075159c3c51b9e057"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-streamer-mode-music-copyright-twitch-youtube/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "0afee59be06f6d2a19d76525fe09b573ae48c4d1a91f613753db7d450bb7cd4d"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-mode-streamer-musique-droits-twitch-youtube/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 165,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "51722c616ef635f3cd3d17d11d185d0074aeb37fadb42e23e2688c0ed11d95ac"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-xbox-series-x-bite-20261105",
+        "gta6-rockstar-union-vote-20261105",
+        "gta6-preorder-sales-estimate-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-xbox-series-x-bite-20261105",
+        "gta6-rockstar-union-vote-20261105",
+        "gta6-preorder-sales-estimate-20261105",
+        "gta6-kai-cenat-marathon-20261105",
+        "gta6-wardogs-december-break-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-dualsense-limited-editions-20261105",
+        "gta6-trophies-achievements-20261105",
+        "gta6-crossplay-cross-progression-20261105",
+        "gta6-vr-psvr2-cinematic-20261105",
+        "gta6-streamer-mode-music-rights-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-xbox-series-x-bite-20261105",
+        "gta6-rockstar-union-vote-20261105",
+        "gta6-preorder-sales-estimate-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-xbox-series-x-bite-20261105",
+        "gta6-rockstar-union-vote-20261105",
+        "gta6-preorder-sales-estimate-20261105",
+        "gta6-kai-cenat-marathon-20261105",
+        "gta6-wardogs-december-break-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-dualsense-limited-editions-20261105",
+        "gta6-trophies-achievements-20261105",
+        "gta6-crossplay-cross-progression-20261105",
+        "gta6-vr-psvr2-cinematic-20261105",
+        "gta6-streamer-mode-music-rights-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-xbox-series-x-bite-20261105",
+        "gta6-rockstar-union-vote-20261105",
+        "gta6-preorder-sales-estimate-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-xbox-series-x-bite-20261105",
+        "gta6-rockstar-union-vote-20261105",
+        "gta6-preorder-sales-estimate-20261105",
+        "gta6-kai-cenat-marathon-20261105",
+        "gta6-wardogs-december-break-20261105"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-dualsense-limited-editions-20261105",
+        "gta6-trophies-achievements-20261105",
+        "gta6-crossplay-cross-progression-20261105",
+        "gta6-vr-psvr2-cinematic-20261105",
+        "gta6-streamer-mode-music-rights-20261105"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-CCJ82Hgh.js",
+      "status": 200,
+      "bytes": 352167,
+      "sha256": "928868f987c533ecb453e6c735be1ccf3d58baace64b4757fdbee93c8265ee14",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-CDYx5jIm.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "e3a73c417ce60244be00dcb10f48680b3535dd00d0a20d9837754f4bda49761c",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/boobie-ike.webp",
+      "status": 200,
+      "bytes": 116384,
+      "sha256": "43958a13110bc970d4f46a9656693eeac2884853c18c5fcd05f8552cdb8c4c29",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/drequan-priest.webp",
+      "status": 200,
+      "bytes": 127758,
+      "sha256": "1391d838e0b2ada3e027e93db149a6adefbbbc7fc0074aa2487e37b02f717107",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-boats.webp",
+      "status": 200,
+      "bytes": 171234,
+      "sha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-couple.webp",
+      "status": 200,
+      "bytes": 65196,
+      "sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-driver.webp",
+      "status": 200,
+      "bytes": 44940,
+      "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-kayak.webp",
+      "status": 200,
+      "bytes": 231688,
+      "sha256": "db833ca5ce72a6d9fc19f7419cd83b578ce49ae303d733c29aef2771acb63b99",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-mountain.webp",
+      "status": 200,
+      "bytes": 226130,
+      "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-phone.webp",
+      "status": 200,
+      "bytes": 68872,
+      "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/grassrivers.webp",
+      "status": 200,
+      "bytes": 179052,
+      "sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/jason.webp",
+      "status": 200,
+      "bytes": 68710,
+      "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/leonida-keys.webp",
+      "status": 200,
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/lucia.webp",
+      "status": 200,
+      "bytes": 65852,
+      "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/music.webp",
+      "status": 200,
+      "bytes": 155928,
+      "sha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/region-grassrivers-02.webp",
+      "status": 200,
+      "bytes": 146246,
+      "sha256": "90c7c5ec23d38a0b007a762e11442133739ea98acfe95b4b30e8e85350207b7e",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-1200.webp",
+      "status": 200,
+      "bytes": 93324,
+      "sha256": "84fbdff3ad4c2f89a4cf2c21be87aa564e26a5f532260a8c17773cae8e474ee0",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-480.webp",
+      "status": 200,
+      "bytes": 24002,
+      "sha256": "444cd67a07083650e8f933db084ef0d37cd6a804e291a02782ec72645710300e",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-800.webp",
+      "status": 200,
+      "bytes": 54794,
+      "sha256": "5b59cffc8a3d1a8c126c5951e4db8f0e1a1de79dbd94c36160ac42d2ae694823",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+      "status": 200,
+      "bytes": 99926,
+      "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-480.webp",
+      "status": 200,
+      "bytes": 26716,
+      "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-800.webp",
+      "status": 200,
+      "bytes": 62618,
+      "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/27c132857069/feature-boats-1200.webp",
+      "status": 200,
+      "bytes": 127604,
+      "sha256": "6e13b7a58f4a36b9bfd8105aa8188b91ba486537326e43f3ded7eacac3ae3a97",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/27c132857069/feature-boats-480.webp",
+      "status": 200,
+      "bytes": 35384,
+      "sha256": "22952938a3e0df853bbb6a15108a344463d574162368490366c92033c98774b7",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/27c132857069/feature-boats-800.webp",
+      "status": 200,
+      "bytes": 74392,
+      "sha256": "f00cc06922c66cb5d601236bd996d585b514826785c4758a462ec36f0f3a5f42",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/412f8f04a1fa/grassrivers-1200.webp",
+      "status": 200,
+      "bytes": 132200,
+      "sha256": "5b03187234ebe50dcb62c805a3b171dc61ffb09944d8cf199420aabbadda749a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/412f8f04a1fa/grassrivers-480.webp",
+      "status": 200,
+      "bytes": 28254,
+      "sha256": "67721e4a1f6f67499e182e1f17567ff686cca51356532f8a7b83d637afa5943e",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/412f8f04a1fa/grassrivers-800.webp",
+      "status": 200,
+      "bytes": 70304,
+      "sha256": "77a60b78209382ec0cccb31f81b581419a729f8946a2f99f4d9c1f198fd96383",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/540c8d78c7d9/feature-driver-1200.webp",
+      "status": 200,
+      "bytes": 35706,
+      "sha256": "79914c019ad48a3abef30e4ae9bd5470eaf065de2decb8f68e3cc95df1fcabf1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/540c8d78c7d9/feature-driver-480.webp",
+      "status": 200,
+      "bytes": 12366,
+      "sha256": "dd64ff73314776910fa09ab318d464e6b338fa1b16914cf0fee8acadd017dfa8",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/540c8d78c7d9/feature-driver-800.webp",
+      "status": 200,
+      "bytes": 23166,
+      "sha256": "8e4f01ae714aa6e0831a4bcbaeb308831703d9d2a5b23d0b78385b25bfac6011",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-1200.webp",
+      "status": 200,
+      "bytes": 51110,
+      "sha256": "f81c43086bdf633909d5522e20d74db6dad013e39e5eb039351c926450270771",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-480.webp",
+      "status": 200,
+      "bytes": 17104,
+      "sha256": "65e638c54352d3417858a9625f9bc8094a524af6a7ff3b6ffbfba52be08f2e49",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-800.webp",
+      "status": 200,
+      "bytes": 34622,
+      "sha256": "f2645efb3e758ce131d003802eff2c4ff34c71a82738fac6242cb662b0362583",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/84ad5886a711/boobie-ike-1200.webp",
+      "status": 200,
+      "bytes": 89040,
+      "sha256": "203a2cd7c0e21ab03b285e782a02ad3f8201d03ff9e66ce6c02ced228ed272ba",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/84ad5886a711/boobie-ike-480.webp",
+      "status": 200,
+      "bytes": 24008,
+      "sha256": "4c695f5629531b772c38129af34b03be6621d5f165853d0fc059dba30c652248",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/84ad5886a711/boobie-ike-800.webp",
+      "status": 200,
+      "bytes": 51790,
+      "sha256": "a6558928a6e3b028bcfc1556f5063b27d7bde95b7f207c7e846e78cae507d600",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-1200.webp",
+      "status": 200,
+      "bytes": 50778,
+      "sha256": "3cf972c759fe1104fdf1623ef1b1fd6392b72781d77420bca7d9651c976e48cc",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-480.webp",
+      "status": 200,
+      "bytes": 17224,
+      "sha256": "9b8c108d96d1f897b8ab49b1913c6a277a518de30efdad97a02c97ee82fd5213",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/aafe534c70b2/feature-couple-800.webp",
+      "status": 200,
+      "bytes": 32424,
+      "sha256": "d5dd41066df944a0429c9239c5fb57f41ee541bd72c8a67719f801a66bfb5502",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b081374d5e26/region-grassrivers-02-1200.webp",
+      "status": 200,
+      "bytes": 101238,
+      "sha256": "8982b59eb00e8ef6565288b7bf387bb8820ad166106417d5cc3ca3c2a15b5706",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b081374d5e26/region-grassrivers-02-480.webp",
+      "status": 200,
+      "bytes": 26918,
+      "sha256": "d9f2ee6bf749920792cb019fd0d948b0704e80715173fed90eea4b2feb5a3f8d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b081374d5e26/region-grassrivers-02-800.webp",
+      "status": 200,
+      "bytes": 59256,
+      "sha256": "df5194183197e243e7db32f91d10b919a9d9e62a7b233a38b0dedc543f1bdd6f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-1200.webp",
+      "status": 200,
+      "bytes": 51282,
+      "sha256": "a214defe4eabffdc9ee37d81e400c47a42c23cc08e6ebac3f6aa88e7e5860e10",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-480.webp",
+      "status": 200,
+      "bytes": 18834,
+      "sha256": "4233d532d0c6a13f7af9df721ce7290de5fa790b8e683e8811b86d941e054dbd",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-800.webp",
+      "status": 200,
+      "bytes": 36354,
+      "sha256": "b21e566773f614eff278fc031fc2ac9eb28924d47630fdf075490fc6b75a9cd5",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+      "status": 200,
+      "bytes": 81668,
+      "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+      "status": 200,
+      "bytes": 25098,
+      "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+      "status": 200,
+      "bytes": 55436,
+      "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e0d0cc24376b/feature-kayak-1200.webp",
+      "status": 200,
+      "bytes": 159176,
+      "sha256": "430dc7d5fff7bce5b1c1bd6f757194b3d83e7624541e429dddc1c15e6bba55c9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e0d0cc24376b/feature-kayak-480.webp",
+      "status": 200,
+      "bytes": 33212,
+      "sha256": "b15085f919d8f9c4327123f55d6291d2654c1c8bf60282ad6e85dfc41484787d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/e0d0cc24376b/feature-kayak-800.webp",
+      "status": 200,
+      "bytes": 81762,
+      "sha256": "b83a4b601f21852c24feb1d3998280e46d563bae95134d700e57ff6506d58293",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-1200.webp",
+      "status": 200,
+      "bytes": 53756,
+      "sha256": "8ed69491f5730174cc303c4baa97d1c01590fedb5b55e8ab457aa99d9adfd04f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-480.webp",
+      "status": 200,
+      "bytes": 17284,
+      "sha256": "31961b38611cb609180f4f020a701f2877eb710545e4758eacafecb735c22d3b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-800.webp",
+      "status": 200,
+      "bytes": 33742,
+      "sha256": "30221c20b37def65f23d48d68b95146091569ad0336400bacc83f38b193ac1b9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f256c7d69bbb/music-1200.webp",
+      "status": 200,
+      "bytes": 102818,
+      "sha256": "e8832d012e57e7e041c3bcdbb8892b97abc44ed70286e8cb07047d146f4a43ee",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f256c7d69bbb/music-480.webp",
+      "status": 200,
+      "bytes": 26010,
+      "sha256": "39846f64e72f4b6f6d97a02279cf4ab8025f111c5aabacd18b547a25612d080a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f256c7d69bbb/music-800.webp",
+      "status": 200,
+      "bytes": 63484,
+      "sha256": "e8a629cea0ab707119d5bfc5f40a28e4d947c80423ee2019ccee3cef8ebbca3f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-1200.webp",
+      "status": 200,
+      "bytes": 150068,
+      "sha256": "52da88fb17173df7565f24215518e8683725833b31a23a95234f93b359d05a0a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-480.webp",
+      "status": 200,
+      "bytes": 31458,
+      "sha256": "ed7b911d0463c54cae87ed976c98440b89235430bc1cb321b5bfde04b1372836",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-800.webp",
+      "status": 200,
+      "bytes": 78644,
+      "sha256": "37f5c32a0094acd38fd46246b759a8cc201a1388c6337b43fd86b1441144144a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87ae531e396/drequan-priest-1200.webp",
+      "status": 200,
+      "bytes": 100824,
+      "sha256": "89210ac24336eb0f5f465ada4f18865735960014f121fc0c7c60544cf038b461",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87ae531e396/drequan-priest-480.webp",
+      "status": 200,
+      "bytes": 27168,
+      "sha256": "d9ae4f8a27e18c989c3ec8c4345b3128bd7e8879c1c559ae5364fec9da7c24e5",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87ae531e396/drequan-priest-800.webp",
+      "status": 200,
+      "bytes": 58644,
+      "sha256": "9f348df76a376b0c4c45e20d09b9a5640dad6e5d5d820e89fa86b43740012f06",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-3-story-development-history/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-4-story-development-history/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-5-story-development-history/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-co-op-two-players-split-screen/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-san-andreas-story-development-history/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-vice-city-story-development-history/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/avoid-spoilers-mission-guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-ps5-dualsense-3d-audio-features/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-radio-music/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-first-person-camera-launch/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/take-two-november-9-earnings-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-cooperativo-dos-jugadores-pantalla-dividida/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/historia-gta-3-trama-creacion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/historia-gta-4-trama-creacion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/historia-gta-5-trama-creacion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/historia-gta-san-andreas-trama-creacion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/historia-gta-vice-city-trama-creacion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-radio-music/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-primera-persona-camara-lanzamiento/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/take-two-resultados-9-noviembre-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ps5-dualsense-audio-3d-fonctionnalites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-radio-music/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-online-2027-dan-clancy/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-premiere-personne-camera-sortie/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/take-two-resultats-9-novembre-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-cooperation-deux-joueurs-ecran-partage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/histoire-gta-3-scenario-creation/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/histoire-gta-4-scenario-creation/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/histoire-gta-5-scenario-creation/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/histoire-gta-san-andreas-scenario-creation/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/histoire-gta-vice-city-scenario-creation/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/eviter-spoilers-guides-missions/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "f86000d15d26b2a5ca626e21af5406586c8cb0a33cd0d4786165ff07a4f9e650",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS reads with TLS validation. Full visible text, metadata, canonical/hreflang, schema, image and JS/CSS bytes and discoverability checked against tested release. Browser interactions used local provider fixtures; this is not proof of creative fill or guaranteed audience.",
+  "changes": {
+    "newTopics": 10,
+    "newLocalizedURLs": 30,
+    "previousCompleteArticlesPreserved": 155,
+    "previousLocalizedURLsPreserved": 465,
+    "totalTopics": 165,
+    "totalLocalizedURLs": 495,
+    "ownRuntimeAssetReferencesMatchRelease": true
+  }
+}

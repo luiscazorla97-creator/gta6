@@ -1,5 +1,5 @@
 {
-  "status": "prepared-not-published",
+  "status": "published-publicly-verified",
   "checkedAt": "2026-11-05T05:49:03.342621+00:00",
   "localDate": "2026-11-05",
   "timezone": "America/New_York",
@@ -1270,7 +1270,34 @@
       "coverage": "10articles x3locales x2viewports =60article/locale/viewport combinations; full introductions/paragraphs/tables,3officialimagesdecoded per article, translatedalt/captions, sources, localizedinternal linksHTTP200, real language navigation, canonical/hreflang/meta/schema dates and citations, no horizontal overflow or JS exceptions, archives/sitemap discovery, singleAdSense/SocialBar and noGA4beforeconsent.",
       "scope": "Provider SDKs stubbed for deterministic local browser interactions, not proof of creative fill. Screenshots recorded for all10 Spanish desktop/mobile pages; representative controller-mobile and presales-desktop captures visually inspected. Geometry and complete content checked across all60 page/locale/viewport combinations."
     },
-    "public": "pending"
+    "public": {
+      "result": "passed",
+      "evidence": "docs/editorial/2026-11-05-ten-publication.json",
+      "contentCommit": "5f4383cbd68fc46454f2c08e2aa2991cec5b6bc6",
+      "deploymentId": "845c909c-06ab-46b0-9795-5dbe92de68ce",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-05T05:53:27.332115Z",
+        "ended_on": "2026-11-05T05:53:41.27905Z",
+        "status": "success"
+      },
+      "newArticlePagesHTTP200": 30,
+      "homeAndCategoryDiscoveryPages": 9,
+      "matchingPublicResources": 67,
+      "localizedInternalLinksHTTP200": 45,
+      "changes": {
+        "newTopics": 10,
+        "newLocalizedURLs": 30,
+        "previousCompleteArticlesPreserved": 155,
+        "previousLocalizedURLsPreserved": 465,
+        "totalTopics": 165,
+        "totalLocalizedURLs": 495,
+        "ownRuntimeAssetReferencesMatchRelease": true
+      },
+      "verified": "All30 public article pages full visible text and metadata match tested release, including canonical/hreflang/schema dates and citations. Public own JS/CSS asset references and bytes, all article image resources, sitemap,robots,ads.txt checked. Actual Cloudflare canonical production deployment matches sourcecommit and success stage.",
+      "limits": "Real public HTTPS with normal TLS validation, no SDK fixtures for public reads. Browser interactions used local provider fixtures; no claim of ad fill, creator broadcast status, retailerstock, directdynamicSensorTowerread or guaranteed Google ranking. This completed cloud run does not guarantee future executor/connection availability."
+    }
   },
-  "preserved": "All155completeoldarticles and155inventory records remain intact. Design, JS/CSS bytes, images, adsunits/placements, SocialBar, Popunder-off, Analyticsconsent, AdSense, cache/security rules and daily frequency unchanged."
+  "preserved": "All155completeoldarticles and155inventory records remain intact. Design, JS/CSS bytes, images, adsunits/placements, SocialBar, Popunder-off, Analyticsconsent, AdSense, cache/security rules and daily frequency unchanged.",
+  "publishedAt": "2026-11-05T05:54:17.468313+00:00"
 }
