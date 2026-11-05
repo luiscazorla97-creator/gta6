@@ -1,0 +1,241 @@
+{
+  "status": "prepared-not-published",
+  "checkedAt": "2026-11-05T22:11:04.784998+00:00",
+  "date": "2026-11-05",
+  "timezone": "America/New_York",
+  "scope": {
+    "dailyTopics": 1,
+    "locales": [
+      "es",
+      "en",
+      "fr"
+    ],
+    "dailyScheduleChanged": false,
+    "dailyLastAuthorizedDate": "2026-11-19"
+  },
+  "baseline": {
+    "freshGitHubMain": "195431e2a41b4b463f756758d5d17b79119a8feb",
+    "tree": "267a053185aabd2254a7c2aaf090a91f7a48727f",
+    "topics": 167,
+    "localizedURLs": 501,
+    "lastPublicationVerified": "2026-11-05T17:32:50.367059+00:00"
+  },
+  "cloudExecution": {
+    "currentManagedRuntime": "connected/running",
+    "observationsCurrent": true,
+    "specRevision": "8",
+    "networkPolicy": "unrestricted/enforced",
+    "cloudflareRuntimeVariableAndDomainBoundCredential": "ready; actual deployment authorization still requires successful API call",
+    "githubCurrentMainMatchesCleanCloudCheckout": true,
+    "desktopPCDependency": false,
+    "actualCloudflareProjectRead": {
+      "project": "fansgta",
+      "canonicalDeployment": "4039fc8e-b950-47f3-8603-98c682d5c860",
+      "commit": "a47460a5752ff5f0ba3f1f46f34d30dc44bb70f2",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-05T17:31:19.531188Z",
+        "ended_on": "2026-11-05T17:31:40.071953Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    }
+  },
+  "selected": {
+    "id": "gta6-launch-gallery-20261105",
+    "newTopic": true,
+    "announcementDate": "2026-11-05",
+    "preciseAnnouncementTime": "Not established; no claim that publication postdates the prior run. Newly discovered current-day official news in this run.",
+    "dedup": "All167 full Article objects and inventory records read and compared across all languages. No title covers screenshot/launch gallery intent and no full article mentions launch-gallery, galería de lanzamiento or galerie de lancement. Existing city, wildlife and Grassrivers guides are linked, rather than replaced or duplicated as location guides.",
+    "scope": "One news report about today’s official gallery, not separate thin posts for each screenshot. No new gameplay-mechanic confirmation inferred from still images."
+  },
+  "sources": [
+    {
+      "key": "announcement",
+      "url": "https://www.rockstargames.com/newswire/article/39ak81277255o9/explore-the-grand-theft-auto-vi-launch-gallery",
+      "status": 200,
+      "bytes": 5379,
+      "sha256": "793458738d73445c80bd19f037b1667d06ceea9c379f8fd3a9d18a0273d78c8f"
+    },
+    {
+      "key": "gallery",
+      "url": "https://www.rockstargames.com/VI/launch-gallery",
+      "status": 200,
+      "bytes": 651289,
+      "sha256": "0419440e524b45266acd47ee08f4a27353738ac5b1736d228b0fbfa7d9e363a3"
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "bytes": 814420,
+      "sha256": "afbc7847909c2943ab74aeeddecdda18fe71a32b4f48245ca342cb5708c7eb17"
+    },
+    {
+      "key": "pcgamer",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-drops-a-pile-of-new-gta-6-launch-screenshots-featuring-dancers-combat-dogs-and-so-many-pores/",
+      "status": 200,
+      "bytes": 2388681,
+      "sha256": "2c64b45bb611f4f4a8fac361306fbe2e753ca61aa16dd06299a028165928baf5"
+    }
+  ],
+  "officialChecks": {
+    "announcement": "Official Newswire HTTP200 metadata explicitly announces new screenshots and links official gallery; the date November5 is verified in Rockstar main page/search listing and matching current-day coverage. Article shell requires client rendering, so no claim to read its full rendered body.",
+    "gallery": "Official gallery HTTP200, complete Next payload examined;39 unique scene asset paths including desktop header and38body images, mobile duplicate excluded. Count is this collection, not all historical images.",
+    "galleryScenePaths": [
+      "/VI/_next/static/media/Grassrivers_07.0txitddjiq5o1.jpg",
+      "/VI/_next/static/media/Grassrivers_08.0x-z0h-he35zo.jpg",
+      "/VI/_next/static/media/Jason_Duval_11.019l5gj6~0~0v.jpg",
+      "/VI/_next/static/media/Jason_Duval_12.0zcl2old.t6gf.jpg",
+      "/VI/_next/static/media/Jason_Duval_13.0xtzlmp0y6mt-.jpg",
+      "/VI/_next/static/media/Jason_Duval_14.0eczq557_iuqo.jpg",
+      "/VI/_next/static/media/Jason_Duval_15.0oze53sounjp2.jpg",
+      "/VI/_next/static/media/Jason_Duval_16.090yj-lyddyrr.jpg",
+      "/VI/_next/static/media/Jason_Duval_17.0tp7hiuz.e385.jpg",
+      "/VI/_next/static/media/Jason_Duval_18.000.jk1plncsr.jpg",
+      "/VI/_next/static/media/Jason_Duval_19.0r7a1q04n5.7m.jpg",
+      "/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg",
+      "/VI/_next/static/media/Jason_and_Lucia_15.0m-_zb~mcy2zr.jpg",
+      "/VI/_next/static/media/Jason_and_Lucia_16.05-d133mx68ku.jpg",
+      "/VI/_next/static/media/Jason_and_Lucia_17.117_b11r13mg5.jpg",
+      "/VI/_next/static/media/Jason_and_Lucia_18.0kjv.et7330m_.jpg",
+      "/VI/_next/static/media/Jason_and_Lucia_19.0n_.5s-v~v5je.jpg",
+      "/VI/_next/static/media/Jason_and_Lucia_20.0cd~.c7jr~5g9.jpg",
+      "/VI/_next/static/media/Leonida_Keys_07.0z9tb69ssp4rq.jpg",
+      "/VI/_next/static/media/Lucia_Caminos_11.0j617-ylicowx.jpg",
+      "/VI/_next/static/media/Lucia_Caminos_12.0saq9ns-~xj03.jpg",
+      "/VI/_next/static/media/Lucia_Caminos_13.08dd3_zn0g59u.jpg",
+      "/VI/_next/static/media/Lucia_Caminos_14.0.6_io7qeozm6.jpg",
+      "/VI/_next/static/media/Port_Gellhorn_07.053ldlg0m.2r..jpg",
+      "/VI/_next/static/media/Vice_City_13.0iq8ff474tsdx.jpg",
+      "/VI/_next/static/media/Vice_City_14.0fu8u9jh5hkg7.jpg",
+      "/VI/_next/static/media/Vice_City_15.11tb0mz68edqo.jpg",
+      "/VI/_next/static/media/Vice_City_16.16hjjmnxqg9mv.jpg",
+      "/VI/_next/static/media/Vice_City_17.0er79m2u3nygs.jpg",
+      "/VI/_next/static/media/Vice_City_18.001ebutl6h-9w.jpg",
+      "/VI/_next/static/media/Vice_City_19.01ow62.xq.64i.jpg",
+      "/VI/_next/static/media/Vice_City_20.18c75478u52nf.jpg",
+      "/VI/_next/static/media/Vice_City_21.0m5vh15h178-e.jpg",
+      "/VI/_next/static/media/Vice_City_22.0--9jlb822n~g.jpg",
+      "/VI/_next/static/media/Vice_City_23.183sae.altxv3.jpg",
+      "/VI/_next/static/media/Vice_City_24.0r9tor5-x.p75.jpg",
+      "/VI/_next/static/media/Vice_City_25.0f72z-5qgyd~v.jpg",
+      "/VI/_next/static/media/Vice_City_26.0.bvvu2216_mj.jpg",
+      "/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg"
+    ],
+    "media": "Official Media HTTP200, Download and share available, screenshot collection lists138. Images selected directly from official gallery, not copied from press article.",
+    "takeTwo": "Investor Relations current view shows next results call November9, no newer GTA VI announcement selected.",
+    "secondary": "PC Gamer HTTP200 and datedNovember5, used for current coverage/interest only; no copied prose or speculative pet-dog assertion."
+  },
+  "interest": [
+    {
+      "query": "gta 6 new screenshots",
+      "status": 200,
+      "suggestions": [
+        "gta 6 new screenshots",
+        "gta 6 new screenshots today",
+        "gta 6 new screenshots rockstar",
+        "gta 6 new screenshots reddit",
+        "gta 6 new screenshots lucia",
+        "gta 6 new screenshots love magazine",
+        "gta 6 new screenshots game informer",
+        "gta 6 new screenshots x",
+        "gta 6 new screenshots beach",
+        "gta 6 new screenshots lucia jason"
+      ]
+    },
+    {
+      "query": "gta 6 launch gallery",
+      "status": 200,
+      "suggestions": [
+        "gta 6 launch gallery",
+        "gta 6 launch trailer images",
+        "gta 6 launch trailer photos",
+        "launch date gta 6",
+        "when gta 6 is launching",
+        "is gta 6 available for android"
+      ]
+    }
+  ],
+  "interestLimits": "Autocomplete and current independent coverage are qualitative signals; no Google Trends volume, ranking, exact demand or promised audience/position. Search opener could not read several article pages; normal authorized cloud HTTPS reads with honest FansGTA UA succeeded without bypassing TLS/proxy/security.",
+  "media": {
+    "assets": [
+      {
+        "key": "feature-launch-gallery-duo",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "bytes": 1017759,
+        "originalSha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "credit": "GTA VI © Rockstar Games"
+      },
+      {
+        "key": "feature-launch-gallery-bridge",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "bytes": 1132950,
+        "originalSha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "credit": "GTA VI © Rockstar Games"
+      },
+      {
+        "key": "feature-launch-gallery-wetlands",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_08.0x-z0h-he35zo.jpg?imwidth=1600",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "bytes": 527287,
+        "originalSha256": "18250f000f1636b016e42313dfce7804734af89cb3b7051e975e41710bc4e6f7",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "credit": "GTA VI © Rockstar Games"
+      }
+    ],
+    "visualInspection": "All3originals visually inspected. CoverJason_and_Lucia14: dance-floor portrait;ViceCity27: open bridge/waterfront/twilight;Grassrivers08: alligator,airboat,threefigures,mist. No AI/mod/leak/GTA V or decorative hero layers.",
+    "reuse": "Rockstar official Media invites download/share. Copyright reserved; use attributed contextual editorial excerpts with direct source links, not an unrestricted licence claim. No crops or generative edits; WebP86 width1400x788, originals retained only in temp evidence. Existing responsive pipeline generates480/800/1200versions.",
+    "localized": "Three complete alt/caption tuples and credits; eager/high-priority cover and lazy inline images through existing renderer."
+  },
+  "checks": {
+    "build": "npm run build:release passed;168topics/504versions,547generatedroutes",
+    "static": "node scripts/verify-static.mjs passed;548HTML,24573internal links,1070structured-data blocks",
+    "browser": {
+      "result": "6passed14.3seconds",
+      "coverage": "One article x3locales xdesktop/mobile: allparagraphs/headings,3decodedimages and translated alt/caption/credit, eager/high-priority cover,localizedlinksHTTP200,canonical/hreflang/meta/schema,sitemap/archive,language selector actual navigation,nohorizontaloverflow or JavaScript exceptions,singleAdSense/SocialBar,noGA4beforeconsent. Representative desktop/mobile screenshots saved and inspected.",
+      "scope": "ProviderSDKs stubbed for deterministic content/navigation checks; not proof of creative fill. Initial preview bind failedEPERM under default sandbox, then allowed network execution passed without changing project configuration."
+    },
+    "public": "pending"
+  },
+  "preservation": {
+    "totalTopics": 168,
+    "totalLocalizedURLs": 504,
+    "existingCompleteArticlesPreserved": 167,
+    "existingInventoryRecordsPreserved": 167,
+    "existingMediaCreditsPreserved": 73,
+    "newTopics": [
+      {
+        "id": "gta6-launch-gallery-20261105",
+        "category": "news",
+        "published": "2026-11-05",
+        "titles": [
+          "GTA 6: Rockstar publica 39 imágenes en su galería de lanzamiento",
+          "GTA 6 launch gallery: 39 new screenshots from Rockstar",
+          "GTA 6 : Rockstar dévoile 39 images dans sa galerie de lancement"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/",
+          "/en/news/gta-6-39-new-screenshots-rockstar-launch-gallery/",
+          "/fr/actualites/gta-6-39-nouvelles-images-galerie-lancement-rockstar/"
+        ]
+      }
+    ],
+    "clientAssets": {
+      "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+    },
+    "clientAssetChangeReason": "Responsive media manifest gains3newkeys; Vite module references rehashed. No ads/layout/styles/analytics/security source changes."
+  }
+}

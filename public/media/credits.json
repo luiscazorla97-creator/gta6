@@ -764,5 +764,50 @@
     "bytes": 102356,
     "checked": "2026-11-02",
     "useContext": "Authentic official product promotional image on Rockstar Store, used to identify and discuss this product in original credited editorial coverage. Copyright and trademarks reserved; no unrestricted reuse licence asserted. Resized and WebP-encoded only, no cropping, AI, compositing or gameplay claims."
+  },
+  "feature-launch-gallery-duo": {
+    "key": "feature-launch-gallery-duo",
+    "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 83104,
+    "originalSha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+    "credit": "GTA VI © Rockstar Games",
+    "width": 1400,
+    "height": 788,
+    "sha256": "a5b1f81670525391afd949feb04853fe7f1599f5491d2369f5924dff9449e677",
+    "reuseContext": "Official Rockstar download-and-share Media collection; contextual editorial reporting on the November 5 launch gallery with attribution and original links. Copyright reserved, no unrestricted licence claimed. Format/size conversion only; no generative edits or crop."
+  },
+  "feature-launch-gallery-bridge": {
+    "key": "feature-launch-gallery-bridge",
+    "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 217872,
+    "originalSha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+    "credit": "GTA VI © Rockstar Games",
+    "width": 1400,
+    "height": 788,
+    "sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+    "reuseContext": "Official Rockstar download-and-share Media collection; contextual editorial reporting on the November 5 launch gallery with attribution and original links. Copyright reserved, no unrestricted licence claimed. Format/size conversion only; no generative edits or crop."
+  },
+  "feature-launch-gallery-wetlands": {
+    "key": "feature-launch-gallery-wetlands",
+    "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_08.0x-z0h-he35zo.jpg?imwidth=1600",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 35902,
+    "originalSha256": "18250f000f1636b016e42313dfce7804734af89cb3b7051e975e41710bc4e6f7",
+    "owner": "Rockstar Games",
+    "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+    "credit": "GTA VI © Rockstar Games",
+    "width": 1400,
+    "height": 788,
+    "sha256": "0a8387ae622d472b89ef6d930130f8466a4e8bf70d7a1ade6b1ba26a5d633e77",
+    "reuseContext": "Official Rockstar download-and-share Media collection; contextual editorial reporting on the November 5 launch gallery with attribution and original links. Copyright reserved, no unrestricted licence claimed. Format/size conversion only; no generative edits or crop."
   }
 }
