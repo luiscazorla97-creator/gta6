@@ -1,5 +1,5 @@
 {
-  "status": "prepared-not-published",
+  "status": "published-verified",
   "checkedAt": "2026-11-05T22:11:04.784998+00:00",
   "date": "2026-11-05",
   "timezone": "America/New_York",
@@ -39,7 +39,9 @@
         "status": "success"
       },
       "actualAPIRead": true
-    }
+    },
+    "completedWithEffectiveGitHubAndCloudflareAccess": true,
+    "futureAvailability": "This completed cloud run is not a guarantee of future executor/connection availability."
   },
   "selected": {
     "id": "gta6-launch-gallery-20261105",
@@ -206,7 +208,18 @@
       "coverage": "One article x3locales xdesktop/mobile: allparagraphs/headings,3decodedimages and translated alt/caption/credit, eager/high-priority cover,localizedlinksHTTP200,canonical/hreflang/meta/schema,sitemap/archive,language selector actual navigation,nohorizontaloverflow or JavaScript exceptions,singleAdSense/SocialBar,noGA4beforeconsent. Representative desktop/mobile screenshots saved and inspected.",
       "scope": "ProviderSDKs stubbed for deterministic content/navigation checks; not proof of creative fill. Initial preview bind failedEPERM under default sandbox, then allowed network execution passed without changing project configuration."
     },
-    "public": "pending"
+    "public": {
+      "newPagesHTTP200": 3,
+      "discoveryPages": 9,
+      "releaseMatchingResources": 15,
+      "localizedInternalLinksHTTP200": 9,
+      "SEOFiles": [
+        "/sitemap.xml",
+        "/robots.txt",
+        "/ads.txt"
+      ],
+      "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match the tested release. Browser interactions used local provider fixtures; not proof of ad creative delivery or unannounced GTA VI gameplay mechanics."
+    }
   },
   "preservation": {
     "totalTopics": 168,
@@ -237,5 +250,11 @@
       "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
     },
     "clientAssetChangeReason": "Responsive media manifest gains3newkeys; Vite module references rehashed. No ads/layout/styles/analytics/security source changes."
+  },
+  "publication": {
+    "commit": "b5f5728e25a2400a8605c949cd454595ea9a25b4",
+    "deploymentId": "2a7e1740-a08c-480d-a07a-fe5c91223581",
+    "verifiedAt": "2026-11-05T22:15:37.365012+00:00",
+    "proof": "docs/editorial/2026-11-05-daily-gallery-publication.json"
   }
 }
