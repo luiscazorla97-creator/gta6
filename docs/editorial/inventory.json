@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-pilot-flight-art-20261106",
+    "category": "news",
+    "published": "2026-11-06",
+    "titles": [
+      "GTA 6: un piloto dibuja el logo con un vuelo de ocho horas",
+      "GTA 6: a pilot draws the logo with an eight-hour flight",
+      "GTA 6 : un pilote dessine le logo avec huit heures de vol"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+      "/en/news/gta-6-pilot-flight-path-art-eight-hours/",
+      "/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/"
+    ]
+  },
+  {
     "id": "gta6-zelnick-delay-quality-20261106",
     "category": "news",
     "published": "2026-11-06",

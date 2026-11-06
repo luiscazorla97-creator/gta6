@@ -1,0 +1,265 @@
+{
+  "status": "checked-ready-to-publish",
+  "checkedAt": "2026-11-06T22:17:31.190424+00:00",
+  "date": "2026-11-06",
+  "timezone": "America/New_York",
+  "scope": {
+    "dailyTopics": 1,
+    "localizedVersions": 3,
+    "dailyScheduleChanged": false,
+    "dailyTopicLimit": 1,
+    "dailyLastAuthorizedDate": "2026-11-19"
+  },
+  "baseline": {
+    "freshGitHubMain": "5bbe0330d7dcc04303b3beba6d044fbd5a15690f",
+    "tree": "ed75936b85732de04eebc182d3126bcd264fe56c",
+    "topics": 172,
+    "localizedURLs": 516,
+    "fullArticleSnapshotRead": true,
+    "cleanCloudCheckoutMatchesCurrentMain": true,
+    "previousPublicVerification": "2026-11-06T16:56:53.967936+00:00"
+  },
+  "cloud": {
+    "provider": "cloud",
+    "runtime": "connected/running/spec8",
+    "observationsCurrent": true,
+    "network": "unrestricted/enforced",
+    "desktopDependency": false,
+    "actualCloudflareRead": {
+      "project": "fansgta",
+      "canonicalDeployment": "67689ea1-d31f-4069-9860-2f821e35a058",
+      "commit": "71d7bd07db84b68af519ff34f54a1bd61b243603",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-06T16:56:10.574024Z",
+        "ended_on": "2026-11-06T16:56:30.777271Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    },
+    "futureAvailability": "This run establishes access at execution time, not a guarantee of future executor or connection availability."
+  },
+  "newTopics": [
+    {
+      "id": "gta6-pilot-flight-art-20261106",
+      "category": "news",
+      "published": "2026-11-06",
+      "titles": [
+        "GTA 6: un piloto dibuja el logo con un vuelo de ocho horas",
+        "GTA 6: a pilot draws the logo with an eight-hour flight",
+        "GTA 6 : un pilote dessine le logo avec huit heures de vol"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+        "/en/news/gta-6-pilot-flight-path-art-eight-hours/",
+        "/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/"
+      ]
+    }
+  ],
+  "research": {
+    "topic": "Benjamin McDaniel / Pilot Picasso used a real aircraft flight path to create GTA VI artwork. This is a community artwork story, not a Rockstar gameplay or sponsored-campaign announcement.",
+    "sourceChecks": [
+      {
+        "key": "ign",
+        "url": "https://www.ign.com/articles/pilot-draws-incredible-gta-6-mural-with-his-flight-path",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "key": "beebom",
+        "url": "https://beebom.com/gta-6-pilot-fan-creates-sky-tribute-ahead-of-launch/",
+        "status": 200,
+        "bytes": 150512,
+        "sha256": "2ba37f0798c48a44ee6538710e1a12ce32af3700dd2901409d108315bc0c366e",
+        "dates": [
+          "2026-11-06T11:25:25+05:30"
+        ]
+      },
+      {
+        "key": "aeroin",
+        "url": "https://aeroin.net/piloto-homenageia-gta-vi-com-voo-de-oito-horas-e-desenha-logotipo-do-jogo-no-ceu-dos-estados-unidos/",
+        "error": "HTTP Error 307: Temporary Redirect"
+      },
+      {
+        "key": "outerspace",
+        "url": "https://www.outerspace.com.br/piloto-voa-por-oito-horas-e-desenha-arte-de-gta-vi-pelo-gps-de-aviao/",
+        "status": 200,
+        "bytes": 83374,
+        "sha256": "106e88c5ffe59e3c53b63a895d8954bbaadb488306b08e54def7db603b25e4a1",
+        "dates": [
+          "2026-11-06T18:43:57+00:00"
+        ]
+      },
+      {
+        "key": "flight-record",
+        "url": "https://www.flightradar24.com/data/aircraft/n1810r",
+        "status": 200,
+        "bytes": 68221,
+        "sha256": "ebfaa2d0c69cfc59e60ce7c8eebf83d650c3d1adae67cfc36dc75abea22376f6"
+      },
+      {
+        "key": "fr24-post",
+        "url": "https://x.com/flightradar24/status/2118519341645709701",
+        "status": 200,
+        "bytes": 137034,
+        "sha256": "bc3617243f1d1a7dbabf825621f3e0b5b90790b36e1a683ae7671cdf84e5d92a"
+      },
+      {
+        "key": "airnav-post",
+        "url": "https://www.reddit.com/r/airnavradarcom/comments/1xoyw8f/gta_vi_fever_has_officially_reached_the_skies/.json",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "key": "fr24-profile",
+        "url": "https://www.flightradar24.com/blog/flight-tracking-news/just-for-fun/the-intricate-sky-art-of-benjamin-mcdaniel-and-n1810r/",
+        "status": 200,
+        "bytes": 341252,
+        "sha256": "2e379df7849fedc5b5b12b93dc479a73e848a6e70fdf1b74a1bd74a8187ad835",
+        "dates": [
+          "2026-10-15T03:54:16+00:00"
+        ],
+        "downloadAndShare": false,
+        "date19": false
+      },
+      {
+        "key": "official",
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "bytes": 1240905,
+        "sha256": "bb633bb7056442d9b4f1be5f570caf1e6b8282bed085e4a8cb033ce9713037fb",
+        "dates": [],
+        "downloadAndShare": true,
+        "date19": true
+      },
+      {
+        "key": "media",
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "bytes": 814420,
+        "sha256": "afbc7847909c2943ab74aeeddecdda18fe71a32b4f48245ca342cb5708c7eb17",
+        "dates": [],
+        "downloadAndShare": true,
+        "date19": false
+      }
+    ],
+    "freshness": "Historical flight row: November 5, 2026. Flightradar24 X post visible date: November 6, 2026 (timezone of displayed clock not established). Beebom JSON-LD 2026-11-06T11:25:25+05:30. Outer Space JSON-LD 2026-11-06T18:43:57+00:00, later than the previous verified publication at 16:56:53 UTC. Artist profile updated October 15; explicitly background, not a fresh GTA VI announcement.",
+    "primaryEvidence": "Historical Flightradar24 row has Bentonville departure/arrival, November 5 and duration 8:08; the X post credits @thepilotpicasso and links the matching aircraft history. Its linked map image was visually inspected: Grand Theft Auto VI lettering, palm, helicopter, woman with pistol, car and alligator. Those are plotted historical track lines, not smoke writing visible all at once from the ground.",
+    "identity": "The October 15 Flightradar24 profile identifies Benjamin McDaniel as Pilot Picasso and describes the 1978 Cessna R182 Skylane RG. Only the historical art flight is reported; no live location or coordinates reproduced.",
+    "accessLimits": "Web search service could not retrieve the X post, but a normal authenticated-environment HTTPS request to the public original returned 200 without alternative proxy, identity or TLS bypass. Reddit JSON returned 403; its relative timestamps were not used. IGN full text was not verified and is not used as article evidence. No subscriptions, trials, purchases or logins activated.",
+    "dedup": {
+      "method": "Read every full Article object, all localized titles, body, sections and inventory records. Compare intent of real-world flight art with flight gameplay, screenshot gallery and release-schedule coverage.",
+      "comparedTopics": 172,
+      "comparedLocalizedVersions": 516,
+      "equivalentArticle": null,
+      "relatedExistingIds": [
+        "gta6-interest-parachuting-20261031",
+        "gta6-launch-gallery-20261105",
+        "gta-6-19-november-2026"
+      ],
+      "decision": "One new report, three complete localized versions; preserve all previous objects and URLs."
+    },
+    "officialSchedule": "Rockstar VI HTTP 200: November 19, 2026, PS5 and Xbox Series X|S; digital preload November 10. No new release or mechanics claim is inferred from flight art.",
+    "sponsorship": "No verified Rockstar commission, sponsorship or advertising contract. Do not assert either an official campaign or definitively unpaid independent work.",
+    "editorialReview": "Original prose in all three languages; matching dates, sources and distinctions. No copied quote or entire press text published. Real flight vs game screenshot and map drawing vs physical smoke writing explicitly distinguished."
+  },
+  "interest": [
+    {
+      "query": "gta 6 pilot",
+      "status": 200,
+      "suggestions": [
+        "gta 6 pilot",
+        "gta 6 pilot 1970",
+        "gta 6 helicopter pilot",
+        "gta 6 twenty one pilots",
+        "pilot 1970 gta 6",
+        "grand theft auto 6 requirements",
+        "gta 6 rating",
+        "can you be a cop in gta 6",
+        "gta 5 flight school not showing up"
+      ]
+    },
+    {
+      "query": "gta 6 flight radar",
+      "status": 200,
+      "suggestions": [
+        "gta 6 flight radar",
+        "how far can you fly in gta 5",
+        "can you fly in gta 5"
+      ]
+    },
+    {
+      "query": "gta 6 sky art",
+      "status": 200,
+      "suggestions": [
+        "gta 6 sky art"
+      ]
+    }
+  ],
+  "interestLimits": "Current coverage by the tracker and November 6 press is a qualitative interest signal. Autocomplete was checked, but flight radar and sky art returned only the query; pilot suggestions include unrelated intents. No search volume, ranking, most-searched assertion, guaranteed audience or Google position.",
+  "media": {
+    "checks": [
+      {
+        "key": "hero",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "bytes": 475961,
+        "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8"
+      },
+      {
+        "key": "leonida-keys",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "bytes": 846989,
+        "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1"
+      }
+    ],
+    "inspection": "Existing unedited hero: official Jason/Lucia/car/palms artwork. Existing leonida-keys: seaplane over islands and bridge. Both visually inspected in cloud.",
+    "reuse": "Rockstar Media Download and share wording and original source URLs rechecked HTTP 200. Copyright reserved; contextual attributed editorial use, not an unrestricted licence. Source links/credit and localized captions/alt preserved. No AI, mods, leaks, GTA V or decorative edited hero layers.",
+    "thirdPartyImage": "The original flight-route map image was inspected read-only and linked at its original post, not republished because independent reuse permission was not established.",
+    "optimization": "Reuse existing WebP/responsive variants and image credits; eager high-priority cover, lazy contextual inline image with reserved dimensions."
+  },
+  "checks": {
+    "build": "npm run build:release passed: 173 topics, 519 versions and 562 generated routes.",
+    "static": "node scripts/verify-static.mjs passed: 563 HTML files, 25,218 internal links and 1,100 structured-data blocks.",
+    "browser": {
+      "result": "6 passed in 12.2 seconds",
+      "coverage": "One topic × three locales × desktop/mobile. Full content; two decoded official images with translated alt/caption/credit and responsive srcsets; canonical/hreflang, metadata, JSON-LD dates/citations; localized internal links HTTP 200; actual language-selector navigation; sitemap and archives; no horizontal overflow or JavaScript exceptions; single AdSense and Social Bar; GA4 absent before consent. Representative desktop/mobile screenshots visually inspected.",
+      "scope": "Provider SDKs stubbed for content/navigation checks, not proof of creative delivery."
+    },
+    "public": "pending deployment"
+  },
+  "preservation": {
+    "existingCompleteArticlesPreserved": 172,
+    "existingInventoryRecordsPreserved": 172,
+    "totalTopics": 173,
+    "totalLocalizedURLs": 519,
+    "newTopics": [
+      {
+        "id": "gta6-pilot-flight-art-20261106",
+        "category": "news",
+        "published": "2026-11-06",
+        "titles": [
+          "GTA 6: un piloto dibuja el logo con un vuelo de ocho horas",
+          "GTA 6: a pilot draws the logo with an eight-hour flight",
+          "GTA 6 : un pilote dessine le logo avec huit heures de vol"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+          "/en/news/gta-6-pilot-flight-path-art-eight-hours/",
+          "/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/"
+        ]
+      }
+    ],
+    "clientAssetsUnchanged": {
+      "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+    },
+    "existingMediaCreditsPreserved": 76
+  }
+}
