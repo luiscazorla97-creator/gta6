@@ -1,0 +1,975 @@
+{
+  "status": "checked-ready-to-publish",
+  "date": "2026-11-06",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-06T22:47:52.022711+00:00",
+  "scope": {
+    "manualTopics": 5,
+    "localizedVersions": 15,
+    "dailyScheduleChanged": false,
+    "dailyTopicLimit": 1,
+    "dailyLastAuthorizedDate": "2026-11-19"
+  },
+  "baseline": {
+    "freshGitHubMain": "ab945d4c4bf424fe61ba7479b350296a314e830c",
+    "tree": "bb162adc7b6e2222bbd6f85eba202e26505cbb45",
+    "topics": 173,
+    "localizedURLs": 519,
+    "fullArticleSnapshotRead": true,
+    "cleanCloudCheckoutMatchesCurrentMain": true
+  },
+  "cloud": {
+    "provider": "cloud",
+    "runtime": "connected/running/spec8",
+    "observationsCurrent": true,
+    "network": "unrestricted/enforced",
+    "desktopDependency": false,
+    "actualCloudflareRead": {
+      "project": "fansgta",
+      "canonicalDeployment": "4e8fce71-0b6e-40db-acd9-77763a52e5e1",
+      "commit": "216a796427b53a9b4c67f11a8a62b87e7a1fa5f1",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-06T22:21:00.650472Z",
+        "ended_on": "2026-11-06T22:21:19.183971Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    }
+  },
+  "newTopics": [
+    {
+      "id": "gta6-series-s-performance-guide-20261106",
+      "category": "guides",
+      "published": "2026-11-06",
+      "titles": [
+        "GTA 6 en Xbox Series S: FPS, resolución y cómo prepararla",
+        "GTA 6 on Xbox Series S: FPS, resolution and launch setup",
+        "GTA 6 sur Xbox Series S : FPS, résolution et préparation"
+      ],
+      "paths": [
+        "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+        "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+        "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/"
+      ]
+    },
+    {
+      "id": "gta6-steam-deck-compatibility-20261106",
+      "category": "guides",
+      "published": "2026-11-06",
+      "titles": [
+        "GTA 6 en Steam Deck: compatibilidad, OLED y versión de PC",
+        "GTA 6 on Steam Deck: compatibility, OLED and the PC version",
+        "GTA 6 sur Steam Deck : compatibilité, OLED et version PC"
+      ],
+      "paths": [
+        "/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+        "/en/guides/gta-6-steam-deck-oled-compatibility-pc/",
+        "/fr/guides/gta-6-steam-deck-oled-compatibilite-pc/"
+      ]
+    },
+    {
+      "id": "gta6-photo-mode-previews-captures-20261106",
+      "category": "guides",
+      "published": "2026-11-06",
+      "titles": [
+        "Modo foto de GTA 6: avances y capturas en PS5 y Xbox",
+        "GTA 6 photo mode: previews and screenshots on PS5 and Xbox",
+        "Mode photo GTA 6 : aperçus et captures sur PS5 et Xbox"
+      ],
+      "paths": [
+        "/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+        "/en/guides/gta-6-photo-mode-previews-screenshots-ps5-xbox/",
+        "/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/"
+      ]
+    },
+    {
+      "id": "gta6-hdr-display-calibration-20261106",
+      "category": "guides",
+      "published": "2026-11-06",
+      "titles": [
+        "HDR para GTA 6: cómo preparar la imagen en PS5 y Xbox",
+        "GTA 6 HDR: how to prepare your picture on PS5 and Xbox",
+        "HDR pour GTA 6 : préparer l’image sur PS5 et Xbox"
+      ],
+      "paths": [
+        "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+        "/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+        "/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/"
+      ]
+    },
+    {
+      "id": "gta6-accessibility-console-preparation-20261106",
+      "category": "guides",
+      "published": "2026-11-06",
+      "titles": [
+        "Accesibilidad de GTA 6: subtítulos, controles y opciones",
+        "GTA 6 accessibility: subtitles, controls and console options",
+        "Accessibilité GTA 6 : sous-titres, commandes et options"
+      ],
+      "paths": [
+        "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+        "/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+        "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/"
+      ]
+    }
+  ],
+  "dedup": {
+    "method": "Read all inventory records and inspect full Article objects, including all three bodies and every paragraph. Compare question and search intent, not just title; inspect platform, PC, phone, gallery, FPS, language, HUD and preparation neighbours.",
+    "comparedTopics": 173,
+    "comparedVersions": 519,
+    "decisions": {
+      "gta6-series-s-performance-guide-20261106": {
+        "intent": "Series S-specific compatibility, FPS/resolution evidence and model-specific digital launch preparation.",
+        "related": [
+          "gta-6-ps5-xbox",
+          "gta6-xbox-storage-20261101",
+          "gta6-ps5-pro-fps-deep-20261029"
+        ],
+        "difference": "Existing platform page lists console families; storage guide addresses drives; PS5 Pro guide concerns a different model. No Series S-specific guide exists."
+      },
+      "gta6-steam-deck-compatibility-20261106": {
+        "intent": "Steam Deck/OLED local compatibility, Deck Verified meaning and distinction from remote streaming.",
+        "related": [
+          "gta6-pc-q1-2027-report-2026-10-28",
+          "gta6-mobile-remote-20261101"
+        ],
+        "difference": "Full catalogue contains no Steam Deck mention; PC date rumour and phone Remote Play serve different queries. Neither is re-dated or republished."
+      },
+      "gta6-photo-mode-previews-captures-20261106": {
+        "intent": "Photo-mode preview attribution, distinction from phone/editor and practical console capture tools with visual composition examples.",
+        "related": [
+          "gta6-interest-phone-20261031",
+          "gta6-launch-gallery-20261105"
+        ],
+        "difference": "Phone guide has one paragraph separating camera/photo/social concepts; gallery reports image release. Neither provides this source/capture workflow. This guide links both without repeating their full intent."
+      },
+      "gta6-hdr-display-calibration-20261106": {
+        "intent": "HDR/display preparation and official PS5/Xbox calibration rather than game benchmarks or invented brightness presets.",
+        "related": [
+          "gta6-ps5-pro-fps-deep-20261029",
+          "ps5-features-2026-10-28"
+        ],
+        "difference": "No existing article body has a standalone HDR term. FPS/performance and console-feature reports do not explain HDR calibration. Night/day game imagery explicitly not a calibration pattern."
+      },
+      "gta6-accessibility-console-preparation-20261106": {
+        "intent": "Prepare console accessibility, distinguish game subtitles/controls from system tools and evaluate needs with a practical matrix.",
+        "related": [
+          "gta6-languages-20261031",
+          "gta6-hud-20261101",
+          "gta6-interest-combat-20261031"
+        ],
+        "difference": "Language list, HUD/minimap and combat mechanics do not provide a console accessibility setup guide. No equivalent full article or localized version exists."
+      }
+    }
+  },
+  "search": {
+    "autocomplete": {
+      "checkedAt": "2026-11-06T22:39:28.847484+00:00",
+      "results": [
+        {
+          "language": "en",
+          "query": "gta 6 xbox series s",
+          "status": 200,
+          "suggestions": [
+            "gta 6 xbox series s",
+            "gta 6 xbox series s performance",
+            "gta 6 xbox series s size",
+            "gta 6 xbox series s release date",
+            "gta 6 xbox series s fps",
+            "gta 6 xbox series s price",
+            "gta 6 xbox series s pre order",
+            "gta 6 xbox series s vs x",
+            "gta 6 xbox series s reddit",
+            "gta 6 xbox series s vs ps5"
+          ]
+        },
+        {
+          "language": "en",
+          "query": "gta 6 steam deck",
+          "status": 200,
+          "suggestions": [
+            "gta 6 steam deck",
+            "gta 6 steam deck reddit",
+            "gta 6 steam deck oled",
+            "gta 6 steam deck release date",
+            "gta 6 steam deck 2",
+            "gta 6 release steam deck",
+            "grand theft auto 6 steam deck",
+            "is gta 6 steam deck compatible",
+            "gta 6 run on steam deck",
+            "gta 6 pre order steam deck"
+          ]
+        },
+        {
+          "language": "en",
+          "query": "gta 6 accessibility",
+          "status": 200,
+          "suggestions": [
+            "gta 6 accessibility",
+            "gta 6 accessibility settings",
+            "gta 6 accessibility features",
+            "gta 6 accessible buildings",
+            "gta 6 access to cancer patient",
+            "gta 6 access denied",
+            "gta 6 access code",
+            "gta 6 accessible interiors"
+          ]
+        },
+        {
+          "language": "en",
+          "query": "gta 6 boats",
+          "status": 200,
+          "suggestions": [
+            "gta 6 boats",
+            "gta 6 boats reddit",
+            "gta 6 boat leak",
+            "gta 6 boat scene",
+            "gta 6 boat screenshot",
+            "gta 6 boat night",
+            "gta 6 boat night leak",
+            "gta 6 boat customization",
+            "gta 6 boat michael",
+            "gta 6 boat trailer"
+          ]
+        },
+        {
+          "language": "en",
+          "query": "gta 6 rockstar account",
+          "status": 200,
+          "suggestions": [
+            "gta 6 rockstar social club",
+            "is rockstar working on gta 6",
+            "has rockstar said anything about gta 6",
+            "is rockstar taking too long with gta 6",
+            "do you need a rockstar account to play gta online"
+          ]
+        },
+        {
+          "language": "en",
+          "query": "gta 6 new game plus",
+          "status": 200,
+          "suggestions": [
+            "gta 6 new game plus",
+            "will gta 6 have new game plus",
+            "does gta 5 have new game plus",
+            "does gears 5 have new game plus",
+            "wann kommt gta 6",
+            "how does new game plus work"
+          ]
+        },
+        {
+          "language": "es",
+          "query": "gta 6 xbox series s",
+          "status": 200,
+          "suggestions": [
+            "gta 6 xbox series s",
+            "gta 6 xbox series s precio",
+            "gta 6 xbox series s rendimiento",
+            "gta 6 xbox series s fps",
+            "gta 6 xbox series s digital",
+            "gta 6 xbox series s peso",
+            "gta 6 xbox series s reddit",
+            "gta 6 xbox series s fisico",
+            "gta 6 xbox series s ultimate edition",
+            "gta 6 xbox series s performance"
+          ]
+        },
+        {
+          "language": "es",
+          "query": "gta 6 steam deck",
+          "status": 200,
+          "suggestions": [
+            "gta 6 steam deck",
+            "reddit gta 6 steam deck",
+            "gta 6 steam deck oled",
+            "gta 6 steam deck 2",
+            "gta 6 steam deck release date",
+            "gta 6 release steam deck",
+            "gta 6 para steam deck",
+            "gta 6 saldra para steam deck",
+            "la steam deck correra gta 6",
+            "gta 6 run on steam deck"
+          ]
+        },
+        {
+          "language": "es",
+          "query": "gta 6 accesibilidad",
+          "status": 200,
+          "suggestions": []
+        },
+        {
+          "language": "es",
+          "query": "gta 6 barcos",
+          "status": 200,
+          "suggestions": [
+            "gta 6 barcos"
+          ]
+        },
+        {
+          "language": "es",
+          "query": "gta 6 cuenta rockstar",
+          "status": 200,
+          "suggestions": []
+        },
+        {
+          "language": "es",
+          "query": "gta 6 nueva partida plus",
+          "status": 200,
+          "suggestions": []
+        },
+        {
+          "language": "fr",
+          "query": "gta 6 xbox series s",
+          "status": 200,
+          "suggestions": [
+            "gta 6 xbox series s",
+            "gta 6 xbox series s performance",
+            "gta 6 xbox series s leclerc",
+            "gta 6 xbox series s fps",
+            "gta 6 xbox series s precommande",
+            "gta 6 xbox series s auchan",
+            "gta 6 xbox series s ultimate",
+            "gta 6 xbox series s carrefour",
+            "gta 6 xbox series s reddit",
+            "gta 6 xbox series s instant gaming"
+          ]
+        },
+        {
+          "language": "fr",
+          "query": "gta 6 steam deck",
+          "status": 200,
+          "suggestions": [
+            "gta 6 steam deck",
+            "gta 6 steam deck oled",
+            "gta 6 steam deck 2",
+            "gta 6 steam deck reddit",
+            "gta 6 steam deck release date",
+            "gta iv steam deck offline",
+            "gta iv steam deck proton",
+            "gta iv steam deck anti aliasing",
+            "grand theft auto 6 steam deck",
+            "gta iv steam deck"
+          ]
+        },
+        {
+          "language": "fr",
+          "query": "gta 6 accessibilité",
+          "status": 200,
+          "suggestions": [
+            "gta 6 accès anticipé",
+            "gta 6 accessible buildings",
+            "gta 6 accessibility",
+            "gta 6 accessibility settings",
+            "gta 6 accessibility features",
+            "gta 6 accessible interiors",
+            "gta vi accessibility",
+            "gta vi accessible buildings"
+          ]
+        },
+        {
+          "language": "fr",
+          "query": "gta 6 bateaux",
+          "status": 200,
+          "suggestions": [
+            "gta 6 bateau"
+          ]
+        },
+        {
+          "language": "fr",
+          "query": "gta 6 compte rockstar",
+          "status": 200,
+          "suggestions": []
+        },
+        {
+          "language": "fr",
+          "query": "gta 6 nouvelle partie plus",
+          "status": 200,
+          "suggestions": []
+        }
+      ]
+    },
+    "additionalAutocomplete": [
+      {
+        "language": "en",
+        "query": "gta 6 photo mode",
+        "status": 200,
+        "suggestions": [
+          "gta 6 photo mode",
+          "will gta 6 have photo mode",
+          "does gta 6 have photo mode",
+          "does gta 5 have a photo mode",
+          "is there a photo mode in gta 5",
+          "how gta 6 will look like",
+          "what will gta 6 graphics look like",
+          "does gta 6 have a trailer"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 difficulty",
+        "status": 200,
+        "suggestions": [
+          "gta 6 difficulty settings",
+          "gta 6 difficulty",
+          "gta 6 difficulty levels",
+          "gta 6 platinum difficulty",
+          "will gta 6 have difficulty settings",
+          "does gta 6 have difficulty settings",
+          "will gta 6 have difficulty levels",
+          "why is gta 6 taking so long",
+          "why so long for gta 6"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 demo",
+        "status": 200,
+        "suggestions": [
+          "gta 6 demo",
+          "gta 6 demo release date",
+          "gta 6 demo gameplay",
+          "gta 6 demo ps5",
+          "gta 6 demo download",
+          "gta 6 demo netflix",
+          "gta 6 demo play",
+          "gta 6 demo leak",
+          "gta 6 demo video",
+          "gta 6 demo reel leak"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 hdr",
+        "status": 200,
+        "suggestions": [
+          "gta 6 hdr",
+          "gta 6 hdr leaks",
+          "gta 6 hd wallpaper",
+          "gta 6 hdd size",
+          "gta 6 hd screenshots",
+          "gta 6 hd images",
+          "gta 6 hd space",
+          "gta 6 hd",
+          "gta 6 hdd requirements",
+          "gta 6 hd map"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 modo foto",
+        "status": 200,
+        "suggestions": [
+          "gta 6 tendra modo foto",
+          "modo foto gta 6",
+          "gta 6 vai ter modo foto"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 dificultad",
+        "status": 200,
+        "suggestions": [
+          "gta 6 dificultad"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 demo",
+        "status": 200,
+        "suggestions": [
+          "gta 6 demo",
+          "gta 6 demo pc",
+          "gta 6 demo ps5",
+          "gta 6 demo download",
+          "gta 6 demo launcher",
+          "gta 6 demo game",
+          "gta 6 demo steam",
+          "gta 6 demora",
+          "gta 6 demo release date",
+          "gta 6 demo leak"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 hdr",
+        "status": 200,
+        "suggestions": [
+          "gta 6 hdr",
+          "gta 6 hdr leaks",
+          "gta 6 hdr reddit",
+          "gta 6 hdr support",
+          "gta 6 trailer 4k hdr",
+          "gta 6 extended look no hdr",
+          "gta 6 4k hdr",
+          "gta 6 ps5 4k hdr gameplay",
+          "gta 6 extended look 4k hdr",
+          "gta 6 trailer hdr"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 mode photo",
+        "status": 200,
+        "suggestions": [
+          "gta 6 photo mode",
+          "gta iv photorealistic mod",
+          "gta iv photo mode",
+          "gta iv photo mod",
+          "will gta 6 have photo mode",
+          "does gta 6 have photo mode"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 difficulté",
+        "status": 200,
+        "suggestions": [
+          "gta 6 difficulty levels",
+          "gta 6 problème",
+          "gta vi difficulty",
+          "gta 6 difficulty settings",
+          "gta 6 probleme ps5",
+          "gta 6 trouble",
+          "grand theft auto 6 difficulty settings"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 demo",
+        "status": 200,
+        "suggestions": [
+          "gta 6 demo",
+          "gta 6 demo ps5",
+          "gta 6 demonstration",
+          "gta 6 demo pc",
+          "gta 6 demo release date",
+          "gta 6 demo download",
+          "gta 6 demo xbox",
+          "gta 6 demo netflix",
+          "gta 6 demo leak",
+          "gta 6 demo reel"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 hdr",
+        "status": 200,
+        "suggestions": [
+          "gta 6 hdr",
+          "gta 6 hdr leak",
+          "gta 6 hdr reddit",
+          "gta 6 hdr support",
+          "grand theft auto iv hdr",
+          "gta 6 4k hdr",
+          "gta 6 trailer hdr",
+          "gta 6 leak hdr reddit",
+          "gta 6 extended look hdr",
+          "gta 6 launch trailer hdr"
+        ]
+      }
+    ],
+    "trends": {
+      "url": "https://trends.google.com/trends/api/explore?hl=en-US&tz=300&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22gta+6+xbox+series+s%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22gta+6+steam+deck%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22gta+6+photo+mode%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22gta+6+accessibility%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22gta+6+hdr%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22now+7-d%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+      "error": "HTTP Error 429: Too Many Requests",
+      "noBypass": true
+    },
+    "limits": "Autocomplete language parameter hl=en/es/fr is not a country-volume dataset. Series S and Steam Deck have direct related suggestions in all three languages; photo-mode and HDR queries also return relevant suggestions. Accessibility has English and French signals, while the exact Spanish accessibility query returned none; Spanish/French search results provide current subtitle/accessibility discussions. Google Trends returned HTTP 429; no retry with another identity/proxy or bypass. No Search Console/Keyword Planner volume, ranking, most-searched status or top-ten outcome is claimed. Selection is based on qualitative demand and uncovered intent, not a proven top-five ranking."
+  },
+  "sources": [
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "finalURL": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "bytes": 1240905,
+      "sha256": "bb633bb7056442d9b4f1be5f570caf1e6b8282bed085e4a8cb033ce9713037fb",
+      "dates": [],
+      "textLength": 2393,
+      "heading": "Grand Theft Auto VI - Rockstar Games Skip to Main Content Homepage Pre-Order Now Expand Navigation Menu Pre-Load Begins November 10 Coming November 19, 2026 Coming Novemb"
+    },
+    {
+      "key": "platforms",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "finalURL": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+      "status": 200,
+      "bytes": 197972,
+      "sha256": "a721cd5f7875523e9fc1b5987b82455a174d76ecb13822556552a51f070e1eac",
+      "dates": [],
+      "textLength": 6183,
+      "heading": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support Browse Articles Current Article Grand Theft Auto VI Platforms, Editions, and Versi"
+    },
+    {
+      "key": "series-s",
+      "url": "https://www.xbox.com/en-US/consoles/xbox-series-s",
+      "finalURL": "https://www.xbox.com/en-US/consoles/xbox-series-s",
+      "status": 200,
+      "bytes": 633730,
+      "sha256": "c66033c2b56970197d10a8da5448a2c17816aa1d1c7c87f4e6d9196230891435",
+      "dates": [],
+      "textLength": 14116,
+      "heading": "XBOX Series S | XBOX Skip to main content Join Game Pass Browse Games Deals with Game Pass XBOX Cloud Gaming Games home Shop all console games Shop all PC games Cloud gam"
+    },
+    {
+      "key": "steam-rockstar",
+      "url": "https://support.rockstargames.com/articles/5lCh0LXQGyy83ggIrWLxuA/support-for-rockstar-games-titles-on-steam-deck",
+      "finalURL": "https://support.rockstargames.com/articles/5lCh0LXQGyy83ggIrWLxuA/support-for-rockstar-games-titles-on-steam-deck",
+      "status": 200,
+      "bytes": 163826,
+      "sha256": "4bd1764942282769f2d5a1e2e71a8349ac1c9fba94fe6da9dd2544279b6c5987",
+      "dates": [],
+      "textLength": 1067,
+      "heading": "Support for Rockstar Games titles on Steam Deck - Rockstar Games Customer Support Browse Articles Current Article Support for Rockstar Games titles on Steam Deck Last Upd"
+    },
+    {
+      "key": "steam-verified",
+      "url": "https://www.steamdeck.com/en/verified",
+      "finalURL": "https://www.steamdeck.com/en/verified",
+      "status": 200,
+      "bytes": 42334,
+      "sha256": "7cb472c6544fb417ed8c7e5aee9174c9ac30b70c61ebdd2215623da50ebe124e",
+      "dates": [],
+      "textLength": 4527,
+      "heading": "Steam Deck :: Deck Verified Steam Deck OLED Steam Deck LCD Dock Software Deck Verified Tech Specs Buy Now Change language English Español - España (Spanish - Spain) Franç"
+    },
+    {
+      "key": "steam-faq",
+      "url": "https://www.steamdeck.com/en/faq",
+      "finalURL": "https://www.steamdeck.com/en/faq",
+      "status": 200,
+      "bytes": 26761,
+      "sha256": "394f8236c9f889fb03b883e74d02ba3d55621b6a34920d3d78497800a44c42ec",
+      "dates": [],
+      "textLength": 4436,
+      "heading": "Steam Deck :: FAQ Steam Deck OLED Steam Deck LCD Dock Software Deck Verified Tech Specs Buy Now Change language English Español - España (Spanish - Spain) Français (Frenc"
+    },
+    {
+      "key": "photo-preview",
+      "url": "https://exputer.com/news/games/gta-6-extended-look-new-gameplay-details/",
+      "finalURL": "https://exputer.com/news/games/gta-6-extended-look-new-gameplay-details/",
+      "status": 200,
+      "bytes": 360790,
+      "sha256": "2bb6e764be6099ec3fec86f09f631e3f5c48d57e7ab8209bd86c599b26c21bda",
+      "dates": [
+        "2026-08-28T12:44:46+00:00",
+        "2026-08-28T12:44:46+00:00",
+        "2026-08-28T12:44:46+00:00",
+        "2026-08-28T12:44:46+00:00"
+      ],
+      "textLength": 16823,
+      "heading": "GTA 6 News Roundup: Every Gameplay, Combat, And World Detail Confirmed - eXputer.com Menu Switch skin Search for Switch skin Community Facebook Twitter LinkedIn YouTube I"
+    },
+    {
+      "key": "photo-current",
+      "url": "https://comicbook.com/gaming/news/new-grand-theft-auto-6-screen-shots-just-before-launch/",
+      "finalURL": "https://comicbook.com/gaming/news/new-grand-theft-auto-6-screen-shots-just-before-launch/",
+      "status": 200,
+      "bytes": 305600,
+      "sha256": "1c8c805891a3800cf0f0e1e684f4be04eca2559667a36db9aa7a101089a6a339",
+      "dates": [
+        "2026-11-05T19:39:34+00:00",
+        "2026-11-05T19:39:39+00:00",
+        "2026-11-05T19:39:34+00:00",
+        "2026-11-05T19:39:39+00:00",
+        "2026-11-05T19:39:34Z",
+        "2026-11-05T19:39:39Z"
+      ],
+      "textLength": 6033,
+      "heading": "Grand Theft Auto 6's New Launch Screen Shots Have Strippers, Raves, Guns, and More Skip to content Open Menu Close Menu Comics Movies TV Gaming Anime Collectibles Forum F"
+    },
+    {
+      "key": "ps5-accessibility",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/",
+      "finalURL": "https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/",
+      "status": 200,
+      "bytes": 213729,
+      "sha256": "924228ea4c958069e98a8a4a4c274ab56821b15e8b431b2a1adc49e52bc02e48",
+      "dates": [],
+      "textLength": 11076,
+      "heading": "How to use accessibility settings on PS5 consoles Support Home PlayStation Status Account & Security PS Store & Refunds Subscriptions Games Hardware & Repairs Online Safe"
+    },
+    {
+      "key": "ps5-hdr",
+      "url": "https://www.playstation.com/en-us/support/hardware/ps5-enable-adjust-hdr/",
+      "finalURL": "https://www.playstation.com/en-us/support/hardware/ps5-enable-adjust-hdr/",
+      "status": 200,
+      "bytes": 143503,
+      "sha256": "af3dea22ded16a5ccfd9926e752dd94c8d817b3bebdd41c77f105c01267bddce",
+      "dates": [],
+      "textLength": 3035,
+      "heading": "How to enable HDR on a PS5 console Support Home PlayStation Status Account & Security PS Store & Refunds Subscriptions Games Hardware & Repairs Online Safety Connectivity"
+    },
+    {
+      "key": "xbox-hdr",
+      "url": "https://support.xbox.com/en-US/help/hardware-network/display-sound/hdr-on-xbox-one",
+      "finalURL": "https://support.xbox.com/en-US/help/hardware-network/display-sound/hdr-on-xbox-one",
+      "status": 200,
+      "bytes": 2909,
+      "sha256": "99ddb0cffae26c8659416b53d3991a198a8765868dd734c8a66318ed4f01c542",
+      "dates": [],
+      "textLength": 59,
+      "heading": "XBOX Support You need to enable JavaScript to run this app."
+    },
+    {
+      "key": "xbox-tv",
+      "url": "https://news.xbox.com/en-us/2020/11/06/is-your-tv-ready-to-power-your-dreams/",
+      "finalURL": "https://news.xbox.com/en-us/2020/11/06/is-your-tv-ready-to-power-your-dreams/",
+      "status": 200,
+      "bytes": 96539,
+      "sha256": "e4fd51f0c0364502ef1511583aaf78edc425bc212752a48b85f49718013469e0",
+      "dates": [
+        "2020-11-06T15:00:47+00:00",
+        "2020-11-20T17:27:11+00:00",
+        "2020-11-06T15:00:47+00:00",
+        "2020-11-20T17:27:11+00:00",
+        "2020-11-06T07:00:47Z"
+      ],
+      "textLength": 14975,
+      "heading": "You're Ready to Power Your Dreams - Is Your TV? - XBOX Wire Skip to main content XBOX Join Game Pass Browse Games Deals with Game Pass XBOX Cloud Gaming Games home Shop a"
+    },
+    {
+      "key": "xbox-accessibility",
+      "url": "https://support.xbox.com/en-US/help/account-profile/accessibility/accessibility-settings",
+      "finalURL": "https://support.xbox.com/en-US/help/account-profile/accessibility/accessibility-settings",
+      "status": 200,
+      "bytes": 2909,
+      "sha256": "99ddb0cffae26c8659416b53d3991a198a8765868dd734c8a66318ed4f01c542",
+      "dates": [],
+      "textLength": 59,
+      "heading": "XBOX Support You need to enable JavaScript to run this app."
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "finalURL": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "bytes": 814420,
+      "sha256": "afbc7847909c2943ab74aeeddecdda18fe71a32b4f48245ca342cb5708c7eb17",
+      "dates": [],
+      "textLength": 2261,
+      "heading": "Grand Theft Auto VI - Rockstar Games Skip to Main Content Homepage Media Pre-Order Now Expand Navigation Menu Featured Videos Screenshots Artwork Explore Vice City and Be"
+    },
+    {
+      "key": "ps5-capture",
+      "url": "https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/",
+      "status": 200,
+      "bytes": 161883,
+      "sha256": "4568e910cbad379fcd2a0aa08f740341dbe587d447614a7cd0ed1a6921bd6e58",
+      "textLength": 5700
+    },
+    {
+      "key": "xbox-accessible-hub",
+      "url": "https://www.xbox.com/en-US/community/for-everyone/accessibility",
+      "status": 200,
+      "bytes": 442937,
+      "sha256": "85ca7e6745410bf1ac69f6d369bdbbce21868944ce18dee0ecaaba1fdb422318",
+      "textLength": 7500
+    },
+    {
+      "key": "xbox-share",
+      "url": "https://news.xbox.com/en-us/2020/09/21/new-xbox-app-beta-on-mobile/",
+      "status": 200,
+      "bytes": 93996,
+      "sha256": "4013d3e312f37d4f52bd9be823e2e23543bc0338383299388cd8c6bf6bd18752",
+      "dates": [
+        "2020-09-21T14:00:03+00:00",
+        "2020-09-21T14:00:03+00:00"
+      ]
+    },
+    {
+      "key": "xbox-colors",
+      "url": "https://news.xbox.com/en-us/2021/11/17/november-xbox-update/",
+      "status": 200,
+      "bytes": 98588,
+      "sha256": "c185300cbb9c194d1074540f0dcd0fae43e06e80d22abdcff544a5f03f83647b",
+      "dates": [
+        "2021-11-17T17:00:00+00:00",
+        "2021-11-17T17:00:00+00:00"
+      ]
+    }
+  ],
+  "attribution": {
+    "photoMode": "eXputer roundup dated 2026-08-28T12:44:46Z mentions a full photo mode. ComicBook dated 2026-11-05T19:39:34Z cites TGG and interprets photo studio mode. The text labels these third-party preview reports, not a new Rockstar announcement; original TGG playback/transcript was not checked. No menus, filters, free-camera controls, definitive Editor absence or launch test claimed. The five topics are current query-focused guides, not five invented November 6 news announcements.",
+    "officialState": "Rockstar official VI and platform FAQ re-read: PS5 and Xbox Series X|S, November 19, digital preload November 10 and up to 212 GB device-dependent. Series S inclusion differs from unverified Series S-specific resolution/FPS. No PC or Steam Deck launch claimed.",
+    "steamDeck": "Rockstar general Steam Deck support article March 8, 2024 is background, not GTA VI confirmation. Valve Verified review is per game. Streaming and local execution are distinguished; no install, Proton, Windows, emulator or performance guarantee invented.",
+    "consoleGuidance": "Sony current HDR, accessibility and capture documentation and Microsoft primary accessibility, console hardware and Xbox Wire articles checked directly. Older 2020/2021 Microsoft articles are technical background, not newly announced GTA VI features. Numeric brightness presets, final in-game accessibility menus and benchmarks are not fabricated.",
+    "accessLimits": "Xbox Support HDR/accessibility URLs returned HTTP 200 JS shells with only 59 visible characters; not treated as verified article text. Full Microsoft Xbox accessibility hub and official Xbox Wire pages supply the actual cited content. All requests use inherited proxy and configured TLS trust."
+  },
+  "media": {
+    "checks": [
+      {
+        "key": "hero",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 475961,
+        "contentType": "image/jpeg",
+        "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8"
+      },
+      {
+        "key": "jason",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 939665,
+        "contentType": "image/jpeg",
+        "sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba"
+      },
+      {
+        "key": "lucia",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 898033,
+        "contentType": "image/jpeg",
+        "sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c"
+      },
+      {
+        "key": "feature-launch-gallery-bridge",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1132950,
+        "contentType": "image/jpeg",
+        "sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1"
+      },
+      {
+        "key": "leonida-keys",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 846989,
+        "contentType": "image/jpeg",
+        "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1"
+      },
+      {
+        "key": "feature-mountain",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1274178,
+        "contentType": "image/jpeg",
+        "sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679"
+      },
+      {
+        "key": "region-leonida-keys-03",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_03.0v_3~-9ceyixc.jpg",
+        "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1118929,
+        "contentType": "image/jpeg",
+        "sha256": "f5cdaa8ccf1d74ba3011ac82aac2cb63dda342d6c5caabeedd54f18f84ac55d1"
+      }
+    ],
+    "inspection": "All seven existing unedited assets visually inspected: official hero, Vice City 27 bridge at dusk, Jason behind fence holding pistol, Lucia with headphones/gloves at weights, seaplane over Leonida Keys, Mount Kalaga road landscape and The Rusty Anchor bar.",
+    "reuse": "Official Rockstar Media HTTP 200 with Download and share wording rechecked. Copyright reserved, attributed contextual editorial use, no unrestricted licence. Official original URLs revalidated HTTP 200. No AI, mods, leaks, GTA V or decorative edited hero layers.",
+    "optimization": "Existing WebP/responsive variants, dimensions reserved, eager cover/lazy inline media, 2 images per article except photo guide with 3; total 11 credited figure placements per language. Translated descriptive alt/captions identify illustration limits. Original files and 76 credits remain unchanged."
+  },
+  "editorialReview": "Original complete ES/EN/FR guides with same facts, localized slugs/titles/excerpts, useful short mobile paragraphs, official support sources beside claims, distinct practical intents and internal links. No copied paragraphs, broad press-roundup reproduction, fake benchmarks, prices, final menu screenshots or rankings.",
+  "checks": {
+    "build": "npm run build:release passed: 178 topics, 534 localized versions, 577 generated routes.",
+    "static": "node scripts/verify-static.mjs passed: 578 HTML files, 25,857 internal links and 1,130 structured-data blocks.",
+    "browser": {
+      "result": "6 passed in 35.1 seconds",
+      "coverage": "Five topics × three locales × desktop/mobile = 30 article scenarios across six test cases. Complete headings/paragraphs/table cells; 2 or 3 decoded official images with translated alt/captions/credit and responsive srcsets; canonical/hreflang/meta, JSON-LD dates/citations; localized internal links HTTP 200; real language-selector navigation; sitemap and archives; no page exceptions or document overflow; single AdSense/Social Bar and GA4 absent before consent. Representative desktop/mobile screenshots visually inspected.",
+      "scope": "Provider SDKs stubbed for content/navigation, not advertising creative delivery."
+    },
+    "public": "pending deployment"
+  },
+  "preservation": {
+    "existingCompleteArticlesPreserved": 173,
+    "existingInventoryRecordsPreserved": 173,
+    "existingMediaCreditsPreserved": 76,
+    "totalTopics": 178,
+    "totalLocalizedURLs": 534,
+    "newTopics": [
+      {
+        "id": "gta6-series-s-performance-guide-20261106",
+        "category": "guides",
+        "published": "2026-11-06",
+        "titles": [
+          "GTA 6 en Xbox Series S: FPS, resolución y cómo prepararla",
+          "GTA 6 on Xbox Series S: FPS, resolution and launch setup",
+          "GTA 6 sur Xbox Series S : FPS, résolution et préparation"
+        ],
+        "paths": [
+          "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+          "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+          "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/"
+        ]
+      },
+      {
+        "id": "gta6-steam-deck-compatibility-20261106",
+        "category": "guides",
+        "published": "2026-11-06",
+        "titles": [
+          "GTA 6 en Steam Deck: compatibilidad, OLED y versión de PC",
+          "GTA 6 on Steam Deck: compatibility, OLED and the PC version",
+          "GTA 6 sur Steam Deck : compatibilité, OLED et version PC"
+        ],
+        "paths": [
+          "/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+          "/en/guides/gta-6-steam-deck-oled-compatibility-pc/",
+          "/fr/guides/gta-6-steam-deck-oled-compatibilite-pc/"
+        ]
+      },
+      {
+        "id": "gta6-photo-mode-previews-captures-20261106",
+        "category": "guides",
+        "published": "2026-11-06",
+        "titles": [
+          "Modo foto de GTA 6: avances y capturas en PS5 y Xbox",
+          "GTA 6 photo mode: previews and screenshots on PS5 and Xbox",
+          "Mode photo GTA 6 : aperçus et captures sur PS5 et Xbox"
+        ],
+        "paths": [
+          "/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+          "/en/guides/gta-6-photo-mode-previews-screenshots-ps5-xbox/",
+          "/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/"
+        ]
+      },
+      {
+        "id": "gta6-hdr-display-calibration-20261106",
+        "category": "guides",
+        "published": "2026-11-06",
+        "titles": [
+          "HDR para GTA 6: cómo preparar la imagen en PS5 y Xbox",
+          "GTA 6 HDR: how to prepare your picture on PS5 and Xbox",
+          "HDR pour GTA 6 : préparer l’image sur PS5 et Xbox"
+        ],
+        "paths": [
+          "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+          "/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+          "/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/"
+        ]
+      },
+      {
+        "id": "gta6-accessibility-console-preparation-20261106",
+        "category": "guides",
+        "published": "2026-11-06",
+        "titles": [
+          "Accesibilidad de GTA 6: subtítulos, controles y opciones",
+          "GTA 6 accessibility: subtitles, controls and console options",
+          "Accessibilité GTA 6 : sous-titres, commandes et options"
+        ],
+        "paths": [
+          "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+          "/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+          "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/"
+        ]
+      }
+    ],
+    "clientAssetsUnchanged": {
+      "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+    }
+  }
+}

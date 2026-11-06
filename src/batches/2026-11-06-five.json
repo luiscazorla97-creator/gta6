@@ -1,0 +1,1251 @@
+[
+  {
+    "id": "gta6-series-s-performance-guide-20261106",
+    "category": "guides",
+    "slug": [
+      "gta-6-xbox-series-s-fps-resolucion-preparacion",
+      "gta-6-xbox-series-s-fps-resolution-setup",
+      "gta-6-xbox-series-s-fps-resolution-preparation"
+    ],
+    "title": [
+      "GTA 6 en Xbox Series S: FPS, resolución y cómo prepararla",
+      "GTA 6 on Xbox Series S: FPS, resolution and launch setup",
+      "GTA 6 sur Xbox Series S : FPS, résolution et préparation"
+    ],
+    "excerpt": [
+      "GTA 6 llega a Xbox Series S. Qué está confirmado, qué falta sobre FPS y resolución y cómo revisar tu edición, almacenamiento y descarga antes del estreno.",
+      "GTA 6 is coming to Xbox Series S. What is confirmed, what remains unknown about FPS and resolution, and how to check your edition, storage and download.",
+      "GTA 6 arrive sur Xbox Series S. Les faits confirmés, les inconnues sur les FPS et la résolution, et les vérifications utiles avant la sortie."
+    ],
+    "tag": [
+      "XBOX SERIES S · GUÍA",
+      "XBOX SERIES S · GUIDE",
+      "XBOX SERIES S · GUIDE"
+    ],
+    "image": "feature-launch-gallery-bridge",
+    "imageAlt": [
+      "Puente levadizo y edificios iluminados de Vice City al anochecer en GTA VI",
+      "A drawbridge and illuminated Vice City buildings at dusk in GTA VI",
+      "Pont levant et immeubles éclairés de Vice City au crépuscule dans GTA VI"
+    ],
+    "imageCaption": [
+      "Captura oficial de Vice City. No está identificada como una prueba de Xbox Series S y no permite medir sus FPS o resolución.",
+      "Official Vice City screenshot. It is not identified as an Xbox Series S test and cannot establish that console’s FPS or resolution.",
+      "Capture officielle de Vice City. Elle n’est pas présentée comme un test Series S et ne permet pas d’en mesurer les FPS ou la résolution."
+    ],
+    "imageCredit": {
+      "label": "Rockstar Games — GTA VI Launch Gallery",
+      "url": "https://www.rockstargames.com/VI/launch-gallery"
+    },
+    "body": [
+      "GTA 6 está anunciado para Xbox Series S: Rockstar incluye la familia Xbox Series X|S en el lanzamiento del 19 de noviembre de 2026. Lo que no está detallado en las fuentes oficiales consultadas el 6 de noviembre es su resolución, sus FPS o sus modos gráficos específicos. Esta guía explica qué puede preparar un propietario de Series S sin convertir las especificaciones de la consola en resultados del juego.",
+      "GTA 6 is announced for Xbox Series S: Rockstar includes the Xbox Series X|S family in the November 19, 2026 launch. The official sources checked on November 6 do not detail Series S resolution, frame rate or graphics modes. This guide explains what Series S owners can prepare without mistaking console specifications for measured game performance.",
+      "GTA 6 est annoncé sur Xbox Series S : Rockstar inclut la famille Xbox Series X|S dans la sortie du 19 novembre 2026. Les sources officielles consultées le 6 novembre ne détaillent pas la résolution, les FPS ni les modes graphiques propres à la Series S. Voici ce que ses propriétaires peuvent préparer sans confondre caractéristiques de la console et performances mesurées du jeu."
+    ],
+    "published": "2026-11-06",
+    "updated": "2026-11-06",
+    "sections": [
+      {
+        "heading": [
+          "¿GTA 6 sale en Series S o solo en Series X?",
+          "Is GTA 6 coming to Series S or only Series X?",
+          "GTA 6 sort-il sur Series S ou seulement sur Series X ?"
+        ],
+        "paragraphs": [
+          [
+            "GTA 6 está anunciado para Xbox Series S: Rockstar incluye la familia Xbox Series X|S en el lanzamiento del 19 de noviembre de 2026. Lo que no está detallado en las fuentes oficiales consultadas el 6 de noviembre es su resolución, sus FPS o sus modos gráficos específicos. Esta guía explica qué puede preparar un propietario de Series S sin convertir las especificaciones de la consola en resultados del juego.",
+            "GTA 6 is announced for Xbox Series S: Rockstar includes the Xbox Series X|S family in the November 19, 2026 launch. The official sources checked on November 6 do not detail Series S resolution, frame rate or graphics modes. This guide explains what Series S owners can prepare without mistaking console specifications for measured game performance.",
+            "GTA 6 est annoncé sur Xbox Series S : Rockstar inclut la famille Xbox Series X|S dans la sortie du 19 novembre 2026. Les sources officielles consultées le 6 novembre ne détaillent pas la résolution, les FPS ni les modes graphiques propres à la Series S. Voici ce que ses propriétaires peuvent préparer sans confondre caractéristiques de la console et performances mesurées du jeu."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          },
+          {
+            "label": "Rockstar Support — GTA VI platforms, editions and versions",
+            "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "FPS y resolución: qué cifras no debes confundir",
+          "FPS and resolution: which numbers mean different things",
+          "FPS et résolution : les chiffres à ne pas confondre"
+        ],
+        "paragraphs": [
+          [
+            "Microsoft describe Series S como una consola diseñada para jugar a 1440p con reescalado a 4K. Es una característica general del hardware, no una promesa de resolución nativa para GTA VI. Tampoco que una televisión acepte 120 Hz significa que el juego produzca 120 imágenes por segundo.",
+            "Microsoft describes Series S as designed for 1440p gaming with 4K upscaling. That is a general hardware specification, not a promise of native GTA VI resolution. A television accepting a 120 Hz signal also does not mean the game produces 120 frames per second.",
+            "Microsoft présente la Series S comme une console conçue pour jouer en 1440p avec mise à l’échelle 4K. Il s’agit du matériel, pas d’une promesse de résolution native pour GTA VI. De même, un téléviseur acceptant un signal 120 Hz ne prouve pas que le jeu produise 120 images par seconde."
+          ],
+          [
+            "Para evaluar el rendimiento hará falta una prueba que identifique Series S, versión del juego, parche y modo seleccionado. Una captura de PS5, un vídeo comprimido o la comparación con GTA V no sustituyen esos datos. No ofrecemos aquí mediciones propias ni un ajuste oculto que desbloquee 60 FPS.",
+            "A meaningful performance test must identify Series S, the game version, patch and selected mode. A PS5 screenshot, compressed video or comparison with GTA V cannot replace those details. We are not presenting our own benchmarks or a hidden setting that unlocks 60 FPS.",
+            "Une évaluation utile devra préciser Series S, version du jeu, mise à jour et mode choisi. Une capture PS5, une vidéo compressée ou une comparaison avec GTA V ne remplacent pas ces informations. Nous ne publions ni mesures personnelles ni réglage caché débloquant 60 FPS."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox — Xbox Series S specifications",
+            "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+          },
+          {
+            "label": "FansGTA — GTA 6 on PS5 Pro: 30 or 60 FPS and what remains unconfirmed",
+            "url": "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Edición digital y cajas con código en Series S",
+          "Digital editions and code-in-box copies on Series S",
+          "Éditions numériques et boîtes avec code sur Series S"
+        ],
+        "paragraphs": [
+          [
+            "Series S es una consola sin lector de discos. La FAQ de Rockstar indica además que la versión física de GTA VI contiene un código de descarga. Comprueba que el producto corresponda a Xbox, la edición correcta y la región de tu cuenta: una caja de PlayStation no concede una licencia para Series S.",
+            "Series S has no disc drive. Rockstar’s FAQ also states that GTA VI’s physical version contains a download code. Check the Xbox platform, correct edition and your account region: a PlayStation box does not grant a Series S licence.",
+            "La Series S ne possède pas de lecteur de disques. La FAQ Rockstar précise aussi que la version physique de GTA VI contient un code de téléchargement. Vérifiez la plateforme Xbox, l’édition et la région du compte : une boîte PlayStation ne donne pas de licence Series S."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox — Xbox Series S specifications",
+            "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+          },
+          {
+            "label": "Rockstar Support — GTA VI platforms, editions and versions",
+            "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Preparación en tres comprobaciones",
+          "Three checks before launch",
+          "Trois vérifications avant la sortie"
+        ],
+        "paragraphs": [
+          [
+            "1. Revisa tu pedido o biblioteca con el perfil que compró el juego. Tener el título instalado y disponer de su licencia son condiciones diferentes; conserva el recibo si necesitas aclarar la edición con la tienda.",
+            "1. Check your order or library using the purchasing profile. Having the title installed and holding its licence are separate requirements; keep the receipt if you need the retailer to clarify your edition.",
+            "1. Vérifiez la commande ou la bibliothèque avec le profil acheteur. Installer le titre et posséder sa licence sont deux conditions distinctes ; conservez le reçu pour toute vérification auprès du vendeur."
+          ],
+          [
+            "2. Consulta el espacio libre real, no solo la capacidad anunciada de 512 GB o 1 TB. Rockstar pide hasta 212 GB disponibles según el dispositivo. Nuestra guía de almacenamiento de Xbox explica dónde puede ejecutarse un juego Series X|S y qué sirve solo para guardar sus archivos.",
+            "2. Check actual free space rather than the advertised 512 GB or 1 TB capacity. Rockstar requires up to 212 GB available depending on the device. Our Xbox storage guide explains which storage can run a Series X|S game and which is suitable only for holding its files.",
+            "2. Regardez l’espace réellement libre, pas seulement les 512 Go ou 1 To annoncés. Rockstar demande jusqu’à 212 Go disponibles selon l’appareil. Notre guide du stockage Xbox distingue le support permettant d’exécuter un jeu Series X|S de celui servant uniquement à conserver ses fichiers."
+          ],
+          [
+            "3. Comprueba el calendario de precarga y el contador de tu compra. Descargar antes del estreno no adelanta la hora autorizada para jugar. Si buscas el horario de tu zona, usa la guía enlazada en lugar de cambiar de región por una promesa de acceso anticipado.",
+            "3. Check the preload schedule and your purchase countdown. Downloading before release does not advance the authorised playable time. For your local schedule, use the linked guide rather than changing regions because of an early-access promise.",
+            "3. Vérifiez le calendrier de préchargement et le compteur de votre achat. Télécharger avant la sortie n’avance pas l’heure autorisée pour jouer. Consultez le guide lié pour votre fuseau, plutôt que de changer de région sur une promesse d’accès anticipé."
+          ]
+        ],
+        "image": {
+          "key": "jason",
+          "alt": [
+            "Jason sostiene una pistola detrás de una valla con luces policiales al fondo en GTA VI",
+            "Jason holds a pistol behind a fence with police lights behind him in GTA VI",
+            "Jason tient un pistolet derrière un grillage, devant des gyrophares, dans GTA VI"
+          ],
+          "caption": [
+            "Imagen promocional oficial de Jason, incluida como contexto del juego. No es una captura de ajustes ni una comparación técnica entre consolas.",
+            "Official promotional image of Jason, providing game context. It is neither a settings screenshot nor a console benchmark.",
+            "Image promotionnelle officielle de Jason, pour le contexte du jeu. Ce n’est ni un écran de réglages ni un comparatif technique entre consoles."
+          ],
+          "credit": {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "Rockstar Support — GTA VI platforms, editions and versions",
+            "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+          },
+          {
+            "label": "FansGTA — GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+            "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/"
+          },
+          {
+            "label": "FansGTA — GTA 6 preload: start date, global times and up to 212 GB",
+            "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "¿Necesitas cambiar de consola para GTA 6?",
+          "Do you need a different console for GTA 6?",
+          "Faut-il changer de console pour GTA 6 ?"
+        ],
+        "paragraphs": [
+          [
+            "Si ya tienes Series S, su compatibilidad anunciada no exige comprar Series X. La decisión de cambiar por calidad de imagen o fluidez necesita comparativas específicas que respondan a tus prioridades. Mientras tanto, preparar cuenta, licencia y espacio aporta más que tratar una predicción de FPS como una obligación de compra.",
+            "If you already own Series S, its announced compatibility does not require buying Series X. Upgrading for image quality or smoothness calls for specific comparisons that address your priorities. Until then, preparing your account, licence and storage is more useful than treating a predicted FPS figure as a buying requirement.",
+            "Si vous possédez une Series S, la compatibilité annoncée n’impose pas d’acheter une Series X. Changer pour l’image ou la fluidité exige des comparatifs correspondant à vos priorités. En attendant, préparer compte, licence et stockage est plus utile que transformer une prédiction de FPS en obligation d’achat."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          },
+          {
+            "label": "Xbox — Xbox Series S specifications",
+            "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+          },
+          {
+            "label": "FansGTA — GTA 6 HDR: how to prepare your picture on PS5 and Xbox",
+            "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games — Grand Theft Auto VI",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "Rockstar Support — GTA VI platforms, editions and versions",
+        "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+      },
+      {
+        "label": "Xbox — Xbox Series S specifications",
+        "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Launch Gallery",
+        "url": "https://www.rockstargames.com/VI/launch-gallery"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Media",
+        "url": "https://www.rockstargames.com/VI/media"
+      }
+    ]
+  },
+  {
+    "id": "gta6-steam-deck-compatibility-20261106",
+    "category": "guides",
+    "slug": [
+      "gta-6-steam-deck-oled-compatibilidad-pc",
+      "gta-6-steam-deck-oled-compatibility-pc",
+      "gta-6-steam-deck-oled-compatibilite-pc"
+    ],
+    "title": [
+      "GTA 6 en Steam Deck: compatibilidad, OLED y versión de PC",
+      "GTA 6 on Steam Deck: compatibility, OLED and the PC version",
+      "GTA 6 sur Steam Deck : compatibilité, OLED et version PC"
+    ],
+    "excerpt": [
+      "¿GTA 6 funcionará en Steam Deck u OLED? Estado oficial, qué significa Deck Verified y por qué una versión de PC o el juego remoto son cosas diferentes.",
+      "Will GTA 6 run on Steam Deck or OLED? The official status, what Deck Verified means, and how a PC release differs from streaming a console game.",
+      "GTA 6 fonctionnera-t-il sur Steam Deck ou OLED ? Annonces, label Deck Verified et différences entre version PC et diffusion d’un jeu depuis une console."
+    ],
+    "tag": [
+      "STEAM DECK · COMPATIBILIDAD",
+      "STEAM DECK · COMPATIBILITY",
+      "STEAM DECK · COMPATIBILITÉ"
+    ],
+    "image": "hero",
+    "imageAlt": [
+      "Jason y Lucía junto a un coche y palmeras en la ilustración oficial de GTA VI",
+      "Jason and Lucia beside a car and palm trees in official GTA VI artwork",
+      "Jason et Lucia près d’une voiture et de palmiers dans l’illustration officielle GTA VI"
+    ],
+    "imageCaption": [
+      "Ilustración oficial de GTA VI. No muestra el juego ejecutándose en Steam Deck ni acredita una edición para PC.",
+      "Official GTA VI artwork. It does not show the game running on Steam Deck or establish a PC edition.",
+      "Illustration officielle de GTA VI. Elle ne montre pas le jeu sur Steam Deck et ne prouve pas l’existence d’une édition PC."
+    ],
+    "imageCredit": {
+      "label": "Rockstar Games — GTA VI Media",
+      "url": "https://www.rockstargames.com/VI/media"
+    },
+    "body": [
+      "No hay una versión de GTA 6 para Steam Deck anunciada en las fuentes oficiales revisadas el 6 de noviembre de 2026. Rockstar sigue presentando PS5 y Xbox Series X|S para el 19 de noviembre. La compatibilidad de otros GTA con la portátil no confirma GTA VI: primero tendría que existir una versión distribuida para PC y después una evaluación específica de su funcionamiento.",
+      "No Steam Deck version of GTA 6 is announced in the official sources checked on November 6, 2026. Rockstar still lists PS5 and Xbox Series X|S for November 19. Other GTA games working on the handheld does not establish GTA VI support: a distributed PC version would have to exist first, followed by a game-specific compatibility assessment.",
+      "Aucune version Steam Deck de GTA 6 n’est annoncée dans les sources officielles consultées le 6 novembre 2026. Rockstar présente toujours PS5 et Xbox Series X|S pour le 19 novembre. La compatibilité d’autres GTA avec la console portable ne confirme rien pour GTA VI : il faudrait d’abord une version PC distribuée, puis une évaluation propre au jeu."
+    ],
+    "published": "2026-11-06",
+    "updated": "2026-11-06",
+    "sections": [
+      {
+        "heading": [
+          "¿Se puede instalar GTA 6 en Steam Deck ahora?",
+          "Can you install GTA 6 on Steam Deck now?",
+          "Peut-on installer GTA 6 sur Steam Deck actuellement ?"
+        ],
+        "paragraphs": [
+          [
+            "No hay una versión de GTA 6 para Steam Deck anunciada en las fuentes oficiales revisadas el 6 de noviembre de 2026. Rockstar sigue presentando PS5 y Xbox Series X|S para el 19 de noviembre. La compatibilidad de otros GTA con la portátil no confirma GTA VI: primero tendría que existir una versión distribuida para PC y después una evaluación específica de su funcionamiento.",
+            "No Steam Deck version of GTA 6 is announced in the official sources checked on November 6, 2026. Rockstar still lists PS5 and Xbox Series X|S for November 19. Other GTA games working on the handheld does not establish GTA VI support: a distributed PC version would have to exist first, followed by a game-specific compatibility assessment.",
+            "Aucune version Steam Deck de GTA 6 n’est annoncée dans les sources officielles consultées le 6 novembre 2026. Rockstar présente toujours PS5 et Xbox Series X|S pour le 19 novembre. La compatibilité d’autres GTA avec la console portable ne confirme rien pour GTA VI : il faudrait d’abord une version PC distribuée, puis une évaluation propre au jeu."
+          ],
+          [
+            "No damos instrucciones de descarga porque no hemos verificado una distribución oficial compatible. Una página de reservas de consolas, una imagen editada de una biblioteca o un ejecutable anunciado como prueba no reemplazan el enlace del editor a una tienda autorizada.",
+            "We are not publishing installation steps because we have not verified a compatible official distribution. A console preorder page, an edited library image or an executable advertised as a trial cannot replace the publisher’s link to an authorised store.",
+            "Nous ne proposons pas d’étapes d’installation sans distribution officielle compatible vérifiée. Une précommande console, une image de bibliothèque retouchée ou un exécutable présenté comme essai ne remplacent pas un lien de l’éditeur vers une boutique autorisée."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          },
+          {
+            "label": "Rockstar Support — GTA VI platforms, editions and versions",
+            "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Qué significaría Deck Verified para GTA VI",
+          "What Deck Verified would mean for GTA VI",
+          "Ce que signifierait Deck Verified pour GTA VI"
+        ],
+        "paragraphs": [
+          [
+            "Valve distingue juegos Verificados, Jugables, No compatibles y Desconocidos. La evaluación considera controles, legibilidad, experiencia de uso y compatibilidad del sistema. Es una valoración por juego: que GTA V tenga una ficha o que otro título use el mismo lanzador no permite trasladar su resultado a GTA VI.",
+            "Valve distinguishes Verified, Playable, Unsupported and Unknown games. Its review considers controls, legibility, usability and system compatibility. The result applies to an individual game: GTA V having a listing, or another title using the same launcher, does not transfer that result to GTA VI.",
+            "Valve distingue les jeux Vérifiés, Jouables, Non pris en charge et Inconnus. L’évaluation porte notamment sur les commandes, la lisibilité, l’utilisation et la compatibilité système. Elle concerne chaque jeu : une fiche GTA V ou un lanceur commun à plusieurs titres ne transmet pas son résultat à GTA VI."
+          ],
+          [
+            "La guía general de Rockstar sobre Steam Deck está fechada el 8 de marzo de 2024. Explica cómo obtener ayuda para títulos compatibles, pero no anuncia GTA 6 en la portátil. Al buscar una futura confirmación, comprueba el nombre exacto del juego y la fecha de la información antes de interpretar una política general como un lanzamiento nuevo.",
+            "Rockstar’s general Steam Deck support article is dated March 8, 2024. It explains support for compatible titles; it does not announce GTA 6 for the handheld. When checking a future confirmation, match the exact game name and date before interpreting a general support policy as a new release.",
+            "L’article général de Rockstar sur Steam Deck est daté du 8 mars 2024. Il explique l’assistance pour les titres compatibles, mais n’annonce pas GTA 6 sur la machine. Pour vérifier une future confirmation, contrôlez le nom exact du jeu et la date avant de transformer une politique générale en nouvelle sortie."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Valve — Steam Deck Verified",
+            "url": "https://www.steamdeck.com/en/verified"
+          },
+          {
+            "label": "Rockstar Support — Rockstar titles on Steam Deck",
+            "url": "https://support.rockstargames.com/articles/5lCh0LXQGyy83ggIrWLxuA/support-for-rockstar-games-titles-on-steam-deck"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Steam Deck OLED, Proton y requisitos: por qué no hay FPS fiables",
+          "Steam Deck OLED, Proton and requirements: why FPS claims need evidence",
+          "Steam Deck OLED, Proton et configuration : pourquoi les FPS exigent des preuves"
+        ],
+        "paragraphs": [
+          [
+            "Cambiar de modelo de Steam Deck no crea una versión de un juego que no se ha publicado para ese sistema. Tampoco elegir una versión de Proton establece por sí solo la compatibilidad. Sin el ejecutable oficial y una prueba reproducible, una tabla de calidad baja, memoria consumida o FPS de GTA 6 en Deck sería una estimación, no un resultado.",
+            "Changing Steam Deck models does not create a version of a game that has not been released for that system. Selecting a Proton version alone cannot establish compatibility either. Without an official executable and a reproducible test, a table of low settings, memory use or GTA 6 FPS on Deck would be an estimate, not a result.",
+            "Changer de modèle de Steam Deck ne crée pas une version absente de ce système. Choisir une version de Proton ne démontre pas non plus la compatibilité. Sans exécutable officiel et test reproductible, un tableau de réglages bas, de mémoire utilisée ou de FPS sur Deck resterait une estimation, pas une mesure."
+          ],
+          [
+            "Por la misma razón, instalar otro sistema operativo no garantiza acceso: todavía hacen falta una edición de PC publicada, una licencia válida y requisitos que el equipo pueda cumplir. Nuestra noticia sobre la posible fecha de PC conserva la etiqueta de rumor; no es un calendario de Valve ni una certificación de rendimiento portátil.",
+            "For the same reason, installing another operating system does not guarantee access: you still need a released PC edition, a valid licence and hardware meeting its requirements. Our separate report on a possible PC date remains labelled as a rumour; it is neither Valve’s schedule nor a handheld performance certification.",
+            "Pour la même raison, installer un autre système ne garantit pas l’accès : il faut encore une édition PC publiée, une licence valide et une machine satisfaisant ses exigences. Notre article sur une éventuelle date PC reste identifié comme une rumeur ; ce n’est ni un calendrier Valve ni une certification de performances portables."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Valve — Steam Deck Verified",
+            "url": "https://www.steamdeck.com/en/verified"
+          },
+          {
+            "label": "Valve — Steam Deck FAQ",
+            "url": "https://www.steamdeck.com/en/faq"
+          },
+          {
+            "label": "FansGTA — Rumour: GTA 6 on PC targets early 2027, according to GamesBeat",
+            "url": "https://fansgta.com/es/noticias/rumor-gta-6-pc-primer-trimestre-2027-gamesbeat/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Jugar por streaming no equivale a ejecutarlo en la portátil",
+          "Streaming a game is different from running it on the handheld",
+          "Diffuser un jeu ne revient pas à l’exécuter sur la console portable"
+        ],
+        "paragraphs": [
+          [
+            "En una instalación local, Steam Deck realiza el trabajo del juego. En una sesión remota, otro equipo genera la imagen y la portátil recibe vídeo y envía controles. Por eso un vídeo de GTA VI en una pantalla pequeña necesitaría explicar si es ejecución local, reproducción de un tráiler o transmisión desde otra máquina.",
+            "In a local installation, Steam Deck does the game’s processing. In a remote session, another machine produces the image while the handheld receives video and sends input. A video showing GTA VI on a small screen therefore needs to explain whether it is local execution, trailer playback or streaming from another device.",
+            "En installation locale, Steam Deck fait fonctionner le jeu. À distance, une autre machine produit l’image, tandis que la portable reçoit la vidéo et transmet les commandes. Une vidéo de GTA VI sur un petit écran doit donc préciser s’il s’agit d’une exécution locale, d’une bande-annonce ou d’une diffusion depuis un autre appareil."
+          ]
+        ],
+        "image": {
+          "key": "leonida-keys",
+          "alt": [
+            "Un hidroavión sobre las islas y un puente de Leonida Keys en una captura oficial de GTA VI",
+            "A seaplane above the islands and a bridge of Leonida Keys in an official GTA VI screenshot",
+            "Un hydravion au-dessus des îles et d’un pont de Leonida Keys dans une capture officielle GTA VI"
+          ],
+          "caption": [
+            "Captura oficial de Leonida Keys utilizada como ilustración. No es una prueba local de Steam Deck ni una sesión remota verificada.",
+            "Official Leonida Keys screenshot used as illustration. It is neither a local Steam Deck benchmark nor a verified remote-play session.",
+            "Capture officielle de Leonida Keys utilisée pour illustration. Ce n’est ni un test local Steam Deck ni une session à distance vérifiée."
+          ],
+          "credit": {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "FansGTA — GTA 6 on Android and iPhone: APKs, mobile versions and Remote Play",
+            "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Qué comprobar antes de comprar una portátil por GTA 6",
+          "What to check before buying a handheld for GTA 6",
+          "Que vérifier avant d’acheter une console portable pour GTA 6 ?"
+        ],
+        "paragraphs": [
+          [
+            "Busca tres pruebas separadas: anuncio del editor para PC, distribución oficial y evaluación del modelo concreto. Si falta alguna, compra por los juegos que hoy puedes utilizar, no por una garantía inventada de GTA VI. No hay en esta guía una recomendación de gasto ni una descarga alternativa: su objetivo es ayudarte a identificar qué información todavía falta.",
+            "Look for three separate pieces of evidence: a publisher PC announcement, an official distribution and testing of the specific handheld. If any is missing, buy for games you can use today rather than an invented GTA VI guarantee. This guide offers neither a spending recommendation nor an alternative download; it identifies the information still needed.",
+            "Cherchez trois éléments distincts : annonce PC de l’éditeur, distribution officielle et test du modèle précis. Si l’un manque, choisissez une machine pour les jeux disponibles aujourd’hui, pas pour une garantie inventée concernant GTA VI. Ce guide ne conseille aucun achat ni téléchargement alternatif ; il identifie les informations encore nécessaires."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          },
+          {
+            "label": "Valve — Steam Deck Verified",
+            "url": "https://www.steamdeck.com/en/verified"
+          },
+          {
+            "label": "Rockstar Support — Rockstar titles on Steam Deck",
+            "url": "https://support.rockstargames.com/articles/5lCh0LXQGyy83ggIrWLxuA/support-for-rockstar-games-titles-on-steam-deck"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games — Grand Theft Auto VI",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "Rockstar Support — GTA VI platforms, editions and versions",
+        "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+      },
+      {
+        "label": "Valve — Steam Deck Verified",
+        "url": "https://www.steamdeck.com/en/verified"
+      },
+      {
+        "label": "Rockstar Support — Rockstar titles on Steam Deck",
+        "url": "https://support.rockstargames.com/articles/5lCh0LXQGyy83ggIrWLxuA/support-for-rockstar-games-titles-on-steam-deck"
+      },
+      {
+        "label": "Valve — Steam Deck FAQ",
+        "url": "https://www.steamdeck.com/en/faq"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Media",
+        "url": "https://www.rockstargames.com/VI/media"
+      }
+    ]
+  },
+  {
+    "id": "gta6-photo-mode-previews-captures-20261106",
+    "category": "guides",
+    "slug": [
+      "gta-6-modo-foto-avances-capturas-ps5-xbox",
+      "gta-6-photo-mode-previews-screenshots-ps5-xbox",
+      "gta-6-mode-photo-apercus-captures-ps5-xbox"
+    ],
+    "title": [
+      "Modo foto de GTA 6: avances y capturas en PS5 y Xbox",
+      "GTA 6 photo mode: previews and screenshots on PS5 and Xbox",
+      "Mode photo GTA 6 : aperçus et captures sur PS5 et Xbox"
+    ],
+    "excerpt": [
+      "Qué dicen los avances sobre el modo foto de GTA 6, sus diferencias con Snapmatic y Rockstar Editor y cómo preparar capturas en PS5 y Xbox.",
+      "What previews report about GTA 6 photo mode, how it differs from Snapmatic and Rockstar Editor, and how to prepare screenshot tools on PS5 and Xbox.",
+      "Ce que rapportent les aperçus sur le mode photo GTA 6, les différences avec Snapmatic et Rockstar Editor, et la préparation des captures PS5 et Xbox."
+    ],
+    "tag": [
+      "FOTOGRAFÍA · AVANCES",
+      "PHOTOGRAPHY · PREVIEWS",
+      "PHOTOGRAPHIE · APERÇUS"
+    ],
+    "image": "feature-mountain",
+    "imageAlt": [
+      "Carretera entre laderas rocosas y árboles de Mount Kalaga en una captura oficial de GTA VI",
+      "A road between rocky slopes and trees at Mount Kalaga in an official GTA VI screenshot",
+      "Route entre falaises rocheuses et arbres à Mount Kalaga dans une capture officielle GTA VI"
+    ],
+    "imageCaption": [
+      "Paisaje oficial de Mount Kalaga. Su composición sirve como referencia visual; no demuestra qué controles de cámara estarán disponibles para el jugador.",
+      "Official Mount Kalaga landscape. Its composition provides a visual reference, not proof of the camera controls available to players.",
+      "Paysage officiel de Mount Kalaga. Sa composition offre une référence visuelle, sans prouver les commandes de caméra accessibles au joueur."
+    ],
+    "imageCredit": {
+      "label": "Rockstar Games — GTA VI Media",
+      "url": "https://www.rockstargames.com/VI/media"
+    },
+    "body": [
+      "Los avances de GTA 6 mencionan un modo foto, pero las fuentes revisadas el 6 de noviembre de 2026 no ofrecen una guía oficial de sus botones, filtros o menús finales. eXputer lo recogió el 28 de agosto y ComicBook volvió al asunto el 5 de noviembre citando a TGG. Aquí separamos esos reportes de las capturas oficiales y explicamos qué herramientas de captura de PS5 y Xbox puedes preparar.",
+      "GTA 6 previews mention a photo mode, but the sources checked on November 6, 2026 do not provide an official guide to its final buttons, filters or menus. eXputer reported it on August 28, and ComicBook revisited the subject on November 5 while citing TGG. Here we distinguish those reports from official screenshots and explain which PS5 and Xbox capture tools you can prepare.",
+      "Les aperçus de GTA 6 évoquent un mode photo, mais les sources consultées le 6 novembre 2026 ne fournissent pas de guide officiel de ses touches, filtres ou menus définitifs. eXputer l’a mentionné le 28 août ; ComicBook est revenu sur le sujet le 5 novembre en citant TGG. Nous distinguons ces articles des captures officielles et des outils de capture à préparer sur PS5 et Xbox."
+    ],
+    "published": "2026-11-06",
+    "updated": "2026-11-06",
+    "sections": [
+      {
+        "heading": [
+          "Qué está reportado sobre el modo foto de GTA 6",
+          "What has been reported about GTA 6 photo mode",
+          "Ce qui a été rapporté sur le mode photo de GTA 6"
+        ],
+        "paragraphs": [
+          [
+            "Los avances de GTA 6 mencionan un modo foto, pero las fuentes revisadas el 6 de noviembre de 2026 no ofrecen una guía oficial de sus botones, filtros o menús finales. eXputer lo recogió el 28 de agosto y ComicBook volvió al asunto el 5 de noviembre citando a TGG. Aquí separamos esos reportes de las capturas oficiales y explicamos qué herramientas de captura de PS5 y Xbox puedes preparar.",
+            "GTA 6 previews mention a photo mode, but the sources checked on November 6, 2026 do not provide an official guide to its final buttons, filters or menus. eXputer reported it on August 28, and ComicBook revisited the subject on November 5 while citing TGG. Here we distinguish those reports from official screenshots and explain which PS5 and Xbox capture tools you can prepare.",
+            "Les aperçus de GTA 6 évoquent un mode photo, mais les sources consultées le 6 novembre 2026 ne fournissent pas de guide officiel de ses touches, filtres ou menus définitifs. eXputer l’a mentionné le 28 août ; ComicBook est revenu sur le sujet le 5 novembre en citant TGG. Nous distinguons ces articles des captures officielles et des outils de capture à préparer sur PS5 et Xbox."
+          ],
+          [
+            "Son informaciones de terceros sobre los avances, no un tutorial publicado por Rockstar. Tampoco hemos probado una copia final. Una imagen promocional puede despertar preguntas sobre la cámara, pero por sí sola no acredita que puedas congelar cualquier misión, moverla libremente o retirar todos los elementos de interfaz.",
+            "These are third-party preview reports, not a Rockstar-published tutorial. We have not tested a final copy either. A promotional image can prompt questions about the camera, but alone it cannot establish whether players can freeze any mission, move freely or remove every interface element.",
+            "Il s’agit d’informations de tiers sur les aperçus, pas d’un tutoriel Rockstar. Nous n’avons pas testé de version finale non plus. Une image promotionnelle peut susciter des questions sur la caméra, sans prouver qu’il sera possible de figer toute mission, de la déplacer librement ou d’effacer toute l’interface."
+          ]
+        ],
+        "references": [
+          {
+            "label": "eXputer — GTA VI preview roundup, August 28, 2026",
+            "url": "https://exputer.com/news/games/gta-6-extended-look-new-gameplay-details/"
+          },
+          {
+            "label": "ComicBook — GTA VI screenshots and photo-mode report, November 5",
+            "url": "https://comicbook.com/gaming/news/new-grand-theft-auto-6-screen-shots-just-before-launch/"
+          },
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Modo foto, Snapmatic y Rockstar Editor: tres herramientas diferentes",
+          "Photo mode, Snapmatic and Rockstar Editor are different tools",
+          "Mode photo, Snapmatic et Rockstar Editor : des outils différents"
+        ],
+        "paragraphs": [
+          [
+            "Un modo foto dedicado permite trabajar una imagen mediante las opciones que ofrezca. Una cámara dentro del teléfono pertenece a las acciones del personaje. Un editor de vídeo es otra herramienta, con necesidades distintas de grabación y montaje. Confirmar una de esas cosas no confirma automáticamente las otras dos.",
+            "A dedicated photo mode lets players work on an image using the options it supplies. A camera inside the phone belongs to the character’s actions. A video editor is another tool with different recording and editing requirements. Evidence for one does not automatically establish the other two.",
+            "Un mode photo dédié permet de travailler une image avec les options proposées. Une caméra intégrée au téléphone relève des actions du personnage. Un éditeur vidéo est encore un autre outil, avec ses propres fonctions d’enregistrement et de montage. Confirmer l’un ne confirme pas automatiquement les deux autres."
+          ],
+          [
+            "La guía del teléfono de GTA VI explica lo reportado sobre Snapmatic y sus límites. En esta página no inventamos una ruta de menú del modo foto ni presentamos la ausencia de una herramienta en una demostración como una decisión irrevocable para todas las versiones futuras.",
+            "Our GTA VI phone guide explains what has been reported about Snapmatic and its limits. Here we neither invent a photo-mode menu path nor treat a tool missing from a demonstration as an irrevocable decision for every future version.",
+            "Notre guide du téléphone GTA VI explique les informations sur Snapmatic et leurs limites. Ici, nous n’inventons aucun chemin de menu du mode photo et ne transformons pas l’absence d’un outil dans une démonstration en décision définitive pour toutes les versions futures."
+          ]
+        ],
+        "references": [
+          {
+            "label": "FansGTA — GTA 6 phone: Snapmatic, apps and reported features",
+            "url": "https://fansgta.com/es/guias/gta-6-telefono-aplicaciones-snapmatic-redes/"
+          },
+          {
+            "label": "eXputer — GTA VI preview roundup, August 28, 2026",
+            "url": "https://exputer.com/news/games/gta-6-extended-look-new-gameplay-details/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Cómo preparar las capturas de pantalla en PS5 y Xbox",
+          "How to prepare screenshot capture on PS5 and Xbox",
+          "Comment préparer les captures d’écran sur PS5 et Xbox"
+        ],
+        "paragraphs": [
+          [
+            "En PS5, el botón Crear abre el menú con la opción de hacer una captura. Puedes revisar Ajustes > Capturas y transmisiones > Capturas para personalizar los accesos. Son herramientas de la consola, disponibles al margen de que GTA VI incluya un modo fotográfico propio.",
+            "On PS5, the Create button opens the menu containing the screenshot option. You can review Settings > Captures and Broadcasts > Captures to customise shortcuts. These are console tools, separate from whether GTA VI includes its own photography mode.",
+            "Sur PS5, la touche de création ouvre le menu proposant une capture d’écran. Consultez Paramètres > Captures et diffusions > Captures pour personnaliser les raccourcis. Ce sont des outils de la console, distincts d’un éventuel mode photographique propre à GTA VI."
+          ],
+          [
+            "En el mando Xbox compatible, Microsoft describe una pulsación del botón Compartir para la captura de pantalla y una pulsación mantenida para un clip; la asignación puede personalizarse. Comprueba tu configuración antes del estreno. Capturar la salida de vídeo no permite desplazar la cámara del juego ni detener una escena.",
+            "On a compatible Xbox controller, Microsoft describes pressing Share for a screenshot and holding it for a clip; the mapping can be customised. Check your configuration before release. Capturing video output does not let you move the game camera or pause a scene.",
+            "Sur une manette Xbox compatible, Microsoft décrit une pression sur Partager pour une capture et une pression maintenue pour un clip ; l’affectation peut être personnalisée. Vérifiez-la avant la sortie. Capturer la sortie vidéo ne permet ni de déplacer la caméra du jeu ni de figer une scène."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — PS5 screenshots and capture settings",
+            "url": "https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/"
+          },
+          {
+            "label": "Xbox Wire — Capture screenshots with the Share button",
+            "url": "https://news.xbox.com/en-us/2020/09/21/new-xbox-app-beta-on-mobile/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Tres ideas de composición a partir de imágenes reales del juego",
+          "Three composition ideas using authentic game images",
+          "Trois idées de composition à partir d’images authentiques du jeu"
+        ],
+        "paragraphs": [
+          [
+            "En el paisaje de Mount Kalaga, la carretera dirige la mirada hacia el fondo. En The Rusty Anchor, el letrero identifica el lugar y las personas reparten la atención por el encuadre. En el retrato de Lucía, la figura y los objetos cercanos dominan sobre el fondo. Son observaciones de las imágenes enlazadas, no opciones de un menú todavía no documentado.",
+            "In the Mount Kalaga landscape, the road guides the eye into the distance. At The Rusty Anchor, the sign establishes the place while people distribute attention across the frame. In Lucia’s portrait, the figure and nearby objects dominate the background. These are observations of the linked images, not options from an undocumented menu.",
+            "Dans le paysage de Mount Kalaga, la route guide le regard vers le fond. Au Rusty Anchor, l’enseigne identifie le lieu et les personnes répartissent l’attention dans le cadre. Dans le portrait de Lucia, le personnage et les objets proches dominent l’arrière-plan. Ce sont des observations des images liées, pas des options d’un menu non documenté."
+          ]
+        ],
+        "image": {
+          "key": "region-leonida-keys-03",
+          "alt": [
+            "Clientes y mesas frente al bar The Rusty Anchor entre palmeras en GTA VI",
+            "Customers and tables outside The Rusty Anchor bar among palm trees in GTA VI",
+            "Clients et tables devant le bar The Rusty Anchor, parmi les palmiers, dans GTA VI"
+          ],
+          "caption": [
+            "Imagen oficial de The Rusty Anchor. Las capas de personajes, mesas y fachada ofrecen un ejemplo de composición, no una demostración de cámara libre.",
+            "Official image of The Rusty Anchor. People, tables and the facade provide layers of composition, not a demonstration of a free camera.",
+            "Image officielle du Rusty Anchor. Personnages, tables et façade créent plusieurs plans de composition, sans démontrer une caméra libre."
+          ],
+          "credit": {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          },
+          {
+            "label": "FansGTA — GTA 6 launch gallery: 39 new screenshots from Rockstar",
+            "url": "https://fansgta.com/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Filtros, profundidad de campo y compartir fotos: qué falta por comprobar",
+          "Filters, depth of field and photo sharing: what still needs checking",
+          "Filtres, profondeur de champ et partage : les éléments à vérifier"
+        ],
+        "paragraphs": [
+          [
+            "No tenemos un listado oficial de filtros, controles de enfoque, exportación o restricciones durante misiones. Tampoco prometemos publicación en Snapmatic por conseguir una captura. Al evaluar una futura guía, busca la plataforma, versión y pantalla real del ajuste, y distingue las posibilidades del sistema de las del juego.",
+            "We do not have an official list of filters, focus controls, export options or mission restrictions. Taking a screenshot does not establish that it can be posted to Snapmatic either. When evaluating a future guide, look for its platform, version and actual settings screen, distinguishing system tools from in-game options.",
+            "Nous ne disposons pas de liste officielle des filtres, de la mise au point, de l’exportation ou des restrictions en mission. Obtenir une capture ne prouve pas non plus sa publication possible sur Snapmatic. Pour évaluer un futur guide, cherchez plateforme, version et véritable écran de réglage, en séparant les outils système de ceux du jeu."
+          ]
+        ],
+        "image": {
+          "key": "lucia",
+          "alt": [
+            "Lucía sentada con auriculares y guantes junto a unas pesas en una captura oficial de GTA VI",
+            "Lucia sitting with headphones and gloves beside gym weights in an official GTA VI screenshot",
+            "Lucia assise avec casque audio et gants près d’haltères dans une capture officielle GTA VI"
+          ],
+          "caption": [
+            "Retrato promocional oficial de Lucía. Permite comentar la luz y el encuadre, pero no acredita filtros o un modo foto utilizable en la versión final.",
+            "Official promotional portrait of Lucia. It supports discussion of lighting and framing, not claims about filters or a usable final photo mode.",
+            "Portrait promotionnel officiel de Lucia. Il permet de commenter lumière et cadrage, sans prouver des filtres ou un mode photo utilisable dans la version finale."
+          ],
+          "credit": {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "ComicBook — GTA VI screenshots and photo-mode report, November 5",
+            "url": "https://comicbook.com/gaming/news/new-grand-theft-auto-6-screen-shots-just-before-launch/"
+          },
+          {
+            "label": "PlayStation Support — PS5 screenshots and capture settings",
+            "url": "https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/"
+          },
+          {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          },
+          {
+            "label": "FansGTA — GTA 6 HDR: how to prepare your picture on PS5 and Xbox",
+            "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "eXputer — GTA VI preview roundup, August 28, 2026",
+        "url": "https://exputer.com/news/games/gta-6-extended-look-new-gameplay-details/"
+      },
+      {
+        "label": "ComicBook — GTA VI screenshots and photo-mode report, November 5",
+        "url": "https://comicbook.com/gaming/news/new-grand-theft-auto-6-screen-shots-just-before-launch/"
+      },
+      {
+        "label": "PlayStation Support — PS5 screenshots and capture settings",
+        "url": "https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/"
+      },
+      {
+        "label": "Xbox Wire — Capture screenshots with the Share button",
+        "url": "https://news.xbox.com/en-us/2020/09/21/new-xbox-app-beta-on-mobile/"
+      },
+      {
+        "label": "Rockstar Games — Grand Theft Auto VI",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Media",
+        "url": "https://www.rockstargames.com/VI/media"
+      }
+    ]
+  },
+  {
+    "id": "gta6-hdr-display-calibration-20261106",
+    "category": "guides",
+    "slug": [
+      "gta-6-hdr-calibrar-imagen-ps5-xbox",
+      "gta-6-hdr-picture-calibration-ps5-xbox",
+      "gta-6-hdr-calibrer-image-ps5-xbox"
+    ],
+    "title": [
+      "HDR para GTA 6: cómo preparar la imagen en PS5 y Xbox",
+      "GTA 6 HDR: how to prepare your picture on PS5 and Xbox",
+      "HDR pour GTA 6 : préparer l’image sur PS5 et Xbox"
+    ],
+    "excerpt": [
+      "Prepara la imagen para GTA 6 con las herramientas HDR de PS5 y Xbox. Calibración, compatibilidad y errores comunes sin inventar valores de brillo del juego.",
+      "Prepare your picture for GTA 6 using PS5 and Xbox HDR tools. Calibration, display compatibility and common mistakes without invented game brightness values.",
+      "Préparez l’image pour GTA 6 avec les outils HDR PS5 et Xbox. Calibration, compatibilité et erreurs à éviter, sans inventer les valeurs de luminosité du jeu."
+    ],
+    "tag": [
+      "IMAGEN · CALIBRACIÓN HDR",
+      "PICTURE · HDR CALIBRATION",
+      "IMAGE · CALIBRATION HDR"
+    ],
+    "image": "feature-launch-gallery-bridge",
+    "imageAlt": [
+      "Puente abierto y edificios de Vice City con luces al anochecer en GTA VI",
+      "An open drawbridge and illuminated Vice City buildings at dusk in GTA VI",
+      "Pont levé et immeubles éclairés de Vice City au crépuscule dans GTA VI"
+    ],
+    "imageCaption": [
+      "Captura oficial de Vice City en su versión optimizada para la web. Sirve para observar la escena, no como patrón de calibración HDR de tu pantalla.",
+      "Official Vice City screenshot in its web-optimised version. It illustrates the scene and is not an HDR calibration pattern for your screen.",
+      "Capture officielle de Vice City optimisée pour le Web. Elle illustre la scène et ne constitue pas une mire de calibration HDR pour votre écran."
+    ],
+    "imageCredit": {
+      "label": "Rockstar Games — GTA VI Launch Gallery",
+      "url": "https://www.rockstargames.com/VI/launch-gallery"
+    },
+    "body": [
+      "Para preparar el HDR de GTA 6, empieza por la salida de vídeo de tu PS5 o Xbox y la compatibilidad de tu pantalla. No existe un número universal de brillo válido para todos los televisores. Esta guía, revisada el 6 de noviembre de 2026, reúne herramientas oficiales de calibración de la consola; no presenta ajustes internos de GTA VI ni resultados de una copia final.",
+      "To prepare HDR for GTA 6, start with your PS5 or Xbox video output and your display’s capabilities. There is no universal brightness number for every television. Checked on November 6, 2026, this guide brings together official console calibration tools; it does not present GTA VI’s in-game settings or results from a final copy.",
+      "Pour préparer le HDR de GTA 6, commencez par la sortie vidéo de votre PS5 ou Xbox et les capacités de votre écran. Aucun chiffre de luminosité ne convient à tous les téléviseurs. Vérifié le 6 novembre 2026, ce guide réunit les outils officiels de calibration des consoles ; il ne présente ni réglages internes de GTA VI ni mesures d’une version finale."
+    ],
+    "published": "2026-11-06",
+    "updated": "2026-11-06",
+    "sections": [
+      {
+        "heading": [
+          "Qué puedes configurar antes de que salga GTA 6",
+          "What you can configure before GTA 6 releases",
+          "Les réglages à préparer avant la sortie de GTA 6"
+        ],
+        "paragraphs": [
+          [
+            "Para preparar el HDR de GTA 6, empieza por la salida de vídeo de tu PS5 o Xbox y la compatibilidad de tu pantalla. No existe un número universal de brillo válido para todos los televisores. Esta guía, revisada el 6 de noviembre de 2026, reúne herramientas oficiales de calibración de la consola; no presenta ajustes internos de GTA VI ni resultados de una copia final.",
+            "To prepare HDR for GTA 6, start with your PS5 or Xbox video output and your display’s capabilities. There is no universal brightness number for every television. Checked on November 6, 2026, this guide brings together official console calibration tools; it does not present GTA VI’s in-game settings or results from a final copy.",
+            "Pour préparer le HDR de GTA 6, commencez par la sortie vidéo de votre PS5 ou Xbox et les capacités de votre écran. Aucun chiffre de luminosité ne convient à tous les téléviseurs. Vérifié le 6 novembre 2026, ce guide réunit les outils officiels de calibration des consoles ; il ne présente ni réglages internes de GTA VI ni mesures d’une version finale."
+          ],
+          [
+            "El HDR describe un rango de imagen; no determina los FPS ni convierte una señal en resolución nativa 4K. Separa tres preguntas: qué acepta el televisor, qué envía la consola y qué opciones ofrece cada juego. Resolver la primera no demuestra la tercera. El lanzamiento anunciado sigue siendo el 19 de noviembre.",
+            "HDR describes an image range; it does not determine FPS or turn a signal into native 4K rendering. Separate three questions: what the television accepts, what the console outputs and what each game offers. Resolving the first does not establish the third. The announced release remains November 19.",
+            "Le HDR décrit une plage d’image ; il ne fixe pas les FPS et ne transforme pas un signal en rendu 4K natif. Distinguez ce qu’accepte le téléviseur, ce qu’envoie la console et ce que propose chaque jeu. Résoudre le premier point ne prouve pas le troisième. La sortie annoncée reste le 19 novembre."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — Enable and adjust HDR on PS5",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-enable-adjust-hdr/"
+          },
+          {
+            "label": "Xbox Wire — TV, HDR and calibration setup",
+            "url": "https://news.xbox.com/en-us/2020/11/06/is-your-tv-ready-to-power-your-dreams/"
+          },
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "PS5: activar HDR cuando sea compatible y calibrarlo",
+          "PS5: enable HDR when supported and calibrate it",
+          "PS5 : activer le HDR si pris en charge et le calibrer"
+        ],
+        "paragraphs": [
+          [
+            "1. Abre Ajustes > Pantalla y vídeo > Salida de vídeo > HDR. Sony distingue Siempre activado de Activado si es compatible: la primera opción también convierte contenido SDR a una salida HDR; la segunda conserva SDR cuando el contenido no es compatible.",
+            "1. Open Settings > Screen and Video > Video Output > HDR. Sony distinguishes Always On from On When Supported: the first also converts SDR content to HDR output; the second preserves SDR when content is not HDR-compatible.",
+            "1. Ouvrez Paramètres > Écran et vidéo > Sortie vidéo > HDR. Sony distingue Toujours activé et Activé lorsque pris en charge : le premier convertit aussi le contenu SDR en sortie HDR ; le second conserve le SDR pour le contenu non compatible."
+          ],
+          [
+            "2. En Salida de vídeo, selecciona Ajustar HDR y sigue las indicaciones que muestra tu consola. No copiamos un número de pulsaciones para todos los paneles: guarda como referencia la configuración que corresponda a tu propia pantalla.",
+            "2. In Video Output, select Adjust HDR and follow your console’s instructions. We do not copy one click count for every panel: use the configuration appropriate to your own display as your baseline.",
+            "2. Dans Sortie vidéo, sélectionnez Régler le HDR et suivez les consignes de la console. Nous ne donnons pas un nombre de pressions identique pour toutes les dalles : gardez comme référence le réglage adapté à votre écran."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — Enable and adjust HDR on PS5",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-enable-adjust-hdr/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Xbox: comprobar la pantalla y usar la calibración HDR",
+          "Xbox: check display capabilities and use HDR calibration",
+          "Xbox : vérifier l’écran et utiliser la calibration HDR"
+        ],
+        "paragraphs": [
+          [
+            "1. En Configuración > General > Opciones de TV y pantalla, revisa Detalles de TV 4K. Microsoft utiliza esa pantalla para comprobar qué características reconoce la consola. Si una opción no figura como compatible, revisa el puerto, el cable y la configuración del televisor antes de forzarla.",
+            "1. In Settings > General > TV & display options, review 4K TV details. Microsoft uses that screen to show the capabilities recognised by the console. If an option is not supported, check the port, cable and television configuration before forcing it.",
+            "1. Dans Paramètres > Général > Options d’affichage et TV, consultez Détails TV 4K. Microsoft utilise cet écran pour indiquer les capacités reconnues par la console. Si une option n’est pas prise en charge, vérifiez port, câble et réglages du téléviseur avant de la forcer."
+          ],
+          [
+            "2. Busca Calibrar HDR para juegos en las opciones de TV y pantalla y sigue sus patrones. No es el mismo proceso que Calibrar TV. El artículo oficial enlazado explica ambas herramientas; sus nombres o agrupación pueden variar con el idioma y la versión del sistema.",
+            "2. Find Calibrate HDR for games within TV & display options and follow its patterns. This is different from Calibrate TV. The linked official article explains both tools; names and grouping may vary with system language and version.",
+            "2. Cherchez Calibrer le HDR pour les jeux dans les options d’affichage et suivez les mires. Ce réglage se distingue de Calibrer le téléviseur. L’article officiel lié présente les deux outils ; intitulés et regroupement peuvent varier selon la langue et la version système."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox Wire — TV, HDR and calibration setup",
+            "url": "https://news.xbox.com/en-us/2020/11/06/is-your-tv-ready-to-power-your-dreams/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Si la imagen está lavada, muy oscura o demasiado brillante",
+          "If the picture looks washed out, too dark or too bright",
+          "Si l’image semble délavée, trop sombre ou trop lumineuse"
+        ],
+        "paragraphs": [
+          [
+            "Anota primero la combinación de consola, televisor, entrada y modo de imagen. Después cambia una sola variable y compara con el mismo contenido. Ajustar a la vez consola, contraste del televisor y filtros hace difícil saber qué produjo la mejora. Una foto tomada con el móvil añade además la exposición automática de otra cámara.",
+            "First note the console, television, input and picture-mode combination. Then change one variable and compare the same content. Changing console output, television contrast and filters together makes it difficult to identify an improvement. A phone photograph also adds another camera’s automatic exposure.",
+            "Notez d’abord la console, le téléviseur, l’entrée et le mode d’image. Changez ensuite une seule variable et comparez le même contenu. Modifier simultanément sortie console, contraste du téléviseur et filtres empêche d’identifier l’amélioration. Une photo au téléphone ajoute aussi l’exposition automatique d’une autre caméra."
+          ],
+          [
+            "Las imágenes oficiales de este artículo están preparadas para mostrarse en la web. No permiten medir los nits de tu panel ni sustituir los patrones de calibración. La escena costera y la nocturna sirven para comentar luz y contraste; no prueban una implementación HDR de GTA VI.",
+            "The official images here are prepared for web display. They cannot measure your panel’s nits or replace calibration patterns. The coastal and dusk scenes illustrate light and contrast; they do not test GTA VI’s HDR implementation.",
+            "Les images officielles de cet article sont préparées pour le Web. Elles ne mesurent pas les nits de votre dalle et ne remplacent pas les mires. Les scènes côtière et crépusculaire illustrent lumière et contraste ; elles ne testent pas l’implémentation HDR de GTA VI."
+          ]
+        ],
+        "image": {
+          "key": "leonida-keys",
+          "alt": [
+            "Islas, un puente y un hidroavión bajo un cielo luminoso en Leonida Keys de GTA VI",
+            "Islands, a bridge and a seaplane beneath a bright sky in GTA VI’s Leonida Keys",
+            "Îles, pont et hydravion sous un ciel lumineux à Leonida Keys dans GTA VI"
+          ],
+          "caption": [
+            "Imagen oficial diurna de Leonida Keys. Su archivo web no constituye una medición HDR ni un patrón para ajustar brillo máximo.",
+            "Official daytime Leonida Keys image. Its web file is neither an HDR measurement nor a peak-brightness calibration pattern.",
+            "Image officielle diurne de Leonida Keys. Son fichier Web n’est ni une mesure HDR ni une mire de luminosité maximale."
+          ],
+          "credit": {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "PlayStation Support — Enable and adjust HDR on PS5",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-enable-adjust-hdr/"
+          },
+          {
+            "label": "Xbox Wire — TV, HDR and calibration setup",
+            "url": "https://news.xbox.com/en-us/2020/11/06/is-your-tv-ready-to-power-your-dreams/"
+          },
+          {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "HDR, accesibilidad y rendimiento: ajustes que debes separar",
+          "HDR, accessibility and performance are separate settings",
+          "HDR, accessibilité et performances : des réglages distincts"
+        ],
+        "paragraphs": [
+          [
+            "Una configuración cómoda debe responder a lo que necesitas ver, no a una cifra compartida sin contexto. Sony advierte que invertir los colores de PS5 desactiva HDR; si utilizas herramientas de accesibilidad, revisa sus interacciones. Nuestra guía específica trata legibilidad y controles, mientras la de PS5 Pro explica por qué salida a 120 Hz y FPS del juego no son lo mismo.",
+            "A comfortable setup should address what you need to see, not a context-free number. Sony notes that PS5’s Invert Colors disables HDR; if you use accessibility tools, review their interactions. Our accessibility guide covers legibility and controls, while the PS5 Pro guide explains why 120 Hz output and game FPS are different.",
+            "Un réglage confortable répond à vos besoins visuels, pas à un chiffre sans contexte. Sony précise que l’inversion des couleurs PS5 désactive le HDR ; vérifiez les interactions si vous utilisez des outils d’accessibilité. Notre guide dédié traite lisibilité et commandes, tandis que celui sur PS5 Pro distingue sortie 120 Hz et FPS du jeu."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — PS5 accessibility settings",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/"
+          },
+          {
+            "label": "FansGTA — GTA 6 on PS5 Pro: 30 or 60 FPS and what remains unconfirmed",
+            "url": "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/"
+          },
+          {
+            "label": "FansGTA — GTA 6 accessibility: subtitles, controls and console options",
+            "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "PlayStation Support — Enable and adjust HDR on PS5",
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-enable-adjust-hdr/"
+      },
+      {
+        "label": "Xbox Wire — TV, HDR and calibration setup",
+        "url": "https://news.xbox.com/en-us/2020/11/06/is-your-tv-ready-to-power-your-dreams/"
+      },
+      {
+        "label": "PlayStation Support — PS5 accessibility settings",
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/"
+      },
+      {
+        "label": "Rockstar Games — Grand Theft Auto VI",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Launch Gallery",
+        "url": "https://www.rockstargames.com/VI/launch-gallery"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Media",
+        "url": "https://www.rockstargames.com/VI/media"
+      }
+    ]
+  },
+  {
+    "id": "gta6-accessibility-console-preparation-20261106",
+    "category": "guides",
+    "slug": [
+      "gta-6-accesibilidad-subtitulos-controles-ps5-xbox",
+      "gta-6-accessibility-subtitles-controls-ps5-xbox",
+      "gta-6-accessibilite-sous-titres-commandes-ps5-xbox"
+    ],
+    "title": [
+      "Accesibilidad de GTA 6: subtítulos, controles y opciones",
+      "GTA 6 accessibility: subtitles, controls and console options",
+      "Accessibilité GTA 6 : sous-titres, commandes et options"
+    ],
+    "excerpt": [
+      "Prepara la accesibilidad de GTA 6 en PS5 y Xbox: lectura, filtros de color y controles, distinguiendo ajustes de consola y opciones del juego no documentadas.",
+      "Prepare GTA 6 accessibility on PS5 and Xbox: reading, colour filters and controls, separating console settings from undocumented in-game options.",
+      "Préparez l’accessibilité GTA 6 sur PS5 et Xbox : lecture, filtres de couleur et commandes, en distinguant réglages système et options du jeu non documentées."
+    ],
+    "tag": [
+      "ACCESIBILIDAD · PREPARACIÓN",
+      "ACCESSIBILITY · PREPARATION",
+      "ACCESSIBILITÉ · PRÉPARATION"
+    ],
+    "image": "lucia",
+    "imageAlt": [
+      "Lucía con auriculares y guantes sentada frente a unas pesas en GTA VI",
+      "Lucia wearing headphones and gloves while seated beside gym weights in GTA VI",
+      "Lucia assise avec casque audio et gants près d’haltères dans GTA VI"
+    ],
+    "imageCaption": [
+      "Captura oficial de Lucía. Ilustra el juego y no demuestra sus opciones de accesibilidad ni una interfaz de configuración.",
+      "Official screenshot of Lucia. It illustrates the game and does not establish its accessibility features or settings interface.",
+      "Capture officielle de Lucia. Elle illustre le jeu, sans démontrer ses fonctions d’accessibilité ni une interface de réglage."
+    ],
+    "imageCredit": {
+      "label": "Rockstar Games — GTA VI Media",
+      "url": "https://www.rockstargames.com/VI/media"
+    },
+    "body": [
+      "Para preparar la accesibilidad de GTA 6, distingue los ajustes de PS5 o Xbox de las opciones que implementará el propio juego. Las fuentes oficiales revisadas el 6 de noviembre de 2026 no ofrecen una lista completa de tamaño de subtítulos, narración o filtros internos de GTA VI. Sí puedes revisar ahora herramientas de la consola para lectura, colores y controles, sin atribuirles funciones del juego todavía no documentadas.",
+      "To prepare accessibility for GTA 6, distinguish PS5 or Xbox system settings from options implemented by the game itself. The official sources checked on November 6, 2026 do not provide a complete list of GTA VI subtitle sizes, narration or in-game filters. You can already review console tools for reading, colours and controls without claiming undocumented game features.",
+      "Pour préparer l’accessibilité de GTA 6, distinguez les réglages système PS5 ou Xbox des options du jeu. Les sources officielles consultées le 6 novembre 2026 ne fournissent pas de liste complète des tailles de sous-titres, de la narration ou des filtres internes de GTA VI. Vous pouvez déjà vérifier les outils de lecture, de couleurs et de commandes des consoles, sans leur attribuer des fonctions non documentées du jeu."
+    ],
+    "published": "2026-11-06",
+    "updated": "2026-11-06",
+    "sections": [
+      {
+        "heading": [
+          "Qué sabemos de los ajustes de accesibilidad de GTA 6",
+          "What we know about GTA 6 accessibility settings",
+          "Ce que l’on sait des réglages d’accessibilité GTA 6"
+        ],
+        "paragraphs": [
+          [
+            "Para preparar la accesibilidad de GTA 6, distingue los ajustes de PS5 o Xbox de las opciones que implementará el propio juego. Las fuentes oficiales revisadas el 6 de noviembre de 2026 no ofrecen una lista completa de tamaño de subtítulos, narración o filtros internos de GTA VI. Sí puedes revisar ahora herramientas de la consola para lectura, colores y controles, sin atribuirles funciones del juego todavía no documentadas.",
+            "To prepare accessibility for GTA 6, distinguish PS5 or Xbox system settings from options implemented by the game itself. The official sources checked on November 6, 2026 do not provide a complete list of GTA VI subtitle sizes, narration or in-game filters. You can already review console tools for reading, colours and controls without claiming undocumented game features.",
+            "Pour préparer l’accessibilité de GTA 6, distinguez les réglages système PS5 ou Xbox des options du jeu. Les sources officielles consultées le 6 novembre 2026 ne fournissent pas de liste complète des tailles de sous-titres, de la narration ou des filtres internes de GTA VI. Vous pouvez déjà vérifier les outils de lecture, de couleurs et de commandes des consoles, sans leur attribuer des fonctions non documentées du jeu."
+          ],
+          [
+            "Que una ficha incluya subtítulos en un idioma no confirma que puedas cambiar su tamaño, fondo o posición. Tampoco una ayuda de apuntado equivale a un sistema de controles totalmente personalizable. Nuestra guía de idiomas cubre las traducciones; esta se centra en cómo evaluar la legibilidad y preparar el equipo.",
+            "A listing supporting subtitles in a language does not establish adjustable size, background or positioning. Aim assistance is not the same as fully customisable controls either. Our language guide covers translations; this guide focuses on evaluating legibility and preparing your setup.",
+            "La présence de sous-titres dans une langue ne prouve pas que taille, fond ou position soient réglables. Une aide à la visée n’équivaut pas non plus à des commandes entièrement personnalisables. Notre guide des langues couvre les traductions ; celui-ci concerne la lisibilité et la préparation du matériel."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          },
+          {
+            "label": "Rockstar Support — GTA VI platforms, editions and versions",
+            "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+          },
+          {
+            "label": "FansGTA — GTA 6 languages: voice acting, Spanish and subtitles",
+            "url": "https://fansgta.com/es/guias/gta-6-idiomas-doblaje-subtitulos/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "PS5: lectura, zoom y mandos desde Accesibilidad",
+          "PS5: reading, zoom and controller options in Accessibility",
+          "PS5 : lecture, zoom et manette dans Accessibilité"
+        ],
+        "paragraphs": [
+          [
+            "Abre Ajustes > Accesibilidad y revisa las herramientas que respondan a tu necesidad. Sony documenta zoom, tamaño del texto, corrección de colores y opciones de mando. Prueba una modificación cada vez y conserva una referencia para poder revertirla si empeora tu lectura.",
+            "Open Settings > Accessibility and review tools addressing your needs. Sony documents zoom, text size, colour correction and controller options. Try one change at a time and keep a baseline so you can reverse it if reading becomes harder.",
+            "Ouvrez Paramètres > Accessibilité et examinez les outils adaptés à vos besoins. Sony documente zoom, taille du texte, correction des couleurs et options de manette. Essayez un changement à la fois et gardez une référence pour revenir en arrière si la lecture se dégrade."
+          ],
+          [
+            "El lector de pantalla de la consola ayuda a utilizar su interfaz. No garantiza que narre todos los menús o diálogos de GTA VI. Del mismo modo, ampliar el texto del sistema no acredita un control de tamaño para cada subtítulo del juego. Para esa función hace falta información específica del título.",
+            "The console screen reader helps with its interface. It does not guarantee narration of every GTA VI menu or line of dialogue. Likewise, enlarging system text does not establish size control for every in-game subtitle. That requires game-specific information.",
+            "Le lecteur d’écran aide à utiliser l’interface de la console. Il ne garantit pas la narration de tous les menus ou dialogues de GTA VI. De même, agrandir le texte système ne prouve pas un réglage de chaque sous-titre du jeu. Cette fonction nécessite une information propre au titre."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — PS5 accessibility settings",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Xbox: filtros de color y herramientas de lectura",
+          "Xbox: colour filters and reading tools",
+          "Xbox : filtres de couleur et outils de lecture"
+        ],
+        "paragraphs": [
+          [
+            "Microsoft reúne Narrador, Lupa y otras herramientas en su portal de accesibilidad. Para los filtros de Series X|S, su documentación indica Configuración > Accesibilidad > Filtros de color y explica que afectan al contenido de toda la consola. Es una ayuda del sistema, no un anuncio de un modo específico de GTA 6.",
+            "Microsoft groups Narrator, Magnifier and other tools in its accessibility hub. For Series X|S colour filters, its documentation points to Settings > Accessibility > Color filters and explains that they affect content across the console. This is a system aid, not an announcement of a GTA 6-specific mode.",
+            "Microsoft regroupe Narrateur, Loupe et d’autres outils sur son portail d’accessibilité. Pour les filtres Series X|S, sa documentation indique Paramètres > Accessibilité > Filtres de couleur et précise qu’ils concernent l’ensemble du contenu de la console. C’est une aide système, pas l’annonce d’un mode GTA 6 particulier."
+          ],
+          [
+            "Un filtro general puede ayudarte a distinguir tonos, pero no sustituye automáticamente indicadores con formas, texto o símbolos diseñados por el juego. Para decidir si una opción te sirve, comprueba la tarea que necesitas realizar: leer un objetivo, reconocer un aviso o seguir una conversación.",
+            "A general filter may help distinguish hues, but it does not automatically replace indicators using shapes, text or symbols designed by the game. To assess whether an option helps, identify the actual task: reading an objective, recognising a warning or following a conversation.",
+            "Un filtre général peut faciliter la distinction des teintes, sans remplacer automatiquement des indicateurs utilisant formes, texte ou symboles conçus par le jeu. Pour savoir s’il vous aide, identifiez la tâche : lire un objectif, reconnaître une alerte ou suivre une conversation."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox — Accessibility features",
+            "url": "https://www.xbox.com/en-US/community/for-everyone/accessibility"
+          },
+          {
+            "label": "Xbox Wire — Series X|S color filters and accessibility settings",
+            "url": "https://news.xbox.com/en-us/2021/11/17/november-xbox-update/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Una comprobación útil para cada necesidad",
+          "A useful check for each accessibility need",
+          "Une vérification utile pour chaque besoin"
+        ],
+        "paragraphs": [
+          [
+            "Al consultar una futura demostración, busca la opción que resuelve tu dificultad concreta. La siguiente tabla propone preguntas para comprobar; no enumera funciones confirmadas de GTA VI. Puede servirte para comparar una descripción comercial con una pantalla real del juego.",
+            "When checking a future demonstration, look for the option addressing your specific difficulty. The table below proposes questions to verify; it does not list confirmed GTA VI features. It can help you compare a marketing description with an actual game screen.",
+            "Lors d’une future démonstration, cherchez l’option répondant à votre difficulté précise. Ce tableau propose des questions à vérifier ; il n’énumère pas des fonctions confirmées de GTA VI. Il aide à comparer une description commerciale à un véritable écran du jeu."
+          ]
+        ],
+        "table": {
+          "headers": [
+            [
+              "Necesidad",
+              "Need",
+              "Besoin"
+            ],
+            [
+              "Qué comprobar en el juego",
+              "What to check in the game",
+              "À vérifier dans le jeu"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Leer diálogos",
+                "Reading dialogue",
+                "Lire les dialogues"
+              ],
+              [
+                "Tamaño, contraste y fondo del subtítulo",
+                "Subtitle size, contrast and background",
+                "Taille, contraste et fond des sous-titres"
+              ]
+            ],
+            [
+              [
+                "Distinguir avisos",
+                "Distinguishing alerts",
+                "Distinguer les alertes"
+              ],
+              [
+                "Símbolos y texto además del color",
+                "Symbols and text as well as colour",
+                "Symboles et texte en plus de la couleur"
+              ]
+            ],
+            [
+              [
+                "Reducir esfuerzo del mando",
+                "Reducing controller effort",
+                "Réduire l’effort sur la manette"
+              ],
+              [
+                "Mantener, alternar o reasignar cada acción",
+                "Hold, toggle or remap each action",
+                "Maintien, bascule ou réaffectation de chaque action"
+              ]
+            ],
+            [
+              [
+                "Evitar movimientos incómodos",
+                "Avoiding uncomfortable motion",
+                "Éviter les mouvements inconfortables"
+              ],
+              [
+                "Opciones documentadas de cámara y movimiento",
+                "Documented camera and motion options",
+                "Options documentées de caméra et de mouvement"
+              ]
+            ]
+          ]
+        },
+        "image": {
+          "key": "jason",
+          "alt": [
+            "Primer plano de Jason tras una valla con luces rojas y azules en GTA VI",
+            "Close-up of Jason behind a fence with red and blue lights in GTA VI",
+            "Gros plan de Jason derrière un grillage avec des lumières rouges et bleues dans GTA VI"
+          ],
+          "caption": [
+            "Imagen promocional de Jason con luces de distintos colores. No es una comparación de filtros ni una prueba de legibilidad del juego final.",
+            "Promotional image of Jason with differently coloured lights. It is neither a filter comparison nor a final-game legibility test.",
+            "Image promotionnelle de Jason avec des lumières de différentes couleurs. Ce n’est ni un comparatif de filtres ni un test de lisibilité du jeu final."
+          ],
+          "credit": {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "PlayStation Support — PS5 accessibility settings",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/"
+          },
+          {
+            "label": "Xbox — Accessibility features",
+            "url": "https://www.xbox.com/en-US/community/for-everyone/accessibility"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Subtítulos, vibración y cámara: qué no damos por confirmado",
+          "Subtitles, vibration and camera options: what is not established here",
+          "Sous-titres, vibrations et caméra : les fonctions non établies ici"
+        ],
+        "paragraphs": [
+          [
+            "No publicamos un menú definitivo de GTA 6, valores de sensibilidad recomendados ni instrucciones para desactivar un efecto dentro del juego sin verificación. Las funciones de consola y las adaptaciones del propio título pueden complementarse, pero no son intercambiables. También conviene revisar interacciones: Sony indica que invertir colores en PS5 desactiva HDR.",
+            "We are not publishing a definitive GTA 6 menu, recommended sensitivity values or steps to disable an in-game effect without verification. Console tools and game-specific adaptations may complement one another, but they are not interchangeable. Check interactions too: Sony states that PS5 Invert Colors disables HDR.",
+            "Nous ne publions ni menu définitif GTA 6, ni sensibilité recommandée, ni procédure pour désactiver un effet du jeu sans vérification. Outils système et adaptations du titre peuvent se compléter, sans être interchangeables. Vérifiez aussi leurs interactions : Sony précise que l’inversion des couleurs PS5 désactive le HDR."
+          ],
+          [
+            "Cuando llegue una guía del juego final, exige que indique plataforma y versión. Así podrás saber si describe una opción comprobada, una función del sistema o una expectativa. Preparar ahora lectura y controles es útil; asegurar que todas tus necesidades estarán cubiertas sin esa evidencia no lo sería.",
+            "When a guide to the final game appears, check that it identifies platform and version. That lets you distinguish a tested option, a system feature and an expectation. Preparing reading and controls now is useful; guaranteeing that every need will be met without that evidence would not be.",
+            "Lorsqu’un guide du jeu final paraîtra, vérifiez qu’il indique plateforme et version. Vous distinguerez ainsi option testée, fonction système et attente. Préparer lecture et commandes dès maintenant est utile ; garantir sans preuve que tous les besoins seront couverts ne le serait pas."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — PS5 accessibility settings",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/"
+          },
+          {
+            "label": "Xbox — Accessibility features",
+            "url": "https://www.xbox.com/en-US/community/for-everyone/accessibility"
+          },
+          {
+            "label": "FansGTA — GTA 6 HDR: how to prepare your picture on PS5 and Xbox",
+            "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games — Grand Theft Auto VI",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "Rockstar Support — GTA VI platforms, editions and versions",
+        "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+      },
+      {
+        "label": "PlayStation Support — PS5 accessibility settings",
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-accessibility-settings/"
+      },
+      {
+        "label": "Xbox — Accessibility features",
+        "url": "https://www.xbox.com/en-US/community/for-everyone/accessibility"
+      },
+      {
+        "label": "Xbox Wire — Series X|S color filters and accessibility settings",
+        "url": "https://news.xbox.com/en-us/2021/11/17/november-xbox-update/"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Media",
+        "url": "https://www.rockstargames.com/VI/media"
+      }
+    ]
+  }
+]

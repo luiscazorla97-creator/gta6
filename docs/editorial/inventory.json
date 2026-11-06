@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-series-s-performance-guide-20261106",
+    "category": "guides",
+    "published": "2026-11-06",
+    "titles": [
+      "GTA 6 en Xbox Series S: FPS, resolución y cómo prepararla",
+      "GTA 6 on Xbox Series S: FPS, resolution and launch setup",
+      "GTA 6 sur Xbox Series S : FPS, résolution et préparation"
+    ],
+    "paths": [
+      "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+      "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+      "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/"
+    ]
+  },
+  {
+    "id": "gta6-steam-deck-compatibility-20261106",
+    "category": "guides",
+    "published": "2026-11-06",
+    "titles": [
+      "GTA 6 en Steam Deck: compatibilidad, OLED y versión de PC",
+      "GTA 6 on Steam Deck: compatibility, OLED and the PC version",
+      "GTA 6 sur Steam Deck : compatibilité, OLED et version PC"
+    ],
+    "paths": [
+      "/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+      "/en/guides/gta-6-steam-deck-oled-compatibility-pc/",
+      "/fr/guides/gta-6-steam-deck-oled-compatibilite-pc/"
+    ]
+  },
+  {
+    "id": "gta6-photo-mode-previews-captures-20261106",
+    "category": "guides",
+    "published": "2026-11-06",
+    "titles": [
+      "Modo foto de GTA 6: avances y capturas en PS5 y Xbox",
+      "GTA 6 photo mode: previews and screenshots on PS5 and Xbox",
+      "Mode photo GTA 6 : aperçus et captures sur PS5 et Xbox"
+    ],
+    "paths": [
+      "/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+      "/en/guides/gta-6-photo-mode-previews-screenshots-ps5-xbox/",
+      "/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/"
+    ]
+  },
+  {
+    "id": "gta6-hdr-display-calibration-20261106",
+    "category": "guides",
+    "published": "2026-11-06",
+    "titles": [
+      "HDR para GTA 6: cómo preparar la imagen en PS5 y Xbox",
+      "GTA 6 HDR: how to prepare your picture on PS5 and Xbox",
+      "HDR pour GTA 6 : préparer l’image sur PS5 et Xbox"
+    ],
+    "paths": [
+      "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+      "/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+      "/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/"
+    ]
+  },
+  {
+    "id": "gta6-accessibility-console-preparation-20261106",
+    "category": "guides",
+    "published": "2026-11-06",
+    "titles": [
+      "Accesibilidad de GTA 6: subtítulos, controles y opciones",
+      "GTA 6 accessibility: subtitles, controls and console options",
+      "Accessibilité GTA 6 : sous-titres, commandes et options"
+    ],
+    "paths": [
+      "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+      "/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+      "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/"
+    ]
+  },
+  {
     "id": "gta6-pilot-flight-art-20261106",
     "category": "news",
     "published": "2026-11-06",
