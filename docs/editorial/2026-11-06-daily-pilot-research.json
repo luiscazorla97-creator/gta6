@@ -1,5 +1,5 @@
 {
-  "status": "checked-ready-to-publish",
+  "status": "published-verified",
   "checkedAt": "2026-11-06T22:17:31.190424+00:00",
   "date": "2026-11-06",
   "timezone": "America/New_York",
@@ -37,7 +37,8 @@
       },
       "actualAPIRead": true
     },
-    "futureAvailability": "This run establishes access at execution time, not a guarantee of future executor or connection availability."
+    "futureAvailability": "This run establishes access at execution time, not a guarantee of future executor or connection availability.",
+    "executionCompletedWithEffectiveAccess": true
   },
   "newTopics": [
     {
@@ -231,7 +232,48 @@
       "coverage": "One topic × three locales × desktop/mobile. Full content; two decoded official images with translated alt/caption/credit and responsive srcsets; canonical/hreflang, metadata, JSON-LD dates/citations; localized internal links HTTP 200; actual language-selector navigation; sitemap and archives; no horizontal overflow or JavaScript exceptions; single AdSense and Social Bar; GA4 absent before consent. Representative desktop/mobile screenshots visually inspected.",
       "scope": "Provider SDKs stubbed for content/navigation checks, not proof of creative delivery."
     },
-    "public": "pending deployment"
+    "public": {
+      "newPagesHTTP200": 3,
+      "discoveryPages": 6,
+      "releaseMatchingResources": 11,
+      "localizedInternalLinksHTTP200": 9,
+      "SEOFiles": [
+        "/sitemap.xml",
+        "/robots.txt",
+        "/ads.txt"
+      ],
+      "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match the tested release. Browser interactions used local provider fixtures, not proof of advertising creative fill. Flight art evidence relies on the historical tracker record, original post, inspected route image and linked coverage; the third-party map image is not republished.",
+      "browser": {
+        "verifiedAt": "2026-11-06T22:23:25.042Z",
+        "results": [
+          {
+            "url": "https://fansgta.com/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/en/news/gta-6-pilot-flight-path-art-eight-hours/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          }
+        ],
+        "scope": "Chromium mobile rendering and language navigation using live public HTTPS responses fetched by the Node transport with the configured session CA and inherited proxy. Native Chromium HTTPS initially rejected the environment proxy CA; no TLS bypass or trust-store modification. Provider SDKs stubbed to check content and navigation, not advertising creative delivery. No desktop dependency."
+      }
+    }
   },
   "preservation": {
     "existingCompleteArticlesPreserved": 172,
@@ -261,5 +303,11 @@
       "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
     },
     "existingMediaCreditsPreserved": 76
+  },
+  "publication": {
+    "commit": "216a796427b53a9b4c67f11a8a62b87e7a1fa5f1",
+    "deploymentId": "4e8fce71-0b6e-40db-acd9-77763a52e5e1",
+    "verifiedAt": "2026-11-06T22:21:24.186604+00:00",
+    "proof": "docs/editorial/2026-11-06-daily-pilot-publication.json"
   }
 }

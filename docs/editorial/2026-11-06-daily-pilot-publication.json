@@ -1,0 +1,266 @@
+{
+  "verifiedAt": "2026-11-06T22:21:24.186604+00:00",
+  "commit": "216a796427b53a9b4c67f11a8a62b87e7a1fa5f1",
+  "deploymentId": "4e8fce71-0b6e-40db-acd9-77763a52e5e1",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-06T22:21:00.650472Z",
+    "ended_on": "2026-11-06T22:21:19.183971Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 173,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "fb75566256703f830ed9f2e930c25637321c17b28bc42005ffa9a313f003ff87"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-pilot-flight-path-art-eight-hours/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 173,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "1b97865fba4d7a4a3e2bb39561991f7d7d110a384be876a80ac8ad5ba0ba2684"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 173,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "694ac71326e1657ddd4f3182bf8536f63e8307673b6ad397d7e7b0dba1747285"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-pilot-flight-art-20261106"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-pilot-flight-art-20261106"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-pilot-flight-art-20261106"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-pilot-flight-art-20261106"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-pilot-flight-art-20261106"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-pilot-flight-art-20261106"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-8AA3PAdw.js",
+      "status": 200,
+      "bytes": 352487,
+      "sha256": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-B631hZsa.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/leonida-keys.webp",
+      "status": 200,
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-1200.webp",
+      "status": 200,
+      "bytes": 93324,
+      "sha256": "84fbdff3ad4c2f89a4cf2c21be87aa564e26a5f532260a8c17773cae8e474ee0",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-480.webp",
+      "status": 200,
+      "bytes": 24002,
+      "sha256": "444cd67a07083650e8f933db084ef0d37cd6a804e291a02782ec72645710300e",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-800.webp",
+      "status": 200,
+      "bytes": 54794,
+      "sha256": "5b59cffc8a3d1a8c126c5951e4db8f0e1a1de79dbd94c36160ac42d2ae694823",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+      "status": 200,
+      "bytes": 99926,
+      "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-480.webp",
+      "status": 200,
+      "bytes": 26716,
+      "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-800.webp",
+      "status": 200,
+      "bytes": 62618,
+      "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-parachuting-helicopters-flight/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-39-new-screenshots-rockstar-launch-gallery/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-paracaidas-helicopteros-vuelo/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-39-nouvelles-images-galerie-lancement-rockstar/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-parachute-helicopteres-vol/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "a4534fbfa73d78e42339bc5cdb7d1300068909fbb7bd0d076c9af5f3f03685ca",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match the tested release. Browser interactions used local provider fixtures, not proof of advertising creative fill. Flight art evidence relies on the historical tracker record, original post, inspected route image and linked coverage; the third-party map image is not republished.",
+  "browserPublic": {
+    "verifiedAt": "2026-11-06T22:23:25.042Z",
+    "results": [
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-pilot-flight-path-art-eight-hours/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      }
+    ],
+    "scope": "Chromium mobile rendering and language navigation using live public HTTPS responses fetched by the Node transport with the configured session CA and inherited proxy. Native Chromium HTTPS initially rejected the environment proxy CA; no TLS bypass or trust-store modification. Provider SDKs stubbed to check content and navigation, not advertising creative delivery. No desktop dependency."
+  }
+}
