@@ -1,5 +1,5 @@
 {
-  "status": "checked-ready-to-publish",
+  "status": "published-verified",
   "date": "2026-11-06",
   "timezone": "America/New_York",
   "checkedAt": "2026-11-06T22:47:52.022711+00:00",
@@ -35,7 +35,9 @@
         "status": "success"
       },
       "actualAPIRead": true
-    }
+    },
+    "executionCompletedWithEffectiveAccess": true,
+    "futureAvailability": "This completed cloud run confirms effective access at execution time, without a desktop dependency. Future executor/connection availability must be checked separately."
   },
   "newTopics": [
     {
@@ -881,7 +883,144 @@
       "coverage": "Five topics × three locales × desktop/mobile = 30 article scenarios across six test cases. Complete headings/paragraphs/table cells; 2 or 3 decoded official images with translated alt/captions/credit and responsive srcsets; canonical/hreflang/meta, JSON-LD dates/citations; localized internal links HTTP 200; real language-selector navigation; sitemap and archives; no page exceptions or document overflow; single AdSense/Social Bar and GA4 absent before consent. Representative desktop/mobile screenshots visually inspected.",
       "scope": "Provider SDKs stubbed for content/navigation, not advertising creative delivery."
     },
-    "public": "pending deployment"
+    "public": {
+      "newPagesHTTP200": 15,
+      "discoveryPages": 6,
+      "releaseMatchingResources": 31,
+      "localizedInternalLinksHTTP200": 30,
+      "SEOFiles": [
+        "/sitemap.xml",
+        "/robots.txt",
+        "/ads.txt"
+      ],
+      "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match the tested release. Browser interactions used local provider fixtures, not proof of advertising creative fill. These are query-focused guides with no invented search volume, benchmarks, PC/Deck release or final game settings. Photo-mode claims are attributed to previews, not a new Rockstar announcement.",
+      "browser": {
+        "verifiedAt": "2026-11-06T22:53:46.251Z",
+        "results": [
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/fr/guides/gta-6-steam-deck-oled-compatibilite-pc/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/en/guides/gta-6-steam-deck-oled-compatibility-pc/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/fr/guides/gta-6-steam-deck-oled-compatibilite-pc/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 3,
+            "languageSelectorNavigatedTo": "/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/en/guides/gta-6-photo-mode-previews-screenshots-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 3,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 3,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          }
+        ],
+        "scope": "Chromium mobile rendering and language navigation against live public HTTPS responses fetched by Node with the configured session CA and inherited proxy. This avoids the native Chromium CA limitation observed in the earlier November 6 run, while keeping normal TLS validation and unchanged trust stores. Provider SDKs stubbed for content/navigation, not advertising creative delivery. No desktop dependency."
+      }
+    }
   },
   "preservation": {
     "existingCompleteArticlesPreserved": 173,
@@ -971,5 +1110,11 @@
       "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
       "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
     }
+  },
+  "publication": {
+    "commit": "c2a0f89cceeef169e5a3bf6e6a847eea8c070d36",
+    "deploymentId": "f3b4fee9-0ac0-40c2-85c6-15f29a789ed6",
+    "verifiedAt": "2026-11-06T22:52:44.411540+00:00",
+    "proof": "docs/editorial/2026-11-06-five-publication.json"
   }
 }

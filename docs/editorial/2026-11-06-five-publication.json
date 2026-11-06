@@ -1,0 +1,750 @@
+{
+  "verifiedAt": "2026-11-06T22:52:44.411540+00:00",
+  "commit": "c2a0f89cceeef169e5a3bf6e6a847eea8c070d36",
+  "deploymentId": "f3b4fee9-0ac0-40c2-85c6-15f29a789ed6",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-06T22:52:12.12087Z",
+    "ended_on": "2026-11-06T22:52:28.681095Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "32c82124765ae89cdb6fe9586798e7f73ca712a1759c7a90e5869bb5975a81c9"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "c93c42a986eda7fce456788fad1aee1567a825d9426ee47c59ad21063ac3543b"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "84f5974fdfbcc88e66fc47781dc08d9aef4a76db38a4316bd57672987eb730c7"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "bc8a935911509ef60be107e8d0293b20ec1af7581986be98141042359f74fec7"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-steam-deck-oled-compatibility-pc/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "3441b74a525c371ec6e29b0228894a8803358f337147db3d1e42b7db891ecc9e"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-steam-deck-oled-compatibilite-pc/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "24ac828d5d2141252559b565c7269109962c30de990d0d8d2c40b4d977e94640"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "199f07d8163b0efa43451f08085327a9ae25a8c3e48c58ba45087a04f0cd49c3"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-photo-mode-previews-screenshots-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "87641df444b8d4df6a53d7612ab813754bcbcd31339ec49816161cbbe248e583"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 3,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "13d4e7b4ceb377c87137f60da81d867194008cef697f855781223aa3d5bdd838"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "ea861cef1d1af4656cf1244b85b4949a2eb9e61008f59744d6fc3d90a10f06c4"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "93c0242eec0621b973f16d9abe8e5131362d0445da5a5bc0dc86ec9442bd265a"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "95b283ace92a072967f521f6be20f375f4203feeb591be01bc3de5ba99204ccd"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2d64b0b224d32c3a3b8115a59091047e2b2e17ced41884b3ad013549d89fb784"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "afeae458b66fb6ee5ffebfb53c0bf47081e9f4636ec7681ba444e5315158c597"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 178,
+      "ownAssetReferencesMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "64e32eb1bd470b09ea3df0285eb6d595dd3da3c314dd1db1e394d8b361cfcf71"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-series-s-performance-guide-20261106",
+        "gta6-steam-deck-compatibility-20261106",
+        "gta6-photo-mode-previews-captures-20261106"
+      ],
+      "scope": "Unchanged homepage shows the first three editorial recommendations; guide archive links all five."
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-series-s-performance-guide-20261106",
+        "gta6-steam-deck-compatibility-20261106",
+        "gta6-photo-mode-previews-captures-20261106",
+        "gta6-hdr-display-calibration-20261106",
+        "gta6-accessibility-console-preparation-20261106"
+      ],
+      "scope": "Unchanged homepage shows the first three editorial recommendations; guide archive links all five."
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-series-s-performance-guide-20261106",
+        "gta6-steam-deck-compatibility-20261106",
+        "gta6-photo-mode-previews-captures-20261106"
+      ],
+      "scope": "Unchanged homepage shows the first three editorial recommendations; guide archive links all five."
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-series-s-performance-guide-20261106",
+        "gta6-steam-deck-compatibility-20261106",
+        "gta6-photo-mode-previews-captures-20261106",
+        "gta6-hdr-display-calibration-20261106",
+        "gta6-accessibility-console-preparation-20261106"
+      ],
+      "scope": "Unchanged homepage shows the first three editorial recommendations; guide archive links all five."
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-series-s-performance-guide-20261106",
+        "gta6-steam-deck-compatibility-20261106",
+        "gta6-photo-mode-previews-captures-20261106"
+      ],
+      "scope": "Unchanged homepage shows the first three editorial recommendations; guide archive links all five."
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-series-s-performance-guide-20261106",
+        "gta6-steam-deck-compatibility-20261106",
+        "gta6-photo-mode-previews-captures-20261106",
+        "gta6-hdr-display-calibration-20261106",
+        "gta6-accessibility-console-preparation-20261106"
+      ],
+      "scope": "Unchanged homepage shows the first three editorial recommendations; guide archive links all five."
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-8AA3PAdw.js",
+      "status": 200,
+      "bytes": 352487,
+      "sha256": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-B631hZsa.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/feature-launch-gallery-bridge.webp",
+      "status": 200,
+      "bytes": 217872,
+      "sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-mountain.webp",
+      "status": 200,
+      "bytes": 226130,
+      "sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/jason.webp",
+      "status": 200,
+      "bytes": 68710,
+      "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/leonida-keys.webp",
+      "status": 200,
+      "bytes": 126662,
+      "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/lucia.webp",
+      "status": 200,
+      "bytes": 65852,
+      "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/region-leonida-keys-03.webp",
+      "status": 200,
+      "bytes": 232604,
+      "sha256": "a05cb8512d5725e250adc2461bc262b7ceb3ca3bec87e6d2d98286e8b97b19d3",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-1200.webp",
+      "status": 200,
+      "bytes": 93324,
+      "sha256": "84fbdff3ad4c2f89a4cf2c21be87aa564e26a5f532260a8c17773cae8e474ee0",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-480.webp",
+      "status": 200,
+      "bytes": 24002,
+      "sha256": "444cd67a07083650e8f933db084ef0d37cd6a804e291a02782ec72645710300e",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/088b6a9914da/leonida-keys-800.webp",
+      "status": 200,
+      "bytes": 54794,
+      "sha256": "5b59cffc8a3d1a8c126c5951e4db8f0e1a1de79dbd94c36160ac42d2ae694823",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+      "status": 200,
+      "bytes": 99926,
+      "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-480.webp",
+      "status": 200,
+      "bytes": 26716,
+      "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-800.webp",
+      "status": 200,
+      "bytes": 62618,
+      "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-1200.webp",
+      "status": 200,
+      "bytes": 136310,
+      "sha256": "2c167a13fcf0cf7bd5b92a177df709b11c8b9fc85e3a52cbde2ca44ae543d3ad",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-480.webp",
+      "status": 200,
+      "bytes": 34362,
+      "sha256": "ac702339970096415884c33bf68058573f2e20e81129e62979425918e5c5a438",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-800.webp",
+      "status": 200,
+      "bytes": 77148,
+      "sha256": "7aacbd03cfe0261e65d724ec96ebc8ab116548d021a684b0244c40b69e1af819",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-1200.webp",
+      "status": 200,
+      "bytes": 51110,
+      "sha256": "f81c43086bdf633909d5522e20d74db6dad013e39e5eb039351c926450270771",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-480.webp",
+      "status": 200,
+      "bytes": 17104,
+      "sha256": "65e638c54352d3417858a9625f9bc8094a524af6a7ff3b6ffbfba52be08f2e49",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-800.webp",
+      "status": 200,
+      "bytes": 34622,
+      "sha256": "f2645efb3e758ce131d003802eff2c4ff34c71a82738fac6242cb662b0362583",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-1200.webp",
+      "status": 200,
+      "bytes": 51282,
+      "sha256": "a214defe4eabffdc9ee37d81e400c47a42c23cc08e6ebac3f6aa88e7e5860e10",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-480.webp",
+      "status": 200,
+      "bytes": 18834,
+      "sha256": "4233d532d0c6a13f7af9df721ce7290de5fa790b8e683e8811b86d941e054dbd",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-800.webp",
+      "status": 200,
+      "bytes": 36354,
+      "sha256": "b21e566773f614eff278fc031fc2ac9eb28924d47630fdf075490fc6b75a9cd5",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/d78c0dbf5292/region-leonida-keys-03-1200.webp",
+      "status": 200,
+      "bytes": 173656,
+      "sha256": "60e3459c2ddc1b73d8447b5826b900f2be6b844044c64ec4ba136fba3d0a8419",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/d78c0dbf5292/region-leonida-keys-03-480.webp",
+      "status": 200,
+      "bytes": 45096,
+      "sha256": "b340bdb02dc050d9371f0661a88390ef7c6ea62396dde6c3b104af200b5665cc",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/d78c0dbf5292/region-leonida-keys-03-800.webp",
+      "status": 200,
+      "bytes": 99154,
+      "sha256": "7feb18e3717f2890f3d043f2ea67de7982f08ade81602b902d862497e70aa9fb",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-1200.webp",
+      "status": 200,
+      "bytes": 150068,
+      "sha256": "52da88fb17173df7565f24215518e8683725833b31a23a95234f93b359d05a0a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-480.webp",
+      "status": 200,
+      "bytes": 31458,
+      "sha256": "ed7b911d0463c54cae87ed976c98440b89235430bc1cb321b5bfde04b1372836",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/f87537d1c8fd/feature-mountain-800.webp",
+      "status": 200,
+      "bytes": 78644,
+      "sha256": "37f5c32a0094acd38fd46246b759a8cc201a1388c6337b43fd86b1441144144a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-android-iphone-apk-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-languages-voiceover-subtitles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-phone-apps-snapmatic-social-media/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-39-new-screenshots-rockstar-launch-gallery/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-pc-q1-2027-gamesbeat-report/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-idiomas-doblaje-subtitulos/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-telefono-aplicaciones-snapmatic-redes/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-pc-primer-trimestre-2027-gamesbeat/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-39-nouvelles-images-galerie-lancement-rockstar/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-pc-premier-trimestre-2027-gamesbeat/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-langues-doublage-sous-titres/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-telephone-applications-snapmatic-reseaux/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "8c7d3099e34ddab2347a95d309622fb40e4a25176b03b5a3be13f22fb581c931",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match the tested release. Browser interactions used local provider fixtures, not proof of advertising creative fill. These are query-focused guides with no invented search volume, benchmarks, PC/Deck release or final game settings. Photo-mode claims are attributed to previews, not a new Rockstar announcement.",
+  "browserPublic": {
+    "verifiedAt": "2026-11-06T22:53:46.251Z",
+    "results": [
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/guides/gta-6-steam-deck-oled-compatibilite-pc/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-steam-deck-oled-compatibility-pc/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-steam-deck-oled-compatibilite-pc/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-steam-deck-oled-compatibilidad-pc/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 3,
+        "languageSelectorNavigatedTo": "/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-photo-mode-previews-screenshots-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 3,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 3,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      }
+    ],
+    "scope": "Chromium mobile rendering and language navigation against live public HTTPS responses fetched by Node with the configured session CA and inherited proxy. This avoids the native Chromium CA limitation observed in the earlier November 6 run, while keeping normal TLS validation and unchanged trust stores. Provider SDKs stubbed for content/navigation, not advertising creative delivery. No desktop dependency."
+  }
+}
