@@ -1,0 +1,231 @@
+{
+  "status": "prepared-not-published",
+  "checkedAt": "2026-11-06T16:52:21.785200+00:00",
+  "date": "2026-11-06",
+  "timezone": "America/New_York",
+  "scope": {
+    "manualTopics": 1,
+    "localizedVersions": 3,
+    "dailyScheduleChanged": false,
+    "dailyTopicLimit": 1,
+    "dailyLastAuthorizedDate": "2026-11-19"
+  },
+  "baseline": {
+    "freshGitHubMain": "962e6d3bab42c6a4469a16de3d7bfdc83e0cb1d1",
+    "tree": "0de8960c313e9b7d080d60e99766d7945372aeef",
+    "topics": 171,
+    "localizedURLs": 513,
+    "fullArticleSnapshotRead": true,
+    "cleanCloudCheckoutMatchesCurrentMain": true
+  },
+  "cloud": {
+    "provider": "cloud",
+    "runtime": "connected/running/spec8",
+    "observationsCurrent": true,
+    "network": "unrestricted/enforced",
+    "configuredCFaccountAndDomainBoundToken": "ready;actualAPIreadbelow",
+    "desktopDependency": false,
+    "actualCloudflareRead": {
+      "project": "fansgta",
+      "canonicalDeployment": "644ff328-10ea-4162-bd60-bf42c09c4901",
+      "commit": "7bb87ffdbdd2843df17f1cbf9aa7b4f87434d994",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-05T23:57:09.470192Z",
+        "ended_on": "2026-11-05T23:57:26.308591Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    }
+  },
+  "newTopics": [
+    {
+      "id": "gta6-zelnick-delay-quality-20261106",
+      "category": "news",
+      "published": "2026-11-06",
+      "titles": [
+        "GTA 6: Zelnick defiende los retrasos y prioriza la calidad",
+        "GTA 6: Zelnick defends delays and puts quality first",
+        "GTA 6 : Zelnick défend les reports et privilégie la qualité"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-zelnick-retrasos-calidad-rockstar/",
+        "/en/news/gta-6-zelnick-delays-quality-rockstar/",
+        "/fr/actualites/gta-6-zelnick-reports-qualite-rockstar/"
+      ]
+    }
+  ],
+  "research": {
+    "topic": "Zelnick defends previous GTA VI delays as creative/quality decisions. This is not a new delay announcement.",
+    "sources": [
+      {
+        "key": "pcgamer",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/zelnick-doesnt-regret-gta-6s-delay-because-shipping-an-unfinished-game-rarely-ends-well-there-was-a-very-high-profile-release-that-fell-into-this-category/",
+        "status": 200,
+        "bytes": 2085405,
+        "sha256": "77dc9c36375c1b5b1d0928b689537b3e47de1b80f71e7fdcd82f93a8ce9c528d",
+        "publicationMetadata": [
+          "2026-11-06T11:40:38+00:00"
+        ],
+        "videoLinks": [
+          "https://www.youtube.com/watch?v=r7BWW8gvxRw"
+        ]
+      },
+      {
+        "key": "gamesradar",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/with-gta-6-delays-take-two-ceo-suggests-rockstar-didnt-want-a-cyberpunk-2077-situation-they-had-to-pull-the-title-after-shipping/",
+        "status": 200,
+        "bytes": 2391837,
+        "sha256": "f2b06802e3b1281beabc55822a3f27cbc70f3dd040a60abb437e8003b00d25cf",
+        "publicationMetadata": [
+          "2026-11-05T11:35:54+00:00"
+        ],
+        "videoLinks": [
+          "https://youtu.be/r7BWW8gvxRw"
+        ]
+      },
+      {
+        "key": "official",
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "bytes": 1240905,
+        "sha256": "bb633bb7056442d9b4f1be5f570caf1e6b8282bed085e4a8cb033ce9713037fb",
+        "publicationMetadata": [],
+        "videoLinks": [
+          "https://www.youtube.com/watch?v=tJbzMqJGH4k"
+        ]
+      },
+      {
+        "key": "media",
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "bytes": 814420,
+        "sha256": "afbc7847909c2943ab74aeeddecdda18fe71a32b4f48245ca342cb5708c7eb17",
+        "publicationMetadata": [],
+        "videoLinks": [
+          "https://www.youtube.com/watch?v=tJbzMqJGH4k"
+        ]
+      }
+    ],
+    "originalVideo": {
+      "url": "https://www.youtube.com/watch?v=r7BWW8gvxRw",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "scope": "Originalvideolinkidentified;playback/transcriptnotchecked.No bypassattempt."
+    },
+    "publicationDates": "PC Gamer JSON-LD: 2026-11-06T11:40:38+00:00. GamesRadar+: 2026-11-05T11:35:54+00:00. The interview itself is not dated November 6; the original recording/upload date was not verified.",
+    "attribution": "The article explicitly relies on matching linked partial press transcripts and links the original WSJ video. Web search identified its official watch URL; normal cloud HTTPS returned a 403 tunnel error. No alternate identity, proxy/TLS bypass or claimed full playback/transcript review.",
+    "competitorIdentification": "The quoted remarks name no competitor. GamesRadar+ reads Cyberpunk 2077 into the example; PC Gamer mentions Concord in an editorial aside. The article labels these as the writers’ interpretations, not games named by Zelnick or GTA VI performance tests.",
+    "officialSchedule": "Fresh Rockstar VI HTTP 200 on November 6: November 19, 2026 on PS5 and Xbox Series X|S, with digital preloading from November 10. No further delay, early playable access, PC release or bug-free guarantee is asserted.",
+    "dedup": "All 171 full Article objects and inventory records compared across all languages. None contains Zelnick, Cyberpunk, WSJ or Wall Street. The existing eight-year development story concerns Hooker/Garbut technology and timeline; release/preload stories concern schedules. They are linked without changing content or URLs.",
+    "editorialReview": "Self-review of source attribution, language parity, actual dates and limits. No direct verbatim quote or claimed full video observation. Original analysis/table distinguishes production decisions from review/benchmark evidence."
+  },
+  "interest": [
+    {
+      "query": "gta 6 delay zelnick",
+      "status": 200,
+      "suggestions": [
+        "strauss zelnick gta 6 delay",
+        "why is gta 6 delayed",
+        "why is gta 6 taking so long"
+      ]
+    },
+    {
+      "query": "gta 6 delay cyberpunk",
+      "status": 200,
+      "suggestions": []
+    },
+    {
+      "query": "gta 6 delays",
+      "status": 200,
+      "suggestions": [
+        "gta 6 delays",
+        "gta 6 delays list",
+        "gta 6 delayed again",
+        "gta 6 delays history",
+        "gta 6 delayed to 2027",
+        "gta 6 delay ign",
+        "gta 6 delayed to 2028",
+        "gta 6 delayed again ign",
+        "gta 6 delayed 6 months",
+        "gta 6 delayed 2026"
+      ]
+    }
+  ],
+  "interestLimits": "Current November 6 coverage and Google autocomplete are qualitative signals only. No volume, rank, most-searched status or guaranteed audience/position. Suggestions about a 2027 delay are not announcements and are not reported as facts.",
+  "media": {
+    "checks": [
+      {
+        "key": "hero",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "bytes": 475961,
+        "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8"
+      },
+      {
+        "key": "feature-launch-gallery-bridge",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "bytes": 1132950,
+        "sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1"
+      },
+      {
+        "key": "lucia",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "bytes": 898033,
+        "sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c"
+      }
+    ],
+    "inspection": "All three assets visually inspected this run: official Jason/Lucia artwork, Vice City 27 at twilight with a drawbridge, and Lucia wearing headphones and gloves near gym weights.",
+    "reuse": "Official Media HTTP 200 with Download and share rechecked. Copyright reserved; attributed contextual editorial use with source links, not an unrestricted licence claim. No AI, mods, leaks, GTA V or edited decorative hero layers.",
+    "optimization": "Existing unmodified WebP and responsive variants, reserved dimensions, eager/high-priority cover and lazy inline images. Translated alt/captions and credits identify these as game imagery, not interview footage or performance tests."
+  },
+  "checks": {
+    "build": "npm run build:release passed: 172 topics, 516 versions and 559 generated routes.",
+    "static": "node scripts/verify-static.mjs passed: 560 HTML files, 25,089 internal links and 1,094 structured-data blocks.",
+    "browser": {
+      "result": "6 passed in 13.2 seconds",
+      "coverage": "One topic × three locales × desktop/mobile. Full paragraphs, headings and table cells; three decoded official images with translated alt/caption/credit; canonical/hreflang, metadata, JSON-LD dates and citations; localized internal links HTTP 200; actual language-selector navigation; sitemap and archives; no horizontal overflow or JavaScript exceptions; single AdSense and Social Bar; GA4 absent before consent. Representative desktop/mobile screenshots inspected.",
+      "scope": "Provider SDKs stubbed for local content/navigation checks, not proof of creative delivery. No claimed video playback."
+    },
+    "public": "Pending deployment and public verification."
+  },
+  "preservation": {
+    "existingCompleteArticlesPreserved": 171,
+    "existingInventoryRecordsPreserved": 171,
+    "existingMediaCreditsPreserved": 76,
+    "totalTopics": 172,
+    "totalLocalizedURLs": 516,
+    "newTopics": [
+      {
+        "id": "gta6-zelnick-delay-quality-20261106",
+        "category": "news",
+        "published": "2026-11-06",
+        "titles": [
+          "GTA 6: Zelnick defiende los retrasos y prioriza la calidad",
+          "GTA 6: Zelnick defends delays and puts quality first",
+          "GTA 6 : Zelnick défend les reports et privilégie la qualité"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-zelnick-retrasos-calidad-rockstar/",
+          "/en/news/gta-6-zelnick-delays-quality-rockstar/",
+          "/fr/actualites/gta-6-zelnick-reports-qualite-rockstar/"
+        ]
+      }
+    ],
+    "clientAssetsUnchanged": {
+      "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+    }
+  }
+}
