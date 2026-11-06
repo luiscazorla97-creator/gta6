@@ -1,5 +1,5 @@
 {
-  "status": "prepared-not-published",
+  "status": "published-verified",
   "checkedAt": "2026-11-06T16:52:21.785200+00:00",
   "date": "2026-11-06",
   "timezone": "America/New_York",
@@ -23,7 +23,7 @@
     "runtime": "connected/running/spec8",
     "observationsCurrent": true,
     "network": "unrestricted/enforced",
-    "configuredCFaccountAndDomainBoundToken": "ready;actualAPIreadbelow",
+    "configuredCFaccountAndDomainBoundToken": "Observed ready, followed by successful project read, deployment and public verification.",
     "desktopDependency": false,
     "actualCloudflareRead": {
       "project": "fansgta",
@@ -36,7 +36,9 @@
         "status": "success"
       },
       "actualAPIRead": true
-    }
+    },
+    "executionCompletedWithEffectiveAccess": true,
+    "futureAvailability": "This completed cloud run does not guarantee future executor or connection availability."
   },
   "newTopics": [
     {
@@ -197,7 +199,18 @@
       "coverage": "One topic × three locales × desktop/mobile. Full paragraphs, headings and table cells; three decoded official images with translated alt/caption/credit; canonical/hreflang, metadata, JSON-LD dates and citations; localized internal links HTTP 200; actual language-selector navigation; sitemap and archives; no horizontal overflow or JavaScript exceptions; single AdSense and Social Bar; GA4 absent before consent. Representative desktop/mobile screenshots inspected.",
       "scope": "Provider SDKs stubbed for local content/navigation checks, not proof of creative delivery. No claimed video playback."
     },
-    "public": "Pending deployment and public verification."
+    "public": {
+      "newPagesHTTP200": 3,
+      "discoveryPages": 6,
+      "releaseMatchingResources": 15,
+      "localizedInternalLinksHTTP200": 9,
+      "SEOFiles": [
+        "/sitemap.xml",
+        "/robots.txt",
+        "/ads.txt"
+      ],
+      "scope": "Real public HTTPS reads with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, image and own JS/CSS references/bytes match the tested release. Browser interactions used local provider fixtures, not proof of advertising creative fill. Interview source attribution relies on linked partial press transcripts, not claimed full video playback."
+    }
   },
   "preservation": {
     "existingCompleteArticlesPreserved": 171,
@@ -227,5 +240,11 @@
       "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
       "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
     }
+  },
+  "publication": {
+    "commit": "71d7bd07db84b68af519ff34f54a1bd61b243603",
+    "deploymentId": "67689ea1-d31f-4069-9860-2f821e35a058",
+    "verifiedAt": "2026-11-06T16:56:53.967936+00:00",
+    "proof": "docs/editorial/2026-11-06-one-publication.json"
   }
 }
