@@ -1,5 +1,5 @@
 {
-  "status": "checked-ready-to-publish",
+  "status": "published-verified",
   "date": "2026-11-07",
   "timezone": "America/New_York",
   "checkedAt": "2026-11-07T22:38:54.138653+00:00",
@@ -37,7 +37,9 @@
       },
       "actualAPIRead": true
     },
-    "accessDiagnosis": "Initial status reported configuration changed; fresh status confirmed current running readiness. Default sandbox HTTPS returned EPERM; approved outer-executor commands successfully used inherited proxy and CA with normal TLS. No credential, trust-store, proxy policy or service configuration changed."
+    "accessDiagnosis": "Initial status reported configuration changed; fresh status confirmed current running readiness. Default sandbox HTTPS returned EPERM; approved outer-executor commands successfully used inherited proxy and CA with normal TLS. No credential, trust-store, proxy policy or service configuration changed.",
+    "executionCompletedWithEffectiveAccess": true,
+    "futureAvailability": "This completed run establishes effective cloud access at execution time, without desktop dependency; future executor and connection availability must be checked separately."
   },
   "newTopics": [
     {
@@ -346,7 +348,48 @@
       "coverage": "One topic × three locales × desktop/mobile. Complete headings, paragraphs and table; two decoded official images with translated alt/captions/credit and responsive srcsets; canonical/hreflang/meta, JSON-LD dates/citations; localized internal links HTTP200; actual language selector; sitemap and news archives; no horizontal overflow or page exceptions; single AdSense and SocialBar; GA4 blocked before consent. Representative desktop/mobile screenshots inspected.",
       "scope": "Provider SDKs stubbed for content/navigation checks, not creative delivery."
     },
-    "public": "pending deployment"
+    "public": {
+      "newPagesHTTP200": 3,
+      "discoveryPages": 6,
+      "releaseMatchingResources": 11,
+      "localizedInternalLinksHTTP200": 12,
+      "SEOFiles": [
+        "/sitemap.xml",
+        "/robots.txt",
+        "/ads.txt"
+      ],
+      "scope": "Real public HTTPS reads through the inherited cloud proxy with normal TLS validation. Full visible text, metadata, canonical/hreflang/schema, official image and own JS/CSS references/bytes match the tested release. Provider fixtures in browser checks do not establish advertising creative delivery. Retailer offer directly checked; social poster design attributed to linked press report, not a claim of original Instagram viewing or universal box contents.",
+      "browser": {
+        "verifiedAt": "2026-11-07T22:44:23.339Z",
+        "results": [
+          {
+            "url": "https://fansgta.com/es/noticias/gta-6-poster-mediamarkt-reserva-alemania/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/fr/actualites/gta-6-poster-mediamarkt-precommande-allemagne/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/en/news/gta-6-mediamarkt-poster-preorder-germany/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/noticias/gta-6-poster-mediamarkt-reserva-alemania/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          },
+          {
+            "url": "https://fansgta.com/fr/actualites/gta-6-poster-mediamarkt-precommande-allemagne/",
+            "status": 200,
+            "imagesDecoded": 2,
+            "languageSelectorNavigatedTo": "/es/noticias/gta-6-poster-mediamarkt-reserva-alemania/",
+            "noOverflow": true,
+            "javascriptErrors": []
+          }
+        ],
+        "scope": "Chromium mobile rendering and language navigation against live public HTTPS responses fetched by Playwright Node transport with the configured session CA and inherited cloud proxy. Normal TLS validation, no trust-store or policy changes. Advertising/Analytics SDKs stubbed for content/navigation tests, not proof of creative delivery. No desktop dependency."
+      }
+    }
   },
   "preservation": {
     "existingCompleteArticlesPreserved": 178,
@@ -376,5 +419,11 @@
       "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
       "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
     }
+  },
+  "publication": {
+    "commit": "c40664e43051023fa6684f491c62fb9723832c1f",
+    "deploymentId": "18be2579-5af8-4d08-8d10-402367daa663",
+    "verifiedAt": "2026-11-07T22:44:01.875358+00:00",
+    "proof": "docs/editorial/2026-11-07-daily-poster-publication.json"
   }
 }
