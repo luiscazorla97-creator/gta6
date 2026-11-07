@@ -1,0 +1,380 @@
+{
+  "status": "checked-ready-to-publish",
+  "date": "2026-11-07",
+  "timezone": "America/New_York",
+  "checkedAt": "2026-11-07T22:38:54.138653+00:00",
+  "scope": {
+    "dailyTopics": 1,
+    "localizedVersions": 3,
+    "dailyScheduleChanged": false,
+    "dailyTopicLimit": 1,
+    "dailyLastAuthorizedDate": "2026-11-19"
+  },
+  "baseline": {
+    "freshGitHubMain": "d05925a108ae891e72f586ad489d7139649742af",
+    "tree": "ab29fc79ad2a6622da131d9eddf3b3aa33278ce2",
+    "topics": 178,
+    "localizedURLs": 534,
+    "fullArticleSnapshotRead": true,
+    "cleanCloudCheckoutMatchesCurrentMain": true,
+    "previousPublicVerification": "2026-11-06T22:52:44.411540+00:00"
+  },
+  "cloud": {
+    "provider": "cloud",
+    "runtime": "connected/running/spec8",
+    "observationsCurrent": true,
+    "network": "unrestricted/enforced",
+    "desktopDependency": false,
+    "actualCloudflareRead": {
+      "project": "fansgta",
+      "canonicalDeployment": "f3b4fee9-0ac0-40c2-85c6-15f29a789ed6",
+      "commit": "c2a0f89cceeef169e5a3bf6e6a847eea8c070d36",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-06T22:52:12.12087Z",
+        "ended_on": "2026-11-06T22:52:28.681095Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    },
+    "accessDiagnosis": "Initial status reported configuration changed; fresh status confirmed current running readiness. Default sandbox HTTPS returned EPERM; approved outer-executor commands successfully used inherited proxy and CA with normal TLS. No credential, trust-store, proxy policy or service configuration changed."
+  },
+  "newTopics": [
+    {
+      "id": "gta6-mediamarkt-poster-offer-20261107",
+      "category": "news",
+      "published": "2026-11-07",
+      "titles": [
+        "GTA 6: MediaMarkt ofrece un póster con la reserva en Alemania",
+        "GTA 6: MediaMarkt lists a poster with German preorders",
+        "GTA 6 : MediaMarkt propose un poster en précommande en Allemagne"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-poster-mediamarkt-reserva-alemania/",
+        "/en/news/gta-6-mediamarkt-poster-preorder-germany/",
+        "/fr/actualites/gta-6-poster-mediamarkt-precommande-allemagne/"
+      ]
+    }
+  ],
+  "research": {
+    "topic": "MediaMarkt Germany advertises a poster with its GTA VI PS5 preorder. Confirmed retailer listing, not proof of universal boxed content or a new Rockstar map announcement.",
+    "sources": [
+      {
+        "key": "retailer-campaign",
+        "url": "https://www.mediamarkt.de/de/campaign/angebote-gaming-vr",
+        "status": 200,
+        "bytes": 848758,
+        "sha256": "92d7636e9c23ff9e8c6f443062277f94bd92b74d16fb5e175f36fc98a9809c57",
+        "dates": [],
+        "sourceLinks": [
+          "https://tarife.mediamarkt.de/?utm_source=mediamarkt.de&utm_medium=own-link&utm_term=metanavigation",
+          "https://www.mediamarkt.de/de/campaign/verlaengertes-umtauschrecht",
+          "https://www.mediamarkt.de/de/service/zahlung/finanzierung",
+          "https://www.mediamarkt.de/de/service/markt-terminvereinbarung",
+          "https://www.mediamarkt.de/de/campaign/blackfriday-gaming-und-vr",
+          "https://www.mediamarkt.de/de/myaccount/guest-newsletter",
+          "https://www.mediamarkt.de/de/service/kundenservice",
+          "https://faq.mediamarkt.de/app/contact",
+          "https://www.facebook.com/mediamarktsaturn/",
+          "https://www.instagram.com/mediamarktsaturn/",
+          "https://www.tiktok.com/@mediamarktsaturn",
+          "https://www.mediamarkt.de/de/service",
+          "https://www.mediamarkt.de/de/service/lieferung/standardlieferung",
+          "https://www.mediamarkt.de/de/service/aufbau-ersteinrichtung",
+          "https://www.mediamarkt.de/de/service/kundenservice",
+          "https://www.mediamarkt.de/de/service/ankauf",
+          "https://www.fotoservice-mms.de/index.html?cref=rp_mediamarkt_homepage_footer_2363_x",
+          "https://www.mediamarkt.de/de/service/ankauf-entsorgung/altgeraete-entsorgung-verschrottung",
+          "https://www.mediamarkt.de/de/about-us/affiliate/partnerprogramm",
+          "https://www.mediamarkt.de/de/myaccount/guest-newsletter",
+          "https://www.mediamarkt.de/de/specials/b2b-business-solutions",
+          "https://www.mediamarkt.de/de/service/aufbau-ersteinrichtung",
+          "https://www.mediamarkt.de/de/service/umtausch-rueckgabe",
+          "https://www.mediamarkt.de/de/service/umtausch-rueckgabe",
+          "https://www.mediamarkt.de/de/legal/produktrueckruf",
+          "https://www.mediamarkt.de/de/service/mieten",
+          "https://tarife.mediamarkt.de/kuendigung/",
+          "https://www.mediamarkt.de/de/about-us/company",
+          "https://www.mediamarkt.de/de/about-us/kundenzufriedenheit",
+          "https://careers.mediamarktsaturn.com/MediaMarktSaturn/content/letsgo/?locale=de_DE",
+          "https://www.mediamarkt.de/de/store/store-finder",
+          "https://www.mediamarkt.de/de/specials/eigenmarken",
+          "https://www.mediamarkt.de/de/about-us/marketplace",
+          "https://www.mediamarkt.de/de/brand",
+          "https://www.mediamarkt.de/de/specials/presse",
+          "https://www.mediamarkt.de/de/specials/nachhaltigkeit",
+          "https://www.mediamarkt.de/de/service/schwachstellenoffenlegungsprogramm",
+          "https://www.mediamarkt.de/de/legal/beschwerdeverfahren",
+          "https://www.mediamarkt.de/de/specials/unsere-partner",
+          "https://www.mediamarkt.de/de/category/k%C3%BChlschr%C3%A4nke-33.html"
+        ],
+        "textLength": 21560
+      },
+      {
+        "key": "poster-report",
+        "url": "https://rockstarintel.com/gta-6-physical-edition-poster-revealed-by-retailer/",
+        "status": 200,
+        "bytes": 215790,
+        "sha256": "41087a3ede5ed2c3d736d2fd163a2dcf80225523205dfd5641d952b6bc6531b8",
+        "dates": [
+          "2026-11-06T23:21:23+00:00",
+          "2026-11-06T23:53:19+00:00",
+          "2026-11-06T23:21:23+00:00",
+          "2026-11-06T23:53:19+00:00",
+          "2026-11-06T23:21:23+00:00",
+          "2026-11-06T23:53:19+00:00"
+        ],
+        "sourceLinks": [
+          "https://www.instagram.com/rockstar_intel/",
+          "https://www.instagram.com/rockstar_intel/",
+          "https://www.instagram.com/p/DfaAoEVjEbM/?img_index=1",
+          "https://www.instagram.com/p/DfZ46eVFzHr/",
+          "https://www.instagram.com/rockstar_intel/",
+          "https://www.instagram.com/rockstar_intel/"
+        ],
+        "textLength": 5027
+      },
+      {
+        "key": "boxes-report",
+        "url": "https://rockstarintel.com/gta-6-box-copies-begin-arriving-reveals-online-feature-new-screenshots-and-more/",
+        "status": 200,
+        "bytes": 222677,
+        "sha256": "7107a48862f8f707b0b8f9c599c61bb9fb10d72d71f91b924ab1ed566017fc64",
+        "dates": [
+          "2026-11-07T14:00:32+00:00",
+          "2026-11-07T14:00:40+00:00",
+          "2026-11-07T14:00:32+00:00",
+          "2026-11-07T14:00:40+00:00",
+          "2026-11-07T14:00:32+00:00",
+          "2026-11-07T14:00:40+00:00"
+        ],
+        "sourceLinks": [
+          "https://www.instagram.com/rockstar_intel/",
+          "https://www.instagram.com/rockstar_intel/",
+          "https://www.instagram.com/rockstar_intel/",
+          "https://www.instagram.com/rockstar_intel/"
+        ],
+        "textLength": 5043
+      },
+      {
+        "key": "official",
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "bytes": 1240905,
+        "sha256": "bb633bb7056442d9b4f1be5f570caf1e6b8282bed085e4a8cb033ce9713037fb",
+        "dates": [],
+        "sourceLinks": [
+          "https://www.rockstargames.com/newswire/article/k4ak9okk485712",
+          "https://www.rockstargames.com/newswire/article/39ak81277255o9",
+          "https://www.rockstargames.com/newswire/article/k4ak9okk485712",
+          "https://www.rockstargames.com/newswire/article/39ak8a12395591",
+          "https://instagram.com/rockstargames"
+        ],
+        "textLength": 2393
+      },
+      {
+        "key": "media",
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "bytes": 814420,
+        "sha256": "afbc7847909c2943ab74aeeddecdda18fe71a32b4f48245ca342cb5708c7eb17",
+        "dates": [],
+        "sourceLinks": [
+          "https://instagram.com/rockstargames"
+        ],
+        "textLength": 2261
+      },
+      {
+        "key": "take-two",
+        "url": "https://www.take2games.com/ir",
+        "status": 200,
+        "bytes": 412861,
+        "sha256": "1a7c6107f1ff7110a888f840cf7a6dfd7f7291addc0cd32cdc1a067e83b65399",
+        "dates": [],
+        "sourceLinks": [],
+        "textLength": 3291
+      },
+      {
+        "key": "product",
+        "url": "https://www.mediamarkt.de/de/product/_grand-theft-auto-vi-playstation-5-3058717.html",
+        "status": 200,
+        "bytes": 914192,
+        "sha256": "5c3902030579a97727d9f82985087f1b5ff9aeb0e38979dd9a2e8ff06cbf5355",
+        "textLength": 20758,
+        "dates": []
+      },
+      {
+        "key": "retailer-instagram",
+        "url": "https://www.instagram.com/p/DfaAoEVjEbM/?img_index=1",
+        "status": 200,
+        "bytes": 558586,
+        "sha256": "26dd69b383472a07c88ef9b1b16ef8af4798478d05b80350c9eb26e518649e34",
+        "textLength": 9,
+        "dates": []
+      },
+      {
+        "key": "other-instagram",
+        "url": "https://www.instagram.com/p/DfZ46eVFzHr/",
+        "status": 200,
+        "bytes": 556246,
+        "sha256": "b284fab539a258eff883a64b0568979f6fe494186a8105f4e7f13711c1982476",
+        "textLength": 9,
+        "dates": []
+      },
+      {
+        "key": "platforms",
+        "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+        "status": 200,
+        "bytes": 197972,
+        "sha256": "a721cd5f7875523e9fc1b5987b82455a174d76ecb13822556552a51f070e1eac",
+        "textLength": 6183,
+        "dates": []
+      },
+      {
+        "key": "newswire",
+        "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+        "status": 200,
+        "bytes": 5652,
+        "sha256": "37edf90d6070d30e15ee41298c8975370b808bd931a4b4241ddb7b18b3c56b78",
+        "textLength": 67,
+        "dateMetadata": []
+      },
+      {
+        "key": "press-release-reproduction",
+        "url": "https://www.savingcontent.com/2026/11/03/grand-theft-auto-vi-pre-load-begins-on-november-10th/",
+        "error": "The normal HTTPS read timed out after 35 seconds. No repeat, alternate proxy, identity or TLS bypass attempted.",
+        "usedAsCurrentEvidence": false
+      }
+    ],
+    "freshness": "RockstarINTEL datePublished 2026-11-06T23:21:23+00:00 and dateModified 23:53:19, later than previous verified publication at 22:52:44 UTC. Product and campaign checked November 7. Original Instagram posting time not verified; no claim that the offer first launched on November 7. November 7 coverage also discusses boxes, but those leaks are not republished or treated as new official requirements.",
+    "primaryEvidence": "Direct MediaMarkt Germany product 3058717 and Gaming & VR campaign HTTP 200: PS5, poster included in title, EUR79.99 including VAT plus shipping, store selection for pickup, release November19. Article price explicitly identifies Germany, EUR and November7 in all three versions. No worldwide availability, standalone poster price, fixed shipping cost, expiry or universal box inclusion inferred.",
+    "attribution": "Double-sided design description is attributed to RockstarINTEL, which links the original Instagram post. Instagram returned HTTP200 shell with nine visible characters; no claimed direct post-body/date/image verification. No accounts logged into, no private DMs read, no press/publisher screenshots or ambiguous poster images republished.",
+    "officialSources": "Rockstar VI and support pages read HTTP200. Official Newswire URL returned title-only shell (67 visible characters), not full article content. Existing dated map guide supplies historical November3 context and is linked rather than rewritten; no new map release or full Newswire reading claimed.",
+    "dedup": {
+      "comparedTopics": 178,
+      "comparedVersions": 534,
+      "method": "All inventory records and full localized Article objects checked; no MediaMarkt/Saturn mention. Full neighbouring physical-code-box, printable-map and Miami campaign texts inspected. Compare retailer-specific PS5 bonus intent with publisher map distribution and licence-format guidance.",
+      "relatedExistingIds": [
+        "gta6-printable-map-20261103",
+        "gta6-physical-code-box-20261028",
+        "gta6-code-region-20261028",
+        "gta6-preload-schedule-20261028"
+      ],
+      "decision": "One new retailer news topic with three complete versions; preserve all existing article objects and URLs."
+    },
+    "rumourHandling": "The directly verified offer is reported as a retailer claim, so the title does not call the entire offer a rumour. Universal inclusion, retailer exclusivity, authenticity/licence of social design and physical packing are expressly unverified. No deleted box-leak source, 230GB requirement or new online feature inferred.",
+    "editorialReview": "Original prose, same facts/limitations in all three languages, market/date-specific price, distinct mobile paragraphs, table comparing evidence, official and original retailer/source links near claims, and localized internal routes. No copied press paragraph, guessed quote or fake search ranking."
+  },
+  "interest": {
+    "checkedAt": "2026-11-07T22:35:45.372312+00:00",
+    "results": [
+      {
+        "language": "es",
+        "query": "gta 6 poster mediamarkt",
+        "status": 200,
+        "suggestions": []
+      },
+      {
+        "language": "en",
+        "query": "gta 6 poster",
+        "status": 200,
+        "suggestions": [
+          "gta 6 poster",
+          "gta 6 poster map",
+          "gta 6 poster in box",
+          "gta 6 poster leak",
+          "gta 6 poster girl",
+          "gta 6 poster art",
+          "gta 6 poster 4k",
+          "gta 6 poster amazon",
+          "gta 6 poster official",
+          "gta 6 poster release date"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 poster",
+        "status": 200,
+        "suggestions": [
+          "gta 6 poster",
+          "gta 6 poster girl",
+          "gta 6 poster 4k",
+          "gta 6 poster amazon",
+          "gta 6 poster map",
+          "gta 6 poster wallpaper 4k",
+          "gta 6 poster lucia",
+          "gta 6 poster maker",
+          "gta 6 poster paris",
+          "gta 6 poster prompt"
+        ]
+      }
+    ]
+  },
+  "interestLimits": "Fresh retailer coverage after previous execution and current Google autocomplete are qualitative signals. Exact Spanish MediaMarkt query returned no suggestions. No volumes, rankings, most-searched or guaranteed audience/SEO position claimed.",
+  "media": {
+    "checks": [
+      {
+        "key": "hero",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 475961,
+        "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8",
+        "contentType": "image/jpeg"
+      },
+      {
+        "key": "feature-launch-gallery-bridge",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1132950,
+        "sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1",
+        "contentType": "image/jpeg"
+      }
+    ],
+    "inspection": "Existing unedited official Jason/Lucia/car/palms artwork and ViceCity27 bridge at dusk visually inspected.",
+    "reuse": "Fresh official Media page HTTP200 with Download and share; original Rockstar image URLs HTTP200. Attributed contextual editorial use, copyright reserved, no unrestricted licence. Social poster material not reused because rights/authenticity were not established. No AI, mods, leaks, GTA V or decorative edited layers.",
+    "optimization": "Existing WebP/responsive variants with reserved dimensions, eager priority cover and lazy inline image. Both alt/captions translated and explicitly distinguish game illustration from a product photo or map. All original assets/76 credits preserved."
+  },
+  "checks": {
+    "build": "npm run build:release passed: 179 topics, 537 versions, 580 generated routes.",
+    "static": "node scripts/verify-static.mjs passed: 581 HTML files, 25,989 internal links, 1,136 structured-data blocks.",
+    "browser": {
+      "result": "6 passed in 12.3 seconds",
+      "coverage": "One topic × three locales × desktop/mobile. Complete headings, paragraphs and table; two decoded official images with translated alt/captions/credit and responsive srcsets; canonical/hreflang/meta, JSON-LD dates/citations; localized internal links HTTP200; actual language selector; sitemap and news archives; no horizontal overflow or page exceptions; single AdSense and SocialBar; GA4 blocked before consent. Representative desktop/mobile screenshots inspected.",
+      "scope": "Provider SDKs stubbed for content/navigation checks, not creative delivery."
+    },
+    "public": "pending deployment"
+  },
+  "preservation": {
+    "existingCompleteArticlesPreserved": 178,
+    "existingInventoryRecordsPreserved": 178,
+    "existingMediaCreditsPreserved": 76,
+    "totalTopics": 179,
+    "totalLocalizedURLs": 537,
+    "newTopics": [
+      {
+        "id": "gta6-mediamarkt-poster-offer-20261107",
+        "category": "news",
+        "published": "2026-11-07",
+        "titles": [
+          "GTA 6: MediaMarkt ofrece un póster con la reserva en Alemania",
+          "GTA 6: MediaMarkt lists a poster with German preorders",
+          "GTA 6 : MediaMarkt propose un poster en précommande en Allemagne"
+        ],
+        "paths": [
+          "/es/noticias/gta-6-poster-mediamarkt-reserva-alemania/",
+          "/en/news/gta-6-mediamarkt-poster-preorder-germany/",
+          "/fr/actualites/gta-6-poster-mediamarkt-precommande-allemagne/"
+        ]
+      }
+    ],
+    "clientAssetsUnchanged": {
+      "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+    }
+  }
+}

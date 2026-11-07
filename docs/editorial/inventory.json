@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-mediamarkt-poster-offer-20261107",
+    "category": "news",
+    "published": "2026-11-07",
+    "titles": [
+      "GTA 6: MediaMarkt ofrece un póster con la reserva en Alemania",
+      "GTA 6: MediaMarkt lists a poster with German preorders",
+      "GTA 6 : MediaMarkt propose un poster en précommande en Allemagne"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-poster-mediamarkt-reserva-alemania/",
+      "/en/news/gta-6-mediamarkt-poster-preorder-germany/",
+      "/fr/actualites/gta-6-poster-mediamarkt-precommande-allemagne/"
+    ]
+  },
+  {
     "id": "gta6-series-s-performance-guide-20261106",
     "category": "guides",
     "published": "2026-11-06",
