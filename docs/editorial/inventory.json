@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-miami-heat-vice-city-uniform-20261107",
+    "category": "news",
+    "published": "2026-11-07",
+    "titles": [
+      "GTA 6 y Miami HEAT: fecha y camisetas de Vice City",
+      "GTA 6 and Miami HEAT: Vice City jerseys and event date",
+      "GTA 6 et Miami HEAT : maillots Vice City et date"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-miami-heat-camiseta-vice-city-fecha/",
+      "/en/news/gta-6-miami-heat-vice-city-jersey-date/",
+      "/fr/actualites/gta-6-miami-heat-maillot-vice-city-date/"
+    ]
+  },
+  {
+    "id": "gta6-official-wallpapers-download-20261107",
+    "category": "guides",
+    "published": "2026-11-07",
+    "titles": [
+      "Fondos de GTA 6: descarga oficial para PC y móvil",
+      "GTA 6 wallpapers: official downloads for PC and phone",
+      "Fonds d’écran GTA 6 : téléchargement officiel PC et mobile"
+    ],
+    "paths": [
+      "/es/guias/gta-6-fondos-pantalla-oficiales-pc-movil/",
+      "/en/guides/gta-6-official-wallpapers-pc-phone-download/",
+      "/fr/guides/gta-6-fonds-ecran-officiels-pc-mobile/"
+    ]
+  },
+  {
+    "id": "gta6-trailer-songs-credits-20261107",
+    "category": "guides",
+    "published": "2026-11-07",
+    "titles": [
+      "Canciones de GTA 6: qué música suena en cada tráiler",
+      "GTA 6 trailer songs: which music plays in each video",
+      "Musiques GTA 6 : quels morceaux dans les bandes-annonces ?"
+    ],
+    "paths": [
+      "/es/guias/gta-6-canciones-trailers-tom-petty-pointer-sisters/",
+      "/en/guides/gta-6-trailer-songs-tom-petty-pointer-sisters/",
+      "/fr/guides/gta-6-musiques-bandes-annonces-tom-petty-pointer-sisters/"
+    ]
+  },
+  {
+    "id": "gta6-home-xbox-sharing-20261107",
+    "category": "guides",
+    "published": "2026-11-07",
+    "titles": [
+      "Compartir GTA 6 en Xbox: consola principal y licencias",
+      "Sharing GTA 6 on Xbox: Home Xbox and game licences",
+      "Partager GTA 6 sur Xbox : console principale et licences"
+    ],
+    "paths": [
+      "/es/guias/gta-6-compartir-xbox-principal-licencias/",
+      "/en/guides/gta-6-home-xbox-game-sharing-licences/",
+      "/fr/guides/gta-6-partage-xbox-principale-licences/"
+    ]
+  },
+  {
+    "id": "gta6-official-merchandise-store-guide-20261107",
+    "category": "guides",
+    "published": "2026-11-07",
+    "titles": [
+      "Merchandising de GTA 6: camisetas y tienda oficial",
+      "GTA 6 merchandise: official clothing and Rockstar Store guide",
+      "Produits dérivés GTA 6 : vêtements et boutique officielle"
+    ],
+    "paths": [
+      "/es/guias/gta-6-merchandising-oficial-camisetas-rockstar-store/",
+      "/en/guides/gta-6-official-merchandise-rockstar-store-guide/",
+      "/fr/guides/gta-6-produits-derives-officiels-rockstar-store/"
+    ]
+  },
+  {
     "id": "gta6-mediamarkt-poster-offer-20261107",
     "category": "news",
     "published": "2026-11-07",

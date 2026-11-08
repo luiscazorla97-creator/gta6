@@ -1,0 +1,814 @@
+{
+  "status": "validated-locally-awaiting-production",
+  "checkedAt": "2026-11-08T00:56:27.403330+00:00",
+  "editorialDate": "2026-11-07",
+  "editorialTimezone": "America/New_York",
+  "request": "Manual batch: five distinct GTA VI topics with complete ES/EN/FR versions. Does not alter one-topic daily schedule or November 19 inclusive deadline.",
+  "baseline": {
+    "main": "7daec811d9e041ad1bd0ed7dd233c58b89de1dd9",
+    "tree": "7011c29edc03fdf8fb9ab089c916027d450b4ed9",
+    "topics": 179,
+    "localizedURLs": 537,
+    "lastVerifiedPublication": "2026-11-07T22:44:01.875358+00:00"
+  },
+  "execution": {
+    "provider": "managed Codex cloud",
+    "runtimeEnvironment": "ccarenv_b64_Y2NhcmVudl8zODc5ZTVkOWM4ZjA4MTkxYmE0YjEyNWM0ZWNjNGJlNA",
+    "runtimeRechecked": true,
+    "currentMainRetrievedThroughConnectedGitHub": true,
+    "cloudflareActualRead": {
+      "project": "fansgta",
+      "canonicalDeployment": "18be2579-5af8-4d08-8d10-402367daa663",
+      "commit": "c40664e43051023fa6684f491c62fb9723832c1f",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T22:43:29.185627Z",
+        "ended_on": "2026-11-07T22:43:45.543982Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    },
+    "network": "Cloud HTTPS uses approved escalation outside sandbox through inherited proxy/CA. No policy/trust changes, desktop credentials, purchases or third-party messages."
+  },
+  "deduplication": {
+    "comparison": "All 179 compiled Article objects and all 537 localized paths compared by topic and intent, not just headlines. No old article changed.",
+    "decisions": [
+      {
+        "topic": {
+          "id": "gta6-miami-heat-vice-city-uniform-20261107",
+          "category": "news",
+          "published": "2026-11-07",
+          "titles": [
+            "GTA 6 y Miami HEAT: fecha y camisetas de Vice City",
+            "GTA 6 and Miami HEAT: Vice City jerseys and event date",
+            "GTA 6 et Miami HEAT : maillots Vice City et date"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-miami-heat-camiseta-vice-city-fecha/",
+            "/en/news/gta-6-miami-heat-vice-city-jersey-date/",
+            "/fr/actualites/gta-6-miami-heat-maillot-vice-city-date/"
+          ]
+        },
+        "closest": [
+          "gta6-miami-campaign-20261103",
+          "gta6-interest-sports-20261031"
+        ],
+        "distinction": "Miami HEAT, Nike and Cactus Jack jerseys and a specific NBA event; existing county publicity and in-game sports articles do not serve this event/buying intent."
+      },
+      {
+        "topic": {
+          "id": "gta6-official-wallpapers-download-20261107",
+          "category": "guides",
+          "published": "2026-11-07",
+          "titles": [
+            "Fondos de GTA 6: descarga oficial para PC y móvil",
+            "GTA 6 wallpapers: official downloads for PC and phone",
+            "Fonds d’écran GTA 6 : téléchargement officiel PC et mobile"
+          ],
+          "paths": [
+            "/es/guias/gta-6-fondos-pantalla-oficiales-pc-movil/",
+            "/en/guides/gta-6-official-wallpapers-pc-phone-download/",
+            "/fr/guides/gta-6-fonds-ecran-officiels-pc-mobile/"
+          ]
+        },
+        "closest": [
+          "gta6-launch-gallery-20261105",
+          "gta6-photo-mode-previews-captures-20261106"
+        ],
+        "distinction": "Official wallpaper download and operating-system setup; not gallery news or a claim of game photo mode."
+      },
+      {
+        "topic": {
+          "id": "gta6-trailer-songs-credits-20261107",
+          "category": "guides",
+          "published": "2026-11-07",
+          "titles": [
+            "Canciones de GTA 6: qué música suena en cada tráiler",
+            "GTA 6 trailer songs: which music plays in each video",
+            "Musiques GTA 6 : quels morceaux dans les bandes-annonces ?"
+          ],
+          "paths": [
+            "/es/guias/gta-6-canciones-trailers-tom-petty-pointer-sisters/",
+            "/en/guides/gta-6-trailer-songs-tom-petty-pointer-sisters/",
+            "/fr/guides/gta-6-musiques-bandes-annonces-tom-petty-pointer-sisters/"
+          ]
+        },
+        "closest": [
+          "gta-6-radio-music",
+          "gta-6-album-34-tracks",
+          "gta6-justice-score-december-11-2026-10-29"
+        ],
+        "distinction": "Identify the songs credited to the three main trailers; not the complete radio catalogue, album release or original score."
+      },
+      {
+        "topic": {
+          "id": "gta6-home-xbox-sharing-20261107",
+          "category": "guides",
+          "published": "2026-11-07",
+          "titles": [
+            "Compartir GTA 6 en Xbox: consola principal y licencias",
+            "Sharing GTA 6 on Xbox: Home Xbox and game licences",
+            "Partager GTA 6 sur Xbox : console principale et licences"
+          ],
+          "paths": [
+            "/es/guias/gta-6-compartir-xbox-principal-licencias/",
+            "/en/guides/gta-6-home-xbox-game-sharing-licences/",
+            "/fr/guides/gta-6-partage-xbox-principale-licences/"
+          ]
+        },
+        "closest": [
+          "gta6-ps5-household-sharing-20261105",
+          "gta6-subscriptions-20261031"
+        ],
+        "distinction": "Microsoft Home Xbox licences and household profiles; existing console sharing covers PS5, subscription article has a different platform-access intent."
+      },
+      {
+        "topic": {
+          "id": "gta6-official-merchandise-store-guide-20261107",
+          "category": "guides",
+          "published": "2026-11-07",
+          "titles": [
+            "Merchandising de GTA 6: camisetas y tienda oficial",
+            "GTA 6 merchandise: official clothing and Rockstar Store guide",
+            "Produits dérivés GTA 6 : vêtements et boutique officielle"
+          ],
+          "paths": [
+            "/es/guias/gta-6-merchandising-oficial-camisetas-rockstar-store/",
+            "/en/guides/gta-6-official-merchandise-rockstar-store-guide/",
+            "/fr/guides/gta-6-produits-derives-officiels-rockstar-store/"
+          ]
+        },
+        "closest": [
+          "collector-box-no-game-2026-10-28",
+          "gta-6-ultimate-edition"
+        ],
+        "distinction": "General official physical apparel/accessories catalogue, SKU stock and order checks; not the specific collectors box or game edition contents."
+      }
+    ]
+  },
+  "interest": {
+    "checkedAt": "2026-11-08T00:45:36.414547+00:00",
+    "results": [
+      {
+        "language": "es",
+        "query": "gta 6 camisetas",
+        "status": 200,
+        "suggestions": [
+          "gta 6 camisetas"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 fondos de pantalla",
+        "status": 200,
+        "suggestions": [
+          "gta 6 fondos de pantalla",
+          "gta 6 fondos de pantalla 4k",
+          "fondos de pantalla pc gta 6",
+          "fondos de pantalla de gta 6 4k para celular",
+          "fondos de pantalla de gta 6 para pc",
+          "fondos de pantalla para celular gta 6"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 cancion trailer",
+        "status": 200,
+        "suggestions": [
+          "gta 6 cancion trailer",
+          "gta 6 cancion trailer 2",
+          "gta 6 cancion trailer 3",
+          "cancion gta 6 trailer 1",
+          "cancion gta 6 trailer netflix",
+          "cancion gta 6 trailer extendido",
+          "cancion final gta 6 trailer",
+          "cancion trailer gta 6 chimbala"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 compartir xbox",
+        "status": 200,
+        "suggestions": []
+      },
+      {
+        "language": "es",
+        "query": "gta 6 miami heat",
+        "status": 200,
+        "suggestions": [
+          "gta 6 miami heat",
+          "gta 6 miami heat stadium",
+          "gta 6 miami heat merch",
+          "gta 6 miami heat jersey",
+          "gta 6 miami heat store",
+          "gta 6 miami heat shirt",
+          "gta 6 miami heat collection",
+          "gta 6 miami heat uniform",
+          "gta 6 miami heat vice city",
+          "gta 6 miami heat collab"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 merch",
+        "status": 200,
+        "suggestions": [
+          "gta 6 merch",
+          "gta 6 merchandise store",
+          "gta 6 merch box",
+          "gta 6 merch drop",
+          "gta 6 merch amazon",
+          "gta 6 merch leak",
+          "gta 6 merch bundle",
+          "gta 6 merch heat",
+          "gta 6 merch rockstar",
+          "gta 6 merch reddit"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 wallpaper",
+        "status": 200,
+        "suggestions": [
+          "gta 6 wallpaper",
+          "gta 6 wallpaper 4k",
+          "gta 6 wallpaper phone",
+          "gta 6 wallpaper iphone",
+          "gta 6 wallpaper 4k for mobile",
+          "gta 6 wallpaper 4k iphone",
+          "gta 6 wallpaper 4k for pc",
+          "gta 6 wallpaper for ps5",
+          "gta 6 wallpaper pc",
+          "gta 6 wallpaper 8k"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 trailer song",
+        "status": 200,
+        "suggestions": [
+          "gta 6 trailer song",
+          "gta 6 trailer song name",
+          "gta 6 trailer song 2",
+          "gta 6 trailer song spanish",
+          "gta 6 trailer song list",
+          "gta 6 trailer song at the end",
+          "gta 6 trailer song dominican",
+          "gta 6 trailer song netflix",
+          "gta 6 trailer song hot together",
+          "gta 6 trailer songs used"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 game sharing xbox",
+        "status": 200,
+        "suggestions": [
+          "gta 6 game share xbox",
+          "can you play gta 6 on xbox one"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 miami heat",
+        "status": 200,
+        "suggestions": [
+          "gta 6 miami heat jersey",
+          "gta 6 miami heat",
+          "gta 6 miami heat shorts",
+          "gta 6 miami heat merch",
+          "gta 6 miami heat arena",
+          "gta 6 miami heat stadium",
+          "gta 6 miami heat game",
+          "gta 6 miami heat shirts",
+          "gta 6 miami heat collab",
+          "gta 6 miami heat uniform"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 produits derives",
+        "status": 200,
+        "suggestions": [
+          "gta 6 produits dérivés"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 fond ecran",
+        "status": 200,
+        "suggestions": [
+          "gta 6 fond ecran",
+          "fond d'écran gta 6 4k",
+          "gta 6 fond d écran iphone",
+          "gta 6 fond d écran pc",
+          "gta 6 fond d écran ps5"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 musique trailer",
+        "status": 200,
+        "suggestions": [
+          "gta 6 musique trailer",
+          "gta 6 musique trailer 2",
+          "gta 6 music trailer",
+          "gta 6 music trailer 2",
+          "gta 6 music trailer 1",
+          "gta 6 music trailer 3",
+          "gta 6 music trailer netflix",
+          "gta 6 trailer music name",
+          "gta 6 trailer music song",
+          "gta 6 trailer music lyrics"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 partage xbox",
+        "status": 200,
+        "suggestions": []
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 miami heat",
+        "status": 200,
+        "suggestions": [
+          "gta 6 miami heat",
+          "gta 6 miami heat merch",
+          "gta 6 miami heat jersey",
+          "gta 6 miami heat stadium",
+          "gta 6 miami heat arena",
+          "gta 6 miami heat store",
+          "gta 6 miami heat website",
+          "gta 6 miami heat clothes",
+          "gta 6 miami heat vice city",
+          "gta 6 miami heat collab"
+        ]
+      }
+    ]
+  },
+  "interestLimits": "Google autocomplete provides qualitative current query signals only, not volumes, rankings or a guaranteed top ten result. No quantitative Google Trends dataset obtained in this run. Xbox English autocomplete is present; Spanish/French Xbox queries returned no suggestions. Weak merch ES/FR expansion is recorded honestly. One current event plus four useful guides, not five alleged new Rockstar announcements.",
+  "sourceChecks": [
+    {
+      "key": "heat",
+      "url": "https://www.nba.com/heat/vicecity",
+      "finalURL": "https://www.nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection",
+      "status": 200,
+      "bytes": 205426,
+      "sha256": "26572e1dd26cee4673568eb522004468e07389aaa93e17994888ef3e91c721f8",
+      "textLength": 1849,
+      "dates": [],
+      "links": [
+        "https://www.ticketmaster.com/event/0D00650C8D3A38C3?brand=heat&artistid=805966&promo_id=heatdotcom&promo_name=gta-vice-city&promo_position=gta-vice-city_page",
+        "https://www.miamiheatstore.com/collections/vc?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page",
+        "https://www.miamiheatstore.com/collections/vc?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page",
+        "https://www.miamiheatstore.com/products/vice-city-satin-jacket?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page",
+        "https://www.miamiheatstore.com/products/vicecity-palm-trees-snapback?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page",
+        "https://www.miamiheatstore.com/products/vice-city-neon-sign?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page",
+        "https://www.miamiheatstore.com/products/vc-pool-tee?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page",
+        "https://www.miamiheatstore.com/products/vc-mouth-tee?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page",
+        "https://www.miamiheatstore.com/products/goodtime-state-tee?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page",
+        "https://www.miamiheatstore.com/products/l-i-love-vc-crop?utm_medium=internal&utm_source=heatdotcom&utm_campaign=product-launch-cculture-gtavc&utm_content=gta-vice-city_page"
+      ]
+    },
+    {
+      "key": "wallpapers",
+      "url": "https://www.rockstargames.com/VI/media/artwork-wallpapers",
+      "finalURL": "https://www.rockstargames.com/VI/media/artwork-wallpapers",
+      "status": 200,
+      "bytes": 951278,
+      "sha256": "3aa8eddb9d38bc24d5eb67cbc4b1a3191b611ea47224368ef8b726675116cfd4",
+      "textLength": 1521,
+      "dates": [],
+      "links": [
+        "/VI/media/artwork-wallpapers",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
+        "https://www.playstation.com/GTAVIfeatures/",
+        "https://www.youtube.com/rockstargames"
+      ]
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "finalURL": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "bytes": 814420,
+      "sha256": "afbc7847909c2943ab74aeeddecdda18fe71a32b4f48245ca342cb5708c7eb17",
+      "textLength": 2261,
+      "dates": [],
+      "links": [
+        "/VI/media/artwork-wallpapers",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Videos.zip",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Videos.zip",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Screenshots.zip",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Screenshots.zip",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip",
+        "/VI/media/screenshots#vintage-vice-city",
+        "/VI/media/screenshots#vintage-vice-city",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
+        "/VI/media/artwork-wallpapers",
+        "/VI/media/artwork-wallpapers",
+        "https://media-rockstargames-com.akamaized.net/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
+        "https://www.playstation.com/GTAVIfeatures/",
+        "https://www.youtube.com/rockstargames"
+      ]
+    },
+    {
+      "key": "merch-news",
+      "url": "https://www.rockstargames.com/newswire/article/759875393o5253/grand-theft-auto-vi-collection-now-at-the-rockstar-store",
+      "finalURL": "https://www.rockstargames.com/newswire/article/759875393o5253/grand-theft-auto-vi-collection-now-at-the-rockstar-store",
+      "status": 200,
+      "bytes": 5577,
+      "sha256": "e8a99cf084a9ee418c2a889f3ed6d328da81bbe544c9adac8c51a291539cc181",
+      "textLength": 73,
+      "dates": [],
+      "links": []
+    },
+    {
+      "key": "store",
+      "url": "https://store.rockstargames.com/",
+      "finalURL": "https://store.rockstargames.com/",
+      "status": 200,
+      "bytes": 1221211,
+      "sha256": "965719b725201517014c4aa68763151290ea137db2d2aa052aa8c2823e3bc99c",
+      "textLength": 3702,
+      "dates": [],
+      "links": [
+        "/game/buy-gta-vi",
+        "/grand-theft-auto-vi-collection",
+        "/red-dead-redemption-collection",
+        "/grand-theft-auto-collection",
+        "/rockstar-collection",
+        "/grand-theft-auto-vi-collection",
+        "/merchandise/gtavi-goodtime-state-vice-city-collection",
+        "/game/buy-gta-vi",
+        "/merchandise/gtavi-goodtime-state-vice-city-collection",
+        "/merchandise/buy-blue-grand-theft-auto-vi-goodtime-state-tee",
+        "/merchandise/buy-grand-theft-auto-vi-vice-city-zippo-lighter",
+        "/merchandise/buy-grand-theft-auto-vi-baseball-cap-black-and-pink",
+        "/game/buy-gta-vi",
+        "/merchandise/buy-grand-theft-auto-vice-city-screenshot-tee",
+        "/grand-theft-auto-collection",
+        "/grand-theft-auto-collection",
+        "/merchandise/buy-pink-and-blue-grand-theft-auto-vi-canvas-tote"
+      ]
+    },
+    {
+      "key": "music",
+      "url": "https://www.rockstargames.com/VI/music",
+      "finalURL": "https://www.rockstargames.com/VI/music",
+      "status": 200,
+      "bytes": 1044347,
+      "sha256": "ff81157f6012310ef71caaacb4496cd6e5b16f5acdcdcefaa78b52450516f200",
+      "textLength": 3864,
+      "dates": [],
+      "links": [
+        "https://gtavi-thealbum.lnk.to/gtavithealbum",
+        "https://gtavithealbum.lnk.to/store",
+        "https://gtavi-thealbum.lnk.to/thatsit",
+        "https://gtavi-thealbum.lnk.to/rhyno",
+        "https://gtavi-thealbum.lnk.to/sexymagic",
+        "https://gtavi-thealbum.lnk.to/FIAH",
+        "https://gtavi-thealbum.lnk.to/lastthingyouneed",
+        "http://gtavi-thealbum.lnk.to/suzuki",
+        "https://gtavi-thealbum.lnk.to/macacoa2000",
+        "http://gtavi-thealbum.lnk.to/dontchart",
+        "https://gtavi-thealbum.lnk.to/brightlightsbigcity",
+        "https://gtavithealbum.lnk.to/vinyl",
+        "https://www.gtavi-thealbum.com/products/grand-theft-auto-vi-the-album-standard-vinyl?variant=71303749763325",
+        "https://www.playstation.com/GTAVIfeatures/",
+        "https://www.youtube.com/rockstargames"
+      ]
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "finalURL": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "bytes": 1240905,
+      "sha256": "bb633bb7056442d9b4f1be5f570caf1e6b8282bed085e4a8cb033ce9713037fb",
+      "textLength": 2393,
+      "dates": [],
+      "links": [
+        "https://store.rockstargames.com/grand-theft-auto-vi-collection",
+        "https://www.playstation.com/GTAVIfeatures/",
+        "https://www.youtube.com/rockstargames"
+      ]
+    },
+    {
+      "key": "home-xbox",
+      "url": "https://support.xbox.com/en-US/help/hardware-network/console/my-home-xbox",
+      "finalURL": "https://support.xbox.com/en-US/help/hardware-network/console/my-home-xbox",
+      "status": 200,
+      "bytes": 2909,
+      "sha256": "99ddb0cffae26c8659416b53d3991a198a8765868dd734c8a66318ed4f01c542",
+      "textLength": 59,
+      "dates": [],
+      "links": []
+    },
+    {
+      "key": "xbox-model",
+      "url": "https://learn.microsoft.com/en-us/gaming/gdk/docs/store/commerce/fundamentals/xstore-product-sharing-model-for-games",
+      "finalURL": "https://learn.microsoft.com/en-us/gaming/gdk/docs/store/commerce/fundamentals/xstore-product-sharing-model-for-games?view=gdk-2610",
+      "status": 200,
+      "bytes": 65035,
+      "sha256": "d3326d5a300510207751be34da305ddb5a81fc51071512181dcfdca8a238fcb7",
+      "textLength": 14440,
+      "dates": [],
+      "links": [
+        "../service-to-service/xstore-managing-consumables-and-refunds?view=gdk-2610",
+        "https://support.xbox.com/games/game-setup/my-home-xbox",
+        "https://support.xbox.com/games/game-setup/playing-across-multiple-consoles",
+        "https://support.xbox.com/xbox-one/xbox-live/xbox-live-gold-sharing-features"
+      ]
+    },
+    {
+      "key": "collection",
+      "url": "https://store.rockstargames.com/grand-theft-auto-vi-collection",
+      "status": 200,
+      "bytes": 1144502,
+      "sha256": "c9b289c6ff902beece45c1cb4ed706e32187b5bd03cc9b9351be0d88a58dbe97",
+      "textLength": 2709,
+      "dates": [],
+      "description": "Official Store, home to games and GTA Gear, soundtrack, hats, collectibles."
+    },
+    {
+      "key": "shirt",
+      "url": "https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-goodtime-state-tee",
+      "status": 200,
+      "bytes": 908254,
+      "sha256": "61128de886632c1ca125a697f8a4e0e47f75ff3d318d790665e88ce9f8e1e63b",
+      "textLength": 2133,
+      "dates": [],
+      "description": "Get your own piece of Goodtime State Gear, inspired by the styles seen on Jason and Lucia in the Grand Theft Auto VI: Ultimate Edition, with this heavyweight 100% cotton "
+    },
+    {
+      "key": "heat-store",
+      "url": "https://www.miamiheatstore.com/collections/vc",
+      "status": 200,
+      "bytes": 525404,
+      "sha256": "835f91802fc47f09d1586ad5abf4c56dc03084c6c350a469800e2e0b184f061d",
+      "textLength": 3693,
+      "dates": [],
+      "description": ""
+    },
+    {
+      "key": "heat-press",
+      "url": "https://www.gematsu.com/2026/10/miami-heat-to-play-as-grand-theft-auto-vis-vice-city-on-november-18",
+      "status": 200,
+      "bytes": 102715,
+      "sha256": "9e22f0f2fff6f6736f0949353e327b3e51597894cdbcd4dca4f139eb977102d4",
+      "textLength": 3484,
+      "dates": [
+        "2026-10-02T13:15:20+00:00",
+        "2026-10-02T13:54:44+00:00"
+      ],
+      "description": "Professional basketball team Miami HEAT will play as Grand Theft Auto VI’s Vice City during its November 18 game against the Milwaukee Bucks at Kaseya Center in Miami, Fl"
+    },
+    {
+      "key": "heat-uniforms",
+      "url": "https://www.soleretriever.com/news/articles/travis-scott-rockstar-games-gta-6-nike-miami-heat-vice-city-uniforms",
+      "status": 200,
+      "bytes": 347880,
+      "sha256": "922576f81b4af48661cb95a210a3e77e0e0c858c7741685c59685361c8344589",
+      "textLength": 7395,
+      "dates": [
+        "2026-11-06T16:15:39.768Z",
+        "2026-11-06T16:15:45.162Z"
+      ],
+      "description": "As part of the Miami Heat's A Night in Vice City GTA 6 promotion, they're dropping Travis Scott Rockstar Games Nike Miami Heat uniforms. Find details here."
+    },
+    {
+      "key": "trailer1",
+      "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "noBypass": true
+    },
+    {
+      "key": "trailer2",
+      "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "noBypass": true
+    },
+    {
+      "key": "windows-background",
+      "url": "https://support.microsoft.com/en-us/windows/experience/personalization/change-the-desktop-background-in-windows",
+      "status": 200,
+      "bytes": 120896,
+      "sha256": "e92c472e11febe703bd44906ba296f7399f7ce15a6b20f5e84f9567997e941dd",
+      "textLength": 8632,
+      "dates": [],
+      "description": "Learn how to change the desktop background in Windows."
+    },
+    {
+      "key": "iphone-wallpaper",
+      "url": "https://support.apple.com/en-us/102638",
+      "status": 200,
+      "bytes": 166344,
+      "sha256": "6a9a702938bc0b92114dfd7ca287de68acc9891e3e7149207219c51f409f47d6",
+      "textLength": 4066,
+      "dates": [],
+      "description": "You can choose a suggested wallpaper or one of your own photos for your Lock Screen and Home Screen wallpapers. You can also customize your Lock Screen by adding widgets,"
+    },
+    {
+      "key": "trailer1-page",
+      "url": "https://www.rockstargames.com/VI/videos/trailer-1",
+      "error": "HTTP Error 404: Not Found",
+      "noBypass": true
+    },
+    {
+      "key": "trailer2-page",
+      "url": "https://www.rockstargames.com/VI/videos/trailer-2",
+      "error": "HTTP Error 404: Not Found",
+      "noBypass": true
+    },
+    {
+      "key": "trailer1-press",
+      "url": "https://www.videogameschronicle.com/news/gta-6-trailer-song-what-song-is-in-the-grand-theft-auto-6-trailer/",
+      "status": 200,
+      "bytes": 84780,
+      "sha256": "d93f2ee65349015f2fcdcecfd04c7884dc381f702900ebe2663bd78c116d9712",
+      "textLength": 5094,
+      "dates": [
+        "2023-12-04T23:49:14+00:00",
+        "2023-12-04T23:49:14+00:00",
+        "2023-12-04T23:49:14+00:00"
+      ],
+      "songWords": {
+        "Hot Together": false,
+        "Love Is A Long Road": true,
+        "Tom Petty": true,
+        "Pointer Sisters": false
+      }
+    },
+    {
+      "key": "trailer2-press",
+      "url": "https://www.gamespot.com/articles/gta-6-trailer-2-song-whats-the-tune-playing-and-do-the-lyrics-connect-to-the-story/1100-6531338/",
+      "status": 200,
+      "bytes": 228247,
+      "sha256": "2cceb86fb01d00b2858f90c527098e04b9550337b51be4d469584b1f065d35b0",
+      "textLength": 5708,
+      "dates": [
+        "2025-05-06T16:36:00+00:00",
+        "2025-05-06T19:08:13+00:00",
+        "2025-05-06T16:36:00+00:00",
+        "2025-05-06T19:08:13+00:00"
+      ],
+      "songWords": {
+        "Hot Together": true,
+        "Love Is A Long Road": true,
+        "Tom Petty": true,
+        "Pointer Sisters": true
+      }
+    }
+  ],
+  "renderedMicrosoftChecks": [
+    {
+      "key": "home-xbox-rendered",
+      "url": "https://support.xbox.com/en-US/help/hardware-network/console/my-home-xbox",
+      "status": 200,
+      "textLength": 1820,
+      "sha256": "440f095cd21a56fa26297c7add7bf5ba7716dd667386757a2c9efd534540fda2",
+      "textPreview": "Skip to main content\nSupport home\nXBOX status\nHelp topics\nAccessible gaming\nSystem updates\nAll Microsoft\nME\nHome\n\nHardware & networking\nHow home XBOX and game "
+    },
+    {
+      "key": "xbox-offline-rendered",
+      "url": "https://support.xbox.com/en-US/help/hardware-network/connect-network/using-xbox-one-offline",
+      "status": 200,
+      "textLength": 1552,
+      "sha256": "9adb6125fd40b32e51b4f4de7b9a70626282ee363551a7665b3fc8b4449f2b08",
+      "textPreview": "Skip to main content\nSupport home\nXBOX status\nHelp topics\nAccessible gaming\nSystem updates\nAll Microsoft\nHome\n\nHardware & networking\nUsing your XBOX console of"
+    }
+  ],
+  "evidenceNotes": [
+    "HEAT primary page confirms November 18, 2026 at 7pm EST at Kaseya Center. Original event announcement covered October 2; uniform coverage dated November 6. Primary team page labels Miami HEAT uniform On Court Only and Vice City uniform for purchase at the event; no claim both sold or ticket includes a shirt.",
+    "Official artwork/wallpapers collection lists 25 entries with varying sizes and a download ZIP. No invented 4K/8K guarantee or purported download of every size. Windows and iPhone steps supported by their official help pages.",
+    "Trailer 1 and Trailer 2 songs verified through indexed official YouTube metadata and directly retrieved VGC/GameSpot coverage dated December 4, 2023 and May 6, 2025. Cloud direct YouTube requests returned 403; no playback or full transcript claimed, no mirrors or circumvention. Guessed Rockstar video routes returned 404 and are not used. Launch trailer credit read directly on official Media/Music pages. No lyrics reproduced or radio assignment inferred.",
+    "Microsoft Learn current full public licence model retrieved. Consumer support JavaScript shell subsequently rendered in Chromium successfully; both Home Xbox and offline page returned 200. Rules are Microsoft platform policy, not a test of an unreleased GTA VI build. No game-specific offline, co-op or future Online entitlement guarantee.",
+    "Rockstar Store catalogue and individual Goodtime State blue tee page returned full readable content. All listed sizes of that tee were Out of stock on November 7. Newswire announcement date October 8 supported by indexed official metadata; raw Newswire was only a shell, not claimed full article access. No unverified universal prices, shipping availability, restock date or digital game entitlement from physical merch."
+  ],
+  "media": {
+    "checkedAt": "2026-11-08T00:55:58.793563+00:00",
+    "images": [
+      {
+        "key": "feature-launch-gallery-bridge",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1132950,
+        "sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1"
+      },
+      {
+        "key": "feature-launch-gallery-duo",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1017759,
+        "sha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57"
+      },
+      {
+        "key": "feature-mountain",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1274178,
+        "sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679"
+      },
+      {
+        "key": "feature-stock305",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_STOCK_305_01.0vuq0m5_1j-17.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1896409,
+        "sha256": "1bf310c07a74be74553040b3ce853dea56f89459ecd12159320416934794d84b"
+      },
+      {
+        "key": "hero",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 475961,
+        "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8"
+      },
+      {
+        "key": "leonida-keys",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 846989,
+        "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1"
+      },
+      {
+        "key": "music",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 992753,
+        "sha256": "2d90d15104f191cde43bc37334c1a7959a7e3c9d5c56cfde44f28b0c80f7af07"
+      },
+      {
+        "key": "real-dimez",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Real_Dimez_01.0djwwboo8-glx.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 697676,
+        "sha256": "50a13a1a2af35a6ac7e775ce3832d406e2a6c57c0c6119976ce5b61e1aa29418"
+      },
+      {
+        "key": "region-vice-city-03",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1247197,
+        "sha256": "d6a56aadc2823cb97a33db087de1700f6a0fd5528b140107ec20823f23aac918"
+      }
+    ],
+    "basis": "Official Media page currently invites Download and share. Attributed contextual editorial use; copyright reserved, no unrestricted licence. Existing unedited official assets reused; no purchased, AI, leaked, modded, GTA V or decorative motion assets."
+  },
+  "articleChecks": {
+    "newTopics": 5,
+    "newLocalizedVersions": 15,
+    "totalTopics": 184,
+    "totalLocalizedVersions": 552,
+    "perTopicSections": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "figuresPerVersion": [
+      2,
+      3,
+      2,
+      2,
+      2
+    ],
+    "expectedPreservation": "All 179 previous complete article objects, inventory entries, credit objects, JS/CSS bytes, ads/security/Analytics configuration and daily scheduling unchanged.",
+    "pending": [
+      "GitHub CAS publication",
+      "Cloudflare production deployment",
+      "public 15-URL/body/metadata/media/link verification"
+    ],
+    "passed": {
+      "releaseBuild": "595 static routes, 184 topics in three languages",
+      "staticVerifier": "596 HTML files, 26640 internal links, 1166 structured-data blocks",
+      "browser": "6 Chromium tests passed in 35.6 seconds, looping all five topics per language and viewport: 30 article scenarios",
+      "preservation": "179 previous full Article objects and inventory entries unchanged; all media credits and all client JS/CSS hashes byte-identical",
+      "visualReview": "Desktop HEAT and mobile wallpaper/merchandise screenshots inspected; no overflow; existing Analytics banner retained"
+    }
+  }
+}
