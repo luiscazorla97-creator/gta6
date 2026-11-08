@@ -1,0 +1,303 @@
+{
+  "verifiedAt": "2026-11-08T22:52:28.955421+00:00",
+  "commit": "7d9bcf7f1514f876320cc5d3070d3ba6bbac2caf",
+  "deploymentId": "9fd93aa2-5072-4422-94c6-b377bf7a4efe",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-08T22:51:27.453391Z",
+    "ended_on": "2026-11-08T22:51:46.910729Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-dirigible-goodyear-vice-city-nascar/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 185,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "81e54fe2837b4fec4721b492adaf3e0ef4c7ab8d44984ceda9820d2905bcba69"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-goodyear-vice-city-blimp-nascar/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 185,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "ebd44e4157a57a25527791144cfb728af6004212a9df9d3f93ec2d53bdb32bc3"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-dirigeable-goodyear-vice-city-nascar/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 185,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "9c4cedd82917bc5fdcecdc49b6cd65e4acdb09798f69c5b6656347e57cd71d6e"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "newArticleLinked": true
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "newArticleLinked": true
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "newArticleLinked": true
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "newArticleLinked": true
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "newArticleLinked": true
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "newArticleLinked": true
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-8AA3PAdw.js",
+      "status": 200,
+      "bytes": 352487,
+      "sha256": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-B631hZsa.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/feature-launch-gallery-bridge.webp",
+      "status": 200,
+      "bytes": 217872,
+      "sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-1200.webp",
+      "status": 200,
+      "bytes": 136310,
+      "sha256": "2c167a13fcf0cf7bd5b92a177df709b11c8b9fc85e3a52cbde2ca44ae543d3ad",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-480.webp",
+      "status": 200,
+      "bytes": 34362,
+      "sha256": "ac702339970096415884c33bf68058573f2e20e81129e62979425918e5c5a438",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-800.webp",
+      "status": 200,
+      "bytes": 77148,
+      "sha256": "7aacbd03cfe0261e65d724ec96ebc8ab116548d021a684b0244c40b69e1af819",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+      "status": 200,
+      "bytes": 81668,
+      "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+      "status": 200,
+      "bytes": 25098,
+      "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+      "status": 200,
+      "bytes": 55436,
+      "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-miami-advertising-vice-city-agreement/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-miami-heat-vice-city-jersey-date/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/gta-6-vehicles-check-listings/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-miami-heat-camiseta-vice-city-fecha/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/vehiculos-gta-6-verificar-fichas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-miami-heat-maillot-vice-city-date/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-miami-publicite-accord-vice-city/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/vehicules-gta-6-verifier-fiches/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "d2d4ada9dae2cf136349f5468de7bee5f05852164c09fcafeca9796fa59cacd7",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS through inherited managed cloud proxy and normal CA/TLS. Full visible body, metadata, canonical/hreflang/JSON-LD, own image and JS/CSS bytes match tested release. Screenshots illustrate the game, not the NASCAR airship. Announced activation and event date verified; no eyewitness flight claim or game-feature inference. Browser advertising fixtures do not prove creative delivery.",
+  "browserVerification": {
+    "verifiedAt": "2026-11-08T22:52:36.319Z",
+    "results": [
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-dirigible-goodyear-vice-city-nascar/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/actualites/gta-6-dirigeable-goodyear-vice-city-nascar/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-goodyear-vice-city-blimp-nascar/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/noticias/gta-6-dirigible-goodyear-vice-city-nascar/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-dirigeable-goodyear-vice-city-nascar/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/noticias/gta-6-dirigible-goodyear-vice-city-nascar/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      }
+    ],
+    "scope": "Chromium mobile rendering and actual language navigation against live public HTTPS responses fetched by Playwright Node transport with configured session CA and inherited cloud proxy. Normal TLS validation, no trust or policy changes. Advertising/Analytics SDKs stubbed for content/navigation checks only, not proof of advertising creative delivery."
+  },
+  "localVerification": {
+    "releaseBuild": "598 generated static routes, 185 topics and 555 localized article URLs",
+    "staticVerifier": "Verified 599 HTML files, 26772 internal links and 1172 structured-data blocks.",
+    "browser": "Six Chromium tests passed: Spanish, English and French on desktop and mobile, with complete text/table/media/link checks and actual language navigation",
+    "preservation": {
+      "oldFullArticlesPreserved": 184,
+      "oldInventoryEntriesPreserved": 184,
+      "oldLocalizedURLsPreserved": 552,
+      "mediaCreditsUnchanged": true,
+      "clientAssetsByteIdentical": true,
+      "assets": {
+        "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+        "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+        "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+      },
+      "newTopics": [
+        {
+          "id": "gta6-goodyear-blimp-nascar-20261108",
+          "category": "news",
+          "published": "2026-11-08",
+          "titles": [
+            "GTA 6 y NASCAR: el dirigible de Goodyear y Vice City",
+            "GTA 6 and NASCAR: Goodyear’s Vice City blimp",
+            "GTA 6 et NASCAR : le dirigeable Vice City de Goodyear"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-dirigible-goodyear-vice-city-nascar/",
+            "/en/news/gta-6-goodyear-vice-city-blimp-nascar/",
+            "/fr/actualites/gta-6-dirigeable-goodyear-vice-city-nascar/"
+          ]
+        }
+      ],
+      "totalTopics": 185,
+      "totalLocalizedURLs": 555
+    },
+    "visualReview": "Spanish desktop and mobile screenshots inspected; existing layout and Analytics consent retained."
+  }
+}

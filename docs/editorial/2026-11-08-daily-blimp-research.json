@@ -1,5 +1,5 @@
 {
-  "status": "validated-locally-awaiting-production",
+  "status": "published-and-publicly-verified",
   "checkedAt": "2026-11-08T22:46:59.484672+00:00",
   "editorialDate": "2026-11-08",
   "timezone": "America/New_York",
@@ -216,10 +216,7 @@
   "validation": {
     "expectedTopics": 185,
     "expectedLocalizedURLs": 555,
-    "pending": [
-      "GitHub CAS update",
-      "Cloudflare production deploy and public three-URL verification"
-    ],
+    "pending": [],
     "passed": {
       "releaseBuild": "598 generated static routes, 185 topics, 555 localized article URLs",
       "staticVerifier": "Verified 599 HTML files, 26772 internal links and 1172 structured-data blocks.",
@@ -257,5 +254,15 @@
       },
       "visualReview": "Spanish mobile and desktop screenshots inspected; original layout and consent UI retained; no overflow or JavaScript errors"
     }
+  },
+  "publication": {
+    "contentCommit": "7d9bcf7f1514f876320cc5d3070d3ba6bbac2caf",
+    "deploymentId": "9fd93aa2-5072-4422-94c6-b377bf7a4efe",
+    "verifiedAt": "2026-11-08T22:52:28.955421+00:00",
+    "publicPages": 3,
+    "publicBrowserChecks": 3,
+    "discoveryPages": 6,
+    "resources": 11,
+    "internalLinks": 12
   }
 }
