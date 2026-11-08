@@ -1,5 +1,5 @@
 {
-  "status": "validated-locally-awaiting-production",
+  "status": "published-and-publicly-verified",
   "checkedAt": "2026-11-08T00:56:27.403330+00:00",
   "editorialDate": "2026-11-07",
   "editorialTimezone": "America/New_York",
@@ -798,11 +798,7 @@
       2
     ],
     "expectedPreservation": "All 179 previous complete article objects, inventory entries, credit objects, JS/CSS bytes, ads/security/Analytics configuration and daily scheduling unchanged.",
-    "pending": [
-      "GitHub CAS publication",
-      "Cloudflare production deployment",
-      "public 15-URL/body/metadata/media/link verification"
-    ],
+    "pending": [],
     "passed": {
       "releaseBuild": "595 static routes, 184 topics in three languages",
       "staticVerifier": "596 HTML files, 26640 internal links, 1166 structured-data blocks",
@@ -810,5 +806,15 @@
       "preservation": "179 previous full Article objects and inventory entries unchanged; all media credits and all client JS/CSS hashes byte-identical",
       "visualReview": "Desktop HEAT and mobile wallpaper/merchandise screenshots inspected; no overflow; existing Analytics banner retained"
     }
+  },
+  "publication": {
+    "contentCommit": "8ddcba09d230fe0b12fee2aa5c1e742a8691cbf4",
+    "deploymentId": "75f99a4d-9688-4b05-82d0-99cb1a66d2be",
+    "verifiedAt": "2026-11-08T01:03:03.186149+00:00",
+    "publicPages": 15,
+    "publicBrowserCases": 15,
+    "publicDiscoveryPages": 9,
+    "verifiedResources": 39,
+    "verifiedInternalLinks": 42
   }
 }
