@@ -1,0 +1,261 @@
+{
+  "status": "validated-locally-awaiting-production",
+  "checkedAt": "2026-11-08T22:46:59.484672+00:00",
+  "editorialDate": "2026-11-08",
+  "timezone": "America/New_York",
+  "scope": "Exactly one topic with complete Spanish, English and French versions. Existing daily cadence and final authorized date November 19 inclusive unchanged.",
+  "baseline": {
+    "main": "96bacfa4727e3212a413b745c537e94a54f79bdd",
+    "topics": 184,
+    "localizedURLs": 552,
+    "previousPublicVerification": "2026-11-08T01:03:03.186149+00:00"
+  },
+  "cloudExecution": {
+    "environment": "ccarenv_b64_Y2NhcmVudl8zODc5ZTVkOWM4ZjA4MTkxYmE0YjEyNWM0ZWNjNGJlNA",
+    "provider": "cloud",
+    "observedPhase": "running",
+    "observationsCurrent": true,
+    "appliedSpecRevision": "8",
+    "policy": "unrestricted/enforced",
+    "cloudflareSecretAndAccountObservedReady": true,
+    "actualCloudflareRead": {
+      "checkedAt": "2026-11-08T22:42:41.409872+00:00",
+      "project": "fansgta",
+      "canonicalDeployment": "75f99a4d-9688-4b05-82d0-99cb1a66d2be",
+      "contentCommit": "8ddcba09d230fe0b12fee2aa5c1e742a8691cbf4",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-08T01:02:09.226082Z",
+        "ended_on": "2026-11-08T01:02:26.524469Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    },
+    "repository": "Current main and required AGENTS.md, CONTINUAR-FANSGTA.md and inventory fetched through connected GitHub. Existing cloud checkout clean and same HEAD before editing.",
+    "network": "Initial default-sandbox curl could not reach inherited proxy. Approved cloud commands outside sandbox use inherited proxy and normal CA/TLS. No policy, credentials, subscriptions or desktop dependencies changed."
+  },
+  "chosenTopic": {
+    "id": "gta6-goodyear-blimp-nascar-20261108",
+    "category": "news",
+    "published": "2026-11-08",
+    "titles": [
+      "GTA 6 y NASCAR: el dirigible de Goodyear y Vice City",
+      "GTA 6 and NASCAR: Goodyear’s Vice City blimp",
+      "GTA 6 et NASCAR : le dirigeable Vice City de Goodyear"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-dirigible-goodyear-vice-city-nascar/",
+      "/en/news/gta-6-goodyear-vice-city-blimp-nascar/",
+      "/fr/actualites/gta-6-dirigeable-goodyear-vice-city-nascar/"
+    ]
+  },
+  "freshness": {
+    "announcementDate": "2026-11-03",
+    "eventDate": "2026-11-08",
+    "reason": "The Cup Series finale occurs in this execution interval after previous public verification. Same-day November 8 live coverage from the participating Hendrick team verifies that racing is underway. This is coverage of the current event and the previously announced GTA VI activation, not a claim of a new November 8 partnership announcement.",
+    "limits": "No live observation or event photograph of the airship was verified; copy explicitly describes the announced activation rather than asserting a witnessed flight, exact route, uninterrupted airtime or flyover timestamp."
+  },
+  "deduplication": {
+    "checked": "All 184 compiled complete Article objects and 552 localized URLs read. No Goodyear, blimp, dirigeable, dirigible, Homestead or NASCAR occurrence in any existing article.",
+    "closestArticles": [
+      "gta6-miami-campaign-20261103",
+      "gta6-miami-heat-vice-city-uniform-20261107",
+      "vehicle-evidence"
+    ],
+    "decision": "New distinct event topic; Miami-Dade concerns a county advertising agreement, HEAT concerns an NBA event and merchandise, vehicle-evidence is a general reading guide. No equivalent page to update. All previous articles and URLs preserved.",
+    "otherResearch": "Newest Rockstar homepage GTA VI items remain the November 5 gallery and November 3 preload announcement, both already covered. Current search results also repeat existing release, editions, PC, ratings, poster and Take-Two stories. Real-car builds were already reported November 6 and were not relabelled as a fresh November 8 announcement."
+  },
+  "sourceChecks": [
+    {
+      "key": "nascar",
+      "url": "https://www.nascar.com/news-media/2026/11/03/nascar-goodyear-tire-setup-homestead-miami-speedway/",
+      "finalURL": "https://www.nascar.com/news-media/2026/11/03/nascar-goodyear-tire-setup-homestead-miami-speedway/",
+      "status": 200,
+      "bytes": 118737,
+      "sha256": "5a0c290a1dbd83100b1b6191e5fd89f8f1e9fedd0d8645bddbc5e91f1653a1ac",
+      "dates": [
+        "2026-11-03T15:58:51+00:00",
+        "2026-11-03T15:58:51+00:00",
+        "2026-11-03T15:58:51+00:00",
+        "2026-11-03T15:58:51+00:00"
+      ],
+      "textLength": 3542
+    },
+    {
+      "key": "jayski",
+      "url": "https://www.jayski.com/2026/11/03/goodyear-racing-notes-homestead-miami-speedway/",
+      "finalURL": "https://www.jayski.com/2026/11/03/goodyear-racing-notes-homestead-miami-speedway/",
+      "status": 200,
+      "bytes": 165897,
+      "sha256": "28eba114affff9b171e7293c7c5676ccbcbdd65a96f92d8ad1ff999eacdc0983",
+      "dates": [
+        "2026-11-03T14:08:02+00:00",
+        "2026-11-03T14:49:33+00:00",
+        "2026-11-03T14:08:02+00:00",
+        "2026-11-03T14:49:33+00:00",
+        "November 3, 2026",
+        "November 3, 2026"
+      ],
+      "textLength": 8524
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "finalURL": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "bytes": 1240905,
+      "sha256": "bb633bb7056442d9b4f1be5f570caf1e6b8282bed085e4a8cb033ce9713037fb",
+      "dates": [],
+      "textLength": 2393
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "finalURL": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "bytes": 814420,
+      "sha256": "afbc7847909c2943ab74aeeddecdda18fe71a32b4f48245ca342cb5708c7eb17",
+      "dates": [],
+      "textLength": 2261
+    },
+    {
+      "key": "goodyear-schedule",
+      "url": "https://www.goodyearblimp.com/behind-the-scenes/schedule.html",
+      "finalURL": "https://www.goodyear.com/en-us/blimp",
+      "status": 200,
+      "sha256": "2b4fc51bf50d4f0479c2a6d22d4e6ad3d3b96d7af0a83a9b6c769a9ae5e9f18e",
+      "dates": [],
+      "textLength": 2697
+    },
+    {
+      "key": "hendrick-live",
+      "url": "https://www.hendrickmotorsports.com/news/2026/november/08/nascar-live-updates-race-kyle-larson-chase-third-2026-cup-series-championship-homestead",
+      "finalURL": "https://www.hendrickmotorsports.com/news/2026/november/08/nascar-live-updates-race-kyle-larson-chase-third-2026-cup-series-championship-homestead",
+      "status": 200,
+      "sha256": "bd3d09143ff7a5961bb014d3876b1387fdeca2bb806eef85da0196e265d28a9f",
+      "dates": [],
+      "textLength": 8903
+    },
+    {
+      "key": "tourism-event",
+      "url": "https://www.miamiandbeaches.com/event/nascar-cup-championship-weekend/33533",
+      "finalURL": "https://www.miamiandbeaches.com/event/nascar-cup-championship-weekend/33533",
+      "status": 200,
+      "sha256": "94e908f454fd02cdcd6b9cc3f04b860412c32c280c6c411c88be733172b69ab5",
+      "dates": [],
+      "textLength": 10604
+    }
+  ],
+  "sourceEvidence": {
+    "NASCAR": "November 3 report, datePublished 2026-11-03T15:58:51+00:00, explicitly confirms special GTA VI Goodyear airship livery over Homestead during championship weekend.",
+    "GoodyearViaJayski": "Notes published November 3 at 09:08 Eastern, datePublished 2026-11-03T14:08:02+00:00, describe Rockstar collaboration and Cup race November 8 at 15:00 Eastern.",
+    "Hendrick": "Full readable primary live article by Ryan Pritt dated November 8, with race-start and stage updates; only occurrence/date of race used, no unsupported sports results added.",
+    "MiamiTourism": "Official Greater Miami Convention & Visitors Bureau event page confirms weekend November 6-8, venue and Sunday Cup race at 15:00 local.",
+    "GoodyearHub": "Legacy schedule URL redirects to official /en-us/blimp page. Full hub and official social links readable, but no actual dated flight table in downloaded HTML; no such calendar verification claimed.",
+    "Rockstar": "Official current game page retains November 19, 2026 and PS5/Xbox Series X|S; Media page invites Download and share.",
+    "accessLimits": "Search-tool open failures on Notebookcheck/Hendrick/Goodyear did not establish unavailable cloud HTTP: the latter primary URLs were read via normal cloud HTTPS. RockstarINTEL category returned 429 in search tool and was not retried. No social mirroring or access-control bypass."
+  },
+  "interest": [
+    {
+      "language": "es",
+      "query": "gta 6 dirigible",
+      "status": 200,
+      "suggestions": [
+        "gta 6 dirigible"
+      ]
+    },
+    {
+      "language": "en",
+      "query": "gta 6 goodyear blimp",
+      "status": 200,
+      "suggestions": [
+        "gta 6 goodyear blimp",
+        "what is goodyear blimp",
+        "how long is the goodyear blimp",
+        "how much does it cost to fly the goodyear blimp"
+      ]
+    },
+    {
+      "language": "fr",
+      "query": "gta 6 dirigeable",
+      "status": 200,
+      "suggestions": [
+        "gta 6 dirigeable",
+        "gta 6 zeppelin",
+        "gta vi zeppelin"
+      ]
+    }
+  ],
+  "interestLimits": "Autocomplete is a qualitative query signal, not volume or ranking. French includes dirigeable/zeppelin, English includes GTA 6 Goodyear blimp alongside generic blimp questions, Spanish returns only the exact query. Same-day November 8 coverage of the current NASCAR event was found in search. No quantitative Google Trends dataset obtained and no most-searched or Google-position claim.",
+  "media": {
+    "checkedAt": "2026-11-08T22:44:48.984799+00:00",
+    "images": [
+      {
+        "key": "vice-city",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      },
+      {
+        "key": "feature-launch-gallery-bridge",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1132950,
+        "sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1"
+      }
+    ],
+    "basis": "Fresh official Media page invites Download and share. Existing unedited Rockstar screenshots reused for contextual editorial illustration with attribution and copyright reserved; no unrestricted licence. Not photographs of the airship or NASCAR event.",
+    "visualReview": "Original vice-city and feature-launch-gallery-bridge WebP assets inspected. Sunset bay/helicopter and dusk city/drawbridge descriptions match pixels. They are screenshots of the game, not photos of the airship or NASCAR. Localized captions state this.",
+    "formats": "Existing WebP/responsive variants; no new image edits or generators, no mods, leaks, GTA V or decorative edited motion layers."
+  },
+  "validation": {
+    "expectedTopics": 185,
+    "expectedLocalizedURLs": 555,
+    "pending": [
+      "GitHub CAS update",
+      "Cloudflare production deploy and public three-URL verification"
+    ],
+    "passed": {
+      "releaseBuild": "598 generated static routes, 185 topics, 555 localized article URLs",
+      "staticVerifier": "Verified 599 HTML files, 26772 internal links and 1172 structured-data blocks.",
+      "browser": "6 Chromium tests passed in 12.1 seconds: three languages, desktop and mobile; complete text, table, sources, images, metadata and actual language navigation checked",
+      "preservation": {
+        "oldFullArticlesPreserved": 184,
+        "oldInventoryEntriesPreserved": 184,
+        "oldLocalizedURLsPreserved": 552,
+        "mediaCreditsUnchanged": true,
+        "clientAssetsByteIdentical": true,
+        "assets": {
+          "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+          "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+          "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+        },
+        "newTopics": [
+          {
+            "id": "gta6-goodyear-blimp-nascar-20261108",
+            "category": "news",
+            "published": "2026-11-08",
+            "titles": [
+              "GTA 6 y NASCAR: el dirigible de Goodyear y Vice City",
+              "GTA 6 and NASCAR: Goodyear’s Vice City blimp",
+              "GTA 6 et NASCAR : le dirigeable Vice City de Goodyear"
+            ],
+            "paths": [
+              "/es/noticias/gta-6-dirigible-goodyear-vice-city-nascar/",
+              "/en/news/gta-6-goodyear-vice-city-blimp-nascar/",
+              "/fr/actualites/gta-6-dirigeable-goodyear-vice-city-nascar/"
+            ]
+          }
+        ],
+        "totalTopics": 185,
+        "totalLocalizedURLs": 555
+      },
+      "visualReview": "Spanish mobile and desktop screenshots inspected; original layout and consent UI retained; no overflow or JavaScript errors"
+    }
+  }
+}

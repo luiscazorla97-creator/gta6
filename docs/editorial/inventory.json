@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-goodyear-blimp-nascar-20261108",
+    "category": "news",
+    "published": "2026-11-08",
+    "titles": [
+      "GTA 6 y NASCAR: el dirigible de Goodyear y Vice City",
+      "GTA 6 and NASCAR: Goodyear’s Vice City blimp",
+      "GTA 6 et NASCAR : le dirigeable Vice City de Goodyear"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-dirigible-goodyear-vice-city-nascar/",
+      "/en/news/gta-6-goodyear-vice-city-blimp-nascar/",
+      "/fr/actualites/gta-6-dirigeable-goodyear-vice-city-nascar/"
+    ]
+  },
+  {
     "id": "gta6-miami-heat-vice-city-uniform-20261107",
     "category": "news",
     "published": "2026-11-07",
