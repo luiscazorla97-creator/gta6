@@ -1,0 +1,276 @@
+{
+  "recorded_at_utc": "2026-11-09T16:21:11.329695+00:00",
+  "runtime_commit": "775fa8b28ad0120495f1a40cfb9903b23d71d070",
+  "initial_seo_commit": "1b96017e4a165b2147cafc8054eca4c108a81ea2",
+  "cloudflare": {
+    "deployment": {
+      "id": "5199b799-ff11-434e-9e25-f78454b57cef",
+      "environment": "production",
+      "url": "https://5199b799.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-09T16:18:27.894494Z",
+        "ended_on": "2026-11-09T16:18:51.722931Z",
+        "status": "success"
+      },
+      "commit": "775fa8b28ad0120495f1a40cfb9903b23d71d070"
+    },
+    "canonical": {
+      "id": "5199b799-ff11-434e-9e25-f78454b57cef",
+      "environment": "production",
+      "url": "https://5199b799.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-09T16:18:27.894494Z",
+        "ended_on": "2026-11-09T16:18:51.722931Z",
+        "status": "success"
+      },
+      "commit": "775fa8b28ad0120495f1a40cfb9903b23d71d070"
+    }
+  },
+  "public_verification": {
+    "verified_at_utc": "2026-11-09T16:20:30.513770+00:00",
+    "sitemap_http_200": 609,
+    "article_urls": 570,
+    "indexable_with_correct_canonical_hreflang_and_initial_html": 570,
+    "article_urls_without_incoming_related_links": 0,
+    "sitemap_matches_release": true,
+    "robots_matches_release": true,
+    "stylesheet_matches_release": true,
+    "social_bar_and_adsense_single_tags_checked": 609,
+    "reported_technical_404s_preserved": 4,
+    "security_headers_preserved": true,
+    "public_metadata_and_content_errors": [],
+    "no_claim_of_google_indexing_or_verified_googlebot_access": true
+  },
+  "public_browser": {
+    "origin": "https://fansgta.com",
+    "verified_at": "2026-11-09T16:19:54.433Z",
+    "checks": [
+      {
+        "locale": "es",
+        "viewport": 390,
+        "javaScriptEnabled": true,
+        "status": 200,
+        "related": [
+          "/es/guias/gta-6-animales-fauna-especies-leonida/",
+          "/es/guias/gta-6-caza-animales-dinero-actividad/",
+          "/es/guias/gta-6-idiomas-doblaje-subtitulos/"
+        ],
+        "language_navigation": "passed",
+        "errors": []
+      },
+      {
+        "locale": "en",
+        "viewport": 390,
+        "javaScriptEnabled": true,
+        "status": 200,
+        "related": [
+          "/en/guides/gta-6-animals-wildlife-leonida-species/",
+          "/en/guides/gta-6-hunting-animals-money-activity/",
+          "/en/guides/gta-6-languages-voiceover-subtitles/"
+        ],
+        "language_navigation": "passed",
+        "errors": []
+      },
+      {
+        "locale": "fr",
+        "viewport": 390,
+        "javaScriptEnabled": true,
+        "status": 200,
+        "related": [
+          "/fr/guides/gta-6-animaux-faune-especes-leonida/",
+          "/fr/guides/gta-6-chasse-animaux-argent-activite/",
+          "/fr/guides/gta-6-langues-doublage-sous-titres/"
+        ],
+        "language_navigation": "passed",
+        "errors": []
+      },
+      {
+        "locale": "es",
+        "viewport": 390,
+        "javaScriptEnabled": false,
+        "status": 200,
+        "related": [
+          "/es/guias/gta-6-animales-fauna-especies-leonida/",
+          "/es/guias/gta-6-caza-animales-dinero-actividad/",
+          "/es/guias/gta-6-idiomas-doblaje-subtitulos/"
+        ],
+        "language_navigation": "not applicable",
+        "errors": []
+      },
+      {
+        "locale": "en",
+        "viewport": 390,
+        "javaScriptEnabled": false,
+        "status": 200,
+        "related": [
+          "/en/guides/gta-6-animals-wildlife-leonida-species/",
+          "/en/guides/gta-6-hunting-animals-money-activity/",
+          "/en/guides/gta-6-languages-voiceover-subtitles/"
+        ],
+        "language_navigation": "not applicable",
+        "errors": []
+      },
+      {
+        "locale": "fr",
+        "viewport": 390,
+        "javaScriptEnabled": false,
+        "status": 200,
+        "related": [
+          "/fr/guides/gta-6-animaux-faune-especes-leonida/",
+          "/fr/guides/gta-6-chasse-animaux-argent-activite/",
+          "/fr/guides/gta-6-langues-doublage-sous-titres/"
+        ],
+        "language_navigation": "not applicable",
+        "errors": []
+      },
+      {
+        "locale": "es",
+        "viewport": 1440,
+        "javaScriptEnabled": true,
+        "status": 200,
+        "related": [
+          "/es/guias/gta-6-animales-fauna-especies-leonida/",
+          "/es/guias/gta-6-caza-animales-dinero-actividad/",
+          "/es/guias/gta-6-idiomas-doblaje-subtitulos/"
+        ],
+        "language_navigation": "passed",
+        "errors": []
+      },
+      {
+        "locale": "en",
+        "viewport": 1440,
+        "javaScriptEnabled": true,
+        "status": 200,
+        "related": [
+          "/en/guides/gta-6-animals-wildlife-leonida-species/",
+          "/en/guides/gta-6-hunting-animals-money-activity/",
+          "/en/guides/gta-6-languages-voiceover-subtitles/"
+        ],
+        "language_navigation": "passed",
+        "errors": []
+      },
+      {
+        "locale": "fr",
+        "viewport": 1440,
+        "javaScriptEnabled": true,
+        "status": 200,
+        "related": [
+          "/fr/guides/gta-6-animaux-faune-especes-leonida/",
+          "/fr/guides/gta-6-chasse-animaux-argent-activite/",
+          "/fr/guides/gta-6-langues-doublage-sous-titres/"
+        ],
+        "language_navigation": "passed",
+        "errors": []
+      },
+      {
+        "locale": "es",
+        "viewport": 1440,
+        "javaScriptEnabled": false,
+        "status": 200,
+        "related": [
+          "/es/guias/gta-6-animales-fauna-especies-leonida/",
+          "/es/guias/gta-6-caza-animales-dinero-actividad/",
+          "/es/guias/gta-6-idiomas-doblaje-subtitulos/"
+        ],
+        "language_navigation": "not applicable",
+        "errors": []
+      },
+      {
+        "locale": "en",
+        "viewport": 1440,
+        "javaScriptEnabled": false,
+        "status": 200,
+        "related": [
+          "/en/guides/gta-6-animals-wildlife-leonida-species/",
+          "/en/guides/gta-6-hunting-animals-money-activity/",
+          "/en/guides/gta-6-languages-voiceover-subtitles/"
+        ],
+        "language_navigation": "not applicable",
+        "errors": []
+      },
+      {
+        "locale": "fr",
+        "viewport": 1440,
+        "javaScriptEnabled": false,
+        "status": 200,
+        "related": [
+          "/fr/guides/gta-6-animaux-faune-especes-leonida/",
+          "/fr/guides/gta-6-chasse-animaux-argent-activite/",
+          "/fr/guides/gta-6-langues-doublage-sous-titres/"
+        ],
+        "language_navigation": "not applicable",
+        "errors": []
+      }
+    ],
+    "advertising_sdk_delivery": "Simulated for content/browser checks; no claim of real creative delivery."
+  },
+  "local_validation": {
+    "release_build": "passed",
+    "static_verification": [
+      "Verified 614 HTML files, 27426 internal links and 1202 structured-data blocks.",
+      "SEO verified: 570 article URLs, 609 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links."
+    ],
+    "browser_regression_passed": 56,
+    "browser_regression_skipped": 12,
+    "final_relevance_tests_passed": 8
+  },
+  "initial_deployment_verification": {
+    "verified_at_utc": "2026-11-09T16:12:05.195830+00:00",
+    "scope": "Specific hash deployment only; not proof that fansgta.com serves the corrections.",
+    "origin": "https://a5f153e2.fansgta.pages.dev",
+    "commit": "1b96017e4a165b2147cafc8054eca4c108a81ea2",
+    "urls_http_200": 609,
+    "article_urls_matching_release": 570,
+    "canonical_and_hreflang_match": true,
+    "related_links_match_release": true,
+    "robots_and_sitemap_match_release": true,
+    "http_noindex_is_expected_for_cloudflare_preview": true,
+    "errors": []
+  },
+  "cache_purge_attempt": {
+    "result": null,
+    "success": false,
+    "errors": [
+      {
+        "code": 10000,
+        "message": "Authentication error"
+      }
+    ],
+    "messages": []
+  },
+  "zone_read": {
+    "success": false,
+    "errors": [
+      {
+        "code": 9109,
+        "message": "Unauthorized to access requested resource"
+      }
+    ],
+    "zone_name": null
+  },
+  "user_cache_purge": "User answered they could not purge now; no manual purge claimed.",
+  "propagation_first_confirmed": {
+    "utc": "2026-11-09T16:12:35.191286+00:00",
+    "robots_sitemap_and_article_related_matched_initial_release": true
+  },
+  "modified_files": [
+    "src/Interior.tsx",
+    "src/related-articles.ts",
+    "scripts/static-pages.mjs",
+    "scripts/verify-static.mjs",
+    "scripts/verify-seo.mjs",
+    "tests/seo.spec.ts",
+    "tests/ad-placements.spec.ts",
+    "docs/seo/2026-11-09-indexing-audit.json",
+    "docs/seo/2026-11-09-indexing-publication.json",
+    "docs/CONTINUAR-FANSGTA.md"
+  ],
+  "preserved_css_sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+  "article_topics": 190,
+  "article_language_urls": 570,
+  "published_new_articles": 0,
+  "changed_automation": false,
+  "claims": "Verified technical corrections and public availability. No claim of new Google indexing, ranking, actual ad creative delivery or verified Googlebot access."
+}

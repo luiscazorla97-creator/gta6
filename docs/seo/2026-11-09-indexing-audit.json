@@ -54,7 +54,7 @@
         "src/Interior.tsx"
       ],
       "finding": "La selección anterior ordenaba principalmente por categoría y conservaba el orden del catálogo, concentrando enlaces en los primeros artículos. 49 temas, 147 versiones, no recibían enlaces desde otros artículos, aunque sí desde sus categorías.",
-      "fix": "Mantener las tres tarjetas existentes: dos recomendaciones por afinidad de tema y enlaces editoriales explícitos, más continuidad dentro de la misma categoría. Los slugs compartidos mantienen la selección idéntica antes y después de hidratar ES/EN/FR.",
+      "fix": "Mantener las tres tarjetas existentes: dos recomendaciones por afinidad de tema y enlaces editoriales explícitos, más continuidad dentro de la misma categoría. Los slugs compartidos mantienen la selección idéntica antes y después de hidratar ES/EN/FR. Se ignoran palabras genéricas y se normalizan variantes lingüísticas del slug; se revisaron asociaciones de vehículos, fauna, tráilers y campañas. Los empates favorecen artículos próximos en el catálogo, evitando concentrarlos siempre en un ID.",
       "before_article_urls_without_article_incoming_links": 147,
       "after_article_urls_without_article_incoming_links": 0,
       "all_articles_still_within_two_clicks": true,
@@ -155,13 +155,13 @@
       ],
       "mitigation_present": "Ambos declaran canonical a https://fansgta.com/es/.",
       "next": "Configurar redirecciones 301 de www y fansgta.pages.dev al dominio principal conservando ruta y parámetros mediante Bulk Redirects de Cloudflare.",
-      "block": "La conexión actual permite Cloudflare Pages, pero GET /zones?name=fansgta.com no devuelve zona accesible. No se añadieron reglas _redirects de host no soportadas ni nuevos Workers o cambios DNS."
+      "block": "La conexión permite Pages, pero la lectura de la zona exacta devolvió 9109: Unauthorized to access requested resource. Las redirecciones de host y la lectura de eventos requieren acceso a la zona; no se añadieron Workers ni reglas no soportadas."
     },
     {
       "issue": "Comprobar Googlebot real",
       "evidence": "Las 609 URLs responden 200 para curl. La biblioteca urllib con su identificador predeterminado obtiene 403/1010, comportamiento documentado por Cloudflare Pages para algunos clientes. No demuestra un bloqueo de Googlebot.",
       "next": "Comprobar solicitudes verificadas de Googlebot en eventos de seguridad/rastreo y usar la prueba en vivo de Search Console.",
-      "block": "Sin acceso conectado a eventos de seguridad de la zona ni a inspección privada de Search Console; no se desactiva WAF, BIC ni protección de bots."
+      "block": "Sin conexión a inspección privada de Search Console; lectura directa de la zona Cloudflare rechazada con código 9109. No se modificaron reglas de seguridad."
     }
   ],
   "validation": {
@@ -176,7 +176,12 @@
       "skipped": 12,
       "skipped_reason": "Casos de anchura/altura exclusivos de escritorio no se duplican en el proyecto móvil.",
       "failed": 0,
-      "advertising": "SDK simulados solo en navegador. Se comprueban posiciones, dimensiones, carga única y ausencia de popunder; no se afirma entrega de creatividades reales."
+      "advertising": "SDK simulados solo en navegador. Se comprueban posiciones, dimensiones, carga única y ausencia de popunder; no se afirma entrega de creatividades reales.",
+      "final_relevance_regression": {
+        "passed": 8,
+        "failed": 0,
+        "purpose": "Comprobar pertinencia de recomendaciones, enlaces tras publicaciones nuevas y ausencia de diferencias SSR/hidratación en ES/EN/FR móvil/escritorio."
+      }
     },
     "css_sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
     "protected_file_hashes": {
@@ -191,7 +196,30 @@
       "public/_redirects": "4ea6d2835a2685c1358c8ac49345a7564ef95bdb5becf9837ef89ced478f9e3a",
       "public/ads.txt": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa"
     },
-    "publication": "Preparado y validado localmente; verificación pública posterior se registra aparte."
+    "publication": {
+      "status": "verified_on_fansgta.com",
+      "runtime_commit": "775fa8b28ad0120495f1a40cfb9903b23d71d070",
+      "initial_seo_commit": "1b96017e4a165b2147cafc8054eca4c108a81ea2",
+      "deployment_id": "5199b799-ff11-434e-9e25-f78454b57cef",
+      "public_verification": {
+        "verified_at_utc": "2026-11-09T16:20:30.513770+00:00",
+        "sitemap_http_200": 609,
+        "article_urls": 570,
+        "indexable_with_correct_canonical_hreflang_and_initial_html": 570,
+        "article_urls_without_incoming_related_links": 0,
+        "sitemap_matches_release": true,
+        "robots_matches_release": true,
+        "stylesheet_matches_release": true,
+        "social_bar_and_adsense_single_tags_checked": 609,
+        "reported_technical_404s_preserved": 4,
+        "security_headers_preserved": true,
+        "public_metadata_and_content_errors": [],
+        "no_claim_of_google_indexing_or_verified_googlebot_access": true
+      },
+      "public_browser_checks": 12,
+      "proof": "docs/seo/2026-11-09-indexing-publication.json",
+      "delivery_observation": "Cloudflare notificó éxito antes de que el dominio entregara los archivos nuevos. Se hizo un reintento; la purga selectiva fue rechazada por Authentication error 10000. Se observó la propagación de la actualización a las 16:12:35 UTC, sin confirmación de purga manual. La publicación final solo se da por verificada tras comparar las respuestas reales del dominio con la release."
+    }
   },
   "preserved": [
     "190 artículos y sus 570 URLs y traducciones",

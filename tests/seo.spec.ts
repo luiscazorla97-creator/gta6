@@ -14,6 +14,9 @@ test('related links include older articles and remain complete after a new publi
   {id:'licences',category:'guides',slug:['a','ps5-padlock-restore-licences','a']},
   {id:'sharing',category:'guides',slug:['b','ps5-sharing-profiles-licences','b']},
   {id:'wildlife',category:'guides',slug:['c','animals-wildlife-leonida','c']},
+  {id:'customisation',category:'guides',slug:['e','car-customisation-mod-shops','e']},
+  {id:'fishing',category:'guides',slug:['f','fishing-catch-and-release','f']},
+  {id:'weather',category:'guides',slug:['g','dynamic-weather-storms','g']},
  ];
  const added:Pick<Article,'id'|'slug'|'category'>={id:'new',category:'guides',slug:['d','ps5-game-sharing-licence-help','d']};
  for(const entries of [existing,[added,...existing]]){
