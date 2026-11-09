@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-west-coast-customs-real-cars-20261108",
+    "category": "news",
+    "published": "2026-11-08",
+    "titles": [
+      "GTA 6: los seis coches reales de West Coast Customs",
+      "GTA 6: West Coast Customs brings six cars to life",
+      "GTA 6 : les six vraies voitures de West Coast Customs"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+      "/en/news/gta-6-six-real-cars-west-coast-customs/",
+      "/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/"
+    ]
+  },
+  {
+    "id": "gta6-grand-rex-paris-launch-night-20261108",
+    "category": "news",
+    "published": "2026-11-08",
+    "titles": [
+      "GTA 6 en el Grand Rex: fecha, horario y entradas en París",
+      "GTA 6 at the Grand Rex: Paris event, times and tickets",
+      "GTA 6 au Grand Rex : soirée, horaires et billets à Paris"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+      "/en/news/gta-6-grand-rex-paris-november-19-event-tickets/",
+      "/fr/actualites/gta-6-grand-rex-paris-soiree-19-novembre-billets/"
+    ]
+  },
+  {
+    "id": "gta6-playstation-app-remote-download-20261108",
+    "category": "guides",
+    "published": "2026-11-08",
+    "titles": [
+      "GTA 6 y PlayStation App: descarga en PS5 desde el móvil",
+      "GTA 6 and PlayStation App: download to PS5 from your phone",
+      "GTA 6 et PlayStation App : télécharger sur PS5 depuis le mobile"
+    ],
+    "paths": [
+      "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+      "/en/guides/gta-6-ps5-download-playstation-app-phone/",
+      "/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/"
+    ]
+  },
+  {
+    "id": "gta6-ps5-padlock-restore-licences-20261108",
+    "category": "guides",
+    "published": "2026-11-08",
+    "titles": [
+      "GTA 6 en PS5: candado, cuenta y restauración de licencias",
+      "GTA 6 on PS5: padlocks, accounts and restoring licences",
+      "GTA 6 sur PS5 : cadenas, compte et restauration des licences"
+    ],
+    "paths": [
+      "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+      "/en/guides/gta-6-ps5-padlock-restore-licences/",
+      "/fr/guides/gta-6-cadenas-ps5-restaurer-licences/"
+    ]
+  },
+  {
+    "id": "gta6-pc-mac-ps5-remote-play-20261108",
+    "category": "guides",
+    "published": "2026-11-08",
+    "titles": [
+      "GTA 6 en PC y Mac con PS5: guía de PS Remote Play",
+      "GTA 6 on PC or Mac through PS5: a Remote Play guide",
+      "GTA 6 sur PC et Mac via PS5 : guide PS Remote Play"
+    ],
+    "paths": [
+      "/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+      "/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+      "/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/"
+    ]
+  },
+  {
     "id": "gta6-goodyear-blimp-nascar-20261108",
     "category": "news",
     "published": "2026-11-08",

@@ -1,0 +1,717 @@
+{
+  "status": "validated-locally-awaiting-production",
+  "editorialDate": "2026-11-08",
+  "editorialTimezone": "America/New_York",
+  "checkedAt": "2026-11-09T03:15:59.744153+00:00",
+  "request": "Manual request for five articles. Five distinct topics with complete ES/EN/FR versions. Does not change the one-topic daily schedule or its November 19 inclusive deadline.",
+  "baseline": {
+    "main": "14029db44ac23c94ff0c72d1927f987e8f09e997",
+    "topics": 185,
+    "localizedURLs": 555,
+    "lastPublicVerification": "2026-11-08T22:52:28.955421+00:00"
+  },
+  "cloud": {
+    "environment": "ccarenv_b64_Y2NhcmVudl8zODc5ZTVkOWM4ZjA4MTkxYmE0YjEyNWM0ZWNjNGJlNA",
+    "provider": "cloud",
+    "phase": "running",
+    "observationsCurrent": true,
+    "appliedSpecRevision": "8",
+    "networkPolicy": "unrestricted/enforced",
+    "accountAndTokenObservedReady": true,
+    "actualAPIRead": {
+      "checkedAt": "2026-11-09T03:04:46.995722+00:00",
+      "project": "fansgta",
+      "canonicalDeployment": "9fd93aa2-5072-4422-94c6-b377bf7a4efe",
+      "commit": "7d9bcf7f1514f876320cc5d3070d3ba6bbac2caf",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-08T22:51:27.453391Z",
+        "ended_on": "2026-11-08T22:51:46.910729Z",
+        "status": "success"
+      },
+      "actualAPIRead": true
+    },
+    "repo": "Current main read through connected GitHub and compared with a clean cloud checkout before editing. AGENTS.md, continuation, inventory and user-brief read.",
+    "network": "Initial sandboxed curl could not connect to inherited proxy. Approved cloud commands outside sandbox retain proxy, CA and normal TLS. No PC files/processes/credentials, policy changes, paid services or messages to third parties."
+  },
+  "topics": [
+    {
+      "id": "gta6-west-coast-customs-real-cars-20261108",
+      "category": "news",
+      "published": "2026-11-08",
+      "titles": [
+        "GTA 6: los seis coches reales de West Coast Customs",
+        "GTA 6: West Coast Customs brings six cars to life",
+        "GTA 6 : les six vraies voitures de West Coast Customs"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+        "/en/news/gta-6-six-real-cars-west-coast-customs/",
+        "/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/"
+      ]
+    },
+    {
+      "id": "gta6-grand-rex-paris-launch-night-20261108",
+      "category": "news",
+      "published": "2026-11-08",
+      "titles": [
+        "GTA 6 en el Grand Rex: fecha, horario y entradas en París",
+        "GTA 6 at the Grand Rex: Paris event, times and tickets",
+        "GTA 6 au Grand Rex : soirée, horaires et billets à Paris"
+      ],
+      "paths": [
+        "/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+        "/en/news/gta-6-grand-rex-paris-november-19-event-tickets/",
+        "/fr/actualites/gta-6-grand-rex-paris-soiree-19-novembre-billets/"
+      ]
+    },
+    {
+      "id": "gta6-playstation-app-remote-download-20261108",
+      "category": "guides",
+      "published": "2026-11-08",
+      "titles": [
+        "GTA 6 y PlayStation App: descarga en PS5 desde el móvil",
+        "GTA 6 and PlayStation App: download to PS5 from your phone",
+        "GTA 6 et PlayStation App : télécharger sur PS5 depuis le mobile"
+      ],
+      "paths": [
+        "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+        "/en/guides/gta-6-ps5-download-playstation-app-phone/",
+        "/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/"
+      ]
+    },
+    {
+      "id": "gta6-ps5-padlock-restore-licences-20261108",
+      "category": "guides",
+      "published": "2026-11-08",
+      "titles": [
+        "GTA 6 en PS5: candado, cuenta y restauración de licencias",
+        "GTA 6 on PS5: padlocks, accounts and restoring licences",
+        "GTA 6 sur PS5 : cadenas, compte et restauration des licences"
+      ],
+      "paths": [
+        "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+        "/en/guides/gta-6-ps5-padlock-restore-licences/",
+        "/fr/guides/gta-6-cadenas-ps5-restaurer-licences/"
+      ]
+    },
+    {
+      "id": "gta6-pc-mac-ps5-remote-play-20261108",
+      "category": "guides",
+      "published": "2026-11-08",
+      "titles": [
+        "GTA 6 en PC y Mac con PS5: guía de PS Remote Play",
+        "GTA 6 on PC or Mac through PS5: a Remote Play guide",
+        "GTA 6 sur PC et Mac via PS5 : guide PS Remote Play"
+      ],
+      "paths": [
+        "/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+        "/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+        "/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/"
+      ]
+    }
+  ],
+  "deduplication": {
+    "scope": "All 185 complete compiled Article objects and all 555 localized URLs compared by intent. No existing West Coast Customs or Grand Rex topic.",
+    "decisions": [
+      {
+        "id": "gta6-west-coast-customs-real-cars-20261108",
+        "closest": [
+          "gta6-car-customisation-20261031",
+          "gta6-more-wyman-20261031",
+          "gta6-miami-campaign-20261103"
+        ],
+        "reason": "A six-vehicle physical promotional build project with an original Hypebeast gallery, distinct from game customisation, a story activity and county advertising."
+      },
+      {
+        "id": "gta6-grand-rex-paris-launch-night-20261108",
+        "closest": [
+          "gta6-selfridges-experience-20261105",
+          "gta6-miami-heat-vice-city-uniform-20261107"
+        ],
+        "reason": "A specific Paris cinema event and official booking route, not another venue or a Rockstar-produced preview."
+      },
+      {
+        "id": "gta6-playstation-app-remote-download-20261108",
+        "closest": [
+          "gta6-mobile-remote-20261101",
+          "gta6-preload-schedule-20261028",
+          "legal-purchase-download-2026-10-28"
+        ],
+        "reason": "Step-by-step PlayStation App pairing and remote install queue. Existing phone guide concerns playing/streaming; preload guide supplies dates/automatic download but does not cover app pairing and phone queue management. One irrelevant PlayStation app mention in GTA 1 cheats is not equivalent."
+      },
+      {
+        "id": "gta6-ps5-padlock-restore-licences-20261108",
+        "closest": [
+          "gta6-ps5-household-sharing-20261105",
+          "gta6-ps5-save-backup-20261105"
+        ],
+        "reason": "Troubleshoot the purchasing account and restore a licence. Sharing guide briefly mentions a lock but primarily configures household profiles; backup guide concerns saved data. New guide answers a separate diagnostic intent and links both."
+      },
+      {
+        "id": "gta6-pc-mac-ps5-remote-play-20261108",
+        "closest": [
+          "gta6-mobile-remote-20261101",
+          "gta6-pc-q1-2027-report-2026-10-28",
+          "gta6-steam-deck-compatibility-20261106"
+        ],
+        "reason": "Official Windows/Mac software, OS/controller requirements, PS5 host setup and manual pairing. Existing mobile guide has phone steps, PC story addresses native-release rumours and Steam Deck guide addresses unsupported native/Linux status."
+      }
+    ]
+  },
+  "sourceChecks": [
+    {
+      "key": "rex",
+      "url": "https://www.legrandrex.com/mobile/prochainement.php",
+      "finalURL": "https://www.legrandrex.com/mobile/prochainement.php",
+      "status": 200,
+      "bytes": 599639,
+      "sha256": "916ab8d0289e6ea44c330914a6ec53c1a57cf9983ed44abaa26e71b4e1b098c0",
+      "dates": [],
+      "textLength": 146119
+    },
+    {
+      "key": "hype-tag",
+      "url": "https://hypebeast.com/tags/gta-6",
+      "finalURL": "https://hypebeast.com/tags/gta-6",
+      "status": 200,
+      "bytes": 283320,
+      "sha256": "020928e572d177f0c408838b0508b60105466a9636e8f9b246aed742e438ed00",
+      "dates": [],
+      "textLength": 7247
+    },
+    {
+      "key": "app-download",
+      "url": "https://www.playstation.com/en-us/support/games/playstation-app-features/",
+      "finalURL": "https://www.playstation.com/en-us/support/games/playstation-app-features/",
+      "status": 200,
+      "bytes": 170836,
+      "sha256": "b35e277dbb9072b4ad51e4f01f1212f727b8f5a8cbb27b78197bee5d0504d69b",
+      "dates": [],
+      "textLength": 8222
+    },
+    {
+      "key": "pc-remote",
+      "url": "https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/",
+      "finalURL": "https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/",
+      "status": 200,
+      "bytes": 173464,
+      "sha256": "7c25d55953fe788fafe9b83a696853c63a1b2234aa5e0105244056a8114a086f",
+      "dates": [],
+      "textLength": 7913
+    },
+    {
+      "key": "licences",
+      "url": "https://www.playstation.com/en-us/support/games/restore-licences-playstation/",
+      "finalURL": "https://www.playstation.com/en-us/support/games/restore-licences-playstation/",
+      "status": 200,
+      "bytes": 153931,
+      "sha256": "d8c56246128940e01a9ad8455a31f0738e7b1a6f77ec58010a58dbf1a78585b6",
+      "dates": [],
+      "textLength": 3294
+    },
+    {
+      "key": "access",
+      "url": "https://www.playstation.com/en-us/support/games/troubleshoot-downloaded-playstation-game/",
+      "finalURL": "https://www.playstation.com/en-us/support/games/troubleshoot-downloaded-playstation-game/",
+      "status": 200,
+      "bytes": 218697,
+      "sha256": "a6e1d8b87465cfecfca4e0717dcc23133a15ee1b21799425e9ee5f622e1a657a",
+      "dates": [],
+      "textLength": 9541
+    },
+    {
+      "key": "official",
+      "url": "https://www.rockstargames.com/VI",
+      "finalURL": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "bytes": 1240905,
+      "sha256": "bb633bb7056442d9b4f1be5f570caf1e6b8282bed085e4a8cb033ce9713037fb",
+      "dates": [],
+      "textLength": 2393
+    },
+    {
+      "key": "media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "finalURL": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "bytes": 814420,
+      "sha256": "afbc7847909c2943ab74aeeddecdda18fe71a32b4f48245ca342cb5708c7eb17",
+      "dates": [],
+      "textLength": 2261
+    },
+    {
+      "key": "cars",
+      "url": "https://hypebeast.com/2026/11/grand-theft-auto-vi-gta6-real-in-game-cars",
+      "finalURL": "https://hypebeast.com/2026/11/grand-theft-auto-vi-gta6-real-in-game-cars",
+      "status": 200,
+      "bytes": 533749,
+      "sha256": "f1008235e4267589065c322705500b0641ab0890da48c4f2f7213dcc73036f48",
+      "dates": [
+        "2026-11-06T19:00:33+00:00",
+        "2026-11-09T02:42:01+00:00"
+      ],
+      "textLength": 11696
+    },
+    {
+      "key": "rex-detail",
+      "url": "https://www.legrandrex.com/cinema/5680",
+      "finalURL": "https://www.legrandrex.com/cinema/5680",
+      "status": 200,
+      "bytes": 150151,
+      "sha256": "c13ae2e4973c7a566cca6b9391b8ae33290da89ecf7d7a392ff2f4503d50c755",
+      "dates": [],
+      "textLength": 5935
+    },
+    {
+      "key": "rex-ticket",
+      "url": "https://shotgun.live/fr/events/let-s-play-gta-vi-grand-rex",
+      "finalURL": "https://shotgun.live/fr/events/let-s-play-gta-vi-grand-rex",
+      "status": 200,
+      "bytes": 219379,
+      "sha256": "c86b5d47b3f4501af5abdf9e8bda8ba9b89a8e14f414139bb8585066f6f95ffa",
+      "dates": [],
+      "textLength": 2567
+    },
+    {
+      "key": "download",
+      "url": "https://www.playstation.com/en-us/support/games/find-download-games-ps-store/",
+      "finalURL": "https://www.playstation.com/en-us/support/games/find-download-games-ps-store/",
+      "status": 200,
+      "bytes": 178923,
+      "sha256": "8218c7f9abc16e8d0ba54427177f326034babfcb9223808722123b1a92c32cb7",
+      "dates": [],
+      "textLength": 5329
+    },
+    {
+      "key": "gta-support",
+      "url": "https://www.playstation.com/en-us/support/games/gta-vi-support/",
+      "finalURL": "https://www.playstation.com/en-us/support/games/gta-vi-support/",
+      "status": 200,
+      "bytes": 195922,
+      "sha256": "2c33a062141b13edfbf532f4ab2b49f23a4f4ad5002be86d309cf278593fb00c",
+      "dates": [],
+      "textLength": 7462
+    },
+    {
+      "key": "gta-product",
+      "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "finalURL": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "status": 200,
+      "bytes": 379939,
+      "sha256": "0421d0f6a4748795167ea80cdd31e48f1b67d8dce28464e2c47a8ed85c6aff4f",
+      "dates": [],
+      "textLength": 12433
+    },
+    {
+      "key": "remote-installer",
+      "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/",
+      "finalURL": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/",
+      "status": 200,
+      "bytes": 14961,
+      "sha256": "2ef448dc00a22ef49b70ca896c7d63884234f3b7b61a10a7494f03ff9c450422",
+      "dates": [],
+      "textLength": 4289
+    },
+    {
+      "key": "remote-windows",
+      "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100001.html",
+      "finalURL": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100001.html",
+      "status": 200,
+      "bytes": 20891,
+      "sha256": "cfcbbd4f4a5b28bc412233d7c3ee9791828ed7c1c42427d791d994efb924446e",
+      "textLength": 6786
+    },
+    {
+      "key": "remote-mac",
+      "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100002.html",
+      "finalURL": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100002.html",
+      "status": 200,
+      "bytes": 18304,
+      "sha256": "aac860d679777f1cec73716d3fd790354378abb351800da4e0c20f3d21770224",
+      "textLength": 6081
+    },
+    {
+      "key": "remote-fix",
+      "url": "https://www.playstation.com/en-us/support/games/ps4-remote-play-connection-troubleshooting/",
+      "finalURL": "https://www.playstation.com/en-us/support/games/ps4-remote-play-connection-troubleshooting/",
+      "status": 200,
+      "bytes": 206223,
+      "sha256": "f974cccdb7712437949e973f30aafe7ce720f6d2bcebad7448de08c2a48c6e23",
+      "textLength": 9537
+    }
+  ],
+  "sourceNotes": [
+    "Hypebeast original by Eddie Eng: published November 6, 2026 at 19:00:33 UTC; current dateModified November 9 at 02:42:01 UTC (November 8 in New York). No inference that this metadata update represents a new project announcement. Names and visual traits of six builds attributed to report. No engine figures recast as in-game performance, purchasable liveries or vehicle stats. Physical-build photographs not reused without a separate verified rights basis.",
+    "Grand Rex current venue page 5680 and linked Shotgun event fully readable HTTP200: November 19, 2026, 20:00–00:00 Paris CET/UTC+1, four hours, Infinite room, organiser Iconic Production, Vlad_CKa on stage. Official venue advertises EUR 15.40–22 for France, checked November 8 in every translation. Range is an advertisement, not a guarantee all tiers remain for sale or fees are included. No purchase, registration or claim of reserved seats. Event is not labelled an official Rockstar production. Sortiraparis search content updated November 6 provides secondary context; venue has no publication timestamp, so no new November 8 announcement is fabricated.",
+    "PlayStation App support and download help confirm pairing through Settings > Pair Console to App, matching account, Game Library > Purchased > Download to Console, rest-mode internet and storage management. Phone install queue is distinguished from streaming. No GTA VI download requested or claimed available before November 10; access still November 19.",
+    "Sony licence help gives the Settings > Users and Accounts > Other > Restore Licenses route and the individual-game option. It states restoration does not affect data. Account, preorder clock and download/access issues are separated; no GTA VI fault reproduced or early-unlock method claimed. No save deletion or factory reset recommended.",
+    "Sony current GTA VI product page directly lists Remote Play supported, one player and PS5. Official PC/Mac guide and individual download manuals give host settings, same account, USB controller, 5 Mbps standard/15 Mbps recommended upload and download, installer links and manual pairing. They are client requirements, not native GTA VI PC specifications or measured GTA VI streaming performance.",
+    "Mac source discrepancy found: general support includes Big Sur, while the current Mac-specific installer guide starts at Monterey. Published table follows the Mac-specific guide, Monterey through Tahoe, and advises checking current installer requirements. No blanket Big Sur compatibility recommendation."
+  ],
+  "interest": {
+    "checkedAt": "2026-11-09T03:12:23.298565+00:00",
+    "results": [
+      {
+        "language": "es",
+        "query": "gta 6 west coast customs",
+        "status": 200,
+        "suggestions": [
+          "gta 6 west coast customs",
+          "gta 6 west coast customs cars",
+          "west coast customs gta 6 cars"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 grand rex",
+        "status": 200,
+        "suggestions": [
+          "gta 6 grand rex"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 playstation app",
+        "status": 200,
+        "suggestions": [
+          "gta 6 playstation app icon",
+          "gta 6 playstation app",
+          "playstation app logo gta 6",
+          "playstation app gta 6 theme"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 candado ps5",
+        "status": 200,
+        "suggestions": []
+      },
+      {
+        "language": "es",
+        "query": "gta 6 remote play pc",
+        "status": 200,
+        "suggestions": [
+          "gta 6 remote play pc"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 west coast customs",
+        "status": 200,
+        "suggestions": [
+          "gta 6 west coast customs",
+          "gta 6 west coast customs cars",
+          "how much does west coast customs charge",
+          "how much does a west coast customs car cost"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 grand rex",
+        "status": 200,
+        "suggestions": [
+          "gta 6 grand rex",
+          "grand theft auto 6 requirements",
+          "gta 6 minimum requirements",
+          "grand theft auto 6 details",
+          "gta 6 confirmed details",
+          "gta 6 graphics requirements"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 playstation app",
+        "status": 200,
+        "suggestions": [
+          "gta 6 playstation app icon",
+          "gta 6 playstation app",
+          "gta 6 psn app",
+          "gta vi playstation app",
+          "playstation app gta 6 logo",
+          "playstation app gta 6 theme",
+          "will you be able to play gta 6 on ps4",
+          "is gta 6 on ps4",
+          "can u play gta 6 on ps4",
+          "can gta 6 run on ps4"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 locked ps5",
+        "status": 200,
+        "suggestions": [
+          "gta 6 region lock ps5",
+          "gta 6 fps lock ps5",
+          "is gta 6 locked at 30fps on ps5",
+          "is gta 6 locked at 30fps on ps5 pro",
+          "why is my gta locked on ps5",
+          "can you play gta 6 on ps5",
+          "is gta 6 ps5 exclusive",
+          "will ps5 have gta 6"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 remote play pc",
+        "status": 200,
+        "suggestions": [
+          "gta 6 remote play pc",
+          "can you play gta 5 with a controller on pc",
+          "can you play gta 6 on pc",
+          "can you play gta on pc with a controller",
+          "how to play gta 6 on pc"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 west coast customs",
+        "status": 200,
+        "suggestions": [
+          "gta 6 west coast customs",
+          "gta 6 west coast customs cars"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 grand rex",
+        "status": 200,
+        "suggestions": [
+          "gta 6 grand rex"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 playstation app",
+        "status": 200,
+        "suggestions": [
+          "gta 6 playstation app icon",
+          "gta 6 playstation app",
+          "gta 6 ps app",
+          "gta 6 ps app logo",
+          "gta 6 playstation store",
+          "gta 6 playstation network",
+          "gta 6 playstation store prix",
+          "gta 6 playstation store us",
+          "gta 6 playstation store new zealand",
+          "gta 6 playstation store canada"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 cadenas ps5",
+        "status": 200,
+        "suggestions": []
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 lecture a distance pc",
+        "status": 200,
+        "suggestions": []
+      }
+    ]
+  },
+  "interestLimits": "Google autocomplete is qualitative, not volume or a rank. WCC has relevant model/project queries in all languages. Grand Rex has exact-query matches but some unrelated English expansions. PlayStation App results skew toward icons/themes as well as the app, so they do not establish strong download-specific demand. Lock-query results are absent in Spanish/French and include unrelated region/FPS English suggestions; no claim this is a widespread GTA VI launch bug. Remote Play PC has exact ES/EN matches, no French exact suggestion. Three practical guides selected for distinct useful preparation intents, not five alleged breaking announcements or a top-ten guarantee. No quantitative Trends data used.",
+  "media": {
+    "checkedAt": "2026-11-09T03:15:15.411696+00:00",
+    "images": [
+      {
+        "key": "feature-driver",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 898215,
+        "sha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c"
+      },
+      {
+        "key": "feature-launch-gallery-duo",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1017759,
+        "sha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57"
+      },
+      {
+        "key": "feature-phone",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 827207,
+        "sha256": "c5bd34d1d328ce465d33f0aad4a7af7359ca1f81d95434019243518a5af3f00f"
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1924231,
+        "sha256": "4999851a6bbfebc0ace0281480c1f81ae600e2c17e5539de5f5f61043484b8d6"
+      },
+      {
+        "key": "feature-wyman-05",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_05.0e5.kdb~mrdih.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 1105608,
+        "sha256": "26c92c849d6a4d2090d9b9d4b466e627552202ef5c8e2a632572e4fa2fae38d5"
+      },
+      {
+        "key": "hero",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 475961,
+        "sha256": "0450dc985f625507ff4d2786d4b85f2f0815cdc7f31cc5c3e806d5c875648be8"
+      },
+      {
+        "key": "jason",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 939665,
+        "sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba"
+      },
+      {
+        "key": "lucia",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 898033,
+        "sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c"
+      },
+      {
+        "key": "vice-city",
+        "original": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "status": 200,
+        "bytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      }
+    ],
+    "basis": "Official Rockstar Media page rechecked HTTP 200 with Download and share invitation. Attributed contextual editorial use; copyright reserved, no unrestricted licence. Existing unedited official GTA VI images only, not workshop/event photos or Sony app screens. No AI, mods, leaks, GTA V or decorative edited motion layers."
+  },
+  "validation": {
+    "expectedTotalTopics": 190,
+    "expectedLocalizedURLs": 570,
+    "newTopics": 5,
+    "newVersions": 15,
+    "figuresPerVersion": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "pending": [
+      "GitHub CAS publication",
+      "Cloudflare production deployment",
+      "public 15-page/media/link/selector verification"
+    ],
+    "passed": {
+      "releaseBuild": "613 generated static routes, 190 topics and 570 localized article URLs",
+      "staticVerifier": "Verified 614 HTML files, 27426 internal links and 1202 structured-data blocks.",
+      "browser": "Six Chromium tests passed in 36.5 seconds, covering 30 article scenarios across five topics, three languages and desktop/mobile viewports. Complete text/tables, images, metadata, internal links and actual locale navigation verified.",
+      "preservation": {
+        "allPreviousFullArticlesPreserved": 185,
+        "previousLocalizedURLs": 555,
+        "previousInventoryEntriesPreserved": 185,
+        "mediaCreditsUnchanged": true,
+        "clientAssetsByteIdentical": true,
+        "assets": {
+          "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+          "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+          "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+        },
+        "newTopics": [
+          {
+            "id": "gta6-west-coast-customs-real-cars-20261108",
+            "category": "news",
+            "published": "2026-11-08",
+            "titles": [
+              "GTA 6: los seis coches reales de West Coast Customs",
+              "GTA 6: West Coast Customs brings six cars to life",
+              "GTA 6 : les six vraies voitures de West Coast Customs"
+            ],
+            "paths": [
+              "/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+              "/en/news/gta-6-six-real-cars-west-coast-customs/",
+              "/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/"
+            ]
+          },
+          {
+            "id": "gta6-grand-rex-paris-launch-night-20261108",
+            "category": "news",
+            "published": "2026-11-08",
+            "titles": [
+              "GTA 6 en el Grand Rex: fecha, horario y entradas en París",
+              "GTA 6 at the Grand Rex: Paris event, times and tickets",
+              "GTA 6 au Grand Rex : soirée, horaires et billets à Paris"
+            ],
+            "paths": [
+              "/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+              "/en/news/gta-6-grand-rex-paris-november-19-event-tickets/",
+              "/fr/actualites/gta-6-grand-rex-paris-soiree-19-novembre-billets/"
+            ]
+          },
+          {
+            "id": "gta6-playstation-app-remote-download-20261108",
+            "category": "guides",
+            "published": "2026-11-08",
+            "titles": [
+              "GTA 6 y PlayStation App: descarga en PS5 desde el móvil",
+              "GTA 6 and PlayStation App: download to PS5 from your phone",
+              "GTA 6 et PlayStation App : télécharger sur PS5 depuis le mobile"
+            ],
+            "paths": [
+              "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+              "/en/guides/gta-6-ps5-download-playstation-app-phone/",
+              "/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/"
+            ]
+          },
+          {
+            "id": "gta6-ps5-padlock-restore-licences-20261108",
+            "category": "guides",
+            "published": "2026-11-08",
+            "titles": [
+              "GTA 6 en PS5: candado, cuenta y restauración de licencias",
+              "GTA 6 on PS5: padlocks, accounts and restoring licences",
+              "GTA 6 sur PS5 : cadenas, compte et restauration des licences"
+            ],
+            "paths": [
+              "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+              "/en/guides/gta-6-ps5-padlock-restore-licences/",
+              "/fr/guides/gta-6-cadenas-ps5-restaurer-licences/"
+            ]
+          },
+          {
+            "id": "gta6-pc-mac-ps5-remote-play-20261108",
+            "category": "guides",
+            "published": "2026-11-08",
+            "titles": [
+              "GTA 6 en PC y Mac con PS5: guía de PS Remote Play",
+              "GTA 6 on PC or Mac through PS5: a Remote Play guide",
+              "GTA 6 sur PC et Mac via PS5 : guide PS Remote Play"
+            ],
+            "paths": [
+              "/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+              "/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+              "/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/"
+            ]
+          }
+        ],
+        "totalTopics": 190,
+        "totalLocalizedURLs": 570
+      },
+      "visualReview": "Spanish desktop car-report and mobile Grand Rex/PC-Mac screenshots inspected. Original layout and Analytics consent retained, no overflow or page exceptions."
+    }
+  }
+}
