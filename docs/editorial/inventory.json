@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-the-festival-miami-20261109",
+    "category": "news",
+    "published": "2026-11-09",
+    "titles": [
+      "GTA 6: festival en Miami, fecha, artistas y entradas",
+      "GTA 6 Festival: Miami date, lineup and ticket lottery",
+      "GTA 6 Festival à Miami : date, artistes et billets"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+      "/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+      "/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/"
+    ]
+  },
+  {
     "id": "gta6-west-coast-customs-real-cars-20261108",
     "category": "news",
     "published": "2026-11-08",
@@ -627,8 +642,7 @@
       "/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
       "/en/guides/gta-6-leonida-map-poster-official-download/",
       "/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/"
-    ],
-    "updated": "2026-11-04"
+    ]
   },
   {
     "id": "gta6-miami-campaign-20261103",
@@ -898,8 +912,7 @@
       "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
       "/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
       "/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/"
-    ],
-    "updated": "2026-11-03"
+    ]
   },
   {
     "id": "gta6-xbox-storage-20261101",
@@ -914,8 +927,7 @@
       "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
       "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
       "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/"
-    ],
-    "updated": "2026-11-03"
+    ]
   },
   {
     "id": "gta6-preorder-cancel-20261101",
@@ -2265,8 +2277,7 @@
       "/es/guias/gta-6-collectors-box-incluye-juego/",
       "/en/guides/gta-6-collectors-box-does-it-include-game/",
       "/fr/guides/gta-6-coffret-collector-jeu-inclus/"
-    ],
-    "updated": "2026-11-02"
+    ]
   },
   {
     "id": "reported-210gb-size-2026-10-28",
@@ -2281,8 +2292,7 @@
       "/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
       "/en/news/rumour-gta-6-210gb-ps5-download-size/",
       "/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/"
-    ],
-    "updated": "2026-11-03"
+    ]
   },
   {
     "id": "gta6-preload-schedule-20261028",
@@ -2297,8 +2307,7 @@
       "/es/guias/precarga-gta-6-fecha-hora-consolas/",
       "/en/guides/gta-6-preload-date-time-consoles/",
       "/fr/guides/prechargement-gta-6-date-heure-consoles/"
-    ],
-    "updated": "2026-11-04"
+    ]
   },
   {
     "id": "gta6-physical-code-box-20261028",
@@ -2313,8 +2322,7 @@
       "/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
       "/en/guides/gta-6-physical-edition-no-disc-code/",
       "/fr/guides/gta-6-edition-physique-sans-disque-code/"
-    ],
-    "updated": "2026-11-03"
+    ]
   },
   {
     "id": "gta6-code-region-20261028",
@@ -2449,8 +2457,7 @@
       "/es/noticias/gta-6-19-november-2026/",
       "/en/news/gta-6-19-november-2026/",
       "/fr/actualites/gta-6-19-november-2026/"
-    ],
-    "updated": "2026-11-03"
+    ]
   },
   {
     "id": "gta-6-ps5-xbox",

@@ -1,0 +1,400 @@
+{
+  "execution": "Daily run, one GTA VI topic in Spanish, English and French",
+  "checked_at_utc": "2026-11-09T22:22:02.291542+00:00",
+  "editorial_date": "2026-11-09",
+  "timezone": "America/New_York",
+  "authorization_final_date_inclusive": "2026-11-19",
+  "cloud_execution": {
+    "provider": "cloud",
+    "environment_id": "ccarenv_b64_Y2NhcmVudl8zODc5ZTVkOWM4ZjA4MTkxYmE0YjEyNWM0ZWNjNGJlNA",
+    "observations_current": true,
+    "observed_revision": 8,
+    "network_policy": "unrestricted, enforced",
+    "github_main_fetched_from_origin": true,
+    "main_at_start": "0af97de34cd4671be6d9ef7e20338ca0cc972fb3",
+    "cloudflare_project_read_verified": {
+      "project": "fansgta",
+      "build_command": "npm run build:release",
+      "production_branch": "main",
+      "deployment": {
+        "id": "5199b799-ff11-434e-9e25-f78454b57cef",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-09T16:18:27.894494Z",
+          "ended_on": "2026-11-09T16:18:51.722931Z",
+          "status": "success"
+        },
+        "commit": "775fa8b28ad0120495f1a40cfb9903b23d71d070"
+      }
+    },
+    "desktop_pc_dependency": false,
+    "future_executor_availability": "Not established by this execution; requires the cloud executor and connections to remain available."
+  },
+  "selected": {
+    "id": "gta6-the-festival-miami-20261109",
+    "titles": [
+      "GTA 6: festival en Miami, fecha, artistas y entradas",
+      "GTA 6 Festival: Miami date, lineup and ticket lottery",
+      "GTA 6 Festival à Miami : date, artistes et billets"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+      "/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+      "/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/"
+    ],
+    "category": "news",
+    "status": "Official announcement, not a rumour",
+    "announcement_date": "2026-11-09",
+    "event_date": "2026-11-21",
+    "intent": "When and where the newly announced Miami GTA VI music festival takes place, who performs, and how the lottery-to-ticket purchase process works."
+  },
+  "freshness": {
+    "last_daily_topic": "gta6-goodyear-blimp-nascar-20261108",
+    "last_manual_topics_date": "2026-11-08",
+    "latest_previous_article_date": "2026-11-08",
+    "last_intervening_work": "Technical SEO audit; no articles published in that task.",
+    "new_event_not_recycled": "Newswire and its official localized indexes date this announcement November 9, 2026. The event takes place later, November 21, and is distinct from the November 19 game release."
+  },
+  "deduplication": {
+    "all_existing_topics_checked": 190,
+    "all_existing_language_versions": 570,
+    "full_article_data_checked": true,
+    "exact_festival_intent_hits": [],
+    "preserved_existing_articles": 190,
+    "new_topics": 1,
+    "new_language_versions": 3,
+    "inventory_after_topics": 191,
+    "inventory_after_urls": 573,
+    "nearby_existing_topics": [
+      {
+        "id": "gta-6-radio-music",
+        "reason_distinct": "In-game radio and previews; not a real Miami music festival or its ticket process."
+      },
+      {
+        "id": "gta-6-album-34-tracks",
+        "reason_distinct": "Recorded album and release formats; not an attendance lottery."
+      },
+      {
+        "id": "gta6-justice-score-december-11-2026-10-29",
+        "reason_distinct": "Original score and release date; Justice appearing in a DJ set is different news."
+      },
+      {
+        "id": "gta6-grand-rex-paris-launch-night-20261108",
+        "reason_distinct": "Different city, venue, date and ticket process."
+      },
+      {
+        "id": "gta6-selfridges-experience-20261105",
+        "reason_distinct": "London retail experience, not the Miami festival."
+      }
+    ],
+    "alternative_not_published": {
+      "topic": "Take-Two Q2 FY2027 results on November 9",
+      "reason": "One-topic scope retained. Existing financial-calendar/preorder coverage is closer in intent. Unprecedented-preorder wording already appeared before today and should not be presented as a first revelation."
+    }
+  },
+  "primary_sources": [
+    {
+      "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival",
+      "status": 200,
+      "access": "Direct shell metadata accessible; body client-rendered. Announcement date cross-checked against official Newswire and localized indexes.",
+      "facts": [
+        "Announcement November 9, festival November 21, Mana Wynwood Miami, Rockstar and PlayStation, artists associated with the game and soundtrack."
+      ]
+    },
+    {
+      "url": "https://www.rockstargames.com/VI/gtavi-thefestival",
+      "status": 200,
+      "access": "Complete server HTML read, 594592 bytes. Visible event, ticket and venue policies parsed.",
+      "facts": [
+        "Two stages; produced by creators of III Points.",
+        "Lineup includes Travis Scott, Cardi B, Ca7riel & Paco Amoroso, Metro Boomin, Justice DJ set.",
+        "Minimum 17, valid photo ID, maximum two tickets per purchaser, tickets non-transferable.",
+        "DICE account must match registration email and phone; drawing codes distributed by Laylo.",
+        "Registration closes November 10 at 16:00 ET; page lists drawing November 10 at 19:00 ET and selected-entrant sale November 11 at noon ET.",
+        "318 NW 23rd St, entrance through 5th Avenue, no on-site parking."
+      ]
+    },
+    {
+      "url": "https://gtavi-thefestival.miami/",
+      "status": 200,
+      "access": "Official registration linked by Rockstar; direct HTML read, 6846 bytes. No form submitted.",
+      "facts": [
+        "No purchase needed to enter; one entry per person; minimum 17.",
+        "Eligible winners selected randomly; SMS with code by November 10 at 19:00 ET.",
+        "Sale November 11 at noon ET, first come first served, limited availability.",
+        "Code single-use and not for resale/trade. Registration does not guarantee a code; a code does not guarantee tickets."
+      ]
+    },
+    {
+      "url": "https://www.rockstargames.com/VI",
+      "access": "Official game homepage; November 19 release distinguished from November 21 festival."
+    }
+  ],
+  "timing_resolution": {
+    "official_table": "Winning Entries Drawn November 10, 19:00 ET",
+    "registration_terms": "Selected entrants contacted by SMS BY November 10, 19:00 ET",
+    "editorial_choice": "Use by/until 19:00 for notification, not an assured instant delivery to every entrant.",
+    "zone": "America/New_York; UTC−5 on November 10–11, 2026",
+    "conversion_checks": [
+      "November 10 16:00 ET = November 10 21:00 UTC",
+      "November 10 19:00 ET = November 11 00:00 UTC",
+      "November 11 12:00 ET = November 11 17:00 UTC"
+    ]
+  },
+  "interest_signals": {
+    "google_autocomplete": [
+      {
+        "locale": "es",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta%206%20festival",
+        "checked_at": "2026-11-09T22:16:33.998096+00:00",
+        "exit": 0,
+        "response": [
+          "gta 6 festival",
+          [
+            "gta 6 festival",
+            "gta 6 ultra music festival",
+            "gta 6 pride festival"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta%206%20festival",
+        "checked_at": "2026-11-09T22:16:34.228089+00:00",
+        "exit": 0,
+        "response": [
+          "gta 6 festival",
+          [
+            "gta 6 festival",
+            "gta 6 festival miami",
+            "gta 6 festival tickets",
+            "gta 6 festival wynwood",
+            "gta 6 festival mana wynwood",
+            "gta 6 festival miami tickets",
+            "gta 6 festival lottery",
+            "gta 6 festival ticket price",
+            "gta 6 pride festival",
+            "gta 6 ultra music festival"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                3
+              ],
+              [
+                3
+              ],
+              [
+                3
+              ],
+              [
+                3
+              ],
+              [
+                3
+              ],
+              [
+                3
+              ],
+              [
+                3
+              ],
+              [
+                3
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "locale": "fr",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=gta%206%20festival",
+        "checked_at": "2026-11-09T22:16:34.455480+00:00",
+        "exit": 0,
+        "response": [
+          "gta 6 festival",
+          [
+            "gta 6 festival",
+            "gta 6 event",
+            "gta 6 concert",
+            "gta 6 event calendar",
+            "gta 6 event netflix",
+            "gta 6 event miami",
+            "gta 6 ultra music festival",
+            "gta 6 event list",
+            "gta 6 event time",
+            "gta 6 event today"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ],
+              [
+                22,
+                30,
+                19,
+                10
+              ],
+              [
+                22,
+                30,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ],
+              [
+                22,
+                30,
+                19
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "interpretation": "EN exposes Miami/tickets/lottery/price queries. ES returns fewer and partly unrelated suggestions; FR mixes festival with general events. Autocomplete is not search volume or a ranking.",
+    "same_day_coverage": [
+      {
+        "url": "https://www.axios.com/local/miami/2026/11/09/gta-vi-announces-one-day-music-festival-in-miami",
+        "date": "2026-11-09"
+      },
+      {
+        "outlet": "Pitchfork",
+        "date": "2026-11-09"
+      },
+      {
+        "outlet": "VGC",
+        "date": "2026-11-09"
+      },
+      {
+        "outlet": "Gematsu",
+        "date": "2026-11-09"
+      }
+    ],
+    "no_volume_or_ranking_claim": true,
+    "google_trends": "No quantitative Trends dataset obtained; no volume or trend percentage invented."
+  },
+  "media": {
+    "used_keys": [
+      "vice-city",
+      "music"
+    ],
+    "original_checks": [
+      {
+        "key": "vice-city",
+        "source": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "credit": "GTA VI © Rockstar Games",
+          "bytes": 894386
+        },
+        "curl_exit": 0,
+        "headers": "HTTP/1.1 200 OK\ndate: Mon, 09 Nov 2026 22:19:23 GMT\nserver: envoy\n\nHTTP/2 200 \naccept-ranges: bytes\nlast-modified: Thu, 29 Oct 2026 12:39:11 GMT\netag: W/\"da5b2-1a187abe198\"\ncontent-type: image/jpeg\ncontent-length: 894386\nrsgoriginserver: ewrdmzwww0.rockstargames.online\nstrict-transport-security: max-age=63072000; preload;\ncache-control: public, max-age=30845109\nexpires: Mon, 01 Nov 2027 22:24:32 GMT\ndate: Mon, 09 Nov 2026 22:19:23 GMT\nakamai-grn: 0.826d3e17.1794262763.466083d8\nx-envoy-upstream-service-time: 128\nserver: envoy\n\n",
+        "checked_at_utc": "2026-11-09T22:19:23.683608+00:00",
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016"
+      },
+      {
+        "key": "music",
+        "source": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/media",
+          "credit": "GTA VI © Rockstar Games",
+          "bytes": 992753
+        },
+        "curl_exit": 0,
+        "headers": "HTTP/1.1 200 OK\ndate: Mon, 09 Nov 2026 22:19:23 GMT\nserver: envoy\n\nHTTP/2 200 \naccept-ranges: bytes\nlast-modified: Tue, 03 Nov 2026 16:46:18 GMT\netag: W/\"f25f1-1a1a24deb90\"\ncontent-type: image/jpeg\ncontent-length: 992753\nrsgoriginserver: ewrdmzwww0.rockstargames.online\nstrict-transport-security: max-age=63072000; preload;\ncache-control: public, max-age=31130734\nexpires: Fri, 05 Nov 2027 05:44:57 GMT\ndate: Mon, 09 Nov 2026 22:19:23 GMT\nakamai-grn: 0.826d3e17.1794262763.4660848a\nx-envoy-upstream-service-time: 42\nserver: envoy\n\n",
+        "checked_at_utc": "2026-11-09T22:19:23.922017+00:00",
+        "local_sha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf"
+      }
+    ],
+    "source_page": "https://www.rockstargames.com/VI/media",
+    "source_page_http_status": 200,
+    "source_page_context": "Download and share trailers, imagery, and more.",
+    "reuse_context": "Existing authentic Rockstar GTA VI promotional screenshots, reused in an attributed editorial news context from the official download-and-share collection. Copyright retained by Rockstar; not public domain or an unrestricted licence.",
+    "visual_review": "Both existing WebP images inspected: Vice City sunset bay/helicopter and daytime roadway/skyline. They illustrate GTA VI, not real event photography or a venue map. No edited hero-motion layer, AI image, mod or GTA V asset.",
+    "optimization": "Existing WebP responsive variants, dimensions reserved; eager/high-priority cover and lazy inline image.",
+    "credit": "GTA VI © Rockstar Games · Official Media",
+    "translated_alt_and_captions": true,
+    "changed_image_files": 0
+  },
+  "editorial_limits": [
+    "No ticket price confirmed in the official page text inspected November 9.",
+    "No confirmed livestream, playable demo or individual performance schedule in the pages examined.",
+    "No registration, SMS, purchase, email or third-party message performed.",
+    "No endorsement of resale or guarantee of admission."
+  ],
+  "review": {
+    "independent_fact_check": "Passed: primary event/registration terms, times and UTC day change, age, codes, availability limits and source dates.",
+    "language_and_media_review": "Passed ES/EN/FR consistency and naturalness, Justice DJ set, game/festival dates, real-game imagery captions, and deduplication.",
+    "copy": "Original prose; no copied paragraphs or invented quotations."
+  },
+  "preservation": [
+    "Existing article text, URLs and dates unchanged",
+    "Design and client CSS/JS preserved subject to final hash check",
+    "Ads, Social Bar, Analytics consent, AdSense, security and cache configuration untouched",
+    "No subscription, purchase or paid service enabled",
+    "Daily one-topic scope and inclusive November 19 end date unchanged"
+  ],
+  "validation": "Build, static and browser results recorded in the separate publication proof after verification."
+}
