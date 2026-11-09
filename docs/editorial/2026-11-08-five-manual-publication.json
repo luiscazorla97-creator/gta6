@@ -1,0 +1,983 @@
+{
+  "verifiedAt": "2026-11-09T03:22:38.358280+00:00",
+  "commit": "e2bd43effb525d3f112d5a5f46f014aa7bf72aff",
+  "deploymentId": "437093d0-9a00-4fc5-b6f1-67e7a2313a0c",
+  "stage": {
+    "name": "deploy",
+    "started_on": "2026-11-09T03:21:26.522282Z",
+    "ended_on": "2026-11-09T03:21:44.543299Z",
+    "status": "success"
+  },
+  "pages": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "422eae5fb30d6f1dc4be9782c7f3e1760e950c65a296694f2f84c14130a77112"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-six-real-cars-west-coast-customs/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "aba5f3e0fbf9a613d796c6844b770bfe8f180ced225cf20653ee6797645f805f"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "087cbbafdebc818ee158e826402634275c3e741d6727096363b6866e87b56517"
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "628ad925600c03b5611029407b1e2f26024f6a673f0957be6dd92fd558f93069"
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-grand-rex-paris-november-19-event-tickets/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "db049d92efff326ca7527e55387014a97e1b969454a92d16c760c5e8fc465268"
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-grand-rex-paris-soiree-19-novembre-billets/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "0c24fba7356b123e1ead1228adfd0e360f5d7dee7c45cfc0229912b947aed7ca"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "4328d3876f85aff1d126f3d69a57421a1e7f8742c77ad64d76d863c8edf343bd"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-download-playstation-app-phone/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "ba6545fedaa4412a3b2767680c8652b05991e94f3b9bdae0d33f53efdc20899a"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "57702168dfe1ff4abbf18bc7a6c07934208aa8991b7b58b1a343297457b71196"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2b2dce923c9825321fbb386449b38456eaabed15bff31fc4fa81378875d18e2b"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-padlock-restore-licences/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "b6724b7bc6cb05b9b193241f018298bda9607aae56907f6595477c9178941d88"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-cadenas-ps5-restaurer-licences/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "aa59653d48395b75c8eea05ac89f4abf8a77871e12ab6fe528e9c516e3a742ac"
+    },
+    {
+      "url": "https://fansgta.com/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "6336790591642cc103e634ffb9a9ece011816c5424b767e4a377514d66fdb376"
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "2155b9747415e4f0abdf6c123c35bbca7db16f981f4fc7d81b0b097c9b3746c3"
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/",
+      "status": 200,
+      "fullVisibleTextAndMetadataMatchRelease": true,
+      "officialCreditedImages": 2,
+      "catalogueTopics": 190,
+      "ownAssetsMatchRelease": true,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "sha256": "d55b9212c73f3488bb569b197241760a72a25ec5c8cb17782b8eefc7cf14e74c"
+    }
+  ],
+  "discovery": [
+    {
+      "url": "https://fansgta.com/es/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-west-coast-customs-real-cars-20261108",
+        "gta6-grand-rex-paris-launch-night-20261108",
+        "gta6-playstation-app-remote-download-20261108"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-west-coast-customs-real-cars-20261108",
+        "gta6-grand-rex-paris-launch-night-20261108"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-playstation-app-remote-download-20261108",
+        "gta6-ps5-padlock-restore-licences-20261108",
+        "gta6-pc-mac-ps5-remote-play-20261108"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-west-coast-customs-real-cars-20261108",
+        "gta6-grand-rex-paris-launch-night-20261108",
+        "gta6-playstation-app-remote-download-20261108"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/news/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-west-coast-customs-real-cars-20261108",
+        "gta6-grand-rex-paris-launch-night-20261108"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-playstation-app-remote-download-20261108",
+        "gta6-ps5-padlock-restore-licences-20261108",
+        "gta6-pc-mac-ps5-remote-play-20261108"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-west-coast-customs-real-cars-20261108",
+        "gta6-grand-rex-paris-launch-night-20261108",
+        "gta6-playstation-app-remote-download-20261108"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-west-coast-customs-real-cars-20261108",
+        "gta6-grand-rex-paris-launch-night-20261108"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/",
+      "status": 200,
+      "expectedTopicsLinked": [
+        "gta6-playstation-app-remote-download-20261108",
+        "gta6-ps5-padlock-restore-licences-20261108",
+        "gta6-pc-mac-ps5-remote-play-20261108"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/index-8AA3PAdw.js",
+      "status": 200,
+      "bytes": 352487,
+      "sha256": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/index-BkQBpQi9.css",
+      "status": 200,
+      "bytes": 57621,
+      "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/assets/postscribe-B631hZsa.js",
+      "status": 200,
+      "bytes": 18060,
+      "sha256": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/media/feature-driver.webp",
+      "status": 200,
+      "bytes": 44940,
+      "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-launch-gallery-duo.webp",
+      "status": 200,
+      "bytes": 83104,
+      "sha256": "a5b1f81670525391afd949feb04853fe7f1599f5491d2369f5924dff9449e677",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-phone.webp",
+      "status": 200,
+      "bytes": 68872,
+      "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-safehouse-exterior.webp",
+      "status": 200,
+      "bytes": 150756,
+      "sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/feature-wyman-05.webp",
+      "status": 200,
+      "bytes": 49044,
+      "sha256": "e2d412f5cb7396680f56b2c572780eee5418d67d5dded6c0a7aaf64e0629e93b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/hero.webp",
+      "status": 200,
+      "bytes": 143776,
+      "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/jason.webp",
+      "status": 200,
+      "bytes": 68710,
+      "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/lucia.webp",
+      "status": 200,
+      "bytes": 65852,
+      "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/media/vice-city.webp",
+      "status": 200,
+      "bytes": 116602,
+      "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+      "status": 200,
+      "bytes": 99926,
+      "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-480.webp",
+      "status": 200,
+      "bytes": 26716,
+      "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/0b34d7ad433f/hero-800.webp",
+      "status": 200,
+      "bytes": 62618,
+      "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/195a578472dd/feature-launch-gallery-duo-1200.webp",
+      "status": 200,
+      "bytes": 52900,
+      "sha256": "8e326a95e04533aa19e726948b33bca2aae96bca762d7e46e64f0527cb8490f2",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/195a578472dd/feature-launch-gallery-duo-480.webp",
+      "status": 200,
+      "bytes": 16652,
+      "sha256": "d003cfc1f2d9e31aa43d6dcd74477c38b9ffca117747d976707d1d8bf2d2e8cc",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/195a578472dd/feature-launch-gallery-duo-800.webp",
+      "status": 200,
+      "bytes": 32936,
+      "sha256": "0f46dffa7788826919e79725a1691170e496de433aa400f35be3ae9288c00e68",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/4a0f8ace4982/feature-wyman-05-1200.webp",
+      "status": 200,
+      "bytes": 40524,
+      "sha256": "c502b79553bb03489b9427767da763402ba914415da1edb832ae0ba69cee3994",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/4a0f8ace4982/feature-wyman-05-480.webp",
+      "status": 200,
+      "bytes": 12544,
+      "sha256": "61f1eaabf51616bbdf798ba34511970f4539e4824b7ec34d7438b6558f44451d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/4a0f8ace4982/feature-wyman-05-800.webp",
+      "status": 200,
+      "bytes": 26094,
+      "sha256": "804d7798cdd3465a0a488810cb6609d1eae015ac5e7b68f39eae0d91b880d59c",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/4fa13ead44d6/feature-safehouse-exterior-1200.webp",
+      "status": 200,
+      "bytes": 118822,
+      "sha256": "ee0859f904f8f9e66175b58cc1cc8db697ae33fdb3e760418cf6eaf9d7e5cb5c",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/4fa13ead44d6/feature-safehouse-exterior-480.webp",
+      "status": 200,
+      "bytes": 29498,
+      "sha256": "ad5fdfc899d78339dcb0f654cf9e86a738fdf7aea3c5df456f820bc781f2c02d",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/4fa13ead44d6/feature-safehouse-exterior-800.webp",
+      "status": 200,
+      "bytes": 67436,
+      "sha256": "950549dbb9501a781d4fb031c8bb3cad1236adba33b777805ad0ae5d7ecec08a",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/540c8d78c7d9/feature-driver-1200.webp",
+      "status": 200,
+      "bytes": 35706,
+      "sha256": "79914c019ad48a3abef30e4ae9bd5470eaf065de2decb8f68e3cc95df1fcabf1",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/540c8d78c7d9/feature-driver-480.webp",
+      "status": 200,
+      "bytes": 12366,
+      "sha256": "dd64ff73314776910fa09ab318d464e6b338fa1b16914cf0fee8acadd017dfa8",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/540c8d78c7d9/feature-driver-800.webp",
+      "status": 200,
+      "bytes": 23166,
+      "sha256": "8e4f01ae714aa6e0831a4bcbaeb308831703d9d2a5b23d0b78385b25bfac6011",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-1200.webp",
+      "status": 200,
+      "bytes": 51110,
+      "sha256": "f81c43086bdf633909d5522e20d74db6dad013e39e5eb039351c926450270771",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-480.webp",
+      "status": 200,
+      "bytes": 17104,
+      "sha256": "65e638c54352d3417858a9625f9bc8094a524af6a7ff3b6ffbfba52be08f2e49",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/790e957bd091/jason-800.webp",
+      "status": 200,
+      "bytes": 34622,
+      "sha256": "f2645efb3e758ce131d003802eff2c4ff34c71a82738fac6242cb662b0362583",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-1200.webp",
+      "status": 200,
+      "bytes": 51282,
+      "sha256": "a214defe4eabffdc9ee37d81e400c47a42c23cc08e6ebac3f6aa88e7e5860e10",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-480.webp",
+      "status": 200,
+      "bytes": 18834,
+      "sha256": "4233d532d0c6a13f7af9df721ce7290de5fa790b8e683e8811b86d941e054dbd",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b0f3c95008df/lucia-800.webp",
+      "status": 200,
+      "bytes": 36354,
+      "sha256": "b21e566773f614eff278fc031fc2ac9eb28924d47630fdf075490fc6b75a9cd5",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+      "status": 200,
+      "bytes": 81668,
+      "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+      "status": 200,
+      "bytes": 25098,
+      "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+      "status": 200,
+      "bytes": 55436,
+      "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-1200.webp",
+      "status": 200,
+      "bytes": 53756,
+      "sha256": "8ed69491f5730174cc303c4baa97d1c01590fedb5b55e8ab457aa99d9adfd04f",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-480.webp",
+      "status": 200,
+      "bytes": 17284,
+      "sha256": "31961b38611cb609180f4f020a701f2877eb710545e4758eacafecb735c22d3b",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/responsive/ed6e14cc70d2/feature-phone-800.webp",
+      "status": 200,
+      "bytes": 33742,
+      "sha256": "30221c20b37def65f23d48d68b95146091569ad0336400bacc83f38b193ac1b9",
+      "matchesTestedRelease": true,
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-android-iphone-apk-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-car-customisation-mod-shops/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-download-playstation-app-phone/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-game-sharing-profiles-licence-limits/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-save-data-cloud-backup-guide/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-upgrade-standard-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/missions/avoid-spoilers-mission-guides/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-pc-q1-2027-gamesbeat-report/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/gta-6-vehicles-check-listings/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/gta-6-wyman-classic-cars-restoration/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-compartir-ps5-perfiles-licencias-limites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mejorar-standard-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-personalizacion-coches-talleres/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-pc-primer-trimestre-2027-gamesbeat/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/gta-6-wyman-coches-clasicos-restauracion/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/vehiculos-gta-6-verificar-fichas/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-pc-premier-trimestre-2027-gamesbeat/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-partager-ps5-profils-licences-limites/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-passer-standard-ultimate-edition/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-personnalisation-voitures-ateliers/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-sauvegardes-copie-securite-cloud/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/eviter-spoilers-guides-missions/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/gta-6-wyman-voitures-classiques-restauration/",
+      "status": 200
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/vehicules-gta-6-verifier-fiches/",
+      "status": 200
+    }
+  ],
+  "SEO": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "5b1203b91539359c278e45b9468237d39bee78b4a1072d5ac41ace91ca6136fc",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "7bbdb765e144c117aef5e76b5fb2f454f25c8e1514a8dfe7b277ed1b81d4eaea",
+      "cacheControl": "public, max-age=14400, must-revalidate"
+    },
+    {
+      "path": "/ads.txt",
+      "status": 200,
+      "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "scope": "Real public HTTPS through inherited managed cloud proxy and normal CA/TLS. Full visible body, metadata, canonical/hreflang/JSON-LD, own image and JS/CSS bytes match tested release. Images illustrate the game, not real workshop builds, venue photographs or Sony app screens. Two reported event/marketing topics and three official platform guides; original dates and pre-release limits retained. Browser advertising fixtures do not prove creative delivery.",
+  "browserVerification": {
+    "verifiedAt": "2026-11-09T03:23:17.164Z",
+    "results": [
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-six-real-cars-west-coast-customs/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/actualites/gta-6-grand-rex-paris-soiree-19-novembre-billets/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-grand-rex-paris-november-19-event-tickets/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-grand-rex-paris-soiree-19-novembre-billets/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-ps5-download-playstation-app-phone/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/guides/gta-6-cadenas-ps5-restaurer-licences/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-ps5-padlock-restore-licences/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-cadenas-ps5-restaurer-licences/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/",
+        "status": 200,
+        "imagesDecoded": 2,
+        "languageSelectorNavigatedTo": "/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+        "noOverflow": true,
+        "javascriptErrors": []
+      }
+    ],
+    "scope": "Chromium mobile rendering and actual language navigation against live public HTTPS responses fetched by Playwright Node transport with configured session CA and inherited cloud proxy. Normal TLS validation, no trust or policy changes. Advertising/Analytics SDKs stubbed for content/navigation checks only, not proof of advertising creative delivery."
+  },
+  "localVerification": {
+    "releaseBuild": "613 generated static routes, 190 topics and 570 localized article URLs",
+    "staticVerifier": "Verified 614 HTML files, 27426 internal links and 1202 structured-data blocks.",
+    "browser": "Six Chromium tests passed in 36.5 seconds; 30 article scenarios across five topics, three languages, desktop/mobile. Full text, tables, images, metadata, internal links and actual language navigation.",
+    "preservation": {
+      "allPreviousFullArticlesPreserved": 185,
+      "previousLocalizedURLs": 555,
+      "previousInventoryEntriesPreserved": 185,
+      "mediaCreditsUnchanged": true,
+      "clientAssetsByteIdentical": true,
+      "assets": {
+        "index-8AA3PAdw.js": "c986a16c12f54f40f38a75f737aa03160723808b399e946c811eb30804b1d91f",
+        "index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+        "postscribe-B631hZsa.js": "531717fdea0108f61d06e34c291f14f9635cc7e0809aa9825825eb3899cf4863"
+      },
+      "newTopics": [
+        {
+          "id": "gta6-west-coast-customs-real-cars-20261108",
+          "category": "news",
+          "published": "2026-11-08",
+          "titles": [
+            "GTA 6: los seis coches reales de West Coast Customs",
+            "GTA 6: West Coast Customs brings six cars to life",
+            "GTA 6 : les six vraies voitures de West Coast Customs"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+            "/en/news/gta-6-six-real-cars-west-coast-customs/",
+            "/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/"
+          ]
+        },
+        {
+          "id": "gta6-grand-rex-paris-launch-night-20261108",
+          "category": "news",
+          "published": "2026-11-08",
+          "titles": [
+            "GTA 6 en el Grand Rex: fecha, horario y entradas en París",
+            "GTA 6 at the Grand Rex: Paris event, times and tickets",
+            "GTA 6 au Grand Rex : soirée, horaires et billets à Paris"
+          ],
+          "paths": [
+            "/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+            "/en/news/gta-6-grand-rex-paris-november-19-event-tickets/",
+            "/fr/actualites/gta-6-grand-rex-paris-soiree-19-novembre-billets/"
+          ]
+        },
+        {
+          "id": "gta6-playstation-app-remote-download-20261108",
+          "category": "guides",
+          "published": "2026-11-08",
+          "titles": [
+            "GTA 6 y PlayStation App: descarga en PS5 desde el móvil",
+            "GTA 6 and PlayStation App: download to PS5 from your phone",
+            "GTA 6 et PlayStation App : télécharger sur PS5 depuis le mobile"
+          ],
+          "paths": [
+            "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+            "/en/guides/gta-6-ps5-download-playstation-app-phone/",
+            "/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/"
+          ]
+        },
+        {
+          "id": "gta6-ps5-padlock-restore-licences-20261108",
+          "category": "guides",
+          "published": "2026-11-08",
+          "titles": [
+            "GTA 6 en PS5: candado, cuenta y restauración de licencias",
+            "GTA 6 on PS5: padlocks, accounts and restoring licences",
+            "GTA 6 sur PS5 : cadenas, compte et restauration des licences"
+          ],
+          "paths": [
+            "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+            "/en/guides/gta-6-ps5-padlock-restore-licences/",
+            "/fr/guides/gta-6-cadenas-ps5-restaurer-licences/"
+          ]
+        },
+        {
+          "id": "gta6-pc-mac-ps5-remote-play-20261108",
+          "category": "guides",
+          "published": "2026-11-08",
+          "titles": [
+            "GTA 6 en PC y Mac con PS5: guía de PS Remote Play",
+            "GTA 6 on PC or Mac through PS5: a Remote Play guide",
+            "GTA 6 sur PC et Mac via PS5 : guide PS Remote Play"
+          ],
+          "paths": [
+            "/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+            "/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+            "/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/"
+          ]
+        }
+      ],
+      "totalTopics": 190,
+      "totalLocalizedURLs": 570
+    },
+    "visualReview": "Spanish desktop WCC and mobile Grand Rex/PC-Mac screenshots inspected; no overflow or page exceptions, original design and Analytics consent retained."
+  }
+}

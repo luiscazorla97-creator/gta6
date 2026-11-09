@@ -1,5 +1,5 @@
 {
-  "status": "validated-locally-awaiting-production",
+  "status": "published-and-publicly-verified",
   "editorialDate": "2026-11-08",
   "editorialTimezone": "America/New_York",
   "checkedAt": "2026-11-09T03:15:59.744153+00:00",
@@ -611,11 +611,7 @@
       2,
       2
     ],
-    "pending": [
-      "GitHub CAS publication",
-      "Cloudflare production deployment",
-      "public 15-page/media/link/selector verification"
-    ],
+    "pending": [],
     "passed": {
       "releaseBuild": "613 generated static routes, 190 topics and 570 localized article URLs",
       "staticVerifier": "Verified 614 HTML files, 27426 internal links and 1202 structured-data blocks.",
@@ -713,5 +709,15 @@
       },
       "visualReview": "Spanish desktop car-report and mobile Grand Rex/PC-Mac screenshots inspected. Original layout and Analytics consent retained, no overflow or page exceptions."
     }
+  },
+  "publication": {
+    "contentCommit": "e2bd43effb525d3f112d5a5f46f014aa7bf72aff",
+    "deploymentId": "437093d0-9a00-4fc5-b6f1-67e7a2313a0c",
+    "verifiedAt": "2026-11-09T03:22:38.358280+00:00",
+    "publicPages": 15,
+    "publicBrowserChecks": 15,
+    "discoveryPages": 9,
+    "resources": 39,
+    "internalLinks": 45
   }
 }
