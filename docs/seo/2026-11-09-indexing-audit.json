@@ -1,0 +1,213 @@
+{
+  "audit_date_utc": "2026-11-09T16:00:18.220700+00:00",
+  "site": "https://fansgta.com",
+  "scope": "Auditoría SEO técnica; no publicación de artículos ni cambio de programación.",
+  "repository_base_commit": "64aa99952f0cb35fcba359c0e8f80071bc313f00",
+  "baseline_production": {
+    "id": "437093d0-9a00-4fc5-b6f1-67e7a2313a0c",
+    "stage": {
+      "name": "deploy",
+      "started_on": "2026-11-09T03:21:26.522282Z",
+      "ended_on": "2026-11-09T03:21:44.543299Z",
+      "status": "success"
+    },
+    "commit": "e2bd43effb525d3f112d5a5f46f014aa7bf72aff"
+  },
+  "search_console_user_screenshot": {
+    "discovered_not_indexed": 288,
+    "crawled_not_indexed": 56,
+    "noindex": 6,
+    "not_found": 4,
+    "redirects": 4,
+    "access": "Capturas del usuario; sin acceso conectado a inspección de URLs, canónica elegida por Google, estadísticas de rastreo ni eventos privados de seguridad."
+  },
+  "coverage": {
+    "topics": 190,
+    "article_language_urls": 570,
+    "canonical_sitemap_urls": 609,
+    "languages": [
+      "es",
+      "en",
+      "fr"
+    ],
+    "baseline_public_sitemap_http_200": 609,
+    "baseline_sitemap_http_redirects": 0,
+    "baseline_article_noindex": 0,
+    "baseline_sitemap_x_robots_noindex": 0,
+    "baseline_sitemap_challenges": 0,
+    "baseline_missing_sitemap_articles": 0,
+    "initial_html_full_article_paragraphs_checked": 570,
+    "canonical_and_reciprocal_hreflang_checked": 570,
+    "orphaned_articles": 0,
+    "click_depth_from_locale_home": {
+      "one_click": 18,
+      "two_clicks": 552
+    },
+    "exact_duplicate_localized_titles": 0,
+    "exact_duplicate_article_paragraph_sequences": 0
+  },
+  "changes": [
+    {
+      "kind": "corrección de enlazado",
+      "files": [
+        "src/related-articles.ts",
+        "src/Interior.tsx"
+      ],
+      "finding": "La selección anterior ordenaba principalmente por categoría y conservaba el orden del catálogo, concentrando enlaces en los primeros artículos. 49 temas, 147 versiones, no recibían enlaces desde otros artículos, aunque sí desde sus categorías.",
+      "fix": "Mantener las tres tarjetas existentes: dos recomendaciones por afinidad de tema y enlaces editoriales explícitos, más continuidad dentro de la misma categoría. Los slugs compartidos mantienen la selección idéntica antes y después de hidratar ES/EN/FR.",
+      "before_article_urls_without_article_incoming_links": 147,
+      "after_article_urls_without_article_incoming_links": 0,
+      "all_articles_still_within_two_clicks": true,
+      "google_exclusion_causality": "Deficiencia comprobada de nuestra implementación; sin evidencia de que explique por sí sola las 344 exclusiones del informe."
+    },
+    {
+      "kind": "mejora de robots",
+      "files": [
+        "scripts/static-pages.mjs"
+      ],
+      "finding": "Cloudflare convierte correos en enlaces /cdn-cgi/l/email-protection, observados en las doce páginas legales públicas; la ruta sin fragmento responde 404.",
+      "fix": "Añadir Disallow: /cdn-cgi/ según la recomendación oficial de Cloudflare. Se conserva la protección de correo, los anuncios y el resto de reglas. No es una solicitud de eliminación ni hace desaparecer inmediatamente los 404 históricos de Search Console."
+    },
+    {
+      "kind": "mejora de sitemap",
+      "files": [
+        "scripts/static-pages.mjs"
+      ],
+      "finding": "Portadas y archivos de categoría no indicaban lastmod al recibir nuevas publicaciones. No impedía su indexación.",
+      "fix": "Añadir lastmod derivado de la última fecha real de actualización de los artículos de cada archivo y portada; sin fechas de compilación ficticias. Las 570 URLs de artículos y todas sus fechas se conservan. No se crean nuevas páginas."
+    },
+    {
+      "kind": "prevención",
+      "files": [
+        "scripts/verify-seo.mjs",
+        "scripts/verify-static.mjs",
+        "tests/seo.spec.ts"
+      ],
+      "fix": "La verificación estática comprueba automáticamente inventario, sitemap exacto, canonical, hreflang recíproco, robots, texto completo SSR, fechas e imágenes de datos estructurados y enlaces entrantes. Pruebas de navegador con y sin JavaScript y simulación de una publicación nueva."
+    },
+    {
+      "kind": "corrección de fixture de pruebas",
+      "files": [
+        "tests/ad-placements.spec.ts"
+      ],
+      "finding": "Una simulación antigua interpretaba Social Bar como un banner atOptions y fallaba antes de comprobar la interfaz.",
+      "fix": "Reconocer por su URL exacta el Social Bar independiente en el fixture. No cambia ningún script publicitario de producción."
+    }
+  ],
+  "normal_exclusions": {
+    "technical_404s": [
+      {
+        "url": "https://fansgta.com/cdn-cgi/l/email-protection",
+        "status": 404,
+        "robots": "noindex, nofollow",
+        "technical_links": []
+      },
+      {
+        "url": "https://fansgta.com/ads/native.html",
+        "status": 404,
+        "robots": "noindex,follow",
+        "technical_links": []
+      },
+      {
+        "url": "https://fansgta.com/ads/mobile.html",
+        "status": 404,
+        "robots": "noindex,follow",
+        "technical_links": []
+      },
+      {
+        "url": "https://fansgta.com/ads/rectangle.html",
+        "status": 404,
+        "robots": "noindex,follow",
+        "technical_links": []
+      }
+    ],
+    "retired_ad_wrappers": "Rutas eliminadas al sustituir el antiguo wrapper publicitario. No hay enlaces actuales hacia ellas. Se conservan sus 404 reales; no se redirigen a portada ni se restauran anuncios antiguos.",
+    "current_generated_noindex": [
+      "/es/comunidad/",
+      "/en/community/",
+      "/fr/communaute/",
+      "/404.html"
+    ],
+    "empty_community": "Tres archivos vacíos sin foro activo, excluidos correctamente del sitemap y con noindex. Ningún artículo público tiene noindex.",
+    "six_reported_noindex": "No se pueden atribuir las seis URLs históricas a las cuatro rutas actuales sin la lista de ejemplos de Search Console.",
+    "expected_redirects": "Raíz a /es/, normalización de barra final y /index.html a su URL limpia. Las fuentes de redirección no deben indexarse."
+  },
+  "other_checks": {
+    "initial_html": "Todos los párrafos publicados de los 570 documentos se comparan dentro de <main>, excluyendo el JSON de hidratación.",
+    "structured_data": "570 BlogPosting válidos con headline, idioma, imagen existente, fechas y mainEntityOfPage coherentes. Google admite Article, NewsArticle y BlogPosting. No se cambia de tipo para fingir una reparación.",
+    "pagination": "No hay paginación ni scroll infinito de artículos: las categorías incluyen todos los enlaces en el HTML inicial. Todos los artículos son accesibles en uno o dos saltos.",
+    "duplicates": "Sin títulos localizados ni secuencias completas de párrafos idénticos. Hay texto de procedimiento compartido entre guías de trucos de juegos distintos y contexto compartido entre fichas de lugares. No equivale a duplicidad técnica probada; la canónica elegida por Google requiere inspección. No se eliminan ni fusionan artículos.",
+    "automatic_discovery": "Sitemap y archivos se derivan del catálogo completo en cada build. La continuidad de enlaces incorpora nuevos artículos sin un índice manual. La prueba añade una entrada nueva y comprueba que todos los destinos reciben enlaces.",
+    "production_build_command": "npm run build:release",
+    "cache": "robots y sitemap continúan con max-age=0,must-revalidate; HTML revalidable y activos con hash conservan su caché. No se alteran reglas de seguridad."
+  },
+  "unresolved_and_next_steps": [
+    {
+      "issue": "288 descubiertas y 56 rastreadas sin indexar",
+      "status": "No se ha demostrado un bloqueo técnico general de los artículos. Los contadores no permiten determinar la razón individual.",
+      "next": "En Search Console, probar URL publicada de ejemplos de ambas filas: recuperación de Google, HTML renderizado, canónica declarada/elegida, último rastreo y estadísticas de host. Reenviar el sitemap existente y solicitar indexación de ejemplos representativos, sin prometer inclusión."
+    },
+    {
+      "issue": "Duplicados de host",
+      "evidence": [
+        "https://www.fansgta.com/es/ responde 200 en ese host",
+        "https://fansgta.pages.dev/es/ responde 200 en ese host"
+      ],
+      "mitigation_present": "Ambos declaran canonical a https://fansgta.com/es/.",
+      "next": "Configurar redirecciones 301 de www y fansgta.pages.dev al dominio principal conservando ruta y parámetros mediante Bulk Redirects de Cloudflare.",
+      "block": "La conexión actual permite Cloudflare Pages, pero GET /zones?name=fansgta.com no devuelve zona accesible. No se añadieron reglas _redirects de host no soportadas ni nuevos Workers o cambios DNS."
+    },
+    {
+      "issue": "Comprobar Googlebot real",
+      "evidence": "Las 609 URLs responden 200 para curl. La biblioteca urllib con su identificador predeterminado obtiene 403/1010, comportamiento documentado por Cloudflare Pages para algunos clientes. No demuestra un bloqueo de Googlebot.",
+      "next": "Comprobar solicitudes verificadas de Googlebot en eventos de seguridad/rastreo y usar la prueba en vivo de Search Console.",
+      "block": "Sin acceso conectado a eventos de seguridad de la zona ni a inspección privada de Search Console; no se desactiva WAF, BIC ni protección de bots."
+    }
+  ],
+  "validation": {
+    "build": "npm run build:release: passed",
+    "static": [
+      "Verified 614 HTML files, 27426 internal links and 1202 structured-data blocks.",
+      "SEO verified: 570 article URLs, 609 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links."
+    ],
+    "browser": {
+      "command": "PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npx playwright test tests/seo.spec.ts tests/home.spec.ts tests/adsense.spec.ts tests/socialbar.spec.ts tests/ad-placements.spec.ts tests/analytics.spec.ts --workers=4 --reporter=line",
+      "passed": 56,
+      "skipped": 12,
+      "skipped_reason": "Casos de anchura/altura exclusivos de escritorio no se duplican en el proyecto móvil.",
+      "failed": 0,
+      "advertising": "SDK simulados solo en navegador. Se comprueban posiciones, dimensiones, carga única y ausencia de popunder; no se afirma entrega de creatividades reales."
+    },
+    "css_sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+    "protected_file_hashes": {
+      "src/articles.ts": "bd55fb1ce869bb6a8d345c3c38db0137592fffc1e7eaa5e03f778d2ca7832307",
+      "docs/editorial/inventory.json": "dd0182aea17e6dc5cdd8dd79ca927d3870a5541df27f821361c8c8d9129ae0a3",
+      "src/ads/config.ts": "cbdfb01ef3f74fda0a3499caba9bd1490f432b3eb09f348985411617a1ee1f5f",
+      "src/ads/AdSlot.tsx": "d80ba062996674590c8a04fca9b93874d7285a7bc67d8f854a5713c0cb0e16ca",
+      "src/analytics.ts": "2fe941449b9fe7f7eafec595710740008e22855a56cc53212f1ac303950d07dd",
+      "src/AnalyticsConsent.tsx": "3d371e94aa63afb2385d5c43dc24f019ec96a524e39c2440872dd30f217e9851",
+      "index.html": "ab373051e9d76ea56b1673a3c378c9fe9423b2be5470c66715a5785dd406476e",
+      "public/_headers": "ffe5f0d19831fa05c0dda64f1fc85f3c8ed814895edb98fe1435f7de085f4201",
+      "public/_redirects": "4ea6d2835a2685c1358c8ac49345a7564ef95bdb5becf9837ef89ced478f9e3a",
+      "public/ads.txt": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa"
+    },
+    "publication": "Preparado y validado localmente; verificación pública posterior se registra aparte."
+  },
+  "preserved": [
+    "190 artículos y sus 570 URLs y traducciones",
+    "Diseño, CSS, imágenes, colores y navegación",
+    "Banners de Adsterra y Social Bar existentes, AdSense, Analytics con consentimiento",
+    "Un tema diario ES/EN/FR hasta el 19 de noviembre de 2026 inclusive America/New_York; sin cambios de automatización",
+    "DNS, reglas de seguridad, suscripciones y otros proyectos"
+  ],
+  "official_references": [
+    "https://developers.cloudflare.com/fundamentals/reference/cdn-cgi-endpoint/",
+    "https://developers.cloudflare.com/pages/platform/known-issues/",
+    "https://developers.cloudflare.com/pages/configuration/redirects/",
+    "https://developers.cloudflare.com/pages/how-to/redirect-to-custom-domain/",
+    "https://developers.cloudflare.com/pages/how-to/www-redirect/",
+    "https://developers.google.com/search/docs/appearance/structured-data/article",
+    "https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors",
+    "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl"
+  ]
+}

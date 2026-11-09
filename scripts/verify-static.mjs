@@ -14,3 +14,4 @@ for(const file of files){const html=await readFile(file,'utf8');if(file.includes
 }
 if(problems.length)throw Error(problems.join('\n'));
 console.log(`Verified ${files.length} HTML files, ${links} internal links and ${schemas} structured-data blocks.`);
+await import('./verify-seo.mjs');

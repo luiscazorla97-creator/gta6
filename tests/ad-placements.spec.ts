@@ -6,6 +6,8 @@ async function mockBanners(page:Page){
  for(const host of ['https://abscloud.org/**','https://pagead2.googlesyndication.com/**','https://www.googletagmanager.com/**'])await page.route(host,r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
  await page.route('https://www.youtube-nocookie.com/**',r=>r.fulfill({status:200,contentType:'text/html',body:'<html><body>Player fixture</body></html>'}));
  await page.route('https://bauval.org/**',r=>{
+  // Social Bar is a separate format, not an atOptions banner unit.
+  if(r.request().url()==='https://bauval.org/14/72f531d35d71d31735aa4e4bae1dae41')return r.fulfill({status:200,contentType:'application/javascript',body:''});
   const name=(Object.keys(adUnits) as AdUnitName[]).find(n=>r.request().url().endsWith(adUnits[n].key))!;
   const u=adUnits[name];
   const body=name==='native'?`document.getElementById('container-${u.key}').textContent='Native fixture';`:`if(window.atOptions.key!=='${u.key}')throw Error('Unit race');document.write('<iframe title="Banner fixture" width="${u.width}" height="${u.height}" src="about:blank"></iframe>');`;

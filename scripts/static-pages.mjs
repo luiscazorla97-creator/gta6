@@ -16,6 +16,9 @@ const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<
 const json=s=>JSON.stringify(s).replaceAll('<','\\u003c');
 const readingTimes=Object.fromEntries(articles.map(a=>[a.id,[0,1,2].map(li=>Math.max(1,Math.ceil([a.excerpt[li],...a.sections.flatMap(s=>[s.heading[li],...s.paragraphs.map(p=>p[li]),...(s.table?.rows.flatMap(row=>row.map(cell=>cell[li]))??[])])].join(' ').split(/\s+/).length/200)))]));
 const summaries=articles.map(({sections:_,body:__,sources:___,imageCaption:____,...a})=>({...a,sections:[],body:['','',''],sources:[]}));
+// Archive/home content changes when an article is added or updated. Use the
+// actual content date, never a build timestamp that makes unchanged URLs fresh.
+const latestUpdate=items=>items.map(a=>a.updated).sort().at(-1);
 const sitemap=[];
 let generated=0;
 async function renderPage(locale,path,{section,article,legal,missing=false}={}) {
@@ -49,7 +52,7 @@ async function renderPage(locale,path,{section,article,legal,missing=false}={}) 
  const target=missing?'dist/404.html':`dist${path}index.html`;
  await mkdir(target.slice(0,target.lastIndexOf('/')),{recursive:true});await writeFile(target,page);
  if(!section&&!missing&&locale==='es')await writeFile('dist/index.html',page);
- if(eligible&&!missing)sitemap.push({path,lastmod:article?.updated,alternates:['es','en','fr'].map(l=>({lang:l,url:alternate(l)}))});
+ if(eligible&&!missing)sitemap.push({path,lastmod:article?.updated??(legal?undefined:latestUpdate(section?articles.filter(a=>a.category===section):articles)),alternates:['es','en','fr'].map(l=>({lang:l,url:alternate(l)}))});
  generated++;
 }
 for(const locale of ['es','en','fr']){
@@ -59,6 +62,6 @@ for(const locale of ['es','en','fr']){
  for(const article of articles)await renderPage(locale,articlePath(locale,article),{section:article.category,article});
 }
 await renderPage('es','/404/',{missing:true});
-await writeFile('dist/robots.txt','User-agent: *\nDisallow: /admin\nSitemap: https://fansgta.com/sitemap.xml\n');
+await writeFile('dist/robots.txt','User-agent: *\nDisallow: /admin\nDisallow: /cdn-cgi/\nSitemap: https://fansgta.com/sitemap.xml\n');
 await writeFile('dist/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+sitemap.map(s=>`<url><loc>${origin+s.path}</loc>${s.lastmod?`<lastmod>${s.lastmod}</lastmod>`:''}${s.alternates.map(a=>`<xhtml:link rel="alternate" hreflang="${a.lang}" href="${a.url}"/>`).join('')}</url>`).join('')+'</urlset>');
 console.log(`Generated ${generated} static pages with ${articles.length} articles in 3 languages. Indexing: ${indexable?'enabled for editorial pages; empty sections excluded':'disabled for staging'}.`);
