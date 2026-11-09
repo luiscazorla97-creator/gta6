@@ -1,0 +1,270 @@
+{
+  "recorded_at_utc": "2026-11-09T22:28:18.811299+00:00",
+  "editorial_date": "2026-11-09",
+  "timezone": "America/New_York",
+  "inclusive_authorization_end_date": "2026-11-19",
+  "runtime_commit": "4a48535c51bc8b2fdfcadcc09609a6e152426e77",
+  "cloudflare": {
+    "deployment": {
+      "id": "b78654ee-a900-417c-8598-ef032079f684",
+      "environment": "production",
+      "url": "https://b78654ee.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-09T22:25:26.534554Z",
+        "ended_on": "2026-11-09T22:25:46.264236Z",
+        "status": "success"
+      },
+      "commit": "4a48535c51bc8b2fdfcadcc09609a6e152426e77"
+    },
+    "canonical": {
+      "id": "b78654ee-a900-417c-8598-ef032079f684",
+      "environment": "production",
+      "url": "https://b78654ee.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-09T22:25:26.534554Z",
+        "ended_on": "2026-11-09T22:25:46.264236Z",
+        "status": "success"
+      },
+      "commit": "4a48535c51bc8b2fdfcadcc09609a6e152426e77"
+    }
+  },
+  "topic_count": 1,
+  "language_versions": 3,
+  "inventory_topics_after": 191,
+  "inventory_urls_after": 573,
+  "cloud_executor": "ccarenv_b64_Y2NhcmVudl8zODc5ZTVkOWM4ZjA4MTkxYmE0YjEyNWM0ZWNjNGJlNA",
+  "github_main_fetched_before_work": true,
+  "desktop_pc_dependency": false,
+  "validation": {
+    "build": "npm run build:release passed",
+    "static": [
+      "Verified 617 HTML files, 27558 internal links and 1208 structured-data blocks.",
+      "SEO verified: 573 article URLs, 612 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links."
+    ],
+    "local_browser": {
+      "passed": 14,
+      "failed": 0,
+      "scope": "New article ES/EN/FR desktop/mobile and SEO regression, including images, complete text, table, discovery and language navigation."
+    },
+    "public": {
+      "verified_at_utc": "2026-11-09T22:26:57.846921+00:00",
+      "article": "gta6-the-festival-miami-20261109",
+      "versions": [
+        {
+          "locale": "es",
+          "url": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "status": 200,
+          "title": "GTA 6: festival en Miami, fecha, artistas y entradas",
+          "paragraphs_match_release": true,
+          "canonical": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+            "en": "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/"
+          },
+          "images": 2,
+          "schema_dates": [
+            "2026-11-09",
+            "2026-11-09"
+          ]
+        },
+        {
+          "locale": "en",
+          "url": "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+          "status": 200,
+          "title": "GTA 6 Festival: Miami date, lineup and ticket lottery",
+          "paragraphs_match_release": true,
+          "canonical": "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+            "en": "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/"
+          },
+          "images": 2,
+          "schema_dates": [
+            "2026-11-09",
+            "2026-11-09"
+          ]
+        },
+        {
+          "locale": "fr",
+          "url": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+          "status": 200,
+          "title": "GTA 6 Festival à Miami : date, artistes et billets",
+          "paragraphs_match_release": true,
+          "canonical": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+            "en": "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/"
+          },
+          "images": 2,
+          "schema_dates": [
+            "2026-11-09",
+            "2026-11-09"
+          ]
+        }
+      ],
+      "discovery_pages_checked": 6,
+      "internal_links_checked": 9,
+      "assets": [
+        {
+          "path": "/assets/index-BkQBpQi9.css",
+          "status": 200,
+          "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+        },
+        {
+          "path": "/assets/index-sXrCCPVR.js",
+          "status": 200,
+          "sha256": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa"
+        },
+        {
+          "path": "/assets/postscribe-r6f5iNPV.js",
+          "status": 200,
+          "sha256": "1a000065f9407cc46642cc606fa6a7caf668238bc684895312d4801a8aaacb35"
+        },
+        {
+          "path": "/media/music.webp",
+          "status": 200,
+          "sha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf"
+        },
+        {
+          "path": "/media/vice-city.webp",
+          "status": 200,
+          "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016"
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+          "status": 200,
+          "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3"
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+          "status": 200,
+          "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de"
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+          "status": 200,
+          "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000"
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-1200.webp",
+          "status": 200,
+          "sha256": "e8832d012e57e7e041c3bcdbb8892b97abc44ed70286e8cb07047d146f4a43ee"
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-480.webp",
+          "status": 200,
+          "sha256": "39846f64e72f4b6f6d97a02279cf4ab8025f111c5aabacd18b547a25612d080a"
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-800.webp",
+          "status": 200,
+          "sha256": "e8a629cea0ab707119d5bfc5f40a28e4d947c80423ee2019ccee3cef8ebbca3f"
+        }
+      ],
+      "sitemap_urls": 612,
+      "robots_and_ads_txt_match_release": true,
+      "public_errors": []
+    },
+    "public_browser": {
+      "verified_at_utc": "2026-11-09T22:27:07.012Z",
+      "origin": "https://fansgta.com",
+      "checks": [
+        {
+          "locale": "es",
+          "width": 390,
+          "url": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "status": 200,
+          "paragraphs_and_table": "matched",
+          "decoded_images": 2,
+          "locale_switch": "en",
+          "overflow": false,
+          "errors": []
+        },
+        {
+          "locale": "en",
+          "width": 390,
+          "url": "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+          "status": 200,
+          "paragraphs_and_table": "matched",
+          "decoded_images": 2,
+          "locale_switch": "fr",
+          "overflow": false,
+          "errors": []
+        },
+        {
+          "locale": "fr",
+          "width": 390,
+          "url": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+          "status": 200,
+          "paragraphs_and_table": "matched",
+          "decoded_images": 2,
+          "locale_switch": "es",
+          "overflow": false,
+          "errors": []
+        },
+        {
+          "locale": "es",
+          "width": 1440,
+          "url": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "status": 200,
+          "paragraphs_and_table": "matched",
+          "decoded_images": 2,
+          "locale_switch": "en",
+          "overflow": false,
+          "errors": []
+        },
+        {
+          "locale": "en",
+          "width": 1440,
+          "url": "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+          "status": 200,
+          "paragraphs_and_table": "matched",
+          "decoded_images": 2,
+          "locale_switch": "fr",
+          "overflow": false,
+          "errors": []
+        },
+        {
+          "locale": "fr",
+          "width": 1440,
+          "url": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+          "status": 200,
+          "paragraphs_and_table": "matched",
+          "decoded_images": 2,
+          "locale_switch": "es",
+          "overflow": false,
+          "errors": []
+        }
+      ],
+      "advertising_sdk_note": "SDKs simulated only for browser checks; this does not establish creative delivery."
+    },
+    "existing_articles_unchanged": 190,
+    "previous_article_versions_unchanged": 570,
+    "client_js_css_byte_identical": true,
+    "protected_source_hashes": {
+      "index.html": "ab373051e9d76ea56b1673a3c378c9fe9423b2be5470c66715a5785dd406476e",
+      "public/_headers": "ffe5f0d19831fa05c0dda64f1fc85f3c8ed814895edb98fe1435f7de085f4201",
+      "public/_redirects": "4ea6d2835a2685c1358c8ac49345a7564ef95bdb5becf9837ef89ced478f9e3a",
+      "public/ads.txt": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "public/media/credits.json": "4115e3b43685aa261a51a18d9de0ef5cf7cac0bbdad28ae80e4a5b94b758cc45",
+      "src/ads/config.ts": "cbdfb01ef3f74fda0a3499caba9bd1490f432b3eb09f348985411617a1ee1f5f",
+      "src/ads/AdSlot.tsx": "d80ba062996674590c8a04fca9b93874d7285a7bc67d8f854a5713c0cb0e16ca",
+      "src/analytics.ts": "2fe941449b9fe7f7eafec595710740008e22855a56cc53212f1ac303950d07dd",
+      "src/AnalyticsConsent.tsx": "3d371e94aa63afb2385d5c43dc24f019ec96a524e39c2440872dd30f217e9851"
+    }
+  },
+  "advertising_delivery_note": "SDKs were simulated only in browser tests; no claim of actual creative delivery or measured Analytics events. Existing production integrations unchanged.",
+  "automation_changed": false,
+  "drafts": [],
+  "publication_blockers": [],
+  "interest_signal": "Official Rockstar announcement dated November 9 and current Google Autocomplete queries, strongest for EN festival tickets/lottery; partial ES/FR suggestions. No volume or ranking claim.",
+  "future_execution": "This completed cloud execution does not guarantee the availability of future executors or connections."
+}

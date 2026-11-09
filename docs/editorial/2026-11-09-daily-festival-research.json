@@ -396,5 +396,13 @@
     "No subscription, purchase or paid service enabled",
     "Daily one-topic scope and inclusive November 19 end date unchanged"
   ],
-  "validation": "Build, static and browser results recorded in the separate publication proof after verification."
+  "validation": {
+    "status": "published_and_publicly_verified",
+    "runtime_commit": "4a48535c51bc8b2fdfcadcc09609a6e152426e77",
+    "deployment_id": "b78654ee-a900-417c-8598-ef032079f684",
+    "verified_at_utc": "2026-11-09T22:26:57.846921+00:00",
+    "local_browser_passed": 14,
+    "public_browser_checks": 6,
+    "proof": "docs/editorial/2026-11-09-daily-festival-publication.json"
+  }
 }
