@@ -11,9 +11,13 @@ const relationships:Record<string,string[]>={
  'brian-heder':['jason-duval-profile','cal-hampton','gta-6-leonida-locations'],
  'raul-bautista':['jason-duval-profile','lucia-caminos-profile','spoilers'],
  'history-online-20261030':['history-gta5-20261030','gta-online-omaggio-twitch-drops-20261031'],
+ 'gta6-west-coast-customs-real-cars-20261108':['gta6-car-customisation-20261031','gta6-personal-vehicles-20261102'],
+ 'gta6-fishing-20261031':['gta6-wildlife-20261031','gta6-hunting-20261101'],
+ 'gta6-interest-south-park-20261031':['trailers','gta-6-launch-trailer-october'],
+ 'gta6-stockholm-billboard-20261104':['gta6-miami-campaign-20261103','gta6-pilot-flight-art-20261106'],
 };
-const stopWords=new Set(['gta','6','the','and','for','with','how','what','your','from','does','its','guide','explained','confirmed','rumour','status','details','official']);
-const synonyms:Record<string,string>={licences:'licence',licenses:'licence',license:'licence',games:'game',maps:'map',vehicles:'vehicle',weapons:'weapon',characters:'character',controllers:'controller'};
+const stopWords=new Set(['gta','6','the','and','for','with','how','what','your','from','does','its','guide','explained','confirmed','rumour','status','details','official','real','new','all','can','you','have','will','could','is','it','in','on','at','to','of','a','an','or','vs','no','not','after','before','one','two','three','four','five','six','first','release','launch','report','reported']);
+const synonyms:Record<string,string>={licences:'licence',licenses:'licence',license:'licence',games:'game',maps:'map',car:'vehicle',cars:'vehicle',vehicles:'vehicle',weapons:'weapon',characters:'character',controllers:'controller',garages:'garage',houses:'house',editions:'edition',modes:'mode',stories:'story'};
 const indexes=new WeakMap<readonly RelatedArticle[],{tokens:Map<string,Set<string>>;weights:Map<string,number>}>();
 function indexFor(entries:readonly RelatedArticle[]){
  let index=indexes.get(entries);
@@ -37,9 +41,10 @@ export function relatedArticles<T extends RelatedArticle>(entries:readonly T[],c
  const score=(a:T)=>{
   const words=tokens.get(a.id)!;
   const overlap=[...own].reduce((sum,w)=>sum+(words.has(w)?(weights.get(w)??0)**2:0),0);
-  return (preferred.includes(a.id)?10:0)+(a.category===current.category?0.15:0)+overlap/(ownNorm*norm(words)||1);
+  return (preferred.includes(a.id)?10:0)+(a.category===current.category?0.02:0)+overlap/(ownNorm*norm(words)||1);
  };
- const ranked=entries.filter(a=>a.id!==current.id).map(a=>({article:a,score:score(a)})).sort((a,b)=>b.score-a.score||a.article.id.localeCompare(b.article.id));
+ const currentIndex=entries.findIndex(a=>a.id===current.id);
+ const ranked=entries.map((a,index)=>({article:a,score:score(a),distance:Math.abs(index-currentIndex)})).filter(a=>a.article.id!==current.id).sort((a,b)=>b.score-a.score||a.distance-b.distance||a.article.id.localeCompare(b.article.id));
  const chosen=ranked.slice(0,2).map(a=>a.article);
  // A next article in the same section makes browsing the complete archive
  // possible from article pages, even when a topic has no close keyword match.

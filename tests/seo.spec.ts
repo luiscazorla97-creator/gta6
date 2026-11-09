@@ -27,6 +27,10 @@ test('related links include older articles and remain complete after a new publi
  }
  const a=articles.find(a=>a.id==='gta6-ps5-padlock-restore-licences-20261108')!;
  expect(relatedArticles(articles,a).some(a=>a.id==='gta6-ps5-household-sharing-20261105')).toBe(true);
+ const cars=articles.find(a=>a.id==='gta6-west-coast-customs-real-cars-20261108')!;
+ const suggestions=relatedArticles(articles,cars);
+ expect(suggestions.some(a=>a.id==='gta6-car-customisation-20261031'||a.id==='gta6-personal-vehicles-20261102')).toBe(true);
+ expect(suggestions.some(a=>a.id==='real-dimez'||a.id==='gta6-microtransactions-20261101')).toBe(false);
 });
 
 for(const [li,locale] of (['es','en','fr'] as const).entries()){
