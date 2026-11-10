@@ -395,5 +395,13 @@
     "Ads, Social Bar, AdSense, Analytics consent, security/cache configuration untouched",
     "Daily one-topic scope, frequency and November 19 inclusive cutoff unchanged"
   ],
-  "validation": "See the separate publication proof after build, browser tests and actual public verification."
+  "validation": {
+    "status": "published_and_publicly_verified",
+    "runtime_commit": "c80c88afb95755394a3386a4e22d0c7c2723e868",
+    "deployment_id": "fc4f8798-da6d-4275-9152-cc5a94a6696e",
+    "public_verified_at_utc": "2026-11-10T22:37:45.635129+00:00",
+    "local_tests_passed": 16,
+    "public_browser_checks_passed": 6,
+    "publication_proof": "docs/editorial/2026-11-10-daily-xbox-cloud-publication.json"
+  }
 }
