@@ -1,0 +1,446 @@
+{
+  "id": "gta6-ps4-xbox-one-20261102",
+  "category": "guides",
+  "slug": [
+    "gta-6-ps4-xbox-one-compatibilidad-remote-play",
+    "gta-6-ps4-xbox-one-compatibility-remote-play",
+    "gta-6-ps4-xbox-one-compatibilite-lecture-distance"
+  ],
+  "title": [
+    "GTA 6 en Xbox One: Cloud Gaming confirmado; qué pasa con PS4",
+    "GTA 6 on Xbox One: cloud confirmed, PS4 explained",
+    "GTA 6 sur Xbox One : cloud confirmé, le point sur PS4"
+  ],
+  "excerpt": [
+    "Xbox confirma GTA 6 por Cloud Gaming en Xbox One y Series X|S desde el 19 de noviembre. Hora, compra del juego y diferencias con PS4 y Remote Play.",
+    "Xbox confirms GTA 6 cloud play on Xbox One and Series X|S from November 19. Start time, separate game purchase and the limits of PS4 Remote Play.",
+    "Xbox confirme GTA 6 dans le cloud sur Xbox One et Series X|S dès le 19 novembre. Horaire, achat séparé du jeu et limites de Remote Play sur PS4."
+  ],
+  "tag": [
+    "GUÍA ACTUALIZADA · XBOX CLOUD",
+    "UPDATED GUIDE · XBOX CLOUD",
+    "GUIDE ACTUALISÉ · XBOX CLOUD"
+  ],
+  "image": "feature-helicopter",
+  "imageAlt": [
+    "Helicóptero sobre el relieve de Mount Kalaga en GTA VI",
+    "Helicopter above Mount Kalaga’s terrain in GTA VI",
+    "Hélicoptère au-dessus du relief de Mount Kalaga dans GTA VI"
+  ],
+  "imageCaption": [
+    "Captura oficial de Mount Kalaga en GTA VI, usada como contexto visual. No es una prueba de rendimiento de Xbox Cloud Gaming.",
+    "Official GTA VI screenshot of Mount Kalaga, used for visual context. It is not an Xbox Cloud Gaming performance test.",
+    "Capture officielle de Mount Kalaga dans GTA VI, utilisée pour illustrer le jeu. Elle ne constitue pas un test de performances Xbox Cloud Gaming."
+  ],
+  "imageCredit": {
+    "label": "GTA VI © Rockstar Games",
+    "url": "https://www.rockstargames.com/VI/media/screenshots"
+  },
+  "body": [
+    "GTA 6 sí tendrá una vía oficial para jugar desde Xbox One: Xbox Cloud Gaming. Xbox y Rockstar lo confirmaron el 10 de noviembre de 2026 para Xbox One y Xbox Series X|S, con inicio del streaming el 19 de noviembre a la 01:00 ET. Es acceso por nube, no una instalación nativa en Xbox One. PS4 mantiene un caso distinto mediante Remote Play desde PS5.",
+    "GTA 6 will have an official way to play from Xbox One: Xbox Cloud Gaming. Xbox and Rockstar confirmed support for Xbox One and Xbox Series X|S on November 10, 2026, with streaming starting on November 19 at 1 a.m. ET. This is cloud access, not a native Xbox One installation. PS4 remains a separate case through Remote Play from PS5.",
+    "GTA 6 disposera bien d’un accès officiel depuis Xbox One : Xbox Cloud Gaming. Xbox et Rockstar l’ont confirmé le 10 novembre 2026 pour Xbox One et Xbox Series X|S, avec un début du streaming le 19 novembre à 1 h ET. Il s’agit d’un accès dans le cloud, pas d’une installation native sur Xbox One. La PS4 reste un cas distinct via Remote Play depuis une PS5."
+  ],
+  "published": "2026-11-02",
+  "updated": "2026-11-10",
+  "sources": [
+    {
+      "label": "Xbox Wire — GTA VI on Xbox Cloud Gaming, November 10, 2026",
+      "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+    },
+    {
+      "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+    },
+    {
+      "label": "Grand Theft Auto VI - Rockstar Games",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "label": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+    },
+    {
+      "label": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+      "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+    },
+    {
+      "label": "Control your PS5 console from a PS4 console | PS Remote Play",
+      "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100005.html"
+    },
+    {
+      "label": "Rockstar Games · GTA VI Screenshots",
+      "url": "https://www.rockstargames.com/VI/media/screenshots"
+    }
+  ],
+  "sections": [
+    {
+      "heading": [
+        "Qué cambia el anuncio oficial del 10 de noviembre",
+        "What the November 10 announcement changes",
+        "Ce que change l’annonce officielle du 10 novembre"
+      ],
+      "paragraphs": [
+        [
+          "GTA 6 sí tendrá una vía oficial para jugar desde Xbox One: Xbox Cloud Gaming. Xbox y Rockstar lo confirmaron el 10 de noviembre de 2026 para Xbox One y Xbox Series X|S, con inicio del streaming el 19 de noviembre a la 01:00 ET. Es acceso por nube, no una instalación nativa en Xbox One. PS4 mantiene un caso distinto mediante Remote Play desde PS5.",
+          "GTA 6 will have an official way to play from Xbox One: Xbox Cloud Gaming. Xbox and Rockstar confirmed support for Xbox One and Xbox Series X|S on November 10, 2026, with streaming starting on November 19 at 1 a.m. ET. This is cloud access, not a native Xbox One installation. PS4 remains a separate case through Remote Play from PS5.",
+          "GTA 6 disposera bien d’un accès officiel depuis Xbox One : Xbox Cloud Gaming. Xbox et Rockstar l’ont confirmé le 10 novembre 2026 pour Xbox One et Xbox Series X|S, avec un début du streaming le 19 novembre à 1 h ET. Il s’agit d’un accès dans le cloud, pas d’une installation native sur Xbox One. La PS4 reste un cas distinct via Remote Play depuis une PS5."
+        ],
+        [
+          "Las plataformas anunciadas para ejecutar el juego de forma nativa siguen siendo PS5 y Xbox Series X|S. El comunicado de hoy añade la modalidad cloud en las consolas Xbox citadas, sin anunciar una edición nativa de Xbox One ni una versión de PS4. Reservar o precargar el juego el 10 de noviembre no permite empezar a jugar antes del estreno.",
+          "The announced platforms for running the game natively remain PS5 and Xbox Series X|S. Today’s announcement adds cloud access on the listed Xbox consoles without announcing a native Xbox One edition or a PS4 version. Preordering or preloading on November 10 does not unlock playable access before launch.",
+          "Les plateformes annoncées pour exécuter le jeu nativement restent la PS5 et les Xbox Series X|S. Le communiqué du jour ajoute l’accès cloud sur les consoles Xbox citées, sans annoncer d’édition native Xbox One ni de version PS4. Précommander ou précharger le 10 novembre ne permet pas de jouer avant la sortie."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Xbox Wire — GTA VI on Xbox Cloud Gaming, November 10, 2026",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+        },
+        {
+          "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+          "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+        },
+        {
+          "label": "Grand Theft Auto VI - Rockstar Games",
+          "url": "https://www.rockstargames.com/VI"
+        },
+        {
+          "label": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    },
+    {
+      "heading": [
+        "PS4 Pro y Xbox One X siguen siendo la generación anterior",
+        "PS4 Pro and Xbox One X remain older-generation consoles",
+        "PS4 Pro et Xbox One X appartiennent à la génération précédente"
+      ],
+      "paragraphs": [
+        [
+          "El nombre puede confundir: Xbox One X no es Xbox Series X, y Xbox One S no es Series S. De igual manera, una PS4 Pro sigue perteneciendo a la familia PS4; no se convierte en PS5 por tener mejoras respecto al modelo base. La comprobación útil es leer el nombre completo de la consola y la plataforma de la compra, no elegir solo por la letra X, S o la palabra Pro.",
+          "The names can mislead: Xbox One X is not Xbox Series X, and Xbox One S is not Series S. Similarly, PS4 Pro remains part of the PS4 family rather than becoming a PS5 through its hardware upgrades. Read the console’s full name and the purchase platform instead of relying on the letter X, S or the word Pro.",
+          "Les noms prêtent à confusion : Xbox One X n’est pas Xbox Series X, et Xbox One S n’est pas Series S. Une PS4 Pro reste une PS4 malgré ses améliorations. Vérifiez le nom complet de la console et la plateforme de l’achat, plutôt qu’une lettre X, S ou la mention Pro."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+          "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+        },
+        {
+          "label": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        },
+        {
+          "label": "FansGTA · GTA 6 en PS5 y Xbox Series X|S: las plataformas de la web oficial",
+          "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/"
+        }
+      ],
+      "image": {
+        "key": "feature-phone",
+        "alt": [
+          "Jason con una pistola junto a un helicóptero en GTA VI",
+          "Jason holding a pistol beside a helicopter in GTA VI",
+          "Jason tenant un pistolet près d’un hélicoptère dans GTA VI"
+        ],
+        "caption": [
+          "Jason en una captura promocional oficial de GTA VI.",
+          "Jason in an official promotional screenshot from GTA VI.",
+          "Jason dans une capture promotionnelle officielle de GTA VI."
+        ],
+        "credit": {
+          "label": "GTA VI © Rockstar Games",
+          "url": "https://www.rockstargames.com/VI/media/screenshots"
+        }
+      }
+    },
+    {
+      "heading": [
+        "Compatibilidad nativa: tabla para no confundir modelos",
+        "Native compatibility: distinguishing the models",
+        "Compatibilité native : distinguer les modèles"
+      ],
+      "paragraphs": [
+        [
+          "Esta tabla describe las plataformas anunciadas, no resultados de rendimiento. Una captura promocional de GTA VI tampoco demuestra cómo funciona el juego en una máquina concreta.",
+          "This table describes announced platforms rather than performance test results. A promotional screenshot does not establish how GTA VI runs on a particular machine.",
+          "Ce tableau décrit les plateformes annoncées, pas des mesures de performances. Une capture promotionnelle ne démontre pas le fonctionnement sur une machine précise."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        },
+        {
+          "label": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+          "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+        },
+        {
+          "label": "Xbox Wire — GTA VI on Xbox Cloud Gaming, November 10, 2026",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+        },
+        {
+          "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+          "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+        }
+      ],
+      "table": {
+        "headers": [
+          [
+            "Familia",
+            "Family",
+            "Famille"
+          ],
+          [
+            "Modelos que suelen confundirse",
+            "Commonly confused models",
+            "Modèles souvent confondus"
+          ],
+          [
+            "Situación comprobada",
+            "Checked status",
+            "Situation vérifiée"
+          ]
+        ],
+        "rows": [
+          [
+            [
+              "PlayStation 4",
+              "PlayStation 4",
+              "PlayStation 4"
+            ],
+            [
+              "PS4 y PS4 Pro",
+              "PS4 and PS4 Pro",
+              "PS4 et PS4 Pro"
+            ],
+            [
+              "La ficha de Sony excluye PS4.",
+              "Sony’s listing excludes PS4.",
+              "La fiche Sony exclut PS4."
+            ]
+          ],
+          [
+            [
+              "Xbox One",
+              "Xbox One",
+              "Xbox One"
+            ],
+            [
+              "Xbox One, One S y One X",
+              "Xbox One, One S and One X",
+              "Xbox One, One S et One X"
+            ],
+            [
+              "Sin instalación nativa anunciada; acceso por Xbox Cloud Gaming confirmado.",
+              "No native installation announced; Xbox Cloud Gaming access confirmed.",
+              "Aucune installation native annoncée ; accès Xbox Cloud Gaming confirmé."
+            ]
+          ],
+          [
+            [
+              "Generación anunciada",
+              "Announced generation",
+              "Génération annoncée"
+            ],
+            [
+              "PS5 y Xbox Series X|S",
+              "PS5 and Xbox Series X|S",
+              "PS5 et Xbox Series X|S"
+            ],
+            [
+              "Plataformas indicadas por Rockstar.",
+              "Platforms specified by Rockstar.",
+              "Plateformes indiquées par Rockstar."
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "heading": [
+        "Qué puede hacer una PS4 con Remote Play de PS5",
+        "What PS4 can do with PS5 Remote Play",
+        "Ce que permet Remote Play de PS5 sur PS4"
+      ],
+      "paragraphs": [
+        [
+          "Sony documenta una función general para controlar una PS5 desde una PS4. En ese caso, la PS5 ejecuta el juego y la PS4 recibe la imagen y envía las órdenes del mando. No instala una versión PS4 de GTA VI, no sustituye a la PS5 y no elimina la necesidad de disponer del juego y cumplir sus condiciones de acceso. La ficha de GTA VI indica compatibilidad con Remote Play, pero esta explicación no es una prueba propia de la versión final.",
+          "Sony documents a general feature for controlling a PS5 from a PS4. The PS5 runs the game; the PS4 receives video and sends controller input. That does not install a PS4 version of GTA VI, replace the PS5 or remove the need to own the game and meet its access conditions. GTA VI’s listing marks Remote Play support, but this explanation is not our own final-version test.",
+          "Sony documente le contrôle d’une PS5 depuis une PS4. La PS5 exécute le jeu ; la PS4 reçoit l’image et transmet les commandes. Ce n’est ni une version PS4 de GTA VI, ni un remplacement de la PS5, ni un accès sans disposer du jeu. La fiche GTA VI indique Remote Play, mais cette explication ne constitue pas notre propre test de la version finale."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Control your PS5 console from a PS4 console | PS Remote Play",
+          "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100005.html"
+        },
+        {
+          "label": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        },
+        {
+          "label": "FansGTA · GTA 6 en Android y iPhone: APK, versión móvil y Remote Play",
+          "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/"
+        }
+      ],
+      "image": {
+        "key": "feature-mountain",
+        "alt": [
+          "Carretera entre laderas arboladas de Mount Kalaga en GTA VI",
+          "Road between wooded slopes in Mount Kalaga in GTA VI",
+          "Route entre des versants boisés de Mount Kalaga dans GTA VI"
+        ],
+        "caption": [
+          "Paisaje oficial de Mount Kalaga; esta captura no es una medición de rendimiento en una consola concreta.",
+          "Official Mount Kalaga landscape; this screenshot is not a performance measurement on a particular console.",
+          "Paysage officiel de Mount Kalaga ; cette capture ne mesure pas les performances d’une console précise."
+        ],
+        "credit": {
+          "label": "GTA VI © Rockstar Games",
+          "url": "https://www.rockstargames.com/VI/media/screenshots"
+        }
+      }
+    },
+    {
+      "heading": [
+        "Preparar la conexión entre PS4 y PS5",
+        "Preparing the PS4-to-PS5 connection",
+        "Préparer la connexion entre PS4 et PS5"
+      ],
+      "paragraphs": [
+        [
+          "Según la guía de Sony, actualiza ambas consolas y utiliza la misma cuenta de PlayStation. En la PS5, activa Uso a distancia dentro de Ajustes, Sistema. Enciéndela o déjala en modo reposo; para despertarla por red, habilita las opciones correspondientes de conexión a Internet y encendido desde la red. En la pantalla de inicio de PS4 abre PS5 Remote Play y busca tu PS5. Es la preparación del servicio de Sony: no un método para descargar GTA VI en PS4.",
+          "Sony’s guide says to update both consoles and use the same PlayStation account. On PS5, enable Remote Play under Settings, System. Turn it on or leave it in rest mode; network wake requires the relevant internet-connection and network-power settings. On the PS4 home screen, open PS5 Remote Play and choose Find Your PS5. These are service setup steps, not instructions for downloading GTA VI onto PS4.",
+          "Le guide Sony demande des consoles à jour et le même compte PlayStation. Sur PS5, activez Lecture à distance dans Paramètres, Système. Allumez-la ou utilisez le mode repos ; le réveil à distance nécessite les options de connexion Internet et de mise sous tension par le réseau. Sur l’accueil PS4, ouvrez PS5 Remote Play et recherchez votre PS5. Cette préparation du service ne télécharge pas GTA VI sur PS4."
+        ],
+        [
+          "Sony recomienda al menos 5 Mbps de subida y bajada y 15 Mbps para obtener mejores resultados. Son recomendaciones generales de Remote Play, no requisitos técnicos de GTA VI ni una garantía de latencia. La experiencia depende también de la red local y de las condiciones de la conexión.",
+          "Sony recommends at least 5 Mbps upload and download, or 15 Mbps for best performance. Those are general Remote Play recommendations, not GTA VI system requirements or a latency guarantee. The local network and connection conditions also affect the experience.",
+          "Sony recommande au moins 5 Mbit/s en envoi et réception, ou 15 Mbit/s pour de meilleurs résultats. Ce sont des recommandations générales de Remote Play, pas des exigences GTA VI ni une garantie de latence. Le réseau local et les conditions de connexion comptent aussi."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Control your PS5 console from a PS4 console | PS Remote Play",
+          "url": "https://remoteplay.dl.playstation.net/remoteplay/lang/en/1100005.html"
+        }
+      ]
+    },
+    {
+      "heading": [
+        "Xbox Cloud Gaming: fecha, hora y consolas confirmadas",
+        "Xbox Cloud Gaming: confirmed consoles and start time",
+        "Xbox Cloud Gaming : consoles confirmées et horaire"
+      ],
+      "paragraphs": [
+        [
+          "Xbox Wire fija el inicio del streaming de GTA VI para el 19 de noviembre a la 01:00 ET, equivalente a las 06:00 UTC de ese mismo día. El anuncio enumera Xbox One y Xbox Series X|S. Ese horario corresponde al servicio cloud: no debe sustituir al calendario de desbloqueo nativo o de precarga explicado en nuestra guía de horarios.",
+          "Xbox Wire schedules GTA VI streaming for November 19 at 1 a.m. ET, equivalent to 06:00 UTC on the same day. Its announcement lists Xbox One and Xbox Series X|S. This time applies to cloud access and should not replace the native-release or preload schedule explained in our timing guide.",
+          "Xbox Wire prévoit le streaming de GTA VI le 19 novembre à 1 h ET, soit 6 h UTC le même jour. L’annonce cite Xbox One et Xbox Series X|S. Cet horaire concerne le cloud et ne remplace pas le calendrier de déverrouillage natif ou de préchargement détaillé dans notre guide des horaires."
+        ],
+        [
+          "En Cloud Gaming, el servicio ejecuta el juego y lo transmite a la consola. Xbox y Rockstar indican que el streaming utiliza ajustes gráficos de Xbox Series S. Esto describe la sesión transmitida desde el servicio, no una conversión del hardware de Xbox One ni una medición propia de imágenes por segundo. La conexión y otros factores técnicos afectan a la experiencia; las capturas promocionales de esta página no son pruebas de latencia o de calidad de una sesión cloud.",
+          "With Cloud Gaming, the service runs the game and streams it to the console. Xbox and Rockstar say streaming uses Xbox Series S graphics settings. That describes the streamed session, not a conversion of Xbox One hardware or our own frame-rate measurement. Connection and other technical factors affect the experience; the promotional screenshots on this page are not cloud latency or session-quality tests.",
+          "Avec Cloud Gaming, le service exécute le jeu et le transmet à la console. Xbox et Rockstar précisent que le streaming utilise les réglages graphiques de Xbox Series S. Cela décrit la session transmise, pas une transformation du matériel Xbox One ni une mesure de fréquence d’images réalisée par nos soins. La connexion et d’autres facteurs techniques influencent l’expérience ; les captures promotionnelles de cette page ne sont pas des tests de latence ou de qualité du cloud."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Xbox Wire — GTA VI on Xbox Cloud Gaming, November 10, 2026",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+        },
+        {
+          "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+          "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+        },
+        {
+          "label": "FansGTA — GTA VI preload and regional times",
+          "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+        }
+      ]
+    },
+    {
+      "heading": [
+        "Compra del juego, Game Pass y horas de nube",
+        "Buying the game, Game Pass and cloud playtime",
+        "Achat du jeu, Game Pass et heures de cloud"
+      ],
+      "paragraphs": [
+        [
+          "GTA VI debe comprarse por separado, según las condiciones del anuncio de Xbox. Tener una suscripción o pagar por acceso al streaming no significa que la licencia del juego esté incluida. Por eso, la confirmación de Cloud Gaming no equivale a anunciar GTA VI dentro del catálogo de Game Pass.",
+          "GTA VI must be purchased separately, according to Xbox’s announcement terms. A subscription or payment for streaming access does not establish that the game licence is included. Cloud Gaming support therefore does not amount to an announcement that GTA VI is included in the Game Pass catalogue.",
+          "GTA VI doit être acheté séparément, selon les conditions de l’annonce Xbox. Un abonnement ou un paiement pour accéder au streaming ne signifie pas que la licence du jeu soit incluse. La compatibilité Cloud Gaming n’équivaut donc pas à une annonce d’inclusion de GTA VI au catalogue Game Pass."
+        ],
+        [
+          "Xbox también anuncia que desde el 11 de noviembre los jugadores de mercados compatibles podrán comprar tiempo de juego en la nube sin una suscripción Game Pass. La fecha describe la apertura anunciada de esa modalidad de pago; el streaming de GTA VI comienza el 19. No son horas gratuitas ni una promesa de uso ilimitado.",
+          "Xbox also announces that players in supported markets will be able to buy cloud playtime without a Game Pass subscription from November 11. That date describes the announced start of the payment option; GTA VI streaming begins on the 19th. It does not promise free hours or unlimited use.",
+          "Xbox annonce également qu’à partir du 11 novembre, les joueurs des marchés compatibles pourront acheter du temps de jeu dans le cloud sans abonnement Game Pass. Cette date concerne l’ouverture annoncée de cette formule de paiement ; le streaming de GTA VI commence le 19. Il ne s’agit pas d’une promesse d’heures gratuites ou d’utilisation illimitée."
+        ],
+        [
+          "El comunicado no publica una tarifa por hora ni una lista completa de mercados. Xbox advierte de que disponibilidad, opciones de compra, dispositivos, elegibilidad de la cuenta y funciones pueden variar. Comprueba las condiciones vigentes para tu región y cuenta antes de pagar; no deducimos un precio ni un requisito universal de suscripción a partir del anuncio.",
+          "The announcement does not publish an hourly tariff or a complete market list. Xbox cautions that availability, purchase options, devices, account eligibility and features can vary. Check current terms for your region and account before paying; we do not infer a price or a universal subscription requirement from the announcement.",
+          "Le communiqué ne publie ni tarif horaire ni liste complète des marchés. Xbox précise que la disponibilité, les options d’achat, les appareils, l’éligibilité du compte et les fonctions peuvent varier. Vérifiez les conditions en vigueur pour votre région et votre compte avant de payer ; nous ne déduisons ni prix ni obligation universelle d’abonnement de cette annonce."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Xbox Wire — GTA VI on Xbox Cloud Gaming, November 10, 2026",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+        },
+        {
+          "label": "FansGTA — GTA VI, Game Pass and PS Plus",
+          "url": "https://fansgta.com/es/guias/gta-6-game-pass-ps-plus-suscripciones/"
+        }
+      ]
+    },
+    {
+      "heading": [
+        "Qué revisar antes de comprar",
+        "What to check before buying",
+        "Que vérifier avant d’acheter"
+      ],
+      "paragraphs": [
+        [
+          "Identifica tu consola, abre la ficha oficial de su tienda y comprueba plataforma, edición y región de la cuenta. Si una oferta dice PS4 o Xbox One, contrástala con Rockstar antes de pagar. Para Remote Play, separa la consola que ejecuta el juego de la pantalla que lo recibe. Las imágenes de esta guía son material oficial contextual de GTA VI; no muestran una supuesta edición para la generación anterior.",
+          "Identify your console, open its official store listing and check platform, edition and account region. Compare any offer claiming PS4 or Xbox One support with Rockstar before paying. For Remote Play, distinguish the console running the game from the screen receiving it. These official GTA VI images provide context rather than showing a purported older-generation edition.",
+          "Identifiez votre console, puis vérifiez plateforme, édition et région du compte dans la boutique officielle. Confrontez toute offre PS4 ou Xbox One aux informations Rockstar avant de payer. En lecture à distance, distinguez la console qui exécute le jeu de l’écran qui le reçoit. Les images officielles servent de contexte ; elles ne montrent pas une prétendue édition d’ancienne génération."
+        ],
+        [
+          "¿Y el cloud en PC o móviles? Esos dispositivos no aparecen entre los confirmados para GTA VI en estos dos anuncios. No ampliamos la lista por analogía con otros juegos del servicio. Remote Play desde una consola propia sigue siendo una modalidad diferente; nuestra guía de PS Remote Play en PC y Mac explica ese caso por separado.",
+          "What about cloud access on PC or mobile? Those devices are not among the ones confirmed for GTA VI in these two announcements. We do not extend the list by analogy with other games on the service. Remote Play from a console you own remains a different method; our PS Remote Play guide for PC and Mac explains that separate case.",
+          "Et le cloud sur PC ou mobile ? Ces appareils ne figurent pas parmi ceux confirmés pour GTA VI dans ces deux annonces. Nous n’étendons pas la liste par analogie avec les autres jeux du service. Remote Play depuis sa propre console reste une autre méthode ; notre guide PS Remote Play sur PC et Mac traite ce cas séparément."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+          "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+        },
+        {
+          "label": "Grand Theft Auto VI - PS5 Games | PlayStation (US) ",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        },
+        {
+          "label": "FansGTA · GTA 6 en PS5 y Xbox Series X|S: las plataformas de la web oficial",
+          "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/"
+        },
+        {
+          "label": "Xbox Wire — GTA VI on Xbox Cloud Gaming, November 10, 2026",
+          "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+        },
+        {
+          "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+          "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+        },
+        {
+          "label": "FansGTA — PS Remote Play on PC and Mac",
+          "url": "https://fansgta.com/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/"
+        }
+      ]
+    }
+  ]
+}

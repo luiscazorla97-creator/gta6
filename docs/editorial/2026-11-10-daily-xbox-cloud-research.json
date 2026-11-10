@@ -1,0 +1,399 @@
+{
+  "execution_date": "2026-11-10",
+  "checked_at_utc": "2026-11-10T22:29:46.691185+00:00",
+  "timezone": "America/New_York",
+  "authorization_end_date_inclusive": "2026-11-19",
+  "scope": {
+    "topics": 1,
+    "updated_topics": 1,
+    "new_topics": 0,
+    "language_versions": 3,
+    "decision": "Update the equivalent existing compatibility guide rather than create competing Xbox One/cloud URLs."
+  },
+  "cloud_execution": {
+    "provider": "cloud",
+    "environment_id": "ccarenv_b64_Y2NhcmVudl8zODc5ZTVkOWM4ZjA4MTkxYmE0YjEyNWM0ZWNjNGJlNA",
+    "observed_revision": 8,
+    "observations_current": true,
+    "network_policy": "unrestricted, enforced",
+    "github_main_fetched_this_execution": true,
+    "main_at_start": "39aebceccb8becfeaa43036cb0ffc9a53a72eacc",
+    "cloudflare_project_read": {
+      "project": "fansgta",
+      "build_command": "npm run build:release",
+      "deployment": {
+        "id": "b78654ee-a900-417c-8598-ef032079f684",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-09T22:25:26.534554Z",
+          "ended_on": "2026-11-09T22:25:46.264236Z",
+          "status": "success"
+        },
+        "commit": "4a48535c51bc8b2fdfcadcc09609a6e152426e77"
+      }
+    },
+    "desktop_pc_dependency": false,
+    "future_availability": "This run does not establish future cloud executor or connection availability."
+  },
+  "selected": {
+    "id": "gta6-ps4-xbox-one-20261102",
+    "titles": [
+      "GTA 6 en Xbox One: Cloud Gaming confirmado; qué pasa con PS4",
+      "GTA 6 on Xbox One: cloud confirmed, PS4 explained",
+      "GTA 6 sur Xbox One : cloud confirmé, le point sur PS4"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+      "/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+      "/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/"
+    ],
+    "category": "guides",
+    "published_preserved": "2026-11-02",
+    "updated": "2026-11-10",
+    "status": "Official Xbox/Rockstar announcement published November 10, 2026.",
+    "intent": "Whether and how GTA VI can be played from Xbox One, separating native installation, cloud access and PS4 Remote Play."
+  },
+  "freshness": {
+    "last_execution": "November 9 Festival article, verified publicly at 2026-11-09T22:26:57.846921Z",
+    "new_primary_dates": [
+      "Xbox Wire November 10, 2026",
+      "Rockstar Newswire November 10, 2026"
+    ],
+    "announcement_vs_service_start": "Announced today; GTA VI cloud streaming starts November 19, not November 10. The purchased-playtime option is announced from November 11 in supported markets."
+  },
+  "deduplication": {
+    "existing_topics_checked": 191,
+    "existing_language_versions": 573,
+    "full_current_target_checked": true,
+    "equivalent_article_found": "gta6-ps4-xbox-one-20261102",
+    "old_cloud_section": {
+      "heading": [
+        "Por qué la nube no confirma una versión Xbox One",
+        "Why cloud streaming does not confirm an Xbox One version",
+        "Pourquoi le cloud ne confirme pas une version Xbox One"
+      ],
+      "paragraphs": [
+        [
+          "Para recomendar juego en la nube haría falta comprobar que GTA VI figure en el catálogo del servicio, en la región y con las condiciones aplicables. Que un dispositivo pueda transmitir otros juegos no demuestra que pueda transmitir este. Las fuentes revisadas no permiten prometer acceso a GTA VI desde Xbox One mediante una suscripción, ni una actualización que convierta una copia de otra entrega en GTA VI.",
+          "Recommending cloud play would require checking GTA VI in the service catalogue, region and applicable access terms. A device streaming other games does not establish that it can stream this one. The checked sources do not support promising GTA VI on Xbox One through a subscription or an upgrade that converts another GTA game into GTA VI.",
+          "Recommander le cloud nécessiterait de vérifier GTA VI dans le catalogue du service, la région et les conditions d’accès. Transmettre d’autres jeux ne prouve pas que cet appareil transmette celui-ci. Les sources consultées ne permettent de promettre ni GTA VI sur Xbox One via un abonnement, ni une mise à niveau transformant un ancien GTA en GTA VI."
+        ]
+      ],
+      "references": [
+        {
+          "label": "Grand Theft Auto VI - Rockstar Games",
+          "url": "https://www.rockstargames.com/VI"
+        },
+        {
+          "label": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games Customer Support",
+          "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+        }
+      ]
+    },
+    "reason_to_update": "The existing guide already answers GTA VI on Xbox One and explicitly withheld a cloud promise pending service confirmation. The new primary announcement changes that answer. A second page would duplicate its search intent.",
+    "preserved": [
+      "ID, category, localized slugs and original November 2 publication",
+      "Both complete PS4 Remote Play/setup sections",
+      "Native hardware distinctions and native PS5/Series platforms",
+      "Existing three authentic media assets; no image file edited"
+    ],
+    "related_unchanged": [
+      {
+        "id": "gta6-subscriptions-20261031",
+        "reason": "Already distinguishes a purchased licence from subscription/streaming access; new announcement is consistent."
+      },
+      {
+        "id": "gta6-mobile-remote-20261101",
+        "reason": "Mobile Remote Play is a different method; no native mobile edition or phone cloud availability inferred."
+      },
+      {
+        "id": "gta6-pc-mac-ps5-remote-play-20261108",
+        "reason": "PC/Mac through a user-owned PS5 is distinct from Xbox cloud eligibility."
+      }
+    ],
+    "counts_after": {
+      "topics": 191,
+      "language_urls": 573,
+      "duplicate_new_urls": 0,
+      "other_articles_unchanged": 190
+    }
+  },
+  "primary_sources": [
+    {
+      "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+      "publisher": "Team Xbox, Xbox Wire",
+      "date": "2026-11-10",
+      "access": "Direct curl HTTP 200, 84680-byte HTML; visible article text parsed.",
+      "facts": [
+        "GTA VI cloud on Xbox One and Series X|S from November 19, 01:00 ET.",
+        "Cloud sessions use Xbox Series S graphics settings.",
+        "GTA VI must be purchased separately.",
+        "From November 11, players in supported markets can buy cloud playtime without a Game Pass subscription.",
+        "Availability, purchasing options, supported devices, account eligibility and features vary by market/device.",
+        "No hourly tariff or complete market list given in the announcement."
+      ]
+    },
+    {
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+      "publisher": "Rockstar Games Newswire",
+      "date": "2026-11-10",
+      "access": {
+        "page": "rockstar-announcement",
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "status": "200",
+        "exit": 0
+      },
+      "text_access": "Direct page metadata accessible; full primary announcement text recovered through the search index, including Xbox cloud paragraph. The web open command returned Internal Error, recorded rather than treating it as a source contradiction.",
+      "facts": [
+        "Cloud support on Xbox Series X|S and Xbox One with Series S graphics settings.",
+        "Connection speeds and technical factors may affect cloud performance.",
+        "Remote Play support on PlayStation and Xbox is separate."
+      ]
+    }
+  ],
+  "timing": {
+    "cloud_start": "2026-11-19 01:00 America/New_York",
+    "cloud_start_utc": "2026-11-19 06:00 UTC",
+    "native_release_and_preload": "Separate schedules; the cloud time must not overwrite the existing regional native/preload calendar.",
+    "own_performance_test": false
+  },
+  "interest_signals": {
+    "autocomplete": [
+      {
+        "query": "gta 6 xbox one nube",
+        "locale": "es",
+        "checked_at_utc": "2026-11-10T22:23:02.492750+00:00",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta%206%20xbox%20one%20nube",
+        "exit": 0,
+        "response": [
+          "gta 6 xbox one nube",
+          []
+        ]
+      },
+      {
+        "query": "gta 6 xbox cloud gaming",
+        "locale": "en",
+        "checked_at_utc": "2026-11-10T22:23:02.690662+00:00",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta%206%20xbox%20cloud%20gaming",
+        "exit": 0,
+        "response": [
+          "gta 6 xbox cloud gaming",
+          [
+            "gta 6 xbox cloud gaming",
+            "gta 6 xbox cloud gaming pc",
+            "gta 6 xbox cloud gaming reddit",
+            "gta 6 xbox one cloud gaming",
+            "gta 6 coming to xbox cloud gaming",
+            "will gta 6 have xbox cloud gaming",
+            "gta 6 will be on xbox cloud gaming",
+            "will gta 6 support xbox cloud gaming",
+            "will gta 6 come to xbox cloud gaming",
+            "is gta 6 available on xbox cloud gaming"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "query": "gta 6 xbox one cloud",
+        "locale": "fr",
+        "checked_at_utc": "2026-11-10T22:23:02.897143+00:00",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=gta%206%20xbox%20one%20cloud",
+        "exit": 0,
+        "response": [
+          "gta 6 xbox one cloud",
+          [
+            "gta 6 xbox one cloud gaming",
+            "gta 6 on xbox cloud gaming",
+            "gta 6 on xbox cloud",
+            "gta vi on xbox cloud gaming",
+            "gta 6 xbox cloud pc",
+            "will gta 6 be on xbox one cloud gaming"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "interpretation": "EN and FR expose Xbox One/cloud/PC queries. The ES query returned no suggestions. These are current query suggestions, not volumes, rankings or proof of device support.",
+    "same_day_coverage": [
+      {
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/news/1030714/gta-vi-xbox-cloud-gaming-support",
+        "date": "2026-11-10"
+      },
+      {
+        "publisher": "Windows Central",
+        "url": "https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches",
+        "date": "2026-11-10"
+      }
+    ],
+    "google_trends": "No quantitative dataset obtained; no trend percentage or demand ranking claimed."
+  },
+  "media": {
+    "keys": [
+      "feature-helicopter",
+      "feature-phone",
+      "feature-mountain"
+    ],
+    "revalidated_originals": [
+      {
+        "key": "feature-helicopter",
+        "source": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games",
+          "originalName": "Mount_Kalaga_National_Park_02",
+          "width": 1400,
+          "height": 788,
+          "bytes": 58038,
+          "checked": "2026-10-31",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+        },
+        "headers": "HTTP/1.1 200 OK\ndate: Tue, 10 Nov 2026 22:23:01 GMT\nserver: envoy\n\nHTTP/2 200 \naccept-ranges: bytes\nlast-modified: Thu, 29 Oct 2026 12:39:11 GMT\netag: W/\"517ee-1a187abe198\"\ncontent-type: image/jpeg\ncontent-length: 333806\nrsgoriginserver: ewrdmzwww0.rockstargames.online\nstrict-transport-security: max-age=63072000; preload;\ncache-control: public, max-age=30769003\nexpires: Tue, 02 Nov 2027 01:19:44 GMT\ndate: Tue, 10 Nov 2026 22:23:01 GMT\nakamai-grn: 0.826d3e17.1794349381.4af10218\nx-envoy-upstream-service-time: 129\nserver: envoy\n\n",
+        "exit": 0
+      },
+      {
+        "key": "feature-phone",
+        "source": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games",
+          "originalName": "Jason_Duval_08",
+          "width": 1400,
+          "height": 788,
+          "bytes": 68872,
+          "checked": "2026-10-31",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+        },
+        "headers": "HTTP/1.1 200 OK\ndate: Tue, 10 Nov 2026 22:23:01 GMT\nserver: envoy\n\nHTTP/2 200 \naccept-ranges: bytes\nlast-modified: Thu, 29 Oct 2026 12:39:11 GMT\netag: W/\"c9f47-1a187abe198\"\ncontent-type: image/jpeg\ncontent-length: 827207\nrsgoriginserver: ewrdmzwww0.rockstargames.online\nstrict-transport-security: max-age=63072000; preload;\ncache-control: public, max-age=30740013\nexpires: Mon, 01 Nov 2027 17:16:35 GMT\ndate: Tue, 10 Nov 2026 22:23:02 GMT\nakamai-grn: 0.826d3e17.1794349382.4af102b8\nx-envoy-upstream-service-time: 30\nserver: envoy\n\n",
+        "exit": 0
+      },
+      {
+        "key": "feature-mountain",
+        "source": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+          "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+          "owner": "Rockstar Games",
+          "credit": "GTA VI © Rockstar Games",
+          "originalName": "Mount_Kalaga_National_Park_04",
+          "width": 1400,
+          "height": 788,
+          "bytes": 226130,
+          "checked": "2026-10-31",
+          "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+        },
+        "headers": "HTTP/1.1 200 OK\ndate: Tue, 10 Nov 2026 22:23:01 GMT\nserver: envoy\n\nHTTP/2 200 \naccept-ranges: bytes\nlast-modified: Thu, 29 Oct 2026 12:39:11 GMT\netag: W/\"137142-1a187abe198\"\ncontent-type: image/jpeg\ncontent-length: 1274178\nrsgoriginserver: ewrdmzwww0.rockstargames.online\nstrict-transport-security: max-age=63072000; preload;\ncache-control: public, max-age=30740013\nexpires: Mon, 01 Nov 2027 17:16:35 GMT\ndate: Tue, 10 Nov 2026 22:23:02 GMT\nakamai-grn: 0.826d3e17.1794349382.4af10341\nx-envoy-upstream-service-time: 29\nserver: envoy\n\n",
+        "exit": 0
+      }
+    ],
+    "official_gallery_access": {
+      "page": "official-media",
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": "200",
+      "exit": 0
+    },
+    "download_and_share_context_present": true,
+    "use_context": "Existing authentic Rockstar GTA VI screenshots from the official promotional download/share collection, attributed for editorial context. Copyright reserved; no public-domain or unrestricted commercial licence claimed.",
+    "credit": "GTA VI © Rockstar Games",
+    "visual_review": "All three existing WebP screenshots inspected. Helicopter and road landscapes match official Mount Kalaga filenames; Jason_Duval_08 shows a pistol beside a helicopter.",
+    "caption_correction": "The target guide previously described Jason holding a phone. Alt/caption corrected in ES/EN/FR to the actual pistol/helicopter scene. Asset key/bytes and other articles are untouched.",
+    "optimized": "Existing responsive WebP variants, reserved dimensions, eager cover and lazy inline figures.",
+    "ai_mod_leak_or_gta_v": false,
+    "image_files_changed": 0
+  },
+  "limits": [
+    "No PC/mobile/PS4 Xbox-cloud eligibility inferred from the generic service.",
+    "No Xbox One native port claimed.",
+    "No Game Pass catalogue inclusion or free game licence claimed.",
+    "No hourly rate, unlimited playtime or universal market eligibility invented.",
+    "No gameplay session tested and no frame rate/latency assigned to the cloud.",
+    "No purchase, subscription activation or third-party message.",
+    "The unverified ten-year partnership and repeated Take-Two preorder wording were excluded."
+  ],
+  "review": {
+    "independent_facts": "Passed Xbox/Rockstar cross-check, time conversion, eligibility limits, separate purchase and subscription distinctions.",
+    "languages": "Passed ES/EN/FR consistency and naturalness. Removed internal publishing/URL commentary from reader-facing introductions.",
+    "scope_precision": "Preserved PS4 setup; changed generic streaming wording to Remote Play so it does not imply that Xbox cloud requires a user-owned Series console.",
+    "dates": "Original publication preserved November 2; actual update November 10."
+  },
+  "preservation": [
+    "Design, client CSS/JS and navigation preserved subject to final hash check",
+    "All 190 other articles, localized URLs and source data unchanged",
+    "Ads, Social Bar, AdSense, Analytics consent, security/cache configuration untouched",
+    "Daily one-topic scope, frequency and November 19 inclusive cutoff unchanged"
+  ],
+  "validation": "See the separate publication proof after build, browser tests and actual public verification."
+}

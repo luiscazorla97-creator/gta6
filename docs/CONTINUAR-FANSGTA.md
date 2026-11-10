@@ -322,3 +322,12 @@ Publicación comprobada: commit 4a48535c51bc8b2fdfcadcc09609a6e152426e77, Cloudf
 - ES: https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/
 - EN: https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/
 - FR: https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/
+
+
+## Ejecución diaria — 10 de noviembre de 2026: Xbox Cloud Gaming
+
+Un único tema actualizado en ES/EN/FR: anuncio oficial de Xbox y Rockstar del 10 de noviembre que confirma GTA VI por Xbox Cloud Gaming en Xbox One y Series X|S desde el 19 de noviembre a la 01:00 ET (06:00 UTC). Se actualiza la guía existente gta6-ps4-xbox-one-20261102 para evitar duplicar intención; conserva sus tres URLs, categoría y publicación del 2 de noviembre, con updated del 10. Se preservan las instrucciones de PS4/Remote Play y se aclaran compra separada del juego, modalidad anunciada de horas cloud sin Game Pass desde el 11 en mercados compatibles y diferencias frente al catálogo Game Pass y al desbloqueo nativo. No se inventan tarifas, mercados ni soporte PC/móvil/PS4 cloud.
+
+Investigación/deduplicación de 191 temas/573 versiones: docs/editorial/2026-11-10-daily-xbox-cloud-research.json. Otros 190 artículos completos intactos; no se añaden URLs ni páginas. Se revalidaron tres imágenes oficiales existentes, con dimensiones y WebP responsive. Una captura de Jason tenía un alt/pie que decía teléfono; se corrige a pistola junto a helicóptero tras revisión visual, solo dentro de la guía actualizada, sin modificar imágenes ni otros artículos. Diseño, anuncios, consentimiento, seguridad, caché y programación conservados. La ejecución cloud confirmada no garantiza disponibilidad futura de ejecutor o conexiones.
+
+Actualización preparada: completar build:release, verificación estática/SEO y pruebas móvil/escritorio; guardar commit, despliegue y comprobación de las tres URLs públicas en docs/editorial/2026-11-10-daily-xbox-cloud-publication.json antes de afirmar publicación. La autorización mantiene un tema por ejecución, en tres idiomas, hasta el 19 de noviembre de 2026 inclusive en America/New_York.
