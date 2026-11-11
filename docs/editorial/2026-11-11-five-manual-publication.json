@@ -1,5 +1,5 @@
 {
-  "status": "validated_locally_awaiting_publication",
+  "status": "published_and_publicly_verified",
   "prepared_at_utc": "2026-11-11T18:45:34.211233+00:00",
   "request": "Manual batch: five new topics with three complete language versions each.",
   "base_main": "82edd7ac16df99d764c5893d7e4b36ec65b1b1f1",
@@ -113,7 +113,32 @@
       "real_creative_delivery_not_claimed": true
     },
     "protected_source_files_unchanged": 18,
-    "runtime_js_css_unchanged": true
+    "runtime_js_css_unchanged": true,
+    "protected_source_hashes": {
+      "index.html": "ab373051e9d76ea56b1673a3c378c9fe9423b2be5470c66715a5785dd406476e",
+      "package.json": "91df8d410b903b8799c443410e95c2003541eb880baab7e2a8cf39ec924133f2",
+      "package-lock.json": "b7299357343a7989f35ca990964ff10165b007939d4123da0dd59d091385eb4b",
+      "public/_headers": "ffe5f0d19831fa05c0dda64f1fc85f3c8ed814895edb98fe1435f7de085f4201",
+      "public/_redirects": "4ea6d2835a2685c1358c8ac49345a7564ef95bdb5becf9837ef89ced478f9e3a",
+      "public/ads.txt": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "public/media/credits.json": "4115e3b43685aa261a51a18d9de0ef5cf7cac0bbdad28ae80e4a5b94b758cc45",
+      "src/ads/AdManager.tsx": "82e83322b4d43b865c315de9a325f3277b6847f551be0282bd1cd3e4a51d299e",
+      "src/ads/AdSlot.tsx": "d80ba062996674590c8a04fca9b93874d7285a7bc67d8f854a5713c0cb0e16ca",
+      "src/ads/config.ts": "cbdfb01ef3f74fda0a3499caba9bd1490f432b3eb09f348985411617a1ee1f5f",
+      "src/ads/loadAd.ts": "436d8b09761406f24b7d8183dd73e8e99ba4c651ea146bd4f072b59a1c8aa940",
+      "src/ads/AdDebug.tsx": "267586a226ce6083778ff60bb61629db1400e90e860e923604e585f40d2daab1",
+      "src/ads/postscribe.d.ts": "7448ef1ab0abee1e166d1e927180f30518e437a5878e40ec4d79a580d3338e63",
+      "src/ads/diagnostics.ts": "f093c22778266ca688d9feb40ff32fb21e5f4c21c6c23b560c6384015ec861cb",
+      "src/ads/SiteAds.tsx": "f2a6da717ccf894b8f1bd11c06128770c96e3ca8cb13e7eb021aedc22cba6e2d",
+      "src/analytics.ts": "2fe941449b9fe7f7eafec595710740008e22855a56cc53212f1ac303950d07dd",
+      "src/AnalyticsConsent.tsx": "3d371e94aa63afb2385d5c43dc24f019ec96a524e39c2440872dd30f217e9851",
+      "src/style.css": "b9050fbdd1c7aa69086a0964fec8344b5de57b8e2375ba189a0d8d902fb73aa3"
+    },
+    "own_js_css_hashes": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-sXrCCPVR.js": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa",
+      "assets/postscribe-r6f5iNPV.js": "1a000065f9407cc46642cc606fa6a7caf668238bc684895312d4801a8aaacb35"
+    }
   },
   "preservation": {
     "previous_content": true,
@@ -124,16 +149,2248 @@
     "security_cache_subscriptions": true,
     "daily_automation_not_modified": true
   },
-  "publication": null,
-  "public_verification": null,
+  "publication": {
+    "repository": "https://github.com/luiscazorla97-creator/gta6",
+    "branch": "main",
+    "runtime_commit": "a90e74ebb40e74a3963ae81ceb5418ac0e1b3500",
+    "runtime_tree": "929d7f6dda3ce8630322ea8cbca772d9a308d188",
+    "cloudflare_project": "fansgta",
+    "deployment": {
+      "id": "234c8240-b0e8-4fde-ad51-8433490d648b",
+      "environment": "production",
+      "url": "https://234c8240.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-11T18:49:40.218261Z",
+        "ended_on": "2026-11-11T18:50:00.16574Z",
+        "status": "success"
+      },
+      "commit": "a90e74ebb40e74a3963ae81ceb5418ac0e1b3500"
+    },
+    "canonical_deployment_confirmed": true,
+    "public_origin": "https://fansgta.com"
+  },
+  "public_verification": {
+    "http": {
+      "origin": "https://fansgta.com",
+      "checked_at_utc": "2026-11-11T18:52:44.545948+00:00",
+      "article_urls": [
+        {
+          "id": "gta6-take-two-q2-results-20261111",
+          "locale": "es",
+          "url": "https://fansgta.com/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "2e9a9a94c3149ac7efbec23a13edfb15188759817cd988bcb4e5fe71a5b61389",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-take-two-q2-results-20261111",
+          "locale": "en",
+          "url": "https://fansgta.com/en/news/gta-6-take-two-q2-2027-results-outlook/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "dda47daabd37b4f23aadca39e957c8f8b8f13324bb562a838470acb6a5f61ca7",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-take-two-q2-results-20261111",
+          "locale": "fr",
+          "url": "https://fansgta.com/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "534d34d238937b7d593f112f6bdc04a7c06dcf0d6d583eb9fc39cac86f6ef70a",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-tove-lo-blood-in-your-eyes-20261111",
+          "locale": "es",
+          "url": "https://fansgta.com/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "4dd337df7ff9a681a7f823d17454ea427e929983f14326e22467827b28a4b3a3",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-tove-lo-blood-in-your-eyes-20261111",
+          "locale": "en",
+          "url": "https://fansgta.com/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "819a0c286029f3d730b839952794759a4913c61ad416db2e5b597e783fa563d9",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-tove-lo-blood-in-your-eyes-20261111",
+          "locale": "fr",
+          "url": "https://fansgta.com/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "330e8908a98c39e743d2006655ad0c8768c6b0508633f0f039b2680c09736f5a",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-ipsos-purchase-intent-20261111",
+          "locale": "es",
+          "url": "https://fansgta.com/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "47283b5d3c6824fbde7dcf166504a452d3c10c6da99e10ff2c98dad49d1b487b",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-ipsos-purchase-intent-20261111",
+          "locale": "en",
+          "url": "https://fansgta.com/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "dad3cb7accf27bedb6d58429ded7b8d0e6db27becb272c4e33c0a2c82581df10",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-ipsos-purchase-intent-20261111",
+          "locale": "fr",
+          "url": "https://fansgta.com/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "6a5d19d96582c494d2466376e6c94bb8127634a3b4421c2285e95d71b6ab9502",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-xbox-app-remote-install-20261111",
+          "locale": "es",
+          "url": "https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "9f83dac22f1d492a3f8e55bb4e412b2adb0700a0722cc31293578a50f1037724",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-xbox-app-remote-install-20261111",
+          "locale": "en",
+          "url": "https://fansgta.com/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "398d220d4af7cc0d35ee1131ce50407b26632edf616a3836d7b79685f989ceed",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-xbox-app-remote-install-20261111",
+          "locale": "fr",
+          "url": "https://fansgta.com/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "b4a7804524019f4b68c931277ba91223f2af75483b748b1815107691e93b8886",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-ps5-pro-data-transfer-20261111",
+          "locale": "es",
+          "url": "https://fansgta.com/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "9b4596a065291d041979ad9c97814827e4426e9a50def3dd141a253472c4291c",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-ps5-pro-data-transfer-20261111",
+          "locale": "en",
+          "url": "https://fansgta.com/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "05291b685c78b3cd3d0e8504c21c26fcc230c1b739f6214341441ff5a7ad63cb",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-ps5-pro-data-transfer-20261111",
+          "locale": "fr",
+          "url": "https://fansgta.com/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "c1afbd70c06d0987670248ea9768aec53dd5fb458714a0e892f7abe3f911ebbb",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        }
+      ],
+      "discovery_pages": [
+        {
+          "url": "https://fansgta.com/en/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "2f3cc5c4ae19fa425d038288f6a7a53b9b3be9f8d99a394cac6844837549c66a"
+        },
+        {
+          "url": "https://fansgta.com/en/guides/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "008ff814ca1dfa0cc7f539ee2b96ad5cb988940df58d4b40f8c90df8a3c4e76d"
+        },
+        {
+          "url": "https://fansgta.com/en/news/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "13e4e1b99f3f7ce157fb1957561777f4e0e63d7da8236c3335891c3192a1e556"
+        },
+        {
+          "url": "https://fansgta.com/es/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "b4ad11e6cff06a2981315a5aebc324cf29bf74affa789a4936608c1f2f199e46"
+        },
+        {
+          "url": "https://fansgta.com/es/guias/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "301b55f120454558150c61f0594a65c4a69294b98f634e4d5676b440ec564ef3"
+        },
+        {
+          "url": "https://fansgta.com/es/noticias/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "d48dfb11f4af227f0f302498b146149ff831baeae2d3f15a9fa8afe6fecd8ffe"
+        },
+        {
+          "url": "https://fansgta.com/fr/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "3dd25de7f41db4be9fe3b6ba19dfb80781958c9895f41b3c58be0c26a2d03af0"
+        },
+        {
+          "url": "https://fansgta.com/fr/actualites/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "5eb59df5f33b5852a0a06ab513a0b247bd579e51e8d36cc44239792d6d86b8c8"
+        },
+        {
+          "url": "https://fansgta.com/fr/guides/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "de7743037c89ea3c1225d540acd6c9abf43f1b54943da0bf50ecdb46adeb2273"
+        }
+      ],
+      "internal_links": [
+        {
+          "path": "/en/guides/gta-6-android-iphone-apk-remote-play/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/guides/gta-6-home-xbox-game-sharing-licences/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/guides/gta-6-preload-date-time-consoles/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-padlock-restore-licences/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-save-data-cloud-backup-guide/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/guides/gta-6-trailer-songs-tom-petty-pointer-sisters/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/news/gta-6-album-34-tracks/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/news/gta-6-justice-original-score-december-11-pusher/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/news/gta-6-preorders-751-million-sensor-tower-estimate/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/news/take-two-november-9-earnings-gta-6/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/gta-6-android-iphone-apk-remote-play/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/gta-6-canciones-trailers-tom-petty-pointer-sisters/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/gta-6-compartir-xbox-principal-licencias/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/noticias/gta-6-album-34-tracks/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/noticias/gta-6-justice-musica-original-11-diciembre-pusher/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/noticias/gta-6-reservas-751-millones-estimacion-sensor-tower/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/noticias/take-two-resultados-9-noviembre-gta-6/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/actualites/gta-6-album-34-tracks/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/actualites/gta-6-justice-musique-originale-11-decembre-pusher/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/actualites/gta-6-precommandes-751-millions-estimation-sensor-tower/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/actualites/take-two-resultats-9-novembre-gta-6/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/gta-6-cadenas-ps5-restaurer-licences/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/gta-6-musiques-bandes-annonces-tom-petty-pointer-sisters/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/gta-6-partage-xbox-principale-licences/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/gta-6-ps5-sauvegardes-copie-securite-cloud/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/prechargement-gta-6-date-heure-consoles/",
+          "status": 200,
+          "release_content_identical": true
+        }
+      ],
+      "resources": [
+        {
+          "path": "/assets/index-sXrCCPVR.js",
+          "status": 200,
+          "bytes": 354595,
+          "sha256": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa",
+          "release_identical": true
+        },
+        {
+          "path": "/media/feature-driver.webp",
+          "status": 200,
+          "bytes": 44940,
+          "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+          "release_identical": true
+        },
+        {
+          "path": "/media/feature-helicopter.webp",
+          "status": 200,
+          "bytes": 58038,
+          "sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+          "release_identical": true
+        },
+        {
+          "path": "/media/grassrivers.webp",
+          "status": 200,
+          "bytes": 179052,
+          "sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+          "release_identical": true
+        },
+        {
+          "path": "/media/hero.webp",
+          "status": 200,
+          "bytes": 143776,
+          "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+          "release_identical": true
+        },
+        {
+          "path": "/media/jason.webp",
+          "status": 200,
+          "bytes": 68710,
+          "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+          "release_identical": true
+        },
+        {
+          "path": "/media/leonida-keys.webp",
+          "status": 200,
+          "bytes": 126662,
+          "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+          "release_identical": true
+        },
+        {
+          "path": "/media/lucia.webp",
+          "status": 200,
+          "bytes": 65852,
+          "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+          "release_identical": true
+        },
+        {
+          "path": "/media/trailer.webp",
+          "status": 200,
+          "bytes": 138750,
+          "sha256": "416ec74cf1401ba0462855b90b2ff683e4179f1689d147c22ab4262f72518868",
+          "release_identical": true
+        },
+        {
+          "path": "/media/vice-city.webp",
+          "status": 200,
+          "bytes": 116602,
+          "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/088b6a9914da/leonida-keys-1200.webp",
+          "status": 200,
+          "bytes": 93324,
+          "sha256": "84fbdff3ad4c2f89a4cf2c21be87aa564e26a5f532260a8c17773cae8e474ee0",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/088b6a9914da/leonida-keys-480.webp",
+          "status": 200,
+          "bytes": 24002,
+          "sha256": "444cd67a07083650e8f933db084ef0d37cd6a804e291a02782ec72645710300e",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/088b6a9914da/leonida-keys-800.webp",
+          "status": 200,
+          "bytes": 54794,
+          "sha256": "5b59cffc8a3d1a8c126c5951e4db8f0e1a1de79dbd94c36160ac42d2ae694823",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+          "status": 200,
+          "bytes": 99926,
+          "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-480.webp",
+          "status": 200,
+          "bytes": 26716,
+          "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-800.webp",
+          "status": 200,
+          "bytes": 62618,
+          "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-1200.webp",
+          "status": 200,
+          "bytes": 132200,
+          "sha256": "5b03187234ebe50dcb62c805a3b171dc61ffb09944d8cf199420aabbadda749a",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-480.webp",
+          "status": 200,
+          "bytes": 28254,
+          "sha256": "67721e4a1f6f67499e182e1f17567ff686cca51356532f8a7b83d637afa5943e",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-800.webp",
+          "status": 200,
+          "bytes": 70304,
+          "sha256": "77a60b78209382ec0cccb31f81b581419a729f8946a2f99f4d9c1f198fd96383",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/540c8d78c7d9/feature-driver-1200.webp",
+          "status": 200,
+          "bytes": 35706,
+          "sha256": "79914c019ad48a3abef30e4ae9bd5470eaf065de2decb8f68e3cc95df1fcabf1",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/540c8d78c7d9/feature-driver-480.webp",
+          "status": 200,
+          "bytes": 12366,
+          "sha256": "dd64ff73314776910fa09ab318d464e6b338fa1b16914cf0fee8acadd017dfa8",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/540c8d78c7d9/feature-driver-800.webp",
+          "status": 200,
+          "bytes": 23166,
+          "sha256": "8e4f01ae714aa6e0831a4bcbaeb308831703d9d2a5b23d0b78385b25bfac6011",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+          "status": 200,
+          "bytes": 43596,
+          "sha256": "db0ff1811aed2490683588c9bea0f08b8a4e9c22c82bed2c56b9c9ee3bb47417",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/726ed6602c0d/feature-helicopter-480.webp",
+          "status": 200,
+          "bytes": 13798,
+          "sha256": "334bbfeb93703785ab7e54da142093e4662bede32e9c16cf28b855238b0c96e4",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/726ed6602c0d/feature-helicopter-800.webp",
+          "status": 200,
+          "bytes": 27880,
+          "sha256": "3e9436a04ff52680fd0f6fbbfbecc49057d1ecee61a5ced6101ffa9fa4dcbf2f",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-1200.webp",
+          "status": 200,
+          "bytes": 51110,
+          "sha256": "f81c43086bdf633909d5522e20d74db6dad013e39e5eb039351c926450270771",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-480.webp",
+          "status": 200,
+          "bytes": 17104,
+          "sha256": "65e638c54352d3417858a9625f9bc8094a524af6a7ff3b6ffbfba52be08f2e49",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-800.webp",
+          "status": 200,
+          "bytes": 34622,
+          "sha256": "f2645efb3e758ce131d003802eff2c4ff34c71a82738fac6242cb662b0362583",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/abb7056006fb/trailer-1200.webp",
+          "status": 200,
+          "bytes": 91894,
+          "sha256": "c78c796d712d4cd7a8ce42b4c15ca708ca04a0eaa1809658d1c4d10078f8e456",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/abb7056006fb/trailer-480.webp",
+          "status": 200,
+          "bytes": 23954,
+          "sha256": "0b2581f41a987a66425e04a7facf0c9cd7a1df0f4156948b7b674890f8b4c1b4",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/abb7056006fb/trailer-800.webp",
+          "status": 200,
+          "bytes": 57424,
+          "sha256": "88b0f3a603788bf56175600b6beabe95feeb88e6dd39825015ea955a361f4592",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-1200.webp",
+          "status": 200,
+          "bytes": 51282,
+          "sha256": "a214defe4eabffdc9ee37d81e400c47a42c23cc08e6ebac3f6aa88e7e5860e10",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-480.webp",
+          "status": 200,
+          "bytes": 18834,
+          "sha256": "4233d532d0c6a13f7af9df721ce7290de5fa790b8e683e8811b86d941e054dbd",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-800.webp",
+          "status": 200,
+          "bytes": 36354,
+          "sha256": "b21e566773f614eff278fc031fc2ac9eb28924d47630fdf075490fc6b75a9cd5",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+          "status": 200,
+          "bytes": 81668,
+          "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+          "status": 200,
+          "bytes": 25098,
+          "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+          "status": 200,
+          "bytes": 55436,
+          "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+          "release_identical": true
+        }
+      ],
+      "errors": [],
+      "method": "Live public HTTPS, inherited managed proxy and CA trust; normal canonical URLs without cache-busting. Full article HTML and resources compared to tested release, with only the exact documented Cloudflare edge beacon excluded from HTML byte comparison.",
+      "documented_edge_injection": {
+        "provider": "Cloudflare Pages Web Analytics",
+        "sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+        "bytes": 367,
+        "treatment": "Only one exact pinned tag plus newline immediately before closing body may be removed for comparison. Site content, metadata and all other scripts remain unchanged.",
+        "pages": [
+          {
+            "path": "/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+            "raw_public_sha256": "c4531c5e355eb6d82a76b661e642df129f01cf826b09a5cedec6d103e2eb07dc",
+            "release_sha256": "2e9a9a94c3149ac7efbec23a13edfb15188759817cd988bcb4e5fe71a5b61389",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/gta-6-take-two-q2-2027-results-outlook/",
+            "raw_public_sha256": "e84a51912d2f871e5a03cc7299f70396f4719b1bae83a050782877319a7d8b0f",
+            "release_sha256": "dda47daabd37b4f23aadca39e957c8f8b8f13324bb562a838470acb6a5f61ca7",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+            "raw_public_sha256": "689831f190a86aac58ffdb4747a923b7dc0a48fd228b03bb1d44e367c3e1d4e7",
+            "release_sha256": "534d34d238937b7d593f112f6bdc04a7c06dcf0d6d583eb9fc39cac86f6ef70a",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+            "raw_public_sha256": "388a4a3ec77d8c80ed9513e27b0305879dd886e58c22aa819e6ab90ea5b68dce",
+            "release_sha256": "4dd337df7ff9a681a7f823d17454ea427e929983f14326e22467827b28a4b3a3",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+            "raw_public_sha256": "d5d0020c2fec6d8c3b29b9b614f1a22ef406a048d9de39ba3fc61699eac41af7",
+            "release_sha256": "819a0c286029f3d730b839952794759a4913c61ad416db2e5b597e783fa563d9",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/",
+            "raw_public_sha256": "76016d81192a6574f60aa77b7c95bd28c4dc0517f6a5c57ba90613d1a3daa58f",
+            "release_sha256": "330e8908a98c39e743d2006655ad0c8768c6b0508633f0f039b2680c09736f5a",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+            "raw_public_sha256": "0c5cad5380032ec9ad225e7806617a88a646146016a38d502a5aefd1327bf5f2",
+            "release_sha256": "47283b5d3c6824fbde7dcf166504a452d3c10c6da99e10ff2c98dad49d1b487b",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+            "raw_public_sha256": "7117f24015173f1a9bdec58b41e8aac4bd884c765dd55dfed50fe1b7b4dba23b",
+            "release_sha256": "dad3cb7accf27bedb6d58429ded7b8d0e6db27becb272c4e33c0a2c82581df10",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+            "raw_public_sha256": "d7a65e238ba519f0bdd8c04905f9f7114b831d351bfeab87c487211982453cd4",
+            "release_sha256": "6a5d19d96582c494d2466376e6c94bb8127634a3b4421c2285e95d71b6ab9502",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+            "raw_public_sha256": "754e52e45175ec1a30741cbde9882cc34cad7bd528ab4d2dd56812560b43c71a",
+            "release_sha256": "9f83dac22f1d492a3f8e55bb4e412b2adb0700a0722cc31293578a50f1037724",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+            "raw_public_sha256": "192af07a3fa0bc0fdc146394c2e632fd57b7d349706e270364eafe3f5c77b2c9",
+            "release_sha256": "398d220d4af7cc0d35ee1131ce50407b26632edf616a3836d7b79685f989ceed",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+            "raw_public_sha256": "15dbe6385f49aaa71b21eeb537c06b40d8bca855713e2be78eeff014a6ca081e",
+            "release_sha256": "b4a7804524019f4b68c931277ba91223f2af75483b748b1815107691e93b8886",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+            "raw_public_sha256": "be8dcab40aad6489cd7db7e6bba93fb2f0c669514404eacbd2e98eb6fdcf3afd",
+            "release_sha256": "9b4596a065291d041979ad9c97814827e4426e9a50def3dd141a253472c4291c",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+            "raw_public_sha256": "b3de7553ac7fa17e9f3b7814e1613c6cf2cf6275e579b61e932219223f5d157c",
+            "release_sha256": "05291b685c78b3cd3d0e8504c21c26fcc230c1b739f6214341441ff5a7ad63cb",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+            "raw_public_sha256": "fb926157b2634369fef4fe7196f3aba4b2a5411eb28807ad3bba09777397c9f8",
+            "release_sha256": "c1afbd70c06d0987670248ea9768aec53dd5fb458714a0e892f7abe3f911ebbb",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/",
+            "raw_public_sha256": "68ea6eab76bfce0e6471d7e29f7909d6c7a6828c3abb4aa3da3d2ba2178219b4",
+            "release_sha256": "2f3cc5c4ae19fa425d038288f6a7a53b9b3be9f8d99a394cac6844837549c66a",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/",
+            "raw_public_sha256": "e664837c696a7286f327ea32acd08f4b7c82afd7bca530239c54aaeaf01a746e",
+            "release_sha256": "008ff814ca1dfa0cc7f539ee2b96ad5cb988940df58d4b40f8c90df8a3c4e76d",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/",
+            "raw_public_sha256": "fb97cfe4a38e984781a182fd3cba842f5c49f67a46b6bc5191390dc98e3671e2",
+            "release_sha256": "13e4e1b99f3f7ce157fb1957561777f4e0e63d7da8236c3335891c3192a1e556",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/",
+            "raw_public_sha256": "c44ca3677f839a9138774b79af0cbd1f2bbbd5dabe89e2473f07132f0b9db753",
+            "release_sha256": "b4ad11e6cff06a2981315a5aebc324cf29bf74affa789a4936608c1f2f199e46",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/",
+            "raw_public_sha256": "5d3050cd2d15d870735e703617194f54ec0b6d00b4ab9c23dfe61e8312b0abf0",
+            "release_sha256": "301b55f120454558150c61f0594a65c4a69294b98f634e4d5676b440ec564ef3",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/",
+            "raw_public_sha256": "c52bf4c2e4c99adaee94930584a86dcba9739e6cbc7cf8f14cb7fad1027073c8",
+            "release_sha256": "d48dfb11f4af227f0f302498b146149ff831baeae2d3f15a9fa8afe6fecd8ffe",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/",
+            "raw_public_sha256": "1730168bd5073906d659da13af2fda013b79ed1fd6158a346ea66fc0fecc33e5",
+            "release_sha256": "3dd25de7f41db4be9fe3b6ba19dfb80781958c9895f41b3c58be0c26a2d03af0",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/",
+            "raw_public_sha256": "55406a6934fb1f1e1c6c45c2bf8f207506faeba4f9154b6f5efc4a5129da1bd3",
+            "release_sha256": "5eb59df5f33b5852a0a06ab513a0b247bd579e51e8d36cc44239792d6d86b8c8",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/",
+            "raw_public_sha256": "9ac4fe26550e596c31498a3f46a3bc184c70e907cccd37b11bf959a596ebec4e",
+            "release_sha256": "de7743037c89ea3c1225d540acd6c9abf43f1b54943da0bf50ecdb46adeb2273",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-android-iphone-apk-remote-play/",
+            "raw_public_sha256": "88ceebb71d772bf4553b041358e12ddba94ab7d3b42fd982217b7b9f6d9ea20a",
+            "release_sha256": "b6bb939f2d7f2ffb40fa521d403b644f2bba395043bf11574603935e325996d7",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-home-xbox-game-sharing-licences/",
+            "raw_public_sha256": "4ff224ea74836ea5f95da52e0191bdb097c7d2f36c0c8bf273d9f08014f0ac7e",
+            "release_sha256": "d1fa24cac58cd11f19cf26fb00d72153e5c49abf21807e6bec99f5712d9cbd84",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-preload-date-time-consoles/",
+            "raw_public_sha256": "0e14040bc106eb224c804a2a26fa6a73231ee59b71b106b1455e04e1e8b5c978",
+            "release_sha256": "d47ff499a671a3f25d28a5393fdaf935f23a6256e22f70ce9b0ab22da3c1e694",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+            "raw_public_sha256": "6a6076e80347ff22e209a863dd6151c9ca7e7ee40d37d9e5d9934c586d6fa9b3",
+            "release_sha256": "d9d5de8d122afb13596d6b406261de9228f4264c6d778f54773d3b1699fc9e28",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-ps5-padlock-restore-licences/",
+            "raw_public_sha256": "3983fd9fd32bc0a26d3c83df489748c5997b4192a08bf6340eb359190831a71a",
+            "release_sha256": "569bdd66d3ee31cb38845e67c54e28c8bb96177f5073400b4aef683e3c1deba0",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-ps5-save-data-cloud-backup-guide/",
+            "raw_public_sha256": "97722ccca5e801f9b22a43eafff79461ad005e8f9373a5690aeafaac81d24a55",
+            "release_sha256": "f378adf552357d2408f0c2c08ec7c2d9f94863c0cd5451f338fc54bc03a2f116",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-trailer-songs-tom-petty-pointer-sisters/",
+            "raw_public_sha256": "f35bf80f85cba5422f97cfeb448a124acba0d7cf3df207e2632bdac485eb980d",
+            "release_sha256": "2a3e50b9da41f24adde8fef94290f395c9d03097a7e4b969693d90d78c123870",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+            "raw_public_sha256": "d65b0b6d8a80c1444adc52d824ab2f804c1c4a5af97b0d0e1879f62882c00e8d",
+            "release_sha256": "967e69c1aa0401937c5c64420351bac3b621d1e15c2d1dadb5e78fa372b31a4b",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/gta-6-album-34-tracks/",
+            "raw_public_sha256": "f57be4f4cf28935a5e9d4012710b1543d78bc6bdc25bf938024d093f5188f203",
+            "release_sha256": "b7451500a072372e9c4a5cf33fd30427699516fe9358ad84673ff13829e4b3ac",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/gta-6-justice-original-score-december-11-pusher/",
+            "raw_public_sha256": "f4bc5b134ebe9bed3e857b6e83d18393ae5fcb9108170d468edc551f481c484e",
+            "release_sha256": "29d8e4c07b08950b6622378a10310150fd19df0e4adc71eb4cfcdb2d1cff47f6",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/gta-6-preorders-751-million-sensor-tower-estimate/",
+            "raw_public_sha256": "a2922b67e445d57d3625c221d7021f7c91b85a919ae45007b83a428ecee0751d",
+            "release_sha256": "9a58c1558239f26318a560acdfb8b033b1ae8195f58215deb07c1de20cd65c5f",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/take-two-november-9-earnings-gta-6/",
+            "raw_public_sha256": "5ed69a8ad246d5d006a28dc628bdb118b2a220d95346126b908808237fc9996a",
+            "release_sha256": "df8406f27338a33fbb7ec5dafddd0756ca535cbd00206f4189e3b3204070721d",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-android-iphone-apk-remote-play/",
+            "raw_public_sha256": "2183242191176a183730e2b8677b21cf7e05cd9ad3240c9fd1b906ec85e07153",
+            "release_sha256": "bd73dc12338a619e39adcd076aa3c547acc051c09e7852bdc4133f46b260686c",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-canciones-trailers-tom-petty-pointer-sisters/",
+            "raw_public_sha256": "68f4077c5207c874075e105ff63ce2dbd763acd509faff11b084bd18ce1514d4",
+            "release_sha256": "d6ae59dd2cd64b264a6b46786c00320eb46a91f2e22d21500d4e842730e45022",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+            "raw_public_sha256": "0197abb4de94d29dd8951d587358f4d5c4fa0e21ec5d359ef9b521d9bbf49138",
+            "release_sha256": "b9d2e7a6f4acb90f265984a515fd76e21b306114bc814afe58f3d0f594383123",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-compartir-xbox-principal-licencias/",
+            "raw_public_sha256": "04c52ee97153145e2f7ed3e448a3742b9e9fb529fee91f60f56e72699f8a4101",
+            "release_sha256": "6d82212e939187733fb6cfaef6ca69fe5c59ee68eb315fb475051a1167b3c33c",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+            "raw_public_sha256": "08b22123d9fd5afb20fd051d4d2d253a92d4092e423d026ab31ad6f7d1852bb0",
+            "release_sha256": "e960c5f22045839aec685ccaa06cdadbaaae873fda04888545ab2792fd1d8b85",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+            "raw_public_sha256": "2e562b888fa65d743d9336aa19a0c6d432b9db8ffd15d87f90f118c89cc5598e",
+            "release_sha256": "f819e445676fcf4a28b50b77f67c63dbdc401fa165f520b0552ee8cc045bf1b6",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+            "raw_public_sha256": "0d47085f1fe7bd83bd6827faab1a384beec645b28ff637c91a843341835b751f",
+            "release_sha256": "8b536346b9abb57085e84e17bfc1c4a683ae7618355c572e89d6108d9517548d",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+            "raw_public_sha256": "c42a4b0313f64cd8c1a956e3ae071c73ea1dd7374e5be76f630c6353d896c450",
+            "release_sha256": "53af68317ad57bbd5d75cdc558b125b051439f0f8fe6508be7d36edb89c07e95",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/gta-6-album-34-tracks/",
+            "raw_public_sha256": "b82e752449ae1d085da7cd49e722029aa0d76e005de1a120a6ed419481c776f1",
+            "release_sha256": "b70f596988dcfc3bbb3143dc613a71df4917fa2129768540ce42fd015e9e542c",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/gta-6-justice-musica-original-11-diciembre-pusher/",
+            "raw_public_sha256": "56a49d44526c8545b1d2b92568ac9b1d8d183cd94a6d2554aaa8b39ef2c7a3a3",
+            "release_sha256": "d6258f459a47780605fd553b84bbaffd48c055f89cbb392f4450f378f8820ed2",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/gta-6-reservas-751-millones-estimacion-sensor-tower/",
+            "raw_public_sha256": "5f3db53fb151dc2235607efb1172a284ab341fa580eb517eb7c9aca4f3a8ff9f",
+            "release_sha256": "d5784ad9242d0cb2d3a4a03e32c86ae6a6c986acef49cf03abff98fc71ecfe9b",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/take-two-resultados-9-noviembre-gta-6/",
+            "raw_public_sha256": "cb586973e7c28a8d9a258e9f7d721d4856f07dd8d4dc3e809087491279eed512",
+            "release_sha256": "ac11d73c95ae6ca37964de16ffbf1c9279bc4ec483d9ee85492ac3001fbe5053",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/gta-6-album-34-tracks/",
+            "raw_public_sha256": "da3f17f4fccaea3c3c1f35c91112d2d56edcc79cca663b4293162f634ce7102d",
+            "release_sha256": "ffad80e0251b1f80c3f8742bec53ae520bb4ce6db6b9af4437fdac793e8dab00",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/gta-6-justice-musique-originale-11-decembre-pusher/",
+            "raw_public_sha256": "d2f86250b4526282710f8554916942285b5b7bc26fdae01960ef4d0564e81d9d",
+            "release_sha256": "7ddb0339ac02b8c35ceb82a8f9e84b35d9a52041911c40abe039aa11bdac7a96",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/gta-6-precommandes-751-millions-estimation-sensor-tower/",
+            "raw_public_sha256": "e87364086f82db7c0ead0777a64b48c308665b91ba911e99a4f55f67b277e437",
+            "release_sha256": "947bf81ea1010890a5b2a04689395554415d60d16cbb694b979ffe18cf0228e0",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/take-two-resultats-9-novembre-gta-6/",
+            "raw_public_sha256": "2efbd63f632d43c3ac569ab8ad38743e8360f828654d651df762a0c1bf923d35",
+            "release_sha256": "0837ccc371aac041002fa2c1db1fde9b9692d0113c58b305e80b22c7b2f247a3",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+            "raw_public_sha256": "efed3a59edb28a82979307aba321c3e67ebf65c2ad33b261be878bd78989583d",
+            "release_sha256": "8dd1b1fc24f5a4e73b37efed152f085817e6fb32d9f48f094aa9832e46671a37",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-cadenas-ps5-restaurer-licences/",
+            "raw_public_sha256": "676533c578dbb54b1b3e2bd70f7522261767fc520e4e00370bb6ea8e8851b470",
+            "release_sha256": "9bd6453013d8aae2f45713fa3ca1b68b698af79b044f6e0e8900ec6439e8259f",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-musiques-bandes-annonces-tom-petty-pointer-sisters/",
+            "raw_public_sha256": "40e75e9c1b9f85e3435930d3282d9a24dcc3d01eda089595c69e2ed487f25a14",
+            "release_sha256": "a132d4777751ea69b795669ee0c102ad05dd255c8934d6748435aee769501551",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-partage-xbox-principale-licences/",
+            "raw_public_sha256": "976d42c8adfe04655f47aa68e8dccb83b820bd6ac8fbf773430947310489536a",
+            "release_sha256": "465ddfea9fcbc574b8f70e8d7ab212e451826ddf3af400f6f4c8f80d0869655e",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-ps5-sauvegardes-copie-securite-cloud/",
+            "raw_public_sha256": "af7121a96f896ccdfbd48f7aa940948ac4ed9d31fca8567d6f5c9b4bc5d06e57",
+            "release_sha256": "ff3a04da250e8697592b2020a5568140534997d53106765e034f044269863fdd",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/",
+            "raw_public_sha256": "694130a06a917184e3eb151db6eba1b27078d154feaba06fce618d0d5f7033f2",
+            "release_sha256": "827cca3e6c31c6301906fc080659abbe9d42c522ec60f23a45e640c8537c05b2",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+            "raw_public_sha256": "58e7b83f16b4243d0f3c50e312b95a3629d4563811ffa127fcc23e044dde3014",
+            "release_sha256": "aa5535b814f793e1c9bf7b7dc407a1ff10a6c81f7331c907461de8ad2f242be3",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/prechargement-gta-6-date-heure-consoles/",
+            "raw_public_sha256": "3c6e4ec07bb3b4382eb23f256142fefcb9bf1038521e0c20ce9e0181ceedaa45",
+            "release_sha256": "c38b48c152d3de85ccb07fad11e0da3e870c31f92fa14a41186dc1b8d53e9a94",
+            "normalized_html_identical": true
+          }
+        ]
+      },
+      "sitemap": {
+        "canonical_urls": 627,
+        "all_15_new_urls_present": true,
+        "lastmod_correct": true,
+        "release_identical": true
+      },
+      "robots_release_identical": true,
+      "ads_txt_release_identical": true,
+      "counts": {
+        "article_urls": 15,
+        "discovery_pages": 9,
+        "internal_links": 36,
+        "resources": 37,
+        "errors": 0
+      }
+    },
+    "browser": {
+      "verified_at_utc": "2026-11-11T18:57:26.647134+00:00",
+      "method": "Three successful mobile contexts from the initial public run plus three successful desktop reruns. All site resources are live HTTPS with inherited proxy/CA trust. Desktop rerun covers categories and the five articles, without revisiting the homepage. The environment proxy denies the existing homepage YouTube thumbnail; its browser delivery remains unverified. No proxy bypass, ignored TLS errors or fabricated image response. Only advertising/Analytics SDKs use deterministic empty fixtures.",
+      "counts": {
+        "contexts": 6,
+        "article_pages": 30,
+        "editorial_images_decoded": 90,
+        "hero_images_decoded": 3,
+        "language_navigations": 30,
+        "screenshots": 10,
+        "pages": 78
+      },
+      "checks": [
+        {
+          "locale": "es",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/es/",
+              "kind": "home",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/",
+              "kind": "home",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-take-two-q2-2027-results-outlook/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-take-two-q2-results-20261111"
+            },
+            {
+              "path": "/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+            },
+            {
+              "path": "/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ipsos-purchase-intent-20261111"
+            },
+            {
+              "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-app-remote-install-20261111"
+            },
+            {
+              "path": "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-data-transfer-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-take-two-q2-results-20261111",
+            "gta6-tove-lo-blood-in-your-eyes-20261111",
+            "gta6-ipsos-purchase-intent-20261111",
+            "gta6-xbox-app-remote-install-20261111",
+            "gta6-ps5-pro-data-transfer-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 15,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 5,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "en",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/en/",
+              "kind": "home",
+              "status": 200
+            },
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/",
+              "kind": "home",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-take-two-q2-2027-results-outlook/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-take-two-q2-results-20261111"
+            },
+            {
+              "path": "/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+            },
+            {
+              "path": "/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ipsos-purchase-intent-20261111"
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-app-remote-install-20261111"
+            },
+            {
+              "path": "/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-data-transfer-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-take-two-q2-results-20261111",
+            "gta6-tove-lo-blood-in-your-eyes-20261111",
+            "gta6-ipsos-purchase-intent-20261111",
+            "gta6-xbox-app-remote-install-20261111",
+            "gta6-ps5-pro-data-transfer-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 15,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 5,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "fr",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/fr/",
+              "kind": "home",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/",
+              "kind": "home",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-take-two-q2-results-20261111"
+            },
+            {
+              "path": "/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+            },
+            {
+              "path": "/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ipsos-purchase-intent-20261111"
+            },
+            {
+              "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-app-remote-install-20261111"
+            },
+            {
+              "path": "/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-data-transfer-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-take-two-q2-results-20261111",
+            "gta6-tove-lo-blood-in-your-eyes-20261111",
+            "gta6-ipsos-purchase-intent-20261111",
+            "gta6-xbox-app-remote-install-20261111",
+            "gta6-ps5-pro-data-transfer-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 15,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 5,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "es",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-take-two-q2-2027-results-outlook/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-take-two-q2-results-20261111"
+            },
+            {
+              "path": "/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+            },
+            {
+              "path": "/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ipsos-purchase-intent-20261111"
+            },
+            {
+              "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-app-remote-install-20261111"
+            },
+            {
+              "path": "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-data-transfer-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-take-two-q2-results-20261111",
+            "gta6-tove-lo-blood-in-your-eyes-20261111",
+            "gta6-ipsos-purchase-intent-20261111",
+            "gta6-xbox-app-remote-install-20261111",
+            "gta6-ps5-pro-data-transfer-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 15,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 5,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "en",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-take-two-q2-2027-results-outlook/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-take-two-q2-results-20261111"
+            },
+            {
+              "path": "/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+            },
+            {
+              "path": "/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ipsos-purchase-intent-20261111"
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-app-remote-install-20261111"
+            },
+            {
+              "path": "/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-data-transfer-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-take-two-q2-results-20261111",
+            "gta6-tove-lo-blood-in-your-eyes-20261111",
+            "gta6-ipsos-purchase-intent-20261111",
+            "gta6-xbox-app-remote-install-20261111",
+            "gta6-ps5-pro-data-transfer-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 15,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 5,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "fr",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-take-two-q2-results-20261111"
+            },
+            {
+              "path": "/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+            },
+            {
+              "path": "/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ipsos-purchase-intent-20261111"
+            },
+            {
+              "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-app-remote-install-20261111"
+            },
+            {
+              "path": "/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+              "kind": "article",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-data-transfer-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-take-two-q2-results-20261111",
+            "gta6-tove-lo-blood-in-your-eyes-20261111",
+            "gta6-ipsos-purchase-intent-20261111",
+            "gta6-xbox-app-remote-install-20261111",
+            "gta6-ps5-pro-data-transfer-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 15,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 5,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        }
+      ],
+      "errors": [],
+      "initial_attempt": {
+        "counts": {
+          "contexts": 6,
+          "pages": 84,
+          "article_pages": 30,
+          "editorial_images_decoded": 90,
+          "hero_images_decoded": 6,
+          "language_navigations": 30,
+          "screenshots": 10
+        },
+        "successful_mobile_contexts": 3,
+        "desktop_console_failures": [
+          {
+            "locale": "es",
+            "width": 1440,
+            "article": "gta6-ps5-pro-data-transfer-20261111",
+            "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED',\n+   'Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED'\n+ ]\n- []\n",
+            "JS_errors": [],
+            "console_errors": [
+              "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+              "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+            ],
+            "analytics_requests": [],
+            "pages": [
+              {
+                "path": "/es/",
+                "kind": "home",
+                "status": 200
+              },
+              {
+                "path": "/es/noticias/",
+                "kind": "category",
+                "status": 200,
+                "via_link": true
+              },
+              {
+                "path": "/es/",
+                "kind": "home",
+                "status": 200
+              },
+              {
+                "path": "/es/guias/",
+                "kind": "category",
+                "status": 200,
+                "via_link": true
+              },
+              {
+                "path": "/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/en/news/gta-6-take-two-q2-2027-results-outlook/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-take-two-q2-results-20261111"
+              },
+              {
+                "path": "/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+              },
+              {
+                "path": "/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-ipsos-purchase-intent-20261111"
+              },
+              {
+                "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-xbox-app-remote-install-20261111"
+              },
+              {
+                "path": "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-ps5-pro-data-transfer-20261111"
+              }
+            ]
+          },
+          {
+            "locale": "en",
+            "width": 1440,
+            "article": "gta6-ps5-pro-data-transfer-20261111",
+            "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED',\n+   'Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED'\n+ ]\n- []\n",
+            "JS_errors": [],
+            "console_errors": [
+              "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+              "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+            ],
+            "analytics_requests": [],
+            "pages": [
+              {
+                "path": "/en/",
+                "kind": "home",
+                "status": 200
+              },
+              {
+                "path": "/en/news/",
+                "kind": "category",
+                "status": 200,
+                "via_link": true
+              },
+              {
+                "path": "/en/",
+                "kind": "home",
+                "status": 200
+              },
+              {
+                "path": "/en/guides/",
+                "kind": "category",
+                "status": 200,
+                "via_link": true
+              },
+              {
+                "path": "/en/news/gta-6-take-two-q2-2027-results-outlook/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-take-two-q2-results-20261111"
+              },
+              {
+                "path": "/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+              },
+              {
+                "path": "/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-ipsos-purchase-intent-20261111"
+              },
+              {
+                "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-xbox-app-remote-install-20261111"
+              },
+              {
+                "path": "/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-ps5-pro-data-transfer-20261111"
+              }
+            ]
+          },
+          {
+            "locale": "fr",
+            "width": 1440,
+            "article": "gta6-ps5-pro-data-transfer-20261111",
+            "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED',\n+   'Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED'\n+ ]\n- []\n",
+            "JS_errors": [],
+            "console_errors": [
+              "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+              "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+            ],
+            "analytics_requests": [],
+            "pages": [
+              {
+                "path": "/fr/",
+                "kind": "home",
+                "status": 200
+              },
+              {
+                "path": "/fr/actualites/",
+                "kind": "category",
+                "status": 200,
+                "via_link": true
+              },
+              {
+                "path": "/fr/",
+                "kind": "home",
+                "status": 200
+              },
+              {
+                "path": "/fr/guides/",
+                "kind": "category",
+                "status": 200,
+                "via_link": true
+              },
+              {
+                "path": "/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-take-two-q2-results-20261111"
+              },
+              {
+                "path": "/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-tove-lo-blood-in-your-eyes-20261111"
+              },
+              {
+                "path": "/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-ipsos-purchase-intent-20261111"
+              },
+              {
+                "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-xbox-app-remote-install-20261111"
+              },
+              {
+                "path": "/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+                "kind": "article",
+                "status": 200
+              },
+              {
+                "path": "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+                "kind": "language_navigation",
+                "status": 200,
+                "article": "gta6-ps5-pro-data-transfer-20261111"
+              }
+            ]
+          }
+        ],
+        "diagnostic": {
+          "checked_at_utc": "2026-11-11T18:54:21.841Z",
+          "method": "Desktop1440 ES, actual production responses through the existing managed proxy with TLS verification; advertising/Analytics SDK fixtures unchanged; no website mutations.",
+          "console": [
+            {
+              "at": "2026-11-11T18:54:15.714Z",
+              "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+              "location": {
+                "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/sddefault.jpg",
+                "line": 0,
+                "column": 0,
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              "page": "https://fansgta.com/es/"
+            },
+            {
+              "at": "2026-11-11T18:54:19.061Z",
+              "text": "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+              "location": {
+                "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/sddefault.jpg",
+                "line": 0,
+                "column": 0,
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              "page": "https://fansgta.com/es/"
+            }
+          ],
+          "requests_failed": [
+            {
+              "at": "2026-11-11T18:54:15.714Z",
+              "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/sddefault.jpg",
+              "method": "GET",
+              "type": "image",
+              "failure": {
+                "errorText": "net::ERR_TUNNEL_CONNECTION_FAILED"
+              },
+              "frame": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0?rel=0",
+              "page": "https://fansgta.com/es/"
+            },
+            {
+              "at": "2026-11-11T18:54:19.061Z",
+              "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/sddefault.jpg",
+              "method": "GET",
+              "type": "image",
+              "failure": {
+                "errorText": "net::ERR_TUNNEL_CONNECTION_FAILED"
+              },
+              "frame": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0?rel=0",
+              "page": "https://fansgta.com/es/"
+            }
+          ],
+          "error_responses": [],
+          "frame_events": [
+            {
+              "at": "2026-11-11T18:54:14.114Z",
+              "url": "https://fansgta.com/es/",
+              "main": true,
+              "page": "https://fansgta.com/es/"
+            },
+            {
+              "at": "2026-11-11T18:54:14.749Z",
+              "url": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0?rel=0",
+              "main": false,
+              "page": "https://fansgta.com/es/"
+            },
+            {
+              "at": "2026-11-11T18:54:15.518Z",
+              "url": "about:blank",
+              "main": false,
+              "page": "https://fansgta.com/es/"
+            },
+            {
+              "at": "2026-11-11T18:54:16.891Z",
+              "url": "https://fansgta.com/es/noticias/",
+              "main": true,
+              "page": "https://fansgta.com/es/noticias/"
+            },
+            {
+              "at": "2026-11-11T18:54:17.916Z",
+              "url": "https://fansgta.com/es/",
+              "main": true,
+              "page": "https://fansgta.com/es/"
+            },
+            {
+              "at": "2026-11-11T18:54:18.304Z",
+              "url": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0?rel=0",
+              "main": false,
+              "page": "https://fansgta.com/es/"
+            },
+            {
+              "at": "2026-11-11T18:54:18.916Z",
+              "url": "about:blank",
+              "main": false,
+              "page": "https://fansgta.com/es/"
+            },
+            {
+              "at": "2026-11-11T18:54:20.017Z",
+              "url": "https://fansgta.com/es/guias/",
+              "main": true,
+              "page": "https://fansgta.com/es/guias/"
+            },
+            {
+              "at": "2026-11-11T18:54:21.079Z",
+              "url": "https://fansgta.com/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+              "main": true,
+              "page": "https://fansgta.com/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/"
+            }
+          ],
+          "visits": [
+            {
+              "path": "/es/",
+              "status": 200,
+              "frames": [
+                {
+                  "url": "https://fansgta.com/es/",
+                  "name": "",
+                  "parent": null
+                },
+                {
+                  "url": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0?rel=0",
+                  "name": "",
+                  "parent": "https://fansgta.com/es/"
+                }
+              ],
+              "iframes": [
+                {
+                  "src": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0?rel=0",
+                  "title": "GTA VI · Primer tráiler oficial",
+                  "id": "",
+                  "name": "",
+                  "loading": "lazy",
+                  "rect": {
+                    "top": 3444.390625,
+                    "left": 675,
+                    "width": 520,
+                    "height": 292.5
+                  }
+                }
+              ],
+              "console_errors_so_far": 1,
+              "failed_requests_so_far": 1
+            },
+            {
+              "path": "/es/noticias/",
+              "status": 200,
+              "frames": [
+                {
+                  "url": "https://fansgta.com/es/noticias/",
+                  "name": "",
+                  "parent": null
+                }
+              ],
+              "iframes": [],
+              "console_errors_so_far": 1,
+              "failed_requests_so_far": 1
+            },
+            {
+              "path": "/es/",
+              "status": 200,
+              "frames": [
+                {
+                  "url": "https://fansgta.com/es/",
+                  "name": "",
+                  "parent": null
+                },
+                {
+                  "url": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0?rel=0",
+                  "name": "",
+                  "parent": "https://fansgta.com/es/"
+                }
+              ],
+              "iframes": [
+                {
+                  "src": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0?rel=0",
+                  "title": "GTA VI · Primer tráiler oficial",
+                  "id": "",
+                  "name": "",
+                  "loading": "lazy",
+                  "rect": {
+                    "top": 3444.390625,
+                    "left": 675,
+                    "width": 520,
+                    "height": 292.5
+                  }
+                }
+              ],
+              "console_errors_so_far": 2,
+              "failed_requests_so_far": 2
+            },
+            {
+              "path": "/es/guias/",
+              "status": 200,
+              "frames": [
+                {
+                  "url": "https://fansgta.com/es/guias/",
+                  "name": "",
+                  "parent": null
+                }
+              ],
+              "iframes": [],
+              "console_errors_so_far": 2,
+              "failed_requests_so_far": 2
+            },
+            {
+              "path": "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+              "status": 200,
+              "frames": [
+                {
+                  "url": "https://fansgta.com/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+                  "name": "",
+                  "parent": null
+                }
+              ],
+              "iframes": [],
+              "console_errors_so_far": 2,
+              "failed_requests_so_far": 2
+            }
+          ]
+        },
+        "proxy_access_probe": {
+          "checked_at_utc": "2026-11-11T18:54:43.664791+00:00",
+          "url": "https://i.ytimg.com/vi/QdBZY2fkU-0/sddefault.jpg",
+          "method": "Normal HTTPS GET with inherited proxy and TLS, outside sandbox",
+          "status": "000",
+          "curl_exit": 56,
+          "stderr": "curl: (56) CONNECT tunnel failed, response 403\n",
+          "headers": [
+            "HTTP/1.1 403 Forbidden",
+            "content-length: 16",
+            "content-type: text/plain",
+            "server: envoy"
+          ]
+        }
+      },
+      "desktop_rerun": {
+        "verified_at_utc": "2026-11-11T18:57:03.174Z",
+        "method": "3 desktop1440 contexts, ES/EN/FR, site JavaScript enabled: categories, five articles and a language switch for every article. Own HTTPS responses use route.fetch with the inherited managed proxy and normal CA/TLS verification. Only existing advertising/Analytics SDK fixtures are used. No homepage visits and no external YouTube thumbnail requests occur in this focused rerun. Homepage HTTP200/initial HTML was verified independently, but its external YouTube thumbnail could not be checked by this executor because the proxy rejects its CONNECT with403. The original browser report and diagnostic failure evidence are preserved; no console errors are suppressed. This test does not establish real creative delivery or monetization.",
+        "counts": {
+          "contexts": 3,
+          "pages": 36,
+          "article_pages": 15,
+          "editorial_images_decoded": 45,
+          "hero_images_decoded": 0,
+          "language_navigations": 15,
+          "screenshots": 5
+        },
+        "errors": []
+      }
+    }
+  },
   "limits": [
     "Current interest signals are not Google search volume or ranking.",
     "Neither indexing nor search positions are guaranteed.",
-    "This cloud execution does not guarantee future executor or connection availability."
+    "This cloud execution does not guarantee future executor or connection availability.",
+    "The existing homepage YouTube thumbnail could not be verified in this cloud browser because its environment proxy denies i.ytimg.com (CONNECT 403). All new article images and navigation were verified; no website changes were made for this external limitation."
   ],
   "validation_history": [
     "The first preflight preservation check compared normalized JSON with live objects containing undefined properties; it was corrected to compare normalized catalogues. No old article changed.",
     "The initial static check ran before the inventory was synchronized and reported the expected 191/196 mismatch. After refreshing inventory, all required static/SEO/editorial checks passed.",
-    "An initial build before batch JSON assembly reported the missing JSON import; the assembled release then built successfully."
-  ]
+    "An initial build before batch JSON assembly reported the missing JSON import; the assembled release then built successfully.",
+    "The first strict HTTP byte comparison detected Cloudflare Pages adding its own Web Analytics tag and one newline. After pinning exactly that 367-byte injection, all 60 verified HTML documents matched the release. No other differences were ignored; sitemap, robots, ads.txt and 37 resources matched raw bytes.",
+    "The first public browser run passed all article, image and language checks but desktop console assertions found two Chromium tunnel failures per context for the existing homepage YouTube thumbnail. The environment proxy explicitly denied that external host (CONNECT 403). No bypass was attempted. The three desktop contexts were rerun successfully against categories and the five articles, which do not embed the resource. Homepage HTML remains HTTP-verified; its external video thumbnail remains unverified in this cloud browser. No website or advertising code was changed for this."
+  ],
+  "verified_at_utc": "2026-11-11T18:57:26.647134+00:00"
 }

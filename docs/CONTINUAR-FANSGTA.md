@@ -368,4 +368,33 @@ Cinco temas nuevos con versiones completas ES/EN/FR: resultados de Take-Two, sen
 
 Inventario: 196 temas/588 versiones. Los 191 temas anteriores y sus 573 URLs quedan intactos. Cada tema nuevo incluye portada y dos imágenes oficiales existentes con alt/pies traducidos y crédito; las capturas son contexto del juego, no fotografías de los anuncios, interfaces de consola ni pruebas propias de GTA VI. Los 18 archivos protegidos y los bytes JS/CSS permanecen iguales. Diseño, publicidad, consentimiento, seguridad, caché y programación diaria conservados.
 
-Build release y controles estáticos/SEO/editoriales aprobados: 632 HTML, 28230 enlaces internos, 1238 bloques JSON-LD, 627 entradas canónicas, cero errores editoriales y 44 avisos de revisión previos. Veinticuatro pruebas locales aprobadas, incluidos 30 escenarios nuevos en móvil/escritorio con idiomas, imágenes y enlaces. SDK publicitarios simulados solo para estas comprobaciones; no acreditan entrega real de creatividades. Publicación y verificación pública pendientes en este punto; se completarán en docs/editorial/2026-11-11-five-manual-publication.json. La tanda manual no cambia el encargo diario de un tema por ejecución hasta el 19 de noviembre inclusive, America/New_York.
+Build release y controles estáticos/SEO/editoriales aprobados: 632 HTML, 28230 enlaces internos, 1238 bloques JSON-LD, 627 entradas canónicas, cero errores editoriales y 44 avisos de revisión previos. Veinticuatro pruebas locales aprobadas, incluidos 30 escenarios nuevos en móvil/escritorio con idiomas, imágenes y enlaces. SDK publicitarios simulados solo para estas comprobaciones; no acreditan entrega real de creatividades. Publicación y verificación pública completadas; evidencia en docs/editorial/2026-11-11-five-manual-publication.json. La tanda manual no cambia el encargo diario de un tema por ejecución hasta el 19 de noviembre inclusive, America/New_York.
+
+Publicación comprobada: commit a90e74ebb40e74a3963ae81ceb5418ac0e1b3500, Cloudflare 234c8240-b0e8-4fde-ad51-8433490d648b en deploy/success y canónico coincidente. Verificación HTTPS pública 2026-11-11T18:57:26.647134+00:00: las 15 versiones completas, nueve páginas de descubrimiento, 36 enlaces internos y 37 recursos correctos. Sitemap con 627 URLs y lastmod real; robots y ads.txt idénticos. Los 60 HTML comprobados coinciden tras excluir únicamente la etiqueta exacta de Web Analytics que añade Cloudflare (367 bytes); no son idénticos en bytes brutos. No se cambió esa configuración ni el código de analítica.
+
+Seis contextos públicos de artículos móvil/escritorio ES/EN/FR: 30 artículos, 90 imágenes editoriales decodificadas y 30 cambios de idioma, sin errores de JavaScript, consola ni desbordamientos en las comprobaciones finales. Los tres contextos móviles aprobaron al primer intento; los de escritorio se repitieron sobre categorías y artículos tras diagnosticar que el proxy del entorno deniega la miniatura externa de YouTube en portada (CONNECT 403). No se intentó eludirlo ni simular esa imagen. El HTML de portada está comprobado por HTTPS, pero la entrega de esa miniatura externa queda sin verificar en este navegador cloud; los artículos nuevos no la incluyen. Los SDK publicitarios siguen simulados solo en estas pruebas, por lo que no se afirma entrega real de creatividades.
+
+GTA 6 y Take-Two: resultados de Q2 2027 y previsiones
+- ES: https://fansgta.com/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/
+- EN: https://fansgta.com/en/news/gta-6-take-two-q2-2027-results-outlook/
+- FR: https://fansgta.com/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/
+
+GTA 6: Tove Lo estrena Blood In Your Eyes, dónde escucharla
+- ES: https://fansgta.com/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/
+- EN: https://fansgta.com/en/news/gta-6-tove-lo-blood-in-your-eyes-song/
+- FR: https://fansgta.com/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/
+
+GTA 6: intención de compra en la encuesta de Ipsos
+- ES: https://fansgta.com/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/
+- EN: https://fansgta.com/en/news/gta-6-ipsos-survey-uk-purchase-intent/
+- FR: https://fansgta.com/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/
+
+Cómo descargar GTA 6 desde Xbox App a tu consola: guía y límites
+- ES: https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/
+- EN: https://fansgta.com/en/guides/gta-6-xbox-app-phone-remote-install-console/
+- FR: https://fansgta.com/fr/guides/gta-6-installer-xbox-app-mobile-console/
+
+GTA 6: transferir juegos y datos de PS5 a PS5 Pro
+- ES: https://fansgta.com/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/
+- EN: https://fansgta.com/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/
+- FR: https://fansgta.com/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/

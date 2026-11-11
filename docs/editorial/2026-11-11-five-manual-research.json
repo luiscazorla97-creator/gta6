@@ -43,6 +43,18 @@
       ],
       "editorial_limits": [
         "Company-wide guidance is not GTA VI unit sales; fiscal year differs from calendar year."
+      ],
+      "interest_evidence": [
+        {
+          "url": "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+          "date": "2026-11-09",
+          "kind": "Reuters same-day results reporting, not search volume"
+        },
+        {
+          "url": "https://www.investors.com/news/technology/gta-6-launch-take-two-stock-ttwo/",
+          "date": "2026-11-11",
+          "kind": "Fresh business coverage before release, not search ranking"
+        }
       ]
     },
     {
@@ -81,6 +93,13 @@
       ],
       "editorial_limits": [
         "No lyrics or recording hosted; no invented radio, mission or cameo; no precise track length."
+      ],
+      "interest_evidence": [
+        {
+          "url": "https://stereogum.com/2517277/gta-vi-shares-new-tove-lo-song-announces-festival/news",
+          "date": "2026-11-10T13:20:00-05:00",
+          "kind": "Prensamusicalactual; ojoStereogumdiceálbum20novcontradiceprimaria19nov,usarprimaria"
+        }
       ]
     },
     {
@@ -110,6 +129,13 @@
       ],
       "editorial_limits": [
         "Retain ages, territory and familiar-with-game subgroup; intention is not purchases or a Google volume."
+      ],
+      "interest_evidence": [
+        {
+          "url": "https://www.ipsos.com/en-uk/ipsos-research-reveals-gta-vi-set-be-cultural-phenomenon-two-thirds-younger-adults-planning-buy",
+          "date": "2026-11-10",
+          "kind": "Original study; qualitative current-interest signal, not a Google volume."
+        }
       ]
     },
     {
@@ -158,6 +184,23 @@
       ],
       "editorial_limits": [
         "Specific GTA VI app flow is attributed to Pure Xbox; no own device test or invented support-shell menus; installing files grants neither licence nor early access."
+      ],
+      "interest_evidence": [
+        {
+          "url": "https://www.purexbox.com/news/2026/11/how-to-preload-gta-6-in-full-on-xbox-series-xs-even-if-you-havent-bought-it",
+          "date": "2026-11-09",
+          "evidence": "Current specialist guide; on-page poll showed 1,258 votes and article was visible at fifth in site's Most Read list at check. Site-specific snapshot only, not Google ranking."
+        },
+        {
+          "url": "https://www.reddit.com/r/XboxSupport/comments/1xt4rfi/gta_vi_remote_download_questionxbox_app/",
+          "date": "2026-11-11",
+          "evidence": "Same-day user question about remote downloading GTA VI before buying; supports usefulness, not popularity volume."
+        },
+        {
+          "url": "https://www.reddit.com/r/xbox/comments/1xs96xy/gta_6_preload_available_now/",
+          "date": "2026-11-10",
+          "evidence": "Dated Xbox preload conversation in indexed search snapshot, 681 visible votes; not a Google search metric."
+        }
       ]
     },
     {
@@ -226,6 +269,13 @@
       ],
       "editorial_limits": [
         "Sony console-level procedure, not a tested GTA VI preload migration; local transfer does not require buying a subscription."
+      ],
+      "interest_evidence": [
+        {
+          "url": "https://totalgta.com/gta-6-ps5-pro-vs-ps5-is-the-upgrade-worth-it/",
+          "date": "2026-11-10",
+          "evidence": "Current independent PS5/Pro upgrade discussion mentions migration; supports current relevance, but no claim of high Google search volume or ranking."
+        }
       ]
     }
   ],
@@ -259,7 +309,15 @@
       "lucia",
       "vice-city"
     ],
-    "checks": "Root visually inspected all six assets. Original asset and gallery URLs HTTP 200; WebP and existing responsive variants reused without editing."
+    "checks": "Root visually inspected all six assets. Original asset and gallery URLs HTTP 200; WebP and existing responsive variants reused without editing.",
+    "local_files_sha256": {
+      "feature-driver": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+      "grassrivers": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+      "jason": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+      "leonida-keys": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+      "lucia": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+      "vice-city": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016"
+    }
   },
   "external_http_check": {
     "checkedAt": "2026-11-11T18:41:08.198805+00:00",
@@ -517,9 +575,17 @@
         "content_type": "text/html;charset=utf-8",
         "bytes": 174878,
         "sha256": "07bb959e4a53528cbbbc678b597b3934c77be1469eec8944741f029c4b885864"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "content_type": "image/jpeg",
+        "bytes": 898215
       }
     ]
   },
   "preservation": "No design, advertising units/SDKs, Analytics consent, security rules, cache configuration, subscriptions, previous content or publication cadence changes.",
-  "validation_status": "Release build, static/SEO/editorial audit and 24 browser tests passed. Independent 15-version editorial review found no material blocker. Publication and public verification are recorded separately."
+  "validation_status": "Release build, static/SEO/editorial audit and 24 browser tests passed. Independent 15-version editorial review found no material blocker. Publication and public verification are recorded separately.",
+  "independent_editorial_review": "All 15 versions reviewed against primary source snapshots, existing search intents, translated facts, images and internal routes; no material blocker detected."
 }
