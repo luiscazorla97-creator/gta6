@@ -2,6 +2,7 @@ import {test,expect} from '@playwright/test';
 import {deepArticles20261029} from '../src/batches/2026-10-29-deep';
 import {articlePath} from '../src/routes';
 import {mediaPath} from '../src/media';
+import {expectResponsiveEditorialImage} from './helpers/editorial-image';
 
 test('the cloud publication batch has nine complete, indexable and linked language editions',async({request})=>{
  expect(deepArticles20261029).toHaveLength(3);
@@ -14,7 +15,7 @@ test('the cloud publication batch has nine complete, indexable and linked langua
    const html=await response.text();
    expect(html).toContain(`lang="${locale}"`);
    expect(html).toContain(`rel="canonical" href="${url}"`);
-   expect(html).toContain('content="index,follow"');
+   expect(html).toContain('content="index,follow,max-image-preview:large"');
    expect(sitemap).toContain(`<loc>${url}</loc>`);
    for(const language of ['es','en','fr'] as const)expect(html).toContain(`hreflang="${language}" href="https://fansgta.com${articlePath(language,article)}"`);
    const schemas=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match=>JSON.parse(match[1]));
@@ -45,7 +46,7 @@ for(const article of deepArticles20261029){
    for(const figure of await figures.all()){
     const img=figure.locator('img');await img.scrollIntoViewIfNeeded();
     await expect.poll(()=>img.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBe(true);
-    expect(await img.evaluate((e:HTMLImageElement)=>Number(e.getAttribute('width'))===e.naturalWidth&&Number(e.getAttribute('height'))===e.naturalHeight)).toBe(true);
+    await expectResponsiveEditorialImage(img);
     await expect(figure.locator('figcaption a')).toHaveAttribute('href','https://www.rockstargames.com/VI/media');
    }
    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);

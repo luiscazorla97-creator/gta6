@@ -8,17 +8,30 @@ import type { Locale } from '../src/content';
 
 const origin='https://fansgta.com';
 const locales:Locale[]=['es','en','fr'];
+const currentBatch=tenArticles20261028.map(original=>{
+ const current=articles.find(article=>article.id===original.id);
+ if(!current)throw new Error(`Original October28 article missing: ${original.id}`);
+ return current;
+});
 const mediaSource='https://www.rockstargames.com/VI/media';
 const credits=JSON.parse(readFileSync(new URL('../public/media/credits.json',import.meta.url),'utf8')) as Record<string,{owner:string;sourcePage:string;url:string}>;
 const policy=readFileSync(new URL('../public/_headers',import.meta.url),'utf8').match(/^\s+Content-Security-Policy:\s*(.+)$/m)?.[1];
 const escape=(text:string)=>text.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const decode=(text:string)=>text.replaceAll('&#x27;',"'").replaceAll('&#39;',"'").replaceAll('&quot;','"').replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&');
+const attr=(tag:string,name:string)=>decode(tag.match(new RegExp(`\\b${name}="([^"]*)"`,'i'))?.[1]??'');
 function creditedImage(image:string){
  const key=mediaPath(image).split('/').pop()!.replace('.webp','');
  expect(credits[key],`Missing rights/source record for ${image}`).toBeDefined();
- expect(credits[key].owner).toBe('Rockstar Games');
- expect(credits[key].sourcePage).toMatch(/^https:\/\/www\.rockstargames\.com\/VI\/media(?:\/|$)/);
- expect(credits[key].url).toMatch(/^https:\/\/(www\.)?rockstargames\.com\//);
+ if(key==='collector-box-open'||key==='collector-box-closed'){
+  expect(credits[key].owner).toBe('Rockstar Games / Take-Two Interactive');
+  expect(credits[key].sourcePage).toBe('https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection');
+  const asset=new URL(credits[key].url);
+  expect(asset.protocol).toBe('https:');expect(asset.hostname).toBe('images.ctfassets.net');expect(asset.pathname).toMatch(/^\/h1rqp7q66d54\//);
+ }else{
+  expect(credits[key].owner).toBe('Rockstar Games');
+  expect(credits[key].sourcePage).toMatch(/^https:\/\/www\.rockstargames\.com\/VI\/media(?:\/|$)/);
+  expect(credits[key].url).toMatch(/^https:\/\/(www\.)?rockstargames\.com\//);
+ }
 }
 function localReference(url:string,locale:Locale){
  const target=articles.find(article=>origin+articlePath('es',article)===url);
@@ -41,7 +54,9 @@ test('ten new topics have thirty complete localized static versions, metadata an
  expect(new Set(tenArticles20261028.map(article=>article.id)).size).toBe(10);
  const sitemap=await (await request.get('/sitemap.xml')).text();
  const paths=new Set<string>();
- for(const article of tenArticles20261028){
+ for(const article of currentBatch){
+  const original=tenArticles20261028.find(item=>item.id===article.id)!;
+  expect(article.slug).toEqual(original.slug);expect(article.category).toBe(original.category);expect(article.published).toBe(original.published);expect(article.updated>=article.published).toBe(true);
   expect(article.sections.length,article.id).toBeGreaterThanOrEqual(5);
   expect(article.sources.length,article.id).toBeGreaterThan(0);
   creditedImage(article.image);
@@ -60,7 +75,7 @@ test('ten new topics have thirty complete localized static versions, metadata an
    expect(html).toContain(`<title>${escape(article.title[index])} | FansGTA</title>`);
    expect(html).toContain(`<meta name="description" content="${escape(article.excerpt[index])}"`);
    expect(html).toContain(`rel="canonical" href="${canonical}"`);
-   expect(html).toContain('content="index,follow"');
+   expect(html).toContain('content="index,follow,max-image-preview:large"');
    for(const alternate of locales)expect(html).toContain(`hreflang="${alternate}" href="${origin+articlePath(alternate,article)}"`);
    expect(html).toContain(`hreflang="x-default" href="${origin+articlePath('es',article)}"`);
    const schemas=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match=>JSON.parse(match[1]));
@@ -72,7 +87,7 @@ test('ten new topics have thirty complete localized static versions, metadata an
    expect(schema.citation).toEqual(article.sources.map(source=>source.url));
    expect(sitemap).toContain(`<loc>${canonical}</loc>`);
    expect(html).toContain(`src="${mediaPath(article.image)}"`);
-   expect(html).toContain('GTA VI © Rockstar Games');
+   expect(html).toContain(escape(article.imageCredit?.label??'GTA VI © Rockstar Games'));
    const words=[article.excerpt[index],...article.sections.flatMap(section=>[section.heading[index],...section.paragraphs.map(paragraph=>paragraph[index])])].join(' ');
    expect(words.trim().split(/\s+/).length,`${locale}: ${article.id}`).toBeGreaterThanOrEqual(250);
    expect(words).not.toMatch(/lorem ipsum|\bTODO:|\bTBD\b|\bPLACEHOLDER\b|INSERT TEXT|texte à compléter|reemplazar este texto/i);
@@ -83,9 +98,13 @@ test('ten new topics have thirty complete localized static versions, metadata an
     for(const paragraph of section.paragraphs){expect(paragraph[index].trim()).not.toBe('');expect(decode(html)).toContain(paragraph[index]);}
     for(const reference of section.references??[])expect(html).toContain(`href="${escape(localReference(reference.url,locale))}"`);
     if(section.image){
-     expect(html).toContain(`src="${mediaPath(section.image.key)}" alt="${escape(section.image.alt[index]).replaceAll("'",'&#x27;')}" width="1600" height="900" loading="lazy"`);
+     const creditUrl=section.image.credit?.url??article.imageCredit?.url??mediaSource;
+     const imageTags=[...html.matchAll(/<img\b[^>]*>/g)].map(match=>match[0]);
+     const inline=imageTags.find(tag=>attr(tag,'src')===mediaPath(section.image!.key)&&attr(tag,'alt')===section.image!.alt[index]&&attr(tag,'loading')==='lazy');
+     expect(inline).toBeDefined();expect(Number(attr(inline!,'width'))).toBeGreaterThan(0);expect(Number(attr(inline!,'height'))).toBeGreaterThan(0);
+     expect(attr(inline!,'srcset')).toContain('/responsive/');expect(attr(inline!,'sizes')).not.toBe('');
+     expect(html).toContain(`href="${escape(creditUrl)}"`);
      expect(decode(html)).toContain(section.image.caption[index]);
-     expect(html).toContain(`href="${mediaSource}"`);
     }
    }
    for(const source of article.sources){expect(source.url).toMatch(/^https:\/\//);expect(html).toContain(`href="${escape(source.url)}"`);}
@@ -94,7 +113,7 @@ test('ten new topics have thirty complete localized static versions, metadata an
  expect(paths.size).toBe(30);
 });
 
-for(const article of tenArticles20261028){
+for(const article of currentBatch){
  test(`new topic ${article.id} keeps the same article across Spanish, English and French`,async({page})=>{
   const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
   await page.goto(articlePath('es',article));
@@ -108,6 +127,7 @@ for(const article of tenArticles20261028){
    await expect(cover).toHaveAttribute('alt',/\S/);
    await expect.poll(()=>cover.evaluate((image:HTMLImageElement)=>image.complete&&image.naturalWidth>0)).toBe(true);
    await expect(page.locator('.full-article > .editorial-figure figcaption')).toContainText('Rockstar Games');
+   await expect(page.locator('.full-article > .editorial-figure figcaption a')).toHaveAttribute('href',article.imageCredit?.url??mediaSource);
    for(const [sectionIndex,section] of article.sections.entries()){
     const sectionRoot=page.locator(`#section-${sectionIndex+1}`);
     for(const reference of section.references??[]){
@@ -116,11 +136,11 @@ for(const article of tenArticles20261028){
     }
     if(section.image){
      const image=sectionRoot.locator('figure.editorial-figure img');await image.scrollIntoViewIfNeeded();
-     await expect(image).toHaveAttribute('alt',section.image.alt[index]);
+     await expect(image).toHaveAttribute('src',mediaPath(section.image.key));await expect(image).toHaveAttribute('alt',section.image.alt[index]);
      await expect(image).toHaveAttribute('loading','lazy');
      await expect.poll(()=>image.evaluate((element:HTMLImageElement)=>element.complete&&element.naturalWidth>0)).toBe(true);
      await expect(sectionRoot.locator('figure.editorial-figure figcaption')).toContainText(section.image.caption[index]);
-     await expect(sectionRoot.locator('figure.editorial-figure figcaption a')).toHaveAttribute('href',mediaSource);
+     await expect(sectionRoot.locator('figure.editorial-figure figcaption a')).toHaveAttribute('href',section.image.credit?.url??article.imageCredit?.url??mediaSource);
     }
    }
    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${locale}: ${article.id}`).toBe(true);

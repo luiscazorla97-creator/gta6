@@ -37,6 +37,31 @@ test('related links include older articles and remain complete after a new publi
 });
 
 for(const [li,locale] of (['es','en','fr'] as const).entries()){
+ test(`large previews apply only to indexable pages in ${locale}`,async({request})=>{
+  const article=articles.find(a=>a.id==='gta6-fishing-20261031')!;
+  const robots=(html:string)=>{
+   const head=html.split('</head>')[0];
+   const content=head.match(/<meta name="robots" content="([^"]*)"/)?.[1];
+   expect(content).toBeDefined();
+   return new Set(content!.split(',').map(value=>value.trim().toLowerCase()));
+  };
+  for(const path of [`/${locale}/`,sectionPath(locale,article.category),articlePath(locale,article)]){
+   const response=await request.get(path);expect(response.status()).toBe(200);
+   expect(robots(await response.text())).toEqual(new Set(['index','follow','max-image-preview:large']));
+  }
+  for(const path of [sectionPath(locale,'community'),'/404.html']){
+   const response=await request.get(path);
+   expect(robots(await response.text())).toEqual(new Set(['noindex','follow']));
+  }
+  const html=await(await request.get(articlePath(locale,article))).text();
+  const schemas=[...html.split('</head>')[0].matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
+  const schema=schemas.find(s=>['Article','NewsArticle','BlogPosting'].includes(s['@type']));
+  expect(schema).toMatchObject({headline:article.title[li],description:article.excerpt[li],datePublished:article.published,dateModified:article.updated,inLanguage:locale,mainEntityOfPage:'https://fansgta.com'+articlePath(locale,article)});
+  const images=Array.isArray(schema.image)?schema.image:[schema.image];
+  expect(images.length).toBeGreaterThan(0);
+  expect(images.every((image:string)=>image.startsWith('https://fansgta.com/media/'))).toBe(true);
+ });
+
  test(`initial HTML and hydrated related links match in ${locale}`,async({page,request,browser},info)=>{
   const article=articles.find(a=>a.id==='gta6-fishing-20261031')!;
   const path=articlePath(locale,article),html=await(await request.get(path)).text();

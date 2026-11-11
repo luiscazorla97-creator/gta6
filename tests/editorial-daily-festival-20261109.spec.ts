@@ -16,7 +16,7 @@ for(const [li,locale] of (['es','en','fr'] as const).entries())test(`festival ne
  const body=await page.locator('.article-body').innerText();
  for(const section of article.sections){expect(body).toContain(section.heading[li]);for(const p of section.paragraphs)expect(body).toContain(p[li]);if(section.table)for(const row of section.table.rows)for(const cell of row)expect(body).toContain(cell[li]);}
  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href','https://fansgta.com'+path);
- await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content','index,follow');
+ await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content','index,follow,max-image-preview:large');
  await expect(page.locator('meta[name="description"]')).toHaveAttribute('content',article.excerpt[li]);
  for(const lang of ['es','en','fr'] as const)await expect(page.locator(`link[hreflang="${lang}"]`)).toHaveAttribute('href','https://fansgta.com'+articlePath(lang,article));
  const figures=page.locator('.full-article .editorial-figure');await expect(figures).toHaveCount(2);

@@ -21,7 +21,7 @@ for(const [i,locale] of (['es','en','fr'] as const).entries())test(`Three more N
   await expect(page.locator('h1')).toHaveText(a.title[i]);
   await expect(page.locator('.article-body')).toContainText(a.body[i]);
   await expect(page.locator('meta[name="description"]')).toHaveAttribute('content',a.excerpt[i]);
-  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content','index,follow');
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content','index,follow,max-image-preview:large');
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href','https://fansgta.com'+path);
   for(const lang of ['es','en','fr'] as const)await expect(page.locator(`link[hreflang="${lang}"]`)).toHaveAttribute('href','https://fansgta.com'+articlePath(lang,a));
   await expect(page.locator('.article-body > section[id]')).toHaveCount(a.sections.length);

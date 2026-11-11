@@ -1,6 +1,7 @@
 import {test,expect} from '@playwright/test';
 import {transport20261030} from '../src/batches/2026-10-30-daily-transport';
-import {articlePath} from '../src/routes';
+import {articlePath,sectionPath} from '../src/routes';
+import {expectResponsiveEditorialImage} from './helpers/editorial-image';
 import {mediaPath,mediaAlt} from '../src/media';
 
 test.beforeEach(async({page})=>{
@@ -16,7 +17,7 @@ test('one daily topic has three indexable language editions with sourced metadat
  for(const [index,locale] of (['es','en','fr'] as const).entries()){
   const url='https://fansgta.com'+articlePath(locale,article);
   const response=await request.get(articlePath(locale,article));expect(response.status()).toBe(200);const html=await response.text();
-  expect(html).toContain(`lang="${locale}"`);expect(html).toContain(`rel="canonical" href="${url}"`);expect(html).toContain('content="index,follow"');
+  expect(html).toContain(`lang="${locale}"`);expect(html).toContain(`rel="canonical" href="${url}"`);expect(html).toContain('content="index,follow,max-image-preview:large"');
   expect(sitemap).toContain(`<loc>${url}</loc>`);
   for(const alt of ['es','en','fr'] as const)expect(html).toContain(`hreflang="${alt}" href="https://fansgta.com${articlePath(alt,article)}"`);
   expect(html).toContain(`name="twitter:image" content="https://fansgta.com${mediaPath(article.image)}"`);
@@ -38,7 +39,7 @@ test('daily report shows the authentic cover, translated captions and working in
   await expect(page.getByRole('heading',{level:1})).toHaveText(article.title[index]);
   const figure=page.locator('.full-article>.editorial-figure'),image=figure.locator('img');
   await expect(image).toHaveAttribute('alt',mediaAlt(article.image,locale));await expect(image).toHaveAttribute('src','/media/vice-city.webp');
-  await expect.poll(()=>image.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth===1600&&e.naturalHeight===900)).toBe(true);
+  await expectResponsiveEditorialImage(image);
   await expect(figure.locator('figcaption')).toContainText(article.imageCaption![index]);await expect(figure.locator('figcaption a')).toHaveAttribute('href','https://www.rockstargames.com/VI/media');
   const internal=page.locator('.section-sources a[href^="/"]');await expect(internal).toHaveCount(2);
   for(const link of await internal.all()){
@@ -50,10 +51,14 @@ test('daily report shows the authentic cover, translated captions and working in
  expect(errors).toEqual([]);
 });
 
-test('the report is discoverable as the latest news in each homepage language',async({page})=>{
+test('the report remains discoverable through the news archive in each homepage language',async({page})=>{
  const article=transport20261030[0];
  for(const [index,locale] of (['es','en','fr'] as const).entries()){
-  await page.goto(`/${locale}/`);const entry=page.locator('.news-grid .story-title').first();
+  await page.goto(`/${locale}/`);
+  const archivePath=sectionPath(locale,'news');
+  const categoryLink=page.locator(`.section-heading a[href="${archivePath}"]`).first();
+  await expect(categoryLink).toHaveAttribute('href',archivePath);await categoryLink.click();
+  const entry=page.locator(`.archive-grid h2 a[href="${articlePath(locale,article)}"]`);
   await expect(entry).toHaveText(article.title[index]);await expect(entry).toHaveAttribute('href',articlePath(locale,article));
   await entry.click();await expect(page).toHaveURL(articlePath(locale,article));await expect(page.getByRole('heading',{level:1})).toHaveText(article.title[index]);
  }

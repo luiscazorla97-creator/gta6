@@ -1,0 +1,4093 @@
+{
+  "audit_date": "2026-11-11",
+  "timezone": "America/New_York",
+  "site": "https://fansgta.com",
+  "repository": "luiscazorla97-creator/gta6",
+  "base_commit": "85bc2164e9328930d3df041846a758d002aabfef",
+  "scope": "Auditoría integral y correcciones seguras; sin publicación de artículos, cambio de programación, diseño o publicidad.",
+  "historical_search_console": {
+    "discovered": 288,
+    "crawled": 56,
+    "noindex": 6,
+    "not_found": 4,
+    "redirect": 4,
+    "sum": 358,
+    "current_counts_verified": false,
+    "private_access_available": false,
+    "individual_exclusion_cause_verified": false,
+    "note": "Los contadores provienen de capturas históricas; el encargo dice aproximadamente357. No se afirma el estado actual de Google."
+  },
+  "coverage": {
+    "topics": 191,
+    "language_versions": 573,
+    "canonical_sitemap_urls": 612,
+    "additional_public_route_variants": 15,
+    "googlebot_user_agent_comparison_requests": 3,
+    "external_unique_destinations": 328,
+    "distinct_internal_variants_and_external_URLs": 955,
+    "public_indexability_errors_found": 0,
+    "missing_large_preview_before": 612,
+    "indexable_pages_receiving_preview_improvement": 612,
+    "media_description_corrected_topics": 16,
+    "media_description_corrected_language_versions": 48,
+    "excerpt_refined_topics": 1,
+    "excerpt_refined_language_versions": 3,
+    "public_URLs_with_canonical_noindex_HTTP_or_SSR_fix_needed": 0
+  },
+  "changes": [
+    {
+      "severity": "medium",
+      "kind": "Discover preview",
+      "files": [
+        "scripts/static-pages.mjs",
+        "scripts/verify-seo.mjs",
+        "tests/seo.spec.ts"
+      ],
+      "effect": "Permitir max-image-preview:large solo en páginas indexables; exclusiones legítimas intactas. No se presenta como causa de noindex."
+    },
+    {
+      "severity": "medium",
+      "kind": "Accurate media descriptions",
+      "files": [
+        "src/editorial-media-corrections.ts",
+        "src/articles.ts",
+        "tests/editorial-media-corrections.spec.ts"
+      ],
+      "effect": "Corregir16temas/48versiones del assetJason_Duval_08; preservar imágenes,fechas,URLs ycontexto."
+    },
+    {
+      "severity": "low",
+      "kind": "Reader-focused meta descriptions",
+      "files": [
+        "src/batches/2026-11-03-launch-updates.json"
+      ],
+      "effect": "Tres extractos del artículo sobre tamaño explican el contenido al lector sin notas de implementación; fechas y párrafos intactos."
+    },
+    {
+      "severity": "medium",
+      "kind": "Editorial integrity checks",
+      "files": [
+        "scripts/audit-editorial.mjs",
+        "scripts/verify-static.mjs"
+      ],
+      "effect": "Añadir controles a la comprobación estática existente. Similitud solo avisos; sin APIs, nuevaspublicaciones, fusiones, eliminaciones ni cambio de frecuencia."
+    },
+    {
+      "severity": "low",
+      "kind": "Test compatibility",
+      "effect": "Atributos JSON estándar y selección exacta de IDs de una tanda; adaptación de expectativas estrictas de robots. No eran bloqueos de producción."
+    }
+  ],
+  "public_baseline": {
+    "checked_at_utc": "2026-11-11T17:00:39.941278+00:00",
+    "counts": {
+      "sitemap_urls": 612,
+      "article_urls": 573,
+      "non_article_urls": 39,
+      "issues": 0,
+      "without_large_preview": 612,
+      "external_urls": 328
+    },
+    "sitemap": {
+      "url": "https://fansgta.com/sitemap.xml",
+      "status": 200,
+      "final": "https://fansgta.com/sitemap.xml",
+      "ttfb": 0.115901,
+      "duration": 0.117446,
+      "sha256": "1d7d6694f5b53445cb5d33e308a15e0a58ca3d8b8cdd0a54f9da09a042356ca8",
+      "bytes": 286658,
+      "x_robots_tag": null,
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_type": "application/xml",
+      "cf_mitigated": null
+    },
+    "issues": []
+  },
+  "technical": {
+    "audit": "FansGTA technical SEO source/static audit",
+    "checked_at_utc": "2026-11-11T17:00:55.815233+00:00",
+    "repository_base": "85bc2164e9328930d3df041846a758d002aabfef",
+    "method": [
+      "Read AGENTS, previous9Nov audit, fullstatic generator,verify-seo,routing,SSR/clientpayload,relatedarticles,initialApp navigation",
+      "Ran existing node scripts/verify-seo.mjs against baseline dist, passed573articleURLs/612sitemap entries",
+      "Enumerated all615localized generatedroutes and573articlebodies,H1,canonical,robots,title,description,dates",
+      "Resolved all HTML anchor destinations and fragments; BFS from each locale homepage; counted unique incoming article links",
+      "Measured intrinsic article cover dimensions with sharp; no images changed"
+    ],
+    "coverage": {
+      "topics": 191,
+      "language_versions": 573,
+      "indexable_sitemap_urls": 612,
+      "localized_generated_routes": 615,
+      "generated_404": "dist/404.html; excluded",
+      "sitemap_bytes": 286658,
+      "sitemap_limit_assessment": "612URLs/286658bytes: below50000URLs/50MB. No sitemap index required by size; avoid needless newindexes.",
+      "per_locale_article_reachable": 191,
+      "maximum_click_depth": 2
+    },
+    "findings": [
+      {
+        "severity": "medium",
+        "status": "confirmed_and_implemented_pending_root_build",
+        "issue": "Missing max-image-preview:large on every indexable public page",
+        "affected_indexable_urls": 612,
+        "evidence": "Baseline initial head robots=index,follow, zero large-preview directives",
+        "impact": "Does not block indexing. Explicit large-preview permission is a controllable Discover/image-preview requirement; cannot guarantee Discover appearance.",
+        "fix": "Add max-image-preview:large only for indexable and eligible SSR pages; retain noindex,follow for emptyCommunity,404 and nonreleasebuilds",
+        "files": [
+          "scripts/static-pages.mjs",
+          "scripts/verify-seo.mjs",
+          "tests/seo.spec.ts"
+        ],
+        "test": "Automated locale tests inspect home/category/article allowance,emptyCommunity/404exclusion and realArticle schema headline/description/dates/URL/image; verify-seo requires exactdirective sets for all615localizedroutes."
+      },
+      {
+        "severity": "low",
+        "status": "reported_no_artificial_upscale",
+        "issue": "15 unique legacy GTA game covers are800pxwide",
+        "affected_topics": 32,
+        "affected_language_versions": 96,
+        "evidence_file": "technical-media.json",
+        "impact": "Below1200px recommendation for large Discover imagery. Does not establish index exclusion; legacyguides differ from currentGTA6news.",
+        "action": "Keep current authenticartwork; replace only if a legitimately sourced larger original with checked reuseconditions is available. Do not upscale merely to satisfy pixelcount."
+      }
+    ],
+    "confirmed_healthy": {
+      "article_noindex": 0,
+      "canonical_errors": 0,
+      "reciprocal_hreflang_errors": 0,
+      "article_paragraphs_missing_from_initial_HTML": 0,
+      "article_urls_missing_sitemap": 0,
+      "sitemap_noncanonical_or_empty_category_urls": 0,
+      "duplicate_localized_titles": 0,
+      "duplicate_meta_descriptions": 0,
+      "exact_duplicate_complete_article_bodies": 0,
+      "empty_article_bodies": 0,
+      "missing_H1_or_multiple_H1": 0,
+      "missing_title_or_description": 0,
+      "future_publication_or_update_dates": 0,
+      "article_urls_without_incoming_article_links": 0,
+      "incoming_article_link_range": [
+        1,
+        25
+      ],
+      "broken_internal_fragments": 0,
+      "cross_language_contextual_article_links": 0,
+      "pagination": "No pagination/infinite-scroll requirement; category initialHTML includes everyarticle link."
+    },
+    "normal_exclusions": {
+      "empty_sections": [
+        "/es/comunidad/",
+        "/en/community/",
+        "/fr/communaute/"
+      ],
+      "missing_page": "404 noindex,follow; not sitemap",
+      "historical_404": "Previousconfirmed retiredadwrappers/emailprotection are technical; current source has no editoriallinks to these. FreshHTTP assigned to parent team."
+    },
+    "not_confirmed": [
+      "Current SearchConsole indexed/excludedcounts and individualGooglechosen canonicals unavailable in this subtask; historical357not assumed current.",
+      "No evidence here that source-side general robots/canonical/JSblock causes historic344discovered/crawled exclusions.",
+      "Technicalpassing does not prove Googleindexed theseURLs or likes content quality; requires privateURLInspection/CrawlStats.",
+      "Exactduplicate tests do not prove semanticoriginality or naturaltranslation; editorialreview is a separate workstream."
+    ],
+    "test_status": {
+      "baseline_verify_seo": "passed",
+      "node_check_modified_js": "passed",
+      "git_diff_check": "passed",
+      "new_directive_build_and_browser_tests": "passed"
+    },
+    "reproduction": [
+      "node scripts/verify-seo.mjs",
+      "node --check scripts/static-pages.mjs",
+      "node --check scripts/verify-seo.mjs",
+      "After root build: PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npx playwright test tests/seo.spec.ts --workers=4 --reporter=line"
+    ],
+    "baseline": {
+      "topics": 191,
+      "language_versions": 573,
+      "generated_paths": 615,
+      "indexable_sitemap_urls": 612,
+      "noindex": [
+        "/es/comunidad/",
+        "/en/community/",
+        "/fr/communaute/"
+      ],
+      "canonical_issues": [],
+      "h1_issues": [],
+      "missing_title": [],
+      "missing_description": [],
+      "max_image_preview_large": 0,
+      "exact_duplicate_titles": [],
+      "exact_duplicate_bodies": [],
+      "empty_bodies": [],
+      "untranslated_titles": [],
+      "future_dates": [],
+      "article_without_cover": [],
+      "empty_sections": [
+        "community"
+      ],
+      "category_counts": {
+        "news": 48,
+        "guides": 105,
+        "map": 2,
+        "vehicles": 3,
+        "missions": 5,
+        "characters": 9,
+        "cheats": 18,
+        "online": 1,
+        "community": 0
+      },
+      "title_lengths": {
+        "es": {
+          "min": 42,
+          "max": 82,
+          "above_70": 8
+        },
+        "en": {
+          "min": 41,
+          "max": 82,
+          "above_70": 5
+        },
+        "fr": {
+          "min": 36,
+          "max": 82,
+          "above_70": 10
+        }
+      },
+      "description_lengths": {
+        "es": {
+          "min": 81,
+          "max": 162,
+          "below_50": 0
+        },
+        "en": {
+          "min": 77,
+          "max": 161,
+          "below_50": 0
+        },
+        "fr": {
+          "min": 74,
+          "max": 159,
+          "below_50": 0
+        }
+      }
+    },
+    "graph": {
+      "broken_fragments": [],
+      "unlocalized_article_links": [],
+      "without_article_incoming": [],
+      "incoming_min": 1,
+      "incoming_max": 25,
+      "discovery": {
+        "es": {
+          "reachable_articles": 191,
+          "max_depth": 2
+        },
+        "en": {
+          "reachable_articles": 191,
+          "max_depth": 2
+        },
+        "fr": {
+          "reachable_articles": 191,
+          "max_depth": 2
+        }
+      },
+      "duplicate_meta_descriptions": []
+    },
+    "large_media_summary": {
+      "unique_covers": 54,
+      "at_least_1200px": 39,
+      "smaller_covers": [
+        {
+          "path": "/media/history-gta-online.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "gta-online-omaggio-twitch-drops-20261031",
+            "cheats-online-20261030",
+            "history-online-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-theballadofgaytony.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-tbogt-20261030",
+            "history-tbogt-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-chinatownwars.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-cw-20261030",
+            "history-cw-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-thelostanddamned.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-tlad-20261030",
+            "history-tlad-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-iv.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-iv-20261030",
+            "history-gta4-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-vicecitystories.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-vcs-20261030",
+            "history-vcs-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-libertycitystories.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-lcs-20261030",
+            "history-lcs-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-sanandreas.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-sa-20261030",
+            "history-sanandreas-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-grandtheftauto-gba.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-advance-20261030",
+            "history-advance-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-vicecity.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-vc-20261030",
+            "history-vicecity-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-grandtheftauto3.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-iii-20261030",
+            "history-gta3-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-gta2.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-gta2-20261030",
+            "history-gta2-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-gtalondon.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-london61-20261030",
+            "cheats-london69-20261030",
+            "history-london69-20261030",
+            "history-london61-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-gta.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "cheats-gta1-20261030",
+            "history-gta1-20261030"
+          ]
+        },
+        {
+          "path": "/media/history-gta-v.webp",
+          "width": 800,
+          "height": 988,
+          "format": "webp",
+          "articles": [
+            "history-gta5-20261030"
+          ]
+        }
+      ]
+    }
+  },
+  "editorial": {
+    "checked_at_utc": "2026-11-11T17:00:26.221197+00:00",
+    "scope": {
+      "repository": "luiscazorla97-creator/gta6",
+      "base_commit": "85bc2164e9328930d3df041846a758d002aabfef",
+      "topics": 191,
+      "language_versions": 573,
+      "source": "compiled current article catalogue; actual section paragraphs, table cells and cheat effects/codes",
+      "manual_samples": [
+        "gta6-place-grassrivers-20261031",
+        "gta6-place-ambrosia-20261031",
+        "gta-6-ultimate-edition",
+        "gta-6-album-34-tracks",
+        "gta-6-launch-trailer-october",
+        "gta-6-ps5-xbox",
+        "gta6-subscriptions-20261031"
+      ],
+      "not_performed": [
+        "No Search Console or Analytics private dataset available to this agent.",
+        "No independent fact-check of every historical assertion against live sources.",
+        "No plagiarism comparison against the whole public web.",
+        "No claim that the historical count of unindexed pages is still current."
+      ]
+    },
+    "summary": {
+      "invalid_localized_fields": 0,
+      "exact_duplicate_title_excerpt_slug_or_intro_groups": 0,
+      "identical_language_title_excerpt_or_intro_fields": 0,
+      "invalid_or_future_dates": 0,
+      "source_less_articles": 0,
+      "unique_editorial_media_used": 74,
+      "missing_media_credit_records": 0,
+      "articles_with_no_section_adjacent_references": 26,
+      "same_slug_across_locales_articles": 19,
+      "duplicate_paragraph_groups_all_languages": 27,
+      "word_counts": {
+        "es": {
+          "minimum": 226,
+          "median": 492,
+          "maximum": 4895
+        },
+        "en": {
+          "minimum": 205,
+          "median": 441,
+          "maximum": 4831
+        },
+        "fr": {
+          "minimum": 210,
+          "median": 456,
+          "maximum": 4984
+        }
+      }
+    },
+    "confirmed_defects": [
+      {
+        "id": "image-description-phone-vs-pistol",
+        "severity": "medium",
+        "affected_topics": 15,
+        "affected_language_versions": 45,
+        "evidence": "Visually inspected public/media/feature-phone.webp: Jason holds a pistol beside an aircraft, with boats behind; no phone or caravan. Official source record Jason_Duval_08. Actual alt/caption strings still call it a phone in listed articles.",
+        "articles": [
+          {
+            "id": "gta6-netcraft-scam-report-20261105",
+            "locations": [
+              "cover"
+            ]
+          },
+          {
+            "id": "gta6-crossplay-cross-progression-20261105",
+            "locations": [
+              "section:3"
+            ]
+          },
+          {
+            "id": "gta6-download-duration-20261103",
+            "locations": [
+              "cover"
+            ]
+          },
+          {
+            "id": "gta6-mobile-remote-20261101",
+            "locations": [
+              "cover"
+            ]
+          },
+          {
+            "id": "gta6-focus-20261101",
+            "locations": [
+              "section:1"
+            ]
+          },
+          {
+            "id": "gta6-ryde-me-20261101",
+            "locations": [
+              "section:1"
+            ]
+          },
+          {
+            "id": "gta6-cash-bank-20261101",
+            "locations": [
+              "cover"
+            ]
+          },
+          {
+            "id": "gta6-world-encounters-20261101",
+            "locations": [
+              "section:1"
+            ]
+          },
+          {
+            "id": "gta6-hud-20261101",
+            "locations": [
+              "cover"
+            ]
+          },
+          {
+            "id": "gta6-ps5-storage-20261101",
+            "locations": [
+              "section:1"
+            ]
+          },
+          {
+            "id": "gta6-preorder-cancel-20261101",
+            "locations": [
+              "cover"
+            ]
+          },
+          {
+            "id": "gta6-sleep-20261101",
+            "locations": [
+              "section:1"
+            ]
+          },
+          {
+            "id": "gta6-microtransactions-20261101",
+            "locations": [
+              "section:1"
+            ]
+          },
+          {
+            "id": "gta6-interest-south-park-20261031",
+            "locations": [
+              "section:1"
+            ]
+          },
+          {
+            "id": "gta6-interest-phone-20261031",
+            "locations": [
+              "cover"
+            ]
+          }
+        ],
+        "safe_fix": "Replace inaccurate alt and matching caption prefixes in ES/EN/FR with descriptive pistol/aircraft text, preserving contextual suffix, media files, credits, URLs and publication dates. No claim this caused Google non-indexing.",
+        "suggested_text": [
+          "Jason con una pistola junto a una aeronave, con embarcaciones al fondo",
+          "Jason holding a pistol beside an aircraft, with boats in the background",
+          "Jason tenant un pistolet près d’un aéronef, avec des bateaux à l’arrière-plan"
+        ],
+        "additional_inaccurate_aircraft_type": {
+          "id": "gta6-ps4-xbox-one-20261102",
+          "previous_alt": "pistol beside a helicopter",
+          "correction": "pistol beside an aircraft",
+          "versions": 3
+        }
+      }
+    ],
+    "quality_review_items": [
+      {
+        "id": "repeated-location-guide-paragraph",
+        "severity": "medium",
+        "status": "quality risk, not established indexation cause",
+        "articles": [
+          "gta6-place-vice-city-20261031",
+          "gta6-place-leonida-keys-20261031",
+          "gta6-place-grassrivers-20261031",
+          "gta6-place-port-gellhorn-20261031",
+          "gta6-place-ambrosia-20261031"
+        ],
+        "evidence": "One identical generic evidence-reading paragraph across five guides, translated across three languages;50 EN/60 ES words. Guides otherwise have distinct location-specific facts and official images.",
+        "safe_next_step": "Review Search Console impressions/query overlap first. Improve the generic section with location-specific useful observations from verified images/sources when substantial new evidence exists; do not mass-delete or consolidate without performance evidence."
+      },
+      {
+        "id": "shared-cheat-instructions",
+        "severity": "low",
+        "status": "expected shared methodology, not proof of duplicate-page problem",
+        "evidence": "English 5-word-shingle Jaccard up to0.438 for GTA IV/episodes and0.403 London expansions. Tables and game/platform intent remain distinct; common safe-use and phone input instructions are naturally shared.",
+        "safe_next_step": "Keep game-specific pages as explicitly requested. Use similarity as a review signal; never redirect or noindex automatically based on text score."
+      },
+      {
+        "id": "older-section-citations",
+        "severity": "low",
+        "affected_topics": 26,
+        "status": "trust/readability opportunity, no technical indexability error",
+        "evidence": "26 older articles have a source list but no references beside section assertions. Reader can reach original source at article end.",
+        "safe_next_step": "Add source links adjacent to claims during verified substantive updates; preserve existing claims/dates rather than artificially refresh all191."
+      }
+    ],
+    "checks_that_do_not_warrant_url_changes": [
+      "19 old articles use the same slug string across locales; language directories are distinct. This alone is valid and changing URLs is unwarranted.",
+      "All titles/excerpts are unique per locale and localized; all core Three arrays complete.",
+      "Word count is descriptive. Google imposes no minimum word count; short useful directory pages are not inherently soft404.",
+      "Reuse of authentic promotional images on distinct topics does not itself create duplicate content."
+    ],
+    "automation_controls_recommended": [
+      {
+        "level": "fail",
+        "checks": [
+          "Duplicate article ID or localized full path",
+          "Missing/empty ES/EN/FR title, excerpt, slug, paragraph, table cell, alt or caption",
+          "Exact duplicate localized title/excerpt/introduction for different topics",
+          "Invalid date or dateModified earlier than publication",
+          "Unregistered media, missing local media or mismatched dimensions",
+          "Known feature-phone asset described as phone/caravan",
+          "Sources with invalid URL or missing source list"
+        ]
+      },
+      {
+        "level": "warn_review",
+        "checks": [
+          "English 5-word-shingle body Jaccard>=0.35; exclude common instructions/code tables or explain distinct intent",
+          "Repeated substantial paragraph across unrelated pages",
+          "New article whose intent overlaps an existing hub/guide",
+          "Older launch/purchase/platform/price page without recent source review",
+          "Missing references near assertions; fallback list exists"
+        ]
+      }
+    ],
+    "growth_opportunities": {
+      "basis": "existing catalogue coverage and user intent; no measured volume/rank claims",
+      "es": [
+        "fecha y hora lanzamiento GTA6",
+        "precarga GTA6PS5Xbox",
+        "precio GTA6ediciones",
+        "GTA6XboxOne cloud",
+        "mapa GTA6Leonida"
+      ],
+      "en": [
+        "GTA6release time",
+        "GTA6preload install size",
+        "GTA6editions price",
+        "GTA6Xboxcloud subscription",
+        "GTA6PC release"
+      ],
+      "fr": [
+        "GTA6heure de sortie",
+        "GTA6préchargement taille",
+        "GTA6prix éditions",
+        "GTA6XboxOne cloud",
+        "GTA6sortie PC"
+      ],
+      "action": "Update and link existing equivalent pages with verified facts; prioritize using Search Console impressions, position and query overlap once access/data exist; do not create one page per keyword variation.",
+      "not_claimed": [
+        "most searched",
+        "search volume",
+        "top10 guarantees",
+        "Google Discover/News acceptance"
+      ]
+    },
+    "metrics_detail": "/tmp/fansgta-seo-20261111/content-metrics.json",
+    "repository_mutations": [],
+    "implementation": {
+      "corrected_topics": 16,
+      "corrected_language_versions": 48,
+      "total_asset_uses": 18,
+      "already_correct_uses_preserved": 2,
+      "files": [
+        "src/editorial-media-corrections.ts",
+        "src/articles.ts",
+        "scripts/audit-editorial.mjs",
+        "tests/editorial-media-corrections.spec.ts"
+      ],
+      "dates_preserved": true,
+      "images_unchanged": true,
+      "contextual_caption_suffixes_preserved": true,
+      "publication_automation_unchanged": true
+    }
+  },
+  "article_preservation": {
+    "topics": 191,
+    "changed_topics": [
+      "gta6-netcraft-scam-report-20261105",
+      "gta6-crossplay-cross-progression-20261105",
+      "gta6-download-duration-20261103",
+      "gta6-ps4-xbox-one-20261102",
+      "gta6-mobile-remote-20261101",
+      "gta6-focus-20261101",
+      "gta6-ryde-me-20261101",
+      "gta6-cash-bank-20261101",
+      "gta6-world-encounters-20261101",
+      "gta6-hud-20261101",
+      "gta6-ps5-storage-20261101",
+      "gta6-preorder-cancel-20261101",
+      "gta6-sleep-20261101",
+      "gta6-microtransactions-20261101",
+      "gta6-interest-south-park-20261031",
+      "gta6-interest-phone-20261031",
+      "reported-210gb-size-2026-10-28"
+    ],
+    "unchanged_topics": 174,
+    "all_article_text_ids_paths_dates_sources_tables_and_images_preserved": true,
+    "only_image_descriptions_and_one_localized_excerpt_changed": true
+  },
+  "editorial_automated_control": {
+    "topics": 191,
+    "versions": 573,
+    "media_uses": 366,
+    "errors": [],
+    "warnings": [
+      {
+        "id": "gta-6-ps5-xbox",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "jason-duval-profile",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "lucia-caminos-profile",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-radio-music",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-album-34-tracks",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-launch-trailer-october",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-ultimate-edition",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-vintage-vice-city-pack",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-leonida-locations",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-conspiracy-theory",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "cal-hampton",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "boobie-ike",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "drequan-priest",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "real-dimez",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "raul-bautista",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "brian-heder",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-liberty-city-theory",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "gta-6-cal-hampton-mysteries",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "release-sources",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "sources",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "trailers",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "prepare",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "map-context",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "vehicle-evidence",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "spoilers",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "id": "characters-context",
+        "type": "source_placement",
+        "detail": "Sources exist at article end; consider adjacent citations during a verified substantive update."
+      },
+      {
+        "ids": [
+          "cheats-tbogt-20261030",
+          "cheats-tlad-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.361,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-cw-20261030",
+          "cheats-vcs-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.356,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-cw-20261030",
+          "cheats-lcs-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.36,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-cw-20261030",
+          "cheats-advance-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.358,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-cw-20261030",
+          "cheats-vc-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.364,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-cw-20261030",
+          "cheats-iii-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.364,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-tlad-20261030",
+          "cheats-iv-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.356,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-vcs-20261030",
+          "cheats-lcs-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.364,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-vcs-20261030",
+          "cheats-advance-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.352,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-vcs-20261030",
+          "cheats-vc-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.363,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-vcs-20261030",
+          "cheats-iii-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.357,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-lcs-20261030",
+          "cheats-advance-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.357,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-lcs-20261030",
+          "cheats-vc-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.367,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-lcs-20261030",
+          "cheats-iii-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.362,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-advance-20261030",
+          "cheats-vc-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.36,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-advance-20261030",
+          "cheats-iii-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.36,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-vc-20261030",
+          "cheats-iii-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.366,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      },
+      {
+        "ids": [
+          "cheats-gta2-20261030",
+          "cheats-gta1-20261030"
+        ],
+        "type": "similar_prose_review",
+        "jaccard": 0.352,
+        "detail": "Review search intent manually. Shared safety instructions or related game mechanics can be legitimate; never merge, redirect or exclude automatically."
+      }
+    ],
+    "limits": [
+      "Similarity is a review signal, not proof of duplication or a Google indexation diagnosis.",
+      "The audit checks local catalogue integrity, not source truth, search volume or Google indexing."
+    ]
+  },
+  "http_cloudflare": {
+    "checked_at_utc": "2026-11-11T17:01:27.554711+00:00",
+    "probes": [
+      {
+        "url": "https://fansgta.com/",
+        "status": 200,
+        "final": "https://fansgta.com/es/",
+        "ttfb": 0.208558,
+        "duration": 0.211764,
+        "sha256": "5c058b2420d4feb7b54adfc046b3714cdd79ae62b56641a83255c1196d2a58ba",
+        "bytes": 251760,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/es/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "Todo sobre GTA 6."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/es",
+        "status": 200,
+        "final": "https://fansgta.com/es/",
+        "ttfb": 0.185267,
+        "duration": 0.188152,
+        "sha256": "5c058b2420d4feb7b54adfc046b3714cdd79ae62b56641a83255c1196d2a58ba",
+        "bytes": 251760,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/es/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "Todo sobre GTA 6."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/es/index.html",
+        "status": 200,
+        "final": "https://fansgta.com/es/",
+        "ttfb": 0.221602,
+        "duration": 0.224279,
+        "sha256": "5c058b2420d4feb7b54adfc046b3714cdd79ae62b56641a83255c1196d2a58ba",
+        "bytes": 251760,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/es/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "Todo sobre GTA 6."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/es/comunidad/",
+        "status": 200,
+        "final": "https://fansgta.com/es/comunidad/",
+        "ttfb": 0.322427,
+        "duration": 0.333548,
+        "sha256": "02f8a8c93fd0b79cb88dc383d47d27461854fd778da674eae5e7e04713ff9465",
+        "bytes": 223644,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/es/comunidad/"
+        ],
+        "robots": [
+          "noindex,follow"
+        ],
+        "h1": [
+          "Comunidad"
+        ]
+      },
+      {
+        "url": "https://fansgta.com/en/community/",
+        "status": 200,
+        "final": "https://fansgta.com/en/community/",
+        "ttfb": 0.199205,
+        "duration": 0.201227,
+        "sha256": "3865fedd3b2d6671be79ae285fba9180c1ccab8b96d9ad83bd8ba88909d3aa2f",
+        "bytes": 220980,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/en/community/"
+        ],
+        "robots": [
+          "noindex,follow"
+        ],
+        "h1": [
+          "Community"
+        ]
+      },
+      {
+        "url": "https://fansgta.com/fr/communaute/",
+        "status": 200,
+        "final": "https://fansgta.com/fr/communaute/",
+        "ttfb": 0.490299,
+        "duration": 0.493008,
+        "sha256": "c4e1cf6ccab4c5108c15f2ea9da54daf71bb058b89aa35c15855e58bca70ebcd",
+        "bytes": 223364,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/fr/communaute/"
+        ],
+        "robots": [
+          "noindex,follow"
+        ],
+        "h1": [
+          "Communauté"
+        ]
+      },
+      {
+        "url": "https://fansgta.com/404.html",
+        "status": 200,
+        "final": "https://fansgta.com/404",
+        "ttfb": 0.155261,
+        "duration": 0.157737,
+        "sha256": "65b4de6533b30b70c865e1cd0557a6bd941e3b895b85de88fe189cb4c4035e49",
+        "bytes": 220082,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/404/"
+        ],
+        "robots": [
+          "noindex,follow"
+        ],
+        "h1": [
+          "Esta calle no lleva a ninguna parte."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/ads/native.html",
+        "status": 404,
+        "final": "https://fansgta.com/ads/native.html",
+        "ttfb": 0.114729,
+        "duration": 0.12163,
+        "sha256": "65b4de6533b30b70c865e1cd0557a6bd941e3b895b85de88fe189cb4c4035e49",
+        "bytes": 220082,
+        "x_robots_tag": null,
+        "cache_control": "no-store",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/404/"
+        ],
+        "robots": [
+          "noindex,follow"
+        ],
+        "h1": [
+          "Esta calle no lleva a ninguna parte."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/ads/mobile.html",
+        "status": 404,
+        "final": "https://fansgta.com/ads/mobile.html",
+        "ttfb": 0.109732,
+        "duration": 0.113331,
+        "sha256": "65b4de6533b30b70c865e1cd0557a6bd941e3b895b85de88fe189cb4c4035e49",
+        "bytes": 220082,
+        "x_robots_tag": null,
+        "cache_control": "no-store",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/404/"
+        ],
+        "robots": [
+          "noindex,follow"
+        ],
+        "h1": [
+          "Esta calle no lleva a ninguna parte."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/ads/rectangle.html",
+        "status": 404,
+        "final": "https://fansgta.com/ads/rectangle.html",
+        "ttfb": 0.122405,
+        "duration": 0.124744,
+        "sha256": "65b4de6533b30b70c865e1cd0557a6bd941e3b895b85de88fe189cb4c4035e49",
+        "bytes": 220082,
+        "x_robots_tag": null,
+        "cache_control": "no-store",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/404/"
+        ],
+        "robots": [
+          "noindex,follow"
+        ],
+        "h1": [
+          "Esta calle no lleva a ninguna parte."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/cdn-cgi/l/email-protection",
+        "status": 404,
+        "final": "https://fansgta.com/cdn-cgi/l/email-protection",
+        "ttfb": 0.05701,
+        "duration": 0.057308,
+        "sha256": "72931f2a926c8af85c5b75d5e63c5e2991ea9a6e61a3c731d4c77855ad0a3659",
+        "bytes": 4713,
+        "x_robots_tag": null,
+        "cache_control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "content_type": "text/html",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [],
+        "robots": [
+          "noindex, nofollow"
+        ],
+        "h1": [
+          "Email Protection"
+        ]
+      },
+      {
+        "url": "https://fansgta.com/seo-audit-missing-page-20261111/",
+        "status": 404,
+        "final": "https://fansgta.com/seo-audit-missing-page-20261111/",
+        "ttfb": 0.131182,
+        "duration": 0.181501,
+        "sha256": "65b4de6533b30b70c865e1cd0557a6bd941e3b895b85de88fe189cb4c4035e49",
+        "bytes": 220082,
+        "x_robots_tag": null,
+        "cache_control": "no-store",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/404/"
+        ],
+        "robots": [
+          "noindex,follow"
+        ],
+        "h1": [
+          "Esta calle no lleva a ninguna parte."
+        ]
+      },
+      {
+        "url": "http://fansgta.com/es/",
+        "status": 200,
+        "final": "https://fansgta.com/es/",
+        "ttfb": 0.257756,
+        "duration": 0.260813,
+        "sha256": "5c058b2420d4feb7b54adfc046b3714cdd79ae62b56641a83255c1196d2a58ba",
+        "bytes": 251760,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/es/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "Todo sobre GTA 6."
+        ]
+      },
+      {
+        "url": "https://www.fansgta.com/es/",
+        "status": 200,
+        "final": "https://www.fansgta.com/es/",
+        "ttfb": 0.265896,
+        "duration": 0.269011,
+        "sha256": "5c058b2420d4feb7b54adfc046b3714cdd79ae62b56641a83255c1196d2a58ba",
+        "bytes": 251760,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/es/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "Todo sobre GTA 6."
+        ]
+      },
+      {
+        "url": "https://fansgta.pages.dev/es/",
+        "status": 200,
+        "final": "https://fansgta.pages.dev/es/",
+        "ttfb": 0.280737,
+        "duration": 0.282459,
+        "sha256": "5c058b2420d4feb7b54adfc046b3714cdd79ae62b56641a83255c1196d2a58ba",
+        "bytes": 251760,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "curl default",
+        "canonical": [
+          "https://fansgta.com/es/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "Todo sobre GTA 6."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/es/",
+        "status": 200,
+        "final": "https://fansgta.com/es/",
+        "ttfb": 0.141913,
+        "duration": 0.144138,
+        "sha256": "5c058b2420d4feb7b54adfc046b3714cdd79ae62b56641a83255c1196d2a58ba",
+        "bytes": 251760,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "canonical": [
+          "https://fansgta.com/es/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "Todo sobre GTA 6."
+        ]
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+        "status": 200,
+        "final": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+        "ttfb": 0.135761,
+        "duration": 0.151233,
+        "sha256": "796a51fb9837bec3ca3ba8ce0b96dd3d633d848b91f50891f8252bc008f1e9c6",
+        "bytes": 281954,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "canonical": [
+          "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "GTA 6 on Xbox One: cloud confirmed, PS4 explained"
+        ]
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+        "status": 200,
+        "final": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+        "ttfb": 0.113181,
+        "duration": 0.115386,
+        "sha256": "432b0618387d3dd86c7b663f594714e4fca4588c9078b729a27a896909825461",
+        "bytes": 267325,
+        "x_robots_tag": null,
+        "cache_control": "public, max-age=0, must-revalidate",
+        "content_type": "text/html; charset=utf-8",
+        "cf_mitigated": null,
+        "user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "canonical": [
+          "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/"
+        ],
+        "robots": [
+          "index,follow"
+        ],
+        "h1": [
+          "GTA 6 Festival à Miami : date, artistes et billets"
+        ]
+      }
+    ],
+    "cloudflare": {
+      "pages_project": {
+        "success": true,
+        "name": "fansgta",
+        "domains": [
+          "fansgta.pages.dev",
+          "fansgta.com",
+          "www.fansgta.com"
+        ],
+        "build_config": {
+          "build_command": "npm run build:release",
+          "destination_dir": "dist",
+          "web_analytics_tag": null,
+          "web_analytics_token": null
+        },
+        "source_type": "github",
+        "canonical_deployment": {
+          "id": "fc4f8798-da6d-4275-9152-cc5a94a6696e",
+          "stage": {
+            "name": "deploy",
+            "started_on": "2026-11-10T22:36:39.854587Z",
+            "ended_on": "2026-11-10T22:36:59.643762Z",
+            "status": "success"
+          },
+          "commit": "c80c88afb95755394a3386a4e22d0c7c2723e868"
+        }
+      },
+      "zone_access": {
+        "success": true,
+        "zones_found": 0
+      }
+    },
+    "googlebot_scope": "A spoofed Googlebot user agent is a public response probe, not evidence of access by verified Googlebot IPs or of Google index status."
+  },
+  "performance": {
+    "date": "2026-11-11",
+    "checked_at_utc": "2026-11-11T17:01:18.862820+00:00",
+    "scope": "Read-only performance, advertising and mobile audit of existing FansGTA; no repository, deployment, advertising or security modifications by this agent.",
+    "source_main": "85bc2164e9328930d3df041846a758d002aabfef",
+    "urls_measured": 6,
+    "navigations": 12,
+    "method": {
+      "browser": "system Chromium / Playwright",
+      "transport": "All HTTPS requests use Playwright route.fetch with inherited proxy and normal Node CA trust, then fulfill unchanged response. No advertising or analytics SDK mocked or removed. Network is cloud route without simulated mobile bandwidth, mobile CPU slowdown4x, cold new contexts.",
+      "limits": "Lab observations, not PSI Lighthouse score or CrUX field data. CPU/network/ad variability; cross-origin iframe CLS and full user-session INP not measurable by these observers. No advertising click or consent action."
+    },
+    "all_navigations_HTTP_200": true,
+    "all_JS_errors": 0,
+    "all_network_failures": 0,
+    "all_horizontal_overflows": 0,
+    "runs": [
+      {
+        "url": "https://fansgta.com/es/",
+        "device": "mobile",
+        "locale": "es",
+        "FCP_ms": 784,
+        "LCP_ms": 956,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "hero-art",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-phone.avif",
+        "CLS_observed": 6.213575961560059e-05,
+        "long_tasks_over_50ms_count": 6,
+        "sum_long_task_excess_over_50ms_ms": 486,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 8,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 3,
+          "googleads.g.doubleclick.net|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/en/",
+        "device": "mobile",
+        "locale": "en",
+        "FCP_ms": 616,
+        "LCP_ms": 660,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "hero-art",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-phone.avif",
+        "CLS_observed": 1.6781190553118407e-05,
+        "long_tasks_over_50ms_count": 5,
+        "sum_long_task_excess_over_50ms_ms": 432,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 8,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 2,
+          "googleads.g.doubleclick.net|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/fr/",
+        "device": "mobile",
+        "locale": "fr",
+        "FCP_ms": 532,
+        "LCP_ms": 732,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "hero-art",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-phone.avif",
+        "CLS_observed": 3.3562381106236814e-05,
+        "long_tasks_over_50ms_count": 6,
+        "sum_long_task_excess_over_50ms_ms": 406,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 8,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 2,
+          "googleads.g.doubleclick.net|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+        "device": "mobile",
+        "locale": "es",
+        "FCP_ms": 444,
+        "LCP_ms": 444,
+        "LCP_element": {
+          "tag": "H1",
+          "cls": "",
+          "text": "GTA 6 en Xbox One: Cloud Gaming confirmado; qué pasa con PS4"
+        },
+        "LCP_url": "",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 5,
+        "sum_long_task_excess_over_50ms_ms": 572,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 5,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 2,
+          "googleads.g.doubleclick.net|200": 2,
+          "pagead2.googlesyndication.com|204": 1,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+        "device": "mobile",
+        "locale": "en",
+        "FCP_ms": 648,
+        "LCP_ms": 676,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 6,
+        "sum_long_task_excess_over_50ms_ms": 458,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 5,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 3,
+          "googleads.g.doubleclick.net|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+        "device": "mobile",
+        "locale": "fr",
+        "FCP_ms": 540,
+        "LCP_ms": 656,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 5,
+        "sum_long_task_excess_over_50ms_ms": 497,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 5,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 3,
+          "googleads.g.doubleclick.net|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "pagead2.googlesyndication.com|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/es/",
+        "device": "desktop",
+        "locale": "es",
+        "FCP_ms": 396,
+        "LCP_ms": 668,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "hero-art",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-1200.avif",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 1,
+        "sum_long_task_excess_over_50ms_ms": 24,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 10,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 3,
+          "www.youtube-nocookie.com|200": 7,
+          "googleads.g.doubleclick.net|200": 2,
+          "pagead2.googlesyndication.com|204": 1,
+          "fonts.gstatic.com|200": 1,
+          "www.google.com|200": 2,
+          "www.youtube-nocookie.com|204": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "jnn-pa.googleapis.com|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/en/",
+        "device": "desktop",
+        "locale": "en",
+        "FCP_ms": 392,
+        "LCP_ms": 444,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "hero-art",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-1200.avif",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 1,
+        "sum_long_task_excess_over_50ms_ms": 18,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 10,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 3,
+          "pagead2.googlesyndication.com|204": 1,
+          "googleads.g.doubleclick.net|200": 2,
+          "www.youtube-nocookie.com|200": 7,
+          "fonts.gstatic.com|200": 1,
+          "www.google.com|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.youtube-nocookie.com|204": 1,
+          "jnn-pa.googleapis.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/fr/",
+        "device": "desktop",
+        "locale": "fr",
+        "FCP_ms": 332,
+        "LCP_ms": 384,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "hero-art",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-1200.avif",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 2,
+        "sum_long_task_excess_over_50ms_ms": 70,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 10,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 3,
+          "googleads.g.doubleclick.net|200": 2,
+          "pagead2.googlesyndication.com|204": 1,
+          "www.youtube-nocookie.com|200": 7,
+          "fonts.gstatic.com|200": 1,
+          "www.google.com|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.youtube-nocookie.com|204": 1,
+          "jnn-pa.googleapis.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+        "device": "desktop",
+        "locale": "es",
+        "FCP_ms": 368,
+        "LCP_ms": 372,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 0,
+        "sum_long_task_excess_over_50ms_ms": 0,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 5,
+          "static.cloudflareinsights.com|200": 1,
+          "pagead2.googlesyndication.com|200": 3,
+          "bauval.org|200": 3,
+          "googleads.g.doubleclick.net|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+        "device": "desktop",
+        "locale": "en",
+        "FCP_ms": 532,
+        "LCP_ms": 632,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 4,
+        "sum_long_task_excess_over_50ms_ms": 126,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 5,
+          "pagead2.googlesyndication.com|200": 3,
+          "static.cloudflareinsights.com|200": 1,
+          "bauval.org|200": 3,
+          "googleads.g.doubleclick.net|200": 2,
+          "pagead2.googlesyndication.com|204": 1,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+        "device": "desktop",
+        "locale": "fr",
+        "FCP_ms": 400,
+        "LCP_ms": 416,
+        "LCP_element": {
+          "tag": "IMG",
+          "cls": "",
+          "text": ""
+        },
+        "LCP_url": "https://fansgta.com/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+        "CLS_observed": 0,
+        "long_tasks_over_50ms_count": 2,
+        "sum_long_task_excess_over_50ms_ms": 37,
+        "horizontal_overflow": false,
+        "JS_errors": [],
+        "network_failures": [],
+        "network_statuses": {
+          "fansgta.com|200": 5,
+          "pagead2.googlesyndication.com|200": 3,
+          "static.cloudflareinsights.com|200": 1,
+          "bauval.org|200": 3,
+          "googleads.g.doubleclick.net|200": 2,
+          "fansgta.com|204": 1,
+          "ep1.adtrafficquality.google|200": 1,
+          "ep2.adtrafficquality.google|200": 2,
+          "www.google.com|200": 1,
+          "ep2.adtrafficquality.google|204": 1,
+          "ep1.adtrafficquality.google|204": 1
+        },
+        "social_bar_scripts": 1,
+        "GA4_SDKs_without_consent": 0
+      }
+    ],
+    "mobile_range": {
+      "FCP_ms": [
+        444,
+        784
+      ],
+      "LCP_ms": [
+        444,
+        956
+      ],
+      "CLS_max": 6.213575961560059e-05
+    },
+    "HTTP_cache_compression": [
+      {
+        "url": "https://fansgta.com/es/",
+        "status_line": "HTTP/2 200 ",
+        "headers": {
+          "server": "envoy",
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cf-cache-status": "DYNAMIC",
+          "content-encoding": "br"
+        }
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+        "status_line": "HTTP/2 200 ",
+        "headers": {
+          "server": "envoy",
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cf-cache-status": "DYNAMIC",
+          "content-encoding": "br"
+        }
+      },
+      {
+        "url": "https://fansgta.com/assets/index-sXrCCPVR.js",
+        "status_line": "HTTP/2 200 ",
+        "headers": {
+          "server": "envoy",
+          "content-type": "application/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "cf-cache-status": "HIT",
+          "content-encoding": "br"
+        }
+      }
+    ],
+    "HTTP_timings": [
+      {
+        "path": "/es/",
+        "status": 200,
+        "ttfb_ms": 157.508,
+        "total_ms": 160.114,
+        "download_bytes": 50812
+      },
+      {
+        "path": "/en/",
+        "status": 200,
+        "ttfb_ms": 93.191,
+        "total_ms": 113.013,
+        "download_bytes": 49831
+      },
+      {
+        "path": "/fr/",
+        "status": 200,
+        "ttfb_ms": 173.587,
+        "total_ms": 187.79100000000003,
+        "download_bytes": 50430
+      },
+      {
+        "path": "/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+        "status": 200,
+        "ttfb_ms": 200.897,
+        "total_ms": 203.656,
+        "download_bytes": 56946
+      }
+    ],
+    "page_speed_insights": {
+      "status": 429,
+      "reason": "RESOURCE_EXHAUSTED / Queries per day quota0",
+      "report": "psi.json",
+      "current_Lighthouse_score_available": false,
+      "CrUX_field_data_available": false,
+      "INP_field_data_available": false
+    },
+    "confirmed_existing_optimizations": [
+      {
+        "file": "src/HeroScene.tsx",
+        "evidence": "First-screen hero eager/high priority with responsive AVIF/phone crop; motion activated after still image plus idle callback; reduced-motion and save-data respected."
+      },
+      {
+        "file": "src/Interior.tsx",
+        "evidence": "Article cover eager/high; inline and archive images lazy; dimensions, responsive srcset and reserved ad areas."
+      },
+      {
+        "file": "scripts/static-pages.mjs",
+        "evidence": "Critical site stylesheet inlined, complete SSR content and route-specific body data in HTML; no render-blocking CSS network request."
+      },
+      {
+        "file": "src/App.tsx",
+        "evidence": "Existing countdown guard retains state until the visible remaining-day count changes; redundant per-second whole-page rerenders avoided."
+      },
+      {
+        "file": "src/ads/AdSlot.tsx",
+        "evidence": "Viewport-fit filters and IntersectionObserver defer offscreen banners; reserved dimensions maintained."
+      },
+      {
+        "file": "public/_headers",
+        "evidence": "Versioned assets and responsive media one-year immutable; HTML revalidation and Brotli independently verified in public HTTP."
+      },
+      {
+        "file": "src/analytics.ts",
+        "evidence": "GA4 SDK absent before consent in all12 public navigations."
+      }
+    ],
+    "findings": [
+      {
+        "severity": "medium",
+        "type": "measured_performance_opportunity",
+        "confirmed": true,
+        "description_es": "En las seis navegaciones móviles con CPU4x hubo406–572ms acumulados de tareas que exceden50ms. Esto puede afectar respuesta inicial, aunque no mide INP de usuarios ni demuestra que Google reduzca indexación.",
+        "safe_action_es": "Mantener el presupuesto de JS y datos de hidratación y realizar perfilado de tareas antes de mover código. No atribuir todo el bloqueo a anuncios sin una traza; no retirar SDK para inflar la nota.",
+        "immediate_code_change_justified": false
+      },
+      {
+        "severity": "low",
+        "type": "growth_budget",
+        "confirmed": true,
+        "description_es": "El catálogo completo resumido en tres idiomas pesa150759bytes dentro de cada HTML. Home251760bytes bruto/51264gzip; guía285400bruto/60287gzip; archivoGuías413870bruto/65180gzip. JS354595bruto/112663gzip; CSS crítico57621bruto/13015gzip.",
+        "safe_action_es": "Añadir un control de tamaño de HTML/datos como presupuesto de regresión, sin eliminar el catálogo, traducciones o navegación. Evaluar separación de datos solamente si el crecimiento empeora métricas.",
+        "immediate_code_change_justified": false
+      },
+      {
+        "severity": "low",
+        "type": "external_requests",
+        "confirmed": true,
+        "description_es": "YouTube lazy carga en escritorio cercano al viewport y añade7respuestas a su dominio. No se cargó en las navegaciones móviles medidas. AdSense/Adsterra y sus verificadores añaden recursos externos.",
+        "safe_action_es": "Conservar las configuraciones solicitadas; medir coste real con trazas antes de cambios. Convertir vídeo a carga medianteclic alteraría comportamiento y no se recomienda en esta auditoría conservadora.",
+        "immediate_code_change_justified": false
+      },
+      {
+        "severity": "informational",
+        "type": "no_current_evidence_for_old_15s_LCP",
+        "confirmed": true,
+        "description_es": "Las seisURLs públicas responden y pintan rápido en esta ruta cloud. El LCP de15.5s aportado anteriormente no se reproduce aquí. No equivale a una nueva nota PSI ni garantiza resultados de conexiones móviles reales.",
+        "safe_action_es": "Revisar PSI y Core Web Vitals de Search Console cuando exista acceso efectivo; comparar períodos y dispositivos equivalentes."
+      }
+    ],
+    "advertising": {
+      "real_SDK_requests_attempted": true,
+      "SDK_requests_simulated_or_blocked": false,
+      "Bauval_responses": "HTTP200 in this execution; unlike the historical Nov4 audit, no403 was observed.",
+      "AdSense_responses": "HTTP200/204",
+      "Social_Bar_single": true,
+      "unconsented_GA4_SDKs": 0,
+      "popunder_source_not_added": true,
+      "creative_delivery_or_revenue_verified": false,
+      "explanation": "HTTP200 provider code does not prove filled creatives or monetization; no clicks generated."
+    },
+    "limits": [
+      "No Lighthouse package/CLI available in the existing project; no package installed for this subtask.",
+      "No current Google PSI scores or CrUX/fieldINP due unavailable API quota.",
+      "Node-managed HTTPS response transport preserves SDK bytes and normal CA validation but is not equivalent to Lighthouse network throttling.",
+      "Six-second observation window, fresh contexts, no user interaction. Long-task sum is explicitly not Lighthouse TBT and CLS observer does not include cross-origin iframe layout.",
+      "Source/main loaded during root audit; measurements are against current production, not a newly deployed performance change."
+    ],
+    "artifacts": [
+      "performance-raw.json",
+      "performance-headers.json",
+      "curl-timings.json",
+      "psi.json",
+      "measure-public.mjs"
+    ]
+  },
+  "keywords": {
+    "checked_at_utc": "2026-11-11T17:02:10.062890+00:00",
+    "editorial_date_America_New_York": "2026-11-11",
+    "source": "Google public Autocomplete, clientfirefox,languagehl only; no location-specific or logged-in search settings",
+    "all_queries_status_200": true,
+    "query_count": 12,
+    "queries_per_language": 4,
+    "observed_suggestions_count": 111,
+    "raw_queries_responses": [
+      {
+        "language": "es",
+        "query": "gta 6 fecha lanzamiento",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+fecha+lanzamiento",
+        "status": 200,
+        "response": [
+          "gta 6 fecha lanzamiento",
+          [
+            "gta 6 fecha lanzamiento",
+            "gta 6 fecha lanzamiento pc",
+            "gta 6 fecha de lanzamiento ps5",
+            "gta 6 fecha de lanzamiento original",
+            "gta 6 fecha de lanzamiento precio",
+            "gta 6 fecha de lanzamiento ps4",
+            "gta 6 fecha de lanzamiento españa",
+            "gta 6 fecha de lanzamiento xbox",
+            "gta 6 fecha de lanzamiento anterior",
+            "gta 6 fecha del lanzamiento inicial"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 fecha lanzamiento",
+          "gta 6 fecha lanzamiento pc",
+          "gta 6 fecha de lanzamiento ps5",
+          "gta 6 fecha de lanzamiento original",
+          "gta 6 fecha de lanzamiento precio",
+          "gta 6 fecha de lanzamiento ps4",
+          "gta 6 fecha de lanzamiento españa",
+          "gta 6 fecha de lanzamiento xbox",
+          "gta 6 fecha de lanzamiento anterior",
+          "gta 6 fecha del lanzamiento inicial"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 pc",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+pc",
+        "status": 200,
+        "response": [
+          "gta 6 pc",
+          [
+            "gta 6 pc",
+            "gta 6 pc release date",
+            "gta 6 pc requirements",
+            "gta 6 pc release",
+            "gta 6 pc requisitos",
+            "gta 6 pc pre order",
+            "gta 6 pc cuando sale",
+            "gta 6 pc precio",
+            "gta 6 pc fecha de lanzamiento",
+            "gta 6 pc specs"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 pc",
+          "gta 6 pc release date",
+          "gta 6 pc requirements",
+          "gta 6 pc release",
+          "gta 6 pc requisitos",
+          "gta 6 pc pre order",
+          "gta 6 pc cuando sale",
+          "gta 6 pc precio",
+          "gta 6 pc fecha de lanzamiento",
+          "gta 6 pc specs"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 precarga",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+precarga",
+        "status": 200,
+        "response": [
+          "gta 6 precarga",
+          [
+            "gta 6 precarga"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 precarga"
+        ]
+      },
+      {
+        "language": "es",
+        "query": "gta 6 crossplay",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=es&q=gta+6+crossplay",
+        "status": 200,
+        "response": [
+          "gta 6 crossplay",
+          [
+            "gta 6 crossplay",
+            "gta 6 crossplay xbox ps5",
+            "gta 6 crossplay ps5 pc",
+            "gta 6 crossplay entre consolas",
+            "gta 6 crossplay reddit",
+            "gta 6 crossplay xbox playstation",
+            "gta 6 crossplay pc xbox",
+            "gta 6 crossplay online",
+            "gta 6 crossplay pc",
+            "gta 6 crossplay xbox"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 crossplay",
+          "gta 6 crossplay xbox ps5",
+          "gta 6 crossplay ps5 pc",
+          "gta 6 crossplay entre consolas",
+          "gta 6 crossplay reddit",
+          "gta 6 crossplay xbox playstation",
+          "gta 6 crossplay pc xbox",
+          "gta 6 crossplay online",
+          "gta 6 crossplay pc",
+          "gta 6 crossplay xbox"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 release date",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta+6+release+date",
+        "status": 200,
+        "response": [
+          "gta 6 release date",
+          [
+            "gta 6 release date",
+            "gta 6 release date and time",
+            "gta 6 release date pc",
+            "gta 6 release date pre order",
+            "gta 6 release date and price",
+            "gta 6 release date ps5",
+            "gta 6 release date xbox",
+            "gta 6 release date delayed",
+            "gta 6 release date online",
+            "gta 6 release date disc"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 release date",
+          "gta 6 release date and time",
+          "gta 6 release date pc",
+          "gta 6 release date pre order",
+          "gta 6 release date and price",
+          "gta 6 release date ps5",
+          "gta 6 release date xbox",
+          "gta 6 release date delayed",
+          "gta 6 release date online",
+          "gta 6 release date disc"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 pc",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta+6+pc",
+        "status": 200,
+        "response": [
+          "gta 6 pc",
+          [
+            "gta 6 pc release date",
+            "gta 6 pc",
+            "gta 6 pc release",
+            "gta 6 pc requirements",
+            "gta 6 pc port",
+            "gta 6 pc reddit",
+            "gta 6 pc specs",
+            "gta 6 pc pre order",
+            "gta 6 pc launch",
+            "gta 6 pc price"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 pc release date",
+          "gta 6 pc",
+          "gta 6 pc release",
+          "gta 6 pc requirements",
+          "gta 6 pc port",
+          "gta 6 pc reddit",
+          "gta 6 pc specs",
+          "gta 6 pc pre order",
+          "gta 6 pc launch",
+          "gta 6 pc price"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 preload",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta+6+preload",
+        "status": 200,
+        "response": [
+          "gta 6 preload",
+          [
+            "gta 6 preload date",
+            "gta 6 preload trailer",
+            "gta 6 preload meaning",
+            "gta 6 preload ps5",
+            "gta 6 preload time",
+            "gta 6 preload size",
+            "gta 6 preload price",
+            "gta 6 preload not working",
+            "gta 6 preload countdown",
+            "gta 6 preload trailer song"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                3
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                3
+              ],
+              [
+                3
+              ],
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                3
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 preload date",
+          "gta 6 preload trailer",
+          "gta 6 preload meaning",
+          "gta 6 preload ps5",
+          "gta 6 preload time",
+          "gta 6 preload size",
+          "gta 6 preload price",
+          "gta 6 preload not working",
+          "gta 6 preload countdown",
+          "gta 6 preload trailer song"
+        ]
+      },
+      {
+        "language": "en",
+        "query": "gta 6 crossplay",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&q=gta+6+crossplay",
+        "status": 200,
+        "response": [
+          "gta 6 crossplay",
+          [
+            "gta 6 crossplay",
+            "gta 6 crossplay xbox ps5",
+            "gta 6 crossplay pc ps5",
+            "gta 6 crossplay reddit",
+            "gta 6 crossplay online",
+            "gta 6 crossplay pc xbox",
+            "gta 6 crossplay between consoles",
+            "gta 6 crossplay console",
+            "gta 6 crossplay between xbox and playstation",
+            "gta 6 crossplay pc"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512,
+                433,
+                131
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 crossplay",
+          "gta 6 crossplay xbox ps5",
+          "gta 6 crossplay pc ps5",
+          "gta 6 crossplay reddit",
+          "gta 6 crossplay online",
+          "gta 6 crossplay pc xbox",
+          "gta 6 crossplay between consoles",
+          "gta 6 crossplay console",
+          "gta 6 crossplay between xbox and playstation",
+          "gta 6 crossplay pc"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 date de sortie",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=gta+6+date+de+sortie",
+        "status": 200,
+        "response": [
+          "gta 6 date de sortie",
+          [
+            "gta 6 date de sortie",
+            "gta 6 date de sortie ps5",
+            "gta 6 date de sortie pc",
+            "gta 6 date de sortie ps4",
+            "gta 6 date de sortie reporté",
+            "gta 6 date de sortie prix",
+            "gta 6 date de sortie precommande",
+            "gta 6 date de sortie heure",
+            "gta 6 date de sortie xbox",
+            "gta 6 date de sortie pc prix"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 date de sortie",
+          "gta 6 date de sortie ps5",
+          "gta 6 date de sortie pc",
+          "gta 6 date de sortie ps4",
+          "gta 6 date de sortie reporté",
+          "gta 6 date de sortie prix",
+          "gta 6 date de sortie precommande",
+          "gta 6 date de sortie heure",
+          "gta 6 date de sortie xbox",
+          "gta 6 date de sortie pc prix"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 pc",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=gta+6+pc",
+        "status": 200,
+        "response": [
+          "gta 6 pc",
+          [
+            "gta 6 pc",
+            "gta 6 pc release date",
+            "gta 6 pc date de sortie",
+            "gta 6 pc requirements",
+            "gta 6 pc config minimum",
+            "gta 6 pc prix",
+            "gta 6 pc sortie",
+            "gta 6 pc precommande",
+            "gta 6 pc config",
+            "gta 6 pc date"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 pc",
+          "gta 6 pc release date",
+          "gta 6 pc date de sortie",
+          "gta 6 pc requirements",
+          "gta 6 pc config minimum",
+          "gta 6 pc prix",
+          "gta 6 pc sortie",
+          "gta 6 pc precommande",
+          "gta 6 pc config",
+          "gta 6 pc date"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 prechargement",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=gta+6+prechargement",
+        "status": 200,
+        "response": [
+          "gta 6 prechargement",
+          [
+            "gta 6 prechargement",
+            "gta 6 preload date",
+            "gta 6 preload meaning",
+            "gta 6 preload ps5",
+            "gta 6 preload size",
+            "gta 6 preload xbox",
+            "gta 6 preload countdown",
+            "gta 6 preload time",
+            "gta 6 preload reddit",
+            "wann preload gta 6"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30,
+                10
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 prechargement",
+          "gta 6 preload date",
+          "gta 6 preload meaning",
+          "gta 6 preload ps5",
+          "gta 6 preload size",
+          "gta 6 preload xbox",
+          "gta 6 preload countdown",
+          "gta 6 preload time",
+          "gta 6 preload reddit",
+          "wann preload gta 6"
+        ]
+      },
+      {
+        "language": "fr",
+        "query": "gta 6 crossplay",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=fr&q=gta+6+crossplay",
+        "status": 200,
+        "response": [
+          "gta 6 crossplay",
+          [
+            "gta 6 crossplay",
+            "gta 6 crossplay ps5 xbox",
+            "gta 6 crossplay pc ps5",
+            "gta 6 crossplay ou pas",
+            "gta 6 crossplay xbox",
+            "is gta 6 cross play ps5",
+            "gta 6 crossplay xbox play",
+            "gta 6 crossplay rockstar",
+            "gta 6 crossplay between consoles",
+            "gta 6 crossplay reddit"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                512
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30,
+                10
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ]
+            ]
+          }
+        ],
+        "suggestions": [
+          "gta 6 crossplay",
+          "gta 6 crossplay ps5 xbox",
+          "gta 6 crossplay pc ps5",
+          "gta 6 crossplay ou pas",
+          "gta 6 crossplay xbox",
+          "is gta 6 cross play ps5",
+          "gta 6 crossplay xbox play",
+          "gta 6 crossplay rockstar",
+          "gta 6 crossplay between consoles",
+          "gta 6 crossplay reddit"
+        ]
+      }
+    ],
+    "access_limits": [
+      "Autocomplete responses indicate query associations only. No volumes, rankings, trend growth, most-searched status or Search Console impressions are available.",
+      "Languagehl does not restrict suggestions to that language; English and German strings appeared among French responses. No country filter or signed-in personalization was set.",
+      "GoogleTrends volumes, SearchConsole query metrics, SERP rankings and conversion data were not available in this subtask.",
+      "Current game facts were not revalidated by this keyword subtask. Existing facts listed through article IDs are baseline site content; proposed factual updates require fresh primary-source checks."
+    ],
+    "comparison": {
+      "existing_topics": 191,
+      "existing_language_versions": 573,
+      "compared_full_catalogue_metadata": true,
+      "manual_full_heading_and_source_review_article_ids": [
+        "gta-6-19-november-2026",
+        "release-sources",
+        "gta-6-ps5-xbox",
+        "gta6-pc-q1-2027-report-2026-10-28",
+        "gta6-pc-mac-ps5-remote-play-20261108",
+        "gta6-preload-schedule-20261028",
+        "reported-210gb-size-2026-10-28",
+        "gta6-download-duration-20261103",
+        "gta6-crossplay-cross-progression-20261105"
+      ],
+      "new_URLs_proposed": 0,
+      "merges_or_redirects_proposed": 0,
+      "live_web_changes": 0
+    },
+    "priorities": [
+      {
+        "editorial_priority": "high",
+        "intent": "Fecha y hora de lanzamiento; plataformas y mercados",
+        "public_signals": [
+          {
+            "language": "es",
+            "query": "gta 6 fecha lanzamiento",
+            "suggestions": [
+              "gta 6 fecha lanzamiento",
+              "gta 6 fecha lanzamiento pc",
+              "gta 6 fecha de lanzamiento ps5",
+              "gta 6 fecha de lanzamiento original",
+              "gta 6 fecha de lanzamiento precio",
+              "gta 6 fecha de lanzamiento ps4",
+              "gta 6 fecha de lanzamiento españa",
+              "gta 6 fecha de lanzamiento xbox",
+              "gta 6 fecha de lanzamiento anterior",
+              "gta 6 fecha del lanzamiento inicial"
+            ]
+          },
+          {
+            "language": "en",
+            "query": "gta 6 release date",
+            "suggestions": [
+              "gta 6 release date",
+              "gta 6 release date and time",
+              "gta 6 release date pc",
+              "gta 6 release date pre order",
+              "gta 6 release date and price",
+              "gta 6 release date ps5",
+              "gta 6 release date xbox",
+              "gta 6 release date delayed",
+              "gta 6 release date online",
+              "gta 6 release date disc"
+            ]
+          },
+          {
+            "language": "fr",
+            "query": "gta 6 date de sortie",
+            "suggestions": [
+              "gta 6 date de sortie",
+              "gta 6 date de sortie ps5",
+              "gta 6 date de sortie pc",
+              "gta 6 date de sortie ps4",
+              "gta 6 date de sortie reporté",
+              "gta 6 date de sortie prix",
+              "gta 6 date de sortie precommande",
+              "gta 6 date de sortie heure",
+              "gta 6 date de sortie xbox",
+              "gta 6 date de sortie pc prix"
+            ]
+          }
+        ],
+        "destinations": [
+          {
+            "article_id": "gta-6-19-november-2026",
+            "role_es": "Respuesta principal de fecha/hora y distinción frente a precarga.",
+            "titles": {
+              "es": "GTA 6: Rockstar confirma la hora de lanzamiento por regiones",
+              "en": "GTA 6 release time: Rockstar confirms local midnight",
+              "fr": "Heure de sortie de GTA 6 : Rockstar confirme minuit local"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+              "en": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+              "fr": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/"
+            },
+            "current_updated": "2026-11-03",
+            "existing_section_headings_ES": [
+              "GTA 6 se desbloquea a medianoche local del 19 de noviembre",
+              "Qué significa «medianoche local»",
+              "Lanzamiento y precarga tienen relojes diferentes",
+              "Cómo comprobar la hora que muestra tu reserva",
+              "Preguntas frecuentes antes del 19 de noviembre"
+            ]
+          },
+          {
+            "article_id": "release-sources",
+            "role_es": "Guía distinta para contrastar anuncios y evitar capturas antiguas; no competir como otra noticia de fecha.",
+            "titles": {
+              "es": "Fecha de GTA 6: cómo comprobar el anuncio oficial antes de hacer planes",
+              "en": "GTA 6 release date: how to check the official announcement before making plans",
+              "fr": "Date de sortie de GTA 6 : vérifier l’annonce officielle avant de s’organiser"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/noticias/fecha-lanzamiento-gta-6-fuentes-oficiales/",
+              "en": "https://fansgta.com/en/news/gta-6-release-date-official-sources/",
+              "fr": "https://fansgta.com/fr/actualites/date-sortie-gta-6-sources-officielles/"
+            },
+            "current_updated": "2026-10-27",
+            "existing_section_headings_ES": [
+              "Empieza por la fuente original",
+              "Comprueba cuándo se publicó y a qué se refiere",
+              "Qué significa la cuenta atrás de un portal de fans",
+              "Una comprobación paso a paso para evitar fechas antiguas"
+            ]
+          }
+        ],
+        "safe_improvements_es": [
+          "Revalidar las primarias enlazadas antes de cualquier actualización factual. Mantener una respuesta clara al comienzo y explicar si la hora corresponde a región, cuenta, tienda o formato, sin inventar un horario universal.",
+          "Reforzar enlaces contextuales de la noticia de fecha a precarga, plataformas y compra; enlazar desde la guía de comprobación a la noticia vigente. Mantener los tres slugs existentes.",
+          "No crear otra página «fecha GTA6 España»/«GTA6 lanzamientoPS5» si solo repite la respuesta; atender esas variantes dentro de la misma página."
+        ],
+        "prohibited_inferences": [
+          "La presencia de «fecha lanzamientoPC» no confirma una fecha nativaPC.",
+          "Autocomplete no demuestra que el resultado o término sea el más buscado ni establece posición."
+        ]
+      },
+      {
+        "editorial_priority": "high",
+        "intent": "GTA6 en PC: fecha, requisitos, reserva y distinción frente a streaming",
+        "public_signals": [
+          {
+            "language": "es",
+            "query": "gta 6 pc",
+            "suggestions": [
+              "gta 6 pc",
+              "gta 6 pc release date",
+              "gta 6 pc requirements",
+              "gta 6 pc release",
+              "gta 6 pc requisitos",
+              "gta 6 pc pre order",
+              "gta 6 pc cuando sale",
+              "gta 6 pc precio",
+              "gta 6 pc fecha de lanzamiento",
+              "gta 6 pc specs"
+            ]
+          },
+          {
+            "language": "en",
+            "query": "gta 6 pc",
+            "suggestions": [
+              "gta 6 pc release date",
+              "gta 6 pc",
+              "gta 6 pc release",
+              "gta 6 pc requirements",
+              "gta 6 pc port",
+              "gta 6 pc reddit",
+              "gta 6 pc specs",
+              "gta 6 pc pre order",
+              "gta 6 pc launch",
+              "gta 6 pc price"
+            ]
+          },
+          {
+            "language": "fr",
+            "query": "gta 6 pc",
+            "suggestions": [
+              "gta 6 pc",
+              "gta 6 pc release date",
+              "gta 6 pc date de sortie",
+              "gta 6 pc requirements",
+              "gta 6 pc config minimum",
+              "gta 6 pc prix",
+              "gta 6 pc sortie",
+              "gta 6 pc precommande",
+              "gta 6 pc config",
+              "gta 6 pc date"
+            ]
+          }
+        ],
+        "destinations": [
+          {
+            "article_id": "gta-6-ps5-xbox",
+            "role_es": "Resumen de plataformas oficiales y límite de información de PC.",
+            "titles": {
+              "es": "GTA 6 en PS5 y Xbox Series X|S: las plataformas de la web oficial",
+              "en": "GTA 6 on PS5 and Xbox Series X|S: the official website’s platforms",
+              "fr": "GTA 6 sur PS5 et Xbox Series X|S : les plateformes du site officiel"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/",
+              "en": "https://fansgta.com/en/news/gta-6-ps5-xbox/",
+              "fr": "https://fansgta.com/fr/actualites/gta-6-ps5-xbox/"
+            },
+            "current_updated": "2026-10-27",
+            "existing_section_headings_ES": [
+              "Qué sabemos",
+              "Por qué importa",
+              "Qué falta por confirmar",
+              "Qué revisar si estás eligiendo consola para GTA VI"
+            ]
+          },
+          {
+            "article_id": "gta6-pc-q1-2027-report-2026-10-28",
+            "role_es": "Noticia de rumor atribuida; conservar etiqueta de rumor y fuente original.",
+            "titles": {
+              "es": "Rumor: GTA 6 para PC apunta a principios de 2027, según GamesBeat",
+              "en": "Rumour: GTA 6 on PC targets early 2027, according to GamesBeat",
+              "fr": "Rumeur : GTA 6 sur PC viserait début 2027, selon GamesBeat"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/noticias/rumor-gta-6-pc-primer-trimestre-2027-gamesbeat/",
+              "en": "https://fansgta.com/en/news/rumour-gta-6-pc-q1-2027-gamesbeat-report/",
+              "fr": "https://fansgta.com/fr/actualites/rumeur-gta-6-pc-premier-trimestre-2027-gamesbeat/"
+            },
+            "current_updated": "2026-10-29",
+            "existing_section_headings_ES": [
+              "De dónde sale el rumor de principios de 2027",
+              "Qué muestran las fuentes oficiales actuales",
+              "Q1 significa enero–marzo, no una fecha concreta",
+              "Qué cambia para quien espera jugar en ordenador",
+              "Cómo reconocer una confirmación posterior",
+              "Preguntas frecuentes: fecha, reserva e imágenes"
+            ]
+          },
+          {
+            "article_id": "gta6-pc-mac-ps5-remote-play-20261108",
+            "role_es": "Procedimiento de RemotePlay con PS5 propia; intención diferente de versión nativaPC.",
+            "titles": {
+              "es": "GTA 6 en PC y Mac con PS5: guía de PS Remote Play",
+              "en": "GTA 6 on PC or Mac through PS5: a Remote Play guide",
+              "fr": "GTA 6 sur PC et Mac via PS5 : guide PS Remote Play"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+              "en": "https://fansgta.com/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+              "fr": "https://fansgta.com/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/"
+            },
+            "current_updated": "2026-11-08",
+            "existing_section_headings_ES": [
+              "Qué necesitas: PS5, licencia, ordenador y conexión",
+              "1. Comprueba el equipo e instala la aplicación oficial",
+              "2. Activa Remote Play y el encendido desde la red",
+              "3. Conecta el mando y vincula el ordenador a la PS5",
+              "Calidad, latencia y fecha: qué se puede prometer"
+            ]
+          }
+        ],
+        "safe_improvements_es": [
+          "En la ficha de plataformas, mantener una respuesta explícita sobre lo anunciado y lo no anunciado de PC, revisada contra primarias. Si no hay especificaciones oficiales, responder a «requisitos/config mínimo» explicando su ausencia en vez de inventar tablas de hardware.",
+          "Enlazar desde el rumor al resumen oficial, y desde RemotePlay distinguir los requisitos de la app frente a los requisitos inexistentes o futuros del juego nativo. No presentar RemotePlay como descarga nativaPC.",
+          "Actualizar el reporte de PC solo si existe una corrección o confirmación verificable de la fuente. No convertir automáticamente un rumor en guía oficial por el interés de búsqueda."
+        ],
+        "prohibited_inferences": [
+          "Los términos «requirements», «config minimum», «precio» y «preorder» no demuestran que haya requisitos, precio o reservasPC anunciados.",
+          "No copiar la fecha del lanzamiento en consola a una supuesta versiónPC."
+        ]
+      },
+      {
+        "editorial_priority": "high",
+        "intent": "Precarga: fecha, hora, tamaño y problemas de descarga",
+        "public_signals": [
+          {
+            "language": "es",
+            "query": "gta 6 precarga",
+            "suggestions": [
+              "gta 6 precarga"
+            ]
+          },
+          {
+            "language": "en",
+            "query": "gta 6 preload",
+            "suggestions": [
+              "gta 6 preload date",
+              "gta 6 preload trailer",
+              "gta 6 preload meaning",
+              "gta 6 preload ps5",
+              "gta 6 preload time",
+              "gta 6 preload size",
+              "gta 6 preload price",
+              "gta 6 preload not working",
+              "gta 6 preload countdown",
+              "gta 6 preload trailer song"
+            ]
+          },
+          {
+            "language": "fr",
+            "query": "gta 6 prechargement",
+            "suggestions": [
+              "gta 6 prechargement",
+              "gta 6 preload date",
+              "gta 6 preload meaning",
+              "gta 6 preload ps5",
+              "gta 6 preload size",
+              "gta 6 preload xbox",
+              "gta 6 preload countdown",
+              "gta 6 preload time",
+              "gta 6 preload reddit",
+              "wann preload gta 6"
+            ]
+          }
+        ],
+        "destinations": [
+          {
+            "article_id": "gta6-preload-schedule-20261028",
+            "role_es": "Página principal de cuándo/cómo precargar y diferencia respecto a jugar.",
+            "titles": {
+              "es": "Precarga de GTA 6: fecha, horarios globales y hasta 212 GB",
+              "en": "GTA 6 preload: start date, global times and up to 212 GB",
+              "fr": "Préchargement GTA 6 : date, horaires et jusqu’à 212 Go"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+              "en": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+              "fr": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/"
+            },
+            "current_updated": "2026-11-04",
+            "existing_section_headings_ES": [
+              "Actualización del 3 de noviembre: digital el 10, cajas desde el 12",
+              "Horarios de inicio y diferencias entre formatos",
+              "En PS5: cuenta de compra, espacio y descarga automática",
+              "En Xbox y con una caja física",
+              "Espacio y preguntas frecuentes",
+              "Tabla regional de Xbox: descargar no es empezar a jugar"
+            ]
+          },
+          {
+            "article_id": "reported-210gb-size-2026-10-28",
+            "role_es": "Explicación del tamaño, máximo y condiciones; conserva su URL histórica.",
+            "titles": {
+              "es": "GTA 6 necesita hasta 212 GB: tamaño oficial de la precarga",
+              "en": "GTA 6 needs up to 212 GB: official preload storage requirement",
+              "fr": "GTA 6 demande jusqu’à 212 Go : espace officiel du préchargement"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
+              "en": "https://fansgta.com/en/news/rumour-gta-6-210gb-ps5-download-size/",
+              "fr": "https://fansgta.com/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/"
+            },
+            "current_updated": "2026-11-03",
+            "existing_section_headings_ES": [
+              "El dato actual: hasta 212 GB según el dispositivo",
+              "Qué significa y qué no significa el máximo",
+              "Cómo queda el antiguo reporte de 210 GB",
+              "Descarga y almacenamiento compatible",
+              "Cuánto tardará y cuándo se puede descargar"
+            ]
+          },
+          {
+            "article_id": "gta6-download-duration-20261103",
+            "role_es": "Cálculo orientativo de tiempo según conexión, una intención práctica distinta.",
+            "titles": {
+              "es": "Cuánto tarda en descargar GTA 6: estimaciones para hasta 212 GB",
+              "en": "GTA 6 download time: estimates for up to 212 GB",
+              "fr": "Temps de téléchargement GTA 6 : estimations jusqu’à 212 Go"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+              "en": "https://fansgta.com/en/guides/gta-6-download-time-212-gb/",
+              "fr": "https://fansgta.com/fr/guides/gta-6-temps-telechargement-212-go/"
+            },
+            "current_updated": "2026-11-03",
+            "existing_section_headings_ES": [
+              "La base del cálculo: hasta 212 GB, no una duración garantizada",
+              "Mbps y MB/s: la diferencia que cambia la cuenta",
+              "Tabla orientativa de descarga para 212 GB",
+              "Por qué el tiempo real puede aumentar",
+              "Deja preparada la precarga, no solo el cronómetro",
+              "Descargar, instalar y actualizar no son la misma tarea",
+              "Preguntas frecuentes para planificar la descarga"
+            ]
+          }
+        ],
+        "safe_improvements_es": [
+          "Revisar el estado actual de los anuncios de precarga antes de cambiar tiempos o instrucciones; separar PS5/Xbox y digital/disco según las fuentes efectivamente accesibles.",
+          "La consulta inglesa «preload not working» permite añadir una sección de diagnóstico basada en soporte oficial: cuenta que compró, biblioteca, espacio y conexión. No prometer resolver un error específico sin evidencia.",
+          "Diferenciar claramente los tres artículos: calendario/procedimiento, espacio y cálculo de duración. Enlazarlos con anclas descriptivas en cada idioma, sin repetir la misma introducción en todos.",
+          "Retirar del excerpt de la página de tamaño la nota administrativa «sin cambiar su URL», sustituyéndola únicamente por una descripción útil ya sustentada por el cuerpo. No mover el slug ni simular una publicación nueva."
+        ],
+        "prohibited_inferences": [
+          "«Preload size» no justifica fijar un tamaño idéntico en todas las plataformas o confundir descarga con espacio disponible.",
+          "La aparición de «preload price» no confirma un servicio de precarga vendido aparte."
+        ]
+      },
+      {
+        "editorial_priority": "medium",
+        "intent": "Crossplay y progreso cruzado entre PS5, Xbox y PC",
+        "public_signals": [
+          {
+            "language": "es",
+            "query": "gta 6 crossplay",
+            "suggestions": [
+              "gta 6 crossplay",
+              "gta 6 crossplay xbox ps5",
+              "gta 6 crossplay ps5 pc",
+              "gta 6 crossplay entre consolas",
+              "gta 6 crossplay reddit",
+              "gta 6 crossplay xbox playstation",
+              "gta 6 crossplay pc xbox",
+              "gta 6 crossplay online",
+              "gta 6 crossplay pc",
+              "gta 6 crossplay xbox"
+            ]
+          },
+          {
+            "language": "en",
+            "query": "gta 6 crossplay",
+            "suggestions": [
+              "gta 6 crossplay",
+              "gta 6 crossplay xbox ps5",
+              "gta 6 crossplay pc ps5",
+              "gta 6 crossplay reddit",
+              "gta 6 crossplay online",
+              "gta 6 crossplay pc xbox",
+              "gta 6 crossplay between consoles",
+              "gta 6 crossplay console",
+              "gta 6 crossplay between xbox and playstation",
+              "gta 6 crossplay pc"
+            ]
+          },
+          {
+            "language": "fr",
+            "query": "gta 6 crossplay",
+            "suggestions": [
+              "gta 6 crossplay",
+              "gta 6 crossplay ps5 xbox",
+              "gta 6 crossplay pc ps5",
+              "gta 6 crossplay ou pas",
+              "gta 6 crossplay xbox",
+              "is gta 6 cross play ps5",
+              "gta 6 crossplay xbox play",
+              "gta 6 crossplay rockstar",
+              "gta 6 crossplay between consoles",
+              "gta 6 crossplay reddit"
+            ]
+          }
+        ],
+        "destinations": [
+          {
+            "article_id": "gta6-crossplay-cross-progression-20261105",
+            "role_es": "Única guía existente de la pregunta de compatibilidadmultijugador/progreso.",
+            "titles": {
+              "es": "¿GTA 6 tendrá crossplay entre PS5 y Xbox? Lo que está anunciado",
+              "en": "Will GTA 6 have PS5 and Xbox crossplay? What is announced",
+              "fr": "GTA 6 aura-t-il le crossplay PS5 et Xbox ? Le point officiel"
+            },
+            "URLs": {
+              "es": "https://fansgta.com/es/guias/gta-6-crossplay-ps5-xbox-juego-cruzado/",
+              "en": "https://fansgta.com/en/guides/gta-6-crossplay-ps5-xbox-cross-progression/",
+              "fr": "https://fansgta.com/fr/guides/gta-6-crossplay-ps5-xbox-jeu-progression-croises/"
+            },
+            "current_updated": "2026-11-05",
+            "existing_section_headings_ES": [
+              "La respuesta actual sobre el crossplay de GTA 6",
+              "Crossplay, cross-save y dos protagonistas: diferencias",
+              "Por qué un rumor de GTA 6 Online no confirma compatibilidad",
+              "Qué debería aclarar un anuncio de juego cruzado",
+              "Cómo elegir hoy sin apostar por una función futura"
+            ]
+          }
+        ],
+        "safe_improvements_es": [
+          "Revalidar si hay anuncio oficial antes de modificar la respuesta. Mantener la distinción entre crossplay, cross-save, campaña y cualquier modo Online no confirmado.",
+          "Atender «XboxPS5», «entreconsolas» y «PCPS5» como preguntas dentro del artículo existente; no generar páginas idénticas para cada pareja de plataformas.",
+          "Añadir enlaces desde la guía de plataformas y desde cualquier artículo Online pertinente, conservando la incertidumbre visible en las tres versiones."
+        ],
+        "prohibited_inferences": [
+          "La coexistencia de versionesPS5/Xbox o una licencia en la nube no demuestra crossplay.",
+          "Autocomplete no es evidencia sobre funciones del juego."
+        ]
+      }
+    ],
+    "ninety_day_plan": [
+      {
+        "days": "1–30",
+        "goal_es": "Correcciones técnicas y mejora de respuestas existentes",
+        "actions_es": [
+          "Publicar y verificar solo las correcciones técnicas confirmadas por la auditoría; comparar las URLs/idiomas antes y después.",
+          "En SearchConsole, obtener muestras reales de cada exclusión y revisar inspección de URL/canonical elegida. No tratar el recuento histórico como recuento actual.",
+          "Revisar primero las cuatro intenciones con señales actuales y actualizar los destinos existentes solamente con fuentes verificadas. No añadir páginas por cada variante.",
+          "Registrar línea base real de impresiones, clics, CTR, posición y métricas de campo si la cuenta autorizada llega a estar disponible.",
+          "La tarea automática existente conserva1tema/día hasta19noviembre2026inclusiveAmerica/New_York. Este plan no la extiende ni modifica."
+        ],
+        "acceptance_es": [
+          "URLs públicas indexables correctas, sitemap coherente y pruebas verdes.",
+          "Cero nuevas páginas duplicadas por estas oportunidades y cero fechas falsas."
+        ]
+      },
+      {
+        "days": "31–60",
+        "goal_es": "Priorizar mejoras según consultas y rendimiento real",
+        "actions_es": [
+          "Comparar períodos equivalentes de SearchConsole por página, idioma, consulta, dispositivo y país; sin cuenta, mantener el análisis como observación pública.",
+          "Priorizar páginas con impresiones reales y respuesta insuficiente. Mejorar introducción, explicación y enlaces internos antes de crear contenidos similares.",
+          "Revisar solapamiento calendario/tamaño/duración y fecha/comprobación de fuentes a partir de consultas y canonical elegida; no fusionar o redirigir sin examinar enlaces y tráfico.",
+          "Monitorizar CoreWebVitals y perfiles de tareas móviles sin quitar monetización para mejorar artificialmente la nota."
+        ],
+        "acceptance_es": [
+          "Cada mejora tiene motivo, fuentes, fecha real y verificaciónpública.",
+          "Se preservan todos los idiomas, slugs y artículos salvo aprobación expresa de una acción posterior."
+        ]
+      },
+      {
+        "days": "61–90",
+        "goal_es": "Evaluar resultados y profundizar donde exista evidencia",
+        "actions_es": [
+          "Comparar clics/impresiones/CTR/posición con línea base equivalente, explicitando estacionalidad de lanzamiento y límites de atribución.",
+          "Repetir un rastreo completo y una muestra móvil real por idioma; verificar que nuevas publicaciones autorizadas sigan incorporándose a sitemap/enlaces.",
+          "Elegir futuras oportunidades por preguntas útiles y fuentes disponibles, evitando crecer con variantes vacías. Cualquier nueva programación después19noviembre requiere autorización propia.",
+          "Documentar mejoras logradas y pendientes; no garantizar top10, indexación completa ni inclusión en News/Discover."
+        ],
+        "acceptance_es": [
+          "Informe con métricas reales disponibles y URLs comprobadas.",
+          "Decisiones editoriales basadas en datos o límites documentados, sin volúmenes inventados."
+        ]
+      }
+    ],
+    "monitoring": [
+      "Indexing exclusion counts with inspection examples and crawl dates",
+      "Canonical chosen by Google versus declaredcanonical",
+      "Sitemap submitted/discoveredURLs and lastread",
+      "Organicimpressions/clicks/CTR/position bylocale/query/device/country in equivalentperiods",
+      "Searchintent overlap between relatedexistingarticles",
+      "CrUX LCP/INP/CLS bydevice where available",
+      "Serverstatus errors and verifiedGooglebot request logs where authorized"
+    ],
+    "guarantees": "No top10, volume, growth, ranking, indexation, News or Discover guarantee."
+  },
+  "google_guidance": {
+    "checked_at_utc": "2026-11-11T17:00:13.897053+00:00",
+    "scope": "Fuentes oficiales, acceso a datos y plan de seguimiento. Sin modificaciones de repositorio ni publicación.",
+    "current_private_data_access": {
+      "search_console_connected_tool": false,
+      "google_analytics_connected_tool": false,
+      "current_nonindexed_count_verified": false,
+      "latest_private_metrics_available": false,
+      "no_indexing_or_traffic_claim": true,
+      "discovery_completed": true,
+      "available_but_unconnected_plugins": [
+        {
+          "name": "OpenSEO",
+          "id": "plugin_asdk_app_6abddd2c7e4c819191f1398c4bd8e9b3",
+          "installed": false
+        },
+        {
+          "name": "Windsor.ai",
+          "id": "plugin_asdk_app_694a52cfaa3c819192bea84eaa254968",
+          "installed": false
+        }
+      ],
+      "connection_or_installation_requested": false,
+      "limitation": "La búsqueda de integraciones encontró opciones posibles, pero ninguna está instalada/conectada en este entorno. No se dispone de inspección URL, canónica elegida, datos de rastreo, acciones manuales ni métricas GA de la cuenta."
+    },
+    "prior_audit_context": {
+      "file": "docs/seo/2026-11-09-indexing-audit.json",
+      "date": "2026-11-09",
+      "counts_are_historical": true,
+      "reported_discovered_not_indexed": 288,
+      "reported_crawled_not_indexed": 56,
+      "reported_noindex": 6,
+      "reported_404": 4,
+      "reported_redirects": 4,
+      "note": "Suman 358, mientras el encargo habla aproximadamente de 357. No se corrige el dato privado por suposiciones: se conserva como histórico aproximado y se pide/exporta fecha y lista actuales cuando exista acceso.",
+      "prior_technical_issue_fixed": "147 versiones sin enlaces desde otros artículos, aunque enlazadas desde categorías. La auditoría previa corrigió esta concentración; no se atribuye causalidad total a las exclusiones."
+    },
+    "confirmed_current_code_findings": [
+      {
+        "severity": "medium",
+        "finding": "El template estático solo autoriza index,follow, sin max-image-preview:large para páginas elegibles.",
+        "evidence": "scripts/static-pages.mjs, construcción de meta robots.",
+        "safe_improvement": "Añadir max-image-preview:large a páginas indexables con imágenes cuyo uso editorial lo permita y mantener consistencia SSR/cliente/verificadores.",
+        "indexing_cause_proven": false,
+        "reference": "discover"
+      },
+      {
+        "severity": "informational",
+        "finding": "BlogPosting actual es un tipo admitido por Google.",
+        "evidence": "scripts/static-pages.mjs JSON-LD de artículos.",
+        "safe_improvement": "Mantener o especializar por contenido real; no declarar el tipo actual un error de indexación.",
+        "reference": "article-schema"
+      },
+      {
+        "severity": "informational",
+        "finding": "Unas 612 URLs no obligan a dividir el sitemap.",
+        "safe_improvement": "Un índice puede servir para seguimiento si se decide organizar, pero no es una reparación necesaria ni garantía de rastreo. News requiere noticias auténticas recientes, no reiniciar fechas de guías antiguas.",
+        "reference": "sitemap"
+      }
+    ],
+    "search_console_actions_when_accessible": [
+      "Exportar informe actual con fecha, conteos y ejemplos de cada motivo; conservar IDs/URLs para comparación posterior.",
+      "Inspeccionar una muestra estratificada por idioma, categoría, antigüedad y motivo; comparar URL declarada/elegida, último rastreo, recuperación, robots y HTML renderizado.",
+      "En Estadísticas de rastreo, revisar disponibilidad de host, tiempos de respuesta y códigos por fecha; correlacionar con despliegues y eventos Cloudflare solo de IPs verificadas.",
+      "Comprobar sitemaps leídos y fecha de última lectura; reenviar el sitemap canónico actual si hace falta, sin peticiones masivas repetidas.",
+      "Revisar acciones manuales, seguridad y mejoras de resultados; validar solo los problemas realmente corregidos.",
+      "Solicitar indexación de unos pocos ejemplos prioritarios corregidos si la prueba en vivo pasa; no forzar exclusiones normales ni todas las URLs."
+    ],
+    "measurement_plan": {
+      "baseline": "Guardar fecha de despliegue y estado técnico. No hay línea base privada actual; no fabricar antes/después de impresiones o ranking.",
+      "search_console": [
+        "URLs válidas/indexadas por idioma y motivo de exclusión",
+        "URLs enviadas/leídas e indexadas por sitemap",
+        "Impresiones, clics, CTR y posición media por consulta/página/país/dispositivo",
+        "Comparar últimos 28 días completos con 28 días anteriores y segmentar páginas/idiomas; anotar estacionalidad del lanzamiento y cambios del sitio",
+        "Último rastreo y canónica elegida de la muestra estable",
+        "Errores de host, tiempos de respuesta y volumen real de rastreo",
+        "Discover/News solo si Search Console muestra esos informes y umbral de datos"
+      ],
+      "analytics": [
+        "Sesiones orgánicas y páginas de entrada si GA está conectado",
+        "Interacción/conversiones reales definidas, sin interpretar rechazos de consentimiento como visitas inexistentes"
+      ],
+      "field_performance": [
+        "LCP/INP/CLS p75 móvil/escritorio con CrUX/Search Console cuando haya datos",
+        "Separar laboratorio Lighthouse de datos de campo y anotar anuncios, red y región"
+      ]
+    },
+    "growth_plan_90_days": [
+      {
+        "days": "1–30",
+        "dates": "2026-11-11 a 2026-12-10",
+        "priority": "Indexabilidad y diagnóstico trazable",
+        "actions": [
+          "Verificar correcciones sobre todas las URLs canónicas y mantener pruebas de sitemap/canonical/hreflang/HTML inicial/enlaces.",
+          "Obtener exportación privada actual cuando sea posible y una muestra estable de URL Inspection.",
+          "Mantener 404 técnicos sin reemplazo y noindex vacíos legítimos; resolver solo URL pública rota demostrada.",
+          "Mejorar preview de imagen y metadatos verificados sin fechas ficticias.",
+          "Revisar candidatos de intención solapada sin fusionar ni borrar; preparar mejoras de utilidad concreta."
+        ],
+        "measure": [
+          "Errores técnicos públicos",
+          "Resultado de inspección de la muestra",
+          "Cobertura por idioma y sitemap"
+        ]
+      },
+      {
+        "days": "31–60",
+        "dates": "2026-12-11 a 2027-01-09",
+        "priority": "Mejorar páginas existentes con demanda observada",
+        "actions": [
+          "Priorizar consultas reales con impresiones y posiciones 11–30 cuando existan datos; comparar intención frente a contenido.",
+          "Actualizar títulos/respuestas iniciales, fuentes caducadas, traducciones y enlaces contextuales de los artículos elegidos.",
+          "Reforzar categorías con contenido ya existente y revisar pertinencia de relacionados sin nuevas páginas vacías.",
+          "Medir rendimiento móvil real con anuncios y corregir los cuellos de botella demostrados."
+        ],
+        "measure": [
+          "Impresiones/clics/CTR/posición por cohortes equivalentes",
+          "Indexación de páginas mejoradas",
+          "CWV de campo y rendimiento de laboratorio reproducible"
+        ]
+      },
+      {
+        "days": "61–90",
+        "dates": "2027-01-10 a 2027-02-08",
+        "priority": "Evaluación y profundización basada en resultados",
+        "actions": [
+          "Comparar períodos equivalentes, separar cambio de demanda tras lanzamiento de efectos técnicos.",
+          "Profundizar en guías que ya reciben consultas; evitar páginas casi iguales por variaciones de keyword.",
+          "Revisar páginas aún excluidas con datos privados antes de considerar consolidación y documentar riesgos de enlaces/tráfico.",
+          "Valorar Discover/News por resultados realmente disponibles sin prometer aparición."
+        ],
+        "measure": [
+          "Evolución de cohortes y consultas por idioma/dispositivo",
+          "Razones persistentes de exclusión",
+          "Clics orgánicos y calidad de páginas de entrada"
+        ]
+      }
+    ],
+    "automation_boundary": "Este plan no crea tareas ni extiende la programación diaria autorizada, que termina el 19 de noviembre de 2026 inclusive America/New_York. Los pasos posteriores son revisión/optimización de contenido existente; nuevas publicaciones requerirían el alcance vigente correspondiente.",
+    "official_sources": [
+      {
+        "id": "page-indexing",
+        "url": "https://support.google.com/webmasters/answer/7440203?hl=en",
+        "access": "opened official page successfully",
+        "summary": "Descubierta sin indexar indica que Google conoce la URL pero todavía no la ha rastreado. Rastreada sin indexar indica recuperación previa sin inclusión. Ninguna etiqueta demuestra por sí sola una causa concreta de calidad, bloqueo o penalización. Redirecciones, duplicados y 404 sin reemplazo pueden quedar excluidos correctamente. La inspección individual es necesaria para investigar ejemplos."
+      },
+      {
+        "id": "url-inspection",
+        "url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+        "access": "official search result checked",
+        "summary": "El estado indexado refleja la última versión conocida por Google; la prueba en vivo comprueba la versión actual. Necesitamos inspección privada para canónica elegida, recuperación por Google y último rastreo."
+      },
+      {
+        "id": "sitemap",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+        "access": "opened official page successfully",
+        "summary": "El límite por sitemap es 50.000 URLs o 50 MB sin comprimir. Un índice es opcional cuando no se alcanzan esos límites y puede ayudar a organizar informes. Google ignora priority y changefreq. lastmod debe reflejar cambios significativos y verificables de contenido, marcado o enlaces, no la hora de cada compilación. Solo se deben listar URLs canónicas que queramos indexar."
+      },
+      {
+        "id": "news-sitemap",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap",
+        "access": "opened official page successfully",
+        "summary": "Un sitemap News puede extender el existente o usar archivo separado estable. Solo incluye noticias creadas en los últimos dos días; máximo 1.000 etiquetas news:news. Requiere publicación, idioma, fecha original y título reales. No convierte guías antiguas o simples actualizaciones en noticias recién publicadas. Un archivo temporalmente vacío no perjudica Google Search. No acredita aceptación en News."
+      },
+      {
+        "id": "discover",
+        "url": "https://developers.google.com/search/docs/appearance/google-discover",
+        "access": "opened official page successfully",
+        "summary": "La elegibilidad parte de indexación y cumplimiento de políticas, sin etiquetas especiales obligatorias ni garantía de aparecer. Recomienda títulos informativos sin clickbait, imágenes relevantes de al menos 1.200 px y permiso max-image-preview:large. og:image o schema pueden señalar la imagen representativa; evitar logos genéricos o imágenes cargadas de texto. También importa la experiencia de página."
+      },
+      {
+        "id": "article-schema",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/article",
+        "access": "opened official page successfully",
+        "summary": "Article, NewsArticle y BlogPosting son tipos admitidos. No hay propiedades obligatorias específicas; las recomendadas aplicables deben reflejar contenido real. Autor puede ser Person u Organization. Validar código y comprobar cómo lo ve Google. Cambiar BlogPosting a NewsArticle sin más no resuelve por sí solo exclusiones ni garantiza rich results."
+      },
+      {
+        "id": "generative-ai",
+        "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+        "access": "opened official page successfully",
+        "source_last_updated": "2026-10-01 UTC",
+        "summary": "La IA puede ayudar en investigación y estructura, pero producir muchas páginas sin valor añadido puede incumplir la política de abuso a escala. Revisión factual humana y control de calidad son esenciales también para títulos, descripciones, schema y alt. Dar contexto sobre la creación del contenido puede ayudar al lector. La tecnología usada no acredita por sí sola una infracción."
+      },
+      {
+        "id": "scaled-content",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies#scaled-content",
+        "access": "opened official page successfully",
+        "summary": "El abuso a escala se define por producción dirigida a manipular rankings con poco valor, independientemente del método. Paráfrasis, traducción o agregación automática sin aportación pueden ser ejemplos. El volumen o una similitud estadística son señales para revisión, no pruebas suficientes de sanción en este sitio."
+      },
+      {
+        "id": "cloudflare-pages-bic",
+        "url": "https://developers.cloudflare.com/pages/platform/known-issues/",
+        "access": "opened official page successfully",
+        "summary": "Pages aplica Browser Integrity Check en su zona administrada incluso a dominios propios. Algunos User-Agent de bibliotecas, como urllib predeterminado, reciben 403/1010. La documentación recomienda un identificador descriptivo del cliente. Desactivar BIC en la zona del usuario no elimina el control administrado de Pages. Ese fallo de un cliente de auditoría no prueba un bloqueo de Googlebot real."
+      },
+      {
+        "id": "cloudflare-crawling",
+        "url": "https://developers.cloudflare.com/support/troubleshooting/general-troubleshooting/troubleshooting-crawl-errors/",
+        "access": "opened official page successfully",
+        "summary": "No bloquear IPs verificadas o User-Agent de Google mediante robots o reglas. Revisar registros y correlacionar errores. Cloudflare recomienda excluir /cdn-cgi/ en robots y aclara que sus errores no afectan rankings. No se justifica desactivar protecciones globales solo por un error de cliente no verificado."
+      },
+      {
+        "id": "verify-google",
+        "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests",
+        "access": "official page opened after documented redirect from older URL",
+        "summary": "La identidad de Google se verifica mediante IPs publicadas o resolución DNS inversa y directa apropiadas. Cambiar el User-Agent a Googlebot desde nuestra nube no demuestra que las peticiones auténticas de Google tengan el mismo resultado."
+      },
+      {
+        "id": "international",
+        "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+        "access": "opened current official route; older /crawling-indexing/localized-versions inaccessible via web tool",
+        "summary": "Cada versión debe declarar todas las equivalentes, incluida ella misma, y enlaces de retorno. HTML, HTTP y sitemap son métodos equivalentes; duplicarlos en los tres no añade beneficio. Traducciones completas del contenido principal no son duplicados solo por compartir tema. Mantener canonical en el mismo idioma y contenido visible localizado."
+      },
+      {
+        "id": "recrawl",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl",
+        "access": "opened official page successfully",
+        "summary": "Solicitar recrawl no garantiza indexación inmediata ni inclusión. Para pocas URLs se usa inspección con propietario o usuario completo; para muchas, sitemap. Repetir solicitudes para la misma URL no acelera el rastreo. Puede tardar días o semanas."
+      },
+      {
+        "id": "crawl-budget",
+        "url": "https://developers.google.com/crawling/docs/crawl-budget",
+        "access": "official page opened after documented redirect from older URL",
+        "summary": "La capacidad y la demanda de rastreo son distintas. La guía avanzada se dirige a grandes sitios, sitios con cambios rápidos o muchos estados descubierta sin indexar. No existe una cifra de presupuesto público que podamos atribuir a FansGTA. Mantener servidor sano y sitemap actualizado y examinar datos reales antes de diagnosticar sobrecarga."
+      },
+      {
+        "id": "interstitials",
+        "url": "https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials",
+        "access": "opened official page successfully",
+        "summary": "Las superposiciones promocionales que dificultan acceder al contenido pueden perjudicar experiencia y comprensión. Analizar entrega real en móvil; no inferir que un formato concreto sea causa de no indexación sin observarlo. Preservar anuncios autorizados y no introducir nuevos formatos invasivos."
+      }
+    ],
+    "changes_made_by_this_agent": []
+  },
+  "external_links": {
+    "checked_at_utc": "2026-11-11T17:02:37.109101+00:00",
+    "scope_unique_urls": 328,
+    "counts": {
+      "reachable_head": 312,
+      "head_404_not_confirmed_by_get": 1,
+      "access_restricted_or_rate_limited_not_proven_broken": 4,
+      "transport_or_redirect_error_not_proven_broken": 9,
+      "head_not_supported_not_proven_broken": 2
+    },
+    "confirmed_404_410": [],
+    "unresolved": [
+      {
+        "url": "https://tech.yahoo.com/gaming/articles/gta-6-fishing-hunting-doesn-135303566.html",
+        "classification": "access_restricted_or_rate_limited_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 403,
+          "final_url": "https://tech.yahoo.com/gaming/articles/gta-6-fishing-hunting-doesn-135303566.html",
+          "duration_seconds": 0.395303,
+          "redirects": 0,
+          "curl_exit_code": 0,
+          "error": null,
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.bloomberg.com/features/2026-grand-theft-auto-6-making-of/",
+        "classification": "access_restricted_or_rate_limited_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 403,
+          "final_url": "https://www.bloomberg.com/features/2026-grand-theft-auto-6-making-of/",
+          "duration_seconds": 0.400152,
+          "redirects": 0,
+          "curl_exit_code": 0,
+          "error": null,
+          "content_type": "text/html",
+          "retry_after": "0",
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-09-17/twitch-ceo-urges-game-firms-to-avoid-attention-vortex-of-gta-6",
+        "classification": "access_restricted_or_rate_limited_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 403,
+          "final_url": "https://www.bloomberg.com/news/articles/2026-09-17/twitch-ceo-urges-game-firms-to-avoid-attention-vortex-of-gta-6",
+          "duration_seconds": 0.391338,
+          "redirects": 0,
+          "curl_exit_code": 0,
+          "error": null,
+          "content_type": "text/html",
+          "retry_after": "0",
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.ign.com/articles/gta-6-the-big-interview",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.ign.com/articles/gta-6-the-big-interview",
+          "duration_seconds": 0.005022,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.spectrum.net/thank-you",
+        "classification": "access_restricted_or_rate_limited_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 403,
+          "final_url": "https://www.spectrum.net/thank-you",
+          "duration_seconds": 0.761207,
+          "redirects": 0,
+          "curl_exit_code": 0,
+          "error": null,
+          "content_type": "text/html",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.twitch.tv/drops/inventory",
+        "classification": "head_not_supported_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 405,
+          "final_url": "https://www.twitch.tv/drops/inventory",
+          "duration_seconds": 0.207838,
+          "redirects": 0,
+          "curl_exit_code": 0,
+          "error": null,
+          "content_type": null,
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.twitch.tv/kaicenat",
+        "classification": "head_not_supported_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 405,
+          "final_url": "https://www.twitch.tv/kaicenat",
+          "duration_seconds": 0.207086,
+          "redirects": 0,
+          "curl_exit_code": 0,
+          "error": null,
+          "content_type": null,
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=4imTpB82edE&t=259s",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.youtube.com/watch?v=4imTpB82edE&t=259s",
+          "duration_seconds": 0.003392,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=5PEKC28azRU",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.youtube.com/watch?v=5PEKC28azRU",
+          "duration_seconds": 0.003876,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=CdL0UcLR_zI",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.youtube.com/watch?v=CdL0UcLR_zI",
+          "duration_seconds": 0.00314,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+          "duration_seconds": 0.005475,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
+          "duration_seconds": 0.00383,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=j0-T6os4Gn8",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.youtube.com/watch?v=j0-T6os4Gn8",
+          "duration_seconds": 0.003511,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=r7BWW8gvxRw",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.youtube.com/watch?v=r7BWW8gvxRw",
+          "duration_seconds": 0.003705,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=zd1O7AdonNs",
+        "classification": "transport_or_redirect_error_not_proven_broken",
+        "head": {
+          "method": "HEAD",
+          "status": 0,
+          "final_url": "https://www.youtube.com/watch?v=zd1O7AdonNs",
+          "duration_seconds": 0.003663,
+          "redirects": 0,
+          "curl_exit_code": 56,
+          "error": "curl: (56) CONNECT tunnel failed, response 403",
+          "content_type": "text/plain",
+          "retry_after": null,
+          "cf_mitigated": null
+        },
+        "get_confirmation": null
+      }
+    ]
+  },
+  "sitemaps": {
+    "url": "https://fansgta.com/sitemap.xml",
+    "urls": 612,
+    "bytes": 286658,
+    "split_needed_by_size": false,
+    "news_sitemap_added": false,
+    "reason": "No inventar horas ni convertir guías antiguas actualizadas en noticias de los últimos2días. Sitemap general correcto y autogenerado.",
+    "lastmod_policy": "Fechas significativas del contenido; sin bump por preview/alt/extracto menor."
+  },
+  "preserved": [
+    "Todos191artículos,573URLs,fechas,párrafos,tablas yfuentes",
+    "Diseño,CSS,imágenes y créditos",
+    "Adsterra5banners,SocialBarúnico,popunderdesactivado,AdSense yconsentimientoGA",
+    "Seguridad,credenciales,DNS,caché yservicios",
+    "Frecuencia y límite19nov2026 de la programación"
+  ],
+  "validation": {
+    "build_release": "passed",
+    "static_and_seo": "passed",
+    "production_corrections": "not_yet_verified",
+    "publication_proof": "docs/seo/2026-11-11-publicacion.json",
+    "browser_tests": {
+      "initial_full_suite": {
+        "total": 436,
+        "passed": 380,
+        "failed": 42,
+        "skipped": 14,
+        "log": "tests-initial.log"
+      },
+      "focused_fixture_rerun": {
+        "total": 70,
+        "passed": 68,
+        "failed": 2,
+        "files": [
+          "tests/editorial-20261030.spec.ts",
+          "tests/editorial-deep.spec.ts",
+          "tests/editorial-five-20261103.spec.ts",
+          "tests/editorial-ten.spec.ts",
+          "tests/editorial-three-20261102.spec.ts",
+          "tests/editorial-transport.spec.ts",
+          "tests/editorial.spec.ts"
+        ],
+        "log": "tests-rerun.log"
+      },
+      "final_HTML_attribute_parser_rerun": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "reason": "HTML attributes are case insensitive; React emits srcSet.",
+        "log": "tests-final-parser.log"
+      },
+      "unique_active_scenarios_verified": 422,
+      "intentional_skips": 14,
+      "unresolved_failed_scenarios": 0,
+      "preserved_scope": "Initial failures were historical snapshots and test selectors, not evidence of product indexation defects. Production content was not rolled back to satisfy them."
+    }
+  },
+  "report": "docs/seo/2026-11-11-auditoria-integral.md",
+  "ninety_day_plan_is_not_a_schedule": true
+}

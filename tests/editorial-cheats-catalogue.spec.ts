@@ -54,7 +54,7 @@ test('six editions retain crawlable content, localized metadata and linked alter
  const sitemap=await(await request.get('/sitemap.xml')).text();
  for(const a of[rumours,catalogue])for(const[li,locale]of(['es','en','fr']as const).entries()){
   const path=articlePath(locale,a),url='https://fansgta.com'+path;const r=await request.get(path);expect(r.status()).toBe(200);const html=await r.text();
-  expect(html).toContain(`rel="canonical" href="${url}"`);expect(sitemap).toContain(`<loc>${url}</loc>`);expect(html).toContain('content="index,follow"');
+  expect(html).toContain(`rel="canonical" href="${url}"`);expect(sitemap).toContain(`<loc>${url}</loc>`);expect(html).toContain('content="index,follow,max-image-preview:large"');
   for(const l of['es','en','fr']as const)expect(html).toContain(`hreflang="${l}" href="https://fansgta.com${articlePath(l,a)}"`);
   const schema=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(x=>x['@type']==='BlogPosting');
   expect(schema.headline).toBe(a.title[li]);expect(schema.datePublished).toBe(a.published);expect(schema.dateModified).toBe(a.updated);expect(schema.description).toBe(a.excerpt[li]);

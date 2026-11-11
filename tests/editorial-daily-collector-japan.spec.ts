@@ -9,7 +9,7 @@ test('Collector guide keeps the existing topic and original publication in all t
  const sitemap=await(await request.get('/sitemap.xml')).text();
  for(const[li,l]of(['es','en','fr']as const).entries()){
   const path=articlePath(l,article),r=await request.get(path);expect(r.status()).toBe(200);const h=await r.text();
-  expect(h).toContain('content="index,follow"');expect(h).toContain(`rel="canonical" href="https://fansgta.com${path}"`);
+  expect(h).toContain('content="index,follow,max-image-preview:large"');expect(h).toContain(`rel="canonical" href="https://fansgta.com${path}"`);
   for(const lang of ['es','en','fr']as const)expect(h).toContain(`hreflang="${lang}" href="https://fansgta.com${articlePath(lang,article)}"`);
   const schemas=[...h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));const post=schemas.find(s=>s['@type']==='BlogPosting');
   expect(post.headline).toBe(article.title[li]);expect(post.datePublished).toBe('2026-10-28');expect(post.dateModified).toBe('2026-11-02');expect(post.description).toBe(article.excerpt[li]);expect(post.citation).toContain(shop);

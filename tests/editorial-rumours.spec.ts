@@ -14,7 +14,7 @@ test('the cloud publication batch has six complete, indexable and linked languag
    const html=await response.text();
    expect(html).toContain(`lang="${locale}"`);
    expect(html).toContain(`rel="canonical" href="${url}"`);
-   expect(html).toContain('content="index,follow"');
+   expect(html).toContain('content="index,follow,max-image-preview:large"');
    expect(sitemap).toContain(`<loc>${url}</loc>`);
    for(const language of ['es','en','fr'] as const)expect(html).toContain(`hreflang="${language}" href="https://fansgta.com${articlePath(language,article)}"`);
    const schemas=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match=>JSON.parse(match[1]));

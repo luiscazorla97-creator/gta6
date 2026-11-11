@@ -14,7 +14,7 @@ test('complete history series has unique localized metadata, real images and pre
   const image=await request.get(mediaPath(a.image));expect(image.status()).toBe(200);expect(image.headers()['content-type']).toContain('image/webp');
   for(const [li,locale] of (['es','en','fr'] as const).entries()){
    const path=articlePath(locale,a),url='https://fansgta.com'+path;const response=await request.get(path);expect(response.status()).toBe(200);const html=await response.text();
-   expect(html).toContain(`rel="canonical" href="${url}"`);expect(html).toContain('content="index,follow"');expect(sitemap).toContain(`<loc>${url}</loc>`);
+   expect(html).toContain(`rel="canonical" href="${url}"`);expect(html).toContain('content="index,follow,max-image-preview:large"');expect(sitemap).toContain(`<loc>${url}</loc>`);
    expect(html).toContain(`property="og:image:alt"`);expect(html).toContain(`name="twitter:image:alt"`);
    for(const l of ['es','en','fr'] as const)expect(html).toContain(`hreflang="${l}" href="https://fansgta.com${articlePath(l,a)}"`);
    const schema=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(s=>s['@type']==='BlogPosting');

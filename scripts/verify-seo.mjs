@@ -26,7 +26,9 @@ async function check(locale,path,alternates,{article,section,legal}={}){
  const eligible=!section||articles.some(a=>a.category===section);
  const robots=tags(head,'meta').filter(t=>attr(t,'name')==='robots');
  assert.equal(robots.length,1,`Robots count: ${path}`);
- assert.equal(attr(robots[0],'content'),eligible?'index,follow':'noindex,follow',`Indexability: ${path}; use build:release`);
+ const directives=(attr(robots[0],'content')??'').split(',').map(v=>v.trim().toLowerCase());
+ assert.equal(new Set(directives).size,directives.length,`Duplicate robots directives: ${path}`);
+ assert.deepEqual(new Set(directives),new Set(eligible?['index','follow','max-image-preview:large']:['noindex','follow']),`Indexability and image previews: ${path}; use build:release`);
  const canonical=links.filter(t=>attr(t,'rel')==='canonical');
  assert.deepEqual(canonical.map(t=>attr(t,'href')),[origin+path],`Canonical: ${path}`);
  assert.ok(html.startsWith('<!doctype html>')||html.startsWith('<!DOCTYPE html>'),`HTML doctype: ${path}`);
@@ -80,5 +82,7 @@ assert.ok(robots.includes('Sitemap: '+origin+'/sitemap.xml'),'Robots sitemap dec
 assert.ok(robots.includes('Disallow: /cdn-cgi/'),'Cloudflare technical URLs should not be crawled');
 assert.ok(!/^Disallow:\s*\/$/m.test(robots),'Robots blocks the entire site');
 assert.ok(!/x-robots-tag:\s*noindex/i.test(await readFile('dist/_headers','utf8')),'Global HTTP noindex');
-assert.ok(/name="robots" content="noindex,follow"/.test(await readFile('dist/404.html','utf8')),'404 must remain excluded');
+const missingPage=await readFile('dist/404.html','utf8');
+assert.ok(/name="robots" content="noindex,follow"/.test(missingPage),'404 must remain excluded');
+assert.ok(!missingPage.includes('max-image-preview:large'),'404 must not permit large previews');
 console.log(`SEO verified: ${paths.size} article URLs, ${expected.size} canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.`);
