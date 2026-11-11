@@ -1,5 +1,5 @@
 {
-  "status": "validated_locally_awaiting_publication",
+  "status": "published_and_publicly_verified",
   "prepared_at_utc": "2026-11-11T22:49:25.436665+00:00",
   "base_main": "d6ba716d768d9848af3b4829c68781420b69b625",
   "scope": "One daily GTA VI news topic, complete Spanish/English/French; last authorized date November 19 inclusive America/New_York.",
@@ -59,13 +59,698 @@
       "real_creative_delivery_not_claimed": true
     },
     "all_18_protected_source_files_unchanged": true,
-    "own_js_css_bytes_unchanged": true
+    "own_js_css_bytes_unchanged": true,
+    "protected_source_hashes": {
+      "index.html": "ab373051e9d76ea56b1673a3c378c9fe9423b2be5470c66715a5785dd406476e",
+      "package.json": "91df8d410b903b8799c443410e95c2003541eb880baab7e2a8cf39ec924133f2",
+      "package-lock.json": "b7299357343a7989f35ca990964ff10165b007939d4123da0dd59d091385eb4b",
+      "public/_headers": "ffe5f0d19831fa05c0dda64f1fc85f3c8ed814895edb98fe1435f7de085f4201",
+      "public/_redirects": "4ea6d2835a2685c1358c8ac49345a7564ef95bdb5becf9837ef89ced478f9e3a",
+      "public/ads.txt": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "public/media/credits.json": "4115e3b43685aa261a51a18d9de0ef5cf7cac0bbdad28ae80e4a5b94b758cc45",
+      "src/ads/AdManager.tsx": "82e83322b4d43b865c315de9a325f3277b6847f551be0282bd1cd3e4a51d299e",
+      "src/ads/AdSlot.tsx": "d80ba062996674590c8a04fca9b93874d7285a7bc67d8f854a5713c0cb0e16ca",
+      "src/ads/config.ts": "cbdfb01ef3f74fda0a3499caba9bd1490f432b3eb09f348985411617a1ee1f5f",
+      "src/ads/loadAd.ts": "436d8b09761406f24b7d8183dd73e8e99ba4c651ea146bd4f072b59a1c8aa940",
+      "src/ads/AdDebug.tsx": "267586a226ce6083778ff60bb61629db1400e90e860e923604e585f40d2daab1",
+      "src/ads/postscribe.d.ts": "7448ef1ab0abee1e166d1e927180f30518e437a5878e40ec4d79a580d3338e63",
+      "src/ads/diagnostics.ts": "f093c22778266ca688d9feb40ff32fb21e5f4c21c6c23b560c6384015ec861cb",
+      "src/ads/SiteAds.tsx": "f2a6da717ccf894b8f1bd11c06128770c96e3ca8cb13e7eb021aedc22cba6e2d",
+      "src/analytics.ts": "2fe941449b9fe7f7eafec595710740008e22855a56cc53212f1ac303950d07dd",
+      "src/AnalyticsConsent.tsx": "3d371e94aa63afb2385d5c43dc24f019ec96a524e39c2440872dd30f217e9851",
+      "src/style.css": "b9050fbdd1c7aa69086a0964fec8344b5de57b8e2375ba189a0d8d902fb73aa3"
+    },
+    "own_js_css_hashes": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-sXrCCPVR.js": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa",
+      "assets/postscribe-r6f5iNPV.js": "1a000065f9407cc46642cc606fa6a7caf668238bc684895312d4801a8aaacb35"
+    }
   },
-  "publication": null,
-  "public_verification": null,
+  "publication": {
+    "repository": "https://github.com/luiscazorla97-creator/gta6",
+    "branch": "main",
+    "runtime_commit": "d2ed27a3f47ea5904e9e35c565317171fe4b8d38",
+    "runtime_tree": "3ec89bd54a21bfedc9340ed387b635ae5358f47b",
+    "cloudflare_project": "fansgta",
+    "deployment": {
+      "id": "2ed1886c-2c30-4bfe-9c64-5af2e5fa0f58",
+      "environment": "production",
+      "url": "https://2ed1886c.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-11T22:52:27.492799Z",
+        "ended_on": "2026-11-11T22:52:46.283649Z",
+        "status": "success"
+      },
+      "commit": "d2ed27a3f47ea5904e9e35c565317171fe4b8d38"
+    },
+    "canonical_deployment_confirmed": true,
+    "public_origin": "https://fansgta.com"
+  },
+  "public_verification": {
+    "http": {
+      "origin": "https://fansgta.com",
+      "checked_at_utc": "2026-11-11T22:53:15.747469+00:00",
+      "article_urls": [
+        {
+          "id": "gta6-preload-network-records-20261111",
+          "locale": "es",
+          "url": "https://fansgta.com/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "072327f9a870a961d58c0da5db0a4a97b216796bc7b249acbb46bb87f53f8e60",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-preload-network-records-20261111",
+          "locale": "en",
+          "url": "https://fansgta.com/en/news/gta-6-preload-virgin-media-traffic-records/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "afdcaf5141a0cc555bffeba927f9435f1efcb514d0d40f31589f04c31a196e42",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        },
+        {
+          "id": "gta6-preload-network-records-20261111",
+          "locale": "fr",
+          "url": "https://fansgta.com/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "a829d908709fe86fc5c504e691a632576e70b33200596cd7955c6ee87e49e8e1",
+          "initial_html_complete": true,
+          "seo_schema_hreflang_correct": true,
+          "official_figures": 3
+        }
+      ],
+      "discovery_pages": [
+        {
+          "url": "https://fansgta.com/en/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "1cfa965a2719c63f4ee1efad5c76d7feacb49ff8ed63288224b9b58b72f61507"
+        },
+        {
+          "url": "https://fansgta.com/en/news/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "355a818e9bb2e0832fec7e896f8469d29e792636cbdf4f1cc758159500c431a1"
+        },
+        {
+          "url": "https://fansgta.com/es/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "64bb4d64e7341f3c08ea5970a2eb3070df14de5e23674fe8d548008d23291316"
+        },
+        {
+          "url": "https://fansgta.com/es/noticias/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "7332a9b5a0a2f65c79d08690ded719f5b5b5a044774e1137b6a73fbb64dc3177"
+        },
+        {
+          "url": "https://fansgta.com/fr/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "e0886bb16e05e6384e20eada5241e768d706555df983a5816292f1fc0e07310e"
+        },
+        {
+          "url": "https://fansgta.com/fr/actualites/",
+          "status": 200,
+          "release_content_identical": true,
+          "links_verified": true,
+          "sha256": "39b78e32e3d1459ba684f648a44ccfc71c2c04055e8fb7456f966de228e5ef22"
+        }
+      ],
+      "internal_links": [
+        {
+          "path": "/en/guides/gta-6-download-time-212-gb/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/guides/gta-6-preload-date-time-consoles/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/en/news/gta-6-spectrum-free-speed-boost-eligibility/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/es/noticias/gta-6-spectrum-mejora-velocidad-gratis-requisitos/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/actualites/gta-6-spectrum-debit-gratuit-conditions/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/gta-6-temps-telechargement-212-go/",
+          "status": 200,
+          "release_content_identical": true
+        },
+        {
+          "path": "/fr/guides/prechargement-gta-6-date-heure-consoles/",
+          "status": 200,
+          "release_content_identical": true
+        }
+      ],
+      "resources": [
+        {
+          "path": "/assets/index-sXrCCPVR.js",
+          "status": 200,
+          "bytes": 354595,
+          "sha256": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa",
+          "release_identical": true
+        },
+        {
+          "path": "/media/feature-phone.webp",
+          "status": 200,
+          "bytes": 68872,
+          "sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+          "release_identical": true
+        },
+        {
+          "path": "/media/grassrivers.webp",
+          "status": 200,
+          "bytes": 179052,
+          "sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+          "release_identical": true
+        },
+        {
+          "path": "/media/leonida-keys.webp",
+          "status": 200,
+          "bytes": 126662,
+          "sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+          "release_identical": true
+        },
+        {
+          "path": "/media/vice-city.webp",
+          "status": 200,
+          "bytes": 116602,
+          "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/088b6a9914da/leonida-keys-1200.webp",
+          "status": 200,
+          "bytes": 93324,
+          "sha256": "84fbdff3ad4c2f89a4cf2c21be87aa564e26a5f532260a8c17773cae8e474ee0",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/088b6a9914da/leonida-keys-480.webp",
+          "status": 200,
+          "bytes": 24002,
+          "sha256": "444cd67a07083650e8f933db084ef0d37cd6a804e291a02782ec72645710300e",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/088b6a9914da/leonida-keys-800.webp",
+          "status": 200,
+          "bytes": 54794,
+          "sha256": "5b59cffc8a3d1a8c126c5951e4db8f0e1a1de79dbd94c36160ac42d2ae694823",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-1200.webp",
+          "status": 200,
+          "bytes": 132200,
+          "sha256": "5b03187234ebe50dcb62c805a3b171dc61ffb09944d8cf199420aabbadda749a",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-480.webp",
+          "status": 200,
+          "bytes": 28254,
+          "sha256": "67721e4a1f6f67499e182e1f17567ff686cca51356532f8a7b83d637afa5943e",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-800.webp",
+          "status": 200,
+          "bytes": 70304,
+          "sha256": "77a60b78209382ec0cccb31f81b581419a729f8946a2f99f4d9c1f198fd96383",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+          "status": 200,
+          "bytes": 81668,
+          "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+          "status": 200,
+          "bytes": 25098,
+          "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+          "status": 200,
+          "bytes": 55436,
+          "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/ed6e14cc70d2/feature-phone-1200.webp",
+          "status": 200,
+          "bytes": 53756,
+          "sha256": "8ed69491f5730174cc303c4baa97d1c01590fedb5b55e8ab457aa99d9adfd04f",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/ed6e14cc70d2/feature-phone-480.webp",
+          "status": 200,
+          "bytes": 17284,
+          "sha256": "31961b38611cb609180f4f020a701f2877eb710545e4758eacafecb735c22d3b",
+          "release_identical": true
+        },
+        {
+          "path": "/responsive/ed6e14cc70d2/feature-phone-800.webp",
+          "status": 200,
+          "bytes": 33742,
+          "sha256": "30221c20b37def65f23d48d68b95146091569ad0336400bacc83f38b193ac1b9",
+          "release_identical": true
+        }
+      ],
+      "errors": [],
+      "method": "Live public HTTPS, inherited managed proxy and CA trust; normal canonical URLs without cache-busting. Full article HTML and resources compared to tested release, with only the exact documented Cloudflare edge beacon excluded from HTML byte comparison.",
+      "documented_edge_injection": {
+        "provider": "Cloudflare Pages Web Analytics",
+        "sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+        "bytes": 367,
+        "treatment": "Only one exact pinned tag plus newline immediately before closing body may be removed for comparison. Site content, metadata and all other scripts remain unchanged.",
+        "pages": [
+          {
+            "path": "/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+            "raw_public_sha256": "67175e18f4cf22da117874a2841c12b0f55b20c02f63e582c995c86d91e1ec28",
+            "release_sha256": "072327f9a870a961d58c0da5db0a4a97b216796bc7b249acbb46bb87f53f8e60",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/gta-6-preload-virgin-media-traffic-records/",
+            "raw_public_sha256": "affd978822e650b1623a5c09e59caba710eb0b0db76ad08a5d180a53495fa623",
+            "release_sha256": "afdcaf5141a0cc555bffeba927f9435f1efcb514d0d40f31589f04c31a196e42",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/",
+            "raw_public_sha256": "f64ee3ad234f38d3a032a04dc71acb6544d8bfb7e2ff3646d9354da881ec924c",
+            "release_sha256": "a829d908709fe86fc5c504e691a632576e70b33200596cd7955c6ee87e49e8e1",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/",
+            "raw_public_sha256": "0d1d8525c36e2dd1f43a697a2f293b77ccc98ca7d135e10c7adeafa3dcb113c3",
+            "release_sha256": "1cfa965a2719c63f4ee1efad5c76d7feacb49ff8ed63288224b9b58b72f61507",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/",
+            "raw_public_sha256": "60b3bb2d9337814db60cb9a25ba9ad8f87d95f3c7e460b5dde7b721fcf788ca5",
+            "release_sha256": "355a818e9bb2e0832fec7e896f8469d29e792636cbdf4f1cc758159500c431a1",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/",
+            "raw_public_sha256": "7dba7bc0222c4c25e3e6ea4ee9a4656e5c959e45f7f70d6249752cdcb19c77ea",
+            "release_sha256": "64bb4d64e7341f3c08ea5970a2eb3070df14de5e23674fe8d548008d23291316",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/",
+            "raw_public_sha256": "2e9579e0a2d83fb0d9e556cd5e41b9e4ac9064c0e638b8c5314fef9123ad1e4f",
+            "release_sha256": "7332a9b5a0a2f65c79d08690ded719f5b5b5a044774e1137b6a73fbb64dc3177",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/",
+            "raw_public_sha256": "03e6ffe882d4602c0e4c1f341824a4482f49bbd4fe520d97c3ae0e494bee5883",
+            "release_sha256": "e0886bb16e05e6384e20eada5241e768d706555df983a5816292f1fc0e07310e",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/",
+            "raw_public_sha256": "a92853a7777b03f3c7e72352de05980f5a78285cc5f05fd5f8e41c16f949c1bb",
+            "release_sha256": "39b78e32e3d1459ba684f648a44ccfc71c2c04055e8fb7456f966de228e5ef22",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-download-time-212-gb/",
+            "raw_public_sha256": "f9fa0fac6b5f2993df15fb905ceae71fb7ac6d3871e80ebd075891ad396c3bd0",
+            "release_sha256": "77e48b30f5964dfd3e1ee85dac1ac13ba15b7b2b0aca165844abd38fda53ab8b",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/guides/gta-6-preload-date-time-consoles/",
+            "raw_public_sha256": "48660210192d741c48676518264098334df49fbd6b1538fe4370bb5d30d3386b",
+            "release_sha256": "67d51f7309913f359e3d0f8f4479d6863616d6921a990f0fcd67e9510b13921b",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/en/news/gta-6-spectrum-free-speed-boost-eligibility/",
+            "raw_public_sha256": "c3ef7dec93c8163d010ec00f1a53ccbb39daf427e5180a5585ed2fb7c8057e8c",
+            "release_sha256": "e4cb12b00d5f9d0b6196ad53888fe83cc5a8410530939555c77d3248bb2b9923",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+            "raw_public_sha256": "933fd2ef77ee63939b1e57c2f3c0a2d1618d1e7f7e51fa129ef22728b7e5f3bf",
+            "release_sha256": "b16eee0c740efb2f7492bff5db48a6a064f99cb3ab9c5d65fca44afb4068d4b5",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+            "raw_public_sha256": "23aa538275fbac81dce02d5a3b66d0e02d16bc0a61487afa8b7238ea40dfb311",
+            "release_sha256": "6736662c281400ef44ab8a899b62adbbc561c182cf62429b1820f80f99ee9074",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/es/noticias/gta-6-spectrum-mejora-velocidad-gratis-requisitos/",
+            "raw_public_sha256": "a27bc04c5efac5460938a26fc61d9293462ae17e5264083fbfb2a80daa1248c2",
+            "release_sha256": "56e662157d7d3da71c47f010f9bcfbfaeb66edb1392fa6eb6f63ea81de71df39",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/actualites/gta-6-spectrum-debit-gratuit-conditions/",
+            "raw_public_sha256": "96b90dbaa38324bf6f792aa776aeca1b1767a5a790f24b804c5438a3e3f5eca3",
+            "release_sha256": "79d926071162e7ffa8d3499e2afbb8ad2ca3560b46e0976b8cdec737ea8cee1d",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/gta-6-temps-telechargement-212-go/",
+            "raw_public_sha256": "ffc814369e472a7a6f7f088f2190aaeecad980b97a47ef52e93e3789674fcd1f",
+            "release_sha256": "f02154e07e5cdfc11c3220784d45528f87ae92532664ced2bd3f71316958a4ff",
+            "normalized_html_identical": true
+          },
+          {
+            "path": "/fr/guides/prechargement-gta-6-date-heure-consoles/",
+            "raw_public_sha256": "a287d81cead680342e53211c75b0ec1e96d2df4030a8d2d8c47837e51f5da5fc",
+            "release_sha256": "fc7abfe3b400332b816867ecf15f6bcf183e580124098d7dda19e637264c0bdb",
+            "normalized_html_identical": true
+          }
+        ]
+      },
+      "sitemap": {
+        "canonical_urls": 630,
+        "all_3_new_urls_present": true,
+        "lastmod_correct": true,
+        "release_identical": true
+      },
+      "robots_release_identical": true,
+      "ads_txt_release_identical": true,
+      "counts": {
+        "article_urls": 3,
+        "discovery_pages": 6,
+        "internal_links": 9,
+        "resources": 17,
+        "errors": 0
+      }
+    },
+    "browser": {
+      "verified_at_utc": "2026-11-11T22:53:42.033Z",
+      "origin": "https://fansgta.com",
+      "article_ids": [
+        "gta6-preload-network-records-20261111"
+      ],
+      "expected_article_count": 197,
+      "method": "6 contexts: ES/EN/FR x mobile390/desktop1440, site JavaScript enabled. Scope is the actual news archive to the new article and a locale change in each context. Own HTTPS responses use route.fetch with the inherited managed proxy and normal CA/TLS verification; never ignoreHTTPSErrors. Only existing advertising/Analytics SDK fixtures are used. Initial HTML, sitemap and homepage discovery belong to the separate HTTP verifier. The browser does not visit the homepage or request its unrelated external YouTube thumbnail, whose CONNECT was denied by the executor proxy in an earlier diagnostic. No console errors are suppressed. These checks do not establish real creative delivery or monetization.",
+      "checks": [
+        {
+          "locale": "es",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-preload-virgin-media-traffic-records/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-preload-network-records-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-preload-network-records-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 3,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 1,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "en",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-preload-virgin-media-traffic-records/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-preload-network-records-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-preload-network-records-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 3,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 1,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "fr",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-preload-network-records-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-preload-network-records-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 3,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 1,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "es",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-preload-virgin-media-traffic-records/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-preload-network-records-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-preload-network-records-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 3,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 1,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "en",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-preload-virgin-media-traffic-records/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-preload-network-records-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-preload-network-records-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 3,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 1,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        },
+        {
+          "locale": "fr",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-preload-network-records-20261111"
+            }
+          ],
+          "articles": [
+            "gta6-preload-network-records-20261111"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 3,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 1,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": []
+        }
+      ],
+      "errors": [],
+      "counts": {
+        "contexts": 6,
+        "pages": 18,
+        "article_pages": 6,
+        "editorial_images_decoded": 18,
+        "hero_images_decoded": 0,
+        "language_navigations": 6,
+        "screenshots": 2
+      }
+    }
+  },
   "preservation": "No changes to prior articles, design, languages, advertising, consent, security, cache, subscriptions or daily scheduling.",
   "limits": [
     "Operator reports are not Google search-volume or ranking measurements.",
-    "The current cloud execution cannot guarantee future executor/connection availability."
-  ]
+    "The current cloud execution cannot guarantee future executor/connection availability.",
+    "Browser tests cover the news archive, article and language selector. Homepage discovery is checked through live initial HTML; the unrelated external YouTube thumbnail is outside this article check because an earlier executor diagnostic found a proxy CONNECT denial. Advertising SDK fixtures do not prove real creatives."
+  ],
+  "verified_at_utc": "2026-11-11T22:54:05.224884+00:00",
+  "html_comparison": "Only the exact pinned Cloudflare Web Analytics tag and appended newline may be excluded from HTML comparison. All other site HTML bytes must match the release; sitemap, robots, ads.txt and fetched image/JS/CSS resources match raw bytes."
 }
