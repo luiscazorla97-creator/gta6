@@ -4145,167 +4145,32 @@
     "tests/seo.spec.ts"
   ],
   "public_after_deploy": {
-    "complete_HTTP_recheck": false,
-    "complete_browser_recheck": false,
-    "asset_byte_verification": false,
-    "independent_visible_text_sample": {
-      "checked_at_utc": "2026-11-11T17:37:20.493Z",
-      "pages": [
-        {
-          "id": "gta6-netcraft-scam-report-20261105",
-          "locale": "es",
-          "url": "https://fansgta.com/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/",
-          "expected": "Jason con una pistola junto a una aeronave, con embarcaciones al fondo",
-          "expected_content_found": true,
-          "tool_error": false,
-          "reference_ids": [
-            "turn265564view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        },
-        {
-          "id": "gta6-netcraft-scam-report-20261105",
-          "locale": "en",
-          "url": "https://fansgta.com/en/news/gta-6-fake-download-early-access-scams-netcraft/",
-          "expected": "Jason holding a pistol beside an aircraft, with boats in the background",
-          "expected_content_found": true,
-          "tool_error": false,
-          "reference_ids": [
-            "turn121642view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        },
-        {
-          "id": "gta6-netcraft-scam-report-20261105",
-          "locale": "fr",
-          "url": "https://fansgta.com/fr/actualites/gta-6-arnaques-telechargement-acces-anticipe-netcraft/",
-          "expected": "Jason tenant un pistolet près d’un aéronef, avec des bateaux à l’arrière-plan",
-          "expected_content_found": false,
-          "tool_error": false,
-          "reference_ids": [
-            "turn840471view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        },
-        {
-          "id": "reported-210gb-size-2026-10-28",
-          "locale": "es",
-          "url": "https://fansgta.com/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
-          "expected": "Rockstar indicó el 3 de noviembre hasta 212 GB para precargar GTA 6 según el dispositivo. Cómo interpretar ese máximo y comprobar el espacio libre.",
-          "expected_content_found": true,
-          "tool_error": false,
-          "reference_ids": [
-            "turn371202view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        },
-        {
-          "id": "reported-210gb-size-2026-10-28",
-          "locale": "en",
-          "url": "https://fansgta.com/en/news/rumour-gta-6-210gb-ps5-download-size/",
-          "expected": "Rockstar listed up to 212 GB for GTA 6 preloading on November 3, depending on the device. What that maximum means and how to check free storage.",
-          "expected_content_found": false,
-          "tool_error": false,
-          "reference_ids": [
-            "turn561750view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        },
-        {
-          "id": "reported-210gb-size-2026-10-28",
-          "locale": "fr",
-          "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/",
-          "expected": "Rockstar indiquait le 3 novembre jusqu’à 212 Go pour GTA 6 selon l’appareil. Comprendre ce maximum et vérifier l’espace libre de sa console.",
-          "expected_content_found": false,
-          "tool_error": false,
-          "reference_ids": [
-            "turn130153view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        },
-        {
-          "id": "gta6-ps4-xbox-one-20261102",
-          "locale": "es",
-          "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
-          "expected": "Jason con una pistola junto a una aeronave, con embarcaciones al fondo",
-          "expected_content_found": false,
-          "tool_error": false,
-          "reference_ids": [
-            "turn586369view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        },
-        {
-          "id": "gta6-ps4-xbox-one-20261102",
-          "locale": "en",
-          "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
-          "expected": "Jason holding a pistol beside an aircraft, with boats in the background",
-          "expected_content_found": true,
-          "tool_error": false,
-          "reference_ids": [
-            "turn738954view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        },
-        {
-          "id": "gta6-ps4-xbox-one-20261102",
-          "locale": "fr",
-          "url": "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
-          "expected": "Jason tenant un pistolet près d’un aéronef, avec des bateaux à l’arrière-plan",
-          "expected_content_found": false,
-          "tool_error": false,
-          "reference_ids": [
-            "turn562681view0"
-          ],
-          "method": "Independent connected web fetch; visible text only, not HTTP bytes, head metadata or a browser test"
-        }
-      ],
-      "verified": 4
-    },
-    "head_large_preview_verification": "Blocked from executor; passed locally for all612eligibleURLs.",
-    "cloudflare_deployment_success_is_not_public_URL_proof": true,
-    "browser_attempts": {
-      "contexts_attempted": 12,
-      "passed": 0,
-      "pages_loaded": 0,
-      "status": "All12stopped at HTTP503 before testing content."
-    },
-    "assets_attempted": {
-      "checked": 294,
-      "verified": 0,
-      "status": "All294returned identical98-byteEnvoy503; not evidence of missing production files."
-    },
-    "transport_incident": {
-      "checked_at_utc": "2026-11-11T17:35:02.064879+00:00",
-      "probes": [
-        {
-          "url": "https://www.google.com/generate_204",
-          "status": "503",
-          "exit": 0,
-          "body_start": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure"
-        },
-        {
-          "url": "https://api.github.com/repos/luiscazorla97-creator/gta6/git/ref/heads/main",
-          "status": "503",
-          "exit": 0,
-          "body_start": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure"
-        },
-        {
-          "url": "https://85c9747c.fansgta.pages.dev/es/",
-          "status": "503",
-          "exit": 0,
-          "body_start": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure"
-        }
-      ]
-    },
-    "interpretation": "An identical Envoy503 also affected Google, GitHub public HTTPS, example.com and pages.dev. The independent connector exposed4updatedpages. This points to an execution transport failure; no general FansGTA outage is established. Root infrastructure cause is not verified.",
-    "runtime_status": "Connected/running, unrestricted policy enforced, observations current, revision8; status alone did not prove public transport health.",
-    "diagnostics_history": "not_found; no diagnostic logs read",
-    "Git_transport_recovery": {
-      "git_fetch": "two HTTP503 responses",
-      "github_api_read_and_write": "available",
-      "exact_commit_reconstructed_and_sha_verified": "8e3c228a06ae17975c0d70952a3ce55a1f0a2b45",
-      "local_worktree_clean": true
-    }
-  }
+    "checked_at_utc": "2026-11-11T18:00:02.863794+00:00",
+    "complete_HTTP_recheck": true,
+    "complete_browser_recheck": true,
+    "asset_byte_verification": true,
+    "canonical_URLs": 612,
+    "article_URLs_with_initial_HTML": 573,
+    "http_200_pages": 612,
+    "byte_identical_pages": 600,
+    "legal_pages_equivalent_after_Cloudflare_email_decoding": 12,
+    "large_preview_permission_in_live_head": 612,
+    "article_text_metadata_hreflang_JSONLD_media_descriptions_and_links_match_release": true,
+    "assets_checked": 301,
+    "assets_byte_identical": 301,
+    "original_pending_resource_set_checked": 294,
+    "additional_resources": "Six SVG files and media/credits.json; 301 total includes robots.txt, sitemap.xml and ads.txt.",
+    "browser_contexts": 12,
+    "browser_contexts_passed": 12,
+    "browser_page_scenarios": 48,
+    "browser_scope": "Home and Netcraft, storage-size, PS4/Xbox One articles in ES/EN/FR; desktop/mobile; JavaScript on/off. All paragraphs, images, canonical/robots, related links and overflow checked. Language selector and hydration exercised in six JavaScript contexts.",
+    "browser_transport": "Chromium; first-party responses fetched live using Playwright APIRequestContext with inherited HTTPS proxy and Node CA, TLS verification enabled; no stored HTML or local build served. Third-party advertisement SDKs simulated only in browser for deterministic content checks. No performance or creative-delivery claims.",
+    "browser_limitations": "Third-party advertising SDKs simulated only in browser. No assertion of creative delivery, live advertiser behavior, performance scores, Google indexing or Googlebot access.",
+    "no_new_deployment": true,
+    "production_deployment": "85c9747c-74ea-47f8-aa4d-9884839f9252",
+    "production_commit": "8e3c228a06ae17975c0d70952a3ce55a1f0a2b45",
+    "evidence": "docs/seo/2026-11-11-verificacion-publica.json",
+    "cloudflare_deployment_success_is_not_public_URL_proof": true
+  },
+  "resumed_public_verification_evidence": "docs/seo/2026-11-11-verificacion-publica.json"
 }
