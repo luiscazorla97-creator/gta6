@@ -398,3 +398,12 @@ GTA 6: transferir juegos y datos de PS5 a PS5 Pro
 - ES: https://fansgta.com/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/
 - EN: https://fansgta.com/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/
 - FR: https://fansgta.com/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/
+
+
+## Ejecución diaria — 11 de noviembre de 2026: tráfico de precarga
+
+Un único tema nuevo en ES/EN/FR sobre las mediciones de tráfico publicadas hoy por Virgin Media O2 y GlobalConnect Finland. Se acotan las redes y muestras, se distinguen pico y volumen diario y no se deducen cortes, ventas ni velocidades individuales. Es distinto de la promoción Spectrum, el cálculo de duración y el calendario de precarga. Fuentes y deduplicación de los 196 temas: docs/editorial/2026-11-11-daily-network-research.json.
+
+Inventario actualizado a 197 temas/591 versiones; los 196 artículos anteriores y sus 588 URLs quedan intactos. Portada y dos imágenes oficiales existentes, con alt/pies traducidos y crédito. Build release, verificación estática/SEO/editorial y 20 pruebas de navegador aprobados: 635 HTML, 28359 enlaces internos, 1244 bloques JSON-LD, 630 entradas canónicas, cero errores editoriales y 44 avisos previos. Los 18 archivos protegidos y los bytes JS/CSS permanecen iguales. SDK publicitarios simulados solo para las pruebas; no acredita entrega de creatividades. Publicación y verificación pública pendientes en este punto; se completarán en docs/editorial/2026-11-11-daily-network-publication.json.
+
+Ejecución en la nube con main actualizado desde GitHub y acceso efectivo a Cloudflare fansgta comprobado, sin depender de la PC del usuario. No se modifica la programación: un tema por ejecución en tres idiomas hasta el 19 de noviembre de 2026 inclusive, America/New_York. La disponibilidad actual no demuestra disponibilidad futura del ejecutor. Diseño, anuncios, consentimiento, seguridad, caché y suscripciones conservados.

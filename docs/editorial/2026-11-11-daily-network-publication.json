@@ -1,0 +1,71 @@
+{
+  "status": "validated_locally_awaiting_publication",
+  "prepared_at_utc": "2026-11-11T22:49:25.436665+00:00",
+  "base_main": "d6ba716d768d9848af3b4829c68781420b69b625",
+  "scope": "One daily GTA VI news topic, complete Spanish/English/French; last authorized date November 19 inclusive America/New_York.",
+  "article": {
+    "id": "gta6-preload-network-records-20261111",
+    "titles": [
+      "Precarga de GTA 6: récords de tráfico en Virgin Media",
+      "GTA 6 preload breaks Virgin Media traffic records",
+      "Préchargement de GTA 6 : records de trafic chez Virgin Media"
+    ],
+    "published": "2026-11-11",
+    "updated": "2026-11-11",
+    "urls": [
+      "https://fansgta.com/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+      "https://fansgta.com/en/news/gta-6-preload-virgin-media-traffic-records/",
+      "https://fansgta.com/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/"
+    ]
+  },
+  "catalogue": {
+    "topics": 197,
+    "language_versions": 591,
+    "canonical_sitemap_entries": 630,
+    "previous_196_articles_and_588_urls_preserved": true
+  },
+  "validation": {
+    "build_release": "passed",
+    "verify_static": {
+      "html_files": 635,
+      "internal_links": 28359,
+      "structured_data_blocks": 1244
+    },
+    "seo": {
+      "article_urls": 591,
+      "canonical_sitemap_entries": 630,
+      "reciprocal_hreflang": true,
+      "full_initial_html": true
+    },
+    "editorial": {
+      "errors": 0,
+      "review_notices": 44,
+      "previous_review_notices": 44
+    },
+    "browser": {
+      "passed": 20,
+      "new_article_scenarios": 6,
+      "locales": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "viewports": [
+        "mobile390",
+        "desktop1440"
+      ],
+      "images_and_language_selector": true,
+      "advertising_sdks_simulated_only": true,
+      "real_creative_delivery_not_claimed": true
+    },
+    "all_18_protected_source_files_unchanged": true,
+    "own_js_css_bytes_unchanged": true
+  },
+  "publication": null,
+  "public_verification": null,
+  "preservation": "No changes to prior articles, design, languages, advertising, consent, security, cache, subscriptions or daily scheduling.",
+  "limits": [
+    "Operator reports are not Google search-volume or ranking measurements.",
+    "The current cloud execution cannot guarantee future executor/connection availability."
+  ]
+}

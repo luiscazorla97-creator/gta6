@@ -1,0 +1,241 @@
+{
+  "checked_at_utc": "2026-11-11T22:48:41.538972+00:00",
+  "request": "Daily execution: one GTA VI news topic, complete in Spanish, English and French.",
+  "base_main": "d6ba716d768d9848af3b4829c68781420b69b625",
+  "date_guard": {
+    "checked_utc": "2026-11-11T22:42:39Z",
+    "execution_date_America_New_York": "2026-11-11",
+    "last_authorized_date_inclusive": "2026-11-19",
+    "within_authorized_window": true
+  },
+  "execution": "Managed cloud executor, current main fetched from GitHub; GitHub and existing Cloudflare Pages fansgta API access confirmed. No user-PC files, terminals, credentials or processes.",
+  "article": {
+    "id": "gta6-preload-network-records-20261111",
+    "titles": [
+      "Precarga de GTA 6: récords de tráfico en Virgin Media",
+      "GTA 6 preload breaks Virgin Media traffic records",
+      "Préchargement de GTA 6 : records de trafic chez Virgin Media"
+    ],
+    "publication_date": "2026-11-11",
+    "event_dates": [
+      "2026-11-10"
+    ],
+    "primary_announcements_date": "2026-11-11",
+    "category": "news",
+    "decision": "New observed operator measurements, not a duplicate download schedule, speed promotion or download-time calculation."
+  },
+  "catalogue_before": {
+    "topics": 196,
+    "versions": 588,
+    "comparison": "All normalized articles, translations and inventory; independent semantic intent review confirmed no equivalent article."
+  },
+  "deduplication": [
+    {
+      "id": "gta6-spectrum-speed-lift-20261105",
+      "difference": "US commercial speed offer, eligibility and terms, rather than observed UK/Finnish network measurements."
+    },
+    {
+      "id": "gta6-download-duration-20261103",
+      "difference": "Mathematical download-time estimates, not measured aggregate traffic."
+    },
+    {
+      "id": "gta6-preload-schedule-20261028",
+      "difference": "Installation schedule, storage and unlock terms, not ISP measurements."
+    },
+    {
+      "id": "gta6-ipsos-purchase-intent-20261111",
+      "difference": "Survey intentions, not network telemetry."
+    },
+    {
+      "id": "gta6-preorder-sales-estimate-20261105",
+      "difference": "Estimated purchases and revenue, not data transferred."
+    }
+  ],
+  "interest_signal": {
+    "basis": "Original operator announcements dated November 11 and current specialist/gaming coverage.",
+    "sources": [
+      {
+        "url": "https://www.ispreview.co.uk/index.php/2026/11/isp-virgin-media-uk-reports-broadband-traffic-surge-as-gta-vi-pre-loads-start.html",
+        "date": "2026-11-11"
+      },
+      {
+        "url": "https://rockstarintel.com/gta-vi-pre-loading-shatters-broadband-usage-records/",
+        "date": "2026-11-11"
+      },
+      {
+        "url": "https://www.pushsquare.com/news/2026/11/gta-6-preloading-is-causing-major-download-traffic-spikes-in-europe",
+        "date": "2026-11-11"
+      }
+    ],
+    "limit": "No Google search volumes or ranks available; no most-searched or viral guarantee."
+  },
+  "sources": [
+    {
+      "label": "Virgin Media O2 — broadband network measurements, November 11, 2026",
+      "url": "https://news.virginmediao2.co.uk/gta-vi-breaks-virgin-media-broadband-records-as-fans-rush-to-pre-load-game/"
+    },
+    {
+      "label": "GlobalConnect Finland — network measurements and methodology, November 11, 2026",
+      "url": "https://globalconnect.fi/gta-vi-pelin-ennakkolataus-kasvatti-internetliikennetta-suomessa-yli-40-prosenttia/"
+    },
+    {
+      "label": "GlobalConnect Finland — official news index, publication dated November 11, 2026",
+      "url": "https://globalconnect.fi/ajankohtaista/"
+    },
+    {
+      "label": "Rockstar Support — GTA VI Pre-Load FAQ, updated November 3, 2026",
+      "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq"
+    },
+    {
+      "label": "Rockstar Games — GTA VI official site",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "label": "GTA VI © Rockstar Games · Official Media",
+      "url": "https://www.rockstargames.com/VI/media"
+    }
+  ],
+  "source_checks": {
+    "checked_at_utc": "2026-11-11T22:47:50.874009+00:00",
+    "results": [
+      {
+        "url": "https://globalconnect.fi/ajankohtaista/",
+        "status": 200,
+        "final": "https://globalconnect.fi/ajankohtaista/",
+        "bytes": 255419
+      },
+      {
+        "url": "https://globalconnect.fi/gta-vi-pelin-ennakkolataus-kasvatti-internetliikennetta-suomessa-yli-40-prosenttia/",
+        "status": 200,
+        "final": "https://globalconnect.fi/gta-vi-pelin-ennakkolataus-kasvatti-internetliikennetta-suomessa-yli-40-prosenttia/",
+        "bytes": 60648
+      },
+      {
+        "url": "https://news.virginmediao2.co.uk/gta-vi-breaks-virgin-media-broadband-records-as-fans-rush-to-pre-load-game/",
+        "status": 200,
+        "final": "https://news.virginmediao2.co.uk/gta-vi-breaks-virgin-media-broadband-records-as-fans-rush-to-pre-load-game/",
+        "bytes": 59602
+      },
+      {
+        "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+        "status": 200,
+        "final": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+        "bytes": 184322
+      },
+      {
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI",
+        "bytes": 1233788
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/media",
+        "bytes": 790632
+      }
+    ]
+  },
+  "original_media_and_primary_http": {
+    "checked_at_utc": "2026-11-11T22:45:27.027348+00:00",
+    "results": [
+      {
+        "url": "https://news.virginmediao2.co.uk/gta-vi-breaks-virgin-media-broadband-records-as-fans-rush-to-pre-load-game/",
+        "status": 200,
+        "final": "https://news.virginmediao2.co.uk/gta-vi-breaks-virgin-media-broadband-records-as-fans-rush-to-pre-load-game/",
+        "bytes": 59602,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "d2a5ac7da4b037e1e98b8591af967d672d7fd632e594991f84ea7f39a5c437cb"
+      },
+      {
+        "url": "https://globalconnect.fi/gta-vi-pelin-ennakkolataus-kasvatti-internetliikennetta-suomessa-yli-40-prosenttia/",
+        "status": 200,
+        "final": "https://globalconnect.fi/gta-vi-pelin-ennakkolataus-kasvatti-internetliikennetta-suomessa-yli-40-prosenttia/",
+        "bytes": 60648,
+        "content_type": "text/html; charset=UTF-8",
+        "sha256": "ebe29842bdfd6114f726e46ed90bbd905d5db7835625435889e4008e9f16f57f"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/media",
+        "bytes": 790632,
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI",
+        "bytes": 1233788,
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "5f8117f24654f3715973fd4feb822996e7c9414a89d3f4cbff89233606dbf0ab"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "bytes": 894386,
+        "content_type": "image/jpeg",
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "bytes": 1258095,
+        "content_type": "image/jpeg",
+        "sha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "bytes": 846989,
+        "content_type": "image/jpeg",
+        "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1"
+      }
+    ]
+  },
+  "editorial_limits": [
+    "Operator-reported measurements, not independently audited by FansGTA.",
+    "Virgin Media data concern its UK fixed broadband network, not the whole UK internet. Peak traffic and daily volume use different record baselines.",
+    "GlobalConnect comparison concerns its household sample and matched prior Tuesdays; not all Finnish traffic.",
+    "No inference of outages, user counts, game sales, individual download performance or early playable access.",
+    "No second article, manual batch, subscription, purchase or additional scheduled task."
+  ],
+  "media": {
+    "assets": {
+      "vice-city": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 894386,
+        "local_file": "/media/vice-city.webp",
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016"
+      },
+      "grassrivers": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "local_file": "/media/grassrivers.webp",
+        "local_sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6"
+      },
+      "leonida-keys": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "local_file": "/media/leonida-keys.webp",
+        "local_sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d"
+      }
+    },
+    "rights_context": "Official Rockstar gallery invites download and sharing. Existing optimized genuine game screenshots reused with credit, translated alt and contextual captions. Copyright remains reserved; no unrestricted or public-domain licence claimed. No AI, mods, GTA V substitution, leaks or edited decorative hero layers.",
+    "visual_review": "All three files visually checked in this conversation, consistent with unchanged registered assets; originals and gallery revalidated HTTP 200 today."
+  },
+  "validation": "Release build, static/SEO/editorial controls and 20 browser tests passed; independent three-language editorial review found no material issue. Public publication evidence is recorded separately.",
+  "preservation": "Design, prior articles, SEO system, languages, advertisements, consent, security, cache, subscriptions and daily cadence preserved.",
+  "future_execution_limit": "Actual current cloud access does not prove future availability of executor or connections. Daily schedule remains one topic through November 19 inclusive America/New_York."
+}

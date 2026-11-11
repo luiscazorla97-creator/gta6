@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-preload-network-records-20261111",
+    "category": "news",
+    "published": "2026-11-11",
+    "titles": [
+      "Precarga de GTA 6: récords de tráfico en Virgin Media",
+      "GTA 6 preload breaks Virgin Media traffic records",
+      "Préchargement de GTA 6 : records de trafic chez Virgin Media"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+      "/en/news/gta-6-preload-virgin-media-traffic-records/",
+      "/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/"
+    ]
+  },
+  {
     "id": "gta6-take-two-q2-results-20261111",
     "category": "news",
     "published": "2026-11-11",
