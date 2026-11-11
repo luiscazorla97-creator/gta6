@@ -1,0 +1,525 @@
+{
+  "checked_at_utc": "2026-11-11T18:42:42.839138+00:00",
+  "request": "Manual batch explicitly requested: five new GTA VI topics, each complete in Spanish, English and French.",
+  "base_main": "82edd7ac16df99d764c5893d7e4b36ec65b1b1f1",
+  "execution": "Managed cloud checkout refreshed from GitHub main. Authorized existing GitHub connection and Cloudflare fansgta project. No user-PC files, credentials or processes.",
+  "catalogue_before": {
+    "topics": 191,
+    "language_versions": 573,
+    "comparison": "Full normalized catalogue, all translations and inventory; search intent reviewed, not merely titles."
+  },
+  "daily_automation": "Not read or changed. Existing daily limit remains one topic in three languages through 2026-11-19 inclusive, America/New_York; manual batch adds no scheduled tasks.",
+  "interest_limits": "Current news coverage, official announcements and live autocomplete are qualitative signals. No Google search-volume or rank data. No promise of virality, indexing or search position.",
+  "articles": [
+    {
+      "id": "gta6-take-two-q2-results-20261111",
+      "titles": [
+        "GTA 6 y Take-Two: resultados de Q2 2027 y previsiones",
+        "GTA 6 and Take-Two Q2 2027: results and outlook",
+        "GTA 6 : résultats T2 2027 de Take-Two et prévisions"
+      ],
+      "category": "news",
+      "published": "2026-11-11",
+      "underlying_event_date": "2026-11-09",
+      "new_intent": "Actual published financial results rather than the October call calendar.",
+      "interest_signal": "Reuters November 9 and fresh business coverage November 11.",
+      "compared_existing_ids": [
+        "take-two-november-9-calendar-2026-10-28",
+        "gta6-preorder-sales-estimate-20261105"
+      ],
+      "sources": [
+        {
+          "label": "Take-Two — Q2 FY2027 results, November 9, 2026 · SEC exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm"
+        },
+        {
+          "label": "Rockstar Games — Grand Theft Auto VI, official release information",
+          "url": "https://www.rockstargames.com/VI"
+        },
+        {
+          "label": "Rockstar Games — GTA VI official media",
+          "url": "https://www.rockstargames.com/VI/media"
+        }
+      ],
+      "editorial_limits": [
+        "Company-wide guidance is not GTA VI unit sales; fiscal year differs from calendar year."
+      ]
+    },
+    {
+      "id": "gta6-tove-lo-blood-in-your-eyes-20261111",
+      "titles": [
+        "GTA 6: Tove Lo estrena Blood In Your Eyes, dónde escucharla",
+        "GTA 6: Tove Lo’s Blood In Your Eyes and where to listen",
+        "GTA 6 : Blood In Your Eyes de Tove Lo, où l’écouter"
+      ],
+      "category": "news",
+      "published": "2026-11-11",
+      "underlying_event_date": "2026-11-10",
+      "new_intent": "New named single, distinct from the general soundtrack, Justice score and older trailer-song guide.",
+      "interest_signal": "Current Rockstar announcement, Apple Music single and music-press coverage.",
+      "compared_existing_ids": [
+        "gta-6-album-34-tracks",
+        "gta6-trailer-songs-credits-20261107"
+      ],
+      "sources": [
+        {
+          "label": "Rockstar Newswire — Pre-Load GTA VI Now, November 10, 2026",
+          "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+        },
+        {
+          "label": "Apple Music — Tove Lo, Blood In Your Eyes",
+          "url": "https://music.apple.com/us/album/blood-in-your-eyes-from-gtavi-the-album-single/6831700338"
+        },
+        {
+          "label": "Rockstar Games — The Music of GTA VI",
+          "url": "https://www.rockstargames.com/VI/music"
+        },
+        {
+          "label": "Tove Lo — Blood In Your Eyes, official listening links",
+          "url": "https://gtavi-thealbum.lnk.to/bloodinyoureyes"
+        }
+      ],
+      "editorial_limits": [
+        "No lyrics or recording hosted; no invented radio, mission or cameo; no precise track length."
+      ]
+    },
+    {
+      "id": "gta6-ipsos-purchase-intent-20261111",
+      "titles": [
+        "GTA 6: intención de compra en la encuesta de Ipsos",
+        "GTA 6 purchase intent: what the Ipsos survey measures",
+        "GTA 6 : intentions d’achat dans le sondage Ipsos"
+      ],
+      "category": "news",
+      "published": "2026-11-11",
+      "underlying_event_date": "2026-11-10",
+      "new_intent": "Purchase-intent survey, not actual preorders, sales or worldwide demand.",
+      "interest_signal": "Original Ipsos study published November 10; field dates and subgroup explicitly retained.",
+      "compared_existing_ids": [
+        "gta6-preorder-sales-estimate-20261105"
+      ],
+      "sources": [
+        {
+          "label": "Ipsos · FastFacts · 10 November 2026",
+          "url": "https://www.ipsos.com/en-uk/ipsos-research-reveals-gta-vi-set-be-cultural-phenomenon-two-thirds-younger-adults-planning-buy"
+        },
+        {
+          "label": "Rockstar Games · Grand Theft Auto VI",
+          "url": "https://www.rockstargames.com/VI"
+        }
+      ],
+      "editorial_limits": [
+        "Retain ages, territory and familiar-with-game subgroup; intention is not purchases or a Google volume."
+      ]
+    },
+    {
+      "id": "gta6-xbox-app-remote-install-20261111",
+      "titles": [
+        "Cómo descargar GTA 6 desde Xbox App a tu consola: guía y límites",
+        "How to download GTA 6 to your console with the Xbox app",
+        "Télécharger GTA 6 sur sa console avec Xbox App : guide et limites"
+      ],
+      "category": "guides",
+      "published": "2026-11-11",
+      "underlying_event_date": null,
+      "new_intent": "Remote installation command from Xbox mobile app, separate from native mobile, cloud play and the Sony app.",
+      "interest_signal": "Pure Xbox November 9 guide and same-day Xbox Support reader question; site-specific signals are not Google ranking.",
+      "compared_existing_ids": [
+        "gta6-playstation-app-remote-download-20261108",
+        "gta6-mobile-remote-20261101",
+        "gta6-xbox-storage-20261101",
+        "gta6-preload-schedule-20261028"
+      ],
+      "sources": [
+        {
+          "label": "Xbox — Mobile app: console downloads and compatibility",
+          "url": "https://www.xbox.com/en-US/apps/xbox-app-on-mobile"
+        },
+        {
+          "label": "Xbox — Xbox on mobile: manage your game library",
+          "url": "https://www.xbox.com/en-us/xbox-on-mobile"
+        },
+        {
+          "label": "Xbox Wire — Mobile app purchasing and browser Remote Play, April 16, 2025",
+          "url": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/"
+        },
+        {
+          "label": "Pure Xbox — GTA VI remote preload guide, November 9, 2026",
+          "url": "https://www.purexbox.com/news/2026/11/how-to-preload-gta-6-in-full-on-xbox-series-xs-even-if-you-havent-bought-it"
+        },
+        {
+          "label": "Rockstar Games — Grand Theft Auto VI",
+          "url": "https://www.rockstargames.com/VI"
+        },
+        {
+          "label": "Rockstar Games — GTA VI Media",
+          "url": "https://www.rockstargames.com/VI/media"
+        }
+      ],
+      "editorial_limits": [
+        "Specific GTA VI app flow is attributed to Pure Xbox; no own device test or invented support-shell menus; installing files grants neither licence nor early access."
+      ]
+    },
+    {
+      "id": "gta6-ps5-pro-data-transfer-20261111",
+      "titles": [
+        "GTA 6: transferir juegos y datos de PS5 a PS5 Pro",
+        "GTA 6 on PS5 Pro: transfer your PS5 games and data",
+        "GTA 6 sur PS5 Pro : transférer jeux et données PS5"
+      ],
+      "category": "guides",
+      "published": "2026-11-11",
+      "underlying_event_date": null,
+      "new_intent": "Local migration between PS5 consoles, separate from SSD choice, backup and performance predictions.",
+      "interest_signal": "Current prelaunch PS5/Pro upgrade discussion; useful preparation, with weaker current-interest evidence than the news reports.",
+      "compared_existing_ids": [
+        "gta6-ps5-storage-20261101",
+        "gta6-ps5-save-backup-20261105",
+        "gta6-ps5-pro-fps-deep-20261029",
+        "gta6-ps5-padlock-restore-licences-20261108"
+      ],
+      "sources": [
+        {
+          "label": "PlayStation Support — transfer data between consoles",
+          "url": "https://www.playstation.com/en-us/support/hardware/transfer-games-saved-data-ps4-ps5/"
+        },
+        {
+          "label": "PlayStation Blog — setting up PS5 Pro · 7 November 2024",
+          "url": "https://blog.playstation.com/2024/11/07/getting-started-with-playstation-5-pro-out-today/"
+        },
+        {
+          "label": "PlayStation Support — set up your PS5 console",
+          "url": "https://www.playstation.com/en-us/support/hardware/ps5-get-started-set-up/"
+        },
+        {
+          "label": "PlayStation Support — update PS5 system software",
+          "url": "https://www.playstation.com/en-us/support/hardware/ps5/system-software/"
+        },
+        {
+          "label": "PlayStation Support — synchronise trophies",
+          "url": "https://www.playstation.com/en-us/support/games/how-to-earn-trophies-on-playstation--consoles/"
+        },
+        {
+          "label": "PlayStation Support — download purchased games",
+          "url": "https://www.playstation.com/en-us/support/games/find-download-games-ps-store/"
+        },
+        {
+          "label": "PlayStation Support — PS5 saved-data cloud storage",
+          "url": "https://www.playstation.com/en-us/support/subscriptions/ps5-ps-plus-cloud-storage/"
+        },
+        {
+          "label": "PlayStation Support — move an M.2 SSD between PS5 consoles",
+          "url": "https://www.playstation.com/en-us/support/hardware/ps5-install-m2-ssd/"
+        },
+        {
+          "label": "PlayStation Support — restore licences",
+          "url": "https://www.playstation.com/en-us/support/games/restore-licences-playstation/"
+        },
+        {
+          "label": "Rockstar Support — GTA VI Pre-Load FAQ · updated 3 November 2026",
+          "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq"
+        },
+        {
+          "label": "Rockstar Games — GTA VI Media",
+          "url": "https://www.rockstargames.com/VI/media"
+        }
+      ],
+      "editorial_limits": [
+        "Sony console-level procedure, not a tested GTA VI preload migration; local transfer does not require buying a subscription."
+      ]
+    }
+  ],
+  "rejected_duplicates": [
+    {
+      "topic": "New preorder sales estimates or store preorder records",
+      "action": "Do not create another estimate page; existing gta6-preorder-sales-estimate-20261105 covers the intent."
+    },
+    {
+      "topic": "30 fps, PS5 Pro and PSSR coverage",
+      "action": "Existing performance guide; no duplicate."
+    },
+    {
+      "topic": "Xbox One cloud access",
+      "action": "Already updated November 10 in existing compatibility guide."
+    },
+    {
+      "topic": "Another generic new-video article",
+      "action": "Single music story in this batch; do not split the same clip into multiple thin reports."
+    }
+  ],
+  "media": {
+    "gallery": "https://www.rockstargames.com/VI/media",
+    "reuse_context": "Official gallery explicitly invites downloading and sharing. Existing authentic attributed editorial game screenshots, with copyright reserved to Rockstar; no public-domain or unrestricted licence claimed. No AI, mods, leaked material, GTA V substitutions or decorative edited hero layers. Game context is identified in localized captions.",
+    "source_registry": "public/media/credits.json",
+    "local_assets": [
+      "feature-driver",
+      "grassrivers",
+      "jason",
+      "leonida-keys",
+      "lucia",
+      "vice-city"
+    ],
+    "checks": "Root visually inspected all six assets. Original asset and gallery URLs HTTP 200; WebP and existing responsive variants reused without editing."
+  },
+  "external_http_check": {
+    "checkedAt": "2026-11-11T18:41:08.198805+00:00",
+    "results": [
+      {
+        "url": "https://blog.playstation.com/2024/11/07/getting-started-with-playstation-5-pro-out-today/",
+        "status": 200,
+        "final": "https://blog.playstation.com/2024/11/07/getting-started-with-playstation-5-pro-out-today/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 193926
+      },
+      {
+        "url": "https://gtavi-thealbum.lnk.to/bloodinyoureyes",
+        "status": 200,
+        "final": "https://gtavi-thealbum.lnk.to/bloodinyoureyes",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91055
+      },
+      {
+        "url": "https://music.apple.com/us/album/blood-in-your-eyes-from-gtavi-the-album-single/6831700338",
+        "status": 200,
+        "final": "https://music.apple.com/us/album/blood-in-your-eyes-from-gtavi-the-album-single/6831700338",
+        "content_type": "text/html",
+        "bytes": 190301
+      },
+      {
+        "url": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/",
+        "status": 200,
+        "final": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 100846
+      },
+      {
+        "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+        "status": 200,
+        "final": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 184322
+      },
+      {
+        "url": "https://www.ipsos.com/en-uk/ipsos-research-reveals-gta-vi-set-be-cultural-phenomenon-two-thirds-younger-adults-planning-buy",
+        "status": 200,
+        "final": "https://www.ipsos.com/en-uk/ipsos-research-reveals-gta-vi-set-be-cultural-phenomenon-two-thirds-younger-adults-planning-buy",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 55028
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/games/find-download-games-ps-store/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/games/find-download-games-ps-store/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 178923
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/games/how-to-earn-trophies-on-playstation--consoles/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/games/how-to-earn-trophies-on-playstation--consoles/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 171448
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/games/restore-licences-playstation/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/games/restore-licences-playstation/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 153931
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-get-started-set-up/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/ps5-get-started-set-up/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 194931
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-install-m2-ssd/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/ps5-install-m2-ssd/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 228990
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5/system-software/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/ps5/system-software/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 163909
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/transfer-games-saved-data-ps4-ps5/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/transfer-games-saved-data-ps4-ps5/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 174878
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/subscriptions/ps5-ps-plus-cloud-storage/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/subscriptions/ps5-ps-plus-cloud-storage/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 162743
+      },
+      {
+        "url": "https://www.purexbox.com/news/2026/11/how-to-preload-gta-6-in-full-on-xbox-series-xs-even-if-you-havent-bought-it",
+        "status": 200,
+        "final": "https://www.purexbox.com/news/2026/11/how-to-preload-gta-6-in-full-on-xbox-series-xs-even-if-you-havent-bought-it",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 142898
+      },
+      {
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 1233788
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "content_type": "image/jpeg",
+        "bytes": 898215
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/media",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 790632
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/music",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/music",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 1008266
+      },
+      {
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "status": 200,
+        "final": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5367
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+        "status": 200,
+        "final": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+        "content_type": "text/html",
+        "bytes": 659135
+      },
+      {
+        "url": "https://www.xbox.com/en-US/apps/xbox-app-on-mobile",
+        "status": 200,
+        "final": "https://www.xbox.com/en-US/apps/xbox-app-on-mobile",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 418116
+      },
+      {
+        "url": "https://www.xbox.com/en-us/xbox-on-mobile",
+        "status": 200,
+        "final": "https://www.xbox.com/en-us/xbox-on-mobile",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 480719
+      }
+    ]
+  },
+  "original_media_http_check": {
+    "checkedAt": "2026-11-11T18:38:49.566696+00:00",
+    "results": [
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 939665,
+        "sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 898033,
+        "sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 1258095,
+        "sha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 846989,
+        "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/media",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 790632,
+        "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 1233788,
+        "sha256": "5f8117f24654f3715973fd4feb822996e7c9414a89d3f4cbff89233606dbf0ab"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+        "status": 200,
+        "final": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+        "content_type": "text/html",
+        "bytes": 659135,
+        "sha256": "b45f8d04a295313201c6efa023c4c1230927fb1653978676e835c7db5b279f47"
+      },
+      {
+        "url": "https://www.ipsos.com/en-uk/ipsos-research-reveals-gta-vi-set-be-cultural-phenomenon-two-thirds-younger-adults-planning-buy",
+        "status": 200,
+        "final": "https://www.ipsos.com/en-uk/ipsos-research-reveals-gta-vi-set-be-cultural-phenomenon-two-thirds-younger-adults-planning-buy",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 55028,
+        "sha256": "ae5c93e3682ae937f9134ada70527e2e04ec26a3bdf200b27aaccf0b49a3bfb2"
+      },
+      {
+        "url": "https://www.xbox.com/en-US/apps/xbox-app-on-mobile",
+        "status": 200,
+        "final": "https://www.xbox.com/en-US/apps/xbox-app-on-mobile",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 418116,
+        "sha256": "10fd73cc2b7addc04ab962c59dfb14d516a6b2ef65dd06eb4997b21773e5fbf7"
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/transfer-games-saved-data-ps4-ps5/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/transfer-games-saved-data-ps4-ps5/",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 174878,
+        "sha256": "07bb959e4a53528cbbbc678b597b3934c77be1469eec8944741f029c4b885864"
+      }
+    ]
+  },
+  "preservation": "No design, advertising units/SDKs, Analytics consent, security rules, cache configuration, subscriptions, previous content or publication cadence changes.",
+  "validation_status": "Release build, static/SEO/editorial audit and 24 browser tests passed. Independent 15-version editorial review found no material blocker. Publication and public verification are recorded separately."
+}

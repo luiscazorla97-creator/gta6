@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-take-two-q2-results-20261111",
+    "category": "news",
+    "published": "2026-11-11",
+    "titles": [
+      "GTA 6 y Take-Two: resultados de Q2 2027 y previsiones",
+      "GTA 6 and Take-Two Q2 2027: results and outlook",
+      "GTA 6 : résultats T2 2027 de Take-Two et prévisions"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+      "/en/news/gta-6-take-two-q2-2027-results-outlook/",
+      "/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/"
+    ]
+  },
+  {
+    "id": "gta6-tove-lo-blood-in-your-eyes-20261111",
+    "category": "news",
+    "published": "2026-11-11",
+    "titles": [
+      "GTA 6: Tove Lo estrena Blood In Your Eyes, dónde escucharla",
+      "GTA 6: Tove Lo’s Blood In Your Eyes and where to listen",
+      "GTA 6 : Blood In Your Eyes de Tove Lo, où l’écouter"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-tove-lo-blood-in-your-eyes-cancion/",
+      "/en/news/gta-6-tove-lo-blood-in-your-eyes-song/",
+      "/fr/actualites/gta-6-tove-lo-blood-in-your-eyes-chanson/"
+    ]
+  },
+  {
+    "id": "gta6-ipsos-purchase-intent-20261111",
+    "category": "news",
+    "published": "2026-11-11",
+    "titles": [
+      "GTA 6: intención de compra en la encuesta de Ipsos",
+      "GTA 6 purchase intent: what the Ipsos survey measures",
+      "GTA 6 : intentions d’achat dans le sondage Ipsos"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+      "/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+      "/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/"
+    ]
+  },
+  {
+    "id": "gta6-xbox-app-remote-install-20261111",
+    "category": "guides",
+    "published": "2026-11-11",
+    "titles": [
+      "Cómo descargar GTA 6 desde Xbox App a tu consola: guía y límites",
+      "How to download GTA 6 to your console with the Xbox app",
+      "Télécharger GTA 6 sur sa console avec Xbox App : guide et limites"
+    ],
+    "paths": [
+      "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+      "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+      "/fr/guides/gta-6-installer-xbox-app-mobile-console/"
+    ]
+  },
+  {
+    "id": "gta6-ps5-pro-data-transfer-20261111",
+    "category": "guides",
+    "published": "2026-11-11",
+    "titles": [
+      "GTA 6: transferir juegos y datos de PS5 a PS5 Pro",
+      "GTA 6 on PS5 Pro: transfer your PS5 games and data",
+      "GTA 6 sur PS5 Pro : transférer jeux et données PS5"
+    ],
+    "paths": [
+      "/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+      "/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+      "/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/"
+    ]
+  },
+  {
     "id": "gta6-the-festival-miami-20261109",
     "category": "news",
     "published": "2026-11-09",
