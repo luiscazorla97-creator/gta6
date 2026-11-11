@@ -2,7 +2,9 @@
 
 Auditoría del 11 de noviembre de 2026, realizada desde el entorno cloud sobre `main` de `luiscazorla97-creator/gta6`. Se revisan 191 temas, sus 573 versiones completas en español, inglés y francés y las 612 URLs canónicas del sitemap. Las correcciones conservan artículos, direcciones, idiomas, diseño, unidades publicitarias y programación.
 
-El rastreo público actual no muestra un bloqueo técnico general de los artículos. Las 612 URLs responden HTTP 200; sus canónicas y traducciones son coherentes y los 573 artículos entregan sus párrafos en el HTML inicial. Esto demuestra indexabilidad pública, no que Google haya indexado las páginas. Sin acceso privado a Search Console no se puede confirmar el número actual de exclusiones ni atribuirles una causa individual.
+**Estado final:** cambios guardados en GitHub y despliegue de producción completado por Cloudflare. Una conexión web independiente confirmó los textos nuevos en cuatro páginas ES/EN. La repetición completa del rastreo, los recursos y el navegador quedó bloqueada por un fallo de transporte del ejecutor. Los resultados de 612 URLs que siguen son la auditoría pública previa al despliegue, no una verificación final de todas las correcciones.
+
+El rastreo público previo a los cambios no mostró un bloqueo técnico general de los artículos. Las 612 URLs responden HTTP 200; sus canónicas y traducciones son coherentes y los 573 artículos entregan sus párrafos en el HTML inicial. Esto demuestra indexabilidad pública, no que Google haya indexado las páginas. Sin acceso privado a Search Console no se puede confirmar el número actual de exclusiones ni atribuirles una causa individual.
 
 ## Problemas y correcciones
 
@@ -132,3 +134,13 @@ El plan no crea una programación nueva ni amplía la publicación diaria: la au
 - [Sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) y [sitemaps de noticias](https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap).
 - [Article](https://developers.google.com/search/docs/appearance/structured-data/article), [idiomas](https://developers.google.com/search/docs/specialty/international/localized-versions) y [contenido con IA](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content).
 - Datos detallados y registro de publicación: `2026-11-11-auditoria-integral.json` y `2026-11-11-publicacion.json`, en esta carpeta.
+
+## Verificación después del despliegue
+
+Cloudflare confirmó `deploy/success` para el commit `8e3c228a06ae17975c0d70952a3ce55a1f0a2b45` y el despliegue canónico `85c9747c-74ea-47f8-aa4d-9884839f9252`. La conexión web independiente mostró los alt y pies nuevos de Netcraft en español e inglés, el alt nuevo de la guía Xbox en inglés y el extracto nuevo sobre tamaño en español. No se confirmó por esta vía toda la versión francesa ni las directivas del head.
+
+El ejecutor empezó a recibir HTTP 503 de Envoy, con «upstream connect error», para FansGTA, GitHub público, Google, example.com y el dominio pages.dev. El acceso a las APIs autorizadas siguió disponible y el entorno figuraba conectado. Las 12 comprobaciones de navegador se detuvieron antes de cargar una página; las 294 lecturas de recursos devolvieron el mismo error de transporte. No son 294 archivos desaparecidos ni prueba de una caída general de FansGTA.
+
+La verificación completa de producción queda pendiente hasta que se recupere ese transporte. No se afirma que las 612 páginas posteriores al despliegue ni sus metadatos hayan sido verificadas en vivo. El permiso de previews grandes está comprobado en los 612 HTML locales y su despliegue está confirmado; su nueva lectura pública completa está bloqueada.
+
+El registro JSON de publicación distingue las pruebas locales, la auditoría pública inicial, la muestra pública posterior y este bloqueo. Se conservan artículos, URLs, fechas, imágenes, CSS, publicidad, consentimiento y programación.

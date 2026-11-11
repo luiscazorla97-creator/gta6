@@ -335,3 +335,16 @@ Publicación comprobada: commit c80c88afb95755394a3386a4e22d0c7c2723e868, Cloudf
 - ES: https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/
 - EN: https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/
 - FR: https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/
+
+
+## Auditoría SEO integral — 11 de noviembre de 2026
+
+Informe y plan de 90 días: docs/seo/2026-11-11-auditoria-integral.md y JSON homónimo. Cobertura de 612 URLs: docs/seo/2026-11-11-urls.json. Registro de publicación: docs/seo/2026-11-11-publicacion.json.
+
+Commit 8e3c228a06ae17975c0d70952a3ce55a1f0a2b45; Cloudflare 85c9747c-74ea-47f8-aa4d-9884839f9252, deploy/success canónico. Se permite max-image-preview:large solo en páginas indexables; se corrigen alt y pies de 16 temas/48 versiones, tres extractos sobre tamaño y controles editoriales dentro de verify-static. Se conservan los 191 temas/573 URLs, sus fechas, párrafos, imágenes, CSS, anuncios, consentimiento, seguridad, caché y programación.
+
+La auditoría pública ANTERIOR al despliegue comprobó 612 URLs HTTP 200, las 573 versiones con HTML inicial/canonical/hreflang correctos y cero artículos huérfanos. Los 328 enlaces externos no dieron 404/410 confirmado; 15 quedaron inconclusos. Validación local: 422 escenarios activos comprobados y 14 omisiones previstas. La primera suite dejó 42 fallos de fixtures históricos; después aprobaron las repeticiones de 68 y dos casos. Consultar el registro, sin afirmar que la primera ejecución aprobara completa.
+
+La verificación POSTERIOR al despliegue es PARCIAL: el conector web confirmó cuatro páginas ES/EN con alt/extractos nuevos. Las lecturas HTTPS del ejecutor a FansGTA, GitHub, Google, example.com y pages.dev devolvieron el mismo 503 de Envoy. No pudieron validarse los 12 contextos de navegador ni los 294 recursos. No afirmar que las 612 URLs posteriores, sus directivas del head o todas las versiones francesas estén verificadas en producción. Las APIs de GitHub y Cloudflare sí funcionan; el commit local se reconstruyó desde sus metadatos públicos y se verificó su SHA exacto tras dos fetch con 503. Repetir las comprobaciones públicas cuando se recupere el transporte; un fallo externo de verificación no justifica otro despliegue.
+
+Search Console y GA no tienen conexión privada, y la API de zonas Cloudflare devuelve una lista vacía. Quedan pendientes los contadores actuales, las causas individuales, el acceso de Googlebot verificado y las redirecciones de www/pages.dev. Los 404 técnicos se conservan y Comunidad vacía continúa excluida correctamente. PageSpeed devolvió 429: no hay nueva puntuación, CrUX ni INP. El plan de 90 días no programa tareas ni amplía la publicación diaria: un tema en tres idiomas hasta el 19 de noviembre de 2026 inclusive, America/New_York.
