@@ -2,6 +2,8 @@ import type {Article} from './articles';
 
 type RelatedArticle=Pick<Article,'id'|'slug'|'category'>;
 const relationships:Record<string,string[]>={
+ 'gta6-ps5-3d-audio-settings-20261112':['ps5-features-2026-10-28','gta6-accessibility-console-preparation-20261106'],
+ 'gta6-download-duration-20261103':['gta6-preload-schedule-20261028','gta6-xbox-storage-20261101'],
  'jason-duval-profile':['lucia-caminos-profile','brian-heder','cal-hampton'],
  'lucia-caminos-profile':['jason-duval-profile','gta-6-liberty-city-theory','gta-6-conspiracy-theory'],
  'cal-hampton':['jason-duval-profile','brian-heder','gta-6-cal-hampton-mysteries'],

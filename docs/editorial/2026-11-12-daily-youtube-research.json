@@ -1,0 +1,429 @@
+{
+  "checked_at_utc": "2026-11-12T22:32:55.583683+00:00",
+  "request": "One new GTA VI news topic in ES/EN/FR; this execution does not change the daily schedule.",
+  "base_main": "0e3e0579e807e5938f399d2cc39a6b17417a1588",
+  "execution": "Managed cloud executor with effective GitHub App and existing Cloudflare Pages access; current main fetched. No dependency on user-PC files, credentials or processes. Present availability does not guarantee future executor availability.",
+  "date_guard": {
+    "date_America_New_York": "2026-11-12",
+    "last_authorized_date_inclusive": "2026-11-19",
+    "within_authorized_window": true
+  },
+  "article": {
+    "id": "gta6-youtube-launch-livestream-20261112",
+    "title": [
+      "GTA 6 en YouTube: directo de 24 horas, canal y horarios",
+      "GTA 6 on YouTube: 24-hour launch livestream and schedule",
+      "GTA 6 sur YouTube : direct de 24 heures, chaîne et horaires"
+    ],
+    "slug": [
+      "gta-6-directo-youtube-lanzamiento-horario",
+      "gta-6-youtube-launch-livestream-schedule",
+      "gta-6-direct-youtube-lancement-horaires"
+    ],
+    "category": "news",
+    "published": "2026-11-12",
+    "updated": "2026-11-12"
+  },
+  "freshness": {
+    "primary_date": "2026-11-12",
+    "primary_published_utc": "2026-11-12T15:00:00+00:00",
+    "primary_modified_utc": "2026-11-12T18:18:39.434226+00:00",
+    "prior_daily_verified_utc": "2026-11-11T22:54:05.224884+00:00",
+    "new_since_prior_daily": true
+  },
+  "sources": [
+    {
+      "url": "https://blog.youtube/news-and-events/youtube-rockstar-games-gta-vi-launch/",
+      "author": "The YouTube Team",
+      "date": "2026-11-12",
+      "http": 200,
+      "primary_sha256": "3210dbedc04ff5c5a6e49eb59fc761bbb3e7af6800fabf6deccfeba4278d8589"
+    }
+  ],
+  "interest": "Current official platform announcement featured prominently on YouTube Blog homepage,plus an activeNovember12 r/PS5 discussion and dated secondary coverage. This is observable current interest,not a Google search-volume ranking.",
+  "search_limits": "No verified Google search volumes, rankings or Trends data; do not claim most searched, viral results or guaranteed top10.",
+  "deduplication": {
+    "catalogue_count": 203,
+    "method": "Search full serialized Articleobjects(all three languages,sections,tables,source labels) for distinctive event terms; manually compare the intent/body of all relevant existing broadcast/event stories. No cross-language translation is treated as a duplicate merely for covering the same topic.",
+    "distinctive_term_matches": [],
+    "manually_compared": [
+      {
+        "id": "gta6-only-in-dade-clip-20261112",
+        "title": [
+          "GTA 6: qué sabemos del clip de Only in Dade",
+          "GTA 6: what we know about the Only in Dade clip",
+          "GTA 6 : ce que l’on sait de la vidéo Only in Dade"
+        ],
+        "slug": [
+          "gta-6-clip-only-in-dade-vice-city-que-se-sabe",
+          "gta-6-only-in-dade-vice-city-clip-what-we-know",
+          "gta-6-video-only-in-dade-vice-city-ce-que-lon-sait"
+        ],
+        "category": "news"
+      },
+      {
+        "id": "gta6-logitech-game-day-20261112",
+        "title": [
+          "Logitech y GTA 6: día libre para jugar y Logi Game Day",
+          "Logitech and GTA 6: a gaming day off and Logi Game Day",
+          "Logitech et GTA 6 : un jour de congé avec Logi Game Day"
+        ],
+        "slug": [
+          "gta-6-logitech-game-day-dia-libre-evento",
+          "gta-6-logitech-game-day-time-off-event",
+          "gta-6-logitech-game-day-conge-evenement"
+        ],
+        "category": "news"
+      },
+      {
+        "id": "gta6-the-festival-miami-20261109",
+        "title": [
+          "GTA 6: festival en Miami, fecha, artistas y entradas",
+          "GTA 6 Festival: Miami date, lineup and ticket lottery",
+          "GTA 6 Festival à Miami : date, artistes et billets"
+        ],
+        "slug": [
+          "gta-6-festival-miami-fecha-artistas-entradas-sorteo",
+          "gta-6-festival-miami-date-lineup-ticket-lottery",
+          "gta-6-festival-miami-date-artistes-billets-tirage"
+        ],
+        "category": "news"
+      },
+      {
+        "id": "gta6-grand-rex-paris-launch-night-20261108",
+        "title": [
+          "GTA 6 en el Grand Rex: fecha, horario y entradas en París",
+          "GTA 6 at the Grand Rex: Paris event, times and tickets",
+          "GTA 6 au Grand Rex : soirée, horaires et billets à Paris"
+        ],
+        "slug": [
+          "gta-6-grand-rex-paris-evento-19-noviembre-entradas",
+          "gta-6-grand-rex-paris-november-19-event-tickets",
+          "gta-6-grand-rex-paris-soiree-19-novembre-billets"
+        ],
+        "category": "news"
+      },
+      {
+        "id": "gta6-kai-cenat-marathon-20261105",
+        "title": [
+          "Maratón de Kai Cenat antes de GTA 6: horario, juegos y dónde verlo",
+          "Kai Cenat’s GTA marathon before GTA 6: time, games and where to watch",
+          "Marathon GTA de Kai Cenat avant GTA 6 : horaires, jeux et diffusion"
+        ],
+        "slug": [
+          "gta-6-maraton-kai-cenat-horario-juegos-ver",
+          "gta-6-kai-cenat-marathon-start-time-games-watch",
+          "gta-6-marathon-kai-cenat-horaires-jeux-regarder"
+        ],
+        "category": "news"
+      },
+      {
+        "id": "gta6-streamer-mode-music-rights-20261105",
+        "title": [
+          "GTA 6 y modo streamer: música, copyright y directos en Twitch o YouTube",
+          "GTA 6 streamer mode: music rights, Twitch and YouTube broadcasts",
+          "GTA 6 et mode streamer : musique, droits, Twitch et YouTube"
+        ],
+        "slug": [
+          "gta-6-modo-streamer-musica-copyright-twitch-youtube",
+          "gta-6-streamer-mode-music-copyright-twitch-youtube",
+          "gta-6-mode-streamer-musique-droits-twitch-youtube"
+        ],
+        "category": "guides"
+      }
+    ],
+    "intent_difference": {
+      "gta6-the-festival-miami-20261109": "In-personNovember21 concert and ticketing,notYouTube’sNovember18–19 global launch broadcast.",
+      "gta6-kai-cenat-marathon-20261105": "Onecreator’sNovember5 retrospective marathon of olderGTA games onTwitch,notofficialYouTube platform programme.",
+      "gta6-grand-rex-paris-launch-night-20261108": "TicketedNovember19 Paris cinema audience event,notan onlineplatform livestream.",
+      "gta6-streamer-mode-music-rights-20261105": "Creator-side copyright/audio preparation,notviewer-side how/when towatch an announcedshow.",
+      "gta6-logitech-game-day-20261112": "Logitech ownGameDay activity,notYouTube partnership.",
+      "gta6-only-in-dade-clip-20261112": "Shortpromotionalclip and interpretation,notlaunchprogramme."
+    },
+    "recommendation": "New single news topic is justified. No equivalent existing Article needs to be duplicated or redirected."
+  },
+  "confirmed_scope": "Separate the preshow from the main launch programme; broadcaster is YouTube. Do not imply a fresh Rockstar Newswire announcement today, early playable access or observed future broadcast delivery.",
+  "access_limits": [
+    {
+      "url": "https://x.com/YouTube/status/2120899422796013892",
+      "result": "403 Forbidden through web open; not retried and not used as sole factual basis."
+    },
+    {
+      "url": "https://twitterviewer.net/YouTube/status/2120899422796013892",
+      "result": "Reddit outgoing link resolved but restricted; no bypass or retry."
+    },
+    {
+      "url": "https://mezha.net/eng/news/mezha-848f18a5f3c26d3f4f2388a2_youtube_details_grand/",
+      "result": "Initiallywebsearchonly; parent later recoveredHTTP200anditsoutgoingprimarylink normally. Secondarypublication15:04:15UTC=10:04:15NY,display17:04notET. PrimaryYouTubealsoHTTP200withJSON-LDpublished15:00UTC."
+    },
+    {
+      "url": "https://www.reddit.com/r/PS5/comments/1xuftdb/youtube_reveals_launch_event_for_grand_theft_auto/",
+      "result": "ActiveNovember12 discussion,interest/discovery only. No votes treated as Google demand or audience forecast."
+    },
+    {
+      "service": "GoogleTrends/SearchConsole",
+      "result": "No verified query-volume or ranking data accessed. Do not claim mostsearched or guaranteedtop10."
+    }
+  ],
+  "watch_links": [
+    {
+      "url": "https://www.youtube.com/youtube",
+      "status": "Official channel URL directly linked by primary blog,not proof a future stream is currently live."
+    },
+    {
+      "url": "https://www.youtube.com/live/KY4DWumZffg?si=m52I77nJiacn1f3q",
+      "status": "Official exact upcoming-broadcast link resolved from primary link29. Opening returned Online fetch throttled; no player/date independently verified from its HTML."
+    }
+  ],
+  "media": {
+    "checked_at_utc": "2026-11-12T22:26:26.843428+00:00",
+    "assets": [
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "key": "grassrivers",
+        "optimized_path": "/media/grassrivers.webp",
+        "optimized_sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+        "reuse_basis": "Official downloadable/shareable promotional media reused for attributed original editorial coverage; copyright reserved, not an unrestricted licence. No AI, mods, leaked material, GTA V or edited hero layers."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "key": "leonida-keys",
+        "optimized_path": "/media/leonida-keys.webp",
+        "optimized_sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+        "reuse_basis": "Official downloadable/shareable promotional media reused for attributed original editorial coverage; copyright reserved, not an unrestricted licence. No AI, mods, leaked material, GTA V or edited hero layers."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 894386,
+        "key": "vice-city",
+        "optimized_path": "/media/vice-city.webp",
+        "optimized_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "reuse_basis": "Official downloadable/shareable promotional media reused for attributed original editorial coverage; copyright reserved, not an unrestricted licence. No AI, mods, leaked material, GTA V or edited hero layers."
+      }
+    ],
+    "http": [
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 1258095,
+        "sha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 846989,
+        "sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "bytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "bytes": 790632,
+        "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "bytes": 2607441,
+        "sha256": "5c52ee2aad5e8392cc3e3b30ab52747323d8d1b169b7140cbaa6baaa9bd5f511"
+      }
+    ]
+  },
+  "media_context": "Three existing official GTA VI promotional screenshots, optimized WebP with localized alt/captions/credit. They illustrate GTA VI, not photos of the YouTube event. Copyright remains reserved; no unrestricted licence asserted.",
+  "source_budget": {
+    "url": "https://blog.youtube/news-and-events/youtube-rockstar-games-gta-vi-launch/",
+    "author": "TheYouTubeTeam",
+    "publication_date": "2026-11-12",
+    "full_readable_source": "/tmp/fansgta-seo-20261112/daily-youtube-primary-source.txt",
+    "source_access": "Full official article followed from actual YouTubeBloghomepage link and read via web. Parent separately recovered complete source normally,without bypass.",
+    "new_derived_words_ES_EN_FR_combined": 198,
+    "breakdown": {
+      "full_three_titles_and_excerpts_conservative": 77,
+      "full_three_intro_paragraphs": 100,
+      "official_channel_reference_scope": 21
+    },
+    "limit": 200,
+    "article_locations": [
+      "title",
+      "excerpt",
+      "body/sections[0].paragraphs[0] (same rendered introduction,not repeated as a second independent block)",
+      "sections[1] official-channel route reference"
+    ],
+    "budget_method": "Conservatively includes the entirety of localized metadata even where wording is original,and additional channel fact scope. All specific source-derived announcement facts occur once in body; no repeated timetable/table,conversion figures,creator lineup,gifts orShorts feature list. Bibliography labels identify source rather than paraphrase further content."
+  },
+  "other_shared_source_budget": {
+    "work": "Rockstar November10 announcement",
+    "manual_phase_derived_words_all_languages": 145,
+    "SEO_updates_derived_words_all_languages": 44,
+    "combined": 189,
+    "limit": 200,
+    "daily_article_additional_words": 0
+  },
+  "catalogue": {
+    "before_topics": 203,
+    "new_topics": 1,
+    "after_topics": 204,
+    "versions": 612,
+    "prior_urls_preserved": 609
+  },
+  "validation": {
+    "build_release": "passed; final artifact check before deployment required",
+    "static_SEO_editorial": "passed;0errors43existing-or-reviewed notices",
+    "browser_unique_cases_passed": 56,
+    "changed_linking_cases_retested_passed": 22,
+    "fixtures": "Only third-party ad/Analytics SDKs and unrelated homepage i.ytimg.com poster. No creative delivery, Analytics receipt or video delivery claim."
+  },
+  "publication": "Pending explicit deployment and public verification; see publication record when completed.",
+  "independent_final_review": {
+    "reviewed_at_utc": "2026-11-12T22:33:33.905166+00:00",
+    "scope": "Read-only final review of current dailyYouTubeArticle/wrapper,sevenSEOupdates/wrapper and targeted daily/SEOtest source. No build,test execution,repoedits,deployment orpublicverification bythisreviewer.",
+    "result": "No material issue identified. Publicationstillpendingwhenreviewrequested.",
+    "files_sha256": {
+      "src/batches/2026-11-12-daily-youtube.json": "a45ad400056b0b1075b5a1f45ff88869284db168aba08a9646626f4b80ce493b",
+      "src/batches/2026-11-12-daily-youtube.ts": "a8d3ee82449022870545e924666e83b3cb542413a6cf13c1fa8a7ce02a9d25a2",
+      "src/batches/2026-11-12-seo-updates.json": "572afcfb9a92001abd8504a0e467c8944eed0ab7d61725483457d19c75e2c7b5",
+      "src/batches/2026-11-12-seo-updates.ts": "1a2a8789d64e20fc51fdb65ff104192b22ebb5a9959878894b95324fad3fbcd9",
+      "tests/editorial-daily-youtube-20261112.spec.ts": "c1b3f205f7144b4c909bbfc5fdbdd6315aa114e0e0d7834e546a838781d5920e",
+      "tests/editorial-seo-updates-20261112.spec.ts": "4b5b37056fc31db604694dafbca6cc21d8982b79938d96ceb3ba08b0d808a45a"
+    },
+    "facts": {
+      "primary": "https://blog.youtube/news-and-events/youtube-rockstar-games-gta-vi-launch/",
+      "source_body_read": "/tmp/fansgta-seo-20261112/daily-youtube-primary-source.txt",
+      "source_html_jsonld": "/tmp/fansgta-seo-20261112/youtube-primary.html",
+      "primary_publication_utc": "2026-11-12T15:00:00+00:00",
+      "primary_publication_new_york": "2026-11-12T10:00:00-05:00",
+      "confirmed": "RDCWorldpreshow18November23ET;mainprogramme19November00ET;announced24hours;gameplay,podcasts,originalcontent;officialYouTubechannelandbroadcastlink. EquivalentESENFR.",
+      "limits": "No ownhandson/playbackclaim,no pricing/subscription guarantee,nopromisedearlygameaccess. Broadcastlinkindependentlythrottledbefore;primarybloglinksit. Metadata saysannouncedprogramme,notalreadyobservedcoverage."
+    },
+    "source_budgets": {
+      "YouTubeBlog": {
+        "conservative_combined_all_three_languages": 198,
+        "limit": 200,
+        "ledger": "/tmp/fansgta-seo-20261112/daily-editorial-checks.json",
+        "note": "Fulllocalizedmetadata,fullintroandchannelreferenceallocation. A slightlydifferent hyphen-tokenregex gives197,so198 isconservative."
+      },
+      "Rockstar_Nov10": {
+        "manual_audio": 31,
+        "manual_dualsense": 26,
+        "manual_xbox_remote": 28,
+        "manual_both_performance_updates": 60,
+        "manual_subtotal": 145,
+        "SEO_updates": 44,
+        "combined": 189,
+        "limit": 200,
+        "note": "Four additional SEOrefreshes only addinternalreferences;theirproseisunchangedagainst203topicsnapshot. No furtherRockstarNov10facts innewYouTubedaily."
+      }
+    },
+    "daily_dedup": {
+      "baseline_topics": 203,
+      "new_topics_thisdaily": 1,
+      "all_three_slugs_new": true,
+      "article_id_new": true,
+      "intent_distinct_from": [
+        "FestivalNovember21",
+        "KaiCenatolderGTAretrospectivemarathon",
+        "GrandRexcinema",
+        "LogitechGameDay",
+        "OnlyinDadeclip",
+        "streamermusiccopyrightguide"
+      ],
+      "translation_versions_not_counted_as_separate_topics": true
+    },
+    "SEO_preservation": [
+      {
+        "id": "legal-purchase-download-2026-10-28",
+        "original_slug_publication_category_media_preserved": true,
+        "updated": "2026-11-12"
+      },
+      {
+        "id": "gta6-preload-schedule-20261028",
+        "original_slug_publication_category_media_preserved": true,
+        "updated": "2026-11-12"
+      },
+      {
+        "id": "prepare",
+        "original_slug_publication_category_media_preserved": true,
+        "updated": "2026-11-12"
+      },
+      {
+        "id": "ps5-features-2026-10-28",
+        "original_slug_publication_category_media_preserved": true,
+        "updated": "2026-11-12"
+      },
+      {
+        "id": "gta6-accessibility-console-preparation-20261106",
+        "original_slug_publication_category_media_preserved": true,
+        "updated": "2026-11-12"
+      },
+      {
+        "id": "gta6-mobile-remote-20261101",
+        "original_slug_publication_category_media_preserved": true,
+        "updated": "2026-11-12"
+      },
+      {
+        "id": "gta6-xbox-app-remote-install-20261111",
+        "original_slug_publication_category_media_preserved": true,
+        "updated": "2026-11-12"
+      }
+    ],
+    "SEO_additional_four_prose_unchanged": [
+      "ps5-features-2026-10-28",
+      "gta6-accessibility-console-preparation-20261106",
+      "gta6-mobile-remote-20261101",
+      "gta6-xbox-app-remote-install-20261111"
+    ],
+    "historical_prices": {
+      "paragraphs_identical_to_baseline": true,
+      "market": "USPSStore",
+      "currency": "USD",
+      "actual_checked_date_retained": "2026-10-28",
+      "not_represented_as_Nov12_live_prices": true
+    },
+    "regional_tables_unchanged": true,
+    "test_source_review": {
+      "daily_checks": [
+        "InitialHTMLparagraphs",
+        "localizedcanonical/hreflang/sitemaplastmod",
+        "JSON-LD",
+        "threeactualimages/responsive/eagerLCP/lazybelowfold",
+        "localizedinternallinks",
+        "languageswitch",
+        "singleSocialBar/AdSensepresence",
+        "Analyticsblockedbeforeconsent",
+        "nopopunderreference",
+        "nohorizontaloverflowandJSconsoleerrors"
+      ],
+      "SEO_checks": [
+        "originalpublication/slugs",
+        "updatedNov12",
+        "obsoleteXbox/futurepreload/unknownsizewordingabsent",
+        "historicalUSUSDpricesdatedOct28",
+        "currentboxcodewording",
+        "currentlocalizedpreparationhubtargets"
+      ],
+      "limits": "Advertising/AnalyticssDKsarefixtures. TestsourcenotrealcreativedeliveryorAnalyticsreceiptevidence. No testsrerun byreviewer."
+    },
+    "non_blocking_documentation_notes": [
+      {
+        "file": "/tmp/fansgta-seo-20261112/daily-editorial-checks.json",
+        "field": "metadata_lengths.title",
+        "issue": "Earlierdraftlengthsremaininmetadata_lengths;currentactualtitlelengthsareES55,EN56,FR59. Sourcewordledgeralreadycorrectlyupdatedto198. Refreshtheseinformativelengthsifcopyingledgerintofinaldocs."
+      }
+    ],
+    "material_issues": []
+  }
+}

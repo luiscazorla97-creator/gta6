@@ -54,7 +54,7 @@ async function renderPage(locale,path,{section,article,legal,missing=false}={}) 
  const page=template.replace(/(<meta name="viewport"[^>]+>)/,(_,viewport)=>viewport+preload).replace('lang="es"',`lang="${locale}"`).replace(/<title>.*?<\/title>/,`<title>${escape(title)}</title>`).replace(/name="description" content="[^"]*"/,`name="description" content="${escape(description)}"`).replace('https://fansgta.com/es/',canonical).replace('</head>',meta+'</head>').replace('</body>',`<script id="fansgta-page-data" type="application/json">${pageData}</script></body>`).replace('<div id="root"></div>',`<div id="root"${missing?' data-not-found="true"':''}>${body}</div>`);
  const target=missing?'dist/404.html':`dist${path}index.html`;
  await mkdir(target.slice(0,target.lastIndexOf('/')),{recursive:true});await writeFile(target,page);
- if(!section&&!missing&&locale==='es')await writeFile('dist/index.html',page);
+ if(!section&&!legal&&!missing&&locale==='es')await writeFile('dist/index.html',page);
  if(eligible&&!missing)sitemap.push({path,lastmod:article?.updated??(legal?undefined:latestUpdate(section?articles.filter(a=>a.category===section):articles)),alternates:['es','en','fr'].map(l=>({lang:l,url:alternate(l)}))});
  generated++;
 }

@@ -77,6 +77,9 @@ for(const [source,html] of pages){
 }
 const weak=[...incoming].filter(([path,refs])=>!refs.size&&articles.filter(a=>a.category===paths.get(path).category).length>1);
 assert.deepEqual(weak.map(([path])=>path),[],'Articles without incoming article links');
+// The redirect at / does not excuse generating a different fallback document.
+// Legal pages also lack a section, so guard against their overwriting home.
+assert.equal(await readFile('dist/index.html','utf8'),await read('/es/'),'Root fallback must equal the complete Spanish homepage');
 const robots=await readFile('dist/robots.txt','utf8');
 assert.ok(robots.includes('Sitemap: '+origin+'/sitemap.xml'),'Robots sitemap declaration');
 assert.ok(robots.includes('Disallow: /cdn-cgi/'),'Cloudflare technical URLs should not be crawled');

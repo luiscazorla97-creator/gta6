@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-youtube-launch-livestream-20261112",
+    "category": "news",
+    "published": "2026-11-12",
+    "titles": [
+      "GTA 6 en YouTube: directo de 24 horas, canal y horarios",
+      "GTA 6 on YouTube: 24-hour launch livestream and schedule",
+      "GTA 6 sur YouTube : direct de 24 heures, chaîne et horaires"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-directo-youtube-lanzamiento-horario/",
+      "/en/news/gta-6-youtube-launch-livestream-schedule/",
+      "/fr/actualites/gta-6-direct-youtube-lancement-horaires/"
+    ]
+  },
+  {
     "id": "gta6-ps5-3d-audio-settings-20261112",
     "category": "guides",
     "published": "2026-11-12",
@@ -2959,9 +2974,9 @@
     "category": "guides",
     "published": "2026-10-27",
     "titles": [
-      "Cómo preparar tu consola y tu cuenta para un gran lanzamiento",
-      "How to prepare your console and account for a major launch",
-      "Préparer sa console et son compte pour une grande sortie"
+      "Preparar GTA 6 en PS5 y Xbox: cuenta, descarga y ajustes",
+      "Prepare for GTA 6 on PS5 and Xbox: account, download and setup",
+      "Préparer GTA 6 sur PS5 et Xbox : compte, téléchargement et réglages"
     ],
     "paths": [
       "/es/guias/preparar-consola-cuenta-lanzamiento/",

@@ -1,0 +1,183 @@
+{
+  "checked_at_utc": "2026-11-12T22:32:55.583683+00:00",
+  "base_main": "0e3e0579e807e5938f399d2cc39a6b17417a1588",
+  "scope": "Technical and multilingual indexation audit plus justified editorial maintenance; production verification pending.",
+  "GSC_reported": {
+    "indexed": 157,
+    "excluded": 359,
+    "discovered": 288,
+    "crawled_not_indexed": 57,
+    "noindex": 6,
+    "not_found": 4,
+    "redirected": 4
+  },
+  "GSC_export": {
+    "archive_date": "2026-11-12",
+    "issue": "Discovered-currently-not-indexed",
+    "records": 288,
+    "unique_urls": 288,
+    "stats": {
+      "languages": {
+        "en": 99,
+        "es": 100,
+        "fr": 89
+      },
+      "categories": {
+        "cheats": 50,
+        "online": 3,
+        "guides": 187,
+        "missions": 12,
+        "news": 30,
+        "vehicles": 6
+      },
+      "status": {
+        "Pendiente": 288
+      },
+      "last_crawl_raw": {
+        "1969-12-31": 288
+      }
+    },
+    "matched_current_inventory": 288,
+    "unmatched": [],
+    "http_200": 288,
+    "no_public_issues": 288,
+    "interpretation": "The last-crawl1969 dates are an unknown sentinel consistent with the supplied screenshot showing N/D, not an actual historical crawl or a site timestamp. All rows are pending validation. Public technical readiness does not prove Google indexing or crawl scheduling.",
+    "scope_limit": "The file contains the288 discovered subset only; it does not identify the57 crawled-unindexed,6noindex,4notfound or4redirect rows.",
+    "archive_sha256": "c4909e531e953f0ae64f00a986ffa21019f2ecca0b95859e51c8d06d922e73cf",
+    "raw_export_location": "User-uploaded ZIP retained in the managed cloud workspace; not committed to the public repository."
+  },
+  "current_catalogue": {
+    "topics": 204,
+    "article_versions": 612,
+    "canonical_urls": 651,
+    "generated_HTML": 656,
+    "same_locale_maximum_article_click_depth": 2,
+    "orphan_articles_baseline": 0,
+    "exact_duplicate_articles_baseline": 0
+  },
+  "confirmed_fixes": [
+    {
+      "problem": "Spanish root fallback was overwritten by the Contact page during generation.",
+      "change": "Copy Spanish home to root only for the actual home; require byte equality in static verification.",
+      "impact_limit": "Existing root301normally masks this low-impact defect; it does not explain288discovered URLs."
+    },
+    {
+      "problem": "Purchase/preload/prepare text contained old timing or generic preparation claims.",
+      "change": "Update three existing multilingual articles using checked sources; preserve all routes, published dates and images."
+    },
+    {
+      "problem": "Useful older guides had weak editorial prominence, despite being reachable.",
+      "change": "Curate13starting guides while retaining111cards;21exportedURLs gain more visible positions. Improve six contextual references, homepage preload target and two related-link preferences.",
+      "impact_limit": "No existing orphans or broken category pagination were found; ordering cannot control Google crawl priority."
+    }
+  ],
+  "production_config": {
+    "branch": "main",
+    "build_command": "npm run build:release",
+    "output": "dist",
+    "indexable_override_absent": true,
+    "release_sets_indexable": true,
+    "verified_via": "Cloudflare Pages project GET,HTTP200",
+    "no_config_changes": true
+  },
+  "preservation": {
+    "before_topics": 203,
+    "unchanged_complete_articles": 196,
+    "updated_topics": [
+      "legal-purchase-download-2026-10-28",
+      "gta6-preload-schedule-20261028",
+      "prepare",
+      "ps5-features-2026-10-28",
+      "gta6-accessibility-console-preparation-20261106",
+      "gta6-mobile-remote-20261101",
+      "gta6-xbox-app-remote-install-20261111"
+    ],
+    "new_topics": [
+      "gta6-youtube-launch-livestream-20261112"
+    ],
+    "total_topics": 204,
+    "total_versions": 612,
+    "old_urls_preserved": 609,
+    "all_published_dates_preserved": true,
+    "all_previous_media_and_categories_preserved": true,
+    "protected_source_files_identical": 18,
+    "CSS_raw_identical": true,
+    "app_client_js_changes": "Only approved guide-card target, guide ordering and explicit related preferences; advertising/Analytics source files untouched."
+  },
+  "guide_priorities": {
+    "effective_ids": [
+      "legal-purchase-download-2026-10-28",
+      "gta6-preload-schedule-20261028",
+      "gta6-languages-20261031",
+      "gta6-ps5-storage-20261101",
+      "gta6-xbox-storage-20261101",
+      "gta6-accessibility-console-preparation-20261106",
+      "gta6-ps5-3d-audio-settings-20261112",
+      "gta6-dualsense-settings-20261112",
+      "gta6-xbox-remote-play-20261112",
+      "gta6-mobile-remote-20261101",
+      "gta6-wildlife-20261031",
+      "gta6-car-customisation-20261031",
+      "gta6-map-discovery-20261101"
+    ],
+    "retained_cards": 111,
+    "GSC_intersection": {
+      "matchedCount": 21,
+      "topics": 7,
+      "byLocale": {
+        "es": 7,
+        "en": 7,
+        "fr": 7
+      },
+      "interpretation": "GSC issue contains these current URLs; ordering gives editorial starting points, not a demonstrated Google ranking or crawl-priority control. All exported URLs were verified by parent as HTTP200 with indexable initial HTML; excluded status is not caused by this editorial order."
+    }
+  },
+  "baseline_public_crawl": {
+    "canonical_urls": 648,
+    "http_200": 648,
+    "articles_with_initial_HTML": 609,
+    "canonical_hreflang_indexability_errors": 0,
+    "raw_release_mismatches": 12,
+    "classification": "All twelve are known legal pages transformed by Cloudflare email obfuscation plus the exact Web Analytics beacon; strict reversal verified against release. No arbitrary script stripping.",
+    "edge_negative_controls_passed": 10
+  },
+  "technical_nonissues": {
+    "no_article_noindex": true,
+    "intentional_current_noindex_documents": 4,
+    "intentional_noindex_scope": "Three empty Community pages and404",
+    "robots_allows_public_articles": true,
+    "sitemap_unique_and_reciprocal": true,
+    "all_categories_initial_HTML_links": true,
+    "new_publications_auto_in_sitemap_and_archives": true,
+    "schema": "BlogPosting for articles and BreadcrumbList; valid Article subtype, not necessary to rename every page NewsArticle."
+  },
+  "editorial_findings": {
+    "exact_duplicate_or_empty_articles": 0,
+    "current_notices": 43,
+    "source_placement_notices": 25,
+    "similarity_pairs": 18,
+    "interpretation": "Cheat intro similarity detector omits distinguishing code/platform tables; not evidence all those pages are duplicate. No deletion or mass rewrite justified."
+  },
+  "remaining_limits": [
+    "No Search Console URL Inspection connection, Google-selected canonicals or Google crawl logs. The uploaded file identifies only288discovered URLs, not the57crawled/6noindex/4notfound/4redirect rows.",
+    "All288exported URLs are publicly technically ready; that alone does not establish Google has crawled/indexed them or explain its scheduling/quality selection.",
+    "Browser and declared Googlebot/Bingbot UA tests returned200. These are not verified search-engine IPs. Python control CSS request got Cloudflare1010; zone WAF/bot logs and Bulk Redirect permissions are unavailable.",
+    "WWW serves200 with the correct nonWWWcanonical. A server301may consolidate it further but requires zone-level access; no invalid Pages redirect or new Worker introduced.",
+    "Historical /ads/native.html,/ads/mobile.html,/ads/rectangle.html remain404and have no current source/generated links; no valid articles missing there. /cdn-cgi/email-protection is auxiliary, robots excludes /cdn-cgi/. Do not redirect missing auxiliary URLs to homepage.",
+    "The twelve public legal pages receive expected Cloudflare email transformation. Existing /cdn-cgi/l links are produced there; the decoder returns200. No security/email-protection setting changed.",
+    "Current HTTPS checks and laboratory browser fixtures do not prove actual ad creative delivery, Analytics receipt, future livestream availability, Google indexing or guaranteed ranking."
+  ],
+  "tests": {
+    "release": "passed",
+    "static": "passed",
+    "SEO": "passed",
+    "editorial_errors": 0,
+    "unique_browser_cases_passed": 56,
+    "changed_linking_cases_retested_passed": 22,
+    "production": "pending"
+  },
+  "publication": {
+    "state": "pending",
+    "proof": "docs/seo/2026-11-12-indexacion-publicacion.json"
+  }
+}
