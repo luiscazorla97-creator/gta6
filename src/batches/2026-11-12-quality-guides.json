@@ -1,0 +1,1143 @@
+[
+  {
+    "id": "gta6-ps5-3d-audio-settings-20261112",
+    "category": "guides",
+    "slug": [
+      "gta-6-audio-3d-ps5-auriculares-configuracion",
+      "gta-6-ps5-3d-audio-headphones-setup",
+      "gta-6-audio-3d-ps5-casque-reglages"
+    ],
+    "title": [
+      "Audio 3D de GTA 6 en PS5: configurar auriculares y TV",
+      "GTA 6 PS5 3D audio: headphone and TV setup",
+      "Audio 3D de GTA 6 sur PS5 : réglages casque et TV"
+    ],
+    "excerpt": [
+      "Prepara el audio de GTA 6 en PS5: salida correcta, perfil de auriculares, calibración del televisor y claridad de voces con las herramientas oficiales de Sony.",
+      "Prepare GTA 6 audio on PS5: choose the correct output, create a headphone profile, calibrate TV speakers and check voice clarity using official Sony tools.",
+      "Préparez le son de GTA 6 sur PS5 : sortie audio, profil du casque, calibration TV et clarté des voix grâce aux outils officiels Sony."
+    ],
+    "tag": [
+      "GUÍA · AUDIO PS5",
+      "GUIDE · PS5 AUDIO",
+      "GUIDE · AUDIO PS5"
+    ],
+    "image": "lucia",
+    "imageAlt": [
+      "Lucia con auriculares y guantes, sentada delante de una barra de pesas en una imagen oficial de GTA VI",
+      "Lucia wearing headphones and gloves, seated in front of a weight bar in an official GTA VI image",
+      "Lucia avec casque audio et gants, assise devant une barre de musculation dans une image officielle GTA VI"
+    ],
+    "imageCaption": [
+      "Captura oficial de Lucia en GTA VI como contexto de la guía. Los auriculares de la escena no identifican un accesorio de PS5 ni documentan una prueba de audio.",
+      "Official Lucia screenshot from GTA VI providing context for this guide. The headphones in the scene identify no PS5 accessory and document no audio test.",
+      "Capture officielle de Lucia dans GTA VI illustrant le guide. Le casque de la scène n’identifie aucun accessoire PS5 et ne documente aucun test audio."
+    ],
+    "imageCredit": {
+      "label": "GTA VI © Rockstar Games",
+      "url": "https://www.rockstargames.com/VI/media"
+    },
+    "body": [
+      "Para preparar el sonido de GTA 6 en PS5, empieza por identificar dónde escuchas: auriculares, altavoces del televisor o equipo externo. Esta guía te ayuda a ordenar la configuración antes de evaluar el juego. No ofrece un ajuste universal ni una prueba propia de GTA VI: describe herramientas de la consola revisadas el 12 de noviembre de 2026.",
+      "To prepare GTA 6 sound on PS5, first identify where you listen: headphones, television speakers or an external system. This guide helps you organise the setup before evaluating the game. It offers neither a universal preset nor our own GTA VI listening test: it explains console tools checked on November 12, 2026.",
+      "Pour préparer le son de GTA 6 sur PS5, identifiez d’abord votre écoute : casque, haut-parleurs du téléviseur ou système externe. Ce guide aide à organiser les réglages avant d’évaluer le jeu. Il ne propose ni préréglage universel ni notre propre test audio de GTA VI : il décrit les outils de la console vérifiés le 12 novembre 2026."
+    ],
+    "published": "2026-11-12",
+    "updated": "2026-11-12",
+    "sections": [
+      {
+        "heading": [
+          "1. Lo confirmado y lo que vas a configurar",
+          "1. What is confirmed and what you will configure",
+          "1. Ce qui est confirmé et ce que vous allez régler"
+        ],
+        "paragraphs": [
+          [
+            "Para preparar el sonido de GTA 6 en PS5, empieza por identificar dónde escuchas: auriculares, altavoces del televisor o equipo externo. Esta guía te ayuda a ordenar la configuración antes de evaluar el juego. No ofrece un ajuste universal ni una prueba propia de GTA VI: describe herramientas de la consola revisadas el 12 de noviembre de 2026.",
+            "To prepare GTA 6 sound on PS5, first identify where you listen: headphones, television speakers or an external system. This guide helps you organise the setup before evaluating the game. It offers neither a universal preset nor our own GTA VI listening test: it explains console tools checked on November 12, 2026.",
+            "Pour préparer le son de GTA 6 sur PS5, identifiez d’abord votre écoute : casque, haut-parleurs du téléviseur ou système externe. Ce guide aide à organiser les réglages avant d’évaluer le jeu. Il ne propose ni préréglage universel ni notre propre test audio de GTA VI : il décrit les outils de la console vérifiés le 12 novembre 2026."
+          ],
+          [
+            "Rockstar confirmó audio espacial mejorado para GTA VI en PS5.",
+            "Rockstar confirmed improved spatial audio for GTA VI on PS5.",
+            "Rockstar confirme un audio spatial amélioré pour GTA VI sur PS5."
+          ],
+          [
+            "El objetivo práctico es separar tres tareas: recibir sonido por el dispositivo correcto, encontrar una presentación espacial cómoda y mejorar la comprensión si la necesitas. No empieces cambiando todas las opciones juntas. Anota primero tu dispositivo y un problema concreto: ausencia de sonido, voces poco claras o dificultad para localizar una fuente.",
+            "The practical aim is to separate three tasks: receiving sound through the right device, finding comfortable spatial presentation and improving clarity if needed. Avoid changing everything together. First note your equipment and one specific problem: missing sound, unclear voices or difficulty locating a sound source.",
+            "L’objectif est de séparer trois tâches : recevoir le son sur le bon appareil, trouver une spatialisation confortable et améliorer la compréhension si nécessaire. Évitez de tout changer ensemble. Notez d’abord votre équipement et un problème précis : son absent, voix peu claires ou source difficile à localiser."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now · 10 November 2026",
+            "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+          },
+          {
+            "label": "FansGTA — confirmed GTA 6 PS5 features",
+            "url": "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "2. Elige la salida antes de ajustar el efecto 3D",
+          "2. Choose the output before adjusting 3D audio",
+          "2. Choisir la sortie avant de régler l’audio 3D"
+        ],
+        "paragraphs": [
+          [
+            "Abre Ajustes > Sonido > Salida de audio. Revisa Dispositivo de salida y Salida para auriculares; para el nivel, usa Ajustes > Sonido > Volumen. Las opciones disponibles dependen del equipo conectado.",
+            "Open Settings > Sound > Audio Output. Check Output Device and Output to Headphones; adjust level under Settings > Sound > Volume. Available options depend on connected equipment.",
+            "Ouvrez Paramètres > Son > Sortie audio. Vérifiez Périphérique de sortie et Sortie vers les écouteurs ; réglez le niveau dans Paramètres > Son > Volume. Les options dépendent de l’équipement connecté."
+          ],
+          [
+            "Sony explica que el audio 3D puede escucharse con auriculares compatibles por USB o por la conexión de 3,5 mm del DualSense. No presenta PULSE como la única opción. Comprueba la compatibilidad de tu modelo antes de comprar otro.",
+            "Sony explains that compatible headphones can deliver 3D audio through USB or DualSense’s 3.5mm connection. PULSE is not presented as the only option. Check your model’s compatibility before replacing it.",
+            "Sony explique que des écouteurs compatibles permettent l’audio 3D par USB ou par la prise 3,5 mm de la DualSense. PULSE n’est pas présenté comme l’unique option. Vérifiez votre modèle avant de le remplacer."
+          ],
+          [
+            "Si conectas los auriculares pero sigues oyendo el televisor, revisa el dispositivo seleccionado. Antes de aumentar el nivel, comprueba también qué sonido has enviado a los auriculares mediante Salida para auriculares.",
+            "If headphones are connected but you still hear the television, check the selected device. Before raising the level, also inspect which sound Output to Headphones sends to them.",
+            "Si le casque est connecté mais que vous entendez encore le téléviseur, vérifiez le périphérique sélectionné. Avant de monter le niveau, contrôlez aussi le son envoyé par Sortie vers les écouteurs."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — PS5 audio output and volume",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-change-audio-output/"
+          },
+          {
+            "label": "PlayStation Blog — compatible headphones and Tempest 3D Audio · 6 October 2020",
+            "url": "https://blog.playstation.com/2020/10/06/experience-ps5s-tempest-3d-audiotech-with-compatible-headsets-at-launch-tv-virtual-surround-sound-coming-after-launch/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "3. Crea un perfil para tus auriculares",
+          "3. Create a profile for your headphones",
+          "3. Créer un profil pour votre casque"
+        ],
+        "paragraphs": [
+          [
+            "En Ajustes > Sonido > Audio 3D para auriculares, selecciona Crear un perfil de audio 3D personalizado y sigue el asistente.",
+            "Under Settings > Sound > 3D Audio (Headphones), select Create Personalized 3D Audio Profile and follow the prompts.",
+            "Dans Paramètres > Son > Audio 3D (écouteurs), sélectionnez Créer un profil audio 3D personnalisé, puis suivez les instructions."
+          ],
+          [
+            "El perfil se guarda por usuario en PS5. Sony basa la personalización en escuchar pruebas y responder sobre el sonido; también permite conservar perfiles predefinidos. La función llegó con una actualización de septiembre de 2024: no es una opción nueva y exclusiva de GTA VI.",
+            "The profile is saved per PS5 user. Sony’s personalisation uses listening tests and responses about sound; existing presets remain an option. The feature arrived in a September 2024 update, rather than being a new GTA VI-exclusive setting.",
+            "Le profil est enregistré par utilisateur PS5. La personnalisation Sony repose sur des tests d’écoute et des réponses concernant le son ; les préréglages restent possibles. Cette fonction date d’une mise à jour de septembre 2024, pas d’une nouveauté exclusive à GTA VI."
+          ],
+          [
+            "Responde según lo que realmente escuchas con tus auriculares, en vez de copiar el perfil o las respuestas de otra persona.",
+            "Answer according to what you actually hear through your headphones, rather than copying someone else’s profile or responses.",
+            "Répondez selon ce que vous entendez réellement avec votre casque, plutôt que copier le profil ou les réponses d’une autre personne."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — 3D audio for headphones and TV speakers",
+            "url": "https://www.playstation.com/en-us/support/hardware/3d-audio-ps5/"
+          },
+          {
+            "label": "PlayStation Blog — personalised audio profiles · 12 September 2024",
+            "url": "https://blog.playstation.com/2024/09/12/ps5-system-update-adds-welcome-hub-party-share-personalized-3d-audio-profiles-adaptive-controller-charging-and-more/"
+          }
+        ],
+        "image": {
+          "key": "real-dimez",
+          "alt": [
+            "Una integrante de Real Dimez sostiene unos auriculares junto a una mesa de mezclas en una captura oficial de GTA VI",
+            "A Real Dimez member holds headphones beside a mixing desk in an official GTA VI screenshot",
+            "Une membre de Real Dimez tient un casque près d’une console de mixage dans une capture officielle GTA VI"
+          ],
+          "caption": [
+            "Escena promocional oficial de GTA VI en un estudio. Ilustra el contexto sonoro; no muestra el asistente de PS5 ni una medición de auriculares.",
+            "Official GTA VI promotional studio scene. It illustrates the audio context, not the PS5 setup wizard or a headphone measurement.",
+            "Scène promotionnelle officielle GTA VI dans un studio. Elle illustre le contexte sonore, pas l’assistant PS5 ni une mesure de casque."
+          ],
+          "credit": {
+            "label": "GTA VI © Rockstar Games",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        }
+      },
+      {
+        "heading": [
+          "4. Si usas los altavoces del televisor, mide tu posición",
+          "4. For television speakers, measure from your listening position",
+          "4. Pour les haut-parleurs TV, mesurer depuis sa position d’écoute"
+        ],
+        "paragraphs": [
+          [
+            "Abre Ajustes > Sonido > Audio 3D (TV). Sigue la medición con el micrófono del mando desde tu posición habitual y compara el resultado con estéreo.",
+            "Open Settings > Sound > 3D Audio (TV). Follow the controller-microphone measurement from your normal seat, then compare the result with stereo.",
+            "Ouvrez Paramètres > Son > Audio 3D (téléviseur). Suivez la mesure avec le micro de la manette depuis votre place habituelle, puis comparez avec la stéréo."
+          ],
+          [
+            "Compara el mismo fragmento disponible desde tu asiento habitual, manteniendo un volumen cómodo. Conserva la opción con la que entiendas mejor lo que necesitas oír.",
+            "Compare the same available passage from your usual seat at a comfortable volume. Keep the option that helps you understand what you need to hear.",
+            "Comparez le même passage disponible depuis votre place habituelle, à un volume confortable. Gardez l’option qui permet de mieux comprendre ce que vous devez entendre."
+          ],
+          [
+            "Vuelve a medir si cambias de sitio el televisor o tu asiento.",
+            "Measure again if you move the television or your seat.",
+            "Effectuez une nouvelle mesure si vous déplacez le téléviseur ou votre siège."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — 3D audio for headphones and TV speakers",
+            "url": "https://www.playstation.com/en-us/support/hardware/3d-audio-ps5/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "5. Para voces poco claras, revisa Enfoque de audio",
+          "5. For unclear voices, check Audio Focus",
+          "5. Pour des voix peu claires, vérifier le réglage audio avancé"
+        ],
+        "paragraphs": [
+          [
+            "Con auriculares conectados, abre Ajustes > Sonido > Volumen > Enfoque de audio y activa Usar enfoque de audio. Prueba de audio permite comprobar el efecto; revisa el volumen al utilizarlo.",
+            "With headphones connected, open Settings > Sound > Volume > Audio Focus and enable Use Audio Focus. Audio Preview lets you check the effect; review volume when using it.",
+            "Avec un casque connecté, ouvrez Paramètres > Son > Volume > Réglage audio avancé et activez Utiliser le réglage audio avancé. Aperçu audio permet de vérifier l’effet ; contrôlez le volume."
+          ],
+          [
+            "Sony ofrece perfiles como Potenciar voces y Potenciar sonidos débiles, con intensidad ajustable. Su anuncio de abril de 2025 limita esta función a auriculares por USB o conexión analógica; excluye la salida HDMI mediante TV, receptor AV o barra de sonido.",
+            "Sony offers presets such as Boost Voices and Boost Quiet Sounds with adjustable strength. Its April 2025 announcement limits the feature to USB or analogue-connected headphones, excluding HDMI through a TV, AV receiver or soundbar.",
+            "Sony propose notamment Amplifier les voix et Amplifier les sons plus faibles, avec intensité réglable. Son annonce d’avril 2025 réserve cette fonction aux casques USB ou analogiques, pas à la sortie HDMI via TV, ampli AV ou barre de son."
+          ],
+          [
+            "Empieza por identificar qué te cuesta entender. Compara una sola ayuda cada vez y conserva el ajuste anterior si tu referencia se oye peor. Para acompañar las conversaciones con lectura, consulta la guía de idiomas y subtítulos; la de accesibilidad reúne otras necesidades que conviene revisar.",
+            "Identify what you find hard to understand. Compare one aid at a time and retain the previous setting if your reference sounds worse. For reading support during conversations, consult our language and subtitle guide; the accessibility guide covers other needs worth checking.",
+            "Identifiez ce que vous comprenez difficilement. Comparez une aide à la fois et gardez le réglage précédent si votre référence devient moins claire. Pour accompagner les conversations par la lecture, consultez notre guide des langues et sous-titres ; celui d’accessibilité rassemble d’autres besoins à vérifier."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — Audio Focus on PS5",
+            "url": "https://www.playstation.com/en-us/support/hardware/audio-focus-ps5/"
+          },
+          {
+            "label": "PlayStation Blog — Audio Focus connections and presets · 23 April 2025",
+            "url": "https://blog.playstation.com/2025/04/23/new-ps5-system-software-update-features-audio-focus-and-the-return-of-the-classic-console-ui-customizations/"
+          },
+          {
+            "label": "FansGTA — GTA 6 languages and subtitles",
+            "url": "https://fansgta.com/es/guias/gta-6-idiomas-doblaje-subtitulos/"
+          },
+          {
+            "label": "FansGTA — accessibility and console preparation",
+            "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/"
+          }
+        ],
+        "image": {
+          "key": "vice-city",
+          "alt": [
+            "Helicóptero sobre los edificios y la bahía de Vice City al atardecer en una imagen oficial de GTA VI",
+            "Helicopter above Vice City buildings and bay at sunset in an official GTA VI image",
+            "Hélicoptère devant les immeubles et la baie de Vice City au coucher du soleil dans une image officielle GTA VI"
+          ],
+          "caption": [
+            "Vista oficial de Vice City como contexto editorial. Una imagen del helicóptero no permite evaluar su sonido, su dirección ni una mezcla final del juego.",
+            "Official Vice City view providing editorial context. A helicopter image cannot evaluate its sound, direction or the game’s final mix.",
+            "Vue officielle de Vice City pour le contexte éditorial. L’image de l’hélicoptère n’évalue ni son bruit, ni sa direction, ni le mixage final du jeu."
+          ],
+          "credit": {
+            "label": "GTA VI © Rockstar Games",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        }
+      },
+      {
+        "heading": [
+          "6. Si no escuchas nada, resuelve primero la salida",
+          "6. If nothing is audible, troubleshoot output first",
+          "6. Si vous n’entendez rien, vérifier d’abord la sortie"
+        ],
+        "paragraphs": [
+          [
+            "Para una salida HDMI sin sonido, Sony indica comprobar silenciado y volumen del equipo, salida HDMI de PS5, cable y actualizaciones. Si hay dispositivos intermedios, una conexión directa al televisor permite comprobar esa parte del recorrido.",
+            "For silent HDMI output, Sony directs you to check device mute and volume, PS5 HDMI output, cable and updates. With intermediary devices, a direct television connection can help check that part of the path.",
+            "Pour une sortie HDMI muette, Sony indique de vérifier sourdine et volume, sortie HDMI PS5, câble et mises à jour. Avec des appareils intermédiaires, une connexion directe au téléviseur aide à vérifier cette partie du parcours."
+          ],
+          [
+            "Antes de cambiar un perfil, describe qué falta: todo el audio, solo lo que esperabas o únicamente una sensación espacial. Conserva el nombre del dispositivo seleccionado y el mensaje, si aparece. Esa información orienta mejor una consulta de soporte que atribuir cualquier silencio a un defecto del juego.",
+            "Before changing profiles, describe what is missing: all sound, something you expected, or only a spatial impression. Keep the selected device’s name and any message. That information makes a support request more useful than attributing every silence to a game defect.",
+            "Avant de changer de profil, décrivez ce qui manque : tout le son, un élément attendu ou seulement une impression spatiale. Conservez le nom du périphérique sélectionné et tout message affiché. Ces informations aident davantage l’assistance que d’attribuer chaque silence à un défaut du jeu."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — picture and sound troubleshooting",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-picture-sound-issues/"
+          },
+          {
+            "label": "PlayStation Support — PS5 audio output and volume",
+            "url": "https://www.playstation.com/en-us/support/hardware/ps5-change-audio-output/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "7. Guarda una referencia para tus próximas sesiones",
+          "7. Keep a reference for your next sessions",
+          "7. Conserver une référence pour les prochaines sessions"
+        ],
+        "paragraphs": [
+          [
+            "Guarda una nota con dispositivo, perfil elegido, opción modificada y motivo del cambio. Puedes preparar esa referencia con otro juego disponible que conozcas, escuchando siempre desde el mismo lugar. Cuando evalúes GTA VI, empieza por esa configuración y revisa una necesidad concreta en vez de volver a cambiar todo.",
+            "Keep a note of your device, chosen profile, changed option and reason for changing it. You can prepare that reference with another available game you know, listening from the same position. When evaluating GTA VI, begin with that setup and review one specific need instead of changing everything again.",
+            "Notez l’appareil, le profil choisi, l’option modifiée et la raison du changement. Préparez cette référence avec un autre jeu disponible que vous connaissez, depuis la même place. Pour évaluer GTA VI, repartez de cette configuration et examinez un besoin précis plutôt que tout modifier."
+          ],
+          [
+            "La ficha de funciones de PS5 reúne lo anunciado sobre GTA VI para esa consola. Si vas a escuchar mediante PlayStation Portal, sigue además su guía específica: comprueba el dispositivo y el recorrido que realmente utilizas antes de trasladar los ajustes de una configuración a otra.",
+            "Our PS5 feature page brings together the GTA VI announcements for that console. If listening through PlayStation Portal, also follow its specific guide: check the device and actual signal path before transferring settings between setups.",
+            "Notre fiche PS5 rassemble les annonces GTA VI pour cette console. Pour écouter via PlayStation Portal, suivez aussi son guide : vérifiez l’appareil et le parcours réellement utilisés avant de transposer des réglages d’une configuration à l’autre."
+          ]
+        ],
+        "references": [
+          {
+            "label": "FansGTA — confirmed GTA 6 PS5 features",
+            "url": "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/"
+          },
+          {
+            "label": "FansGTA — GTA 6 on PlayStation Portal",
+            "url": "https://fansgta.com/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now · 10 November 2026",
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+      },
+      {
+        "label": "PlayStation Support — 3D audio for headphones and TV speakers",
+        "url": "https://www.playstation.com/en-us/support/hardware/3d-audio-ps5/"
+      },
+      {
+        "label": "PlayStation Support — PS5 audio output and volume",
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-change-audio-output/"
+      },
+      {
+        "label": "PlayStation Blog — personalised audio profiles · 12 September 2024",
+        "url": "https://blog.playstation.com/2024/09/12/ps5-system-update-adds-welcome-hub-party-share-personalized-3d-audio-profiles-adaptive-controller-charging-and-more/"
+      },
+      {
+        "label": "PlayStation Blog — compatible headphones and Tempest 3D Audio · 6 October 2020",
+        "url": "https://blog.playstation.com/2020/10/06/experience-ps5s-tempest-3d-audiotech-with-compatible-headsets-at-launch-tv-virtual-surround-sound-coming-after-launch/"
+      },
+      {
+        "label": "PlayStation Support — Audio Focus on PS5",
+        "url": "https://www.playstation.com/en-us/support/hardware/audio-focus-ps5/"
+      },
+      {
+        "label": "PlayStation Blog — Audio Focus connections and presets · 23 April 2025",
+        "url": "https://blog.playstation.com/2025/04/23/new-ps5-system-software-update-features-audio-focus-and-the-return-of-the-classic-console-ui-customizations/"
+      },
+      {
+        "label": "PlayStation Support — picture and sound troubleshooting",
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-picture-sound-issues/"
+      },
+      {
+        "label": "GTA VI © Rockstar Games",
+        "url": "https://www.rockstargames.com/VI/media"
+      }
+    ]
+  },
+  {
+    "id": "gta6-dualsense-settings-20261112",
+    "category": "guides",
+    "slug": [
+      "gta-6-configurar-dualsense-ps5-mando",
+      "gta-6-set-up-dualsense-ps5-controller",
+      "gta-6-configurer-dualsense-ps5-manette"
+    ],
+    "image": "feature-driver",
+    "imageAlt": [
+      "Jason al volante y Lucia a su lado dentro de un vehículo, en una captura oficial de GTA VI.",
+      "Jason at the wheel with Lucia beside him inside a vehicle in an official GTA VI screenshot.",
+      "Jason au volant et Lucia à ses côtés dans un véhicule, sur une capture officielle de GTA VI."
+    ],
+    "imageCaption": [
+      "Imagen oficial de Jason y Lucia en GTA VI. Los pasos de esta guía corresponden a los ajustes de PS5.",
+      "Official GTA VI image of Jason and Lucia. The instructions in this guide concern PS5 settings.",
+      "Image officielle de Jason et Lucia dans GTA VI. Les étapes de ce guide concernent les paramètres de la PS5."
+    ],
+    "imageCredit": {
+      "label": "GTA VI © Rockstar Games · Official Media",
+      "url": "https://www.rockstargames.com/VI/media/screenshots"
+    },
+    "tag": [
+      "GUÍA · DUALSENSE EN PS5",
+      "GUIDE · DUALSENSE ON PS5",
+      "GUIDE · DUALSENSE SUR PS5"
+    ],
+    "title": [
+      "GTA 6 en PS5: cómo configurar tu mando DualSense",
+      "GTA 6 on PS5: how to set up your DualSense controller",
+      "GTA 6 sur PS5 : comment configurer votre DualSense"
+    ],
+    "excerpt": [
+      "Prepara tu DualSense para GTA 6 con las rutas oficiales de PS5: conexión, actualización y comprobaciones para dejar el mando a tu gusto.",
+      "Prepare your DualSense for GTA 6 with official PS5 menu paths, connection and update steps, and checks to make the controller comfortable.",
+      "Préparez votre DualSense pour GTA 6 : menus officiels PS5, connexion, mise à jour et vérifications pour une manette adaptée à vos habitudes."
+    ],
+    "body": [
+      "Para preparar el DualSense de PS5 antes de jugar a GTA 6, conviene separar tres tareas: dejar el mando conectado y actualizado, adaptar su respuesta a tus manos y comprobar cómo vas a cargarlo. Esta guía recorre los ajustes de la consola; no presupone haber probado los menús del juego ni propone una sensibilidad de apuntado universal.",
+      "Preparing a PS5 DualSense for GTA 6 involves three separate jobs: getting the controller connected and updated, making its response comfortable, and checking your charging routine. This guide covers console settings; it does not assume access to the game’s menus or prescribe a universal aiming sensitivity.",
+      "Pour préparer la DualSense de votre PS5 à GTA 6, séparez trois tâches : connecter et mettre à jour la manette, adapter ses réactions à vos mains et vérifier sa recharge. Ce guide porte sur les réglages de la console, sans prétendre avoir testé les menus du jeu ni imposer une sensibilité de visée universelle."
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Qué preparar antes de empezar",
+          "What to prepare before playing",
+          "Que préparer avant de jouer"
+        ],
+        "paragraphs": [
+          [
+            "Para preparar el DualSense de PS5 antes de jugar a GTA 6, conviene separar tres tareas: dejar el mando conectado y actualizado, adaptar su respuesta a tus manos y comprobar cómo vas a cargarlo. Esta guía recorre los ajustes de la consola; no presupone haber probado los menús del juego ni propone una sensibilidad de apuntado universal.",
+            "Preparing a PS5 DualSense for GTA 6 involves three separate jobs: getting the controller connected and updated, making its response comfortable, and checking your charging routine. This guide covers console settings; it does not assume access to the game’s menus or prescribe a universal aiming sensitivity.",
+            "Pour préparer la DualSense de votre PS5 à GTA 6, séparez trois tâches : connecter et mettre à jour la manette, adapter ses réactions à vos mains et vérifier sa recharge. Ce guide porte sur les réglages de la console, sans prétendre avoir testé les menus du jeu ni imposer une sensibilité de visée universelle."
+          ],
+          [
+            "Rockstar confirmó el 10 de noviembre la háptica ajustable.",
+            "Rockstar confirmed adjustable haptics on November 10.",
+            "Rockstar a confirmé le retour haptique réglable le 10 novembre."
+          ],
+          [
+            "Anotá tus valores actuales antes de cambiarlos: así podrás volver al ajuste que te resultaba familiar. Nuestra guía de funciones de GTA 6 en PS5 explica el contexto de estas opciones; aquí vamos directamente a preparar el mando.",
+            "Note your current values before changing them, so you can return to a familiar starting point. Our GTA 6 PS5 feature guide explains the context of these options; here we go straight to preparing the controller.",
+            "Notez vos valeurs actuelles avant de les modifier afin de retrouver vos habitudes. Notre guide des fonctions de GTA 6 sur PS5 explique le contexte de ces options ; passons ici directement à la préparation de la manette."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now · 10 November 2026",
+            "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+          },
+          {
+            "label": "FansGTA — GTA 6 on PS5: confirmed features",
+            "url": "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Primero, conexión y actualización",
+          "First, connection and updates",
+          "D’abord, connexion et mise à jour"
+        ],
+        "paragraphs": [
+          [
+            "Con la PS5 encendida, conectá el USB incluido y pulsá PS. Para actualizar: Ajustes → Accesorios → Mando (General) → Software del mando inalámbrico DualSense. Consultá la batería con PS → Accesorios. Usá un cable de carga y datos.",
+            "With PS5 switched on, connect the included USB cable and press PS. To update: Settings → Accessories → Controller (General) → DualSense Wireless Controller Device Software. Check the battery through PS → Accessories. Use a charge-and-data cable.",
+            "PS5 allumée, branchez le câble USB fourni et appuyez sur PS. Mise à jour : Paramètres → Accessoires → Manette (Général) → Logiciel de la manette sans fil DualSense. Batterie : PS → Accessoires. Utilisez un câble de charge et de données."
+          ],
+          [
+            "Si no aparece la actualización, actualizá primero el sistema PS5 y revisá de nuevo.",
+            "If no controller update appears, update PS5 system software and check again.",
+            "Si aucune mise à jour n’apparaît, actualisez d’abord le système PS5 et vérifiez de nouveau."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — pairing, updates and charging (ES)",
+            "url": "https://www.playstation.com/es-es/support/hardware/dualsense-controller-support/"
+          },
+          {
+            "label": "PlayStation Support — pairing, updates and charging (EN)",
+            "url": "https://www.playstation.com/en-us/support/hardware/dualsense-controller-support/"
+          },
+          {
+            "label": "PlayStation Support — pairing, updates and charging (FR)",
+            "url": "https://www.playstation.com/fr-fr/support/hardware/dualsense-controller-support/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Ajustá la respuesta paso a paso",
+          "Adjust the response one step at a time",
+          "Ajustez les sensations progressivement"
+        ],
+        "paragraphs": [
+          [
+            "Abrí Ajustes → Accesorios → Mando (general): Intensidad de la vibración, Intensidad del efecto gatillo y Volumen (altavoz para mando).",
+            "Open Settings → Accessories → Controller (General): Vibration Intensity, Trigger Effect Intensity and Volume (Speaker for Controller).",
+            "Ouvrez Paramètres → Accessoires → Manette (Général) : Intensité des vibrations, Intensité de l’effet gâchette et Volume (haut-parleur de la manette)."
+          ],
+          [
+            "Elegí una opción, probala con un juego disponible que conozcas bien y anotá tu impresión. ¿Te resultó más cómoda después de unos minutos o preferías el valor anterior? Esa comparación es más útil que cambiar todo a la vez. Elegí según tus manos y tu entorno, sin buscar una combinación que le sirva a todo el mundo.",
+            "Choose one option, try it in an available game you know well and note your impression. After a few minutes, was it more comfortable or did you prefer the previous value? That comparison is more useful than changing everything together. Choose for your own hands and surroundings rather than chasing a universal combination.",
+            "Choisissez une option, essayez-la dans un jeu disponible et familier, puis notez votre impression. Après quelques minutes, est-elle plus confortable ou préfériez-vous la valeur précédente ? Cette comparaison est plus utile que de tout changer ensemble. Choisissez selon vos mains et votre environnement plutôt que de rechercher une combinaison universelle."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — DualSense settings (ES)",
+            "url": "https://www.playstation.com/es-es/support/hardware/adjust-general-controller-settings/"
+          },
+          {
+            "label": "PlayStation Support — DualSense settings (EN)",
+            "url": "https://www.playstation.com/en-us/support/hardware/adjust-general-controller-settings/"
+          },
+          {
+            "label": "PlayStation Support — DualSense settings (FR)",
+            "url": "https://www.playstation.com/fr-fr/support/hardware/adjust-general-controller-settings/"
+          }
+        ],
+        "image": {
+          "key": "feature-bike",
+          "alt": [
+            "Motociclistas recorriendo un terreno de tierra junto a estructuras industriales en una captura oficial de GTA VI.",
+            "Motorcycle riders crossing dirt beside industrial structures in an official GTA VI screenshot.",
+            "Des motocyclistes traversent un terrain en terre près de structures industrielles dans une capture officielle de GTA VI."
+          ],
+          "caption": [
+            "Imagen promocional oficial de GTA VI. Acompaña la preparación del mando; no muestra los ajustes ni una prueba de sus efectos.",
+            "Official GTA VI promotional screenshot, illustrating controller preparation rather than a settings screen or effects test.",
+            "Capture promotionnelle officielle de GTA VI : une illustration de la préparation de la manette, sans écran de réglages ni test de ses effets."
+          ],
+          "credit": {
+            "label": "GTA VI © Rockstar Games · Official Media",
+            "url": "https://www.rockstargames.com/VI/media/screenshots"
+          }
+        }
+      },
+      {
+        "heading": [
+          "Comprobá qué conexión estás usando",
+          "Check which connection you are using",
+          "Vérifiez la connexion utilisée"
+        ],
+        "paragraphs": [
+          [
+            "En Método de comunicación, elegí Usar cable USB para comunicar por cable. Usar Bluetooth mantiene la comunicación inalámbrica aunque enchufes el USB.",
+            "Under Communication Method, select Use USB Cable for wired communication. Use Bluetooth keeps communication wireless even with USB plugged in.",
+            "Dans Mode de communication, sélectionnez Utiliser le câble USB pour communiquer par câble. Utiliser Bluetooth maintient la liaison sans fil malgré le branchement USB."
+          ],
+          [
+            "Decidí si necesitás libertad de movimiento o preferís tener el cable conectado. Prepará el sitio donde vas a sentarte para que el cable no quede tirante. La elección práctica depende también de cómo tenés colocada la consola.",
+            "Decide whether you need freedom of movement or prefer to keep the cable connected. Arrange your seat so the cable is not pulled taut. The practical choice also depends on where your console sits.",
+            "Choisissez selon votre besoin de liberté de mouvement ou votre préférence pour le câble. Installez-vous sans tendre le câble. Le choix pratique dépend aussi de l’emplacement de votre console."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — DualSense settings (ES)",
+            "url": "https://www.playstation.com/es-es/support/hardware/adjust-general-controller-settings/"
+          },
+          {
+            "label": "PlayStation Support — DualSense settings (EN)",
+            "url": "https://www.playstation.com/en-us/support/hardware/adjust-general-controller-settings/"
+          },
+          {
+            "label": "PlayStation Support — DualSense settings (FR)",
+            "url": "https://www.playstation.com/fr-fr/support/hardware/adjust-general-controller-settings/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Dejá resuelta la carga",
+          "Sort out charging beforehand",
+          "Préparez la recharge à l’avance"
+        ],
+        "paragraphs": [
+          [
+            "En los ajustes de ahorro de energía, Suministrar alimentación a los puertos USB permite cargar en reposo. Adaptativa está disponible en los grupos CFI-2000/7000.",
+            "In power-saving settings, Supply Power to USB Ports enables rest-mode charging. Adaptive is available on CFI-2000/7000 model groups.",
+            "Dans la gestion de l’alimentation, Fournir l’alimentation aux ports USB permet la recharge au repos. Adaptative concerne les modèles CFI-2000/7000."
+          ],
+          [
+            "Probá tu rutina antes de la sesión prevista: conectá el mando, dejá transcurrir un rato y comprobá después su nivel. Si no ves la opción adaptativa, revisá el modelo de consola. No hace falta reorganizar el resto de tus ajustes para resolver una comprobación de carga.",
+            "Test your routine before the planned session: connect the controller, leave it for a while, then check its level. If Adaptive is absent, check the console model. You do not need to rearrange your other settings to check charging.",
+            "Testez votre routine avant la session prévue : branchez la manette, attendez un moment et vérifiez ensuite son niveau. Si l’option Adaptative manque, contrôlez le modèle de console. Inutile de bouleverser les autres réglages pour vérifier la recharge."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation Support — rest-mode power (ES)",
+            "url": "https://www.playstation.com/es-es/support/hardware/power-saving/"
+          },
+          {
+            "label": "PlayStation Support — rest-mode power (EN)",
+            "url": "https://www.playstation.com/en-us/support/hardware/power-saving/"
+          },
+          {
+            "label": "PlayStation Support — rest-mode power (FR)",
+            "url": "https://www.playstation.com/fr-fr/support/hardware/power-saving/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Comprobaciones rápidas si algo no encaja",
+          "Quick checks when something feels wrong",
+          "Vérifications rapides en cas de problème"
+        ],
+        "paragraphs": [
+          [
+            "Si encontrás un problema, empezá por la comprobación que corresponda a ese síntoma. Evitá cambiar valores que ya te resultan cómodos mientras comprobás otra cosa.",
+            "If you encounter a problem, start with the check matching that symptom. Keep the values you already find comfortable unchanged while checking something else.",
+            "En cas de problème, commencez par la vérification correspondant au symptôme. Gardez vos valeurs déjà confortables pendant que vous contrôlez un autre point."
+          ],
+          [
+            "Si necesitás adaptar también la lectura o los controles, seguí con nuestra guía de accesibilidad. Si estabas buscando los diseños temáticos del mando, tenés la guía de ediciones limitadas del DualSense.",
+            "For reading or control adaptations, continue with our accessibility guide. If you were looking for themed controller designs, see our limited-edition DualSense guide.",
+            "Pour adapter aussi la lecture ou les commandes, poursuivez avec notre guide d’accessibilité. Pour les designs thématiques de la manette, consultez le guide des éditions limitées DualSense."
+          ]
+        ],
+        "table": {
+          "headers": [
+            [
+              "Situación",
+              "Situation",
+              "Situation"
+            ],
+            [
+              "Primera comprobación",
+              "First check",
+              "Première vérification"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "El mando carga, pero no conecta",
+                "Controller charges but will not connect",
+                "La manette charge, sans se connecter"
+              ],
+              [
+                "Probá el cable incluido o uno de carga y datos.",
+                "Try the included cable or a charge-and-data cable.",
+                "Essayez le câble fourni ou un câble de charge et de données."
+              ]
+            ],
+            [
+              [
+                "Querés comunicar por cable",
+                "You want wired communication",
+                "Vous voulez une liaison filaire"
+              ],
+              [
+                "Método de comunicación → Usar cable USB.",
+                "Communication Method → Use USB Cable.",
+                "Mode de communication → Utiliser le câble USB."
+              ]
+            ],
+            [
+              [
+                "No carga durante el reposo",
+                "No charging during rest mode",
+                "Aucune recharge en mode repos"
+              ],
+              [
+                "Revisá la alimentación USB del modo de reposo.",
+                "Check rest-mode USB power.",
+                "Vérifiez l’alimentation USB en mode repos."
+              ]
+            ],
+            [
+              [
+                "El altavoz suena demasiado alto o bajo",
+                "The speaker is too loud or quiet",
+                "Le haut-parleur est trop fort ou trop faible"
+              ],
+              [
+                "Volumen (altavoz para mando).",
+                "Volume (Speaker for Controller).",
+                "Volume (haut-parleur de la manette)."
+              ]
+            ]
+          ]
+        },
+        "references": [
+          {
+            "label": "PlayStation Support — pairing, updates and charging (EN)",
+            "url": "https://www.playstation.com/en-us/support/hardware/dualsense-controller-support/"
+          },
+          {
+            "label": "PlayStation Support — DualSense settings (EN)",
+            "url": "https://www.playstation.com/en-us/support/hardware/adjust-general-controller-settings/"
+          },
+          {
+            "label": "PlayStation Support — rest-mode power (EN)",
+            "url": "https://www.playstation.com/en-us/support/hardware/power-saving/"
+          },
+          {
+            "label": "FansGTA — accessibility and console preparation",
+            "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/"
+          },
+          {
+            "label": "FansGTA — limited-edition DualSense",
+            "url": "https://fansgta.com/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/"
+          }
+        ],
+        "image": {
+          "key": "feature-aiming",
+          "alt": [
+            "Jason sosteniendo un fusil con edificios iluminados al fondo en una captura oficial de GTA VI.",
+            "Jason holding a rifle with illuminated buildings behind him in an official GTA VI screenshot.",
+            "Jason tient un fusil devant des immeubles éclairés dans une capture officielle de GTA VI."
+          ],
+          "caption": [
+            "Captura oficial de GTA VI, usada como contexto visual. No es una prueba de sensibilidad, latencia ni resistencia del gatillo.",
+            "Official GTA VI screenshot used for visual context, not a sensitivity, latency or trigger-resistance test.",
+            "Capture officielle de GTA VI utilisée comme contexte visuel, et non comme test de sensibilité, de latence ou de résistance des gâchettes."
+          ],
+          "credit": {
+            "label": "GTA VI © Rockstar Games · Official Media",
+            "url": "https://www.rockstargames.com/VI/media/screenshots"
+          }
+        }
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now · 10 November 2026",
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+      },
+      {
+        "label": "PlayStation Support — pairing, updates and charging (ES)",
+        "url": "https://www.playstation.com/es-es/support/hardware/dualsense-controller-support/"
+      },
+      {
+        "label": "PlayStation Support — pairing, updates and charging (EN)",
+        "url": "https://www.playstation.com/en-us/support/hardware/dualsense-controller-support/"
+      },
+      {
+        "label": "PlayStation Support — pairing, updates and charging (FR)",
+        "url": "https://www.playstation.com/fr-fr/support/hardware/dualsense-controller-support/"
+      },
+      {
+        "label": "PlayStation Support — DualSense settings (ES)",
+        "url": "https://www.playstation.com/es-es/support/hardware/adjust-general-controller-settings/"
+      },
+      {
+        "label": "PlayStation Support — DualSense settings (EN)",
+        "url": "https://www.playstation.com/en-us/support/hardware/adjust-general-controller-settings/"
+      },
+      {
+        "label": "PlayStation Support — DualSense settings (FR)",
+        "url": "https://www.playstation.com/fr-fr/support/hardware/adjust-general-controller-settings/"
+      },
+      {
+        "label": "PlayStation Support — rest-mode power (ES)",
+        "url": "https://www.playstation.com/es-es/support/hardware/power-saving/"
+      },
+      {
+        "label": "PlayStation Support — rest-mode power (EN)",
+        "url": "https://www.playstation.com/en-us/support/hardware/power-saving/"
+      },
+      {
+        "label": "PlayStation Support — rest-mode power (FR)",
+        "url": "https://www.playstation.com/fr-fr/support/hardware/power-saving/"
+      }
+    ],
+    "published": "2026-11-12",
+    "updated": "2026-11-12"
+  },
+  {
+    "id": "gta6-xbox-remote-play-20261112",
+    "category": "guides",
+    "slug": [
+      "gta-6-xbox-remote-play-configurar-consola",
+      "gta-6-xbox-remote-play-console-setup",
+      "gta-6-xbox-remote-play-configurer-console"
+    ],
+    "title": [
+      "GTA 6: cómo configurar Xbox Remote Play para jugar a distancia",
+      "GTA 6: how to set up Xbox Remote Play",
+      "GTA 6 : configurer Xbox Remote Play pour jouer à distance"
+    ],
+    "excerpt": [
+      "Prepara tu Xbox Series X|S para Remote Play: consola, mando, navegador y conexión. Pasos oficiales y diferencias con Cloud Gaming e instalar desde Xbox App.",
+      "Prepare your Xbox Series X|S for Remote Play: console, controller, browser and connection. Official steps and how it differs from cloud and remote installation.",
+      "Préparez votre Xbox Series X|S pour Remote Play : console, manette, navigateur et connexion. Étapes et différences avec le cloud et l’installation à distance."
+    ],
+    "tag": [
+      "XBOX · USO A DISTANCIA",
+      "XBOX · REMOTE PLAY",
+      "XBOX · LECTURE À DISTANCE"
+    ],
+    "image": "jason",
+    "imageAlt": [
+      "Jason Duval junto a una valla metálica, con luces rojas y azules al fondo, en GTA VI",
+      "Jason Duval beside a chain-link fence, with red and blue lights behind him, in GTA VI",
+      "Jason Duval devant un grillage, avec des lumières rouges et bleues en arrière-plan, dans GTA VI"
+    ],
+    "imageCaption": [
+      "Captura oficial de GTA VI como contexto del juego. No muestra la interfaz de Xbox ni una sesión probada de Remote Play.",
+      "Official GTA VI screenshot for game context. It does not show the Xbox interface or a tested Remote Play session.",
+      "Capture officielle de GTA VI pour illustrer le jeu. Elle ne montre ni l’interface Xbox ni une session Remote Play testée."
+    ],
+    "imageCredit": {
+      "label": "GTA VI © Rockstar Games · Official Media",
+      "url": "https://www.rockstargames.com/VI/media"
+    },
+    "body": [
+      "Rockstar confirmó Remote Play en Xbox el 10 de noviembre. Esta guía prepara la transmisión desde tu propia Series X|S a otra pantalla; no instala una versión de PC o móvil ni adelanta el acceso al juego. Los pasos corresponden al servicio de Xbox, no a una prueba de FansGTA con la versión final.",
+      "Rockstar confirmed Xbox Remote Play on November 10. This guide prepares streaming from your own Series X|S to another screen; it does not install a PC or mobile version or provide earlier access. The steps describe the Xbox service, not a FansGTA test of the final game.",
+      "Rockstar a confirmé Remote Play sur Xbox le 10 novembre. Ce guide prépare la diffusion depuis votre propre Series X|S vers un autre écran ; il n’installe aucune version PC ou mobile et n’avance pas l’accès au jeu. Il décrit le service Xbox, sans test de la version finale par FansGTA."
+    ],
+    "published": "2026-11-12",
+    "updated": "2026-11-12",
+    "sections": [
+      {
+        "heading": [
+          "Qué estás preparando para GTA 6",
+          "What you are preparing for GTA 6",
+          "Ce que vous préparez pour GTA 6"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar confirmó Remote Play en Xbox el 10 de noviembre. Esta guía prepara la transmisión desde tu propia Series X|S a otra pantalla; no instala una versión de PC o móvil ni adelanta el acceso al juego. Los pasos corresponden al servicio de Xbox, no a una prueba de FansGTA con la versión final.",
+            "Rockstar confirmed Xbox Remote Play on November 10. This guide prepares streaming from your own Series X|S to another screen; it does not install a PC or mobile version or provide earlier access. The steps describe the Xbox service, not a FansGTA test of the final game.",
+            "Rockstar a confirmé Remote Play sur Xbox le 10 novembre. Ce guide prépare la diffusion depuis votre propre Series X|S vers un autre écran ; il n’installe aucune version PC ou mobile et n’avance pas l’accès au jeu. Il décrit le service Xbox, sans test de la version finale par FansGTA."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+            "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Consola, mando y acceso al juego",
+          "Console, controller and game access",
+          "Console, manette et accès au jeu"
+        ],
+        "paragraphs": [
+          [
+            "Para GTA VI, prepara la Series X|S que ejecutará el juego y comprueba la cuenta que posee su licencia. Ver el título en una biblioteca o haber descargado sus archivos no demuestra que pueda iniciarse en ese momento. Comprueba por separado la compra, el estado de la instalación y el desbloqueo.",
+            "For GTA VI, prepare the Series X|S that will run the game and check the account holding its licence. Seeing a title in a library or having its files downloaded does not establish that it can launch at that moment. Check the purchase, installation status and unlocking separately.",
+            "Pour GTA VI, préparez la Series X|S qui exécutera le jeu et vérifiez le compte détenant sa licence. Voir le titre dans une bibliothèque ou avoir téléchargé ses fichiers ne prouve pas qu’il peut déjà démarrer. Vérifiez séparément l’achat, l’installation et le déverrouillage."
+          ],
+          [
+            "Para emparejar un mando Xbox Wireless por Bluetooth, enciéndelo y mantén pulsado Emparejar durante tres segundos. Después selecciónalo desde los ajustes Bluetooth del dispositivo.",
+            "To pair an Xbox Wireless Controller over Bluetooth, turn it on and hold Pair for three seconds. Then select it in your device’s Bluetooth settings.",
+            "Pour associer une manette Xbox Wireless en Bluetooth, allumez-la et maintenez le bouton d’association trois secondes. Sélectionnez-la ensuite dans les réglages Bluetooth de l’appareil."
+          ],
+          [
+            "Los accesorios de audio conectados al mando no funcionan por Bluetooth; conecta los auriculares directamente al dispositivo receptor. Remote Play no admite actualmente teclado, ratón ni controles táctiles.",
+            "Audio accessories attached to the controller do not work over Bluetooth; connect headphones directly to the receiving device. Remote Play currently does not support keyboard, mouse or touch controls.",
+            "Les accessoires audio branchés à la manette ne fonctionnent pas par Bluetooth ; reliez le casque directement à l’appareil récepteur. Remote Play ne prend actuellement en charge ni clavier, ni souris, ni commandes tactiles."
+          ],
+          [
+            "Xbox indica 7–10 Mbps y recomienda Wi-Fi de 5 GHz. Son referencias del servicio, no mediciones de GTA VI ni una garantía de respuesta idéntica a jugar en la consola.",
+            "Xbox lists 7–10 Mbps and recommends 5 GHz Wi-Fi. These are service guidelines, not GTA VI measurements or a guarantee of the same response as playing at the console.",
+            "Xbox indique 7 à 10 Mbit/s et recommande le Wi-Fi 5 GHz. Il s’agit de références du service, pas de mesures de GTA VI ni d’une garantie de réactivité identique à la console."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox Support — How to set up remote play",
+            "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-set-up-remote-play"
+          },
+          {
+            "label": "Xbox Support — Bluetooth controller pairing and audio limitations",
+            "url": "https://support.xbox.com/en-US/help/hardware-network/accessories/connect-and-troubleshoot-xbox-one-bluetooth-issues"
+          }
+        ],
+        "image": {
+          "key": "lucia",
+          "alt": [
+            "Lucia Caminos sentada en un gimnasio con auriculares y guantes de entrenamiento en GTA VI",
+            "Lucia Caminos seated in a gym wearing headphones and training gloves in GTA VI",
+            "Lucia Caminos assise dans une salle de sport avec casque et gants d’entraînement dans GTA VI"
+          ],
+          "caption": [
+            "Imagen oficial de Lucia como contexto narrativo. Sus auriculares no son una demostración de accesorios compatibles ni de audio por Remote Play.",
+            "Official Lucia image for story context. Her headphones do not demonstrate compatible accessories or Remote Play audio.",
+            "Image officielle de Lucia pour le contexte narratif. Son casque ne démontre ni la compatibilité d’un accessoire ni le son par Remote Play."
+          ],
+          "credit": {
+            "label": "GTA VI © Rockstar Games · Official Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        }
+      },
+      {
+        "heading": [
+          "Activar la consola y conectar desde el navegador",
+          "Enable the console and connect from a browser",
+          "Activer la console et se connecter par navigateur"
+        ],
+        "paragraphs": [
+          [
+            "1. En Configuración > Dispositivos y conexiones > Características remotas, activa las funciones remotas.",
+            "1. In Settings > Devices & connections > Remote features, enable remote features.",
+            "1. Dans Paramètres > Appareils et connexions > Fonctionnalités à distance, activez l’accès distant."
+          ],
+          [
+            "2. Selecciona Suspensión en las opciones de energía.",
+            "2. Select Sleep under power options.",
+            "2. Sélectionnez Veille dans les options d’alimentation."
+          ],
+          [
+            "3. Abre xbox.com/remoteplay en un navegador compatible e inicia sesión con la misma cuenta usada para habilitar el acceso remoto. Selecciona tu consola y después Jugar remotamente en este dispositivo.",
+            "3. Open xbox.com/remoteplay in a supported browser and sign in with the account used to enable remote play. Select your console, then Remote play on this device.",
+            "3. Ouvrez xbox.com/remoteplay dans un navigateur compatible et connectez-vous avec le compte utilisé pour activer l’accès distant. Choisissez votre console, puis la lecture à distance sur cet appareil."
+          ],
+          [
+            "Antes del estreno puedes comprobar la conexión con otro juego compatible al que ya tengas acceso. Esa prueba ayuda a descubrir un problema de configuración sin confundirlo con un fallo de GTA VI. Guarda una referencia de los ajustes que cambies para poder revisarlos después.",
+            "Before launch, check the connection with another compatible game you can already access. That can reveal a setup problem without confusing it with a GTA VI fault. Keep a record of any settings you change so that you can review them later.",
+            "Avant la sortie, vérifiez la connexion avec un autre jeu compatible auquel vous avez déjà accès. Vous pourrez ainsi repérer un problème de configuration sans l’attribuer à GTA VI. Notez les réglages modifiés pour pouvoir les revoir ensuite."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox Support — Current console and browser setup",
+            "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-set-up-remote-play"
+          },
+          {
+            "label": "Xbox — Remote Play",
+            "url": "https://www.xbox.com/remoteplay"
+          },
+          {
+            "label": "Xbox Support — Account and connection checks",
+            "url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-remote-play-gaming"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Navegador y Xbox App: elegir la ruta correcta",
+          "Browser and Xbox App: choosing the right route",
+          "Navigateur et application Xbox : choisir le bon accès"
+        ],
+        "paragraphs": [
+          [
+            "Microsoft trasladó el acceso móvil al navegador en abril de 2025. No busques necesariamente el botón en la aplicación del teléfono. En Windows también puedes usar Xbox App.",
+            "Microsoft moved mobile access to the browser in April 2025. Do not necessarily expect a button in the phone app. On Windows you can also use the Xbox app.",
+            "Microsoft a déplacé l’accès mobile vers le navigateur en avril 2025. Ne cherchez donc pas systématiquement un bouton dans l’application du téléphone. Sur Windows, l’application Xbox constitue aussi une option."
+          ],
+          [
+            "La tabla resume los mínimos publicados para el acceso web, revisados el 12 de noviembre; mantén tu navegador actualizado. No son requisitos de una versión nativa de GTA VI para PC o móvil. Que un televisor tenga navegador no lo convierte automáticamente en cliente compatible.",
+            "The table summarises published web-access minimums, checked November 12; keep your browser updated. These are not requirements for a native PC or mobile edition of GTA VI. A television having a browser does not automatically make it a supported client.",
+            "Le tableau résume les minimums publiés pour l’accès web, vérifiés le 12 novembre ; gardez votre navigateur à jour. Ce ne sont pas les exigences d’une version native de GTA VI sur PC ou mobile. Un navigateur intégré ne rend pas automatiquement un téléviseur compatible."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox Wire — Browser Remote Play announcement, April 16, 2025",
+            "url": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/"
+          },
+          {
+            "label": "Xbox Support — Requirements and supported-browser link",
+            "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-set-up-remote-play"
+          },
+          {
+            "label": "Xbox Support — Supported browsers for cloud gaming and remote play on the web",
+            "url": "https://support.xbox.com/en-US/help/games-apps/cloud-gaming/supported-browsers"
+          }
+        ],
+        "table": {
+          "headers": [
+            [
+              "Sistema",
+              "System",
+              "Système"
+            ],
+            [
+              "Navegador",
+              "Browser",
+              "Navigateur"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Windows 10 20H2+ / ARM",
+                "Windows 10 20H2+ / ARM",
+                "Windows 10 20H2+ / ARM"
+              ],
+              [
+                "Edge / Chrome 85+",
+                "Edge / Chrome 85+",
+                "Edge / Chrome 85+"
+              ]
+            ],
+            [
+              [
+                "iOS / iPadOS 14.4+",
+                "iOS / iPadOS 14.4+",
+                "iOS / iPadOS 14.4+"
+              ],
+              [
+                "Safari 14+ / Chrome 85+",
+                "Safari 14+ / Chrome 85+",
+                "Safari 14+ / Chrome 85+"
+              ]
+            ],
+            [
+              [
+                "macOS 14.1.2+",
+                "macOS 14.1.2+",
+                "macOS 14.1.2+"
+              ],
+              [
+                "Safari 16+ / Edge / Chrome 85+",
+                "Safari 16+ / Edge / Chrome 85+",
+                "Safari 16+ / Edge / Chrome 85+"
+              ]
+            ],
+            [
+              [
+                "Android 12+",
+                "Android 12+",
+                "Android 12+"
+              ],
+              [
+                "Edge / Chrome 85+",
+                "Edge / Chrome 85+",
+                "Edge / Chrome 85+"
+              ]
+            ],
+            [
+              [
+                "ChromeOS 85+",
+                "ChromeOS 85+",
+                "ChromeOS 85+"
+              ],
+              [
+                "Chrome 85+",
+                "Chrome 85+",
+                "Chrome 85+"
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Consola, mando o sesión: qué revisar si falla",
+          "Console, controller or session: what to check if it fails",
+          "Console, manette ou session : quoi vérifier en cas de problème ?"
+        ],
+        "paragraphs": [
+          [
+            "Si no conecta: revisa Xbox Status, las actualizaciones, las funciones remotas y Suspensión; después reinicia consola y dispositivo receptor.",
+            "If it cannot connect: check Xbox Status, updates, remote features and Sleep, then restart the console and receiving device.",
+            "Si la connexion échoue : vérifiez Xbox Status, les mises à jour, l’accès distant et Veille, puis redémarrez console et appareil récepteur."
+          ],
+          [
+            "Si el mando no responde: comprueba su conexión Bluetooth y repite el emparejamiento en el dispositivo receptor.",
+            "If the controller does not respond: check its Bluetooth connection and pair it again with the receiving device.",
+            "Si la manette ne répond pas : vérifiez sa connexion Bluetooth et associez-la de nouveau à l’appareil récepteur."
+          ],
+          [
+            "Si la sesión se corta: evita cambiar de red. Guarda con frecuencia para limitar la pérdida de progreso si no puedes reconectar.",
+            "If the session drops: avoid switching networks. Save often to limit lost progress if you cannot reconnect.",
+            "Si la session se coupe : évitez de changer de réseau. Sauvegardez régulièrement pour limiter la perte de progression sans reconnexion."
+          ],
+          [
+            "No hemos medido resolución, FPS ni consumo por hora de GTA VI mediante Remote Play. Las imágenes oficiales ilustran el juego, no una prueba de transmisión.",
+            "We have not measured GTA VI’s resolution, frame rate or hourly data use through Remote Play. Official images illustrate the game, not a streaming test.",
+            "Nous n’avons mesuré ni résolution, ni fréquence d’images, ni consommation horaire de GTA VI via Remote Play. Les visuels officiels illustrent le jeu, pas un test de diffusion."
+          ]
+        ],
+        "image": {
+          "key": "music",
+          "alt": [
+            "Coches y camiones en una carretera elevada frente a los edificios de Vice City en GTA VI",
+            "Cars and trucks on an elevated road in front of Vice City buildings in GTA VI",
+            "Voitures et camions sur une voie surélevée devant les immeubles de Vice City dans GTA VI"
+          ],
+          "caption": [
+            "Tráfico en una captura oficial de GTA VI. No es una medición de latencia, calidad de transmisión o rendimiento en Xbox.",
+            "Traffic in an official GTA VI screenshot. This is not a measurement of latency, stream quality or Xbox performance.",
+            "Circulation dans une capture officielle de GTA VI. Il ne s’agit pas d’une mesure de latence, de qualité de diffusion ou de performances Xbox."
+          ],
+          "credit": {
+            "label": "GTA VI © Rockstar Games · Official Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "Xbox Support — Troubleshoot remote play gaming",
+            "url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-remote-play-gaming"
+          },
+          {
+            "label": "Xbox Support — Bluetooth controller connection",
+            "url": "https://support.xbox.com/en-US/help/hardware-network/accessories/connect-and-troubleshoot-xbox-one-bluetooth-issues"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Remote Play, nube y descarga remota responden a preguntas distintas",
+          "Remote Play, cloud and remote installation answer different questions",
+          "Remote Play, cloud et installation à distance répondent à des besoins distincts"
+        ],
+        "paragraphs": [
+          [
+            "Si quieres enviar la instalación a la consola, consulta nuestra guía de Xbox App. Si buscas la modalidad de servidores de Xbox, revisa la noticia sobre Cloud Gaming y sus condiciones. Para usar un móvil como pantalla también tenemos una guía que separa Android, iPhone y versiones nativas. Elegir el método antes de seguir los pasos evita buscar una opción de instalación cuando lo que necesitas es iniciar una transmisión.",
+            "To send an installation to your console, use our Xbox app guide. For Xbox’s server-based option, read our Cloud Gaming report and its conditions. We also have a guide separating Android, iPhone and native mobile versions. Choosing the method before following instructions avoids looking for an install command when what you need is to start a stream.",
+            "Pour envoyer une installation vers la console, consultez notre guide de l’application Xbox. Pour la solution sur les serveurs Xbox, lisez notre article sur Cloud Gaming et ses conditions. Un autre guide distingue Android, iPhone et versions mobiles natives. Choisir la méthode avant de suivre les étapes évite de chercher une commande d’installation alors que vous souhaitez lancer une diffusion."
+          ]
+        ],
+        "references": [
+          {
+            "label": "FansGTA — Xbox App remote installation",
+            "url": "https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/"
+          },
+          {
+            "label": "FansGTA — Xbox Cloud Gaming and Xbox One",
+            "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/"
+          },
+          {
+            "label": "FansGTA — Android, iPhone and Remote Play",
+            "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games — Remote Play confirmation, November 10, 2026",
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+      },
+      {
+        "label": "Xbox Support — How to set up remote play, checked November 12, 2026",
+        "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-set-up-remote-play"
+      },
+      {
+        "label": "Xbox Wire — Browser Remote Play announcement, April 16, 2025",
+        "url": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/"
+      },
+      {
+        "label": "Xbox — Remote Play",
+        "url": "https://www.xbox.com/remoteplay"
+      },
+      {
+        "label": "GTA VI © Rockstar Games · Official Media",
+        "url": "https://www.rockstargames.com/VI/media"
+      },
+      {
+        "label": "Xbox Support — Bluetooth controller pairing",
+        "url": "https://support.xbox.com/en-US/help/hardware-network/accessories/connect-and-troubleshoot-xbox-one-bluetooth-issues"
+      },
+      {
+        "label": "Xbox Support — Remote Play connection and session troubleshooting",
+        "url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-remote-play-gaming"
+      },
+      {
+        "label": "Xbox Support — Supported web browsers and operating systems",
+        "url": "https://support.xbox.com/en-US/help/games-apps/cloud-gaming/supported-browsers"
+      }
+    ]
+  }
+]

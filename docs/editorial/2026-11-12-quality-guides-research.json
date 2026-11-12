@@ -1,0 +1,1362 @@
+{
+  "checked_at_utc": "2026-11-12T21:46:12.127460+00:00",
+  "requested_scope": "Five new substantial GTA VI topics based on recent Rockstar confirmations, original ES/EN/FR text and authentic screenshots.",
+  "actual_scope": "Three distinct practical guides plus three necessary updates at existing URLs. No claim that updates are new articles.",
+  "main_baseline": "2bafca68fdb5881e8f30a6fc964c53cab6fc62d2",
+  "decision": "All recent Rockstar news events were already covered. Independent whole-body intent comparison supports three new actionable setup guides; two further candidates lack a verified recent announcement or overlap existing answers. Prefer fewer useful pages to thin duplicates.",
+  "current_official_research": {
+    "checked_date": "2026-11-12",
+    "scope": "Official Rockstar confirmations compared with 200 existing topics; research/proposals only",
+    "repository_baseline": "main 2bafca68, catalogue 200 as supplied by parent; no repository mutations by this subagent",
+    "read": [
+      "AGENTS.md",
+      "docs/CONTINUAR-FANSGTA.md",
+      "docs/editorial/user-brief.md",
+      "docs/editorial/inventory.json",
+      "197 full article objects in /tmp/fansgta-three-20261112/articles-before.json plus current Nov12 manual batch"
+    ],
+    "current_official_activity": [
+      {
+        "date": "2026-11-10",
+        "event": "Pre-load now, console features, Remote Play",
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "access": "Full current primary body recovered and read from managed Chromium evidence /tmp/fansgta-five-quality-20261112/rockstar-preload-rendered.json, HTTP200; error null/errors[]/failures[]. Earlier HTTP/web opens produced shell or InternalError, not a contradiction. Root noted helper exit1 during cleanup after capture."
+      },
+      {
+        "date": "2026-11-09",
+        "event": "GTA VI The Festival",
+        "url": "https://www.rockstargames.com/VI/gtavi-thefestival",
+        "access": "Full current official page read through search service; lottery closed and waitlist shown on Nov12"
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Launch gallery",
+        "url": "https://www.rockstargames.com/VI/media",
+        "access": "Current official site links Launch Gallery and Media; equivalent existing detailed gallery article inspected"
+      },
+      {
+        "date": "2026-11-12",
+        "event": "No new dated Rockstar Newswire announcement found today",
+        "url": "https://www.rockstargames.com/newswire?tag=722",
+        "access": "Current index search and current readable VI site show latest items Nov10/Nov9/Nov5; no invented fresh date"
+      }
+    ],
+    "new_distinct_intents": [
+      {
+        "topic": "Preparing Xbox Remote Play from a personally owned Xbox Series X|S",
+        "decision": "Substantive new practical guide supported by Nov10 confirmation and current Xbox setup documentation",
+        "dedup": [
+          "Android/iPhone article is mostly PS5 setup, with one Xbox browser paragraph and no Xbox console/controller steps",
+          "Xbox App Nov11 article sends installations; it does not stream the own console",
+          "Xbox One Cloud Gaming article concerns Xbox servers, not the personally owned Series X|S"
+        ],
+        "draft": "/tmp/fansgta-five-quality-20261112/xbox-remote-article.json"
+      },
+      {
+        "topic": "Set up PS5 3D audio",
+        "decision": "Parent guides agent identified distinct setup intent rather than existing list of PS5 advertised features",
+        "ownership": "Other parent agent"
+      },
+      {
+        "topic": "Set up DualSense haptics/triggers/controller",
+        "decision": "Parent guides agent identified distinct configuration intent rather than existing special-controller buying article",
+        "ownership": "Other parent agent"
+      }
+    ],
+    "existing_article_updates_instead_of_duplicates": [
+      {
+        "id": "gta6-ps5-pro-fps-deep-20261029",
+        "reason": "October29 article still calls FPS target an August report and treats PSSR only as generic hardware; correct with current primary, preserving valid historical context and methodology"
+      },
+      {
+        "id": "gta6-series-s-performance-guide-20261106",
+        "reason": "November6 lead says FPS not detailed; revise to announced console target, preserve resolution/benchmark limits"
+      },
+      {
+        "id": "gta6-the-festival-miami-20261109",
+        "reason": "Registration instructions previously described the Nov10 lottery as open; current source shows closed plus waitlist. Preserve original dates and announcement"
+      }
+    ],
+    "rejected_thin_variants": [
+      "Another generic preload/start-time/storage/code-in-box article duplicates existing URLs",
+      "Another Festival age/parking/ticket article overlaps detailed existing Festival guide",
+      "New screenshot round-up duplicates Launch Gallery; isolated scenery captions alone do not justify another news item",
+      "New first-person camera claims from Only in Dade clip would repeat this morning’s article and do not establish playable camera mode"
+    ],
+    "interest_signal": "Current official Nov10 launch preparation and user questions give timely relevance; no Google search-volume or ranking measurements verified. Do not call these the five most searched topics.",
+    "conclusion": "Three distinct useful new guides plus three corrective updates are defensible. Five genuinely new Rockstar-confirmed news events were not found; do not pad the batch.",
+    "unchanged": "Design, advertisements, editorial automation, security, languages and all repository files remain untouched by this subtask."
+  },
+  "search_and_intent_decisions": {
+    "checked_at_utc": "2026-11-12T21:36:17.286717+00:00",
+    "catalogue_count": 200,
+    "catalogue_full_snapshot": "/tmp/fansgta-five-quality-20261112/articles-before.json",
+    "inventory": "docs/editorial/inventory.json",
+    "method": "Read inventory and exported complete Article objects from .ssr/entry-server.js; compared search intent and full bodies for related guides. Searched current ES/EN/FR sources, prioritizing Rockstar and platform primary documentation.",
+    "current_official_news_status": {
+      "latest_GTA_VI_Newswire_found": "2026-11-10",
+      "official_index": "https://www.rockstargames.com/newswire?tag=722",
+      "home": "https://www.rockstargames.com/VI",
+      "result": "No five newly announced Rockstar topics found for November12. Existing intent equivalents should be updated rather than republished."
+    },
+    "new_article_candidates": [
+      {
+        "key": "configure-dualsense",
+        "decision": "selected",
+        "intent": "How to prepare a controller: pairing/firmware, console-level haptics/triggers/speaker intensity, actual USB communication and charging.",
+        "recent_confirmation": "Rockstar/PlayStation November10 confirms adjustable DualSense features; interface instructions are Sony platform documentation, not an invented GTA VI settings menu.",
+        "primary_urls": [
+          "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+          "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+          "https://www.playstation.com/en-us/support/hardware/adjust-general-controller-settings/",
+          "https://www.playstation.com/en-us/support/hardware/dualsense-controller-support/"
+        ],
+        "dedup": [
+          {
+            "id": "gta6-dualsense-limited-editions-20261105",
+            "existing_intent": "Prices, designs and preorder details of limited-edition hardware, not configuration.",
+            "decision": "Distinct actionable intent."
+          },
+          {
+            "id": "ps5-features-2026-10-28",
+            "existing_intent": "General feature inventory: haptics, triggers, audio and SSD.",
+            "decision": "New guide must give console setup and reversible adjustments instead of another list of promises."
+          },
+          {
+            "id": "gta6-accessibility-console-preparation-20261106",
+            "existing_intent": "General subtitles, display, accessibility and preparation.",
+            "decision": "No detailed controller intensity/firmware/communication routes; crosslink rather than copy."
+          }
+        ],
+        "limits": [
+          "Do not claim GTA VI sensitivity, button mappings or in-game menu routes.",
+          "No own prelaunch gameplay test.",
+          "No purchase required for setting guide.",
+          "Shared Rockstar10Nov source budget: allocated at most35 derived words across ESENFR for this article."
+        ]
+      },
+      {
+        "key": "ps5-3d-audio-setup",
+        "decision": "selected; peer owns detailed primary verification",
+        "intent": "Configure 3D audio output and usable equipment rather than list PS5 capabilities.",
+        "recent_confirmation": "November10 platform/publisher feature details include Tempest3DAudio.",
+        "dedup": [
+          {
+            "id": "ps5-features-2026-10-28",
+            "existing_intent": "Lists audio as one feature, without full sound setup.",
+            "decision": "Distinct technical how-to."
+          },
+          {
+            "id": "gta6-hdr-display-calibration-20261106",
+            "existing_intent": "Image/HDR rather than audio.",
+            "decision": "Distinct settings and equipment."
+          }
+        ]
+      },
+      {
+        "key": "xbox-remote-play-own-console",
+        "decision": "selected; peer owns detailed primary verification",
+        "intent": "Play through a browser using an owned SeriesX|S as host; separate from downloading through XboxApp and from XboxCloudGaming.",
+        "recent_confirmation": "Rockstar November10 says PlayStation/Xbox Remote Play fully supported.",
+        "dedup": [
+          {
+            "id": "gta6-mobile-remote-20261101",
+            "existing_intent": "Most mobile instructions are PS5. Xbox section is one paragraph about browser transfer in2025, not a full tutorial.",
+            "decision": "Substantial new browser/host setup intent possible."
+          },
+          {
+            "id": "gta6-xbox-app-remote-install-20261111",
+            "existing_intent": "Sends installation request to console; expressly does not stream gameplay.",
+            "decision": "Distinct action."
+          },
+          {
+            "id": "gta6-ps4-xbox-one-20261102",
+            "existing_intent": "CloudGaming on XboxOne, game runs in Microsoft servers.",
+            "decision": "Different host, service and licensing. Avoid retelling cloud schedule."
+          }
+        ]
+      }
+    ],
+    "additional_gaps_not_selected": [
+      {
+        "key": "xbox-cloud-save-sync",
+        "decision": "defer under current recent-confirmation constraint",
+        "primary": "https://www.xbox.com/en-US/games/store/game/9nl3wwnzlzzn",
+        "access": "Full HTML opened. Published/developed by RockstarGames; capability list includes Xboxcloudsaves.",
+        "dedup": "No full Xbox-save guide in200. Existing PS5backup is another platform; crossprogress discusses PS5↔Xbox, HomeXbox guide covers licences.",
+        "block": "No verified date when cloud-save flag was announced; Xbox support FAQ returned only JavaScript placeholder here. Not presented as a fresh Rockstar announcement."
+      },
+      {
+        "key": "download-paused-install-error",
+        "decision": "defer; could be later support guide, not a new known game bug",
+        "primary": [
+          "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+          "https://www.playstation.com/en-us/support/games/gta-vi-support/",
+          "https://www.playstation.com/en-gb/support/games/gta-vi-game/"
+        ],
+        "dedup": "Preload guide has requirements, dates and a few initial checks. XboxApp guide already explains queue/account/storage symptoms and support escalation. A problem-oriented flow could be more detailed but should not be split merely to reach5newURLs.",
+        "block": "Current user asks recent publisher confirmations and substantial originality; prefer not to force additional support content in this batch."
+      }
+    ],
+    "actual_search_interest_signals_by_language": {
+      "es": [
+        {
+          "query": "GTA6 audio3D DualSense12noviembre2026",
+          "url": "https://blog.es.playstation.com/2026/11/10/predescargad-grand-theft-auto-vi-desde-hoy-en-ps5/",
+          "date": "2026-11-10",
+          "kind": "Recent localized primary feature communication, not search-volume evidence."
+        },
+        {
+          "query": "GTA6 precarga12noviembre2026 problemas descarga",
+          "url": "https://www.elfinanciero.com.mx/entretenimiento/2026/11/09/como-precargar-grand-theft-auto-vi-en-playstation-5-y-xbox-series/",
+          "date": "2026-11-09",
+          "kind": "Mainstream Spanish-language practical coverage this week; supports launch-preparation interest broadly."
+        },
+        {
+          "url": "https://www.playstation.com/es-es/support/games/gta-vi-game/",
+          "kind": "Official localized search-result support for concrete download issues, not confirmation of widespread defects."
+        }
+      ],
+      "en": [
+        {
+          "query": "GTA6 audio3D DualSenseNovember10,2026",
+          "url": "https://www.videogameschronicle.com/news/new-gta-6-trailer-showcases-ps5-exclusive-dualsense-features/",
+          "date": "2026-11-10",
+          "kind": "Recent gaming press coverage specifically highlighting controller features."
+        },
+        {
+          "url": "https://games.gg/news/gta-6-ps5-exclusive-features-footage/",
+          "date": "2026-11-12",
+          "kind": "Current coverage of Nov10 PS5 feature announcement, without a quantitative popularity claim."
+        },
+        {
+          "query": "GTA6 download stuckNovember12,2026",
+          "url": "https://www.reddit.com/r/grandtheftauto/comments/1xty4t3/does_anyone_have_their_copy_of_the_game/",
+          "date": "2026-11-12",
+          "kind": "Actual contemporaneous user discussion about download progress. Anecdotal and self-selected; not a bug-prevalence measurement."
+        }
+      ],
+      "fr": [
+        {
+          "query": "GTA6 préchargement12novembre2026 téléchargement",
+          "url": "https://www.dexerto.fr/gta/comment-precharger-gta-6-ps5-xbox-series-xs-1663764/",
+          "date": "2026-11-10",
+          "kind": "Recent French practical coverage about preparation and downloads."
+        },
+        {
+          "url": "https://www.jeuxvideo.com/news/2113342/quand-et-comment-pre-telecharger-gta-6-toutes-les-infos-sur-ps5-et-xbox-series.htm",
+          "date": "2026-11-09",
+          "kind": "Mainstream French gaming press launch-preparation coverage."
+        },
+        {
+          "url": "https://www.playstation.com/fr-fr/support/games/gta-vi-support/",
+          "kind": "Official French support result, current indexed page. No own measured traffic inferred."
+        }
+      ]
+    },
+    "search_limits": [
+      "Web search/news results were available. No GoogleTrends/SearchConsole keyword-volume or ranking dataset was available.",
+      "No claim mostsearched, viral guaranteed, top10Google or specific demand ratios across languages.",
+      "Presence of a result demonstrates coverage/answer availability, not how many people searched.",
+      "Fresh coverage dates are not automatically new announcement dates; the publisher feature announcement is November10."
+    ],
+    "recommendation": "Three new guides with substantially different practical intent plus verifiable updates to existing equivalent articles; do not claim five new confirmed announcements.",
+    "work_scope": "Research only in /tmp; no central repo edits, drafts or publication for this research subtask."
+  },
+  "independent_dedup_review": {
+    "reviewed_at_utc": "2026-11-12T21:37:42.763151+00:00",
+    "mode": "independent read-only catalogue and source-evidence review; no repo edits, browser or network execution",
+    "snapshot": {
+      "path": "/tmp/fansgta-five-quality-20261112/articles-before.json",
+      "sha256": "21cc6823cd28f32b5db7a224b34f42df9dd7582b3047716204287ab294a78c07",
+      "topics": 200,
+      "localized_versions": 600,
+      "method": "Parsed every article including full localized body, sections, tables, source labels and references; full-content keyword scans, then complete English paragraphs of nearest intent competitors read, including accessibility, limited controllers, mobile, Xbox installation and PS5 feature report. Prior Portal/PC guide bodies independently reviewed in preceding publication task."
+    },
+    "candidates": [
+      {
+        "proposed_id": "gta6-ps5-3d-audio-settings-20261112",
+        "verdict": "distinct_if_practical_setup",
+        "intent": "Configure PS5 headphone/TV 3D audio and verify output settings for GTA VI; explain system calibration versus game options.",
+        "nearest_existing": [
+          "ps5-features-2026-10-28",
+          "gta6-vs-gta5-confirmed-comparison-2026-10-28",
+          "gta6-accessibility-console-preparation-20261106"
+        ],
+        "existing_body_scope": "PS5 feature report explains Tempest positioning and limits but provides no audio menu flow or calibration procedure; comparison repeats the technology; accessibility guide addresses reading, colours, and general controls.",
+        "must_add": [
+          "Verified Sony audio menu procedure and supported output distinction",
+          "Original decision/troubleshooting framework, without claimed GTA VI listening test",
+          "Contextual link to feature report rather than repeating its broad feature summary"
+        ],
+        "must_avoid": [
+          "Invented GTA VI audio presets, measured footsteps range or competitive advantage",
+          "Presenting Sony functionality checked October 28 as first announced November 12"
+        ],
+        "freshness": "Rockstar November 10 specifically describes improved spatial audio rendering and Tempest support. New page is a preparation tutorial tied to that recent confirmation, not a newly discovered feature."
+      },
+      {
+        "proposed_id": "gta6-dualsense-settings-20261112",
+        "verdict": "distinct_if_controller_configuration",
+        "intent": "Configure PS5 DualSense intensity/speaker preferences before GTA VI, separating console settings from game-specific accessibility options.",
+        "nearest_existing": [
+          "ps5-features-2026-10-28",
+          "gta6-dualsense-limited-editions-20261105",
+          "gta6-accessibility-console-preparation-20261106",
+          "gta6-pc-mac-ps5-remote-play-20261108"
+        ],
+        "existing_body_scope": "Feature report distinguishes haptics/triggers/speaker without setup; limited editions is a purchase/design guide; accessibility guide mentions controller options generally and expressly does not publish an unverified in-game menu. No existing intensity/speaker setup procedure.",
+        "must_add": [
+          "Verified Sony settings paths and documented distinction among haptic intensity, trigger effect and speaker output",
+          "Explain settings are reversible and personal comfort choices, not performance optimisation claims",
+          "Link existing accessory and accessibility guides instead of duplicating them"
+        ],
+        "must_avoid": [
+          "Invented GTA VI sensitivity, dead-zone, remapping or exact in-game accessibility menus",
+          "Suggesting limited-edition controller unlocks exclusive effects"
+        ],
+        "freshness": "Rockstar November 10 describes integrated haptic feedback adjustable via accessibility settings. Exact GTA VI menu labels remain unverified; Sony system procedures are background, not new November 12 announcements."
+      },
+      {
+        "proposed_id": "gta6-xbox-remote-play-20261112",
+        "verdict": "distinct_if_own_console_setup",
+        "intent": "Set up streaming from a personally controlled Xbox Series X|S console to a supported client/browser, including remote features, power mode and controller checks.",
+        "nearest_existing": [
+          "gta6-mobile-remote-20261101",
+          "gta6-xbox-app-remote-install-20261111",
+          "gta6-ps4-xbox-one-20261102",
+          "gta6-pc-mac-ps5-remote-play-20261108",
+          "gta6-playstation-portal-remote-play-20261112"
+        ],
+        "existing_body_scope": "Mobile guide has two brief Xbox paragraphs linking the browser route but its actual setup procedure is PS5. Xbox-app guide requests installation, not gameplay. Xbox One guide covers server cloud support. PC/Mac and Portal guides are Sony-specific. None provides own-Xbox Remote Play activation/client instructions.",
+        "must_add": [
+          "Verified current Microsoft remote-feature/power settings and current browser/Windows paths",
+          "Distinguish own-console execution from installation requests and cloud servers",
+          "State native GTA VI host must be Series X|S even though generic Xbox Remote Play service supports older consoles"
+        ],
+        "must_avoid": [
+          "Implying Xbox One runs GTA VI natively",
+          "Claiming same stream settings, latency, subscription rules or start time as Xbox Cloud Gaming",
+          "Claiming own final-game streaming test"
+        ],
+        "freshness": "Rockstar November 10 explicitly confirms full Remote Play support on Xbox and PlayStation; Microsoft April 2025 browser-route announcement is dated background, not a new November 2026 feature."
+      }
+    ],
+    "new_primary_evidence": {
+      "source": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+      "announcement_date": "2026-11-10",
+      "captured_evidence": "/tmp/fansgta-five-quality-20261112/rockstar-preload-rendered.json",
+      "limits": "No newer substantial Rockstar announcement verified in available research. Do not label these three pages five newly announced features or claim search-volume ranking."
+    },
+    "additional_two_new_topics": {
+      "verdict": "not_justified",
+      "reason": "Remaining substantive November 10 performance details answer existing PS5 Pro and Series S intents; Festival ticket deadline belongs to existing event article. Music, preload, cloud, gallery, app-install and Portal intents already have posts. Splitting these into more nominally new URLs would compete with existing coverage."
+    },
+    "updates_instead_of_duplicates": [
+      {
+        "id": "gta6-ps5-pro-fps-deep-20261029",
+        "reason": "November 10 official 30fps target, PSSR and Pro-only ray-traced shadows supersede former evidence-limited claims."
+      },
+      {
+        "id": "gta6-series-s-performance-guide-20261106",
+        "reason": "November 10 30fps target must replace pre-confirmation uncertainty while preserving lack of native resolution figures."
+      },
+      {
+        "id": "gta6-the-festival-miami-20261109",
+        "reason": "Recheck lottery deadline/status against current official event terms; deadline change is same ticketing intent."
+      }
+    ],
+    "decision": "Support three distinct substantive tutorials plus updates at the three existing URLs, preserving original publication dates. Do not force five new topics. Distinctness depends on practical source-verified steps, not repeating the feature announcement under new titles."
+  },
+  "independent_editorial_review": {
+    "reviewed_at_utc": "2026-11-12T21:44:09.573528+00:00",
+    "scope": "Independent read-only editorial review of three final draft topics, complete ES/EN/FR bodies, tables, metadata and captions; no source/article edits and no new network calls.",
+    "overall_verdict": "No material blocker in the reviewed drafts. These are three practical preparation tutorials tied to verified November10 features, not five newly announced Rockstar stories.",
+    "material_findings": [],
+    "articles": [
+      {
+        "file": "/tmp/fansgta-five-quality-20261112/audio-article.json",
+        "sha256_reviewed": "692fd542dc8967334e58d337361046353d86094e0537d57b6549dd64dc14e780",
+        "id": "gta6-ps5-3d-audio-settings-20261112",
+        "verdict": "pass_editorial_review",
+        "languages_reviewed": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "paragraph_word_counts_es_en_fr": [
+          669,
+          588,
+          639
+        ],
+        "sections": 7,
+        "editorial_images": 3,
+        "schema_invariants": {
+          "new_id": true,
+          "new_localized_slugs": true,
+          "body_matches_first_section_paragraph": true,
+          "category": "guides",
+          "published": "2026-11-12",
+          "updated": "2026-11-12"
+        },
+        "conclusion": "No material editorial issue found. A useful output → headphone profile/TV measurement → clarity/troubleshooting sequence; distinct from the pre-existing feature overview and general accessibility guide.",
+        "evidence": [
+          "rockstar-preload-rendered.json",
+          "audio-source-review.json",
+          "audio-editorial-checks.json"
+        ],
+        "details": [
+          "All three languages preserve the headphone USB/3.5mm conditions and Audio Focus HDMI exclusion.",
+          "Historical Sony 2024/2025 features are dated background, not claimed as November 2026 announcements.",
+          "Personalised profile and Audio Focus menu names match the saved localized source reading record, including French Réglage audio avancé.",
+          "Context images do not claim to show a PS5 interface, audio calibration, headset compatibility or a game listening test.",
+          "Minor editorial repetition about changing one variable and keeping a reference has already been shortened; remaining reminders support the procedure rather than adding unsupported game facts."
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-quality-20261112/dualsense-article.json",
+        "sha256_reviewed": "2c1630373b04ed6b8593fe0b545b806a563de0bcf2e19708595546476bdebd9f",
+        "id": "gta6-dualsense-settings-20261112",
+        "verdict": "pass_editorial_review",
+        "languages_reviewed": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "paragraph_word_counts_es_en_fr": [
+          419,
+          366,
+          392
+        ],
+        "sections": 6,
+        "editorial_images": 3,
+        "schema_invariants": {
+          "new_id": true,
+          "new_localized_slugs": true,
+          "body_matches_first_section_paragraph": true,
+          "category": "guides",
+          "published": "2026-11-12",
+          "updated": "2026-11-12"
+        },
+        "conclusion": "No material editorial issue found. Setup, firmware, response intensity, actual USB communication and charging are distinct from buying a themed controller or listing announced PS5 features.",
+        "evidence": [
+          "rockstar-preload-rendered.json",
+          "dualsense-editorial-checks.json"
+        ],
+        "details": [
+          "ES/EN/FR retain equivalent steps and limits; no sensitivity, latency or in-game menu is invented.",
+          "USB data communication is correctly distinguished from merely connecting a charging cable.",
+          "Adaptive charging is limited to the specified console model groups.",
+          "The short diagnostic table adds practical value without an arbitrary word-count expansion.",
+          "Independently visually checked feature-bike.webp and feature-aiming.webp: alt descriptions match riders beside industrial structures and Jason holding a rifle at night. Parent verified feature-driver vehicle identities."
+        ],
+        "sha256_previous_review": "150af410a6238178c5c8f2914b9d3e9873996528bda04fea25db8bff7b3d6d82",
+        "reference_format_correction": {
+          "evidence": "/tmp/fansgta-five-quality-20261112/internal-reference-fix.json",
+          "changed_values": 3,
+          "verification": "Reverting only the three documented internal-reference URLs recreates the exact previous reviewed file SHA256; no other field/text changed.",
+          "result": "Root-relative source references now canonical absolute URLs, permitting existing locale localization; no validator relaxation."
+        }
+      },
+      {
+        "file": "/tmp/fansgta-five-quality-20261112/xbox-remote-article.json",
+        "sha256_reviewed": "aaa83a89271948ddaa929d55a6cc354dc6e9bff5ec1180fb020a1a6c5a92a965",
+        "id": "gta6-xbox-remote-play-20261112",
+        "verdict": "pass_editorial_review",
+        "languages_reviewed": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "paragraph_word_counts_es_en_fr": [
+          511,
+          471,
+          496
+        ],
+        "sections": 6,
+        "editorial_images": 3,
+        "schema_invariants": {
+          "new_id": true,
+          "new_localized_slugs": true,
+          "body_matches_first_section_paragraph": true,
+          "category": "guides",
+          "published": "2026-11-12",
+          "updated": "2026-11-12"
+        },
+        "conclusion": "No material editorial issue found. The console-hosted stream setup answers a different task from remote installation, native mobile distribution and server cloud gaming.",
+        "evidence": [
+          "rockstar-preload-rendered.json",
+          "xbox-remote-support-rendered.txt",
+          "xbox-remote-support-evidence.json",
+          "xbox-browsers-evidence.json",
+          "xbox-bluetooth-evidence.json",
+          "xbox-remote-troubleshoot-evidence.json"
+        ],
+        "details": [
+          "Same-account requirement is now supported by captured troubleshooting text; earlier draft uncertainty is resolved.",
+          "Published browser/OS table matches the captured official compatibility table, including its macOS14.1.2 wording; recommendation to keep browsers current is present.",
+          "Touch/keyboard/mouse limits follow the Remote Play-specific support text, rather than misapplying the generic cloud browser page note.",
+          "7–10Mbps and 5GHz are labeled service guidance, not tested GTA VI requirements or quality guarantees.",
+          "Series X|S is identified as the GTA VI host; generic Xbox One service support is not represented as native GTA VI availability.",
+          "The April2025 browser transition is dated background. Final-game streaming, resolution, FPS, latency and hourly usage are not claimed to have been tested."
+        ]
+      }
+    ],
+    "source_review_limits": [
+      "Rockstar and Xbox facts were checked against locally captured full official text.",
+      "Sony facts were compared with saved official reading IDs, localized labels/routes and author ledgers; the full Sony pages were read through web tools by the source agents, not newly fetched by this reviewer.",
+      "The review does not assert gameplay, measured audience demand, ranking results, real advertising delivery or production publication.",
+      "Root reported shared Rockstar new derivation145words across all six topics (31+26+28+60), Sony performance clause30 separately. Build/browser and public publication proof remain outside this editorial review."
+    ],
+    "dedup_review": "/tmp/fansgta-five-quality-20261112/dedup-review.json",
+    "pending_after_publication": "Separate exhaustive SEO audit requested by user; do not expand current publication scope.",
+    "updates_review": {
+      "file": "/tmp/fansgta-five-quality-20261112/existing-article-updates.json",
+      "sha256_reviewed": "73e400005f9c41419a6c26d392dd29eedf1e11aa1e17cbe9329b6a6db05e9c54",
+      "method": "Read full English current body, all localized changed paragraphs via complete ES/EN/FR diff against the 200-topic baseline, all tables and local source ledger.",
+      "checks": [
+        {
+          "id": "gta6-ps5-pro-fps-deep-20261029",
+          "verdict": "pass_editorial_review",
+          "retained_invariants": {
+            "id": true,
+            "category": true,
+            "slug": true,
+            "published": true,
+            "image": true,
+            "imageAlt": true,
+            "imageCaption": true,
+            "imageCredit": true,
+            "section_images_preserved": true
+          },
+          "updated": "2026-11-12",
+          "all_three_languages_reviewed": true
+        },
+        {
+          "id": "gta6-series-s-performance-guide-20261106",
+          "verdict": "pass_editorial_review",
+          "retained_invariants": {
+            "id": true,
+            "category": true,
+            "slug": true,
+            "published": true,
+            "image": true,
+            "imageAlt": true,
+            "imageCaption": true,
+            "imageCredit": true,
+            "section_images_preserved": true
+          },
+          "updated": "2026-11-12",
+          "all_three_languages_reviewed": true
+        },
+        {
+          "id": "gta6-the-festival-miami-20261109",
+          "verdict": "pass_editorial_review",
+          "retained_invariants": {
+            "id": true,
+            "category": true,
+            "slug": true,
+            "published": true,
+            "image": true,
+            "imageAlt": true,
+            "imageCaption": true,
+            "imageCredit": true,
+            "section_images_preserved": true
+          },
+          "updated": "2026-11-12",
+          "all_three_languages_reviewed": true
+        }
+      ],
+      "material_findings": [],
+      "facts": [
+        "PS5 Pro now puts official November10 30FPS target ahead of attributed historical August report. It adds game-specific PSSR/ray-traced shadows while retaining distinction from measured resolution/frame-rate results and keeping original comparison explanation.",
+        "Series S receives the console-family30FPS target, preserving native-resolution unknowns and no invented graphics modes.",
+        "Festival clearly labels lottery closed, current waitlist and completed registration timeline in all languages. Old announced times are preserved as history; no current price/stream/demo promise is invented."
+      ],
+      "evidence": [
+        "rockstar-preload-rendered.json",
+        "existing-updates-checks.json"
+      ],
+      "limits": "Sonyblog and current Festival source access is documented by source-agent full-page reading IDs/lines, rather than an additional independent network request."
+    }
+  },
+  "new_articles": [
+    {
+      "id": "gta6-ps5-3d-audio-settings-20261112",
+      "title": [
+        "Audio 3D de GTA 6 en PS5: configurar auriculares y TV",
+        "GTA 6 PS5 3D audio: headphone and TV setup",
+        "Audio 3D de GTA 6 sur PS5 : réglages casque et TV"
+      ],
+      "category": "guides",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+        "https://fansgta.com/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+        "https://fansgta.com/fr/guides/gta-6-audio-3d-ps5-casque-reglages/"
+      ],
+      "sections": 7,
+      "images": 3,
+      "published": "2026-11-12"
+    },
+    {
+      "id": "gta6-dualsense-settings-20261112",
+      "title": [
+        "GTA 6 en PS5: cómo configurar tu mando DualSense",
+        "GTA 6 on PS5: how to set up your DualSense controller",
+        "GTA 6 sur PS5 : comment configurer votre DualSense"
+      ],
+      "category": "guides",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+        "https://fansgta.com/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+        "https://fansgta.com/fr/guides/gta-6-configurer-dualsense-ps5-manette/"
+      ],
+      "sections": 6,
+      "images": 3,
+      "published": "2026-11-12"
+    },
+    {
+      "id": "gta6-xbox-remote-play-20261112",
+      "title": [
+        "GTA 6: cómo configurar Xbox Remote Play para jugar a distancia",
+        "GTA 6: how to set up Xbox Remote Play",
+        "GTA 6 : configurer Xbox Remote Play pour jouer à distance"
+      ],
+      "category": "guides",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+        "https://fansgta.com/en/guides/gta-6-xbox-remote-play-console-setup/",
+        "https://fansgta.com/fr/guides/gta-6-xbox-remote-play-configurer-console/"
+      ],
+      "sections": 6,
+      "images": 3,
+      "published": "2026-11-12"
+    }
+  ],
+  "updated_articles": [
+    {
+      "id": "gta6-ps5-pro-fps-deep-20261029",
+      "title": [
+        "GTA 6 en PS5 Pro: objetivo de FPS y mejoras confirmadas",
+        "GTA 6 on PS5 Pro: frame-rate target and confirmed upgrades",
+        "GTA 6 sur PS5 Pro : objectif de FPS et améliorations confirmées"
+      ],
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+        "https://fansgta.com/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+        "https://fansgta.com/fr/guides/gta-6-ps5-pro-30-ou-60-fps/"
+      ],
+      "published_preserved": "2026-10-29",
+      "updated": "2026-11-12"
+    },
+    {
+      "id": "gta6-series-s-performance-guide-20261106",
+      "title": [
+        "GTA 6 en Xbox Series S: FPS, resolución y cómo prepararla",
+        "GTA 6 on Xbox Series S: FPS, resolution and launch setup",
+        "GTA 6 sur Xbox Series S : FPS, résolution et préparation"
+      ],
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+        "https://fansgta.com/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+        "https://fansgta.com/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/"
+      ],
+      "published_preserved": "2026-11-06",
+      "updated": "2026-11-12"
+    },
+    {
+      "id": "gta6-the-festival-miami-20261109",
+      "title": [
+        "GTA 6: festival en Miami, fecha, artistas y entradas",
+        "GTA 6 Festival: Miami date, lineup and ticket lottery",
+        "GTA 6 Festival à Miami : date, artistes et billets"
+      ],
+      "urls": [
+        "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+        "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+        "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/"
+      ],
+      "published_preserved": "2026-11-09",
+      "updated": "2026-11-12"
+    }
+  ],
+  "source_budget": {
+    "method": "All ES/EN/FR versions counted together per source work; translations of the same support page are one work. Whole source-based paragraphs/routes/diagnostic cells counted. Original explanatory material and existing authorized content transformations distinguished.",
+    "shared_Rockstar_Nov10": {
+      "audio": 31,
+      "dualsense": 26,
+      "xbox_remote": 28,
+      "both_performance_updates": 60,
+      "total": 145,
+      "maximum": 200
+    },
+    "audio": {
+      "rockstar": 31,
+      "output": 182,
+      "headphones": 103,
+      "audio": 166,
+      "profile": 125,
+      "focus": 91,
+      "focusblog": 116,
+      "trouble": 106
+    },
+    "dualsense": [
+      {
+        "family": "Rockstar Newswire 10 November 2026",
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "evidence_file": "/tmp/fansgta-five-quality-20261112/rockstar-preload-rendered.json",
+        "derived_words_all_three_languages": 26,
+        "allocation_limit": 35,
+        "claim": "Adjustable haptic feedback confirmed; no new invented menu or testing claim.",
+        "article_locations": [
+          "sections[0].paragraphs[1]"
+        ]
+      },
+      {
+        "family": "PlayStation Support — DualSense controller support",
+        "urls": [
+          "https://www.playstation.com/es-es/support/hardware/dualsense-controller-support/",
+          "https://www.playstation.com/en-us/support/hardware/dualsense-controller-support/",
+          "https://www.playstation.com/fr-fr/support/hardware/dualsense-controller-support/"
+        ],
+        "access": "All three complete support pages read through web tool on 12 November 2026; no publication date represented as announcement.",
+        "derived_words_all_three_languages": 193,
+        "limit_for_all_translations_combined": 200,
+        "article_locations": [
+          "sections[1].paragraphs[0]",
+          "sections[1].paragraphs[1]",
+          "sections[5].table.rows[0]"
+        ],
+        "notes": "Includes first column symptom and full route/labels in count. Updating system software followed by recheck does not promise a controller update always exists."
+      },
+      {
+        "family": "PlayStation Support — general controller settings",
+        "urls": [
+          "https://www.playstation.com/es-es/support/hardware/adjust-general-controller-settings/",
+          "https://www.playstation.com/en-us/support/hardware/adjust-general-controller-settings/",
+          "https://www.playstation.com/fr-fr/support/hardware/adjust-general-controller-settings/"
+        ],
+        "access": "All three complete localized pages read through web tool on 12 November 2026.",
+        "derived_words_all_three_languages": 183,
+        "limit_for_all_translations_combined": 200,
+        "article_locations": [
+          "sections[2].paragraphs[0]",
+          "sections[3].paragraphs[0]",
+          "sections[5].table.rows[1]",
+          "sections[5].table.rows[3]"
+        ],
+        "notes": "USB cable plugged in does not itself switch communication away from Bluetooth; exact localized setting names verified."
+      },
+      {
+        "family": "PlayStation Support — power saving",
+        "urls": [
+          "https://www.playstation.com/es-es/support/hardware/power-saving/",
+          "https://www.playstation.com/en-us/support/hardware/power-saving/",
+          "https://www.playstation.com/fr-fr/support/hardware/power-saving/"
+        ],
+        "access": "All three complete localized pages read through web tool on 12 November 2026.",
+        "derived_words_all_three_languages": 98,
+        "limit_for_all_translations_combined": 200,
+        "article_locations": [
+          "sections[4].paragraphs[0]",
+          "sections[5].table.rows[2]"
+        ],
+        "notes": "Adaptive charge limited to CFI-2000/7000 model groups; no assumption all PS5 models expose it."
+      }
+    ],
+    "xbox": {
+      "rockstar_anchor": {
+        "texts": [
+          "Rockstar confirmó Remote Play en Xbox el 10 de noviembre.",
+          "Rockstar confirmed Xbox Remote Play on November 10.",
+          "Rockstar a confirmé Remote Play sur Xbox le 10 novembre."
+        ],
+        "words_sum": 28,
+        "maximum": 35
+      },
+      "XboxSetup": {
+        "selected_derived_words_sum": 197,
+        "maximum": 200,
+        "scope": "console menu and Sleep, browser selection, unsupported inputs, Windows app alternative, service network references; account clause independently sourced to Troubleshoot"
+      },
+      "XboxBluetooth": {
+        "selected_derived_words_sum": 182,
+        "maximum": 200,
+        "scope": "pairing, audio accessories over Bluetooth, repeat pairing"
+      },
+      "XboxTroubleshoot": {
+        "selected_derived_words_sum": 154,
+        "maximum": 200,
+        "scope": "same account, connection checks, restarts, network switching and saved progress"
+      },
+      "XboxBrowserRequirements": {
+        "table_cell_words_sum": 111,
+        "maximum": 200,
+        "scope": "OS/browser minima table and brief introduction; below200combined"
+      },
+      "XboxWireApril2025": {
+        "scope": "One short sentence per language about mobile browser migration; no long April article retelling",
+        "maximum": 200
+      }
+    },
+    "updates": {
+      "rockstar_fps_clauses": {
+        "ps5pro": [
+          "Rockstar anunció el 10 de noviembre un objetivo de 30 FPS.",
+          "Rockstar announced a 30 FPS target on November 10.",
+          "Rockstar a annoncé un objectif de 30 FPS le 10 novembre."
+        ],
+        "series_s": [
+          "Rockstar sitúa también Series S en el objetivo de 30 FPS.",
+          "Rockstar’s 30 FPS target also includes Series S.",
+          "L’objectif de 30 FPS de Rockstar inclut aussi Series S."
+        ],
+        "words_aggregate_es_en_fr": 60,
+        "maximum_allocated": 70,
+        "note": "Only the newly stated FPS facts; analytical interpretation and unchanged authorized repository history are distinct. Lead duplicated in body/first section is rendered once."
+      },
+      "sony_pssr_clause": {
+        "text": [
+          "PlayStation.Blog confirma PSSR y sombras con trazado de rayos en Pro.",
+          "PlayStation.Blog confirms PSSR and ray-traced shadows on Pro.",
+          "PlayStation.Blog confirme PSSR et les ombres en ray tracing sur Pro."
+        ],
+        "words_aggregate_es_en_fr": 30,
+        "maximum_allocated": 45,
+        "note": "Keep separate from the remaining shared 200-word Sony source budget used by other new articles."
+      },
+      "new_festival_fact": "Lottery closed; current official waitlist. Other terms/timeline already existed and are retained with past tense.",
+      "quotes": "No new verbatim source quotations added"
+    },
+    "no_long_verbatim_quotations": true
+  },
+  "primary_content_access": {
+    "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+    "status": 200,
+    "checked_at_utc": "2026-11-12T21:35:49.631Z",
+    "rendered_text_sha256": "1a8b41bc443508ef9a8357980e052077ea1b5a295b93f87b84da5d77d20c8696",
+    "complete_body_read": true,
+    "publication_date": "2026-11-10",
+    "source_reading_helper_limit": {
+      "exit_code": 1,
+      "after_saved_source_text": true,
+      "error": "route.fulfill: Route is already handled! during browser cleanup",
+      "scope": "The source HTTP response and rendered body were captured before cleanup failed. This is source evidence, not a passing FansGTA browser test."
+    },
+    "complete_external_source_text_not_republished_in_this_record": true
+  },
+  "media": {
+    "checked_at_utc": "2026-11-12T21:40:18.809917+00:00",
+    "assets": [
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "originalName": "Jason_Duval_05",
+        "width": 1400,
+        "height": 788,
+        "bytes": 67802,
+        "checked": "2026-10-31",
+        "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+        "key": "feature-aiming",
+        "optimized_path": "/media/feature-aiming.webp",
+        "optimized_sha256": "1dbfed56d4aa069a13263263de089100a6a8b3a8c0b5a8e5d85b7c39797e7ae8",
+        "reuse_context": "Official publisher gallery explicitly offers download/share. Attributed editorial commentary with copyright reserved, not an unrestricted licence; unchanged authentic game screenshots, not UI/settings test evidence."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "originalName": "Mount_Kalaga_National_Park_01",
+        "width": 1400,
+        "height": 788,
+        "bytes": 184396,
+        "checked": "2026-10-31",
+        "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+        "key": "feature-bike",
+        "optimized_path": "/media/feature-bike.webp",
+        "optimized_sha256": "21877f3ec04c980ee67bf19e860a0a4c8493e27a86d3c5d6e06b10498e20a827",
+        "reuse_context": "Official publisher gallery explicitly offers download/share. Attributed editorial commentary with copyright reserved, not an unrestricted licence; unchanged authentic game screenshots, not UI/settings test evidence."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "originalName": "Jason_and_Lucia_06",
+        "width": 1400,
+        "height": 788,
+        "bytes": 44940,
+        "checked": "2026-10-31",
+        "useContext": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V.",
+        "key": "feature-driver",
+        "optimized_path": "/media/feature-driver.webp",
+        "optimized_sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "reuse_context": "Official publisher gallery explicitly offers download/share. Attributed editorial commentary with copyright reserved, not an unrestricted licence; unchanged authentic game screenshots, not UI/settings test evidence."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 939665,
+        "key": "jason",
+        "optimized_path": "/media/jason.webp",
+        "optimized_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+        "reuse_context": "Official publisher gallery explicitly offers download/share. Attributed editorial commentary with copyright reserved, not an unrestricted licence; unchanged authentic game screenshots, not UI/settings test evidence."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 898033,
+        "key": "lucia",
+        "optimized_path": "/media/lucia.webp",
+        "optimized_sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+        "reuse_context": "Official publisher gallery explicitly offers download/share. Attributed editorial commentary with copyright reserved, not an unrestricted licence; unchanged authentic game screenshots, not UI/settings test evidence."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 992753,
+        "key": "music",
+        "optimized_path": "/media/music.webp",
+        "optimized_sha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf",
+        "reuse_context": "Official publisher gallery explicitly offers download/share. Attributed editorial commentary with copyright reserved, not an unrestricted licence; unchanged authentic game screenshots, not UI/settings test evidence."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Real_Dimez_01.0djwwboo8-glx.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "key": "real-dimez",
+        "optimized_path": "/media/real-dimez.webp",
+        "optimized_sha256": "e8d5730c8be3699318c5c52a5d8a8ddc68fa1e775cf4b95c7e4e0f26cf841212",
+        "reuse_context": "Official publisher gallery explicitly offers download/share. Attributed editorial commentary with copyright reserved, not an unrestricted licence; unchanged authentic game screenshots, not UI/settings test evidence."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 894386,
+        "key": "vice-city",
+        "optimized_path": "/media/vice-city.webp",
+        "optimized_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "reuse_context": "Official publisher gallery explicitly offers download/share. Attributed editorial commentary with copyright reserved, not an unrestricted licence; unchanged authentic game screenshots, not UI/settings test evidence."
+      }
+    ],
+    "http": [
+      {
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI",
+        "bytes": 1233788,
+        "sha256": "5f8117f24654f3715973fd4feb822996e7c9414a89d3f4cbff89233606dbf0ab"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "bytes": 410561,
+        "sha256": "59b9b8587d8d12ff874ab212c3a1f8a6afb0cc641a122a1c0f61bf7dbcb3ff48"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "bytes": 939665,
+        "sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "bytes": 898215,
+        "sha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "bytes": 898033,
+        "sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg?imwidth=1400",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg?imwidth=1400",
+        "bytes": 961160,
+        "sha256": "6f06847e2173385df416ef162e1dfbb9f6270bfcc7bf0e080f02a4803d7473b3"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Real_Dimez_01.0djwwboo8-glx.jpg?imwidth=1600",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Real_Dimez_01.0djwwboo8-glx.jpg?imwidth=1600",
+        "bytes": 697676,
+        "sha256": "50a13a1a2af35a6ac7e775ce3832d406e2a6c57c0c6119976ce5b61e1aa29418"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "bytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+        "bytes": 992753,
+        "sha256": "2d90d15104f191cde43bc37334c1a7959a7e3c9d5c56cfde44f28b0c80f7af07"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/media",
+        "bytes": 790632,
+        "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/media/screenshots",
+        "bytes": 2607441,
+        "sha256": "5c52ee2aad5e8392cc3e3b30ab52747323d8d1b169b7140cbaa6baaa9bd5f511"
+      }
+    ]
+  },
+  "source_link_availability": {
+    "checked_at_utc": "2026-11-12T21:43:25.120651+00:00",
+    "scope": "HTTP availability check only. Complete reading and factual verification are recorded separately by research sources. A HTTP200 alone is not proof the body is readable.",
+    "links": [
+      {
+        "url": "https://blog.playstation.com/2020/10/06/experience-ps5s-tempest-3d-audiotech-with-compatible-headsets-at-launch-tv-virtual-surround-sound-coming-after-launch/",
+        "status": 200,
+        "final_url": "https://blog.playstation.com/2020/10/06/experience-ps5s-tempest-3d-audiotech-with-compatible-headsets-at-launch-tv-virtual-surround-sound-coming-after-launch/",
+        "bytes": 168442
+      },
+      {
+        "url": "https://blog.playstation.com/2024/09/12/ps5-system-update-adds-welcome-hub-party-share-personalized-3d-audio-profiles-adaptive-controller-charging-and-more/",
+        "status": 200,
+        "final_url": "https://blog.playstation.com/2024/09/12/ps5-system-update-adds-welcome-hub-party-share-personalized-3d-audio-profiles-adaptive-controller-charging-and-more/",
+        "bytes": 199492
+      },
+      {
+        "url": "https://blog.playstation.com/2025/04/23/new-ps5-system-software-update-features-audio-focus-and-the-return-of-the-classic-console-ui-customizations/",
+        "status": 200,
+        "final_url": "https://blog.playstation.com/2025/04/23/new-ps5-system-software-update-features-audio-focus-and-the-return-of-the-classic-console-ui-customizations/",
+        "bytes": 225810
+      },
+      {
+        "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+        "status": 200,
+        "final_url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+        "bytes": 184488
+      },
+      {
+        "url": "https://gtavi-thefestival.miami/",
+        "status": 200,
+        "final_url": "https://dice.fm/event/783n2v-grand-theft-auto-vi-the-festival-21st-nov-mana-wynwood-miami-tickets?lng=en-US",
+        "bytes": 412558
+      },
+      {
+        "url": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/",
+        "status": 200,
+        "final_url": "https://news.xbox.com/en-us/2025/04/16/xbox-april-update-buy-games-xbx-app-stream-your-own-game-console/",
+        "bytes": 100866
+      },
+      {
+        "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+        "status": 200,
+        "final_url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+        "bytes": 197966
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/games-apps/cloud-gaming/supported-browsers",
+        "status": 200,
+        "final_url": "https://support.xbox.com/en-US/help/games-apps/cloud-gaming/supported-browsers",
+        "bytes": 2909
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-set-up-remote-play",
+        "status": 200,
+        "final_url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-set-up-remote-play",
+        "bytes": 2909
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-remote-play-gaming",
+        "status": 200,
+        "final_url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-remote-play-gaming",
+        "bytes": 2909
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/hardware-network/accessories/connect-and-troubleshoot-xbox-one-bluetooth-issues",
+        "status": 200,
+        "final_url": "https://support.xbox.com/en-US/help/hardware-network/accessories/connect-and-troubleshoot-xbox-one-bluetooth-issues",
+        "bytes": 2909
+      },
+      {
+        "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+        "bytes": 398638
+      },
+      {
+        "url": "https://www.playstation.com/en-us/ps5/ps5-pro/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/ps5/ps5-pro/",
+        "bytes": 541314
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/3d-audio-ps5/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/support/hardware/3d-audio-ps5/",
+        "bytes": 146219
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/adjust-general-controller-settings/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/support/hardware/adjust-general-controller-settings/",
+        "bytes": 142103
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/audio-focus-ps5/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/support/hardware/audio-focus-ps5/",
+        "bytes": 150932
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/dualsense-controller-support/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/support/hardware/dualsense-controller-support/",
+        "bytes": 178228
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/power-saving/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/support/hardware/power-saving/",
+        "bytes": 170659
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-change-audio-output/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/support/hardware/ps5-change-audio-output/",
+        "bytes": 173485
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-picture-sound-issues/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/en-us/support/hardware/ps5-picture-sound-issues/",
+        "bytes": 159624
+      },
+      {
+        "url": "https://www.playstation.com/es-es/support/hardware/adjust-general-controller-settings/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/es-es/support/hardware/adjust-general-controller-settings/",
+        "bytes": 140628
+      },
+      {
+        "url": "https://www.playstation.com/es-es/support/hardware/dualsense-controller-support/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/es-es/support/hardware/dualsense-controller-support/",
+        "bytes": 177515
+      },
+      {
+        "url": "https://www.playstation.com/es-es/support/hardware/power-saving/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/es-es/support/hardware/power-saving/",
+        "bytes": 171060
+      },
+      {
+        "url": "https://www.playstation.com/fr-fr/support/hardware/adjust-general-controller-settings/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/fr-fr/support/hardware/adjust-general-controller-settings/",
+        "bytes": 144172
+      },
+      {
+        "url": "https://www.playstation.com/fr-fr/support/hardware/dualsense-controller-support/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/fr-fr/support/hardware/dualsense-controller-support/",
+        "bytes": 181657
+      },
+      {
+        "url": "https://www.playstation.com/fr-fr/support/hardware/power-saving/",
+        "status": 200,
+        "final_url": "https://www.playstation.com/fr-fr/support/hardware/power-saving/",
+        "bytes": 174870
+      },
+      {
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI",
+        "bytes": 1233788
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/gtavi-thefestival",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/gtavi-thefestival",
+        "bytes": 589551
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/launch-gallery",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/launch-gallery",
+        "bytes": 633544
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/VI/media",
+        "bytes": 790632
+      },
+      {
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "bytes": 5367
+      },
+      {
+        "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival",
+        "status": 200,
+        "final_url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival",
+        "bytes": 5537
+      },
+      {
+        "url": "https://www.videogameschronicle.com/news/gta-6-is-confirmed-to-be-30-frames-per-second-at-launch-no-performance-mode-at-launch/",
+        "status": 200,
+        "final_url": "https://www.videogameschronicle.com/news/gta-6-is-confirmed-to-be-30-frames-per-second-at-launch-no-performance-mode-at-launch/",
+        "bytes": 90823
+      },
+      {
+        "url": "https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/",
+        "status": 200,
+        "final_url": "https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/",
+        "bytes": 86506
+      },
+      {
+        "url": "https://www.xbox.com/en-US/consoles/xbox-series-s",
+        "status": 200,
+        "final_url": "https://www.xbox.com/en-US/consoles/xbox-series-s",
+        "bytes": 634682
+      },
+      {
+        "url": "https://www.xbox.com/remoteplay",
+        "error": "HTTP Error 301: Moved Permanently"
+      }
+    ]
+  },
+  "source_link_limit": "Xbox remoteplay returns 307 to /en-US/remoteplay then 301 without Location through urllib in this executor. Search browser tool opened the official localized landing shell; the route is supplied by Xbox Support. No signed-in service session or GTA VI streaming performance was tested.",
+  "initial_static_correction": {
+    "initial_static_result": "3 invalid source URL errors",
+    "cause": "Three new DualSense internal references used root-relative source URLs; the editorial source model requires absolute URLs.",
+    "fix": "Use canonical https://fansgta.com URL so the existing renderer localizes each link. No validation rule or existing article changed.",
+    "references": [
+      {
+        "section": 0,
+        "before": "/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/",
+        "after": "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/"
+      },
+      {
+        "section": 5,
+        "before": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+        "after": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/"
+      },
+      {
+        "section": 5,
+        "before": "/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/",
+        "after": "https://fansgta.com/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/"
+      }
+    ]
+  },
+  "preservation": {
+    "comparison": "JSON-normalized complete Article objects; absent optional undefined properties omitted on both sides",
+    "previous_topics": 200,
+    "previous_versions": 600,
+    "all_previous_urls_and_published_dates_preserved": true,
+    "previous_topics_unchanged": 197,
+    "intentionally_updated_topics": [
+      "gta6-ps5-pro-fps-deep-20261029",
+      "gta6-series-s-performance-guide-20261106",
+      "gta6-the-festival-miami-20261109"
+    ],
+    "new_topics": 3,
+    "new_versions": 9,
+    "total_topics": 203,
+    "total_versions": 609,
+    "protected_files_identical": 18,
+    "own_js_css_identical": 3
+  },
+  "limits": [
+    "Search results show current coverage and questions, not measured Google volumes, ranking or guaranteed virality.",
+    "Console setup instructions are official platform procedures; no prelaunch GTA VI hands-on test, game-menu sensitivity recipe or latency/frame-rate measurement is claimed.",
+    "Public-origin browser checks simulate third-party ad SDKs and cannot establish creative delivery or monetization.",
+    "This cloud run does not guarantee future automation executor or connection availability."
+  ],
+  "queued_followup": "After this publication, perform the separately requested comprehensive technical/editorial and multilingual indexation audit; current GSC counts and per-URL exclusions must not be inferred from publication tests.",
+  "unchanged": "Design, advertising, Analytics consent, security/cache/subscription configuration, other projects and daily publication cadence.",
+  "browser_fixture_correction": {
+    "fixed_at_utc": "2026-11-12T21:47:14.725208+00:00",
+    "initial_result": {
+      "suite_cases": 26,
+      "passed": 20,
+      "failed": 6,
+      "failure": "New quality fixture required an article.imageAlt value on all historical covers; the pre-existing PS5Pro cover correctly uses localized mediaAlt fallback."
+    },
+    "site_behavior": "Interior.tsx already uses imageAlt?.[localeIndex] ?? mediaAlt(article.image,locale); no site change required.",
+    "files_modified": [
+      "tests/editorial-quality-guides-20261112.spec.ts",
+      "/tmp/fansgta-five-quality-20261112/browser-production.mjs"
+    ],
+    "fix": "Expected alt follows existing renderer fallback only for cover index0 of the three updated existing articles. Newly authored three covers and every section image continue to require their authored localized alt. Rendered alt must equal the exact expected text.",
+    "unchanged_assertions": [
+      "nonempty alt",
+      "exact localized caption",
+      "source/credit URL",
+      "real image decode",
+      "selected responsive candidate",
+      "reserved dimensions and one-pixel geometry check",
+      "eager/high-priority cover and lazy section images"
+    ],
+    "test_rerun": "Parent will rerun only the six failed quality cases. No browser/network run by this reviewer.",
+    "additional_spanish_assertion_fix": {
+      "initial_pattern": "/cerrad/i",
+      "actual_valid_sentence": "El sorteo de códigos ya cerró",
+      "fixed_pattern": "/(?:cerrad|cerró)/i",
+      "reason": "Accept both adjective and past-tense forms for the same closed registration state. Negative assertion rejecting currently-open registration and exact article body checks remain.",
+      "site_or_content_change": false
+    }
+  },
+  "test_attempts": {
+    "initial": {
+      "passed": 20,
+      "failed": 6,
+      "cause": "The new test assumed an explicit cover alt on an older article using the existing non-empty mediaAlt fallback."
+    },
+    "after_fallback_fix": {
+      "passed": 4,
+      "failed": 2,
+      "scope": "Only six affected cases repeated. Spanish Festival assertion accepted cerrado but not the valid past-tense cerró."
+    },
+    "final_spanish_repeat": {
+      "passed": 2,
+      "failed": 0,
+      "scope": "Only two Spanish cases repeated after accepting both closed-state forms. No website or article change for either test correction."
+    },
+    "combined_unique_tests_passed": 26,
+    "quality_article_scenarios": 36,
+    "quality_language_switches": 36,
+    "quality_images_decoded": 96,
+    "no_unresolved_failure": true
+  },
+  "documentation_build_check": {
+    "finding": "A word in a new editorial record caused Tailwind to emit an extra unused CSS rule.",
+    "fix": "Rephrased only that research-record sentence; no app source, styling or content was changed.",
+    "goal": "Keep generated CSS identical to the baseline and verify all asset hashes after rebuilding."
+  }
+}

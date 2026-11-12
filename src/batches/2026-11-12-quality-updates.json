@@ -1,0 +1,940 @@
+[
+  {
+    "id": "gta6-ps5-pro-fps-deep-20261029",
+    "category": "guides",
+    "image": "hero",
+    "slug": [
+      "gta-6-ps5-pro-30-o-60-fps",
+      "gta-6-ps5-pro-30-or-60-fps",
+      "gta-6-ps5-pro-30-ou-60-fps"
+    ],
+    "title": [
+      "GTA 6 en PS5 Pro: objetivo de FPS y mejoras confirmadas",
+      "GTA 6 on PS5 Pro: frame-rate target and confirmed upgrades",
+      "GTA 6 sur PS5 Pro : objectif de FPS et améliorations confirmées"
+    ],
+    "excerpt": [
+      "Actualizamos la información técnica de GTA 6 en PS5 Pro y explicamos cómo distinguir funciones anunciadas, expectativas y pruebas de rendimiento.",
+      "Updated GTA 6 technical information for PS5 Pro, separating announced features, expectations and evidence from performance testing.",
+      "Les informations techniques de GTA 6 sur PS5 Pro, en distinguant fonctions annoncées, attentes et tests de performances."
+    ],
+    "tag": [
+      "ANÁLISIS · RENDIMIENTO",
+      "ANALYSIS · PERFORMANCE",
+      "ANALYSE · PERFORMANCES"
+    ],
+    "imageCaption": [
+      "Arte oficial de GTA VI utilizado como portada. No es una captura comparativa de PS5 Pro ni demuestra resolución o tasa de fotogramas.",
+      "Official GTA VI artwork used as the cover. It is not a PS5 Pro comparison capture and does not establish resolution or frame rate.",
+      "Illustration officielle de GTA VI en couverture. Ce n’est pas une capture comparative PS5 Pro et elle ne démontre ni résolution ni fréquence d’images."
+    ],
+    "sources": [
+      {
+        "label": "PlayStation — Grand Theft Auto VI, checked 29 October 2026",
+        "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+      },
+      {
+        "label": "PlayStation — PS5 Pro specifications and per-game limitations",
+        "url": "https://www.playstation.com/en-us/ps5/ps5-pro/"
+      },
+      {
+        "label": "Dave Aubrey / VGC — console performance report, 28 August 2026",
+        "url": "https://www.videogameschronicle.com/news/gta-6-is-confirmed-to-be-30-frames-per-second-at-launch-no-performance-mode-at-launch/"
+      },
+      {
+        "label": "Rockstar Games — GTA VI",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "Rockstar Games — official media, download/share context",
+        "url": "https://www.rockstargames.com/VI/media"
+      },
+      {
+        "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+      },
+      {
+        "label": "PlayStation.Blog — Tim Turi, PS5 and PS5 Pro features, November 10, 2026",
+        "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/"
+      },
+      {
+        "label": "Rhiannon Bevan / VGC — Rockstar performance announcement, November 10, 2026",
+        "url": "https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": [
+          "Respuesta técnica: objetivo y prueba no son lo mismo",
+          "Technical answer: a target is not a test",
+          "Réponse technique : un objectif ne remplace pas un test"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar anunció el 10 de noviembre un objetivo de 30 FPS. La meta de diseño no es una medición de la versión final. Esta guía distingue el anuncio actual del reporte de agosto, explica cómo leer las mejoras de imagen y qué evidencia haría falta para comparar consolas. No hemos probado una copia final ni verificamos aquí modos de mayor fluidez.",
+            "Rockstar announced a 30 FPS target on November 10. A design target is not a measurement of the final release. This guide distinguishes the current announcement from August reporting, explains how to interpret image-quality improvements and what evidence a console comparison needs. We have not tested a final copy or verified higher-frame-rate modes here.",
+            "Rockstar a annoncé un objectif de 30 FPS le 10 novembre. Un objectif de conception ne constitue pas une mesure de la version finale. Ce guide distingue l’annonce actuelle des informations d’août, explique comment interpréter les améliorations d’image et les preuves nécessaires pour comparer les consoles. Nous n’avons ni testé de version finale ni vérifié ici de modes plus fluides."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+            "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "El reporte de agosto, antes del anuncio actual",
+          "The August report, before the current announcement",
+          "Les informations d’août, avant l’annonce actuelle"
+        ],
+        "paragraphs": [
+          [
+            "Como antecedente histórico, el 28 de agosto VGC publicó una información de Dave Aubrey basada en el relato del creador Davy Jones sobre una visita a Rockstar North. La explicación atribuida a Rob Nelson situaba las consolas a 30 FPS durante el desarrollo, con la posibilidad de 60 pendiente de consulta al equipo técnico. Esa cadena de atribución sigue siendo importante para entender lo que se sabía entonces; ya no es la única referencia disponible sobre el objetivo técnico.",
+            "As historical background, on August 28 VGC published Dave Aubrey’s report based on creator Davy Jones’s account of a Rockstar North visit. The explanation attributed to Rob Nelson placed console development builds at 30 FPS, with a possible 60 FPS option requiring consultation with the technical team. That attribution chain still matters when describing what was known then; it is no longer the only available reference for the technical target.",
+            "Pour le contexte historique, VGC publiait le 28 août un article de Dave Aubrey fondé sur le récit de Davy Jones après une visite chez Rockstar North. L’explication attribuée à Rob Nelson situait les versions console en développement à 30 FPS ; une éventuelle option 60 FPS nécessitait de consulter l’équipe technique. Cette attribution reste importante pour décrire les informations disponibles à l’époque ; elle n’est plus la seule référence concernant l’objectif technique."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Dave Aubrey / VGC — console performance report, 28 August 2026",
+            "url": "https://www.videogameschronicle.com/news/gta-6-is-confirmed-to-be-30-frames-per-second-at-launch-no-performance-mode-at-launch/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Qué confirma realmente PS5 Pro Enhanced",
+          "What PS5 Pro Enhanced actually confirms",
+          "Ce que confirme réellement PS5 Pro Enhanced"
+        ],
+        "paragraphs": [
+          [
+            "La etiqueta identifica soporte para mejoras de PS5 Pro en la ficha del juego. Por sí sola no permite rellenar una tabla con resolución nativa, calidad de sombras o rendimiento. Las funciones concretas deben contrastarse con la información específica del título, recogida más abajo. Compatibilidad tampoco significa que la PS5 original deje de servir. Nuestra noticia sobre funciones de PS5 trata DualSense y audio; esta guía responde otra consulta: qué evidencia necesitamos para comparar la fluidez de los modelos.",
+            "The badge identifies enhancement support on the game’s listing. On its own, it cannot populate a table of native resolution, shadow quality or performance. Specific features need game-specific information, discussed below. Compatibility also does not make the original PS5 obsolete. Our PS5-features report covers DualSense and audio; this guide addresses a different question: what evidence is needed to compare smoothness between models.",
+            "Le badge identifie la prise en charge d’améliorations sur la fiche du jeu. À lui seul, il ne permet pas de remplir un tableau de résolution native, qualité des ombres ou performances. Les fonctions précises doivent être confrontées aux informations propres au titre, présentées plus bas. La compatibilité ne rend pas la PS5 d’origine obsolète. Notre article PS5 couvre DualSense et audio ; ici, la question est la preuve nécessaire pour comparer la fluidité."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation — Grand Theft Auto VI, checked 29 October 2026",
+            "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+          },
+          {
+            "label": "PlayStation — PS5 Pro specifications and per-game limitations",
+            "url": "https://www.playstation.com/en-us/ps5/ps5-pro/"
+          },
+          {
+            "label": "FansGTA — Funciones de GTA VI en PS5",
+            "url": "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "30, 40 y 60 FPS: qué cambia en el tiempo por imagen",
+          "30, 40 and 60 FPS: understanding time per frame",
+          "30, 40 et 60 FPS : comprendre le temps par image"
+        ],
+        "paragraphs": [
+          [
+            "El cálculo orientativo es sencillo: divide 1.000 milisegundos entre los fotogramas por segundo. A 30 FPS corresponden unos 33,3 ms por imagen; a 40, 25 ms; a 60, unos 16,7 ms. Son relaciones matemáticas, no mediciones de GTA 6. Ayudan a entender por qué 40 FPS no es simplemente una etiqueta intermedia sin efecto. Sin embargo, una media no explica la regularidad con que llegan las imágenes. Un promedio atractivo puede convivir con pausas perceptibles si los tiempos varían mucho.",
+            "The basic calculation divides 1,000 milliseconds by frames per second. At 30 FPS, each frame represents about 33.3 ms; at 40, 25 ms; at 60, about 16.7 ms. These are mathematical relationships, not GTA 6 measurements. They explain why 40 FPS is not merely a meaningless middle label. However, an average does not show how regularly frames arrive. An attractive average can coexist with noticeable interruptions when frame times vary substantially.",
+            "Le calcul consiste à diviser 1 000 millisecondes par le nombre d’images par seconde. À 30 FPS, cela représente environ 33,3 ms par image ; à 40, 25 ms ; à 60, environ 16,7 ms. Ce sont des relations mathématiques, pas des mesures de GTA 6. Elles expliquent pourquoi 40 FPS n’est pas une simple étiquette intermédiaire. Une moyenne ne révèle cependant pas la régularité d’affichage : une valeur séduisante peut masquer des interruptions si les temps varient beaucoup."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation — PS5 Pro specifications and per-game limitations",
+            "url": "https://www.playstation.com/en-us/ps5/ps5-pro/"
+          }
+        ],
+        "image": {
+          "key": "vice-city",
+          "alt": [
+            "Vice City en una captura oficial de GTA VI",
+            "Vice City in an official GTA VI screenshot",
+            "Vice City sur une capture officielle de GTA VI"
+          ],
+          "caption": [
+            "Una escena urbana puede ilustrar la complejidad visual. Una imagen fija no mide FPS ni estabilidad.",
+            "An urban scene can illustrate visual complexity. A still cannot measure FPS or stability.",
+            "Une scène urbaine illustre la complexité visuelle. Une image fixe ne mesure ni FPS ni stabilité."
+          ]
+        }
+      },
+      {
+        "heading": [
+          "FPS no es lo mismo que Hz, resolución o respuesta del mando",
+          "FPS is not the same as Hz, resolution or controller response",
+          "FPS ne signifie pas Hz, résolution ou réactivité de la manette"
+        ],
+        "paragraphs": [
+          [
+            "Los FPS describen imágenes producidas por el juego; los Hz, actualizaciones de la pantalla. Una pantalla de 120 Hz no obliga al software a generar 120 imágenes distintas cada segundo. La resolución describe otro aspecto: el detalle espacial, no la continuidad temporal. La sensación al mando también depende de procesamiento y visualización. Por eso no recomendamos comprar un televisor o activar un ajuste esperando desbloquear un modo que el juego no ofrezca. Primero debe existir una opción documentada; después se revisan sus requisitos.",
+            "FPS describes images produced by the game; Hz describes screen refreshes. A 120 Hz screen does not force software to generate 120 different images each second. Resolution concerns spatial detail, rather than temporal continuity. Controller feel also depends on processing and display behaviour. We therefore do not recommend buying a television or enabling a setting in expectation of unlocking an unsupported mode. A documented option must exist first; its requirements can then be checked.",
+            "Les FPS décrivent les images produites par le jeu ; les Hz, les rafraîchissements de l’écran. Un écran 120 Hz ne force pas le logiciel à générer 120 images différentes par seconde. La résolution concerne le détail spatial, pas la continuité temporelle. La sensation à la manette dépend aussi du traitement et de l’affichage. N’achetez donc pas un téléviseur en espérant débloquer un mode inexistant : l’option doit d’abord être documentée, puis ses conditions vérifiées."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation — PS5 Pro specifications and per-game limitations",
+            "url": "https://www.playstation.com/en-us/ps5/ps5-pro/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Por qué un vídeo promocional no sustituye un benchmark",
+          "Why promotional video does not replace a benchmark",
+          "Pourquoi une vidéo promotionnelle ne remplace pas un benchmark"
+        ],
+        "paragraphs": [
+          [
+            "La ficha de Sony identifica An Extended Look como material capturado dentro del juego en PS5. Eso aporta procedencia, pero no convierte cada clip en una prueba completa de rendimiento. La edición elige escenas y puede omitir transiciones. La compresión afecta al detalle fino. Un archivo distribuido a una frecuencia concreta tampoco revela por sí solo todos los modos disponibles en la versión que llegará al público. Para comparar consolas necesitamos secuencias equivalentes y una metodología que explique sus límites.",
+            "Sony identifies An Extended Look as in-game footage captured on PS5. That establishes provenance, but does not turn every clip into a complete performance test. Editing selects scenes and can omit transitions. Compression affects fine detail. A file distributed at one frame rate does not by itself reveal every mode in the public release. Comparing consoles requires equivalent sequences and a methodology explaining its limitations.",
+            "Sony identifie An Extended Look comme des images capturées dans le jeu sur PS5. Cela établit leur provenance, sans faire de chaque extrait un test complet. Le montage sélectionne les scènes et peut omettre des transitions. La compression affecte les détails fins. La fréquence d’un fichier ne révèle pas tous les modes de la version commerciale. Comparer les consoles exige des séquences équivalentes et une méthode dont les limites sont expliquées."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation — Grand Theft Auto VI, checked 29 October 2026",
+            "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "PSSR y sombras: interpretar las mejoras de imagen",
+          "PSSR and shadows: interpreting image improvements",
+          "PSSR et ombres : interpréter les améliorations d’image"
+        ],
+        "paragraphs": [
+          [
+            "PlayStation.Blog confirma PSSR y sombras con trazado de rayos en Pro.",
+            "PlayStation.Blog confirms PSSR and ray-traced shadows on Pro.",
+            "PlayStation.Blog confirme PSSR et les ombres en ray tracing sur Pro."
+          ],
+          [
+            "La fuente específica sustituye ahora a una simple deducción desde las capacidades generales de la consola. Aun así, una comparación debería separar detalle reconstruido, estabilidad de bordes, reflejos y movimiento, y mostrar qué ajustes utiliza cada consola. Una imagen más nítida no demuestra una frecuencia mayor, del mismo modo que una tasa más alta no explica por sí sola toda la calidad visual. No añadimos una resolución nativa ni una ventaja medida que esa descripción no cuantifica.",
+            "The game-specific source now replaces an inference from the console’s general capabilities. Even so, a comparison should distinguish reconstructed detail, edge stability, reflections and motion, while disclosing each console’s settings. A sharper image does not establish a higher frame rate, just as a higher rate does not explain every aspect of visual quality. We add no native resolution or measured advantage absent from that description.",
+            "La source propre au jeu remplace désormais une simple déduction à partir des capacités générales de la console. Une comparaison devrait néanmoins distinguer détail reconstruit, stabilité des contours, reflets et mouvement, en précisant les réglages de chaque console. Une image plus nette ne démontre pas une fréquence supérieure, pas plus qu’une fréquence élevée ne résume toute la qualité visuelle. Nous n’ajoutons ni résolution native ni avantage mesuré absents de cette description."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation.Blog — Tim Turi, PS5 and PS5 Pro features, November 10, 2026",
+            "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/"
+          }
+        ],
+        "image": {
+          "key": "grassrivers",
+          "alt": [
+            "Grassrivers en una captura oficial de GTA VI",
+            "Grassrivers in an official GTA VI screenshot",
+            "Grassrivers sur une capture officielle de GTA VI"
+          ],
+          "caption": [
+            "Agua y vegetación sirven para explicar qué observar en una comparación visual; esta captura no indica un modo gráfico.",
+            "Water and vegetation illustrate what to examine in a visual comparison; this capture identifies no graphics mode.",
+            "Eau et végétation illustrent les éléments à examiner ; cette capture ne désigne aucun mode graphique."
+          ]
+        }
+      },
+      {
+        "heading": [
+          "Si ya tienes PS5 o estás pensando en Pro",
+          "If you own a PS5 or are considering Pro",
+          "Si vous avez une PS5 ou envisagez une Pro"
+        ],
+        "paragraphs": [
+          [
+            "Si ya tienes una PS5 compatible, separa el deseo de mejorar de la necesidad de hacerlo. Si tu única condición es jugar a 60 FPS, la etiqueta Pro no resuelve la compra: espera datos específicos. Si buscas calidad de imagen, identifica primero qué diferencia se demuestra y en qué pantalla se observa. Si aún no tienes consola, compara biblioteca, accesorios y presupuesto sin atribuir una ventaja cuantificada a GTA 6. Son criterios para decidir con información, no una recomendación de gasto ni una garantía de rendimiento.",
+            "If you already own a compatible PS5, separate wanting an upgrade from needing one. If 60 FPS is your sole requirement, the Pro badge does not settle the purchase: wait for specific evidence. If image quality matters most, establish which difference is demonstrated and on what display. If buying your first console, consider library, accessories and budget without assigning GTA 6 a quantified advantage. These are decision criteria, not spending advice or a performance guarantee.",
+            "Si vous possédez une PS5 compatible, distinguez envie d’amélioration et nécessité. Si votre seule condition est 60 FPS, le badge Pro ne tranche pas l’achat : attendez des preuves spécifiques. Si vous privilégiez l’image, identifiez la différence démontrée et l’écran utilisé. Pour une première console, considérez bibliothèque, accessoires et budget sans attribuer à GTA 6 un gain chiffré. Ce sont des critères de décision, pas une incitation à dépenser ni une garantie de performances."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation — Grand Theft Auto VI, checked 29 October 2026",
+            "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+          },
+          {
+            "label": "PlayStation — PS5 Pro specifications and per-game limitations",
+            "url": "https://www.playstation.com/en-us/ps5/ps5-pro/"
+          },
+          {
+            "label": "FansGTA — Plataformas de GTA VI",
+            "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "La ficha que debería acompañar a una prueba técnica",
+          "What a useful technical test should disclose",
+          "Ce qu’un test technique utile devrait préciser"
+        ],
+        "paragraphs": [
+          [
+            "Una comparación reproducible indicará modelo de consola, versión del juego, parche, modo gráfico, pantalla y secuencia utilizada. Después separará promedio, caídas y regularidad de entrega, en lugar de publicar un único número. Conviene observar ciudad densa, desplazamiento y cambios de escena sin asumir que cualquiera de ellos es automáticamente el peor caso. Si un análisis solo usa el tráiler, debe decirlo. Una medición limitada puede ser útil; el problema aparece cuando se vende como comportamiento universal.",
+            "A reproducible comparison should disclose console model, game version, patch, graphics mode, display and test sequence. It should then separate average rate, drops and delivery consistency rather than publishing one number. Dense streets, travel and scene changes deserve examination without assuming any is automatically the worst case. An analysis using only a trailer must say so. Limited measurement can be useful; the problem arises when it is presented as universal behaviour.",
+            "Une comparaison reproductible précisera console, version, correctif, mode graphique, écran et séquence. Elle distinguera moyenne, baisses et régularité plutôt que d’afficher un seul nombre. Rues denses, déplacements et transitions méritent observation, sans supposer qu’un cas est forcément le plus difficile. Une analyse fondée uniquement sur une bande-annonce doit le dire. Une mesure limitée peut être utile ; le problème commence lorsqu’elle est présentée comme universelle."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation — Grand Theft Auto VI, checked 29 October 2026",
+            "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+          },
+          {
+            "label": "PlayStation — PS5 Pro specifications and per-game limitations",
+            "url": "https://www.playstation.com/en-us/ps5/ps5-pro/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Preguntas frecuentes: 40 FPS, 120 Hz y futuras actualizaciones",
+          "FAQ: 40 FPS, 120 Hz and future updates",
+          "Questions fréquentes : 40 FPS, 120 Hz et mises à jour"
+        ],
+        "paragraphs": [
+          [
+            "¿Está confirmado un modo de 40 FPS? No en las fuentes específicas revisadas. ¿120 Hz significa 120 FPS en GTA 6? No; pantalla y producción de imágenes son cosas distintas. ¿Un parche añadirá 60 FPS? No lo damos por hecho sin anuncio. ¿La PS5 original pierde compatibilidad? La ficha sigue identificando PS5. ¿Las capturas comparan PS5 y Pro? No: son imágenes oficiales ilustrativas. ¿Este artículo tiene mediciones propias? No. Distinguir estas respuestas evita convertir una posibilidad técnica en una función comprada de antemano.",
+            "Is a 40 FPS mode confirmed? Not in the game-specific sources reviewed. Does 120 Hz mean 120 FPS in GTA 6? No; refresh and image production differ. Will a patch add 60 FPS? We do not assume an unannounced update. Does the original PS5 lose compatibility? The listing still identifies PS5. Do our screenshots compare PS5 and Pro? No: they are illustrative official images. Does this article contain our own measurements? No. These distinctions keep technical possibilities from becoming assumed purchased features.",
+            "Un mode 40 FPS est-il confirmé ? Pas dans les sources spécifiques examinées. 120 Hz signifie-t-il 120 FPS dans GTA 6 ? Non, rafraîchissement et production d’images diffèrent. Un correctif ajoutera-t-il 60 FPS ? Nous ne supposons aucune mise à jour non annoncée. La PS5 d’origine perd-elle la compatibilité ? La fiche mentionne toujours PS5. Nos captures comparent-elles les consoles ? Non, elles sont illustratives. Avons-nous effectué des mesures ? Non. Ces distinctions évitent de transformer des possibilités en fonctions supposées acquises."
+          ]
+        ],
+        "references": [
+          {
+            "label": "PlayStation — Grand Theft Auto VI, checked 29 October 2026",
+            "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+          },
+          {
+            "label": "PlayStation — PS5 Pro specifications and per-game limitations",
+            "url": "https://www.playstation.com/en-us/ps5/ps5-pro/"
+          },
+          {
+            "label": "Dave Aubrey / VGC — console performance report, 28 August 2026",
+            "url": "https://www.videogameschronicle.com/news/gta-6-is-confirmed-to-be-30-frames-per-second-at-launch-no-performance-mode-at-launch/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Fuentes y estado de la información",
+          "Sources and information status",
+          "Sources et état des informations"
+        ],
+        "paragraphs": [
+          [
+            "Revisado el 12 de noviembre de 2026. La fuente primaria actual figura en la respuesta técnica y el contexto histórico de agosto conserva su atribución a VGC. No hemos medido una copia final ni verificado el vídeo original de Jones, cuyo acceso falló en la investigación inicial. Los posibles modos de mayor fluidez no se presentan como funciones adquiridas ni como promesas de una actualización. Las fórmulas y criterios de comparación son explicación propia, no resultados de un benchmark de GTA 6.",
+            "Reviewed November 12, 2026. The current primary source accompanies the technical answer, while the August historical context retains its VGC attribution. We have not measured a final copy or verified Jones’s original video, which was inaccessible during the initial research. Possible higher-frame-rate modes are not presented as purchased features or promises of a future update. The calculations and comparison criteria are our explanation, not GTA 6 benchmark results.",
+            "Vérifié le 12 novembre 2026. La source primaire actuelle accompagne la réponse technique et le contexte historique d’août conserve son attribution à VGC. Nous n’avons ni mesuré de version finale ni vérifié la vidéo originale de Jones, inaccessible lors de la recherche initiale. Les éventuels modes plus fluides ne sont présentés ni comme acquis ni comme promis par une future mise à jour. Calculs et critères relèvent de notre explication, pas d’un benchmark de GTA 6."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+            "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+          },
+          {
+            "label": "PlayStation.Blog — Tim Turi, PS5 and PS5 Pro features, November 10, 2026",
+            "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/"
+          }
+        ]
+      }
+    ],
+    "published": "2026-10-29",
+    "updated": "2026-11-12",
+    "body": [
+      "Rockstar anunció el 10 de noviembre un objetivo de 30 FPS. La meta de diseño no es una medición de la versión final. Esta guía distingue el anuncio actual del reporte de agosto, explica cómo leer las mejoras de imagen y qué evidencia haría falta para comparar consolas. No hemos probado una copia final ni verificamos aquí modos de mayor fluidez.",
+      "Rockstar announced a 30 FPS target on November 10. A design target is not a measurement of the final release. This guide distinguishes the current announcement from August reporting, explains how to interpret image-quality improvements and what evidence a console comparison needs. We have not tested a final copy or verified higher-frame-rate modes here.",
+      "Rockstar a annoncé un objectif de 30 FPS le 10 novembre. Un objectif de conception ne constitue pas une mesure de la version finale. Ce guide distingue l’annonce actuelle des informations d’août, explique comment interpréter les améliorations d’image et les preuves nécessaires pour comparer les consoles. Nous n’avons ni testé de version finale ni vérifié ici de modes plus fluides."
+    ]
+  },
+  {
+    "id": "gta6-series-s-performance-guide-20261106",
+    "category": "guides",
+    "slug": [
+      "gta-6-xbox-series-s-fps-resolucion-preparacion",
+      "gta-6-xbox-series-s-fps-resolution-setup",
+      "gta-6-xbox-series-s-fps-resolution-preparation"
+    ],
+    "title": [
+      "GTA 6 en Xbox Series S: FPS, resolución y cómo prepararla",
+      "GTA 6 on Xbox Series S: FPS, resolution and launch setup",
+      "GTA 6 sur Xbox Series S : FPS, résolution et préparation"
+    ],
+    "excerpt": [
+      "Qué significa el objetivo técnico de GTA 6 para Series S y cómo preparar cuenta, almacenamiento y descarga sin confundir especificaciones y pruebas.",
+      "What GTA 6’s technical target means for Series S, with account, storage and download preparation separated from performance testing.",
+      "Comprendre l’objectif technique de GTA 6 sur Series S et préparer compte, stockage et téléchargement sans confondre caractéristiques et tests."
+    ],
+    "tag": [
+      "XBOX SERIES S · GUÍA",
+      "XBOX SERIES S · GUIDE",
+      "XBOX SERIES S · GUIDE"
+    ],
+    "image": "feature-launch-gallery-bridge",
+    "imageAlt": [
+      "Puente levadizo y edificios iluminados de Vice City al anochecer en GTA VI",
+      "A drawbridge and illuminated Vice City buildings at dusk in GTA VI",
+      "Pont levant et immeubles éclairés de Vice City au crépuscule dans GTA VI"
+    ],
+    "imageCaption": [
+      "Captura oficial de Vice City. No está identificada como una prueba de Xbox Series S y no permite medir sus FPS o resolución.",
+      "Official Vice City screenshot. It is not identified as an Xbox Series S test and cannot establish that console’s FPS or resolution.",
+      "Capture officielle de Vice City. Elle n’est pas présentée comme un test Series S et ne permet pas d’en mesurer les FPS ou la résolution."
+    ],
+    "imageCredit": {
+      "label": "Rockstar Games — GTA VI Launch Gallery",
+      "url": "https://www.rockstargames.com/VI/launch-gallery"
+    },
+    "body": [
+      "Rockstar sitúa también Series S en el objetivo de 30 FPS. Es una meta, no una medición propia de la versión final. La resolución y las condiciones de una prueba siguen siendo preguntas distintas. Esta guía explica cómo preparar Series S sin convertir las especificaciones del hardware en resultados del juego. GTA 6 está anunciado para Xbox Series S: Rockstar incluye la familia Xbox Series X|S en el lanzamiento del 19 de noviembre de 2026.",
+      "Rockstar’s 30 FPS target also includes Series S. This is a target, not our own measurement of the final release. Resolution and test conditions remain separate questions. This guide explains how to prepare Series S without turning hardware specifications into game results. GTA 6 is announced for Xbox Series S: Rockstar includes the Xbox Series X|S family in the November 19, 2026 launch.",
+      "L’objectif de 30 FPS de Rockstar inclut aussi Series S. Il s’agit d’un objectif, pas de nos mesures de la version finale. Résolution et conditions d’essai restent des questions distinctes. Ce guide explique comment préparer la Series S sans transformer les caractéristiques du matériel en résultats du jeu. GTA 6 est annoncé sur Xbox Series S : Rockstar inclut la famille Xbox Series X|S dans la sortie du 19 novembre 2026."
+    ],
+    "published": "2026-11-06",
+    "updated": "2026-11-12",
+    "sections": [
+      {
+        "heading": [
+          "¿GTA 6 sale en Series S o solo en Series X?",
+          "Is GTA 6 coming to Series S or only Series X?",
+          "GTA 6 sort-il sur Series S ou seulement sur Series X ?"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar sitúa también Series S en el objetivo de 30 FPS. Es una meta, no una medición propia de la versión final. La resolución y las condiciones de una prueba siguen siendo preguntas distintas. Esta guía explica cómo preparar Series S sin convertir las especificaciones del hardware en resultados del juego. GTA 6 está anunciado para Xbox Series S: Rockstar incluye la familia Xbox Series X|S en el lanzamiento del 19 de noviembre de 2026.",
+            "Rockstar’s 30 FPS target also includes Series S. This is a target, not our own measurement of the final release. Resolution and test conditions remain separate questions. This guide explains how to prepare Series S without turning hardware specifications into game results. GTA 6 is announced for Xbox Series S: Rockstar includes the Xbox Series X|S family in the November 19, 2026 launch.",
+            "L’objectif de 30 FPS de Rockstar inclut aussi Series S. Il s’agit d’un objectif, pas de nos mesures de la version finale. Résolution et conditions d’essai restent des questions distinctes. Ce guide explique comment préparer la Series S sans transformer les caractéristiques du matériel en résultats du jeu. GTA 6 est annoncé sur Xbox Series S : Rockstar inclut la famille Xbox Series X|S dans la sortie du 19 novembre 2026."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+            "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+          },
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          },
+          {
+            "label": "Rockstar Support — GTA VI platforms, editions and versions",
+            "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "FPS y resolución: qué cifras no debes confundir",
+          "FPS and resolution: which numbers mean different things",
+          "FPS et résolution : les chiffres à ne pas confondre"
+        ],
+        "paragraphs": [
+          [
+            "Microsoft describe Series S como una consola diseñada para jugar a 1440p con reescalado a 4K. Es una característica general del hardware, no una promesa de resolución nativa para GTA VI. Tampoco que una televisión acepte 120 Hz significa que el juego produzca 120 imágenes por segundo.",
+            "Microsoft describes Series S as designed for 1440p gaming with 4K upscaling. That is a general hardware specification, not a promise of native GTA VI resolution. A television accepting a 120 Hz signal also does not mean the game produces 120 frames per second.",
+            "Microsoft présente la Series S comme une console conçue pour jouer en 1440p avec mise à l’échelle 4K. Il s’agit du matériel, pas d’une promesse de résolution native pour GTA VI. De même, un téléviseur acceptant un signal 120 Hz ne prouve pas que le jeu produise 120 images par seconde."
+          ],
+          [
+            "Para evaluar el rendimiento hará falta una prueba que identifique Series S, versión del juego, parche y modo seleccionado. Una captura de PS5, un vídeo comprimido o la comparación con GTA V no sustituyen esos datos. No ofrecemos aquí mediciones propias ni un ajuste oculto que desbloquee 60 FPS.",
+            "A meaningful performance test must identify Series S, the game version, patch and selected mode. A PS5 screenshot, compressed video or comparison with GTA V cannot replace those details. We are not presenting our own benchmarks or a hidden setting that unlocks 60 FPS.",
+            "Une évaluation utile devra préciser Series S, version du jeu, mise à jour et mode choisi. Une capture PS5, une vidéo compressée ou une comparaison avec GTA V ne remplacent pas ces informations. Nous ne publions ni mesures personnelles ni réglage caché débloquant 60 FPS."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox — Xbox Series S specifications",
+            "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+          },
+          {
+            "label": "FansGTA — GTA 6 on PS5 Pro: 30 or 60 FPS and what remains unconfirmed",
+            "url": "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Edición digital y cajas con código en Series S",
+          "Digital editions and code-in-box copies on Series S",
+          "Éditions numériques et boîtes avec code sur Series S"
+        ],
+        "paragraphs": [
+          [
+            "Series S es una consola sin lector de discos. La FAQ de Rockstar indica además que la versión física de GTA VI contiene un código de descarga. Comprueba que el producto corresponda a Xbox, la edición correcta y la región de tu cuenta: una caja de PlayStation no concede una licencia para Series S.",
+            "Series S has no disc drive. Rockstar’s FAQ also states that GTA VI’s physical version contains a download code. Check the Xbox platform, correct edition and your account region: a PlayStation box does not grant a Series S licence.",
+            "La Series S ne possède pas de lecteur de disques. La FAQ Rockstar précise aussi que la version physique de GTA VI contient un code de téléchargement. Vérifiez la plateforme Xbox, l’édition et la région du compte : une boîte PlayStation ne donne pas de licence Series S."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Xbox — Xbox Series S specifications",
+            "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+          },
+          {
+            "label": "Rockstar Support — GTA VI platforms, editions and versions",
+            "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Preparación en tres comprobaciones",
+          "Three checks before launch",
+          "Trois vérifications avant la sortie"
+        ],
+        "paragraphs": [
+          [
+            "1. Revisa tu pedido o biblioteca con el perfil que compró el juego. Tener el título instalado y disponer de su licencia son condiciones diferentes; conserva el recibo si necesitas aclarar la edición con la tienda.",
+            "1. Check your order or library using the purchasing profile. Having the title installed and holding its licence are separate requirements; keep the receipt if you need the retailer to clarify your edition.",
+            "1. Vérifiez la commande ou la bibliothèque avec le profil acheteur. Installer le titre et posséder sa licence sont deux conditions distinctes ; conservez le reçu pour toute vérification auprès du vendeur."
+          ],
+          [
+            "2. Consulta el espacio libre real, no solo la capacidad anunciada de 512 GB o 1 TB. Rockstar pide hasta 212 GB disponibles según el dispositivo. Nuestra guía de almacenamiento de Xbox explica dónde puede ejecutarse un juego Series X|S y qué sirve solo para guardar sus archivos.",
+            "2. Check actual free space rather than the advertised 512 GB or 1 TB capacity. Rockstar requires up to 212 GB available depending on the device. Our Xbox storage guide explains which storage can run a Series X|S game and which is suitable only for holding its files.",
+            "2. Regardez l’espace réellement libre, pas seulement les 512 Go ou 1 To annoncés. Rockstar demande jusqu’à 212 Go disponibles selon l’appareil. Notre guide du stockage Xbox distingue le support permettant d’exécuter un jeu Series X|S de celui servant uniquement à conserver ses fichiers."
+          ],
+          [
+            "3. Comprueba el calendario de precarga y el contador de tu compra. Descargar antes del estreno no adelanta la hora autorizada para jugar. Si buscas el horario de tu zona, usa la guía enlazada en lugar de cambiar de región por una promesa de acceso anticipado.",
+            "3. Check the preload schedule and your purchase countdown. Downloading before release does not advance the authorised playable time. For your local schedule, use the linked guide rather than changing regions because of an early-access promise.",
+            "3. Vérifiez le calendrier de préchargement et le compteur de votre achat. Télécharger avant la sortie n’avance pas l’heure autorisée pour jouer. Consultez le guide lié pour votre fuseau, plutôt que de changer de région sur une promesse d’accès anticipé."
+          ]
+        ],
+        "image": {
+          "key": "jason",
+          "alt": [
+            "Jason sostiene una pistola detrás de una valla con luces policiales al fondo en GTA VI",
+            "Jason holds a pistol behind a fence with police lights behind him in GTA VI",
+            "Jason tient un pistolet derrière un grillage, devant des gyrophares, dans GTA VI"
+          ],
+          "caption": [
+            "Imagen promocional oficial de Jason, incluida como contexto del juego. No es una captura de ajustes ni una comparación técnica entre consolas.",
+            "Official promotional image of Jason, providing game context. It is neither a settings screenshot nor a console benchmark.",
+            "Image promotionnelle officielle de Jason, pour le contexte du jeu. Ce n’est ni un écran de réglages ni un comparatif technique entre consoles."
+          ],
+          "credit": {
+            "label": "Rockstar Games — GTA VI Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "Rockstar Support — GTA VI platforms, editions and versions",
+            "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+          },
+          {
+            "label": "FansGTA — GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+            "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/"
+          },
+          {
+            "label": "FansGTA — GTA 6 preload: start date, global times and up to 212 GB",
+            "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "¿Necesitas cambiar de consola para GTA 6?",
+          "Do you need a different console for GTA 6?",
+          "Faut-il changer de console pour GTA 6 ?"
+        ],
+        "paragraphs": [
+          [
+            "Si ya tienes Series S, su compatibilidad anunciada no exige comprar Series X. La decisión de cambiar por calidad de imagen o fluidez necesita comparativas específicas que respondan a tus prioridades. Mientras tanto, preparar cuenta, licencia y espacio aporta más que tratar una predicción de FPS como una obligación de compra.",
+            "If you already own Series S, its announced compatibility does not require buying Series X. Upgrading for image quality or smoothness calls for specific comparisons that address your priorities. Until then, preparing your account, licence and storage is more useful than treating a predicted FPS figure as a buying requirement.",
+            "Si vous possédez une Series S, la compatibilité annoncée n’impose pas d’acheter une Series X. Changer pour l’image ou la fluidité exige des comparatifs correspondant à vos priorités. En attendant, préparer compte, licence et stockage est plus utile que transformer une prédiction de FPS en obligation d’achat."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          },
+          {
+            "label": "Xbox — Xbox Series S specifications",
+            "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+          },
+          {
+            "label": "FansGTA — GTA 6 HDR: how to prepare your picture on PS5 and Xbox",
+            "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games — Grand Theft Auto VI",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "Rockstar Support — GTA VI platforms, editions and versions",
+        "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
+      },
+      {
+        "label": "Xbox — Xbox Series S specifications",
+        "url": "https://www.xbox.com/en-US/consoles/xbox-series-s"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Launch Gallery",
+        "url": "https://www.rockstargames.com/VI/launch-gallery"
+      },
+      {
+        "label": "Rockstar Games — GTA VI Media",
+        "url": "https://www.rockstargames.com/VI/media"
+      },
+      {
+        "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now, November 10, 2026",
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+      },
+      {
+        "label": "Rhiannon Bevan / VGC — Rockstar performance announcement, November 10, 2026",
+        "url": "https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/"
+      }
+    ]
+  },
+  {
+    "id": "gta6-the-festival-miami-20261109",
+    "category": "news",
+    "slug": [
+      "gta-6-festival-miami-fecha-artistas-entradas-sorteo",
+      "gta-6-festival-miami-date-lineup-ticket-lottery",
+      "gta-6-festival-miami-date-artistes-billets-tirage"
+    ],
+    "title": [
+      "GTA 6: festival en Miami, fecha, artistas y entradas",
+      "GTA 6 Festival: Miami date, lineup and ticket lottery",
+      "GTA 6 Festival à Miami : date, artistes et billets"
+    ],
+    "excerpt": [
+      "GTA VI: The Festival se celebra el 21 de noviembre en Miami. El sorteo cerró: consultá la lista de espera y las condiciones de DICE.",
+      "GTA VI: The Festival takes place in Miami on November 21. The lottery has closed; check the ticket waitlist and DICE conditions.",
+      "GTA VI: The Festival se tiendra à Miami le 21 novembre. Le tirage est clos : liste d’attente et conditions DICE."
+    ],
+    "tag": [
+      "ROCKSTAR · FESTIVAL OFICIAL",
+      "ROCKSTAR · OFFICIAL FESTIVAL",
+      "ROCKSTAR · FESTIVAL OFFICIEL"
+    ],
+    "image": "vice-city",
+    "imageAlt": [
+      "Helicóptero sobre la bahía y los edificios de Vice City al atardecer en GTA VI",
+      "A helicopter over Vice City’s bay and waterfront buildings at sunset in GTA VI",
+      "Hélicoptère au-dessus de la baie et des immeubles de Vice City au coucher du soleil dans GTA VI"
+    ],
+    "imageCaption": [
+      "Vista oficial de Vice City dentro de GTA VI. La imagen ilustra la ambientación del juego; el festival anunciado se celebra en Miami.",
+      "Official view of Vice City inside GTA VI. This image illustrates the game’s setting; the announced festival takes place in Miami.",
+      "Vue officielle de Vice City dans GTA VI. L’image illustre le cadre du jeu ; le festival annoncé se déroule à Miami."
+    ],
+    "imageCredit": {
+      "label": "GTA VI © Rockstar Games · Official Media",
+      "url": "https://www.rockstargames.com/VI/media"
+    },
+    "body": [
+      "Rockstar anunció el 9 de noviembre GTA VI: The Festival, un festival musical que se celebrará el 21 de noviembre de 2026 en Mana Wynwood, Miami. El sorteo de códigos ya cerró; la página oficial enlaza ahora una lista de espera para entradas. Esta actualización conserva el calendario del registro y explica qué revisar según hayas recibido un código o estés buscando disponibilidad.",
+      "Rockstar announced GTA VI: The Festival on November 9: a live music festival at Mana Wynwood in Miami on November 21, 2026. The code lottery has closed; the official page now links a ticket waitlist. This update retains the registration timeline and explains what to check depending on whether you received a code or are looking for availability.",
+      "Rockstar a annoncé le 9 novembre GTA VI: The Festival, un festival musical prévu le 21 novembre 2026 à Mana Wynwood, Miami. Le tirage de codes est clos ; la page officielle propose désormais une liste d’attente pour les billets. Cette mise à jour conserve le calendrier des inscriptions et précise les vérifications selon que vous avez reçu un code ou recherchez des disponibilités."
+    ],
+    "published": "2026-11-09",
+    "updated": "2026-11-12",
+    "sections": [
+      {
+        "heading": [
+          "Qué anunció Rockstar y quién actúa",
+          "What Rockstar announced and who is performing",
+          "L’annonce de Rockstar et les artistes présents"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar anunció el 9 de noviembre GTA VI: The Festival, un festival musical que se celebrará el 21 de noviembre de 2026 en Mana Wynwood, Miami. El sorteo de códigos ya cerró; la página oficial enlaza ahora una lista de espera para entradas. Esta actualización conserva el calendario del registro y explica qué revisar según hayas recibido un código o estés buscando disponibilidad.",
+            "Rockstar announced GTA VI: The Festival on November 9: a live music festival at Mana Wynwood in Miami on November 21, 2026. The code lottery has closed; the official page now links a ticket waitlist. This update retains the registration timeline and explains what to check depending on whether you received a code or are looking for availability.",
+            "Rockstar a annoncé le 9 novembre GTA VI: The Festival, un festival musical prévu le 21 novembre 2026 à Mana Wynwood, Miami. Le tirage de codes est clos ; la page officielle propose désormais une liste d’attente pour les billets. Cette mise à jour conserve le calendrier des inscriptions et précise les vérifications selon que vous avez reçu un code ou recherchez des disponibilités."
+          ],
+          [
+            "El evento se presenta con PlayStation, está producido por los creadores de III Points y contará con dos escenarios. El cartel incluye a Travis Scott, Cardi B, Ca7riel & Paco Amoroso, Metro Boomin y Justice, anunciado como DJ set. La página del festival recoge el resto de actuaciones y sus formatos.",
+            "The event is presented with PlayStation, produced by the creators of III Points and will have two stages. The lineup includes Travis Scott, Cardi B, Ca7riel & Paco Amoroso, Metro Boomin and Justice, billed as a DJ set. The festival page lists the remaining acts and performance formats.",
+            "L’événement est présenté avec PlayStation, produit par les créateurs de III Points et disposera de deux scènes. Le programme comprend Travis Scott, Cardi B, Ca7riel & Paco Amoroso, Metro Boomin et Justice, annoncé en DJ set. La page du festival détaille les autres artistes et les formats de leurs prestations."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — GTA VI: The Festival, November 9, 2026",
+            "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival"
+          },
+          {
+            "label": "Rockstar Games — GTA VI: The Festival, tickets and venue policies",
+            "url": "https://www.rockstargames.com/VI/gtavi-thefestival"
+          },
+          {
+            "label": "GTA VI: The Festival — official ticket lottery terms, Laylo",
+            "url": "https://gtavi-thefestival.miami/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Fechas del sorteo y venta de entradas",
+          "Ticket lottery and sale dates",
+          "Dates du tirage et de la vente des billets"
+        ],
+        "paragraphs": [
+          [
+            "Las horas anunciadas corresponden a la costa este de Estados Unidos y a Miami. En estas fechas de noviembre, ET equivale a UTC−5. El registro admitía una inscripción por persona y fijaba los avisos por SMS a los seleccionados hasta las 19:00 del día 10; no prometía un mensaje para todos. El siguiente calendario recoge etapas ya concluidas, no plazos que sigan abiertos.",
+            "The announced times use US Eastern Time, also observed in Miami. On these November dates, ET is UTC−5. Registration allowed one entry per person and set selected entrants’ SMS notifications for no later than 7 p.m. on November 10; it did not promise a message to everyone. The following timeline records completed stages, not deadlines that remain open.",
+            "Les horaires annoncés sont ceux de la côte est des États-Unis, également appliqués à Miami. À ces dates de novembre, ET correspond à UTC−5. Le règlement autorisait une participation par personne et prévoyait un SMS aux personnes sélectionnées au plus tard le 10 novembre à 19 h, sans promettre de message à chacun. Le calendrier ci-dessous rappelle des étapes terminées, pas des délais encore ouverts."
+          ]
+        ],
+        "table": {
+          "headers": [
+            [
+              "Etapa",
+              "Stage",
+              "Étape"
+            ],
+            [
+              "Hora de Miami (ET)",
+              "Miami time (ET)",
+              "Heure de Miami (ET)"
+            ],
+            [
+              "Equivalente UTC",
+              "UTC equivalent",
+              "Équivalent UTC"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "Cierre del registro",
+                "Registration closes",
+                "Fin des inscriptions"
+              ],
+              [
+                "10 de noviembre, 16:00",
+                "November 10, 4 p.m.",
+                "10 novembre, 16 h"
+              ],
+              [
+                "10 de noviembre, 21:00",
+                "November 10, 9 p.m.",
+                "10 novembre, 21 h"
+              ]
+            ],
+            [
+              [
+                "Aviso a seleccionados",
+                "Selected entrants notified",
+                "Notification des personnes sélectionnées"
+              ],
+              [
+                "Hasta el 10 de noviembre, 19:00",
+                "By November 10, 7 p.m.",
+                "Au plus tard le 10 novembre, 19 h"
+              ],
+              [
+                "Hasta el 11 de noviembre, 00:00",
+                "By November 11, midnight",
+                "Au plus tard le 11 novembre, 0 h"
+              ]
+            ],
+            [
+              [
+                "Compra con código",
+                "Purchases with a code",
+                "Achat avec un code"
+              ],
+              [
+                "11 de noviembre, 12:00",
+                "November 11, noon",
+                "11 novembre, 12 h"
+              ],
+              [
+                "11 de noviembre, 17:00",
+                "November 11, 5 p.m.",
+                "11 novembre, 17 h"
+              ]
+            ]
+          ]
+        },
+        "references": [
+          {
+            "label": "Rockstar Games — GTA VI: The Festival, tickets and venue policies",
+            "url": "https://www.rockstargames.com/VI/gtavi-thefestival"
+          },
+          {
+            "label": "GTA VI: The Festival — official ticket lottery terms, Laylo",
+            "url": "https://gtavi-thefestival.miami/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Lista de espera y códigos ya recibidos",
+          "The waitlist and codes already received",
+          "Liste d’attente et codes déjà reçus"
+        ],
+        "paragraphs": [
+          [
+            "1. Si buscas entradas ahora, abre la lista de espera desde la página oficial. No presupongas que inscribirte confirma una plaza.",
+            "1. If you are looking for tickets now, open the waitlist from the official page. Do not assume joining confirms a place.",
+            "1. Si vous cherchez des billets maintenant, ouvrez la liste d’attente depuis la page officielle. Une inscription ne confirme pas de place."
+          ],
+          [
+            "2. Si ya recibiste un código, revisa la comunicación original y las condiciones de DICE. El procedimiento del sorteo pedía crear una cuenta DICE con exactamente el mismo correo electrónico y número de teléfono del registro. Laylo distribuía códigos de un solo uso que no se podían vender ni intercambiar. El código daba una oportunidad de compra: no garantizaba entradas.",
+            "2. If you already received a code, check the original message and DICE’s conditions. The lottery process asked entrants to create a DICE account using exactly the registration email address and phone number. Laylo distributed single-use codes that could not be sold or traded. The code offered an opportunity to buy, not guaranteed tickets.",
+            "2. Si vous avez déjà reçu un code, consultez le message original et les conditions DICE. Le tirage demandait de créer un compte DICE avec exactement l’adresse e-mail et le numéro de téléphone de l’inscription. Laylo distribuait des codes à usage unique, ni vendables ni échangeables. Le code ouvrait une possibilité d’achat, sans garantir de billets."
+          ],
+          [
+            "3. La venta para los seleccionados estaba anunciada para el 11 de noviembre, por orden de llegada y sujeta a disponibilidad. Esa fecha ya pasó: comprueba el estado actual en el canal oficial antes de organizar el viaje. Ni el registro ni una reserva de GTA VI equivalen a una entrada del festival.",
+            "3. The selected entrants’ sale was announced for November 11, first come, first served and subject to availability. That date has passed: check the current status through the official channel before arranging travel. Neither registration nor a GTA VI preorder is a festival ticket.",
+            "3. La vente réservée aux personnes sélectionnées était annoncée pour le 11 novembre, selon l’ordre d’arrivée et les disponibilités. Cette date est passée : vérifiez l’état actuel sur le canal officiel avant d’organiser le déplacement. Ni l’inscription ni une précommande de GTA VI ne valent billet de festival."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — GTA VI: The Festival, tickets and venue policies",
+            "url": "https://www.rockstargames.com/VI/gtavi-thefestival"
+          },
+          {
+            "label": "GTA VI: The Festival — official ticket lottery terms, Laylo",
+            "url": "https://gtavi-thefestival.miami/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Edad mínima, límite de entradas y precio",
+          "Minimum age, ticket limit and price",
+          "Âge minimum, limite de billets et prix"
+        ],
+        "paragraphs": [
+          [
+            "La edad mínima es de 17 años tanto para el sorteo como para asistir al festival. Rockstar exige identificación válida con fotografía y establece un máximo de dos entradas por comprador. Las entradas no son transferibles; conviene comprobar las condiciones de DICE antes de organizar la asistencia de otra persona.",
+            "The minimum age is 17 for both the lottery and attendance. Rockstar requires valid photo identification and sets a maximum of two tickets per purchaser. Tickets are non-transferable, so check DICE’s conditions before arranging attendance for another person.",
+            "Il faut avoir au moins 17 ans pour participer au tirage et assister au festival. Rockstar exige une pièce d’identité valide avec photo et limite chaque achat à deux billets. Ceux-ci ne sont pas transférables ; vérifiez les conditions de DICE avant d’organiser la venue d’une autre personne."
+          ],
+          [
+            "No encontramos un precio publicado en el texto de las páginas oficiales revisadas el 9 de noviembre. La inscripción sin compra no convierte el festival en un concierto gratuito. El importe, posibles cargos y condiciones del pedido deben comprobarse en la venta oficial antes de pagar; no ofrecemos una tarifa estimada como si estuviera confirmada.",
+            "We found no ticket price in the text of the official pages checked on November 9. A no-purchase registration does not make the festival a free concert. Confirm the price, any fees and order conditions in the official sale before paying; an estimated ticket price would not be a confirmed price.",
+            "Aucun prix de billet ne figure dans le texte des pages officielles vérifiées le 9 novembre. Une inscription sans obligation d’achat ne transforme pas le festival en concert gratuit. Le prix, les éventuels frais et les conditions de commande doivent être vérifiés lors de la vente officielle avant de payer ; nous ne présentons pas de tarif estimé comme confirmé."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — GTA VI: The Festival, tickets and venue policies",
+            "url": "https://www.rockstargames.com/VI/gtavi-thefestival"
+          },
+          {
+            "label": "GTA VI: The Festival — official ticket lottery terms, Laylo",
+            "url": "https://gtavi-thefestival.miami/"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "Dónde está Mana Wynwood y cómo entrar",
+          "Where Mana Wynwood is and how to enter",
+          "Où se trouve Mana Wynwood et comment entrer"
+        ],
+        "paragraphs": [
+          [
+            "La dirección publicada es 318 NW 23rd St, Miami, Florida 33127. La entrada de los asistentes será por 5th Avenue. La organización recomienda servicios de transporte con conductor y advierte de que no hay aparcamiento dentro del recinto. Los estacionamientos cercanos son independientes; para bolsas permitidas, accesibilidad e identificación hay que consultar las políticas completas del evento.",
+            "The published address is 318 NW 23rd St, Miami, Florida 33127. Ticketholders will enter through 5th Avenue. Organisers encourage rideshare and state that there is no on-site parking. Nearby parking is independently operated; consult the event’s full policies for bag restrictions, accessibility and identification requirements.",
+            "L’adresse publiée est 318 NW 23rd St, Miami, Floride 33127. L’accès des détenteurs de billets se fera par 5th Avenue. L’organisation recommande les services de transport avec chauffeur et précise qu’il n’y a pas de parking sur place. Les parkings voisins sont indépendants ; les règles complètes détaillent les sacs autorisés, l’accessibilité et les pièces d’identité."
+          ]
+        ],
+        "references": [
+          {
+            "label": "Rockstar Games — GTA VI: The Festival, tickets and venue policies",
+            "url": "https://www.rockstargames.com/VI/gtavi-thefestival"
+          }
+        ]
+      },
+      {
+        "heading": [
+          "El festival y la música de GTA VI",
+          "The festival and GTA VI’s music",
+          "Le festival et la musique de GTA VI"
+        ],
+        "paragraphs": [
+          [
+            "Rockstar describe el evento como una celebración del lanzamiento con artistas vinculados al juego y a su banda sonora. La fecha del festival, 21 de noviembre, es distinta de la salida de GTA VI, anunciada para el 19 de noviembre. El cartel del concierto tampoco sustituye a la lista completa de canciones y emisoras del juego.",
+            "Rockstar describes the event as a launch celebration featuring artists associated with the game and its soundtrack. The festival date, November 21, is separate from GTA VI’s announced November 19 release. The concert lineup also does not replace a complete list of the game’s songs and radio stations.",
+            "Rockstar présente l’événement comme une célébration du lancement, avec des artistes liés au jeu et à sa bande-son. La date du festival, le 21 novembre, se distingue de la sortie de GTA VI annoncée pour le 19 novembre. L’affiche du concert ne remplace pas non plus une liste complète des morceaux et des stations du jeu."
+          ],
+          [
+            "Para ampliar ese contexto, nuestras guías de la radio de GTA VI, The Album y la música original de Justice explican esos formatos por separado. En las páginas oficiales revisadas para esta noticia no comprobamos un anuncio de retransmisión del festival ni de una demo jugable para asistentes. Los horarios individuales de las actuaciones tampoco figuran en la información examinada.",
+            "For more context, our coverage of GTA VI radio, The Album and Justice’s original score explains those formats separately. The official pages reviewed for this report did not establish a festival livestream or a playable demo for attendees. Individual performance times were also absent from the information checked.",
+            "Pour compléter ce contexte, nos articles sur la radio de GTA VI, The Album et la musique originale de Justice distinguent ces formats. Les pages officielles consultées pour cette actualité ne nous ont pas permis de confirmer une retransmission du festival ni une démo jouable sur place. Les horaires individuels des prestations ne figurent pas non plus dans les informations examinées."
+          ]
+        ],
+        "image": {
+          "key": "music",
+          "alt": [
+            "Circulación sobre un puente de Vice City con coches y edificios junto al agua en GTA VI",
+            "Traffic on a Vice City bridge with cars and waterfront buildings in GTA VI",
+            "Circulation sur un pont de Vice City, avec voitures et immeubles au bord de l’eau dans GTA VI"
+          ],
+          "caption": [
+            "Captura oficial de una carretera de Vice City dentro de GTA VI, para ilustrar la ambientación del juego.",
+            "Official screenshot of a road in Vice City inside GTA VI, illustrating the game’s setting.",
+            "Capture officielle d’une route de Vice City dans GTA VI, pour illustrer le cadre du jeu."
+          ],
+          "credit": {
+            "label": "GTA VI © Rockstar Games · Official Media",
+            "url": "https://www.rockstargames.com/VI/media"
+          }
+        },
+        "references": [
+          {
+            "label": "Rockstar Games — GTA VI: The Festival, tickets and venue policies",
+            "url": "https://www.rockstargames.com/VI/gtavi-thefestival"
+          },
+          {
+            "label": "Rockstar Games — Grand Theft Auto VI",
+            "url": "https://www.rockstargames.com/VI"
+          },
+          {
+            "label": "FansGTA — GTA VI radio and music",
+            "url": "https://fansgta.com/es/noticias/gta-6-radio-music/"
+          },
+          {
+            "label": "FansGTA — GTA VI: The Album",
+            "url": "https://fansgta.com/es/noticias/gta-6-album-34-tracks/"
+          },
+          {
+            "label": "FansGTA — Justice original score",
+            "url": "https://fansgta.com/es/noticias/gta-6-justice-musica-original-11-diciembre-pusher/"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games — GTA VI: The Festival, November 9, 2026",
+        "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival"
+      },
+      {
+        "label": "Rockstar Games — GTA VI: The Festival, tickets and venue policies",
+        "url": "https://www.rockstargames.com/VI/gtavi-thefestival"
+      },
+      {
+        "label": "GTA VI: The Festival — official ticket lottery terms, Laylo",
+        "url": "https://gtavi-thefestival.miami/"
+      },
+      {
+        "label": "Rockstar Games — Grand Theft Auto VI",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "GTA VI © Rockstar Games · Official Media",
+        "url": "https://www.rockstargames.com/VI/media"
+      }
+    ]
+  }
+]

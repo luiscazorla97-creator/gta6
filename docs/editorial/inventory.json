@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-ps5-3d-audio-settings-20261112",
+    "category": "guides",
+    "published": "2026-11-12",
+    "titles": [
+      "Audio 3D de GTA 6 en PS5: configurar auriculares y TV",
+      "GTA 6 PS5 3D audio: headphone and TV setup",
+      "Audio 3D de GTA 6 sur PS5 : réglages casque et TV"
+    ],
+    "paths": [
+      "/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+      "/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+      "/fr/guides/gta-6-audio-3d-ps5-casque-reglages/"
+    ]
+  },
+  {
+    "id": "gta6-dualsense-settings-20261112",
+    "category": "guides",
+    "published": "2026-11-12",
+    "titles": [
+      "GTA 6 en PS5: cómo configurar tu mando DualSense",
+      "GTA 6 on PS5: how to set up your DualSense controller",
+      "GTA 6 sur PS5 : comment configurer votre DualSense"
+    ],
+    "paths": [
+      "/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+      "/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+      "/fr/guides/gta-6-configurer-dualsense-ps5-manette/"
+    ]
+  },
+  {
+    "id": "gta6-xbox-remote-play-20261112",
+    "category": "guides",
+    "published": "2026-11-12",
+    "titles": [
+      "GTA 6: cómo configurar Xbox Remote Play para jugar a distancia",
+      "GTA 6: how to set up Xbox Remote Play",
+      "GTA 6 : configurer Xbox Remote Play pour jouer à distance"
+    ],
+    "paths": [
+      "/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+      "/en/guides/gta-6-xbox-remote-play-console-setup/",
+      "/fr/guides/gta-6-xbox-remote-play-configurer-console/"
+    ]
+  },
+  {
     "id": "gta6-only-in-dade-clip-20261112",
     "category": "news",
     "published": "2026-11-12",
@@ -2329,9 +2374,9 @@
     "category": "guides",
     "published": "2026-10-29",
     "titles": [
-      "GTA 6 en PS5 Pro: 30 o 60 FPS y qué falta por confirmar",
-      "GTA 6 on PS5 Pro: 30 or 60 FPS and what remains unconfirmed",
-      "GTA 6 sur PS5 Pro : 30 ou 60 FPS, où en sont les preuves ?"
+      "GTA 6 en PS5 Pro: objetivo de FPS y mejoras confirmadas",
+      "GTA 6 on PS5 Pro: frame-rate target and confirmed upgrades",
+      "GTA 6 sur PS5 Pro : objectif de FPS et améliorations confirmées"
     ],
     "paths": [
       "/es/guias/gta-6-ps5-pro-30-o-60-fps/",

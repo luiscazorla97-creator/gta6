@@ -1,0 +1,206 @@
+{
+  "status": "validated_locally_awaiting_publication",
+  "prepared_at_utc": "2026-11-12T21:46:12.127460+00:00",
+  "main_baseline": "2bafca68fdb5881e8f30a6fc964c53cab6fc62d2",
+  "scope": "Three distinct practical guides plus three necessary updates at existing URLs. No claim that updates are new articles.",
+  "new_articles": [
+    {
+      "id": "gta6-ps5-3d-audio-settings-20261112",
+      "title": [
+        "Audio 3D de GTA 6 en PS5: configurar auriculares y TV",
+        "GTA 6 PS5 3D audio: headphone and TV setup",
+        "Audio 3D de GTA 6 sur PS5 : réglages casque et TV"
+      ],
+      "category": "guides",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+        "https://fansgta.com/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+        "https://fansgta.com/fr/guides/gta-6-audio-3d-ps5-casque-reglages/"
+      ],
+      "sections": 7,
+      "images": 3,
+      "published": "2026-11-12"
+    },
+    {
+      "id": "gta6-dualsense-settings-20261112",
+      "title": [
+        "GTA 6 en PS5: cómo configurar tu mando DualSense",
+        "GTA 6 on PS5: how to set up your DualSense controller",
+        "GTA 6 sur PS5 : comment configurer votre DualSense"
+      ],
+      "category": "guides",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+        "https://fansgta.com/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+        "https://fansgta.com/fr/guides/gta-6-configurer-dualsense-ps5-manette/"
+      ],
+      "sections": 6,
+      "images": 3,
+      "published": "2026-11-12"
+    },
+    {
+      "id": "gta6-xbox-remote-play-20261112",
+      "title": [
+        "GTA 6: cómo configurar Xbox Remote Play para jugar a distancia",
+        "GTA 6: how to set up Xbox Remote Play",
+        "GTA 6 : configurer Xbox Remote Play pour jouer à distance"
+      ],
+      "category": "guides",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+        "https://fansgta.com/en/guides/gta-6-xbox-remote-play-console-setup/",
+        "https://fansgta.com/fr/guides/gta-6-xbox-remote-play-configurer-console/"
+      ],
+      "sections": 6,
+      "images": 3,
+      "published": "2026-11-12"
+    }
+  ],
+  "updated_articles": [
+    {
+      "id": "gta6-ps5-pro-fps-deep-20261029",
+      "title": [
+        "GTA 6 en PS5 Pro: objetivo de FPS y mejoras confirmadas",
+        "GTA 6 on PS5 Pro: frame-rate target and confirmed upgrades",
+        "GTA 6 sur PS5 Pro : objectif de FPS et améliorations confirmées"
+      ],
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+        "https://fansgta.com/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+        "https://fansgta.com/fr/guides/gta-6-ps5-pro-30-ou-60-fps/"
+      ],
+      "published_preserved": "2026-10-29",
+      "updated": "2026-11-12"
+    },
+    {
+      "id": "gta6-series-s-performance-guide-20261106",
+      "title": [
+        "GTA 6 en Xbox Series S: FPS, resolución y cómo prepararla",
+        "GTA 6 on Xbox Series S: FPS, resolution and launch setup",
+        "GTA 6 sur Xbox Series S : FPS, résolution et préparation"
+      ],
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+        "https://fansgta.com/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+        "https://fansgta.com/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/"
+      ],
+      "published_preserved": "2026-11-06",
+      "updated": "2026-11-12"
+    },
+    {
+      "id": "gta6-the-festival-miami-20261109",
+      "title": [
+        "GTA 6: festival en Miami, fecha, artistas y entradas",
+        "GTA 6 Festival: Miami date, lineup and ticket lottery",
+        "GTA 6 Festival à Miami : date, artistes et billets"
+      ],
+      "urls": [
+        "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+        "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+        "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/"
+      ],
+      "published_preserved": "2026-11-09",
+      "updated": "2026-11-12"
+    }
+  ],
+  "catalogue": {
+    "topics": 203,
+    "language_versions": 609,
+    "canonical_sitemap_entries": 648
+  },
+  "local_validation": {
+    "build_release": "passed",
+    "static": {
+      "html": 653,
+      "internal_links": 29154,
+      "structured_data": 1280
+    },
+    "seo": {
+      "article_urls": 609,
+      "sitemap": 648,
+      "reciprocal_hreflang": true,
+      "initial_html_complete": true
+    },
+    "editorial": {
+      "errors": 0,
+      "review_notices": 44,
+      "previous_review_notices": 44
+    },
+    "browser": {
+      "initial": {
+        "passed": 20,
+        "failed": 6,
+        "cause": "The new test assumed an explicit cover alt on an older article using the existing non-empty mediaAlt fallback."
+      },
+      "after_fallback_fix": {
+        "passed": 4,
+        "failed": 2,
+        "scope": "Only six affected cases repeated. Spanish Festival assertion accepted cerrado but not the valid past-tense cerró."
+      },
+      "final_spanish_repeat": {
+        "passed": 2,
+        "failed": 0,
+        "scope": "Only two Spanish cases repeated after accepting both closed-state forms. No website or article change for either test correction."
+      },
+      "combined_unique_tests_passed": 26,
+      "quality_article_scenarios": 36,
+      "quality_language_switches": 36,
+      "quality_images_decoded": 96,
+      "no_unresolved_failure": true,
+      "viewports": [
+        "mobile390",
+        "desktop1440"
+      ],
+      "locales": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "sdk_fixtures_only": true,
+      "real_creative_delivery_not_claimed": true
+    },
+    "initial_static_fix": {
+      "initial_static_result": "3 invalid source URL errors",
+      "cause": "Three new DualSense internal references used root-relative source URLs; the editorial source model requires absolute URLs.",
+      "fix": "Use canonical https://fansgta.com URL so the existing renderer localizes each link. No validation rule or existing article changed.",
+      "references": [
+        {
+          "section": 0,
+          "before": "/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/",
+          "after": "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/"
+        },
+        {
+          "section": 5,
+          "before": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+          "after": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/"
+        },
+        {
+          "section": 5,
+          "before": "/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/",
+          "after": "https://fansgta.com/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/"
+        }
+      ]
+    },
+    "preservation": {
+      "comparison": "JSON-normalized complete Article objects; absent optional undefined properties omitted on both sides",
+      "previous_topics": 200,
+      "previous_versions": 600,
+      "all_previous_urls_and_published_dates_preserved": true,
+      "previous_topics_unchanged": 197,
+      "intentionally_updated_topics": [
+        "gta6-ps5-pro-fps-deep-20261029",
+        "gta6-series-s-performance-guide-20261106",
+        "gta6-the-festival-miami-20261109"
+      ],
+      "new_topics": 3,
+      "new_versions": 9,
+      "total_topics": 203,
+      "total_versions": 609,
+      "protected_files_identical": 18,
+      "own_js_css_identical": 3
+    }
+  },
+  "publication": null,
+  "public_verification": null,
+  "followup_audit": "Queued after this verified publication as requested; no indexing success is asserted."
+}
