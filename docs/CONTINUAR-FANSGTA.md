@@ -415,3 +415,14 @@ Seis contextos públicos móvil/escritorio ES/EN/FR: archivo de noticias, artíc
 - ES: https://fansgta.com/es/noticias/gta-6-precarga-record-trafico-virgin-media/
 - EN: https://fansgta.com/en/news/gta-6-preload-virgin-media-traffic-records/
 - FR: https://fansgta.com/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/
+
+
+## Tanda manual — 12 de noviembre de 2026: tres temas nuevos
+
+Tres temas nuevos en ES/EN/FR: clip de Only in Dade atribuido a GTA VI por Insider Gaming, iniciativa Logi Game Day y guía de PlayStation Portal. Se verifican las fuentes originales y fechas, se atribuye la Story de Rockstar al reportaje y no se confirman cámara jugable ni FPS. Logitech distingue permiso y evento del 19; Portal separa Remote Play en PS5 de elegibilidad cloud no confirmada. Investigación y deduplicación: docs/editorial/2026-11-12-three-manual-research.json.
+
+Catálogo: 200 temas/600 versiones. Los 197 anteriores y sus 591 URLs permanecen intactos. Cada tema lleva portada y dos capturas oficiales existentes con alt/pies traducidos y crédito; las imágenes no reproducen el clip social ni pruebas propias de Portal o fotografías de Logitech. Diseño, anuncios, consentimiento, seguridad, caché, suscripciones y programación diaria conservados.
+
+Release y verificación estática/SEO/editorial aprobadas: 644 HTML, 28749 enlaces internos, 1262 bloques JSON-LD y 639 entradas canónicas; cero errores editoriales y 44 avisos previos. La primera prueba dejó 17 aprobados y tres fallos de un criterio de proporción del helper al redondear imágenes responsive. Se corrige únicamente el verificador para decodificar los píxeles reales del candidato seleccionado; no cambia la web ni las imágenes. La repetición ampliada a dos tandas previas aprueba 32 pruebas. SDK publicitarios simulados solo en navegador; no acredita creatividades reales. Publicación y verificación pública pendientes en este punto; se completarán en docs/editorial/2026-11-12-three-manual-publication.json.
+
+Esta tanda manual no modifica la tarea diaria de un tema por ejecución en tres idiomas hasta el 19 de noviembre de 2026 inclusive, America/New_York. No se consultó ni modificó la automatización. La ejecución cloud actual no garantiza disponibilidad futura del ejecutor o sus conexiones.

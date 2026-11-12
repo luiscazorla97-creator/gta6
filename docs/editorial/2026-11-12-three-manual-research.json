@@ -1,0 +1,459 @@
+{
+  "checked_at_utc": "2026-11-12T16:29:22.729057+00:00",
+  "request": "Manual batch explicitly requested: three new GTA VI topics, each complete in Spanish, English and French.",
+  "base_main": "59fef1c35aadd71ef82f9d48ee6490ca240eaa72",
+  "execution": "Managed cloud executor; main freshly fetched from GitHub. Existing GitHub connection and Cloudflare Pages fansgta API confirmed accessible. No user-PC files, credentials, terminals or processes.",
+  "catalogue_before": {
+    "topics": 197,
+    "versions": 591,
+    "comparison": "All normalized articles, translations and inventory reviewed by search intent; prior content preserved."
+  },
+  "articles": [
+    {
+      "id": "gta6-only-in-dade-clip-20261112",
+      "titles": [
+        "GTA 6: qué sabemos del clip de Only in Dade",
+        "GTA 6: what we know about the Only in Dade clip",
+        "GTA 6 : ce que l’on sait de la vidéo Only in Dade"
+      ],
+      "category": "news",
+      "published": "2026-11-12",
+      "sources": [
+        {
+          "label": "Only in Dade — #OnlyinViceCity, November 11, 2026",
+          "url": "https://www.instagram.com/reel/DfnFSzaOLO_/"
+        },
+        {
+          "label": "Insider Gaming — Grant Taylor-Hill, November 11, 2026",
+          "url": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/"
+        },
+        {
+          "label": "GTA VI © Rockstar Games · Official Media",
+          "url": "https://www.rockstargames.com/VI/media"
+        }
+      ],
+      "intent": "A newly reported November 11 clip and source attribution, distinct from the November 8 real-car catalogue and the general first-person guide.",
+      "event_date": "2026-11-11",
+      "compared_ids": [
+        "gta6-west-coast-customs-real-cars-20261108",
+        "gta6-interest-first-person-20261031",
+        "gta6-trailer-songs-credits-20261107"
+      ],
+      "interest_sources": [
+        {
+          "url": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/",
+          "date": "2026-11-11"
+        },
+        {
+          "url": "https://rockstarintel.com/new-gta-vi-footage-looks-so-stunning-fans-cant-believe-it/",
+          "date": "2026-11-11"
+        }
+      ],
+      "limits": [
+        "Original Instagram metadata confirms author and date, not an independent video viewing.",
+        "Rockstar Story resharing and visual descriptions are attributed to Grant Taylor-Hill/Insider Gaming.",
+        "No confirmed playable camera, first-person mode, character identity, FPS, render platform or benchmark. No exact duration.",
+        "No video or stills from that clip are rehosted or embedded; only a source link and authentic contextual gallery images."
+      ]
+    },
+    {
+      "id": "gta6-logitech-game-day-20261112",
+      "titles": [
+        "Logitech y GTA 6: día libre para jugar y Logi Game Day",
+        "Logitech and GTA 6: a gaming day off and Logi Game Day",
+        "Logitech et GTA 6 : un jour de congé avec Logi Game Day"
+      ],
+      "category": "news",
+      "published": "2026-11-12",
+      "sources": [
+        {
+          "label": "Logitech — Logi Game Day announcement, November 10, 2026",
+          "url": "https://news.logitech.com/press-releases/news-details/2026/Logitechs-Game-Day-Gives-Employees-a-Dedicated-Day-Off/default.aspx"
+        },
+        {
+          "label": "Rockstar Games — GTA VI official site",
+          "url": "https://www.rockstargames.com/VI"
+        },
+        {
+          "label": "GTA VI © Rockstar Games · Official Media",
+          "url": "https://www.rockstargames.com/VI/media"
+        }
+      ],
+      "intent": "A specific company initiative and streaming announcement, distinct from BambooHR request statistics and Bulkhead comments about a December break.",
+      "event_date": "2026-11-10",
+      "compared_ids": [
+        "gta6-launch-day-pto-bamboohr-20261101",
+        "gta6-wardogs-december-break-20261105"
+      ],
+      "interest_sources": [
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2026/Logitechs-Game-Day-Gives-Employees-a-Dedicated-Day-Off/default.aspx",
+          "date": "2026-11-10"
+        }
+      ],
+      "limits": [
+        "November 19 is the announced streaming-event date; no individual leave date or internal eligibility rules are inferred.",
+        "Not a national holiday, GTA VI-exclusive policy, free game offer or confirmed Rockstar partnership.",
+        "The dedicated gameday domain was not linked by the corporate announcement and is not presented as authenticated."
+      ]
+    },
+    {
+      "id": "gta6-playstation-portal-remote-play-20261112",
+      "titles": [
+        "GTA 6 en PlayStation Portal: PS5, Remote Play y nube",
+        "GTA 6 on PlayStation Portal: PS5, Remote Play and cloud",
+        "GTA 6 sur PlayStation Portal : PS5, Lecture à distance et cloud"
+      ],
+      "category": "guides",
+      "published": "2026-11-12",
+      "sources": [
+        {
+          "label": "Rockstar Games — Pre-Load Grand Theft Auto VI Now · 10 November 2026",
+          "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+        },
+        {
+          "label": "PlayStation — Grand Theft Auto VI: Remote Play supported",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        },
+        {
+          "label": "PlayStation Support — Remote Play on PS Portal",
+          "url": "https://www.playstation.com/en-us/support/hardware/playstation-remote-play-on-psportal/"
+        },
+        {
+          "label": "PlayStation — PS Portal features and subscription FAQ",
+          "url": "https://www.playstation.com/en-us/accessories/playstation-portal-remote-player/"
+        },
+        {
+          "label": "PlayStation Support — cloud streaming eligibility on PS Portal",
+          "url": "https://www.playstation.com/en-us/support/subscriptions/psportal-cloud-game-streaming/"
+        },
+        {
+          "label": "PlayStation Blog — 1080p High Quality update · 17 March 2026",
+          "url": "https://blog.playstation.com/2026/03/17/new-playstation-portal-software-update-adds-1080p-high-quality-mode-and-ux-refinements/"
+        },
+        {
+          "label": "PlayStation Support — current PS Portal system software",
+          "url": "https://www.playstation.com/en-us/support/hardware/psportal/system-software-info/"
+        },
+        {
+          "label": "PlayStation Support — PS Portal audio and accessibility compatibility",
+          "url": "https://www.playstation.com/en-us/support/hardware/psportal-compatibility/"
+        },
+        {
+          "label": "PlayStation Support — troubleshoot PS Portal",
+          "url": "https://www.playstation.com/en-us/support/hardware/psportal-troubleshooting/"
+        },
+        {
+          "label": "Rockstar Games — GTA VI Media",
+          "url": "https://www.rockstargames.com/VI/media"
+        }
+      ],
+      "intent": "PlayStation Portal device setup, PS5 Remote Play and separate cloud eligibility, distinct from phone or PC/Mac instructions.",
+      "event_date": "2026-11-10",
+      "compared_ids": [
+        "gta6-pc-mac-ps5-remote-play-20261108",
+        "gta6-mobile-remote-20261101",
+        "gta6-playstation-app-remote-download-20261108"
+      ],
+      "interest_sources": [
+        {
+          "url": "https://www.reddit.com/r/PlaystationPortal/comments/1xu9qyc/all_portal_owners_are_at_peace/",
+          "date": "2026-11-12",
+          "evidence": "Same-day Portal discussion explicitly asks about GTA VI cloud streaming, account and console expectations. Indexed snapshot showed5votes; small direct question signal, not mass popularity."
+        },
+        {
+          "url": "https://tech.yahoo.com/gaming/articles/gta-vi-cloud-streaming-bad-164652138.html",
+          "date": "2026-11-10",
+          "evidence": "Current article on the gap between Xbox's GTA VI cloud announcement and Sony Portal cloud support. Used as relevance signal, not a primary compatibility source."
+        },
+        {
+          "url": "https://howtovideogame.com/gta-6-ps-portal/",
+          "date": "2026-11-10",
+          "evidence": "Recent query-focused guide answers PS5 Remote Play versus console-free cloud. Establishes contemporaneous coverage only."
+        }
+      ],
+      "limits": [
+        "Official Remote Play support does not confirm Portal cloud eligibility for GTA VI.",
+        "No own GTA VI test before release; no subscription, latency, FPS or bandwidth guarantee.",
+        "Firmware version is described as checked on November 12, not as newly released that day.",
+        "1080p High Quality update is dated March 2026 and is not described as raising the game frame rate."
+      ]
+    }
+  ],
+  "source_http_check": {
+    "checked_at_utc": "2026-11-12T16:28:14.571379+00:00",
+    "results": [
+      {
+        "url": "https://blog.playstation.com/2026/03/17/new-playstation-portal-software-update-adds-1080p-high-quality-mode-and-ux-refinements/",
+        "status": 200,
+        "final": "https://blog.playstation.com/2026/03/17/new-playstation-portal-software-update-adds-1080p-high-quality-mode-and-ux-refinements/",
+        "bytes": 190456
+      },
+      {
+        "url": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/",
+        "status": 200,
+        "final": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/",
+        "bytes": 304419
+      },
+      {
+        "url": "https://news.logitech.com/press-releases/news-details/2026/Logitechs-Game-Day-Gives-Employees-a-Dedicated-Day-Off/default.aspx",
+        "status": 200,
+        "final": "https://news.logitech.com/press-releases/news-details/2026/Logitechs-Game-Day-Gives-Employees-a-Dedicated-Day-Off/default.aspx",
+        "bytes": 68255
+      },
+      {
+        "url": "https://www.instagram.com/reel/DfnFSzaOLO_/",
+        "status": 200,
+        "final": "https://www.instagram.com/reel/DfnFSzaOLO_/",
+        "bytes": 596483
+      },
+      {
+        "url": "https://www.playstation.com/en-us/accessories/playstation-portal-remote-player/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/accessories/playstation-portal-remote-player/",
+        "bytes": 243279
+      },
+      {
+        "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+        "bytes": 398638
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/playstation-remote-play-on-psportal/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/playstation-remote-play-on-psportal/",
+        "bytes": 171584
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/psportal-compatibility/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/psportal-compatibility/",
+        "bytes": 148867
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/psportal-troubleshooting/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/psportal-troubleshooting/",
+        "bytes": 185029
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/psportal/system-software-info/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/hardware/psportal/system-software-info/",
+        "bytes": 84111
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/subscriptions/psportal-cloud-game-streaming/",
+        "status": 200,
+        "final": "https://www.playstation.com/en-us/support/subscriptions/psportal-cloud-game-streaming/",
+        "bytes": 152979
+      },
+      {
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI",
+        "bytes": 1233788
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/media",
+        "bytes": 790632
+      },
+      {
+        "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "status": 200,
+        "final": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+        "bytes": 5367
+      }
+    ]
+  },
+  "original_media_and_primary_http": {
+    "checked_at_utc": "2026-11-12T16:24:06.206478+00:00",
+    "results": [
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 894386,
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 939665,
+        "sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 898033,
+        "sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 1258095,
+        "sha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 992753,
+        "sha256": "2d90d15104f191cde43bc37334c1a7959a7e3c9d5c56cfde44f28b0c80f7af07"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 1247197,
+        "sha256": "d6a56aadc2823cb97a33db087de1700f6a0fd5528b140107ec20823f23aac918"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI/media",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 790632,
+        "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI",
+        "status": 200,
+        "final": "https://www.rockstargames.com/VI",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 1233788,
+        "sha256": "5f8117f24654f3715973fd4feb822996e7c9414a89d3f4cbff89233606dbf0ab"
+      },
+      {
+        "url": "https://news.logitech.com/press-releases/news-details/2026/Logitechs-Game-Day-Gives-Employees-a-Dedicated-Day-Off/default.aspx",
+        "status": 200,
+        "final": "https://news.logitech.com/press-releases/news-details/2026/Logitechs-Game-Day-Gives-Employees-a-Dedicated-Day-Off/default.aspx",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 68255,
+        "sha256": "321e95368484ce1d0922e7850aad18d6106da14ac000a34f7b72eca1e7143db8"
+      },
+      {
+        "url": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/",
+        "status": 200,
+        "final": "https://insider-gaming.com/rockstar-games-unreal-gta-6-clip-social-media-first-person/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 304419,
+        "sha256": "409080920920b85d7fcc169cf2c708e823822a013e384b467869b19d5c2b7925"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DfnFSzaOLO_/",
+        "status": 200,
+        "final": "https://www.instagram.com/reel/DfnFSzaOLO_/",
+        "content_type": "text/html; charset=\"utf-8\"",
+        "bytes": 566640,
+        "sha256": "77f1db3a62404305919afd6402ababe7bd1ab1ab286e9bb33952e7dddf64af51"
+      }
+    ]
+  },
+  "media": {
+    "assets": {
+      "vice-city": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 894386,
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "visual_review_date": "2026-11-12",
+        "use": "Authentic official GTA VI screenshot, editorial context with translated credit/alt/caption; not the new Only In Dade clip, a Logitech workplace or a Portal test."
+      },
+      "jason": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 939665,
+        "local_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+        "visual_review_date": "2026-11-12",
+        "use": "Authentic official GTA VI screenshot, editorial context with translated credit/alt/caption; not the new Only In Dade clip, a Logitech workplace or a Portal test."
+      },
+      "lucia": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 898033,
+        "local_sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+        "visual_review_date": "2026-11-12",
+        "use": "Authentic official GTA VI screenshot, editorial context with translated credit/alt/caption; not the new Only In Dade clip, a Logitech workplace or a Portal test."
+      },
+      "grassrivers": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "local_sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+        "visual_review_date": "2026-11-12",
+        "use": "Authentic official GTA VI screenshot, editorial context with translated credit/alt/caption; not the new Only In Dade clip, a Logitech workplace or a Portal test."
+      },
+      "music": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+        "owner": "Rockstar Games",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "bytes": 992753,
+        "local_sha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf",
+        "visual_review_date": "2026-11-12",
+        "use": "Authentic official GTA VI screenshot, editorial context with translated credit/alt/caption; not the new Only In Dade clip, a Logitech workplace or a Portal test."
+      },
+      "region-vice-city-03": {
+        "key": "region-vice-city-03",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "checked": "2026-10-31",
+        "width": 1400,
+        "height": 788,
+        "bytes": 231656,
+        "useContext": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed.",
+        "local_sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+        "visual_review_date": "2026-11-12",
+        "use": "Authentic official GTA VI screenshot, editorial context with translated credit/alt/caption; not the new Only In Dade clip, a Logitech workplace or a Portal test."
+      }
+    },
+    "rights_context": "Existing genuine GTA VI screenshots from the official Rockstar gallery, which invites downloading and sharing. Copyright reserved; no public-domain or unrestricted licence claimed. Editorial use with translated alt, credit and captions. No AI, mods, leaks, GTA V substitution or decorative edited hero layers.",
+    "context": "Illustrations are neither the Only In Dade video, a Logitech workplace/event nor a hands-on PlayStation Portal test.",
+    "cover_selection": "Different authenticated covers selected for the three topics; image/alt/caption/credit objects swapped together without editing image files."
+  },
+  "interest_limit": "Current reports, organizer announcements and a contemporary device-support question support topic selection. No Google search-volume, ranking or viral guarantees.",
+  "independent_review": "All nine language versions reviewed; no material factual, source, translation, deduplication or media issue found.",
+  "rejected_or_deferred": [
+    {
+      "topic": "Keith Richards single as a new November announcement",
+      "reason": "Release dates to September 17; do not invent a November debut."
+    },
+    {
+      "topic": "Another FPS/preload/preorder report",
+      "reason": "Equivalent existing articles should be updated instead of adding duplicate URLs."
+    },
+    {
+      "topic": "Steven Ogg cameo wish",
+      "reason": "Viable older interview backup, not included in this three-topic batch; no confirmed Trevor appearance."
+    },
+    {
+      "topic": "E11EVEN event",
+      "reason": "Older November 5 organizer announcement; not selected."
+    }
+  ],
+  "preservation": "No changes to previous articles, design, advertising, Analytics consent, security, cache, subscriptions or publication automation.",
+  "daily_schedule": "Manual batch does not alter the separate one-topic daily scope through November 19, 2026 inclusive America/New_York.",
+  "validation": "Release build, static/SEO/editorial checks and final 32-test mobile/desktop suite passed. The first run exposed a test-only responsive-image rounding problem; the corrected helper decodes physical selected-resource pixels, and the two previous batches were included in the passing rerun."
+}

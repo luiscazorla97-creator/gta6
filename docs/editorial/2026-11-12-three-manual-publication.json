@@ -1,0 +1,154 @@
+{
+  "status": "validated_locally_awaiting_publication",
+  "prepared_at_utc": "2026-11-12T16:36:27.609620+00:00",
+  "base_main": "59fef1c35aadd71ef82f9d48ee6490ca240eaa72",
+  "scope": "Manual request: three new GTA VI topics, complete in Spanish, English and French. Daily schedule unchanged.",
+  "articles": [
+    {
+      "id": "gta6-only-in-dade-clip-20261112",
+      "titles": [
+        "GTA 6: qué sabemos del clip de Only in Dade",
+        "GTA 6: what we know about the Only in Dade clip",
+        "GTA 6 : ce que l’on sait de la vidéo Only in Dade"
+      ],
+      "category": "news",
+      "published": "2026-11-12",
+      "urls": [
+        "https://fansgta.com/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+        "https://fansgta.com/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+        "https://fansgta.com/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/"
+      ]
+    },
+    {
+      "id": "gta6-logitech-game-day-20261112",
+      "titles": [
+        "Logitech y GTA 6: día libre para jugar y Logi Game Day",
+        "Logitech and GTA 6: a gaming day off and Logi Game Day",
+        "Logitech et GTA 6 : un jour de congé avec Logi Game Day"
+      ],
+      "category": "news",
+      "published": "2026-11-12",
+      "urls": [
+        "https://fansgta.com/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+        "https://fansgta.com/en/news/gta-6-logitech-game-day-time-off-event/",
+        "https://fansgta.com/fr/actualites/gta-6-logitech-game-day-conge-evenement/"
+      ]
+    },
+    {
+      "id": "gta6-playstation-portal-remote-play-20261112",
+      "titles": [
+        "GTA 6 en PlayStation Portal: PS5, Remote Play y nube",
+        "GTA 6 on PlayStation Portal: PS5, Remote Play and cloud",
+        "GTA 6 sur PlayStation Portal : PS5, Lecture à distance et cloud"
+      ],
+      "category": "guides",
+      "published": "2026-11-12",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+        "https://fansgta.com/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+        "https://fansgta.com/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/"
+      ]
+    }
+  ],
+  "catalogue": {
+    "topics": 200,
+    "language_versions": 600,
+    "canonical_sitemap_entries": 639,
+    "all_previous_197_articles_and_591_urls_preserved": true
+  },
+  "validation": {
+    "build_release": "passed",
+    "static": {
+      "html_files": 644,
+      "internal_links": 28749,
+      "structured_data_blocks": 1262
+    },
+    "seo": {
+      "article_urls": 600,
+      "canonical_sitemap_entries": 639,
+      "reciprocal_hreflang": true,
+      "full_initial_html": true
+    },
+    "editorial": {
+      "errors": 0,
+      "review_notices": 44,
+      "previous_review_notices": 44
+    },
+    "browser": {
+      "final_passed": 32,
+      "new_article_scenarios": 18,
+      "locales": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "viewports": [
+        "mobile390",
+        "desktop1440"
+      ],
+      "sdk_fixtures_only": true,
+      "real_creatives_not_claimed": true,
+      "prior_batches_included": [
+        "2026-11-11 manual five",
+        "2026-11-11 daily network"
+      ]
+    },
+    "protected_source_files_unchanged": 18,
+    "own_js_css_unchanged": true
+  },
+  "test_fixture_correction": {
+    "initial_attempt": {
+      "passed": 17,
+      "failed": 3,
+      "failure": "Absolute aspect-ratio difference 0.012009344892166762 exceeded .01 on mobile for a panoramic responsive image."
+    },
+    "physical_resource_metadata": [
+      {
+        "url": "/media/music.webp",
+        "width": 1600,
+        "height": 686,
+        "format": "webp",
+        "ratio": 2.3323615160349855
+      },
+      {
+        "url": "/responsive/f256c7d69bbb/music-480.webp",
+        "width": 480,
+        "height": 206,
+        "format": "webp",
+        "ratio": 2.3300970873786406
+      },
+      {
+        "url": "/responsive/f256c7d69bbb/music-800.webp",
+        "width": 800,
+        "height": 343,
+        "format": "webp",
+        "ratio": 2.3323615160349855
+      },
+      {
+        "url": "/responsive/f256c7d69bbb/music-1200.webp",
+        "width": 1200,
+        "height": 514,
+        "format": "webp",
+        "ratio": 2.3346303501945527
+      },
+      {
+        "url": "/media/music.webp",
+        "width": 1600,
+        "height": 686,
+        "format": "webp",
+        "ratio": 2.3323615160349855
+      }
+    ],
+    "fix": "Decode the selected currentSrc in an independent Image without srcset, then compare its physical height with the reserved ratio at that physical width, allowing one pixel for bitmap resizing. Displayed-image decode, positive dimensions, srcset membership and source checks remain. No website code or image was changed.",
+    "final_result": "All 32 checks passed.",
+    "local_diagnostic_limit": "A separate diagnostic could not reach its local preview inside the default sandbox; the required browser suites ran successfully outside that sandbox using system Chromium."
+  },
+  "publication": null,
+  "public_verification": null,
+  "preservation": "Previous content, design, languages, ad units and scripts, Analytics consent, security, cache, subscriptions and automation preserved.",
+  "limits": [
+    "No Google search-volume or position guarantee.",
+    "The Instagram check verifies post metadata, not a first-hand video viewing or direct capture of Rockstar Story.",
+    "Current cloud access does not guarantee future executor or connection availability."
+  ]
+}

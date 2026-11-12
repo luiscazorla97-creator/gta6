@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-only-in-dade-clip-20261112",
+    "category": "news",
+    "published": "2026-11-12",
+    "titles": [
+      "GTA 6: qué sabemos del clip de Only in Dade",
+      "GTA 6: what we know about the Only in Dade clip",
+      "GTA 6 : ce que l’on sait de la vidéo Only in Dade"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+      "/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+      "/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/"
+    ]
+  },
+  {
+    "id": "gta6-logitech-game-day-20261112",
+    "category": "news",
+    "published": "2026-11-12",
+    "titles": [
+      "Logitech y GTA 6: día libre para jugar y Logi Game Day",
+      "Logitech and GTA 6: a gaming day off and Logi Game Day",
+      "Logitech et GTA 6 : un jour de congé avec Logi Game Day"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+      "/en/news/gta-6-logitech-game-day-time-off-event/",
+      "/fr/actualites/gta-6-logitech-game-day-conge-evenement/"
+    ]
+  },
+  {
+    "id": "gta6-playstation-portal-remote-play-20261112",
+    "category": "guides",
+    "published": "2026-11-12",
+    "titles": [
+      "GTA 6 en PlayStation Portal: PS5, Remote Play y nube",
+      "GTA 6 on PlayStation Portal: PS5, Remote Play and cloud",
+      "GTA 6 sur PlayStation Portal : PS5, Lecture à distance et cloud"
+    ],
+    "paths": [
+      "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+      "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+      "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/"
+    ]
+  },
+  {
     "id": "gta6-preload-network-records-20261111",
     "category": "news",
     "published": "2026-11-11",
