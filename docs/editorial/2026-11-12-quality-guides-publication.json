@@ -1,5 +1,5 @@
 {
-  "status": "validated_locally_awaiting_publication",
+  "status": "published_and_publicly_verified",
   "prepared_at_utc": "2026-11-12T21:46:12.127460+00:00",
   "main_baseline": "2bafca68fdb5881e8f30a6fc964c53cab6fc62d2",
   "scope": "Three distinct practical guides plus three necessary updates at existing URLs. No claim that updates are new articles.",
@@ -200,7 +200,2616 @@
       "own_js_css_identical": 3
     }
   },
-  "publication": null,
-  "public_verification": null,
-  "followup_audit": "Queued after this verified publication as requested; no indexing success is asserted."
+  "publication": {
+    "runtime_commit": "e697b1277ae482ed7afb947a3d183d7aefc9dd63",
+    "runtime_tree": "6f5539be6616365edca613418160680ad808b4b4",
+    "project": "fansgta",
+    "origin": "https://fansgta.com",
+    "deployment": {
+      "deployment": {
+        "id": "9e465bf7-7b96-4d03-82fb-3d74a6c6856f",
+        "environment": "production",
+        "url": "https://9e465bf7.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-12T21:54:53.99762Z",
+          "ended_on": "2026-11-12T21:55:13.512038Z",
+          "status": "success"
+        },
+        "commit": "e697b1277ae482ed7afb947a3d183d7aefc9dd63"
+      },
+      "canonical": {
+        "id": "9e465bf7-7b96-4d03-82fb-3d74a6c6856f",
+        "environment": "production",
+        "url": "https://9e465bf7.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-12T21:54:53.99762Z",
+          "ended_on": "2026-11-12T21:55:13.512038Z",
+          "status": "success"
+        },
+        "commit": "e697b1277ae482ed7afb947a3d183d7aefc9dd63"
+      },
+      "checked_at_utc": "2026-11-12T21:55:34.732584+00:00"
+    },
+    "canonical_matches_runtime": true,
+    "documentation_only_proof_commit_follows": true,
+    "runtime_redeployment_for_proof_not_required": true
+  },
+  "public_verification": {
+    "http": {
+      "origin": "https://fansgta.com",
+      "checked_at_utc": "2026-11-12T21:55:48.989928+00:00",
+      "method": "Live canonical HTTPS with inherited managed proxy and normal CA trust. Exact release-byte comparisons permit only one pinned Cloudflare-added beacon and its newline in HTML; all other bytes remain checked.",
+      "articles": [
+        {
+          "path": "/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+          "url": "https://fansgta.com/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "caa1ca7c7857b7ab4a99602a56debeb19266486571d715ecb9a6b681979d5212",
+          "id": "gta6-ps5-3d-audio-settings-20261112",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+          "url": "https://fansgta.com/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "599add05775f0cfc48b3be751c603878b827ae1ab4b301525d02f5ba0bbf02e0",
+          "id": "gta6-ps5-3d-audio-settings-20261112",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/fr/guides/gta-6-audio-3d-ps5-casque-reglages/",
+          "url": "https://fansgta.com/fr/guides/gta-6-audio-3d-ps5-casque-reglages/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "3237ce87cb77955ffd674e43abee1c3274d6d86836205d344b926759a2b51f80",
+          "id": "gta6-ps5-3d-audio-settings-20261112",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+          "url": "https://fansgta.com/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "6c7640882b5d3ea636364888bbda9c611135b430edf87af45684fb8205450831",
+          "id": "gta6-dualsense-settings-20261112",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+          "url": "https://fansgta.com/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "f4c838e88ae56487750fcd33db1e8430fd65c47f366a5ac6158f96762774857e",
+          "id": "gta6-dualsense-settings-20261112",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/fr/guides/gta-6-configurer-dualsense-ps5-manette/",
+          "url": "https://fansgta.com/fr/guides/gta-6-configurer-dualsense-ps5-manette/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "732d26578fd0e57b3dc52925182d94b099f0a1e50f7082fda08d615239b7c0a5",
+          "id": "gta6-dualsense-settings-20261112",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+          "url": "https://fansgta.com/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "70229cb7e017c764ad3e17a40d7a37ca808d006f16f4cfcb9863e1ba3937739a",
+          "id": "gta6-xbox-remote-play-20261112",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-remote-play-console-setup/",
+          "url": "https://fansgta.com/en/guides/gta-6-xbox-remote-play-console-setup/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "0c8d051cc8e07ead9fd9699fd87a4b0a10d59af3498fed9b183813e380e06f07",
+          "id": "gta6-xbox-remote-play-20261112",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/fr/guides/gta-6-xbox-remote-play-configurer-console/",
+          "url": "https://fansgta.com/fr/guides/gta-6-xbox-remote-play-configurer-console/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "ca3a175cc166f20e774bd0fb0c3fe964768d9ea4ea2d78c7fb2d41a38176539a",
+          "id": "gta6-xbox-remote-play-20261112",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "new"
+        },
+        {
+          "path": "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+          "url": "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "d2f8bae2ad34b945f580a2b91f7e05e2687f04edf43612467d1560d120e84d4a",
+          "id": "gta6-ps5-pro-fps-deep-20261029",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "updated"
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+          "url": "https://fansgta.com/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "52705eb06eb05d94c801c7c49970079d896a6f2ef856c32bdb28e831ef46951b",
+          "id": "gta6-ps5-pro-fps-deep-20261029",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "updated"
+        },
+        {
+          "path": "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+          "url": "https://fansgta.com/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "e2c738b89141be68c5102a3846b6fa82044a3f193d3cee1f45f9d6cac2f897c0",
+          "id": "gta6-ps5-pro-fps-deep-20261029",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3,
+          "change": "updated"
+        },
+        {
+          "path": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+          "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "ae40c1f180603f9d9443058dee4427390e918365bb43b62ecd10232cdabbbab5",
+          "id": "gta6-series-s-performance-guide-20261106",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 2,
+          "change": "updated"
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+          "url": "https://fansgta.com/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "1c76448347ed1b1abcbaccaefc651953ba8e1985fa6b188648cd41c726be3a25",
+          "id": "gta6-series-s-performance-guide-20261106",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 2,
+          "change": "updated"
+        },
+        {
+          "path": "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+          "url": "https://fansgta.com/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "f7f0c14a7a5afb22052f759e43da7ab00b838eac81e90bf280354dd35a9b1424",
+          "id": "gta6-series-s-performance-guide-20261106",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 2,
+          "change": "updated"
+        },
+        {
+          "path": "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "url": "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "723a251189b935534065d530b4115985bf525f0cbc900e922ac73eccbbf039a1",
+          "id": "gta6-the-festival-miami-20261109",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 2,
+          "change": "updated"
+        },
+        {
+          "path": "/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+          "url": "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "f1256aeed67549d5f4ff888073bb735f6d0e393ea0da00c42c7be3bbe6766f60",
+          "id": "gta6-the-festival-miami-20261109",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 2,
+          "change": "updated"
+        },
+        {
+          "path": "/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "93e0a6709144fd3edd2a634134433acf2b91fb87a1d3d3746bf5df4dc656380f",
+          "id": "gta6-the-festival-miami-20261109",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 2,
+          "change": "updated"
+        }
+      ],
+      "discovery_pages": [
+        {
+          "path": "/en/",
+          "url": "https://fansgta.com/en/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "880500f12fa721148d01d10dca8bb20724c57d4ef720a7c2b5f095cb5fccc980",
+          "links_verified": true
+        },
+        {
+          "path": "/en/guides/",
+          "url": "https://fansgta.com/en/guides/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "6b5408acad21c0a7ef845f206d8e710eb335d02b094c0816c2496ba235ae375f",
+          "links_verified": true
+        },
+        {
+          "path": "/en/news/",
+          "url": "https://fansgta.com/en/news/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "5c1695499c9de212e38fa993deacd3fed329bedb2500549c41f76eeedbda0634",
+          "links_verified": true
+        },
+        {
+          "path": "/es/",
+          "url": "https://fansgta.com/es/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "156b72828bb37a9c7b65129fb4daba497bee330b00ca8093a221ec672a29da6b",
+          "links_verified": true
+        },
+        {
+          "path": "/es/guias/",
+          "url": "https://fansgta.com/es/guias/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "f8ae6fc71fe8dbb2039661d9e08bb18937aa01499305ada261253995637c6f88",
+          "links_verified": true
+        },
+        {
+          "path": "/es/noticias/",
+          "url": "https://fansgta.com/es/noticias/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "db758ce38165be95fea1112a8e7cd238287ff92f5a22d9ec5ef74398d1b0b6f5",
+          "links_verified": true
+        },
+        {
+          "path": "/fr/",
+          "url": "https://fansgta.com/fr/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "a35faa4c9dcf11213ecd5c53880c04d6d8c95409693c13cb128e324aa21c172e",
+          "links_verified": true
+        },
+        {
+          "path": "/fr/actualites/",
+          "url": "https://fansgta.com/fr/actualites/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "47860a5d65bd08998ba4459231cbcefff56f35805de3833fd20bd1edda1375a0",
+          "links_verified": true
+        },
+        {
+          "path": "/fr/guides/",
+          "url": "https://fansgta.com/fr/guides/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "68cbd0d9a181570304021b58ca41248fddc1e4b1f6562a78791027df770e82e2",
+          "links_verified": true
+        }
+      ],
+      "internal_links": [
+        {
+          "path": "/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+          "url": "https://fansgta.com/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "450ad60df7ebffe8bade9d320f778df0a4e79175f39d7b6a316aeb41ac2ded64",
+          "bytes": 270704
+        },
+        {
+          "path": "/en/guides/gta-6-android-iphone-apk-remote-play/",
+          "url": "https://fansgta.com/en/guides/gta-6-android-iphone-apk-remote-play/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "5c59e0cda4ce59ea88bf094986c6e4c8fc378c5ca9d2fc37fa33bb409931d83a",
+          "bytes": 280266
+        },
+        {
+          "path": "/en/guides/gta-6-dualsense-limited-edition-controller-price-preorder/",
+          "url": "https://fansgta.com/en/guides/gta-6-dualsense-limited-edition-controller-price-preorder/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "615fb448c0fb3fbcd83f80f06738294c04ff7a323d4e98892f3914b403c0a6ed",
+          "bytes": 267784
+        },
+        {
+          "path": "/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+          "url": "https://fansgta.com/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "9ff6d24935ee5ddbd0a7d4475dd6b376185dfa15ca8e057115186091694208de",
+          "bytes": 268314
+        },
+        {
+          "path": "/en/guides/gta-6-languages-voiceover-subtitles/",
+          "url": "https://fansgta.com/en/guides/gta-6-languages-voiceover-subtitles/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "495519f11bf74b4dd0d8c456f7d0c7ee3c9df5060fed9b3de8052a30e0e38d30",
+          "bytes": 256732
+        },
+        {
+          "path": "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+          "url": "https://fansgta.com/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "2f6618eb91ac60fa09d5f1649ad351dfd1f6952a2862855c54d21bc5a5a3d205",
+          "bytes": 285597
+        },
+        {
+          "path": "/en/guides/gta-6-preload-date-time-consoles/",
+          "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "d45c8882b4df240e2f84caf4d0296b319fa867cfaaa7423b2f389c6894e757a7",
+          "bytes": 276165
+        },
+        {
+          "path": "/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+          "url": "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "118be4b7118f9210678847459d30427d2233584120983710939efd9d81737ada",
+          "bytes": 292749
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+          "url": "https://fansgta.com/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "52705eb06eb05d94c801c7c49970079d896a6f2ef856c32bdb28e831ef46951b",
+          "bytes": 289926
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+          "url": "https://fansgta.com/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "915d82547cabcb60f2d06a307db8588e10c20add3309f83f751e65c8966720b5",
+          "bytes": 275777
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+          "url": "https://fansgta.com/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "16683331b69717ad842756eccb752ce7bb84961566cce846ca70a3b0b2348e51",
+          "bytes": 274505
+        },
+        {
+          "path": "/en/news/gta-6-album-34-tracks/",
+          "url": "https://fansgta.com/en/news/gta-6-album-34-tracks/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "9f14435401d68ca2e5e28f2a41a776c3505e38e66afa5c637d4392bab5e50e43",
+          "bytes": 248048
+        },
+        {
+          "path": "/en/news/gta-6-justice-original-score-december-11-pusher/",
+          "url": "https://fansgta.com/en/news/gta-6-justice-original-score-december-11-pusher/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "aeca8154f54e40437956fd91c16ea514bd667f4f7545d1c4abff477414bfbe63",
+          "bytes": 263001
+        },
+        {
+          "path": "/en/news/gta-6-ps5-dualsense-3d-audio-features/",
+          "url": "https://fansgta.com/en/news/gta-6-ps5-dualsense-3d-audio-features/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "76cd3be33e33afaf2d3846901ef445b4f8209f8aba01cc35ae4b224d9fe4fd31",
+          "bytes": 259112
+        },
+        {
+          "path": "/en/news/gta-6-ps5-xbox/",
+          "url": "https://fansgta.com/en/news/gta-6-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "0d2ef202a3950c3e045679eb90ca8005535e2630fbb4fd776c60399e38c66e8a",
+          "bytes": 248564
+        },
+        {
+          "path": "/en/news/gta-6-radio-music/",
+          "url": "https://fansgta.com/en/news/gta-6-radio-music/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "0d0f0b3fa143bab4d780d832737634334b4fbe09c601f0ae9bc0edf3e6c54d4a",
+          "bytes": 248704
+        },
+        {
+          "path": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+          "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "c52275a2d1d9d61bb6a335e931f09e8a58b062bea745d8eb5f6b506e441e7717",
+          "bytes": 273831
+        },
+        {
+          "path": "/es/guias/gta-6-android-iphone-apk-remote-play/",
+          "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "647b3bcff3f18d48097c2276b0b113f73126cbbb070561934b855497093f3635",
+          "bytes": 283846
+        },
+        {
+          "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+          "url": "https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "51de1313dc00aab593e2cc36978edb2545b81cc38507bb12e70ad995d9facce4",
+          "bytes": 279207
+        },
+        {
+          "path": "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+          "url": "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "043b3a556a1cf3a35a769e893ea54def022d6bff4113cddd3ff86b44e10e9b64",
+          "bytes": 271473
+        },
+        {
+          "path": "/es/guias/gta-6-idiomas-doblaje-subtitulos/",
+          "url": "https://fansgta.com/es/guias/gta-6-idiomas-doblaje-subtitulos/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "4620d418cee2f6deb3a5bf443fc0377958d609cf8a29dfbd12ed87cdafbd3677",
+          "bytes": 259852
+        },
+        {
+          "path": "/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/",
+          "url": "https://fansgta.com/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "bdf4ec6f5097aaba24bc4c5283d10efa58d25c9f82b0766125e48f4ab051ba5f",
+          "bytes": 270870
+        },
+        {
+          "path": "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+          "url": "https://fansgta.com/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "96fcc248853c46fc54d326614d6cbefac18c6dcafb2b5b5eedb957e59b486c71",
+          "bytes": 288890
+        },
+        {
+          "path": "/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+          "url": "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "ac40c81d227cfd79743e5dbea2b714aed31adf7407e0555208c48d0437bc6005",
+          "bytes": 296280
+        },
+        {
+          "path": "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+          "url": "https://fansgta.com/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "d2f8bae2ad34b945f580a2b91f7e05e2687f04edf43612467d1560d120e84d4a",
+          "bytes": 293472
+        },
+        {
+          "path": "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+          "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "1d52c53abeff71244950e8832270d26a317e56e2ee4e3176abe7f0f53210c6d0",
+          "bytes": 278275
+        },
+        {
+          "path": "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+          "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "6da0893b906df13f085e5847767ea13df83522cd09dbad8b7dcb6eb2deaf726e",
+          "bytes": 279721
+        },
+        {
+          "path": "/es/noticias/gta-6-album-34-tracks/",
+          "url": "https://fansgta.com/es/noticias/gta-6-album-34-tracks/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "6bb4e8125113f17b389e6a2ee824a4033f2855422534aa73286329ab9f116c49",
+          "bytes": 251521
+        },
+        {
+          "path": "/es/noticias/gta-6-justice-musica-original-11-diciembre-pusher/",
+          "url": "https://fansgta.com/es/noticias/gta-6-justice-musica-original-11-diciembre-pusher/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "9abcd9eb0d735677e4e5e21e7c24c625e050be6c038dbaefd54249b0224417ce",
+          "bytes": 266179
+        },
+        {
+          "path": "/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/",
+          "url": "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "1567664e6b405afb672236090d9b9a1e61e11c0822ae78f107f95811bf18a230",
+          "bytes": 262701
+        },
+        {
+          "path": "/es/noticias/gta-6-ps5-xbox/",
+          "url": "https://fansgta.com/es/noticias/gta-6-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "e48a3c124bbbb1051f4a83e5fe2364291a48abf260febfdefafb6b7a99253b8b",
+          "bytes": 251809
+        },
+        {
+          "path": "/es/noticias/gta-6-radio-music/",
+          "url": "https://fansgta.com/es/noticias/gta-6-radio-music/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "3cf67d2fcb4633c4e05271b66160adf8f8af3e544b9ca08e2c09f87f90af757f",
+          "bytes": 252169
+        },
+        {
+          "path": "/fr/actualites/gta-6-album-34-tracks/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-album-34-tracks/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "09e8b2b57196721c310b8c737c0fec443d40ebde9184054e8d7a7bd353a0519d",
+          "bytes": 251084
+        },
+        {
+          "path": "/fr/actualites/gta-6-justice-musique-originale-11-decembre-pusher/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-justice-musique-originale-11-decembre-pusher/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "d42cf1efb0a05e08f7c523a99e07dd012cbfdd61760af94468ee1e5c9476895a",
+          "bytes": 266224
+        },
+        {
+          "path": "/fr/actualites/gta-6-ps5-dualsense-audio-3d-fonctionnalites/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-ps5-dualsense-audio-3d-fonctionnalites/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "3b0d14af53b0669cb1581d1c68129f7db9ecc72ca888937a827cb5bbc8ec29f5",
+          "bytes": 261908
+        },
+        {
+          "path": "/fr/actualites/gta-6-ps5-xbox/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "d695ae584268889a529bfef82f642f9b7084385785d812008497a2e433cf5649",
+          "bytes": 251567
+        },
+        {
+          "path": "/fr/actualites/gta-6-radio-music/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-radio-music/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "35866332b25fa641c27ca23790ec6412ec53566b1b9be1398640707c4ca83b0c",
+          "bytes": 251736
+        },
+        {
+          "path": "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+          "url": "https://fansgta.com/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "709523c7f41b9d1b609471139f366995f5ffba7937b6528ed5637645d6315f91",
+          "bytes": 273899
+        },
+        {
+          "path": "/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+          "url": "https://fansgta.com/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "efc6fb998c5ae26db501bb40327538d577371d66144ca5a891cfc8080332d8ee",
+          "bytes": 283465
+        },
+        {
+          "path": "/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+          "url": "https://fansgta.com/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "b32f82a303cf40731ae6c537164d64b4b84dcf098a6eb1061042f2077eee88b9",
+          "bytes": 271517
+        },
+        {
+          "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+          "url": "https://fansgta.com/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "3cad754152d1aef25f602e67a22ae455ce8bdd8ee8dbc5095d798ac003f034ac",
+          "bytes": 279463
+        },
+        {
+          "path": "/fr/guides/gta-6-langues-doublage-sous-titres/",
+          "url": "https://fansgta.com/fr/guides/gta-6-langues-doublage-sous-titres/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "c9c897fccaaded2558f7bc6dfaf07abccc8880136b3b0b914a7701181e039a72",
+          "bytes": 259579
+        },
+        {
+          "path": "/fr/guides/gta-6-manette-dualsense-edition-limitee-prix-precommande/",
+          "url": "https://fansgta.com/fr/guides/gta-6-manette-dualsense-edition-limitee-prix-precommande/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "61694e41ef3ff49823b6a9a31accd63e095ec7439740068a48dc3bfc8c21043b",
+          "bytes": 270854
+        },
+        {
+          "path": "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+          "url": "https://fansgta.com/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "4606e9f4dcb0765ff8f8d9cc26b9c3c6adb5a8a044f6271a6469a0d838425240",
+          "bytes": 289199
+        },
+        {
+          "path": "/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+          "url": "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "6aacf65cd2d7ac565969a9b60495ae4adfb0e84b2f218a7e89da0989e74e6a3b",
+          "bytes": 296175
+        },
+        {
+          "path": "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+          "url": "https://fansgta.com/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "e2c738b89141be68c5102a3846b6fa82044a3f193d3cee1f45f9d6cac2f897c0",
+          "bytes": 293350
+        },
+        {
+          "path": "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+          "url": "https://fansgta.com/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "99b55c22083db31b0120a03635d76849784ba3cb4bde4020932c5f93ada129d2",
+          "bytes": 277450
+        },
+        {
+          "path": "/fr/guides/prechargement-gta-6-date-heure-consoles/",
+          "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "04ff95372ee56842167eae6fe2a26f65a68d3c2cb38ea17e4788696bd5ab8d5b",
+          "bytes": 279308
+        }
+      ],
+      "resources": [
+        {
+          "path": "/assets/index-sXrCCPVR.js",
+          "url": "https://fansgta.com/assets/index-sXrCCPVR.js",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa",
+          "bytes": 354595
+        },
+        {
+          "path": "/media/collector-box-closed.webp",
+          "url": "https://fansgta.com/media/collector-box-closed.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f1e44f408cc81162be30198e3e3ca8f2b218a6fa81afc351968d17fc0648395b",
+          "bytes": 23884
+        },
+        {
+          "path": "/media/feature-aiming.webp",
+          "url": "https://fansgta.com/media/feature-aiming.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "1dbfed56d4aa069a13263263de089100a6a8b3a8c0b5a8e5d85b7c39797e7ae8",
+          "bytes": 67802
+        },
+        {
+          "path": "/media/feature-bike.webp",
+          "url": "https://fansgta.com/media/feature-bike.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "21877f3ec04c980ee67bf19e860a0a4c8493e27a86d3c5d6e06b10498e20a827",
+          "bytes": 184396
+        },
+        {
+          "path": "/media/feature-driver.webp",
+          "url": "https://fansgta.com/media/feature-driver.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+          "bytes": 44940
+        },
+        {
+          "path": "/media/feature-helicopter.webp",
+          "url": "https://fansgta.com/media/feature-helicopter.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+          "bytes": 58038
+        },
+        {
+          "path": "/media/feature-launch-gallery-bridge.webp",
+          "url": "https://fansgta.com/media/feature-launch-gallery-bridge.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+          "bytes": 217872
+        },
+        {
+          "path": "/media/feature-wyman-05.webp",
+          "url": "https://fansgta.com/media/feature-wyman-05.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e2d412f5cb7396680f56b2c572780eee5418d67d5dded6c0a7aaf64e0629e93b",
+          "bytes": 49044
+        },
+        {
+          "path": "/media/grassrivers.webp",
+          "url": "https://fansgta.com/media/grassrivers.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+          "bytes": 179052
+        },
+        {
+          "path": "/media/hero.webp",
+          "url": "https://fansgta.com/media/hero.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+          "bytes": 143776
+        },
+        {
+          "path": "/media/jason.webp",
+          "url": "https://fansgta.com/media/jason.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+          "bytes": 68710
+        },
+        {
+          "path": "/media/lucia.webp",
+          "url": "https://fansgta.com/media/lucia.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+          "bytes": 65852
+        },
+        {
+          "path": "/media/music.webp",
+          "url": "https://fansgta.com/media/music.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf",
+          "bytes": 155928
+        },
+        {
+          "path": "/media/real-dimez.webp",
+          "url": "https://fansgta.com/media/real-dimez.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e8d5730c8be3699318c5c52a5d8a8ddc68fa1e775cf4b95c7e4e0f26cf841212",
+          "bytes": 98476
+        },
+        {
+          "path": "/media/region-vice-city-03.webp",
+          "url": "https://fansgta.com/media/region-vice-city-03.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+          "bytes": 231656
+        },
+        {
+          "path": "/media/vice-city.webp",
+          "url": "https://fansgta.com/media/vice-city.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+          "bytes": 116602
+        },
+        {
+          "path": "/responsive/018dcb18f9d7/real-dimez-1200.webp",
+          "url": "https://fansgta.com/responsive/018dcb18f9d7/real-dimez-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "8029bee8e74373658d08594e3632b2441a3c8044f338e5938cc0497acd433e14",
+          "bytes": 77388
+        },
+        {
+          "path": "/responsive/018dcb18f9d7/real-dimez-480.webp",
+          "url": "https://fansgta.com/responsive/018dcb18f9d7/real-dimez-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "8785d1a62b2c703ec3f9895247f2c689f5b0d78ae713ea2db55ff79f56043bae",
+          "bytes": 21038
+        },
+        {
+          "path": "/responsive/018dcb18f9d7/real-dimez-800.webp",
+          "url": "https://fansgta.com/responsive/018dcb18f9d7/real-dimez-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "d9fba892071dce9c5bb534147d3a4870a2b9722fd536f0258fddc4724f5134b2",
+          "bytes": 44236
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+          "url": "https://fansgta.com/responsive/0b34d7ad433f/hero-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+          "bytes": 99926
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-480.webp",
+          "url": "https://fansgta.com/responsive/0b34d7ad433f/hero-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+          "bytes": 26716
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-800.webp",
+          "url": "https://fansgta.com/responsive/0b34d7ad433f/hero-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+          "bytes": 62618
+        },
+        {
+          "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-1200.webp",
+          "url": "https://fansgta.com/responsive/26ecfc36154e/feature-launch-gallery-bridge-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "2c167a13fcf0cf7bd5b92a177df709b11c8b9fc85e3a52cbde2ca44ae543d3ad",
+          "bytes": 136310
+        },
+        {
+          "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-480.webp",
+          "url": "https://fansgta.com/responsive/26ecfc36154e/feature-launch-gallery-bridge-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "ac702339970096415884c33bf68058573f2e20e81129e62979425918e5c5a438",
+          "bytes": 34362
+        },
+        {
+          "path": "/responsive/26ecfc36154e/feature-launch-gallery-bridge-800.webp",
+          "url": "https://fansgta.com/responsive/26ecfc36154e/feature-launch-gallery-bridge-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "7aacbd03cfe0261e65d724ec96ebc8ab116548d021a684b0244c40b69e1af819",
+          "bytes": 77148
+        },
+        {
+          "path": "/responsive/2c2513be7b56/collector-box-closed-480.webp",
+          "url": "https://fansgta.com/responsive/2c2513be7b56/collector-box-closed-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e0796098acdd851c200b647a2a7b41ce4c7d6e60333c26046656db5e28a04ba0",
+          "bytes": 5560
+        },
+        {
+          "path": "/responsive/2c2513be7b56/collector-box-closed-800.webp",
+          "url": "https://fansgta.com/responsive/2c2513be7b56/collector-box-closed-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "adf32de20f56158e93411bd98bd41b6352397009a98f303d75d7d2a8b360d6fe",
+          "bytes": 11670
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-1200.webp",
+          "url": "https://fansgta.com/responsive/412f8f04a1fa/grassrivers-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "5b03187234ebe50dcb62c805a3b171dc61ffb09944d8cf199420aabbadda749a",
+          "bytes": 132200
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-480.webp",
+          "url": "https://fansgta.com/responsive/412f8f04a1fa/grassrivers-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "67721e4a1f6f67499e182e1f17567ff686cca51356532f8a7b83d637afa5943e",
+          "bytes": 28254
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-800.webp",
+          "url": "https://fansgta.com/responsive/412f8f04a1fa/grassrivers-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "77a60b78209382ec0cccb31f81b581419a729f8946a2f99f4d9c1f198fd96383",
+          "bytes": 70304
+        },
+        {
+          "path": "/responsive/4a0f8ace4982/feature-wyman-05-1200.webp",
+          "url": "https://fansgta.com/responsive/4a0f8ace4982/feature-wyman-05-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c502b79553bb03489b9427767da763402ba914415da1edb832ae0ba69cee3994",
+          "bytes": 40524
+        },
+        {
+          "path": "/responsive/4a0f8ace4982/feature-wyman-05-480.webp",
+          "url": "https://fansgta.com/responsive/4a0f8ace4982/feature-wyman-05-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "61f1eaabf51616bbdf798ba34511970f4539e4824b7ec34d7438b6558f44451d",
+          "bytes": 12544
+        },
+        {
+          "path": "/responsive/4a0f8ace4982/feature-wyman-05-800.webp",
+          "url": "https://fansgta.com/responsive/4a0f8ace4982/feature-wyman-05-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "804d7798cdd3465a0a488810cb6609d1eae015ac5e7b68f39eae0d91b880d59c",
+          "bytes": 26094
+        },
+        {
+          "path": "/responsive/4e69a2577f03/feature-aiming-1200.webp",
+          "url": "https://fansgta.com/responsive/4e69a2577f03/feature-aiming-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "6b3fb5be920607856b1d2cced06927636410f44488b661c53ace38bcdea9c6c7",
+          "bytes": 52362
+        },
+        {
+          "path": "/responsive/4e69a2577f03/feature-aiming-480.webp",
+          "url": "https://fansgta.com/responsive/4e69a2577f03/feature-aiming-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "be2955fb4d31994542fca6dc610f86ab4116210b6d3918b176c25955cb46db24",
+          "bytes": 18254
+        },
+        {
+          "path": "/responsive/4e69a2577f03/feature-aiming-800.webp",
+          "url": "https://fansgta.com/responsive/4e69a2577f03/feature-aiming-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "686dc3ae439573305d2d26cdcb5793d298a56f2acc28e7cdac2a578cb689026a",
+          "bytes": 34112
+        },
+        {
+          "path": "/responsive/540c8d78c7d9/feature-driver-1200.webp",
+          "url": "https://fansgta.com/responsive/540c8d78c7d9/feature-driver-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "79914c019ad48a3abef30e4ae9bd5470eaf065de2decb8f68e3cc95df1fcabf1",
+          "bytes": 35706
+        },
+        {
+          "path": "/responsive/540c8d78c7d9/feature-driver-480.webp",
+          "url": "https://fansgta.com/responsive/540c8d78c7d9/feature-driver-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "dd64ff73314776910fa09ab318d464e6b338fa1b16914cf0fee8acadd017dfa8",
+          "bytes": 12366
+        },
+        {
+          "path": "/responsive/540c8d78c7d9/feature-driver-800.webp",
+          "url": "https://fansgta.com/responsive/540c8d78c7d9/feature-driver-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "8e4f01ae714aa6e0831a4bcbaeb308831703d9d2a5b23d0b78385b25bfac6011",
+          "bytes": 23166
+        },
+        {
+          "path": "/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+          "url": "https://fansgta.com/responsive/726ed6602c0d/feature-helicopter-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "db0ff1811aed2490683588c9bea0f08b8a4e9c22c82bed2c56b9c9ee3bb47417",
+          "bytes": 43596
+        },
+        {
+          "path": "/responsive/726ed6602c0d/feature-helicopter-480.webp",
+          "url": "https://fansgta.com/responsive/726ed6602c0d/feature-helicopter-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "334bbfeb93703785ab7e54da142093e4662bede32e9c16cf28b855238b0c96e4",
+          "bytes": 13798
+        },
+        {
+          "path": "/responsive/726ed6602c0d/feature-helicopter-800.webp",
+          "url": "https://fansgta.com/responsive/726ed6602c0d/feature-helicopter-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "3e9436a04ff52680fd0f6fbbfbecc49057d1ecee61a5ced6101ffa9fa4dcbf2f",
+          "bytes": 27880
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-1200.webp",
+          "url": "https://fansgta.com/responsive/790e957bd091/jason-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f81c43086bdf633909d5522e20d74db6dad013e39e5eb039351c926450270771",
+          "bytes": 51110
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-480.webp",
+          "url": "https://fansgta.com/responsive/790e957bd091/jason-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "65e638c54352d3417858a9625f9bc8094a524af6a7ff3b6ffbfba52be08f2e49",
+          "bytes": 17104
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-800.webp",
+          "url": "https://fansgta.com/responsive/790e957bd091/jason-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f2645efb3e758ce131d003802eff2c4ff34c71a82738fac6242cb662b0362583",
+          "bytes": 34622
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-1200.webp",
+          "url": "https://fansgta.com/responsive/b0f3c95008df/lucia-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "a214defe4eabffdc9ee37d81e400c47a42c23cc08e6ebac3f6aa88e7e5860e10",
+          "bytes": 51282
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-480.webp",
+          "url": "https://fansgta.com/responsive/b0f3c95008df/lucia-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "4233d532d0c6a13f7af9df721ce7290de5fa790b8e683e8811b86d941e054dbd",
+          "bytes": 18834
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-800.webp",
+          "url": "https://fansgta.com/responsive/b0f3c95008df/lucia-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "b21e566773f614eff278fc031fc2ac9eb28924d47630fdf075490fc6b75a9cd5",
+          "bytes": 36354
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+          "url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+          "bytes": 81668
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+          "url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+          "bytes": 25098
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+          "url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+          "bytes": 55436
+        },
+        {
+          "path": "/responsive/cc95a0408a0b/region-vice-city-03-1200.webp",
+          "url": "https://fansgta.com/responsive/cc95a0408a0b/region-vice-city-03-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f1e01a81192f23e973ce8b1b232230b52bbdcea356e22169a1845e4273805c15",
+          "bytes": 161800
+        },
+        {
+          "path": "/responsive/cc95a0408a0b/region-vice-city-03-480.webp",
+          "url": "https://fansgta.com/responsive/cc95a0408a0b/region-vice-city-03-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "69723ca07628233d9d2c459f9e7639f8aaed227ea86f4ae638bce6b8d308b7c0",
+          "bytes": 38138
+        },
+        {
+          "path": "/responsive/cc95a0408a0b/region-vice-city-03-800.webp",
+          "url": "https://fansgta.com/responsive/cc95a0408a0b/region-vice-city-03-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c4e0a66391777a1e8184605452e2bf6d9bcf9c5b424350cb8dbcc66a22e42c07",
+          "bytes": 87694
+        },
+        {
+          "path": "/responsive/ebd785729d34/feature-bike-1200.webp",
+          "url": "https://fansgta.com/responsive/ebd785729d34/feature-bike-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "2f5d1dbebf57e141dffcc4889ab2b169468a6f6990cedc6cd2ec91ef74797994",
+          "bytes": 133146
+        },
+        {
+          "path": "/responsive/ebd785729d34/feature-bike-480.webp",
+          "url": "https://fansgta.com/responsive/ebd785729d34/feature-bike-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "32e67d64b121cb19957a9a05837d0983b303d935837634b1bfa848faab02395b",
+          "bytes": 33074
+        },
+        {
+          "path": "/responsive/ebd785729d34/feature-bike-800.webp",
+          "url": "https://fansgta.com/responsive/ebd785729d34/feature-bike-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "bd3a45260d4cef335f8b2d972c0c835c66c30d3d958acd352632454f81f65e3b",
+          "bytes": 74056
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-1200.webp",
+          "url": "https://fansgta.com/responsive/f256c7d69bbb/music-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e8832d012e57e7e041c3bcdbb8892b97abc44ed70286e8cb07047d146f4a43ee",
+          "bytes": 102818
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-480.webp",
+          "url": "https://fansgta.com/responsive/f256c7d69bbb/music-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "39846f64e72f4b6f6d97a02279cf4ab8025f111c5aabacd18b547a25612d080a",
+          "bytes": 26010
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-800.webp",
+          "url": "https://fansgta.com/responsive/f256c7d69bbb/music-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e8a629cea0ab707119d5bfc5f40a28e4d947c80423ee2019ccee3cef8ebbca3f",
+          "bytes": 63484
+        }
+      ],
+      "edge_normalized_pages": [
+        {
+          "path": "/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+          "raw_public_sha256": "e554bbefae3ba1d0464420f06ba093fa01ad673c22e0faded66bf8104d7b9286",
+          "release_sha256": "caa1ca7c7857b7ab4a99602a56debeb19266486571d715ecb9a6b681979d5212"
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+          "raw_public_sha256": "b82044a9f640a1cc6c8ea594ef37d0eb9fa138e985ae37216dbec38634e0b10e",
+          "release_sha256": "599add05775f0cfc48b3be751c603878b827ae1ab4b301525d02f5ba0bbf02e0"
+        },
+        {
+          "path": "/fr/guides/gta-6-audio-3d-ps5-casque-reglages/",
+          "raw_public_sha256": "57aba3664ad9bbb7e853179e3fade44abca6b49d1e21a725e9204be3ae0e4457",
+          "release_sha256": "3237ce87cb77955ffd674e43abee1c3274d6d86836205d344b926759a2b51f80"
+        },
+        {
+          "path": "/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+          "raw_public_sha256": "3da473cb90f4bd0d309ead049ebdf0eec86c2f651e3833fe7e63649e93c9af91",
+          "release_sha256": "6c7640882b5d3ea636364888bbda9c611135b430edf87af45684fb8205450831"
+        },
+        {
+          "path": "/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+          "raw_public_sha256": "0c00009cace4bd02861ce4c2acf8b89c7f185d3c5d5d31d6dd96e50792e05813",
+          "release_sha256": "f4c838e88ae56487750fcd33db1e8430fd65c47f366a5ac6158f96762774857e"
+        },
+        {
+          "path": "/fr/guides/gta-6-configurer-dualsense-ps5-manette/",
+          "raw_public_sha256": "b36a90ca54b62e07df9807c12ed32b20753cb12efde74abc23b78905384b8c48",
+          "release_sha256": "732d26578fd0e57b3dc52925182d94b099f0a1e50f7082fda08d615239b7c0a5"
+        },
+        {
+          "path": "/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+          "raw_public_sha256": "4d34d254bc24baf5e5a1b352ce17f631bcfd2a5334280c0f39c4f1726e459da9",
+          "release_sha256": "70229cb7e017c764ad3e17a40d7a37ca808d006f16f4cfcb9863e1ba3937739a"
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-remote-play-console-setup/",
+          "raw_public_sha256": "48a7d3bdcc9afb74eee523aff551efcc132fe7b7bd48ff82664d8365028ea2df",
+          "release_sha256": "0c8d051cc8e07ead9fd9699fd87a4b0a10d59af3498fed9b183813e380e06f07"
+        },
+        {
+          "path": "/fr/guides/gta-6-xbox-remote-play-configurer-console/",
+          "raw_public_sha256": "a7eb42977a6cf6a732e603da08359476edab52f23149f5dea05ba043da6b04d2",
+          "release_sha256": "ca3a175cc166f20e774bd0fb0c3fe964768d9ea4ea2d78c7fb2d41a38176539a"
+        },
+        {
+          "path": "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+          "raw_public_sha256": "7d5da34d5d7a1db278414bdfbde00991fa72e956772e7a8c45a2d4f13750e55e",
+          "release_sha256": "d2f8bae2ad34b945f580a2b91f7e05e2687f04edf43612467d1560d120e84d4a"
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+          "raw_public_sha256": "8d5c21bfcaa663c8cbd3e8f7d154bf63853526eb69cc50fffa5d7b1ba6098884",
+          "release_sha256": "52705eb06eb05d94c801c7c49970079d896a6f2ef856c32bdb28e831ef46951b"
+        },
+        {
+          "path": "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+          "raw_public_sha256": "3aea1132c8050877ab999e20fcd90bdf83412ee7b9bc3ddf24228ec1319892e1",
+          "release_sha256": "e2c738b89141be68c5102a3846b6fa82044a3f193d3cee1f45f9d6cac2f897c0"
+        },
+        {
+          "path": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+          "raw_public_sha256": "bf5873273cf6f058d639a204549ec267cb78b79018faf29da586702a40195880",
+          "release_sha256": "ae40c1f180603f9d9443058dee4427390e918365bb43b62ecd10232cdabbbab5"
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+          "raw_public_sha256": "a54bfacf333448788914a0f0deef001d66a41f33e7ef56898753d7a775068fbf",
+          "release_sha256": "1c76448347ed1b1abcbaccaefc651953ba8e1985fa6b188648cd41c726be3a25"
+        },
+        {
+          "path": "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+          "raw_public_sha256": "5854db091b11413081e1318a8e2fcfe73f04262b71300c8c77559843d87ccb1a",
+          "release_sha256": "f7f0c14a7a5afb22052f759e43da7ab00b838eac81e90bf280354dd35a9b1424"
+        },
+        {
+          "path": "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "raw_public_sha256": "9becdbad502cc483c7d995af59a2d90c357d364786d96e8b7c044351a943dbb0",
+          "release_sha256": "723a251189b935534065d530b4115985bf525f0cbc900e922ac73eccbbf039a1"
+        },
+        {
+          "path": "/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+          "raw_public_sha256": "a7018c99441ddb22d6526b30f5a86b05c5a564d791a5d1bef95de777187f8c77",
+          "release_sha256": "f1256aeed67549d5f4ff888073bb735f6d0e393ea0da00c42c7be3bbe6766f60"
+        },
+        {
+          "path": "/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+          "raw_public_sha256": "0b1c0ab3ca5a0a4d22c50a6ec78136d2666477579b7dc7a89684c933ba3214a9",
+          "release_sha256": "93e0a6709144fd3edd2a634134433acf2b91fb87a1d3d3746bf5df4dc656380f"
+        },
+        {
+          "path": "/en/",
+          "raw_public_sha256": "c7d08d8ecd60bf3410f5acf34d6fbce54f7804fd4976302249435fe05c24a2d0",
+          "release_sha256": "880500f12fa721148d01d10dca8bb20724c57d4ef720a7c2b5f095cb5fccc980"
+        },
+        {
+          "path": "/en/guides/",
+          "raw_public_sha256": "f1912901ef80e80e8b11b16a2854d20484c8be0a46f69a6fd7f35964e4579e47",
+          "release_sha256": "6b5408acad21c0a7ef845f206d8e710eb335d02b094c0816c2496ba235ae375f"
+        },
+        {
+          "path": "/en/news/",
+          "raw_public_sha256": "0edc9ed938f810ce0d0bf482e181b3f69e8f65bcdf2c7d0b75218b1aaca14f41",
+          "release_sha256": "5c1695499c9de212e38fa993deacd3fed329bedb2500549c41f76eeedbda0634"
+        },
+        {
+          "path": "/es/",
+          "raw_public_sha256": "8ee14c9490a972cba0cfef9084fb72e6e2b35b61787338cb913287a4429b30ad",
+          "release_sha256": "156b72828bb37a9c7b65129fb4daba497bee330b00ca8093a221ec672a29da6b"
+        },
+        {
+          "path": "/es/guias/",
+          "raw_public_sha256": "7787b8775aa41bdc8029a2aef39bc9c577f6cc0c0635215bfb3d231ed1651dd6",
+          "release_sha256": "f8ae6fc71fe8dbb2039661d9e08bb18937aa01499305ada261253995637c6f88"
+        },
+        {
+          "path": "/es/noticias/",
+          "raw_public_sha256": "5632283ee69f314ee17d49073cdb3ee349516035239614658c958fe6ea5eb149",
+          "release_sha256": "db758ce38165be95fea1112a8e7cd238287ff92f5a22d9ec5ef74398d1b0b6f5"
+        },
+        {
+          "path": "/fr/",
+          "raw_public_sha256": "ee30badbd1f29f40fc293e73ec15e787c24e06dfd54a2907adf8daf03c537df0",
+          "release_sha256": "a35faa4c9dcf11213ecd5c53880c04d6d8c95409693c13cb128e324aa21c172e"
+        },
+        {
+          "path": "/fr/actualites/",
+          "raw_public_sha256": "14363b0ad5327e3a3f0880a0a6dc586744184efdb7e54b56d4c75226faccd5ea",
+          "release_sha256": "47860a5d65bd08998ba4459231cbcefff56f35805de3833fd20bd1edda1375a0"
+        },
+        {
+          "path": "/fr/guides/",
+          "raw_public_sha256": "f6ed131b17e759c49f144105cd702afd1d542c7bfeb67536e5feed66f82389f7",
+          "release_sha256": "68cbd0d9a181570304021b58ca41248fddc1e4b1f6562a78791027df770e82e2"
+        },
+        {
+          "path": "/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+          "raw_public_sha256": "7cb67d059457ce67c1a4c58e978dae2f6c4fb3dfa78a8a6f0565eba0da50cbb1",
+          "release_sha256": "450ad60df7ebffe8bade9d320f778df0a4e79175f39d7b6a316aeb41ac2ded64"
+        },
+        {
+          "path": "/en/guides/gta-6-android-iphone-apk-remote-play/",
+          "raw_public_sha256": "a14cf72f5296284aa2f521496c7818fca0d4ecfe18101dd16fd08676ab1d4d2d",
+          "release_sha256": "5c59e0cda4ce59ea88bf094986c6e4c8fc378c5ca9d2fc37fa33bb409931d83a"
+        },
+        {
+          "path": "/en/guides/gta-6-dualsense-limited-edition-controller-price-preorder/",
+          "raw_public_sha256": "c95a96a113ddbfee91548153f05bcef09944f26619c6d12ec161bdf555429894",
+          "release_sha256": "615fb448c0fb3fbcd83f80f06738294c04ff7a323d4e98892f3914b403c0a6ed"
+        },
+        {
+          "path": "/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+          "raw_public_sha256": "1388a3ac78f070144f44ca42096eada72018d57ca59bca84cea7fa18a6261d7f",
+          "release_sha256": "9ff6d24935ee5ddbd0a7d4475dd6b376185dfa15ca8e057115186091694208de"
+        },
+        {
+          "path": "/en/guides/gta-6-languages-voiceover-subtitles/",
+          "raw_public_sha256": "a1619f15bbdf2ce49e457bd316d12dc664486f608aaa8addcd534acc150c1514",
+          "release_sha256": "495519f11bf74b4dd0d8c456f7d0c7ee3c9df5060fed9b3de8052a30e0e38d30"
+        },
+        {
+          "path": "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+          "raw_public_sha256": "f3d00ca139f62d5bc26d704be3e9f68149a6c930a3aaeb5c33fcd5dd57fcb84d",
+          "release_sha256": "2f6618eb91ac60fa09d5f1649ad351dfd1f6952a2862855c54d21bc5a5a3d205"
+        },
+        {
+          "path": "/en/guides/gta-6-preload-date-time-consoles/",
+          "raw_public_sha256": "8baa336265cba3da3f906c5796b1cdcbbd20f5d0586d11e8ba48848216ee88f2",
+          "release_sha256": "d45c8882b4df240e2f84caf4d0296b319fa867cfaaa7423b2f389c6894e757a7"
+        },
+        {
+          "path": "/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+          "raw_public_sha256": "3a0aea4d43377857f6f2f698d465fd723983403fd1421f62e3618fd133845b91",
+          "release_sha256": "118be4b7118f9210678847459d30427d2233584120983710939efd9d81737ada"
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+          "raw_public_sha256": "8d5c21bfcaa663c8cbd3e8f7d154bf63853526eb69cc50fffa5d7b1ba6098884",
+          "release_sha256": "52705eb06eb05d94c801c7c49970079d896a6f2ef856c32bdb28e831ef46951b"
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+          "raw_public_sha256": "111e561a5609f8ee386fecaabae6137207ea7011796b08027290c091bc95cca1",
+          "release_sha256": "915d82547cabcb60f2d06a307db8588e10c20add3309f83f751e65c8966720b5"
+        },
+        {
+          "path": "/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+          "raw_public_sha256": "7fbc1094cebcac3503aa5ec42ec9d8206454ec2824da19a13d01d5cc8b8ba9db",
+          "release_sha256": "16683331b69717ad842756eccb752ce7bb84961566cce846ca70a3b0b2348e51"
+        },
+        {
+          "path": "/en/news/gta-6-album-34-tracks/",
+          "raw_public_sha256": "74e093f7fcd9905fbd2d2e3ae80fea5995f92d06e18581f0081760701288253c",
+          "release_sha256": "9f14435401d68ca2e5e28f2a41a776c3505e38e66afa5c637d4392bab5e50e43"
+        },
+        {
+          "path": "/en/news/gta-6-justice-original-score-december-11-pusher/",
+          "raw_public_sha256": "63446bc464316217e46e8ba7507b50c2ec745f00fd730d049f3d8ee5b50346fd",
+          "release_sha256": "aeca8154f54e40437956fd91c16ea514bd667f4f7545d1c4abff477414bfbe63"
+        },
+        {
+          "path": "/en/news/gta-6-ps5-dualsense-3d-audio-features/",
+          "raw_public_sha256": "0757783b6ecc34f36cadf7e6f9bf285605971026a6b433da2f537f99d1c61096",
+          "release_sha256": "76cd3be33e33afaf2d3846901ef445b4f8209f8aba01cc35ae4b224d9fe4fd31"
+        },
+        {
+          "path": "/en/news/gta-6-ps5-xbox/",
+          "raw_public_sha256": "b89926115994a0dd284a8e90e3794dc633fda51ff3882c3fa6cde48924db528b",
+          "release_sha256": "0d2ef202a3950c3e045679eb90ca8005535e2630fbb4fd776c60399e38c66e8a"
+        },
+        {
+          "path": "/en/news/gta-6-radio-music/",
+          "raw_public_sha256": "d264f247e47ada7fbeca2b47c0cb52ab36b4ccb16b72abd93259d5c0efad91c7",
+          "release_sha256": "0d0f0b3fa143bab4d780d832737634334b4fbe09c601f0ae9bc0edf3e6c54d4a"
+        },
+        {
+          "path": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+          "raw_public_sha256": "760323f4baf79aa996c37dc72feaa5aa6bbbe0cbb9c5da66a11f4f913143aac2",
+          "release_sha256": "c52275a2d1d9d61bb6a335e931f09e8a58b062bea745d8eb5f6b506e441e7717"
+        },
+        {
+          "path": "/es/guias/gta-6-android-iphone-apk-remote-play/",
+          "raw_public_sha256": "bb5cad61e019ee48f0b2f715b791c1b8317e15eca0bd0572d6e26e86e9b811f0",
+          "release_sha256": "647b3bcff3f18d48097c2276b0b113f73126cbbb070561934b855497093f3635"
+        },
+        {
+          "path": "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+          "raw_public_sha256": "7ecb670b18741bcb554120652a1b675a4fd3efa2684fbe46c298c29c6a19d1ba",
+          "release_sha256": "51de1313dc00aab593e2cc36978edb2545b81cc38507bb12e70ad995d9facce4"
+        },
+        {
+          "path": "/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+          "raw_public_sha256": "9c5530ccee6716c394239718e50428f576b6009455172f0fd3bf6033a5e8ee18",
+          "release_sha256": "043b3a556a1cf3a35a769e893ea54def022d6bff4113cddd3ff86b44e10e9b64"
+        },
+        {
+          "path": "/es/guias/gta-6-idiomas-doblaje-subtitulos/",
+          "raw_public_sha256": "8e846ddce553b58f121b23488ead023b945335c82ab750f109e8d44f6d3f23e4",
+          "release_sha256": "4620d418cee2f6deb3a5bf443fc0377958d609cf8a29dfbd12ed87cdafbd3677"
+        },
+        {
+          "path": "/es/guias/gta-6-mando-dualsense-edicion-limitada-precio-reservar/",
+          "raw_public_sha256": "afdb5f429443f6a5f7f86ca362c5ae6612923d910a65873f4b4e5ae627cac011",
+          "release_sha256": "bdf4ec6f5097aaba24bc4c5283d10efa58d25c9f82b0766125e48f4ab051ba5f"
+        },
+        {
+          "path": "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+          "raw_public_sha256": "902be865a2a83304a5b010b23790ee27728d892913b1cc3f84321ce101c77e6c",
+          "release_sha256": "96fcc248853c46fc54d326614d6cbefac18c6dcafb2b5b5eedb957e59b486c71"
+        },
+        {
+          "path": "/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+          "raw_public_sha256": "7d29bbb7d80ce6517a7917e388aff3c185fb3d58cab066495f3e01d32cdbf194",
+          "release_sha256": "ac40c81d227cfd79743e5dbea2b714aed31adf7407e0555208c48d0437bc6005"
+        },
+        {
+          "path": "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+          "raw_public_sha256": "7d5da34d5d7a1db278414bdfbde00991fa72e956772e7a8c45a2d4f13750e55e",
+          "release_sha256": "d2f8bae2ad34b945f580a2b91f7e05e2687f04edf43612467d1560d120e84d4a"
+        },
+        {
+          "path": "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+          "raw_public_sha256": "c34c76cc9e300f0860273d56b96660709c9e2ce83cf95850e917b9d78a8bed29",
+          "release_sha256": "1d52c53abeff71244950e8832270d26a317e56e2ee4e3176abe7f0f53210c6d0"
+        },
+        {
+          "path": "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+          "raw_public_sha256": "008c1169601633699f48d5442ac80e4894d717429c341837974b40637d9960b5",
+          "release_sha256": "6da0893b906df13f085e5847767ea13df83522cd09dbad8b7dcb6eb2deaf726e"
+        },
+        {
+          "path": "/es/noticias/gta-6-album-34-tracks/",
+          "raw_public_sha256": "e555598b16553e81c81c2496b4e6f12805a87318823cf79fcc299a787b59085b",
+          "release_sha256": "6bb4e8125113f17b389e6a2ee824a4033f2855422534aa73286329ab9f116c49"
+        },
+        {
+          "path": "/es/noticias/gta-6-justice-musica-original-11-diciembre-pusher/",
+          "raw_public_sha256": "acc116248b0e2fb567144214e09536eb2441c5fcacf9ff502e159597814f97ae",
+          "release_sha256": "9abcd9eb0d735677e4e5e21e7c24c625e050be6c038dbaefd54249b0224417ce"
+        },
+        {
+          "path": "/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/",
+          "raw_public_sha256": "0447e49ae0e565024e75dee26de60e1271ffc43d2fff9c7d98fe46c1822bbd65",
+          "release_sha256": "1567664e6b405afb672236090d9b9a1e61e11c0822ae78f107f95811bf18a230"
+        },
+        {
+          "path": "/es/noticias/gta-6-ps5-xbox/",
+          "raw_public_sha256": "696156702a8c148a6583a671005e75ecb6069ea6ff344318c58fc2d66a71d484",
+          "release_sha256": "e48a3c124bbbb1051f4a83e5fe2364291a48abf260febfdefafb6b7a99253b8b"
+        },
+        {
+          "path": "/es/noticias/gta-6-radio-music/",
+          "raw_public_sha256": "4afaeb4d06c399186ed297ac9a1dc34f8b15fca18f8f6f92d4fc5f7b870fee9d",
+          "release_sha256": "3cf67d2fcb4633c4e05271b66160adf8f8af3e544b9ca08e2c09f87f90af757f"
+        },
+        {
+          "path": "/fr/actualites/gta-6-album-34-tracks/",
+          "raw_public_sha256": "c9419208fd3247f5ebfbc4dcb8f790a6bf595bee87db0737a9fe18a3d4ebfd86",
+          "release_sha256": "09e8b2b57196721c310b8c737c0fec443d40ebde9184054e8d7a7bd353a0519d"
+        },
+        {
+          "path": "/fr/actualites/gta-6-justice-musique-originale-11-decembre-pusher/",
+          "raw_public_sha256": "c654ef008b76c552aa2728347438f8446e992771971d60d380d657a7c455c293",
+          "release_sha256": "d42cf1efb0a05e08f7c523a99e07dd012cbfdd61760af94468ee1e5c9476895a"
+        },
+        {
+          "path": "/fr/actualites/gta-6-ps5-dualsense-audio-3d-fonctionnalites/",
+          "raw_public_sha256": "a292d92d71267b0aa3557f59edcfe3dde0bcefd29b0eb99ecd6d92be0367e593",
+          "release_sha256": "3b0d14af53b0669cb1581d1c68129f7db9ecc72ca888937a827cb5bbc8ec29f5"
+        },
+        {
+          "path": "/fr/actualites/gta-6-ps5-xbox/",
+          "raw_public_sha256": "abd726a8a93aceaa277c20e6301e6653d1d072876ee713ae73462b16d584ae0b",
+          "release_sha256": "d695ae584268889a529bfef82f642f9b7084385785d812008497a2e433cf5649"
+        },
+        {
+          "path": "/fr/actualites/gta-6-radio-music/",
+          "raw_public_sha256": "9baf80e5ff20e5cf1559de562b2cf28a264ed2db0ad0c63fbf1b8ba1993077cd",
+          "release_sha256": "35866332b25fa641c27ca23790ec6412ec53566b1b9be1398640707c4ca83b0c"
+        },
+        {
+          "path": "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+          "raw_public_sha256": "aeac236eb385b13a6a9718770dfef9075df6b9617f4793b9a5f011286691ae3e",
+          "release_sha256": "709523c7f41b9d1b609471139f366995f5ffba7937b6528ed5637645d6315f91"
+        },
+        {
+          "path": "/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+          "raw_public_sha256": "2f98861c8ca6ba0bd231f59f117d456daca3712e4d6efae02b966bce60b8e6a7",
+          "release_sha256": "efc6fb998c5ae26db501bb40327538d577371d66144ca5a891cfc8080332d8ee"
+        },
+        {
+          "path": "/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+          "raw_public_sha256": "e6acfdb126f97ed6e8745ab02eabc84b845a94b36a4b4d301c6b7b7a4c37f459",
+          "release_sha256": "b32f82a303cf40731ae6c537164d64b4b84dcf098a6eb1061042f2077eee88b9"
+        },
+        {
+          "path": "/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+          "raw_public_sha256": "587a3c1a751f64d52ec8e5a46ce5ab81c8e17e8392eb68d26f3968120ecad08b",
+          "release_sha256": "3cad754152d1aef25f602e67a22ae455ce8bdd8ee8dbc5095d798ac003f034ac"
+        },
+        {
+          "path": "/fr/guides/gta-6-langues-doublage-sous-titres/",
+          "raw_public_sha256": "01e98e6ecbc20d0103ea7691b79fedfd12ccff313a1151c640766c912d4c1cef",
+          "release_sha256": "c9c897fccaaded2558f7bc6dfaf07abccc8880136b3b0b914a7701181e039a72"
+        },
+        {
+          "path": "/fr/guides/gta-6-manette-dualsense-edition-limitee-prix-precommande/",
+          "raw_public_sha256": "2e56cec4f2be9f5e4b7806e0dac66e37a6ab97b899a95f8e761897fc44d0d239",
+          "release_sha256": "61694e41ef3ff49823b6a9a31accd63e095ec7439740068a48dc3bfc8c21043b"
+        },
+        {
+          "path": "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+          "raw_public_sha256": "3288b5477ec9c8817edb7d05617d2f2e995640d5c6c0d7944f6699baa84f9536",
+          "release_sha256": "4606e9f4dcb0765ff8f8d9cc26b9c3c6adb5a8a044f6271a6469a0d838425240"
+        },
+        {
+          "path": "/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+          "raw_public_sha256": "26c7a54674f0cf3227a211f170e9bccf35ee16f9feb9945db510332a2fc4a6df",
+          "release_sha256": "6aacf65cd2d7ac565969a9b60495ae4adfb0e84b2f218a7e89da0989e74e6a3b"
+        },
+        {
+          "path": "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+          "raw_public_sha256": "3aea1132c8050877ab999e20fcd90bdf83412ee7b9bc3ddf24228ec1319892e1",
+          "release_sha256": "e2c738b89141be68c5102a3846b6fa82044a3f193d3cee1f45f9d6cac2f897c0"
+        },
+        {
+          "path": "/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+          "raw_public_sha256": "31526a54876a2317973f941cc3e1c6bc16453570977d459044b05367f90ae344",
+          "release_sha256": "99b55c22083db31b0120a03635d76849784ba3cb4bde4020932c5f93ada129d2"
+        },
+        {
+          "path": "/fr/guides/prechargement-gta-6-date-heure-consoles/",
+          "raw_public_sha256": "c4e51970e297e71bcaf9cd01db0b2dcd5b1aa85ab2da11200a667f4de01e1ff7",
+          "release_sha256": "04ff95372ee56842167eae6fe2a26f65a68d3c2cb38ea17e4788696bd5ab8d5b"
+        }
+      ],
+      "errors": [],
+      "pinned_edge_injection": {
+        "bytes": 367,
+        "sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+        "provider": "Cloudflare Web Analytics"
+      },
+      "sitemap_xml": {
+        "path": "/sitemap.xml",
+        "url": "https://fansgta.com/sitemap.xml",
+        "status": 200,
+        "release_content_identical": true,
+        "raw_bytes_identical": true,
+        "sha256": "1428f4ba9b68d8db45eb1fa9c8c7dbf0e20619282e5f331cd507dcd4fd8648da"
+      },
+      "sitemap": {
+        "canonical_urls": 648,
+        "all_eighteen_new_and_updated_versions_present": true,
+        "lastmod_correct": true,
+        "raw_bytes_identical": true
+      },
+      "robots_txt": {
+        "path": "/robots.txt",
+        "url": "https://fansgta.com/robots.txt",
+        "status": 200,
+        "release_content_identical": true,
+        "raw_bytes_identical": true,
+        "sha256": "bd9b866b74843acdd3eb30f21a127d250973660d80395f79067b97b30be67c99"
+      },
+      "ads_txt": {
+        "path": "/ads.txt",
+        "url": "https://fansgta.com/ads.txt",
+        "status": 200,
+        "release_content_identical": true,
+        "raw_bytes_identical": true,
+        "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa"
+      },
+      "counts": {
+        "articles": 18,
+        "discovery_pages": 9,
+        "internal_links": 48,
+        "resources": 60,
+        "errors": 0
+      }
+    },
+    "browser": {
+      "verified_at_utc": "2026-11-12T21:58:22.534Z",
+      "origin": "https://fansgta.com",
+      "article_ids": [
+        "gta6-ps5-3d-audio-settings-20261112",
+        "gta6-dualsense-settings-20261112",
+        "gta6-xbox-remote-play-20261112",
+        "gta6-ps5-pro-fps-deep-20261029",
+        "gta6-series-s-performance-guide-20261106",
+        "gta6-the-festival-miami-20261109"
+      ],
+      "expected_article_count": 203,
+      "method": "6 contexts: ES/EN/FR x mobile390/desktop1440, site JavaScript enabled. Each of three new guides and three updated existing articles is opened from its archive, followed by a locale switch. Own HTTPS responses use route.fetch with inherited managed proxy and normal CA/TLS verification, never ignoreHTTPSErrors. Only existing advertising/Analytics SDK fixtures are used. Initial HTML, sitemap and nine homepage/archive discovery URLs belong to the separate HTTP verifier. The browser does not visit the homepage or its unrelated external YouTube thumbnail, previously denied by the executor proxy. No console errors are suppressed. IGN and X source links are never fetched. These checks do not establish real creative delivery or monetization.",
+      "checks": [
+        {
+          "locale": "es",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-3d-audio-settings-20261112"
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-dualsense-settings-20261112"
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-remote-play-console-setup/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-remote-play-20261112"
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-fps-deep-20261029"
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-series-s-performance-guide-20261106"
+            },
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-the-festival-miami-20261109"
+            }
+          ],
+          "articles": [
+            "gta6-ps5-3d-audio-settings-20261112",
+            "gta6-dualsense-settings-20261112",
+            "gta6-xbox-remote-play-20261112",
+            "gta6-ps5-pro-fps-deep-20261029",
+            "gta6-series-s-performance-guide-20261106",
+            "gta6-the-festival-miami-20261109"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 16,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 6,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "en",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-audio-3d-ps5-casque-reglages/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-3d-audio-settings-20261112"
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-configurer-dualsense-ps5-manette/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-dualsense-settings-20261112"
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-remote-play-console-setup/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-xbox-remote-play-configurer-console/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-remote-play-20261112"
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-fps-deep-20261029"
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-series-s-performance-guide-20261106"
+            },
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-the-festival-miami-20261109"
+            }
+          ],
+          "articles": [
+            "gta6-ps5-3d-audio-settings-20261112",
+            "gta6-dualsense-settings-20261112",
+            "gta6-xbox-remote-play-20261112",
+            "gta6-ps5-pro-fps-deep-20261029",
+            "gta6-series-s-performance-guide-20261106",
+            "gta6-the-festival-miami-20261109"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 16,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 6,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "fr",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-audio-3d-ps5-casque-reglages/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-3d-audio-settings-20261112"
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-configurer-dualsense-ps5-manette/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-dualsense-settings-20261112"
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-xbox-remote-play-configurer-console/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-remote-play-20261112"
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-fps-deep-20261029"
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-series-s-performance-guide-20261106"
+            },
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-the-festival-miami-20261109"
+            }
+          ],
+          "articles": [
+            "gta6-ps5-3d-audio-settings-20261112",
+            "gta6-dualsense-settings-20261112",
+            "gta6-xbox-remote-play-20261112",
+            "gta6-ps5-pro-fps-deep-20261029",
+            "gta6-series-s-performance-guide-20261106",
+            "gta6-the-festival-miami-20261109"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 16,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 6,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "es",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-3d-audio-settings-20261112"
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-dualsense-settings-20261112"
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-remote-play-console-setup/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-remote-play-20261112"
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-fps-deep-20261029"
+            },
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-series-s-performance-guide-20261106"
+            },
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-the-festival-miami-20261109"
+            }
+          ],
+          "articles": [
+            "gta6-ps5-3d-audio-settings-20261112",
+            "gta6-dualsense-settings-20261112",
+            "gta6-xbox-remote-play-20261112",
+            "gta6-ps5-pro-fps-deep-20261029",
+            "gta6-series-s-performance-guide-20261106",
+            "gta6-the-festival-miami-20261109"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 16,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 6,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "en",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-ps5-3d-audio-headphones-setup/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-audio-3d-ps5-casque-reglages/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-3d-audio-settings-20261112"
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-configurer-dualsense-ps5-manette/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-dualsense-settings-20261112"
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-remote-play-console-setup/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-xbox-remote-play-configurer-console/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-remote-play-20261112"
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-ps5-pro-30-or-60-fps/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-fps-deep-20261029"
+            },
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-series-s-performance-guide-20261106"
+            },
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-the-festival-miami-20261109"
+            }
+          ],
+          "articles": [
+            "gta6-ps5-3d-audio-settings-20261112",
+            "gta6-dualsense-settings-20261112",
+            "gta6-xbox-remote-play-20261112",
+            "gta6-ps5-pro-fps-deep-20261029",
+            "gta6-series-s-performance-guide-20261106",
+            "gta6-the-festival-miami-20261109"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 16,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 6,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "fr",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-audio-3d-ps5-casque-reglages/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-3d-audio-settings-20261112"
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-configurer-dualsense-ps5-manette/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-dualsense-settings-20261112"
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-xbox-remote-play-configurer-console/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-xbox-remote-play-configurar-consola/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-xbox-remote-play-20261112"
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-ps5-pro-30-ou-60-fps/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-ps5-pro-30-o-60-fps/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-ps5-pro-fps-deep-20261029"
+            },
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-series-s-performance-guide-20261106"
+            },
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-the-festival-miami-20261109"
+            }
+          ],
+          "articles": [
+            "gta6-ps5-3d-audio-settings-20261112",
+            "gta6-dualsense-settings-20261112",
+            "gta6-xbox-remote-play-20261112",
+            "gta6-ps5-pro-fps-deep-20261029",
+            "gta6-series-s-performance-guide-20261106",
+            "gta6-the-festival-miami-20261109"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 16,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 6,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        }
+      ],
+      "errors": [],
+      "counts": {
+        "contexts": 6,
+        "pages": 108,
+        "article_pages": 36,
+        "editorial_images_decoded": 96,
+        "hero_images_decoded": 0,
+        "language_navigations": 36,
+        "screenshots": 12
+      }
+    },
+    "protected_source_sha256": {
+      "index.html": "ab373051e9d76ea56b1673a3c378c9fe9423b2be5470c66715a5785dd406476e",
+      "package.json": "91df8d410b903b8799c443410e95c2003541eb880baab7e2a8cf39ec924133f2",
+      "package-lock.json": "b7299357343a7989f35ca990964ff10165b007939d4123da0dd59d091385eb4b",
+      "public/_headers": "ffe5f0d19831fa05c0dda64f1fc85f3c8ed814895edb98fe1435f7de085f4201",
+      "public/_redirects": "4ea6d2835a2685c1358c8ac49345a7564ef95bdb5becf9837ef89ced478f9e3a",
+      "public/ads.txt": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "public/media/credits.json": "4115e3b43685aa261a51a18d9de0ef5cf7cac0bbdad28ae80e4a5b94b758cc45",
+      "src/ads/AdManager.tsx": "82e83322b4d43b865c315de9a325f3277b6847f551be0282bd1cd3e4a51d299e",
+      "src/ads/AdSlot.tsx": "d80ba062996674590c8a04fca9b93874d7285a7bc67d8f854a5713c0cb0e16ca",
+      "src/ads/config.ts": "cbdfb01ef3f74fda0a3499caba9bd1490f432b3eb09f348985411617a1ee1f5f",
+      "src/ads/loadAd.ts": "436d8b09761406f24b7d8183dd73e8e99ba4c651ea146bd4f072b59a1c8aa940",
+      "src/ads/AdDebug.tsx": "267586a226ce6083778ff60bb61629db1400e90e860e923604e585f40d2daab1",
+      "src/ads/postscribe.d.ts": "7448ef1ab0abee1e166d1e927180f30518e437a5878e40ec4d79a580d3338e63",
+      "src/ads/diagnostics.ts": "f093c22778266ca688d9feb40ff32fb21e5f4c21c6c23b560c6384015ec861cb",
+      "src/ads/SiteAds.tsx": "f2a6da717ccf894b8f1bd11c06128770c96e3ca8cb13e7eb021aedc22cba6e2d",
+      "src/analytics.ts": "2fe941449b9fe7f7eafec595710740008e22855a56cc53212f1ac303950d07dd",
+      "src/AnalyticsConsent.tsx": "3d371e94aa63afb2385d5c43dc24f019ec96a524e39c2440872dd30f217e9851",
+      "src/style.css": "b9050fbdd1c7aa69086a0964fec8344b5de57b8e2375ba189a0d8d902fb73aa3"
+    },
+    "own_js_css_sha256": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-sXrCCPVR.js": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa",
+      "assets/postscribe-r6f5iNPV.js": "1a000065f9407cc46642cc606fa6a7caf668238bc684895312d4801a8aaacb35"
+    },
+    "html_comparison_scope": "All tested HTML equals the release after excluding only the exact pinned single Cloudflare Web Analytics script plus newline. This is not raw HTML identity; static assets, sitemap, robots and ads.txt match raw release bytes.",
+    "browser_scope": "Public origin with site JS, 6 language/viewport contexts. Provider SDKs simulated for deterministic navigation, not real ad creative delivery. Homepage discovery tested via HTTP; no homepage video/browser performance or Google indexing success claimed.",
+    "cloud_scope": "Managed cloud execution with GitHub App and configured Cloudflare access; no files or processes of the user computer. Current success does not establish future executor/connection availability."
+  },
+  "followup_audit": "Queued after this verified publication as requested; no indexing success is asserted.",
+  "verified_at_utc": "2026-11-12T21:58:31.442668+00:00"
 }
