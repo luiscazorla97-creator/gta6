@@ -1,5 +1,5 @@
 {
-  "status": "validated_locally_awaiting_publication",
+  "status": "published_and_publicly_verified",
   "prepared_at_utc": "2026-11-12T16:36:27.609620+00:00",
   "base_main": "59fef1c35aadd71ef82f9d48ee6490ca240eaa72",
   "scope": "Manual request: three new GTA VI topics, complete in Spanish, English and French. Daily schedule unchanged.",
@@ -143,12 +143,1628 @@
     "final_result": "All 32 checks passed.",
     "local_diagnostic_limit": "A separate diagnostic could not reach its local preview inside the default sandbox; the required browser suites ran successfully outside that sandbox using system Chromium."
   },
-  "publication": null,
-  "public_verification": null,
+  "publication": {
+    "runtime_commit": "3a71ded242dcb39692df118d5af0255f04571da5",
+    "runtime_tree": "efe3ba54ef3f373d6e3329a8ff4c30db04d7cc1b",
+    "project": "fansgta",
+    "origin": "https://fansgta.com",
+    "deployment": {
+      "deployment": {
+        "id": "3580fc32-9312-454a-945e-bd1d79232145",
+        "environment": "production",
+        "url": "https://3580fc32.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-12T16:40:57.520285Z",
+          "ended_on": "2026-11-12T16:41:16.897265Z",
+          "status": "success"
+        },
+        "commit": "3a71ded242dcb39692df118d5af0255f04571da5"
+      },
+      "canonical": {
+        "id": "3580fc32-9312-454a-945e-bd1d79232145",
+        "environment": "production",
+        "url": "https://3580fc32.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-12T16:40:57.520285Z",
+          "ended_on": "2026-11-12T16:41:16.897265Z",
+          "status": "success"
+        },
+        "commit": "3a71ded242dcb39692df118d5af0255f04571da5"
+      },
+      "checked_at_utc": "2026-11-12T16:41:48.793957+00:00"
+    },
+    "canonical_matches_runtime": true,
+    "documentation_only_proof_commit_follows": true,
+    "runtime_redeployment_for_documentation_not_required": true
+  },
+  "public_verification": {
+    "http": {
+      "origin": "https://fansgta.com",
+      "checked_at_utc": "2026-11-12T16:42:05.239760+00:00",
+      "method": "Live canonical HTTPS with inherited managed proxy and normal CA trust. Exact release-byte comparisons permit only one pinned Cloudflare-added beacon and its newline in HTML; all other bytes remain checked.",
+      "articles": [
+        {
+          "path": "/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+          "url": "https://fansgta.com/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "027dd618af89644678eda069c5b7742f5cdf75da8c99d451886c9f517cb3e862",
+          "id": "gta6-only-in-dade-clip-20261112",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        },
+        {
+          "path": "/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+          "url": "https://fansgta.com/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "120a1ef14a4e9da1451828c11297da5066798c5ce35e1bea89d299a5831e0b33",
+          "id": "gta6-only-in-dade-clip-20261112",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        },
+        {
+          "path": "/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "58653cd1f6d730ee9e0343a524395170d1796692ae5f6229f0749c4a26bd02cf",
+          "id": "gta6-only-in-dade-clip-20261112",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        },
+        {
+          "path": "/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+          "url": "https://fansgta.com/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "aae0433e332f85861f7a59e50a0bff5a89dd7d205e1a50c8a13b0536c81151ff",
+          "id": "gta6-logitech-game-day-20261112",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        },
+        {
+          "path": "/en/news/gta-6-logitech-game-day-time-off-event/",
+          "url": "https://fansgta.com/en/news/gta-6-logitech-game-day-time-off-event/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "31411874d81f6410268ea76e6454a9dd4ac2657fda4c99eacc398458a3b8ec91",
+          "id": "gta6-logitech-game-day-20261112",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        },
+        {
+          "path": "/fr/actualites/gta-6-logitech-game-day-conge-evenement/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-logitech-game-day-conge-evenement/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "fbd2cd4a1cf6d777453ce2694b258befd75d19bd9dc7a758ce1b4a812341e0d0",
+          "id": "gta6-logitech-game-day-20261112",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        },
+        {
+          "path": "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+          "url": "https://fansgta.com/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "e0261e33f7f1119607451185f7cdc1a2bae20503ba516eacb03bdf6b10067571",
+          "id": "gta6-playstation-portal-remote-play-20261112",
+          "locale": "es",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        },
+        {
+          "path": "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+          "url": "https://fansgta.com/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "e9a131d310f6812c315d65e2e25084312226a001895106d38ba483fc2e363709",
+          "id": "gta6-playstation-portal-remote-play-20261112",
+          "locale": "en",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        },
+        {
+          "path": "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+          "url": "https://fansgta.com/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "0f0e61fda68e0ed80ffd1821a62a76703c1e7cb0cce5856889ee5208c2a2f249",
+          "id": "gta6-playstation-portal-remote-play-20261112",
+          "locale": "fr",
+          "initial_html_complete": true,
+          "canonical_hreflang_schema": true,
+          "figures": 3
+        }
+      ],
+      "discovery_pages": [
+        {
+          "path": "/en/",
+          "url": "https://fansgta.com/en/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "cc973c5eeefc92c9bdcd864b4a3d6ee679d6231c7d47689bede1670ae975a670",
+          "links_verified": true
+        },
+        {
+          "path": "/en/guides/",
+          "url": "https://fansgta.com/en/guides/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "daa133d8e02943c11b3871cf6e4e5ab7431635758a462367bb04b9b0a8b39dcf",
+          "links_verified": true
+        },
+        {
+          "path": "/en/news/",
+          "url": "https://fansgta.com/en/news/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "e081b53d1bf3a45a75af618f805124c8f4b4870e552f48b58e95909d3359588a",
+          "links_verified": true
+        },
+        {
+          "path": "/es/",
+          "url": "https://fansgta.com/es/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "2ed2395ab9e86e0cc8e99002cd45b5649573043aeaba96e148cdecaed8866833",
+          "links_verified": true
+        },
+        {
+          "path": "/es/guias/",
+          "url": "https://fansgta.com/es/guias/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "65b46db707524a8632710433702c1b90ef2a907b170fbd9df0476065eabf8e89",
+          "links_verified": true
+        },
+        {
+          "path": "/es/noticias/",
+          "url": "https://fansgta.com/es/noticias/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "18f07b111131f48b5d896c01fcae4219e2ce60f292987830e7e25b9a92b2ddb2",
+          "links_verified": true
+        },
+        {
+          "path": "/fr/",
+          "url": "https://fansgta.com/fr/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "4697d2239b0349ffcf535a0fd6f615cae1fd47de87afa95ca5e4ee43a14ac0b0",
+          "links_verified": true
+        },
+        {
+          "path": "/fr/actualites/",
+          "url": "https://fansgta.com/fr/actualites/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "658f4e2dfe63efec2311a08f70868ad1fc7b2402825aca81813e82732fa54c1e",
+          "links_verified": true
+        },
+        {
+          "path": "/fr/guides/",
+          "url": "https://fansgta.com/fr/guides/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "11f87e164e4ba97298bdd1198877e40787b148d052070a7f4fc8a0b0954b5a1b",
+          "links_verified": true
+        }
+      ],
+      "internal_links": [
+        {
+          "path": "/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+          "url": "https://fansgta.com/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "f333d9eb536fba487d13d6bbf237757592c23e60f59626f44ae983d68497cc5a",
+          "bytes": 268189
+        },
+        {
+          "path": "/en/guides/gta-6-android-iphone-apk-remote-play/",
+          "url": "https://fansgta.com/en/guides/gta-6-android-iphone-apk-remote-play/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "d71613b4f54eecb004343ef956a132ecb95bf0c548d3b9c7c167aee17afd8cb9",
+          "bytes": 277805
+        },
+        {
+          "path": "/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+          "url": "https://fansgta.com/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "23798bd7bd66f1b17dd96bd74c16432d9ee5413f92aa77db299be308808efb42",
+          "bytes": 274524
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-download-playstation-app-phone/",
+          "url": "https://fansgta.com/en/guides/gta-6-ps5-download-playstation-app-phone/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "89b9031c2851fcbc9bb1fc8e8b18680ae4de94ab8a8625019467cb63bae2e918",
+          "bytes": 267829
+        },
+        {
+          "path": "/en/news/gta-6-19-november-2026/",
+          "url": "https://fansgta.com/en/news/gta-6-19-november-2026/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "4802987d7f53405c6c5d4a2a136a2824a48706c3a925938eb96b90e505443443",
+          "bytes": 267811
+        },
+        {
+          "path": "/en/news/gta-6-39-new-screenshots-rockstar-launch-gallery/",
+          "url": "https://fansgta.com/en/news/gta-6-39-new-screenshots-rockstar-launch-gallery/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "01513c7511e214bebe48fdb633d3eabdb4fe21ccd900b9f3558c7ce1e1eaede2",
+          "bytes": 268718
+        },
+        {
+          "path": "/en/news/gta-6-launch-time-off-bamboohr-study/",
+          "url": "https://fansgta.com/en/news/gta-6-launch-time-off-bamboohr-study/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "d1a93e5e4c6b73eaf03229adc98b44ccda99f9d5e749ed936bf40997421543ff",
+          "bytes": 263392
+        },
+        {
+          "path": "/en/news/gta-6-six-real-cars-west-coast-customs/",
+          "url": "https://fansgta.com/en/news/gta-6-six-real-cars-west-coast-customs/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "4be8507764242f28520cd9724866f3dbf03ba92057f6d0d91d639d7c804cca47",
+          "bytes": 261182
+        },
+        {
+          "path": "/en/news/gta-6-wardogs-bulkhead-december-break-joe-brammer/",
+          "url": "https://fansgta.com/en/news/gta-6-wardogs-bulkhead-december-break-joe-brammer/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "f622b683a99e75d75b1139bc8f71f3a430b092bec89359ffb5c3615d5909f0de",
+          "bytes": 265270
+        },
+        {
+          "path": "/en/news/rumour-gta-6-first-person-camera-launch/",
+          "url": "https://fansgta.com/en/news/rumour-gta-6-first-person-camera-launch/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "f6c064cd302b294fe51f8738a18d69716649c2cb495ac4d216141fa2c9c347cd",
+          "bytes": 272862
+        },
+        {
+          "path": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+          "url": "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "b8f5b31c0c892a82b293b6fa91b18f1299b977ddf2ecfd13c4a99c000c67c746",
+          "bytes": 271251
+        },
+        {
+          "path": "/es/guias/gta-6-android-iphone-apk-remote-play/",
+          "url": "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "2c81245cd361472c242840326cdfe11d4d3e9739b3e6bbeebddfa59b7582dcff",
+          "bytes": 281303
+        },
+        {
+          "path": "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+          "url": "https://fansgta.com/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "86877839a6cab37cbf73aa1bbddb030bfa41eb6f3476528e21a698c67917e101",
+          "bytes": 270907
+        },
+        {
+          "path": "/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+          "url": "https://fansgta.com/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "da74418f8a3fb0c4f3d477f8a1351a281203143a6e09c66020f839cb65e25146",
+          "bytes": 277575
+        },
+        {
+          "path": "/es/noticias/gta-6-19-november-2026/",
+          "url": "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "0540d8b1e30975a9e7a1c482c53fbb32f7bbbaeacec636845883a5c9d8d01090",
+          "bytes": 271018
+        },
+        {
+          "path": "/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/",
+          "url": "https://fansgta.com/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "6a1b43533c40fddac06adad0898dc95f18add185b97037b413c4f2daa5075a26",
+          "bytes": 271895
+        },
+        {
+          "path": "/es/noticias/gta-6-dias-libres-solicitudes-bamboohr/",
+          "url": "https://fansgta.com/es/noticias/gta-6-dias-libres-solicitudes-bamboohr/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "4e46468fb63dd2cee3d2bccf31531aba870137f1c70dfa98001428eb4b575a90",
+          "bytes": 267032
+        },
+        {
+          "path": "/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+          "url": "https://fansgta.com/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "84a2a8637fe8923b9d771670219abaf78483381bd4536621f81e0d11a546c9f6",
+          "bytes": 264456
+        },
+        {
+          "path": "/es/noticias/gta-6-wardogs-bulkhead-pausa-diciembre-joe-brammer/",
+          "url": "https://fansgta.com/es/noticias/gta-6-wardogs-bulkhead-pausa-diciembre-joe-brammer/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "8cc2ced10e0bc71f8bd1883f1e56eb2d38e336678cb7af4384f47b52400ade12",
+          "bytes": 268660
+        },
+        {
+          "path": "/es/noticias/rumor-gta-6-primera-persona-camara-lanzamiento/",
+          "url": "https://fansgta.com/es/noticias/rumor-gta-6-primera-persona-camara-lanzamiento/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "47492404f4cfb55923036e59d1f36af23d7d843d2559afe1f9f4a036272029cf",
+          "bytes": 276730
+        },
+        {
+          "path": "/fr/actualites/gta-6-19-november-2026/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "97925b081bccb9f0f6cc148d27986818bc2d2b20c28f2d955feef9fd6fbd4903",
+          "bytes": 271219
+        },
+        {
+          "path": "/fr/actualites/gta-6-39-nouvelles-images-galerie-lancement-rockstar/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-39-nouvelles-images-galerie-lancement-rockstar/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "879d85e439c208f738eef45c3b8980ebb708559e639ef9195a81e6a3ec56c7bb",
+          "bytes": 271984
+        },
+        {
+          "path": "/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "373f6e582bae168227f6153a84411f6300b6d5683012bfe3e213a6e7b11c9d60",
+          "bytes": 264349
+        },
+        {
+          "path": "/fr/actualites/gta-6-sortie-conges-etude-bamboohr/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-sortie-conges-etude-bamboohr/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "4e19f3249f7f50eeeae763227ee840c2d5c002e4bc0db2840cf9445609258a1c",
+          "bytes": 266523
+        },
+        {
+          "path": "/fr/actualites/gta-6-wardogs-bulkhead-pause-decembre-joe-brammer/",
+          "url": "https://fansgta.com/fr/actualites/gta-6-wardogs-bulkhead-pause-decembre-joe-brammer/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "2e1de7c86a711a2db383f5f239753c48a39b5890799227e8857b41e4fb87b003",
+          "bytes": 268587
+        },
+        {
+          "path": "/fr/actualites/rumeur-gta-6-premiere-personne-camera-sortie/",
+          "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-premiere-personne-camera-sortie/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "bb418425cd1eea31ac20dfaad0c66cdf8361ec181b32e89288b57001a22269ca",
+          "bytes": 275958
+        },
+        {
+          "path": "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+          "url": "https://fansgta.com/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "ae8e9dfe7812997ba7a6c58ee7901555ff031e9bcb12518b23f57b3b2262e6ab",
+          "bytes": 271334
+        },
+        {
+          "path": "/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+          "url": "https://fansgta.com/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "d17df07b918c28c46630dd68b07f731479033cdd39ec5a32df6dd1fbc64f82f7",
+          "bytes": 280929
+        },
+        {
+          "path": "/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/",
+          "url": "https://fansgta.com/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "130a8529435d1d4f35cb835384bafc1c179211c7d2a0d267386c8344fa6f8a68",
+          "bytes": 277879
+        },
+        {
+          "path": "/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/",
+          "url": "https://fansgta.com/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": false,
+          "sha256": "78df9cd2bd4d157c21842e54f9538d5605ef9e1e530238103a97ee1fb3077049",
+          "bytes": 271064
+        }
+      ],
+      "resources": [
+        {
+          "path": "/assets/index-sXrCCPVR.js",
+          "url": "https://fansgta.com/assets/index-sXrCCPVR.js",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa",
+          "bytes": 354595
+        },
+        {
+          "path": "/media/grassrivers.webp",
+          "url": "https://fansgta.com/media/grassrivers.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+          "bytes": 179052
+        },
+        {
+          "path": "/media/hero.webp",
+          "url": "https://fansgta.com/media/hero.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "a3341c30e0006c3c529c6a9fbf565a48f3df8906cdda679d29f47ecc70a6fba4",
+          "bytes": 143776
+        },
+        {
+          "path": "/media/history-vicecity.webp",
+          "url": "https://fansgta.com/media/history-vicecity.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "a10329cce7396f8b16bf8c445cb894fc7643ac65fc195ab412ab2893fb00f60d",
+          "bytes": 124224
+        },
+        {
+          "path": "/media/history-vicecitystories.webp",
+          "url": "https://fansgta.com/media/history-vicecitystories.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "206fb3cc649a6d2e15a8d4048c4d7d241d19ec7f4ac960dd5367e2b6a096e006",
+          "bytes": 100720
+        },
+        {
+          "path": "/media/jason.webp",
+          "url": "https://fansgta.com/media/jason.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+          "bytes": 68710
+        },
+        {
+          "path": "/media/lucia.webp",
+          "url": "https://fansgta.com/media/lucia.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+          "bytes": 65852
+        },
+        {
+          "path": "/media/music.webp",
+          "url": "https://fansgta.com/media/music.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf",
+          "bytes": 155928
+        },
+        {
+          "path": "/media/region-vice-city-03.webp",
+          "url": "https://fansgta.com/media/region-vice-city-03.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+          "bytes": 231656
+        },
+        {
+          "path": "/media/vice-city.webp",
+          "url": "https://fansgta.com/media/vice-city.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+          "bytes": 116602
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-1200.webp",
+          "url": "https://fansgta.com/responsive/0b34d7ad433f/hero-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e213ccaf5807ca4d536758cac06f8aa050dd172a364602a364c13d978bd42e55",
+          "bytes": 99926
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-480.webp",
+          "url": "https://fansgta.com/responsive/0b34d7ad433f/hero-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "028fcd8c10ee93c3d146147ea1f6a41aeb0b9adba0c3c59f95b5e93e9dea4d69",
+          "bytes": 26716
+        },
+        {
+          "path": "/responsive/0b34d7ad433f/hero-800.webp",
+          "url": "https://fansgta.com/responsive/0b34d7ad433f/hero-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "84729d607d074da03114ad581ad63b845a47b925c6043ffa54fc72a9d893943b",
+          "bytes": 62618
+        },
+        {
+          "path": "/responsive/38ba2a25a0ad/history-vicecitystories-480.webp",
+          "url": "https://fansgta.com/responsive/38ba2a25a0ad/history-vicecitystories-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "292ca199434cad40be6ac4396d3c825a785079a3162b810ee9193aec33a7125e",
+          "bytes": 50764
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-1200.webp",
+          "url": "https://fansgta.com/responsive/412f8f04a1fa/grassrivers-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "5b03187234ebe50dcb62c805a3b171dc61ffb09944d8cf199420aabbadda749a",
+          "bytes": 132200
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-480.webp",
+          "url": "https://fansgta.com/responsive/412f8f04a1fa/grassrivers-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "67721e4a1f6f67499e182e1f17567ff686cca51356532f8a7b83d637afa5943e",
+          "bytes": 28254
+        },
+        {
+          "path": "/responsive/412f8f04a1fa/grassrivers-800.webp",
+          "url": "https://fansgta.com/responsive/412f8f04a1fa/grassrivers-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "77a60b78209382ec0cccb31f81b581419a729f8946a2f99f4d9c1f198fd96383",
+          "bytes": 70304
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-1200.webp",
+          "url": "https://fansgta.com/responsive/790e957bd091/jason-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f81c43086bdf633909d5522e20d74db6dad013e39e5eb039351c926450270771",
+          "bytes": 51110
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-480.webp",
+          "url": "https://fansgta.com/responsive/790e957bd091/jason-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "65e638c54352d3417858a9625f9bc8094a524af6a7ff3b6ffbfba52be08f2e49",
+          "bytes": 17104
+        },
+        {
+          "path": "/responsive/790e957bd091/jason-800.webp",
+          "url": "https://fansgta.com/responsive/790e957bd091/jason-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f2645efb3e758ce131d003802eff2c4ff34c71a82738fac6242cb662b0362583",
+          "bytes": 34622
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-1200.webp",
+          "url": "https://fansgta.com/responsive/b0f3c95008df/lucia-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "a214defe4eabffdc9ee37d81e400c47a42c23cc08e6ebac3f6aa88e7e5860e10",
+          "bytes": 51282
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-480.webp",
+          "url": "https://fansgta.com/responsive/b0f3c95008df/lucia-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "4233d532d0c6a13f7af9df721ce7290de5fa790b8e683e8811b86d941e054dbd",
+          "bytes": 18834
+        },
+        {
+          "path": "/responsive/b0f3c95008df/lucia-800.webp",
+          "url": "https://fansgta.com/responsive/b0f3c95008df/lucia-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "b21e566773f614eff278fc031fc2ac9eb28924d47630fdf075490fc6b75a9cd5",
+          "bytes": 36354
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-1200.webp",
+          "url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f550dc7fb7f5d924a59eefdb58052e7ff7971f6b914767c926fbfe9cc7384ff3",
+          "bytes": 81668
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-480.webp",
+          "url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c60749a7575a2f46b57d43951f30f001bfa8948c97df26a64e733b979754c3de",
+          "bytes": 25098
+        },
+        {
+          "path": "/responsive/b12a0f8c5f35/vice-city-800.webp",
+          "url": "https://fansgta.com/responsive/b12a0f8c5f35/vice-city-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "5577eb01f8843285d5096e86bff1f36d4e5d3dc3379bea658c26a465a3b31000",
+          "bytes": 55436
+        },
+        {
+          "path": "/responsive/b1c437253708/history-vicecity-480.webp",
+          "url": "https://fansgta.com/responsive/b1c437253708/history-vicecity-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "5ad8378aad6e63d128277320eb6787e40f8e134b2ea631ae31ad3c11afca4611",
+          "bytes": 60622
+        },
+        {
+          "path": "/responsive/cc95a0408a0b/region-vice-city-03-1200.webp",
+          "url": "https://fansgta.com/responsive/cc95a0408a0b/region-vice-city-03-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "f1e01a81192f23e973ce8b1b232230b52bbdcea356e22169a1845e4273805c15",
+          "bytes": 161800
+        },
+        {
+          "path": "/responsive/cc95a0408a0b/region-vice-city-03-480.webp",
+          "url": "https://fansgta.com/responsive/cc95a0408a0b/region-vice-city-03-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "69723ca07628233d9d2c459f9e7639f8aaed227ea86f4ae638bce6b8d308b7c0",
+          "bytes": 38138
+        },
+        {
+          "path": "/responsive/cc95a0408a0b/region-vice-city-03-800.webp",
+          "url": "https://fansgta.com/responsive/cc95a0408a0b/region-vice-city-03-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "c4e0a66391777a1e8184605452e2bf6d9bcf9c5b424350cb8dbcc66a22e42c07",
+          "bytes": 87694
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-1200.webp",
+          "url": "https://fansgta.com/responsive/f256c7d69bbb/music-1200.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e8832d012e57e7e041c3bcdbb8892b97abc44ed70286e8cb07047d146f4a43ee",
+          "bytes": 102818
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-480.webp",
+          "url": "https://fansgta.com/responsive/f256c7d69bbb/music-480.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "39846f64e72f4b6f6d97a02279cf4ab8025f111c5aabacd18b547a25612d080a",
+          "bytes": 26010
+        },
+        {
+          "path": "/responsive/f256c7d69bbb/music-800.webp",
+          "url": "https://fansgta.com/responsive/f256c7d69bbb/music-800.webp",
+          "status": 200,
+          "release_content_identical": true,
+          "raw_bytes_identical": true,
+          "sha256": "e8a629cea0ab707119d5bfc5f40a28e4d947c80423ee2019ccee3cef8ebbca3f",
+          "bytes": 63484
+        }
+      ],
+      "edge_normalized_pages": [
+        {
+          "path": "/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+          "raw_public_sha256": "8a360e9b819305552328d41ff4578c5f63246c06fd69e13172e73806376b35e9",
+          "release_sha256": "027dd618af89644678eda069c5b7742f5cdf75da8c99d451886c9f517cb3e862"
+        },
+        {
+          "path": "/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+          "raw_public_sha256": "8b911f340bdc7b44fadfad0fbcb7c93e31f58965b02200647caa2170a07f14eb",
+          "release_sha256": "120a1ef14a4e9da1451828c11297da5066798c5ce35e1bea89d299a5831e0b33"
+        },
+        {
+          "path": "/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/",
+          "raw_public_sha256": "1f6cf742b36dd16f7487db8a13c859cdbe4204affcba0727fc69de945f3a7fd1",
+          "release_sha256": "58653cd1f6d730ee9e0343a524395170d1796692ae5f6229f0749c4a26bd02cf"
+        },
+        {
+          "path": "/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+          "raw_public_sha256": "05bf178f15689d99fcf77db6b21bb3df408536f16560cd7b251d5e5703e837e8",
+          "release_sha256": "aae0433e332f85861f7a59e50a0bff5a89dd7d205e1a50c8a13b0536c81151ff"
+        },
+        {
+          "path": "/en/news/gta-6-logitech-game-day-time-off-event/",
+          "raw_public_sha256": "0035920d6ced4bad193c38143d73bc93e93b7c4fb350e53f5b2b119a6e0aadde",
+          "release_sha256": "31411874d81f6410268ea76e6454a9dd4ac2657fda4c99eacc398458a3b8ec91"
+        },
+        {
+          "path": "/fr/actualites/gta-6-logitech-game-day-conge-evenement/",
+          "raw_public_sha256": "5f032e4974b50487a48cf606b4f4baab2cd0fce562135b71030ee6cbf7100c53",
+          "release_sha256": "fbd2cd4a1cf6d777453ce2694b258befd75d19bd9dc7a758ce1b4a812341e0d0"
+        },
+        {
+          "path": "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+          "raw_public_sha256": "e59b79c03e2459c471864251852f7cfcce5e268ddbf55db37dd6a5d0a018c6f7",
+          "release_sha256": "e0261e33f7f1119607451185f7cdc1a2bae20503ba516eacb03bdf6b10067571"
+        },
+        {
+          "path": "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+          "raw_public_sha256": "886b06fb4ff163b42a39d9ce7f272d1695658ce18871c6ed380722fd83317ac7",
+          "release_sha256": "e9a131d310f6812c315d65e2e25084312226a001895106d38ba483fc2e363709"
+        },
+        {
+          "path": "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+          "raw_public_sha256": "e60b69da4e8a362ad4ad93926e5d384b97072e283315777244f36fb8657e467e",
+          "release_sha256": "0f0e61fda68e0ed80ffd1821a62a76703c1e7cb0cce5856889ee5208c2a2f249"
+        },
+        {
+          "path": "/en/",
+          "raw_public_sha256": "80de3f8fff59a9cdae3aa97f9581aa941bcef554527795aa137971fd3a27e049",
+          "release_sha256": "cc973c5eeefc92c9bdcd864b4a3d6ee679d6231c7d47689bede1670ae975a670"
+        },
+        {
+          "path": "/en/guides/",
+          "raw_public_sha256": "06d3a628ee8eb38cd7462bd938e8ff06756b05fd7a201095e4d0c37c808a621e",
+          "release_sha256": "daa133d8e02943c11b3871cf6e4e5ab7431635758a462367bb04b9b0a8b39dcf"
+        },
+        {
+          "path": "/en/news/",
+          "raw_public_sha256": "28b6aaaaab3b71965cb07da221c36378e0fa0818adde42386a5a72c6f5365c1b",
+          "release_sha256": "e081b53d1bf3a45a75af618f805124c8f4b4870e552f48b58e95909d3359588a"
+        },
+        {
+          "path": "/es/",
+          "raw_public_sha256": "3461809041b0a12ff1de31cfdbda4c3ced4d5c65485bd3b2149185c4d0ae2c11",
+          "release_sha256": "2ed2395ab9e86e0cc8e99002cd45b5649573043aeaba96e148cdecaed8866833"
+        },
+        {
+          "path": "/es/guias/",
+          "raw_public_sha256": "5c9f6b7d1a40cf7176fe1175d1187d535126aff6cedba3742dd4471a030dd362",
+          "release_sha256": "65b46db707524a8632710433702c1b90ef2a907b170fbd9df0476065eabf8e89"
+        },
+        {
+          "path": "/es/noticias/",
+          "raw_public_sha256": "4e816a6cc73161b7da4cb7e8ad0abdfaca4fc719fcd259a57930d4e08f8ba99c",
+          "release_sha256": "18f07b111131f48b5d896c01fcae4219e2ce60f292987830e7e25b9a92b2ddb2"
+        },
+        {
+          "path": "/fr/",
+          "raw_public_sha256": "46e983af3ef59c261ce503de70971d0437188085ac956c68da8ce83e3206a74e",
+          "release_sha256": "4697d2239b0349ffcf535a0fd6f615cae1fd47de87afa95ca5e4ee43a14ac0b0"
+        },
+        {
+          "path": "/fr/actualites/",
+          "raw_public_sha256": "5f5269bd5026f21e17bf674733e29a6ab7c5b697e42545636fe941d41522ebe1",
+          "release_sha256": "658f4e2dfe63efec2311a08f70868ad1fc7b2402825aca81813e82732fa54c1e"
+        },
+        {
+          "path": "/fr/guides/",
+          "raw_public_sha256": "b35e616922fa5714a77b89f6c42a5bc162e672a0a5f5698311b9214cb55b960f",
+          "release_sha256": "11f87e164e4ba97298bdd1198877e40787b148d052070a7f4fc8a0b0954b5a1b"
+        },
+        {
+          "path": "/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+          "raw_public_sha256": "dd9cc7d44ded2b473f4b528b828749351e82b5bc85ff5f7f4c9a3b999a0575b1",
+          "release_sha256": "f333d9eb536fba487d13d6bbf237757592c23e60f59626f44ae983d68497cc5a"
+        },
+        {
+          "path": "/en/guides/gta-6-android-iphone-apk-remote-play/",
+          "raw_public_sha256": "a4963276df9706565c043f47b2879fd559908fc4bba33edbb823665349301c20",
+          "release_sha256": "d71613b4f54eecb004343ef956a132ecb95bf0c548d3b9c7c167aee17afd8cb9"
+        },
+        {
+          "path": "/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+          "raw_public_sha256": "d736fda22ae7443be8b8488d82569e861978e48fd9f06a13358fa444b3c99b40",
+          "release_sha256": "23798bd7bd66f1b17dd96bd74c16432d9ee5413f92aa77db299be308808efb42"
+        },
+        {
+          "path": "/en/guides/gta-6-ps5-download-playstation-app-phone/",
+          "raw_public_sha256": "6833e4e22285da4e94bb5880e460f7a46038ab806ea0bd518d817bd9ff804c89",
+          "release_sha256": "89b9031c2851fcbc9bb1fc8e8b18680ae4de94ab8a8625019467cb63bae2e918"
+        },
+        {
+          "path": "/en/news/gta-6-19-november-2026/",
+          "raw_public_sha256": "b39c8a412ee8501a5818172f83ee9bbfa5d6956a25865c94304cfd6b29e551cc",
+          "release_sha256": "4802987d7f53405c6c5d4a2a136a2824a48706c3a925938eb96b90e505443443"
+        },
+        {
+          "path": "/en/news/gta-6-39-new-screenshots-rockstar-launch-gallery/",
+          "raw_public_sha256": "17cafe4509534247212a70d82ca53869853f90dd3af8e0dd74a297f05aa8513a",
+          "release_sha256": "01513c7511e214bebe48fdb633d3eabdb4fe21ccd900b9f3558c7ce1e1eaede2"
+        },
+        {
+          "path": "/en/news/gta-6-launch-time-off-bamboohr-study/",
+          "raw_public_sha256": "4db46fac2acdb0cd05a390141343327d8f2b35e02d2686bee56206920952fa4b",
+          "release_sha256": "d1a93e5e4c6b73eaf03229adc98b44ccda99f9d5e749ed936bf40997421543ff"
+        },
+        {
+          "path": "/en/news/gta-6-six-real-cars-west-coast-customs/",
+          "raw_public_sha256": "c087bf192bf0d2780bf71a43aa0a26aab5d48f51452b467719aebd8695c499e6",
+          "release_sha256": "4be8507764242f28520cd9724866f3dbf03ba92057f6d0d91d639d7c804cca47"
+        },
+        {
+          "path": "/en/news/gta-6-wardogs-bulkhead-december-break-joe-brammer/",
+          "raw_public_sha256": "05ffff92608d75111f609b6ae33cd8d39fb3b555d34c6b2b7c1966c813a11cfd",
+          "release_sha256": "f622b683a99e75d75b1139bc8f71f3a430b092bec89359ffb5c3615d5909f0de"
+        },
+        {
+          "path": "/en/news/rumour-gta-6-first-person-camera-launch/",
+          "raw_public_sha256": "1aa87df7bc800876d7f908429aba881c476516518052410c9afd6b3df6894a90",
+          "release_sha256": "f6c064cd302b294fe51f8738a18d69716649c2cb495ac4d216141fa2c9c347cd"
+        },
+        {
+          "path": "/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+          "raw_public_sha256": "6a0feb3c3edabb6f19458ac88f618c97d82a9b5a0d87d639966af55837338e8c",
+          "release_sha256": "b8f5b31c0c892a82b293b6fa91b18f1299b977ddf2ecfd13c4a99c000c67c746"
+        },
+        {
+          "path": "/es/guias/gta-6-android-iphone-apk-remote-play/",
+          "raw_public_sha256": "27862abcb22e44103ea7fe34f4b661ee31af92c8647f219396b52fb67fc7299b",
+          "release_sha256": "2c81245cd361472c242840326cdfe11d4d3e9739b3e6bbeebddfa59b7582dcff"
+        },
+        {
+          "path": "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+          "raw_public_sha256": "81ae89a48235d2619b7dcb7474e32b5e47e6ed2eb8921b907850230e08b7ec9b",
+          "release_sha256": "86877839a6cab37cbf73aa1bbddb030bfa41eb6f3476528e21a698c67917e101"
+        },
+        {
+          "path": "/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+          "raw_public_sha256": "aca0acb5b284c6423a29b40c600417a7900b7c083241eae97006c83568c9dd9f",
+          "release_sha256": "da74418f8a3fb0c4f3d477f8a1351a281203143a6e09c66020f839cb65e25146"
+        },
+        {
+          "path": "/es/noticias/gta-6-19-november-2026/",
+          "raw_public_sha256": "5ce3d8b097ae0d772a75ab562f266b5323640fc6021d178c1092936fc11bc3f9",
+          "release_sha256": "0540d8b1e30975a9e7a1c482c53fbb32f7bbbaeacec636845883a5c9d8d01090"
+        },
+        {
+          "path": "/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/",
+          "raw_public_sha256": "cd5709a31b8e1dd8d4312c10298fe2a42fc68076bb788b0444a650f6f9d7e616",
+          "release_sha256": "6a1b43533c40fddac06adad0898dc95f18add185b97037b413c4f2daa5075a26"
+        },
+        {
+          "path": "/es/noticias/gta-6-dias-libres-solicitudes-bamboohr/",
+          "raw_public_sha256": "a4618885e533ad5d9aae4470909e70caf9c20fc7ff55419f8bf0ef8849836cf1",
+          "release_sha256": "4e46468fb63dd2cee3d2bccf31531aba870137f1c70dfa98001428eb4b575a90"
+        },
+        {
+          "path": "/es/noticias/gta-6-seis-coches-reales-west-coast-customs/",
+          "raw_public_sha256": "ac2ada7fe0416ce51ae26b77fb1050c83ae1cdc2c8b26b4c7df98e9f36b2c0b4",
+          "release_sha256": "84a2a8637fe8923b9d771670219abaf78483381bd4536621f81e0d11a546c9f6"
+        },
+        {
+          "path": "/es/noticias/gta-6-wardogs-bulkhead-pausa-diciembre-joe-brammer/",
+          "raw_public_sha256": "bc014f52ef1e1acc9225d5a3602b674981f12ef1d693e387376a32f8a45094ae",
+          "release_sha256": "8cc2ced10e0bc71f8bd1883f1e56eb2d38e336678cb7af4384f47b52400ade12"
+        },
+        {
+          "path": "/es/noticias/rumor-gta-6-primera-persona-camara-lanzamiento/",
+          "raw_public_sha256": "95ccb8949b0fd2f2d4a806a075b32c90b6bec2c25ab5084e16b581ce26eb0d04",
+          "release_sha256": "47492404f4cfb55923036e59d1f36af23d7d843d2559afe1f9f4a036272029cf"
+        },
+        {
+          "path": "/fr/actualites/gta-6-19-november-2026/",
+          "raw_public_sha256": "5e9caf742ce33f9a39543f7962e48423ba036389cc43e2ba3b8b09607370f871",
+          "release_sha256": "97925b081bccb9f0f6cc148d27986818bc2d2b20c28f2d955feef9fd6fbd4903"
+        },
+        {
+          "path": "/fr/actualites/gta-6-39-nouvelles-images-galerie-lancement-rockstar/",
+          "raw_public_sha256": "797d93048316d622e68d8faccfdb53da8dd37e7a57bcef0b9434b211140b1298",
+          "release_sha256": "879d85e439c208f738eef45c3b8980ebb708559e639ef9195a81e6a3ec56c7bb"
+        },
+        {
+          "path": "/fr/actualites/gta-6-six-voitures-reelles-west-coast-customs/",
+          "raw_public_sha256": "81b3dfaaa38ab12c3c5fc83d78f857f568691dd0f2e0f9caf8a36f8dace8ff63",
+          "release_sha256": "373f6e582bae168227f6153a84411f6300b6d5683012bfe3e213a6e7b11c9d60"
+        },
+        {
+          "path": "/fr/actualites/gta-6-sortie-conges-etude-bamboohr/",
+          "raw_public_sha256": "73b28688a305082953f6eeca2e196e285ec2c34d554fa73800b16b1510642712",
+          "release_sha256": "4e19f3249f7f50eeeae763227ee840c2d5c002e4bc0db2840cf9445609258a1c"
+        },
+        {
+          "path": "/fr/actualites/gta-6-wardogs-bulkhead-pause-decembre-joe-brammer/",
+          "raw_public_sha256": "fc7a796b23af4a3e8dc7e8d4685fb658b18f016565a116e27f1a6b7633b4556f",
+          "release_sha256": "2e1de7c86a711a2db383f5f239753c48a39b5890799227e8857b41e4fb87b003"
+        },
+        {
+          "path": "/fr/actualites/rumeur-gta-6-premiere-personne-camera-sortie/",
+          "raw_public_sha256": "b34248a948bb6f3427e478bc72c966446de1ffb006eb762419b8f3bb2b352bc3",
+          "release_sha256": "bb418425cd1eea31ac20dfaad0c66cdf8361ec181b32e89288b57001a22269ca"
+        },
+        {
+          "path": "/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/",
+          "raw_public_sha256": "e590144ebbe559a8bc354e8151fa7d788763b4a05bf09444ef52ad93453fbb57",
+          "release_sha256": "ae8e9dfe7812997ba7a6c58ee7901555ff031e9bcb12518b23f57b3b2262e6ab"
+        },
+        {
+          "path": "/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+          "raw_public_sha256": "81b6c254dbfdf223dc3beeced49e4e8f0360c099e154a646cf6c24276bfc68ba",
+          "release_sha256": "d17df07b918c28c46630dd68b07f731479033cdd39ec5a32df6dd1fbc64f82f7"
+        },
+        {
+          "path": "/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/",
+          "raw_public_sha256": "d76764e1063e161f71bbdfe8b2abd0f6fa0f29d600ef84115507d03ad91a7227",
+          "release_sha256": "130a8529435d1d4f35cb835384bafc1c179211c7d2a0d267386c8344fa6f8a68"
+        },
+        {
+          "path": "/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/",
+          "raw_public_sha256": "806b3f2c69da207ad884618b5f91820dc6f2c6f8797b88be3c771de32bc50301",
+          "release_sha256": "78df9cd2bd4d157c21842e54f9538d5605ef9e1e530238103a97ee1fb3077049"
+        }
+      ],
+      "errors": [],
+      "pinned_edge_injection": {
+        "bytes": 367,
+        "sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+        "provider": "Cloudflare Web Analytics"
+      },
+      "sitemap_xml": {
+        "path": "/sitemap.xml",
+        "url": "https://fansgta.com/sitemap.xml",
+        "status": 200,
+        "release_content_identical": true,
+        "raw_bytes_identical": true,
+        "sha256": "a81ede06b8c24c6ba163dce7a1797591e51d8fee5fc37fbe326aa53a1dd7ca2c"
+      },
+      "sitemap": {
+        "canonical_urls": 639,
+        "all_nine_versions_present": true,
+        "lastmod_correct": true,
+        "raw_bytes_identical": true
+      },
+      "robots_txt": {
+        "path": "/robots.txt",
+        "url": "https://fansgta.com/robots.txt",
+        "status": 200,
+        "release_content_identical": true,
+        "raw_bytes_identical": true,
+        "sha256": "bd9b866b74843acdd3eb30f21a127d250973660d80395f79067b97b30be67c99"
+      },
+      "ads_txt": {
+        "path": "/ads.txt",
+        "url": "https://fansgta.com/ads.txt",
+        "status": 200,
+        "release_content_identical": true,
+        "raw_bytes_identical": true,
+        "sha256": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa"
+      },
+      "counts": {
+        "articles": 9,
+        "discovery_pages": 9,
+        "internal_links": 30,
+        "resources": 33,
+        "errors": 0
+      }
+    },
+    "browser": {
+      "verified_at_utc": "2026-11-12T16:43:24.689Z",
+      "origin": "https://fansgta.com",
+      "article_ids": [
+        "gta6-playstation-portal-remote-play-20261112",
+        "gta6-logitech-game-day-20261112",
+        "gta6-only-in-dade-clip-20261112"
+      ],
+      "expected_article_count": 200,
+      "method": "6 contexts: ES/EN/FR x mobile390/desktop1440, site JavaScript enabled. Each of three articles is opened from its archive, followed by a locale switch. Own HTTPS responses use route.fetch with inherited managed proxy and normal CA/TLS verification, never ignoreHTTPSErrors. Only existing advertising/Analytics SDK fixtures are used. Initial HTML, sitemap and nine homepage/archive discovery URLs belong to the separate HTTP verifier. The browser does not visit the homepage or its unrelated external YouTube thumbnail, previously denied by the executor proxy. No console errors are suppressed. IGN and X source links are never fetched. These checks do not establish real creative delivery or monetization.",
+      "checks": [
+        {
+          "locale": "es",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-playstation-portal-remote-play-20261112"
+            },
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-logitech-game-day-time-off-event/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-logitech-game-day-20261112"
+            },
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-only-in-dade-clip-20261112"
+            }
+          ],
+          "articles": [
+            "gta6-playstation-portal-remote-play-20261112",
+            "gta6-logitech-game-day-20261112",
+            "gta6-only-in-dade-clip-20261112"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 9,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 3,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "en",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-playstation-portal-remote-play-20261112"
+            },
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-logitech-game-day-time-off-event/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-logitech-game-day-conge-evenement/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-logitech-game-day-20261112"
+            },
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-only-in-dade-clip-20261112"
+            }
+          ],
+          "articles": [
+            "gta6-playstation-portal-remote-play-20261112",
+            "gta6-logitech-game-day-20261112",
+            "gta6-only-in-dade-clip-20261112"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 9,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 3,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "fr",
+          "width": 390,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-playstation-portal-remote-play-20261112"
+            },
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-logitech-game-day-conge-evenement/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-logitech-game-day-20261112"
+            },
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-only-in-dade-clip-20261112"
+            }
+          ],
+          "articles": [
+            "gta6-playstation-portal-remote-play-20261112",
+            "gta6-logitech-game-day-20261112",
+            "gta6-only-in-dade-clip-20261112"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 9,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 3,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "es",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/es/guias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-playstation-portal-remote-play-20261112"
+            },
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-logitech-game-day-time-off-event/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-logitech-game-day-20261112"
+            },
+            {
+              "path": "/es/noticias/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-only-in-dade-clip-20261112"
+            }
+          ],
+          "articles": [
+            "gta6-playstation-portal-remote-play-20261112",
+            "gta6-logitech-game-day-20261112",
+            "gta6-only-in-dade-clip-20261112"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 9,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 3,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "en",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/en/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/guides/gta-6-playstation-portal-ps5-remote-play-cloud/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-playstation-portal-remote-play-20261112"
+            },
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-logitech-game-day-time-off-event/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-logitech-game-day-conge-evenement/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-logitech-game-day-20261112"
+            },
+            {
+              "path": "/en/news/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/en/news/gta-6-only-in-dade-vice-city-clip-what-we-know/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-only-in-dade-clip-20261112"
+            }
+          ],
+          "articles": [
+            "gta6-playstation-portal-remote-play-20261112",
+            "gta6-logitech-game-day-20261112",
+            "gta6-only-in-dade-clip-20261112"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 9,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 3,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        },
+        {
+          "locale": "fr",
+          "width": 1440,
+          "site_JavaScript": true,
+          "pages": [
+            {
+              "path": "/fr/guides/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/guides/gta-6-playstation-portal-ps5-lecture-distance-cloud/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/guias/gta-6-playstation-portal-ps5-remote-play-nube/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-playstation-portal-remote-play-20261112"
+            },
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-logitech-game-day-conge-evenement/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-logitech-game-day-20261112"
+            },
+            {
+              "path": "/fr/actualites/",
+              "kind": "category",
+              "status": 200
+            },
+            {
+              "path": "/fr/actualites/gta-6-video-only-in-dade-vice-city-ce-que-lon-sait/",
+              "kind": "article",
+              "status": 200,
+              "via_link": true
+            },
+            {
+              "path": "/es/noticias/gta-6-clip-only-in-dade-vice-city-que-se-sabe/",
+              "kind": "language_navigation",
+              "status": 200,
+              "article": "gta6-only-in-dade-clip-20261112"
+            }
+          ],
+          "articles": [
+            "gta6-playstation-portal-remote-play-20261112",
+            "gta6-logitech-game-day-20261112",
+            "gta6-only-in-dade-clip-20261112"
+          ],
+          "body_complete": true,
+          "headings_metadata_schema": true,
+          "images_decoded": 9,
+          "large_preview": true,
+          "reciprocal_hreflang": true,
+          "language_navigations": 3,
+          "advertising_scripts_single": true,
+          "unconsented_GA4": 0,
+          "overflow": false,
+          "JS_errors": [],
+          "console_errors": [],
+          "network_failures": [],
+          "IGN_X_requests": []
+        }
+      ],
+      "errors": [],
+      "counts": {
+        "contexts": 6,
+        "pages": 54,
+        "article_pages": 18,
+        "editorial_images_decoded": 54,
+        "hero_images_decoded": 0,
+        "language_navigations": 18,
+        "screenshots": 6
+      }
+    },
+    "protected_source_sha256": {
+      "index.html": "ab373051e9d76ea56b1673a3c378c9fe9423b2be5470c66715a5785dd406476e",
+      "package.json": "91df8d410b903b8799c443410e95c2003541eb880baab7e2a8cf39ec924133f2",
+      "package-lock.json": "b7299357343a7989f35ca990964ff10165b007939d4123da0dd59d091385eb4b",
+      "public/_headers": "ffe5f0d19831fa05c0dda64f1fc85f3c8ed814895edb98fe1435f7de085f4201",
+      "public/_redirects": "4ea6d2835a2685c1358c8ac49345a7564ef95bdb5becf9837ef89ced478f9e3a",
+      "public/ads.txt": "d7e43bb2201ba133fd29ef4726313134fe8ac975be61f3efced34ae1eec7ccfa",
+      "public/media/credits.json": "4115e3b43685aa261a51a18d9de0ef5cf7cac0bbdad28ae80e4a5b94b758cc45",
+      "src/ads/AdManager.tsx": "82e83322b4d43b865c315de9a325f3277b6847f551be0282bd1cd3e4a51d299e",
+      "src/ads/AdSlot.tsx": "d80ba062996674590c8a04fca9b93874d7285a7bc67d8f854a5713c0cb0e16ca",
+      "src/ads/config.ts": "cbdfb01ef3f74fda0a3499caba9bd1490f432b3eb09f348985411617a1ee1f5f",
+      "src/ads/loadAd.ts": "436d8b09761406f24b7d8183dd73e8e99ba4c651ea146bd4f072b59a1c8aa940",
+      "src/ads/AdDebug.tsx": "267586a226ce6083778ff60bb61629db1400e90e860e923604e585f40d2daab1",
+      "src/ads/postscribe.d.ts": "7448ef1ab0abee1e166d1e927180f30518e437a5878e40ec4d79a580d3338e63",
+      "src/ads/diagnostics.ts": "f093c22778266ca688d9feb40ff32fb21e5f4c21c6c23b560c6384015ec861cb",
+      "src/ads/SiteAds.tsx": "f2a6da717ccf894b8f1bd11c06128770c96e3ca8cb13e7eb021aedc22cba6e2d",
+      "src/analytics.ts": "2fe941449b9fe7f7eafec595710740008e22855a56cc53212f1ac303950d07dd",
+      "src/AnalyticsConsent.tsx": "3d371e94aa63afb2385d5c43dc24f019ec96a524e39c2440872dd30f217e9851",
+      "src/style.css": "b9050fbdd1c7aa69086a0964fec8344b5de57b8e2375ba189a0d8d902fb73aa3"
+    },
+    "own_js_css_sha256": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-sXrCCPVR.js": "51e2f4ef10d53232ae441dbcd3cec09d498c0d9202eebbc840d5d3bdbddcfeaa",
+      "assets/postscribe-r6f5iNPV.js": "1a000065f9407cc46642cc606fa6a7caf668238bc684895312d4801a8aaacb35"
+    },
+    "html_comparison_scope": "Public HTML equals the tested release after excluding only the exact single pinned Cloudflare Web Analytics tag and its newline. This is not a claim of raw HTML byte identity. All checked static resources, sitemap, robots.txt and ads.txt match raw release bytes.",
+    "browser_scope": "Public origin, 6 mobile/desktop language contexts. Provider SDK fixtures preserve deterministic navigation checks and do not establish real creative delivery. Homepage discovery is verified by HTTP, not browser video playback.",
+    "cloud_execution": "Performed in the managed cloud environment using GitHub App and configured Cloudflare credentials, with inherited proxy and normal TLS verification. No user computer files or processes were used. This run does not establish future scheduler or executor availability."
+  },
   "preservation": "Previous content, design, languages, ad units and scripts, Analytics consent, security, cache, subscriptions and automation preserved.",
   "limits": [
     "No Google search-volume or position guarantee.",
     "The Instagram check verifies post metadata, not a first-hand video viewing or direct capture of Rockstar Story.",
     "Current cloud access does not guarantee future executor or connection availability."
-  ]
+  ],
+  "verified_at_utc": "2026-11-12T16:43:33.980560+00:00",
+  "preservation_proof": {
+    "previous_topics": 197,
+    "previous_versions": 591,
+    "all_previous_articles_and_inventory_records_preserved": true,
+    "new_topics": 3,
+    "new_versions": 9,
+    "total_topics": 200,
+    "total_versions": 600
+  }
 }
