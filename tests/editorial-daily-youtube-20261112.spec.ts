@@ -1,4 +1,4 @@
-import {routePublicContent} from './helpers/public-content';
+import {routePublicContent,finishPublicContentRoutes} from './helpers/public-content';
 import {mkdir} from 'node:fs/promises';
 import {createElement} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
@@ -21,6 +21,8 @@ const social='https://bauval.org/14/72f531d35d71d31735aa4e4bae1dae41';
 const adsense='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1382859681401211';
 const normal=(value:string)=>value.replace(/\s+/g,' ').trim();
 const screenshotDir='/tmp/fansgta-seo-20261112/screenshots';
+
+test.afterEach(async({page,baseURL})=>{await finishPublicContentRoutes(page,baseURL);});
 
 test.beforeEach(async({page,baseURL})=>{
  await routePublicContent(page,baseURL);

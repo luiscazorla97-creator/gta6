@@ -1,5 +1,267 @@
 {
-  "state": "pending",
-  "checked_at_utc": "2026-11-12T22:32:55.583683+00:00",
-  "required": "Explicit Cloudflare production deployment and complete651URL verification; public browser checks."
+  "state": "published-and-publicly-verified",
+  "updated_article_urls": [
+    {
+      "id": "gta6-xbox-app-remote-install-20261111",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+        "https://fansgta.com/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+        "https://fansgta.com/fr/guides/gta-6-installer-xbox-app-mobile-console/"
+      ]
+    },
+    {
+      "id": "gta6-accessibility-console-preparation-20261106",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/",
+        "https://fansgta.com/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/",
+        "https://fansgta.com/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/"
+      ]
+    },
+    {
+      "id": "gta6-mobile-remote-20261101",
+      "urls": [
+        "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/",
+        "https://fansgta.com/en/guides/gta-6-android-iphone-apk-remote-play/",
+        "https://fansgta.com/fr/guides/gta-6-android-iphone-apk-lecture-distance/"
+      ]
+    },
+    {
+      "id": "gta6-preload-schedule-20261028",
+      "urls": [
+        "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+        "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+        "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/"
+      ]
+    },
+    {
+      "id": "ps5-features-2026-10-28",
+      "urls": [
+        "https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/",
+        "https://fansgta.com/en/news/gta-6-ps5-dualsense-3d-audio-features/",
+        "https://fansgta.com/fr/actualites/gta-6-ps5-dualsense-audio-3d-fonctionnalites/"
+      ]
+    },
+    {
+      "id": "legal-purchase-download-2026-10-28",
+      "urls": [
+        "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+        "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+        "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/"
+      ]
+    },
+    {
+      "id": "prepare",
+      "urls": [
+        "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/",
+        "https://fansgta.com/en/guides/prepare-console-account-launch/",
+        "https://fansgta.com/fr/guides/preparer-console-compte-sortie/"
+      ]
+    }
+  ],
+  "finished_at_utc": "2026-11-12T22:41:55.642736+00:00",
+  "runtime_commit": "3694a281d11c79bf50ddc616b9c5c9b5d13e5dcf",
+  "deployment": {
+    "deployment": {
+      "id": "23cf97e2-6d7a-4c14-b86e-98e0d15aa156",
+      "environment": "production",
+      "url": "https://23cf97e2.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-12T22:38:10.689057Z",
+        "ended_on": "2026-11-12T22:38:33.233978Z",
+        "status": "success"
+      },
+      "commit": "3694a281d11c79bf50ddc616b9c5c9b5d13e5dcf"
+    },
+    "canonical": {
+      "id": "23cf97e2-6d7a-4c14-b86e-98e0d15aa156",
+      "environment": "production",
+      "url": "https://23cf97e2.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-12T22:38:10.689057Z",
+        "ended_on": "2026-11-12T22:38:33.233978Z",
+        "status": "success"
+      },
+      "commit": "3694a281d11c79bf50ddc616b9c5c9b5d13e5dcf"
+    },
+    "checked_at_utc": "2026-11-12T22:38:56.566459+00:00"
+  },
+  "catalogue": {
+    "topics": 204,
+    "localized_articles": 612,
+    "canonical_urls": 651
+  },
+  "public_HTTP": {
+    "checked": 651,
+    "articles": 612,
+    "status": {
+      "200": 651
+    },
+    "by_language": {
+      "es": 217,
+      "en": 217,
+      "fr": 217
+    },
+    "issues": 0,
+    "all_initial_HTML_canonical_hreflang_metadata_valid": true,
+    "release_match_after_strict_edge_transforms": true,
+    "raw_HTML_not_claimed_identical": true,
+    "edge_method": "Canonical HTTPS GET with inherited managed proxy and normal CA TLS verification; standard browser UA. Initial main/article DOM parsed separately from hydration JSON. Release comparison removes only the exact pinned Cloudflare beacon. For twelve known legal routes only, a strict verified helper reverses the exact email obfuscation/decoder and rejects any other difference; raw bytes remain recorded.",
+    "exported_GSC_urls_rechecked_after_deployment": 288
+  },
+  "public_resources": {
+    "expected": 301,
+    "checked": 301,
+    "issues": 0,
+    "all_raw_bytes_match_release": true,
+    "includes": "All current generated public non-HTML files, sitemap.xml, robots.txt, ads.txt and optimized editorial media; excludes Cloudflare private control files."
+  },
+  "local_tests": {
+    "unique_cases_passed": 56,
+    "modified_linking_cases_repeated_passed": 22,
+    "release_and_static_passed": true,
+    "editorial_errors": 0,
+    "editorial_review_notices": 43
+  },
+  "production_browser": {
+    "passed_cases": 34,
+    "config": "Managed cloud Chromium desktop1440x1000 and mobile390x844, normal TLS and inherited proxy; canonical production origin.",
+    "scope": "ES/EN/FR homepage/guide archives, hydrated navigation, related/context links, all seven changed articles and the one new topic, media decoding and language selector.",
+    "fixtures": "Adsterra/AdSense/GTM SDKs empty test fixtures; unrelated external homepage i.ytimg.com poster blank test image. No blocked image retrieved, no creative delivery, Analytics receipt or video availability inferred.",
+    "log_sha256": "165c225bbea4a939829b16615853b31691df2ecc1681bba1e8381296c0421145",
+    "attempts": [
+      {
+        "attempt": 1,
+        "passed": 32,
+        "failed": 1,
+        "not_run": 1,
+        "cause": "Test-only proxy route was disposed during test teardown; no public HTTP or article assertion failure.",
+        "fix": "Wait for all in-flight route callbacks in afterEach before disposing the request context. No site/runtime edits."
+      },
+      {
+        "attempt": 2,
+        "passed": 34,
+        "failed": 0,
+        "not_run": 0
+      }
+    ]
+  },
+  "preservation": {
+    "before_topics": 203,
+    "unchanged_complete_articles": 196,
+    "updated_topics": [
+      "legal-purchase-download-2026-10-28",
+      "gta6-preload-schedule-20261028",
+      "prepare",
+      "ps5-features-2026-10-28",
+      "gta6-accessibility-console-preparation-20261106",
+      "gta6-mobile-remote-20261101",
+      "gta6-xbox-app-remote-install-20261111"
+    ],
+    "new_topics": [
+      "gta6-youtube-launch-livestream-20261112"
+    ],
+    "total_topics": 204,
+    "total_versions": 612,
+    "old_urls_preserved": 609,
+    "all_published_dates_preserved": true,
+    "all_previous_media_and_categories_preserved": true,
+    "protected_source_files_identical": 18,
+    "CSS_raw_identical": true,
+    "app_client_js_changes": "Only approved guide-card target, guide ordering and explicit related preferences; advertising/Analytics source files untouched."
+  },
+  "publication_limits": [
+    "Public technical readiness is not Google indexing or a verified Googlebot crawl.",
+    "GSC export identifies only288discovered URLs; other57/6/4/4 groups still need examples and URLInspection.",
+    "Zone-level WAF/bot logs and WWW server301need permissions not available here.",
+    "Schedule remains one daily topic in three languages through2026-11-19inclusive America/New_York; currentcloudsuccess does not guarantee future executor availability."
+  ],
+  "evidence_hashes": {
+    "public-crawl-final.json": "d132c16afe991be60507521880d136a91d1d54a446f800eea00d24b766f1dcc6",
+    "public-resources-final.json": "1a5a1f971045b009bc03feb3c219c7c02c98de48ef2496aefa67351d6e3e3985",
+    "gsc-comparison.json": "2515a312ccc1b17585cb5a9d4387038bec656c26364aae87b5808f2a46c0ce17",
+    "release-final-sha256.json": "d142361a939b8daab9aa4a6c41e150d5529cdc4f76eafd45c9bfe3acdebd2db0",
+    "browser-local.log": "6a493e0c9a62e319ca601fe404d4bb26c32e3de3a35063bda89f3ec036612df9",
+    "browser-linking-final.log": "6c308482b5696b612aca5717dae5839c12427f1adb528b7abcaf49c099dc3a43",
+    "browser-production-attempt1.log": "be8fd52ee3e121bb83fa9cd039bc6d6787dbcf4f554df6427ee9df87d8218594",
+    "browser-production.log": "165c225bbea4a939829b16615853b31691df2ecc1681bba1e8381296c0421145"
+  },
+  "verified_public_urls_csv": "docs/seo/2026-11-12-urls-publicas.csv",
+  "final_graph": {
+    "canonical_urls": 651,
+    "unique_sitemap_urls": 651,
+    "sitemap_entries": 651,
+    "html_documents": 656,
+    "distinct_internal_page_edges": 14758,
+    "same_origin_resource_anchor_targets": 0,
+    "locales": {
+      "es": {
+        "canonical_pages": 217,
+        "articles": 204,
+        "depth_distribution": {
+          "0": 1,
+          "1": 19,
+          "2": 197
+        },
+        "article_depth_distribution": {
+          "1": 7,
+          "2": 197
+        },
+        "article_inbound_other_articles_min": 1,
+        "article_inbound_other_articles_max": 31,
+        "article_inbound_same_locale_min": 2,
+        "article_inbound_same_locale_max": 33,
+        "articles_without_contextual_section_source_inbound": 77,
+        "articles_without_related_inbound": 0,
+        "articles_with_one_incoming_article": 19
+      },
+      "en": {
+        "canonical_pages": 217,
+        "articles": 204,
+        "depth_distribution": {
+          "0": 1,
+          "1": 19,
+          "2": 197
+        },
+        "article_depth_distribution": {
+          "1": 7,
+          "2": 197
+        },
+        "article_inbound_other_articles_min": 1,
+        "article_inbound_other_articles_max": 31,
+        "article_inbound_same_locale_min": 2,
+        "article_inbound_same_locale_max": 33,
+        "articles_without_contextual_section_source_inbound": 77,
+        "articles_without_related_inbound": 0,
+        "articles_with_one_incoming_article": 19
+      },
+      "fr": {
+        "canonical_pages": 217,
+        "articles": 204,
+        "depth_distribution": {
+          "0": 1,
+          "1": 19,
+          "2": 197
+        },
+        "article_depth_distribution": {
+          "1": 7,
+          "2": 197
+        },
+        "article_inbound_other_articles_min": 1,
+        "article_inbound_other_articles_max": 31,
+        "article_inbound_same_locale_min": 2,
+        "article_inbound_same_locale_max": 33,
+        "articles_without_contextual_section_source_inbound": 77,
+        "articles_without_related_inbound": 0,
+        "articles_with_one_incoming_article": 19
+      }
+    }
+  },
+  "post_proof_release_check": {
+    "checked_at_utc": "2026-11-12T22:42:23.007238+00:00",
+    "all_runtime_files_identical": 959,
+    "build_release_static_passed": true,
+    "reason_no_extra_deployment": "Evidence and test teardown changes do not alter any runtime output. The deployed commit remains the validated runtime."
+  }
 }

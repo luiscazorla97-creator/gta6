@@ -281,13 +281,14 @@
     "prior_urls_preserved": 609
   },
   "validation": {
-    "build_release": "passed; final artifact check before deployment required",
+    "build_release": "passed final",
     "static_SEO_editorial": "passed;0errors43existing-or-reviewed notices",
     "browser_unique_cases_passed": 56,
     "changed_linking_cases_retested_passed": 22,
-    "fixtures": "Only third-party ad/Analytics SDKs and unrelated homepage i.ytimg.com poster. No creative delivery, Analytics receipt or video delivery claim."
+    "fixtures": "Only third-party ad/Analytics SDKs and unrelated homepage i.ytimg.com poster. No creative delivery, Analytics receipt or video delivery claim.",
+    "production_browser_passed_cases": 34
   },
-  "publication": "Pending explicit deployment and public verification; see publication record when completed.",
+  "publication": "Published and publicly verified; see docs/editorial/2026-11-12-daily-youtube-publication.json",
   "independent_final_review": {
     "reviewed_at_utc": "2026-11-12T22:33:33.905166+00:00",
     "scope": "Read-only final review of current dailyYouTubeArticle/wrapper,sevenSEOupdates/wrapper and targeted daily/SEOtest source. No build,test execution,repoedits,deployment orpublicverification bythisreviewer.",

@@ -44,7 +44,8 @@
     "interpretation": "The last-crawl1969 dates are an unknown sentinel consistent with the supplied screenshot showing N/D, not an actual historical crawl or a site timestamp. All rows are pending validation. Public technical readiness does not prove Google indexing or crawl scheduling.",
     "scope_limit": "The file contains the288 discovered subset only; it does not identify the57 crawled-unindexed,6noindex,4notfound or4redirect rows.",
     "archive_sha256": "c4909e531e953f0ae64f00a986ffa21019f2ecca0b95859e51c8d06d922e73cf",
-    "raw_export_location": "User-uploaded ZIP retained in the managed cloud workspace; not committed to the public repository."
+    "raw_export_location": "User-uploaded ZIP retained in the managed cloud workspace; not committed to the public repository.",
+    "final_public_recheck_after_deployment": 288
   },
   "current_catalogue": {
     "topics": 204,
@@ -174,10 +175,12 @@
     "editorial_errors": 0,
     "unique_browser_cases_passed": 56,
     "changed_linking_cases_retested_passed": 22,
-    "production": "pending"
+    "production": "34passed"
   },
   "publication": {
-    "state": "pending",
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "3694a281d11c79bf50ddc616b9c5c9b5d13e5dcf",
+    "deployment_id": "23cf97e2-6d7a-4c14-b86e-98e0d15aa156",
     "proof": "docs/seo/2026-11-12-indexacion-publicacion.json"
   }
 }

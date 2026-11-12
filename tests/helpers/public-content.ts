@@ -20,3 +20,10 @@ export async function fixtureVideoPoster(page:Page){
   body:'<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270"></svg>',
  }));
 }
+
+// Finish outstanding proxy fetches before Playwright disposes its API context.
+// Waiting retains failures from active handlers instead of ignoring them.
+export async function finishPublicContentRoutes(page:Page,baseURL:string|undefined){
+ if(baseURL?.replace(/\/$/,'')==='https://fansgta.com')
+  await page.unrouteAll({behavior:'wait'});
+}

@@ -2,7 +2,7 @@
 
 La comprobación no encontró un bloqueo técnico general de los artículos. Las **288 URLs concretas** del archivo aportado de Search Console existen en el inventario, responden HTTP 200, permiten indexación y declaran su propia canonical. Esto acredita su disponibilidad pública; no demuestra que Google las haya rastreado o incorporado a su índice.
 
-**Estado de entrega:** las correcciones están implementadas y probadas localmente. El despliegue de esta revisión y su comprobación pública final permanecen pendientes. El rastreo público descrito abajo corresponde a la producción anterior, con 203 temas y 648 canónicas; la compilación preparada contiene 204 temas, 612 versiones y 651 canónicas. No se presenta una comprobación anterior como prueba del despliegue nuevo.
+**Estado de entrega:** correcciones publicadas y verificadas en producción. Commit `3694a281d11c79bf50ddc616b9c5c9b5d13e5dcf`; Cloudflare `23cf97e2-6d7a-4c14-b86e-98e0d15aa156`, con despliegue y canónico coincidentes. La comprobación final cubre las 651 canónicas actuales y sus 612 versiones de artículos. El rastreo inicial de 648 páginas que se cita abajo se mantiene identificado como línea de partida.
 
 ## Search Console: qué se pudo comprobar
 
@@ -69,3 +69,25 @@ Los cambios técnicos se concentran en `scripts/static-pages.mjs`, `scripts/veri
 5. Comparar las mismas cohortes, idiomas y periodos. Una respuesta 200 no revela por qué Google aplaza un rastreo o decide no indexar; faltan inspección privada, canonical elegida y datos de rastreo para atribuir esa causa.
 
 Ejemplos públicos para la muestra: [compra en español](https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/), [precarga en inglés](https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/) y [lenguas y subtítulos en francés](https://fansgta.com/fr/guides/gta-6-langues-doublage-sous-titres/). Son ejemplos de comprobación, no afirmaciones de indexación.
+
+
+## Artículos existentes revisados
+
+Las siguientes versiones conservan sus URLs y publicación original. Los cambios se limitan a texto justificado o referencias contextuales, según el registro.
+
+| Tema | Español | Inglés | Francés |
+| --- | --- | --- | --- |
+| Xbox App | [Abrir](https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/) | [Abrir](https://fansgta.com/en/guides/gta-6-xbox-app-phone-remote-install-console/) | [Abrir](https://fansgta.com/fr/guides/gta-6-installer-xbox-app-mobile-console/) |
+| Accesibilidad | [Abrir](https://fansgta.com/es/guias/gta-6-accesibilidad-subtitulos-controles-ps5-xbox/) | [Abrir](https://fansgta.com/en/guides/gta-6-accessibility-subtitles-controls-ps5-xbox/) | [Abrir](https://fansgta.com/fr/guides/gta-6-accessibilite-sous-titres-commandes-ps5-xbox/) |
+| Móvil | [Abrir](https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/) | [Abrir](https://fansgta.com/en/guides/gta-6-android-iphone-apk-remote-play/) | [Abrir](https://fansgta.com/fr/guides/gta-6-android-iphone-apk-lecture-distance/) |
+| Precarga | [Abrir](https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/) | [Abrir](https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/) | [Abrir](https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/) |
+| Funciones de PS5 | [Abrir](https://fansgta.com/es/noticias/gta-6-ps5-dualsense-audio-3d-funciones/) | [Abrir](https://fansgta.com/en/news/gta-6-ps5-dualsense-3d-audio-features/) | [Abrir](https://fansgta.com/fr/actualites/gta-6-ps5-dualsense-audio-3d-fonctionnalites/) |
+| Compra y descarga | [Abrir](https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/) | [Abrir](https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/) | [Abrir](https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/) |
+| Preparación | [Abrir](https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/) | [Abrir](https://fansgta.com/en/guides/prepare-console-account-launch/) | [Abrir](https://fansgta.com/fr/guides/preparer-console-compte-sortie/) |
+
+
+## Comprobación pública final
+
+Verificación terminada 2026-11-12T22:41:55.642736+00:00: 651 URLs HTTP 200, incluidas de nuevo las 288 exportadas, con contenido inicial, canonical y hreflang correctos. Las 612 versiones de artículos coinciden con el release después de las transformaciones estrictamente identificadas de Cloudflare. Los 301 recursos públicos no HTML comprobados coinciden en bytes, incluidos sitemap, robots, ads.txt, CSS y medios. El HTML bruto transformado por Cloudflare no se declara idéntico.
+
+En producción aprobaron 34 casos de navegador móvil y escritorio. El primer intento dejó 32 aprobados, un fallo y un caso sin ejecutar por cerrar antes de tiempo una ruta del verificador; se corrigió únicamente el cierre y se repitieron los 34 casos. Se conservan los límites de sustitución de SDK y póster ya descritos. Evidencia en [el registro de publicación](2026-11-12-indexacion-publicacion.json) y [el listado de URLs públicas](2026-11-12-urls-publicas.csv). El CSV documenta disponibilidad pública del sitio, no el estado privado de indexación de cada URL. La inclusión en Google sigue sin poder comprobarse desde este ejecutor.

@@ -1,4 +1,4 @@
-import {routePublicContent} from './helpers/public-content';
+import {routePublicContent,finishPublicContentRoutes} from './helpers/public-content';
 import {createElement} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {test,expect} from '@playwright/test';
@@ -17,6 +17,8 @@ const oldSize=['Esta comprobación no proporciona un tamaño verificado por plat
 const oldPrepare=['No afirmamos que exista una precarga, una reserva o una edición concreta','We are not claiming a preload, preorder or particular edition is available','Nous ne confirmons aucune disponibilité de préchargement, précommande ou édition particulière'];
 const oldPrepareSize=['Espera a una ficha oficial de tu plataforma para conocer el espacio necesario','Wait for an official listing for your platform to know the space needed','Attendez la fiche officielle de votre plateforme pour connaître l’espace nécessaire'];
 const normal=(value:string)=>value.replace(/\s+/g,' ').trim();
+
+test.afterEach(async({page,baseURL})=>{await finishPublicContentRoutes(page,baseURL);});
 
 test.beforeEach(async({page,baseURL})=>{
  await routePublicContent(page,baseURL);

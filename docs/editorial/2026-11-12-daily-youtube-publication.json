@@ -1,6 +1,86 @@
 {
-  "state": "pending",
+  "state": "published-and-publicly-verified",
+  "finished_at_utc": "2026-11-12T22:41:55.642736+00:00",
   "article_id": "gta6-youtube-launch-livestream-20261112",
-  "checked_at_utc": "2026-11-12T22:32:55.583683+00:00",
-  "required": "Verified production deployment, all three public URLs, sitemap, images, language selector and preservation checks."
+  "runtime_commit": "3694a281d11c79bf50ddc616b9c5c9b5d13e5dcf",
+  "deployment_id": "23cf97e2-6d7a-4c14-b86e-98e0d15aa156",
+  "canonical_deployment_matches": true,
+  "urls": [
+    "https://fansgta.com/es/noticias/gta-6-directo-youtube-lanzamiento-horario/",
+    "https://fansgta.com/en/news/gta-6-youtube-launch-livestream-schedule/",
+    "https://fansgta.com/fr/actualites/gta-6-direct-youtube-lancement-horaires/"
+  ],
+  "per_version": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-directo-youtube-lanzamiento-horario/",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-directo-youtube-lanzamiento-horario/"
+      ],
+      "article_sections": 5,
+      "article_paragraphs": 7,
+      "editorial_figures": 3,
+      "normalized_sha256": "b4602e28a458c0229e7b37dc5947a7ee7eb938b8def5686c14335c01f93b1e2a",
+      "release_sha256": "b4602e28a458c0229e7b37dc5947a7ee7eb938b8def5686c14335c01f93b1e2a",
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-youtube-launch-livestream-schedule/",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-youtube-launch-livestream-schedule/"
+      ],
+      "article_sections": 5,
+      "article_paragraphs": 7,
+      "editorial_figures": 3,
+      "normalized_sha256": "2e7352b2f423be2c119b851666fe9976effc0720055d460dce8afc7c3ce32acf",
+      "release_sha256": "2e7352b2f423be2c119b851666fe9976effc0720055d460dce8afc7c3ce32acf",
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-direct-youtube-lancement-horaires/",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-direct-youtube-lancement-horaires/"
+      ],
+      "article_sections": 5,
+      "article_paragraphs": 7,
+      "editorial_figures": 3,
+      "normalized_sha256": "40b2d96f2be3c7686192141a3dd395e340c126ba97a35b6e2380aa649eecc0fc",
+      "release_sha256": "40b2d96f2be3c7686192141a3dd395e340c126ba97a35b6e2380aa649eecc0fc",
+      "issues": []
+    }
+  ],
+  "production_browser": "Six dedicated ES/EN/FR desktop/mobile cases among34passed final checks; initial HTML, schema, sources, decoded official images, localized navigation and language selector.",
+  "preservation": {
+    "before_topics": 203,
+    "unchanged_complete_articles": 196,
+    "updated_topics": [
+      "legal-purchase-download-2026-10-28",
+      "gta6-preload-schedule-20261028",
+      "prepare",
+      "ps5-features-2026-10-28",
+      "gta6-accessibility-console-preparation-20261106",
+      "gta6-mobile-remote-20261101",
+      "gta6-xbox-app-remote-install-20261111"
+    ],
+    "new_topics": [
+      "gta6-youtube-launch-livestream-20261112"
+    ],
+    "total_topics": 204,
+    "total_versions": 612,
+    "old_urls_preserved": 609,
+    "all_published_dates_preserved": true,
+    "all_previous_media_and_categories_preserved": true,
+    "protected_source_files_identical": 18,
+    "CSS_raw_identical": true,
+    "app_client_js_changes": "Only approved guide-card target, guide ordering and explicit related preferences; advertising/Analytics source files untouched."
+  },
+  "shared_audit_proof": "docs/seo/2026-11-12-indexacion-publicacion.json",
+  "interest_signal": "Fresh official YouTube announcement datedNovember12; observed discussion, noGooglevolume/ranking claim.",
+  "fixture_limits": "Adsterra/AdSense/GTM SDKs empty test fixtures; unrelated external homepage i.ytimg.com poster blank test image. No blocked image retrieved, no creative delivery, Analytics receipt or video availability inferred.",
+  "daily_scope": "Exactly one new topic, complete in three languages, within authorized November19NY limit; frequency unchanged."
 }

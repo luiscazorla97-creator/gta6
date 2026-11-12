@@ -3,7 +3,7 @@ import {articles} from '../.ssr/entry-server.js';
 import {articlePath,sectionPath} from '../src/routes';
 import {relatedArticles} from '../src/related-articles';
 import {orderGuides} from '../src/guide-order';
-import {fixtureVideoPoster,routePublicContent} from './helpers/public-content';
+import {fixtureVideoPoster,routePublicContent,finishPublicContentRoutes} from './helpers/public-content';
 
 const locales=['es','en','fr'] as const;
 const priorityIds=[
@@ -36,6 +36,8 @@ const getArticle=(id:string)=>{
 };
 const cardPaths=(html:string)=>[...html.matchAll(/<article\b[^>]*class="archive-card(?: [^"]*)?"[^>]*>([\s\S]*?)<\/article>/g)].map(m=>m[1].match(/\bhref="([^"]+)"/)![1]);
 const relatedPaths=(html:string)=>cardPaths(html.match(/<section class="related">([\s\S]*?)<\/section>/)![1]);
+
+test.afterEach(async({page,baseURL})=>{await finishPublicContentRoutes(page,baseURL);});
 
 test.beforeEach(async({page,baseURL})=>{
  await routePublicContent(page,baseURL);
