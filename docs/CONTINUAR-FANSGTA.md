@@ -549,3 +549,12 @@ Mapas y descarga fácil publicados y comprobados: runtime 25b9b4b422f680ac036d57
 Un único tema nuevo ES/EN/FR, distinto de los 207 existentes. Fuentes primarias SEC y cobertura actual Game File/Xboxygen, con fechas diferenciadas y sin inferir anuncios específicos del juego de texto oculto. Tres capturas oficiales con crédito, alt y pies traducidos, WebP responsive. Investigación y revisión final: docs/editorial/2026-11-13-daily-xbox-agreement-research.json. No se inventan búsquedas ni rankings.
 
 Catálogo 208 temas/624 versiones/663 canónicas. Los 207 artículos anteriores, sus 621 URLs, 18 archivos protegidos y tres recursos CSS/JS mantienen sus bytes/objetos. Build release, estáticos/SEO/editoriales y 25 pruebas locales aprobados; cero errores y 42 avisos anteriores. SDK sustituidos solo en pruebas, sin certificar creatividades/eventos; Chromium cloud, no Safari ni dispositivos físicos. Publicación pendiente en docs/editorial/2026-11-13-daily-xbox-agreement-publication.json. Programación diaria intacta: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.
+
+
+Noticia diaria Xbox–Take-Two publicada y comprobada: runtime 0d6e679d4b5203d6bfc79dedc9f3cdb0ba624752, Cloudflare 07cf6233-ea84-4953-9d32-a7e19c3c69eb en deploy/success y canónico coincidente. Verificado 2026-11-13T22:35:52.488308+00:00: 663 canónicas y 624 versiones HTTP200; tres versiones nuevas en sitemap y con enlaces desde páginas existentes. Los 301 recursos públicos coinciden en bytes; 651 HTML no legales coinciden retirando solo el beacon exacto. Doce páginas legales con controles HTTP/metadatos, sin igualdad completa por transformación de correo. Tres comprobaciones con identificador Googlebot correctas, sin certificar IP de Google ni indexación.
+
+25 pruebas locales y nueve de producción aprobadas. Chromium cloud en escritorio/móvil/tablet, SDK simulados solo en pruebas; no se certifican Safari, dispositivos físicos, creatividades ni eventos de Analytics. Los 207 artículos anteriores, 18 archivos protegidos y tres recursos CSS/JS siguen idénticos. Publicación, investigación y límites: docs/editorial/2026-11-13-daily-xbox-agreement-*. La programación diaria no cambia.
+
+- https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/
+- https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/
+- https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/

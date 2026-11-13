@@ -1,5 +1,280 @@
 {
-  "state": "pending-deployment-and-public-verification",
-  "checked_at_utc": "2026-11-13T22:30:30.781060+00:00",
-  "required": "Confirmed GitHub main, successful Cloudflare canonical deployment, three public language URLs and browser/content/resource checks."
+  "state": "published-and-publicly-verified",
+  "verified_at_utc": "2026-11-13T22:35:52.488308+00:00",
+  "runtime_commit": "0d6e679d4b5203d6bfc79dedc9f3cdb0ba624752",
+  "runtime_tree": "3886b3108db0f22da4e0052e9ef61f2cb2cc0289",
+  "deployment": {
+    "deployment": {
+      "id": "07cf6233-ea84-4953-9d32-a7e19c3c69eb",
+      "environment": "production",
+      "url": "https://07cf6233.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-13T22:33:50.321167Z",
+        "ended_on": "2026-11-13T22:34:11.555277Z",
+        "status": "success"
+      },
+      "commit": "0d6e679d4b5203d6bfc79dedc9f3cdb0ba624752"
+    },
+    "canonical": {
+      "id": "07cf6233-ea84-4953-9d32-a7e19c3c69eb",
+      "environment": "production",
+      "url": "https://07cf6233.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-13T22:33:50.321167Z",
+        "ended_on": "2026-11-13T22:34:11.555277Z",
+        "status": "success"
+      },
+      "commit": "0d6e679d4b5203d6bfc79dedc9f3cdb0ba624752"
+    },
+    "checked_at_utc": "2026-11-13T22:34:27.747836+00:00"
+  },
+  "new_article": {
+    "id": "gta6-xbox-take-two-agreement-20261113",
+    "titles": {
+      "es": "GTA 6 y Xbox: claves del acuerdo con Take-Two",
+      "en": "GTA 6 and Xbox: understanding the Take-Two agreement",
+      "fr": "GTA 6 et Xbox : comprendre l’accord Take-Two"
+    },
+    "urls": {
+      "es": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/",
+      "en": "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/",
+      "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/"
+    },
+    "HTTP_and_metadata": [
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/",
+        "status": 200,
+        "locale": "es",
+        "canonical": [
+          "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/"
+        ],
+        "title": [
+          "GTA 6 y Xbox: claves del acuerdo con Take-Two | FansGTA"
+        ],
+        "description": [
+          "Fechas, paridad y plataformas: cómo leer el documento y comprobar qué requiere un anuncio específico del juego."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "hreflang": {
+          "es": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/",
+          "en": "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/",
+          "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/",
+          "x-default": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/"
+        },
+        "initial_main": true,
+        "article_sections": 6,
+        "figures": 3,
+        "h3": 0,
+        "sha256": "dbd2eea6ee30c9031f137ec74ee4aebf87ede3410e092fc8d17f3bd419f4f495",
+        "normalized_sha256": "bd8516bf3e91e8acf69a73b4dbbb461310b809f09c035f7ca2d5d660221a27ec",
+        "release_sha256": "bd8516bf3e91e8acf69a73b4dbbb461310b809f09c035f7ca2d5d660221a27ec",
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/",
+        "status": 200,
+        "locale": "en",
+        "canonical": [
+          "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/"
+        ],
+        "title": [
+          "GTA 6 and Xbox: understanding the Take-Two agreement | FansGTA"
+        ],
+        "description": [
+          "Dates, parity and platforms: how to read the document and check what needs a separate game announcement."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "hreflang": {
+          "es": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/",
+          "en": "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/",
+          "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/",
+          "x-default": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/"
+        },
+        "initial_main": true,
+        "article_sections": 6,
+        "figures": 3,
+        "h3": 0,
+        "sha256": "8aabb903bf588af815acc5783303f26c96221e219ea13c6c4aa90031c02b7cc7",
+        "normalized_sha256": "c13e5acdd561318a44e1d3677670de283c33c33af30c85c17686610d5445154e",
+        "release_sha256": "c13e5acdd561318a44e1d3677670de283c33c33af30c85c17686610d5445154e",
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/",
+        "status": 200,
+        "locale": "fr",
+        "canonical": [
+          "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/"
+        ],
+        "title": [
+          "GTA 6 et Xbox : comprendre l’accord Take-Two | FansGTA"
+        ],
+        "description": [
+          "Dates, parité et plateformes : lire le document et vérifier ce qui exige une annonce propre au jeu."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "hreflang": {
+          "es": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/",
+          "en": "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/",
+          "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/",
+          "x-default": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/"
+        },
+        "initial_main": true,
+        "article_sections": 6,
+        "figures": 3,
+        "h3": 0,
+        "sha256": "8f0a1cbec5addd253cd4e58193d28402b1c3e1e02ed6320b9d2517f475f270a9",
+        "normalized_sha256": "abacf2b4f45603681ad18756cc5dfbf4d26a45c39cafd697517147de23f276f3",
+        "release_sha256": "abacf2b4f45603681ad18756cc5dfbf4d26a45c39cafd697517147de23f276f3",
+        "matches_release": true,
+        "issues": []
+      }
+    ]
+  },
+  "public_validation": {
+    "canonical_URLs": 663,
+    "article_versions": 624,
+    "status": {
+      "200": 663
+    },
+    "locales": {
+      "es": 221,
+      "en": 221,
+      "fr": 221
+    },
+    "new_versions": 3,
+    "issues": 0,
+    "raw_resource_matches": 301,
+    "normalized_HTML_matches": 651,
+    "legal_comparison_limit": "Twelve legal pages transformed by Cloudflare email protection receive HTTP/meta checks; full HTML hash equality is not asserted there. All 624 article HTML files match release after removing only the exact pinned Cloudflare beacon.",
+    "method": "Normal HTTPS, inherited cloud proxy, browser UA and TLS verification; canonical GETs only. Removes only one exact pinned367byteCloudflarebeacon for raw-release comparison on651nonlegalHTMLpages. Twelve legal pages receive HTTP/meta checks but no full hash assertion because of existing Cloudflare email transforms. All301publicnonHTMLfiles compared raw bytes; no Google indexing or real SDK delivery claim.",
+    "new_article_inbounds": {
+      "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/news/",
+        "https://fansgta.com/en/news/gta-6-take-two-q2-2027-results-outlook/",
+        "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+        "https://fansgta.com/en/news/take-two-november-9-earnings-gta-6/",
+        "https://fansgta.com/en/news/gta-6-19-november-2026/",
+        "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/"
+      ],
+      "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/noticias/",
+        "https://fansgta.com/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+        "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+        "https://fansgta.com/es/noticias/take-two-resultados-9-noviembre-gta-6/",
+        "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+        "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/"
+      ],
+      "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/actualites/",
+        "https://fansgta.com/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+        "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+        "https://fansgta.com/fr/actualites/take-two-resultats-9-novembre-gta-6/",
+        "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+        "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/"
+      ]
+    },
+    "declared_Googlebot_checks": [
+      {
+        "url": "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/"
+        ],
+        "matches_release": true,
+        "issues": []
+      }
+    ],
+    "Googlebot_limit": "User-Agent comparison from the cloud executor, not verified Google IPs or Search Console URL Inspection.",
+    "sitemap_robots_ads_txt": "Raw bytes match release; three new URLs appear exactly once within 663 canonical entries, with real dates and reciprocal alternates verified in browser cases."
+  },
+  "tests": {
+    "build_release": "passed",
+    "static_SEO_editorial": "passed; 0 errors, 42 existing review notices",
+    "local_desktop_mobile_cases": 22,
+    "local_tablet_cases": 3,
+    "production_cases": 9,
+    "viewports": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "tablet": [
+        820,
+        1180
+      ]
+    },
+    "engine": "Chromium cloud emulation, not physical devices",
+    "WebKit_limit": "Not retested in this execution; earlier same-day attempt lacked system libraries. Safari and physical iPhones are not certified.",
+    "provider_fixtures": "Only Adsterra/AdSense/GTM SDKs replaced for deterministic content/navigation tests; real creative delivery and Analytics receipt are not claimed."
+  },
+  "preservation": {
+    "topics": 208,
+    "localized_versions": 624,
+    "new_topics": [
+      "gta6-xbox-take-two-agreement-20261113"
+    ],
+    "new_versions": 3,
+    "other_complete_topics_identical": 207,
+    "all_621_previous_URLs_preserved": true,
+    "protected_source_files_identical": 18,
+    "own_CSS_JS_assets_identical": 3,
+    "schedule": "Unchanged; exactly one new topic in this daily execution."
+  },
+  "client_assets": {
+    "status": "unchanged",
+    "verified_before_publication": true,
+    "assets": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-DegyzTCu.js": "cf98c01a30c492429259837ee5cb7f5deaaebceb0b9727e0894429b7da142dd6",
+      "assets/postscribe-YW_TQLIy.js": "ca1b92aee0dd819cff508889824f9b6989b0137d76cfbec73abf49172689a05a"
+    }
+  },
+  "evidence_hashes": {
+    "public-verification.json": "a27fbeb108d79b1af8b6c39f4d906f9602d3c4a6450effa0e6fa19b078c34021",
+    "release-sha256.json": "aa1bfd4f1512f23aa52e6fcfec805c4d0735ad9f1658f6b760a1022cf9c458c7",
+    "browser-local.log": "a8a1f1de12624f40619f0106141a171f6e1bddba39a657b742cb3b6e520e7f6e",
+    "browser-tablet.log": "3bcaace14e51d9cdd22328b8725d86bc9ec0b7759604ea27024d9be681cb2a6a",
+    "browser-production.log": "08792ba45684a7a932d76a14a4d5b646fdcca5b9315251291aaf6574f146e6b9",
+    "media-check.json": "6f1f19ab28f831ff0c998d5de31c2aa9fa28215128ca7e6f50ed3764c801a32d",
+    "final-qa.json": "32279e40d23175d901c01904ea805f2cc6ff5c544679dde8ceb5bf0b29366e2d"
+  },
+  "execution": "Completed using managed cloud, fresh GitHub main and existing Cloudflare connection; no user-PC files, processes or credentials.",
+  "schedule": "No automation change; one new topic in this daily execution. Authorization ends November 19, 2026 inclusive, America/New_York; current success does not guarantee future executor availability.",
+  "indexation": "Public readiness verified. Actual Google indexing, chosen canonical and crawl scheduling are not verified without Search Console access."
 }

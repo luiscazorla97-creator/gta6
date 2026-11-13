@@ -1,6 +1,6 @@
 # Noticia diaria — FansGTA, 13 de noviembre de 2026
 
-Un tema nuevo, completo en español, inglés y francés: lectura del acuerdo Xbox–Take-Two como contexto para seguir GTA VI. El interés procede de cobertura actual en Game File y Xboxygen; no se afirma que sea lo más buscado ni se inventan cifras de demanda. La cronología distingue el contrato y su presentación de la cobertura periodística. Publicación pública pendiente.
+Un tema nuevo, completo en español, inglés y francés: lectura del acuerdo Xbox–Take-Two como contexto para seguir GTA VI. El interés procede de cobertura actual en Game File y Xboxygen; no se afirma que sea lo más buscado ni se inventan cifras de demanda. La cronología distingue el contrato y su presentación de la cobertura periodística. Publicación completada y verificada en producción.
 
 ## Versiones preparadas
 
@@ -22,4 +22,13 @@ Los 207 artículos anteriores conservan sus objetos completos y las 621 URLs. Lo
 
 Los SDK externos se simulan solo durante pruebas de contenido: no certifican anuncios reales ni recepción de Analytics. Se utilizó Chromium cloud en tres tamaños; no se certifican Safari ni dispositivos físicos. No hay inspección privada de Search Console ni promesa de plazo de indexación.
 
-El despliegue y las comprobaciones públicas se cerrarán en el registro de publicación. Investigación y evidencia: docs/editorial/2026-11-13-daily-xbox-agreement-research.json y docs/editorial/2026-11-13-daily-xbox-agreement-publication.json.
+El despliegue y las comprobaciones públicas están cerrados en el registro de publicación. Investigación y evidencia: docs/editorial/2026-11-13-daily-xbox-agreement-research.json y docs/editorial/2026-11-13-daily-xbox-agreement-publication.json.
+
+
+## Publicación comprobada
+
+Commit `0d6e679d4b5203d6bfc79dedc9f3cdb0ba624752`; Cloudflare `07cf6233-ea84-4953-9d32-a7e19c3c69eb`, despliegue correcto y canónico coincidente. Verificado 2026-11-13T22:35:52.488308+00:00. Las 663 canónicas y las 624 versiones responden 200. Las tres nuevas versiones están en sitemap y enlazadas desde portada, sección y artículos existentes.
+
+Los 301 recursos públicos coinciden en bytes. Los 651 HTML no legales, incluidos los 624 artículos, coinciden con el release tras retirar únicamente el beacon exacto de Cloudflare. Las doce páginas legales tienen controles HTTP/metadatos, sin igualdad completa de HTML por la protección de correo existente. Tres solicitudes con identificador declarado Googlebot respondieron correctamente; no proceden de IPs verificadas de Google ni prueban indexación.
+
+Aprobaron nueve casos de navegador públicos, además de los 25 locales, con imágenes, metadatos y cambio de idioma en escritorio/móvil/tablet. Los SDK se simulan solo en pruebas y no certifican creatividades reales. Los 207 artículos anteriores, 18 archivos protegidos y tres recursos propios CSS/JS mantienen sus objetos o bytes. La ejecución se realizó íntegramente en cloud. No hay borradores pendientes de este tema ni cambios de programación; las limitaciones de métricas de demanda, Safari e inspección privada de Google permanecen documentadas.

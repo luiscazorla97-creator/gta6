@@ -462,11 +462,25 @@
     "editorial": "0 errors, 42 existing review notices",
     "desktop_mobile_cases": 22,
     "tablet_cases": 3,
-    "production": "pending",
+    "production": {
+      "passed": 9,
+      "failed": 0,
+      "engine": "Chromium",
+      "viewports": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ]
+    },
     "external_SDK_limit": "Adsterra/AdSense/GTM scripts are replaced only in deterministic browser tests; no real creative delivery or Analytics receipt claimed.",
     "browser_limit": "Chromium cloud emulation. Earlier same-day WebKit system-library limitation remains; Safari and physical devices are not certified."
   },
   "scope_controls": "No ad, consent, design, security, cache, subscription, other-project or automation schedule changes. Existing articles preserved. No purchases or third-party messages.",
-  "publication": "Pending explicit deployment and public URL verification.",
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "0d6e679d4b5203d6bfc79dedc9f3cdb0ba624752",
+    "deployment_id": "07cf6233-ea84-4953-9d32-a7e19c3c69eb",
+    "proof": "docs/editorial/2026-11-13-daily-xbox-agreement-publication.json"
+  },
   "indexing": "Ready-for-crawl checks do not prove actual Google indexing; no Search Console URL inspection connector available and no rank/time promises."
 }
