@@ -1110,9 +1110,23 @@
     "editorial": "0errors42reviewnotices; one previous source-placement notice resolved by the map update",
     "desktop_mobile_cases_passed": 22,
     "tablet_cases_passed": 3,
-    "production": "pending"
+    "production": {
+      "passed": 9,
+      "failed": 0,
+      "engine": "Chromium",
+      "viewports": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ]
+    }
   },
   "indexation_limit": "Technical readiness does not establish Google indexing or speed. No Search Console URL Inspection connection used; no invented search volume/ranking/Google Trends values.",
   "scope_controls": "Design, advertising, consent, security/cache rules, languages, subscriptions and daily schedule unchanged. Manual equivalent-intent update only.",
-  "publication": "Pending explicit deployment and public verification."
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "25b9b4b422f680ac036d5796b238d7d32c393aad",
+    "deployment_id": "21c46033-72b1-4d33-9dff-4c58a9bfda67",
+    "proof": "docs/editorial/2026-11-13-map-preload-publication.json"
+  }
 }

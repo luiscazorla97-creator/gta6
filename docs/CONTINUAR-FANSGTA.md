@@ -530,3 +530,15 @@ El usuario pidió mapa actualizado y descarga fácil antes del estreno. Las dos 
 Una concordancia española en la guía de descargas atascadas se corrige de «desde el pantalla» a «desde la pantalla»; no cambia sus hechos ni otras versiones. Los otros 204 temas permanecen idénticos. Catálogo 207/621 versiones y 660 canónicas. Investigación, palabras clave, títulos, fuentes, medios y QA: docs/editorial/2026-11-13-map-preload-research.json. Informe: docs/editorial/2026-11-13-map-preload-informe.md.
 
 Build release, estáticos/SEO/editoriales aprobados: 665 HTML, 29.969 enlaces, 1.304 bloques estructurados; cero errores y 42 avisos. Un aviso previo de citas del mapa queda resuelto. 22 pruebas locales escritorio/móvil y tres de tablet aprobadas. SDK simulados solo para contenido/navegación; no certifica anuncios reales ni Analytics. No se garantiza indexación rápida ni top 10. Anuncios, diseño, consentimiento, idiomas, seguridad/caché y programación diaria conservados. Publicación pública pendiente en docs/editorial/2026-11-13-map-preload-publication.json.
+
+
+Mapas y descarga fácil publicados y comprobados: runtime 25b9b4b422f680ac036d5796b238d7d32c393aad, Cloudflare 21c46033-72b1-4d33-9dff-4c58a9bfda67 en deploy/success y canónico coincidente. Verificado 2026-11-13T21:04:23.941047+00:00: 660 canónicas y 621 artículos HTTP200; las seis versiones renovadas mantienen URLs, publicación original y entradas desde páginas existentes. Los 301 recursos públicos coinciden en bytes y los 648 HTML no legales coinciden retirando solo el beacon exacto; las doce páginas legales tienen controles HTTP/metadatos, sin igualdad completa del HTML. Seis solicitudes con identificador Googlebot correctas, sin certificar IP de Google ni indexación.
+
+25 pruebas locales y nueve de producción aprobadas en escritorio/móvil/tablet. Anuncios/Analytics simulados solo en pruebas; no se certifican creatividades reales. Chromium cloud, sin certificar Safari ni iPhone físico. Los 18 archivos protegidos y los tres recursos propios CSS/JS mantienen bytes. Los 204 temas restantes son idénticos, además de los dos renovados y una concordancia española corregida. Investigación e informe en docs/editorial/2026-11-13-map-preload-*. La programación diaria permanece igual.
+
+- https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/
+- https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/
+- https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/
+- https://fansgta.com/es/mapa/gta-6-leonida-locations/
+- https://fansgta.com/en/map/gta-6-leonida-locations/
+- https://fansgta.com/fr/carte/gta-6-leonida-locations/

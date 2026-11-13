@@ -1,6 +1,6 @@
 # Mapas y descarga fácil de GTA VI — 13 de noviembre de 2026
 
-Dos guías renovadas en español, inglés y francés. Ambas intenciones ya estaban cubiertas: se conservan sus seis URLs y la publicación original, con revisión sustancial del 13 de noviembre. No se crean páginas duplicadas. Publicación pública pendiente.
+Dos guías renovadas en español, inglés y francés. Ambas intenciones ya estaban cubiertas: se conservan sus seis URLs y la publicación original, con revisión sustancial del 13 de noviembre. No se crean páginas duplicadas. Publicación completada y verificada en producción.
 
 ## Contenido actualizado
 
@@ -36,4 +36,15 @@ No se modifican diseño, anuncios, consentimiento, seguridad, caché, idiomas o 
 
 No hay integración de inspección de Search Console ni datos numéricos de demanda en esta ejecución. Canonical, hreflang y lastmod ayudan al rastreo, pero Google decide cuándo rastrear e indexar; no se promete un plazo.
 
-La comprobación de producción y el despliegue se cerrarán en el registro de publicación.
+La comprobación de producción y el despliegue están cerrados en el registro de publicación.
+
+
+## Publicación comprobada
+
+Commit `25b9b4b422f680ac036d5796b238d7d32c393aad`; Cloudflare `21c46033-72b1-4d33-9dff-4c58a9bfda67`, despliegue correcto y canónico coincidente. Verificado 2026-11-13T21:04:23.941047+00:00. Las 660 canónicas y las 621 versiones de artículos responden 200. Las seis versiones actualizadas están en sitemap, accesibles desde categorías/archivo y enlazadas desde artículos relacionados existentes.
+
+Los 301 recursos públicos coinciden en bytes con el release. Los 648 HTML no legales, incluidos los 621 artículos, coinciden tras retirar únicamente el beacon exacto de Cloudflare; no se afirma igualdad bruta ni de las doce páginas legales transformadas por protección de correo. Seis solicitudes con identificador declarado Googlebot respondieron correctamente; no proceden de IPs verificadas de Google ni prueban indexación.
+
+Aprobaron nueve casos de navegador públicos, además de los 25 locales, con las dos guías en los tres idiomas y tres tamaños de pantalla. Las imágenes, el texto inicial, los enlaces de idioma, canonical, hreflang y datos estructurados funcionan. Los SDK externos se simulan solo en estas pruebas y no certifican creatividades reales.
+
+Los 204 temas ajenos a esta actualización y a la corrección gramatical conservan sus objetos completos. Los 18 archivos protegidos y los tres recursos propios de CSS/JavaScript conservan sus bytes. Las seis URLs y las fechas originales se mantienen; no se generan páginas duplicadas. Programación diaria intacta; Google decide cuándo rastrea e indexa.

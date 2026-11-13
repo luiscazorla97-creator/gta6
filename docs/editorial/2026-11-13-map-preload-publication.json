@@ -1,5 +1,554 @@
 {
-  "state": "pending",
-  "checked_at_utc": "2026-11-13T20:58:01.055089+00:00",
-  "required": "Successful explicit Cloudflare production deployment and six updated public versions/images/metadata/language selector verified."
+  "state": "published-and-publicly-verified",
+  "verified_at_utc": "2026-11-13T21:04:23.941047+00:00",
+  "runtime_commit": "25b9b4b422f680ac036d5796b238d7d32c393aad",
+  "runtime_tree": "d281d17c63bb98d14d6b0aba8e9d16017641d419",
+  "deployment": {
+    "deployment": {
+      "id": "21c46033-72b1-4d33-9dff-4c58a9bfda67",
+      "environment": "production",
+      "url": "https://21c46033.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-13T21:02:51.749905Z",
+        "ended_on": "2026-11-13T21:03:14.648046Z",
+        "status": "success"
+      },
+      "commit": "25b9b4b422f680ac036d5796b238d7d32c393aad"
+    },
+    "canonical": {
+      "id": "21c46033-72b1-4d33-9dff-4c58a9bfda67",
+      "environment": "production",
+      "url": "https://21c46033.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-13T21:02:51.749905Z",
+        "ended_on": "2026-11-13T21:03:14.648046Z",
+        "status": "success"
+      },
+      "commit": "25b9b4b422f680ac036d5796b238d7d32c393aad"
+    },
+    "checked_at_utc": "2026-11-13T21:03:19.893078+00:00"
+  },
+  "updated_articles": [
+    {
+      "id": "gta6-preload-schedule-20261028",
+      "titles": [
+        "Cómo descargar GTA 6 antes del lanzamiento: guía fácil",
+        "How to download GTA 6 before release: an easy guide",
+        "Télécharger GTA 6 avant sa sortie : le guide simple"
+      ],
+      "urls": {
+        "es": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+        "en": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+        "fr": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+          ],
+          "title": [
+            "Cómo descargar GTA 6 antes del lanzamiento: guía fácil | FansGTA"
+          ],
+          "description": [
+            "Descarga GTA 6 antes del estreno en PS5 o Xbox Series X|S: pasos sencillos, cuenta correcta, código de caja, espacio y comprobación de la precarga."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+            "en": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+            "fr": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+            "x-default": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+          },
+          "initial_main": true,
+          "article_sections": 11,
+          "figures": 4,
+          "h3": 1,
+          "sha256": "174bd7098b0f4bf5376e96482a9d0269b74272cfe8bfb0ad1b06f488526d7941",
+          "normalized_sha256": "2047b39b4e01a5a78d7ac37079cd9283bfb1295733daa3e3d3517e1d373f5a50",
+          "release_sha256": "2047b39b4e01a5a78d7ac37079cd9283bfb1295733daa3e3d3517e1d373f5a50",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/"
+          ],
+          "title": [
+            "How to download GTA 6 before release: an easy guide | FansGTA"
+          ],
+          "description": [
+            "Download GTA 6 before launch on PS5 or Xbox Series X|S: simple steps, the right account, boxed codes, storage and a final preload check."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+            "en": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+            "fr": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+            "x-default": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+          },
+          "initial_main": true,
+          "article_sections": 11,
+          "figures": 4,
+          "h3": 1,
+          "sha256": "9c5f87afc135f615d3b1522e288db47038cbb7c35c09d76f6c8a04bada4baa2c",
+          "normalized_sha256": "d7179ceb7d0ab95546b7aaa3f094ac22aece69d00a2a9b9cf05324f2f41c03f1",
+          "release_sha256": "d7179ceb7d0ab95546b7aaa3f094ac22aece69d00a2a9b9cf05324f2f41c03f1",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/"
+          ],
+          "title": [
+            "Télécharger GTA 6 avant sa sortie : le guide simple | FansGTA"
+          ],
+          "description": [
+            "Téléchargez GTA 6 avant sa sortie sur PS5 ou Xbox Series X|S : étapes simples, bon compte, code en boîte, stockage et vérification du préchargement."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+            "en": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+            "fr": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+            "x-default": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+          },
+          "initial_main": true,
+          "article_sections": 11,
+          "figures": 4,
+          "h3": 1,
+          "sha256": "0cbec891130c950f16a81817884d074f0c2bcdd969307a42ba063d6cf43b8db1",
+          "normalized_sha256": "77f4e365d901e5ebe09d13aa0e308ffef26461f0721f622ea72e11f2d3b8abca",
+          "release_sha256": "77f4e365d901e5ebe09d13aa0e308ffef26461f0721f622ea72e11f2d3b8abca",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "id": "gta-6-leonida-locations",
+      "titles": [
+        "Mapa de GTA 6: regiones de Leonida y novedades verificadas",
+        "GTA 6 map: Leonida regions and the latest verified details",
+        "Carte de GTA 6 : régions de Leonida et dernières informations"
+      ],
+      "urls": {
+        "es": "https://fansgta.com/es/mapa/gta-6-leonida-locations/",
+        "en": "https://fansgta.com/en/map/gta-6-leonida-locations/",
+        "fr": "https://fansgta.com/fr/carte/gta-6-leonida-locations/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/mapa/gta-6-leonida-locations/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/mapa/gta-6-leonida-locations/"
+          ],
+          "title": [
+            "Mapa de GTA 6: regiones de Leonida y novedades verificadas | FansGTA"
+          ],
+          "description": [
+            "Mapa de GTA 6 actualizado al 13 de noviembre: seis regiones, imágenes oficiales, exploración 3D, póster y rumores claramente separados."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/mapa/gta-6-leonida-locations/",
+            "en": "https://fansgta.com/en/map/gta-6-leonida-locations/",
+            "fr": "https://fansgta.com/fr/carte/gta-6-leonida-locations/",
+            "x-default": "https://fansgta.com/es/mapa/gta-6-leonida-locations/"
+          },
+          "initial_main": true,
+          "article_sections": 14,
+          "figures": 7,
+          "h3": 3,
+          "sha256": "cc5ca51dd20cfe6adf2d3cf4eb169751dad2fc6945c08edda42f0bb4f7d8ed29",
+          "normalized_sha256": "1f3297d008f976703813f4fd350c5d21781c76498d0d21c46115c2b2287c763f",
+          "release_sha256": "1f3297d008f976703813f4fd350c5d21781c76498d0d21c46115c2b2287c763f",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/map/gta-6-leonida-locations/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/map/gta-6-leonida-locations/"
+          ],
+          "title": [
+            "GTA 6 map: Leonida regions and the latest verified details | FansGTA"
+          ],
+          "description": [
+            "GTA 6 map updated November 13: six regions, official screenshots, 3D exploration, the printable poster and clearly labelled unverified reports."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/mapa/gta-6-leonida-locations/",
+            "en": "https://fansgta.com/en/map/gta-6-leonida-locations/",
+            "fr": "https://fansgta.com/fr/carte/gta-6-leonida-locations/",
+            "x-default": "https://fansgta.com/es/mapa/gta-6-leonida-locations/"
+          },
+          "initial_main": true,
+          "article_sections": 14,
+          "figures": 7,
+          "h3": 3,
+          "sha256": "0de6f572a764fd02d6757991b5d96f4b6bf244b46d992dc4ff3a62a7570aca99",
+          "normalized_sha256": "8c42e080f966d04f1f880af6bf4bd29646323c7b116a1fd2c0fce67ac2205098",
+          "release_sha256": "8c42e080f966d04f1f880af6bf4bd29646323c7b116a1fd2c0fce67ac2205098",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/carte/gta-6-leonida-locations/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/carte/gta-6-leonida-locations/"
+          ],
+          "title": [
+            "Carte de GTA 6 : régions de Leonida et dernières informations | FansGTA"
+          ],
+          "description": [
+            "Carte de GTA 6 au 13 novembre : six régions, images officielles, exploration 3D, affiche imprimable et informations non vérifiées signalées."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/mapa/gta-6-leonida-locations/",
+            "en": "https://fansgta.com/en/map/gta-6-leonida-locations/",
+            "fr": "https://fansgta.com/fr/carte/gta-6-leonida-locations/",
+            "x-default": "https://fansgta.com/es/mapa/gta-6-leonida-locations/"
+          },
+          "initial_main": true,
+          "article_sections": 14,
+          "figures": 7,
+          "h3": 3,
+          "sha256": "1e504a45778abb5c3f7d758c3ed2613691adb5417087d0b3be27662b1234b513",
+          "normalized_sha256": "bd729aa82ae9822d6c78ab23674470a94778f972a296ba11d7085f67fb8297e3",
+          "release_sha256": "bd729aa82ae9822d6c78ab23674470a94778f972a296ba11d7085f67fb8297e3",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "public_validation": {
+    "canonical_URLs": 660,
+    "article_versions": 621,
+    "status": {
+      "200": 660
+    },
+    "locales": {
+      "es": 220,
+      "en": 220,
+      "fr": 220
+    },
+    "updated_versions": 6,
+    "issues": 0,
+    "raw_resource_matches": 301,
+    "normalized_HTML_matches": 648,
+    "legal_comparison_limit": "Twelve legal pages transformed by Cloudflare email protection receive HTTP/meta checks; full HTML hash equality is not asserted there. All 621 article HTML files match release after removing only the exact pinned Cloudflare beacon.",
+    "method": "Normal HTTPS, inherited cloud proxy, browser UA and TLS verification; canonical GETs only. Removes only one exact pinned367byteCloudflarebeacon for raw-release comparison on648nonlegalHTMLpages. Twelve legal pages receive HTTP/meta checks but no full hash assertion because of existing Cloudflare email transforms. All301publicnonHTMLfiles compared raw bytes; no Google indexing or real SDK delivery claim.",
+    "updated_article_inbounds": {
+      "https://fansgta.com/en/map/gta-6-leonida-locations/": [
+        "https://fansgta.com/en/map/",
+        "https://fansgta.com/en/news/gta-6-burger-shot-cluckin-bell-miami-locations/",
+        "https://fansgta.com/en/guides/gta-6-roleplay-life-leonida-story-mode/",
+        "https://fansgta.com/en/guides/gta-6-vice-city-neighbourhoods-locations-images/",
+        "https://fansgta.com/en/guides/gta-6-leonida-keys-islands-bars-images/",
+        "https://fansgta.com/en/guides/gta-6-ambrosia-refinery-bikers-images/",
+        "https://fansgta.com/en/guides/gta-6-animals-wildlife-leonida-species/",
+        "https://fansgta.com/en/guides/gta-6-map-size-leonida-edge-comparison/",
+        "https://fansgta.com/en/news/gta-6-rideable-buses-trains-edge/",
+        "https://fansgta.com/en/guides/gta-6-dynamic-weather-storms/",
+        "https://fansgta.com/en/guides/gta-6-npc-ai-behaviour/",
+        "https://fansgta.com/en/guides/gta-6-vs-gta-5-confirmed-differences/",
+        "https://fansgta.com/en/map/gta-6-official-map-or-fan-map/"
+      ],
+      "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+        "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/",
+        "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+        "https://fansgta.com/es/noticias/gta-6-directo-youtube-lanzamiento-horario/",
+        "https://fansgta.com/es/noticias/gta-6-precarga-record-trafico-virgin-media/",
+        "https://fansgta.com/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/",
+        "https://fansgta.com/es/noticias/gta-6-encuesta-ipsos-intencion-compra-reino-unido/",
+        "https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+        "https://fansgta.com/es/guias/gta-6-transferir-ps5-ps5-pro-datos-juegos/",
+        "https://fansgta.com/es/noticias/gta-6-grand-rex-paris-evento-19-noviembre-entradas/",
+        "https://fansgta.com/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+        "https://fansgta.com/es/guias/jugar-gta-6-pc-mac-remote-play-ps5/",
+        "https://fansgta.com/es/guias/gta-6-compartir-xbox-principal-licencias/",
+        "https://fansgta.com/es/noticias/gta-6-poster-mediamarkt-reserva-alemania/",
+        "https://fansgta.com/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+        "https://fansgta.com/es/noticias/gta-6-zelnick-retrasos-calidad-rockstar/",
+        "https://fansgta.com/es/noticias/gta-6-spectrum-mejora-velocidad-gratis-requisitos/",
+        "https://fansgta.com/es/noticias/gta-6-selfridges-experiencia-9-noviembre-detalles/",
+        "https://fansgta.com/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/",
+        "https://fansgta.com/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/",
+        "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+        "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+        "https://fansgta.com/es/noticias/rumor-gta-6-walmart-regalo-sorpresa-reservas/",
+        "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+        "https://fansgta.com/es/guias/gta-6-android-iphone-apk-remote-play/",
+        "https://fansgta.com/es/noticias/gta-6-dias-libres-solicitudes-bamboohr/",
+        "https://fansgta.com/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+        "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+        "https://fansgta.com/es/guias/gta-6-collectors-box-incluye-juego/",
+        "https://fansgta.com/es/noticias/rumor-gta-6-210-gb-tamano-descarga-ps5/",
+        "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+        "https://fansgta.com/es/noticias/gta-6-19-november-2026/",
+        "https://fansgta.com/es/noticias/fecha-lanzamiento-gta-6-fuentes-oficiales/",
+        "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/"
+      ],
+      "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/",
+        "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/",
+        "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/",
+        "https://fansgta.com/en/news/gta-6-youtube-launch-livestream-schedule/",
+        "https://fansgta.com/en/news/gta-6-preload-virgin-media-traffic-records/",
+        "https://fansgta.com/en/news/gta-6-take-two-q2-2027-results-outlook/",
+        "https://fansgta.com/en/news/gta-6-ipsos-survey-uk-purchase-intent/",
+        "https://fansgta.com/en/guides/gta-6-xbox-app-phone-remote-install-console/",
+        "https://fansgta.com/en/guides/gta-6-transfer-ps5-ps5-pro-games-data/",
+        "https://fansgta.com/en/news/gta-6-grand-rex-paris-november-19-event-tickets/",
+        "https://fansgta.com/en/guides/gta-6-ps5-download-playstation-app-phone/",
+        "https://fansgta.com/en/guides/gta-6-pc-mac-ps5-remote-play-guide/",
+        "https://fansgta.com/en/guides/gta-6-home-xbox-game-sharing-licences/",
+        "https://fansgta.com/en/news/gta-6-mediamarkt-poster-preorder-germany/",
+        "https://fansgta.com/en/guides/gta-6-xbox-series-s-fps-resolution-setup/",
+        "https://fansgta.com/en/news/gta-6-zelnick-delays-quality-rockstar/",
+        "https://fansgta.com/en/news/gta-6-spectrum-free-speed-boost-eligibility/",
+        "https://fansgta.com/en/news/gta-6-selfridges-experience-november-9-details/",
+        "https://fansgta.com/en/news/gta-6-39-new-screenshots-rockstar-launch-gallery/",
+        "https://fansgta.com/en/news/gta-6-fake-download-early-access-scams-netcraft/",
+        "https://fansgta.com/en/guides/gta-6-download-time-212-gb/",
+        "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+        "https://fansgta.com/en/news/rumour-gta-6-walmart-preorder-mystery-gift/",
+        "https://fansgta.com/en/guides/gta-6-ps4-xbox-one-compatibility-remote-play/",
+        "https://fansgta.com/en/guides/gta-6-android-iphone-apk-remote-play/",
+        "https://fansgta.com/en/news/gta-6-launch-time-off-bamboohr-study/",
+        "https://fansgta.com/en/guides/gta-6-ps5-m2-ssd-usb-storage/",
+        "https://fansgta.com/en/guides/gta-6-xbox-series-s-x-storage-usb-expansion/",
+        "https://fansgta.com/en/guides/gta-6-collectors-box-does-it-include-game/",
+        "https://fansgta.com/en/news/rumour-gta-6-210gb-ps5-download-size/",
+        "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+        "https://fansgta.com/en/news/gta-6-19-november-2026/",
+        "https://fansgta.com/en/news/gta-6-release-date-official-sources/",
+        "https://fansgta.com/en/guides/prepare-console-account-launch/"
+      ],
+      "https://fansgta.com/fr/carte/gta-6-leonida-locations/": [
+        "https://fansgta.com/fr/carte/",
+        "https://fansgta.com/fr/actualites/gta-6-burger-shot-cluckin-bell-miami-adresses/",
+        "https://fansgta.com/fr/guides/gta-6-roleplay-vie-leonida-mode-histoire/",
+        "https://fansgta.com/fr/guides/gta-6-vice-city-quartiers-lieux-images/",
+        "https://fansgta.com/fr/guides/gta-6-leonida-keys-iles-bars-images/",
+        "https://fansgta.com/fr/guides/gta-6-ambrosia-raffinerie-motards-images/",
+        "https://fansgta.com/fr/guides/gta-6-animaux-faune-especes-leonida/",
+        "https://fansgta.com/fr/guides/gta-6-taille-carte-leonida-comparaison-edge/",
+        "https://fansgta.com/fr/actualites/gta-6-bus-trains-transports-edge/",
+        "https://fansgta.com/fr/guides/gta-6-meteo-dynamique-orages/",
+        "https://fansgta.com/fr/guides/gta-6-pnj-ia-comportement/",
+        "https://fansgta.com/fr/guides/gta-6-vs-gta-5-differences-confirmees/",
+        "https://fansgta.com/fr/carte/carte-gta-6-officielle-ou-fans/"
+      ],
+      "https://fansgta.com/es/mapa/gta-6-leonida-locations/": [
+        "https://fansgta.com/es/mapa/",
+        "https://fansgta.com/es/noticias/gta-6-burger-shot-cluckin-bell-miami-donde-comer/",
+        "https://fansgta.com/es/guias/gta-6-roleplay-vida-leonida-campana/",
+        "https://fansgta.com/es/guias/gta-6-vice-city-barrios-lugares-imagenes/",
+        "https://fansgta.com/es/guias/gta-6-leonida-keys-islas-bares-imagenes/",
+        "https://fansgta.com/es/guias/gta-6-ambrosia-refineria-moteros-imagenes/",
+        "https://fansgta.com/es/guias/gta-6-animales-fauna-especies-leonida/",
+        "https://fansgta.com/es/guias/gta-6-tamano-mapa-leonida-comparacion-edge/",
+        "https://fansgta.com/es/noticias/gta-6-autobuses-trenes-transporte-edge/",
+        "https://fansgta.com/es/guias/gta-6-clima-dinamico-tormentas/",
+        "https://fansgta.com/es/guias/gta-6-npc-ia-comportamiento/",
+        "https://fansgta.com/es/guias/gta-6-vs-gta-5-diferencias-confirmadas/",
+        "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/"
+      ],
+      "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/",
+        "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/",
+        "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/",
+        "https://fansgta.com/fr/actualites/gta-6-direct-youtube-lancement-horaires/",
+        "https://fansgta.com/fr/actualites/gta-6-prechargement-records-trafic-virgin-media/",
+        "https://fansgta.com/fr/actualites/gta-6-resultats-take-two-t2-2027-previsions/",
+        "https://fansgta.com/fr/actualites/gta-6-sondage-ipsos-intention-achat-royaume-uni/",
+        "https://fansgta.com/fr/guides/gta-6-installer-xbox-app-mobile-console/",
+        "https://fansgta.com/fr/guides/gta-6-transferer-ps5-ps5-pro-jeux-donnees/",
+        "https://fansgta.com/fr/actualites/gta-6-grand-rex-paris-soiree-19-novembre-billets/",
+        "https://fansgta.com/fr/guides/gta-6-telechargement-ps5-playstation-app-mobile/",
+        "https://fansgta.com/fr/guides/gta-6-pc-mac-ps5-lecture-distance-guide/",
+        "https://fansgta.com/fr/guides/gta-6-partage-xbox-principale-licences/",
+        "https://fansgta.com/fr/actualites/gta-6-poster-mediamarkt-precommande-allemagne/",
+        "https://fansgta.com/fr/guides/gta-6-xbox-series-s-fps-resolution-preparation/",
+        "https://fansgta.com/fr/actualites/gta-6-zelnick-reports-qualite-rockstar/",
+        "https://fansgta.com/fr/actualites/gta-6-spectrum-debit-gratuit-conditions/",
+        "https://fansgta.com/fr/actualites/gta-6-selfridges-experience-9-novembre-details/",
+        "https://fansgta.com/fr/actualites/gta-6-39-nouvelles-images-galerie-lancement-rockstar/",
+        "https://fansgta.com/fr/actualites/gta-6-arnaques-telechargement-acces-anticipe-netcraft/",
+        "https://fansgta.com/fr/guides/gta-6-temps-telechargement-212-go/",
+        "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+        "https://fansgta.com/fr/actualites/rumeur-gta-6-walmart-precommande-cadeau-surprise/",
+        "https://fansgta.com/fr/guides/gta-6-ps4-xbox-one-compatibilite-lecture-distance/",
+        "https://fansgta.com/fr/guides/gta-6-android-iphone-apk-lecture-distance/",
+        "https://fansgta.com/fr/actualites/gta-6-sortie-conges-etude-bamboohr/",
+        "https://fansgta.com/fr/guides/gta-6-ps5-ssd-m2-usb-stockage/",
+        "https://fansgta.com/fr/guides/gta-6-xbox-series-s-x-stockage-usb-extension/",
+        "https://fansgta.com/fr/guides/gta-6-coffret-collector-jeu-inclus/",
+        "https://fansgta.com/fr/actualites/rumeur-gta-6-210-go-taille-telechargement-ps5/",
+        "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+        "https://fansgta.com/fr/actualites/gta-6-19-november-2026/",
+        "https://fansgta.com/fr/actualites/date-sortie-gta-6-sources-officielles/",
+        "https://fansgta.com/fr/guides/preparer-console-compte-sortie/"
+      ]
+    },
+    "declared_Googlebot_checks": [
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/map/gta-6-leonida-locations/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/map/gta-6-leonida-locations/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/mapa/gta-6-leonida-locations/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/mapa/gta-6-leonida-locations/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/carte/gta-6-leonida-locations/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/carte/gta-6-leonida-locations/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/"
+        ],
+        "matches_release": true,
+        "issues": []
+      }
+    ],
+    "Googlebot_limit": "User-Agent comparison from the cloud executor, not verified Google IPs or Search Console URL Inspection.",
+    "sitemap_robots_ads_txt": "Raw bytes match release; the six updated URLs remain exactly once in 660 canonical entries, dates and reciprocal alternates verified in browser cases."
+  },
+  "tests": {
+    "build_release": "passed",
+    "static_SEO_editorial": "passed; 0 errors, 42 review notices",
+    "local_desktop_mobile_cases": 22,
+    "local_tablet_cases": 3,
+    "production_cases": 9,
+    "viewports": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "tablet": [
+        820,
+        1180
+      ]
+    },
+    "engine": "Chromium cloud emulation, not physical devices",
+    "WebKit_limit": "Not retested in this update; the earlier same-day attempt lacked six system libraries. Safari and physical iPhones are not certified.",
+    "provider_fixtures": "Only Adsterra/AdSense/GTM SDKs replaced for deterministic content/navigation tests; real creative delivery and Analytics receipt are not claimed."
+  },
+  "preservation": {
+    "topics": 207,
+    "localized_versions": 621,
+    "substantively_updated_topics": [
+      "gta-6-leonida-locations",
+      "gta6-preload-schedule-20261028"
+    ],
+    "updated_versions": 6,
+    "grammar_only": "gta6-download-stuck-troubleshooting-20261113",
+    "other_topics_identical": 204,
+    "published_dates_categories_primary_images_and_all_621_URLs_preserved": true,
+    "original_preload_table_preserved": true,
+    "protected_source_files_identical": 18,
+    "CSS_bytes_identical": 57621,
+    "schedule": "Unchanged; manual update only."
+  },
+  "client_assets": {
+    "status": "unchanged",
+    "verified_before_publication": true,
+    "assets": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/postscribe-YW_TQLIy.js": "ca1b92aee0dd819cff508889824f9b6989b0137d76cfbec73abf49172689a05a",
+      "assets/index-DegyzTCu.js": "cf98c01a30c492429259837ee5cb7f5deaaebceb0b9727e0894429b7da142dd6"
+    }
+  },
+  "evidence_hashes": {
+    "public-verification.json": "586fae17629a2a8c9a9caf142bf147d790b63203a053e7b6b9230a5bb7ded471",
+    "release-sha256.json": "13ee6c10bf9fd82835f7f8b628c7772fe5b19e2c37aedf54e47209c7baf5aee2",
+    "browser-local.log": "7d1f72e8b87c13ed0c3e11779d17dfcf8a8f8964d07ccc6583d7ccfdbc3e4dc7",
+    "browser-tablet.log": "5cf1ad71801305bb56890b997c0d1b28a75532f9ad852de93064bc50d612c984",
+    "browser-production.log": "370384ffc9bbe2c53fb07129ee16be70d4dd46def4b588be05d18e5f998b9425",
+    "media-check.json": "b806e4c4c8e11e085bce5a54985126bbe7d11a1caf3f9d7142894857b0d8959a",
+    "final-qa.json": "ec6df4bc586d0aa4b8758350426a10e07e34e57f82b9274fdb1074761ca390c1"
+  },
+  "schedule": "No automation changes; manual refresh of two existing topics. Saved daily scope remains one topic per execution through November 19, 2026 inclusive, America/New_York. This cloud success does not guarantee a future executor is available.",
+  "indexation": "Public readiness verified; actual Google indexing, chosen canonical and crawl scheduling are not verified without Search Console access."
 }
