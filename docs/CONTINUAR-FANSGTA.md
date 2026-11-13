@@ -542,3 +542,10 @@ Mapas y descarga fácil publicados y comprobados: runtime 25b9b4b422f680ac036d57
 - https://fansgta.com/es/mapa/gta-6-leonida-locations/
 - https://fansgta.com/en/map/gta-6-leonida-locations/
 - https://fansgta.com/fr/carte/gta-6-leonida-locations/
+
+
+## Ejecución diaria — 13 de noviembre de 2026: Xbox y Take-Two
+
+Un único tema nuevo ES/EN/FR, distinto de los 207 existentes. Fuentes primarias SEC y cobertura actual Game File/Xboxygen, con fechas diferenciadas y sin inferir anuncios específicos del juego de texto oculto. Tres capturas oficiales con crédito, alt y pies traducidos, WebP responsive. Investigación y revisión final: docs/editorial/2026-11-13-daily-xbox-agreement-research.json. No se inventan búsquedas ni rankings.
+
+Catálogo 208 temas/624 versiones/663 canónicas. Los 207 artículos anteriores, sus 621 URLs, 18 archivos protegidos y tres recursos CSS/JS mantienen sus bytes/objetos. Build release, estáticos/SEO/editoriales y 25 pruebas locales aprobados; cero errores y 42 avisos anteriores. SDK sustituidos solo en pruebas, sin certificar creatividades/eventos; Chromium cloud, no Safari ni dispositivos físicos. Publicación pendiente en docs/editorial/2026-11-13-daily-xbox-agreement-publication.json. Programación diaria intacta: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.

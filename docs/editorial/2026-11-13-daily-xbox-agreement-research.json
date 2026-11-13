@@ -1,0 +1,472 @@
+{
+  "checked_at_utc": "2026-11-13T22:30:30.781060+00:00",
+  "scope": "Daily automation: exactly one new GTA VI topic, three complete versions. Separate from manual batches.",
+  "base_main": "7dcf3b2a5d24b2d3341be6856f6fa593f45024cc",
+  "execution": {
+    "provider": "managed cloud",
+    "independent_of_user_PC": true,
+    "network_policy": "enforced unrestricted; normal sandbox proxy bridge unavailable, approved cloud outer client succeeded with inherited proxy and normal TLS.",
+    "GitHub_main": "Fresh provider ref and git fetch confirmed the same main; no local-PC files or credentials.",
+    "Cloudflare": {
+      "project": "fansgta",
+      "production_branch": "main",
+      "build_config": {
+        "build_command": "npm run build:release",
+        "destination_dir": "dist",
+        "web_analytics_tag": null,
+        "web_analytics_token": null
+      },
+      "canonical": {
+        "id": "21c46033-72b1-4d33-9dff-4c58a9bfda67",
+        "environment": "production",
+        "url": "https://21c46033.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-13T21:02:51.749905Z",
+          "ended_on": "2026-11-13T21:03:14.648046Z",
+          "status": "success"
+        },
+        "commit": "25b9b4b422f680ac036d5796b238d7d32c393aad"
+      },
+      "observed_at_utc": "2026-11-13T22:21:36.217707+00:00"
+    },
+    "secret_values_exposed": false,
+    "cutoff_New_York_inclusive": "2026-11-19",
+    "observed_New_York": "2026-11-13T17:30:30.781060-05:00"
+  },
+  "deduplication": {
+    "before_topics": 207,
+    "before_versions": 621,
+    "full_snapshot_sha256": "72bfa314145ed9de6f174791ab4000666a1f25eb5387909754ed1b33a7704f52",
+    "method": "Loaded full final SSR Article objects for all207topics/621versions; reviewed catalogue titles and section intents, searched complete serialized text for agreement/SEC/parity identifiers; read the complete relevant existing topics and references. No claim of manual line-by-line reading of all3.4MB.",
+    "last_daily": {
+      "topic": "gta6-youtube-launch-livestream-20261112",
+      "published": "2026-11-12",
+      "public_verification_finished": "2026-11-12T22:41:55.642736+00:00",
+      "record": "docs/CONTINUAR-FANSGTA.md"
+    },
+    "closest_existing": [
+      {
+        "id": "gta6-take-two-q2-results-20261111",
+        "existing_intent": "FiscalQ2results,NetBookings,outlookandcomparisonofmetrics;doesnotanalyzeXboxpublisherlicensingcontract."
+      },
+      {
+        "id": "gta6-ps4-xbox-one-20261102",
+        "existing_intent": "ActualannouncedGTA6cloudaccessonXboxOne/SeriesandPS4RemotePlay;userdevices/license/time/pricinglimits,notcorporatecontractterms."
+      },
+      {
+        "id": "gta6-subscriptions-20261031",
+        "existing_intent": "ConsumerGamePass/PSPlus/GTA+inclusionquestions,notpublishercontract."
+      }
+    ],
+    "decision": "One distinct contract-reading news topic. Existing results, cloud and subscriptions guides remain their own intents and are linked. No duplicate Only in Dade or Burger Shot article.",
+    "source_search_queries": [
+      "GTA 6 November 13 2026 Rockstar news today",
+      "Xbox Take-Two agreement 2026 September 17 SEC November 13",
+      "site.gamefile.news Xbox Take-Two November 13",
+      "site.xboxygen.com Take-Two 13 novembre 2026 accord"
+    ]
+  },
+  "interest": {
+    "signals": [
+      {
+        "language": "en",
+        "url": "https://www.gamefile.news/p/xbox-take-two-2026-agreement",
+        "evidence": "Original Stephen Totilo close reading; JSON-LD date and freely readable HTML checked."
+      },
+      {
+        "language": "fr",
+        "url": "https://www.xboxygen.com/News/373869-laccord-entre-xbox-et-take-two-est-public-cloud-futures-xbox-parite-voici-ce-quil-revele",
+        "evidence": "Tomchoucrew coverage dated 13 November; JSON-LD date and readable HTML checked."
+      },
+      {
+        "language": "es",
+        "evidence": "Exact-topic searches did not surface a reliable same-day Spanish primary or independent report. Do not invent ES demand or rankings."
+      }
+    ],
+    "publication_times": {
+      "gamefile_published_utc": "2026-11-13T00:39:25+00:00",
+      "gamefile_published_New_York": "2026-11-12T19:39:25-05:00",
+      "xboxygen_published_utc": "2026-11-13T08:30:52+00:00",
+      "previous_daily_publication_verified_utc": "2026-11-12T22:41:55.642736+00:00"
+    },
+    "limits": "Qualitative current English/French coverage. No reliable same-day Spanish exact-topic demand evidence, query volumes, rankings or Google Trends measurements; none invented."
+  },
+  "article": {
+    "id": "gta6-xbox-take-two-agreement-20261113",
+    "titles": {
+      "es": "GTA 6 y Xbox: claves del acuerdo con Take-Two",
+      "en": "GTA 6 and Xbox: understanding the Take-Two agreement",
+      "fr": "GTA 6 et Xbox : comprendre l’accord Take-Two"
+    },
+    "urls": {
+      "es": "https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/",
+      "en": "https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/",
+      "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/"
+    },
+    "published": "2026-11-13",
+    "updated": "2026-11-13",
+    "core_words": {
+      "es": 393,
+      "en": 361,
+      "fr": 382
+    },
+    "word_method": "Visible H2 and paragraphs split on whitespace, excluding captions, alt, bibliography and body alias already represented by first paragraph.",
+    "reviewed_input_sha256": "b981cdd9ec28a2b90127c2d0d1dbc1423673924f704d12c59853c71f4d89559b",
+    "internal_references": [
+      "https://fansgta.com/es/guias/gta-6-game-pass-ps-plus-suscripciones/",
+      "https://fansgta.com/es/guias/gta-6-ps4-xbox-one-compatibilidad-remote-play/",
+      "https://fansgta.com/es/noticias/gta-6-ps5-xbox/",
+      "https://fansgta.com/es/noticias/gta-6-resultados-take-two-q2-2027-previsiones/"
+    ],
+    "root_edits": [
+      "Lead begins with sourced scope; original reader context replaces unnecessary legal disclaimer.",
+      "Filing date terminology corrected against SEC index, preserving distinction from period of report.",
+      "Three verified official figures assigned with translated descriptions and credits."
+    ]
+  },
+  "sources": [
+    {
+      "key": "gamefile",
+      "url": "https://www.gamefile.news/p/xbox-take-two-2026-agreement",
+      "checked_at": "2026-11-13T22:22:48.939927+00:00",
+      "status": 200,
+      "final_url": "https://www.gamefile.news/p/xbox-take-two-2026-agreement",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Date": "Fri, 13 Nov 2026 22:22:49 GMT",
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "sha256": "bb2078c47dac6c68510992129b70b08879cad78ed82129d232595e4f6517d34a",
+      "bytes": 222415,
+      "title": [
+        "What an Xbox agreement [***] looks like - by Stephen Totilo"
+      ],
+      "date_meta": [
+        "2026-11-13T00:40:53.808Z"
+      ],
+      "article_schema": [
+        {
+          "@type": "NewsArticle",
+          "headline": "What an Xbox agreement [***] looks like",
+          "datePublished": "2026-11-13T00:39:25+00:00",
+          "dateModified": "2026-11-13T00:39:25+00:00",
+          "isAccessibleForFree": true
+        }
+      ]
+    },
+    {
+      "key": "xboxygen",
+      "url": "https://www.xboxygen.com/News/373869-laccord-entre-xbox-et-take-two-est-public-cloud-futures-xbox-parite-voici-ce-quil-revele",
+      "checked_at": "2026-11-13T22:22:49.473699+00:00",
+      "status": 200,
+      "final_url": "https://www.xboxygen.com/News/373869-laccord-entre-xbox-et-take-two-est-public-cloud-futures-xbox-parite-voici-ce-quil-revele",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Fri, 13 Nov 2026 22:22:49 GMT",
+        "Last-Modified": "Fri, 13 Nov 2026 22:22:17 GMT",
+        "ETag": null
+      },
+      "sha256": "fbf6381f06d3aa3e72f5b1b2d7ff10840fb142277d548c489bf34f4871756c1d",
+      "bytes": 343247,
+      "title": [
+        "L’accord entre Xbox et Take-Two est public : cloud, futures Xbox, parité… voici ce qu’il révèle"
+      ],
+      "date_meta": [
+        "2026-11-13T08:30:52+00:00",
+        "2026-11-13T08:30:55+00:00"
+      ],
+      "article_schema": [
+        {
+          "@type": "Article",
+          "headline": "L’accord entre Xbox et Take-Two est public : cloud, futures Xbox, parité… voici ce qu’il révèle",
+          "datePublished": "2026-11-13T08:30:52+00:00",
+          "dateModified": "2026-11-13T08:30:55+00:00",
+          "isAccessibleForFree": null
+        }
+      ]
+    },
+    {
+      "key": "sec-exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/a09302026ttwoex-10x1.htm",
+      "checked_at": "2026-11-13T22:22:49.761028+00:00",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/a09302026ttwoex-10x1.htm",
+      "headers": {
+        "Content-Type": "text/html",
+        "Date": "Fri, 13 Nov 2026 22:22:50 GMT",
+        "Last-Modified": "Mon, 09 Nov 2026 21:32:02 GMT",
+        "ETag": null
+      },
+      "sha256": "7fbca619e91d158d49fa9dd91590c7ea0bbae6ca3e4624c1e75e5f9e51a84530",
+      "bytes": 458290,
+      "title": [
+        "Document"
+      ],
+      "date_meta": []
+    },
+    {
+      "key": "sec-index",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/0001628280-26-072254-index.html",
+      "checked_at": "2026-11-13T22:22:50.742778+00:00",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/0001628280-26-072254-index.html",
+      "headers": {
+        "Content-Type": "text/html",
+        "Date": "Fri, 13 Nov 2026 22:22:50 GMT",
+        "Last-Modified": "Mon, 09 Nov 2026 21:31:16 GMT",
+        "ETag": null
+      },
+      "sha256": "1fe92909a7b660bb9756b97185c7b93c98e673d9dea55eef14ba17cc6df84000",
+      "bytes": 11880,
+      "title": [
+        "EDGAR Filing Documents for 0001628280-26-072254"
+      ],
+      "date_meta": []
+    },
+    {
+      "key": "sec8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026064001/ttwo-20260928.htm",
+      "status": 200,
+      "sha256": "64270e961109fa9d336cd7038b4a9582483161f5f3b47806c2c202db885ccf83",
+      "bytes": 26870,
+      "method": "Fresh normal HTTPS with inherited cloud proxy, verified TLS, generic UA. No credentials in source requests."
+    },
+    {
+      "key": "sec8k-index",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026064001/0001628280-26-064001-index.html",
+      "status": 200,
+      "sha256": "0476c3b12f304018953679b801d998690da8804b3e10d3e60f615f9414e24ca8",
+      "bytes": 9586,
+      "method": "Fresh normal HTTPS with inherited cloud proxy, verified TLS, generic UA. No credentials in source requests."
+    }
+  ],
+  "source_limits": {
+    "default_summary_cap_per_work_all_languages_and_public_records": 200,
+    "verbatim_quotes_used": 0,
+    "contract_mirrors_are_one_work": true,
+    "independent_final_review": {
+      "reviewed_at_utc": "2026-11-13T22:29:47.946098+00:00",
+      "result": "approved-no-material-defect",
+      "article_id": "gta6-xbox-take-two-agreement-20261113",
+      "draft_sha256": "b981cdd9ec28a2b90127c2d0d1dbc1423673924f704d12c59853c71f4d89559b",
+      "languages": [
+        "es",
+        "en",
+        "fr"
+      ],
+      "word_counts": {
+        "es": {
+          "core_H2_and_paragraphs": 393,
+          "including_title_excerpt": 419
+        },
+        "en": {
+          "core_H2_and_paragraphs": 361,
+          "including_title_excerpt": 386
+        },
+        "fr": {
+          "core_H2_and_paragraphs": 382,
+          "including_title_excerpt": 408
+        }
+      },
+      "source_ledger": {
+        "SEC_8K": {
+          "words_combined_ES_EN_FR": 157,
+          "cap": 200,
+          "remaining": 43,
+          "quotes": 0
+        },
+        "SEC_10Q_index": {
+          "words_combined_ES_EN_FR": 63,
+          "cap": 200,
+          "remaining": 137,
+          "quotes": 0
+        },
+        "SEC_agreement": {
+          "words_combined_ES_EN_FR": 161,
+          "cap": 200,
+          "remaining": 39,
+          "quotes": 0
+        },
+        "GameFile": {
+          "words_combined_ES_EN_FR": 98,
+          "cap": 200,
+          "remaining": 102,
+          "quotes": 0
+        },
+        "Xboxygen": {
+          "words_combined_ES_EN_FR": 90,
+          "cap": 200,
+          "remaining": 110,
+          "quotes": 0
+        },
+        "Rockstar_official_platforms": {
+          "words_combined_ES_EN_FR": 111,
+          "cap": 200,
+          "remaining": 89,
+          "quotes": 0
+        }
+      },
+      "source_count_method": "Whitespace counts; unique authored title/excerpt allocated conservatively. body aliases first paragraph and is not rendered separately by Interior. TOC, breadcrumb, head metadata/schema and hydration mechanically reuse canonical values, not additional authored summaries. Bibliographic labels identify works; no direct quotes. Repeated substantive prose in root documentation/final consumes remaining budget. The SEC exhibit and mirrors are one work.",
+      "chronology": "Effective17Sep2026; signed28Sep;8Kfiling30Sep(period/event28Sep);10Qfiling9Nov. GameFile13Nov00:39:25UTC=12Nov19:39:25NewYork;Xboxygen13Nov08:30:52UTC. Current coverage is distinguished from historical signing.",
+      "facts": "8Kscope/replacement correctly attributed. Clause5.3 qualified and redacted; no inferred GTA VI performance target, exclusive platform, GamePass inclusion or future release promise. Native platforms/date attributed separately to Rockstar.",
+      "translation_parity": "Equivalent facts/source distinctions in all languages. Spanish dates sentence cites8K/index without naming index in prose; accurate and supported. No material linguistic defect.",
+      "originality": "Original explanatory prose, no copied extended passage or source quotation; consumer source-reading advice is identified as editorial method. No search volumes, ranking guarantees, invented dates or features.",
+      "media": [
+        {
+          "key": "jason",
+          "local_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+          "dimensions": [
+            1600,
+            900
+          ],
+          "alt_caption_words_ES_EN_FR": 94,
+          "cap": 200,
+          "independent_visual_review": "Passed: local WebP opened; alt/captions match visible scene.",
+          "role": "Official illustrative game screenshot, not contract or Xbox performance evidence."
+        },
+        {
+          "key": "lucia",
+          "local_sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+          "dimensions": [
+            1600,
+            900
+          ],
+          "alt_caption_words_ES_EN_FR": 78,
+          "cap": 200,
+          "independent_visual_review": "Passed: local WebP opened; alt/captions match visible scene.",
+          "role": "Official illustrative game screenshot, not contract or Xbox performance evidence."
+        },
+        {
+          "key": "vice-city",
+          "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+          "dimensions": [
+            1600,
+            900
+          ],
+          "alt_caption_words_ES_EN_FR": 90,
+          "cap": 200,
+          "independent_visual_review": "Passed: local WebP opened; alt/captions match visible scene.",
+          "role": "Official illustrative game screenshot, not contract or Xbox performance evidence."
+        }
+      ],
+      "metadata_writer_notes": [
+        "Writer metadata describes earlier draft; final core counts supersede401/371/389.",
+        "Final lead/body now summarizes8Kscope; do not carry forward writer claim that intro is only original method."
+      ],
+      "test_limit": "Read-only editorial/source/media QA; does not certify build, public deployment, browser navigation, live SDK delivery or Google indexing.",
+      "changes": "Only final-qa.json created; no draft or repository edits."
+    },
+    "original_writer_metadata_is_superseded": "Final QA and final visible word counts supersede the initial draft numbers; no source article bodies or private exports committed."
+  },
+  "media": {
+    "checked_at_utc": "2026-11-13T22:24:08.636978+00:00",
+    "media": [
+      {
+        "key": "jason",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "source_bytes": 939665,
+        "source_sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba",
+        "local_path": "/media/jason.webp",
+        "local_bytes": 68710,
+        "local_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+        "dimensions": [
+          1600,
+          900
+        ],
+        "format": "WEBP",
+        "source_page": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "reuse_basis": "Official promotional GTA VI media offered through Rockstar media for download/share and used in attributed original editorial context. Copyright reserved; not an unrestricted licence.",
+        "limits": "Official game illustration, not contract evidence or Xbox-specific performance. Copyright reserved, no unrestricted licence claimed.",
+        "visual_inspected": true,
+        "TLS_verified": true
+      },
+      {
+        "key": "lucia",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "source_bytes": 898033,
+        "source_sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c",
+        "local_path": "/media/lucia.webp",
+        "local_bytes": 65852,
+        "local_sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+        "dimensions": [
+          1600,
+          900
+        ],
+        "format": "WEBP",
+        "source_page": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "reuse_basis": "Official promotional GTA VI media offered through Rockstar media for download/share and used in attributed original editorial context. Copyright reserved; not an unrestricted licence.",
+        "limits": "Official game illustration, not contract evidence or Xbox-specific performance. Copyright reserved, no unrestricted licence claimed.",
+        "visual_inspected": true,
+        "TLS_verified": true
+      },
+      {
+        "key": "vice-city",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "source_bytes": 894386,
+        "source_sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "local_path": "/media/vice-city.webp",
+        "local_bytes": 116602,
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "dimensions": [
+          1600,
+          900
+        ],
+        "format": "WEBP",
+        "source_page": "https://www.rockstargames.com/VI/media",
+        "credit": "GTA VI © Rockstar Games",
+        "reuse_basis": "Official promotional GTA VI media offered through Rockstar media for download/share and used in attributed original editorial context. Copyright reserved; not an unrestricted licence.",
+        "limits": "Official game illustration, not contract evidence or Xbox-specific performance. Copyright reserved, no unrestricted licence claimed.",
+        "visual_inspected": true,
+        "TLS_verified": true
+      }
+    ],
+    "official_media_page": {
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context": [
+        "FeaturedVideosScreenshotsArtworkExplore Vice City and BeyondDownload and share trailers, imagery, and more.Videos5See All5 Videos5 VideosGrand Theft Auto VI: Pre-Load Now1 sizeGrand Theft Auto VI Launch Trailer1 sizeGrand Theft Auto VI: An ",
+        "oratePrivacyCookie SettingsCookie PolicyLegalDo Not Sell or Share My Personal InformationBlood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol.In-Game Purchases.(self.__next",
+        "age_gate_year_min\\\":\\\"Year must be greater than 1900\\\",\\\"vi_downloads_drawer_download_button\\\":\\\"Download\\\",\\\"vi_downloads_drawer_download_file_size_button\\\":\\\"Download ({fileSize})\\\",\\\"vi_downloads_variant_name_default\\\":\\\"Default\\\",\\\"vi_d",
+        "sScreenshotsArtworkExplore Vice City and BeyondDownload and share trailers, imagery, and more.Videos5See All5 Videos5 VideosGrand Theft Auto VI: Pre-Load Now1 sizeGrand Theft Auto VI Launch Trailer1 sizeGrand Theft Auto VI: An Extended Look"
+      ]
+    }
+  },
+  "preservation": {
+    "topics": 208,
+    "localized_versions": 624,
+    "new_topics": [
+      "gta6-xbox-take-two-agreement-20261113"
+    ],
+    "new_versions": 3,
+    "other_complete_topics_identical": 207,
+    "all_621_previous_URLs_preserved": true,
+    "protected_source_files_identical": 18,
+    "own_CSS_JS_assets_identical": 3,
+    "schedule": "Unchanged; exactly one new topic in this daily execution."
+  },
+  "validation": {
+    "build_release": "passed",
+    "static": "668 HTML, 30107 internal links, 1310 JSON-LD blocks",
+    "SEO": "624 article versions, 663 canonical sitemap entries, reciprocal hreflang and initial HTML verified",
+    "editorial": "0 errors, 42 existing review notices",
+    "desktop_mobile_cases": 22,
+    "tablet_cases": 3,
+    "production": "pending",
+    "external_SDK_limit": "Adsterra/AdSense/GTM scripts are replaced only in deterministic browser tests; no real creative delivery or Analytics receipt claimed.",
+    "browser_limit": "Chromium cloud emulation. Earlier same-day WebKit system-library limitation remains; Safari and physical devices are not certified."
+  },
+  "scope_controls": "No ad, consent, design, security, cache, subscription, other-project or automation schedule changes. Existing articles preserved. No purchases or third-party messages.",
+  "publication": "Pending explicit deployment and public URL verification.",
+  "indexing": "Ready-for-crawl checks do not prove actual Google indexing; no Search Console URL inspection connector available and no rank/time promises."
+}
