@@ -1,0 +1,1118 @@
+{
+  "checked_at_utc": "2026-11-13T20:58:01.055089+00:00",
+  "request": "Two updated GTA VI topics: map overview and easy prelaunch download; complete Spanish, English and French.",
+  "base_main": "6b8c95f6d2ffc31b425e5e17f3236cae9e31abd5",
+  "execution": "Managed cloud executor, main freshly fetched from GitHub; existing Cloudflare Pages fansgta connection and npm run build:release verified. No user-PC dependencies.",
+  "deduplication": {
+    "topics_before": 207,
+    "versions_before": 621,
+    "full_snapshot_sha256": "6f933487d137de1d7103c8a4fb1ebb4b0fd679bb88ac8481898ccaf478ccd375",
+    "decision": "Both exact search intents already exist. Substantively refresh their original six URLs instead of competing duplicate pages. This follows the user-established nonduplication preference and editorial brief.",
+    "map_related": [
+      {
+        "id": "gta6-place-vice-city-20261031",
+        "titles": [
+          "Vice City en GTA 6: barrios, lugares e imágenes oficiales",
+          "Vice City in GTA 6: neighbourhoods and official images",
+          "Vice City dans GTA 6 : quartiers, lieux et images officielles"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-vice-city-barrios-lugares-imagenes/",
+          "https://fansgta.com/en/guides/gta-6-vice-city-neighbourhoods-locations-images/",
+          "https://fansgta.com/fr/guides/gta-6-vice-city-quartiers-lieux-images/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "gta6-place-leonida-keys-20261031",
+        "titles": [
+          "Leonida Keys en GTA 6: islas, bares y vida costera",
+          "GTA 6 Leonida Keys: islands, bars and coastal life",
+          "Leonida Keys GTA 6 : îles, bars et vie côtière"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-leonida-keys-islas-bares-imagenes/",
+          "https://fansgta.com/en/guides/gta-6-leonida-keys-islands-bars-images/",
+          "https://fansgta.com/fr/guides/gta-6-leonida-keys-iles-bars-images/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "gta6-place-grassrivers-20261031",
+        "titles": [
+          "Grassrivers en GTA 6: pantanos, manglares y caimanes",
+          "GTA 6 Grassrivers: wetlands, mangroves and alligators",
+          "Grassrivers GTA 6 : marais, mangroves et alligators"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-grassrivers-pantanos-manglares-imagenes/",
+          "https://fansgta.com/en/guides/gta-6-grassrivers-wetlands-mangroves-images/",
+          "https://fansgta.com/fr/guides/gta-6-grassrivers-marais-mangroves-images/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "gta6-place-port-gellhorn-20261031",
+        "titles": [
+          "Port Gellhorn en GTA 6: costa, moteles y vida local",
+          "GTA 6 Port Gellhorn: coastline, motels and local life",
+          "Port Gellhorn GTA 6 : côte, motels et vie locale"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-port-gellhorn-costa-moteles-imagenes/",
+          "https://fansgta.com/en/guides/gta-6-port-gellhorn-coast-motels-images/",
+          "https://fansgta.com/fr/guides/gta-6-port-gellhorn-cote-motels-images/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "gta6-place-ambrosia-20261031",
+        "titles": [
+          "Ambrosia en GTA 6: Allied Crystal, industria y moteros",
+          "GTA 6 Ambrosia: Allied Crystal, industry and bikers",
+          "Ambrosia GTA 6 : Allied Crystal, industrie et motards"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-ambrosia-refineria-moteros-imagenes/",
+          "https://fansgta.com/en/guides/gta-6-ambrosia-refinery-bikers-images/",
+          "https://fansgta.com/fr/guides/gta-6-ambrosia-raffinerie-motards-images/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "gta6-interest-mount-kalaga-20261031",
+        "titles": [
+          "Mount Kalaga en GTA 6: montañas, caminos e imágenes oficiales",
+          "GTA 6 Mount Kalaga: mountains, trails and official images",
+          "Mount Kalaga GTA 6 : montagnes, sentiers et images officielles"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-mount-kalaga-parque-montanas-imagenes/",
+          "https://fansgta.com/en/guides/gta-6-mount-kalaga-national-park-mountains-images/",
+          "https://fansgta.com/fr/guides/gta-6-mount-kalaga-parc-montagnes-images/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "gta6-map-discovery-20261101",
+        "titles": [
+          "Mapa 3D de GTA 6: explorar y revelar las zonas ocultas",
+          "GTA 6 3D map: exploration and revealing hidden areas",
+          "Carte 3D de GTA 6 : explorer et révéler les zones masquées"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-mapa-3d-exploracion-zonas-ocultas/",
+          "https://fansgta.com/en/guides/gta-6-3d-map-exploration-hidden-areas/",
+          "https://fansgta.com/fr/guides/gta-6-carte-3d-exploration-zones-masquees/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "gta6-map-scale-explained-20261030",
+        "titles": [
+          "Tamaño del mapa de GTA 6: qué significa la comparación de Edge",
+          "GTA 6 map size: what Edge’s Leonida comparison means",
+          "Taille de la carte GTA 6 : comprendre la comparaison d’Edge"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-tamano-mapa-leonida-comparacion-edge/",
+          "https://fansgta.com/en/guides/gta-6-map-size-leonida-edge-comparison/",
+          "https://fansgta.com/fr/guides/gta-6-taille-carte-leonida-comparaison-edge/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "gta6-printable-map-20261103",
+        "titles": [
+          "Mapa físico de GTA 6: precio anunciado y cómo comprarlo",
+          "GTA 6 physical map: announced price and how to buy it",
+          "Carte physique GTA 6 : prix annoncé et comment l’acheter"
+        ],
+        "urls": [
+          "https://fansgta.com/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
+          "https://fansgta.com/en/guides/gta-6-leonida-map-poster-official-download/",
+          "https://fansgta.com/fr/guides/gta-6-carte-leonida-affiche-telechargement-officiel/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      },
+      {
+        "id": "map-context",
+        "titles": [
+          "Mapa de GTA 6: diferencias entre un mapa oficial y una reconstrucción de fans",
+          "GTA 6 maps: official material versus fan reconstructions",
+          "Carte de GTA 6 : matériel officiel et reconstitutions de fans"
+        ],
+        "urls": [
+          "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/",
+          "https://fansgta.com/en/map/gta-6-official-map-or-fan-map/",
+          "https://fansgta.com/fr/carte/carte-gta-6-officielle-ou-fans/"
+        ],
+        "decision": "Preserve dedicated intent; link from refreshed hub rather than repeat the complete article."
+      }
+    ],
+    "preload_related": [
+      {
+        "id": "gta6-download-stuck-troubleshooting-20261113",
+        "title": [
+          "GTA 6 no se descarga: soluciones en PS5 y Xbox",
+          "GTA 6 download stuck? PS5 and Xbox troubleshooting",
+          "GTA 6 ne se télécharge pas : solutions PS5 et Xbox"
+        ],
+        "slugs": [
+          "gta-6-no-descarga-precarga-atascada-ps5-xbox",
+          "gta-6-download-stuck-preload-ps5-xbox-fixes",
+          "gta-6-telechargement-bloque-ps5-xbox-solutions"
+        ],
+        "treatment": "retain; contextual link or scope exclusion"
+      },
+      {
+        "id": "gta6-xbox-app-remote-install-20261111",
+        "title": [
+          "Cómo descargar GTA 6 desde Xbox App a tu consola: guía y límites",
+          "How to download GTA 6 to your console with the Xbox app",
+          "Télécharger GTA 6 sur sa console avec Xbox App : guide et limites"
+        ],
+        "slugs": [
+          "gta-6-descargar-xbox-app-movil-consola",
+          "gta-6-xbox-app-phone-remote-install-console",
+          "gta-6-installer-xbox-app-mobile-console"
+        ],
+        "treatment": "retain; contextual link or scope exclusion"
+      },
+      {
+        "id": "gta6-playstation-app-remote-download-20261108",
+        "title": [
+          "GTA 6 y PlayStation App: descarga en PS5 desde el móvil",
+          "GTA 6 and PlayStation App: download to PS5 from your phone",
+          "GTA 6 et PlayStation App : télécharger sur PS5 depuis le mobile"
+        ],
+        "slugs": [
+          "gta-6-descargar-ps5-playstation-app-movil",
+          "gta-6-ps5-download-playstation-app-phone",
+          "gta-6-telechargement-ps5-playstation-app-mobile"
+        ],
+        "treatment": "retain; contextual link or scope exclusion"
+      },
+      {
+        "id": "gta6-download-duration-20261103",
+        "title": [
+          "Cuánto tarda en descargar GTA 6: estimaciones para hasta 212 GB",
+          "GTA 6 download time: estimates for up to 212 GB",
+          "Temps de téléchargement GTA 6 : estimations jusqu’à 212 Go"
+        ],
+        "slugs": [
+          "gta-6-cuanto-tarda-descargar-212-gb",
+          "gta-6-download-time-212-gb",
+          "gta-6-temps-telechargement-212-go"
+        ],
+        "treatment": "retain; contextual link or scope exclusion"
+      },
+      {
+        "id": "gta6-ps5-storage-20261101",
+        "title": [
+          "GTA 6 en PS5: SSD M.2, USB y cómo preparar el almacenamiento",
+          "GTA 6 on PS5: M.2 SSD, USB and preparing your storage",
+          "GTA 6 sur PS5 : SSD M.2, USB et préparation du stockage"
+        ],
+        "slugs": [
+          "gta-6-ps5-ssd-m2-usb-almacenamiento",
+          "gta-6-ps5-m2-ssd-usb-storage",
+          "gta-6-ps5-ssd-m2-usb-stockage"
+        ],
+        "treatment": "retain; contextual link or scope exclusion"
+      },
+      {
+        "id": "gta6-xbox-storage-20261101",
+        "title": [
+          "GTA 6 en Xbox Series X|S: USB, SSD y tarjetas de expansión",
+          "GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+          "GTA 6 sur Xbox Series X|S : USB, SSD et cartes d’extension"
+        ],
+        "slugs": [
+          "gta-6-xbox-series-s-x-almacenamiento-usb-expansion",
+          "gta-6-xbox-series-s-x-storage-usb-expansion",
+          "gta-6-xbox-series-s-x-stockage-usb-extension"
+        ],
+        "treatment": "retain; contextual link or scope exclusion"
+      },
+      {
+        "id": "gta6-preload-schedule-20261028",
+        "title": [
+          "Precarga de GTA 6: fecha, horarios globales y hasta 212 GB",
+          "GTA 6 preload: start date, global times and up to 212 GB",
+          "Préchargement GTA 6 : date, horaires et jusqu’à 212 Go"
+        ],
+        "slugs": [
+          "precarga-gta-6-fecha-hora-consolas",
+          "gta-6-preload-date-time-consoles",
+          "prechargement-gta-6-date-heure-consoles"
+        ],
+        "treatment": "update existing equivalent intent"
+      },
+      {
+        "id": "gta6-physical-code-box-20261028",
+        "title": [
+          "¿GTA 6 físico trae disco? Qué incluye la caja con código",
+          "Does physical GTA 6 include a disc? The boxed code explained",
+          "GTA 6 en boîte contient-il un disque ? Comprendre le code de téléchargement"
+        ],
+        "slugs": [
+          "gta-6-edicion-fisica-sin-disco-codigo",
+          "gta-6-physical-edition-no-disc-code",
+          "gta-6-edition-physique-sans-disque-code"
+        ],
+        "treatment": "retain; contextual link or scope exclusion"
+      },
+      {
+        "id": "legal-purchase-download-2026-10-28",
+        "title": [
+          "Dónde comprar, reservar y descargar GTA 6: guía paso a paso",
+          "Where to buy, preorder and download GTA 6: a step-by-step guide",
+          "Où acheter, précommander et télécharger GTA 6 : guide pratique"
+        ],
+        "slugs": [
+          "donde-comprar-reservar-descargar-gta-6",
+          "where-to-buy-preorder-download-gta-6",
+          "ou-acheter-precommander-telecharger-gta-6"
+        ],
+        "treatment": "retain; contextual link or scope exclusion"
+      }
+    ],
+    "unchanged_url_and_publication_identity": true
+  },
+  "articles": [
+    {
+      "id": "gta-6-leonida-locations",
+      "category": "map",
+      "published_preserved": "2026-10-27",
+      "updated": "2026-11-13",
+      "titles": [
+        "Mapa de GTA 6: regiones de Leonida y novedades verificadas",
+        "GTA 6 map: Leonida regions and the latest verified details",
+        "Carte de GTA 6 : régions de Leonida et dernières informations"
+      ],
+      "descriptions": [
+        "Mapa de GTA 6 actualizado al 13 de noviembre: seis regiones, imágenes oficiales, exploración 3D, póster y rumores claramente separados.",
+        "GTA 6 map updated November 13: six regions, official screenshots, 3D exploration, the printable poster and clearly labelled unverified reports.",
+        "Carte de GTA 6 au 13 novembre : six régions, images officielles, exploration 3D, affiche imprimable et informations non vérifiées signalées."
+      ],
+      "urls": {
+        "es": "https://fansgta.com/es/mapa/gta-6-leonida-locations/",
+        "en": "https://fansgta.com/en/map/gta-6-leonida-locations/",
+        "fr": "https://fansgta.com/fr/carte/gta-6-leonida-locations/"
+      },
+      "words": {
+        "es": 1355,
+        "en": 1226,
+        "fr": 1237
+      },
+      "H2": 14,
+      "H3": 3,
+      "figures": 7
+    },
+    {
+      "id": "gta6-preload-schedule-20261028",
+      "category": "guides",
+      "published_preserved": "2026-10-28",
+      "updated": "2026-11-13",
+      "titles": [
+        "Cómo descargar GTA 6 antes del lanzamiento: guía fácil",
+        "How to download GTA 6 before release: an easy guide",
+        "Télécharger GTA 6 avant sa sortie : le guide simple"
+      ],
+      "descriptions": [
+        "Descarga GTA 6 antes del estreno en PS5 o Xbox Series X|S: pasos sencillos, cuenta correcta, código de caja, espacio y comprobación de la precarga.",
+        "Download GTA 6 before launch on PS5 or Xbox Series X|S: simple steps, the right account, boxed codes, storage and a final preload check.",
+        "Téléchargez GTA 6 avant sa sortie sur PS5 ou Xbox Series X|S : étapes simples, bon compte, code en boîte, stockage et vérification du préchargement."
+      ],
+      "urls": {
+        "es": "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+        "en": "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+        "fr": "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/"
+      },
+      "words": {
+        "es": 1258,
+        "en": 1142,
+        "fr": 1157
+      },
+      "H2": 11,
+      "H3": 1,
+      "figures": 4
+    }
+  ],
+  "word_method": "Visible editorial core: H1/excerpt/H2/H3/prose/table cells by whitespace; excludes alt/captions/bibliography/global UI.",
+  "map_plan": {
+    "keywords": {
+      "es": {
+        "primary": "mapa de GTA 6",
+        "secondary": [
+          "mapa Leonida GTA 6",
+          "regiones de GTA 6",
+          "mapa GTA 6 oficial",
+          "mapa GTA 6 para imprimir"
+        ],
+        "intent": "Current verified regional overview with paths to specialist guides."
+      },
+      "en": {
+        "primary": "GTA 6 map",
+        "secondary": [
+          "GTA 6 Leonida map",
+          "GTA 6 map regions",
+          "official GTA 6 map",
+          "GTA 6 printable map"
+        ],
+        "intent": "Current map status and official regional directory."
+      },
+      "fr": {
+        "primary": "carte de GTA 6",
+        "secondary": [
+          "carte Leonida GTA 6",
+          "régions GTA 6",
+          "carte officielle GTA 6",
+          "carte GTA 6 à imprimer"
+        ],
+        "intent": "État actuel de la carte et accès aux guides régionaux."
+      }
+    },
+    "title_alternatives": {
+      "es": [
+        "Mapa de GTA 6: regiones de Leonida y novedades verificadas",
+        "Mapa de GTA 6: guía de Leonida, regiones y mapa imprimible",
+        "Leonida en GTA 6: regiones oficiales y estado del mapa"
+      ],
+      "en": [
+        "GTA 6 map: Leonida regions and the latest verified details",
+        "GTA 6 map guide: Leonida regions and the printable map",
+        "GTA 6 Leonida map: official regions and what to check"
+      ],
+      "fr": [
+        "Carte de GTA 6 : régions de Leonida et dernières informations",
+        "Carte GTA 6 : guide des régions et carte à imprimer",
+        "Leonida dans GTA 6 : régions officielles et état de la carte"
+      ]
+    },
+    "interest_signals": {
+      "method": "Current ES/EN/FR search and dated coverage checked with web search; signals of current discussion, not measured Google demand or a popularity ranking.",
+      "checked": "2026-11-13",
+      "queries": [
+        "GTA 6 mapa Leonida Selfridges 12 noviembre 2026",
+        "GTA 6 carte Leonida Selfridges 12 novembre 2026",
+        "GTA 6 map Selfridges November 12 2026"
+      ],
+      "results": [
+        {
+          "language": "EN",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/physical-gta-6-map-leaks-and-i-need-to-know-if-its-teasing-another-ufo-easter-egg/",
+          "reportedDate": "2026-11-12",
+          "role": "Original report read; narrowly attributed and unverified in article."
+        },
+        {
+          "language": "ES",
+          "url": "https://vandal.elespanol.com/noticia/2026316040/cuidado-con-los-spoilers-de-gta-6-filtran-el-mapa-completo-de-leonida-incluido-en-su-caja-coleccionista/",
+          "reportedDate": "2026-11-12",
+          "role": "Search-interest corroboration only; no facts or wording borrowed."
+        },
+        {
+          "language": "FR",
+          "url": "https://gta6france.fr/gta-6-carte-leonida-fuite-collector-selfridges",
+          "reportedDate": "2026-11-12",
+          "role": "Search-interest corroboration only; no facts or wording borrowed."
+        }
+      ],
+      "limitations": [
+        "No reliable Google Trends or Search Console query-volume series obtained for this update.",
+        "No most-searched, viral ranking, Top 10 or fast-indexation claim.",
+        "News coverage is evidence of discussion, not a search-volume measurement."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.rockstargames.com/VI/only-in-leonida",
+        "type": "primary",
+        "checked": "2026-11-13",
+        "aggregateTextBudgetAllLanguages": 200,
+        "derivedTextUpperBoundWords": 160
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media/screenshots",
+        "type": "primary media gallery",
+        "checked": "2026-11-13",
+        "aggregateTextBudgetAllLanguages": 200,
+        "derivedTextUpperBoundWords": 130
+      },
+      {
+        "url": "https://www.famitsu.com/article/202608/85753",
+        "type": "original developer interview",
+        "published": "2026-08-28",
+        "checked": "2026-11-13",
+        "aggregateTextBudgetAllLanguages": 200,
+        "derivedTextUpperBoundWords": 125
+      },
+      {
+        "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+        "type": "primary announcement link",
+        "published": "2026-11-03",
+        "checked": "2026-11-13",
+        "usedAsIndependentReadableEvidence": false
+      },
+      {
+        "url": "https://www.savingcontent.com/2026/11/03/grand-theft-auto-vi-pre-load-begins-on-november-10th/",
+        "type": "complete Rockstar press release reproduction",
+        "published": "2026-11-03",
+        "checked": "2026-11-13",
+        "aggregateTextBudgetAllLanguages": 200,
+        "derivedTextUpperBoundWords": 115
+      },
+      {
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/physical-gta-6-map-leaks-and-i-need-to-know-if-its-teasing-another-ufo-easter-egg/",
+        "type": "dated third-party report; not authenticated",
+        "published": "2026-11-12",
+        "checked": "2026-11-13",
+        "aggregateTextBudgetAllLanguages": 100
+      }
+    ],
+    "visual_source_budgets": {
+      "basis": "Each screenshot is a separate visual work already in the repository. First paragraphs record our own visual observations, not copied gallery descriptions. Distinguish those from independent practical interpretation in second paragraphs.",
+      "perWorkCeilingWordsAllLanguages": 200,
+      "observationPlusAltCaptionHeadingCounts": [
+        {
+          "key": "region-vice-city-02",
+          "words": 131
+        },
+        {
+          "key": "leonida-keys",
+          "words": 132
+        },
+        {
+          "key": "grassrivers",
+          "words": 130
+        },
+        {
+          "key": "port-gellhorn",
+          "words": 137
+        },
+        {
+          "key": "ambrosia",
+          "words": 139
+        },
+        {
+          "key": "feature-mountain",
+          "words": 154
+        }
+      ]
+    },
+    "limits": [
+      "No claim of a newly revealed complete official map.",
+      "No exact square kilometres, coordinates, all-collectible list or travel times invented.",
+      "Current alleged-poster report labelled unverified in H2 and first paragraph in every language.",
+      "No source prices or store availability invented.",
+      "No leaked imagery reproduced.",
+      "No AI or GTA V screenshots; no decorative homepage motion assets.",
+      "Original publication date and localized route set preserved; updated date is real.",
+      "No guaranteed crawling, indexation, Google ranking or search-volume claims."
+    ]
+  },
+  "preload_plan": {
+    "queries": {
+      "es": [
+        "cómo descargar GTA 6 antes del lanzamiento",
+        "cómo precargar GTA 6 PS5",
+        "instalar GTA 6 Xbox Series X S"
+      ],
+      "en": [
+        "how to download GTA 6 before release",
+        "GTA 6 preload PS5 steps",
+        "install GTA 6 Xbox Series X S"
+      ],
+      "fr": [
+        "comment télécharger GTA 6 avant sa sortie",
+        "précharger GTA 6 PS5",
+        "installer GTA 6 Xbox Series X S"
+      ]
+    },
+    "title_alternatives": {
+      "es": [
+        "Cómo descargar GTA 6 antes del lanzamiento en PS5 y Xbox",
+        "Precargar GTA 6 sin complicaciones: cuenta, pasos y comprobación",
+        "Descargar GTA 6 antes del estreno: guía de instalación por consola"
+      ],
+      "en": [
+        "How to download GTA 6 before launch on PS5 and Xbox",
+        "GTA 6 preload made simple: account, steps and checks",
+        "Install GTA 6 before release: a guide for each console"
+      ],
+      "fr": [
+        "Comment télécharger GTA 6 avant sa sortie sur PS5 et Xbox",
+        "Précharger GTA 6 simplement : compte, étapes et vérification",
+        "Installer GTA 6 avant sa sortie : le parcours par console"
+      ]
+    },
+    "interest_signals": {
+      "method": "Current multilingual search results and recent dated coverage. Search result visibility is not Google Trends volume or ranking.",
+      "signals": [
+        {
+          "language": "es",
+          "publisher": "Meristation",
+          "published": "2026-11-10",
+          "url": "https://as.com/meristation/noticias/gta-6-ya-se-puede-predescargar-en-ps5-y-xbox-series-xs-como-descargar-el-juego-antes-de-su-lanzamiento-y-cuando-se-puede-jugar-f202611-n/"
+        },
+        {
+          "language": "fr",
+          "publisher": "Dexerto",
+          "published": "2026-11-10",
+          "url": "https://www.dexerto.fr/gta/comment-precharger-gta-6-ps5-xbox-series-xs-1663764/"
+        },
+        {
+          "language": "en",
+          "publisher": "The Sun",
+          "published": "2026-11-13",
+          "url": "https://www.thesun.co.uk/tech/41015011/gta-release-time-confirmed-preload/"
+        }
+      ],
+      "editorial_use": "Coverage supports current relevance only; technical steps and availability rely on primary sources. No most-searched claim, search volume or ranking invented. No Google indexing-speed or top10 promise."
+    },
+    "sources": [
+      {
+        "label": "Rockstar Support · Regional pre-load and release times · updated 3 November 2026",
+        "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
+        "primary": true,
+        "access": "web-readable",
+        "checked_date": "2026-11-13",
+        "source_updated_date": "2026-11-03",
+        "summary_word_limit": 200
+      },
+      {
+        "label": "Rockstar Support · GTA VI Pre-Load FAQ · updated 3 November 2026",
+        "url": "https://support.rockstargames.com/articles/7nPqOA2uCbpEQHXx7KVrYd/grand-theft-auto-vi-pre-load-faq",
+        "primary": true,
+        "access": "web-readable",
+        "checked_date": "2026-11-13",
+        "source_updated_date": "2026-11-03",
+        "summary_word_limit": 200
+      },
+      {
+        "label": "PlayStation Support · Find and download purchased games",
+        "url": "https://www.playstation.com/en-us/support/games/find-download-games-ps-store/",
+        "primary": true,
+        "access": "web-readable EN/ES/FR",
+        "checked_date": "2026-11-13",
+        "source_updated_date": null,
+        "summary_word_limit": 200
+      },
+      {
+        "label": "PlayStation Support · Pre-order and auto-download games",
+        "url": "https://www.playstation.com/en-us/support/games/pre-order-games-automatic-download-ps-store/",
+        "primary": true,
+        "access": "web-readable",
+        "checked_date": "2026-11-13",
+        "source_updated_date": null,
+        "summary_word_limit": 200
+      },
+      {
+        "label": "PlayStation Support · Get ready for GTA VI",
+        "url": "https://www.playstation.com/en-us/support/games/gta-vi-support/",
+        "primary": true,
+        "access": "web-readable EN/ES/FR",
+        "checked_date": "2026-11-13",
+        "source_updated_date": null,
+        "summary_word_limit": 200
+      },
+      {
+        "label": "Xbox Support · Find your games and add-ons",
+        "url": "https://support.xbox.com/en-US/help/games-apps/my-games-apps/view-downloadable-content",
+        "primary": true,
+        "access": "native Chromium rendered200; all accordion sections expanded normally EN/ES/FR",
+        "checked_date": "2026-11-13",
+        "source_updated_date": null,
+        "summary_word_limit": 200
+      },
+      {
+        "label": "Xbox Support · Pre-order digital games in the Microsoft Store",
+        "url": "https://support.xbox.com/en-US/help/subscriptions-billing/buy-games-apps/pre-order-faq",
+        "primary": true,
+        "access": "native Chromium rendered200; all accordion sections expanded normally EN",
+        "checked_date": "2026-11-13",
+        "source_updated_date": null,
+        "summary_word_limit": 200
+      },
+      {
+        "label": "Rockstar Support · GTA VI platform editions and versions · updated 4 November 2026",
+        "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+        "primary": true,
+        "access": "web-readable",
+        "checked_date": "2026-11-13",
+        "source_updated_date": "2026-11-04",
+        "summary_word_limit": 200
+      },
+      {
+        "label": "PlayStation · Grand Theft Auto VI official game page",
+        "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+        "primary": true,
+        "access": "web-readable current200 equivalent; official Pre-load Now listing",
+        "checked_date": "2026-11-13",
+        "source_updated_date": null,
+        "summary_word_limit": 200
+      },
+      {
+        "label": "Xbox · Grand Theft Auto VI official game page",
+        "url": "https://www.xbox.com/en-US/games/grand-theft-auto-vi",
+        "primary": true,
+        "access": "web-readable",
+        "checked_date": "2026-11-13",
+        "source_updated_date": null,
+        "summary_word_limit": 200
+      },
+      {
+        "label": "Rockstar Games · GTA VI official media · download and share",
+        "url": "https://www.rockstargames.com/VI/media",
+        "primary": true,
+        "access": "web-readable current official Media download-and-share context",
+        "checked_date": "2026-11-13",
+        "source_updated_date": null,
+        "summary_word_limit": 200
+      }
+    ],
+    "source_budget": {
+      "rule": "200 words per source work across ES/EN/FR, not per language. Functional UI labels are not copied expressive prose. Newly composed checklists, editorial route choices and existing user-owned calculation table are separated from source-derived fact blocks.",
+      "measured_allocated_fact_blocks_combined": {
+        "RockstarRegionalFAQ": 112,
+        "RockstarPreloadFAQ": 179,
+        "SonyFindDownload": 101,
+        "SonyPreorderAuto": 120,
+        "SonyGtaPreparationRestBlock": 112,
+        "XboxFindGames": 131,
+        "XboxPreorder": 120,
+        "RockstarEditions": 116
+      },
+      "availability_intro_allocation": "Only the first sentence is source-derived and corroborated by current official Sony/Xbox game listings. The rest introduces FansGTA's updated article scope. No new quote or long source extract.",
+      "retained_table": "Exact existing FansGTA calculation preserved; prose surrounding it rewritten to distinguish historical preload start from playable unlock."
+    },
+    "limits": [
+      "No account login, actual game purchase, entitlement redemption or console download was performed. The article explains current official procedures, not a tested console installation.",
+      "No fresh prices needed for this happy-path installation update; official store links are supplied and the buying guide remains separate.",
+      "Xbox public support required JavaScript; native Chromium with inherited proxy and normal TLS returned200 and full expanded readable sections. No own-origin route interception, proxy bypass or certificate bypass.",
+      "Sony GTA-VI-specific EN preparation page currently presents automatic-install settings differently from ES/FR. Shared direct download steps and preorder timer instructions were checked on their specific support works.",
+      "Do not import generic PlayStation partial-game early-play wording into GTA VI.",
+      "Avoid stale June announcement schedules; current primary support source dates are recorded separately from check date."
+    ]
+  },
+  "source_limits": "No long source quotations; new derived facts stay within each distinct work budget across all translations. Existing user-owned regional conversion table retained exactly. No raw complete external article text committed.",
+  "media": {
+    "checked_at_utc": "2026-11-13T20:54:21.964795+00:00",
+    "method": "Fresh official image downloads via inherited cloud proxy and default TLS verification; no local desktop dependency",
+    "rights_context": "Official Media page currently explicitly offers download and sharing; Rockstar copyright retained and credited; no claim of public domain or unrestricted commercial license",
+    "media": [
+      {
+        "key": "ambrosia",
+        "status": 200,
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_01.0rqphs0gazkm..jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_01.0rqphs0gazkm..jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 715141,
+        "source_sha256": "a5b0d185aa5de42d7492220119254b136efb05ea75212cac46730a9fbd862769",
+        "tls_verified": true,
+        "owner": "Rockstar Games",
+        "registry_source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "registry_credit": "GTA VI © Rockstar Games",
+        "local_exists": true,
+        "local_bytes": 118590,
+        "local_sha256": "ddc749ed919fe4783bbc397aff94dd882dbb4184a5397d040a38269ea8def687",
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "visual_independently_inspected": true
+      },
+      {
+        "key": "feature-mountain",
+        "status": 200,
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "content_type": "image/jpeg",
+        "bytes": 1274178,
+        "source_sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+        "tls_verified": true,
+        "owner": "Rockstar Games",
+        "registry_source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "registry_credit": "GTA VI © Rockstar Games",
+        "local_exists": true,
+        "local_bytes": 226130,
+        "local_sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "visual_independently_inspected": true
+      },
+      {
+        "key": "grassrivers",
+        "status": 200,
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 1258095,
+        "source_sha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5",
+        "tls_verified": true,
+        "owner": "Rockstar Games",
+        "registry_source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "registry_credit": "GTA VI © Rockstar Games",
+        "local_exists": true,
+        "local_bytes": 179052,
+        "local_sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "visual_independently_inspected": true
+      },
+      {
+        "key": "leonida-keys",
+        "status": 200,
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 846989,
+        "source_sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+        "tls_verified": true,
+        "owner": "Rockstar Games",
+        "registry_source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "registry_credit": "GTA VI © Rockstar Games",
+        "local_exists": true,
+        "local_bytes": 126662,
+        "local_sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "visual_independently_inspected": true
+      },
+      {
+        "key": "lucia",
+        "status": 200,
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 898033,
+        "source_sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c",
+        "tls_verified": true,
+        "owner": "Rockstar Games",
+        "registry_source_page": "https://www.rockstargames.com/VI/media",
+        "registry_credit": "GTA VI © Rockstar Games",
+        "local_exists": true,
+        "local_bytes": 65852,
+        "local_sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1600,
+          900
+        ],
+        "visual_independently_inspected": true
+      },
+      {
+        "key": "port-gellhorn",
+        "status": 200,
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_01.0fmisvza-5-cq.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_01.0fmisvza-5-cq.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 829686,
+        "source_sha256": "7775f041a852069d43e357d112d1715f471adc4c4346337e79aa33a7940a8425",
+        "tls_verified": true,
+        "owner": "Rockstar Games",
+        "registry_source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "registry_credit": "GTA VI © Rockstar Games",
+        "local_exists": true,
+        "local_bytes": 124482,
+        "local_sha256": "79bb2cb2a797e1421ad26e73507fc63dd5d1557e73f40316d81d523f4b6d601d",
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "visual_independently_inspected": true
+      },
+      {
+        "key": "region-vice-city-02",
+        "status": 200,
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 528149,
+        "source_sha256": "3f12452834bb07a0a13dabdf019881f372151d4740cdcf0937ac5fe03554d8eb",
+        "tls_verified": true,
+        "owner": "Rockstar Games",
+        "registry_source_page": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "registry_credit": "GTA VI © Rockstar Games",
+        "local_exists": true,
+        "local_bytes": 97548,
+        "local_sha256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077",
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "visual_independently_inspected": true
+      },
+      {
+        "key": "vice-city",
+        "status": 200,
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "content_type": "image/jpeg",
+        "bytes": 894386,
+        "source_sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "tls_verified": true,
+        "owner": "Rockstar Games",
+        "registry_source_page": "https://www.rockstargames.com/VI/media",
+        "registry_credit": "GTA VI © Rockstar Games",
+        "local_exists": true,
+        "local_bytes": 116602,
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1600,
+          900
+        ],
+        "visual_independently_inspected": true
+      }
+    ]
+  },
+  "independent_review": {
+    "errors": [],
+    "article_checks": [
+      {
+        "identity_preserved": {
+          "id": true,
+          "category": true,
+          "slug": true,
+          "published": true
+        },
+        "updated_date": "2026-11-13",
+        "body_matches_first_section": true,
+        "share_enabled": true,
+        "visible_words_ES_EN_FR": [
+          1355,
+          1226,
+          1208
+        ],
+        "word_count_scope": "H1, excerpt, H2, H3, paragraph prose and table headers/cells; excludes body duplicate, TOC duplicate, captions, alt, sources, UI and related cards",
+        "sections": 14,
+        "images_including_cover": 7,
+        "contextual_references": [
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-vice-city-barrios-lugares-imagenes/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-leonida-keys-islas-bares-imagenes/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-grassrivers-pantanos-manglares-imagenes/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-port-gellhorn-costa-moteles-imagenes/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-ambrosia-refineria-moteros-imagenes/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-mount-kalaga-parque-montanas-imagenes/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-mapa-3d-exploracion-zonas-ocultas/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-tamano-mapa-leonida-comparacion-edge/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-mapa-leonida-poster-descarga-oficial/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/mapa/mapa-gta-6-oficial-o-fans/",
+            "exists_in_old_catalogue": true
+          }
+        ],
+        "metadata_chars": {
+          "title": [
+            58,
+            58,
+            61
+          ],
+          "description": [
+            135,
+            143,
+            140
+          ]
+        },
+        "id": "gta-6-leonida-locations",
+        "visible_whitespace_words_ES_EN_FR": [
+          1355,
+          1226,
+          1237
+        ],
+        "unicode_word_method": "Letters/numbers with internal apostrophe/hyphen counted once; punctuation arrows separated in whitespace count are excluded from primary count"
+      },
+      {
+        "identity_preserved": {
+          "id": true,
+          "category": true,
+          "slug": true,
+          "published": true
+        },
+        "updated_date": "2026-11-13",
+        "body_matches_first_section": true,
+        "share_enabled": true,
+        "visible_words_ES_EN_FR": [
+          1264,
+          1147,
+          1133
+        ],
+        "word_count_scope": "H1, excerpt, H2, H3, paragraph prose and table headers/cells; excludes body duplicate, TOC duplicate, captions, alt, sources, UI and related cards",
+        "sections": 11,
+        "images_including_cover": 4,
+        "contextual_references": [
+          {
+            "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+            "exists_in_old_catalogue": true
+          },
+          {
+            "url": "https://fansgta.com/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+            "exists_in_old_catalogue": true
+          }
+        ],
+        "metadata_chars": {
+          "title": [
+            54,
+            51,
+            51
+          ],
+          "description": [
+            147,
+            136,
+            148
+          ]
+        },
+        "id": "gta6-preload-schedule-20261028",
+        "visible_whitespace_words_ES_EN_FR": [
+          1258,
+          1142,
+          1157
+        ],
+        "unicode_word_method": "Letters/numbers with internal apostrophe/hyphen counted once; punctuation arrows separated in whitespace count are excluded from primary count",
+        "historical_regional_table_exactly_preserved": true,
+        "prior_tables_count": 2,
+        "current_tables_count": 1,
+        "opening_schedule_table_treatment": "Opening schedule facts summarized with near-claim primary support references; historical regional table retained exactly. No time conversion or playable-unlock data changed.",
+        "regional_conversion_recheck": {
+          "America/New_York": "2026-11-09T19:00:00-05:00",
+          "America/Mexico_City": "2026-11-09T18:00:00-06:00",
+          "America/Argentina/Buenos_Aires": "2026-11-09T21:00:00-03:00",
+          "Europe/Madrid": "2026-11-10T01:00:00+01:00",
+          "Europe/London": "2026-11-10T00:00:00+00:00"
+        }
+      }
+    ],
+    "source_budget_review": {
+      "map": "Writer ledger reviewed: Famitsu <=125, Rockstar press release reproduction <=115, GamesRadar87 words heading+event summary combined ES/EN/FR; region/page/media provenance budgets and per-image observations separately bounded. No long quotations.",
+      "preload": "Writer allocations reviewed: current regionalFAQ112, preloadFAQ179, SonyFind101, SonyPreorder120, SonyPreparation112, XboxFind131, XboxPreorder120, RockstarEditions116 combined ES/EN/FR factual blocks; unrelated original practical guidance and preserved user-owned timezone table separated.",
+      "no_ranking_or_fast_indexation_promise": true,
+      "independently_measured_map_headings_and_event_summary_all_languages": {
+        "Famitsu": 115,
+        "RockstarPressReleaseReproduction": 107,
+        "GamesRadar": 87
+      }
+    },
+    "minor_root_fixes": [
+      "Synchronized preload body field with its final introduction after trimming.",
+      "Corrected one Spanish heading from Carte to Mapa.",
+      "Separate grammar-only correction in existing stuck-download guide: desde el pantalla to desde la pantalla; other languages/facts/dates/images unchanged."
+    ]
+  },
+  "preservation": {
+    "topics": 207,
+    "localized_versions": 621,
+    "substantively_updated_topics": [
+      "gta-6-leonida-locations",
+      "gta6-preload-schedule-20261028"
+    ],
+    "updated_versions": 6,
+    "grammar_only": "gta6-download-stuck-troubleshooting-20261113",
+    "other_topics_identical": 204,
+    "published_dates_categories_primary_images_and_all_621_URLs_preserved": true,
+    "original_preload_table_preserved": true,
+    "protected_source_files_identical": 18,
+    "CSS_bytes_identical": 57621,
+    "schedule": "Unchanged; manual update only."
+  },
+  "validation": {
+    "build_release": "passed",
+    "static": "665HTML/29969internalLinks/1304structuredblocks",
+    "SEO": "621articleURLs/660canonicalURLs/reciprocalhreflang/initialHTML",
+    "editorial": "0errors42reviewnotices; one previous source-placement notice resolved by the map update",
+    "desktop_mobile_cases_passed": 22,
+    "tablet_cases_passed": 3,
+    "production": "pending"
+  },
+  "indexation_limit": "Technical readiness does not establish Google indexing or speed. No Search Console URL Inspection connection used; no invented search volume/ranking/Google Trends values.",
+  "scope_controls": "Design, advertising, consent, security/cache rules, languages, subscriptions and daily schedule unchanged. Manual equivalent-intent update only.",
+  "publication": "Pending explicit deployment and public verification."
+}

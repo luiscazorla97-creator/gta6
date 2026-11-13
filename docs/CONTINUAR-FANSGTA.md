@@ -521,3 +521,12 @@ Tanda manual publicada y comprobada: commit aa393eb95992a9cde760415414d52b9c9bc9
 - https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/
 - https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/
 - https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/
+
+
+## Actualización manual — 13 de noviembre de 2026: mapas y precarga
+
+El usuario pidió mapa actualizado y descarga fácil antes del estreno. Las dos intenciones ya existían: se renuevan gta-6-leonida-locations y gta6-preload-schedule-20261028 conservando sus seis URLs, publicados, categorías y portadas. Updated real 13 de noviembre. Mapa: siete capturas oficiales y enlaces por región, mapa 3D/físico/tamaño y un reporte no verificado identificado sin reutilizar filtraciones. Descarga: pasos oficiales PS5/Xbox, códigos de caja, cuenta y preparación, cuatro capturas y tabla regional antigua exacta. No se crean duplicados.
+
+Una concordancia española en la guía de descargas atascadas se corrige de «desde el pantalla» a «desde la pantalla»; no cambia sus hechos ni otras versiones. Los otros 204 temas permanecen idénticos. Catálogo 207/621 versiones y 660 canónicas. Investigación, palabras clave, títulos, fuentes, medios y QA: docs/editorial/2026-11-13-map-preload-research.json. Informe: docs/editorial/2026-11-13-map-preload-informe.md.
+
+Build release, estáticos/SEO/editoriales aprobados: 665 HTML, 29.969 enlaces, 1.304 bloques estructurados; cero errores y 42 avisos. Un aviso previo de citas del mapa queda resuelto. 22 pruebas locales escritorio/móvil y tres de tablet aprobadas. SDK simulados solo para contenido/navegación; no certifica anuncios reales ni Analytics. No se garantiza indexación rápida ni top 10. Anuncios, diseño, consentimiento, idiomas, seguridad/caché y programación diaria conservados. Publicación pública pendiente en docs/editorial/2026-11-13-map-preload-publication.json.
