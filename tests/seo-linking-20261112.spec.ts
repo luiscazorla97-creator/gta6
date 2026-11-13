@@ -3,7 +3,7 @@ import {articles} from '../.ssr/entry-server.js';
 import {articlePath,sectionPath} from '../src/routes';
 import {relatedArticles} from '../src/related-articles';
 import {orderGuides} from '../src/guide-order';
-import {fixtureVideoPoster,routePublicContent,finishPublicContentRoutes} from './helpers/public-content';
+import {fixtureVideoPoster,finishPublicContentRoutes} from './helpers/public-content';
 
 const locales=['es','en','fr'] as const;
 const priorityIds=[
@@ -39,8 +39,7 @@ const relatedPaths=(html:string)=>cardPaths(html.match(/<section class="related"
 
 test.afterEach(async({page,baseURL})=>{await finishPublicContentRoutes(page,baseURL);});
 
-test.beforeEach(async({page,baseURL})=>{
- await routePublicContent(page,baseURL);
+test.beforeEach(async({page})=>{
  for(const host of ['https://bauval.org/**','https://pagead2.googlesyndication.com/**','https://www.googletagmanager.com/**'])
   await page.route(host,r=>r.fulfill({status:200,contentType:'application/javascript',body:''}));
 });

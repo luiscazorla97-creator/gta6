@@ -1,7 +1,7 @@
 import {test,expect,type Page} from '@playwright/test';
 import {articles} from '../.ssr/entry-server.js';
 import {articlePath} from '../src/routes';
-import {routePublicContent,finishPublicContentRoutes} from './helpers/public-content';
+import {finishPublicContentRoutes} from './helpers/public-content';
 
 const article=articles.find(candidate=>candidate.shareEnabled);
 if(!article)throw new Error('Build the November 13 articles before testing optional article features.');
@@ -14,9 +14,8 @@ type NativeMode='success'|'absent'|'abort'|'deny';
 type ClipboardMode='success'|'missing'|'deny';
 declare global{interface Window{__articleShareTest:{native:ShareData[];clipboard:string[]};}}
 
-test.beforeEach(async({page,baseURL})=>{
+test.beforeEach(async({page})=>{
  const errors:string[]=[];pageErrors.set(page,errors);page.on('pageerror',error=>errors.push(error.message));
- await routePublicContent(page,baseURL);
  for(const host of ['https://bauval.org/**','https://pagead2.googlesyndication.com/**','https://www.googletagmanager.com/**'])
   await page.route(host,route=>route.fulfill({status:200,contentType:'application/javascript',body:''}));
 });

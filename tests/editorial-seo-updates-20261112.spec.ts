@@ -1,4 +1,4 @@
-import {routePublicContent,finishPublicContentRoutes} from './helpers/public-content';
+import {finishPublicContentRoutes} from './helpers/public-content';
 import {createElement} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {test,expect} from '@playwright/test';
@@ -20,8 +20,7 @@ const normal=(value:string)=>value.replace(/\s+/g,' ').trim();
 
 test.afterEach(async({page,baseURL})=>{await finishPublicContentRoutes(page,baseURL);});
 
-test.beforeEach(async({page,baseURL})=>{
- await routePublicContent(page,baseURL);
+test.beforeEach(async({page})=>{
  // Deterministic SDK fixtures preserve tags but do not certify creative delivery.
  for(const host of ['https://bauval.org/**','https://pagead2.googlesyndication.com/**','https://www.googletagmanager.com/**'])
   await page.route(host,route=>route.fulfill({status:200,contentType:'application/javascript',body:''}));

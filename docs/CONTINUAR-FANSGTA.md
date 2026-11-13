@@ -506,3 +506,18 @@ Tres temas nuevos ES/EN/FR: reportes comunitarios de actualización en PS5, Ques
 Catálogo 207 temas/621 versiones/660 canónicas. Los 204 artículos anteriores y sus 612 URLs permanecen idénticos. Tres capturas oficiales por artículo con créditos, alt y pies traducidos. Se añaden H3 opcionales y compartir nativo/copia/enlace manual solamente a los tres artículos nuevos, con estilos existentes; se ajustan relaciones pertinentes. Los 18 archivos protegidos y el CSS conservan sus bytes. La tarea diaria sigue en un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York; esta es una tanda manual independiente.
 
 Build release y controles estáticos/SEO/editoriales aprobados, cero errores y 43 avisos previos. Inventario inicial desactualizado detectado por el verificador y corregido. El sandbox básico no permite el servidor local; las pruebas usan la ejecución cloud aprobada. WebKit intentado: faltan seis bibliotecas y no se dispone de instalador de sistema, por lo que Safari/iPhone físico queda sin certificar. Se comprueba Chromium móvil/escritorio/tablet. Los SDK se simulan solo en pruebas: no certifica creatividades reales ni Analytics. Despliegue y verificación pública pendientes en docs/editorial/2026-11-13-three-manual-publication.json.
+
+
+Tanda manual publicada y comprobada: commit aa393eb95992a9cde760415414d52b9c9bc9db40, Cloudflare ff5ace2f-4490-4212-93a7-060e7f946681 en deploy/success y canónico coincidente. Verificación 2026-11-13T18:43:02.687841+00:00: 660 canónicas y 621 versiones HTTP200; las nueve nuevas en sitemap y con entradas desde portada/categorías/artículos relacionados. Los 301 recursos públicos coinciden en bytes; HTML de artículos idéntico al release después de retirar solo el beacon exacto. No se declara igualdad del HTML bruto ni de las doce páginas legales transformadas por correo. Nueve comprobaciones con identificador Googlebot correctas, sin certificar IP real o indexación.
+
+62 pruebas locales de escritorio/móvil, 12 de tablet y 36 públicas aprobadas. SDK simulados solo en pruebas; compartir/copia se prueban con funciones controladas, sin envío de mensajes. WebKit no disponible por bibliotecas del entorno; no se certifican Safari ni dispositivos físicos. Los 204 artículos anteriores y 18 archivos protegidos siguen iguales; CSS idéntico. Publicación y URLs: docs/editorial/2026-11-13-three-manual-publication.json y docs/editorial/2026-11-13-three-manual-informe.md. La tarea diaria no se modifica.
+
+- https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/
+- https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/
+- https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/
+- https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/
+- https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/
+- https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/
+- https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/
+- https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/
+- https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/

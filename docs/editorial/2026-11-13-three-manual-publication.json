@@ -1,5 +1,610 @@
 {
-  "state": "pending",
-  "checked_at_utc": "2026-11-13T18:31:27.152753+00:00",
-  "required": "Explicit successful Cloudflare deployment and verified nine public versions, discovery links, media, metadata and language navigation."
+  "state": "published-and-publicly-verified",
+  "verified_at_utc": "2026-11-13T18:43:02.687841+00:00",
+  "runtime_commit": "aa393eb95992a9cde760415414d52b9c9bc9db40",
+  "runtime_tree": "2f264beff68c72d53da6d5403d070cabf9b612b5",
+  "deployment": {
+    "deployment": {
+      "id": "ff5ace2f-4490-4212-93a7-060e7f946681",
+      "environment": "production",
+      "url": "https://ff5ace2f.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-13T18:37:04.673823Z",
+        "ended_on": "2026-11-13T18:37:25.317744Z",
+        "status": "success"
+      },
+      "commit": "aa393eb95992a9cde760415414d52b9c9bc9db40"
+    },
+    "canonical": {
+      "id": "ff5ace2f-4490-4212-93a7-060e7f946681",
+      "environment": "production",
+      "url": "https://ff5ace2f.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-13T18:37:04.673823Z",
+        "ended_on": "2026-11-13T18:37:25.317744Z",
+        "status": "success"
+      },
+      "commit": "aa393eb95992a9cde760415414d52b9c9bc9db40"
+    },
+    "checked_at_utc": "2026-11-13T18:37:30.691278+00:00"
+  },
+  "articles": [
+    {
+      "id": "gta6-ps5-update-reports-20261113",
+      "titles": [
+        "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia?",
+        "GTA 6 update 1.002: PS5 reports and unverified changes",
+        "GTA 6 : mise à jour 1.002 sur PS5, ce qui est rapporté"
+      ],
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+        "en": "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/"
+          ],
+          "title": [
+            "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia? | FansGTA"
+          ],
+          "description": [
+            "Cómo comprobar tu consola y distinguir una descarga de mejoras demostradas, sin confundirla con acceso anticipado."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+            "en": "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/"
+          },
+          "initial_main": true,
+          "article_sections": 7,
+          "figures": 3,
+          "h3": 5,
+          "sha256": "2722b9d7877fde423a95afdbc7271cd09e0db7e7f8a0892061b60f0022ae43b6",
+          "normalized_sha256": "2fe6ace21c959d6b017974667283b4248d1bbbe7e39bb7a49bda80d0f495896c",
+          "release_sha256": "2fe6ace21c959d6b017974667283b4248d1bbbe7e39bb7a49bda80d0f495896c",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/"
+          ],
+          "title": [
+            "GTA 6 update 1.002: PS5 reports and unverified changes | FansGTA"
+          ],
+          "description": [
+            "Check your console and separate a download report from demonstrated improvements, without mistaking it for early access."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+            "en": "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/"
+          },
+          "initial_main": true,
+          "article_sections": 7,
+          "figures": 3,
+          "h3": 5,
+          "sha256": "7990c92fa387ea5a5245452ac29322f42aeafd1586da4e026fc9dce4fabf04be",
+          "normalized_sha256": "6c39547788d905663aeb35219f525f9d9b97d4ccb5e7fff7af26ff492b57c1a2",
+          "release_sha256": "6c39547788d905663aeb35219f525f9d9b97d4ccb5e7fff7af26ff492b57c1a2",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/"
+          ],
+          "title": [
+            "GTA 6 : mise à jour 1.002 sur PS5, ce qui est rapporté | FansGTA"
+          ],
+          "description": [
+            "Vérifiez votre console et distinguez un téléchargement signalé des améliorations démontrées, sans le confondre avec un accès anticipé."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+            "en": "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/"
+          },
+          "initial_main": true,
+          "article_sections": 7,
+          "figures": 3,
+          "h3": 5,
+          "sha256": "59dd50c37397ead1967593db8cf6e223cf08789724e2d813e1b72893fb45b8e1",
+          "normalized_sha256": "49d24f0feda61b436a0bbb9380332539e894a8304a8a2213ccfd145b375bf41d",
+          "release_sha256": "49d24f0feda61b436a0bbb9380332539e894a8304a8a2213ccfd145b375bf41d",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "id": "gta6-discord-quest-orbs-20261113",
+      "titles": [
+        "GTA 6 Discord Quest: Orbs, requisitos y cómo reclamar",
+        "GTA 6 Discord Quest: Orbs, requirements and how to claim",
+        "Quête Discord GTA 6 : Orbes, conditions et récompense"
+      ],
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/",
+        "en": "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/"
+          ],
+          "title": [
+            "GTA 6 Discord Quest: Orbs, requisitos y cómo reclamar | FansGTA"
+          ],
+          "description": [
+            "Localizá la Quest de GTA 6 en Discord, compará la recompensa de tu cuenta y revisá las condiciones antes de reclamar. Guía de Orbs, Nitro y problemas comunes."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/",
+            "en": "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/"
+          },
+          "initial_main": true,
+          "article_sections": 10,
+          "figures": 3,
+          "h3": 5,
+          "sha256": "3ec15abc804ac178188832f1cc9a693803d73ebc7d750c13fcee78d971c338a5",
+          "normalized_sha256": "c215f63d26b5997ed1912e2c8e750f4e4709e529a6a4dba07037041238633e94",
+          "release_sha256": "c215f63d26b5997ed1912e2c8e750f4e4709e529a6a4dba07037041238633e94",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/"
+          ],
+          "title": [
+            "GTA 6 Discord Quest: Orbs, requirements and how to claim | FansGTA"
+          ],
+          "description": [
+            "Find the GTA 6 Discord Quest, compare your account’s reward and review its conditions before claiming. A guide to Orbs, Nitro and common problems."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/",
+            "en": "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/"
+          },
+          "initial_main": true,
+          "article_sections": 10,
+          "figures": 3,
+          "h3": 5,
+          "sha256": "4d72e58cc3ef019d70a1da8d6221f149fbc10152c7cd00a35948635979f5764b",
+          "normalized_sha256": "247519c76626d74588197cc94bc3f0130fbb8f2862413165d899867ce78ab19e",
+          "release_sha256": "247519c76626d74588197cc94bc3f0130fbb8f2862413165d899867ce78ab19e",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/"
+          ],
+          "title": [
+            "Quête Discord GTA 6 : Orbes, conditions et récompense | FansGTA"
+          ],
+          "description": [
+            "Retrouvez la quête Discord GTA 6, comparez la récompense de votre compte et vérifiez les conditions. Guide des Orbes, de Nitro et des difficultés courantes."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/",
+            "en": "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/"
+          },
+          "initial_main": true,
+          "article_sections": 10,
+          "figures": 3,
+          "h3": 5,
+          "sha256": "719eb77bb18c81b39b5b6397c5af037b8b604be6d62f2353ad1e4b90448ffda1",
+          "normalized_sha256": "15ecbd85127d491ea73ae210f29d9fc046dc2142afbdbfafdab54a22d883bca2",
+          "release_sha256": "15ecbd85127d491ea73ae210f29d9fc046dc2142afbdbfafdab54a22d883bca2",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "id": "gta6-download-stuck-troubleshooting-20261113",
+      "titles": [
+        "GTA 6 no se descarga: soluciones en PS5 y Xbox",
+        "GTA 6 download stuck? PS5 and Xbox troubleshooting",
+        "GTA 6 ne se télécharge pas : solutions PS5 et Xbox"
+      ],
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+        "en": "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/"
+          ],
+          "title": [
+            "GTA 6 no se descarga: soluciones en PS5 y Xbox | FansGTA"
+          ],
+          "description": [
+            "Diagnostica una precarga de GTA 6 atascada o lenta: cola, conexión, espacio y pasos oficiales para PS5 y Xbox, sin empezar borrando tus datos."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+            "en": "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/"
+          },
+          "initial_main": true,
+          "article_sections": 15,
+          "figures": 3,
+          "h3": 6,
+          "sha256": "85b6d07a58177d4cfd4c59077ef8dc67b8525edfec09ec076295eb6c11e1174c",
+          "normalized_sha256": "1eee560b6966140de4d4ab35d60650c297aa25193a4a1fa76e44de58cc77b917",
+          "release_sha256": "1eee560b6966140de4d4ab35d60650c297aa25193a4a1fa76e44de58cc77b917",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/"
+          ],
+          "title": [
+            "GTA 6 download stuck? PS5 and Xbox troubleshooting | FansGTA"
+          ],
+          "description": [
+            "Diagnose a stuck or slow GTA 6 preload: queues, connectivity, storage and official PS5 and Xbox procedures before deleting your data."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+            "en": "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/"
+          },
+          "initial_main": true,
+          "article_sections": 15,
+          "figures": 3,
+          "h3": 6,
+          "sha256": "f7ef1d48eeff25178f5ffc30348332edce0bb9770d1f4977f00dae060b133f01",
+          "normalized_sha256": "890e925994b35914a4be2ee1f7e4967ae5b18e20a08041d8da30cda315032fc1",
+          "release_sha256": "890e925994b35914a4be2ee1f7e4967ae5b18e20a08041d8da30cda315032fc1",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/"
+          ],
+          "title": [
+            "GTA 6 ne se télécharge pas : solutions PS5 et Xbox | FansGTA"
+          ],
+          "description": [
+            "Préchargement GTA 6 bloqué ou lent ? Diagnostic de la file, de la connexion et du stockage sur PS5 et Xbox, avant de supprimer des données."
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+            "en": "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/"
+          },
+          "initial_main": true,
+          "article_sections": 15,
+          "figures": 3,
+          "h3": 6,
+          "sha256": "fa46ad4ee7a8d62287171dfa1c456dc7d32c5d76431824ea8a7e4e918bfc6261",
+          "normalized_sha256": "5b7b385eb7c1b2e8f8a9e3fedc1e908772417937ab815027a9e291ea7fd456be",
+          "release_sha256": "5b7b385eb7c1b2e8f8a9e3fedc1e908772417937ab815027a9e291ea7fd456be",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "public_validation": {
+    "canonical_URLs": 660,
+    "article_versions": 621,
+    "status": {
+      "200": 660
+    },
+    "locales": {
+      "es": 220,
+      "en": 220,
+      "fr": 220
+    },
+    "new_versions": 9,
+    "issues": 0,
+    "raw_resource_matches": 301,
+    "normalized_HTML_matches": 648,
+    "legal_comparison_limit": "Twelve legal pages transformed by Cloudflare email protection get HTTP/meta checks; full HTML hash equality is not asserted there. All621articleHTMLmatchesreleaseafteronlytheexactpinnedCloudflarebeacon.",
+    "method": "Normal HTTPS, inherited cloud proxy, browser UA and TLS verification; canonical GETs only. Removes only one exact pinned367byteCloudflarebeacon for raw-release comparison on648nonlegalHTMLpages. Twelve legal pages receive HTTP/meta checks but no full hash assertion because of existing Cloudflare email transforms. All301publicnonHTMLfiles compared raw bytes; no Google indexing or real SDK delivery claim.",
+    "new_article_inbounds": {
+      "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/",
+        "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/",
+        "https://fansgta.com/en/guides/gta-6-ps5-padlock-restore-licences/",
+        "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/"
+      ],
+      "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/",
+        "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/"
+      ],
+      "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/noticias/",
+        "https://fansgta.com/es/noticias/gta-6-directo-youtube-lanzamiento-horario/",
+        "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/",
+        "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/"
+      ],
+      "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+        "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/",
+        "https://fansgta.com/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+        "https://fansgta.com/es/guias/precarga-gta-6-fecha-hora-consolas/"
+      ],
+      "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/",
+        "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/",
+        "https://fansgta.com/fr/guides/gta-6-cadenas-ps5-restaurer-licences/",
+        "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/"
+      ],
+      "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/news/gta-6-fake-download-early-access-scams-netcraft/",
+        "https://fansgta.com/en/guides/prepare-console-account-launch/"
+      ],
+      "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/news/",
+        "https://fansgta.com/en/news/gta-6-youtube-launch-livestream-schedule/",
+        "https://fansgta.com/en/guides/gta-6-preload-date-time-consoles/",
+        "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/"
+      ],
+      "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/actualites/gta-6-arnaques-telechargement-acces-anticipe-netcraft/",
+        "https://fansgta.com/fr/guides/preparer-console-compte-sortie/"
+      ],
+      "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/actualites/",
+        "https://fansgta.com/fr/actualites/gta-6-direct-youtube-lancement-horaires/",
+        "https://fansgta.com/fr/guides/prechargement-gta-6-date-heure-consoles/",
+        "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/"
+      ]
+    },
+    "declared_Googlebot_checks": [
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/"
+        ],
+        "matches_release": true,
+        "issues": []
+      }
+    ],
+    "Googlebot_limit": "User-Agent comparison from the cloud executor, not verified Google IPs or Search Console URL Inspection.",
+    "sitemap_robots_ads_txt": "All raw bytes match the release; nine new URLs exactly once in660canonicalentries, correct dates/reciprocalalternates verified in browser cases."
+  },
+  "tests": {
+    "build_release": "passed",
+    "static_SEO_editorial": "passed;0errors43previousreviewnotices",
+    "local_desktop_mobile_cases": 62,
+    "local_tablet_cases": 12,
+    "production_cases": 36,
+    "viewports": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "tablet": [
+        820,
+        1180
+      ]
+    },
+    "engine": "Chromium cloud emulation, not physical devices",
+    "WebKit_attempted": {
+      "attempted": true,
+      "engine": "WebKit",
+      "headless": true,
+      "available": false,
+      "error": "browserType.launch: \n╔══════════════════════════════════════════════════════╗\n║ Host system is missing dependencies to run browsers. ║\n║ Missing libraries:                                   ║\n║     libgtk-4.so.1                                    ║\n║     libgraphene-1.0.so.0                             ║\n║     libharfbuzz-icu.so.0                             ║\n║     libmanette-0.2.so.0                              ║\n║     libhyphen.so.0                                   ║\n║     libGLESv2.so.2                                   ║\n╚══════════════════════════════════════════════════════╝"
+    },
+    "production_attempts": [
+      {
+        "attempt": 1,
+        "passed": 29,
+        "failed": 7,
+        "cause": "Test-only own-origin route.fetch/fulfill interception raced with browser navigation; all failures originated in that helper.",
+        "fix": "A direct Chromium probe verified normal TLS through its existing configured trust. Removed only own-origin rerouting from the harness; no ignoreHTTPSErrors flag, site content or security change."
+      },
+      {
+        "attempt": 2,
+        "passed": 36,
+        "failed": 0
+      }
+    ],
+    "direct_TLS_probe": {
+      "ownOriginInterception": false,
+      "ignoreHTTPSErrors": false,
+      "status": 200,
+      "title": "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia? | FansGTA",
+      "h1": "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia?"
+    },
+    "provider_fixtures": "Only Adsterra/AdSense/GTM SDKs replaced for deterministic content/navigation tests; no real creative delivery or Analytics receipt claimed. Native share and clipboard mocked only for user-action behavior tests; no messages sent."
+  },
+  "preservation": {
+    "old_topics_identical": 204,
+    "old_article_urls_preserved": 612,
+    "new_topics": 3,
+    "total_topics": 207,
+    "total_versions": 621,
+    "protected_source_files_identical": 18,
+    "CSS_bytes_identical": 57621,
+    "client_JS": "Changes only optional H3/share controls and curated article relationships; existing articles have neither new optional field. Advertising, Analytics, consent and security source unchanged.",
+    "schedule": "Unchanged; one daily topic ES/EN/FR through2026-11-19inclusive America/New_York. This is a separate manual batch."
+  },
+  "evidence_hashes": {
+    "public-verification.json": "3050c550a60260ecc1092dfe9fd7938b8aa2cbc4f1be96f3851a0757ab90fbd4",
+    "release-sha256.json": "55c19fe009fb28d030d667c7ba4a9372df99359fcfa221222409d0b834792410",
+    "browser-local.log": "78c8ef2ccb8f82786116c1948330abfb80f347d1af827c847ac0c9862dd3e36d",
+    "browser-tablet.log": "a10d54b44da854f236a9315f906d38d105b3d0d34987120ec7448d2b5e0cad37",
+    "browser-production-attempt1.log": "efcec1ae1861c7175d6e5c73633fcec2d3c9e87bc2a05a400db4d070f27f9e41",
+    "browser-production.log": "7adec5820c4abdfab4fcf6ba820c47472651fdffa226008ac20a05e33d411a65",
+    "media-final-check.json": "ad0541394469516799a3cdbec91757f18087551513206379c8fa9cc9105e60db",
+    "final-three-qa.json": "7bb51626098219877dc8221acae88ddf7496c8722c2ab27246a2accd88ee6257"
+  },
+  "schedule": "No automation changes; this is a manual3topicbatch independent of the saved one-topic daily execution through November19NY inclusive. Current cloud success does not guarantee future executor availability.",
+  "indexation": "Publicly ready; actual Google indexing, chosen canonical and crawl scheduling not verified without Search Console access."
 }

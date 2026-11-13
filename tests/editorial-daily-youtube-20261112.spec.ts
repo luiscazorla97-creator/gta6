@@ -1,4 +1,4 @@
-import {routePublicContent,finishPublicContentRoutes} from './helpers/public-content';
+import {finishPublicContentRoutes} from './helpers/public-content';
 import {mkdir} from 'node:fs/promises';
 import {createElement} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
@@ -24,8 +24,7 @@ const screenshotDir='/tmp/fansgta-seo-20261112/screenshots';
 
 test.afterEach(async({page,baseURL})=>{await finishPublicContentRoutes(page,baseURL);});
 
-test.beforeEach(async({page,baseURL})=>{
- await routePublicContent(page,baseURL);
+test.beforeEach(async({page})=>{
  // Provider fixtures make content/navigation tests deterministic. They do not
  // demonstrate real creative delivery or Analytics event receipt.
  for(const host of ['https://bauval.org/**','https://pagead2.googlesyndication.com/**','https://www.googletagmanager.com/**'])

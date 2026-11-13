@@ -1,6 +1,6 @@
 # Tanda manual de FansGTA — 13 de noviembre de 2026
 
-Tres temas originales, con nueve versiones. La selección compara los 204 temas anteriores completos; no se utilizaron cifras inventadas de búsquedas ni promesas de posiciones. La publicación permanece pendiente de despliegue y comprobación pública.
+Tres temas originales, con nueve versiones. La selección compara los 204 temas anteriores completos; no se utilizaron cifras inventadas de búsquedas ni promesas de posiciones. Publicación completada y comprobada en producción.
 
 | Tema e intención | Señal de interés |
 | --- | --- |
@@ -54,6 +54,21 @@ Build release y controles estáticos, SEO y editoriales aprobados: 207 temas, 62
 
 Los 18 archivos protegidos y los 57.621 bytes del CSS se conservan. La nueva capacidad cambia JavaScript y el contenido de las páginas nuevas. El HTML inicial, canonical, hreflang, OG, Twitter y BlogPosting —subtipo de Article— usan el sistema existente.
 
-Aprobaron 62 casos de escritorio/móvil y 12 de tablet, incluidos contenido, H3, imágenes, idiomas y todas las alternativas de compartir. La publicación pública sigue pendiente de cerrar en el registro de publicación. Los SDK publicitarios y de Analytics se sustituyen solo para probar contenido y navegación; no demuestran entrega de anuncios ni recepción de eventos.
+Aprobaron 62 casos de escritorio/móvil y 12 de tablet, incluidos contenido, H3, imágenes, idiomas y todas las alternativas de compartir. En producción aprobaron otros 36 casos de las nueve versiones y compartir en los tres tamaños de pantalla. El primer intento dejó 29 aprobados y siete fallos en el intermediario de peticiones del verificador. Una prueba directa confirmó TLS normal; se retiró esa intermediación, sin cambiar el sitio ni desactivar certificados, y se repitieron los 36 casos. Los SDK publicitarios y de Analytics se sustituyen solo para probar contenido y navegación; no demuestran entrega de anuncios ni recepción de eventos.
 
 WebKit fue intentado, pero no arrancó por seis bibliotecas del entorno ausentes. No se certifica Safari ni un iPhone físico. Chromium permite comprobar móvil, escritorio y tablet. Google Trends no entregó series accesibles; Search Console y la indexación real no se verifican desde esta conexión.
+
+
+## Publicación comprobada
+
+Commit `aa393eb95992a9cde760415414d52b9c9bc9db40`; Cloudflare `ff5ace2f-4490-4212-93a7-060e7f946681`, despliegue correcto y canónico coincidente. Verificado 2026-11-13T18:43:02.687841+00:00. Las 660 URLs canónicas responden 200 y las 621 versiones de artículos coinciden con el release tras retirar únicamente el beacon exacto de Cloudflare. Los 301 recursos públicos coinciden en bytes, incluidos imágenes, sitemap, robots y ads.txt. Las doce páginas legales tienen transformaciones de correo existentes y no se afirma igualdad completa de su HTML.
+
+Las nueve solicitudes con identificador declarado Googlebot también respondieron 200. No proceden de IPs verificadas de Google ni prueban indexación. Search Console sigue sin integración de inspección disponible. Las nueve versiones aparecen una vez en el sitemap, están enlazadas desde portada, categorías y artículos previos relacionados; idiomas, imágenes y texto inicial funcionan en las pruebas.
+
+| Tema | Español | Inglés | Francés |
+| --- | --- | --- | --- |
+| GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia? | [Abrir](https://fansgta.com/es/noticias/gta-6-parche-1-002-ps5-reportes/) | [Abrir](https://fansgta.com/en/news/gta-6-update-1-002-ps5-reports/) | [Abrir](https://fansgta.com/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/) |
+| GTA 6 Discord Quest: Orbs, requisitos y cómo reclamar | [Abrir](https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/) | [Abrir](https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/) | [Abrir](https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/) |
+| GTA 6 no se descarga: soluciones en PS5 y Xbox | [Abrir](https://fansgta.com/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/) | [Abrir](https://fansgta.com/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/) | [Abrir](https://fansgta.com/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/) |
+
+La programación diaria, los 204 artículos anteriores, las 612 URLs previas, los anuncios y el consentimiento permanecen conservados. Las limitaciones de WebKit, herramientas de demanda e indexación real se mantienen expresamente; no hay promesa de viralidad o top 10.

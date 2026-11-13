@@ -1,15 +1,7 @@
 import type {Page} from '@playwright/test';
 
-// Keep normal TLS checks and the inherited cloud proxy for the live-origin suite.
-// route.fetch uses the runtime CA trust; this does not ignore certificate errors.
-export async function routePublicContent(page:Page,baseURL:string|undefined){
- if(baseURL?.replace(/\/$/,'')==='https://fansgta.com'){
-  await page.route('https://fansgta.com/**',async route=>{
-   const response=await route.fetch({timeout:45000});
-   await route.fulfill({response});
-  });
- }
-}
+// Own-origin requests use the browser's normal proxy and certificate validation.
+// Fixtures below do not reroute or replace FansGTA content.
 
 // A test-only blank image keeps unrelated external video-poster availability
 // separate from homepage card/hydration checks. No blocked image is retrieved,
@@ -21,7 +13,7 @@ export async function fixtureVideoPoster(page:Page){
  }));
 }
 
-// Finish outstanding proxy fetches before Playwright disposes its API context.
+// Finish outstanding fixture callbacks before Playwright closes the context.
 // Waiting retains failures from active handlers instead of ignoring them.
 export async function finishPublicContentRoutes(page:Page,baseURL:string|undefined){
  if(baseURL?.replace(/\/$/,'')==='https://fansgta.com')

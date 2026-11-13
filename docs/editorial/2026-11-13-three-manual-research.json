@@ -1150,7 +1150,12 @@
     "The first static check caught the stale204-topic inventory after adding the batch; refreshed to207before publishing.",
     "The basic sandbox prevented the preview listener with EPERM; approved outer-cloud test command starts it normally. No site workaround introduced."
   ],
-  "publication": "Pending explicit deployment and production verification. Schedule remains unchanged.",
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "aa393eb95992a9cde760415414d52b9c9bc9db40",
+    "deployment_id": "ff5ace2f-4490-4212-93a7-060e7f946681",
+    "proof": "docs/editorial/2026-11-13-three-manual-publication.json"
+  },
   "local_validation": {
     "build_release": "passed",
     "static": "passed",
@@ -1159,6 +1164,7 @@
     "desktop_mobile_cases_passed": 62,
     "tablet_cases_passed": 12,
     "WebKit": "attempted unavailable as recorded",
-    "SDK_fixtures": "Provider SDKs replaced in content tests; no delivery or Analytics receipt claim."
+    "SDK_fixtures": "Provider SDKs replaced in content tests; no delivery or Analytics receipt claim.",
+    "production_cases_passed": 36
   }
 }
