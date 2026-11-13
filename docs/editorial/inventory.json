@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-ps5-update-reports-20261113",
+    "category": "news",
+    "published": "2026-11-13",
+    "titles": [
+      "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia?",
+      "GTA 6 update 1.002: PS5 reports and unverified changes",
+      "GTA 6 : mise à jour 1.002 sur PS5, ce qui est rapporté"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-parche-1-002-ps5-reportes/",
+      "/en/news/gta-6-update-1-002-ps5-reports/",
+      "/fr/actualites/gta-6-mise-a-jour-1-002-ps5-signalements/"
+    ]
+  },
+  {
+    "id": "gta6-discord-quest-orbs-20261113",
+    "category": "guides",
+    "published": "2026-11-13",
+    "titles": [
+      "GTA 6 Discord Quest: Orbs, requisitos y cómo reclamar",
+      "GTA 6 Discord Quest: Orbs, requirements and how to claim",
+      "Quête Discord GTA 6 : Orbes, conditions et récompense"
+    ],
+    "paths": [
+      "/es/guias/gta-6-discord-quest-orbs-requisitos/",
+      "/en/guides/gta-6-discord-quest-orbs-requirements/",
+      "/fr/guides/gta-6-quete-discord-orbes-conditions/"
+    ]
+  },
+  {
+    "id": "gta6-download-stuck-troubleshooting-20261113",
+    "category": "guides",
+    "published": "2026-11-13",
+    "titles": [
+      "GTA 6 no se descarga: soluciones en PS5 y Xbox",
+      "GTA 6 download stuck? PS5 and Xbox troubleshooting",
+      "GTA 6 ne se télécharge pas : solutions PS5 et Xbox"
+    ],
+    "paths": [
+      "/es/guias/gta-6-no-descarga-precarga-atascada-ps5-xbox/",
+      "/en/guides/gta-6-download-stuck-preload-ps5-xbox-fixes/",
+      "/fr/guides/gta-6-telechargement-bloque-ps5-xbox-solutions/"
+    ]
+  },
+  {
     "id": "gta6-youtube-launch-livestream-20261112",
     "category": "news",
     "published": "2026-11-12",

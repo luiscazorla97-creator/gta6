@@ -1,0 +1,1164 @@
+{
+  "checked_at_utc": "2026-11-13T18:31:27.152753+00:00",
+  "request": "Manual publication of three distinct original GTA VI topics, complete ES/EN/FR, prioritized by verified current interest and useful unserved intent; no guarantee of Google volume, virality or ranking.",
+  "base_main": "780b6311d3279c30a3b20e9584de0f679dcfa5e4",
+  "execution": "Managed cloud, current GitHub main fetched; existing Cloudflare Pages fansgta access and release command verified. No dependence on user-PC files, processes or credentials.",
+  "catalogue_before": {
+    "topics": 204,
+    "localized_versions": 612,
+    "full_snapshot_sha256": "01397ebe44bb6844fb7ff2645c64aaef232359b2e37d0583ca35fa33c78d7c58",
+    "method": "All complete normalized Article objects, languages, source URLs and section prose searched; nearby intents reviewed independently. Not title-only matching."
+  },
+  "articles": [
+    {
+      "id": "gta6-ps5-update-reports-20261113",
+      "category": "news",
+      "titles": [
+        "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia?",
+        "GTA 6 update 1.002: PS5 reports and unverified changes",
+        "GTA 6 : mise à jour 1.002 sur PS5, ce qui est rapporté"
+      ],
+      "slugs": [
+        "gta-6-parche-1-002-ps5-reportes",
+        "gta-6-update-1-002-ps5-reports",
+        "gta-6-mise-a-jour-1-002-ps5-signalements"
+      ],
+      "descriptions": [
+        "Cómo comprobar tu consola y distinguir una descarga de mejoras demostradas, sin confundirla con acceso anticipado.",
+        "Check your console and separate a download report from demonstrated improvements, without mistaking it for early access.",
+        "Vérifiez votre console et distinguez un téléchargement signalé des améliorations démontrées, sans le confondre avec un accès anticipé."
+      ],
+      "word_counts": {
+        "es": 945,
+        "en": 831,
+        "fr": 926
+      },
+      "H2": 7,
+      "H3": 5,
+      "images": 3
+    },
+    {
+      "id": "gta6-discord-quest-orbs-20261113",
+      "category": "guides",
+      "titles": [
+        "GTA 6 Discord Quest: Orbs, requisitos y cómo reclamar",
+        "GTA 6 Discord Quest: Orbs, requirements and how to claim",
+        "Quête Discord GTA 6 : Orbes, conditions et récompense"
+      ],
+      "slugs": [
+        "gta-6-discord-quest-orbs-requisitos",
+        "gta-6-discord-quest-orbs-requirements",
+        "gta-6-quete-discord-orbes-conditions"
+      ],
+      "descriptions": [
+        "Localizá la Quest de GTA 6 en Discord, compará la recompensa de tu cuenta y revisá las condiciones antes de reclamar. Guía de Orbs, Nitro y problemas comunes.",
+        "Find the GTA 6 Discord Quest, compare your account’s reward and review its conditions before claiming. A guide to Orbs, Nitro and common problems.",
+        "Retrouvez la quête Discord GTA 6, comparez la récompense de votre compte et vérifiez les conditions. Guide des Orbes, de Nitro et des difficultés courantes."
+      ],
+      "word_counts": {
+        "es": 1115,
+        "en": 1011,
+        "fr": 1036
+      },
+      "H2": 10,
+      "H3": 5,
+      "images": 3
+    },
+    {
+      "id": "gta6-download-stuck-troubleshooting-20261113",
+      "category": "guides",
+      "titles": [
+        "GTA 6 no se descarga: soluciones en PS5 y Xbox",
+        "GTA 6 download stuck? PS5 and Xbox troubleshooting",
+        "GTA 6 ne se télécharge pas : solutions PS5 et Xbox"
+      ],
+      "slugs": [
+        "gta-6-no-descarga-precarga-atascada-ps5-xbox",
+        "gta-6-download-stuck-preload-ps5-xbox-fixes",
+        "gta-6-telechargement-bloque-ps5-xbox-solutions"
+      ],
+      "descriptions": [
+        "Diagnostica una precarga de GTA 6 atascada o lenta: cola, conexión, espacio y pasos oficiales para PS5 y Xbox, sin empezar borrando tus datos.",
+        "Diagnose a stuck or slow GTA 6 preload: queues, connectivity, storage and official PS5 and Xbox procedures before deleting your data.",
+        "Préchargement GTA 6 bloqué ou lent ? Diagnostic de la file, de la connexion et du stockage sur PS5 et Xbox, avant de supprimer des données."
+      ],
+      "word_counts": {
+        "es": 1994,
+        "en": 1836,
+        "fr": 1955
+      },
+      "H2": 15,
+      "H3": 6,
+      "images": 3
+    }
+  ],
+  "word_count_definition": "H1, excerpt, H2/H3 headings, article paragraphs and table cells. Excludes site navigation, source bibliography, image captions and repeated hydration data.",
+  "title_and_query_plans": {
+    "gta6-ps5-update-reports-20261113": {
+      "alternatives": {
+        "es": [
+          "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia?",
+          "Actualización de GTA 6 en PS5: lo que dicen los reportes",
+          "Parche de GTA 6 antes del estreno: cómo comprobar tu PS5"
+        ],
+        "en": [
+          "GTA 6 update 1.002: PS5 reports and unverified changes",
+          "GTA 6 PS5 update reports: how to check your console",
+          "GTA 6 before launch: what the new update reports show"
+        ],
+        "fr": [
+          "GTA 6 : mise à jour 1.002 sur PS5, ce qui est rapporté",
+          "Mise à jour GTA 6 sur PS5 : vérifier les signalements",
+          "GTA 6 avant la sortie : que disent les nouveaux signalements ?"
+        ]
+      },
+      "selected": [
+        "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia?",
+        "GTA 6 update 1.002: PS5 reports and unverified changes",
+        "GTA 6 : mise à jour 1.002 sur PS5, ce qui est rapporté"
+      ],
+      "keywords": {
+        "es": {
+          "primary": "actualización GTA 6 PS5",
+          "secondary": [
+            "parche GTA 6",
+            "notas del parche",
+            "buscar actualización PS5"
+          ]
+        },
+        "en": {
+          "primary": "GTA 6 update 1.002",
+          "secondary": [
+            "GTA 6 PS5 patch",
+            "GTA 6 patch notes",
+            "check PS5 game update"
+          ]
+        },
+        "fr": {
+          "primary": "mise à jour GTA 6 PS5",
+          "secondary": [
+            "correctif GTA 6",
+            "notes de mise à jour",
+            "vérifier mise à jour PS5"
+          ]
+        }
+      },
+      "reason": "Specific version/platform question, explicit reporting attribution, no unverified content, performance improvement or early-unlock claim.",
+      "interest": [
+        {
+          "url": "https://www.reddit.com/r/PS5/comments/1xv60mc/gta_vi_update_version_1002_available_1_gb/",
+          "date": "2026-11-13",
+          "observed": "Current r/PS5 discussion, with independently dated search result and public post; no exact vote count treated as stable or as Google volume."
+        },
+        {
+          "url": "https://www.reddit.com/r/GTA6/comments/1xv5n4w/new_gta6_console_update/",
+          "date": "2026-11-13",
+          "observed": "Separate current GTA6 discussion, image attribution to TGG by poster; stream not watched independently."
+        }
+      ],
+      "deduplication": {
+        "catalogue_topics": 204,
+        "languages": [
+          "es",
+          "en",
+          "fr"
+        ],
+        "full_serialized_body_and_metadata_scanned": true,
+        "no_existing_1002_match": true,
+        "compared": [
+          {
+            "id": "gta6-preload-schedule-20261028",
+            "title": [
+              "Precarga de GTA 6: fecha, horarios globales y hasta 212 GB",
+              "GTA 6 preload: start date, global times and up to 212 GB",
+              "Préchargement GTA 6 : date, horaires et jusqu’à 212 Go"
+            ]
+          },
+          {
+            "id": "reported-210gb-size-2026-10-28",
+            "title": [
+              "GTA 6 necesita hasta 212 GB: tamaño oficial de la precarga",
+              "GTA 6 needs up to 212 GB: official preload storage requirement",
+              "GTA 6 demande jusqu’à 212 Go : espace officiel du préchargement"
+            ]
+          },
+          {
+            "id": "gta6-download-duration-20261103",
+            "title": [
+              "Cuánto tarda en descargar GTA 6: estimaciones para hasta 212 GB",
+              "GTA 6 download time: estimates for up to 212 GB",
+              "Temps de téléchargement GTA 6 : estimations jusqu’à 212 Go"
+            ]
+          },
+          {
+            "id": "gta6-ps5-pro-fps-deep-20261029",
+            "title": [
+              "GTA 6 en PS5 Pro: objetivo de FPS y mejoras confirmadas",
+              "GTA 6 on PS5 Pro: frame-rate target and confirmed upgrades",
+              "GTA 6 sur PS5 Pro : objectif de FPS et améliorations confirmées"
+            ]
+          }
+        ],
+        "distinct_intent": "An observed pre-release update report and how to assess its evidence, rather than original preload timing, required storage, mathematical download estimates or console performance guidance.",
+        "adjacent_new_topic": "The separate troubleshooting guide handles stuck-download symptoms; this article does not reproduce that workflow."
+      },
+      "limits": [
+        "No own-console download or benchmark; no independently observed TGG stream.",
+        "The external Reddit image link was rewritten to the same post by the web renderer; no image authenticity test or reuse permission claimed. Only existing official GTA VI illustrations are used.",
+        "No official patch-content list verified in the sources consulted; not a claim that every possible official channel was exhaustively searched.",
+        "Unverified Xbox update and future patch claims deliberately omitted.",
+        "Do not state source comments demonstrate new FPS modes, fixed missions, new mechanics or early access."
+      ],
+      "source_budgets": {
+        "https://www.reddit.com/r/PS5/comments/1xv60mc/gta_vi_update_version_1002_available_1_gb/": 156,
+        "https://www.reddit.com/r/GTA6/comments/1xv5n4w/new_gta6_console_update/": 149,
+        "https://www.playstation.com/en-us/support/hardware/playstation-system-software-application-version/": 138,
+        "https://www.playstation.com/en-us/support/hardware/automatic-updates-playstation/": 133
+      }
+    },
+    "gta6-discord-quest-orbs-20261113": {
+      "alternatives": {
+        "es": [
+          "GTA 6 Discord Quest: Orbs, requisitos y cómo reclamar",
+          "Quest de GTA 6 en Discord: qué revisar antes de reclamar",
+          "GTA 6 en Discord: guía de Orbs, Nitro y condiciones"
+        ],
+        "en": [
+          "GTA 6 Discord Quest: Orbs, requirements and how to claim",
+          "GTA 6 Discord rewards: check your Quest before claiming",
+          "GTA 6 on Discord: an Orbs, Nitro and eligibility guide"
+        ],
+        "fr": [
+          "Quête Discord GTA 6 : Orbes, conditions et récompense",
+          "GTA 6 sur Discord : vérifier sa quête avant de réclamer",
+          "Orbes GTA 6 : comprendre la quête Discord et Nitro"
+        ]
+      },
+      "selected": [
+        "GTA 6 Discord Quest: Orbs, requisitos y cómo reclamar",
+        "GTA 6 Discord Quest: Orbs, requirements and how to claim",
+        "Quête Discord GTA 6 : Orbes, conditions et récompense"
+      ],
+      "keywords": {
+        "es": {
+          "primary": "GTA 6 Discord Quest",
+          "secondary": [
+            "misión GTA6Discord",
+            "Orbs GTA6",
+            "reclamar recompensaDiscord",
+            "Nitro requisitosQuest"
+          ]
+        },
+        "en": {
+          "primary": "GTA 6 Discord Quest",
+          "secondary": [
+            "GTA6 DiscordOrbs",
+            "claim GTA6Quest",
+            "Discord Questrequirements",
+            "GTA6Nitroreward"
+          ]
+        },
+        "fr": {
+          "primary": "quête Discord GTA 6",
+          "secondary": [
+            "Orbes GTA6",
+            "récompense Discord GTA6",
+            "conditions quêteGTA6",
+            "réclamer OrbesNitro"
+          ]
+        }
+      },
+      "reason": "Directtaskintent first, platformandgameidentified, rewardunderstoodwithoutfalsepromiseofgamecopyoruniversalamount. LocalFR usesquête/Orbes,Spanishrequirements/claim,EnglishQuest/claimnaturally.",
+      "interest": [
+        {
+          "market": "EN",
+          "url": "https://insider-gaming.com/gta-6-discord-quest-free-rewards/",
+          "publication_displayed": "2026-11-09",
+          "signal": "Specialiststep-by-step coverage plus currentthirdpartycampaignlistings."
+        },
+        {
+          "market": "ES",
+          "url": "https://www.softonic.com/articulos/discord-ya-regala-orbs-por-ver-el-trailer-de-gta-6-hasta-240-con-nitro",
+          "publication_displayed": "2026-11-07",
+          "signal": "Localizedcoverage directly addresses reward discrepancy, desktop/web andNitro."
+        },
+        {
+          "market": "FR",
+          "url": "https://fr.softonic.com/articles/discord-lance-sa-quete-gta-6-jusqua-240-orbs-gratuits",
+          "publication_displayed": "2026-11-07",
+          "signal": "Localizedcoverage ofquêteDiscord/Orbes/rewardsteps."
+        },
+        {
+          "market": "community",
+          "url": "https://www.reddit.com/r/GTA6/comments/1xpqi75/gta_x_discord_starting_to_roll_out/",
+          "publication_displayed": "2026-11-06",
+          "signal": "Originalcommunity discussion abouttheDiscordrollout, notGooglequerymeasurements."
+        }
+      ],
+      "deduplication": {
+        "gta-online-omaggio-twitch-drops-20261031": "GTAOnlineTwitchwatchtime/accountlink andcarreward; thisisDiscordvideocampaign/Orbs, notGTAOnlineingamegrant.",
+        "gta6-youtube-launch-livestream-20261112": "Viewerprogramme18–19November; thisisDiscordopt-inpromotionworkflow andaccountreward interpretation.",
+        "gta6-netcraft-scam-report-20261105": "Threatresearch andfakegameaccessoffers; Discordarticlelinks it contextually butdoesnotduplicatecase-studyfindings.",
+        "gta6-logitech-game-day-20261112": "Employerpolicy/broadcastevent, notDiscordtaskorplatformcurrency."
+      },
+      "limits": [
+        "NoverifiedGoogleTrendsvolume,GooglePAAmetricsorSearchConsolerankdata. Currentcampaignvisibility andcrosslanguagecoverage are observableinterest, notmostsearchedranking, reasonablecompetitionmeasurement ortrafficpromise.",
+        "Officialpublicmetadata/identitylinksverified;accounttermsnotvisiblyread. All200Orbs,liveflags andNov19enddate are explicitly attributedtoDANSDAY;200vs240toSoftonic. Noexactclosinghour,personaleligibility,bothcampaigncumulativetotaloractualclaimedrewardasserted. NoNitropurchaseorservicesenabled."
+      ],
+      "source_budgets": [
+        {
+          "url": "https://app.dansday.dev/quests",
+          "limit_combined": 200,
+          "derived_words_all_languages": 148,
+          "scope": "Whole factual directory paragraph; titles/metadata add no specific directory data. Do not repeat the dates/numbers in a summary table."
+        },
+        {
+          "url": "https://insider-gaming.com/gta-6-discord-quest-free-rewards/",
+          "limit_combined": 200,
+          "derived_words_all_languages": 136,
+          "scope": "Entire first workflow paragraph counted, including own caution. Page reads9November2026 now; do not repeat aggregator7Novemberdate as its publication."
+        },
+        {
+          "url": "https://en.softonic.com/articles/discord-launches-gta-6-quest-today-free-orbs-for-watching-the-trailer",
+          "limit_combined": 200,
+          "derived_words_all_languages": 56,
+          "scope": "Whole 200vs240 sentence plus entire numeric heading, conservative; no other Softonic-derived programme details. Translations belong to the same work and do not each add a budget."
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/30593690165783-Discord-Orbs-FAQ",
+          "limit_combined": 200,
+          "derived_words_all_languages": 194,
+          "scope": "Nitro paragraph sentences2and3 combined116 +Orbs paragraph sentences1and2 combined78. Includes general eligibility caveat conservatively. Following no-game/early-access sentence is our original inference/application, not a further service claim."
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/22225719947543-Discord-Quests-FAQ",
+          "limit_combined": 200,
+          "derived_words_all_languages": 167,
+          "scope": "Platform/region facts moved into the precise FAQ without repetition; retained video-pause paragraph plus moved factual sentence plus whole FAQ platform heading counted. Workflow attributed separately to InsiderGaming. No agecaps,36hgameplayprocessing ornew features added."
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/22225542459415-Data-Used-for-Sponsored-Content-on-Discord",
+          "limit_combined": 200,
+          "derived_words_all_languages": 129,
+          "scope": "Whole controls paragraph counted, including opt-out scope. Remaining paragraph is original diagnostic recommendation."
+        },
+        {
+          "url": "https://discord.com/safety/protecting-users-from-scams-on-discord",
+          "limit_combined": 200,
+          "derived_words_all_languages": 144,
+          "scope": "Whole first safety paragraph counted, including original GTA-specific application. Elsewhere account-note advice is our own common practical recommendation."
+        },
+        {
+          "url": "https://discord.com/quests/1553084092290171081",
+          "limit_combined": 200,
+          "derived_words_all_languages": 0,
+          "scope": "Public identity/link only, no quote or copied campaign terms. Login/account-specific eligibility was not inspected."
+        },
+        {
+          "url": "https://discord.com/quests/1553085045168939138",
+          "limit_combined": 200,
+          "derived_words_all_languages": 0,
+          "scope": "Public identity/link only, no quote or copied campaign terms. Browser metadata confirms title, not reward terms."
+        }
+      ],
+      "primary_sources": [
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/22225719947543-Discord-Quests-FAQ",
+          "updated": "2026-08-31T15:34"
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/30593690165783-Discord-Orbs-FAQ",
+          "updated": "2026-10-23T19:28"
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/22225542459415-Data-Used-for-Sponsored-Content-on-Discord",
+          "updated": "2026-11-10T23:28"
+        },
+        {
+          "url": "https://discord.com/safety/protecting-users-from-scams-on-discord"
+        }
+      ]
+    },
+    "gta6-download-stuck-troubleshooting-20261113": {
+      "alternatives": {
+        "es": [
+          "GTA 6 no se descarga: soluciones en PS5 y Xbox",
+          "Precarga de GTA 6 atascada: qué revisar antes de borrar",
+          "GTA 6 descarga lento: diagnóstico de PS5 y Xbox"
+        ],
+        "en": [
+          "GTA 6 download stuck? PS5 and Xbox troubleshooting",
+          "GTA 6 preload not working: checks before reinstalling",
+          "GTA 6 downloading slowly? Diagnose the actual problem"
+        ],
+        "fr": [
+          "GTA 6 ne se télécharge pas : solutions PS5 et Xbox",
+          "Préchargement GTA 6 bloqué : les vérifications utiles",
+          "GTA 6 trop lent à télécharger ? Diagnostic PS5 et Xbox"
+        ]
+      },
+      "selected": [
+        "GTA 6 no se descarga: soluciones en PS5 y Xbox",
+        "GTA 6 download stuck? PS5 and Xbox troubleshooting",
+        "GTA 6 ne se télécharge pas : solutions PS5 et Xbox"
+      ],
+      "keywords": {
+        "es": {
+          "secondary": [
+            "precarga GTA 6 atascada",
+            "GTA 6 descarga lenta PS5 Xbox",
+            "error instalación GTA 6"
+          ],
+          "primary": "GTA 6 no se descarga"
+        },
+        "en": {
+          "secondary": [
+            "GTA 6 preload not working",
+            "GTA 6 slow download PS5 Xbox",
+            "GTA 6 installation problems"
+          ],
+          "primary": "GTA 6 download stuck"
+        },
+        "fr": {
+          "secondary": [
+            "GTA 6 ne se télécharge pas",
+            "préchargement GTA 6 lent",
+            "problème installation GTA 6"
+          ],
+          "primary": "GTA 6 téléchargement bloqué"
+        }
+      },
+      "reason": "Concrete current problem following preload opening; real public questions and primary platform support allow a useful incident-diagnosis guide distinct from timing, maths, app management, licences and storage specifications.",
+      "interest": [
+        {
+          "language": "en",
+          "url": "https://www.reddit.com/r/XboxSupport/comments/1xs0pya/preload_issues_gta_6_and_wont_allow_me_to/",
+          "access": "Full public question and replies read onNovember13; search labels showNov10cohort, relative timestamps in renderedview are inconsistent with cache age.",
+          "observation": "Readers ask about a placeholder instead of the intended preload; this is an observed question, not a general outage or measured demand."
+        },
+        {
+          "language": "en",
+          "url": "https://www.reddit.com/r/GTA6/comments/1xu1m23/psa_for_noobs_like_me/",
+          "access": "Full public threadread; currentNov11–12discussion according to search/renderedrelative labels, no exacttimestamp claimed.",
+          "observation": "Slow transfer and Wi-Fi configuration are actively discussed. Anecdotal speed multipliers and universal5GHzclaims are not used as procedures or measurements."
+        },
+        {
+          "language": "es",
+          "url": "https://playnius.com/guias-y-trucos/6696/gta-6-no-se-descarga-precarga-ps5-xbox",
+          "access": "Currentsearchresult datedthree days ago; no bodyderivation.",
+          "observation": "Spanish results explicitly target no-se-descarga/precarga diagnostics."
+        },
+        {
+          "language": "fr",
+          "url": "https://www.playstation.com/fr-fr/support/games/gta-vi-game/",
+          "access": "Full official French source read.",
+          "observation": "Localised primary support names download problems explicitly and verifies native terminology; source fact budget shared with English/Spanish equivalents."
+        },
+        {
+          "language": "fr",
+          "url": "https://www.jeuxvideo.com/forums/42-3010011-77081724-95-0-1-0-officiel-topic-des-precommandes.htm",
+          "access": "Searchresult datedNovember12–13,not fullread; discoveryonly.",
+          "observation": "French community still discussing preloading and library visibility; shipping-delay remarks are not confused with game-download faults."
+        },
+        {
+          "language": "fr",
+          "url": "https://tricknfix.com/fr/sujet/gta-vi-le-prechargement-ne-demarre-pas-ou-reste-bloque-la-checklist-officielle-de-sony-pour-ps5-et-ce-qui-a-marche-pour-vous-avant-le-19-nov-8e063f77a1/",
+          "access": "Currentsearchresult only; no sourcefactcopied.",
+          "observation": "French result targets a nonstarting/stuckpreload intent, not a numerical popularityranking."
+        }
+      ],
+      "deduplication": [
+        {
+          "id": "gta6-preload-schedule-20261028",
+          "titles": [
+            "Precarga de GTA 6: fecha, horarios globales y hasta 212 GB",
+            "GTA 6 preload: start date, global times and up to 212 GB",
+            "Préchargement GTA 6 : date, horaires et jusqu’à 212 Go"
+          ],
+          "category": "guides",
+          "slugs": [
+            "precarga-gta-6-fecha-hora-consolas",
+            "gta-6-preload-date-time-consoles",
+            "prechargement-gta-6-date-heure-consoles"
+          ],
+          "full_all_language_sections_compared": 6,
+          "existing_intent": "Schedule and eligibility, regional timing, boxed-code conditions.",
+          "difference": "New guide diagnoses a task already failing or progressing slowly; it links the timing guide instead of restating its tables."
+        },
+        {
+          "id": "gta6-download-duration-20261103",
+          "titles": [
+            "Cuánto tarda en descargar GTA 6: estimaciones para hasta 212 GB",
+            "GTA 6 download time: estimates for up to 212 GB",
+            "Temps de téléchargement GTA 6 : estimations jusqu’à 212 Go"
+          ],
+          "category": "guides",
+          "slugs": [
+            "gta-6-cuanto-tarda-descargar-212-gb",
+            "gta-6-download-time-212-gb",
+            "gta-6-temps-telechargement-212-go"
+          ],
+          "full_all_language_sections_compared": 7,
+          "existing_intent": "Mathematical transfer estimates, Mbps/MBs and size assumptions.",
+          "difference": "No new competing duration table. The new page classifies symptoms and chooses platform procedures; duration maths remains on its existing URL."
+        },
+        {
+          "id": "gta6-xbox-app-remote-install-20261111",
+          "titles": [
+            "Cómo descargar GTA 6 desde Xbox App a tu consola: guía y límites",
+            "How to download GTA 6 to your console with the Xbox app",
+            "Télécharger GTA 6 sur sa console avec Xbox App : guide et limites"
+          ],
+          "category": "guides",
+          "slugs": [
+            "gta-6-descargar-xbox-app-movil-consola",
+            "gta-6-xbox-app-phone-remote-install-console",
+            "gta-6-installer-xbox-app-mobile-console"
+          ],
+          "full_all_language_sections_compared": 7,
+          "existing_intent": "Find the listing and send a download request from phone to console.",
+          "difference": "New guide begins with direct console observations and covers stuck installation beyond sending the remote request."
+        },
+        {
+          "id": "gta6-playstation-app-remote-download-20261108",
+          "titles": [
+            "GTA 6 y PlayStation App: descarga en PS5 desde el móvil",
+            "GTA 6 and PlayStation App: download to PS5 from your phone",
+            "GTA 6 et PlayStation App : télécharger sur PS5 depuis le mobile"
+          ],
+          "category": "guides",
+          "slugs": [
+            "gta-6-descargar-ps5-playstation-app-movil",
+            "gta-6-ps5-download-playstation-app-phone",
+            "gta-6-telechargement-ps5-playstation-app-mobile"
+          ],
+          "full_all_language_sections_compared": 5,
+          "existing_intent": "Pair account and console, remote-download setup and initial request.",
+          "difference": "Referenced only for missing remote tasks; no reworded app tutorial."
+        },
+        {
+          "id": "gta6-ps5-padlock-restore-licences-20261108",
+          "titles": [
+            "GTA 6 en PS5: candado, cuenta y restauración de licencias",
+            "GTA 6 on PS5: padlocks, accounts and restoring licences",
+            "GTA 6 sur PS5 : cadenas, compte et restauration des licences"
+          ],
+          "category": "guides",
+          "slugs": [
+            "gta-6-candado-ps5-restaurar-licencias",
+            "gta-6-ps5-padlock-restore-licences",
+            "gta-6-cadenas-ps5-restaurer-licences"
+          ],
+          "full_all_language_sections_compared": 5,
+          "existing_intent": "Ownership, licence restoration and installed-game access.",
+          "difference": "New article explicitly routes an already installed locked game to this existing page rather than competing for licence intent."
+        },
+        {
+          "id": "gta6-ps5-storage-20261101",
+          "titles": [
+            "GTA 6 en PS5: SSD M.2, USB y cómo preparar el almacenamiento",
+            "GTA 6 on PS5: M.2 SSD, USB and preparing your storage",
+            "GTA 6 sur PS5 : SSD M.2, USB et préparation du stockage"
+          ],
+          "category": "guides",
+          "slugs": [
+            "gta-6-ps5-ssd-m2-usb-almacenamiento",
+            "gta-6-ps5-m2-ssd-usb-storage",
+            "gta-6-ps5-ssd-m2-usb-stockage"
+          ],
+          "full_all_language_sections_compared": 6,
+          "existing_intent": "Storage compatibility, archive versus playable destinations and hardware criteria.",
+          "difference": "New guide asks readers to inspect their current notice and links this existing page; no drive shopping/specification section."
+        },
+        {
+          "id": "gta6-xbox-storage-20261101",
+          "titles": [
+            "GTA 6 en Xbox Series X|S: USB, SSD y tarjetas de expansión",
+            "GTA 6 on Xbox Series X|S: USB, SSD and expansion cards",
+            "GTA 6 sur Xbox Series X|S : USB, SSD et cartes d’extension"
+          ],
+          "category": "guides",
+          "slugs": [
+            "gta-6-xbox-series-s-x-almacenamiento-usb-expansion",
+            "gta-6-xbox-series-s-x-storage-usb-expansion",
+            "gta-6-xbox-series-s-x-stockage-usb-extension"
+          ],
+          "full_all_language_sections_compared": 6,
+          "existing_intent": "Storage and supported devices; USB archives versus native play.",
+          "difference": "New guide contains no alternative storage review or hardware specification duplication."
+        },
+        {
+          "id": "prepare",
+          "titles": [
+            "Preparar GTA 6 en PS5 y Xbox: cuenta, descarga y ajustes",
+            "Prepare for GTA 6 on PS5 and Xbox: account, download and setup",
+            "Préparer GTA 6 sur PS5 et Xbox : compte, téléchargement et réglages"
+          ],
+          "category": "guides",
+          "slugs": [
+            "preparar-consola-cuenta-lanzamiento",
+            "prepare-console-account-launch",
+            "preparer-console-compte-sortie"
+          ],
+          "full_all_language_sections_compared": 5,
+          "existing_intent": "Broad preparation checklist directing to specialised guides.",
+          "difference": "A concrete incident-diagnosis page is not covered by its broad checklist."
+        },
+        {
+          "id": "gta6-preload-network-records-20261111",
+          "titles": [
+            "Precarga de GTA 6: récords de tráfico en Virgin Media",
+            "GTA 6 preload breaks Virgin Media traffic records",
+            "Préchargement de GTA 6 : records de trafic chez Virgin Media"
+          ],
+          "category": "news",
+          "slugs": [
+            "gta-6-precarga-record-trafico-virgin-media",
+            "gta-6-preload-virgin-media-traffic-records",
+            "gta-6-prechargement-records-trafic-virgin-media"
+          ],
+          "full_all_language_sections_compared": 5,
+          "existing_intent": "Aggregate observed network measurements, operator reports.",
+          "difference": "New guide does not infer a network-wide outage or measured individual download performance from these reports."
+        }
+      ],
+      "source_budgets": [
+        {
+          "work": "psgame",
+          "url": "https://www.playstation.com/en-us/support/games/gta-vi-game/",
+          "source_paragraph_words_all_ES_EN_FR": 117,
+          "additional_conservative_allowance": 15,
+          "combined_upper_estimate": 132,
+          "limit": 200,
+          "locations": [
+            "one compact procedure paragraph; other sections are original symptom classification and reasoning, not copied troubleshooting lists"
+          ],
+          "translations_treated_as_one_work": true,
+          "checked_date": "2026-11-13",
+          "primary": true,
+          "publication_date": "No verified publication/revision timestamp; checked date is not an announcement date.",
+          "access": "Readable official source opened through web tool; exact procedural content reviewed."
+        },
+        {
+          "work": "psdownload",
+          "url": "https://www.playstation.com/en-us/support/games/troubleshoot-downloaded-playstation-game/",
+          "source_paragraph_words_all_ES_EN_FR": 128,
+          "additional_conservative_allowance": 15,
+          "combined_upper_estimate": 143,
+          "limit": 200,
+          "locations": [
+            "one compact procedure paragraph; other sections are original symptom classification and reasoning, not copied troubleshooting lists"
+          ],
+          "translations_treated_as_one_work": true,
+          "checked_date": "2026-11-13",
+          "primary": true,
+          "publication_date": "No verified publication/revision timestamp; checked date is not an announcement date.",
+          "access": "Readable official source opened through web tool; exact procedural content reviewed."
+        },
+        {
+          "work": "xslow",
+          "url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-slow-game-or-app-downloads-on-xbox-one",
+          "source_paragraph_words_all_ES_EN_FR": 137,
+          "additional_conservative_allowance": 15,
+          "combined_upper_estimate": 152,
+          "limit": 200,
+          "locations": [
+            "one compact procedure paragraph; other sections are original symptom classification and reasoning, not copied troubleshooting lists"
+          ],
+          "translations_treated_as_one_work": true,
+          "checked_date": "2026-11-13",
+          "primary": true,
+          "publication_date": "No verified publication/revision timestamp; checked date is not an announcement date.",
+          "access": "Official SPA rendered in cloud Chromium with inherited proxy, normal TLS and unmodified browser; sections expanded, readable content preserved privately.",
+          "http": 200,
+          "private_source_text": "xbox-slow-complete.txt",
+          "source_text_sha256": "934d82c7df8e6332a9110ca127f6bdc292984e3726240da46ea853988db5c2a5"
+        },
+        {
+          "work": "xinstall",
+          "url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-game-or-app-installation-problems-on-xbox-one",
+          "source_paragraph_words_all_ES_EN_FR": 141,
+          "additional_conservative_allowance": 15,
+          "combined_upper_estimate": 156,
+          "limit": 200,
+          "locations": [
+            "one compact procedure paragraph; other sections are original symptom classification and reasoning, not copied troubleshooting lists"
+          ],
+          "translations_treated_as_one_work": true,
+          "checked_date": "2026-11-13",
+          "primary": true,
+          "publication_date": "No verified publication/revision timestamp; checked date is not an announcement date.",
+          "access": "Official SPA rendered in cloud Chromium with inherited proxy, normal TLS and unmodified browser; sections expanded, readable content preserved privately.",
+          "http": 200,
+          "private_source_text": "xbox-installation-complete.txt",
+          "source_text_sha256": "d68414c6ee0aa5321ab1f75bbfca8f74060740ce081b55f1dae4addf3ab7162d"
+        },
+        {
+          "work": "connection",
+          "url": "https://www.playstation.com/en-us/support/connectivity/internet-connect-playstation/",
+          "source_paragraph_words_all_ES_EN_FR": 109,
+          "additional_conservative_allowance": 10,
+          "combined_upper_estimate": 119,
+          "limit": 200,
+          "locations": [
+            "one compact procedure paragraph; other sections are original symptom classification and reasoning, not copied troubleshooting lists"
+          ],
+          "translations_treated_as_one_work": true,
+          "checked_date": "2026-11-13",
+          "primary": true,
+          "publication_date": "No verified publication/revision timestamp; checked date is not an announcement date.",
+          "access": "Readable official source opened through web tool; exact procedural content reviewed."
+        },
+        {
+          "work": "power",
+          "url": "https://www.playstation.com/en-us/support/hardware/power-saving/",
+          "source_paragraph_words_all_ES_EN_FR": 125,
+          "additional_conservative_allowance": 10,
+          "combined_upper_estimate": 135,
+          "limit": 200,
+          "locations": [
+            "one compact procedure paragraph; other sections are original symptom classification and reasoning, not copied troubleshooting lists"
+          ],
+          "translations_treated_as_one_work": true,
+          "checked_date": "2026-11-13",
+          "primary": true,
+          "publication_date": "No verified publication/revision timestamp; checked date is not an announcement date.",
+          "access": "Readable official source opened through web tool; exact procedural content reviewed."
+        },
+        {
+          "work": "safe",
+          "url": "https://www.playstation.com/en-us/support/hardware/safe-mode-playstation/",
+          "source_paragraph_words_all_ES_EN_FR": 140,
+          "additional_conservative_allowance": 10,
+          "combined_upper_estimate": 150,
+          "limit": 200,
+          "locations": [
+            "one compact procedure paragraph; other sections are original symptom classification and reasoning, not copied troubleshooting lists"
+          ],
+          "translations_treated_as_one_work": true,
+          "checked_date": "2026-11-13",
+          "primary": true,
+          "publication_date": "No verified publication/revision timestamp; checked date is not an announcement date.",
+          "access": "Readable official source opened through web tool; exact procedural content reviewed."
+        }
+      ],
+      "limits": "No verified GoogleTrends/queryvolume, keyworddifficulty, regionalimpression counts or ranking data. These signals justify usefulness and current relevance, not mostsearched/viral/top10promises. The browsersearch service supplies public searchresults rather than GoogleSearchConsoleprivatequeries."
+    }
+  },
+  "competition_assessment": "Qualitative intent review only. No paid keyword-difficulty score, verified search volume, Google PAA metrics, live Search Console positions or guaranteed top10.",
+  "length_decision": "The2500–3500-word target is conditional in the request. The news report and short promotional task do not justify that much verified material; the diagnosis guide is longer. Repetition was removed rather than used to reach a quota. Report actual counts.",
+  "primary_source_budget_method": "Each distinct work limited to200derivedwords combined across all translations; no extended source quotations. Raw complete external pages remain private cloud research files and are not committed.",
+  "media": {
+    "checked_at_utc": "2026-11-13T18:25:12.339886+00:00",
+    "started_at_utc": "2026-11-13T18:25:10.276536+00:00",
+    "scope": "Unique images across the three final article drafts, not a claimabout allwebsitecontent.",
+    "article_media": {
+      "patch": [
+        "vice-city",
+        "jason",
+        "lucia"
+      ],
+      "discord": [
+        "vice-city",
+        "grassrivers",
+        "jason"
+      ],
+      "download": [
+        "region-ambrosia-02",
+        "region-port-gellhorn-03",
+        "region-leonida-keys-02"
+      ]
+    },
+    "unique_assets": 7,
+    "assets": [
+      {
+        "key": "grassrivers",
+        "optimized_path": "/media/grassrivers.webp",
+        "optimized_bytes": 179052,
+        "optimized_sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "official_source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "visually_checked_this_run": true,
+        "reuse_basis": "Official promotional GTA VI media offered through Rockstar media for download/share and used in attributed original editorial context. Copyright reserved; not an unrestricted licence.",
+        "rights_limits": "No unrestricted licence or public-domain grant claimed. Official promotional imagery illustrates the game; not a screenshot of Discord, console menus, an independently observed bug, patch delivery or benchmark. NoAI, mods, leaks, GTA V or decorative edited hero layers."
+      },
+      {
+        "key": "jason",
+        "optimized_path": "/media/jason.webp",
+        "optimized_bytes": 68710,
+        "optimized_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "official_source_page": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "visually_checked_this_run": true,
+        "reuse_basis": "Official promotional GTA VI media offered through Rockstar media for download/share and used in attributed original editorial context. Copyright reserved; not an unrestricted licence.",
+        "rights_limits": "No unrestricted licence or public-domain grant claimed. Official promotional imagery illustrates the game; not a screenshot of Discord, console menus, an independently observed bug, patch delivery or benchmark. NoAI, mods, leaks, GTA V or decorative edited hero layers."
+      },
+      {
+        "key": "lucia",
+        "optimized_path": "/media/lucia.webp",
+        "optimized_bytes": 65852,
+        "optimized_sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "official_source_page": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "visually_checked_this_run": true,
+        "reuse_basis": "Official promotional GTA VI media offered through Rockstar media for download/share and used in attributed original editorial context. Copyright reserved; not an unrestricted licence.",
+        "rights_limits": "No unrestricted licence or public-domain grant claimed. Official promotional imagery illustrates the game; not a screenshot of Discord, console menus, an independently observed bug, patch delivery or benchmark. NoAI, mods, leaks, GTA V or decorative edited hero layers."
+      },
+      {
+        "key": "region-ambrosia-02",
+        "optimized_path": "/media/region-ambrosia-02.webp",
+        "optimized_bytes": 73828,
+        "optimized_sha256": "abdda8dfb0cdcb5cc1e79158069956000737bb8c4f76cccab42d347ce328b441",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_02.0wtqs05ozl.ym.jpg",
+        "official_source_page": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "visually_checked_this_run": true,
+        "reuse_basis": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed.",
+        "rights_limits": "No unrestricted licence or public-domain grant claimed. Official promotional imagery illustrates the game; not a screenshot of Discord, console menus, an independently observed bug, patch delivery or benchmark. NoAI, mods, leaks, GTA V or decorative edited hero layers."
+      },
+      {
+        "key": "region-leonida-keys-02",
+        "optimized_path": "/media/region-leonida-keys-02.webp",
+        "optimized_bytes": 225064,
+        "optimized_sha256": "29aaa782c451bccfd51aa0daa10f3be24ae93d8c6aa02d946645fd4dba5066ac",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_02.0~ptk-53gl0lq.jpg",
+        "official_source_page": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "visually_checked_this_run": true,
+        "reuse_basis": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed.",
+        "rights_limits": "No unrestricted licence or public-domain grant claimed. Official promotional imagery illustrates the game; not a screenshot of Discord, console menus, an independently observed bug, patch delivery or benchmark. NoAI, mods, leaks, GTA V or decorative edited hero layers."
+      },
+      {
+        "key": "region-port-gellhorn-03",
+        "optimized_path": "/media/region-port-gellhorn-03.webp",
+        "optimized_bytes": 51636,
+        "optimized_sha256": "cd0a6bb53d473d817c8eae264bfb170b7034c6dd6c25a7ccbfeafb9b1eaaf173",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_03.00c2b0eh7sm~q.jpg",
+        "official_source_page": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "visually_checked_this_run": true,
+        "reuse_basis": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed.",
+        "rights_limits": "No unrestricted licence or public-domain grant claimed. Official promotional imagery illustrates the game; not a screenshot of Discord, console menus, an independently observed bug, patch delivery or benchmark. NoAI, mods, leaks, GTA V or decorative edited hero layers."
+      },
+      {
+        "key": "vice-city",
+        "optimized_path": "/media/vice-city.webp",
+        "optimized_bytes": 116602,
+        "optimized_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "official_source_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "official_source_page": "https://www.rockstargames.com/VI/media",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "visually_checked_this_run": true,
+        "reuse_basis": "Official promotional GTA VI media offered through Rockstar media for download/share and used in attributed original editorial context. Copyright reserved; not an unrestricted licence.",
+        "rights_limits": "No unrestricted licence or public-domain grant claimed. Official promotional imagery illustrates the game; not a screenshot of Discord, console menus, an independently observed bug, patch delivery or benchmark. NoAI, mods, leaks, GTA V or decorative edited hero layers."
+      }
+    ],
+    "http_checks": [
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_02.0wtqs05ozl.ym.jpg",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_02.0wtqs05ozl.ym.jpg",
+        "bytes": 480912,
+        "content_type": "image/jpeg",
+        "sha256": "b1804c192c61277e083b57677fe9b7520e59dc30aaf86c3b77305e3bdde872c7"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "bytes": 1258095,
+        "content_type": "image/jpeg",
+        "sha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "bytes": 939665,
+        "content_type": "image/jpeg",
+        "sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_02.0~ptk-53gl0lq.jpg",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_02.0~ptk-53gl0lq.jpg",
+        "bytes": 1156644,
+        "content_type": "image/jpeg",
+        "sha256": "4f61dab070c93acc86c1d9bb576d676bac67c6e5602ba8ac5495b46737b5993b"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "bytes": 898033,
+        "content_type": "image/jpeg",
+        "sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_03.00c2b0eh7sm~q.jpg",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_03.00c2b0eh7sm~q.jpg",
+        "bytes": 357766,
+        "content_type": "image/jpeg",
+        "sha256": "d089452a5a3e0de069daf8191351be45d5407c64fd894dd9570f2cc5fb607a75"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "bytes": 894386,
+        "content_type": "image/jpeg",
+        "sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/media",
+        "bytes": 790632,
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media/screenshots",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/media/screenshots",
+        "bytes": 2607441,
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "5c52ee2aad5e8392cc3e3b30ab52747323d8d1b169b7140cbaa6baaa9bd5f511"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
+        "bytes": 904441,
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "bb9c8e04a6ec8cda02f5243df51792d21d3556d5104928f2b8afd90aedc8a194"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+        "bytes": 904441,
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "bb9c8e04a6ec8cda02f5243df51792d21d3556d5104928f2b8afd90aedc8a194"
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+        "http": 200,
+        "final_url": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+        "bytes": 904441,
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "bb9c8e04a6ec8cda02f5243df51792d21d3556d5104928f2b8afd90aedc8a194"
+      }
+    ],
+    "all_http_200": true,
+    "method": "Normal HTTPGET, inherited proxy and CA/TLS, no authentication, no bypass, maximumfour concurrentrequests. RawsourceHTML/imagesnotcommitted.",
+    "content_limit": "HTTP200establishescurrentasset/sourceaccess, not a newlicencegrant or proofactualeventpictured. Existingcredits/reusecontextreviewed, copyrightreserved.",
+    "visual_alt_caption_review": {
+      "article_placements": 9,
+      "localized_alt_and_caption_pairs": 27,
+      "all_descriptions_match_visible_screenshot_subjects": true,
+      "editorial_context_captions_not_claiming_menu_or_event_photos": true,
+      "images_viewed_current_run": [
+        "vice-city",
+        "jason",
+        "lucia",
+        "grassrivers",
+        "region-ambrosia-02",
+        "region-port-gellhorn-03",
+        "region-leonida-keys-02"
+      ]
+    },
+    "runtime_access_notes": "Default sandbox could not connect inherited proxy (Operation not permitted). The identical publicGET script was authorized outside sandbox, preserving proxy policy/TLS;12of12returned200. No destination denial or retrythroughmirror."
+  },
+  "independent_QA": {
+    "errors": [],
+    "fact_review": {
+      "patch": "Titles/tag/introduction consistently attribute1.002andapproximately1GBto communityreports, not Rockstar. No changelog/fixes/performance/earlyaccess claimed. TGGstream explicitlyunverified. Sonycheck/autoupdate instructions sourced; dayone/final statusnotinvented.",
+      "discord": "Campaignnames come frompublicfirstpartylinks; live/reward/end-date valuesexplicitlyattributed tothirdpartydirectory, never universaleligibility/accountterms. Doesnot claimloggedin orrewardclaimed. ExistingreportsdateNov7/9notpassedoffas newNov13announcements. GeneralNitrobenefits andOrbs/accountlimits supported by officialFAQ; no claimNitroBasiceligible, 400/480guaranteed, realcash/gamecopy oringamecurrency.",
+      "download": "Supportprocedures matchtheirplatform, separatepause/resume, queues, systemupdates, network, storage, installation andauthorisation. Cancellingdownload distinguished fromwipingdata. SafeMode/reset risksclearwithoutrecommendingfactoryresetfirst. No widespreadGTA6bug, fakeownconsoletest orsecretDNSspeedclaim.",
+      "localization": "CompleteESENFR fields, allsourcefactnumbersconsistent(deciamalseparators localized); patchintrochangesnumberorderwithoutmeaningchange. Platformstepsand safetyconditions preserved acrosslanguages."
+    },
+    "baseline_draft_hashes": [
+      {
+        "draft": "patch",
+        "id": "gta6-ps5-update-reports-20261113",
+        "file_sha256": "0d9dc114207581a7123e4317ec1eda864366146fd5647a200a1e865d546e234d",
+        "title": [
+          "GTA 6: reportan el parche 1.002 en PS5, ¿qué cambia?",
+          "GTA 6 update 1.002: PS5 reports and unverified changes",
+          "GTA 6 : mise à jour 1.002 sur PS5, ce qui est rapporté"
+        ],
+        "word_counts_H1_lead_H2_H3_paragraphs_tables": {
+          "es": 945,
+          "en": 831,
+          "fr": 926
+        },
+        "count_scope": "Visible editorial core only; excludes imagecaptions/sourcebox, avoidsduplicatedbodyproperty. Draftledgers mayuseother scopes orolderdrafts; finalreportshouldcalculatefromintegratedrelease.",
+        "sections": 7,
+        "H3": 5,
+        "images": 3,
+        "internal_reference_targets": [
+          "/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+          "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+          "/es/noticias/gta-6-19-november-2026/"
+        ],
+        "exact_old_paragraph_matches": [],
+        "dates": [
+          "2026-11-13",
+          "2026-11-13"
+        ],
+        "shareEnabled": true
+      },
+      {
+        "draft": "discord",
+        "id": "gta6-discord-quest-orbs-20261113",
+        "file_sha256": "e55b3b21dabc3905a221c87fb3237d090a2dc85eb29017998acb7f1e5878fed7",
+        "title": [
+          "GTA 6 Discord Quest: Orbs, requisitos y cómo reclamar",
+          "GTA 6 Discord Quest: Orbs, requirements and how to claim",
+          "Quête Discord GTA 6 : Orbes, conditions et récompense"
+        ],
+        "word_counts_H1_lead_H2_H3_paragraphs_tables": {
+          "es": 1115,
+          "en": 1011,
+          "fr": 1036
+        },
+        "count_scope": "Visible editorial core only; excludes imagecaptions/sourcebox, avoidsduplicatedbodyproperty. Draftledgers mayuseother scopes orolderdrafts; finalreportshouldcalculatefromintegratedrelease.",
+        "sections": 10,
+        "H3": 5,
+        "images": 3,
+        "internal_reference_targets": [
+          "/es/guias/precarga-gta-6-fecha-hora-consolas/",
+          "/es/noticias/gta-6-directo-youtube-lanzamiento-horario/",
+          "/es/noticias/gta-6-estafas-descargas-acceso-anticipado-netcraft/"
+        ],
+        "exact_old_paragraph_matches": [],
+        "dates": [
+          "2026-11-13",
+          "2026-11-13"
+        ],
+        "shareEnabled": true
+      },
+      {
+        "draft": "download",
+        "id": "gta6-download-stuck-troubleshooting-20261113",
+        "file_sha256": "6d637521fb68228c7adf04ff898bade7aa36cb7b4d9834751cee8e3248f58475",
+        "title": [
+          "GTA 6 no se descarga: soluciones en PS5 y Xbox",
+          "GTA 6 download stuck? PS5 and Xbox troubleshooting",
+          "GTA 6 ne se télécharge pas : solutions PS5 et Xbox"
+        ],
+        "word_counts_H1_lead_H2_H3_paragraphs_tables": {
+          "es": 1994,
+          "en": 1836,
+          "fr": 1955
+        },
+        "count_scope": "Visible editorial core only; excludes imagecaptions/sourcebox, avoidsduplicatedbodyproperty. Draftledgers mayuseother scopes orolderdrafts; finalreportshouldcalculatefromintegratedrelease.",
+        "sections": 15,
+        "H3": 6,
+        "images": 3,
+        "internal_reference_targets": [
+          "/es/guias/gta-6-candado-ps5-restaurar-licencias/",
+          "/es/guias/gta-6-cuanto-tarda-descargar-212-gb/",
+          "/es/guias/gta-6-descargar-ps5-playstation-app-movil/",
+          "/es/guias/gta-6-descargar-xbox-app-movil-consola/",
+          "/es/guias/gta-6-ps5-partidas-guardadas-copia-seguridad-nube/",
+          "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+          "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+          "/es/guias/precarga-gta-6-fecha-hora-consolas/"
+        ],
+        "exact_old_paragraph_matches": [],
+        "dates": [
+          "2026-11-13",
+          "2026-11-13"
+        ],
+        "shareEnabled": true
+      }
+    ],
+    "root_changes_after_review": [
+      "Added the direct localized link from the update report to the new download guide.",
+      "Used person/persona/personne for an ambiguous image subject.",
+      "Matched the Spanish Xbox support label pantalla de encendido."
+    ],
+    "word_counts_authoritative": "The integrated article counts above supersede temporary writer counts."
+  },
+  "optional_new_article_features": {
+    "H3": "Valid zero-based paragraph positions; static and hydrated headings match. Existing articles unchanged.",
+    "share": "Only the three flagged articles show native Web Share with copied/manual canonical fallback. User gesture required; cancellation is quiet; no Analytics or third-party library."
+  },
+  "curated_relationships": {
+    "gta6-ps5-update-reports-20261113": [
+      "gta6-preload-schedule-20261028",
+      "gta6-ps5-pro-fps-deep-20261029"
+    ],
+    "gta6-discord-quest-orbs-20261113": [
+      "gta6-youtube-launch-livestream-20261112",
+      "gta6-netcraft-scam-report-20261105"
+    ],
+    "gta6-download-stuck-troubleshooting-20261113": [
+      "gta6-download-duration-20261103",
+      "gta6-ps5-padlock-restore-licences-20261108"
+    ],
+    "gta6-preload-schedule-20261028": [
+      "gta6-ps5-update-reports-20261113",
+      "gta6-download-stuck-troubleshooting-20261113"
+    ],
+    "gta6-netcraft-scam-report-20261105": [
+      "gta6-discord-quest-orbs-20261113",
+      "gta6-mobile-remote-20261101"
+    ],
+    "gta6-ps5-padlock-restore-licences-20261108": [
+      "gta6-download-stuck-troubleshooting-20261113",
+      "gta6-ps5-household-sharing-20261105"
+    ]
+  },
+  "preservation": {
+    "old_topics_identical": 204,
+    "old_article_urls_preserved": 612,
+    "new_topics": 3,
+    "total_topics": 207,
+    "total_versions": 621,
+    "protected_source_files_identical": 18,
+    "CSS_bytes_identical": 57621,
+    "client_JS": "Changes only optional H3/share controls and curated article relationships; existing articles have neither new optional field. Advertising, Analytics, consent and security source unchanged.",
+    "schedule": "Unchanged; one daily topic ES/EN/FR through2026-11-19inclusive America/New_York. This is a separate manual batch."
+  },
+  "environment_limits": {
+    "Google_Trends": "US/FR Explore inaccessible through web renderer; no numerical trend data obtained.",
+    "Search_Console": "No direct URL Inspection connection used; no Google indexing claim.",
+    "Safari_WebKit": {
+      "attempted": true,
+      "engine": "WebKit",
+      "headless": true,
+      "available": false,
+      "error": "browserType.launch: \n╔══════════════════════════════════════════════════════╗\n║ Host system is missing dependencies to run browsers. ║\n║ Missing libraries:                                   ║\n║     libgtk-4.so.1                                    ║\n║     libgraphene-1.0.so.0                             ║\n║     libharfbuzz-icu.so.0                             ║\n║     libmanette-0.2.so.0                              ║\n║     libhyphen.so.0                                   ║\n║     libGLESv2.so.2                                   ║\n╚══════════════════════════════════════════════════════╝"
+    },
+    "WebKit_dependencies": "Official WebKit engine downloaded to workspace; six system libraries missing. No sudo/scoped installer available; isolated package lookup could not locate them. Chromium desktop/mobile/tablet testing remains available."
+  },
+  "initial_check_findings": [
+    "The first static check caught the stale204-topic inventory after adding the batch; refreshed to207before publishing.",
+    "The basic sandbox prevented the preview listener with EPERM; approved outer-cloud test command starts it normally. No site workaround introduced."
+  ],
+  "publication": "Pending explicit deployment and production verification. Schedule remains unchanged.",
+  "local_validation": {
+    "build_release": "passed",
+    "static": "passed",
+    "SEO": "621articleURLs/660canonicalentries/initialHTML/reciprocalhreflang",
+    "editorial": "0errors43previousreviewnotices",
+    "desktop_mobile_cases_passed": 62,
+    "tablet_cases_passed": 12,
+    "WebKit": "attempted unavailable as recorded",
+    "SDK_fixtures": "Provider SDKs replaced in content tests; no delivery or Analytics receipt claim."
+  }
+}

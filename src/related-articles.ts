@@ -2,6 +2,12 @@ import type {Article} from './articles';
 
 type RelatedArticle=Pick<Article,'id'|'slug'|'category'>;
 const relationships:Record<string,string[]>={
+ 'gta6-ps5-update-reports-20261113':['gta6-preload-schedule-20261028','gta6-ps5-pro-fps-deep-20261029'],
+ 'gta6-discord-quest-orbs-20261113':['gta6-youtube-launch-livestream-20261112','gta6-netcraft-scam-report-20261105'],
+ 'gta6-download-stuck-troubleshooting-20261113':['gta6-download-duration-20261103','gta6-ps5-padlock-restore-licences-20261108'],
+ 'gta6-preload-schedule-20261028':['gta6-ps5-update-reports-20261113','gta6-download-stuck-troubleshooting-20261113'],
+ 'gta6-netcraft-scam-report-20261105':['gta6-discord-quest-orbs-20261113','gta6-mobile-remote-20261101'],
+ 'gta6-ps5-padlock-restore-licences-20261108':['gta6-download-stuck-troubleshooting-20261113','gta6-ps5-household-sharing-20261105'],
  'gta6-ps5-3d-audio-settings-20261112':['ps5-features-2026-10-28','gta6-accessibility-console-preparation-20261106'],
  'gta6-download-duration-20261103':['gta6-preload-schedule-20261028','gta6-xbox-storage-20261101'],
  'jason-duval-profile':['lucia-caminos-profile','brian-heder','cal-hampton'],

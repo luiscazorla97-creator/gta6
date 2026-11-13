@@ -497,3 +497,12 @@ Noticia diaria nueva verificada:
 - https://fansgta.com/fr/actualites/gta-6-direct-youtube-lancement-horaires/
 
 La tanda manual anterior quedó en tres tutoriales nuevos justificados y tres revisiones, ya publicados; no se rellenó con dos novedades inexistentes. La ejecución diaria posterior añade solo este tema. Todos los anuncios, consentimiento, diseño, idiomas, URLs anteriores y programación conservados. Queda pendiente inspección privada de Google y ejemplos de los otros grupos de exclusión.
+
+
+## Tanda manual — 13 de noviembre de 2026: tres temas originales
+
+Tres temas nuevos ES/EN/FR: reportes comunitarios de actualización en PS5, Quest de Discord y diagnóstico de descargas atascadas. Se compararon los 204 temas completos; ninguna intención equivalente se duplica. No se afirman notas oficiales del parche, elegibilidad universal o recompensa reclamada, ni un fallo masivo del juego. Las cifras de campaña se atribuyen; los procedimientos usan soporte oficial. Investigación, tres títulos propuestos por idioma, palabras clave, conteos y medios: docs/editorial/2026-11-13-three-manual-research.json. Informe: docs/editorial/2026-11-13-three-manual-informe.md.
+
+Catálogo 207 temas/621 versiones/660 canónicas. Los 204 artículos anteriores y sus 612 URLs permanecen idénticos. Tres capturas oficiales por artículo con créditos, alt y pies traducidos. Se añaden H3 opcionales y compartir nativo/copia/enlace manual solamente a los tres artículos nuevos, con estilos existentes; se ajustan relaciones pertinentes. Los 18 archivos protegidos y el CSS conservan sus bytes. La tarea diaria sigue en un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York; esta es una tanda manual independiente.
+
+Build release y controles estáticos/SEO/editoriales aprobados, cero errores y 43 avisos previos. Inventario inicial desactualizado detectado por el verificador y corregido. El sandbox básico no permite el servidor local; las pruebas usan la ejecución cloud aprobada. WebKit intentado: faltan seis bibliotecas y no se dispone de instalador de sistema, por lo que Safari/iPhone físico queda sin certificar. Se comprueba Chromium móvil/escritorio/tablet. Los SDK se simulan solo en pruebas: no certifica creatividades reales ni Analytics. Despliegue y verificación pública pendientes en docs/editorial/2026-11-13-three-manual-publication.json.

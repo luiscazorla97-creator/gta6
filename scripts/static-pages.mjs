@@ -14,7 +14,7 @@ const descriptions={es:'Noticias con contexto, guías y análisis originales de 
 const cheatDescriptions={es:'Un artículo independiente de trucos por cada GTA. Elige tu juego y consulta todos sus códigos por plataforma, instrucciones y límites de edición.',en:'One independent cheat article for every GTA. Choose a game for all its platform-specific codes, instructions and edition limits.',fr:'Un article indépendant de codes par GTA. Choisissez un jeu pour ses codes par plateforme, leur activation et les limites des éditions.'};
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 const json=s=>JSON.stringify(s).replaceAll('<','\\u003c');
-const readingTimes=Object.fromEntries(articles.map(a=>[a.id,[0,1,2].map(li=>Math.max(1,Math.ceil([a.excerpt[li],...a.sections.flatMap(s=>[s.heading[li],...s.paragraphs.map(p=>p[li]),...(s.table?.rows.flatMap(row=>row.map(cell=>cell[li]))??[])])].join(' ').split(/\s+/).length/200)))]));
+const readingTimes=Object.fromEntries(articles.map(a=>[a.id,[0,1,2].map(li=>Math.max(1,Math.ceil([a.excerpt[li],...a.sections.flatMap(s=>[s.heading[li],...(s.paragraphHeadings?.map(subheading=>subheading.heading[li])??[]),...s.paragraphs.map(p=>p[li]),...(s.table?.rows.flatMap(row=>row.map(cell=>cell[li]))??[])])].join(' ').split(/\s+/).length/200)))]));
 const summaries=articles.map(({sections:_,body:__,sources:___,imageCaption:____,...a})=>({...a,sections:[],body:['','',''],sources:[]}));
 // Archive/home content changes when an article is added or updated. Use the
 // actual content date, never a build timestamp that makes unchanged URLs fresh.

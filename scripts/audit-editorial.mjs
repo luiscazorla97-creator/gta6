@@ -51,6 +51,16 @@ for(const article of articles){
   const base='sections.'+i;three(section.heading,id,base+'.heading');
   check(Array.isArray(section.paragraphs)&&section.paragraphs.length>0,id,base+'.paragraphs','Section has no prose.');
   for(const [j,paragraph]of section.paragraphs.entries()){three(paragraph,id,base+'.paragraphs.'+j);if(typeof paragraph[1]==='string')en.push(paragraph[1]);}
+  if(section.paragraphHeadings!==undefined){
+   check(Array.isArray(section.paragraphHeadings),id,base+'.paragraphHeadings','Subheadings must be an array.');
+   const positions=new Set();
+   for(const [j,item]of(Array.isArray(section.paragraphHeadings)?section.paragraphHeadings:[]).entries()){
+    const location=base+'.paragraphHeadings.'+j;
+    check(Number.isInteger(item.beforeParagraph)&&item.beforeParagraph>=0&&item.beforeParagraph<section.paragraphs.length,id,location,'Subheading must precede an existing paragraph.');
+    check(!positions.has(item.beforeParagraph),id,location,'Two subheadings cannot target the same paragraph.');positions.add(item.beforeParagraph);
+    three(item.heading,id,location+'.heading');
+   }
+  }
   if(section.table){
    check(section.table.headers.length>0,id,base+'.table','Missing table headers.');
    for(const [j,header]of section.table.headers.entries())three(header,id,base+'.table.headers.'+j);
