@@ -2,8 +2,17 @@ import type {Article} from './articles';
 
 type RelatedArticle=Pick<Article,'id'|'slug'|'category'>;
 const relationships:Record<string,string[]>={
+ 'gta6-macca-and-friends-weazel-tv-20261114':["gta6-official-merchandise-store-guide-20261107","collector-box-no-game-2026-10-28"],
+ 'gta6-kick-sunset-reward-case-20261114':["gta6-discord-quest-orbs-20261113","gta6-code-region-20261028"],
+ 'gta6-pocketpair-five-day-leave-20261114':["gta6-logitech-game-day-20261112","gta6-launch-day-pto-bamboohr-20261101"],
+ 'gta6-record-transfer-clips-ps5-xbox-20261114':["gta6-photo-mode-previews-captures-20261106","gta6-streamer-mode-music-rights-20261105"],
+ 'gta6-account-security-passkeys-2fa-20261114':["prepare","gta6-netcraft-scam-report-20261105"],
+ 'gta6-official-merchandise-store-guide-20261107':["gta6-macca-and-friends-weazel-tv-20261114","collector-box-no-game-2026-10-28"],
+ 'gta6-logitech-game-day-20261112':["gta6-pocketpair-five-day-leave-20261114","gta6-launch-day-pto-bamboohr-20261101"],
+ 'gta6-photo-mode-previews-captures-20261106':["gta6-record-transfer-clips-ps5-xbox-20261114","gta6-official-wallpapers-download-20261107"],
+ 'prepare':["gta6-account-security-passkeys-2fa-20261114","gta6-preload-schedule-20261028"],
  'gta6-ps5-update-reports-20261113':['gta6-preload-schedule-20261028','gta6-ps5-pro-fps-deep-20261029'],
- 'gta6-discord-quest-orbs-20261113':['gta6-youtube-launch-livestream-20261112','gta6-netcraft-scam-report-20261105'],
+ 'gta6-discord-quest-orbs-20261113':['gta6-kick-sunset-reward-case-20261114','gta6-netcraft-scam-report-20261105'],
  'gta6-download-stuck-troubleshooting-20261113':['gta6-download-duration-20261103','gta6-ps5-padlock-restore-licences-20261108'],
  'gta6-preload-schedule-20261028':['gta6-ps5-update-reports-20261113','gta6-download-stuck-troubleshooting-20261113'],
  'gta6-netcraft-scam-report-20261105':['gta6-discord-quest-orbs-20261113','gta6-mobile-remote-20261101'],

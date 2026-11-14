@@ -1,0 +1,5 @@
+{
+  "state": "pending-deployment-and-public-verification",
+  "checked_at_utc": "2026-11-14T21:26:01.270952+00:00",
+  "required": "Confirmed GitHub main and successful canonical Cloudflare deployment; all fifteen versions, resources and browser scenarios verified publicly."
+}

@@ -1,0 +1,1574 @@
+{
+  "checked_at_utc": "2026-11-14T21:26:01.270952+00:00",
+  "request": "Manual five-topic batch; complete ES/EN/FR, authentic imagery and SEO, no duplicates or invented popularity.",
+  "base_main": "d4a75e4f24308876379ef9bed437cdfbccce9dde",
+  "execution": {
+    "provider": "Managed cloud; existing workspace freshly fetched from GitHub main.",
+    "independent_of_user_PC": true,
+    "network": "Enforced unrestricted cloud policy; inherited proxy and normal TLS. Basic sandbox proxy bridge unavailable; approved outer cloud client used.",
+    "Cloudflare": {
+      "project": "fansgta",
+      "production_branch": "main",
+      "build_config": {
+        "build_command": "npm run build:release",
+        "destination_dir": "dist",
+        "web_analytics_tag": null,
+        "web_analytics_token": null
+      },
+      "canonical": {
+        "id": "07cf6233-ea84-4953-9d32-a7e19c3c69eb",
+        "environment": "production",
+        "url": "https://07cf6233.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-13T22:33:50.321167Z",
+          "ended_on": "2026-11-13T22:34:11.555277Z",
+          "status": "success"
+        },
+        "commit": "0d6e679d4b5203d6bfc79dedc9f3cdb0ba624752"
+      },
+      "observed_at_utc": "2026-11-14T21:12:43.719382+00:00"
+    },
+    "credentials": "Existing configured bindings; no values printed or new credentials requested."
+  },
+  "deduplication": {
+    "topics_before": 208,
+    "versions_before": 624,
+    "snapshot_sha256": "f6d64cac3c180adb271f537623ead54297c547495dd5c04d0c36bc3efb5d21da",
+    "review_record_sha256": "8317537451817bbcdb9d4b424e9de4deadc2e8e0c6bae6004bf445eea49242e3",
+    "method": "Complete final Article objects, catalogue titles, translated section intents and full relevant texts compared. Related old guides are linked; their article objects remain identical.",
+    "decision": "Five distinct intents, three news topics and two practical guides. No competing duplicate URL or invented extra announcement."
+  },
+  "interest": {
+    "news_signals": [
+      {
+        "topic": "Macca & Friends and fictional Weazel TV",
+        "signals": {
+          "en": "https://www.pcgamer.com/games/grand-theft-auto/new-grand-theft-auto-6-trailer-is-for-a-tv-show-that-exists-within-grand-theft-auto-6/",
+          "es": "https://vandal.elespanol.com/noticia-amp/2026317031/gta-6-muestra-macca-friends-la-serie-de-dibujos-animados-que-podremos-ver-dentro-del-juego/",
+          "fr": "Exact French query surfaced translated specialist coverage; no independent mainstream French source or demand volume established."
+        }
+      },
+      {
+        "topic": "KICK Sunset Reward Case GTA VI code promotion",
+        "signals": {
+          "en": "https://www.dexerto.com/gta/kick-and-twitch-are-giving-away-thousands-of-gta-6-codes-to-viewers-before-launch-3428151/",
+          "es": "Official KICK press article has a Spanish section; broader search coverage also present.",
+          "fr": "No mainstream French independent exact-topic source confirmed; do not invent demand."
+        }
+      },
+      {
+        "topic": "Pocketpair staff leave for GTA VI launch",
+        "primary_post": "https://x.com/Palworld_EN/status/2120864259907452930",
+        "primary_post_date": "2026-11-12",
+        "signals": {
+          "en": "https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/",
+          "es": "https://vandal.elespanol.com/noticia/2026316034/los-creadores-de-palworld-concederan-5-dias-de-vacaciones-a-sus-trabajadores-para-jugar-a-gta-6/",
+          "fr": "IGN France story dated12November surfaced through news-index link: https://1001rss.com/article/4078329-pocketpair-le-studio-derriere-palworld-accorde-5-jours-de-conge-a-ses-employes-pour-jouer-a-gta-6 ; primary FRoriginal URL not independently opened."
+        }
+      }
+    ],
+    "practical_signals": {
+      "capture": [
+        {
+          "language": "en",
+          "url": "https://www.storycut.com/blog/how-to-clip-gta-6-ps5-xbox",
+          "search_evidence": "Search surfaced current guide published last week; not used as factual instructions."
+        },
+        {
+          "language": "es",
+          "url": "https://clipiku.com/blog/grabar-partida-gta-6-ps5-xbox",
+          "search_evidence": "Exact-task search surfaced a recent Spanish guide; not used as primary facts."
+        },
+        {
+          "language": "en",
+          "url": "https://www.elgato.com/us/en/explorer/products/capture/what-you-need-to-stream-and-record-gta-6/",
+          "search_evidence": "Specialist hardware-provider guide addresses GTA VI recording/streaming. The new article does not copy its shopping advice or claim external hardware is necessary."
+        }
+      ],
+      "security": [
+        {
+          "language": "es",
+          "url": "https://gamers.wiki/es/juegos/grand-theft-auto-vi/guias/checklist-de-seguridad-de-gta-6-rockstar-psn-y-xbox",
+          "search_evidence": "Exact account-security intent surfaced; published earlier, not evidence of same-day search volume and not used for instructions."
+        },
+        {
+          "language": "fr",
+          "url": "https://www.playstation.com/fr-fr/games/grand-theft-auto-vi/",
+          "search_evidence": "Current official game listing links its account/online conditions; no universal mandatory-account inference made."
+        },
+        {
+          "internal_context": "gta6-netcraft-scam-report-20261105",
+          "search_evidence": "Existing dated scam report makes account protection a relevant practical follow-up; no duplicated alert story or new scam statistics."
+        }
+      ],
+      "limits": "Qualitative search-result/provider coverage only. No numeric search demand, ranking or Google Trends data was available or invented. French capture exact-query volume and same-day security demand not established; do not claim most searched."
+    },
+    "limits": "Qualitative current coverage and task-specific search results only; no Google Trends numbers, rankings, same-day volume or most-searched claim. Instructions come from first-party documentation rather than the discovery pages."
+  },
+  "articles": [
+    {
+      "id": "gta6-macca-and-friends-weazel-tv-20261114",
+      "category": "news",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+        "en": "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/"
+      },
+      "published": "2026-11-14",
+      "updated": "2026-11-14"
+    },
+    {
+      "id": "gta6-kick-sunset-reward-case-20261114",
+      "category": "news",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+        "en": "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/"
+      },
+      "published": "2026-11-14",
+      "updated": "2026-11-14"
+    },
+    {
+      "id": "gta6-pocketpair-five-day-leave-20261114",
+      "category": "news",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/",
+        "en": "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/"
+      },
+      "published": "2026-11-14",
+      "updated": "2026-11-14"
+    },
+    {
+      "id": "gta6-record-transfer-clips-ps5-xbox-20261114",
+      "category": "guides",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+        "en": "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/"
+      },
+      "published": "2026-11-14",
+      "updated": "2026-11-14"
+    },
+    {
+      "id": "gta6-account-security-passkeys-2fa-20261114",
+      "category": "guides",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+        "en": "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/"
+      },
+      "published": "2026-11-14",
+      "updated": "2026-11-14"
+    }
+  ],
+  "review": {
+    "snapshot_sha256": "559ab7c44b09944c17b40620cc99179a74b01cf6a62ad871bd6980fc418a8077",
+    "result": "editorial_source_media_QA_pass",
+    "checked_at_utc": "2026-11-14T21:23:21.502611+00:00",
+    "article_checks": [
+      {
+        "name": "macca",
+        "id": "gta6-macca-and-friends-weazel-tv-20261114",
+        "category": "news",
+        "section_count": 4,
+        "languages": {
+          "es": {
+            "headings_paragraph_words": 349,
+            "table_words": 0,
+            "core_including_table": 349,
+            "title_characters": 44,
+            "excerpt_characters": 96
+          },
+          "en": {
+            "headings_paragraph_words": 312,
+            "table_words": 0,
+            "core_including_table": 312,
+            "title_characters": 42,
+            "excerpt_characters": 90
+          },
+          "fr": {
+            "headings_paragraph_words": 335,
+            "table_words": 0,
+            "core_including_table": 335,
+            "title_characters": 45,
+            "excerpt_characters": 97
+          }
+        },
+        "body_alias_not_double_counted": true,
+        "published": "2026-11-14",
+        "updated": "2026-11-14",
+        "slug": [
+          "gta-6-macca-and-friends-weazel-trailer-serie",
+          "gta-6-macca-and-friends-weazel-tv-teaser",
+          "gta-6-macca-and-friends-weazel-serie-bande-annonce"
+        ],
+        "editorial_result": "pass"
+      },
+      {
+        "name": "kick",
+        "id": "gta6-kick-sunset-reward-case-20261114",
+        "category": "news",
+        "section_count": 5,
+        "languages": {
+          "es": {
+            "headings_paragraph_words": 172,
+            "table_words": 0,
+            "core_including_table": 172,
+            "title_characters": 22,
+            "excerpt_characters": 124
+          },
+          "en": {
+            "headings_paragraph_words": 150,
+            "table_words": 0,
+            "core_including_table": 150,
+            "title_characters": 19,
+            "excerpt_characters": 126
+          },
+          "fr": {
+            "headings_paragraph_words": 171,
+            "table_words": 0,
+            "core_including_table": 171,
+            "title_characters": 24,
+            "excerpt_characters": 135
+          }
+        },
+        "body_alias_not_double_counted": true,
+        "published": "2026-11-14",
+        "updated": "2026-11-14",
+        "slug": [
+          "gta-6-gratis-kick-sunset-reward-case-condiciones",
+          "gta-6-free-kick-sunset-reward-case-rules",
+          "gta-6-gratuit-kick-sunset-reward-case-conditions"
+        ],
+        "editorial_result": "pass"
+      },
+      {
+        "name": "pocketpair",
+        "id": "gta6-pocketpair-five-day-leave-20261114",
+        "category": "news",
+        "section_count": 5,
+        "languages": {
+          "es": {
+            "headings_paragraph_words": 247,
+            "table_words": 24,
+            "core_including_table": 271,
+            "title_characters": 53,
+            "excerpt_characters": 101
+          },
+          "en": {
+            "headings_paragraph_words": 205,
+            "table_words": 18,
+            "core_including_table": 223,
+            "title_characters": 43,
+            "excerpt_characters": 99
+          },
+          "fr": {
+            "headings_paragraph_words": 234,
+            "table_words": 19,
+            "core_including_table": 253,
+            "title_characters": 49,
+            "excerpt_characters": 104
+          }
+        },
+        "body_alias_not_double_counted": true,
+        "published": "2026-11-14",
+        "updated": "2026-11-14",
+        "slug": [
+          "gta-6-pocketpair-cinco-dias-libres-palworld",
+          "gta-6-pocketpair-five-days-off-palworld",
+          "gta-6-pocketpair-cinq-jours-conge-palworld"
+        ],
+        "editorial_result": "pass"
+      },
+      {
+        "name": "capture",
+        "id": "gta6-record-transfer-clips-ps5-xbox-20261114",
+        "category": "guides",
+        "section_count": 8,
+        "languages": {
+          "es": {
+            "headings_paragraph_words": 709,
+            "table_words": 0,
+            "core_including_table": 709,
+            "title_characters": 53,
+            "excerpt_characters": 146
+          },
+          "en": {
+            "headings_paragraph_words": 673,
+            "table_words": 0,
+            "core_including_table": 673,
+            "title_characters": 52,
+            "excerpt_characters": 132
+          },
+          "fr": {
+            "headings_paragraph_words": 718,
+            "table_words": 0,
+            "core_including_table": 718,
+            "title_characters": 53,
+            "excerpt_characters": 127
+          }
+        },
+        "body_alias_not_double_counted": true,
+        "published": "2026-11-14",
+        "updated": "2026-11-14",
+        "slug": [
+          "gta-6-grabar-clips-ps5-xbox-pasar-movil",
+          "gta-6-record-clips-ps5-xbox-phone-backup",
+          "gta-6-enregistrer-clips-ps5-xbox-telephone"
+        ],
+        "editorial_result": "pass"
+      },
+      {
+        "name": "security",
+        "id": "gta6-account-security-passkeys-2fa-20261114",
+        "category": "guides",
+        "section_count": 8,
+        "languages": {
+          "es": {
+            "headings_paragraph_words": 678,
+            "table_words": 0,
+            "core_including_table": 678,
+            "title_characters": 55,
+            "excerpt_characters": 151
+          },
+          "en": {
+            "headings_paragraph_words": 636,
+            "table_words": 0,
+            "core_including_table": 636,
+            "title_characters": 53,
+            "excerpt_characters": 139
+          },
+          "fr": {
+            "headings_paragraph_words": 654,
+            "table_words": 0,
+            "core_including_table": 654,
+            "title_characters": 41,
+            "excerpt_characters": 161
+          }
+        },
+        "body_alias_not_double_counted": true,
+        "published": "2026-11-14",
+        "updated": "2026-11-14",
+        "slug": [
+          "gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos",
+          "gta-6-account-security-passkeys-two-step-verification",
+          "gta-6-securiser-comptes-cles-acces-double-authentification"
+        ],
+        "editorial_result": "pass"
+      }
+    ],
+    "global_source_ledgers": [
+      {
+        "work_id": "macca_announcement_and_teaser_ONE_work",
+        "combined_words_all_five_articles_ES_EN_FR": 193,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 7,
+        "counted_fields": "Writer allocation 178 (titles, excerpts, sourced lead and short remaining-details paragraph) + full first H2 + tag. Written reveal/video share one budget. No factual recap allowance is created by a mirror or translation.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://discussingfilm.net/2026/11/13/macca-and-friends-gta-vi-exclusive",
+          "https://www.youtube.com/watch?v=UhPvgbP7ps8"
+        ]
+      },
+      {
+        "work_id": "gta_iv_official_manual",
+        "combined_words_all_five_articles_ES_EN_FR": 164,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 36,
+        "counted_fields": "Full history H2 and source paragraph, all three languages.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://media.rockstargames.com/rockstargames-newsite/img/manuals/en_uk/GTAIV_360_MANUAL_CRED18_ENG.pdf"
+        ]
+      },
+      {
+        "work_id": "rockstar_store_vice_city_collection",
+        "combined_words_all_five_articles_ES_EN_FR": 141,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 59,
+        "counted_fields": "Full collection H2 and source paragraph, all three languages.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection"
+        ]
+      },
+      {
+        "work_id": "rockstar_VI_homepage_SHARED_ALL_BATCH",
+        "combined_words_all_five_articles_ES_EN_FR": 18,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 182,
+        "counted_fields": "One brief release-date sentence per language in Macca; other four articles allocate zero.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.rockstargames.com/VI"
+        ]
+      },
+      {
+        "work_id": "kick_announcement_and_help_ONE_work",
+        "combined_words_all_five_articles_ES_EN_FR": 199,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 1,
+        "counted_fields": "All campaign factual paragraphs, four factual H2, titles and tags, plus nine conservative proper-name words added by final subject-labelled metadata. Original account/privacy advice adds no campaign rules.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://about.kick.com/news-and-press/13-sunset-reward-case",
+          "https://help.kick.com/en/articles/18357299-sunset-reward-case-claim-a-free-copy-of-gta-vi-on-kick"
+        ]
+      },
+      {
+        "work_id": "sony_country_region",
+        "combined_words_all_five_articles_ES_EN_FR": 32,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 168,
+        "counted_fields": "Regional matching sentences in redemption section; all three languages.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.playstation.com/en-us/support/account/check-account-country-region/"
+        ]
+      },
+      {
+        "work_id": "pocketpair_official_post_notice_and_reproductions_ONE_work",
+        "combined_words_all_five_articles_ES_EN_FR": 196,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 4,
+        "counted_fields": "Titles, excerpts, first factual H2, lead, scope paragraph and all tags. Calendar table/weekday explanation is separately computed date arithmetic, not an extra paraphrase of notice prose.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://x.com/Palworld_EN/status/2120864259907452930"
+        ],
+        "direct_X_access_limit": "403 for investigator; official public oEmbed 200. Attached notice visually reviewed from attributed reproduction."
+      },
+      {
+        "work_id": "pocketpair_games_catalogue",
+        "combined_words_all_five_articles_ES_EN_FR": 131,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 69,
+        "counted_fields": "Full studio H2 and source paragraph.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.pocketpair.jp/en/games-en/"
+        ]
+      },
+      {
+        "work_id": "logitech_nov10_release",
+        "combined_words_all_five_articles_ES_EN_FR": 152,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 48,
+        "counted_fields": "Full contrast H2 and sourced comparison paragraph.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://news.logitech.com/press-releases/news-details/2026/Logitechs-Game-Day-Gives-Employees-a-Dedicated-Day-Off/default.aspx"
+        ]
+      },
+      {
+        "work_id": "sony-capture",
+        "combined_words_all_five_articles_ES_EN_FR": 182,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 18,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/"
+        ],
+        "factual_paragraph_words": 142,
+        "full_associated_heading_words": 27,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "sony-edit",
+        "combined_words_all_five_articles_ES_EN_FR": 167,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 33,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.playstation.com/en-us/support/games/ps5-edit-share-screenshots-clips/"
+        ],
+        "factual_paragraph_words": 131,
+        "full_associated_heading_words": 23,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "sony-app",
+        "combined_words_all_five_articles_ES_EN_FR": 189,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 11,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.playstation.com/en-us/support/games/ps5-game-captures-ps-app/"
+        ],
+        "factual_paragraph_words": 153,
+        "full_associated_heading_words": 23,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "xbox-share-button",
+        "combined_words_all_five_articles_ES_EN_FR": 172,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 28,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://support.xbox.com/en-US/help/hardware-network/accessories/controller-share-button"
+        ],
+        "factual_paragraph_words": 130,
+        "full_associated_heading_words": 29,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "xbox-capture",
+        "combined_words_all_five_articles_ES_EN_FR": 174,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 26,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://support.xbox.com/en-US/help/friends-social-activity/share-socialize/capture-game-clips-and-screenshots"
+        ],
+        "factual_paragraph_words": 132,
+        "full_associated_heading_words": 29,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "xbox-share",
+        "combined_words_all_five_articles_ES_EN_FR": 170,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 30,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://support.xbox.com/en-US/help/games-apps/my-games-apps/share-clips-xbox-one"
+        ],
+        "factual_paragraph_words": 125,
+        "full_associated_heading_words": 32,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "xbox-manage",
+        "combined_words_all_five_articles_ES_EN_FR": 188,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 12,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://support.xbox.com/en-US/help/games-apps/my-games-apps/manage-clips-with-upload-studio"
+        ],
+        "factual_paragraph_words": 143,
+        "full_associated_heading_words": 32,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "xbox-backup",
+        "combined_words_all_five_articles_ES_EN_FR": 187,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 13,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://support.xbox.com/en-US/help/games-apps/my-games-apps/back-up-game-clips"
+        ],
+        "factual_paragraph_words": 148,
+        "full_associated_heading_words": 26,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "sony-gallery",
+        "combined_words_all_five_articles_ES_EN_FR": 160,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 40,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.playstation.com/en-us/support/games/ps5-media-gallery-view-screenshots/"
+        ],
+        "factual_paragraph_words": 121,
+        "full_associated_heading_words": 26,
+        "conservative_metadata_allocation_words": 13
+      },
+      {
+        "work_id": "psn-passkey",
+        "combined_words_all_five_articles_ES_EN_FR": 189,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 11,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.playstation.com/en-us/support/account/set-up-passkey/"
+        ],
+        "factual_paragraph_words": 154,
+        "full_associated_heading_words": 18,
+        "conservative_metadata_allocation_words": 17
+      },
+      {
+        "work_id": "psn-2sv",
+        "combined_words_all_five_articles_ES_EN_FR": 196,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 4,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.playstation.com/en-us/support/account/2sv-login/"
+        ],
+        "factual_paragraph_words": 148,
+        "full_associated_heading_words": 31,
+        "conservative_metadata_allocation_words": 17
+      },
+      {
+        "work_id": "ms-2sv",
+        "combined_words_all_five_articles_ES_EN_FR": 174,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 26,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://support.microsoft.com/en-us/accounts-billing/security/how-to-use-two-step-verification-with-your-microsoft-account"
+        ],
+        "factual_paragraph_words": 138,
+        "full_associated_heading_words": 19,
+        "conservative_metadata_allocation_words": 17
+      },
+      {
+        "work_id": "rsg-2fa",
+        "combined_words_all_five_articles_ES_EN_FR": 183,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 17,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://support.rockstargames.com/articles/1c5O1fKIOo0iG9W7y7WtM4/setting-up-2-step-verification-with-rockstar-games"
+        ],
+        "factual_paragraph_words": 146,
+        "full_associated_heading_words": 20,
+        "conservative_metadata_allocation_words": 17
+      },
+      {
+        "work_id": "rsg-linked",
+        "combined_words_all_five_articles_ES_EN_FR": 167,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 33,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://support.rockstargames.com/articles/4melK2J0fXhxkiatLlyvDu/linked-accounts-and-2-step-verification"
+        ],
+        "factual_paragraph_words": 119,
+        "full_associated_heading_words": 31,
+        "conservative_metadata_allocation_words": 17
+      },
+      {
+        "work_id": "psn-recover",
+        "combined_words_all_five_articles_ES_EN_FR": 182,
+        "cap": 200,
+        "remaining_for_any_additional_public_factual_documentation": 18,
+        "counted_fields": "Verified factual paragraph blocks + entire associated H2 (even where shared by two works) + conservative equal allocation of ALL title/excerpt/tag words.",
+        "verbatim_quote_words": 0,
+        "urls": [
+          "https://www.playstation.com/en-us/support/account/recover-account/"
+        ],
+        "factual_paragraph_words": 134,
+        "full_associated_heading_words": 31,
+        "conservative_metadata_allocation_words": 17
+      }
+    ],
+    "count_method": "Whitespace-split words. Core counts headings and paragraph tuples exactly once; Pocketpair includes table header/cells once per locale. Hero/inline alt/caption/credit are reported separately. body aliases the first paragraph. Title/excerpt/tag reused mechanically in metadata/schema/TOC/hydration are canonical authored values, not fresh prose. Source totals combine all five topics and all languages; mirrors, reprints and localized source versions share their work budget. Practical source-specific headings and a conservative allocation of all metadata are added to writer factual-block counts. Original interpretation/workflow and bibliographic labels are distinguished from source summaries. No raw source body is reproduced in this report.",
+    "media_review": {
+      "images": [
+        {
+          "key": "grassrivers",
+          "article_id": "gta6-macca-and-friends-weazel-tv-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+          "source_sha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5",
+          "local_sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 99,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 101,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "region-grassrivers-02",
+          "article_id": "gta6-macca-and-friends-weazel-tv-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+          "source_sha256": "89574ed17bfc0c6aaae59c25813644c2bcfad2b777739ecb855b23692b841858",
+          "local_sha256": "90c7c5ec23d38a0b007a762e11442133739ea98acfe95b4b30e8e85350207b7e",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 83,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 117,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "region-grassrivers-03",
+          "article_id": "gta6-macca-and-friends-weazel-tv-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_03.14cuv-vg9orw4.jpg",
+          "source_sha256": "8120c16f300f27500fca1360d561c69c9185bd8a3611d9258bf7b7e90517b79d",
+          "local_sha256": "0095192f3ece6df1c6cbb56de34ba49215f347eca8cbd6508bc3c6f7ac401a57",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 80,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 120,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "vice-city",
+          "article_id": "gta6-kick-sunset-reward-case-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+          "source_sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+          "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+          "dimensions": [
+            1600,
+            900
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 96,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 104,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "port-gellhorn",
+          "article_id": "gta6-kick-sunset-reward-case-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_01.0fmisvza-5-cq.jpg?imwidth=1600",
+          "source_sha256": "7775f041a852069d43e357d112d1715f471adc4c4346337e79aa33a7940a8425",
+          "local_sha256": "79bb2cb2a797e1421ad26e73507fc63dd5d1557e73f40316d81d523f4b6d601d",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 76,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 124,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "ambrosia",
+          "article_id": "gta6-kick-sunset-reward-case-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_01.0rqphs0gazkm..jpg?imwidth=1600",
+          "source_sha256": "a5b0d185aa5de42d7492220119254b136efb05ea75212cac46730a9fbd862769",
+          "local_sha256": "ddc749ed919fe4783bbc397aff94dd882dbb4184a5397d040a38269ea8def687",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 81,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 119,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "jason",
+          "article_id": "gta6-pocketpair-five-day-leave-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+          "source_sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba",
+          "local_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+          "dimensions": [
+            1600,
+            900
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 99,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 101,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "feature-couple",
+          "article_id": "gta6-pocketpair-five-day-leave-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+          "source_sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+          "local_sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 82,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 118,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "leonida-keys",
+          "article_id": "gta6-pocketpair-five-day-leave-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+          "source_sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+          "local_sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 79,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 121,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "feature-driver",
+          "article_id": "gta6-record-transfer-clips-ps5-xbox-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+          "source_sha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+          "local_sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 94,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 106,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "feature-helicopter",
+          "article_id": "gta6-record-transfer-clips-ps5-xbox-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+          "source_sha256": "828ad45819b4121f3a341b25cbc93cd6595099eb2d53068d1cef4f1853ab38d4",
+          "local_sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 67,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 133,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "feature-mountain",
+          "article_id": "gta6-record-transfer-clips-ps5-xbox-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+          "source_sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+          "local_sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 82,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 118,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "lucia",
+          "article_id": "gta6-account-security-passkeys-2fa-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+          "source_sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c",
+          "local_sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+          "dimensions": [
+            1600,
+            900
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 94,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 106,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "feature-safehouse-exterior",
+          "article_id": "gta6-account-security-passkeys-2fa-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+          "source_sha256": "4999851a6bbfebc0ace0281480c1f81ae600e2c17e5539de5f5f61043484b8d6",
+          "local_sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 98,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 102,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        },
+        {
+          "key": "region-vice-city-03",
+          "article_id": "gta6-account-security-passkeys-2fa-20261114",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+          "source_sha256": "d6a56aadc2823cb97a33db087de1700f6a0fd5528b140107ec20823f23aac918",
+          "local_sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+          "dimensions": [
+            1400,
+            788
+          ],
+          "format": "WEBP",
+          "combined_alt_caption_credit_words_ES_EN_FR": 83,
+          "summary_cap": 200,
+          "remaining_for_additional_public_description": 117,
+          "visual_alt_caption_match": "pass",
+          "credit": "GTA VI © Rockstar Games"
+        }
+      ],
+      "distinct_official_sources": 15,
+      "authenticity": "Official Rockstar GTA VI promotional sources; independent contact-sheet review and local format/hash/dimension checks completed. No AI, mods, leaks, GTA V substitution or third-party employee/reward art.",
+      "reuse_context": "Official media page offers download/share; editorial illustration with credit. Copyright remains reserved; this is not asserted to be an unrestricted commercial licence.",
+      "captions": "Illustrative context explicit. No final GTA VI capture performance, account UI, Macca teaser frame, KICK reward fulfilment or Pocketpair staff photograph implied.",
+      "all_alts_captions_three_languages": true
+    },
+    "publication_limit": "Editorial/media review is separate from build, browser and real public delivery.",
+    "no_extra_primary_factual_recaps": "Public records use bibliographic URLs, hashes and decisions. Article text is the sole substantive summary; scarce source budgets are not reused per language or per article."
+  },
+  "source_evidence": {
+    "news_HTTP": {
+      "discussingfilm-macca": {
+        "sha256": "d97038bbceeae8a9b9b3e44fea18439b7aeef35151fd8cf343cd21e8bb9f1b61",
+        "bytes": 230514,
+        "http_status_observed": 200,
+        "title": [
+          "DiscussingFilm Teams Up With Rockstar Games For Major 'Grand Theft Auto VI' Reveal"
+        ],
+        "datePublished": [
+          "2026-11-13T10:35:59-08:00"
+        ]
+      },
+      "kick-announcement": {
+        "sha256": "18e2a1c3282c4f7bc0499d165b13bb0a551fae97a5e915ac73bad27c7d52e11e",
+        "bytes": 144739,
+        "http_status_observed": 200,
+        "title": [
+          "Sunset Reward Case: Claim a free copy of GTA VI - KICK News & Press Stories"
+        ],
+        "datePublished": []
+      },
+      "kick-help": {
+        "sha256": "0967cdcea2233ed7b7b0986747401da3328f962e776404ca0f5a36a21708a1d3",
+        "bytes": 119812,
+        "http_status_observed": 200,
+        "title": [
+          "Sunset Reward Case: Claim a free copy of GTA VI on KICK | Kick.com Help Center"
+        ],
+        "datePublished": []
+      },
+      "pocketpair-pcgamer": {
+        "sha256": "ceefc925916816b1217d772595cb4b255678f95c72cf59ffa5d002e4ad275f76",
+        "bytes": 2137002,
+        "http_status_observed": 200,
+        "title": [
+          "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches' | PC Gamer",
+          "PC Gamer"
+        ],
+        "datePublished": [
+          "2026-11-12T22:08:48+00:00"
+        ]
+      },
+      "pocketpair-inven": {
+        "sha256": "cb9407241dc5d2dcf31d2981e3a76dec68ff371d6aff88754d87dfcfb9f7bc70",
+        "bytes": 63041,
+        "http_status_observed": 200,
+        "title": [
+          "\"Boss, What About Us?\" Pocketpair Grants Special Leave for GTA 6 Launch - Inven Global"
+        ],
+        "datePublished": [
+          "2026-11-12T23:42:39+00:00"
+        ]
+      },
+      "macca-store-primary": {
+        "sha256": "23e7f09ff3ba1d540b873c11645e6ce624d4ecc1ead89c803095be8a4015ecc2",
+        "bytes": 1047577,
+        "http_status_observed": 200,
+        "source_url": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection"
+      }
+    },
+    "practical_primary": [
+      {
+        "label": "PlayStation Support · Capture PS5 gameplay and screenshots",
+        "url": "https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "PlayStation Support · Edit and share PS5 captures",
+        "url": "https://www.playstation.com/en-us/support/games/ps5-edit-share-screenshots-clips/",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "PlayStation Support · Access PS5 captures on PS App",
+        "url": "https://www.playstation.com/en-us/support/games/ps5-game-captures-ps-app/",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "Xbox Support · Controller Share button",
+        "url": "https://support.xbox.com/en-US/help/hardware-network/accessories/controller-share-button",
+        "reading": "Chromium rendered page, all accordions expanded; inherited proxy, normal TLS, no sign-in.",
+        "httpStatus": 200,
+        "checkedAt": "2026-11-14T21:07:32.318Z",
+        "renderedBodySha256": "d0e5fbe7fddd7638f26a5af9ae9f02ba2cb5e431c5c331e8c2647ac458fcca5a"
+      },
+      {
+        "label": "Xbox Support · Capture game clips and screenshots",
+        "url": "https://support.xbox.com/en-US/help/friends-social-activity/share-socialize/capture-game-clips-and-screenshots",
+        "reading": "Chromium rendered page, all accordions expanded; inherited proxy, normal TLS, no sign-in.",
+        "httpStatus": 200,
+        "checkedAt": "2026-11-14T21:07:32.324Z",
+        "renderedBodySha256": "7f9be17cf985437ead4f8433185d91ac479e2ffa9528afee6de45768518d0347"
+      },
+      {
+        "label": "Xbox Support · Share game clips and screenshots",
+        "url": "https://support.xbox.com/en-US/help/games-apps/my-games-apps/share-clips-xbox-one",
+        "reading": "Chromium rendered page, all accordions expanded; inherited proxy, normal TLS, no sign-in.",
+        "httpStatus": 200,
+        "checkedAt": "2026-11-14T21:06:22.027Z",
+        "renderedBodySha256": "3d0593396c403188f335170f3f4ef9f40fc2b9b12501299f0a5ea0e96367fae3"
+      },
+      {
+        "label": "Xbox Support · Manage game clips and screenshots",
+        "url": "https://support.xbox.com/en-US/help/games-apps/my-games-apps/manage-clips-with-upload-studio",
+        "reading": "Chromium rendered page, all accordions expanded; inherited proxy, normal TLS, no sign-in.",
+        "httpStatus": 200,
+        "checkedAt": "2026-11-14T21:06:58.707Z",
+        "renderedBodySha256": "c927fd72e22c963b19a50ad7052f7417bf0aad4898cff9aad18156f6c9da8267"
+      },
+      {
+        "label": "Xbox Support · Back up your game captures",
+        "url": "https://support.xbox.com/en-US/help/games-apps/my-games-apps/back-up-game-clips",
+        "reading": "Chromium rendered page, all accordions expanded; inherited proxy, normal TLS, no sign-in.",
+        "httpStatus": 200,
+        "checkedAt": "2026-11-14T21:06:59.042Z",
+        "renderedBodySha256": "0f9c50539135d86ed59a257dab644d8c14d24cdc3e325b0c3872d859c43e1ae0"
+      },
+      {
+        "label": "PlayStation Support · Media Gallery and USB copies",
+        "url": "https://www.playstation.com/en-us/support/games/ps5-media-gallery-view-screenshots/",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "PlayStation Support · Passkey sign-in",
+        "url": "https://www.playstation.com/en-us/support/account/set-up-passkey/",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "PlayStation Support · Set up 2-step verification and backup codes",
+        "url": "https://www.playstation.com/en-us/support/account/2sv-login/",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "Microsoft Support · Two-step verification for Microsoft accounts",
+        "url": "https://support.microsoft.com/en-us/accounts-billing/security/how-to-use-two-step-verification-with-your-microsoft-account",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "Rockstar Support · Setting Up 2-Step Verification · updated 18 August 2026",
+        "url": "https://support.rockstargames.com/articles/1c5O1fKIOo0iG9W7y7WtM4/setting-up-2-step-verification-with-rockstar-games",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "Rockstar Support · Linked Accounts and 2-Step Verification",
+        "url": "https://support.rockstargames.com/articles/4melK2J0fXhxkiatLlyvDu/linked-accounts-and-2-step-verification",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      },
+      {
+        "label": "PlayStation Support · Recover your account",
+        "url": "https://www.playstation.com/en-us/support/account/recover-account/",
+        "reading": "Readable official web-reader page checked during 14 November research; source URL retained as bibliography."
+      }
+    ],
+    "local_qa_evidence_sha256": "efe30860bab3d1e8d1faa883cc8074b58332ca8527fb52368e7b8ae1c754e33e",
+    "source_documents": "Raw primary bodies, social attachment and private contact sheet are not committed.",
+    "public_access_limit": "Original X page returned403; official public oEmbed and attributed notice reproduction were independently checked. No login or access restriction bypass claimed."
+  },
+  "media": {
+    "checked_at_utc": "2026-11-14T21:08:54.588665+00:00",
+    "method": "Fresh HTTPS source downloads through inherited cloud proxy with default TLS verification; four concurrent workers, no credential values or private identifiers in source headers. Contact sheet is private analysis only; all original/optimized delivery files unchanged.",
+    "groups": {
+      "macca": [
+        "grassrivers",
+        "region-grassrivers-02",
+        "region-grassrivers-03"
+      ],
+      "kick": [
+        "vice-city",
+        "port-gellhorn",
+        "ambrosia"
+      ],
+      "pocketpair": [
+        "jason",
+        "feature-couple",
+        "leonida-keys"
+      ],
+      "capture": [
+        "feature-driver",
+        "feature-helicopter",
+        "feature-mountain"
+      ],
+      "security": [
+        "lucia",
+        "feature-safehouse-exterior",
+        "region-vice-city-03"
+      ]
+    },
+    "official_media_page": {
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context": "deosScreenshotsArtworkExplore Vice City and BeyondDownload and share trailers, imagery, and more.Videos5See All5 Videos5 VideosGrand Theft Auto VI: Pre-Load Now1 sizeGrand The"
+    },
+    "rights_limit": "Download/share context is recorded, not represented as an unrestricted commercial licence. The credited game screenshots are editorial illustrations, not account/capture interfaces, KICK rewards, Pocketpair staff or Macca teaser frames. No AI/mod/leak/GTA V/decorative hero assets.",
+    "media": [
+      {
+        "key": "grassrivers",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 1258095,
+        "source_sha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5",
+        "local_path": "/media/grassrivers.webp",
+        "local_bytes": 179052,
+        "local_sha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 99,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 101
+      },
+      {
+        "key": "region-grassrivers-02",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 859665,
+        "source_sha256": "89574ed17bfc0c6aaae59c25813644c2bcfad2b777739ecb855b23692b841858",
+        "local_path": "/media/region-grassrivers-02.webp",
+        "local_bytes": 146246,
+        "local_sha256": "90c7c5ec23d38a0b007a762e11442133739ea98acfe95b4b30e8e85350207b7e",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 83,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 117
+      },
+      {
+        "key": "region-grassrivers-03",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_03.14cuv-vg9orw4.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_03.14cuv-vg9orw4.jpg",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 884187,
+        "source_sha256": "8120c16f300f27500fca1360d561c69c9185bd8a3611d9258bf7b7e90517b79d",
+        "local_path": "/media/region-grassrivers-03.webp",
+        "local_bytes": 183120,
+        "local_sha256": "0095192f3ece6df1c6cbb56de34ba49215f347eca8cbd6508bc3c6f7ac401a57",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 80,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 120
+      },
+      {
+        "key": "vice-city",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "source_page": "https://www.rockstargames.com/VI/media",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 894386,
+        "source_sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "local_path": "/media/vice-city.webp",
+        "local_bytes": 116602,
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "format": "WEBP",
+        "dimensions": [
+          1600,
+          900
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 96,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 104
+      },
+      {
+        "key": "port-gellhorn",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_01.0fmisvza-5-cq.jpg?imwidth=1600",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_01.0fmisvza-5-cq.jpg?imwidth=1600",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 829686,
+        "source_sha256": "7775f041a852069d43e357d112d1715f471adc4c4346337e79aa33a7940a8425",
+        "local_path": "/media/port-gellhorn.webp",
+        "local_bytes": 124482,
+        "local_sha256": "79bb2cb2a797e1421ad26e73507fc63dd5d1557e73f40316d81d523f4b6d601d",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 76,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 124
+      },
+      {
+        "key": "ambrosia",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_01.0rqphs0gazkm..jpg?imwidth=1600",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_01.0rqphs0gazkm..jpg?imwidth=1600",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 715141,
+        "source_sha256": "a5b0d185aa5de42d7492220119254b136efb05ea75212cac46730a9fbd862769",
+        "local_path": "/media/ambrosia.webp",
+        "local_bytes": 118590,
+        "local_sha256": "ddc749ed919fe4783bbc397aff94dd882dbb4184a5397d040a38269ea8def687",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 81,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 119
+      },
+      {
+        "key": "jason",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "source_page": "https://www.rockstargames.com/VI/media",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 939665,
+        "source_sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba",
+        "local_path": "/media/jason.webp",
+        "local_bytes": 68710,
+        "local_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+        "format": "WEBP",
+        "dimensions": [
+          1600,
+          900
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 99,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 101
+      },
+      {
+        "key": "feature-couple",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 907752,
+        "source_sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+        "local_path": "/media/feature-couple.webp",
+        "local_bytes": 65196,
+        "local_sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 82,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 118
+      },
+      {
+        "key": "leonida-keys",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 846989,
+        "source_sha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+        "local_path": "/media/leonida-keys.webp",
+        "local_bytes": 126662,
+        "local_sha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 79,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 121
+      },
+      {
+        "key": "feature-driver",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 898215,
+        "source_sha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+        "local_path": "/media/feature-driver.webp",
+        "local_bytes": 44940,
+        "local_sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 94,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 106
+      },
+      {
+        "key": "feature-helicopter",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 333806,
+        "source_sha256": "828ad45819b4121f3a341b25cbc93cd6595099eb2d53068d1cef4f1853ab38d4",
+        "local_path": "/media/feature-helicopter.webp",
+        "local_bytes": 58038,
+        "local_sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 67,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 133
+      },
+      {
+        "key": "feature-mountain",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 1274178,
+        "source_sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+        "local_path": "/media/feature-mountain.webp",
+        "local_bytes": 226130,
+        "local_sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 82,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 118
+      },
+      {
+        "key": "lucia",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "source_page": "https://www.rockstargames.com/VI/media",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 898033,
+        "source_sha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c",
+        "local_path": "/media/lucia.webp",
+        "local_bytes": 65852,
+        "local_sha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+        "format": "WEBP",
+        "dimensions": [
+          1600,
+          900
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 94,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 106
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 1924231,
+        "source_sha256": "4999851a6bbfebc0ace0281480c1f81ae600e2c17e5539de5f5f61043484b8d6",
+        "local_path": "/media/feature-safehouse-exterior.webp",
+        "local_bytes": 150756,
+        "local_sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 98,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 102
+      },
+      {
+        "key": "region-vice-city-03",
+        "source_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "source_status": 200,
+        "source_final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "source_content_type": "image/jpeg",
+        "source_bytes": 1247197,
+        "source_sha256": "d6a56aadc2823cb97a33db087de1700f6a0fd5528b140107ec20823f23aac918",
+        "local_path": "/media/region-vice-city-03.webp",
+        "local_bytes": 231656,
+        "local_sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+        "format": "WEBP",
+        "dimensions": [
+          1400,
+          788
+        ],
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "TLS_verified": true,
+        "visual_review": "Passed: contact sheet inspected against all fifteen local WebP files; descriptions match visible scenes.",
+        "reuse_basis": "Official promotional GTA VI imagery offered by Rockstar for download/share and used with credit in original editorial context. Copyright reserved; no public-domain or unrestricted licence asserted.",
+        "alt_caption_credit_words_all_three_languages": 83,
+        "summary_budget_per_image": 200,
+        "remaining_words_for_public_documentation": 117
+      }
+    ],
+    "contact_sheet": "/tmp/fansgta-five-20261114/media-contact-sheet.jpg",
+    "visual_review_completed_at_utc": "2026-11-14T21:10:05.147502+00:00",
+    "plan_sha256": "4b944c098c16485057823f503cc80f04b13e9a318b59f9e6ea8b707fb609ce80"
+  },
+  "preservation": {
+    "topics": 213,
+    "localized_versions": 639,
+    "new_topics": [
+      "gta6-macca-and-friends-weazel-tv-20261114",
+      "gta6-kick-sunset-reward-case-20261114",
+      "gta6-pocketpair-five-day-leave-20261114",
+      "gta6-record-transfer-clips-ps5-xbox-20261114",
+      "gta6-account-security-passkeys-2fa-20261114"
+    ],
+    "new_versions": 15,
+    "previous_complete_topics_identical": 208,
+    "all_624_previous_URLs_preserved": true,
+    "critical_files_identical": 17,
+    "other_existing_tracked_files_identical": 492,
+    "related_change": "Editorial relationship data only; ranking and navigation algorithm identical.",
+    "CSS_identical": true,
+    "vendor_JS_equivalent_except_main_import_filename": true,
+    "main_client_JS_change": "Expected due to new editorial related-link data; vendor import filename follows main bundle hash.",
+    "schedule": "Unchanged; manual five-topic batch independent of daily one-topic execution through November 19 New York."
+  },
+  "validation": {
+    "build_release": "passed",
+    "static": "683 HTML, 30779 internal links, 1340 structured-data blocks",
+    "SEO": "639 article URLs, 678 canonical sitemap entries, initial HTML and reciprocal hreflang",
+    "editorial": "0 errors, 42 existing review notices",
+    "initial_local_cases": 25,
+    "final_text_rechecks": {
+      "desktop_mobile": 6,
+      "tablet": 3,
+      "reason": "Editorial precision and source-budget metadata changes; repeated batch checks only, not the broader SEO suites."
+    },
+    "production": "pending",
+    "SDK_limit": "Adsterra/AdSense/GTM replaced only in deterministic browser tests; real creative delivery or Analytics event receipt not certified.",
+    "browser_limit": "Chromium cloud emulation; Safari and physical devices not certified."
+  },
+  "verification_tool_notes": "Preservation compares Git blob SHA1 directly to avoid a sandbox child-process restriction. Bundled vendor comparison permits only the exact changed own-main import filename, verified against the hash-pinned published baseline; all other vendor bytes match. Application sources remain protected.",
+  "scope_controls": "No design, ads, consent, security, cache, subscriptions, other-project or automation-frequency changes. Only editorial relationship data changes own client JS; ranking algorithm is unchanged. No purchases, account actions or messages to third parties.",
+  "publication": "Pending confirmed GitHub commit, explicit Cloudflare deployment and public URLs.",
+  "indexing": "No Search Console inspection access or guarantee of crawl timing or Google position."
+}

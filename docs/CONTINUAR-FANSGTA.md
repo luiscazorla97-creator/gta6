@@ -558,3 +558,10 @@ Noticia diaria Xbox–Take-Two publicada y comprobada: runtime 0d6e679d4b5203d6b
 - https://fansgta.com/es/noticias/gta-6-xbox-acuerdo-take-two-contrato-2026/
 - https://fansgta.com/en/news/gta-6-xbox-take-two-agreement-2026-explained/
 - https://fansgta.com/fr/actualites/gta-6-xbox-accord-take-two-2026-explications/
+
+
+## Tanda manual — 14 de noviembre de 2026: cinco temas
+
+Cinco temas nuevos, quince versiones y quince imágenes oficiales distintas. Revisión independiente, deduplicación de208objetos completos, fuentes y límites conjuntos en docs/editorial/2026-11-14-five-manual-research.json. Informe y enlaces: docs/editorial/2026-11-14-five-manual-informe.md. Sin volúmenes inventados ni ranking prometido; registros bibliográficos y hashes sin nuevos resúmenes de obras.
+
+Catálogo213temas/639versiones/678canónicas. Los208artículosprevios y624URLs permanecen idénticos. Relacionados: diez entradas de datos, algoritmo igual; CSSidéntico, vendorigual salvo referencia al nuevo nombre del bundle principal. Otros492archivos existentes y17críticos conservados. Buildrelease/estáticos/SEO/editorial aprobados, ceroerrores y42avisosprevios.25casoslocales iniciales y9repeticionesdel lote definitivo aprobados; SDK simulados solo en pruebas, Chromiumcloud, sin certificarSafari/dispositivosfísicos. Publicación pendiente en docs/editorial/2026-11-14-five-manual-publication.json. La tarea diaria de un tema por ejecución hasta19nov2026inclusive America/New_York no se modifica.

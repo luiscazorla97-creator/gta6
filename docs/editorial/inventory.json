@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-macca-and-friends-weazel-tv-20261114",
+    "category": "news",
+    "published": "2026-11-14",
+    "titles": [
+      "GTA 6: Macca & Friends se presenta en Weazel",
+      "GTA 6: Macca & Friends revealed for Weazel",
+      "GTA 6 : Macca & Friends se dévoile sur Weazel"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+      "/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+      "/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/"
+    ]
+  },
+  {
+    "id": "gta6-kick-sunset-reward-case-20261114",
+    "category": "news",
+    "published": "2026-11-14",
+    "titles": [
+      "¿GTA 6 gratis en KICK?",
+      "Free GTA 6 on KICK?",
+      "GTA 6 gratuit sur KICK ?"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+      "/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+      "/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/"
+    ]
+  },
+  {
+    "id": "gta6-pocketpair-five-day-leave-20261114",
+    "category": "news",
+    "published": "2026-11-14",
+    "titles": [
+      "GTA 6: Pocketpair da cinco días libres a su plantilla",
+      "GTA 6: Pocketpair gives staff five days off",
+      "GTA 6 : Pocketpair offre cinq jours à ses équipes"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/",
+      "/en/news/gta-6-pocketpair-five-days-off-palworld/",
+      "/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/"
+    ]
+  },
+  {
+    "id": "gta6-record-transfer-clips-ps5-xbox-20261114",
+    "category": "guides",
+    "published": "2026-11-14",
+    "titles": [
+      "GTA 6: grabar clips en PS5 y Xbox y pasarlos al móvil",
+      "GTA 6 clips: record on PS5 or Xbox and save to phone",
+      "GTA 6 : filmer sur PS5 et Xbox et récupérer les clips"
+    ],
+    "paths": [
+      "/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+      "/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+      "/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/"
+    ]
+  },
+  {
+    "id": "gta6-account-security-passkeys-2fa-20261114",
+    "category": "guides",
+    "published": "2026-11-14",
+    "titles": [
+      "GTA 6: proteger tus cuentas con passkeys y verificación",
+      "GTA 6 account security: passkeys and two-step sign-in",
+      "GTA 6 : protéger ses comptes et ses accès"
+    ],
+    "paths": [
+      "/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+      "/en/guides/gta-6-account-security-passkeys-two-step-verification/",
+      "/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/"
+    ]
+  },
+  {
     "id": "gta6-xbox-take-two-agreement-20261113",
     "category": "news",
     "published": "2026-11-13",
