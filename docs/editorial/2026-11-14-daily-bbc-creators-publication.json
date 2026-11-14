@@ -1,10 +1,302 @@
 {
-  "state": "pending-deployment-and-public-verification",
-  "checked_at_utc": "2026-11-14T22:37:32.867056+00:00",
-  "article_id": "gta6-bbc-original-creators-20261114",
-  "urls": {
-    "es": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
-    "en": "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/",
-    "fr": "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/"
-  }
+  "state": "published-and-publicly-verified",
+  "verified_at_utc": "2026-11-14T22:41:55.429768+00:00",
+  "runtime_commit": "7ea94dee8aa72f2c3df660ae33753f9b19563e58",
+  "runtime_tree": "ec02be24c14a9e0fdf905f6f46c44ca4f290904d",
+  "deployment": {
+    "deployment": {
+      "id": "e2f200a0-fe71-4feb-9ca2-5b53008234f7",
+      "environment": "production",
+      "url": "https://e2f200a0.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-14T22:40:16.492427Z",
+        "ended_on": "2026-11-14T22:40:34.700481Z",
+        "status": "success"
+      },
+      "commit": "7ea94dee8aa72f2c3df660ae33753f9b19563e58"
+    },
+    "canonical": {
+      "id": "e2f200a0-fe71-4feb-9ca2-5b53008234f7",
+      "environment": "production",
+      "url": "https://e2f200a0.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-14T22:40:16.492427Z",
+        "ended_on": "2026-11-14T22:40:34.700481Z",
+        "status": "success"
+      },
+      "commit": "7ea94dee8aa72f2c3df660ae33753f9b19563e58"
+    },
+    "checked_at_utc": "2026-11-14T22:40:38.697116+00:00"
+  },
+  "new_versions": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+        "en": "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/"
+      },
+      "initial_main": true,
+      "article_sections": 3,
+      "figures": 2,
+      "sha256": "eb44f607558842900c99d4a9ed4630398aca428b8ef84c6a32f3a27a8b8ff2a6",
+      "normalized_sha256": "6f87593334c5c6e32552a7315bcb2d629681ac9ef936ee4196d2bfdf1d68f962",
+      "release_sha256": "6f87593334c5c6e32552a7315bcb2d629681ac9ef936ee4196d2bfdf1d68f962",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+        "en": "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/"
+      },
+      "initial_main": true,
+      "article_sections": 3,
+      "figures": 2,
+      "sha256": "c8f6a3a58d6483b647ff342e95fd0dbd64cf3908df3e1f5b885d42270da43276",
+      "normalized_sha256": "9609ee769238c5f24005b4521ea9642fb9d7551e5194532764815ec132078740",
+      "release_sha256": "9609ee769238c5f24005b4521ea9642fb9d7551e5194532764815ec132078740",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+        "en": "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/"
+      },
+      "initial_main": true,
+      "article_sections": 3,
+      "figures": 2,
+      "sha256": "2033fd08f8d08e4c067c69b2fc8f63bd32c553e6341842d1e39d037090766697",
+      "normalized_sha256": "b9d67e225e211110ccee0113f7bb7be17d808420a2f07e4b33677d19e7f5e6b9",
+      "release_sha256": "b9d67e225e211110ccee0113f7bb7be17d808420a2f07e4b33677d19e7f5e6b9",
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "public_validation": {
+    "canonical_URLs": 681,
+    "article_versions": 642,
+    "new_versions": 3,
+    "status": {
+      "200": 681
+    },
+    "locales": {
+      "es": 227,
+      "en": 227,
+      "fr": 227
+    },
+    "issues": 0,
+    "raw_resource_matches": 301,
+    "normalized_HTML_matches": 669,
+    "legal_comparison_limit": "Twelve legal pages transformed by existing email protection receive HTTP/meta checks; full HTML hash equality not asserted there. All642article versions match release after removing only one exact pinned Cloudflare beacon.",
+    "method": "Normal HTTPS with inherited cloud proxy, verified TLS, canonical GETs. Only one exact pinned Cloudflare beacon removed for release comparison of 669 nonlegal HTML. Twelve legal pages receive HTTP/meta checks without full hash equality due to existing email transforms. Public nonHTML compared raw bytes. No Google indexing or real SDK delivery claim.",
+    "new_article_inbounds": {
+      "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/news/",
+        "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/"
+      ],
+      "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/noticias/",
+        "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/"
+      ],
+      "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/actualites/",
+        "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/"
+      ]
+    },
+    "declared_Googlebot_checks": [
+      {
+        "url": "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      }
+    ],
+    "Googlebot_limit": "Declared UA from cloud executor, not verified Google IPs or Search Console URL Inspection.",
+    "sitemap_robots_ads_txt": "Raw bytes match release. Three new URLs each appear once with real dates and reciprocal alternates."
+  },
+  "tests": {
+    "build_release": "passed",
+    "static_SEO_editorial": "passed; zero errors,42existing review notices",
+    "local_cases": 25,
+    "public_cases": 9,
+    "public_article_viewport_scenarios": 9,
+    "public_image_decodes": 18,
+    "public_locale_changes": 9,
+    "viewports": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "tablet": [
+        820,
+        1180
+      ]
+    },
+    "engine": "Chromium cloud emulation, not Safari or physical devices.",
+    "SDK_limit": "Adsterra/AdSense/GTM fixtures only in deterministic tests; no live creative or Analytics receipt certification."
+  },
+  "preservation": {
+    "checked_at_utc": "2026-11-14T22:36:20.416Z",
+    "topics": 214,
+    "localized_versions": 642,
+    "new_topics": [
+      "gta6-bbc-original-creators-20261114"
+    ],
+    "new_versions": 3,
+    "new_URLs": [
+      "/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+      "/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+      "/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/"
+    ],
+    "previous_complete_topics_identical": 213,
+    "all_639_previous_URLs_preserved": true,
+    "critical_files_identical": 17,
+    "other_existing_tracked_files_identical": 499,
+    "tracked_preservation_method": "Strict Git blob SHA-1 comparison for all 499 entries in the pre-change map, with no exclusions.",
+    "related_articles_identical": true,
+    "reviewed_article_identical": true,
+    "reviewed_snapshot_sha256": "65a94b620abe65c6430ae4814e5e02eb23d1024494360db107020c6d9808e075",
+    "article_file_sha256": "65a94b620abe65c6430ae4814e5e02eb23d1024494360db107020c6d9808e075",
+    "all_three_bundled_assets_byte_identical": true,
+    "assets": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-DGtdsMGY.js": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144",
+      "assets/postscribe-wSP0-HZj.js": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+    },
+    "CSS_identical": true,
+    "both_client_JS_assets_identical": true,
+    "automation_configuration_modified_by_helper": false
+  },
+  "independent_release_review": {
+    "approved": true,
+    "checked_at_utc": "2026-11-14T22:41:04.462318+00:00",
+    "runtime_commit": "7ea94dee8aa72f2c3df660ae33753f9b19563e58",
+    "base_main": "5eb8c9cf3ea49fb90d2b53977f0acd9bbea46062",
+    "scope": "Independent read-only release review; no repository edits, builds or public requests. Only this temporary aggregate record written.",
+    "checks": {
+      "runtime_parent": true,
+      "runtime_tree": true,
+      "base_tree": true,
+      "exact_nine_allowed_changes": true,
+      "manifest_all_nine_blob_hashes_and_character_counts": true,
+      "article_registration_only_import_and_one_prepend": true,
+      "all_499_mapped_existing_tracked_files_strictly_identical": true,
+      "all_17_protected_files_identical": true,
+      "all_three_dist_assets_names_and_bytes_identical": true,
+      "article_json_identical_review_snapshot": true,
+      "built_catalog_213_old_objects_and_639_urls_unchanged": true,
+      "preservation_proof_counts_and_claims_match": true,
+      "local_tests_22_plus_3_evidenced": true,
+      "static_report_counts_match": true,
+      "one_daily_topic_three_languages_final_date_timezone_unchanged": true,
+      "no_automation_configuration_in_runtime_changes": true,
+      "report_accurate_limitations_and_pending_publication": true
+    },
+    "details": {
+      "exact_nine_allowed_changes": {
+        "count": 9,
+        "paths": [
+          "docs/CONTINUAR-FANSGTA.md",
+          "docs/editorial/2026-11-14-daily-bbc-creators-informe.md",
+          "docs/editorial/2026-11-14-daily-bbc-creators-publication.json",
+          "docs/editorial/2026-11-14-daily-bbc-creators-research.json",
+          "docs/editorial/inventory.json",
+          "src/articles.ts",
+          "src/batches/2026-11-14-daily-bbc-creators.json",
+          "src/batches/2026-11-14-daily-bbc-creators.ts",
+          "tests/editorial-daily-bbc-creators-20261114.spec.ts"
+        ]
+      },
+      "all_499_mapped_existing_tracked_files_strictly_identical": {
+        "count": 499,
+        "changed": []
+      },
+      "built_catalog_213_old_objects_and_639_urls_unchanged": {
+        "old_topics": 213,
+        "new_topics": 214,
+        "old_urls": 639,
+        "new_urls": [
+          "/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+          "/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+          "/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/"
+        ]
+      },
+      "local_tests_22_plus_3_evidenced": {
+        "desktop_mobile": 22,
+        "tablet": 3,
+        "total": 25
+      }
+    },
+    "issues": [],
+    "publication_verified_by_this_review": false,
+    "deployment_pending_at_assignment": "e2f200a0-fe71-4feb-9ca2-5b53008234f7",
+    "no_additional_source_synopsis": true
+  },
+  "evidence_sha256": {
+    "release-sha256.json": "c3fef96040f11455229e3626d0e540266beff9693d1783442f0807f90540b779",
+    "public-verification.json": "2099d55919ee38fe87431f684a2eb9213d90d2b2b25584d30808cd4f14e80258",
+    "browser-local.log": "818e4681d36bf6b3527eb1f8bb6edc318faaece8a47883066a95450870d9c5c3",
+    "browser-tablet.log": "6b162a136ae07e46e6aac27f2a9b8697ea8c49ca7d22a2552dfe5f0c33dd13cf",
+    "browser-production.log": "9bdb409702615c60b480be67e8e8541fe5adbd9b48c60ee8c8eab474477e90d3",
+    "final-qa.json": "e775cb00798e14e95397d26a205e20994a8572223d4f8ba42a9c40ed66fe3b59",
+    "media-check.json": "cc564d3e21fb8d55d166d4f38e2d6c2ac8b597da1cadf7b6afcee30b2c156733",
+    "release-review.json": "4f6c2b717f4606fa767de85e5f2b835ecb6725e276e7374241641a2340c2b830"
+  },
+  "execution": "Managed cloud, fresh GitHub main and existing Cloudflare connection; no user-PC dependency.",
+  "schedule": "One daily topic, three languages. No automation change; last authorized date November19,2026 inclusive, America/New_York. This execution does not guarantee future executor availability.",
+  "indexation": "Public readiness checked. Actual Google indexing, chosen canonical and crawl schedule require Search Console inspection."
 }

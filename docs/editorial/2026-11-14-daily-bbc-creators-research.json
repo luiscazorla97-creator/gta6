@@ -420,12 +420,22 @@
     "build_release": "passed",
     "verify_static": "passed;686 HTML,30905 internal links,1346 structured-data blocks,642 article versions,681 canonical sitemap entries;zero errors,42 existing review notices",
     "local_cases": 25,
-    "production": "pending",
+    "production": {
+      "cases": 9,
+      "failed": 0,
+      "image_decodes": 18,
+      "locale_changes": 9
+    },
     "harness_setup": "Initial basic-sandbox browser webServer could not bind the preview port; no cases executed. Approved outer cloud preview and browser launch used, retaining ordinary network/TLS checks.",
     "browser_limit": "Chromium cloud emulation; no physical-device or Safari certification.",
     "SDK_limit": "Only provider SDKs are fixtures in deterministic browser tests; no live creative delivery or Analytics receipt claim."
   },
   "scope_controls": "No old article, URL, design, ads, consent, security, cache, subscriptions, other-project or automation changes. No purchases or third-party messages.",
-  "publication": "Pending GitHub commit, explicit Cloudflare deployment and public URL verification.",
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "7ea94dee8aa72f2c3df660ae33753f9b19563e58",
+    "deployment_id": "e2f200a0-fe71-4feb-9ca2-5b53008234f7",
+    "proof": "docs/editorial/2026-11-14-daily-bbc-creators-publication.json"
+  },
   "public_source_budget": "Bibliographic URLs, timestamps, hashes and counts only. No additional primary-source synopsis in public reports."
 }
