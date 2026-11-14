@@ -1,5 +1,783 @@
 {
-  "state": "pending-deployment-and-public-verification",
-  "checked_at_utc": "2026-11-14T21:26:01.270952+00:00",
-  "required": "Confirmed GitHub main and successful canonical Cloudflare deployment; all fifteen versions, resources and browser scenarios verified publicly."
+  "state": "published-and-publicly-verified",
+  "verified_at_utc": "2026-11-14T21:31:43.894289+00:00",
+  "runtime_commit": "d8810c2cef6996ec5cb8f4e31a874c5be3268e5e",
+  "runtime_tree": "952d63536aa6fafa8848e13c2af73fc58d78e94c",
+  "deployment": {
+    "deployment": {
+      "id": "0f46027d-dcc6-452e-9e8f-03d6c14c8b85",
+      "environment": "production",
+      "url": "https://0f46027d.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-14T21:29:36.645957Z",
+        "ended_on": "2026-11-14T21:29:54.924046Z",
+        "status": "success"
+      },
+      "commit": "d8810c2cef6996ec5cb8f4e31a874c5be3268e5e"
+    },
+    "canonical": {
+      "id": "0f46027d-dcc6-452e-9e8f-03d6c14c8b85",
+      "environment": "production",
+      "url": "https://0f46027d.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-14T21:29:36.645957Z",
+        "ended_on": "2026-11-14T21:29:54.924046Z",
+        "status": "success"
+      },
+      "commit": "d8810c2cef6996ec5cb8f4e31a874c5be3268e5e"
+    },
+    "checked_at_utc": "2026-11-14T21:30:03.866000+00:00"
+  },
+  "new_articles": [
+    {
+      "id": "gta6-macca-and-friends-weazel-tv-20261114",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+        "en": "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+            "en": "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/"
+          },
+          "initial_main": true,
+          "article_sections": 4,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "1c312e838d8b566469017e32f9aec85630081fb565d3b5b30e7c2fc551ce59bc",
+          "normalized_sha256": "06ba6efe72714fd67aae8fec7839c2173d0de7b31e7485df7c8a3e072f1110fa",
+          "release_sha256": "06ba6efe72714fd67aae8fec7839c2173d0de7b31e7485df7c8a3e072f1110fa",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+            "en": "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/"
+          },
+          "initial_main": true,
+          "article_sections": 4,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "4d43397dccd5db0c48f84b6807c826aa96129268909981a684cb8000c0d15cf4",
+          "normalized_sha256": "d18928f0f34cc908d378fd44d3b0537512420cea58823662141b5e5af3df8349",
+          "release_sha256": "d18928f0f34cc908d378fd44d3b0537512420cea58823662141b5e5af3df8349",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+            "en": "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/"
+          },
+          "initial_main": true,
+          "article_sections": 4,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "3882d0ea3609b223245daf4a4d0481e03929ffe7faeb4a27adc67bfe1f8d820b",
+          "normalized_sha256": "2ecd8b0c3cca3da8d527fdff95701e187de00ee0a6046f8c12d6bf79221935a5",
+          "release_sha256": "2ecd8b0c3cca3da8d527fdff95701e187de00ee0a6046f8c12d6bf79221935a5",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "id": "gta6-kick-sunset-reward-case-20261114",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+        "en": "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+            "en": "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/"
+          },
+          "initial_main": true,
+          "article_sections": 5,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "9468ab5201f57c6805d66136effffe345736018862c617472d98c95bcc2829f9",
+          "normalized_sha256": "7d0f0de829e2f5a1f020200da232ad2d3e613608e7e6704df66101e996a315e7",
+          "release_sha256": "7d0f0de829e2f5a1f020200da232ad2d3e613608e7e6704df66101e996a315e7",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+            "en": "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/"
+          },
+          "initial_main": true,
+          "article_sections": 5,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "952fe09682b903c4460643334294ea15b518828eee87531c5b8ae82d6bc331e1",
+          "normalized_sha256": "7faa75c1afc2e7a8a964f0fdf5c77a89425a4f47d3b96a7e35e3de62eacb8e08",
+          "release_sha256": "7faa75c1afc2e7a8a964f0fdf5c77a89425a4f47d3b96a7e35e3de62eacb8e08",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+            "en": "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/"
+          },
+          "initial_main": true,
+          "article_sections": 5,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "9ab0c3d3a845924f2141c2e8fc171ab755d0fc21256c3d2c64efe82a35db20be",
+          "normalized_sha256": "6daadbb477fb3700ffcab80d0aa329ffe37ded92d96caae0895c1b17ef1b3b45",
+          "release_sha256": "6daadbb477fb3700ffcab80d0aa329ffe37ded92d96caae0895c1b17ef1b3b45",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "id": "gta6-pocketpair-five-day-leave-20261114",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/",
+        "en": "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/",
+            "en": "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/"
+          },
+          "initial_main": true,
+          "article_sections": 5,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "6de098bdf711f4483355eb12dc33c680a15245610fc7cc66dcaeab0a7413d50c",
+          "normalized_sha256": "8f8500f838ab16eb56bada972490f1ba06b81d56055c18d0eb6897950e2f2ccf",
+          "release_sha256": "8f8500f838ab16eb56bada972490f1ba06b81d56055c18d0eb6897950e2f2ccf",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/",
+            "en": "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/"
+          },
+          "initial_main": true,
+          "article_sections": 5,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "4acfc37f5dce5885c9038dd3676fdda8b0c9f07e3251c23033db292061364724",
+          "normalized_sha256": "068b0920804179d34d1f0e74668d1fcad4399b0dfad72982e35b87f4efde89ee",
+          "release_sha256": "068b0920804179d34d1f0e74668d1fcad4399b0dfad72982e35b87f4efde89ee",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/",
+            "en": "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/",
+            "fr": "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/",
+            "x-default": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/"
+          },
+          "initial_main": true,
+          "article_sections": 5,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "1aee6e9b8b491167669597bea7f9e25d9858b98a386c4d1c8c7fc2bcd0888c85",
+          "normalized_sha256": "8ae70b3e9b679d1f627e41f65d8daff439aafeb159c236eeee9bbf371cfbd5f4",
+          "release_sha256": "8ae70b3e9b679d1f627e41f65d8daff439aafeb159c236eeee9bbf371cfbd5f4",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "id": "gta6-record-transfer-clips-ps5-xbox-20261114",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+        "en": "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+            "en": "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/"
+          },
+          "initial_main": true,
+          "article_sections": 8,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "b23ec05848cd48fb21140bf955d47957258200670a57931b2be78143624db20b",
+          "normalized_sha256": "7e34df5bae3ec571188938566ad82f718fca025179c8a15cb282ff97336d990f",
+          "release_sha256": "7e34df5bae3ec571188938566ad82f718fca025179c8a15cb282ff97336d990f",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+            "en": "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/"
+          },
+          "initial_main": true,
+          "article_sections": 8,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "6fac3a5b4415cdfea8cedd65b18e7f6cebdb830ebd25220098ec03fcbc5ea83b",
+          "normalized_sha256": "9e8883adb386642ca485779fd03cea386e2b7b8b7ef90f5b4bb5483c943d8679",
+          "release_sha256": "9e8883adb386642ca485779fd03cea386e2b7b8b7ef90f5b4bb5483c943d8679",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+            "en": "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/"
+          },
+          "initial_main": true,
+          "article_sections": 8,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "b84f64f926c3912d6ec770c0a49a7fe19492459e6b4f3f198b0e910431d9440c",
+          "normalized_sha256": "f6e8c8f50b05186d0c5ddc87f98cd172d22f1696f07dc8b6e7d31c859e78e81b",
+          "release_sha256": "f6e8c8f50b05186d0c5ddc87f98cd172d22f1696f07dc8b6e7d31c859e78e81b",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    },
+    {
+      "id": "gta6-account-security-passkeys-2fa-20261114",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+        "en": "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/"
+      },
+      "HTTP_and_metadata": [
+        {
+          "url": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+          "status": 200,
+          "locale": "es",
+          "canonical": [
+            "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+            "en": "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/"
+          },
+          "initial_main": true,
+          "article_sections": 8,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "9a1e4574dc96f4dc22bcb0a0ed9d3e1d84d260e182adba1b84fb3fb81c51e871",
+          "normalized_sha256": "f9ce0700be6b317e53c5de51a66f147f48f43c1f73dfda93ea21c7f19c5d3253",
+          "release_sha256": "f9ce0700be6b317e53c5de51a66f147f48f43c1f73dfda93ea21c7f19c5d3253",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/",
+          "status": 200,
+          "locale": "en",
+          "canonical": [
+            "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+            "en": "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/"
+          },
+          "initial_main": true,
+          "article_sections": 8,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "9b4683dc15000c1441aa3bf5401117ec1ea05ef72eb749b56545e54e69c09d57",
+          "normalized_sha256": "e6728e8ef40ae5318357e8e28ac53e344b648941daf95baeda2c97a5bfbf223b",
+          "release_sha256": "e6728e8ef40ae5318357e8e28ac53e344b648941daf95baeda2c97a5bfbf223b",
+          "matches_release": true,
+          "issues": []
+        },
+        {
+          "url": "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/",
+          "status": 200,
+          "locale": "fr",
+          "canonical": [
+            "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/"
+          ],
+          "robots": [
+            "index,follow,max-image-preview:large"
+          ],
+          "hreflang": {
+            "es": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+            "en": "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/",
+            "fr": "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/",
+            "x-default": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/"
+          },
+          "initial_main": true,
+          "article_sections": 8,
+          "figures": 3,
+          "h3": 0,
+          "sha256": "6fa4f2a2f313e2dabcbf7ff6284d8b4a7fff70dbeb3085c4420154239a8f46fe",
+          "normalized_sha256": "b75a4fe08d65b296b3a639b0a3050eeb423feff90bcf916804c3b757d871deca",
+          "release_sha256": "b75a4fe08d65b296b3a639b0a3050eeb423feff90bcf916804c3b757d871deca",
+          "matches_release": true,
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "public_validation": {
+    "canonical_URLs": 678,
+    "article_versions": 639,
+    "new_versions": 15,
+    "status": {
+      "200": 678
+    },
+    "locales": {
+      "es": 226,
+      "en": 226,
+      "fr": 226
+    },
+    "issues": 0,
+    "raw_resource_matches": 301,
+    "normalized_HTML_matches": 666,
+    "legal_comparison_limit": "Twelve existing legal pages transformed by Cloudflare email protection receive HTTP/meta checks; full HTML hash equality is not asserted there. All 639 article HTML files match release after removing only the exact pinned beacon.",
+    "method": "Normal HTTPS with inherited cloud proxy, verified TLS, canonical GETs. Only one exact pinned Cloudflare beacon removed for release comparison of 666 nonlegal HTML. Twelve legal pages receive HTTP/meta checks without full hash equality due to existing email transforms. Public nonHTML compared raw bytes. No Google indexing or real SDK delivery claim.",
+    "new_article_inbounds": {
+      "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/noticias/",
+        "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+        "https://fansgta.com/es/noticias/gta-6-logitech-game-day-dia-libre-evento/",
+        "https://fansgta.com/es/noticias/gta-6-dias-libres-solicitudes-bamboohr/"
+      ],
+      "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/news/",
+        "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+        "https://fansgta.com/en/guides/gta-6-discord-quest-orbs-requirements/"
+      ],
+      "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/news/",
+        "https://fansgta.com/en/guides/gta-6-official-merchandise-rockstar-store-guide/",
+        "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/"
+      ],
+      "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/actualites/",
+        "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/",
+        "https://fansgta.com/fr/guides/gta-6-quete-discord-orbes-conditions/"
+      ],
+      "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/": [
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/guias/gta-6-modo-foto-avances-capturas-ps5-xbox/",
+        "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/"
+      ],
+      "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/noticias/",
+        "https://fansgta.com/es/guias/gta-6-merchandising-oficial-camisetas-rockstar-store/",
+        "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/"
+      ],
+      "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/": [
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/guides/gta-6-photo-mode-previews-screenshots-ps5-xbox/",
+        "https://fansgta.com/en/guides/prepare-console-account-launch/"
+      ],
+      "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/noticias/",
+        "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+        "https://fansgta.com/es/guias/gta-6-discord-quest-orbs-requisitos/"
+      ],
+      "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/news/",
+        "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+        "https://fansgta.com/en/news/gta-6-logitech-game-day-time-off-event/",
+        "https://fansgta.com/en/news/gta-6-launch-time-off-bamboohr-study/"
+      ],
+      "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/": [
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+        "https://fansgta.com/en/guides/prepare-console-account-launch/"
+      ],
+      "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/actualites/",
+        "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/",
+        "https://fansgta.com/fr/actualites/gta-6-logitech-game-day-conge-evenement/",
+        "https://fansgta.com/fr/actualites/gta-6-sortie-conges-etude-bamboohr/"
+      ],
+      "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/": [
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/guides/gta-6-mode-photo-apercus-captures-ps5-xbox/",
+        "https://fansgta.com/fr/guides/preparer-console-compte-sortie/"
+      ],
+      "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/": [
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+        "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/"
+      ],
+      "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/": [
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/",
+        "https://fansgta.com/fr/guides/preparer-console-compte-sortie/"
+      ],
+      "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/actualites/",
+        "https://fansgta.com/fr/guides/gta-6-produits-derives-officiels-rockstar-store/",
+        "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/"
+      ]
+    },
+    "declared_Googlebot_checks": [
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/"
+        ],
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/",
+        "status": 200,
+        "canonical": [
+          "https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/"
+        ],
+        "matches_release": true,
+        "issues": []
+      }
+    ],
+    "Googlebot_limit": "Declared UA from cloud executor, not verified Google IPs or Search Console URL Inspection.",
+    "sitemap_robots_ads_txt": "Raw bytes match release. Fifteen new URLs appear exactly once in 678 canonical entries with real dates and reciprocal alternates."
+  },
+  "tests": {
+    "build_release": "passed",
+    "static_SEO_editorial": "passed; 0 errors and 42 existing review notices",
+    "initial_local_cases": 25,
+    "final_batch_rechecks": 9,
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 45,
+    "production_image_decodes": 135,
+    "production_locale_changes": 45,
+    "viewports": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "tablet": [
+        820,
+        1180
+      ]
+    },
+    "engine": "Chromium cloud emulation; not Safari or physical devices.",
+    "SDK_limit": "Adsterra/AdSense/GTM replaced only in deterministic content tests; live creatives and Analytics receipt not certified."
+  },
+  "preservation": {
+    "topics": 213,
+    "localized_versions": 639,
+    "new_topics": [
+      "gta6-macca-and-friends-weazel-tv-20261114",
+      "gta6-kick-sunset-reward-case-20261114",
+      "gta6-pocketpair-five-day-leave-20261114",
+      "gta6-record-transfer-clips-ps5-xbox-20261114",
+      "gta6-account-security-passkeys-2fa-20261114"
+    ],
+    "new_versions": 15,
+    "previous_complete_topics_identical": 208,
+    "all_624_previous_URLs_preserved": true,
+    "critical_files_identical": 17,
+    "other_existing_tracked_files_identical": 492,
+    "related_change": "Editorial relationship data only; ranking and navigation algorithm identical.",
+    "CSS_identical": true,
+    "vendor_JS_equivalent_except_main_import_filename": true,
+    "main_client_JS_change": "Expected due to new editorial related-link data; vendor import filename follows main bundle hash.",
+    "schedule": "Unchanged; manual five-topic batch independent of daily one-topic execution through November 19 New York."
+  },
+  "evidence_hashes": {
+    "release-sha256.json": "d432eaf11883eafc99bd56844d8c1560c73e58593589ba721bdf55768329fedf",
+    "public-verification.json": "1496e737db9ff196b74d124f403739d89a342fb20dd43abd794603493d7b5d32",
+    "browser-local.log": "32b8423257db0c119be0fc6458f0bd9f8f780376c349e3df19ed51005de9171e",
+    "browser-tablet.log": "fc1faee1e649b64d5a5ce8d516af6f0ab72cf64f519ec38c7f3dc004362e73bf",
+    "browser-final-text.log": "bf035129e595629782ed7fa212dfc22d363fe6c2647b6e195e2d77fceb6a44c3",
+    "browser-final-tablet.log": "9f0436849d5dafa12dcdb6809341cc29568cbd917ef26a247144db19fa5cfe10",
+    "browser-production.log": "da539fd8603e7a574d48acc20a8aeb9e86abc0940d2bc06eba883477fc4ec13e",
+    "final-five-qa.json": "4497db2c7f58cbf3c1f4c3a225b305afeb4531a5e430962f3b295a1b6b84f7d1",
+    "media-check.json": "b1363c249205f054737129d36ea92f384fb9e6af87e807b695a0421043954f11"
+  },
+  "execution": "Managed cloud, freshly fetched GitHub main and existing Cloudflare connection; no user-PC dependency.",
+  "schedule": "No automation changes. Manual five-topic batch independent of daily one-topic task through November19,2026 inclusive, America/New_York. Current success does not guarantee future executor availability.",
+  "source_limits": "Bibliographic records and validation evidence only; no additional factual recaps of source material.",
+  "indexation": "Public readiness confirmed; actual Google indexing, chosen canonical and crawl scheduling not verified without Search Console inspection."
 }

@@ -565,3 +565,24 @@ Noticia diaria Xbox–Take-Two publicada y comprobada: runtime 0d6e679d4b5203d6b
 Cinco temas nuevos, quince versiones y quince imágenes oficiales distintas. Revisión independiente, deduplicación de208objetos completos, fuentes y límites conjuntos en docs/editorial/2026-11-14-five-manual-research.json. Informe y enlaces: docs/editorial/2026-11-14-five-manual-informe.md. Sin volúmenes inventados ni ranking prometido; registros bibliográficos y hashes sin nuevos resúmenes de obras.
 
 Catálogo213temas/639versiones/678canónicas. Los208artículosprevios y624URLs permanecen idénticos. Relacionados: diez entradas de datos, algoritmo igual; CSSidéntico, vendorigual salvo referencia al nuevo nombre del bundle principal. Otros492archivos existentes y17críticos conservados. Buildrelease/estáticos/SEO/editorial aprobados, ceroerrores y42avisosprevios.25casoslocales iniciales y9repeticionesdel lote definitivo aprobados; SDK simulados solo en pruebas, Chromiumcloud, sin certificarSafari/dispositivosfísicos. Publicación pendiente en docs/editorial/2026-11-14-five-manual-publication.json. La tarea diaria de un tema por ejecución hasta19nov2026inclusive America/New_York no se modifica.
+
+
+Tanda manual de cinco temas publicada y comprobada: runtime d8810c2cef6996ec5cb8f4e31a874c5be3268e5e, Cloudflare 0f46027d-dcc6-452e-9e8f-03d6c14c8b85 en deploy/success y canónico coincidente. Verificado 2026-11-14T21:31:43.894289+00:00:678canónicas y639versionesHTTP200;15nuevas en sitemap y con entradas desde artículos existentes.301recursos coinciden en bytes;666HTML no legales coinciden retirando solo beacon exacto.12legales con controlesHTTP/meta sin igualdad completa.15peticiones con identificador Googlebot correctas, sin certificar IPs de Google ni indexación.
+
+25casos locales iniciales,9repeticiones finales y9casos públicos aprobados;45escenarios públicos/135imágenes/45cambios de idioma. SDKsimulados, Chromiumcloud, noSafari/dispositivosfísicos.208artículos,624URLsprevias,492archivos existentes y17críticos conservados;relacioneseditoriales cambian solo datos, algoritmo/CSS intactos, vendor igual salvo import de bundle propio. Informe/investigación/publicación: docs/editorial/2026-11-14-five-manual-*. Programación diaria intacta.
+
+- https://fansgta.com/es/noticias/gta-6-macca-and-friends-weazel-trailer-serie/
+- https://fansgta.com/en/news/gta-6-macca-and-friends-weazel-tv-teaser/
+- https://fansgta.com/fr/actualites/gta-6-macca-and-friends-weazel-serie-bande-annonce/
+- https://fansgta.com/es/noticias/gta-6-gratis-kick-sunset-reward-case-condiciones/
+- https://fansgta.com/en/news/gta-6-free-kick-sunset-reward-case-rules/
+- https://fansgta.com/fr/actualites/gta-6-gratuit-kick-sunset-reward-case-conditions/
+- https://fansgta.com/es/noticias/gta-6-pocketpair-cinco-dias-libres-palworld/
+- https://fansgta.com/en/news/gta-6-pocketpair-five-days-off-palworld/
+- https://fansgta.com/fr/actualites/gta-6-pocketpair-cinq-jours-conge-palworld/
+- https://fansgta.com/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/
+- https://fansgta.com/en/guides/gta-6-record-clips-ps5-xbox-phone-backup/
+- https://fansgta.com/fr/guides/gta-6-enregistrer-clips-ps5-xbox-telephone/
+- https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/
+- https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/
+- https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/

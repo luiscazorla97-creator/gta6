@@ -1563,12 +1563,23 @@
       "tablet": 3,
       "reason": "Editorial precision and source-budget metadata changes; repeated batch checks only, not the broader SEO suites."
     },
-    "production": "pending",
+    "production": {
+      "passed": 9,
+      "failed": 0,
+      "article_viewport_scenarios": 45,
+      "decoded_images": 135,
+      "locale_changes": 45
+    },
     "SDK_limit": "Adsterra/AdSense/GTM replaced only in deterministic browser tests; real creative delivery or Analytics event receipt not certified.",
     "browser_limit": "Chromium cloud emulation; Safari and physical devices not certified."
   },
   "verification_tool_notes": "Preservation compares Git blob SHA1 directly to avoid a sandbox child-process restriction. Bundled vendor comparison permits only the exact changed own-main import filename, verified against the hash-pinned published baseline; all other vendor bytes match. Application sources remain protected.",
   "scope_controls": "No design, ads, consent, security, cache, subscriptions, other-project or automation-frequency changes. Only editorial relationship data changes own client JS; ranking algorithm is unchanged. No purchases, account actions or messages to third parties.",
-  "publication": "Pending confirmed GitHub commit, explicit Cloudflare deployment and public URLs.",
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "d8810c2cef6996ec5cb8f4e31a874c5be3268e5e",
+    "deployment_id": "0f46027d-dcc6-452e-9e8f-03d6c14c8b85",
+    "proof": "docs/editorial/2026-11-14-five-manual-publication.json"
+  },
   "indexing": "No Search Console inspection access or guarantee of crawl timing or Google position."
 }
