@@ -586,3 +586,8 @@ Tanda manual de cinco temas publicada y comprobada: runtime d8810c2cef6996ec5cb8
 - https://fansgta.com/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/
 - https://fansgta.com/en/guides/gta-6-account-security-passkeys-two-step-verification/
 - https://fansgta.com/fr/guides/gta-6-securiser-comptes-cles-acces-double-authentification/
+
+
+## Ejecución diaria — 14 de noviembre de 2026
+
+Un tema/3versiones; investigación y deduplicación completa de213objetos en docs/editorial/2026-11-14-daily-bbc-creators-research.json. Informe/enlaces y registro de publicación con el mismo prefijo. Catálogo214temas/642versiones/681canónicas. Los213artículos,639URLs,499archivos existentes,17críticos y3assets CSS/JS se conservan. Build release, estáticos y25casos locales aprobados. Publicación pendiente. SDK simulados solo en pruebas; Chromium cloud sin certificar Safari/dispositivos físicos. Programación diaria intacta, último día19nov2026inclusive America/New_York.

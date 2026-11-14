@@ -1,0 +1,431 @@
+{
+  "execution": "daily-2026-11-14",
+  "checked_at_utc": "2026-11-14T22:37:32.867056+00:00",
+  "base_main": "5eb8c9cf3ea49fb90d2b53977f0acd9bbea46062",
+  "authorized_scope": {
+    "topics": 1,
+    "languages": [
+      "es",
+      "en",
+      "fr"
+    ],
+    "last_authorized_date": "2026-11-19",
+    "timezone": "America/New_York",
+    "schedule_modified": false
+  },
+  "environment": {
+    "managed_cloud": true,
+    "fresh_GitHub_main": true,
+    "user_PC_dependency": false,
+    "network": "Inherited managed proxy and normal verified TLS. Basic sandbox proxy unavailable; approved outer cloud network used.",
+    "credentials": "Existing configured Cloudflare/GitHub connections only; no credential values printed."
+  },
+  "cloudflare_config": {
+    "project": "fansgta",
+    "production_branch": "main",
+    "build_config": {
+      "build_command": "npm run build:release",
+      "destination_dir": "dist",
+      "web_analytics_tag": null,
+      "web_analytics_token": null
+    },
+    "canonical": {
+      "id": "0f46027d-dcc6-452e-9e8f-03d6c14c8b85",
+      "environment": "production",
+      "url": "https://0f46027d.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-14T21:29:36.645957Z",
+        "ended_on": "2026-11-14T21:29:54.924046Z",
+        "status": "success"
+      },
+      "commit": "d8810c2cef6996ec5cb8f4e31a874c5be3268e5e"
+    },
+    "observed_at_utc": "2026-11-14T22:29:06.320138+00:00"
+  },
+  "research": {
+    "primary": {
+      "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo",
+      "finalUrl": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo",
+      "status": 200,
+      "checkedAtUTC": "2026-11-14T22:26:48.577785+00:00",
+      "bytes": 516667,
+      "sha256": "6469407612cc2a3b26b295ade427db86e77887d789eb40357d1a918c2968768b",
+      "author": "Laura Cress",
+      "publishedUTC": "2026-11-14T00:37:01.436Z",
+      "modifiedUTC": "2026-11-14T00:37:01.436Z",
+      "publishedNY": "2026-11-13T19:37:01.436-05:00",
+      "wordLimit": 200,
+      "verbatimWordsPlanned": 0
+    },
+    "independent_context": [
+      {
+        "url": "https://www.abertay.ac.uk/news/2017/grand-theft-auto-creator-to-mark-20-years-of-games/",
+        "status": 200,
+        "finalURL": "https://www.abertay.ac.uk/news/2017/grand-theft-auto-creator-to-mark-20-years-of-games/",
+        "bytes": 100050,
+        "sha256": "cdfa8da98adf84689a9ff7217bd842781e5a77927ad6f483b8b4800574f93852",
+        "checkedUTC": "2026-11-14T22:28:06.188216+00:00",
+        "id": "abertay-2017",
+        "publishedDate": "2017-11-10",
+        "wordLimit": 200,
+        "verbatimWordsPlanned": 0
+      },
+      {
+        "id": "rsg-vi",
+        "url": "https://www.rockstargames.com/VI",
+        "checkedUTC": "2026-11-14T22:27:35.887825+00:00",
+        "status": 200,
+        "finalURL": "https://www.rockstargames.com/VI",
+        "bytes": 1233788,
+        "sha256": "5f8117f24654f3715973fd4feb822996e7c9414a89d3f4cbff89233606dbf0ab",
+        "publishedDate": null,
+        "dateType": "Current official landing page; undated, checked fresh",
+        "wordLimit": 200,
+        "verbatimWordsPlanned": 0
+      }
+    ],
+    "last_daily_verified_utc": "2026-11-13T22:35:52.488308+00:00",
+    "source_after_last_daily": true,
+    "raw_source_bodies": "Private execution evidence, not committed."
+  },
+  "interest": {
+    "kind": "Current dated coverage in EN/ES/FR; derivative pages are signals, not independent fact sources.",
+    "evidence": [
+      {
+        "locale": "en",
+        "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo",
+        "publishedUTC": "2026-11-14T00:37:01.436Z",
+        "status": 200
+      },
+      {
+        "url": "https://www.notiulti.com/dave-jones-afirma-que-los-creadores-originales-aun-no-han-probado-gta-6/",
+        "status": 200,
+        "sha256": "b6c6740653486214a60c0e51edd893a53211e01f390a42f7d69daf2d014ab350",
+        "locale": "es",
+        "publishedUTC": "2026-11-14T04:40:05+00:00"
+      },
+      {
+        "url": "https://gtavifrance.com/journal/2026-11-14-createurs-originaux-attendent-bbc-gta6.html",
+        "status": 200,
+        "sha256": "8d3989fd0d960515d5010afbb1cb965799555ce9a440e78787ae0e441876be6d",
+        "locale": "fr",
+        "publishedSourceTime": "2026-11-14T05:22:18+01:00"
+      }
+    ],
+    "limits": "No numerical search-volume data or most-searched ranking obtained; no traffic, indexing-time or Google-position promise."
+  },
+  "deduplication": {
+    "topics_before": 213,
+    "versions_before": 639,
+    "complete_Article_snapshot_sha256": "1574a342a4f477b4276a9f84ae7e5c3839122d9f2387b9ebad40e6ea3ba7337c",
+    "report_sha256": "d23df66c3914de0e3efe14d070415a14c322b6dd51190c681daded154a5b514d",
+    "equivalent_found": false,
+    "decision": "One new news intent; existing historical guides are linked rather than duplicated."
+  },
+  "article": {
+    "id": "gta6-bbc-original-creators-20261114",
+    "category": "news",
+    "published": "2026-11-14",
+    "updated": "2026-11-14",
+    "urls": {
+      "es": "https://fansgta.com/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+      "en": "https://fansgta.com/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+      "fr": "https://fansgta.com/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/"
+    }
+  },
+  "editorial_review": {
+    "approved": true,
+    "checked_at_utc": "2026-11-14T22:35:36.553036+00:00",
+    "execution": "daily-2026-11-14",
+    "scope": "One article, three language versions; independent read-only editorial/source/media QA. No repository edits, builds, account changes, deployment or advertising checks by this agent.",
+    "snapshot_path": "/tmp/fansgta-daily-20261114/article-draft.json",
+    "snapshot_sha256": "65a94b620abe65c6430ae4814e5e02eb23d1024494360db107020c6d9808e075",
+    "snapshot_bytes": 7060,
+    "article_id": "gta6-bbc-original-creators-20261114",
+    "category": "news",
+    "section_count": 3,
+    "internal_reference_count": 4,
+    "language_checks": {
+      "es": {
+        "source_attribution": "pass",
+        "facts_and_scope_equivalence": "pass",
+        "grammar_and_historical_attachment": "pass",
+        "localized_prose_complete": true,
+        "title_characters": 49,
+        "excerpt_characters": 103,
+        "visible_body_headings_words_whitespace": 98,
+        "body_alias_counted_twice_in_source_budget": true
+      },
+      "en": {
+        "source_attribution": "pass",
+        "facts_and_scope_equivalence": "pass",
+        "grammar_and_historical_attachment": "pass",
+        "localized_prose_complete": true,
+        "title_characters": 50,
+        "excerpt_characters": 105,
+        "visible_body_headings_words_whitespace": 91,
+        "body_alias_counted_twice_in_source_budget": true
+      },
+      "fr": {
+        "source_attribution": "pass",
+        "facts_and_scope_equivalence": "pass",
+        "grammar_and_historical_attachment": "pass",
+        "localized_prose_complete": true,
+        "title_characters": 50,
+        "excerpt_characters": 102,
+        "visible_body_headings_words_whitespace": 99,
+        "body_alias_counted_twice_in_source_budget": true
+      }
+    },
+    "checks": {
+      "primary_source_read": "pass",
+      "independent_context_sources_read": "pass",
+      "historical_date_attachment_unambiguous": "pass",
+      "no_unsupported_access_policy_or_gameplay_claims": "pass",
+      "no_verbatim_quotes": "pass",
+      "duplicate_intent_review": "pass; separate agent evidence in dedupe-agent.json",
+      "image_context_not_interview_evidence": "pass",
+      "no_search_volume_or_rank_assertions": "pass",
+      "new_id_and_localized_url_integrity": "content schema pass; root runtime checks pending"
+    },
+    "source_counts": {
+      "method": "Unicode word tokens preserve apostrophes, split hyphens. All stored news-derived repeated body/section values, titles/slugs/tags/first H2/source labels counted. Each contextual work conservatively gets its entire section, mixed-source excerpt and both bibliography labels. Canonical shared values mechanically rendered are not fresh authored prose.",
+      "bbc": {
+        "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo",
+        "all_languages_stored_fields_words": 158,
+        "cap": 200,
+        "remaining_for_every_additional_public_doc_commentary_and_final": 42,
+        "quotes": 0
+      },
+      "abertay": {
+        "url": "https://www.abertay.ac.uk/news/2017/grand-theft-auto-creator-to-mark-20-years-of-games/",
+        "all_languages_stored_fields_words": 185,
+        "cap": 200,
+        "remaining_for_every_additional_public_doc_commentary_and_final": 15,
+        "quotes": 0
+      },
+      "rockstar_vi": {
+        "url": "https://www.rockstargames.com/VI",
+        "all_languages_stored_fields_words": 195,
+        "cap": 200,
+        "remaining_for_every_additional_public_doc_commentary_and_final": 5,
+        "quotes": 0
+      }
+    },
+    "private_source_field_allocation_path": "/tmp/fansgta-daily-20261114/qa-source-budget-private.json",
+    "private_allocation_warning": "Do not commit private segment text; use this public aggregate report and bibliographic metadata/hashes only. Mirrors/reprints/localized sources share the underlying work budget.",
+    "public_record_rule": "Additional factual synopses, translated title lists and final commentary consume remaining work budgets; prefer bibliographic links, hashes and verification outcomes. This report adds no factual news recap.",
+    "media": {
+      "evidence_path": "/tmp/fansgta-daily-20261114/media-check.json",
+      "figures": [
+        {
+          "key": "feature-launch-gallery-duo",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+          "original_sha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57",
+          "local_sha256": "a5b1f81670525391afd949feb04853fe7f1599f5491d2369f5924dff9449e677",
+          "fresh_http_status": 200,
+          "source_content_type": "image/jpeg",
+          "local_format": "WEBP",
+          "local_dimensions": [
+            1400,
+            788
+          ],
+          "combined_alt_caption_credit_words_unicode": 103,
+          "combined_alt_caption_credit_words_whitespace": 109,
+          "word_cap": 200,
+          "visual_match_ES_EN_FR": "pass",
+          "credit": "pass"
+        },
+        {
+          "key": "feature-launch-gallery-bridge",
+          "source_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+          "original_sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1",
+          "local_sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+          "fresh_http_status": 200,
+          "source_content_type": "image/jpeg",
+          "local_format": "WEBP",
+          "local_dimensions": [
+            1400,
+            788
+          ],
+          "combined_alt_caption_credit_words_unicode": 117,
+          "combined_alt_caption_credit_words_whitespace": 123,
+          "word_cap": 200,
+          "visual_match_ES_EN_FR": "pass",
+          "credit": "pass"
+        }
+      ],
+      "distinct_original_assets": 2,
+      "fresh_official_download_share_context_verified": true,
+      "copyright_scope": "Credited official promotional images for contextual editorial illustration; no public-domain or unrestricted commercial licence asserted.",
+      "independent_visual_inspection": true,
+      "repository_binaries_changed": false
+    },
+    "resolved_observations": [
+      "Short source-focused structure replaces generic final section.",
+      "Source-specific headings included in conservative word ledger.",
+      "Ambiguous modifier attachment resolved in ES and FR.",
+      "FR image terminology matches visible bridge."
+    ],
+    "limits": "Approval covers draft content, translation, source allocation and media evidence only. Root must complete release/static/SEO/browser checks, exact snapshot integration, preservation and verified deployment/public URLs. No Google indexing, popularity, real-device Safari, advertisement or Analytics delivery certified.",
+    "daily_schedule": "No cadence or end-date changes authorized or performed by QA."
+  },
+  "media": {
+    "checked_at_utc": "2026-11-14T22:29:15.055689+00:00",
+    "scope": "Read-only media verification for separate November14 daily article. No repository writes or new publication binaries.",
+    "method": "Ordinary HTTPS with default TLS verification, inherited cloud proxy and generic User-Agent; no credentials used.",
+    "media": [
+      {
+        "key": "feature-launch-gallery-duo",
+        "credit_record": {
+          "key": "feature-launch-gallery-duo",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 83104,
+          "originalSha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+          "credit": "GTA VI © Rockstar Games",
+          "width": 1400,
+          "height": 788,
+          "sha256": "a5b1f81670525391afd949feb04853fe7f1599f5491d2369f5924dff9449e677",
+          "reuseContext": "Official Rockstar download-and-share Media collection; contextual editorial reporting on the November 5 launch gallery with attribution and original links. Copyright reserved, no unrestricted licence claimed. Format/size conversion only; no generative edits or crop."
+        },
+        "local_path": "/workspace/gta6/public/media/feature-launch-gallery-duo.webp",
+        "local_sha256": "a5b1f81670525391afd949feb04853fe7f1599f5491d2369f5924dff9449e677",
+        "local_bytes": 83104,
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "matches_recorded_local_sha256": true,
+        "fresh_original_http": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+          "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 1017759,
+          "sha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57",
+          "format": "JPEG",
+          "dimensions": [
+            3840,
+            2160
+          ]
+        },
+        "matches_recorded_original_sha256": true,
+        "independently_viewed_local_image": true,
+        "visual_description": "Jason and Lucia close together among people under blue/purple nightclub-style lighting. Genuine game characters/setting, not a portrait of the BBC interviewees and not proof that anyone played GTA VI.",
+        "editorial_suitability": "Suitable as clearly labelled official GTA VI illustration for article; do not imply photograph, interview scene or access evidence.",
+        "reuse_basis": "Official Rockstar media collection currently offers download and share. Use in original editorial context with source/credit; copyright reserved. No unrestricted commercial or public-domain licence claimed."
+      },
+      {
+        "key": "feature-launch-gallery-bridge",
+        "credit_record": {
+          "key": "feature-launch-gallery-bridge",
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+          "status": 200,
+          "contentType": "image/jpeg",
+          "bytes": 217872,
+          "originalSha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1",
+          "owner": "Rockstar Games",
+          "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+          "credit": "GTA VI © Rockstar Games",
+          "width": 1400,
+          "height": 788,
+          "sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+          "reuseContext": "Official Rockstar download-and-share Media collection; contextual editorial reporting on the November 5 launch gallery with attribution and original links. Copyright reserved, no unrestricted licence claimed. Format/size conversion only; no generative edits or crop."
+        },
+        "local_path": "/workspace/gta6/public/media/feature-launch-gallery-bridge.webp",
+        "local_sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+        "local_bytes": 217872,
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "matches_recorded_local_sha256": true,
+        "fresh_original_http": {
+          "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+          "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 1132950,
+          "sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1",
+          "format": "JPEG",
+          "dimensions": [
+            3840,
+            2160
+          ]
+        },
+        "matches_recorded_original_sha256": true,
+        "independently_viewed_local_image": true,
+        "visual_description": "Vice City waterfront skyline at dusk/night, illuminated buildings, a raised bascule bridge over a waterway and a helicopter in the sky. Genuine game scenery, not an interview venue or documentary image.",
+        "editorial_suitability": "Suitable as clearly labelled official GTA VI illustration for article; do not imply photograph, interview scene or access evidence.",
+        "reuse_basis": "Official Rockstar media collection currently offers download and share. Use in original editorial context with source/credit; copyright reserved. No unrestricted commercial or public-domain licence claimed."
+      }
+    ],
+    "fresh_network_checked_at_utc": "2026-11-14T22:29:29.281417+00:00",
+    "network_permission": "Cloud network permission explicitly requested after sandbox EPERM; default TLS and inherited proxy retained.",
+    "official_media_page": {
+      "url": "https://www.rockstargames.com/VI/media",
+      "final_url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 790632,
+      "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context_present": true,
+      "short_context": "red Videos Screenshots Artwork Explore Vice City and Beyond Download and share trailers, imagery, and more. Videos 5 See All 5 Videos 5 Videos Grand Theft Auto VI: Pre-Load Now 1 size Grand Theft Auto VI Launch"
+    },
+    "visual_review_completed_at_utc": "2026-11-14T22:29:44.784776+00:00",
+    "all_fresh_originals_HTTP_200": true,
+    "all_recorded_hashes_match": true,
+    "limits": "No repository image changes; no BBC image/portrait or source memo copied. Media and source context only; no build/browser/publication certification. Final translated alt/caption not yet received."
+  },
+  "preservation": {
+    "checked_at_utc": "2026-11-14T22:36:20.416Z",
+    "topics": 214,
+    "localized_versions": 642,
+    "new_topics": [
+      "gta6-bbc-original-creators-20261114"
+    ],
+    "new_versions": 3,
+    "new_URLs": [
+      "/es/noticias/gta-6-dave-jones-brian-baglow-bbc/",
+      "/en/news/gta-6-dave-jones-brian-baglow-bbc/",
+      "/fr/actualites/gta-6-dave-jones-brian-baglow-bbc/"
+    ],
+    "previous_complete_topics_identical": 213,
+    "all_639_previous_URLs_preserved": true,
+    "critical_files_identical": 17,
+    "other_existing_tracked_files_identical": 499,
+    "tracked_preservation_method": "Strict Git blob SHA-1 comparison for all 499 entries in the pre-change map, with no exclusions.",
+    "related_articles_identical": true,
+    "reviewed_article_identical": true,
+    "reviewed_snapshot_sha256": "65a94b620abe65c6430ae4814e5e02eb23d1024494360db107020c6d9808e075",
+    "article_file_sha256": "65a94b620abe65c6430ae4814e5e02eb23d1024494360db107020c6d9808e075",
+    "all_three_bundled_assets_byte_identical": true,
+    "assets": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-DGtdsMGY.js": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144",
+      "assets/postscribe-wSP0-HZj.js": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+    },
+    "CSS_identical": true,
+    "both_client_JS_assets_identical": true,
+    "automation_configuration_modified_by_helper": false
+  },
+  "validation": {
+    "build_release": "passed",
+    "verify_static": "passed;686 HTML,30905 internal links,1346 structured-data blocks,642 article versions,681 canonical sitemap entries;zero errors,42 existing review notices",
+    "local_cases": 25,
+    "production": "pending",
+    "harness_setup": "Initial basic-sandbox browser webServer could not bind the preview port; no cases executed. Approved outer cloud preview and browser launch used, retaining ordinary network/TLS checks.",
+    "browser_limit": "Chromium cloud emulation; no physical-device or Safari certification.",
+    "SDK_limit": "Only provider SDKs are fixtures in deterministic browser tests; no live creative delivery or Analytics receipt claim."
+  },
+  "scope_controls": "No old article, URL, design, ads, consent, security, cache, subscriptions, other-project or automation changes. No purchases or third-party messages.",
+  "publication": "Pending GitHub commit, explicit Cloudflare deployment and public URL verification.",
+  "public_source_budget": "Bibliographic URLs, timestamps, hashes and counts only. No additional primary-source synopsis in public reports."
+}
