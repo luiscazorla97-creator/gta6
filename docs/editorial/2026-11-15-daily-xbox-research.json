@@ -1,0 +1,410 @@
+{
+  "request": "Daily automation: one GTA VI topic, three complete versions, within the authorized date limit. Manual batches do not change its cadence.",
+  "state": "prepared-pending-deployment-and-public-verification",
+  "checked_at_utc": "2026-11-15T22:26:31.895795+00:00",
+  "execution": {
+    "checked_at_utc": "2026-11-15T22:12:40.308279+00:00",
+    "date_in_America_New_York": "2026-11-15T17:12:40.308279-05:00",
+    "main": "eb52a1593356d5458fbb630ed65c770bd3006828",
+    "inventory_sha256": "9e05d1151085b021a47b406cac0a2a71c77b364cbb35d7b1a380f6fb3278cfdf",
+    "topics": 222,
+    "deadline": "2026-11-19 America/New_York inclusive",
+    "scope": "One topic, three complete languages; update equivalent intent instead of duplicating."
+  },
+  "cloudflare_access": {
+    "checked_at_utc": "2026-11-15T22:12:45.125515+00:00",
+    "HTTP": 200,
+    "project": "fansgta",
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "canonical_deployment": {
+      "id": "d68dfe26-9e27-44ba-8516-3abce849884f",
+      "commit": "f41e1b0c8b7728e5ce849656190f0d478764caba",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T20:08:28.293656Z",
+        "ended_on": "2026-11-15T20:08:48.09486Z",
+        "status": "success"
+      }
+    },
+    "network": "Inherited managed proxy and normal TLS certificate verification."
+  },
+  "scope": "Managed cloud execution and existing GitHub/Cloudflare connections; no user-PC dependency, purchases, paid subscriptions, other projects or messages to third parties.",
+  "selection": {
+    "topics_before": 222,
+    "versions_before": 666,
+    "decision": "One new platform-specific report, compared by intent with all existing topics and their three versions. The existing PS5 report retains its separate URLs and evidence.",
+    "catalogue_review_sha256": "e85fd1b4a7b5641b3b16927981ea1d89672ebaae445ad66251aa33501ae70888",
+    "primary_research_sha256": "e49bda30e367c398f605e17d26fed886e334cb31425d22c561d458419935d53f",
+    "interest_research_sha256": "9e2fa6aa43d85a7f21ba49087b4ab09313f81d58b35e55a10954f63e333e5191",
+    "signals": "Current dated coverage and search discovery in multiple languages; no measured Google search volume or popularity rank.",
+    "unselected": "Other discovered material was already covered, predated the previous execution, or could not justify a new full report."
+  },
+  "source_access": [
+    {
+      "id": "rockstar-newswire",
+      "url": "https://www.rockstargames.com/newswire?tag=722",
+      "checked_at_utc": "2026-11-15T22:12:32.208236+00:00",
+      "status": 200,
+      "final_url": "https://www.rockstargames.com/newswire?tag=722",
+      "bytes": 4133,
+      "sha256": "dad3ed2acf136a4dec93401d9e8f087a2c63b84dbf5c0316ea37ba26f9e50564",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "rockstar-vi",
+      "url": "https://www.rockstargames.com/VI",
+      "checked_at_utc": "2026-11-15T22:12:32.208894+00:00",
+      "status": 200,
+      "final_url": "https://www.rockstargames.com/VI",
+      "bytes": 1233788,
+      "sha256": "5f8117f24654f3715973fd4feb822996e7c9414a89d3f4cbff89233606dbf0ab",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "id": "rockstar-x",
+      "url": "https://x.com/RockstarGames",
+      "checked_at_utc": "2026-11-15T22:12:32.209278+00:00",
+      "status": 200,
+      "final_url": "https://x.com/RockstarGames",
+      "bytes": 163921,
+      "sha256": "b6dd203c75512744d9723ea107ceeb49d1e01cacb0a821e2d7dec2b2cacb8165",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "take2-news",
+      "url": "https://www.take2games.com/ir/news",
+      "checked_at_utc": "2026-11-15T22:12:32.209680+00:00",
+      "error": "HTTPError:HTTP Error 404: Not Found"
+    },
+    {
+      "id": "take2-results",
+      "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-4",
+      "checked_at_utc": "2026-11-15T22:12:32.210224+00:00",
+      "status": 200,
+      "final_url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-4",
+      "bytes": 1929487,
+      "sha256": "4aaac0a15d31415853d163bd849543db98444b8329587eb9c13cce18d78b74c1",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "id": "xbox-report",
+      "url": "https://twistedvoxel.com/gta-vi-xbox-update-november-15/",
+      "checked_at_utc": "2026-11-15T22:12:32.210549+00:00",
+      "status": 200,
+      "final_url": "https://twistedvoxel.com/gta-vi-xbox-update-november-15/",
+      "bytes": 435691,
+      "sha256": "53dff7acd96c080371f9c72bf59416903b6c1488f345e10d1a6816cd10a49feb",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "guardian",
+      "url": "https://www.theguardian.com/games/ng-interactive/2026/nov/15/grand-theft-auto-vi-inside-rockstar-games",
+      "checked_at_utc": "2026-11-15T22:12:32.624682+00:00",
+      "status": 200,
+      "final_url": "https://www.theguardian.com/games/ng-interactive/2026/nov/15/grand-theft-auto-vi-inside-rockstar-games",
+      "bytes": 393884,
+      "sha256": "6f66a60128020b687a1c030da3b4ecb81255c33563ad2aa942f384ed91e403e4",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "xbox-original",
+      "url": "https://x.com/Cokymoky69/status/2121998635164471384",
+      "status": 200,
+      "final_url": "https://x.com/Cokymoky69/status/2121998635164471384",
+      "bytes": 116893,
+      "sha256": "16f44230dda80fb24b81f5b1faf13f4aa5730f694931ffa52d31ff80af62eccd",
+      "checked_at_utc": "2026-11-15T22:13:05.614924+00:00"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HXLabC2XkAEuvwe?format=webp&name=large",
+      "status": 200,
+      "bytes": 57774,
+      "sha256": "29c6d76103f97c64d79e791aa5ffa2e1be8779a766e4e67893ddb093b0bbb932",
+      "checked_at_utc": "2026-11-15T22:14:32.310135+00:00"
+    },
+    {
+      "id": "take2-press-releases",
+      "url": "https://www.take2games.com/ir/press-releases",
+      "checked_at_utc": "2026-11-15T22:13:45.330049+00:00",
+      "status": 200,
+      "final_url": "https://www.take2games.com/ir/press-releases",
+      "bytes": 517147,
+      "sha256": "65aae95d80fefa6e43a308ae3c5b19f5b6a51ff7f34d4efcdb846574c4fd78e1"
+    }
+  ],
+  "microsoft_source_access": [
+    {
+      "id": "microsoft-package-version",
+      "url": "https://learn.microsoft.com/en-us/gaming/game-publishing/publishing-processes/managed-creators/publishing-processes-recommendations-for-testing-in-retail",
+      "final_url": "https://learn.microsoft.com/en-us/gaming/game-publishing/publishing-processes/managed-creators/publishing-processes-recommendations-for-testing-in-retail",
+      "status": 200,
+      "checked_at_utc": "2026-11-15T22:17:37.526589+00:00",
+      "html_bytes": 62533,
+      "html_sha256": "7ebac6be4750477753a5a2b72b7f6d1510e6bc5491c5c63d15147f961eb16029",
+      "text_bytes": 12733,
+      "text_chars": 12732,
+      "text_sha256": "99183d660312b0ca548b96385f0eddb530f322188cc006a9ae97336fc00daca4",
+      "publication_metadata": {
+        "ms.date": "2026-11-11T00:00:00Z",
+        "updated_at": "2026-11-14T02:04:00Z"
+      },
+      "time_elements": [],
+      "read_method": "Ordinary HTTPS GET with inherited proxy and default TLS validation"
+    },
+    {
+      "id": "microsoft-game-auto-updates",
+      "url": "https://support.microsoft.com/en-us/accounts-billing/trouble-pushing-an-app-or-game-to-a-device",
+      "final_url": "https://support.microsoft.com/en-us/accounts-billing/trouble-pushing-an-app-or-game-to-a-device",
+      "status": 200,
+      "checked_at_utc": "2026-11-15T22:17:37.560329+00:00",
+      "html_bytes": 129879,
+      "html_sha256": "cf2ad079fddef2991cebc6da3a682c4fa6b1f29cda83b1dbd557424c22c468e9",
+      "text_bytes": 9515,
+      "text_chars": 9504,
+      "text_sha256": "cfad942b80d536e0d4c233be5890661d320952b2eb21b4490606410cdd1bdb5c",
+      "publication_metadata": {
+        "ms.date": "07/11/2024",
+        "updated_at": "2026-09-01 07:29 PM"
+      },
+      "time_elements": [],
+      "read_method": "Ordinary HTTPS GET with inherited proxy and default TLS validation"
+    },
+    {
+      "id": "xbox-wire-game-updates",
+      "url": "https://news.xbox.com/en-us/2024/09/25/xbox-update-september-game-bar-compact-mode/",
+      "final_url": "https://news.xbox.com/en-us/2024/09/25/xbox-update-september-game-bar-compact-mode/",
+      "status": 200,
+      "checked_at_utc": "2026-11-15T22:17:37.526925+00:00",
+      "html_bytes": 95961,
+      "html_sha256": "0af13f8584ca37bce4b65a442d9e56ea84ae6803748b578e4b3b70c99a9e2033",
+      "text_bytes": 10262,
+      "text_chars": 10196,
+      "text_sha256": "25feb1f48306cb2c742e48b0ec48a492deb95e782e93f637173a349b3162e8e7",
+      "publication_metadata": {
+        "article:published_time": "2024-09-25T15:00:00+00:00"
+      },
+      "time_elements": [],
+      "read_method": "Ordinary HTTPS GET with inherited proxy and default TLS validation"
+    }
+  ],
+  "source_review": {
+    "approved": true,
+    "article_sha256": "c349edd2d678f860cc51b4d8b950ec31135f0e22fd657f309677006ccfaba9cd",
+    "source_works": [
+      {
+        "id": "cokymoky-xbox-build-20261115",
+        "url": "https://x.com/Cokymoky69/status/2121998635164471384",
+        "aliases": [
+          "https://pbs.twimg.com/media/HXLabC2XkAEuvwe?format=webp&name=large",
+          "https://twistedvoxel.com/gta-vi-xbox-update-november-15/"
+        ],
+        "cap": 200,
+        "joint_words": 137,
+        "reserve_words": 63,
+        "count_scope": "ES/EN/FR jointly; assigned metadata, body alias, headings and rendered source labels included",
+        "article_ids": [
+          "gta6-xbox-package-revision-report-20261115"
+        ]
+      },
+      {
+        "id": "version",
+        "url": "https://learn.microsoft.com/en-us/gaming/game-publishing/publishing-processes/managed-creators/publishing-processes-recommendations-for-testing-in-retail",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 156,
+        "reserve_words": 44,
+        "count_scope": "ES/EN/FR jointly; assigned metadata, body alias, headings and rendered source labels included",
+        "article_ids": [
+          "gta6-xbox-package-revision-report-20261115"
+        ]
+      },
+      {
+        "id": "updates",
+        "url": "https://news.xbox.com/en-us/2024/09/25/xbox-update-september-game-bar-compact-mode/",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 157,
+        "reserve_words": 43,
+        "count_scope": "ES/EN/FR jointly; assigned metadata, body alias, headings and rendered source labels included",
+        "article_ids": [
+          "gta6-xbox-package-revision-report-20261115"
+        ]
+      }
+    ],
+    "review_file_sha256": "f7109fbf584737669d2c45942861f1e78518e508694d01c39a0e5876ebca45a5",
+    "additional_Microsoft_peer_review_sha256": "e86b8a9509782e52ec91835d0d2ac809c374ebdb320002295a180acea76ac3ee",
+    "public_documentation": "URLs, access/hash evidence, counts and decisions only. No raw source bodies, private assigned text, additional source-derived recaps or tabulated report identifiers retained."
+  },
+  "articles": [
+    {
+      "id": "gta6-xbox-package-revision-report-20261115",
+      "category": "news",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/",
+        "en": "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/"
+      }
+    }
+  ],
+  "visible_body_word_counts": {
+    "es": 454,
+    "en": 439,
+    "fr": 445
+  },
+  "word_count_method": "Unicode body paragraphs, H2/H3 and tables, excluding metadata, duplicate introduction alias, captions and citation labels.",
+  "media": {
+    "checked_at_utc": "2026-11-15T22:17:03.320071+00:00",
+    "selection": {
+      "daily": [
+        "feature-mountain",
+        "region-grassrivers-03"
+      ]
+    },
+    "media": [
+      {
+        "key": "feature-mountain",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 1274178,
+        "original_sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 226130,
+        "local_sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+        "resized_pixel_MAE": 3.433,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 79,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "region-grassrivers-03",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_03.14cuv-vg9orw4.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_03.14cuv-vg9orw4.jpg",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 884187,
+        "original_sha256": "8120c16f300f27500fca1360d561c69c9185bd8a3611d9258bf7b7e90517b79d",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 183120,
+        "local_sha256": "0095192f3ece6df1c6cbb56de34ba49215f347eca8cbd6508bc3c6f7ac401a57",
+        "resized_pixel_MAE": 2.6,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 84,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      }
+    ],
+    "official_media_page": {
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context_present": true
+    },
+    "plan_sha256": "38e6a72f8c6428be5f82fecbcae5d01be47ef727f315dbc179a0aa89a2e09478",
+    "reuse": "Official promotional images offered for download/share, used with source and copyright attribution in original editorial context. Copyright reserved; no unrestricted licence claimed.",
+    "limits": "Game illustrations, not venue photography, software-interface screenshots or a recording of a playable pre-release build. No original publication file was edited.",
+    "network": "Managed cloud, default verified TLS, inherited proxy, no source-request credentials."
+  },
+  "integration": {
+    "raw_article_sha256": "c349edd2d678f860cc51b4d8b950ec31135f0e22fd657f309677006ccfaba9cd",
+    "article_batch_sha256": "3658186d8e6bf6d287958151eb6ec55dc93177036a23cb9e2c37b93db3d4a718",
+    "media_plan_sha256": "38e6a72f8c6428be5f82fecbcae5d01be47ef727f315dbc179a0aa89a2e09478",
+    "post_review_allowlist": "Only two reviewed media records and official-media bibliography entry; all reviewed prose, dates, localized metadata, headings, FAQ and links unchanged."
+  },
+  "preservation": {
+    "ok": true,
+    "counts": {
+      "oldTopics": 222,
+      "oldVersions": 666,
+      "newTopics": 1,
+      "newVersions": 3,
+      "totalTopics": 223,
+      "totalVersions": 669,
+      "inventory": 223,
+      "trackedFiles": 517,
+      "criticalFiles": 22,
+      "assets": 3
+    },
+    "hashes": {
+      "reviewedBatch": "3666dde5c25a40d2a7dbb3ca1270cc67a9bd22b7e591f275ce42c9a377db20ca",
+      "originalArticles": "ea3d33952c23a24dd67dcb299225f426f26326c7f55193185a79a6aeeec9f08e",
+      "originalPaths": "858768910ef0a387fbdaec50442e36299e250103748636dfe26621e6c6278cad",
+      "finalArticles": "0c558f5d4dab67dbe2103165cabd46f54cf525a2991a618cc2be71bc4059ff3c",
+      "finalPaths": "7a7807cbcda9811b9e3d75dfcaf2f233666cfa2f1012589651dfc06cfd7484a9",
+      "inventory": "e334a2e908ddb2a0e1e4356f8de3c149d7c99eaf641234836b3083f5ece41344",
+      "trackedFiles": "d36a02e8be9637489b116aac691093789aadc3c384cd806fef0976228ee2d63e",
+      "criticalFiles": "2a5b80807a4a30bbe2ff26cb7de46117e516cbbe6a4ca64168b9352c747332c0",
+      "assets": "1f4def985d97bcae7dbefef0bc75ff2f86710428548de0f0cbaf27b722c30b01"
+    },
+    "assets": {
+      "assets/index-DGtdsMGY.js": {
+        "bytes": 359942,
+        "sha256": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144"
+      },
+      "assets/index-BkQBpQi9.css": {
+        "bytes": 57621,
+        "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+      },
+      "assets/postscribe-wSP0-HZj.js": {
+        "bytes": 18060,
+        "sha256": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+      }
+    }
+  },
+  "validation": {
+    "build_release": "passed",
+    "static_checks": "Verified 713 HTML files, 32318 internal links and 1400 structured-data blocks.\nSEO verified: 669 article URLs, 708 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.\nEditorial audit: 223 topics, 669 language URLs, 469 media uses; 0 errors and 42 review notices.",
+    "local_browser_cases": 25,
+    "production": "pending",
+    "browser_limits": "Chromium desktop/mobile/tablet cloud emulation; no Safari or physical-device certification. External provider SDKs use fixtures only in deterministic browser tests; no live creative or Analytics-receipt certification."
+  },
+  "public_access_preflight": {
+    "browser": {
+      "checked_at_utc": "2026-11-15T22:15:08.087Z",
+      "method": "Actual Chromium default browser client with inherited managed proxy and normal TLS; no challenge interaction, custom User-Agent, provider fixtures, or security changes.",
+      "status": 200,
+      "url": "https://fansgta.com/es/",
+      "h1": [
+        "Todo sobre GTA 6.Un solo lugar."
+      ],
+      "canonical": "https://fansgta.com/es/"
+    },
+    "configured_verifier": {
+      "checked_at_utc": "2026-11-15T22:18:39.303771+00:00",
+      "status": 200,
+      "method": "Configured descriptive FansGTA verification client; inherited proxy, default verified TLS, no identity tokens or challenge interactions.",
+      "sha256": "9cbd5fd0662f56c4f69e3a314f5f150339256ddafc6753c31af164f509a97f13",
+      "bytes": 278899,
+      "baseline_hash_match_after_exact_insertion": true,
+      "pinned_beacon_bytes": 367,
+      "pinned_beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434"
+    },
+    "initial_client_limit": "Default Python-urllib received403/error1010. Default actual Chromium and the configured descriptive verifier returned200 using normal TLS/proxy. No security rule was changed and no challenge was solved."
+  },
+  "unchanged": "All222 existing articles,666 localized paths,517 tracked files,22 critical files and three CSS/JS assets preserved. No design, advertising, consent, security, cache, subscription or schedule change.",
+  "schedule": "One topic per daily execution through November19,2026 inclusive, America/New_York; unchanged.",
+  "indexing": "Technical indexability only; no guaranteed Google indexing, timing, ranking or traffic."
+}

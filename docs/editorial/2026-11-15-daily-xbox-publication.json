@@ -1,0 +1,17 @@
+{
+  "state": "pending-deployment-and-public-verification",
+  "checked_at_utc": "2026-11-15T22:26:31.895795+00:00",
+  "articles": [
+    {
+      "id": "gta6-xbox-package-revision-report-20261115",
+      "category": "news",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/",
+        "en": "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/"
+      }
+    }
+  ]
+}

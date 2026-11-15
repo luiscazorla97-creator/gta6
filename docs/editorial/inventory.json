@@ -1,5 +1,20 @@
 [
   {
+    "id": "gta6-xbox-package-revision-report-20261115",
+    "category": "news",
+    "published": "2026-11-15",
+    "titles": [
+      "Rumor GTA 6 Xbox: revisión reportada",
+      "GTA 6 Xbox rumour: package revision",
+      "Rumeur GTA 6 Xbox : révision signalée"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-xbox-rumor-revision/",
+      "/en/news/gta-6-xbox-revision-rumour/",
+      "/fr/actualites/gta-6-xbox-rumeur-revision/"
+    ]
+  },
+  {
     "id": "gta6-spoiler-filters-social-feeds-20261115",
     "category": "guides",
     "published": "2026-11-15",
