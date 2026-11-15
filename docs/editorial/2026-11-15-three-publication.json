@@ -1,0 +1,39 @@
+{
+  "state": "pending-deployment-and-public-verification",
+  "checked_at_utc": "2026-11-15T20:03:40.549299+00:00",
+  "articles": [
+    {
+      "id": "gta6-spoiler-filters-social-feeds-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+        "en": "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+        "fr": "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/"
+      }
+    },
+    {
+      "id": "gta6-livestream-ps5-xbox-obs-setup-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+        "en": "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/"
+      }
+    },
+    {
+      "id": "gta6-festival-mana-wynwood-visitor-guide-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/",
+        "en": "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/"
+      }
+    }
+  ]
+}

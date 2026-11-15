@@ -1,0 +1,1888 @@
+{
+  "request": "Manual publication of three new GTA VI topics, nine complete versions, continuing the previous quality and1500–2500word scope per language.",
+  "checked_at_utc": "2026-11-15T20:03:40.549299+00:00",
+  "publication_date_timezone": "America/New_York",
+  "base_main": "442a17cd4250ceb57c923286ba547089392c1b73",
+  "execution": {
+    "managed_cloud": true,
+    "fresh_GitHub_main": true,
+    "user_PC_dependency": false,
+    "network": "Inherited managed proxy and normal verified TLS; existing authorized connections only.",
+    "scope": "No purchases, new subscriptions, actual broadcasts, account changes or messages to third parties."
+  },
+  "cloudflare_configuration": {
+    "project": "fansgta",
+    "production_branch": "main",
+    "build_config": {
+      "build_command": "npm run build:release",
+      "destination_dir": "dist",
+      "web_analytics_tag": null,
+      "web_analytics_token": null
+    },
+    "canonical": {
+      "id": "16d3facd-d246-45af-9da4-db1c217df771",
+      "environment": "production",
+      "url": "https://16d3facd.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T02:25:42.948216Z",
+        "ended_on": "2026-11-15T02:26:03.448244Z",
+        "status": "success"
+      },
+      "commit": "afc84211d914230ba688a7ea84cc85213fc16cb1"
+    },
+    "checked_at_utc": "2026-11-15T19:43:00.834068+00:00"
+  },
+  "selection": {
+    "topics_before": 219,
+    "versions_before": 657,
+    "complete_Article_snapshot_sha256": "163b06ce5597a56ff3422fc8d3e41dc5e1b2d8979a134e0c5e96b9aa5e82104f",
+    "deduplication_record_sha256": "7a0a1979b1161dbc6fcd93b14d9cb4110d3438007876b503024b2a6a68743824",
+    "decision": "Three new guide intents compared with the complete catalogue and closest full existing texts; the existing announcements, clips and rights articles are linked, not duplicated or rewritten."
+  },
+  "research": {
+    "current_interest": "Dated current EN/ES/FR coverage and task-specific search results. Qualitative signals only; no measured absolute volume or top-three ranking.",
+    "first_party_sources": "The source ledger and review below contain canonical URLs, aliases, access evidence and conservative joint counts; failed, stale or unreadable menu pages were excluded from procedural claims.",
+    "private_evidence_sha256": {
+      "practical-research.json": "f27673ec91ea1c4b6498978df05d01ec51036c4beb5530e608f079c013bcc30d",
+      "spoilers-ledger.json": "8a87f3e7a15a6210b9ac1fec90a194e744872d2adcced6bc677ed82ad5cdc1f9",
+      "stream-ledger.json": "1f823b0c9d0cae76a698a8b9900270f7ed940f02a346f5360710ec3ea255b2f0",
+      "festival-ledger.json": "9b643b39477f46308c56cd1027a1de6ccb7b44ee4eec68eb03ddd2b3f2e303be"
+    },
+    "copyright": "No raw source bodies, assigned segment text or additional source-specific synopses committed. Guardian report and main VI landing page not used to manufacture extra topics."
+  },
+  "articles": [
+    {
+      "id": "gta6-spoiler-filters-social-feeds-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+        "en": "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+        "fr": "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/"
+      }
+    },
+    {
+      "id": "gta6-livestream-ps5-xbox-obs-setup-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+        "en": "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/"
+      }
+    },
+    {
+      "id": "gta6-festival-mana-wynwood-visitor-guide-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/",
+        "en": "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/"
+      }
+    }
+  ],
+  "visible_word_counts": {
+    "method": "Unicode words retaining apostrophes. Visible body paragraphs, H2/H3 and tables only; metadata, duplicated introduction alias, citation labels, alt and captions excluded.",
+    "articles": [
+      {
+        "file": "festival-article.json",
+        "id": "gta6-festival-mana-wynwood-visitor-guide-20261115",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1775,
+            "prose_words": 1647,
+            "within_1500_2500": true
+          },
+          {
+            "locale": "en",
+            "body_words": 1720,
+            "prose_words": 1595,
+            "within_1500_2500": true
+          },
+          {
+            "locale": "fr",
+            "body_words": 1717,
+            "prose_words": 1593,
+            "within_1500_2500": true
+          }
+        ]
+      },
+      {
+        "file": "spoilers-article.json",
+        "id": "gta6-spoiler-filters-social-feeds-20261115",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1796,
+            "prose_words": 1681,
+            "within_1500_2500": true
+          },
+          {
+            "locale": "en",
+            "body_words": 1923,
+            "prose_words": 1815,
+            "within_1500_2500": true
+          },
+          {
+            "locale": "fr",
+            "body_words": 1845,
+            "prose_words": 1731,
+            "within_1500_2500": true
+          }
+        ]
+      },
+      {
+        "file": "stream-article.json",
+        "id": "gta6-livestream-ps5-xbox-obs-setup-20261115",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1792,
+            "prose_words": 1638,
+            "within_1500_2500": true
+          },
+          {
+            "locale": "en",
+            "body_words": 1668,
+            "prose_words": 1519,
+            "within_1500_2500": true
+          },
+          {
+            "locale": "fr",
+            "body_words": 1759,
+            "prose_words": 1599,
+            "within_1500_2500": true
+          }
+        ]
+      }
+    ]
+  },
+  "independent_editorial_source_review": {
+    "approved": true,
+    "checked_at_utc": "2026-11-15T19:57:46.680126+00:00",
+    "scope": "Editorial, deduplication and aggregate-source-budget approval of3rawArticle snapshots only. Parent still performs releasebuild, preservation, browser and production verification.",
+    "articles": [
+      {
+        "name": "spoilers",
+        "id": "gta6-spoiler-filters-social-feeds-20261115",
+        "snapshot_sha256": "394fb65763ff0e00450fe891c64e818bd3f0e080bada838598af0cf1524109b2",
+        "snapshot_path": "/tmp/fansgta-three-20261115/spoilers-article.json",
+        "ledger_sha256": "8a87f3e7a15a6210b9ac1fec90a194e744872d2adcced6bc677ed82ad5cdc1f9",
+        "visible_words_by_locale": {
+          "es": 1796,
+          "en": 1923,
+          "fr": 1845
+        },
+        "prose_only_words_by_locale": {
+          "es": 1681,
+          "en": 1815,
+          "fr": 1731
+        },
+        "word_count_method": "Unicode words in section paragraphs/tablecells plus H2/H3; excludes repeated body alias, title, excerpt, source labels and image credits.",
+        "H2_count": 16,
+        "H3_count": 3,
+        "FAQ_H3_count": 3,
+        "valid_internal_targets": [
+          "/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+          "/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/",
+          "/es/guias/seguir-gta-6-sin-rumores/",
+          "/es/misiones/evitar-spoilers-guias-misiones/"
+        ],
+        "peer_review": {
+          "file": "spoilers-peer-qa.json",
+          "approved": true,
+          "snapshot_sha256": "394fb65763ff0e00450fe891c64e818bd3f0e080bada838598af0cf1524109b2",
+          "sha256": "5ac470657333054f5bd6f46f3533276463931c01b0315b1794fc28e11137cb0d"
+        }
+      },
+      {
+        "name": "stream",
+        "id": "gta6-livestream-ps5-xbox-obs-setup-20261115",
+        "snapshot_sha256": "ba298d95f19b34591fc91b1b16c3ec6cfb412f693ae7957e0b1258d7926dc620",
+        "snapshot_path": "/tmp/fansgta-three-20261115/stream-article.json",
+        "ledger_sha256": "1f823b0c9d0cae76a698a8b9900270f7ed940f02a346f5360710ec3ea255b2f0",
+        "visible_words_by_locale": {
+          "es": 1792,
+          "en": 1668,
+          "fr": 1759
+        },
+        "prose_only_words_by_locale": {
+          "es": 1638,
+          "en": 1519,
+          "fr": 1599
+        },
+        "word_count_method": "Unicode words in section paragraphs/tablecells plus H2/H3; excludes repeated body alias, title, excerpt, source labels and image credits.",
+        "H2_count": 17,
+        "H3_count": 3,
+        "FAQ_H3_count": 3,
+        "valid_internal_targets": [
+          "/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+          "/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+          "/es/guias/gta-6-modo-streamer-musica-copyright-twitch-youtube/",
+          "/es/guias/gta-6-proteger-cuentas-passkeys-verificacion-dos-pasos/"
+        ],
+        "peer_review": {
+          "file": "stream-peer-qa.json",
+          "approved": true,
+          "snapshot_sha256": "ba298d95f19b34591fc91b1b16c3ec6cfb412f693ae7957e0b1258d7926dc620",
+          "sha256": "276fb0ea831912406130bdec4d7739e5df653dcd23ed5c5249ec7402d6302ef9"
+        }
+      },
+      {
+        "name": "festival",
+        "id": "gta6-festival-mana-wynwood-visitor-guide-20261115",
+        "snapshot_sha256": "d9fd542b0032e8706be3f5617fa304c057152be008a998344b4d970c43291235",
+        "snapshot_path": "/tmp/fansgta-three-20261115/festival-article.json",
+        "ledger_sha256": "9b643b39477f46308c56cd1027a1de6ccb7b44ee4eec68eb03ddd2b3f2e303be",
+        "visible_words_by_locale": {
+          "es": 1775,
+          "en": 1720,
+          "fr": 1717
+        },
+        "prose_only_words_by_locale": {
+          "es": 1647,
+          "en": 1595,
+          "fr": 1593
+        },
+        "word_count_method": "Unicode words in section paragraphs/tablecells plus H2/H3; excludes repeated body alias, title, excerpt, source labels and image credits.",
+        "H2_count": 15,
+        "H3_count": 3,
+        "FAQ_H3_count": 3,
+        "valid_internal_targets": [
+          "/es/misiones/evitar-spoilers-guias-misiones/",
+          "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/"
+        ],
+        "peer_review": {
+          "file": "festival-peer-qa.json",
+          "approved": true,
+          "snapshot_sha256": "d9fd542b0032e8706be3f5617fa304c057152be008a998344b4d970c43291235",
+          "sha256": "43bd7a80466ac5bdfc4e03428188810773b9bdc305a1ea44df9bbb9e9a4046b4"
+        }
+      }
+    ],
+    "source_works": [
+      {
+        "url": "https://about.fb.com/news/2022/03/two-new-ways-to-control-your-instagram-feed/",
+        "aliases": [],
+        "combined_words": 131,
+        "cap": 200,
+        "remaining_for_public_docs_final": 69,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "instagram-following"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://about.fb.com/news/2024/11/introducing-recommendations-reset-instagram/",
+        "aliases": [],
+        "combined_words": 164,
+        "cap": 200,
+        "remaining_for_public_docs_final": 36,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "instagram-reset"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dice.fm/event/783n2v-grand-theft-auto-vi-the-festival-21st-nov-mana-wynwood-miami-tickets?lng=en-US",
+        "aliases": [
+          "https://gtavi-thefestival.miami"
+        ],
+        "combined_words": 179,
+        "cap": 200,
+        "remaining_for_public_docs_final": 21,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "event"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/18201556722961-Reselling-Tickets-on-DICE-and-Preventing-Scams",
+        "aliases": [],
+        "combined_words": 107,
+        "cap": 200,
+        "remaining_for_public_docs_final": 93,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "scam"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/19413725197713-How-to-activate-your-tickets-on-the-day-of-the-event",
+        "aliases": [],
+        "combined_words": 169,
+        "cap": 200,
+        "remaining_for_public_docs_final": 31,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "activate"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/19414143889169-How-to-access-your-tickets-if-you-can-t-get-on-the-app",
+        "aliases": [],
+        "combined_words": 173,
+        "cap": 200,
+        "remaining_for_public_docs_final": 27,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "offline"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/19797924846225-Buy-tickets-for-an-event-in-another-country",
+        "aliases": [],
+        "combined_words": 94,
+        "cap": 200,
+        "remaining_for_public_docs_final": 106,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "currency"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/19919684020113-How-DICE-fees-work",
+        "aliases": [],
+        "combined_words": 138,
+        "cap": 200,
+        "remaining_for_public_docs_final": 62,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "fees"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/19958073128849-The-wait-list-explained",
+        "aliases": [],
+        "combined_words": 183,
+        "cap": 200,
+        "remaining_for_public_docs_final": 17,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "wait"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/20112698158353-Login-with-a-new-phone-number",
+        "aliases": [],
+        "combined_words": 111,
+        "cap": 200,
+        "remaining_for_public_docs_final": 89,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "phone"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/20112756209169-I-m-not-receiving-the-four-digit-login-code-what-should-I-do",
+        "aliases": [],
+        "combined_words": 103,
+        "cap": 200,
+        "remaining_for_public_docs_final": 97,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "code"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/20112791191697-Troubleshooting-Technical-Issues-with-the-DICE-App",
+        "aliases": [],
+        "combined_words": 139,
+        "cap": 200,
+        "remaining_for_public_docs_final": 61,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "app"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/25207183180433-Troubleshooting-login-issues",
+        "aliases": [],
+        "combined_words": 163,
+        "cap": 200,
+        "remaining_for_public_docs_final": 37,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "login"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/36839407078673-How-to-view-the-event-times",
+        "aliases": [],
+        "combined_words": 139,
+        "cap": 200,
+        "remaining_for_public_docs_final": 61,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "times"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/43436806847633-Can-I-print-my-tickets",
+        "aliases": [],
+        "combined_words": 165,
+        "cap": 200,
+        "remaining_for_public_docs_final": 35,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "print"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://dicefm.zendesk.com/hc/en-gb/articles/50859354725137-Managing-your-wait-list-entries",
+        "aliases": [],
+        "combined_words": 91,
+        "cap": 200,
+        "remaining_for_public_docs_final": 109,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "manage"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://help.x.com/en/managing-your-account/understanding-the-notifications-timeline",
+        "aliases": [],
+        "combined_words": 132,
+        "cap": 200,
+        "remaining_for_public_docs_final": 68,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "x-notifications"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://help.x.com/en/using-x/advanced-x-mute-options",
+        "aliases": [],
+        "combined_words": 159,
+        "cap": 200,
+        "remaining_for_public_docs_final": 41,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "x-words"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-mute",
+        "aliases": [],
+        "combined_words": 165,
+        "cap": 200,
+        "remaining_for_public_docs_final": 35,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "x-accounts"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://iiipoints.com/gtavi-thefestival",
+        "aliases": [
+          "https://www.iiipoints.com/gtavi-thefestival/",
+          "https://www.rockstargames.com/VI/gtavi-thefestival"
+        ],
+        "combined_words": 184,
+        "cap": 200,
+        "remaining_for_public_docs_final": 16,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "festival"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://obsproject.com/kb/audio-mixer-guide",
+        "aliases": [],
+        "combined_words": 160,
+        "cap": 200,
+        "remaining_for_public_docs_final": 40,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "obs-mixer"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://obsproject.com/kb/audio-sources/",
+        "aliases": [],
+        "combined_words": 142,
+        "cap": 200,
+        "remaining_for_public_docs_final": 58,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "obs-audio"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://obsproject.com/kb/obs-studio-overview",
+        "aliases": [],
+        "combined_words": 138,
+        "cap": 200,
+        "remaining_for_public_docs_final": 62,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "obs-overview"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://obsproject.com/kb/quick-start-guide/",
+        "aliases": [],
+        "combined_words": 141,
+        "cap": 200,
+        "remaining_for_public_docs_final": 59,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "obs-start"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://obsproject.com/kb/sources-guide",
+        "aliases": [],
+        "combined_words": 153,
+        "cap": 200,
+        "remaining_for_public_docs_final": 47,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "obs-sources"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://obsproject.com/kb/video-capture-sources/",
+        "aliases": [],
+        "combined_words": 162,
+        "cap": 200,
+        "remaining_for_public_docs_final": 38,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "obs-video"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios",
+        "aliases": [],
+        "combined_words": 114,
+        "cap": 200,
+        "remaining_for_public_docs_final": 86,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "apple-notifications"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.discord.com/hc/en-us/articles/360022320632-Spoiler-Tags",
+        "aliases": [],
+        "combined_words": 168,
+        "cap": 200,
+        "remaining_for_public_docs_final": 32,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "discord-spoiler"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/android/answer/9079661?hl=en",
+        "aliases": [],
+        "combined_words": 141,
+        "cap": 200,
+        "remaining_for_public_docs_final": 59,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "android-notifications"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/youtube/answer/157177?hl=en",
+        "aliases": [],
+        "combined_words": 162,
+        "cap": 200,
+        "remaining_for_public_docs_final": 38,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "yt-visibility"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/youtube/answer/2474026?hl=en",
+        "aliases": [],
+        "combined_words": 159,
+        "cap": 200,
+        "remaining_for_public_docs_final": 41,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "yt-live"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/youtube/answer/2907883?hl=en",
+        "aliases": [],
+        "combined_words": 139,
+        "cap": 200,
+        "remaining_for_public_docs_final": 61,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "yt-encoder"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/youtube/answer/3382248?hl=en",
+        "aliases": [],
+        "combined_words": 121,
+        "cap": 200,
+        "remaining_for_public_docs_final": 79,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "youtube-notifications"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/youtube/answer/6327615?hl=en",
+        "aliases": [],
+        "combined_words": 164,
+        "cap": 200,
+        "remaining_for_public_docs_final": 36,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "youtube-autoplay"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/youtube/answer/6342839?hl=en",
+        "aliases": [],
+        "combined_words": 158,
+        "cap": 200,
+        "remaining_for_public_docs_final": 42,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "youtube-recommendations"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/youtube/answer/95725?hl=en",
+        "aliases": [],
+        "combined_words": 125,
+        "cap": 200,
+        "remaining_for_public_docs_final": 75,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "youtube-history"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.reddithelp.com/hc/en-us/articles/360043035132-What-are-spoiler-tags",
+        "aliases": [],
+        "combined_words": 132,
+        "cap": 200,
+        "remaining_for_public_docs_final": 68,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "reddit-spoiler"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.reddithelp.com/hc/en-us/articles/38312409545492-Accessibility-Guides-Reduce-Motion-Autoplay",
+        "aliases": [],
+        "combined_words": 142,
+        "cap": 200,
+        "remaining_for_public_docs_final": 58,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "reddit-autoplay"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.reddithelp.com/hc/en-us/articles/4402284777364-What-are-home-feed-recommendations",
+        "aliases": [],
+        "combined_words": 132,
+        "cap": 200,
+        "remaining_for_public_docs_final": 68,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "reddit-recommendations"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.reddithelp.com/hc/en-us/articles/55472297340308-Changelog-November-10-2026",
+        "aliases": [],
+        "combined_words": 126,
+        "cap": 200,
+        "remaining_for_public_docs_final": 74,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "reddit-changelog"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.reddithelp.com/hc/en-us/articles/9810475384084-What-is-community-muting",
+        "aliases": [],
+        "combined_words": 152,
+        "cap": 200,
+        "remaining_for_public_docs_final": 48,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "reddit-mute"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.tiktok.com/en/account-and-privacy/account-privacy-settings/refresh-your-for-you-feed",
+        "aliases": [
+          "https://www.tiktok.com/support/faq_detail?id=7543604772348271109&category=web_account"
+        ],
+        "combined_words": 170,
+        "cap": 200,
+        "remaining_for_public_docs_final": 30,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "tiktok-refresh"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/user-safety",
+        "aliases": [
+          "https://www.tiktok.com/support/faq_detail?id=7543604779394832952&category=web_account"
+        ],
+        "combined_words": 147,
+        "cap": 200,
+        "remaining_for_public_docs_final": 53,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "tiktok-safety"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+        "aliases": [
+          "https://www.tiktok.com/support/faq_detail?id=7655285288050104852&category=web_account"
+        ],
+        "combined_words": 130,
+        "cap": 200,
+        "remaining_for_public_docs_final": 70,
+        "article_ids": [
+          "gta6-spoiler-filters-social-feeds-20261115"
+        ],
+        "work_ids": [
+          "tiktok-feed"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/friends-social-activity/live-streaming/how-to-stream-on-xbox",
+        "aliases": [],
+        "combined_words": 179,
+        "cap": 200,
+        "remaining_for_public_docs_final": 21,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "xbox-stream"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://www.miami.gov/Transportation-Roadways/Trolley-Information/Get-Trolley-Information-Schedules-and-Maps",
+        "aliases": [],
+        "combined_words": 182,
+        "cap": 200,
+        "remaining_for_public_docs_final": 18,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "schedule"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://www.miami.gov/Transportation-Roadways/Trolley-Information/Trolley-Maps-Routes",
+        "aliases": [],
+        "combined_words": 149,
+        "cap": 200,
+        "remaining_for_public_docs_final": 51,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "maps"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://www.miami.gov/Transportation-Roadways/Trolley-Information/View-Trolley-Tracker",
+        "aliases": [],
+        "combined_words": 100,
+        "cap": 200,
+        "remaining_for_public_docs_final": 100,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "tracker"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://www.miamidade.gov/global/transportation/metrobus.page",
+        "aliases": [],
+        "combined_words": 153,
+        "cap": 200,
+        "remaining_for_public_docs_final": 47,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "bus"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/games/ps4-broadcast-and-share-play-troubleshooting/",
+        "aliases": [],
+        "combined_words": 143,
+        "cap": 200,
+        "remaining_for_public_docs_final": 57,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "ps-requirements"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/games/ps5-stream-gameplay-broadcast/",
+        "aliases": [],
+        "combined_words": 132,
+        "cap": 200,
+        "remaining_for_public_docs_final": 68,
+        "article_ids": [
+          "gta6-livestream-ps5-xbox-obs-setup-20261115"
+        ],
+        "work_ids": [
+          "ps-broadcast"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      },
+      {
+        "url": "https://www.weather.gov/safety/lightning-tips",
+        "aliases": [],
+        "combined_words": 98,
+        "cap": 200,
+        "remaining_for_public_docs_final": 102,
+        "article_ids": [
+          "gta6-festival-mana-wynwood-visitor-guide-20261115"
+        ],
+        "work_ids": [
+          "weather"
+        ],
+        "quoted_words": 0,
+        "fields_and_aliases_independently_reconciled": true
+      }
+    ],
+    "source_work_count": 52,
+    "source_url_count": 58,
+    "maximum_combined_source_words": 184,
+    "reserved_source_works": {
+      "Guardian_current_interview": {
+        "cap_all9versions_and_docs": 100,
+        "derived_words_in_articles": 0
+      },
+      "Rockstar_VI_landing": {
+        "derived_words_in_articles": 0
+      }
+    },
+    "source_count_rule": "Combine all9versions. Source-derived paragraphs, headings withTOCrendering×2, attributed titles×2inventory, metadata/bodyaliases/partialfacts and section/footerlabels×3renderings counted. Canonical/locale/mirror aliases share one work budget. No additional source synopsis may be copied into publicrecords.",
+    "quality_checks": {
+      "existing_catalogue_topics_reviewed": 219,
+      "selected_intents_distinct": true,
+      "full_ES_prose_manually_read_all3": true,
+      "all3languages_cross_peer_reviewed": true,
+      "source_claims_against_readable_primary_evidence": true,
+      "generic_repeated_paragraphs_cut": true,
+      "hypothetical_examples_labelled": true,
+      "no_Google_rank_or_indexing_guarantee": true,
+      "no_invented_popularity_volume": true,
+      "no_unverified_GTA6_features_or_PC_version": true,
+      "no_third_party_account_actions_or_real_broadcasts": true,
+      "exact_existing_or_new_paragraph_reuse20plus": false
+    },
+    "preservation_requirements": {
+      "old_complete_objects": 219,
+      "old_localized_paths": 657,
+      "old_tracked_GitblobSHA1_files": 511,
+      "critical_SHA256_files": 22,
+      "exact_distribution_asset_names_bytes_SHA256": 3,
+      "no_JS_normalization_exceptions": true,
+      "related_module_unchanged": true,
+      "advertisements_languages_design_security_cache_subscriptions_automation_unchanged": true,
+      "helper_path": "/tmp/fansgta-three-20261115/preserve.mjs",
+      "helper_sha256": "e8955a52546d7acd87f552093d7efc70d20e40ab9c9f06c05a929a80ec9194d8",
+      "helper_actual_run_by_this_agent": false
+    },
+    "explicit_media_only_allowlist": {
+      "media_plan_sha256": "282225410dd51fc1d6f733d4af87b115e26ade3968a584424cbf916940dddb72",
+      "media_check_sha256": "f20fa50a1f5786694871532e4f905687668dc1c1a862cb6edf32434b501b9095",
+      "allowed_after_raw_approval": [
+        "Root cover image/imageAlt/imageCaption/imageCredit fields from verified plan",
+        "Two inline section.image records from verified plan",
+        "Official Rockstar media bibliography credit only"
+      ],
+      "not_allowed": "Any other prose/fact/heading/slug/metadata/date/source change without renewed review.",
+      "integrated_array_must_equal_review_snapshot": true
+    },
+    "public_documentation_rule": "Use pruned URL/status/date/hash/count metadata only. Do not publish private primary bodies, attributed_text or source summaries from ledgers.",
+    "counter_method_notices": [
+      {
+        "name": "spoilers",
+        "work_id": "youtube-recommendations",
+        "ledger_count": 156,
+        "Unicode_count": 158,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "spoilers",
+        "work_id": "youtube-history",
+        "ledger_count": 124,
+        "Unicode_count": 125,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "spoilers",
+        "work_id": "tiktok-safety",
+        "ledger_count": 146,
+        "Unicode_count": 147,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "spoilers",
+        "work_id": "reddit-spoiler",
+        "ledger_count": 131,
+        "Unicode_count": 132,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "spoilers",
+        "work_id": "instagram-reset",
+        "ledger_count": 163,
+        "Unicode_count": 164,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "spoilers",
+        "work_id": "instagram-following",
+        "ledger_count": 130,
+        "Unicode_count": 131,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "spoilers",
+        "work_id": "android-notifications",
+        "ledger_count": 140,
+        "Unicode_count": 141,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "yt-live",
+        "ledger_count": 159,
+        "Unicode_count": 154,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "ps-broadcast",
+        "ledger_count": 132,
+        "Unicode_count": 124,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "ps-requirements",
+        "ledger_count": 143,
+        "Unicode_count": 135,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "xbox-stream",
+        "ledger_count": 179,
+        "Unicode_count": 167,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "obs-video",
+        "ledger_count": 162,
+        "Unicode_count": 154,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "obs-start",
+        "ledger_count": 141,
+        "Unicode_count": 136,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "obs-sources",
+        "ledger_count": 153,
+        "Unicode_count": 147,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "obs-audio",
+        "ledger_count": 142,
+        "Unicode_count": 136,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "obs-mixer",
+        "ledger_count": 160,
+        "Unicode_count": 153,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "obs-overview",
+        "ledger_count": 138,
+        "Unicode_count": 131,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "yt-encoder",
+        "ledger_count": 139,
+        "Unicode_count": 133,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "stream",
+        "work_id": "yt-visibility",
+        "ledger_count": 162,
+        "Unicode_count": 155,
+        "decision": "Use conservative maximum of independent Unicode and author token counters."
+      },
+      {
+        "name": "festival",
+        "work_id": "festival",
+        "path": "sections[1].paragraphs[1]",
+        "ledger_segment_count": 24,
+        "Unicode_count": 23
+      },
+      {
+        "name": "festival",
+        "work_id": "festival",
+        "path": "sections[7].paragraphs[0]",
+        "ledger_segment_count": 43,
+        "Unicode_count": 42
+      },
+      {
+        "name": "festival",
+        "work_id": "festival",
+        "path": "sections[8].paragraphs[0]",
+        "ledger_segment_count": 50,
+        "Unicode_count": 49
+      },
+      {
+        "name": "festival",
+        "work_id": "festival",
+        "path": "sections[9].paragraphs[0]",
+        "ledger_segment_count": 45,
+        "Unicode_count": 43
+      },
+      {
+        "name": "festival",
+        "work_id": "festival",
+        "ledger_count": 184,
+        "Unicode_count": 179,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "event",
+        "path": "sections[13].paragraphs[0] (shared arrival premise)",
+        "ledger_segment_count": 12,
+        "Unicode_count": 11
+      },
+      {
+        "name": "festival",
+        "work_id": "event",
+        "ledger_count": 179,
+        "Unicode_count": 178,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "login",
+        "path": "sections[2].paragraphs[0]",
+        "ledger_segment_count": 103,
+        "Unicode_count": 102
+      },
+      {
+        "name": "festival",
+        "work_id": "login",
+        "path": "sections[2].heading",
+        "ledger_segment_count": 48,
+        "Unicode_count": 46
+      },
+      {
+        "name": "festival",
+        "work_id": "login",
+        "ledger_count": 163,
+        "Unicode_count": 160,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "app",
+        "path": "sections[4].paragraphs[0]",
+        "ledger_segment_count": 79,
+        "Unicode_count": 77
+      },
+      {
+        "name": "festival",
+        "work_id": "app",
+        "ledger_count": 139,
+        "Unicode_count": 137,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "code",
+        "path": "sections[4].paragraphs[1]",
+        "ledger_segment_count": 91,
+        "Unicode_count": 89
+      },
+      {
+        "name": "festival",
+        "work_id": "code",
+        "ledger_count": 103,
+        "Unicode_count": 101,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "phone",
+        "path": "sections[6].paragraphs[1]",
+        "ledger_segment_count": 99,
+        "Unicode_count": 97
+      },
+      {
+        "name": "festival",
+        "work_id": "phone",
+        "ledger_count": 111,
+        "Unicode_count": 109,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "activate",
+        "path": "sections[5].paragraphs[0]",
+        "ledger_segment_count": 99,
+        "Unicode_count": 96
+      },
+      {
+        "name": "festival",
+        "work_id": "activate",
+        "path": "sections[5].paragraphs[2] (do not share QR)",
+        "ledger_segment_count": 20,
+        "Unicode_count": 19
+      },
+      {
+        "name": "festival",
+        "work_id": "activate",
+        "ledger_count": 169,
+        "Unicode_count": 165,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "offline",
+        "path": "sections[6].paragraphs[0]",
+        "ledger_segment_count": 107,
+        "Unicode_count": 102
+      },
+      {
+        "name": "festival",
+        "work_id": "offline",
+        "ledger_count": 173,
+        "Unicode_count": 168,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "print",
+        "path": "sections[5].paragraphs[1]",
+        "ledger_segment_count": 78,
+        "Unicode_count": 73
+      },
+      {
+        "name": "festival",
+        "work_id": "print",
+        "path": "sections[14].paragraphs[1]",
+        "ledger_segment_count": 60,
+        "Unicode_count": 59
+      },
+      {
+        "name": "festival",
+        "work_id": "print",
+        "ledger_count": 165,
+        "Unicode_count": 159,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "wait",
+        "path": "sections[3].paragraphs[0]",
+        "ledger_segment_count": 65,
+        "Unicode_count": 64
+      },
+      {
+        "name": "festival",
+        "work_id": "wait",
+        "path": "sections[3].heading",
+        "ledger_segment_count": 32,
+        "Unicode_count": 30
+      },
+      {
+        "name": "festival",
+        "work_id": "wait",
+        "path": "sections[14].paragraphs[0]",
+        "ledger_segment_count": 53,
+        "Unicode_count": 51
+      },
+      {
+        "name": "festival",
+        "work_id": "wait",
+        "path": "sections[14].paragraphHeadings[0].heading",
+        "ledger_segment_count": 21,
+        "Unicode_count": 20
+      },
+      {
+        "name": "festival",
+        "work_id": "wait",
+        "ledger_count": 183,
+        "Unicode_count": 177,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "manage",
+        "path": "sections[3].paragraphs[1]",
+        "ledger_segment_count": 79,
+        "Unicode_count": 76
+      },
+      {
+        "name": "festival",
+        "work_id": "manage",
+        "ledger_count": 91,
+        "Unicode_count": 88,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "currency",
+        "path": "sections[12].paragraphs[1]",
+        "ledger_segment_count": 82,
+        "Unicode_count": 80
+      },
+      {
+        "name": "festival",
+        "work_id": "currency",
+        "ledger_count": 94,
+        "Unicode_count": 92,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "scam",
+        "path": "sections[12].paragraphs[2]",
+        "ledger_segment_count": 95,
+        "Unicode_count": 94
+      },
+      {
+        "name": "festival",
+        "work_id": "scam",
+        "ledger_count": 107,
+        "Unicode_count": 106,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "times",
+        "path": "sections[1].paragraphs[2]",
+        "ledger_segment_count": 85,
+        "Unicode_count": 81
+      },
+      {
+        "name": "festival",
+        "work_id": "times",
+        "path": "sections[1].heading",
+        "ledger_segment_count": 42,
+        "Unicode_count": 40
+      },
+      {
+        "name": "festival",
+        "work_id": "times",
+        "ledger_count": 139,
+        "Unicode_count": 133,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "maps",
+        "path": "sections[10].paragraphs[0]",
+        "ledger_segment_count": 89,
+        "Unicode_count": 87
+      },
+      {
+        "name": "festival",
+        "work_id": "maps",
+        "ledger_count": 149,
+        "Unicode_count": 147,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "schedule",
+        "path": "sections[10].paragraphs[1]",
+        "ledger_segment_count": 89,
+        "Unicode_count": 88
+      },
+      {
+        "name": "festival",
+        "work_id": "schedule",
+        "path": "sections[14].paragraphs[2]",
+        "ledger_segment_count": 58,
+        "Unicode_count": 56
+      },
+      {
+        "name": "festival",
+        "work_id": "schedule",
+        "ledger_count": 182,
+        "Unicode_count": 179,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      },
+      {
+        "name": "festival",
+        "work_id": "tracker",
+        "path": "sections[10].paragraphs[2]",
+        "ledger_segment_count": 88,
+        "Unicode_count": 86
+      },
+      {
+        "name": "festival",
+        "work_id": "tracker",
+        "ledger_count": 100,
+        "Unicode_count": 98,
+        "decision": "Use conservative maximum; literal partial derivations also counted."
+      }
+    ],
+    "issues": []
+  },
+  "integrated_snapshot": {
+    "article_batch_sha256": "d0a866f85911b512dd34786218ce45b0ff49b7ece6de8f027431453464afd4d0",
+    "media_plan_sha256": "282225410dd51fc1d6f733d4af87b115e26ade3968a584424cbf916940dddb72",
+    "post_review_changes": "Only the three reviewed media records per article and shared official-media bibliography reference were attached; prose, dates, headings, FAQ, localized metadata and internal references remain identical."
+  },
+  "media": {
+    "checked_at_utc": "2026-11-15T19:45:55.043401+00:00",
+    "selection": {
+      "festival": [
+        "region-vice-city-02",
+        "region-vice-city-03",
+        "feature-bar"
+      ],
+      "spoilers": [
+        "region-grassrivers-02",
+        "region-grassrivers-03",
+        "feature-kayak"
+      ],
+      "stream": [
+        "feature-helicopter",
+        "feature-mountain",
+        "feature-bike"
+      ]
+    },
+    "media": [
+      {
+        "key": "region-vice-city-02",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 528149,
+        "original_sha256": "3f12452834bb07a0a13dabdf019881f372151d4740cdcf0937ac5fe03554d8eb",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 97548,
+        "local_sha256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077",
+        "resized_pixel_MAE": 2.174,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 83,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "region-vice-city-03",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 1247197,
+        "original_sha256": "d6a56aadc2823cb97a33db087de1700f6a0fd5528b140107ec20823f23aac918",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 231656,
+        "local_sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+        "resized_pixel_MAE": 3.158,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 77,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-bar",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 491345,
+        "original_sha256": "574868fd7e51c80dd111cef250a1f2e1c98b353fe1f156d42862e3b1c7e31970",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 86226,
+        "local_sha256": "0e51012e3078f110b1f684e05da7f6a35fadda67e9ed1c5ca2e6ef395988867f",
+        "resized_pixel_MAE": 2.005,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 82,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "region-grassrivers-02",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 859665,
+        "original_sha256": "89574ed17bfc0c6aaae59c25813644c2bcfad2b777739ecb855b23692b841858",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 146246,
+        "local_sha256": "90c7c5ec23d38a0b007a762e11442133739ea98acfe95b4b30e8e85350207b7e",
+        "resized_pixel_MAE": 2.664,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 81,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "region-grassrivers-03",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_03.14cuv-vg9orw4.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_03.14cuv-vg9orw4.jpg",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 884187,
+        "original_sha256": "8120c16f300f27500fca1360d561c69c9185bd8a3611d9258bf7b7e90517b79d",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 183120,
+        "local_sha256": "0095192f3ece6df1c6cbb56de34ba49215f347eca8cbd6508bc3c6f7ac401a57",
+        "resized_pixel_MAE": 2.6,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 84,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-kayak",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_06.166ouq5pjd7h0.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_06.166ouq5pjd7h0.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 1291623,
+        "original_sha256": "290b5eb17a45ab4c8c318fb173e6c400bf0e80a74b529591da554d214fddd32a",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 231688,
+        "local_sha256": "db833ca5ce72a6d9fc19f7419cd83b578ce49ae303d733c29aef2771acb63b99",
+        "resized_pixel_MAE": 3.363,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 80,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-helicopter",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 333806,
+        "original_sha256": "828ad45819b4121f3a341b25cbc93cd6595099eb2d53068d1cef4f1853ab38d4",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 58038,
+        "local_sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+        "resized_pixel_MAE": 1.574,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 77,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-mountain",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 1274178,
+        "original_sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 226130,
+        "local_sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+        "resized_pixel_MAE": 3.433,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 79,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-bike",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 961160,
+        "original_sha256": "6f06847e2173385df416ef162e1dfbb9f6270bfcc7bf0e080f02a4803d7473b3",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 184396,
+        "local_sha256": "21877f3ec04c980ee67bf19e860a0a4c8493e27a86d3c5d6e06b10498e20a827",
+        "resized_pixel_MAE": 2.832,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 76,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      }
+    ],
+    "official_media_page": {
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context_present": true
+    },
+    "plan_sha256": "282225410dd51fc1d6f733d4af87b115e26ade3968a584424cbf916940dddb72",
+    "reuse": "Official promotional images offered for download/share, used with source and copyright attribution in original editorial context. Copyright reserved; no unrestricted licence claimed.",
+    "limits": "Game illustrations, not venue photography, software-interface screenshots or a recording of a playable pre-release build. No original publication file was edited.",
+    "network": "Managed cloud, default verified TLS, inherited proxy, no source-request credentials."
+  },
+  "preservation": {
+    "ok": true,
+    "counts": {
+      "oldTopics": 219,
+      "oldVersions": 657,
+      "newTopics": 3,
+      "newVersions": 9,
+      "totalTopics": 222,
+      "totalVersions": 666,
+      "inventory": 222,
+      "trackedFiles": 511,
+      "criticalFiles": 22,
+      "assets": 3
+    },
+    "hashes": {
+      "reviewedBatch": "f26139fb3bd4bc42692a09e13c22a4ad1ad819d64b9adaa00483811c91d83292",
+      "originalArticles": "04d98ff6fbbdb621e1e7560855c4191e4f7aac41ed33736438fa228a5c8a0359",
+      "originalPaths": "fdd3685410adbd3a1f731e3c72ba0b9a11117007f7facb1b999827aa4bde9693",
+      "finalArticles": "ea3d33952c23a24dd67dcb299225f426f26326c7f55193185a79a6aeeec9f08e",
+      "finalPaths": "858768910ef0a387fbdaec50442e36299e250103748636dfe26621e6c6278cad",
+      "inventory": "fd36591bce22563ce4dd13c06d50cb0245de1255f6cff7227288c55a4a2515c9",
+      "trackedFiles": "2289543f47a0ae9bd3df8b5f48a24ff41c2528bd91d8e947660c78a5f926380b",
+      "criticalFiles": "2a5b80807a4a30bbe2ff26cb7de46117e516cbbe6a4ca64168b9352c747332c0",
+      "assets": "1f4def985d97bcae7dbefef0bc75ff2f86710428548de0f0cbaf27b722c30b01"
+    },
+    "assets": {
+      "assets/index-DGtdsMGY.js": {
+        "bytes": 359942,
+        "sha256": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144"
+      },
+      "assets/index-BkQBpQi9.css": {
+        "bytes": 57621,
+        "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+      },
+      "assets/postscribe-wSP0-HZj.js": {
+        "bytes": 18060,
+        "sha256": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+      }
+    }
+  },
+  "validation": {
+    "build_release": "passed",
+    "static_SEO_editorial": "Verified 710 HTML files, 32186 internal links and 1394 structured-data blocks.\nSEO verified: 666 article URLs, 705 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.\nEditorial audit: 222 topics, 666 language URLs, 467 media uses; 0 errors and 42 review notices.",
+    "local_cases": 25,
+    "production": "pending",
+    "browser_limit": "Chromium cloud emulation in desktop,mobile and tablet; not a Safari or physical-device certification.",
+    "SDK_limit": "Provider SDK fixtures only in deterministic browser tests; no real creative delivery or Analytics receipt claim."
+  },
+  "scope_controls": "All219previous article objects,657URLs,511existing tracked files,22critical files and3bundled asset names/bytes preserved. No design, advertising, consent, security, cache, other-project or automation change.",
+  "publication": "Pending confirmed GitHub main, explicit Cloudflare deployment and public verification.",
+  "indexing": "Technical indexability only; no promised indexing timing, traffic or Google position."
+}

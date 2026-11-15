@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-spoiler-filters-social-feeds-20261115",
+    "category": "guides",
+    "published": "2026-11-15",
+    "titles": [
+      "Cómo evitar spoilers de GTA 6: filtros en redes y avisos",
+      "How to avoid GTA 6 spoilers: social filters and alerts",
+      "Éviter les spoilers de GTA 6 : filtres et notifications"
+    ],
+    "paths": [
+      "/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+      "/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+      "/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/"
+    ]
+  },
+  {
+    "id": "gta6-livestream-ps5-xbox-obs-setup-20261115",
+    "category": "guides",
+    "published": "2026-11-15",
+    "titles": [
+      "Cómo preparar un directo de GTA 6 en PS5 o Xbox: consola, capturadora y OBS",
+      "How to prepare a GTA 6 livestream on PS5 or Xbox: console, capture card and OBS",
+      "Préparer un stream GTA 6 sur PS5 ou Xbox : console, carte d’acquisition et OBS"
+    ],
+    "paths": [
+      "/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+      "/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+      "/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/"
+    ]
+  },
+  {
+    "id": "gta6-festival-mana-wynwood-visitor-guide-20261115",
+    "category": "guides",
+    "published": "2026-11-15",
+    "titles": [
+      "GTA 6 The Festival: acceso con DICE",
+      "GTA 6 The Festival: DICE entry",
+      "GTA 6 The Festival : accès avec DICE"
+    ],
+    "paths": [
+      "/es/guias/gta-6-festival-guia-acceso-dice/",
+      "/en/guides/gta-6-festival-dice-entry-guide/",
+      "/fr/guides/gta-6-festival-guide-acces-dice/"
+    ]
+  },
+  {
     "id": "gta6-gift-buy-for-someone-20261114",
     "category": "guides",
     "published": "2026-11-14",

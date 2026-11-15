@@ -602,3 +602,8 @@ Cinco temas/quince versiones nuevas, cada una con 1.500–2.500 palabras de cuer
 
 
 Tanda manual de cinco guías extensas publicada y verificada: runtime afc84211d914230ba688a7ea84cc85213fc16cb1, Cloudflare 16d3facd-d246-45af-9da4-db1c217df771, deploy/success y canónico coincidente. Verificado 2026-11-15T02:28:48.529934+00:00:696canónicas/657versionesHTTP 200;15nuevas con sitemap y enlaces desde categorías accesibles en portada.301recursos y684HTML no legales coinciden con release tras la única normalización del beacon;12legales con HTTP/meta.25 casos locales y9públicos aprobados,45 escenarios/135 imágenes/45 cambios de idioma. Todos los cuerpos cumplen1500–2500palabras.214artículos previos y642URLs conservados,504archivos más relacionados y17críticos y3assets iguales; publicidad y programación diaria intactas. Datos parciales de Trends, sin ranking Top5 ni indexación/posición prometida. Registro: docs/editorial/2026-11-14-five-long-publication.json.
+
+
+## Tanda manual — 15 de noviembre de 2026: tres guías
+
+Tres temas y nueve versiones, cada cuerpo con1500–2500palabras. Catálogo222temas/666versiones/705canónicas. Investigación, fuentes y revisión conjunta: docs/editorial/2026-11-15-three-research.json; informe/enlaces y publicación con el mismo prefijo.219artículos previos,657URLs,511archivos existentes,22críticos y3assets conservados. Build release/estáticos y25casos locales aprobados. Publicación pendiente. Sin cambios en anuncios, diseño, consentimiento o programación diaria; un tema por ejecución hasta19nov2026inclusive America/New_York. Señales actuales cualitativas, sin volumen o ranking inventado.
