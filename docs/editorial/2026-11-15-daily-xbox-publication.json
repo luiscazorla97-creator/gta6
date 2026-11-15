@@ -1,6 +1,6 @@
 {
-  "state": "pending-deployment-and-public-verification",
-  "checked_at_utc": "2026-11-15T22:26:31.895795+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-15T22:31:47.596303+00:00",
   "articles": [
     {
       "id": "gta6-xbox-package-revision-report-20261115",
@@ -13,5 +13,194 @@
         "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/"
       }
     }
-  ]
+  ],
+  "runtime_commit": {
+    "sha": "87a2383790f9a5bfeb471c1314539641644c262b",
+    "tree": "57816a876d2528e899b9246c6c9c408a903d8372",
+    "parent": "eb52a1593356d5458fbb630ed65c770bd3006828"
+  },
+  "cloudflare": {
+    "deployment": {
+      "id": "a739f01e-5b6c-4dd3-a7bc-05f839c0c8ac",
+      "environment": "production",
+      "url": "https://a739f01e.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T22:29:50.709453Z",
+        "ended_on": "2026-11-15T22:30:12.683716Z",
+        "status": "success"
+      },
+      "commit": "87a2383790f9a5bfeb471c1314539641644c262b"
+    },
+    "canonical": {
+      "id": "a739f01e-5b6c-4dd3-a7bc-05f839c0c8ac",
+      "environment": "production",
+      "url": "https://a739f01e.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T22:29:50.709453Z",
+        "ended_on": "2026-11-15T22:30:12.683716Z",
+        "status": "success"
+      },
+      "commit": "87a2383790f9a5bfeb471c1314539641644c262b"
+    },
+    "checked_at_utc": "2026-11-15T22:30:19.926039+00:00"
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-15T22:30:43.850341+00:00",
+    "finished_at_utc": "2026-11-15T22:31:40.344527+00:00",
+    "canonical_URLs": 708,
+    "article_versions": 669,
+    "new_versions": 3,
+    "status": {
+      "200": 708
+    },
+    "locales": {
+      "en": 236,
+      "es": 236,
+      "fr": 236
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "method": "Normal canonical HTTPS GETs through the inherited managed proxy with default certificate verification. Public HTML is compared to the hash-pinned release after removing at most one exact pinned Cloudflare beacon, and no other source content. Twelve legal pages receive HTTP/meta checks only because of existing email transforms. Public nonHTML uses decoded HTTP entity bytes without content rewriting. No account action or Google indexing claim.",
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or Search Console URL Inspection; these requests do not prove indexing or absence of all real-bot restrictions.",
+    "sitemap_new_URLs_unique": true
+  },
+  "matched_release_HTML": 696,
+  "matched_article_versions": 669,
+  "legal_pages_HTTP_and_metadata_only": 12,
+  "public_verification_sha256": "8af6756a000b1ee6e2f28384560047c06a08ee5387882b0098ec3eba4e131e85",
+  "new_article_details": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/",
+        "en": "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 11,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-mountain.webp",
+        "/media/region-grassrivers-03.webp"
+      ],
+      "normalized_sha256": "e06766390ca8ca912a7c0decb800847c75d04cd3e3ef78ea073c531377a121c9",
+      "release_sha256": "e06766390ca8ca912a7c0decb800847c75d04cd3e3ef78ea073c531377a121c9",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/",
+        "en": "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 11,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-mountain.webp",
+        "/media/region-grassrivers-03.webp"
+      ],
+      "normalized_sha256": "365000b468e58f28d35b6b148de64fbd63b57058647e811b4e3234ca79c438a2",
+      "release_sha256": "365000b468e58f28d35b6b148de64fbd63b57058647e811b4e3234ca79c438a2",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/",
+        "en": "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 11,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-mountain.webp",
+        "/media/region-grassrivers-03.webp"
+      ],
+      "normalized_sha256": "c6becafc57e0639f4bd5bb27733bf48c93f2797214e443df681b60d9c9eee76a",
+      "release_sha256": "c6becafc57e0639f4bd5bb27733bf48c93f2797214e443df681b60d9c9eee76a",
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/"
+    ],
+    "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/"
+    ],
+    "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/"
+    ]
+  },
+  "browser": {
+    "local_cases": 25,
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 9,
+    "production_image_decodes": 18,
+    "production_language_changes": 9,
+    "errors": 0,
+    "engine": "Chromium desktop/mobile/tablet cloud emulation, not physical-device or Safari certification.",
+    "provider_fixtures": "Adsterra/AdSense/GTM provider hosts only for deterministic content tests; no own-origin interception, live creative-delivery or Analytics-receipt certification."
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-xbox-revision-rumour/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-xbox-rumor-revision/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-xbox-rumeur-revision/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "indexing": "Public content and technical indexability verified, not Google indexing, ranking, traffic, actual Google IP access or Search Console inspection.",
+  "proof_commit_policy": "Only documentary evidence follows this runtime commit, with all1016 runtime files required to remain identical; no duplicate production deployment."
 }

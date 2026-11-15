@@ -1,6 +1,6 @@
 {
   "request": "Daily automation: one GTA VI topic, three complete versions, within the authorized date limit. Manual batches do not change its cadence.",
-  "state": "prepared-pending-deployment-and-public-verification",
+  "state": "published-and-publicly-verified",
   "checked_at_utc": "2026-11-15T22:26:31.895795+00:00",
   "execution": {
     "checked_at_utc": "2026-11-15T22:12:40.308279+00:00",
@@ -378,7 +378,14 @@
     "build_release": "passed",
     "static_checks": "Verified 713 HTML files, 32318 internal links and 1400 structured-data blocks.\nSEO verified: 669 article URLs, 708 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.\nEditorial audit: 223 topics, 669 language URLs, 469 media uses; 0 errors and 42 review notices.",
     "local_browser_cases": 25,
-    "production": "pending",
+    "production": {
+      "cases": 9,
+      "public_URLs": 708,
+      "article_versions": 669,
+      "new_versions": 3,
+      "resources": 301,
+      "issues": 0
+    },
     "browser_limits": "Chromium desktop/mobile/tablet cloud emulation; no Safari or physical-device certification. External provider SDKs use fixtures only in deterministic browser tests; no live creative or Analytics-receipt certification."
   },
   "public_access_preflight": {
@@ -406,5 +413,12 @@
   },
   "unchanged": "All222 existing articles,666 localized paths,517 tracked files,22 critical files and three CSS/JS assets preserved. No design, advertising, consent, security, cache, subscription or schedule change.",
   "schedule": "One topic per daily execution through November19,2026 inclusive, America/New_York; unchanged.",
-  "indexing": "Technical indexability only; no guaranteed Google indexing, timing, ranking or traffic."
+  "indexing": "Technical indexability only; no guaranteed Google indexing, timing, ranking or traffic.",
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "87a2383790f9a5bfeb471c1314539641644c262b",
+    "cloudflare_deployment": "a739f01e-5b6c-4dd3-a7bc-05f839c0c8ac",
+    "verified_at_utc": "2026-11-15T22:31:47.596303+00:00",
+    "evidence": "docs/editorial/2026-11-15-daily-xbox-publication.json"
+  }
 }
