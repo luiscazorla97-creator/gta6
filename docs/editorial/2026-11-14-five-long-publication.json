@@ -1,61 +1,1007 @@
 {
-  "state": "pending-deployment-and-public-verification",
-  "checked_at_utc": "2026-11-15T02:21:34.451626+00:00",
-  "articles": [
+  "state": "published-and-publicly-verified",
+  "verified_at_utc": "2026-11-15T02:28:48.529934+00:00",
+  "runtime_commit": "afc84211d914230ba688a7ea84cc85213fc16cb1",
+  "runtime_tree": "86402649ac2aabf624796ea4aae74cf79e8da44e",
+  "deployment": {
+    "deployment": {
+      "id": "16d3facd-d246-45af-9da4-db1c217df771",
+      "environment": "production",
+      "url": "https://16d3facd.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T02:25:42.948216Z",
+        "ended_on": "2026-11-15T02:26:03.448244Z",
+        "status": "success"
+      },
+      "commit": "afc84211d914230ba688a7ea84cc85213fc16cb1"
+    },
+    "canonical": {
+      "id": "16d3facd-d246-45af-9da4-db1c217df771",
+      "environment": "production",
+      "url": "https://16d3facd.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T02:25:42.948216Z",
+        "ended_on": "2026-11-15T02:26:03.448244Z",
+        "status": "success"
+      },
+      "commit": "afc84211d914230ba688a7ea84cc85213fc16cb1"
+    },
+    "checked_at_utc": "2026-11-15T02:26:08.526790+00:00"
+  },
+  "new_versions": [
     {
-      "id": "gta6-gift-buy-for-someone-20261114",
-      "category": "guides",
-      "published": "2026-11-14",
-      "updated": "2026-11-14",
-      "urls": {
+      "url": "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
         "es": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
         "en": "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
-        "fr": "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/"
-      }
+        "fr": "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/",
+        "x-default": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/"
+      },
+      "initial_main": true,
+      "article_sections": 14,
+      "figures": 3,
+      "sha256": "6f4c9b6312444ab9f1de37da385eb294edd166d70911d7a3f6ea507776f64a61",
+      "normalized_sha256": "5d563889b72d0d90e7476dee2d1cfb19a1c2a0cbef6dd83ac8f45ff8b0f8c1d7",
+      "release_sha256": "5d563889b72d0d90e7476dee2d1cfb19a1c2a0cbef6dd83ac8f45ff8b0f8c1d7",
+      "matches_release": true,
+      "issues": []
     },
     {
-      "id": "gta6-album-listening-parties-20261114",
-      "category": "guides",
-      "published": "2026-11-14",
-      "updated": "2026-11-14",
-      "urls": {
+      "url": "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
         "es": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
         "en": "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
-        "fr": "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/"
-      }
+        "fr": "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/"
+      },
+      "initial_main": true,
+      "article_sections": 14,
+      "figures": 3,
+      "sha256": "763a9ca53c73691e74b909457411562b272db10f155e04e3b82e88fd432787ea",
+      "normalized_sha256": "30dc6101a54b76394e51be5aea4f330b66f1620a93543d1e9ea8a957517ab914",
+      "release_sha256": "30dc6101a54b76394e51be5aea4f330b66f1620a93543d1e9ea8a957517ab914",
+      "matches_release": true,
+      "issues": []
     },
     {
-      "id": "gta6-console-ventilation-cleaning-20261114",
-      "category": "guides",
-      "published": "2026-11-14",
-      "updated": "2026-11-14",
-      "urls": {
-        "es": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
-        "en": "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
-        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/"
-      }
-    },
-    {
-      "id": "gta6-headset-microphone-echo-party-20261114",
-      "category": "guides",
-      "published": "2026-11-14",
-      "updated": "2026-11-14",
-      "urls": {
-        "es": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
-        "en": "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
-        "fr": "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/"
-      }
-    },
-    {
-      "id": "gta6-night-vice-city-kaseya-visit-20261114",
-      "category": "guides",
-      "published": "2026-11-14",
-      "updated": "2026-11-14",
-      "urls": {
+      "url": "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
         "es": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
         "en": "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
-        "fr": "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/"
-      }
+        "fr": "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/"
+      },
+      "initial_main": true,
+      "article_sections": 16,
+      "figures": 3,
+      "sha256": "7b82a145beae672d4b2893af321b53da1b72ceb4c6981affb9c936109896435c",
+      "normalized_sha256": "20d5de85a512f42a738aee93afdab11155a5be02f1a5ef6856d0fbdea6702296",
+      "release_sha256": "20d5de85a512f42a738aee93afdab11155a5be02f1a5ef6856d0fbdea6702296",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+        "en": "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/"
+      },
+      "initial_main": true,
+      "article_sections": 13,
+      "figures": 3,
+      "sha256": "1777672ae1a6bfdcf500820b00b1b7859299260a21572f28f22fd0c798f37471",
+      "normalized_sha256": "864b5d9d43898c4f969b1573a52a30635962092b1b4db1ee59fab6d160ed9436",
+      "release_sha256": "864b5d9d43898c4f969b1573a52a30635962092b1b4db1ee59fab6d160ed9436",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/"
+      },
+      "initial_main": true,
+      "article_sections": 10,
+      "figures": 3,
+      "sha256": "181317c47821394f001ae0c1bbb032b103b70832804b903135611b11a54c196f",
+      "normalized_sha256": "d1e4ae95efaa8f7ef05f9f280669467a2246c02f835a9ee8f5c7b83feeae6cc3",
+      "release_sha256": "d1e4ae95efaa8f7ef05f9f280669467a2246c02f835a9ee8f5c7b83feeae6cc3",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+        "en": "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/"
+      },
+      "initial_main": true,
+      "article_sections": 14,
+      "figures": 3,
+      "sha256": "aa7bcce3be6d253fcf7af6feaf7ad007abb21432e786e499391c10662828688f",
+      "normalized_sha256": "2ac4fd9f9e959c828e4bb2db756882f667f88419411301f467b919c7ccab07aa",
+      "release_sha256": "2ac4fd9f9e959c828e4bb2db756882f667f88419411301f467b919c7ccab07aa",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+        "en": "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/"
+      },
+      "initial_main": true,
+      "article_sections": 16,
+      "figures": 3,
+      "sha256": "0c63778b9d25c40230913bca1391e5942c5c13dfba7ad6815ed212df44071a8c",
+      "normalized_sha256": "dcc5a64fcfbf16c2ce03c91c9b035ad136df9f9dd71403a0bb1fa8284185e273",
+      "release_sha256": "dcc5a64fcfbf16c2ce03c91c9b035ad136df9f9dd71403a0bb1fa8284185e273",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+        "en": "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/"
+      },
+      "initial_main": true,
+      "article_sections": 13,
+      "figures": 3,
+      "sha256": "6b0184cd58b46e8e07b701668f2a289f43520c410eb3df2318ff2070abb48c34",
+      "normalized_sha256": "ee1ebc486ec6159893814e2010411c94a0ff0c4651f27f6b730fb06c47bd67ee",
+      "release_sha256": "ee1ebc486ec6159893814e2010411c94a0ff0c4651f27f6b730fb06c47bd67ee",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/"
+      },
+      "initial_main": true,
+      "article_sections": 10,
+      "figures": 3,
+      "sha256": "2938d8fc35f4c83e5c10db51bcc46fd48c98a1f575879de69890f51266f2fe3a",
+      "normalized_sha256": "6c202dd2f394f9d7fa22f0cdae3cd558399386f413c930e8079ecbe6ee0d023d",
+      "release_sha256": "6c202dd2f394f9d7fa22f0cdae3cd558399386f413c930e8079ecbe6ee0d023d",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+        "en": "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+        "fr": "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/",
+        "x-default": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/"
+      },
+      "initial_main": true,
+      "article_sections": 14,
+      "figures": 3,
+      "sha256": "72b8245ef8d640227de1ca1cc2deb5daaa40cf8343c936f45cb37967e847d28d",
+      "normalized_sha256": "7c7e3d4bb82c047878cea13df92afca55403cdd738effb28a1b2c42149aaa330",
+      "release_sha256": "7c7e3d4bb82c047878cea13df92afca55403cdd738effb28a1b2c42149aaa330",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+        "en": "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/"
+      },
+      "initial_main": true,
+      "article_sections": 14,
+      "figures": 3,
+      "sha256": "2d2688ce2775728d646df0f93ccd69c0545606260a2258e6170a7a71503c8ef8",
+      "normalized_sha256": "61da47460d4f82bfc705ac54a1a0b2be5d79893f31c7f6ca4ff46dab92fb9840",
+      "release_sha256": "61da47460d4f82bfc705ac54a1a0b2be5d79893f31c7f6ca4ff46dab92fb9840",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+        "en": "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/"
+      },
+      "initial_main": true,
+      "article_sections": 16,
+      "figures": 3,
+      "sha256": "8d219192c9abf7b6f985e8c4dfbf3bc86df6c0f2baa63672c69e989b28d4d3d3",
+      "normalized_sha256": "e97fd5da430a2fdd0cd8d9c19721d94a8b23ff1d5d117b9658a63dd6db319705",
+      "release_sha256": "e97fd5da430a2fdd0cd8d9c19721d94a8b23ff1d5d117b9658a63dd6db319705",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+        "en": "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/"
+      },
+      "initial_main": true,
+      "article_sections": 13,
+      "figures": 3,
+      "sha256": "4a1f97e2ac7434c3ebf258ca65ba47f5852b037ca7efc86ffbf95fa01ec03224",
+      "normalized_sha256": "7af0ac74d0339d5f2cca6e012bee9be2e173c9208bbdcef3b081b0c0d7b805d4",
+      "release_sha256": "7af0ac74d0339d5f2cca6e012bee9be2e173c9208bbdcef3b081b0c0d7b805d4",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/"
+      },
+      "initial_main": true,
+      "article_sections": 10,
+      "figures": 3,
+      "sha256": "e0478cf5e1d97a716a97ff719731c1b43371e29ba13e87c89449dc36648d23ee",
+      "normalized_sha256": "072339533008e136e2306c9b1b21255864fcaac6a8b8cd0e613a2b8c57e209cf",
+      "release_sha256": "072339533008e136e2306c9b1b21255864fcaac6a8b8cd0e613a2b8c57e209cf",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+        "en": "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+        "fr": "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/",
+        "x-default": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/"
+      },
+      "initial_main": true,
+      "article_sections": 14,
+      "figures": 3,
+      "sha256": "3eab8a074bf08ca441cfa68899bddfa33493bc4227bd4b863a72260c60e0ddfa",
+      "normalized_sha256": "b087ecd86dbf20ec94c14572fab710ef1fd19bc8f5732b75a5340f70439a59ab",
+      "release_sha256": "b087ecd86dbf20ec94c14572fab710ef1fd19bc8f5732b75a5340f70439a59ab",
+      "matches_release": true,
+      "issues": []
     }
-  ]
+  ],
+  "public_validation": {
+    "canonical_URLs": 696,
+    "article_versions": 657,
+    "new_versions": 15,
+    "status": {
+      "200": 696
+    },
+    "locales": {
+      "es": 232,
+      "en": 232,
+      "fr": 232
+    },
+    "issues": 0,
+    "raw_resource_matches": 301,
+    "normalized_HTML_matches": 684,
+    "method": "Normal HTTPS with inherited cloud proxy, verified TLS, canonical GETs. Only one exact pinned Cloudflare beacon removed for release comparison of 684 nonlegal HTML. Twelve legal pages receive HTTP/meta checks without full hash equality due to existing email transforms. Public nonHTML compared raw bytes. No Google indexing or real SDK delivery claim.",
+    "legal_comparison_limit": "Twelve existing legal pages transformed by Cloudflare email protection receive HTTP/meta checks, not full HTML hash equality. All657article pages match release after removing only one exact pinned Cloudflare beacon.",
+    "new_article_inbounds": {
+      "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/": [
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/"
+      ],
+      "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+        "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+        "https://fansgta.com/es/guias/gta-6-hdr-calibrar-imagen-ps5-xbox/",
+        "https://fansgta.com/es/guias/gta-6-crossplay-ps5-xbox-juego-cruzado/",
+        "https://fansgta.com/es/noticias/rumor-gta-6-walmart-regalo-sorpresa-reservas/",
+        "https://fansgta.com/es/noticias/gta-6-ps5-xbox/",
+        "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/"
+      ],
+      "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/"
+      ],
+      "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/"
+      ],
+      "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/",
+        "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/",
+        "https://fansgta.com/fr/actualites/gta-6-album-34-tracks/"
+      ],
+      "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/"
+      ],
+      "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/": [
+        "https://fansgta.com/es/",
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+        "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+        "https://fansgta.com/es/noticias/gta-6-album-34-tracks/"
+      ],
+      "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/": [
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/"
+      ],
+      "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/": [
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+        "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+        "https://fansgta.com/en/guides/gta-6-ryde-me-taxi-fast-travel/"
+      ],
+      "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+        "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+        "https://fansgta.com/en/news/gta-6-album-34-tracks/"
+      ],
+      "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/": [
+        "https://fansgta.com/fr/",
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/",
+        "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+        "https://fansgta.com/fr/guides/gta-6-hdr-calibrer-image-ps5-xbox/",
+        "https://fansgta.com/fr/guides/gta-6-crossplay-ps5-xbox-jeu-progression-croises/",
+        "https://fansgta.com/fr/actualites/rumeur-gta-6-walmart-precommande-cadeau-surprise/",
+        "https://fansgta.com/fr/actualites/gta-6-ps5-xbox/",
+        "https://fansgta.com/fr/guides/preparer-console-compte-sortie/"
+      ],
+      "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/": [
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/"
+      ],
+      "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/": [
+        "https://fansgta.com/fr/guides/",
+        "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+        "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+        "https://fansgta.com/fr/guides/gta-6-ryde-me-taxi-voyage-rapide/"
+      ],
+      "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/": [
+        "https://fansgta.com/es/guias/",
+        "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+        "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+        "https://fansgta.com/es/guias/gta-6-ryde-me-taxi-viaje-rapido/"
+      ],
+      "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/": [
+        "https://fansgta.com/en/",
+        "https://fansgta.com/en/guides/",
+        "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+        "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+        "https://fansgta.com/en/guides/gta-6-hdr-picture-calibration-ps5-xbox/",
+        "https://fansgta.com/en/guides/gta-6-crossplay-ps5-xbox-cross-progression/",
+        "https://fansgta.com/en/news/rumour-gta-6-walmart-preorder-mystery-gift/",
+        "https://fansgta.com/en/news/gta-6-ps5-xbox/",
+        "https://fansgta.com/en/guides/prepare-console-account-launch/"
+      ]
+    },
+    "crawlability": "All fifteen new URLs appear once in the sitemap and have a category-hub inbound; home links each localized category. The existing related-link algorithm and data are unchanged.",
+    "declared_Googlebot_checks": [
+      {
+        "url": "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/",
+        "status": 200,
+        "matches_release": true,
+        "issues": []
+      }
+    ],
+    "Googlebot_limit": "Declared UA from cloud executor, not verified Google IPs or Search Console URL Inspection.",
+    "sitemap_robots_ads_txt": "Raw bytes match release."
+  },
+  "tests": {
+    "build_release": "passed",
+    "static_SEO_editorial": "Verified 701 HTML files, 31694 internal links and 1376 structured-data blocks.\nSEO verified: 657 article URLs, 696 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.\nEditorial audit: 219 topics, 657 language URLs, 458 media uses; 0 errors and 42 review notices.",
+    "local_cases": 25,
+    "public_cases": 9,
+    "public_article_viewport_scenarios": 45,
+    "decoded_images": 135,
+    "language_changes": 45,
+    "viewports": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "tablet": [
+        820,
+        1180
+      ]
+    },
+    "browser_engine": "Chromium cloud emulation; no Safari or physical-device certification.",
+    "SDK_limit": "Only provider SDKs are fixtures in deterministic content tests; real creatives and Analytics receipt not certified."
+  },
+  "independent_release_review": {
+    "approved": true,
+    "checked_at_utc": "2026-11-15T02:23:48.690336+00:00",
+    "scope": "Read-only local release audit. No repository edits, builds, network, GitHub or Cloudflare mutations. Only temporary aggregate output written.",
+    "parent": "dd7935bd8a4b82c902638ab66a1b76c0881f18cf",
+    "expected_tree": "86402649ac2aabf624796ea4aae74cf79e8da44e",
+    "checks": {
+      "parent_and_base_tree": true,
+      "exact_nine_allowed_paths": true,
+      "all_nine_blob_hashes_and_character_counts": true,
+      "computed_expected_tree": true,
+      "registration_only_import_and_five_prepend": true,
+      "all_504_existing_map_entries_unchanged": true,
+      "all_17_critical_unchanged": true,
+      "related_module_unchanged": true,
+      "all_three_client_assets_names_bytes_unchanged": true,
+      "all_1004_runtime_files_after_docs_build_unchanged": true,
+      "batch_matches_integrated_review_snapshot": true,
+      "five_raw_masters_match_except_explicit_media_fields": true,
+      "214_old_objects_642_urls_preserved": true,
+      "public_docs_do_not_copy_article_or_primary_segments": true,
+      "no_earlier_style_candidate_literal_in_public_docs": true,
+      "final_22_plus_3_tests_pass": true,
+      "initial_decode_failures_recorded_and_sequential_recheck_passed": true,
+      "static_counts_match": true
+    },
+    "details": {
+      "all_504_existing_map_entries_unchanged": {
+        "count": 504,
+        "bad": []
+      },
+      "all_1004_runtime_files_after_docs_build_unchanged": {
+        "count": 1004,
+        "bad": []
+      },
+      "five_raw_masters_match_except_explicit_media_fields": {
+        "bad_ids": [],
+        "raw_master_hashes": {
+          "gifts": "ca184867fed40212600541451fbf6c7bdb1c34709dd1ec523dfaa2c3d3b5edf4",
+          "listening": "8eb75f33cf54af409c8129f54db6c0a66e2391fc9bb976fba1421b5fbf8e0051",
+          "ventilation": "949ce7ae6bbefa14ecb61c4ce9a697bbeaab2c4ae59e2c3b44f45fea88b0d2de",
+          "headset": "9dfc6c4f99f7e7580fa39f729405afe9d7c25599517d148ebb3d9a1c65fdbbf2",
+          "arena": "0aa5c1aefe6969fbe6ee0990663941d6c3722b203ce45609cb4c57747fd01a3a"
+        }
+      },
+      "public_docs_do_not_copy_article_or_primary_segments": {
+        "copied_paths": []
+      },
+      "equivalent_editorial_change_verified": {
+        "diagnostic_sha256": "63611621c178d8c33fed9eb0f553bcef6b9fc89a417418ef1a3c64a8db7d7a73",
+        "updated_raw_headset_sha256": "9dfc6c4f99f7e7580fa39f729405afe9d7c25599517d148ebb3d9a1c65fdbbf2",
+        "changed_paths": [
+          "sections[0].heading[1]",
+          "sections[12].paragraphs[0][1]"
+        ],
+        "candidate_not_repeated_in_public_docs": true
+      }
+    },
+    "issues": [],
+    "primary_source_recap_words_added": 0,
+    "production_verification_by_this_audit": false
+  },
+  "visible_word_counts": {
+    "method": "Unicode tokens, apostrophes retained; real visible body prose, H2/H3 and tables only. Excludes duplicated body alias, title/excerpt, alt/captions and citation labels.",
+    "articles": [
+      {
+        "file": "/tmp/fansgta-five-long-20261114/arena-article.json",
+        "id": "gta6-night-vice-city-kaseya-visit-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1831,
+            "parts": {
+              "prose": 1708,
+              "headings": 123,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-kaseya-center-entradas-como-llegar",
+            "title_chars": 38,
+            "excerpt_chars": 103
+          },
+          {
+            "locale": "en",
+            "body_words": 1702,
+            "parts": {
+              "prose": 1579,
+              "headings": 123,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-kaseya-center-entry-travel-guide",
+            "title_chars": 43,
+            "excerpt_chars": 102
+          },
+          {
+            "locale": "fr",
+            "body_words": 1700,
+            "parts": {
+              "prose": 1577,
+              "headings": 123,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-kaseya-center-billets-acces-transports",
+            "title_chars": 43,
+            "excerpt_chars": 97
+          }
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-long-20261114/gifts-article.json",
+        "id": "gta6-gift-buy-for-someone-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1850,
+            "parts": {
+              "prose": 1665,
+              "headings": 185,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "regalar-gta-6-ps5-xbox-tarjetas-codigos",
+            "title_chars": 48,
+            "excerpt_chars": 129
+          },
+          {
+            "locale": "en",
+            "body_words": 1708,
+            "parts": {
+              "prose": 1532,
+              "headings": 176,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gift-gta-6-ps5-xbox-cards-codes",
+            "title_chars": 50,
+            "excerpt_chars": 129
+          },
+          {
+            "locale": "fr",
+            "body_words": 1780,
+            "parts": {
+              "prose": 1603,
+              "headings": 177,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "offrir-gta-6-ps5-xbox-cartes-codes",
+            "title_chars": 44,
+            "excerpt_chars": 124
+          }
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-long-20261114/headset-article.json",
+        "id": "gta6-headset-microphone-echo-party-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1962,
+            "parts": {
+              "prose": 1821,
+              "headings": 141,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-microfono-auriculares-eco-chat-ps5-xbox",
+            "title_chars": 49,
+            "excerpt_chars": 128
+          },
+          {
+            "locale": "en",
+            "body_words": 1814,
+            "parts": {
+              "prose": 1686,
+              "headings": 128,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-microphone-headset-echo-party-chat-ps5-xbox",
+            "title_chars": 53,
+            "excerpt_chars": 119
+          },
+          {
+            "locale": "fr",
+            "body_words": 1880,
+            "parts": {
+              "prose": 1743,
+              "headings": 137,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-micro-casque-echo-chat-ps5-xbox",
+            "title_chars": 45,
+            "excerpt_chars": 129
+          }
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-long-20261114/listening-article.json",
+        "id": "gta6-album-listening-parties-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1747,
+            "parts": {
+              "prose": 1629,
+              "headings": 118,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-fiestas-escucha-album-tiendas-entradas",
+            "title_chars": 55,
+            "excerpt_chars": 108
+          },
+          {
+            "locale": "en",
+            "body_words": 1660,
+            "parts": {
+              "prose": 1541,
+              "headings": 119,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-album-listening-parties-stores-entry-guide",
+            "title_chars": 54,
+            "excerpt_chars": 118
+          },
+          {
+            "locale": "fr",
+            "body_words": 1690,
+            "parts": {
+              "prose": 1565,
+              "headings": 125,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-ecoutes-album-magasins-inscriptions-guide",
+            "title_chars": 52,
+            "excerpt_chars": 107
+          }
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-long-20261114/ventilation-article.json",
+        "id": "gta6-console-ventilation-cleaning-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1716,
+            "parts": {
+              "prose": 1588,
+              "headings": 128,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-ps5-xbox-ventilacion-limpieza-ruido",
+            "title_chars": 50,
+            "excerpt_chars": 138
+          },
+          {
+            "locale": "en",
+            "body_words": 1692,
+            "parts": {
+              "prose": 1565,
+              "headings": 127,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-ps5-xbox-ventilation-cleaning-noise",
+            "title_chars": 58,
+            "excerpt_chars": 133
+          },
+          {
+            "locale": "fr",
+            "body_words": 1695,
+            "parts": {
+              "prose": 1571,
+              "headings": 124,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-ps5-xbox-ventilation-nettoyage-bruit",
+            "title_chars": 55,
+            "excerpt_chars": 145
+          }
+        ]
+      }
+    ]
+  },
+  "preservation": {
+    "checked_at_utc": "2026-11-15T02:21:53.978Z",
+    "topics": 219,
+    "localized_versions": 657,
+    "new_topics": [
+      "gta6-gift-buy-for-someone-20261114",
+      "gta6-album-listening-parties-20261114",
+      "gta6-console-ventilation-cleaning-20261114",
+      "gta6-headset-microphone-echo-party-20261114",
+      "gta6-night-vice-city-kaseya-visit-20261114"
+    ],
+    "new_versions": 15,
+    "new_URLs": [
+      "/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+      "/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+      "/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/",
+      "/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+      "/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+      "/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+      "/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+      "/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+      "/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/",
+      "/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+      "/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+      "/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+      "/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+      "/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+      "/fr/guides/gta-6-kaseya-center-billets-acces-transports/"
+    ],
+    "previous_complete_topics_identical": 214,
+    "all_642_previous_URLs_preserved": true,
+    "inventory_topics": 219,
+    "inventory_paths": 657,
+    "inventory_matches_all_articles": true,
+    "critical_files_identical": 17,
+    "other_existing_tracked_files_identical": 504,
+    "tracked_preservation_method": "Strict Git blob SHA-1 comparison for every baseline-map entry, with no exceptions.",
+    "related_articles_identical": true,
+    "reviewed_batch_identical": true,
+    "reviewed_snapshot_sha256": "f78a477797043c5702826fb98571a329d38c9bc1e184addcab08e167aa1ddadc",
+    "article_batch_sha256": "f78a477797043c5702826fb98571a329d38c9bc1e184addcab08e167aa1ddadc",
+    "all_three_bundled_assets_byte_identical": true,
+    "assets": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-DGtdsMGY.js": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144",
+      "assets/postscribe-wSP0-HZj.js": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+    },
+    "CSS_identical": true,
+    "both_client_JS_assets_identical": true,
+    "automation_configuration_modified_by_helper": false
+  },
+  "evidence_sha256": {
+    "release-sha256.json": "94808e50c223576bc57df11d8aa8728ad54cfc40fdf61a7c1c947c8e1ab2b1b9",
+    "public-verification.json": "a5922e76bc1b350d434197fb6569cdbf6d295b14a07053f5b25183b380d57077",
+    "browser-local.log": "6c74baee7e5e082d3b6e313836a7cb2a9b360479cc69a6c4f4f4c0f4d0655c47",
+    "browser-tablet.log": "09c6f31324fa246da27232381ed7755fb67924c2b3224f6e43a87a76e94c9c46",
+    "browser-production.log": "7c15fb340773d9cb8b551043c32ff84a9b472e46a7c4fda52eef20fe7f881c60",
+    "final-qa.json": "4d90cd51ba516749479ca725096c42a018e32668d57f7dcad223b88dc2bc2ad7",
+    "media-check.json": "cb1cefc37aef92bb5d5687c4268a0014866c2e0d1f08bfe931d95227489d84d0",
+    "word-counts-final.json": "dc560504d392747f23b3dd6bf2cc5d727dcc62077d8e62090e8a019a691b6fdf",
+    "release-review.json": "b5283efc80b8a56f68f9b0b9b2e56facd6c3588f70e3aa583ac0c1b77b25aebc"
+  },
+  "execution": "Managed cloud, fresh GitHub main and existing authorized connections; no user-PC dependency.",
+  "schedule": "Manual five-topic batch; no cadence or end-date change. Daily task remains one topic, three languages, through November19,2026 inclusive, America/New_York.",
+  "search_interest_limit": "Partial Google Trends US data and current qualitative signals, not a verified top-five ranking for these new guides. No promised traffic, indexing speed or Google position.",
+  "indexing": "Technical indexability confirmed; actual Google indexing and chosen canonical require Search Console inspection."
 }

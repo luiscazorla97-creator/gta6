@@ -26,4 +26,13 @@ Se conservan los 214 artículos anteriores, 642 URLs y sus fechas. Los 504 archi
 
 Build release, controles estáticos/SEO/editoriales y 25 casos locales aprobados. Se verifican HTML inicial, H1/H2/H3/FAQ, longitud de cuerpo, fuentes, canonical, hreflang, sitemap, imágenes, enlaces y cambio de idioma. Chromium cloud en escritorio, móvil y tablet; sin certificación de Safari o equipos físicos. Los SDK se simulan solo en las pruebas de contenido, sin certificar creatividades ni eventos de Analytics.
 
-Publicación pública pendiente. La comprobación de indexación efectiva corresponde a Search Console.
+Publicación completada y verificada en producción. La comprobación de indexación efectiva corresponde a Search Console.
+
+
+## Publicación comprobada
+
+Commit `afc84211d914230ba688a7ea84cc85213fc16cb1`; Cloudflare `16d3facd-d246-45af-9da4-db1c217df771`, deploy/success y canónico coincidente. Verificación 2026-11-15T02:28:48.529934+00:00. Las 696 canónicas, 657 versiones y 15 URLs nuevas responden 200. Las nuevas páginas tienen enlaces desde sus categorías, accesibles desde portada, y figuran una vez en el sitemap con fechas y alternancias correctas.
+
+Los 301 recursos públicos coinciden en bytes y los 684 HTML no legales coinciden retirando únicamente el beacon exacto. Las 12 páginas legales conservan las comprobaciones HTTP/metadatos, sin igualdad completa por protección de correo. Quince solicitudes con identificador declarado Googlebot fueron correctas; no proceden de IPs verificadas de Google ni prueban indexación.
+
+25 casos locales y9 casos públicos aprobados:45 escenarios de artículo/pantalla,135 imágenes decodificadas y45 cambios de idioma. Los quince cuerpos están dentro de 1.500–2.500 palabras. La documentación y las evidencias se guardan en GitHub; no se alteran los 214 artículos previos ni sus 642 URLs. No hay borradores o bloqueos de publicación pendientes en la tanda.

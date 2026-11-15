@@ -2665,7 +2665,13 @@
     "initial_image_check": "The first desktop/mobile run passed20cases and had2mobile decode assertions before an explicit resource-readiness wait. Both failed cases passed unchanged sequentially; all image variants independently decoded. The final test retains strict decoding and waits for complete/naturalWidth/currentSrc before it. Final22desktop/mobile and3tablet checks repeated after this harness adjustment.",
     "initial_browser_log_sha256": "69e62a7957f0ff7dac26d0527f24b959d87a094e003cce21ad0cd40091ed0b9c",
     "diagnostic_log_sha256": "eb2884c2ed79224cf8a6b2dced018829e928c3fcb329ba3486ea52196486bdb2",
-    "production": "pending",
+    "production": {
+      "passed": 9,
+      "failed": 0,
+      "article_viewport_scenarios": 45,
+      "decoded_images": 135,
+      "language_changes": 45
+    },
     "browser_engine": "Chromium cloud emulation in desktop,mobile and tablet; physical devices and Safari not certified.",
     "SDK_limit": "Only provider SDKs are fixtures in deterministic content checks; real advertising creatives and Analytics receipt are not certified."
   },
@@ -2683,5 +2689,10 @@
   },
   "scope_controls": "No design, old article, old URL, related-link algorithm/data, CSS/JS, ad unit, consent, cache, security, subscription, other-project or automation-frequency change. New entries appear through the existing sitemap/category systems.",
   "source_budget_rule": "Public evidence stores URLs, hashes, timestamps, counts and decisions only; private source bodies and assigned segment text are not committed or restated.",
-  "publication": "Pending confirmed GitHub commit, explicit Cloudflare deployment and public verification."
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "afc84211d914230ba688a7ea84cc85213fc16cb1",
+    "deployment_id": "16d3facd-d246-45af-9da4-db1c217df771",
+    "proof": "docs/editorial/2026-11-14-five-long-publication.json"
+  }
 }
