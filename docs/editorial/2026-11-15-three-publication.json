@@ -1,6 +1,6 @@
 {
-  "state": "pending-deployment-and-public-verification",
-  "checked_at_utc": "2026-11-15T20:03:40.549299+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-15T20:10:20.103059+00:00",
   "articles": [
     {
       "id": "gta6-spoiler-filters-social-feeds-20261115",
@@ -35,5 +35,449 @@
         "fr": "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/"
       }
     }
-  ]
+  ],
+  "runtime_commit": {
+    "sha": "f41e1b0c8b7728e5ce849656190f0d478764caba",
+    "tree": "1b355c03c092f20af24b80c21f8d20a633a58591",
+    "parent": "442a17cd4250ceb57c923286ba547089392c1b73"
+  },
+  "cloudflare": {
+    "deployment": {
+      "id": "d68dfe26-9e27-44ba-8516-3abce849884f",
+      "environment": "production",
+      "url": "https://d68dfe26.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T20:08:28.293656Z",
+        "ended_on": "2026-11-15T20:08:48.09486Z",
+        "status": "success"
+      },
+      "commit": "f41e1b0c8b7728e5ce849656190f0d478764caba"
+    },
+    "canonical": {
+      "id": "d68dfe26-9e27-44ba-8516-3abce849884f",
+      "environment": "production",
+      "url": "https://d68dfe26.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T20:08:28.293656Z",
+        "ended_on": "2026-11-15T20:08:48.09486Z",
+        "status": "success"
+      },
+      "commit": "f41e1b0c8b7728e5ce849656190f0d478764caba"
+    },
+    "checked_at_utc": "2026-11-15T20:08:49.027681+00:00"
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-15T20:08:58.357811+00:00",
+    "finished_at_utc": "2026-11-15T20:09:57.193584+00:00",
+    "canonical_URLs": 705,
+    "article_versions": 666,
+    "new_versions": 9,
+    "status": {
+      "200": 705
+    },
+    "locales": {
+      "en": 235,
+      "es": 235,
+      "fr": 235
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "method": "Normal canonical HTTPS GETs through the inherited managed proxy with default certificate verification. Public HTML is compared to the hash-pinned release after removing at most one exact pinned Cloudflare beacon, and no other source content. Twelve legal pages receive HTTP/meta checks only because of existing email transforms. Public nonHTML uses decoded HTTP entity bytes without content rewriting. No account action or Google indexing claim.",
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or Search Console URL Inspection; these requests do not prove indexing or absence of all real-bot restrictions.",
+    "sitemap_new_URLs_unique": true
+  },
+  "matched_release_HTML": 693,
+  "matched_article_versions": 666,
+  "legal_pages_HTTP_and_metadata_only": 12,
+  "public_verification_sha256": "2780f20ec2f748891425a97460a02c280b0388e85cde045ea3323201b388853f",
+  "new_article_details": [
+    {
+      "url": "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+        "en": "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+        "fr": "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/",
+        "x-default": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/"
+      },
+      "initial_main": true,
+      "article_sections": 16,
+      "article_paragraphs": 35,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-kayak.webp",
+        "/media/region-grassrivers-02.webp",
+        "/media/region-grassrivers-03.webp"
+      ],
+      "normalized_sha256": "dd9d2c25e2f42034273c2ed1ef4345d8a5ce19232cdd23dc0d3903e3c72e9206",
+      "release_sha256": "dd9d2c25e2f42034273c2ed1ef4345d8a5ce19232cdd23dc0d3903e3c72e9206",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/",
+        "en": "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/"
+      },
+      "initial_main": true,
+      "article_sections": 15,
+      "article_paragraphs": 42,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-bar.webp",
+        "/media/region-vice-city-02.webp",
+        "/media/region-vice-city-03.webp"
+      ],
+      "normalized_sha256": "0b3ca6a8006d3a2362c6080919331b31089e63283d30d2ca848ecd7f0fbe8426",
+      "release_sha256": "0b3ca6a8006d3a2362c6080919331b31089e63283d30d2ca848ecd7f0fbe8426",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+        "en": "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/"
+      },
+      "initial_main": true,
+      "article_sections": 17,
+      "article_paragraphs": 34,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-bike.webp",
+        "/media/feature-helicopter.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "normalized_sha256": "ddd27423a7c9cdf71f3a00b0e4ccd5d90ee2b6753e25ac6d7da3ae6070a36a0f",
+      "release_sha256": "ddd27423a7c9cdf71f3a00b0e4ccd5d90ee2b6753e25ac6d7da3ae6070a36a0f",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+        "en": "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+        "fr": "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/",
+        "x-default": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/"
+      },
+      "initial_main": true,
+      "article_sections": 16,
+      "article_paragraphs": 35,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-kayak.webp",
+        "/media/region-grassrivers-02.webp",
+        "/media/region-grassrivers-03.webp"
+      ],
+      "normalized_sha256": "56aa000b8cf42153a3da319c6fb07866aa142eb638a59b50a9d9bcac5c911d3f",
+      "release_sha256": "56aa000b8cf42153a3da319c6fb07866aa142eb638a59b50a9d9bcac5c911d3f",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+        "en": "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/"
+      },
+      "initial_main": true,
+      "article_sections": 17,
+      "article_paragraphs": 34,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-bike.webp",
+        "/media/feature-helicopter.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "normalized_sha256": "bdbb82ce3bc1ac1d23ecb83cfd373e78423fdcfa13dbbed2f4dc9e4975254cab",
+      "release_sha256": "bdbb82ce3bc1ac1d23ecb83cfd373e78423fdcfa13dbbed2f4dc9e4975254cab",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/",
+        "en": "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/"
+      },
+      "initial_main": true,
+      "article_sections": 15,
+      "article_paragraphs": 42,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-bar.webp",
+        "/media/region-vice-city-02.webp",
+        "/media/region-vice-city-03.webp"
+      ],
+      "normalized_sha256": "8f5a86d414281f76132a92fd5790c22e0e4c7a84d37f9627ab8dd23914b8e669",
+      "release_sha256": "8f5a86d414281f76132a92fd5790c22e0e4c7a84d37f9627ab8dd23914b8e669",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+        "en": "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+        "fr": "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/",
+        "x-default": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/"
+      },
+      "initial_main": true,
+      "article_sections": 16,
+      "article_paragraphs": 35,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-kayak.webp",
+        "/media/region-grassrivers-02.webp",
+        "/media/region-grassrivers-03.webp"
+      ],
+      "normalized_sha256": "1970695b17ac9acfc814a4876d6e7a49b7f031c1155ccbbfe9c3bf7041e164f9",
+      "release_sha256": "1970695b17ac9acfc814a4876d6e7a49b7f031c1155ccbbfe9c3bf7041e164f9",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/",
+        "en": "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/"
+      },
+      "initial_main": true,
+      "article_sections": 15,
+      "article_paragraphs": 42,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-bar.webp",
+        "/media/region-vice-city-02.webp",
+        "/media/region-vice-city-03.webp"
+      ],
+      "normalized_sha256": "a899cd617b12cdce34eb0eac800036416d136d8fdfd7050c09f3b69ca6cd4c36",
+      "release_sha256": "a899cd617b12cdce34eb0eac800036416d136d8fdfd7050c09f3b69ca6cd4c36",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+        "en": "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/"
+      },
+      "initial_main": true,
+      "article_sections": 17,
+      "article_paragraphs": 34,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-bike.webp",
+        "/media/feature-helicopter.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "normalized_sha256": "ae84e4690f6a80099d88324fe89a4546f9be8e7c003982172ef6d9435f473606",
+      "release_sha256": "ae84e4690f6a80099d88324fe89a4546f9be8e7c003982172ef6d9435f473606",
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-phone-apps-snapmatic-social-media/",
+      "https://fansgta.com/en/guides/prepare-console-account-launch/",
+      "https://fansgta.com/en/missions/avoid-spoilers-mission-guides/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+      "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+      "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+      "https://fansgta.com/en/news/gta-6-festival-miami-date-lineup-ticket-lottery/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+      "https://fansgta.com/en/news/gta-6-youtube-launch-livestream-schedule/"
+    ],
+    "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/gta-6-telefono-aplicaciones-snapmatic-redes/",
+      "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/",
+      "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+      "https://fansgta.com/es/noticias/gta-6-directo-youtube-lanzamiento-horario/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+      "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+      "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+      "https://fansgta.com/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/"
+    ],
+    "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-telephone-applications-snapmatic-reseaux/",
+      "https://fansgta.com/fr/guides/preparer-console-compte-sortie/",
+      "https://fansgta.com/fr/missions/eviter-spoilers-guides-missions/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/gta-6-festival-miami-date-artistes-billets-tirage/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+      "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/",
+      "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/gta-6-direct-youtube-lancement-horaires/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/"
+    ]
+  },
+  "browser": {
+    "local_cases": 25,
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 27,
+    "production_image_decodes": 81,
+    "production_language_changes": 27,
+    "errors": 0,
+    "engine": "Chromium desktop/mobile/tablet cloud emulation; not physical-device or Safari certification.",
+    "provider_fixtures": "Adsterra/AdSense/GTM provider hosts only for deterministic content tests. No own-origin interception. Real creative delivery and Analytics receipt not certified."
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/en/guides/avoid-gta-6-spoilers-social-filters-notifications/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-festival-dice-entry-guide/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-livestream-ps5-xbox-capture-card-obs/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/evitar-spoilers-gta-6-filtros-redes-notificaciones/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-directo-ps5-xbox-capturadora-obs/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-festival-guia-acceso-dice/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/eviter-spoilers-gta-6-filtres-reseaux-notifications/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-festival-guide-acces-dice/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-stream-ps5-xbox-carte-acquisition-obs/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "indexing": "HTTP/indexability and content delivery verified, not Google indexing, traffic, ranking, actual Google IP access or Search Console inspection.",
+  "proof_commit_policy": "Documentation-only proof follows this runtime commit; release-byte identity is required before recording it. No duplicate production deployment."
 }

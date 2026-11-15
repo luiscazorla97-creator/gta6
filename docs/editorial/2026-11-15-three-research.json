@@ -1878,11 +1878,24 @@
     "build_release": "passed",
     "static_SEO_editorial": "Verified 710 HTML files, 32186 internal links and 1394 structured-data blocks.\nSEO verified: 666 article URLs, 705 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.\nEditorial audit: 222 topics, 666 language URLs, 467 media uses; 0 errors and 42 review notices.",
     "local_cases": 25,
-    "production": "pending",
+    "production": {
+      "cases": 9,
+      "public_URLs": 705,
+      "article_versions": 666,
+      "new_versions": 9,
+      "resources": 301,
+      "issues": 0
+    },
     "browser_limit": "Chromium cloud emulation in desktop,mobile and tablet; not a Safari or physical-device certification.",
     "SDK_limit": "Provider SDK fixtures only in deterministic browser tests; no real creative delivery or Analytics receipt claim."
   },
   "scope_controls": "All219previous article objects,657URLs,511existing tracked files,22critical files and3bundled asset names/bytes preserved. No design, advertising, consent, security, cache, other-project or automation change.",
-  "publication": "Pending confirmed GitHub main, explicit Cloudflare deployment and public verification.",
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "f41e1b0c8b7728e5ce849656190f0d478764caba",
+    "cloudflare_deployment": "d68dfe26-9e27-44ba-8516-3abce849884f",
+    "evidence": "docs/editorial/2026-11-15-three-publication.json",
+    "verified_at_utc": "2026-11-15T20:10:20.103059+00:00"
+  },
   "indexing": "Technical indexability only; no promised indexing timing, traffic or Google position."
 }

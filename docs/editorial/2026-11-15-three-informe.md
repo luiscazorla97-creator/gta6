@@ -16,4 +16,10 @@ Build release, SEO, revisión editorial y 25 casos locales aprobados. HTML inici
 
 Se conservan los 219 artículos anteriores, 657 URLs, 511 archivos existentes, 22 críticos y los tres recursos CSS/JS. Publicidad, consentimiento, diseño, caché, seguridad, otros proyectos y frecuencia diaria intactos. La tanda manual no cambia la tarea diaria de un tema hasta el 19 de noviembre de 2026 inclusive, America/New_York.
 
-Publicación pública pendiente. La indexación efectiva debe comprobarse en Search Console; no se promete rapidez ni posición.
+Publicación comprobada en las nueve URLs, con HTTP 200, HTML inicial, canonical propio, hreflang recíproco, Article y sitemap. Producción: 705 canónicas respondieron 200; 693 páginas no legales y las 666 versiones de artículos coinciden con la compilación, quitando como máximo una inserción exacta de Cloudflare previamente fijada por hash. Las 12 páginas legales se comprobaron por HTTP y metadatos debido a la transformación existente del correo. Los 301 recursos públicos coinciden por hash. Cero incidencias.
+
+Los nueve casos de navegador de producción cubren 27 visitas de artículo en escritorio, móvil y tablet, 81 imágenes decodificadas y 27 cambios de idioma. Sumados a los 25 casos locales: 34 aprobados. Nueve GET con User-Agent declarado de Googlebot respondieron 200; esto no representa IPs verificadas de Google ni inspección en Search Console.
+
+GitHub main: `f41e1b0c8b7728e5ce849656190f0d478764caba`. Cloudflare Pages, despliegue `d68dfe26-9e27-44ba-8516-3abce849884f`, confirmado como producción canónica del mismo commit. La prueba documental posterior debe conservar idénticos los 1.013 archivos de la compilación y no requiere otro despliegue.
+
+La indexación efectiva debe comprobarse en Search Console; no se promete rapidez, tráfico ni posición.
