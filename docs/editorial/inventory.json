@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-gift-buy-for-someone-20261114",
+    "category": "guides",
+    "published": "2026-11-14",
+    "titles": [
+      "Cómo regalar GTA 6 en PS5 y Xbox sin equivocarte",
+      "How to gift GTA 6 on PS5 and Xbox without mistakes",
+      "Offrir GTA 6 sur PS5 et Xbox sans se tromper"
+    ],
+    "paths": [
+      "/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+      "/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+      "/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/"
+    ]
+  },
+  {
+    "id": "gta6-album-listening-parties-20261114",
+    "category": "guides",
+    "published": "2026-11-14",
+    "titles": [
+      "GTA 6: fiestas de escucha del álbum, tiendas y entradas",
+      "GTA 6 album listening parties: stores, times and entry",
+      "GTA 6 : écoutes de l’album, magasins et inscriptions"
+    ],
+    "paths": [
+      "/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+      "/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+      "/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/"
+    ]
+  },
+  {
+    "id": "gta6-console-ventilation-cleaning-20261114",
+    "category": "guides",
+    "published": "2026-11-14",
+    "titles": [
+      "GTA 6: ventilación, limpieza y ruido en PS5 y Xbox",
+      "GTA 6: PS5 and Xbox ventilation, cleaning and noise checks",
+      "GTA 6 : ventilation, nettoyage et bruit sur PS5 et Xbox"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+      "/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+      "/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/"
+    ]
+  },
+  {
+    "id": "gta6-headset-microphone-echo-party-20261114",
+    "category": "guides",
+    "published": "2026-11-14",
+    "titles": [
+      "GTA 6: micrófono, auriculares y eco en PS5 y Xbox",
+      "GTA 6 headset and mic guide: fix echo on PS5 and Xbox",
+      "GTA 6 : micro, casque et écho sur PS5 et Xbox"
+    ],
+    "paths": [
+      "/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+      "/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+      "/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/"
+    ]
+  },
+  {
+    "id": "gta6-night-vice-city-kaseya-visit-20261114",
+    "category": "guides",
+    "published": "2026-11-14",
+    "titles": [
+      "GTA 6: guía de acceso al Kaseya Center",
+      "GTA 6: Kaseya Center entry and travel guide",
+      "GTA 6 : accès et transport au Kaseya Center"
+    ],
+    "paths": [
+      "/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+      "/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+      "/fr/guides/gta-6-kaseya-center-billets-acces-transports/"
+    ]
+  },
+  {
     "id": "gta6-bbc-original-creators-20261114",
     "category": "news",
     "published": "2026-11-14",

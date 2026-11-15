@@ -1,0 +1,61 @@
+{
+  "state": "pending-deployment-and-public-verification",
+  "checked_at_utc": "2026-11-15T02:21:34.451626+00:00",
+  "articles": [
+    {
+      "id": "gta6-gift-buy-for-someone-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+        "en": "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+        "fr": "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/"
+      }
+    },
+    {
+      "id": "gta6-album-listening-parties-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+        "en": "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/"
+      }
+    },
+    {
+      "id": "gta6-console-ventilation-cleaning-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/"
+      }
+    },
+    {
+      "id": "gta6-headset-microphone-echo-party-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+        "en": "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/"
+      }
+    },
+    {
+      "id": "gta6-night-vice-city-kaseya-visit-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+        "en": "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/"
+      }
+    }
+  ]
+}

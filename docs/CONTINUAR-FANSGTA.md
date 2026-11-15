@@ -594,3 +594,8 @@ Un tema/3versiones; investigación y deduplicación completa de213objetos en doc
 
 
 Ejecución diaria del 14 de noviembre publicada y comprobada: runtime 7ea94dee8aa72f2c3df660ae33753f9b19563e58, Cloudflare e2f200a0-fe71-4feb-9ca2-5b53008234f7, deploy/success y canónico coincidente. Verificado 2026-11-14T22:41:55.429768+00:00:681 canónicas/642 versiones HTTP 200; 3 nuevas con sitemap, portada, categoría y enlaces desde artículos anteriores.301 recursos y 669 HTML no legales iguales al release con la única normalización del beacon exacto;12 legales comprobadas por HTTP/meta.25 casos locales y 9 públicos aprobados, 18 imágenes y 9 cambios de idioma. Publicidad, diseño,213 artículos, 639 URLs y frecuencia diaria conservados. Evidencia: docs/editorial/2026-11-14-daily-bbc-creators-publication.json. Sin garantía de indexación ni posición en Google.
+
+
+## Tanda manual de cinco guías extensas — 14 de noviembre de 2026
+
+Cinco temas/quince versiones nuevas, cada una con 1.500–2.500 palabras de cuerpo visible. Catálogo: 219 temas / 657 versiones / 696 canónicas. Investigación, deduplicación, revisión cruzada, fuentes y márgenes conjuntos en docs/editorial/2026-11-14-five-long-research.json; informe/enlaces y publicación con el mismo prefijo.25 casos locales aprobados; publicación pendiente. Los214artículos previos,642URLs,504archivos, 17 críticos, relacionados y3assets se conservan. Sin cambios publicitarios, de diseño ni de automatización. Datos parciales de TrendsUS y límites429ES/FR; no ranking Top5 ni posición prometida. La tarea diaria sigue en un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.

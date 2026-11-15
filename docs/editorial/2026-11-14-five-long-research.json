@@ -1,0 +1,2687 @@
+{
+  "request": "Manual five-topic batch, fifteen complete versions;1500–2500 visible body words per language, original sourced guides, official GTA VI imagery and preserved existing pages.",
+  "checked_at_utc": "2026-11-15T02:21:34.451626+00:00",
+  "publication_date_timezone": "America/New_York",
+  "base_main": "dd7935bd8a4b82c902638ab66a1b76c0881f18cf",
+  "execution": {
+    "managed_cloud": true,
+    "fresh_GitHub_main": true,
+    "user_PC_dependency": false,
+    "network": "Existing managed proxy and normal verified TLS; approved outer cloud execution for network/preview/browser when basic sandbox restricts access.",
+    "credentials": "Existing configured connections only; no new credentials, payments, account changes or third-party messages."
+  },
+  "cloudflare_configuration": {
+    "project": "fansgta",
+    "production_branch": "main",
+    "build_config": {
+      "build_command": "npm run build:release",
+      "destination_dir": "dist",
+      "web_analytics_tag": null,
+      "web_analytics_token": null
+    },
+    "canonical": {
+      "id": "e2f200a0-fe71-4feb-9ca2-5b53008234f7",
+      "environment": "production",
+      "url": "https://e2f200a0.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-14T22:40:16.492427Z",
+        "ended_on": "2026-11-14T22:40:34.700481Z",
+        "status": "success"
+      },
+      "commit": "7ea94dee8aa72f2c3df660ae33753f9b19563e58"
+    },
+    "observed_at_utc": "2026-11-15T01:44:03.703037+00:00"
+  },
+  "selection": {
+    "baseline_topics": 214,
+    "baseline_versions": 642,
+    "full_Article_snapshot_sha256": "6d93b06a7dae3ea435e425a59f61c07d2e5d9bab97e47fe1cfec500071cd8166",
+    "deduplication_report_sha256": "d16bbb026b0fa68535ddac9d895f385e4dd562508a580711fb01967b6d5069a8",
+    "method": "Full current catalogue and translated intents compared; closest complete articles inspected. New guides link existing announcements and core guides without replacing them.",
+    "decisions": "Five distinct complementary intents; no update or deletion of the214existing article objects."
+  },
+  "search_interest": {
+    "Google_Trends_explore": [
+      {
+        "geo": "US",
+        "query": "GTA 6",
+        "period": "now 7-d",
+        "checked_at_utc": "2026-11-15T01:55:38.430938+00:00",
+        "status": 200,
+        "bytes": 5704,
+        "content_type": "application/json; charset=utf-8"
+      },
+      {
+        "geo": "ES",
+        "query": "GTA 6",
+        "period": "now 7-d",
+        "checked_at_utc": "2026-11-15T01:55:38.431544+00:00",
+        "status": 429,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "geo": "FR",
+        "query": "GTA 6",
+        "period": "now 7-d",
+        "checked_at_utc": "2026-11-15T01:55:38.431950+00:00",
+        "status": 429,
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "Google_Trends_US_related": {
+      "status": 200,
+      "query": "GTA 6",
+      "geo": "US",
+      "period": "now 7-d",
+      "payload_sha256": "b7f2569e6c930c0cdbe5802df3e62bbea288f448e83e25e151025f26d117443b",
+      "public_link": "https://trends.google.com/trends/explore?date=now%207-d&geo=US&q=GTA%206",
+      "finding": "Leading related queries concern broad topics already represented in the catalogue. They do not establish a top-five ranking for these new guides."
+    },
+    "limits": "Spain and France returned429 and were not retried. Current qualitative coverage and task-specific search results support complementary selection; no absolute volume, five-most-searched claim, guaranteed traffic, rapid indexing or Google position is asserted.",
+    "private_discovery_record_sha256": "9fc69972259076954d12c950678b53c40a711dee5e1c0c461540ca611a28c680"
+  },
+  "articles": [
+    {
+      "id": "gta6-gift-buy-for-someone-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+        "en": "https://fansgta.com/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+        "fr": "https://fansgta.com/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/"
+      }
+    },
+    {
+      "id": "gta6-album-listening-parties-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+        "en": "https://fansgta.com/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/"
+      }
+    },
+    {
+      "id": "gta6-console-ventilation-cleaning-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/"
+      }
+    },
+    {
+      "id": "gta6-headset-microphone-echo-party-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+        "en": "https://fansgta.com/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/"
+      }
+    },
+    {
+      "id": "gta6-night-vice-city-kaseya-visit-20261114",
+      "category": "guides",
+      "published": "2026-11-14",
+      "updated": "2026-11-14",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+        "en": "https://fansgta.com/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-kaseya-center-billets-acces-transports/"
+      }
+    }
+  ],
+  "visible_word_counts": {
+    "method": "Unicode tokens, apostrophes retained; real visible body prose, H2/H3 and tables only. Excludes duplicated body alias, title/excerpt, alt/captions and citation labels.",
+    "articles": [
+      {
+        "file": "/tmp/fansgta-five-long-20261114/arena-article.json",
+        "id": "gta6-night-vice-city-kaseya-visit-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1831,
+            "parts": {
+              "prose": 1708,
+              "headings": 123,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-kaseya-center-entradas-como-llegar",
+            "title_chars": 38,
+            "excerpt_chars": 103
+          },
+          {
+            "locale": "en",
+            "body_words": 1702,
+            "parts": {
+              "prose": 1579,
+              "headings": 123,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-kaseya-center-entry-travel-guide",
+            "title_chars": 43,
+            "excerpt_chars": 102
+          },
+          {
+            "locale": "fr",
+            "body_words": 1700,
+            "parts": {
+              "prose": 1577,
+              "headings": 123,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-kaseya-center-billets-acces-transports",
+            "title_chars": 43,
+            "excerpt_chars": 97
+          }
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-long-20261114/gifts-article.json",
+        "id": "gta6-gift-buy-for-someone-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1850,
+            "parts": {
+              "prose": 1665,
+              "headings": 185,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "regalar-gta-6-ps5-xbox-tarjetas-codigos",
+            "title_chars": 48,
+            "excerpt_chars": 129
+          },
+          {
+            "locale": "en",
+            "body_words": 1708,
+            "parts": {
+              "prose": 1532,
+              "headings": 176,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gift-gta-6-ps5-xbox-cards-codes",
+            "title_chars": 50,
+            "excerpt_chars": 129
+          },
+          {
+            "locale": "fr",
+            "body_words": 1780,
+            "parts": {
+              "prose": 1603,
+              "headings": 177,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "offrir-gta-6-ps5-xbox-cartes-codes",
+            "title_chars": 44,
+            "excerpt_chars": 124
+          }
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-long-20261114/headset-article.json",
+        "id": "gta6-headset-microphone-echo-party-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1962,
+            "parts": {
+              "prose": 1821,
+              "headings": 141,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-microfono-auriculares-eco-chat-ps5-xbox",
+            "title_chars": 49,
+            "excerpt_chars": 128
+          },
+          {
+            "locale": "en",
+            "body_words": 1814,
+            "parts": {
+              "prose": 1686,
+              "headings": 128,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-microphone-headset-echo-party-chat-ps5-xbox",
+            "title_chars": 53,
+            "excerpt_chars": 119
+          },
+          {
+            "locale": "fr",
+            "body_words": 1880,
+            "parts": {
+              "prose": 1743,
+              "headings": 137,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-micro-casque-echo-chat-ps5-xbox",
+            "title_chars": 45,
+            "excerpt_chars": 129
+          }
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-long-20261114/listening-article.json",
+        "id": "gta6-album-listening-parties-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1747,
+            "parts": {
+              "prose": 1629,
+              "headings": 118,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-fiestas-escucha-album-tiendas-entradas",
+            "title_chars": 55,
+            "excerpt_chars": 108
+          },
+          {
+            "locale": "en",
+            "body_words": 1660,
+            "parts": {
+              "prose": 1541,
+              "headings": 119,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-album-listening-parties-stores-entry-guide",
+            "title_chars": 54,
+            "excerpt_chars": 118
+          },
+          {
+            "locale": "fr",
+            "body_words": 1690,
+            "parts": {
+              "prose": 1565,
+              "headings": 125,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-ecoutes-album-magasins-inscriptions-guide",
+            "title_chars": 52,
+            "excerpt_chars": 107
+          }
+        ]
+      },
+      {
+        "file": "/tmp/fansgta-five-long-20261114/ventilation-article.json",
+        "id": "gta6-console-ventilation-cleaning-20261114",
+        "variants": [
+          {
+            "locale": "es",
+            "body_words": 1716,
+            "parts": {
+              "prose": 1588,
+              "headings": 128,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-ps5-xbox-ventilacion-limpieza-ruido",
+            "title_chars": 50,
+            "excerpt_chars": 138
+          },
+          {
+            "locale": "en",
+            "body_words": 1692,
+            "parts": {
+              "prose": 1565,
+              "headings": 127,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-ps5-xbox-ventilation-cleaning-noise",
+            "title_chars": 58,
+            "excerpt_chars": 133
+          },
+          {
+            "locale": "fr",
+            "body_words": 1695,
+            "parts": {
+              "prose": 1571,
+              "headings": 124,
+              "tables": 0
+            },
+            "within_1500_2500": true,
+            "localized_slug": "gta-6-ps5-xbox-ventilation-nettoyage-bruit",
+            "title_chars": 55,
+            "excerpt_chars": 145
+          }
+        ]
+      }
+    ]
+  },
+  "independent_editorial_and_source_review": {
+    "approved": true,
+    "checked_at_utc": "2026-11-15T02:14:45.497258+00:00",
+    "scope": "Editorial/deduplication/source-budget approval of five raw Article JSON snapshots only. Runtime/build/deployment/public URL checks remain parent responsibilities.",
+    "articles": [
+      {
+        "name": "listening",
+        "id": "gta6-album-listening-parties-20261114",
+        "snapshot_path": "/tmp/fansgta-five-long-20261114/listening-article.json",
+        "snapshot_sha256": "8eb75f33cf54af409c8129f54db6c0a66e2391fc9bb976fba1421b5fbf8e0051",
+        "ledger_sha256": "9fe5a38c1b623fbaa2ccd8ed50c67ad07876403242fb6c932dcd4ed60f8d0a5c",
+        "visible_words_by_locale": {
+          "es": 1629,
+          "en": 1541,
+          "fr": 1565
+        },
+        "heading_inclusive_words_by_locale": {
+          "es": 1747,
+          "en": 1660,
+          "fr": 1690
+        },
+        "H2_count": 14,
+        "H3_count": 6,
+        "FAQ_H3_count": 3,
+        "valid_existing_internal_links": [
+          "/es/noticias/gta-6-album-34-tracks/",
+          "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "/es/noticias/gta-6-justice-musica-original-11-diciembre-pusher/",
+          "/es/noticias/gta-6-radio-music/"
+        ],
+        "peer_review": {
+          "file": "listening-peer-qa.json",
+          "approved": true,
+          "snapshot_sha256": "8eb75f33cf54af409c8129f54db6c0a66e2391fc9bb976fba1421b5fbf8e0051",
+          "sha256": "d5ae22306b5e4d0a12392059b0b1ef4d9e82c3171a293ebc1960118f92d769b0"
+        }
+      },
+      {
+        "name": "gifts",
+        "id": "gta6-gift-buy-for-someone-20261114",
+        "snapshot_path": "/tmp/fansgta-five-long-20261114/gifts-article.json",
+        "snapshot_sha256": "ca184867fed40212600541451fbf6c7bdb1c34709dd1ec523dfaa2c3d3b5edf4",
+        "ledger_sha256": "5ad8752c8f123affe594b0083f99d1cbf3fd1baa9adc76bb9a547154f64b5005",
+        "visible_words_by_locale": {
+          "es": 1665,
+          "en": 1532,
+          "fr": 1603
+        },
+        "heading_inclusive_words_by_locale": {
+          "es": 1850,
+          "en": 1708,
+          "fr": 1780
+        },
+        "H2_count": 14,
+        "H3_count": 15,
+        "FAQ_H3_count": 3,
+        "valid_existing_internal_links": [
+          "/es/guias/donde-comprar-reservar-descargar-gta-6/",
+          "/es/guias/gta-6-cancelar-reserva-reembolso-ps5-xbox/",
+          "/es/guias/gta-6-codigos-region-cuenta-ps5-xbox/",
+          "/es/guias/gta-6-edicion-fisica-sin-disco-codigo/",
+          "/es/guias/precarga-gta-6-fecha-hora-consolas/"
+        ],
+        "peer_review": {
+          "file": "gifts-peer-qa.json",
+          "approved": true,
+          "snapshot_sha256": "ca184867fed40212600541451fbf6c7bdb1c34709dd1ec523dfaa2c3d3b5edf4",
+          "sha256": "d0810dedbdb42423c5e2639ba85ca1848ba06a78e6419cb66dc7e3f010a36273"
+        }
+      },
+      {
+        "name": "ventilation",
+        "id": "gta6-console-ventilation-cleaning-20261114",
+        "snapshot_path": "/tmp/fansgta-five-long-20261114/ventilation-article.json",
+        "snapshot_sha256": "949ce7ae6bbefa14ecb61c4ce9a697bbeaab2c4ae59e2c3b44f45fea88b0d2de",
+        "ledger_sha256": "a3a7ebee5bfeb04145c96bde6f35fe7ddef44a7e1530f4d381b1b9dc7445209b",
+        "visible_words_by_locale": {
+          "es": 1588,
+          "en": 1565,
+          "fr": 1571
+        },
+        "heading_inclusive_words_by_locale": {
+          "es": 1716,
+          "en": 1692,
+          "fr": 1695
+        },
+        "H2_count": 10,
+        "H3_count": 6,
+        "FAQ_H3_count": 3,
+        "valid_existing_internal_links": [
+          "/es/guias/gta-6-ps5-ssd-m2-usb-almacenamiento/",
+          "/es/guias/gta-6-xbox-series-s-fps-resolucion-preparacion/",
+          "/es/guias/gta-6-xbox-series-s-x-almacenamiento-usb-expansion/",
+          "/es/guias/preparar-consola-cuenta-lanzamiento/"
+        ],
+        "peer_review": {
+          "reviewer": "/root/daily14_dedupe",
+          "scope": "Full ES prose, EN/FR factual segments, exact source paths/counts and density independently reviewed."
+        }
+      },
+      {
+        "name": "headset",
+        "id": "gta6-headset-microphone-echo-party-20261114",
+        "snapshot_path": "/tmp/fansgta-five-long-20261114/headset-article.json",
+        "snapshot_sha256": "9dfc6c4f99f7e7580fa39f729405afe9d7c25599517d148ebb3d9a1c65fdbbf2",
+        "ledger_sha256": "83d84225a96a4290b31ca66b504c62dcf620ee877f8bb5c2b7eef9f89262a074",
+        "visible_words_by_locale": {
+          "es": 1821,
+          "en": 1686,
+          "fr": 1743
+        },
+        "heading_inclusive_words_by_locale": {
+          "es": 1962,
+          "en": 1814,
+          "fr": 1880
+        },
+        "H2_count": 13,
+        "H3_count": 3,
+        "FAQ_H3_count": 3,
+        "valid_existing_internal_links": [
+          "/es/guias/gta-6-audio-3d-ps5-auriculares-configuracion/",
+          "/es/guias/gta-6-crossplay-ps5-xbox-juego-cruzado/",
+          "/es/guias/gta-6-grabar-clips-ps5-xbox-pasar-movil/",
+          "/es/misiones/evitar-spoilers-guias-misiones/"
+        ],
+        "peer_review": {
+          "file": "headset-peer-qa.json",
+          "approved": true,
+          "snapshot_sha256": "9dfc6c4f99f7e7580fa39f729405afe9d7c25599517d148ebb3d9a1c65fdbbf2",
+          "sha256": "a31d32da518942d8df351a820cc618823ac3be1fca31b506587d26df03bdaa79"
+        }
+      },
+      {
+        "name": "arena",
+        "id": "gta6-night-vice-city-kaseya-visit-20261114",
+        "snapshot_path": "/tmp/fansgta-five-long-20261114/arena-article.json",
+        "snapshot_sha256": "0aa5c1aefe6969fbe6ee0990663941d6c3722b203ce45609cb4c57747fd01a3a",
+        "ledger_sha256": "e96d332124e4ef158849f4ff74a4dd070303bacd2b222b118675c42d551fad00",
+        "visible_words_by_locale": {
+          "es": 1708,
+          "en": 1579,
+          "fr": 1577
+        },
+        "heading_inclusive_words_by_locale": {
+          "es": 1831,
+          "en": 1702,
+          "fr": 1700
+        },
+        "H2_count": 16,
+        "H3_count": 4,
+        "FAQ_H3_count": 3,
+        "valid_existing_internal_links": [
+          "/es/noticias/gta-6-19-november-2026/",
+          "/es/noticias/gta-6-festival-miami-fecha-artistas-entradas-sorteo/",
+          "/es/noticias/gta-6-miami-heat-camiseta-vice-city-fecha/",
+          "/es/noticias/gta-6-miami-publicidad-acuerdo-vice-city/"
+        ],
+        "peer_review": {
+          "file": "arena-peer-qa.json",
+          "approved": true,
+          "snapshot_sha256": "0aa5c1aefe6969fbe6ee0990663941d6c3722b203ce45609cb4c57747fd01a3a",
+          "sha256": "5bdac0e0c0f7ee864f2dc71d28996979d43c8f02acf6c6667ac36614a089d417"
+        }
+      }
+    ],
+    "source_works": [
+      {
+        "url": "https://22soundrecords.com/pages/events",
+        "aliases": [],
+        "combined_words": 89,
+        "cap": 200,
+        "remaining_for_public_docs_final": 111,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "sound22"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://assai.co.uk/collections/assai-records-forthcoming-events/products/grand-theft-auto-vi-the-album-instore-listening-party-5pm-wednesday-18th-november-2026",
+        "aliases": [],
+        "combined_words": 116,
+        "cap": 200,
+        "remaining_for_public_docs_final": 84,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "assai"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://booboorecords.com/blogs/events/listening-event-grand-theft-auto-vi-the-album-original-soundtrack-november-18-2026",
+        "aliases": [],
+        "combined_words": 116,
+        "cap": 200,
+        "remaining_for_public_docs_final": 84,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "booboo"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://byrdlandrecords.com/events",
+        "aliases": [],
+        "combined_words": 73,
+        "cap": 200,
+        "remaining_for_public_docs_final": 127,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "byrdland"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://curiouscollectionstx.com/blogs/early-listening-parties-events/gta-vi-soundtrack-advance-listening-party-curious-collections-on-november-18-6-pm",
+        "aliases": [],
+        "combined_words": 104,
+        "cap": 200,
+        "remaining_for_public_docs_final": 96,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "curious"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://dos.ny.gov/news/new-york-department-states-division-consumer-protection-warns-new-yorkers-beware-scams",
+        "aliases": [],
+        "combined_words": 151,
+        "cap": 200,
+        "remaining_for_public_docs_final": 49,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-consumer"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://download.microsoft.com/download/c/5/1/c516c773-0650-4719-8b1e-fbee939075f5/XBOX%20SERIES%20X%20%2B%20S%20MANUAL%20EN%20-%20AU%20NZ.pdf",
+        "aliases": [],
+        "combined_words": 180,
+        "cap": 200,
+        "remaining_for_public_docs_final": 20,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "xbox-manual"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://endorecords.com/",
+        "aliases": [],
+        "combined_words": 141,
+        "cap": 200,
+        "remaining_for_public_docs_final": 59,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "endo"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://fingerprintsmusic.com/events/event-faqs",
+        "aliases": [],
+        "combined_words": 177,
+        "cap": 200,
+        "remaining_for_public_docs_final": 23,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "fpfaq"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": false
+      },
+      {
+        "url": "https://fingerprintsmusic.com/in-store-events/gta-vi-event-at-fingerprints-wed-11-18-at-530pm",
+        "aliases": [],
+        "combined_words": 84,
+        "cap": 200,
+        "remaining_for_public_docs_final": 116,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "fingerprints"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://listeningevents.gtavi-thealbum.com/",
+        "aliases": [],
+        "combined_words": 169,
+        "cap": 200,
+        "remaining_for_public_docs_final": 31,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "atlantic"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": false
+      },
+      {
+        "url": "https://news.xbox.com/en-us/2018/05/10/pc-digital-game-gifting/",
+        "aliases": [],
+        "combined_words": 182,
+        "cap": 200,
+        "remaining_for_public_docs_final": 18,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-xbox-old-rule"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://news.xbox.com/en-us/2025/12/05/how-to-buy-a-digital-game-as-a-gift-this-holiday-2025/",
+        "aliases": [],
+        "combined_words": 179,
+        "cap": 200,
+        "remaining_for_public_docs_final": 21,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-xbox-wire"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://recordstoreday.com/NewsItem/12658",
+        "aliases": [],
+        "combined_words": 76,
+        "cap": 200,
+        "remaining_for_public_docs_final": 124,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "rsd"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://shop.strictlydiscs.com/pages/events",
+        "aliases": [],
+        "combined_words": 73,
+        "cap": 200,
+        "remaining_for_public_docs_final": 127,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "strictly"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://squarecatvinyl.com/blogs/upcoming-events/grand-theft-auto-vi-global-listening-party",
+        "aliases": [],
+        "combined_words": 172,
+        "cap": 200,
+        "remaining_for_public_docs_final": 28,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "squarecat"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://store.playstation.com/en-us/product/EP1004-PPSA01547_00-GTAVISTANDARD001",
+        "aliases": [],
+        "combined_words": 189,
+        "cap": 200,
+        "remaining_for_public_docs_final": 11,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-game-price"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://store.rockstargames.com/game/buy-gta-vi",
+        "aliases": [],
+        "combined_words": 112,
+        "cap": 200,
+        "remaining_for_public_docs_final": 88,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-rsg-store"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.apple.com/en-us/111112",
+        "aliases": [],
+        "combined_words": 185,
+        "cap": 200,
+        "remaining_for_public_docs_final": 15,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-apple"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.discord.com/hc/en-us/articles/217916488-Blocking-Privacy-Settings",
+        "aliases": [],
+        "combined_words": 145,
+        "cap": 200,
+        "remaining_for_public_docs_final": 55,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "discord-privacy"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.discord.com/hc/en-us/articles/360003953831-Discord-and-Xbox-Connection-FAQ",
+        "aliases": [],
+        "combined_words": 149,
+        "cap": 200,
+        "remaining_for_public_docs_final": 51,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "discord-xbox"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.discord.com/hc/en-us/articles/360045138471-Discord-Voice-and-Video-Troubleshooting-Guide",
+        "aliases": [],
+        "combined_words": 169,
+        "cap": 200,
+        "remaining_for_public_docs_final": 31,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "discord-troubleshoot"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.discord.com/hc/en-us/articles/4419534960919-Discord-and-PlayStation-Network-Connection-FAQ",
+        "aliases": [],
+        "combined_words": 154,
+        "cap": 200,
+        "remaining_for_public_docs_final": 46,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "discord-psn"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.google.com/wallet/answer/12059256?hl=en",
+        "aliases": [],
+        "combined_words": 108,
+        "cap": 200,
+        "remaining_for_public_docs_final": 92,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-google"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/add-money-to-your-microsoft-account",
+        "aliases": [],
+        "combined_words": 190,
+        "cap": 200,
+        "remaining_for_public_docs_final": 10,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ms-money"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/check-your-microsoft-account-balance",
+        "aliases": [],
+        "combined_words": 186,
+        "cap": 200,
+        "remaining_for_public_docs_final": 14,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ms-balance"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/microsoft-gift-cards-terms-and-conditions",
+        "aliases": [],
+        "combined_words": 190,
+        "cap": 200,
+        "remaining_for_public_docs_final": 10,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ms-card-terms"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/pre-orders-for-microsoft-store",
+        "aliases": [],
+        "combined_words": 188,
+        "cap": 200,
+        "remaining_for_public_docs_final": 12,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ms-preorder"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/redeem-a-gift-card-or-code-to-your-microsoft-account",
+        "aliases": [],
+        "combined_words": 171,
+        "cap": 200,
+        "remaining_for_public_docs_final": 29,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ms-redeem"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/view-your-microsoft-store-order-history",
+        "aliases": [],
+        "combined_words": 190,
+        "cap": 200,
+        "remaining_for_public_docs_final": 10,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ms-history"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
+        "aliases": [],
+        "combined_words": 87,
+        "cap": 200,
+        "remaining_for_public_docs_final": 113,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-rsg-version"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/hardware-network/accessories/troubleshoot-chat-headset",
+        "aliases": [],
+        "combined_words": 185,
+        "cap": 200,
+        "remaining_for_public_docs_final": 15,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "xbox-wired-help"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/hardware-network/accessories/troubleshoot-xbox-wireless-headset",
+        "aliases": [],
+        "combined_words": 157,
+        "cap": 200,
+        "remaining_for_public_docs_final": 43,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "xbox-wireless-help"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/hardware-network/console/console-turns-off-unexpectedly",
+        "aliases": [],
+        "combined_words": 188,
+        "cap": 200,
+        "remaining_for_public_docs_final": 12,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "xbox-shutdown"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://support.xbox.com/en-US/help/hardware-network/console/position-ventilate-console",
+        "aliases": [],
+        "combined_words": 177,
+        "cap": 200,
+        "remaining_for_public_docs_final": 23,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "xbox-position"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.banquetrecords.com/grand-theft-auto-%22vi%22-album-listening-party/banquet-records%2C-5%3A00pm/GTA181126",
+        "aliases": [],
+        "combined_words": 82,
+        "cap": 200,
+        "remaining_for_public_docs_final": 118,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "banquet"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.crashrecords.co.uk/products/grand-theft-auto-vi-the-album-pre-order-listening-party",
+        "aliases": [],
+        "combined_words": 85,
+        "cap": 200,
+        "remaining_for_public_docs_final": 115,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "crash"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.esrb.org/ratings/41627/grand-theft-auto-vi/",
+        "aliases": [],
+        "combined_words": 93,
+        "cap": 200,
+        "remaining_for_public_docs_final": 107,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-esrb"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.fnac.es/Fnac-Callao/Fnac-Callao/cl2/w-4",
+        "aliases": [],
+        "combined_words": 75,
+        "cap": 200,
+        "remaining_for_public_docs_final": 125,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "fnac"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.kaseyacenter.com/arena-info/directions-parking",
+        "aliases": [],
+        "combined_words": 158,
+        "cap": 200,
+        "remaining_for_public_docs_final": 42,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-parking"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.kaseyacenter.com/events/detail/milwaukee-bucks-vs-miami-heat-19",
+        "aliases": [],
+        "combined_words": 190,
+        "cap": 200,
+        "remaining_for_public_docs_final": 10,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-event"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.kaseyacenter.com/events/ticket-information",
+        "aliases": [],
+        "combined_words": 118,
+        "cap": 200,
+        "remaining_for_public_docs_final": 82,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-tickets"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.kaseyacenter.com/guest-services/a-z-guide",
+        "aliases": [
+          "https://www.kaseyacenter.com/guest-services/faqs",
+          "https://www.kaseyacenter.com/plan-your-visit/knowbeforeyougo"
+        ],
+        "combined_words": 185,
+        "cap": 200,
+        "remaining_for_public_docs_final": 15,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-policies"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.kaseyacenter.com/guest-services/accessibility",
+        "aliases": [],
+        "combined_words": 175,
+        "cap": 200,
+        "remaining_for_public_docs_final": 25,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-access"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.kaseyacenter.com/plan-your-visit/concourse-maps",
+        "aliases": [],
+        "combined_words": 117,
+        "cap": 200,
+        "remaining_for_public_docs_final": 83,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-maps"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.kaseyacenter.com/plan-your-visit/food-beverage",
+        "aliases": [],
+        "combined_words": 157,
+        "cap": 200,
+        "remaining_for_public_docs_final": 43,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "arena-food"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1578323661475590",
+        "aliases": [],
+        "combined_words": 174,
+        "cap": 200,
+        "remaining_for_public_docs_final": 26,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "transit-app"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1617316231654558",
+        "aliases": [],
+        "combined_words": 158,
+        "cap": 200,
+        "remaining_for_public_docs_final": 42,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "transit-fares"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.miamidade.gov/global/transportation/metromover.page",
+        "aliases": [],
+        "combined_words": 176,
+        "cap": 200,
+        "remaining_for_public_docs_final": 24,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "transit-mover"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.miamidade.gov/global/transportation/metrorail.page",
+        "aliases": [],
+        "combined_words": 136,
+        "cap": 200,
+        "remaining_for_public_docs_final": 64,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "transit-rail"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.miamidade.gov/global/transportation/web-component/facilities.page",
+        "aliases": [],
+        "combined_words": 89,
+        "cap": 200,
+        "remaining_for_public_docs_final": 111,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "transit-facilities"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.miamiparking.com/sporting-and-special-events/",
+        "aliases": [],
+        "combined_words": 152,
+        "cap": 200,
+        "remaining_for_public_docs_final": 48,
+        "article_ids": [
+          "gta6-night-vice-city-kaseya-visit-20261114"
+        ],
+        "work_ids": [
+          "miami-parking"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/p/xbox-gift-card-digital-code/cfq7ttc0k63h",
+        "aliases": [],
+        "combined_words": 188,
+        "cap": 200,
+        "remaining_for_public_docs_final": 12,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ms-card"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/store/b/giftterms",
+        "aliases": [],
+        "combined_words": 176,
+        "cap": 200,
+        "remaining_for_public_docs_final": 24,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ms-terms"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/ps5-docs/2100ab/CFI-21XX_PS5_Instruction_Manual_Web%24en.pdf",
+        "aliases": [],
+        "combined_words": 185,
+        "cap": 200,
+        "remaining_for_public_docs_final": 15,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "ps-safety"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/legal/playstation-store-cancellation-policy/",
+        "aliases": [],
+        "combined_words": 185,
+        "cap": 200,
+        "remaining_for_public_docs_final": 15,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-cancellation"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/playstation-gift-cards/",
+        "aliases": [],
+        "combined_words": 168,
+        "cap": 200,
+        "remaining_for_public_docs_final": 32,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-cards"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/account/check-account-country-region/",
+        "aliases": [],
+        "combined_words": 172,
+        "cap": 200,
+        "remaining_for_public_docs_final": 28,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-region"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/account/privacy-settings-psn/",
+        "aliases": [
+          "https://www.playstation.com/en-us/support/account/privacy-settings/"
+        ],
+        "combined_words": 178,
+        "cap": 200,
+        "remaining_for_public_docs_final": 22,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-privacy"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/account/ps5-report-behaviour/",
+        "aliases": [],
+        "combined_words": 144,
+        "cap": 200,
+        "remaining_for_public_docs_final": 56,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-report"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/games/discord-voice-chat/",
+        "aliases": [],
+        "combined_words": 189,
+        "cap": 200,
+        "remaining_for_public_docs_final": 11,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-discord"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/games/ps4-voice-chat-issues/",
+        "aliases": [],
+        "combined_words": 181,
+        "cap": 200,
+        "remaining_for_public_docs_final": 19,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-voice"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/games/ps5-party-voice-chat/",
+        "aliases": [],
+        "combined_words": 153,
+        "cap": 200,
+        "remaining_for_public_docs_final": 47,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-party"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/adjust-pulse-elite-volume/",
+        "aliases": [],
+        "combined_words": 164,
+        "cap": 200,
+        "remaining_for_public_docs_final": 36,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-pulse-controls"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/connect-pulse-elite-other/",
+        "aliases": [],
+        "combined_words": 167,
+        "cap": 200,
+        "remaining_for_public_docs_final": 33,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-pulse-other"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/connect-pulse-elite/",
+        "aliases": [],
+        "combined_words": 189,
+        "cap": 200,
+        "remaining_for_public_docs_final": 11,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-pulse-connect"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-change-audio-output/",
+        "aliases": [],
+        "combined_words": 184,
+        "cap": 200,
+        "remaining_for_public_docs_final": 16,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-audio"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-console-noise/",
+        "aliases": [],
+        "combined_words": 175,
+        "cap": 200,
+        "remaining_for_public_docs_final": 25,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "ps-noise"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-find-serial-model-numbers/",
+        "aliases": [],
+        "combined_words": 168,
+        "cap": 200,
+        "remaining_for_public_docs_final": 32,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "ps-model"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-power-issues/",
+        "aliases": [],
+        "combined_words": 131,
+        "cap": 200,
+        "remaining_for_public_docs_final": 69,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "ps-power"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-ps4-power-indicator-lights/",
+        "aliases": [],
+        "combined_words": 170,
+        "cap": 200,
+        "remaining_for_public_docs_final": 30,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "ps-lights"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/ps5-vertical-stand/",
+        "aliases": [],
+        "combined_words": 123,
+        "cap": 200,
+        "remaining_for_public_docs_final": 77,
+        "article_ids": [
+          "gta6-console-ventilation-cleaning-20261114"
+        ],
+        "work_ids": [
+          "ps-stand"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/troubleshoot-playstation-wireless-headsets-/",
+        "aliases": [],
+        "combined_words": 185,
+        "cap": 200,
+        "remaining_for_public_docs_final": 15,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-wireless"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/hardware/troubleshoot-pulse-elite/",
+        "aliases": [],
+        "combined_words": 161,
+        "cap": 200,
+        "remaining_for_public_docs_final": 39,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-pulse-troubleshoot"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/store/cancel-ps-store-pre-order/",
+        "aliases": [],
+        "combined_words": 190,
+        "cap": 200,
+        "remaining_for_public_docs_final": 10,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-preorder"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/store/check-ps-store-transaction-subscription-service/",
+        "aliases": [],
+        "combined_words": 189,
+        "cap": 200,
+        "remaining_for_public_docs_final": 11,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-history"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/store/payment-methods-accepted-on-ps-store/",
+        "aliases": [],
+        "combined_words": 190,
+        "cap": 200,
+        "remaining_for_public_docs_final": 10,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-payment"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/store/ps-store-top-up-wallet/",
+        "aliases": [],
+        "combined_words": 181,
+        "cap": 200,
+        "remaining_for_public_docs_final": 19,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-wallet"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/store/ps-store-voucher-code-problems/",
+        "aliases": [],
+        "combined_words": 185,
+        "cap": 200,
+        "remaining_for_public_docs_final": 15,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-trouble"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/store/redeem-ps-store-voucher-code/",
+        "aliases": [],
+        "combined_words": 188,
+        "cap": 200,
+        "remaining_for_public_docs_final": 12,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-ps-redeem"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.playstation.com/en-us/support/subscriptions/link-status-discord/",
+        "aliases": [],
+        "combined_words": 173,
+        "cap": 200,
+        "remaining_for_public_docs_final": 27,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "ps-link-discord"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/music",
+        "aliases": [],
+        "combined_words": 128,
+        "cap": 200,
+        "remaining_for_public_docs_final": 72,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "music"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.usedkidsrecords.com/events1",
+        "aliases": [],
+        "combined_words": 76,
+        "cap": 200,
+        "remaining_for_public_docs_final": 124,
+        "article_ids": [
+          "gta6-album-listening-parties-20261114"
+        ],
+        "work_ids": [
+          "usedkids"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.xbox.com/en-US/accessories/headsets/xbox-stereo-headset",
+        "aliases": [],
+        "combined_words": 188,
+        "cap": 200,
+        "remaining_for_public_docs_final": 12,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "xbox-stereo-product"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.xbox.com/en-US/accessories/headsets/xbox-wireless-headset",
+        "aliases": [],
+        "combined_words": 159,
+        "cap": 200,
+        "remaining_for_public_docs_final": 41,
+        "article_ids": [
+          "gta6-headset-microphone-echo-party-20261114"
+        ],
+        "work_ids": [
+          "xbox-wireless-product"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      },
+      {
+        "url": "https://www.xbox.com/en-US/redeem",
+        "aliases": [],
+        "combined_words": 190,
+        "cap": 200,
+        "remaining_for_public_docs_final": 10,
+        "article_ids": [
+          "gta6-gift-buy-for-someone-20261114"
+        ],
+        "work_ids": [
+          "gift-xbox-redeem"
+        ],
+        "verbatim_quotes": 0,
+        "independent_count_reconciled": true
+      }
+    ],
+    "source_work_count": 86,
+    "source_url_count": 89,
+    "maximum_combined_source_words": 190,
+    "source_count_rule": "All ES/EN/FR source-derived paragraphs, attributed localized metadata/headings, repeated body/title aliases where applicable and bibliography/reference labels for3renders. Locale variants/mirrors/grouped venue policies share one work allowance. Public source recaps prohibited beyond reserved words.",
+    "semantic_quality_checks": {
+      "full_catalogue_topics": 214,
+      "old_prose_exact_reuse_20plus": false,
+      "new_prose_exact_reuse_20plus": false,
+      "selected_search_intents_distinct": true,
+      "Spanish_prose_manually_reviewed_all_five": true,
+      "translated_factual_segments_and_peer_reviews_checked": true,
+      "repeated_generic_paragraphs_removed_before_approval": true,
+      "hypothetical_examples_identified": true,
+      "no_claim_selected_five_are_Google_top_five": true,
+      "no_Google_ranking_or_indexing_guarantee": true,
+      "no_game_features_inferred_from_hardware_or_real_events": true
+    },
+    "preservation_requirements": {
+      "old_topics_must_stay_exactly_identical": 214,
+      "existing_related_map_must_stay_byte_identical": true,
+      "ads_design_languages_security_cache_subscriptions_automation_unchanged": true,
+      "this_agent_repository_mutations": 0,
+      "abandoned_HDMI_task_not_retried": true
+    },
+    "explicit_media_only_allowlist": {
+      "media_plan_sha256": "dd98babbf8655d5a1aacbc1ab16667356dc1a54bf435c87f08afc095489f6ecc",
+      "media_check_sha256": "cb1cefc37aef92bb5d5687c4268a0014866c2e0d1f08bfe931d95227489d84d0",
+      "allowed_after_raw_snapshot_approval": [
+        "Root cover image/imageAlt/imageCaption/imageCredit fields from verified plan",
+        "Two inline section.image objects from verified plan",
+        "Official Rockstar media bibliography credit if absent"
+      ],
+      "not_allowed": "Any prose, source-derived facts, heading, slug, metadata date or existing-article/related-map change without renewed review.",
+      "final_integrated_array_must_be_recorded_as_review_snapshot": true
+    },
+    "interest_evidence_limits": "Actual US Trends data available to root; ES/FR429with no retries. Existing popular core intents already covered. Selected complementary long-tail guides use current coverage/primary verification, not a verified top5search ranking.",
+    "counter_method_notices": [
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "atlantic",
+        "path": "sections[2].paragraphs[0]",
+        "Unicode_recalculated": 53,
+        "ledger_counter": 54
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "atlantic",
+        "path": "sections[2].heading",
+        "Unicode_recalculated": 27,
+        "ledger_counter": 28
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "atlantic",
+        "Unicode_recalculated": 167,
+        "ledger_counter": 169
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "rsd",
+        "path": "sections[7].paragraphs[1]",
+        "Unicode_recalculated": 70,
+        "ledger_counter": 69
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "rsd",
+        "Unicode_recalculated": 76,
+        "ledger_counter": 75
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "assai",
+        "path": "sections[3].paragraphs[0]",
+        "Unicode_recalculated": 82,
+        "ledger_counter": 80
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "assai",
+        "path": "paragraphHeadings.factual_city_names",
+        "Unicode_recalculated": 9,
+        "ledger_counter": 6
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "assai",
+        "Unicode_recalculated": 116,
+        "ledger_counter": 111
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "banquet",
+        "path": "sections[3].paragraphs[1]",
+        "Unicode_recalculated": 73,
+        "ledger_counter": 72
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "banquet",
+        "Unicode_recalculated": 82,
+        "ledger_counter": 81
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "endo",
+        "path": "sections[5].paragraphs[0]",
+        "Unicode_recalculated": 50,
+        "ledger_counter": 49
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "endo",
+        "path": "title+inventory",
+        "Unicode_recalculated": 54,
+        "ledger_counter": 56
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "endo",
+        "path": "tag",
+        "Unicode_recalculated": 9,
+        "ledger_counter": 12
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "endo",
+        "path": "slug",
+        "Unicode_recalculated": 22,
+        "ledger_counter": 3
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "endo",
+        "Unicode_recalculated": 141,
+        "ledger_counter": 126
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "byrdland",
+        "path": "sections[4].paragraphs[2]",
+        "Unicode_recalculated": 67,
+        "ledger_counter": 65
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "byrdland",
+        "Unicode_recalculated": 73,
+        "ledger_counter": 71
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "strictly",
+        "path": "sections[5].paragraphs[2]",
+        "Unicode_recalculated": 67,
+        "ledger_counter": 66
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "strictly",
+        "Unicode_recalculated": 73,
+        "ledger_counter": 72
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "usedkids",
+        "path": "sections[5].paragraphs[3]",
+        "Unicode_recalculated": 64,
+        "ledger_counter": 62
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "usedkids",
+        "Unicode_recalculated": 76,
+        "ledger_counter": 74
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "fingerprints",
+        "path": "sections[4].paragraphs[1]",
+        "Unicode_recalculated": 78,
+        "ledger_counter": 75
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "fingerprints",
+        "Unicode_recalculated": 84,
+        "ledger_counter": 81
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "crash",
+        "path": "sections[3].paragraphs[2]",
+        "Unicode_recalculated": 76,
+        "ledger_counter": 75
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "crash",
+        "Unicode_recalculated": 85,
+        "ledger_counter": 84
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "squarecat",
+        "path": "sections[6].paragraphs[0]",
+        "Unicode_recalculated": 83,
+        "ledger_counter": 81
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "squarecat",
+        "path": "excerpt",
+        "Unicode_recalculated": 52,
+        "ledger_counter": 53
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "squarecat",
+        "path": "sections[6].heading",
+        "Unicode_recalculated": 25,
+        "ledger_counter": 26
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "fpfaq",
+        "path": "sections[9].paragraphs[0]",
+        "Unicode_recalculated": 43,
+        "ledger_counter": 44
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "fpfaq",
+        "path": "sections[10].heading",
+        "Unicode_recalculated": 21,
+        "ledger_counter": 22
+      },
+      {
+        "name": "listening",
+        "kind": "source_counter_difference_conservative_max_used",
+        "source": "fpfaq",
+        "Unicode_recalculated": 175,
+        "ledger_counter": 177
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "music",
+        "path": "sections[8].paragraphs[0]",
+        "Unicode_recalculated": 89,
+        "ledger_counter": 88
+      },
+      {
+        "name": "listening",
+        "kind": "source_segment_counter_difference",
+        "source": "music",
+        "path": "sections[8].heading",
+        "Unicode_recalculated": 27,
+        "ledger_counter": 28
+      }
+    ],
+    "issues": []
+  },
+  "integrated_snapshot": {
+    "article_batch_sha256": "f78a477797043c5702826fb98571a329d38c9bc1e184addcab08e167aa1ddadc",
+    "media_plan_sha256": "dd98babbf8655d5a1aacbc1ab16667356dc1a54bf435c87f08afc095489f6ecc",
+    "reviewed_content": "Only the three explicitly reviewed image records and shared official-media bibliography link were attached after semantic peer review; prose, metadata, dates, H2/H3/FAQ and internal links unchanged.",
+    "equivalent_editorial_update": "Two approved English synonym substitutions; no facts, counts, slugs or dates changed. Generated utility-candidate side effect removed without build/configuration changes."
+  },
+  "media": {
+    "checked_at_utc": "2026-11-15T01:49:14.429193+00:00",
+    "selection": {
+      "listening": [
+        "drequan-priest",
+        "real-dimez",
+        "feature-stock305"
+      ],
+      "gifts": [
+        "feature-couple",
+        "region-vice-city-02",
+        "feature-launch-gallery-duo"
+      ],
+      "ventilation": [
+        "feature-safehouse-exterior",
+        "feature-safehouse-enduro",
+        "region-leonida-keys-03"
+      ],
+      "headset": [
+        "cal-hampton",
+        "boobie-ike",
+        "feature-bar"
+      ],
+      "arena": [
+        "region-vice-city-03",
+        "feature-launch-gallery-bridge",
+        "vice-city"
+      ]
+    },
+    "media": [
+      {
+        "key": "drequan-priest",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/DreQuan_Priest_01.0_0~wi-ipdj35.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/DreQuan_Priest_01.0_0~wi-ipdj35.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 752480,
+        "original_sha256": "dfc18f843c8d36a90a5329ab8715340db317083e94f6809a0aac32a39ee388f1",
+        "resized_pixel_mean_absolute_error": 2.766,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 127758,
+        "local_sha256": "1391d838e0b2ada3e027e93db149a6adefbbbc7fc0074aa2487e37b02f717107",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 75,
+        "per_image_budget": 200
+      },
+      {
+        "key": "real-dimez",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Real_Dimez_01.0djwwboo8-glx.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Real_Dimez_01.0djwwboo8-glx.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 697676,
+        "original_sha256": "50a13a1a2af35a6ac7e775ce3832d406e2a6c57c0c6119976ce5b61e1aa29418",
+        "resized_pixel_mean_absolute_error": 2.327,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 98476,
+        "local_sha256": "e8d5730c8be3699318c5c52a5d8a8ddc68fa1e775cf4b95c7e4e0f26cf841212",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 80,
+        "per_image_budget": 200
+      },
+      {
+        "key": "feature-stock305",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_STOCK_305_01.0vuq0m5_1j-17.jpg?imwidth=1400",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_STOCK_305_01.0vuq0m5_1j-17.jpg?imwidth=1400",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 1896409,
+        "original_sha256": "1bf310c07a74be74553040b3ce853dea56f89459ecd12159320416934794d84b",
+        "resized_pixel_mean_absolute_error": 3.221,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 164392,
+        "local_sha256": "6d080bee3e54297aa2168e9ed0d425b0e1f47d79c20b34aa8936940d946430ce",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 79,
+        "per_image_budget": 200
+      },
+      {
+        "key": "feature-couple",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 907752,
+        "original_sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+        "resized_pixel_mean_absolute_error": 1.592,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 65196,
+        "local_sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 76,
+        "per_image_budget": 200
+      },
+      {
+        "key": "region-vice-city-02",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 528149,
+        "original_sha256": "3f12452834bb07a0a13dabdf019881f372151d4740cdcf0937ac5fe03554d8eb",
+        "resized_pixel_mean_absolute_error": 2.174,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 97548,
+        "local_sha256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 83,
+        "per_image_budget": 200
+      },
+      {
+        "key": "feature-launch-gallery-duo",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 1017759,
+        "original_sha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57",
+        "resized_pixel_mean_absolute_error": 1.713,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 83104,
+        "local_sha256": "a5b1f81670525391afd949feb04853fe7f1599f5491d2369f5924dff9449e677",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/launch-gallery",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 83,
+        "per_image_budget": 200
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 1924231,
+        "original_sha256": "4999851a6bbfebc0ace0281480c1f81ae600e2c17e5539de5f5f61043484b8d6",
+        "resized_pixel_mean_absolute_error": 3.527,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 150756,
+        "local_sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 81,
+        "per_image_budget": 200
+      },
+      {
+        "key": "feature-safehouse-enduro",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg?imwidth=1400",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg?imwidth=1400",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 1946683,
+        "original_sha256": "b51017c4fd8cb6045f91472aea10d73ae776dfcf3b0368db2369ea5b4fd16701",
+        "resized_pixel_mean_absolute_error": 3.148,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 122660,
+        "local_sha256": "114ea8ec0d9a67ca935455640820edb01dae4bfa041d699e7923b01c639db861",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 75,
+        "per_image_budget": 200
+      },
+      {
+        "key": "region-leonida-keys-03",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_03.0v_3~-9ceyixc.jpg",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_03.0v_3~-9ceyixc.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 1118929,
+        "original_sha256": "f5cdaa8ccf1d74ba3011ac82aac2cb63dda342d6c5caabeedd54f18f84ac55d1",
+        "resized_pixel_mean_absolute_error": 3.357,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 232604,
+        "local_sha256": "a05cb8512d5725e250adc2461bc262b7ceb3ca3bec87e6d2d98286e8b97b19d3",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 81,
+        "per_image_budget": 200
+      },
+      {
+        "key": "cal-hampton",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Cal_Hampton_01.0xlil231_osh4.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Cal_Hampton_01.0xlil231_osh4.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 536588,
+        "original_sha256": "9fef7a2537ed1d54d489adbe5959c139c0df1b72b4fc8f32f7ac908fc14818df",
+        "resized_pixel_mean_absolute_error": 2.12,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 89006,
+        "local_sha256": "ef901b447b41e9c3d40a5ebb26e1595f2d39a876f8787f93f35d0c3665088b5b",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 90,
+        "per_image_budget": 200
+      },
+      {
+        "key": "boobie-ike",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Boobie_Ike_01.0-wji2pg5anfs.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Boobie_Ike_01.0-wji2pg5anfs.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 1535353,
+        "original_sha256": "dffd1367ec1358c247a9cff824c99530cd7379cbf44480698252c3a09ebffb04",
+        "resized_pixel_mean_absolute_error": 2.781,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 116384,
+        "local_sha256": "43958a13110bc970d4f46a9656693eeac2884853c18c5fcd05f8552cdb8c4c29",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 87,
+        "per_image_budget": 200
+      },
+      {
+        "key": "feature-bar",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_06.086o72llg6~1p.jpg?imwidth=1400",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 491345,
+        "original_sha256": "574868fd7e51c80dd111cef250a1f2e1c98b353fe1f156d42862e3b1c7e31970",
+        "resized_pixel_mean_absolute_error": 2.005,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 86226,
+        "local_sha256": "0e51012e3078f110b1f684e05da7f6a35fadda67e9ed1c5ca2e6ef395988867f",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 82,
+        "per_image_budget": 200
+      },
+      {
+        "key": "region-vice-city-03",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 1247197,
+        "original_sha256": "d6a56aadc2823cb97a33db087de1700f6a0fd5528b140107ec20823f23aac918",
+        "resized_pixel_mean_absolute_error": 3.158,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 231656,
+        "local_sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:49:14.340187+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 77,
+        "per_image_budget": 200
+      },
+      {
+        "key": "feature-launch-gallery-bridge",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 1132950,
+        "original_sha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1",
+        "resized_pixel_mean_absolute_error": 3.2,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 217872,
+        "local_sha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/launch-gallery",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:48:20.258590+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 81,
+        "per_image_budget": 200
+      },
+      {
+        "key": "vice-city",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "original_bytes": 894386,
+        "original_sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "resized_pixel_mean_absolute_error": 2.296,
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_dimensions": [
+          1600,
+          900
+        ],
+        "local_format": "WEBP",
+        "local_bytes": 116602,
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "owner": "Rockstar Games",
+        "credit": "GTA VI © Rockstar Games",
+        "source_page": "https://www.rockstargames.com/VI/media",
+        "visual_inspection": "Parent inspected contact sheet made only for QA; published originals unchanged.",
+        "checked_at_utc": "2026-11-15T01:49:14.340203+00:00",
+        "visual_review": "Inspected local contact sheet and additional venue-themed image; captions describe actual visible scenes.",
+        "alt_caption_credit_words_three_languages": 90,
+        "per_image_budget": 200
+      }
+    ],
+    "official_media_page": {
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context_present": true
+    },
+    "reuse": "Official promotional imagery offered for download/share, used for contextual editorial illustration with credits and original links. Copyright reserved; no unrestricted licence claimed.",
+    "network": "Managed cloud, normal verified TLS and inherited proxy. No credential used for source requests.",
+    "limits": "Images illustrate GTA VI, not real store events, consoles, hardware menus or a diagnostic result. No publication binaries changed.",
+    "media_plan_sha256": "dd98babbf8655d5a1aacbc1ab16667356dc1a54bf435c87f08afc095489f6ecc",
+    "visual_review_completed_at_utc": "2026-11-15T01:49:45.553869+00:00"
+  },
+  "preservation": {
+    "checked_at_utc": "2026-11-15T02:15:41.071Z",
+    "topics": 219,
+    "localized_versions": 657,
+    "new_topics": [
+      "gta6-gift-buy-for-someone-20261114",
+      "gta6-album-listening-parties-20261114",
+      "gta6-console-ventilation-cleaning-20261114",
+      "gta6-headset-microphone-echo-party-20261114",
+      "gta6-night-vice-city-kaseya-visit-20261114"
+    ],
+    "new_versions": 15,
+    "new_URLs": [
+      "/es/guias/regalar-gta-6-ps5-xbox-tarjetas-codigos/",
+      "/en/guides/gift-gta-6-ps5-xbox-cards-codes/",
+      "/fr/guides/offrir-gta-6-ps5-xbox-cartes-codes/",
+      "/es/guias/gta-6-fiestas-escucha-album-tiendas-entradas/",
+      "/en/guides/gta-6-album-listening-parties-stores-entry-guide/",
+      "/fr/guides/gta-6-ecoutes-album-magasins-inscriptions-guide/",
+      "/es/guias/gta-6-ps5-xbox-ventilacion-limpieza-ruido/",
+      "/en/guides/gta-6-ps5-xbox-ventilation-cleaning-noise/",
+      "/fr/guides/gta-6-ps5-xbox-ventilation-nettoyage-bruit/",
+      "/es/guias/gta-6-microfono-auriculares-eco-chat-ps5-xbox/",
+      "/en/guides/gta-6-microphone-headset-echo-party-chat-ps5-xbox/",
+      "/fr/guides/gta-6-micro-casque-echo-chat-ps5-xbox/",
+      "/es/guias/gta-6-kaseya-center-entradas-como-llegar/",
+      "/en/guides/gta-6-kaseya-center-entry-travel-guide/",
+      "/fr/guides/gta-6-kaseya-center-billets-acces-transports/"
+    ],
+    "previous_complete_topics_identical": 214,
+    "all_642_previous_URLs_preserved": true,
+    "inventory_topics": 219,
+    "inventory_paths": 657,
+    "inventory_matches_all_articles": true,
+    "critical_files_identical": 17,
+    "other_existing_tracked_files_identical": 504,
+    "tracked_preservation_method": "Strict Git blob SHA-1 comparison for every baseline-map entry, with no exceptions.",
+    "related_articles_identical": true,
+    "reviewed_batch_identical": true,
+    "reviewed_snapshot_sha256": "f78a477797043c5702826fb98571a329d38c9bc1e184addcab08e167aa1ddadc",
+    "article_batch_sha256": "f78a477797043c5702826fb98571a329d38c9bc1e184addcab08e167aa1ddadc",
+    "all_three_bundled_assets_byte_identical": true,
+    "assets": {
+      "assets/index-BkQBpQi9.css": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f",
+      "assets/index-DGtdsMGY.js": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144",
+      "assets/postscribe-wSP0-HZj.js": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+    },
+    "CSS_identical": true,
+    "both_client_JS_assets_identical": true,
+    "automation_configuration_modified_by_helper": false
+  },
+  "validation": {
+    "build_release": "passed",
+    "verify_static": "Verified 701 HTML files, 31694 internal links and 1376 structured-data blocks.\nSEO verified: 657 article URLs, 696 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.\nEditorial audit: 219 topics, 657 language URLs, 458 media uses; 0 errors and 42 review notices.",
+    "local_cases": 25,
+    "initial_image_check": "The first desktop/mobile run passed20cases and had2mobile decode assertions before an explicit resource-readiness wait. Both failed cases passed unchanged sequentially; all image variants independently decoded. The final test retains strict decoding and waits for complete/naturalWidth/currentSrc before it. Final22desktop/mobile and3tablet checks repeated after this harness adjustment.",
+    "initial_browser_log_sha256": "69e62a7957f0ff7dac26d0527f24b959d87a094e003cce21ad0cd40091ed0b9c",
+    "diagnostic_log_sha256": "eb2884c2ed79224cf8a6b2dced018829e928c3fcb329ba3486ea52196486bdb2",
+    "production": "pending",
+    "browser_engine": "Chromium cloud emulation in desktop,mobile and tablet; physical devices and Safari not certified.",
+    "SDK_limit": "Only provider SDKs are fixtures in deterministic content checks; real advertising creatives and Analytics receipt are not certified."
+  },
+  "abandoned_candidate": {
+    "topic": "HDMI/display diagnosis",
+    "operation": "Bulk official-manufacturer support GET rejected by automatic approval review as outside the current GTA6publication scope.",
+    "handling": "No retry or workaround; candidate abandoned. A distinct GTA6event logistics topic and new relevant-source operation were accepted.",
+    "evidence_sha256": "5ebc27a7708fe11a08b901abac54238867a7269a096e52fd8be78c3d45a1aeac"
+  },
+  "build_preservation_note": {
+    "diagnosis_evidence_sha256": "63611621c178d8c33fed9eb0f553bcef6b9fc89a417418ef1a3c64a8db7d7a73",
+    "cause": "The automatic style scanner interpreted one English prose term as a utility candidate. Two equivalent editorial substitutions removed the unintended generated rule; no CSS, JavaScript or build-configuration source changed.",
+    "final_strict_asset_comparison": "All three asset names and bytes match the hash-pinned published baseline after the equivalent text change.",
+    "comparison_verified_before_publication": true
+  },
+  "scope_controls": "No design, old article, old URL, related-link algorithm/data, CSS/JS, ad unit, consent, cache, security, subscription, other-project or automation-frequency change. New entries appear through the existing sitemap/category systems.",
+  "source_budget_rule": "Public evidence stores URLs, hashes, timestamps, counts and decisions only; private source bodies and assigned segment text are not committed or restated.",
+  "publication": "Pending confirmed GitHub commit, explicit Cloudflare deployment and public verification."
+}
