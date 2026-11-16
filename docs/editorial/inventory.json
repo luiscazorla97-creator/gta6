@@ -1,5 +1,80 @@
 [
   {
+    "id": "gta6-kaufland-germany-launch-offer-20261116",
+    "category": "news",
+    "published": "2026-11-16",
+    "titles": [
+      "GTA 6: oferta en Kaufland",
+      "GTA 6: Kaufland offer",
+      "GTA 6 : offre chez Kaufland"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-kaufland-oferta-alemania-ps5/",
+      "/en/news/gta-6-kaufland-germany-ps5-offer/",
+      "/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/"
+    ]
+  },
+  {
+    "id": "gta6-medal-contest-gift-card-20261116",
+    "category": "news",
+    "published": "2026-11-16",
+    "titles": [
+      "GTA 6: concurso Medal",
+      "GTA 6: Medal contest",
+      "GTA 6 : concours Medal"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-medal-concurso/",
+      "/en/news/gta-6-medal-contest/",
+      "/fr/actualites/gta-6-medal-concours/"
+    ]
+  },
+  {
+    "id": "gta6-kalshi-researcher-role-20261116",
+    "category": "news",
+    "published": "2026-11-16",
+    "titles": [
+      "GTA 6: vacante en Kalshi",
+      "GTA 6: job at Kalshi",
+      "GTA 6 : mission chez Kalshi"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-kalshi-trabajo/",
+      "/en/news/gta-6-kalshi-job/",
+      "/fr/actualites/gta-6-kalshi-mission/"
+    ]
+  },
+  {
+    "id": "gta6-xbox-quick-resume-preparation-20261116",
+    "category": "guides",
+    "published": "2026-11-16",
+    "titles": [
+      "GTA 6 y Quick Resume en Xbox: qué comprobar",
+      "GTA 6 and Xbox Quick Resume: what to check",
+      "GTA 6 et Quick Resume sur Xbox : que vérifier"
+    ],
+    "paths": [
+      "/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+      "/en/guides/gta-6-xbox-quick-resume-check-disable/",
+      "/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/"
+    ]
+  },
+  {
+    "id": "gta6-ps5-assistance-second-controller-20261116",
+    "category": "guides",
+    "published": "2026-11-16",
+    "titles": [
+      "GTA 6 PS5: mando auxiliar",
+      "GTA 6 PS5: assist controller",
+      "GTA 6 PS5 : manette auxiliaire"
+    ],
+    "paths": [
+      "/es/guias/gta-6-ps5-mando-auxiliar/",
+      "/en/guides/gta-6-ps5-assist-controller/",
+      "/fr/guides/gta-6-ps5-manette-auxiliaire/"
+    ]
+  },
+  {
     "id": "gta6-twitch-codes-rewards-guide-20261115",
     "category": "news",
     "published": "2026-11-15",

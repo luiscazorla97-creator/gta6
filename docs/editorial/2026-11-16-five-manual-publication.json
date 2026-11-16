@@ -1,0 +1,63 @@
+{
+  "state": "verified-locally-awaiting-production",
+  "checked_at_utc": "2026-11-16T17:17:05.684839+00:00",
+  "articles": [
+    {
+      "id": "gta6-kaufland-germany-launch-offer-20261116",
+      "category": "news",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/",
+        "en": "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/"
+      }
+    },
+    {
+      "id": "gta6-medal-contest-gift-card-20261116",
+      "category": "news",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+        "en": "https://fansgta.com/en/news/gta-6-medal-contest/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-medal-concours/"
+      }
+    },
+    {
+      "id": "gta6-kalshi-researcher-role-20261116",
+      "category": "news",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+        "en": "https://fansgta.com/en/news/gta-6-kalshi-job/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/"
+      }
+    },
+    {
+      "id": "gta6-xbox-quick-resume-preparation-20261116",
+      "category": "guides",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/"
+      }
+    },
+    {
+      "id": "gta6-ps5-assistance-second-controller-20261116",
+      "category": "guides",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/"
+      }
+    }
+  ],
+  "indexing": "Indexability and content delivery are verifiable; Google indexing, ranking, traffic and real Google-IP access are not established.",
+  "proof_commit_policy": "A documentation-only proof follows the runtime commit after a complete release-byte identity check, without a second production deployment."
+}

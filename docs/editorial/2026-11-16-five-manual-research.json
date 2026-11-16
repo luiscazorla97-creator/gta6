@@ -1,0 +1,551 @@
+{
+  "request": "Manual five-topic publication, with fifteen complete Spanish, English and French versions. Daily automation unchanged.",
+  "state": "verified-locally-awaiting-production",
+  "checked_at_utc": "2026-11-16T17:17:05.684839+00:00",
+  "publication_date_timezone": "America/New_York",
+  "base_main": "ab1f375db85f261e50ea0e0743ae6b16204a4015",
+  "execution": {
+    "managed_cloud": true,
+    "fresh_GitHub_main": true,
+    "user_PC_dependency": false,
+    "network": "Inherited managed proxy, normal verified TLS, existing GitHub and Cloudflare connections.",
+    "scope": "No purchases, paid services, account actions, schedule changes or messages to third parties."
+  },
+  "cloudflare_access": {
+    "checked_at_utc": "2026-11-16T16:55:46.280355+00:00",
+    "HTTP": 200,
+    "project": "fansgta",
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "canonical_deployment": {
+      "id": "c4746394-34e6-490b-80b7-8c8c6c5f8e69",
+      "commit": "fefde08a280fbfe1ddd7d9bb9ec22d3c5f66a6a0",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T00:35:04.622851Z",
+        "ended_on": "2026-11-16T00:35:25.305981Z",
+        "status": "success"
+      }
+    }
+  },
+  "selection": {
+    "topics_before": 226,
+    "versions_before": 678,
+    "catalogue_snapshot_sha256": "a1adac7803f14cd6646ae0ad62231dab3cb408d58fe9dcaca9a55fcb459cf4fa",
+    "research_record_hashes": {
+      "catalogue-review.json": "1ceb08ba001049d9c3c3de3642341561a86537bd31ee5df79138d0e19138cf62",
+      "primary-research.json": "cf3a09ac44e42452b9a4c5daca1f6dee2911bc688e7f2db1570a22748be57629",
+      "practical-research.json": "59c2c966707ae85f519e70a12d6375037b4341f4d4b4e3ad89b3c054fe204be0",
+      "final-qa.json": "02570c82f2157e9ab27ca1ddb30936eef5e2cd9c2294d1453cc8ff0083c05d8b"
+    },
+    "decision": "Five distinct intents compared with the full existing catalogue and translations. Prior relevant material is linked, without rewriting it.",
+    "signals": "Current primary publications, contemporary coverage and concrete reader questions. Qualitative only: no verified Google search-volume ranking, top-search claim or promised traffic."
+  },
+  "source_review": {
+    "approved": true,
+    "source_works": [
+      {
+        "id": "kaufland-offers",
+        "url": "https://filiale.kaufland.de/angebote/uebersicht.html",
+        "aliases": [
+          "https://filiale.kaufland.de/"
+        ],
+        "cap": 200,
+        "joint_words": 189,
+        "reserve_words": 11,
+        "article_ids": [
+          "gta6-kaufland-germany-launch-offer-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "1777bfb9f2d9ba57d5b3b08b1a30c7e9dcfacc647a507db0ca09ed8af6bf1be0"
+      },
+      {
+        "id": "kaufland-faq",
+        "url": "https://filiale.kaufland.de/service/haeufige-fragen.html",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 104,
+        "reserve_words": 96,
+        "article_ids": [
+          "gta6-kaufland-germany-launch-offer-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "a4b8a2565880782439add3ef3ab5c4664ffb35ff4eb9c3e7a1321045619f9dc7"
+      },
+      {
+        "id": "medal-medal",
+        "url": "https://medal.tv/features/gta6",
+        "aliases": [
+          "https://medal.tv/features/gta6#official-rules",
+          "https://medal.tv/quests/9Q6iL8dL1X"
+        ],
+        "cap": 200,
+        "joint_words": 187,
+        "reserve_words": 13,
+        "article_ids": [
+          "gta6-medal-contest-gift-card-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "6eb6384655bc1455d06660dc9c3e1ac1acf2ff6cde5eb26afa7df46561fe2c53"
+      },
+      {
+        "id": "medal-sony",
+        "url": "https://www.playstation.com/en-us/support/store/redeem-ps-store-voucher-code/",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 167,
+        "reserve_words": 33,
+        "article_ids": [
+          "gta6-medal-contest-gift-card-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "8f03affec746658c65f478f676424e1f135623d572ba95e8a5e16432d0b1c326"
+      },
+      {
+        "id": "medal-microsoft",
+        "url": "https://support.microsoft.com/en-us/accounts-billing/redeem-a-gift-card-or-code-to-your-microsoft-account",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 173,
+        "reserve_words": 27,
+        "article_ids": [
+          "gta6-medal-contest-gift-card-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "0354e04c9f7b03379faa216574a42dba13dfffbe1a726f23bc2ad9faf08f5577"
+      },
+      {
+        "id": "kalshi-gta6-role-20261111",
+        "url": "https://jobs.ashbyhq.com/kalshi/7b05ecd1-9db2-4f91-84fd-baa48b594b33/",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 189,
+        "reserve_words": 11,
+        "article_ids": [
+          "gta6-kalshi-researcher-role-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "ae54eece6084859c747ce3fd2f6faecdaf3e0bd4b6b8b27c1a86878af13b35e2"
+      },
+      {
+        "id": "quick-resume-store",
+        "url": "https://www.xbox.com/en-US/games/store/grand-theft-auto-vi/9nl3wwnzlzzn",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 161,
+        "reserve_words": 39,
+        "article_ids": [
+          "gta6-xbox-quick-resume-preparation-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "51f38fd5689ef434cbce46d7b54553fb21804c36a19a003793b9b2424f5d39f9"
+      },
+      {
+        "id": "quick-resume-support",
+        "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/get-back-to-your-game-instantly-with-quick-resume",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 175,
+        "reserve_words": 25,
+        "article_ids": [
+          "gta6-xbox-quick-resume-preparation-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "8c0ed43d632c53c6b542b044b3f3205cba6bdf80203150a5eeab174dfd448208"
+      },
+      {
+        "id": "quick-resume-april",
+        "url": "https://news.xbox.com/en-us/2026/04/30/april-xbox-update-2026/",
+        "aliases": [
+          "https://news.xbox.com/en-us/2026/04/30/april-xbox-update-2026/?ocid=Platform_soc_omc_xbo_tw_Link_lrn_4.30.2"
+        ],
+        "cap": 200,
+        "joint_words": 157,
+        "reserve_words": 43,
+        "article_ids": [
+          "gta6-xbox-quick-resume-preparation-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "1e7fa9a0748f13134ab57651b725c1b87ccd48316176b07e62aeabbc476ab16e"
+      },
+      {
+        "id": "assist-assist",
+        "url": "https://www.playstation.com/en-us/support/hardware/second-controller-assistance/",
+        "aliases": [
+          "https://www.playstation.com/es-es/support/hardware/second-controller-assistance/",
+          "https://www.playstation.com/fr-fr/support/hardware/second-controller-assistance/"
+        ],
+        "cap": 200,
+        "joint_words": 187,
+        "reserve_words": 13,
+        "article_ids": [
+          "gta6-ps5-assistance-second-controller-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "2213cd2ed5a2341e65723dfabc05ada0deeb08084021b63105a1feeb93a7b288"
+      },
+      {
+        "id": "assist-access",
+        "url": "https://www.playstation.com/en-us/support/hardware/connect-multiple-access/",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 105,
+        "reserve_words": 95,
+        "article_ids": [
+          "gta6-ps5-assistance-second-controller-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "8172b2e0120ff498766d4e6717386795cb7f86cee9e4871558ca016073286cdb"
+      },
+      {
+        "id": "assist-announcement",
+        "url": "https://blog.playstation.com/2023/09/13/ps5-update-rolls-out-globally-with-new-accessibility-audio-and-social-feature-enhancements/",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 106,
+        "reserve_words": 94,
+        "article_ids": [
+          "gta6-ps5-assistance-second-controller-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "f2de300b29b126cc8dafe77275dc2b940b66c229d5ba00142e7ab52a4a30dd04"
+      }
+    ],
+    "budget_method": "The three languages, repeated factual metadata/headings, lead aliases and reference labels share each original work’s observed limit. Aliases and retellings are grouped. Public records retain only decisions, paths, counts and hashes, without additional factual synopses.",
+    "restricted_work_usage": 0
+  },
+  "media": {
+    "checked_at_utc": "2026-11-16T17:03:33.763997+00:00",
+    "images": [
+      {
+        "key": "feature-phone",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "c5bd34d1d328ce465d33f0aad4a7af7359ca1f81d95434019243518a5af3f00f",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 68872,
+        "local_sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+        "resized_original_mean_absolute_error": 1.78754,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "region-leonida-keys-03",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_03.0v_3~-9ceyixc.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "f5cdaa8ccf1d74ba3011ac82aac2cb63dda342d6c5caabeedd54f18f84ac55d1",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 232604,
+        "local_sha256": "a05cb8512d5725e250adc2461bc262b7ceb3ca3bec87e6d2d98286e8b97b19d3",
+        "resized_original_mean_absolute_error": 3.35715,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "region-port-gellhorn-02",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_02.00e7cz6lwrup-.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "a4d4d56a5fa127fcf6afdc8fedd2f6ef190799ca9275e5c5b0fcb0e127238cee",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 100334,
+        "local_sha256": "bc3008887d8e4b05a1ecdf85874bc027672ab5262904567497c572082b0a5ace",
+        "resized_original_mean_absolute_error": 2.20053,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "region-ambrosia-02",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_02.0wtqs05ozl.ym.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "b1804c192c61277e083b57677fe9b7520e59dc30aaf86c3b77305e3bdde872c7",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 73828,
+        "local_sha256": "abdda8dfb0cdcb5cc1e79158069956000737bb8c4f76cccab42d347ce328b441",
+        "resized_original_mean_absolute_error": 1.80258,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "region-ambrosia-03",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Ambrosia_03.0vt46a.1s.7-y.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "0231137253b248160422658b6e51dfe7d6610544f336033ec8580cc72e66915c",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 103904,
+        "local_sha256": "4d1fa116cdc04a5d0ecb1e4c1f732b94d7f5c6a18cb9e1395ccd554711797ca8",
+        "resized_original_mean_absolute_error": 2.19338,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "feature-diving",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_04.0hce1rw1s8pd9.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "800b091c1c69e2885c71d7278aac0fae9f1284c6bdedf6e08a5dbab298c9e0c3",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 97286,
+        "local_sha256": "d19fbc12ac07fcea5814e5dc2ce5f8af9971cb8420dddd91b84bf83707674c2f",
+        "resized_original_mean_absolute_error": 2.23081,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "feature-wyman-01",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_01.0swhrm__iu~6b.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "ddf2d341d489c7bedbe780333e25518f72411ea0b46b59a62a0ac37ecd3f1d8e",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 110660,
+        "local_sha256": "47579be2b2009da63ff11a8625acc48b47d5fc196eb37193ba3a05dd6e6d9f98",
+        "resized_original_mean_absolute_error": 2.5662,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "feature-stock305",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_STOCK_305_01.0vuq0m5_1j-17.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "1bf310c07a74be74553040b3ce853dea56f89459ecd12159320416934794d84b",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 164392,
+        "local_sha256": "6d080bee3e54297aa2168e9ed0d425b0e1f47d79c20b34aa8936940d946430ce",
+        "resized_original_mean_absolute_error": 3.22113,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "feature-saras",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SARAS_SALON_01.0gn7dwlvcgz17.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "beecccd2ccdedc1f46029847e73a73084225c49f803446c1b680c986c330325b",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 95336,
+        "local_sha256": "879e00d50e8d188633a97fe1f7d62116bb46a9774f1f6d1e5ea7dd4e6289eb64",
+        "resized_original_mean_absolute_error": 2.20771,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "feature-electricfang",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_ELECTRIC_FANG_02.0a0h59s0zvhgc.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "7fe2c55a601079ece8e384b9ca315297043266fd86058c05691f31fada56d288",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 77700,
+        "local_sha256": "43b3c666105b7e4346550917f51d413fc7312f013cf07b9188958c86a9417add",
+        "resized_original_mean_absolute_error": 2.1075,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      }
+    ],
+    "rights": {
+      "source_page": "https://www.rockstargames.com/VI/media",
+      "HTTP": 200,
+      "source_sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context_observed": true,
+      "decision": "Existing authentic official promotional images, used with credit in original editorial commentary; optimized encodes only. Copyright reserved; no unrestricted licence asserted.",
+      "no_new_media_binaries": true
+    }
+  },
+  "preservation": {
+    "ok": true,
+    "counts": {
+      "oldTopics": 226,
+      "oldVersions": 678,
+      "newTopics": 5,
+      "newVersions": 15,
+      "totalTopics": 231,
+      "totalVersions": 693,
+      "inventory": 231,
+      "trackedFiles": 529,
+      "criticalFiles": 22,
+      "assets": 3
+    },
+    "hashes": {
+      "reviewedBatch": "54fa8dfdac1e8517dd8deba6070201ac4478543239ce1a3600f86f191d91dd80",
+      "reviewedBatchBytes": "8090ddc11d0f2e93ca8d6f26325388831d31e2aaa0e8b44e5f2dacd522ead820",
+      "originalArticles": "90f501a4a9925478544d1821e183aa31fbbd1258f7fc2131bce93136f94c1bfa",
+      "originalPaths": "69b78de4a048650d0a441248e9a544907e3b89ea27cf9237b7229a33e2498df5",
+      "finalArticles": "daa788004eed27d1ec351da7ad4efa837aee6dc2e875d0523cd021e12919c3ea",
+      "finalPaths": "c7ed636d1bd7ea8ae8fd89b1e666574688d2332579c728f5b5d593c560654477",
+      "inventory": "292be8874e882029d7d69609a6d584ac3215410f367c182d6431c86e5e349575",
+      "trackedFiles": "1267b7be222bc5a534c5b16a49d6a2e619edbba3f07099a4eb8bfd063885dd64",
+      "criticalFiles": "2a5b80807a4a30bbe2ff26cb7de46117e516cbbe6a4ca64168b9352c747332c0",
+      "assets": "1f4def985d97bcae7dbefef0bc75ff2f86710428548de0f0cbaf27b722c30b01"
+    },
+    "assets": {
+      "assets/index-DGtdsMGY.js": {
+        "bytes": 359942,
+        "sha256": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144"
+      },
+      "assets/index-BkQBpQi9.css": {
+        "bytes": 57621,
+        "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+      },
+      "assets/postscribe-wSP0-HZj.js": {
+        "bytes": 18060,
+        "sha256": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "gta6-kaufland-germany-launch-offer-20261116",
+      "category": "news",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/",
+        "en": "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/"
+      }
+    },
+    {
+      "id": "gta6-medal-contest-gift-card-20261116",
+      "category": "news",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+        "en": "https://fansgta.com/en/news/gta-6-medal-contest/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-medal-concours/"
+      }
+    },
+    {
+      "id": "gta6-kalshi-researcher-role-20261116",
+      "category": "news",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+        "en": "https://fansgta.com/en/news/gta-6-kalshi-job/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/"
+      }
+    },
+    {
+      "id": "gta6-xbox-quick-resume-preparation-20261116",
+      "category": "guides",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/"
+      }
+    },
+    {
+      "id": "gta6-ps5-assistance-second-controller-20261116",
+      "category": "guides",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/"
+      }
+    }
+  ],
+  "validation": {
+    "release_build": "npm run build:release",
+    "static_verification": "node scripts/verify-static.mjs",
+    "local_browser_cases": 25,
+    "expected_production_browser_cases": 9,
+    "limitations": "Provider-host fixtures make browser content tests deterministic; no own-origin interception. They do not certify actual creative delivery or Analytics receipt. Chromium desktop/mobile/tablet emulation is not physical-device or Safari certification.",
+    "editorial_audit": {
+      "errors": 0,
+      "existing_review_notices": 42,
+      "new_article_review_notices": 0,
+      "notice_limit": "Existing manual-review signals are not evidence of duplication or a Google indexing diagnosis; this batch does not rewrite unrelated articles."
+    }
+  }
+}
