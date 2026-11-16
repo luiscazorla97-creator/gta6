@@ -1,6 +1,6 @@
 # Ejecución diaria — 16 de noviembre de 2026
 
-Estado: verified-locally-awaiting-production.
+Estado: published-and-publicly-verified.
 
 Un único tema nuevo con tres versiones completas. Se contrastó su intención con los 231 artículos previos y todas sus traducciones. La actividad Quest anterior se conserva y enlaza; no se divide la misma noticia en páginas repetidas.
 
@@ -13,6 +13,10 @@ Investigación, fechas, accesos, derechos de las imágenes y límites conjuntos 
 - 535 archivos existentes, 22 críticos y tres bundles CSS/JS conservados por hash.
 - Dos imágenes oficiales existentes, WebP responsive, procedencia y comparación visual verificadas; ALT, pie y crédito en los tres idiomas.
 - 25 casos locales de navegador aprobados, con escritorio, móvil y tablet.
+- Producción confirmada en Cloudflare y 735 URLs canónicas públicas HTTP 200.
+- Las tres versiones nuevas y las 696 versiones de artículos coinciden con release; 301 recursos comprobados.
+- Nueve casos públicos de navegador aprobados, con 18 decodificaciones de imagen y nueve cambios de idioma.
+- Tres comprobaciones con User-Agent declarado de Googlebot correctas; no equivalen a IPs reales de Google ni a inspección de Search Console.
 
 Los SDK de publicidad y analítica se simulan únicamente en pruebas para comprobar el contenido y la navegación; no se certifica entrega de creatividades ni recepción de eventos. Se utiliza emulación Chromium, sin certificar Safari ni dispositivos físicos.
 

@@ -1,6 +1,6 @@
 {
-  "state": "verified-locally-awaiting-production",
-  "checked_at_utc": "2026-11-16T22:27:21.207258+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-16T22:33:23.259959+00:00",
   "articles": [
     {
       "id": "gta6-discord-vice-city-theme-20261116",
@@ -15,5 +15,195 @@
     }
   ],
   "indexing": "HTTP/indexability and delivery can be verified; Google indexing, ranking, traffic and actual Google-IP access are not established.",
-  "proof_commit_policy": "Documentation-only evidence follows the runtime commit after all release bytes are verified identical, without a second deployment."
+  "proof_commit_policy": "Documentation-only evidence follows the runtime commit after all release bytes are verified identical, without a second deployment.",
+  "runtime_commit": {
+    "sha": "bf062f58c54e8168d7be2c7cbec2220fa07632fc",
+    "tree": "7ecc4cb28a5eeba83bfb8a24da76796467e93336",
+    "parent": "6ca9de591e7b2fc3bc95b0d06db1ff82129337f1"
+  },
+  "cloudflare": {
+    "checked_at_utc": "2026-11-16T22:32:01.103803+00:00",
+    "deployment": {
+      "id": "d848c8d7-cb99-4904-9eff-cb7d425fe20c",
+      "environment": "production",
+      "url": "https://d848c8d7.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T22:31:19.319247Z",
+        "ended_on": "2026-11-16T22:31:46.48291Z",
+        "status": "success"
+      },
+      "commit": "bf062f58c54e8168d7be2c7cbec2220fa07632fc"
+    },
+    "canonical": {
+      "id": "d848c8d7-cb99-4904-9eff-cb7d425fe20c",
+      "environment": "production",
+      "url": "https://d848c8d7.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T22:31:19.319247Z",
+        "ended_on": "2026-11-16T22:31:46.48291Z",
+        "status": "success"
+      },
+      "commit": "bf062f58c54e8168d7be2c7cbec2220fa07632fc"
+    }
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-16T22:32:10.029867+00:00",
+    "finished_at_utc": "2026-11-16T22:33:08.412240+00:00",
+    "canonical_URLs": 735,
+    "article_versions": 696,
+    "new_versions": 3,
+    "status": {
+      "200": 735
+    },
+    "locales": {
+      "en": 245,
+      "es": 245,
+      "fr": 245
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "method": "Normal canonical HTTPS GETs through the inherited managed proxy with default certificate verification. Public HTML is compared to the hash-pinned release after removing at most one exact pinned Cloudflare beacon and no other content. Twelve legal pages receive HTTP/meta checks only because of existing email transforms. Public nonHTML uses decoded HTTP entity bytes without content rewriting. No account action or Google indexing claim.",
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or Search Console URL Inspection; these requests do not prove indexing or absence of all real-bot restrictions.",
+    "sitemap_new_URLs_unique": true
+  },
+  "matched_release_HTML": 723,
+  "matched_article_versions": 696,
+  "legal_pages_HTTP_and_metadata_only": 12,
+  "public_verification_sha256": "4bf4ce9c110979b401bc5839c2dab34c9f31aeadf2ca0a83079b712a3e1b14da",
+  "new_article_details": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/",
+        "en": "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/region-vice-city-02.webp",
+        "/media/region-vice-city-03.webp"
+      ],
+      "normalized_sha256": "83f15e6fb1bbdf96550dd879058238ee561637bbac3e99a57c1a4a81db997c85",
+      "release_sha256": "83f15e6fb1bbdf96550dd879058238ee561637bbac3e99a57c1a4a81db997c85",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/",
+        "en": "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/region-vice-city-02.webp",
+        "/media/region-vice-city-03.webp"
+      ],
+      "normalized_sha256": "4e3a8af83ff9d829245a4216c535d18c64408ac2fafa5479aa22dc4aa01ac24f",
+      "release_sha256": "4e3a8af83ff9d829245a4216c535d18c64408ac2fafa5479aa22dc4aa01ac24f",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/",
+        "en": "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/region-vice-city-02.webp",
+        "/media/region-vice-city-03.webp"
+      ],
+      "normalized_sha256": "4e56a9eaa6210c77d47d3755ab034a7f6d2beb307e5ce3df2b60dbc8ff64dade",
+      "release_sha256": "4e56a9eaa6210c77d47d3755ab034a7f6d2beb307e5ce3df2b60dbc8ff64dade",
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-medal-contest/",
+      "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/"
+    ],
+    "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+      "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/"
+    ],
+    "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/",
+      "https://fansgta.com/fr/actualites/gta-6-medal-concours/"
+    ]
+  },
+  "browser": {
+    "local_cases": 25,
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 9,
+    "production_image_decodes": 18,
+    "production_language_changes": 9,
+    "errors": 0,
+    "engine": "Chromium cloud desktop/mobile/tablet emulation.",
+    "provider_fixtures": "Adsterra/AdSense/GTM provider hosts only. No own-origin interception; real creative delivery and Analytics receipt not certified."
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ]
 }

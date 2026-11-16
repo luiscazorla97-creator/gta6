@@ -1,7 +1,7 @@
 {
   "request": "Daily automation: one GTA VI news topic and three complete Spanish, English and French versions. Manual batches do not change this scope.",
-  "state": "verified-locally-awaiting-production",
-  "checked_at_utc": "2026-11-16T22:27:21.207258+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-16T22:33:23.259959+00:00",
   "execution": {
     "main": "6ca9de591e7b2fc3bc95b0d06db1ff82129337f1",
     "fetch_confirmed": true,
@@ -232,5 +232,16 @@
       "limit": "Similarity warnings are manual-review signals, not proof of duplication or a Google indexing diagnosis."
     }
   },
-  "scope": "No advertising, design, subscriptions, security/cache rules, schedule changes, purchases, account actions or messages to third parties. No other project modified."
+  "scope": "No advertising, design, subscriptions, security/cache rules, schedule changes, purchases, account actions or messages to third parties. No other project modified.",
+  "publication_evidence": {
+    "runtime_commit": "bf062f58c54e8168d7be2c7cbec2220fa07632fc",
+    "deployment": "d848c8d7-cb99-4904-9eff-cb7d425fe20c",
+    "public_verification_sha256": "4bf4ce9c110979b401bc5839c2dab34c9f31aeadf2ca0a83079b712a3e1b14da",
+    "canonical_HTTP_200": 735,
+    "article_versions": 696,
+    "new_versions": 3,
+    "matched_resources": 301,
+    "issues": 0,
+    "browser_cases": 34
+  }
 }

@@ -637,4 +637,4 @@ Publicado y verificado en producción. Cinco temas, quince versiones ES/EN/FR; c
 
 ## Ejecución diaria — 2026-11-16
 
-Validado localmente; pendiente de despliegue y verificación pública. Un tema y tres versiones ES/EN/FR; catálogo final 232 temas/696 versiones. Los 231 artículos anteriores, sus 693 URLs, publicidad, diseño, idiomas, consentimiento y programación diaria permanecen intactos. Evidencias e informe: docs/editorial/2026-11-16-daily-discord-{research.json,publication.json,informe.md}. No se prometen volúmenes, indexación ni posiciones. Límite diario: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.
+Publicado y verificado en producción. Un tema y tres versiones ES/EN/FR; catálogo final 232 temas/696 versiones. Los 231 artículos anteriores, sus 693 URLs, publicidad, diseño, idiomas, consentimiento y programación diaria permanecen intactos. Evidencias e informe: docs/editorial/2026-11-16-daily-discord-{research.json,publication.json,informe.md}. No se prometen volúmenes, indexación ni posiciones. Límite diario: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.
