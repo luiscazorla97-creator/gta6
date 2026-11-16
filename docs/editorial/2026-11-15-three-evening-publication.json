@@ -1,6 +1,6 @@
 {
-  "state": "pending-deployment-and-public-verification",
-  "checked_at_utc": "2026-11-16T00:31:32.424035+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-16T00:36:55.683221+00:00",
   "articles": [
     {
       "id": "gta6-twitch-codes-rewards-guide-20261115",
@@ -35,5 +35,431 @@
         "fr": "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/"
       }
     }
-  ]
+  ],
+  "runtime_commit": {
+    "sha": "fefde08a280fbfe1ddd7d9bb9ec22d3c5f66a6a0",
+    "tree": "0b97917385a7510468cdf2e13afd772f7b827ddb",
+    "parent": "f5e6747b61956fc00e136b096745264dc9c64212"
+  },
+  "cloudflare": {
+    "deployment": {
+      "id": "c4746394-34e6-490b-80b7-8c8c6c5f8e69",
+      "environment": "production",
+      "url": "https://c4746394.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T00:35:04.622851Z",
+        "ended_on": "2026-11-16T00:35:25.305981Z",
+        "status": "success"
+      },
+      "commit": "fefde08a280fbfe1ddd7d9bb9ec22d3c5f66a6a0"
+    },
+    "canonical": {
+      "id": "c4746394-34e6-490b-80b7-8c8c6c5f8e69",
+      "environment": "production",
+      "url": "https://c4746394.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T00:35:04.622851Z",
+        "ended_on": "2026-11-16T00:35:25.305981Z",
+        "status": "success"
+      },
+      "commit": "fefde08a280fbfe1ddd7d9bb9ec22d3c5f66a6a0"
+    },
+    "checked_at_utc": "2026-11-16T00:35:28.006093+00:00"
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-16T00:35:37.508728+00:00",
+    "finished_at_utc": "2026-11-16T00:36:36.290372+00:00",
+    "canonical_URLs": 717,
+    "article_versions": 678,
+    "new_versions": 9,
+    "status": {
+      "200": 717
+    },
+    "locales": {
+      "en": 239,
+      "es": 239,
+      "fr": 239
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "method": "Normal canonical HTTPS GETs through the inherited managed proxy with default certificate verification. Public HTML is compared to the hash-pinned release after removing at most one exact pinned Cloudflare beacon, and no other source content. Twelve legal pages receive HTTP/meta checks only because of existing email transforms. Public nonHTML uses decoded HTTP entity bytes without content rewriting. No account action or Google indexing claim.",
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or Search Console URL Inspection; these requests do not prove indexing or absence of all real-bot restrictions.",
+    "sitemap_new_URLs_unique": true
+  },
+  "matched_release_HTML": 705,
+  "matched_article_versions": 678,
+  "legal_pages_HTTP_and_metadata_only": 12,
+  "public_verification_sha256": "d739bc4f73edcdd3442612ddf43498fadbab1d63e28d3d0280923cede2a763d9",
+  "new_article_details": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 10,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-boats.webp",
+        "/media/region-leonida-keys-02.webp"
+      ],
+      "normalized_sha256": "8b6eb539125f0ed7d3fca4af6f872f2f1433ead502551bb5913dfc5b5c7657e2",
+      "release_sha256": "8b6eb539125f0ed7d3fca4af6f872f2f1433ead502551bb5913dfc5b5c7657e2",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-fight.webp"
+      ],
+      "normalized_sha256": "3b8047f2ce8c91004a364b2b65607022cc77d0b3aef80325921c1f2c2714d05c",
+      "release_sha256": "3b8047f2ce8c91004a364b2b65607022cc77d0b3aef80325921c1f2c2714d05c",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-twitch-codes/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-twitch-codes/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/",
+        "en": "https://fansgta.com/en/news/gta-6-twitch-codes/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-twitch-codes/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp"
+      ],
+      "normalized_sha256": "8603d2c2b31de5ebe038ba39a6b80c0228e2ad36d556df3bafbbfaf471e68ff0",
+      "release_sha256": "8603d2c2b31de5ebe038ba39a6b80c0228e2ad36d556df3bafbbfaf471e68ff0",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-fight.webp"
+      ],
+      "normalized_sha256": "93625dd91d92df75af90c49d7f37d354306be8dd7b908e06be8e06d845ea8036",
+      "release_sha256": "93625dd91d92df75af90c49d7f37d354306be8dd7b908e06be8e06d845ea8036",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 10,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-boats.webp",
+        "/media/region-leonida-keys-02.webp"
+      ],
+      "normalized_sha256": "e577b2357ae7c1f3ecce43d18e09cd9e52a9d7ca3415a37dbaa99a9b9b0dc3c9",
+      "release_sha256": "e577b2357ae7c1f3ecce43d18e09cd9e52a9d7ca3415a37dbaa99a9b9b0dc3c9",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-twitch-codigos/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/",
+        "en": "https://fansgta.com/en/news/gta-6-twitch-codes/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-twitch-codes/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp"
+      ],
+      "normalized_sha256": "48c6dd10cf97ea9bb46bf9b7f75389cebb4cc34da7de64f994b77578ffc40f9b",
+      "release_sha256": "48c6dd10cf97ea9bb46bf9b7f75389cebb4cc34da7de64f994b77578ffc40f9b",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-twitch-codes/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-twitch-codes/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/",
+        "en": "https://fansgta.com/en/news/gta-6-twitch-codes/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-twitch-codes/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp"
+      ],
+      "normalized_sha256": "dcad84f0b6efc8d58508f8daa3aaa488ce15e71cac3b6ea0f385a0217f45103a",
+      "release_sha256": "dcad84f0b6efc8d58508f8daa3aaa488ce15e71cac3b6ea0f385a0217f45103a",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-fight.webp"
+      ],
+      "normalized_sha256": "bcb1d993de08b430e5a3afa6ff52687ec6ab8cc30e127e4280655681935342de",
+      "release_sha256": "bcb1d993de08b430e5a3afa6ff52687ec6ab8cc30e127e4280655681935342de",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 10,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-boats.webp",
+        "/media/region-leonida-keys-02.webp"
+      ],
+      "normalized_sha256": "97e6927dcbd86eb88d699a59e2b490dbde0e21e87353036ca38131dd46135b47",
+      "release_sha256": "97e6927dcbd86eb88d699a59e2b490dbde0e21e87353036ca38131dd46135b47",
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/prepare-console-account-launch/"
+    ],
+    "https://fansgta.com/en/news/gta-6-twitch-codes/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+      "https://fansgta.com/en/gta-online/free-turismo-omaggio-twitch-drops-nopixel/",
+      "https://fansgta.com/en/guides/gta-6-streamer-mode-music-copyright-twitch-youtube/",
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/"
+    ],
+    "https://fansgta.com/es/noticias/gta-6-twitch-codigos/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/gta-online/turismo-omaggio-gratis-twitch-drops-nopixel/",
+      "https://fansgta.com/es/guias/gta-6-modo-streamer-musica-copyright-twitch-youtube/",
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/",
+      "https://fansgta.com/es/trucos/verificar-trucos-gta-6/"
+    ],
+    "https://fansgta.com/fr/actualites/gta-6-twitch-codes/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/",
+      "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+      "https://fansgta.com/fr/gta-online/turismo-omaggio-gratuite-twitch-drops-nopixel/",
+      "https://fansgta.com/fr/guides/gta-6-mode-streamer-musique-droits-twitch-youtube/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/preparer-console-compte-sortie/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/"
+    ]
+  },
+  "browser": {
+    "local_cases": 25,
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 27,
+    "production_image_decodes": 54,
+    "production_language_changes": 27,
+    "errors": 0,
+    "engine": "Chromium desktop/mobile/tablet cloud emulation; not physical-device or Safari certification.",
+    "provider_fixtures": "Adsterra/AdSense/GTM provider hosts only for deterministic content tests. No own-origin interception. Real creative delivery and Analytics receipt not certified."
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-twitch-codes/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-twitch-codes/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "indexing": "HTTP/indexability and content delivery verified, not Google indexing, traffic, ranking, actual Google IP access or Search Console inspection.",
+  "proof_commit_policy": "Documentation-only proof follows this runtime commit; release-byte identity is required before recording it. No duplicate production deployment."
 }

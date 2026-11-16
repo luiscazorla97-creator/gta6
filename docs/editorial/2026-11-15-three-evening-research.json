@@ -1,6 +1,6 @@
 {
   "request": "Manual publication of three new GTA VI topics, nine complete versions; no change to the daily automation.",
-  "state": "prepared-pending-deployment-and-public-verification",
+  "state": "published-and-publicly-verified",
   "checked_at_utc": "2026-11-16T00:31:32.424035+00:00",
   "publication_date_timezone": "America/New_York",
   "base_main": "f5e6747b61956fc00e136b096745264dc9c64212",
@@ -484,10 +484,24 @@
     "build_release": "passed",
     "static_checks": "Verified 722 HTML files, 32708 internal links and 1418 structured-data blocks.\nSEO verified: 678 article URLs, 717 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.\nEditorial audit: 226 topics, 678 language URLs, 475 media uses; 0 errors and 42 review notices.",
     "local_browser_cases": 25,
-    "production": "pending",
+    "production": {
+      "cases": 9,
+      "public_URLs": 717,
+      "article_versions": 678,
+      "new_versions": 9,
+      "resources": 301,
+      "issues": 0
+    },
     "browser_limits": "Chromium cloud emulation of desktop/mobile/tablet; not Safari or physical-device certification. Provider SDK fixtures apply only in deterministic content tests; no actual creative delivery or Analytics receipt certification."
   },
   "unchanged": "All223 previous article objects,669 paths,523 tracked files,22 critical files and three CSS/JS assets preserved. Design, ads, consent, security, cache, subscriptions, other projects and daily cadence unchanged.",
   "schedule": "One topic per daily execution through November19,2026 inclusive, America/New_York; manual batch does not change it.",
-  "indexing": "Technical indexability checked; no guaranteed indexing, timing, rank or traffic."
+  "indexing": "Technical indexability checked; no guaranteed indexing, timing, rank or traffic.",
+  "publication": {
+    "state": "published-and-publicly-verified",
+    "runtime_commit": "fefde08a280fbfe1ddd7d9bb9ec22d3c5f66a6a0",
+    "cloudflare_deployment": "c4746394-34e6-490b-80b7-8c8c6c5f8e69",
+    "evidence": "docs/editorial/2026-11-15-three-evening-publication.json",
+    "verified_at_utc": "2026-11-16T00:36:55.683221+00:00"
+  }
 }
