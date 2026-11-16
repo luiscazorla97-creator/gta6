@@ -634,3 +634,7 @@ Los tres temas y sus nueve versiones están publicados: HTTP 200, HTML inicial, 
 ## Lote manual de cinco temas — 2026-11-16
 
 Publicado y verificado en producción. Cinco temas, quince versiones ES/EN/FR; catálogo de 231 temas y 693 versiones. Publicidad, diseño, artículos anteriores y automatización diaria conservados. Investigación, deduplicación, límites de fuentes y evidencia en docs/editorial/2026-11-16-five-manual-{research.json,publication.json,informe.md}. Las métricas técnicas no prometen indexación ni posiciones.
+
+## Ejecución diaria — 2026-11-16
+
+Validado localmente; pendiente de despliegue y verificación pública. Un tema y tres versiones ES/EN/FR; catálogo final 232 temas/696 versiones. Los 231 artículos anteriores, sus 693 URLs, publicidad, diseño, idiomas, consentimiento y programación diaria permanecen intactos. Evidencias e informe: docs/editorial/2026-11-16-daily-discord-{research.json,publication.json,informe.md}. No se prometen volúmenes, indexación ni posiciones. Límite diario: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.

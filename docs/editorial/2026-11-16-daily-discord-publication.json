@@ -1,0 +1,19 @@
+{
+  "state": "verified-locally-awaiting-production",
+  "checked_at_utc": "2026-11-16T22:27:21.207258+00:00",
+  "articles": [
+    {
+      "id": "gta6-discord-vice-city-theme-20261116",
+      "category": "news",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/",
+        "en": "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/"
+      }
+    }
+  ],
+  "indexing": "HTTP/indexability and delivery can be verified; Google indexing, ranking, traffic and actual Google-IP access are not established.",
+  "proof_commit_policy": "Documentation-only evidence follows the runtime commit after all release bytes are verified identical, without a second deployment."
+}

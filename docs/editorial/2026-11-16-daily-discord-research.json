@@ -1,0 +1,236 @@
+{
+  "request": "Daily automation: one GTA VI news topic and three complete Spanish, English and French versions. Manual batches do not change this scope.",
+  "state": "verified-locally-awaiting-production",
+  "checked_at_utc": "2026-11-16T22:27:21.207258+00:00",
+  "execution": {
+    "main": "6ca9de591e7b2fc3bc95b0d06db1ff82129337f1",
+    "fetch_confirmed": true,
+    "cloud": true,
+    "checked_at_utc": "2026-11-16T22:16:58.403378+00:00",
+    "NY": "2026-11-16T17:16:58.403765-05:00",
+    "topics": 231,
+    "versions": 693
+  },
+  "deadline": {
+    "date_inclusive": "2026-11-19",
+    "timezone": "America/New_York",
+    "schedule_changed": false
+  },
+  "cloudflare_access": {
+    "checked_at_utc": "2026-11-16T22:17:14.632500+00:00",
+    "HTTP": 200,
+    "project": "fansgta",
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "canonical": {
+      "id": "86f701e8-1856-42ac-af9e-8decca935bd5",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T17:20:33.906523Z",
+        "ended_on": "2026-11-16T17:21:00.161308Z",
+        "status": "success"
+      },
+      "commit": "0785a4358f91814bf279d984d76d3f7475be2123"
+    }
+  },
+  "selection": {
+    "topics_before": 231,
+    "versions_before": 693,
+    "catalogue_snapshot_sha256": "524cc7a6eb20c76920bc31d3b3bdc8535ec47e819d900802850ca9a4727ecef3",
+    "catalogue_review_sha256": "0fe049c183b9af1300f6e881d72e400d017f24fa21e6e9eac99f1bd0ad666467",
+    "primary_research_sha256": "ed1ab48a6fb669dc925b0d7f52d941121e37d68bc1c1595d6ffcde93d02b0490",
+    "final_qa_sha256": "eb500563f303805bd7e65434e5fe5ae7ed4e7257fba820fc9a30e1e108b1e0af",
+    "decision": "A new intent compared with the full catalogue and translations. The existing Quest guide covers a separate activity and is linked, without rewriting it.",
+    "signals": "Dated primary announcement and contemporary independent coverage; qualitative only, without invented Google volume, ranking or traffic estimates."
+  },
+  "source_review": {
+    "approved": true,
+    "source_works": [
+      {
+        "id": "discord-vice-city-announcement",
+        "url": "https://discord.com/blog/vice-city-theme-available-in-discord",
+        "aliases": [
+          "https://x.com/discord",
+          "https://www.dexerto.com/gta/discord-teams-up-with-rockstar-for-vice-city-theme-to-celebrate-gta-6-launch-3428758/",
+          "https://gamesbeat.com/discord-adds-a-vice-city-theme-app-icon-and-name-style-ahead-of-grand-theft-auto-vi/"
+        ],
+        "cap": 200,
+        "joint_words": 184,
+        "reserve_words": 16,
+        "article_ids": [
+          "gta6-discord-vice-city-theme-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "c815b7c9d9f520fd5e911a0bf4088926ca6b2e56cfca73a08ad7fa7cbf9e9d19"
+      },
+      {
+        "id": "discord-appearance-support",
+        "url": "https://support.discord.com/hc/en-us/articles/207260127-How-to-Change-Discord-Color-Themes-and-Customize-Appearance-Settings",
+        "aliases": [
+          "https://support.discord.com/hc/en-us/articles/207260127-How-to-Change-Discord-Color-Themes-and-Customize-Appearance-Settings?page=1"
+        ],
+        "cap": 200,
+        "joint_words": 118,
+        "reserve_words": 82,
+        "article_ids": [
+          "gta6-discord-vice-city-theme-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "b8fad7e1250bcb66a7c396b508c23a3a2f59e9819bd326c17a9b8de5645ebec9"
+      },
+      {
+        "id": "discord-app-icons-support",
+        "url": "https://support.discord.com/hc/en-us/articles/17503907209239-Custom-App-Icon",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 174,
+        "reserve_words": 26,
+        "article_ids": [
+          "gta6-discord-vice-city-theme-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "4493100c13f2d8d0659fdddc30e75bd95ff5ffbd37bbd1ae02a1f7fcd2237443"
+      },
+      {
+        "id": "discord-name-styles-support",
+        "url": "https://support.discord.com/hc/en-us/articles/33833879643927-Discord-Display-Name-Styles-FAQ",
+        "aliases": [
+          "https://support.discord.com/hc/en-us/articles/33833879643927-Name-Styles-FAQ"
+        ],
+        "cap": 200,
+        "joint_words": 182,
+        "reserve_words": 18,
+        "article_ids": [
+          "gta6-discord-vice-city-theme-20261116"
+        ],
+        "access_status": 200,
+        "source_sha256": "e6bf9d40ae1cdc7903f1b60ed6ef8b05bba50c9a8739b270dac182a0208a05f5"
+      }
+    ],
+    "counting": "All three languages, repeated factual titles/metadata, lead aliases, readable references and semantic slugs share each original work’s observed cap. Mirrors and retellings are grouped. Public proof retains paths, dates, counts and hashes, without additional factual synopses.",
+    "restricted_work_usage": 0
+  },
+  "media": {
+    "checked_at_utc": "2026-11-16T22:19:55.424621+00:00",
+    "images": [
+      {
+        "key": "region-vice-city-03",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_03.0nqz~lrqdmlze.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "d6a56aadc2823cb97a33db087de1700f6a0fd5528b140107ec20823f23aac918",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 231656,
+        "local_sha256": "c3aa32fb74f6f5fb9e449dde561aaae95e5f2f562019ef344c8f6283617b0978",
+        "resized_original_mean_absolute_error": 3.1576,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "region-vice-city-02",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "3f12452834bb07a0a13dabdf019881f372151d4740cdcf0937ac5fe03554d8eb",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 97548,
+        "local_sha256": "79b77a957ab9b22ab71d1c9d347031655b1171f0ac106e49f96ffb4a6ba8e077",
+        "resized_original_mean_absolute_error": 2.17425,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      }
+    ],
+    "rights": {
+      "source_page": "https://www.rockstargames.com/VI/media",
+      "HTTP": 200,
+      "source_sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context_observed": true,
+      "decision": "Existing authentic official promotional images, used with credit in original editorial commentary; optimized encodes only. Copyright reserved; no unrestricted licence asserted.",
+      "no_new_media_binaries": true
+    }
+  },
+  "preservation": {
+    "ok": true,
+    "counts": {
+      "oldTopics": 231,
+      "oldVersions": 693,
+      "newTopics": 1,
+      "newVersions": 3,
+      "totalTopics": 232,
+      "totalVersions": 696,
+      "inventory": 232,
+      "trackedFiles": 535,
+      "criticalFiles": 22,
+      "assets": 3
+    },
+    "hashes": {
+      "reviewedBatch": "ac1aa7510abca1d93c5220ca9237cb4aad3a39891111e47a538f528d0f4ac874",
+      "reviewedBatchBytes": "c1193cdf681eb84f8e0e8b46eeafd30d7c87ee9c51e672383d1451418225fb5b",
+      "originalArticles": "daa788004eed27d1ec351da7ad4efa837aee6dc2e875d0523cd021e12919c3ea",
+      "originalPaths": "c7ed636d1bd7ea8ae8fd89b1e666574688d2332579c728f5b5d593c560654477",
+      "finalArticles": "1c3a784b3681643e0dec7c8ffa0d85518d00bafea971c2ea415e299399dc1d7d",
+      "finalPaths": "12a25eecea43715939189275bea893d63e57e6c68ea69bb2535ac169738a5c73",
+      "inventory": "c849e36032f9dbf3d593d873f419f2f4517f472fc1e7e1bb4bbb3b4ee2e49aba",
+      "trackedFiles": "df12b59bc37d979a047bc7efee59def51ffaf4ab9f87c35419af82a2fff573cd",
+      "criticalFiles": "2a5b80807a4a30bbe2ff26cb7de46117e516cbbe6a4ca64168b9352c747332c0",
+      "assets": "1f4def985d97bcae7dbefef0bc75ff2f86710428548de0f0cbaf27b722c30b01"
+    },
+    "assets": {
+      "assets/index-DGtdsMGY.js": {
+        "bytes": 359942,
+        "sha256": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144"
+      },
+      "assets/index-BkQBpQi9.css": {
+        "bytes": 57621,
+        "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+      },
+      "assets/postscribe-wSP0-HZj.js": {
+        "bytes": 18060,
+        "sha256": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "gta6-discord-vice-city-theme-20261116",
+      "category": "news",
+      "published": "2026-11-16",
+      "updated": "2026-11-16",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-discord-tema-vice-city/",
+        "en": "https://fansgta.com/en/news/gta-6-discord-vice-city-theme/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-discord-theme-vice-city/"
+      }
+    }
+  ],
+  "validation": {
+    "release_build": "npm run build:release",
+    "static_verifier": "node scripts/verify-static.mjs",
+    "local_browser_cases": 25,
+    "expected_production_browser_cases": 9,
+    "browser_mode": "Chromium desktop, mobile and tablet cloud emulation with normal TLS and the managed proxy. Provider-host SDK fixtures only; own-origin content is untouched. No certification of physical devices, Safari, real creatives or Analytics receipt.",
+    "editorial_audit": {
+      "errors": 0,
+      "existing_review_notices": 42,
+      "new_article_review_notices": [],
+      "limit": "Similarity warnings are manual-review signals, not proof of duplication or a Google indexing diagnosis."
+    }
+  },
+  "scope": "No advertising, design, subscriptions, security/cache rules, schedule changes, purchases, account actions or messages to third parties. No other project modified."
+}
