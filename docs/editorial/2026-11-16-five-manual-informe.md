@@ -1,6 +1,6 @@
 # Lote manual de cinco temas — 16 de noviembre de 2026
 
-Estado: verified-locally-awaiting-production.
+Estado: published-and-publicly-verified.
 
 Se incorporan cinco temas nuevos y quince versiones completas en español, inglés y francés. Se compararon las intenciones con los 226 artículos anteriores. Las señales de interés son cualitativas; no se dispone de un ranking de volumen de Google ni se promete indexación o posición.
 
@@ -12,6 +12,10 @@ La revisión primaria y los límites conjuntos de reutilización constan en el r
 - Los 226 artículos y 678 URLs anteriores permanecen completos; inventario final: 231 temas y 693 versiones.
 - 529 archivos existentes, 22 críticos y tres bundles CSS/JS conservados por hash.
 - 25 casos de navegador locales, con móvil, escritorio y tablet; SDK publicitarios simulados solo en los dominios de los proveedores.
+- Despliegue de producción confirmado en Cloudflare y 732 URLs públicas con HTTP 200.
+- Las quince páginas nuevas y las 693 versiones de artículos coinciden con la compilación; 301 recursos comprobados.
+- Nueve casos de navegador en producción: 45 vistas de artículo, 90 decodificaciones de imagen y 45 cambios de idioma.
+- Solicitudes con User-Agent declarado de Googlebot: 15 respuestas correctas; esto no prueba acceso desde IPs reales de Google ni indexación.
 
 Se conservan publicidad, consentimiento de Analytics, AdSense, diseño, idiomas y programación diaria. No hubo acciones en cuentas, compras ni modificaciones a otros proyectos.
 

@@ -1,6 +1,6 @@
 {
-  "state": "verified-locally-awaiting-production",
-  "checked_at_utc": "2026-11-16T17:17:05.684839+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-16T17:24:24.416682+00:00",
   "articles": [
     {
       "id": "gta6-kaufland-germany-launch-offer-20261116",
@@ -59,5 +59,670 @@
     }
   ],
   "indexing": "Indexability and content delivery are verifiable; Google indexing, ranking, traffic and real Google-IP access are not established.",
-  "proof_commit_policy": "A documentation-only proof follows the runtime commit after a complete release-byte identity check, without a second production deployment."
+  "proof_commit_policy": "A documentation-only proof follows the runtime commit after a complete release-byte identity check, without a second production deployment.",
+  "runtime_commit": {
+    "sha": "0785a4358f91814bf279d984d76d3f7475be2123",
+    "tree": "26e727f9200079651a28405e337ce88e4a08e162",
+    "parent": "ab1f375db85f261e50ea0e0743ae6b16204a4015"
+  },
+  "cloudflare": {
+    "checked_at_utc": "2026-11-16T17:21:24.820094+00:00",
+    "deployment": {
+      "id": "86f701e8-1856-42ac-af9e-8decca935bd5",
+      "environment": "production",
+      "url": "https://86f701e8.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T17:20:33.906523Z",
+        "ended_on": "2026-11-16T17:21:00.161308Z",
+        "status": "success"
+      },
+      "commit": "0785a4358f91814bf279d984d76d3f7475be2123"
+    },
+    "canonical": {
+      "id": "86f701e8-1856-42ac-af9e-8decca935bd5",
+      "environment": "production",
+      "url": "https://86f701e8.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T17:20:33.906523Z",
+        "ended_on": "2026-11-16T17:21:00.161308Z",
+        "status": "success"
+      },
+      "commit": "0785a4358f91814bf279d984d76d3f7475be2123"
+    }
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-16T17:21:35.604111+00:00",
+    "finished_at_utc": "2026-11-16T17:22:48.559138+00:00",
+    "canonical_URLs": 732,
+    "article_versions": 693,
+    "new_versions": 15,
+    "status": {
+      "200": 732
+    },
+    "locales": {
+      "en": 244,
+      "es": 244,
+      "fr": 244
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "method": "Normal canonical HTTPS GETs through the inherited managed proxy with default certificate verification. Public HTML is compared to the hash-pinned release after removing at most one exact pinned Cloudflare beacon and no other content. Twelve legal pages receive HTTP/meta checks only because of existing email transforms. Public nonHTML uses decoded HTTP entity bytes without content rewriting. No account action or Google indexing claim.",
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or Search Console URL Inspection; these requests do not prove indexing or absence of all real-bot restrictions.",
+    "sitemap_new_URLs_unique": true
+  },
+  "matched_release_HTML": 720,
+  "matched_article_versions": 693,
+  "legal_pages_HTTP_and_metadata_only": 12,
+  "public_verification_sha256": "f4acfb5cbd456ef2c6f6175c9a82182d9489212b2633f024adb9dbdf9428eefd",
+  "new_article_details": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-electricfang.webp",
+        "/media/feature-saras.webp"
+      ],
+      "normalized_sha256": "a2ebf20d53de9e55c66f6efd2ae997697b76fc7ee766092f8c59fdf95bf5892f",
+      "release_sha256": "a2ebf20d53de9e55c66f6efd2ae997697b76fc7ee766092f8c59fdf95bf5892f",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 11,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-stock305.webp",
+        "/media/feature-wyman-01.webp"
+      ],
+      "normalized_sha256": "93592ce4cd2b14baceb30de355352f1bdf50774b437704e444f9132a361993e2",
+      "release_sha256": "93592ce4cd2b14baceb30de355352f1bdf50774b437704e444f9132a361993e2",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-kalshi-job/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-kalshi-job/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+        "en": "https://fansgta.com/en/news/gta-6-kalshi-job/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/"
+      },
+      "initial_main": true,
+      "article_sections": 4,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-diving.webp",
+        "/media/region-ambrosia-03.webp"
+      ],
+      "normalized_sha256": "bbeb12ed623fc3cff900637b63c7187149a6d3c7ed9bd8be0df3225809c97e0c",
+      "release_sha256": "bbeb12ed623fc3cff900637b63c7187149a6d3c7ed9bd8be0df3225809c97e0c",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/",
+        "en": "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-phone.webp",
+        "/media/region-leonida-keys-03.webp"
+      ],
+      "normalized_sha256": "5c6b3af09c7ac52d0d44e2fed677b7b61d4dd650818b6bf6290ef534e8d10359",
+      "release_sha256": "5c6b3af09c7ac52d0d44e2fed677b7b61d4dd650818b6bf6290ef534e8d10359",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-medal-contest/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-medal-contest/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+        "en": "https://fansgta.com/en/news/gta-6-medal-contest/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-medal-concours/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-medal-concurso/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 10,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/region-ambrosia-02.webp",
+        "/media/region-port-gellhorn-02.webp"
+      ],
+      "normalized_sha256": "0cbb1791d0564c3fe157702accd66fc15f6f1b04e382760d90b8fda6f6ff49ba",
+      "release_sha256": "0cbb1791d0564c3fe157702accd66fc15f6f1b04e382760d90b8fda6f6ff49ba",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-electricfang.webp",
+        "/media/feature-saras.webp"
+      ],
+      "normalized_sha256": "445d4ae46bfcd4614442cb83b7ceb5f055558f04487d7870ae1a323a857c9abe",
+      "release_sha256": "445d4ae46bfcd4614442cb83b7ceb5f055558f04487d7870ae1a323a857c9abe",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 11,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-stock305.webp",
+        "/media/feature-wyman-01.webp"
+      ],
+      "normalized_sha256": "cd3993e02745022ba5e89a1cd470cab337ed418b617c1a9c629f51aa3b278e8f",
+      "release_sha256": "cd3993e02745022ba5e89a1cd470cab337ed418b617c1a9c629f51aa3b278e8f",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+        "en": "https://fansgta.com/en/news/gta-6-kalshi-job/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/"
+      },
+      "initial_main": true,
+      "article_sections": 4,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-diving.webp",
+        "/media/region-ambrosia-03.webp"
+      ],
+      "normalized_sha256": "2589ff7c8ebf3be123f9164eb5cd3354ad4aaf01e89cc126a37cc829d8ee9e46",
+      "release_sha256": "2589ff7c8ebf3be123f9164eb5cd3354ad4aaf01e89cc126a37cc829d8ee9e46",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/",
+        "en": "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-phone.webp",
+        "/media/region-leonida-keys-03.webp"
+      ],
+      "normalized_sha256": "7dde86de7ce10f00de976addda6dad7b7cd81e4f70c165436d32e3013039b08e",
+      "release_sha256": "7dde86de7ce10f00de976addda6dad7b7cd81e4f70c165436d32e3013039b08e",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-medal-concurso/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+        "en": "https://fansgta.com/en/news/gta-6-medal-contest/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-medal-concours/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-medal-concurso/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 10,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/region-ambrosia-02.webp",
+        "/media/region-port-gellhorn-02.webp"
+      ],
+      "normalized_sha256": "d9171ca42dbcc4ea4c41a440c4318e5481198506802c0522fc0f6112d060f05c",
+      "release_sha256": "d9171ca42dbcc4ea4c41a440c4318e5481198506802c0522fc0f6112d060f05c",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+        "en": "https://fansgta.com/en/news/gta-6-kalshi-job/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/"
+      },
+      "initial_main": true,
+      "article_sections": 4,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-diving.webp",
+        "/media/region-ambrosia-03.webp"
+      ],
+      "normalized_sha256": "296330cb0787c0c79d7287901360ab9d4c2439375f816784cd4bd9b9d0a6a2a6",
+      "release_sha256": "296330cb0787c0c79d7287901360ab9d4c2439375f816784cd4bd9b9d0a6a2a6",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/",
+        "en": "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 9,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-phone.webp",
+        "/media/region-leonida-keys-03.webp"
+      ],
+      "normalized_sha256": "6cbec7027e77d164cb60b17e8bb27b71e484b8ef0ac8e5e958c6418b21bf195e",
+      "release_sha256": "6cbec7027e77d164cb60b17e8bb27b71e484b8ef0ac8e5e958c6418b21bf195e",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-medal-concours/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-medal-concours/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+        "en": "https://fansgta.com/en/news/gta-6-medal-contest/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-medal-concours/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-medal-concurso/"
+      },
+      "initial_main": true,
+      "article_sections": 5,
+      "article_paragraphs": 10,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/region-ambrosia-02.webp",
+        "/media/region-port-gellhorn-02.webp"
+      ],
+      "normalized_sha256": "30eccc6c1f2cca49129aebc51277d90263e39e3548a243a7ceb6768bcaa342d2",
+      "release_sha256": "30eccc6c1f2cca49129aebc51277d90263e39e3548a243a7ceb6768bcaa342d2",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/",
+        "en": "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 12,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-electricfang.webp",
+        "/media/feature-saras.webp"
+      ],
+      "normalized_sha256": "5a4df8756055e77cebf1f66f7b36ddf62a12257267609d32eb267dd0c131842c",
+      "release_sha256": "5a4df8756055e77cebf1f66f7b36ddf62a12257267609d32eb267dd0c131842c",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/"
+      },
+      "initial_main": true,
+      "article_sections": 6,
+      "article_paragraphs": 11,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-stock305.webp",
+        "/media/feature-wyman-01.webp"
+      ],
+      "normalized_sha256": "177a51f889b6f09a558e9c9d59734d48482895e49c254c79ef70c4bb9815ea1d",
+      "release_sha256": "177a51f889b6f09a558e9c9d59734d48482895e49c254c79ef70c4bb9815ea1d",
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/": [
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-set-up-dualsense-ps5-controller/",
+      "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+      "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/": [
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/prepare-console-account-launch/",
+      "https://fansgta.com/en/vehicles/gta-6-vehicles-check-listings/"
+    ],
+    "https://fansgta.com/en/news/gta-6-kalshi-job/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-medal-contest/"
+    ],
+    "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-kalshi-job/",
+      "https://fansgta.com/en/news/gta-6-medal-contest/",
+      "https://fansgta.com/en/news/gta-6-mediamarkt-poster-preorder-germany/",
+      "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/"
+    ],
+    "https://fansgta.com/en/news/gta-6-medal-contest/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-kalshi-job/",
+      "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/": [
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/gta-6-configurar-dualsense-ps5-mando/",
+      "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+      "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/": [
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/",
+      "https://fansgta.com/es/vehiculos/vehiculos-gta-6-verificar-fichas/"
+    ],
+    "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/gta-6-medal-concurso/"
+    ],
+    "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+      "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+      "https://fansgta.com/es/noticias/gta-6-poster-mediamarkt-reserva-alemania/",
+      "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/"
+    ],
+    "https://fansgta.com/es/noticias/gta-6-medal-concurso/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+      "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/"
+    ],
+    "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/gta-6-medal-concours/"
+    ],
+    "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/",
+      "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/",
+      "https://fansgta.com/fr/actualites/gta-6-medal-concours/",
+      "https://fansgta.com/fr/actualites/gta-6-poster-mediamarkt-precommande-allemagne/"
+    ],
+    "https://fansgta.com/fr/actualites/gta-6-medal-concours/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/",
+      "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/": [
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-configurer-dualsense-ps5-manette/",
+      "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/",
+      "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/": [
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/preparer-console-compte-sortie/",
+      "https://fansgta.com/fr/vehicules/vehicules-gta-6-verifier-fiches/"
+    ]
+  },
+  "browser": {
+    "local_cases": 25,
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 45,
+    "production_image_decodes": 90,
+    "production_language_changes": 45,
+    "errors": 0,
+    "engine": "Chromium cloud desktop/mobile/tablet emulation.",
+    "provider_fixtures": "Adsterra/AdSense/GTM provider hosts only. No own-origin interception; actual creative delivery and Analytics receipt not certified.",
+    "transport": {
+      "initial_cases": 9,
+      "initial_result": "Direct Playwright egress failed before receiving the first HTTP response.",
+      "resolution": "The test-only configuration explicitly inherited the existing managed proxy; TLS verification remained enabled and site code was unchanged.",
+      "initial_report_sha256": "c018ffc4a32a18e7577c082954d7c50722f760aabccc075975bb6a757e1c9e03",
+      "final_successful_cases": 9
+    }
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-ps5-assist-controller/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-kalshi-job/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-kaufland-germany-ps5-offer/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-medal-contest/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-ps5-mando-auxiliar/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-kalshi-trabajo/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-kaufland-oferta-alemania-ps5/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-medal-concurso/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-kalshi-mission/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-kaufland-offre-allemagne-ps5/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-medal-concours/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-ps5-manette-auxiliaire/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ]
 }

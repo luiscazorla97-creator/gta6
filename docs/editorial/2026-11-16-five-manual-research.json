@@ -1,7 +1,7 @@
 {
   "request": "Manual five-topic publication, with fifteen complete Spanish, English and French versions. Daily automation unchanged.",
-  "state": "verified-locally-awaiting-production",
-  "checked_at_utc": "2026-11-16T17:17:05.684839+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-16T17:24:24.416682+00:00",
   "publication_date_timezone": "America/New_York",
   "base_main": "ab1f375db85f261e50ea0e0743ae6b16204a4015",
   "execution": {
@@ -546,6 +546,24 @@
       "existing_review_notices": 42,
       "new_article_review_notices": 0,
       "notice_limit": "Existing manual-review signals are not evidence of duplication or a Google indexing diagnosis; this batch does not rewrite unrelated articles."
+    },
+    "browser_transport": {
+      "initial_cases": 9,
+      "initial_result": "Direct Playwright egress failed before receiving the first HTTP response.",
+      "resolution": "The test-only configuration explicitly inherited the existing managed proxy; TLS verification remained enabled and site code was unchanged.",
+      "initial_report_sha256": "c018ffc4a32a18e7577c082954d7c50722f760aabccc075975bb6a757e1c9e03",
+      "final_successful_cases": 9
     }
+  },
+  "publication_evidence": {
+    "runtime_commit": "0785a4358f91814bf279d984d76d3f7475be2123",
+    "deployment": "86f701e8-1856-42ac-af9e-8decca935bd5",
+    "public_verification_sha256": "f4acfb5cbd456ef2c6f6175c9a82182d9489212b2633f024adb9dbdf9428eefd",
+    "canonical_HTTP_200": 732,
+    "article_versions": 693,
+    "new_versions": 15,
+    "matched_resources": 301,
+    "issues": 0,
+    "browser_cases": 34
   }
 }

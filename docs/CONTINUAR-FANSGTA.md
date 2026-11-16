@@ -633,4 +633,4 @@ Los tres temas y sus nueve versiones están publicados: HTTP 200, HTML inicial, 
 
 ## Lote manual de cinco temas — 2026-11-16
 
-Validado localmente; pendiente de desplegar y verificar públicamente. Cinco temas, quince versiones ES/EN/FR; catálogo de 231 temas y 693 versiones. Publicidad, diseño, artículos anteriores y automatización diaria conservados. Investigación, deduplicación, límites de fuentes y evidencia en docs/editorial/2026-11-16-five-manual-{research.json,publication.json,informe.md}. Las métricas técnicas no prometen indexación ni posiciones.
+Publicado y verificado en producción. Cinco temas, quince versiones ES/EN/FR; catálogo de 231 temas y 693 versiones. Publicidad, diseño, artículos anteriores y automatización diaria conservados. Investigación, deduplicación, límites de fuentes y evidencia en docs/editorial/2026-11-16-five-manual-{research.json,publication.json,informe.md}. Las métricas técnicas no prometen indexación ni posiciones.
