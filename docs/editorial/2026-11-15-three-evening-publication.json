@@ -1,0 +1,39 @@
+{
+  "state": "pending-deployment-and-public-verification",
+  "checked_at_utc": "2026-11-16T00:31:32.424035+00:00",
+  "articles": [
+    {
+      "id": "gta6-twitch-codes-rewards-guide-20261115",
+      "category": "news",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/",
+        "en": "https://fansgta.com/en/news/gta-6-twitch-codes/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-twitch-codes/"
+      }
+    },
+    {
+      "id": "gta6-xbox-controller-setup-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/"
+      }
+    },
+    {
+      "id": "gta6-xbox-cloud-saves-sync-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/"
+      }
+    }
+  ]
+}

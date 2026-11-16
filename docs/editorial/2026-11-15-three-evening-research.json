@@ -1,0 +1,493 @@
+{
+  "request": "Manual publication of three new GTA VI topics, nine complete versions; no change to the daily automation.",
+  "state": "prepared-pending-deployment-and-public-verification",
+  "checked_at_utc": "2026-11-16T00:31:32.424035+00:00",
+  "publication_date_timezone": "America/New_York",
+  "base_main": "f5e6747b61956fc00e136b096745264dc9c64212",
+  "execution": {
+    "managed_cloud": true,
+    "fresh_GitHub_main": true,
+    "user_PC_dependency": false,
+    "network": "Inherited managed proxy and normal verified TLS, existing GitHub and Cloudflare connections.",
+    "scope": "No purchases, paid services, real account actions, schedule changes or messages to third parties."
+  },
+  "cloudflare_access": {
+    "checked_at_utc": "2026-11-16T00:16:01.994798+00:00",
+    "HTTP": 200,
+    "project": "fansgta",
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "canonical_deployment": {
+      "id": "a739f01e-5b6c-4dd3-a7bc-05f839c0c8ac",
+      "commit": "87a2383790f9a5bfeb471c1314539641644c262b",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-15T22:29:50.709453Z",
+        "ended_on": "2026-11-15T22:30:12.683716Z",
+        "status": "success"
+      }
+    }
+  },
+  "selection": {
+    "topics_before": 223,
+    "versions_before": 669,
+    "catalogue_snapshot_sha256": "033a5df3a89609aad1f41770fb81c93a4075a9ac3ea0f94c17cc397107b13fb2",
+    "research_record_hashes": {
+      "catalogue-review.json": "79bab50471bbd0747d9639694d68ea25c91eda2c491fe12d59569cab749569d6",
+      "primary-research.json": "1b12b4b7726783d58f1919aa676320e212408f3a3bdc9a5700e3c529b5d53a04",
+      "practical-research.json": "d3b45ed48d265b8480b855e989336217a4a38350d98b08e5a0212cd88829468d",
+      "final-qa.json": "7c47f6d9fc542eb81f523fef250ac7ff786d7af86092dd820b4dc186cf5c9665"
+    },
+    "decision": "Three distinct search intents compared with all existing articles and translations; related older material is linked rather than duplicated or rewritten.",
+    "signals": "Current dated search/coverage and practical reader questions; qualitative only, without invented Google volume, ranking or traffic estimates."
+  },
+  "source_review": {
+    "approved": true,
+    "source_works": [
+      {
+        "id": "controller-product",
+        "url": "https://www.xbox.com/en-US/accessories/controllers/xbox-wireless-controller",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 151,
+        "reserve_words": 49,
+        "article_ids": [
+          "gta6-xbox-controller-setup-20261115"
+        ],
+        "access_status": 200,
+        "source_sha256": "5b965854b8dd3e1074c5dfb5805f5d92b7525ca5a370a4c691ab0ccfdc68236a"
+      },
+      {
+        "id": "controller-firmware",
+        "url": "https://support.xbox.com/en-US/help/hardware-network/controller/update-xbox-wireless-controller",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 163,
+        "reserve_words": 37,
+        "article_ids": [
+          "gta6-xbox-controller-setup-20261115"
+        ],
+        "access_status": 200,
+        "source_sha256": "69f41d0659a5ef386961c9746db96d9733d5fa0a6d0402603612c5b18a9a6c7a"
+      },
+      {
+        "id": "controller-profiles",
+        "url": "https://support.xbox.com/en-US/help/hardware-network/controller/customize-wireless-controller-with-accessories-app",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 168,
+        "reserve_words": 32,
+        "article_ids": [
+          "gta6-xbox-controller-setup-20261115"
+        ],
+        "access_status": 200,
+        "source_sha256": "fa2e6f1c424e800f316cef418a6e6b5e1af2985d409b81a9482034c82518b691"
+      },
+      {
+        "id": "controller-elite",
+        "url": "https://www.xbox.com/en-US/accessories/controllers/elite-wireless-controller-series-2",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 141,
+        "reserve_words": 59,
+        "article_ids": [
+          "gta6-xbox-controller-setup-20261115"
+        ],
+        "access_status": 200,
+        "source_sha256": "bdd94756faa13069fa4d1927046d62aab36f484972c0d95bf464207109ca1cd3"
+      },
+      {
+        "id": "saves-store",
+        "url": "https://www.xbox.com/en-US/games/store/grand-theft-auto-vi/9nl3wwnzlzzn",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 152,
+        "reserve_words": 48,
+        "article_ids": [
+          "gta6-xbox-cloud-saves-sync-20261115"
+        ],
+        "access_status": 200,
+        "source_sha256": "52d73ca7754dee5a89e56308423485137e602a98933aaf1fa5bcb561c55060af"
+      },
+      {
+        "id": "saves-faq",
+        "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/cloud-game-saves-faq",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 155,
+        "reserve_words": 45,
+        "article_ids": [
+          "gta6-xbox-cloud-saves-sync-20261115"
+        ],
+        "access_status": 200,
+        "source_sha256": "338275e50b43f8e7aa7b4119443de5b3190964171c0ae4b2953cb3a590da13bf"
+      },
+      {
+        "id": "saves-gdk",
+        "url": "https://learn.microsoft.com/en-us/gaming/gdk/docs/features/common/game-save/game-saves-syncing?view=gdk-2610",
+        "aliases": [
+          "https://learn.microsoft.com/en-us/gaming/gdk/docs/features/common/game-save/game-saves-syncing"
+        ],
+        "cap": 200,
+        "joint_words": 153,
+        "reserve_words": 47,
+        "article_ids": [
+          "gta6-xbox-cloud-saves-sync-20261115"
+        ],
+        "access_status": 200,
+        "source_sha256": "88e8ad8fb0351c6b654f9909567b1eef6664e0eb81bbc415741401e6c7f7b5e6"
+      },
+      {
+        "id": "saves-errors",
+        "url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/cloud-storage-sync-error-messages",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 147,
+        "reserve_words": 53,
+        "article_ids": [
+          "gta6-xbox-cloud-saves-sync-20261115"
+        ],
+        "access_status": 200,
+        "source_sha256": "77d0225b2d65733055366ddbfa5c3286d347ee9a4003cb070df8ed7a6842c5db"
+      },
+      {
+        "id": "twitch-announcement",
+        "url": "https://blog.twitch.tv/en/2026/11/13/twitchcon-san-diego-2026/",
+        "aliases": [
+          "https://x.com/Twitch/status/2121338500448653816",
+          "https://x.com/Twitch/status/2121322964079829069"
+        ],
+        "cap": 200,
+        "joint_words": 169,
+        "reserve_words": 31,
+        "article_ids": [
+          "gta6-twitch-codes-rewards-guide-20261115"
+        ],
+        "access_status": 200
+      },
+      {
+        "id": "twitch-security",
+        "url": "https://www.twitch.tv/p/en/security/",
+        "aliases": [
+          "https://www.twitch.tv/p/security/"
+        ],
+        "cap": 200,
+        "joint_words": 140,
+        "reserve_words": 60,
+        "article_ids": [
+          "gta6-twitch-codes-rewards-guide-20261115"
+        ],
+        "access_status": 200
+      },
+      {
+        "id": "twitch-drops_general",
+        "url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "aliases": [
+          "https://help.twitch.tv/s/article/how-to-earn-drops"
+        ],
+        "cap": 200,
+        "joint_words": 142,
+        "reserve_words": 58,
+        "article_ids": [
+          "gta6-twitch-codes-rewards-guide-20261115"
+        ],
+        "access_status": 200
+      }
+    ],
+    "review_file_sha256": "7c47f6d9fc542eb81f523fef250ac7ff786d7af86092dd820b4dc186cf5c9665",
+    "method": "All locales and factual interface repetitions count jointly per source work. Aliases and retellings grouped. Public records contain URLs, hashes, counts and decisions, without raw bodies, private assigned text or extra source-specific recaps."
+  },
+  "articles": [
+    {
+      "id": "gta6-twitch-codes-rewards-guide-20261115",
+      "category": "news",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-twitch-codigos/",
+        "en": "https://fansgta.com/en/news/gta-6-twitch-codes/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-twitch-codes/"
+      }
+    },
+    {
+      "id": "gta6-xbox-controller-setup-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/"
+      }
+    },
+    {
+      "id": "gta6-xbox-cloud-saves-sync-20261115",
+      "category": "guides",
+      "published": "2026-11-15",
+      "updated": "2026-11-15",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+        "en": "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/"
+      }
+    }
+  ],
+  "visible_body_word_counts": {
+    "gta6-twitch-codes-rewards-guide-20261115": {
+      "es": 350,
+      "en": 330,
+      "fr": 356
+    },
+    "gta6-xbox-controller-setup-20261115": {
+      "es": 477,
+      "en": 451,
+      "fr": 479
+    },
+    "gta6-xbox-cloud-saves-sync-20261115": {
+      "es": 325,
+      "en": 312,
+      "fr": 320
+    }
+  },
+  "word_count_method": "Unicode paragraphs, H2/H3 and tables, excluding metadata, duplicated introduction alias, captions and references.",
+  "media": {
+    "checked_at_utc": "2026-11-16T00:20:15.582897+00:00",
+    "selection": {
+      "twitch": [
+        "feature-couple",
+        "feature-driver"
+      ],
+      "controller": [
+        "feature-aiming",
+        "feature-fight"
+      ],
+      "saves": [
+        "region-leonida-keys-02",
+        "feature-boats"
+      ]
+    },
+    "media": [
+      {
+        "key": "feature-couple",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 907752,
+        "original_sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 65196,
+        "local_sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+        "resized_pixel_MAE": 1.592,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 78,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-driver",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 898215,
+        "original_sha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 44940,
+        "local_sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "resized_pixel_MAE": 1.441,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 89,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-aiming",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 410561,
+        "original_sha256": "59b9b8587d8d12ff874ab212c3a1f8a6afb0cc641a122a1c0f61bf7dbcb3ff48",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 67802,
+        "local_sha256": "1dbfed56d4aa069a13263263de089100a6a8b3a8c0b5a8e5d85b7c39797e7ae8",
+        "resized_pixel_MAE": 1.748,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 79,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-fight",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 301343,
+        "original_sha256": "f79d4a251166dbf99efce8cd9c3198d28b2c829373413c8f98621e61dc6e361c",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 45184,
+        "local_sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+        "resized_pixel_MAE": 1.421,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 84,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "region-leonida-keys-02",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_02.0~ptk-53gl0lq.jpg",
+        "source_page": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_02.0~ptk-53gl0lq.jpg",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 1156644,
+        "original_sha256": "4f61dab070c93acc86c1d9bb576d676bac67c6e5602ba8ac5495b46737b5993b",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 225064,
+        "local_sha256": "29aaa782c451bccfd51aa0daa10f3be24ae93d8c6aa02d946645fd4dba5066ac",
+        "resized_pixel_MAE": 3.204,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 83,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      },
+      {
+        "key": "feature-boats",
+        "original_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "final_url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "status": 200,
+        "original_content_type": "image/jpeg",
+        "original_bytes": 891284,
+        "original_sha256": "5f2226e90602403ac0b8feea520a501c2872015627456448c0be85768d5ef7ae",
+        "original_dimensions": [
+          3840,
+          2160
+        ],
+        "local_format": "WEBP",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "local_bytes": 171234,
+        "local_sha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+        "resized_pixel_MAE": 2.718,
+        "owner": "Rockstar Games",
+        "words_alt_caption_credit_ES_EN_FR": 82,
+        "per_image_cap": 200,
+        "visual_inspection": "Local contact sheet inspected; descriptions match actual public game scenes."
+      }
+    ],
+    "official_media_page": {
+      "url": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context_present": true
+    },
+    "plan_sha256": "863afe09fd68bb7adc215e4b04a205f9fd46c2110ea4dc4171e681797fc6d53f",
+    "reuse": "Official promotional images offered for download/share, used with source and copyright attribution in original editorial context. Copyright reserved; no unrestricted licence claimed.",
+    "limits": "Game illustrations, not venue photography, software-interface screenshots or a recording of a playable pre-release build. No original publication file was edited.",
+    "network": "Managed cloud, default verified TLS, inherited proxy, no source-request credentials."
+  },
+  "integration": {
+    "article_batch_sha256": "69de438038b2088e2730366d7082d0743fe752c2b7bfbeaa7a04d9e50aa9247a",
+    "media_plan_sha256": "863afe09fd68bb7adc215e4b04a205f9fd46c2110ea4dc4171e681797fc6d53f",
+    "post_review_changes": "Only the two reviewed media records per article and shared official-media bibliography reference were attached; prose, dates, headings, FAQ, localized metadata and internal references remain identical."
+  },
+  "preservation": {
+    "ok": true,
+    "counts": {
+      "oldTopics": 223,
+      "oldVersions": 669,
+      "newTopics": 3,
+      "newVersions": 9,
+      "totalTopics": 226,
+      "totalVersions": 678,
+      "inventory": 226,
+      "trackedFiles": 523,
+      "criticalFiles": 22,
+      "assets": 3
+    },
+    "hashes": {
+      "reviewedBatch": "93aca247574ecaaf361b90864bdf801993b2e968cc919e7d9f03eeb0132dfab6",
+      "originalArticles": "0c558f5d4dab67dbe2103165cabd46f54cf525a2991a618cc2be71bc4059ff3c",
+      "originalPaths": "7a7807cbcda9811b9e3d75dfcaf2f233666cfa2f1012589651dfc06cfd7484a9",
+      "finalArticles": "90f501a4a9925478544d1821e183aa31fbbd1258f7fc2131bce93136f94c1bfa",
+      "finalPaths": "69b78de4a048650d0a441248e9a544907e3b89ea27cf9237b7229a33e2498df5",
+      "inventory": "5e54896f5c8b9e9a99df3f304ed60c42fe96f2fe93bebe58ca45580e9ced9a99",
+      "trackedFiles": "215cbfd548e37d42b2555eaefbb691e42744f41c844d4f1c9d7eda1928896b31",
+      "criticalFiles": "2a5b80807a4a30bbe2ff26cb7de46117e516cbbe6a4ca64168b9352c747332c0",
+      "assets": "1f4def985d97bcae7dbefef0bc75ff2f86710428548de0f0cbaf27b722c30b01"
+    },
+    "assets": {
+      "assets/index-DGtdsMGY.js": {
+        "bytes": 359942,
+        "sha256": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144"
+      },
+      "assets/index-BkQBpQi9.css": {
+        "bytes": 57621,
+        "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+      },
+      "assets/postscribe-wSP0-HZj.js": {
+        "bytes": 18060,
+        "sha256": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+      }
+    }
+  },
+  "validation": {
+    "build_release": "passed",
+    "static_checks": "Verified 722 HTML files, 32708 internal links and 1418 structured-data blocks.\nSEO verified: 678 article URLs, 717 canonical sitemap entries, reciprocal hreflang, initial HTML paragraphs and article links.\nEditorial audit: 226 topics, 678 language URLs, 475 media uses; 0 errors and 42 review notices.",
+    "local_browser_cases": 25,
+    "production": "pending",
+    "browser_limits": "Chromium cloud emulation of desktop/mobile/tablet; not Safari or physical-device certification. Provider SDK fixtures apply only in deterministic content tests; no actual creative delivery or Analytics receipt certification."
+  },
+  "unchanged": "All223 previous article objects,669 paths,523 tracked files,22 critical files and three CSS/JS assets preserved. Design, ads, consent, security, cache, subscriptions, other projects and daily cadence unchanged.",
+  "schedule": "One topic per daily execution through November19,2026 inclusive, America/New_York; manual batch does not change it.",
+  "indexing": "Technical indexability checked; no guaranteed indexing, timing, rank or traffic."
+}

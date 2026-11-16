@@ -1,5 +1,50 @@
 [
   {
+    "id": "gta6-twitch-codes-rewards-guide-20261115",
+    "category": "news",
+    "published": "2026-11-15",
+    "titles": [
+      "GTA 6: Twitch anuncia códigos",
+      "GTA 6: Twitch announces codes",
+      "GTA 6 : Twitch annonce des codes"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-twitch-codigos/",
+      "/en/news/gta-6-twitch-codes/",
+      "/fr/actualites/gta-6-twitch-codes/"
+    ]
+  },
+  {
+    "id": "gta6-xbox-controller-setup-20261115",
+    "category": "guides",
+    "published": "2026-11-15",
+    "titles": [
+      "GTA 6: prepará tu mando Xbox, firmware y perfiles",
+      "GTA 6: prepare your Xbox controller, firmware and profiles",
+      "GTA 6 : préparer sa manette Xbox, firmware et profils"
+    ],
+    "paths": [
+      "/es/guias/gta-6-configurar-mando-xbox-firmware-perfiles/",
+      "/en/guides/gta-6-xbox-controller-firmware-profiles-setup/",
+      "/fr/guides/gta-6-configurer-manette-xbox-firmware-profils/"
+    ]
+  },
+  {
+    "id": "gta6-xbox-cloud-saves-sync-20261115",
+    "category": "guides",
+    "published": "2026-11-15",
+    "titles": [
+      "GTA 6 en Xbox: guardados en la nube y sincronización",
+      "GTA 6 Xbox cloud saves: sync, status and conflicts",
+      "GTA 6 sur Xbox : sauvegardes cloud et synchronisation"
+    ],
+    "paths": [
+      "/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+      "/en/guides/gta-6-xbox-cloud-saves-sync/",
+      "/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/"
+    ]
+  },
+  {
     "id": "gta6-xbox-package-revision-report-20261115",
     "category": "news",
     "published": "2026-11-15",
