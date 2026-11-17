@@ -1,0 +1,261 @@
+{
+  "request": "Daily automation: one current GTA VI topic, three complete versions. Update the equivalent existing article instead of duplicating its search intent.",
+  "state": "verified-locally-awaiting-production",
+  "checked_at_utc": "2026-11-17T22:35:50.702392+00:00",
+  "execution": {
+    "main": "391745e5c65652e3afb980ad3be4e96d342cbf00",
+    "fresh_fetch": true,
+    "cloud": true,
+    "checked_at_utc": "2026-11-17T22:23:51.140052+00:00",
+    "NY": "2026-11-17T17:23:51.140250-05:00",
+    "topics": 232,
+    "versions": 696,
+    "canonical_URLs": 735
+  },
+  "deadline": {
+    "date_inclusive": "2026-11-19",
+    "timezone": "America/New_York",
+    "schedule_changed": false
+  },
+  "cloudflare_access": {
+    "checked_at_utc": "2026-11-17T22:26:35.083028+00:00",
+    "HTTP": 200,
+    "project": "fansgta",
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "canonical": {
+      "id": "d848c8d7-cb99-4904-9eff-cb7d425fe20c",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-16T22:31:19.319247Z",
+        "ended_on": "2026-11-16T22:31:46.48291Z",
+        "status": "success"
+      },
+      "commit": "bf062f58c54e8168d7be2c7cbec2220fa07632fc"
+    }
+  },
+  "selection": {
+    "topics_before": 232,
+    "versions_before": 696,
+    "topics_after": 232,
+    "versions_after": 696,
+    "new_topics": 0,
+    "updated_topics": 1,
+    "catalogue_snapshot_sha256": "bcf059e2a3b54b71e9e3e516f62523a4be576152d8500c3b014faef6d00eecd8",
+    "catalogue_review_sha256": "7528212042a5f6ee9b6febb0da5690ec5cac99099e022dcc058695811775504b",
+    "primary_research_sha256": "7723772d83c318c84fec511a1aba3183cec3b0417277e2af378d0fb57bfbd08d",
+    "final_qa_sha256": "0e642d6c35f99dc9d2f30dd80d111b064cba6e122440790b3ef25d29cf39765e",
+    "decision": "The existing article already answers this intent. Its three URLs and original publication date are preserved while stale passages are replaced with verified current reporting.",
+    "signals": "Current dated primary publications and independent contemporary coverage; qualitative only. No invented Google search volume, rankings or promised traffic."
+  },
+  "source_review": {
+    "approved": true,
+    "source_works": [
+      {
+        "id": "tga-2026-nominations",
+        "url": "https://thegameawards.com/categories/game-of-the-year",
+        "aliases": [
+          "https://thegameawards.com/categories/best-game-direction",
+          "https://thegameawards.com/categories/best-narrative",
+          "https://thegameawards.com/categories/best-art-direction",
+          "https://thegameawards.com/categories/best-score-and-music",
+          "https://thegameawards.com/categories/best-audio-design",
+          "https://thegameawards.com/categories/best-performance",
+          "https://thegameawards.com/categories/best-action-adventure",
+          "https://news.xbox.com/en-us/2026/11/17/the-game-awards-2026-nominees-on-xbox/",
+          "https://news.xbox.com/en-us/2026/11/17/the-game-awards-2026-nominees-on-xbox/amp/",
+          "https://store.epicgames.com/news/the-game-awards-2026-nominees",
+          "https://store.epicgames.com/news/the-game-awards-2026-nominees?lang=en-US"
+        ],
+        "cap": 200,
+        "joint_words": 184,
+        "reserve_words": 16,
+        "article_ids": [
+          "gta6-goty-eligibility-20261104"
+        ],
+        "access_status": 200,
+        "source_sha256": "67f6d2693e07c8ab832007007d87ed45b9f2ace24f7a2e91827304e9df33ac55"
+      },
+      {
+        "id": "tga-faq-rules",
+        "url": "https://thegameawards.com/faq",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 174,
+        "reserve_words": 26,
+        "article_ids": [
+          "gta6-goty-eligibility-20261104"
+        ],
+        "access_status": 200,
+        "source_sha256": "b706dc9d18ae046335f6bda91498d59c6277084b7e271ee34d932485fd41f1b3"
+      },
+      {
+        "id": "rockstar-release-context",
+        "url": "https://www.rockstargames.com/VI",
+        "aliases": [],
+        "cap": 200,
+        "joint_words": 46,
+        "reserve_words": 154,
+        "article_ids": [
+          "gta6-goty-eligibility-20261104"
+        ],
+        "access_status": 200,
+        "source_sha256": "5f8117f24654f3715973fd4feb822996e7c9414a89d3f4cbff89233606dbf0ab"
+      }
+    ],
+    "counting": "The complete revised article across all three languages shares each original work’s cap, including repeated factual metadata, lead aliases, references and semantic slugs. Mirrors and retellings are grouped. Public records add no factual synopsis.",
+    "restricted_work_usage": 0
+  },
+  "media": {
+    "checked_at_utc": "2026-11-17T22:29:36.317414+00:00",
+    "images": [
+      {
+        "key": "feature-couple",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 65196,
+        "local_sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+        "resized_original_mean_absolute_error": 1.59181,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "feature-helicopter",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "828ad45819b4121f3a341b25cbc93cd6595099eb2d53068d1cef4f1853ab38d4",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 58038,
+        "local_sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+        "resized_original_mean_absolute_error": 1.57428,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      },
+      {
+        "key": "feature-mountain",
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "source_page": "https://www.rockstargames.com/VI/media/screenshots",
+        "HTTP": 200,
+        "content_type": "image/jpeg",
+        "original_sha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+        "original_size": [
+          3840,
+          2160
+        ],
+        "local_size": [
+          1400,
+          788
+        ],
+        "local_bytes": 226130,
+        "local_sha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+        "resized_original_mean_absolute_error": 3.43345,
+        "visually_reviewed": true,
+        "owner": "Rockstar Games"
+      }
+    ],
+    "rights": {
+      "source_page": "https://www.rockstargames.com/VI/media",
+      "HTTP": 200,
+      "source_sha256": "a74823c03771bd9b8b22e2f4942a945905c3a5b4b4017b2c024eba61e986b76d",
+      "download_share_context_observed": true,
+      "decision": "Existing authentic official promotional screenshots, with credit for original editorial commentary. Copyright reserved; no unrestricted licence asserted.",
+      "original_article_media_preserved": true,
+      "no_new_media_binaries": true
+    }
+  },
+  "preservation": {
+    "ok": true,
+    "counts": {
+      "oldTopics": 232,
+      "oldVersions": 696,
+      "unchangedTopics": 231,
+      "unchangedVersions": 693,
+      "updatedTopics": 1,
+      "updatedVersions": 3,
+      "newTopics": 0,
+      "newVersions": 0,
+      "totalTopics": 232,
+      "totalVersions": 696,
+      "inventory": 232,
+      "trackedFiles": 541,
+      "criticalFiles": 22,
+      "assets": 3,
+      "targetImages": 3
+    },
+    "hashes": {
+      "reviewedUpdate": "314cd40b2e340479a99cbb5cb3ae3cfc2c677f258554e0e2d78d9de635fe9b49",
+      "reviewedUpdateBytes": "8eb9b2dc3a7c20812bb7f4744c1e465322c7c6e664ad7be7e20cd433d7ad0548",
+      "originalTarget": "e32b2cf7cbeaa00bf9fedd20d73dd900daf4d3757ea818183ce7c20c1efc1d9d",
+      "updatedTarget": "17a2f5bc805590c9280e9668184379302c596deab248352197005a13dda01af0",
+      "untouchedArticles": "87cc91e611cb90e44c0631bc4a2564cdbec09bde803be3a896f71df50de25269",
+      "originalArticles": "1c3a784b3681643e0dec7c8ffa0d85518d00bafea971c2ea415e299399dc1d7d",
+      "finalArticles": "f55d84786cc14bb2e4be4d1af8f4216147249a40e56c80b05c4e4529fb04f40f",
+      "finalPaths": "12a25eecea43715939189275bea893d63e57e6c68ea69bb2535ac169738a5c73",
+      "inventory": "6bce8829cbcafa3fc970fd8edf5cfc8d7c4dd737d25260b26f4ede76e9bb11ae",
+      "trackedFiles": "9717cdf216d416131d9515f1e3169aa57ae388ec02065de82000c9c7d55b852d",
+      "criticalFiles": "2a5b80807a4a30bbe2ff26cb7de46117e516cbbe6a4ca64168b9352c747332c0",
+      "assets": "1f4def985d97bcae7dbefef0bc75ff2f86710428548de0f0cbaf27b722c30b01"
+    },
+    "assets": {
+      "assets/index-DGtdsMGY.js": {
+        "bytes": 359942,
+        "sha256": "8c78db16a08936edb2a8934039b5e50cf3bd53a4ab2b6b03aed73d92678b0144"
+      },
+      "assets/index-BkQBpQi9.css": {
+        "bytes": 57621,
+        "sha256": "03807c03ca51f3331cb46b6256a27ddf973bdf70049bd3b505f1931ebc08022f"
+      },
+      "assets/postscribe-wSP0-HZj.js": {
+        "bytes": 18060,
+        "sha256": "82bf4f3b6c0a6c6edfd5023a4e3fdcbf30742a56d5442ddb504a5bea6825fd50"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": "gta6-goty-eligibility-20261104",
+      "category": "news",
+      "published": "2026-11-04",
+      "updated": "2026-11-17",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+        "en": "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/"
+      }
+    }
+  ],
+  "validation": {
+    "release_build": "npm run build:release",
+    "static_verifier": "node scripts/verify-static.mjs",
+    "local_browser_cases": 25,
+    "expected_production_browser_cases": 9,
+    "browser_mode": "Chromium cloud desktop, mobile and tablet emulation with normal TLS and the managed proxy. SDK fixtures only on provider hosts; own-origin content is untouched. Not a physical-device, Safari, creative-delivery or Analytics-receipt certification.",
+    "editorial_audit": {
+      "errors": 0,
+      "review_notices": 42,
+      "target_notices": [],
+      "limit": "Review signals do not prove duplicate content or a Google indexing diagnosis."
+    }
+  },
+  "scope": "Advertising, design, subscriptions, security/cache rules and schedule unchanged. No purchases, account actions, third-party messages or other-project changes."
+}

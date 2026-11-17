@@ -638,3 +638,7 @@ Publicado y verificado en producción. Cinco temas, quince versiones ES/EN/FR; c
 ## Ejecución diaria — 2026-11-16
 
 Publicado y verificado en producción. Un tema y tres versiones ES/EN/FR; catálogo final 232 temas/696 versiones. Los 231 artículos anteriores, sus 693 URLs, publicidad, diseño, idiomas, consentimiento y programación diaria permanecen intactos. Evidencias e informe: docs/editorial/2026-11-16-daily-discord-{research.json,publication.json,informe.md}. No se prometen volúmenes, indexación ni posiciones. Límite diario: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.
+
+## Ejecución diaria — 2026-11-17
+
+Actualización validada localmente; pendiente de despliegue y comprobación pública. Un tema y tres versiones, sin duplicar la página existente. Las URLs y publicación original se mantienen; updated real 17 de noviembre. Catálogo 232 temas/696 versiones; los otros 231 artículos, los anuncios, diseño, consentimiento, idiomas y programación diaria se conservan. Evidencia: docs/editorial/2026-11-17-daily-goty-{research.json,publication.json,informe.md}. No se prometen búsquedas, indexación ni posiciones. Límite: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.

@@ -1,0 +1,21 @@
+{
+  "state": "verified-locally-awaiting-production",
+  "checked_at_utc": "2026-11-17T22:35:50.702392+00:00",
+  "articles": [
+    {
+      "id": "gta6-goty-eligibility-20261104",
+      "category": "news",
+      "published": "2026-11-04",
+      "updated": "2026-11-17",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+        "en": "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/"
+      }
+    }
+  ],
+  "new_topics": 0,
+  "updated_topics": 1,
+  "indexing": "HTTP, indexability and content delivery are testable. Google indexing, rankings, traffic and actual Google-IP access are not established.",
+  "proof_commit_policy": "A documentation-only evidence commit follows the runtime commit after all release bytes are confirmed identical; no second production deployment."
+}
