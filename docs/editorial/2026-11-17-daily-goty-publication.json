@@ -1,6 +1,6 @@
 {
-  "state": "verified-locally-awaiting-production",
-  "checked_at_utc": "2026-11-17T22:35:50.702392+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-17T22:41:55.086478+00:00",
   "articles": [
     {
       "id": "gta6-goty-eligibility-20261104",
@@ -17,5 +17,195 @@
   "new_topics": 0,
   "updated_topics": 1,
   "indexing": "HTTP, indexability and content delivery are testable. Google indexing, rankings, traffic and actual Google-IP access are not established.",
-  "proof_commit_policy": "A documentation-only evidence commit follows the runtime commit after all release bytes are confirmed identical; no second production deployment."
+  "proof_commit_policy": "A documentation-only evidence commit follows the runtime commit after all release bytes are confirmed identical; no second production deployment.",
+  "runtime_commit": {
+    "sha": "0b480c9a6bb107567796ee831fe15e8c08517c78",
+    "tree": "ac9cd457c84541ca284941b906829cd85dc2802f",
+    "parent": "391745e5c65652e3afb980ad3be4e96d342cbf00"
+  },
+  "cloudflare": {
+    "checked_at_utc": "2026-11-17T22:39:52.717051+00:00",
+    "deployment": {
+      "id": "1fdb4b11-b971-465b-8063-7f0a1d28c5b3",
+      "environment": "production",
+      "url": "https://1fdb4b11.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-17T22:39:12.467403Z",
+        "ended_on": "2026-11-17T22:39:33.17656Z",
+        "status": "success"
+      },
+      "commit": "0b480c9a6bb107567796ee831fe15e8c08517c78"
+    },
+    "canonical": {
+      "id": "1fdb4b11-b971-465b-8063-7f0a1d28c5b3",
+      "environment": "production",
+      "url": "https://1fdb4b11.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-17T22:39:12.467403Z",
+        "ended_on": "2026-11-17T22:39:33.17656Z",
+        "status": "success"
+      },
+      "commit": "0b480c9a6bb107567796ee831fe15e8c08517c78"
+    }
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-17T22:40:17.554039+00:00",
+    "finished_at_utc": "2026-11-17T22:41:30.748352+00:00",
+    "canonical_URLs": 735,
+    "article_versions": 696,
+    "updated_versions": 3,
+    "status": {
+      "200": 735
+    },
+    "locales": {
+      "en": 245,
+      "es": 245,
+      "fr": 245
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "method": "Normal canonical HTTPS GETs through the inherited managed proxy with default certificate verification. Public HTML is compared to the hash-pinned release after removing at most one exact pinned Cloudflare beacon and no other content. Twelve legal pages receive HTTP/meta checks only because of existing email transforms. Public nonHTML uses decoded HTTP entity bytes without content rewriting. No account action or Google indexing claim.",
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or Search Console URL Inspection; these requests do not prove indexing or absence of all real-bot restrictions.",
+    "sitemap_updated_URLs_unique": true
+  },
+  "matched_release_HTML": 723,
+  "matched_article_versions": 696,
+  "legal_pages_HTTP_and_metadata_only": 12,
+  "public_verification_sha256": "921cca8996d1fd1425396045b4b46f73ca1494ff51956d1672364a21ccdae98a",
+  "updated_article_details": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+        "en": "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/"
+      },
+      "initial_main": true,
+      "article_sections": 7,
+      "article_paragraphs": 15,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-helicopter.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "normalized_sha256": "dc49bab22f387328f9d45969661b62e6486cff9a5e2ca28f27a8ea9d2e2363a8",
+      "release_sha256": "dc49bab22f387328f9d45969661b62e6486cff9a5e2ca28f27a8ea9d2e2363a8",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+        "en": "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/"
+      },
+      "initial_main": true,
+      "article_sections": 7,
+      "article_paragraphs": 15,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-helicopter.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "normalized_sha256": "9fefb7b161b129e29e13ede5ff184942c11273f3ef5f7dcb06bc18e70bb862ea",
+      "release_sha256": "9fefb7b161b129e29e13ede5ff184942c11273f3ef5f7dcb06bc18e70bb862ea",
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+        "en": "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/"
+      },
+      "initial_main": true,
+      "article_sections": 7,
+      "article_paragraphs": 15,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-helicopter.webp",
+        "/media/feature-mountain.webp"
+      ],
+      "normalized_sha256": "24c9806d964003d0ce7cda590e1552636bfd61c84d32c0973034a5023656d22a",
+      "release_sha256": "24c9806d964003d0ce7cda590e1552636bfd61c84d32c0973034a5023656d22a",
+      "matches_release": true,
+      "issues": []
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/": [
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-burger-shot-cluckin-bell-miami-locations/",
+      "https://fansgta.com/en/news/gta-6-spectrum-free-speed-boost-eligibility/"
+    ],
+    "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/": [
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/gta-6-burger-shot-cluckin-bell-miami-donde-comer/",
+      "https://fansgta.com/es/noticias/gta-6-spectrum-mejora-velocidad-gratis-requisitos/"
+    ],
+    "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/": [
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/gta-6-burger-shot-cluckin-bell-miami-adresses/",
+      "https://fansgta.com/fr/actualites/gta-6-spectrum-debit-gratuit-conditions/"
+    ]
+  },
+  "browser": {
+    "local_cases": 25,
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 9,
+    "production_image_decodes": 27,
+    "production_language_changes": 9,
+    "errors": 0,
+    "engine": "Chromium cloud emulation.",
+    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only; no own-origin interception or real creative/Analytics certification."
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "request": "Daily automation: one current GTA VI topic, three complete versions. Update the equivalent existing article instead of duplicating its search intent.",
-  "state": "verified-locally-awaiting-production",
-  "checked_at_utc": "2026-11-17T22:35:50.702392+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-17T22:41:55.086478+00:00",
   "execution": {
     "main": "391745e5c65652e3afb980ad3be4e96d342cbf00",
     "fresh_fetch": true,
@@ -257,5 +257,16 @@
       "limit": "Review signals do not prove duplicate content or a Google indexing diagnosis."
     }
   },
-  "scope": "Advertising, design, subscriptions, security/cache rules and schedule unchanged. No purchases, account actions, third-party messages or other-project changes."
+  "scope": "Advertising, design, subscriptions, security/cache rules and schedule unchanged. No purchases, account actions, third-party messages or other-project changes.",
+  "publication_evidence": {
+    "runtime_commit": "0b480c9a6bb107567796ee831fe15e8c08517c78",
+    "deployment": "1fdb4b11-b971-465b-8063-7f0a1d28c5b3",
+    "public_verification_sha256": "921cca8996d1fd1425396045b4b46f73ca1494ff51956d1672364a21ccdae98a",
+    "canonical_HTTP_200": 735,
+    "article_versions": 696,
+    "updated_versions": 3,
+    "matched_resources": 301,
+    "issues": 0,
+    "browser_cases": 34
+  }
 }
