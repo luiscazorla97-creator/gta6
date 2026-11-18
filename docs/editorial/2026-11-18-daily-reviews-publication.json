@@ -1,0 +1,26 @@
+{
+  "state": "validated-awaiting-production",
+  "checked_at_utc": "2026-11-18T22:54:11.561209+00:00",
+  "articles": [
+    {
+      "id": "gta6-review-embargo-20261103",
+      "category": "news",
+      "published": "2026-11-03",
+      "updated": "2026-11-18",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+        "en": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+        "fr": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/"
+      }
+    }
+  ],
+  "new_topics": 0,
+  "updated_topics": 1,
+  "browser": {
+    "local_cases": 25,
+    "engine": "Cloud Chromium desktop/mobile/tablet emulation.",
+    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only; no own-origin route substitution or real creative/Analytics certification."
+  },
+  "indexing": "Indexability and public content delivery are checked; actual Google indexing/rankings and universal real-Googlebot access are not established.",
+  "proof_commit_policy": "After verification, save documentation evidence only when all 1043 runtime files remain identical; no second deployment for that evidence."
+}

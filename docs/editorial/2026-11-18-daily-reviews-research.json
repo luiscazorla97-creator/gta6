@@ -1,0 +1,217 @@
+{
+  "state": "validated-awaiting-production",
+  "checked_at_utc": "2026-11-18T22:54:11.561209+00:00",
+  "execution": {
+    "main": "c62c778bec06af43552b75e8f7d394775b613399",
+    "fresh_fetch": true,
+    "cloud": true,
+    "desktop_or_user_PC_dependency": false,
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "cloudflare_before": {
+      "checked_at_utc": "2026-11-18T22:47:47.880792+00:00",
+      "status": 200,
+      "production_branch": "main",
+      "build_command": "npm run build:release",
+      "canonical": {
+        "id": "1fdb4b11-b971-465b-8063-7f0a1d28c5b3",
+        "environment": "production",
+        "url": "https://1fdb4b11.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-17T22:39:12.467403Z",
+          "ended_on": "2026-11-17T22:39:33.17656Z",
+          "status": "success"
+        },
+        "commit": "0b480c9a6bb107567796ee831fe15e8c08517c78"
+      }
+    }
+  },
+  "deadline": {
+    "date_inclusive": "2026-11-19",
+    "timezone": "America/New_York",
+    "schedule_changed": false
+  },
+  "selection": {
+    "mode": "update",
+    "id": "gta6-review-embargo-20261103",
+    "new_topics": 0,
+    "updated_topics": 1,
+    "topics_before": 232,
+    "topics_after": 232,
+    "versions": 696,
+    "original_publication_preserved": "2026-11-03",
+    "updated": "2026-11-18",
+    "paths_preserved": true,
+    "decision": "The complete catalogue already contains this search intent. Update its equivalent article; retain all three URLs, original date, category and order.",
+    "catalogue_review_sha256": "59bcdaaca759160385aa4612a7cbe8648c62d2861b4f43c559277effa932e6e5",
+    "catalogue_snapshot_sha256": "265c5f9228a359a51c70f477a678e21e45c865b7a1886f96032b881f75eac8ed",
+    "primary_research_sha256": "a16135f4da7478f0762474336cb5e0bcd162b053e71b392128c43840b647ca71",
+    "peer_review_sha256": "8e2dd6d45f9d170a051bc813dcd43771877fcae9d56ffea064766247e180d734",
+    "source_qa_sha256": "d4eee7580431f0f96cfccfadf3a8f37ad2e757ddda6bf99bd995e8e603b3485b",
+    "reviewed_article_sha256": "1846953522fee164f9d2101df1a884b9f2bad5975595ec22fbe6e63be13ed7a1"
+  },
+  "interest": {
+    "signal": "Qualitative current dated source publications and contemporaneous search coverage.",
+    "limits": "No verified Google search-volume or ranking data; no popularity, traffic, ranking or indexing guarantee."
+  },
+  "source_review": {
+    "approved": true,
+    "source_works": [
+      {
+        "id": "source-1",
+        "url": "https://www.videogameschronicle.com/review/grand-theft-auto-6/",
+        "source_sha256": "9f1ba81edcb925be857c9af2b12c8c1aa24da74ace10ccc7bcee154195f701fb",
+        "cap": 200,
+        "joint_words": 195,
+        "reserve_words": 5
+      },
+      {
+        "id": "source-2",
+        "url": "https://www.shacknews.com/article/151380/gta-6-review-score",
+        "source_sha256": "2a4062e71c37feb47e8699bb606f20d9981a57e68ac454360dbdc2b1a63ed2f6",
+        "cap": 200,
+        "joint_words": 154,
+        "reserve_words": 46
+      },
+      {
+        "id": "source-3",
+        "url": "https://www.techradar.com/gaming/gta-6-review",
+        "source_sha256": "89bcefdec0ac9df2823660b6c9f8de8376f090a733fda17cb6f622cad426d5f4",
+        "cap": 200,
+        "joint_words": 159,
+        "reserve_words": 41
+      },
+      {
+        "id": "source-4",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
+        "source_sha256": "e3cea3d5d02c59c2b925b47a391363406004cda3820c0277c72a50d7a171a0e2",
+        "cap": 200,
+        "joint_words": 167,
+        "reserve_words": 33
+      },
+      {
+        "id": "source-5",
+        "url": "https://www.metacritic.com/game/grand-theft-auto-vi/",
+        "source_sha256": "0ca185845899dbbbd719fe342e1c9784d74cf54fbb96c6e91dbbac95a4b657f3",
+        "cap": 200,
+        "joint_words": 148,
+        "reserve_words": 52
+      },
+      {
+        "id": "source-6",
+        "url": "https://opencritic.com/game/15398/grand-theft-auto-vi",
+        "source_sha256": "7b002abaab3f079c3a3c71f84ef7591f6a3ffd0c3464578cf3d2c4996b1243ea",
+        "cap": 200,
+        "joint_words": 146,
+        "reserve_words": 54
+      },
+      {
+        "id": "source-7",
+        "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/",
+        "source_sha256": "dec1c96992c41b44f6f6982837f012475ee9a27ef0e04420b06bdf199d8c921a",
+        "cap": 200,
+        "joint_words": 133,
+        "reserve_words": 67
+      },
+      {
+        "id": "source-8",
+        "url": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/",
+        "source_sha256": null,
+        "cap": 200,
+        "joint_words": 21,
+        "reserve_words": 179
+      },
+      {
+        "id": "source-9",
+        "url": "https://www.rockstargames.com/VI/media/screenshots",
+        "source_sha256": null,
+        "cap": 200,
+        "joint_words": 51,
+        "reserve_words": 149
+      }
+    ],
+    "independent_ledger_sha256": "b5f415264c4c6250a3c73c0479635680cf3712b6c3f4be6d22b0e6ef8900d72d",
+    "scope": "All three versions jointly; factual paraphrases, repeated headings, visible labels and legacy lead alias counted. Originals, mirrors and embedded excerpts are not separate allowances. No derivative facts added in these public records.",
+    "excluded_works_reuse_words": 0,
+    "no_direct_source_quotes": true
+  },
+  "media": {
+    "registry_unchanged": true,
+    "review_sha256": "2526da03ad48fd5e00f144c885e348b75a89689cf63d46944da96e8b658ef1b7",
+    "gallery_HTTP": 200,
+    "gallery_sha256": "06cd4c075aa7c754d3d70fa3479a18c96ad996cc6bbab0e2827cc745373f6913",
+    "download_share_context": true,
+    "copyright": "Reserved; no unrestricted licence asserted. Existing optimized official images, translated ALT, captions and credits preserved.",
+    "images": [
+      {
+        "key": "feature-driver",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "source_sha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+        "local_sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.4413140560792845
+      },
+      {
+        "key": "feature-fight",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+        "source_sha256": "f79d4a251166dbf99efce8cd9c3198d28b2c829373413c8f98621e61dc6e361c",
+        "local_sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.4211249093546048
+      },
+      {
+        "key": "feature-aiming",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "source_sha256": "59b9b8587d8d12ff874ab212c3a1f8a6afb0cc641a122a1c0f61bf7dbcb3ff48",
+        "local_sha256": "1dbfed56d4aa069a13263263de089100a6a8b3a8c0b5a8e5d85b7c39797e7ae8",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.7481342156151802
+      }
+    ]
+  },
+  "checks": {
+    "build_release": true,
+    "static_verifier": true,
+    "editorial_errors": 0,
+    "editorial_review_notices_existing": 42,
+    "editorial_review_notices_new": 0,
+    "preservation": {
+      "checked_at_utc": "2026-11-18T22:52:23.229Z",
+      "mode": "update",
+      "id": "gta6-review-embargo-20261103",
+      "topics": 232,
+      "article_versions": 696,
+      "prior_article_objects_unchanged": 231,
+      "prior_article_URLs_preserved": 696,
+      "protected_existing_files": 547,
+      "critical_files": 22,
+      "CSS_JS_assets_identical": 3,
+      "sitemap_canonical_URLs": 735,
+      "release_HTML": 740,
+      "release_files": 1043,
+      "inventory_exact": true,
+      "approved_article_sha256": "1846953522fee164f9d2101df1a884b9f2bad5975595ec22fbe6e63be13ed7a1",
+      "target_urls": [
+        "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+        "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+        "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/"
+      ],
+      "errors": 0
+    },
+    "browser_local_cases": 25,
+    "provider_fixture_scope": "Provider hosts only during browser checks; own-origin delivery is real. No real creative, Analytics receipt, Safari or physical-device certification."
+  }
+}

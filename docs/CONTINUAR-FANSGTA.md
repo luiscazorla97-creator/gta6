@@ -642,3 +642,7 @@ Publicado y verificado en producción. Un tema y tres versiones ES/EN/FR; catál
 ## Ejecución diaria — 2026-11-17
 
 Actualización publicada y verificada en producción. Un tema y tres versiones, sin duplicar la página existente. Las URLs y publicación original se mantienen; updated real 17 de noviembre. Catálogo 232 temas/696 versiones; los otros 231 artículos, los anuncios, diseño, consentimiento, idiomas y programación diaria se conservan. Evidencia: docs/editorial/2026-11-17-daily-goty-{research.json,publication.json,informe.md}. No se prometen búsquedas, indexación ni posiciones. Límite: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.
+
+## Ejecución diaria — 2026-11-18
+
+Actualización validada localmente; publicación y verificación pública pendientes. Un tema y tres versiones, sin duplicar la página equivalente. Se mantienen las URLs y fecha original; updated real 18 de noviembre. Catálogo 232 temas/696 versiones; los otros 231 artículos, publicidad, diseño, consentimiento, idiomas, seguridad y programación diaria se conservan. Evidencias: docs/editorial/2026-11-18-daily-reviews-{research.json,publication.json,informe.md}. No se prometen búsquedas, indexación ni posiciones. Límite: un tema por ejecución hasta el 19 de noviembre de 2026 inclusive, America/New_York.
