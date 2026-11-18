@@ -1,6 +1,6 @@
 {
-  "state": "validated-awaiting-production",
-  "checked_at_utc": "2026-11-18T22:54:11.561209+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-18T22:59:54.852734+00:00",
   "execution": {
     "main": "c62c778bec06af43552b75e8f7d394775b613399",
     "fresh_fetch": true,
@@ -47,7 +47,7 @@
     "catalogue_review_sha256": "59bcdaaca759160385aa4612a7cbe8648c62d2861b4f43c559277effa932e6e5",
     "catalogue_snapshot_sha256": "265c5f9228a359a51c70f477a678e21e45c865b7a1886f96032b881f75eac8ed",
     "primary_research_sha256": "a16135f4da7478f0762474336cb5e0bcd162b053e71b392128c43840b647ca71",
-    "peer_review_sha256": "8e2dd6d45f9d170a051bc813dcd43771877fcae9d56ffea064766247e180d734",
+    "peer_review_sha256": "c979cdec6780e2a439dd4a13991b1fec659b428b9f02971b38b17b7ffb8585d1",
     "source_qa_sha256": "d4eee7580431f0f96cfccfadf3a8f37ad2e757ddda6bf99bd995e8e603b3485b",
     "reviewed_article_sha256": "1846953522fee164f9d2101df1a884b9f2bad5975595ec22fbe6e63be13ed7a1"
   },
@@ -63,8 +63,8 @@
         "url": "https://www.videogameschronicle.com/review/grand-theft-auto-6/",
         "source_sha256": "9f1ba81edcb925be857c9af2b12c8c1aa24da74ace10ccc7bcee154195f701fb",
         "cap": 200,
-        "joint_words": 195,
-        "reserve_words": 5
+        "joint_words": 196,
+        "reserve_words": 4
       },
       {
         "id": "source-2",
@@ -79,8 +79,8 @@
         "url": "https://www.techradar.com/gaming/gta-6-review",
         "source_sha256": "89bcefdec0ac9df2823660b6c9f8de8376f090a733fda17cb6f622cad426d5f4",
         "cap": 200,
-        "joint_words": 159,
-        "reserve_words": 41
+        "joint_words": 194,
+        "reserve_words": 6
       },
       {
         "id": "source-4",
@@ -131,7 +131,7 @@
         "reserve_words": 149
       }
     ],
-    "independent_ledger_sha256": "b5f415264c4c6250a3c73c0479635680cf3712b6c3f4be6d22b0e6ef8900d72d",
+    "independent_ledger_sha256": "6fd36d2fe1965eab1632e7acc0d279b4abbf8b716e1cb73a3f51b699bbdb9e84",
     "scope": "All three versions jointly; factual paraphrases, repeated headings, visible labels and legacy lead alias counted. Originals, mirrors and embedded excerpts are not separate allowances. No derivative facts added in these public records.",
     "excluded_works_reuse_words": 0,
     "no_direct_source_quotes": true
@@ -189,7 +189,7 @@
     "editorial_review_notices_existing": 42,
     "editorial_review_notices_new": 0,
     "preservation": {
-      "checked_at_utc": "2026-11-18T22:52:23.229Z",
+      "checked_at_utc": "2026-11-18T22:54:42.316Z",
       "mode": "update",
       "id": "gta6-review-embargo-20261103",
       "topics": 232,
@@ -212,6 +212,9 @@
       "errors": 0
     },
     "browser_local_cases": 25,
-    "provider_fixture_scope": "Provider hosts only during browser checks; own-origin delivery is real. No real creative, Analytics receipt, Safari or physical-device certification."
+    "provider_fixture_scope": "Provider hosts only during browser checks; own-origin delivery is real. No real creative, Analytics receipt, Safari or physical-device certification.",
+    "production_browser_cases": 9,
+    "public_verification_sha256": "3ecfae71f203831cfe9bc6afbfd719d67aea2818d402b4a19a7110cbf095efe4",
+    "public_issues": 0
   }
 }

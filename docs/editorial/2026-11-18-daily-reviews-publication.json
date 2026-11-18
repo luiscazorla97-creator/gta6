@@ -1,6 +1,6 @@
 {
-  "state": "validated-awaiting-production",
-  "checked_at_utc": "2026-11-18T22:54:11.561209+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-18T22:59:54.852734+00:00",
   "articles": [
     {
       "id": "gta6-review-embargo-20261103",
@@ -19,8 +19,213 @@
   "browser": {
     "local_cases": 25,
     "engine": "Cloud Chromium desktop/mobile/tablet emulation.",
-    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only; no own-origin route substitution or real creative/Analytics certification."
+    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only; no own-origin route substitution or real creative/Analytics certification.",
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 9,
+    "production_image_decodes": 27,
+    "production_language_changes": 9,
+    "errors": 0
   },
   "indexing": "Indexability and public content delivery are checked; actual Google indexing/rankings and universal real-Googlebot access are not established.",
-  "proof_commit_policy": "After verification, save documentation evidence only when all 1043 runtime files remain identical; no second deployment for that evidence."
+  "proof_commit_policy": "After verification, save documentation evidence only when all 1043 runtime files remain identical; no second deployment for that evidence.",
+  "runtime_commit": {
+    "sha": "08233236fafed7f494d1e4ca00b094a4a4e27789",
+    "tree": "8a20ef22f32c153715781518e242994fe1fa23c5",
+    "parent": "c62c778bec06af43552b75e8f7d394775b613399"
+  },
+  "cloudflare": {
+    "checked_at_utc": "2026-11-18T22:59:25.467205+00:00",
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "canonical": {
+      "id": "f67eaec9-e38a-4d2d-a964-80c78c8792e2",
+      "environment": "production",
+      "url": "https://f67eaec9.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-18T22:57:55.096296Z",
+        "ended_on": "2026-11-18T22:58:20.647907Z",
+        "status": "success"
+      },
+      "commit": "08233236fafed7f494d1e4ca00b094a4a4e27789"
+    },
+    "deployment": {
+      "id": "f67eaec9-e38a-4d2d-a964-80c78c8792e2",
+      "environment": "production",
+      "url": "https://f67eaec9.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-18T22:57:55.096296Z",
+        "ended_on": "2026-11-18T22:58:20.647907Z",
+        "status": "success"
+      },
+      "commit": "08233236fafed7f494d1e4ca00b094a4a4e27789"
+    }
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-18T22:58:31.137106+00:00",
+    "finished_at_utc": "2026-11-18T22:59:38.566189+00:00",
+    "canonical_URLs": 735,
+    "article_versions": 696,
+    "selected_versions": 3,
+    "status": {
+      "200": 735
+    },
+    "locales": {
+      "es": 245,
+      "en": 245,
+      "fr": 245
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "matched_release_HTML": 723,
+    "matched_article_versions": 696,
+    "legal_pages_HTTP_and_metadata_only": 12,
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "method": "Normal canonical HTTPS GETs through the inherited managed proxy with default certificate verification; at most five requests, no retries. HTML compares to frozen release after at most one exact known Cloudflare beacon; twelve legal email-transformed pages receive HTTP/meta checks only. Static resources compare decoded entity bytes.",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or Search Console URL Inspection; no indexing or universal real-bot-access claim.",
+    "sitemap_selected_URLs_unique": true
+  },
+  "public_verification_sha256": "3ecfae71f203831cfe9bc6afbfd719d67aea2818d402b4a19a7110cbf095efe4",
+  "updated_article_details": [
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+        "en": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+        "fr": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+        "x-default": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "580407a99191aafd898cc7142d39479f1afd41127ae4fbc3c9ef1f74652340cc",
+      "normalized_sha256": "580407a99191aafd898cc7142d39479f1afd41127ae4fbc3c9ef1f74652340cc",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [],
+      "initial_main": true,
+      "article_sections": 8,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-driver.webp",
+        "/media/feature-fight.webp",
+        "/media/feature-aiming.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+        "en": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+        "fr": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+        "x-default": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "27ae08acb9c381df89205d82b22fedd4c839a52784b86d9389ab6bad85175418",
+      "normalized_sha256": "27ae08acb9c381df89205d82b22fedd4c839a52784b86d9389ab6bad85175418",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [],
+      "initial_main": true,
+      "article_sections": 8,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-driver.webp",
+        "/media/feature-fight.webp",
+        "/media/feature-aiming.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+        "en": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+        "fr": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+        "x-default": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "4b14bc07aeca441d23611a23a81851394384c4afe7a063334665df047264464a",
+      "normalized_sha256": "4b14bc07aeca441d23611a23a81851394384c4afe7a063334665df047264464a",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [],
+      "initial_main": true,
+      "article_sections": 8,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-driver.webp",
+        "/media/feature-fight.webp",
+        "/media/feature-aiming.webp"
+      ]
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/": [
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/fecha-lanzamiento-gta-6-fuentes-oficiales/",
+      "https://fansgta.com/es/noticias/gta-6-goty-2026-game-awards-fecha-limite/",
+      "https://fansgta.com/es/noticias/rumor-gta-6-nike-travis-scott-air-force-1/"
+    ],
+    "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/": [
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-goty-2026-game-awards-eligibility-deadline/",
+      "https://fansgta.com/en/news/gta-6-release-date-official-sources/",
+      "https://fansgta.com/en/news/rumour-gta-6-nike-travis-scott-air-force-1/"
+    ],
+    "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/": [
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/date-sortie-gta-6-sources-officielles/",
+      "https://fansgta.com/fr/actualites/gta-6-goty-2026-game-awards-regles-eligibilite/",
+      "https://fansgta.com/fr/actualites/rumeur-gta-6-nike-travis-scott-air-force-1/"
+    ]
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/es/noticias/rumor-gta-6-fecha-analisis-embargo-notas/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/rumour-gta-6-review-embargo-date-scores/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/rumeur-gta-6-date-tests-embargo-notes/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ]
 }
