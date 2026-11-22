@@ -1,5 +1,65 @@
 [
   {
+    "id": "gta6-first-hours-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "GTA 6: qué hacer en tus primeras horas sin spoilers",
+      "GTA 6 beginner guide: what to do in your first hours",
+      "GTA 6 : bien commencer ses premières heures sans spoilers"
+    ],
+    "paths": [
+      "/es/guias/gta-6-primeras-horas-consejos/",
+      "/en/guides/gta-6-first-hours-beginner-tips/",
+      "/fr/guides/gta-6-premieres-heures-conseils/"
+    ]
+  },
+  {
+    "id": "gta6-manual-save-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "Cómo guardar partida en GTA 6: guardado manual y autoguardado",
+      "How to save in GTA 6: manual saves and autosave",
+      "Comment sauvegarder dans GTA 6 : sauvegarde manuelle et automatique"
+    ],
+    "paths": [
+      "/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+      "/en/guides/gta-6-save-game-manual-autosave/",
+      "/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/"
+    ]
+  },
+  {
+    "id": "gta6-earn-money-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "Cómo ganar dinero en GTA 6: métodos según tu progreso",
+      "How to earn money in GTA 6: methods for your progress",
+      "Comment gagner de l’argent dans GTA 6 selon votre progression"
+    ],
+    "paths": [
+      "/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+      "/en/guides/gta-6-earn-money-methods-progression/",
+      "/fr/guides/gta-6-gagner-argent-methodes-progression/"
+    ]
+  },
+  {
+    "id": "gta6-door-safe-codes-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "Códigos de puertas y cajas fuertes en GTA 6: claves y pistas",
+      "GTA 6 door and safe codes: combinations and clues",
+      "Codes des portes et coffres de GTA 6 : combinaisons et indices"
+    ],
+    "paths": [
+      "/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+      "/en/guides/gta-6-door-safe-codes/",
+      "/fr/guides/gta-6-codes-portes-coffres-forts/"
+    ]
+  },
+  {
     "id": "gta6-discord-vice-city-theme-20261116",
     "category": "news",
     "published": "2026-11-16",
@@ -3409,9 +3469,9 @@
     "category": "cheats",
     "published": "2026-10-27",
     "titles": [
-      "Rumores de trucos de GTA 6: dinero, invencibilidad y claves",
-      "GTA 6 cheat rumours: money, invincibility and code claims",
-      "Rumeurs de codes GTA 6 : argent, invincibilité et astuces"
+      "Trucos de GTA 6 en PS5 y Xbox: códigos y cómo usarlos",
+      "GTA 6 cheats for PS5 and Xbox: codes and how to use them",
+      "Codes GTA 6 sur PS5 et Xbox : commandes et utilisation"
     ],
     "paths": [
       "/es/trucos/verificar-trucos-gta-6/",

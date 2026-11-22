@@ -1,0 +1,543 @@
+{
+  "state": "validated-awaiting-production",
+  "checked_at_utc": "2026-11-22T00:38:11.122543+00:00",
+  "manual_authorization": {
+    "client_date": "2026-11-21",
+    "timezone": "America/New_York",
+    "scope_topics": 5,
+    "scope_versions": 15,
+    "new_topics": 4,
+    "updated_topics": 1,
+    "daily_schedule_changed": false,
+    "daily_authorization_end_preserved": "2026-11-19 inclusive America/New_York",
+    "note": "This publication follows the current manual user request. It does not extend or resume the expired daily authorization."
+  },
+  "execution": {
+    "cloud": true,
+    "user_PC_dependency": false,
+    "baseline_main": "32145051584bf6bf74faa7076245d3ed8c38dc6f",
+    "fresh_fetch": true,
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "cloudflare_before": {
+      "checked_at_utc": "2026-11-22T00:20:57.920969+00:00",
+      "status": 200,
+      "production_branch": "main",
+      "build_command": "npm run build:release",
+      "canonical": {
+        "id": "f67eaec9-e38a-4d2d-a964-80c78c8792e2",
+        "environment": "production",
+        "url": "https://f67eaec9.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-18T22:57:55.096296Z",
+          "ended_on": "2026-11-18T22:58:20.647907Z",
+          "status": "success"
+        },
+        "commit": "08233236fafed7f494d1e4ca00b094a4a4e27789"
+      }
+    }
+  },
+  "deduplication": {
+    "review_sha256": "a1a07a0aa0026b282f75e1b981aa9d3d7848d1945b09d1e86b154106be119ed0",
+    "catalogue_snapshot_sha256": "9a6152fcbccdee04452efadc31a87cdd7a8a6eeef107e5d3cd50283230219ab8",
+    "reviewed_topics": 232,
+    "reviewed_versions": 696,
+    "action": "Update the equivalent per-game cheat article and retain its three URLs and publication date. Add four distinct practical intents, with links to existing focused guides.",
+    "rejected_intent": "A vehicle ranking was not supported sufficiently by comparable evidence.",
+    "updated_ids": [
+      "cheats-check"
+    ],
+    "new_ids": [
+      "gta6-manual-save-20261121",
+      "gta6-earn-money-20261121",
+      "gta6-door-safe-codes-20261121",
+      "gta6-first-hours-20261121"
+    ],
+    "topics_after": 236,
+    "versions_after": 708
+  },
+  "interest": {
+    "signal": "Current dated original guides and contemporaneous qualitative search coverage around practical player queries.",
+    "limits": "No verified Google search volume or ranking data. No popularity, traffic, ranking or indexing promise."
+  },
+  "source_review": {
+    "approved": true,
+    "reviewed_article_sha256": "c8300ea6573539561e23d1a67e6a15b98b0173c01fe8b7d2246db527424d440d",
+    "peer_qa_sha256": "f000cfe0d3e8cb7877f7052d17a10bcfd55efb41ebed3ce33418b04296010839",
+    "source_ledger_sha256": "6bba18ea230724bafea312d7f5eb37c8b27565c38196e1a7ae1a59409202e200",
+    "source_works": [
+      {
+        "id": "work-1",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "aliases": [],
+        "source_sha256": "b626eb2056fa1a87ed403bcc2fd5a64f7d8bd5acc527608bc6ceb418d74fb1ea",
+        "HTTP": 200,
+        "cap": 100,
+        "article_joint_words": 89,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 91,
+        "reserve_words": 9,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-21"
+      },
+      {
+        "id": "work-2",
+        "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them",
+        "aliases": [],
+        "source_sha256": "ed508ba022d5afedb50013b5c00c89366bff5a86c127c01053fe339d24c1093a",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 98,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 100,
+        "reserve_words": 100,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-18"
+      },
+      {
+        "id": "work-3",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "aliases": [],
+        "source_sha256": "c2694c97df7c8d95fe009c480d8cc0e72c8da7b56447c7b249b987f21b5535c8",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 192,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 194,
+        "reserve_words": 6,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-20"
+      },
+      {
+        "id": "work-4",
+        "url": "https://www.powerpyx.com/gta-6-all-cheats/",
+        "aliases": [],
+        "source_sha256": "78c14b8f0475fbe29e0c5594320a03140204c088d2cb0b578a475beacb03a96e",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 192,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 194,
+        "reserve_words": 6,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-19"
+      },
+      {
+        "id": "work-5",
+        "url": "https://www.purexbox.com/guides/gta-6-cheat-codes-all-reveals-so-far-and-how-to-unlock-them-on-xbox",
+        "aliases": [],
+        "source_sha256": "a1303b95f2b467457f41b47d158627beb2c13bf6e179566896ff6e4cd7aacd09",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 122,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 124,
+        "reserve_words": 76,
+        "published_date": "2026-11-19",
+        "modified_date": "2026-11-19"
+      },
+      {
+        "id": "work-6",
+        "url": "https://www.shacknews.com/article/151434/how-to-save-gta6",
+        "aliases": [],
+        "source_sha256": "e18b2341389aa458b8c8932663acb0ec455b2a9034882a8aaf9bdf1b3509bb78",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 188,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 190,
+        "reserve_words": 10,
+        "published_date": "2026-11-19",
+        "modified_date": "2026-11-19"
+      },
+      {
+        "id": "work-7",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-save-game/",
+        "aliases": [],
+        "source_sha256": "5f2e0fc7c8174769fd4f1a794674321888b693bed288cde6b7d6c066f6426b95",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 166,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 168,
+        "reserve_words": 32,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-18"
+      },
+      {
+        "id": "work-8",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-save/",
+        "aliases": [],
+        "source_sha256": "7741144de7e100ae17c49b49908eddd0a00587c5ffe9c28a78046f8c6648b72d",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 159,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 161,
+        "reserve_words": 39,
+        "published_date": "2026-11-19",
+        "modified_date": "2026-11-21"
+      },
+      {
+        "id": "work-9",
+        "url": "https://www.videogameschronicle.com/guide/gta-6-psa-heres-how-gta-6-autosave-works/",
+        "aliases": [],
+        "source_sha256": "17736bdcdfd31259852728de0a9543966b169c2addeef483f0fcc83f38e1dcad",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 179,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 181,
+        "reserve_words": 19,
+        "published_date": "2026-11-19",
+        "modified_date": "2026-11-19"
+      },
+      {
+        "id": "work-10",
+        "url": "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/",
+        "aliases": [],
+        "source_sha256": "1f6c3ee719de134ecc8a5ef0613a23d3cff4ed735484f27e630fca9d45f0a34f",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 140,
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 140,
+        "reserve_words": 60
+      },
+      {
+        "id": "work-11",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+        "aliases": [],
+        "source_sha256": "25f1eab2786be887462267d6ea30303024dece918b4d4724e5a3edfa701704eb",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 186,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 188,
+        "reserve_words": 12,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-18"
+      },
+      {
+        "id": "work-12",
+        "url": "https://www.videogameschronicle.com/guide/how-to-make-money-in-gta-6/",
+        "aliases": [],
+        "source_sha256": "92ca764ab6c76aae13663785c79105e84afeff8db13e7305fa5e3e3cf96b69b7",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 187,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 189,
+        "reserve_words": 11,
+        "published_date": "2026-11-19",
+        "modified_date": "2026-11-19"
+      },
+      {
+        "id": "work-13",
+        "url": "https://www.radiotimes.com/technology/gaming/gta-6-door-codes-list/",
+        "aliases": [],
+        "source_sha256": "a72bea1864bd84330b6e03e3d7f94eebc574adc50392497b78c15f9eb167a9fb",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 175,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 177,
+        "reserve_words": 23,
+        "published_date": "2026-11-20",
+        "modified_date": "2026-11-20"
+      },
+      {
+        "id": "work-14",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-safe-codes/",
+        "aliases": [],
+        "source_sha256": "bd8faca4d83b92226d817a2102cea1738286d6c3168e725e9201b32bf081a6c2",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 177,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 179,
+        "reserve_words": 21,
+        "published_date": "2026-11-21",
+        "modified_date": "2026-11-21"
+      },
+      {
+        "id": "work-15",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/",
+        "aliases": [],
+        "source_sha256": "d5446c1918e9337d9f87fa248da023549ca1f45d9a6c75a5a015aefdcaf9cbe6",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 154,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 156,
+        "reserve_words": 44,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-20"
+      },
+      {
+        "id": "work-16",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bowling-alley-safe-code-location/",
+        "aliases": [],
+        "source_sha256": "728f0111747f25c80c42a25451ef521a52719d5c2e3623cb388eb1b61a9e6c2e",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 78,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 80,
+        "reserve_words": 120,
+        "published_date": "2026-11-21",
+        "modified_date": "2026-11-21"
+      },
+      {
+        "id": "work-17",
+        "url": "https://www.radiotimes.com/technology/gaming/gta-6-safe-codes-how-to-get-all-safe-combinations-explained/",
+        "aliases": [],
+        "source_sha256": "c8b2a53b9b6d25b43e1e0f4847a08f8360a6d77ea20833e6c13e2d4f91fa6e18",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 173,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 175,
+        "reserve_words": 25,
+        "published_date": "2026-11-19",
+        "modified_date": "2026-11-20"
+      },
+      {
+        "id": "work-18",
+        "url": "https://www.videogameschronicle.com/news/gta-6-beginners-guide-6-tips-you-need-to-know-before-starting-gta-6/",
+        "aliases": [],
+        "source_sha256": "bd60cb4d3d40d188118756a8b9f94bf13866dccc676e0cd9166b97c979ef0972",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 168,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 170,
+        "reserve_words": 30,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-18"
+      },
+      {
+        "id": "work-19",
+        "url": "https://www.powerpyx.com/gta-6-tips-tricks",
+        "aliases": [],
+        "source_sha256": "3bc991f513a3dfd164e103f5460213ee2e360cf08633995dc06d721c1324178d",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 163,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 165,
+        "reserve_words": 35,
+        "published_date": "2026-11-18",
+        "modified_date": "2026-11-20"
+      },
+      {
+        "id": "work-20",
+        "url": "https://www.redbull.com/us-en/gta-6-beginners-guide",
+        "aliases": [],
+        "source_sha256": "310e8805ea9bef50c9cbf1c9345da2ec60d67d12339a1c936f52948084d04668",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 185,
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 187,
+        "reserve_words": 13,
+        "published_date": "2026-11-19",
+        "modified_date": "2026-11-19"
+      },
+      {
+        "id": "work-21",
+        "url": "https://www.rockstargames.com/VI/media",
+        "aliases": [
+          "https://www.rockstargames.com/VI/media/screenshots"
+        ],
+        "source_sha256": "1ea9ba7016bdc56aa8b3fd5ee9809fa578ea11450e9dcb496100df844106aeed",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 126,
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 126,
+        "reserve_words": 74
+      }
+    ],
+    "scope": "All five topics and all three languages jointly; source-derived paraphrases, table labels, metadata, repeated headings, legacy lead alias and credits included. Lowest observed caps retained. Mirrors and derivative reports receive no extra allowance. Public records repeat no source-specific story findings.",
+    "direct_quotes_words": 0,
+    "excluded_works_reuse_words": 0
+  },
+  "media": {
+    "registry_unchanged": true,
+    "review_sha256": "1cd54f83cf22cc43caaaa0806b578421f5b6a53873ac979f972df69a5f1531b4",
+    "gallery_HTTP": 200,
+    "gallery_sha256": "1ea9ba7016bdc56aa8b3fd5ee9809fa578ea11450e9dcb496100df844106aeed",
+    "download_share_context": true,
+    "copyright": "Reserved. No unrestricted licence claimed. Existing optimized official images are used with translated original visual descriptions and credits. No AI, mods, leaks or GTA V substitute.",
+    "images": [
+      {
+        "key": "jason",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "source_sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba",
+        "local_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+        "local_dimensions": [
+          1600,
+          900
+        ],
+        "mean_absolute_rgb_error": 1.5806180555555553
+      },
+      {
+        "key": "vice-city",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "source_sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "local_dimensions": [
+          1600,
+          900
+        ],
+        "mean_absolute_rgb_error": 2.2957037037037034
+      },
+      {
+        "key": "feature-phone",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "source_sha256": "c5bd34d1d328ce465d33f0aad4a7af7359ca1f81d95434019243518a5af3f00f",
+        "local_sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.7875435097897026
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "source_sha256": "4999851a6bbfebc0ace0281480c1f81ae600e2c17e5539de5f5f61043484b8d6",
+        "local_sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 3.5270821247280644
+      },
+      {
+        "key": "feature-safehouse-kayak",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_03.0c9.qtpdi.tf..jpg?imwidth=1400",
+        "source_sha256": "757f16540da983d22da4093b7a7207c8678a47a1e582a767fc5ab568be7471e5",
+        "local_sha256": "22d82a82162528d5b9763926e48a17805e8c56f3f6eea0d7297ae46d07ba55f0",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 2.2732756224317137
+      },
+      {
+        "key": "feature-shop-robbery",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_04.0m7i~huzhskdw.jpg?imwidth=1400",
+        "source_sha256": "7b4cc077e1dcd5251bd5a3b9f46fb88528a41a280e448e5eb5c2cf1282e4e96c",
+        "local_sha256": "42501ae068402276538e3835425d71ce62c97a585b2c10a3e794e1e00bb716c6",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.6709158206429782
+      },
+      {
+        "key": "feature-driver",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "source_sha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+        "local_sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.4413140560792845
+      },
+      {
+        "key": "feature-couple",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "source_sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+        "local_sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.5918138143582308
+      },
+      {
+        "key": "feature-fight",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+        "source_sha256": "f79d4a251166dbf99efce8cd9c3198d28b2c829373413c8f98621e61dc6e361c",
+        "local_sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.4211249093546048
+      },
+      {
+        "key": "feature-boats",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "source_sha256": "5f2226e90602403ac0b8feea520a501c2872015627456448c0be85768d5ef7ae",
+        "local_sha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 2.7184847111433403
+      }
+    ]
+  },
+  "checks": {
+    "build_release": true,
+    "static_verifier": true,
+    "editorial_errors": 0,
+    "existing_review_notices": 42,
+    "new_review_notices": 0,
+    "preservation": {
+      "checked_at_utc": "2026-11-22T00:36:20.363Z",
+      "manual_batch": true,
+      "selected_topics": 5,
+      "updated_topics": 1,
+      "new_topics": 4,
+      "topics": 236,
+      "article_versions": 708,
+      "prior_article_objects_unchanged": 231,
+      "prior_article_URLs_preserved": 696,
+      "protected_existing_files": 553,
+      "critical_files": 22,
+      "CSS_JS_assets_identical": 3,
+      "sitemap_canonical_URLs": 747,
+      "release_HTML": 752,
+      "release_files": 1055,
+      "inventory_exact": true,
+      "approved_article_sha256": "c8300ea6573539561e23d1a67e6a15b98b0173c01fe8b7d2246db527424d440d",
+      "target_urls": [
+        "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+        "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+        "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+        "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+        "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+        "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+        "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/",
+        "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+        "https://fansgta.com/en/guides/gta-6-door-safe-codes/",
+        "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/",
+        "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+        "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+        "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/"
+      ],
+      "errors": 0
+    },
+    "browser_local_cases": 25,
+    "provider_fixture_scope": "Only advertising/analytics provider hosts during browser checks. Own-origin delivery is real; no real creative, Analytics receipt, Safari or physical-device certification."
+  }
+}

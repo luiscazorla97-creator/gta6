@@ -1,0 +1,77 @@
+{
+  "state": "validated-awaiting-production",
+  "checked_at_utc": "2026-11-22T00:38:11.122543+00:00",
+  "manual_batch": true,
+  "new_topics": 4,
+  "updated_topics": 1,
+  "language_versions": 15,
+  "articles": [
+    {
+      "id": "gta6-first-hours-20261121",
+      "category": "guides",
+      "action": "new",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+        "en": "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/"
+      }
+    },
+    {
+      "id": "gta6-manual-save-20261121",
+      "category": "guides",
+      "action": "new",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+        "en": "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/"
+      }
+    },
+    {
+      "id": "gta6-earn-money-20261121",
+      "category": "guides",
+      "action": "new",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+        "en": "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/"
+      }
+    },
+    {
+      "id": "gta6-door-safe-codes-20261121",
+      "category": "guides",
+      "action": "new",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+        "en": "https://fansgta.com/en/guides/gta-6-door-safe-codes/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/"
+      }
+    },
+    {
+      "id": "cheats-check",
+      "category": "cheats",
+      "action": "update",
+      "published": "2026-10-27",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "en": "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "fr": "https://fansgta.com/fr/codes/verifier-codes-gta-6/"
+      }
+    }
+  ],
+  "browser": {
+    "local_cases": 25,
+    "engine": "Cloud Chromium desktop/mobile/tablet emulation.",
+    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only. No own-origin replacement, real creative delivery or Analytics receipt certification."
+  },
+  "indexing": "HTTP, HTML, metadata and public indexability are checked; actual Google indexing, rankings, traffic and universal real-Googlebot access are not established.",
+  "proof_commit_policy": "Save evidence in a documentation-only commit after all 1055 runtime files remain identical; no second deployment for those records."
+}
