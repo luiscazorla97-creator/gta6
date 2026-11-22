@@ -1,5 +1,155 @@
 [
   {
+    "id": "gta6-launch-sales-20261121",
+    "category": "news",
+    "published": "2026-11-21",
+    "titles": [
+      "Ventas de GTA 6: las cifras de Rockstar y cómo interpretarlas",
+      "GTA 6 launch sales: Rockstar’s figures and what they mean",
+      "Ventes de GTA 6 : comprendre les chiffres de Rockstar"
+    ],
+    "paths": [
+      "/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/",
+      "/en/news/gta-6-launch-sales-rockstar-figures/",
+      "/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/"
+    ]
+  },
+  {
+    "id": "gta6-body-armour-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "Chaleco antibalas en GTA 6: comprar, equipar y reponer",
+      "GTA 6 body armor: buying, equipping and replacing a vest",
+      "Gilet pare-balles GTA 6 : achat, équipement et remplacement"
+    ],
+    "paths": [
+      "/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+      "/en/guides/gta-6-body-armor-buy-equip-refill/",
+      "/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/"
+    ]
+  },
+  {
+    "id": "gta6-lost-weapons-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "Armas perdidas en GTA 6: cómo recuperarlas y comprobar su propiedad",
+      "Lost weapons in GTA 6: recovery and ownership checks",
+      "Armes perdues dans GTA 6 : récupération et propriété"
+    ],
+    "paths": [
+      "/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+      "/en/guides/gta-6-recover-lost-owned-weapons/",
+      "/fr/guides/gta-6-recuperer-armes-perdues-propriete/"
+    ]
+  },
+  {
+    "id": "gta6-masks-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "Máscaras en GTA 6: dónde comprarlas y cómo cubrirte la cara",
+      "GTA 6 masks: where to buy one and cover your face",
+      "Masques dans GTA 6 : où les acheter et comment couvrir son visage"
+    ],
+    "paths": [
+      "/es/guias/gta-6-mascaras-comprar-equipar/",
+      "/en/guides/gta-6-masks-buy-equip/",
+      "/fr/guides/gta-6-masques-acheter-equiper/"
+    ]
+  },
+  {
+    "id": "gta6-fences-buyers-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "Peristas en GTA 6: dónde vender el botín y cómo cobrar",
+      "GTA 6 fences: where to sell loot and collect payment",
+      "Receleurs dans GTA 6 : où vendre le butin et recevoir le paiement"
+    ],
+    "paths": [
+      "/es/guias/gta-6-peristas-vender-botin-cobrar/",
+      "/en/guides/gta-6-fences-sell-loot-get-paid/",
+      "/fr/guides/gta-6-receleurs-vendre-butin-paiement/"
+    ]
+  },
+  {
+    "id": "gta6-military-vehicles-20261121",
+    "category": "vehicles",
+    "published": "2026-11-21",
+    "titles": [
+      "Base militar de GTA 6: guía para buscar tanque y caza",
+      "GTA 6 military base: a guide to finding tanks and fighter jets",
+      "Base militaire GTA 6 : guide pour chercher chars et chasseurs"
+    ],
+    "paths": [
+      "/es/vehiculos/gta-6-base-militar-tanque-caza/",
+      "/en/vehicles/gta-6-military-base-tank-fighter-jet/",
+      "/fr/vehicules/gta-6-base-militaire-char-chasseur/"
+    ]
+  },
+  {
+    "id": "gta6-difficulty-assists-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "¿Tiene GTA 6 modo fácil? Ajustes de ayuda explicados",
+      "Does GTA 6 have an easy mode? Assistance settings explained",
+      "GTA 6 a-t-il un mode facile ? Les aides expliquées"
+    ],
+    "paths": [
+      "/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+      "/en/guides/gta-6-easy-mode-difficulty-assists/",
+      "/fr/guides/gta-6-mode-facile-aides-difficulte/"
+    ]
+  },
+  {
+    "id": "gta6-mission-replay-20261121",
+    "category": "missions",
+    "published": "2026-11-21",
+    "titles": [
+      "¿Se pueden repetir misiones en GTA 6? Opciones y límites",
+      "Can you replay missions in GTA 6? Options and limitations",
+      "Peut-on rejouer les missions dans GTA 6 ? Options et limites"
+    ],
+    "paths": [
+      "/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+      "/en/missions/gta-6-replay-missions-saves-activities/",
+      "/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/"
+    ]
+  },
+  {
+    "id": "gta6-challenge-tracker-20261121",
+    "category": "guides",
+    "published": "2026-11-21",
+    "titles": [
+      "Desafíos de GTA 6: cómo consultar y organizar tu progreso",
+      "GTA 6 challenges: how to check and organize progress",
+      "Défis de GTA 6 : consulter et organiser sa progression"
+    ],
+    "paths": [
+      "/es/guias/gta-6-desafios-consultar-progreso-organizar/",
+      "/en/guides/gta-6-challenges-check-track-progress/",
+      "/fr/guides/gta-6-defis-consulter-suivre-progression/"
+    ]
+  },
+  {
+    "id": "gta6-next-mission-20261121",
+    "category": "missions",
+    "published": "2026-11-21",
+    "titles": [
+      "GTA 6: qué hacer si no aparece la siguiente misión",
+      "GTA 6: what to check when the next mission is missing",
+      "GTA 6 : que vérifier si la prochaine mission n’apparaît pas ?"
+    ],
+    "paths": [
+      "/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/",
+      "/en/missions/gta-6-next-mission-not-showing-explore-leonida/",
+      "/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/"
+    ]
+  },
+  {
     "id": "gta6-first-hours-20261121",
     "category": "guides",
     "published": "2026-11-21",

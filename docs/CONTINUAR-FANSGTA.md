@@ -650,3 +650,7 @@ Actualización publicada y verificada en producción. Un tema y tres versiones, 
 ## Tanda manual — 2026-11-21
 
 Publicada y verificada en producción. Cinco temas y quince versiones ES/EN/FR: cuatro guías nuevas y actualización de la página equivalente de trucos, conservando sus URLs y fecha original. Catálogo 236 temas/708 versiones. Los otros 231 artículos, las 696 URLs anteriores, publicidad, diseño, idiomas, consentimiento y seguridad permanecen intactos. Investigación, deduplicación y evidencias: docs/editorial/2026-11-21-five-practical-{research.json,publication.json,informe.md}. No se prometen volúmenes, posiciones ni indexación. Esta tanda manual no extiende ni cambia la programación diaria, cuyo límite fue el 19 de noviembre de 2026 inclusive, America/New_York.
+
+## Diez artículos adicionales — 2026-11-21
+
+Validados localmente; publicación y verificación pública pendientes. Diez temas nuevos y treinta versiones ES/EN/FR en sus secciones correspondientes. Catálogo 246 temas/738 versiones. Los 236 artículos anteriores y 708 URLs, publicidad, diseño, idiomas, consentimiento y seguridad se conservan. Investigación, deduplicación y evidencia: docs/editorial/2026-11-21-ten-topics-{research.json,publication.json,informe.md}. No se prometen volúmenes, posiciones o indexación. Esta tanda manual no amplía ni cambia la tarea diaria, cuyo límite fue el 19 de noviembre de 2026 inclusive, America/New_York.

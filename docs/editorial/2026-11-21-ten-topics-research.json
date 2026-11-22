@@ -1,0 +1,708 @@
+{
+  "state": "validated-awaiting-production",
+  "checked_at_utc": "2026-11-22T01:10:39.688383+00:00",
+  "manual_authorization": {
+    "client_date": "2026-11-21",
+    "timezone": "America/New_York",
+    "topics": 10,
+    "versions": 30,
+    "new_topics": 10,
+    "updated_topics": 0,
+    "daily_schedule_changed": false,
+    "daily_authorization_end_preserved": "2026-11-19 inclusive America/New_York",
+    "note": "Current manual user request; the expired daily authorization is not extended or resumed."
+  },
+  "execution": {
+    "cloud": true,
+    "user_PC_dependency": false,
+    "baseline_main": "a560cdc4d5fdb2e5361b597f1dbfa6c4f8d4856c",
+    "fresh_fetch": true,
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "cloudflare_before": {
+      "checked_at_utc": "2026-11-22T00:50:07.009456+00:00",
+      "status": 200,
+      "production_branch": "main",
+      "build_command": "npm run build:release",
+      "canonical": {
+        "id": "262fa3c6-9c4c-46b4-8a98-6495ff86eb5b",
+        "environment": "production",
+        "url": "https://262fa3c6.fansgta.pages.dev",
+        "stage": {
+          "name": "deploy",
+          "started_on": "2026-11-22T00:41:15.079527Z",
+          "ended_on": "2026-11-22T00:41:32.586206Z",
+          "status": "success"
+        },
+        "commit": "dccaccc7d28acb55930ed614c6ee04800fcb1842"
+      }
+    }
+  },
+  "deduplication": {
+    "review_sha256": "76b46e3805f9cee037cd36465216e02a8a1dab3e3fc806f8c8883571fa546a5b",
+    "catalogue_snapshot_sha256": "a863c0adaf4b956ac243ea81ab274201efbe0f1d9332c29c4940eeac5137f741",
+    "complete_intent_scan_sha256": "a42405ca0bfa4999e44fbe1f0321a5998efa78c7aa1dbb4f6b30a3189d698212",
+    "reviewed_topics": 236,
+    "reviewed_versions": 708,
+    "decision": "Ten focused intents are distinct from the full existing catalogue, including the previous manual batch. Existing articles and their URLs remain intact.",
+    "new_ids": [
+      "gta6-launch-sales-20261121",
+      "gta6-body-armour-20261121",
+      "gta6-lost-weapons-20261121",
+      "gta6-masks-20261121",
+      "gta6-fences-buyers-20261121",
+      "gta6-military-vehicles-20261121",
+      "gta6-difficulty-assists-20261121",
+      "gta6-mission-replay-20261121",
+      "gta6-challenge-tracker-20261121",
+      "gta6-next-mission-20261121"
+    ],
+    "topics_after": 246,
+    "versions_after": 738,
+    "categories": {
+      "news": 1,
+      "guides": 6,
+      "missions": 2,
+      "vehicles": 1
+    }
+  },
+  "interest": {
+    "signal": "Current primary announcements and dated original practical guides; qualitative contemporary search coverage.",
+    "limits": "No verified Google search-volume or ranking data; no popularity, traffic, position or indexing guarantee."
+  },
+  "source_review": {
+    "approved": true,
+    "reviewed_article_sha256": "575eba1581bf73bc3e73f456f83ba47885acb42184dc50fab26e469f767f77f0",
+    "peer_qa_sha256": "a7fa6133d07926f626f41214592a3a09693e392875ee1ffd9a63d50237481aed",
+    "source_ledger_sha256": "65ab3c69147698f751f127c8ab54ab71a9530a339f19a00d9cbb72ba06fd2de8",
+    "source_works": [
+      {
+        "id": "work-1",
+        "url": "https://www.videogameschronicle.com/guide/gta-6-easy-mode-does-gta-6-have-difficulty-options/",
+        "aliases": [],
+        "source_sha256": "41d501b85d389f7ff57331da749686c49ad5496ab3804e90c272d203f262e188",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 189,
+        "observed_source_dates": [
+          "2026-11-19"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 190,
+        "reserve_words": 10
+      },
+      {
+        "id": "work-2",
+        "url": "https://www.pushsquare.com/news/2026/11/gta-6-has-an-easy-mode-buried-in-an-impressive-range-of-accessibility-options",
+        "aliases": [],
+        "source_sha256": "6880112c1b846637e6f36baf861a8676b2ca61c867d242a96c64a9dd535affd5",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 185,
+        "observed_source_dates": [
+          "2026-11-19"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 186,
+        "reserve_words": 14
+      },
+      {
+        "id": "work-3",
+        "url": "https://www.videogameschronicle.com/guide/can-you-replay-missions-in-gta-6/",
+        "aliases": [],
+        "source_sha256": "abe752d9559a67ff98733955cb5272487542957e8a481ee3e3233177e75cdb70",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 176,
+        "observed_source_dates": [
+          "2026-11-18"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 177,
+        "reserve_words": 23
+      },
+      {
+        "id": "work-4",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-replay-missions-how-to/",
+        "aliases": [],
+        "source_sha256": "8b49665212b09c24c079909e9432526b3e516ad8df7ae0f411fec2d06ffceb96",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 160,
+        "observed_source_dates": [
+          "2026-11-19"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 161,
+        "reserve_words": 39
+      },
+      {
+        "id": "work-5",
+        "url": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "aliases": [],
+        "source_sha256": "68545b0f4aa864e60523a2ff38b335d2b00157cd1d5ded75fcade725d3709357",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 186,
+        "observed_source_dates": [],
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 186,
+        "reserve_words": 14
+      },
+      {
+        "id": "work-6",
+        "url": "https://gamerant.com/gta-6-advance-story-find-missions-explore-leonida-grand-theft-auto-6/",
+        "aliases": [
+          "https://criticalhits.com.br/dicas/grand-theft-auto-6-como-encontrar-a-proxima-missao-da-historia-em-leonida/",
+          "https://gta6.house/guides/gta-6-no-missions-available-next-mission"
+        ],
+        "source_sha256": "cdd5068a500674b9375022e5789bfce9d5b94877eefc12deed9077f4c73e0420",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 198,
+        "observed_source_dates": [
+          "2026-11-19"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 199,
+        "reserve_words": 1
+      },
+      {
+        "id": "work-7",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mask-location/",
+        "aliases": [],
+        "source_sha256": "eb112df16d3c58502b7b0bc3325c32893beb7c17bf0ac658fc6eaa3c54e4a14c",
+        "HTTP": 200,
+        "cap": 100,
+        "article_joint_words": 98,
+        "observed_source_dates": [
+          "2026-11-20"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 99,
+        "reserve_words": 1
+      },
+      {
+        "id": "work-8",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-masks-how-to-get-equip/",
+        "aliases": [],
+        "source_sha256": "45a90554d289a9388619146079e6dfd970571fbc815fe7e52c86a987533f56a1",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 193,
+        "observed_source_dates": [
+          "2026-11-21"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 194,
+        "reserve_words": 6
+      },
+      {
+        "id": "work-9",
+        "url": "https://www.gamersheroes.com/game-guides/all-the-new-wanted-levels-in-gta-6-and-how-to-lose-them/",
+        "aliases": [],
+        "source_sha256": "90fe58cf1b19639393700262e1cd0c3fe4775fb11abaca851416c5bca2ffc091",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 192,
+        "observed_source_dates": [],
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 192,
+        "reserve_words": 8
+      },
+      {
+        "id": "work-10",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapon-ownership-explained/",
+        "aliases": [],
+        "source_sha256": "c4dc7cd28b40d04da55b8ce0f62d4b1fa27ce516dc1ef525c61d8dca03cfc121",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 193,
+        "observed_source_dates": [
+          "2026-11-19"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 194,
+        "reserve_words": 6
+      },
+      {
+        "id": "work-11",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/how-to-remove-guns-from-trunk-recover-weapons-ammu-nation-gta-6/",
+        "aliases": [],
+        "source_sha256": "269b731a971b062db746cb195a49a8fb9b7d3d0f78b569ad4e8427243ff224ee",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 184,
+        "observed_source_dates": [
+          "2026-11-19"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 185,
+        "reserve_words": 15
+      },
+      {
+        "id": "work-12",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-manage-loadout/",
+        "aliases": [],
+        "source_sha256": "b4dd0059059d2cdc2a61f4d1d59906747259d4879000cba6bf76cafe4ae32971",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 161,
+        "observed_source_dates": [
+          "2026-11-19"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 162,
+        "reserve_words": 38
+      },
+      {
+        "id": "work-13",
+        "url": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+        "aliases": [],
+        "source_sha256": "16d78ccdd3517b520bf4b31550d9687ef28b4c98b9e5282883d9ce864efcee1f",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 171,
+        "observed_source_dates": [
+          "2026-11-18",
+          "2026-11-19"
+        ],
+        "bibliographic_date_tokens": 2,
+        "joint_words_including_records": 173,
+        "reserve_words": 27
+      },
+      {
+        "id": "work-14",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+        "aliases": [],
+        "source_sha256": "88c9a8e9155ffd2665388ceb5cf16771c581b5d02e62eb1a92cd581580ba4f22",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 187,
+        "observed_source_dates": [
+          "2026-11-18"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 188,
+        "reserve_words": 12
+      },
+      {
+        "id": "work-15",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-stolen-goods-illegal/",
+        "aliases": [],
+        "source_sha256": "dd8fda71798be3f7b1e4b432897da74eec00b5f7243a5d91a3e373cd0199f79d",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 196,
+        "observed_source_dates": [],
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 196,
+        "reserve_words": 4
+      },
+      {
+        "id": "work-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026075217/exhibit9918k.htm",
+        "aliases": [
+          "https://ir.take2games.com/node/32701/pdf"
+        ],
+        "source_sha256": "6303c5132a69d8a237bd6dd04ca233b051e48148a4144f2d6c63d8428177945a",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 189,
+        "observed_source_dates": [],
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 189,
+        "reserve_words": 11
+      },
+      {
+        "id": "work-17",
+        "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm",
+        "aliases": [],
+        "source_sha256": "f8b35efc511fe10b7d5148d20551bcb52e1f9a26997de4906e831c503b8cda3c",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 187,
+        "observed_source_dates": [],
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 187,
+        "reserve_words": 13
+      },
+      {
+        "id": "work-18",
+        "url": "https://www.sec.gov/Archives/edgar/data/946581/000110465913070819/a13-20938_1ex99d1.htm",
+        "aliases": [
+          "https://ir.take2games.com/node/16181/pdf"
+        ],
+        "source_sha256": "613e78dbde412683e1e32f829cb04beb5ad6f7a9f6634f469859123a185f139e",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 148,
+        "observed_source_dates": [],
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 148,
+        "reserve_words": 52
+      },
+      {
+        "id": "work-19",
+        "url": "https://www.powerpyx.com/gta-6-how-to-equip-body-armor/",
+        "aliases": [],
+        "source_sha256": "8e6bf4b576c32946c4baf22cd7f44302d072e5251023442a656dfecd5eb624ac",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 182,
+        "observed_source_dates": [
+          "2026-11-18"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 183,
+        "reserve_words": 17
+      },
+      {
+        "id": "work-20",
+        "url": "https://beebom.com/gta-6-body-armor/",
+        "aliases": [
+          "https://beebom.com/gta-6-body-armor/amp/"
+        ],
+        "source_sha256": "e70f25af04a59c150012115503d9a18dff6c482d392641b09ed73748951a07ef",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 175,
+        "observed_source_dates": [
+          "2026-11-20"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 176,
+        "reserve_words": 24
+      },
+      {
+        "id": "work-21",
+        "url": "https://www.gtabase.com/gta-6/articles/how-to-heal-in-gta-6",
+        "aliases": [],
+        "source_sha256": "d782499b6ee6fa69f68af0d413e896be1fb341a5aac2b307b80a912e6f1fe519",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 126,
+        "observed_source_dates": [
+          "2026-11-20"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 127,
+        "reserve_words": 73
+      },
+      {
+        "id": "work-22",
+        "url": "https://www.powerpyx.com/gta-6-military-tank-location/",
+        "aliases": [
+          "https://www.powerpyx.com/gta-6-military-fighter-jet-location/"
+        ],
+        "source_sha256": "24d39cd909c0566bc4cb84d96ed7a688b5a90132292265962c47a31c3588e607",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 171,
+        "observed_source_dates": [],
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 171,
+        "reserve_words": 29
+      },
+      {
+        "id": "work-23",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
+        "aliases": [],
+        "source_sha256": "d4b58200f210bc90fd10d95aa182cf5c4eb61c4d92012ce14dc652382d84f03b",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 188,
+        "observed_source_dates": [
+          "2026-11-18"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 189,
+        "reserve_words": 11
+      },
+      {
+        "id": "work-24",
+        "url": "https://insider-gaming.com/military-base-gta-6-mile-zero-air-station/",
+        "aliases": [],
+        "source_sha256": "8c9097a34872a6886e99ee333b67f6e53a231017b32d7ebda93cd0f101e94737",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 175,
+        "observed_source_dates": [
+          "2026-11-20"
+        ],
+        "bibliographic_date_tokens": 1,
+        "joint_words_including_records": 176,
+        "reserve_words": 24
+      },
+      {
+        "id": "work-25",
+        "url": "https://www.rockstargames.com/VI/media",
+        "aliases": [
+          "https://www.rockstargames.com/VI/media/screenshots"
+        ],
+        "source_sha256": "1ea9ba7016bdc56aa8b3fd5ee9809fa578ea11450e9dcb496100df844106aeed",
+        "HTTP": 200,
+        "cap": 200,
+        "article_joint_words": 150,
+        "observed_source_dates": [],
+        "bibliographic_date_tokens": 0,
+        "joint_words_including_records": 150,
+        "reserve_words": 50
+      }
+    ],
+    "scope": "All ten topics and three languages jointly, including source-derived paraphrases, table labels, metadata, repeated headings, legacy lead alias and credits. Lowest observed caps retained; mirrors and derivatives provide no extra allowance. Public records repeat no source-specific findings. Short bibliographic date values are counted conservatively above.",
+    "direct_quotes_words": 0,
+    "excluded_works_reuse_words": 0
+  },
+  "media": {
+    "registry_unchanged": true,
+    "review_sha256": "7a2a15f65efaba18e3c3c2bbc2dd67464bfa4663ad925f746a4e846941bde807",
+    "gallery_HTTP": 200,
+    "gallery_sha256": "1ea9ba7016bdc56aa8b3fd5ee9809fa578ea11450e9dcb496100df844106aeed",
+    "download_share_context": true,
+    "copyright": "Reserved; no unrestricted licence claimed. Existing optimized official imagery with original translated visual descriptions and credits; no AI, mods, leaks or GTA V substitute.",
+    "images": [
+      {
+        "key": "jason",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?imwidth=1600",
+        "source_sha256": "f5087cffeca01493113fcebc40ff1a8c160a7555e3fac98e46b38424ac7fa3ba",
+        "local_sha256": "c8a7ad44e5e5473cf673a808f7ff12b568acf219bb1bed5025d444d8787c17f1",
+        "local_dimensions": [
+          1600,
+          900
+        ],
+        "mean_absolute_rgb_error": 1.5806180555555553
+      },
+      {
+        "key": "vice-city",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "source_sha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "local_sha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "local_dimensions": [
+          1600,
+          900
+        ],
+        "mean_absolute_rgb_error": 2.2957037037037034
+      },
+      {
+        "key": "feature-phone",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_08.0841zdqaobvhd.jpg?imwidth=1400",
+        "source_sha256": "c5bd34d1d328ce465d33f0aad4a7af7359ca1f81d95434019243518a5af3f00f",
+        "local_sha256": "3f6978cd0580e568c2926f40bd1a5237c4622b68718b8f5c1fec94cd7ee1abea",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.7875435097897026
+      },
+      {
+        "key": "feature-safehouse-exterior",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "source_sha256": "4999851a6bbfebc0ace0281480c1f81ae600e2c17e5539de5f5f61043484b8d6",
+        "local_sha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 3.5270821247280644
+      },
+      {
+        "key": "feature-safehouse-kayak",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_03.0c9.qtpdi.tf..jpg?imwidth=1400",
+        "source_sha256": "757f16540da983d22da4093b7a7207c8678a47a1e582a767fc5ab568be7471e5",
+        "local_sha256": "22d82a82162528d5b9763926e48a17805e8c56f3f6eea0d7297ae46d07ba55f0",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 2.2732756224317137
+      },
+      {
+        "key": "feature-shop-robbery",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_04.0m7i~huzhskdw.jpg?imwidth=1400",
+        "source_sha256": "7b4cc077e1dcd5251bd5a3b9f46fb88528a41a280e448e5eb5c2cf1282e4e96c",
+        "local_sha256": "42501ae068402276538e3835425d71ce62c97a585b2c10a3e794e1e00bb716c6",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.6709158206429782
+      },
+      {
+        "key": "feature-driver",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "source_sha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+        "local_sha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.4413140560792845
+      },
+      {
+        "key": "feature-couple",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "source_sha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+        "local_sha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.5918138143582308
+      },
+      {
+        "key": "feature-fight",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+        "source_sha256": "f79d4a251166dbf99efce8cd9c3198d28b2c829373413c8f98621e61dc6e361c",
+        "local_sha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.4211249093546048
+      },
+      {
+        "key": "feature-boats",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "source_sha256": "5f2226e90602403ac0b8feea520a501c2872015627456448c0be85768d5ef7ae",
+        "local_sha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 2.7184847111433403
+      },
+      {
+        "key": "feature-launch-gallery-duo",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg?imwidth=1600",
+        "source_sha256": "1214224b9e6c20e1abcb459b57448356f3715f93ba561f5c2a59dfb952ba6c57",
+        "local_sha256": "a5b1f81670525391afd949feb04853fe7f1599f5491d2369f5924dff9449e677",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.7131762146482956
+      },
+      {
+        "key": "feature-aiming",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_05.0kxp6enhvzqka.jpg?imwidth=1400",
+        "source_sha256": "59b9b8587d8d12ff874ab212c3a1f8a6afb0cc641a122a1c0f61bf7dbcb3ff48",
+        "local_sha256": "1dbfed56d4aa069a13263263de089100a6a8b3a8c0b5a8e5d85b7c39797e7ae8",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.7481342156151802
+      },
+      {
+        "key": "feature-helicopter",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg?imwidth=1400",
+        "source_sha256": "828ad45819b4121f3a341b25cbc93cd6595099eb2d53068d1cef4f1853ab38d4",
+        "local_sha256": "2c27c6ad4cea14f4e2af9c2e2ba8441bc10edeaab9b53e627eed269bf1288cd4",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 1.5742760454435583
+      },
+      {
+        "key": "feature-diving",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_04.0hce1rw1s8pd9.jpg?imwidth=1400",
+        "source_sha256": "800b091c1c69e2885c71d7278aac0fae9f1284c6bdedf6e08a5dbab298c9e0c3",
+        "local_sha256": "d19fbc12ac07fcea5814e5dc2ce5f8af9971cb8420dddd91b84bf83707674c2f",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 2.2308106719845298
+      },
+      {
+        "key": "feature-hunters",
+        "HTTP": 200,
+        "source": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_03.037k2s87rwuxc.jpg?imwidth=1400",
+        "source_sha256": "55fbe316ad65dac4ef95a6f4572bfdae756ca343899ab6bfdf84609b6c4bf3da",
+        "local_sha256": "688b7334b6cbcdfd19505706666c00ae3fcce035a9f05c008393a3707de292d3",
+        "local_dimensions": [
+          1400,
+          788
+        ],
+        "mean_absolute_rgb_error": 3.1490675610345664
+      }
+    ]
+  },
+  "checks": {
+    "build_release": true,
+    "static_verifier": true,
+    "editorial_errors": 0,
+    "existing_review_notices": 42,
+    "new_review_notices": 0,
+    "preservation": {
+      "checked_at_utc": "2026-11-22T01:08:13.455Z",
+      "manual_batch": true,
+      "selected_topics": 10,
+      "updated_topics": 0,
+      "new_topics": 10,
+      "topics": 246,
+      "article_versions": 738,
+      "prior_article_objects_unchanged": 236,
+      "prior_article_URLs_preserved": 708,
+      "protected_existing_files": 559,
+      "critical_files": 22,
+      "CSS_JS_assets_identical": 3,
+      "sitemap_canonical_URLs": 777,
+      "release_HTML": 782,
+      "release_files": 1085,
+      "inventory_exact": true,
+      "approved_article_sha256": "575eba1581bf73bc3e73f456f83ba47885acb42184dc50fab26e469f767f77f0",
+      "target_urls": [
+        "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/",
+        "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/",
+        "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/",
+        "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+        "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+        "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+        "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+        "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+        "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+        "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+        "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+        "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+        "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/",
+        "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/",
+        "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/",
+        "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/",
+        "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/",
+        "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/",
+        "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+        "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/",
+        "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/",
+        "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+        "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/",
+        "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/",
+        "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/",
+        "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/",
+        "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/",
+        "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/",
+        "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/",
+        "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/"
+      ],
+      "errors": 0
+    },
+    "browser_local_cases": 25,
+    "provider_fixture_scope": "Provider hosts only in browser checks. Own-origin delivery is real; no real creative, Analytics receipt, Safari or physical-device certification."
+  }
+}

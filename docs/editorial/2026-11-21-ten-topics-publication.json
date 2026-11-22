@@ -1,0 +1,127 @@
+{
+  "state": "validated-awaiting-production",
+  "checked_at_utc": "2026-11-22T01:10:39.688383+00:00",
+  "manual_batch": true,
+  "new_topics": 10,
+  "updated_topics": 0,
+  "language_versions": 30,
+  "articles": [
+    {
+      "id": "gta6-launch-sales-20261121",
+      "category": "news",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/",
+        "en": "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/"
+      }
+    },
+    {
+      "id": "gta6-body-armour-20261121",
+      "category": "guides",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+        "en": "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/"
+      }
+    },
+    {
+      "id": "gta6-lost-weapons-20261121",
+      "category": "guides",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+        "en": "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/"
+      }
+    },
+    {
+      "id": "gta6-masks-20261121",
+      "category": "guides",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+        "en": "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/"
+      }
+    },
+    {
+      "id": "gta6-fences-buyers-20261121",
+      "category": "guides",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/",
+        "en": "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/"
+      }
+    },
+    {
+      "id": "gta6-military-vehicles-20261121",
+      "category": "vehicles",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/",
+        "en": "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/",
+        "fr": "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/"
+      }
+    },
+    {
+      "id": "gta6-difficulty-assists-20261121",
+      "category": "guides",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+        "en": "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/"
+      }
+    },
+    {
+      "id": "gta6-mission-replay-20261121",
+      "category": "missions",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+        "en": "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/",
+        "fr": "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/"
+      }
+    },
+    {
+      "id": "gta6-challenge-tracker-20261121",
+      "category": "guides",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/",
+        "en": "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/"
+      }
+    },
+    {
+      "id": "gta6-next-mission-20261121",
+      "category": "missions",
+      "published": "2026-11-21",
+      "updated": "2026-11-21",
+      "urls": {
+        "es": "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/",
+        "en": "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/",
+        "fr": "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/"
+      }
+    }
+  ],
+  "browser": {
+    "local_cases": 25,
+    "engine": "Cloud Chromium desktop/mobile/tablet emulation.",
+    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only; no own-origin replacement or real creative/Analytics certification."
+  },
+  "indexing": "HTTP, initial HTML and indexability are checked; actual Google indexing, traffic, rankings and universal real-Googlebot access are not established.",
+  "proof_commit_policy": "Save documentary evidence only after all 1085 runtime files are confirmed identical; no second deployment for those records."
+}
