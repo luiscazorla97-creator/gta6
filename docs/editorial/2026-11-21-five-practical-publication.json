@@ -1,6 +1,6 @@
 {
-  "state": "validated-awaiting-production",
-  "checked_at_utc": "2026-11-22T00:38:11.122543+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-22T00:43:29.984878+00:00",
   "manual_batch": true,
   "new_topics": 4,
   "updated_topics": 1,
@@ -70,8 +70,808 @@
   "browser": {
     "local_cases": 25,
     "engine": "Cloud Chromium desktop/mobile/tablet emulation.",
-    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only. No own-origin replacement, real creative delivery or Analytics receipt certification."
+    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only. No own-origin replacement, real creative delivery or Analytics receipt certification.",
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 45,
+    "production_image_decodes": 135,
+    "production_language_changes": 45,
+    "errors": 0
   },
   "indexing": "HTTP, HTML, metadata and public indexability are checked; actual Google indexing, rankings, traffic and universal real-Googlebot access are not established.",
-  "proof_commit_policy": "Save evidence in a documentation-only commit after all 1055 runtime files remain identical; no second deployment for those records."
+  "proof_commit_policy": "Save evidence in a documentation-only commit after all 1055 runtime files remain identical; no second deployment for those records.",
+  "runtime_commit": {
+    "sha": "dccaccc7d28acb55930ed614c6ee04800fcb1842",
+    "tree": "277816539c70a3420e18678891ac11ab8ce65e9b",
+    "parent": "32145051584bf6bf74faa7076245d3ed8c38dc6f"
+  },
+  "cloudflare": {
+    "checked_at_utc": "2026-11-22T00:43:29.466301+00:00",
+    "status": 200,
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "canonical": {
+      "id": "262fa3c6-9c4c-46b4-8a98-6495ff86eb5b",
+      "environment": "production",
+      "url": "https://262fa3c6.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-22T00:41:15.079527Z",
+        "ended_on": "2026-11-22T00:41:32.586206Z",
+        "status": "success"
+      },
+      "commit": "dccaccc7d28acb55930ed614c6ee04800fcb1842"
+    },
+    "deployment": {
+      "id": "262fa3c6-9c4c-46b4-8a98-6495ff86eb5b",
+      "environment": "production",
+      "url": "https://262fa3c6.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-22T00:41:15.079527Z",
+        "ended_on": "2026-11-22T00:41:32.586206Z",
+        "status": "success"
+      },
+      "commit": "dccaccc7d28acb55930ed614c6ee04800fcb1842"
+    }
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-22T00:41:54.525716+00:00",
+    "finished_at_utc": "2026-11-22T00:42:59.603545+00:00",
+    "canonical_URLs": 747,
+    "article_versions": 708,
+    "selected_versions": 15,
+    "status": {
+      "200": 747
+    },
+    "locales": {
+      "es": 249,
+      "en": 249,
+      "fr": 249
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "matched_release_HTML": 735,
+    "matched_article_versions": 708,
+    "legal_pages_HTTP_and_metadata_only": 12,
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "method": "Normal canonical HTTPS GETs through inherited managed proxy with default TLS trust. At most five concurrent requests, no retries; stop submitting on HTTP429. HTML compares to the frozen release after at most one exact pinned Cloudflare beacon. Twelve existing email-transformed legal pages receive HTTP/meta checks only. Static resources compare decoded entity bytes.",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or private Search Console URL Inspection; no indexing or universal real-bot-access claim.",
+    "sitemap_selected_URLs_unique": true
+  },
+  "public_verification_sha256": "9d9762156e8e30b43cacbc1d1d5c6cf0a42d4574ab54a030a04773c95f83f5f3",
+  "selected_article_details": [
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+        "en": "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "9db6a5ed9e2c960545ad6b2c74981370ddbcb4760028bfd6a6f540f3102de3b4",
+      "normalized_sha256": "9db6a5ed9e2c960545ad6b2c74981370ddbcb4760028bfd6a6f540f3102de3b4",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+        "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-fight.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+        "en": "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+        "x-default": "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "90e481d50e670a85a8c4df27922da44704e498f296f0eab2193734c99aea5319",
+      "normalized_sha256": "90e481d50e670a85a8c4df27922da44704e498f296f0eab2193734c99aea5319",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+        "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/"
+      ],
+      "initial_main": true,
+      "article_sections": 5,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-safehouse-exterior.webp",
+        "/media/feature-phone.webp",
+        "/media/feature-safehouse-kayak.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+        "en": "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/",
+        "x-default": "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "729397bbeb1fb5627fd13c2cc5a07cfffb863792ccff50f5858ef0a5a9322ffd",
+      "normalized_sha256": "729397bbeb1fb5627fd13c2cc5a07cfffb863792ccff50f5858ef0a5a9322ffd",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+        "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-boats.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+        "en": "https://fansgta.com/en/guides/gta-6-door-safe-codes/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/",
+        "x-default": "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "f4962fcc2e6593be8f04b519d19104a30580eadddf33eb260c675c4e7a2e08b0",
+      "normalized_sha256": "f4962fcc2e6593be8f04b519d19104a30580eadddf33eb260c675c4e7a2e08b0",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-safehouse-exterior.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/trucos/verificar-trucos-gta-6/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "en": "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "fr": "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+        "x-default": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "b5e5c0cdb07e61dbca3119e04af129dbd5dc7e779c0882a34778ecaf813db52f",
+      "normalized_sha256": "b5e5c0cdb07e61dbca3119e04af129dbd5dc7e779c0882a34778ecaf813db52f",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+        "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/"
+      ],
+      "initial_main": true,
+      "article_sections": 7,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/jason.webp",
+        "/media/vice-city.webp",
+        "/media/feature-phone.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+        "en": "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "89bc5087265777891fc4da2be40a73f001bd37a543a015ffc43f89f883bed1ce",
+      "normalized_sha256": "89bc5087265777891fc4da2be40a73f001bd37a543a015ffc43f89f883bed1ce",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+        "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-fight.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+        "en": "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+        "x-default": "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "67a2947e49a1b39bbb0e615dbc266d49f12a873f88b0fd426c72925e39013bc1",
+      "normalized_sha256": "67a2947e49a1b39bbb0e615dbc266d49f12a873f88b0fd426c72925e39013bc1",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+        "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/"
+      ],
+      "initial_main": true,
+      "article_sections": 5,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-safehouse-exterior.webp",
+        "/media/feature-phone.webp",
+        "/media/feature-safehouse-kayak.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+        "en": "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/",
+        "x-default": "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "de576849ff2fde380ff4f37bd7507dbc18ccf72154a3e7b444fb3e5d4573e3be",
+      "normalized_sha256": "de576849ff2fde380ff4f37bd7507dbc18ccf72154a3e7b444fb3e5d4573e3be",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+        "https://fansgta.com/en/guides/gta-6-door-safe-codes/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-boats.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-door-safe-codes/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-door-safe-codes/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+        "en": "https://fansgta.com/en/guides/gta-6-door-safe-codes/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/",
+        "x-default": "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "e9b6de38531688ad57b3f07a6e00ae1351f83363247734bdaa0f62cd042a1b29",
+      "normalized_sha256": "e9b6de38531688ad57b3f07a6e00ae1351f83363247734bdaa0f62cd042a1b29",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-safehouse-exterior.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "en": "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "fr": "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+        "x-default": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "7f21fb9312d1b66110af69e3612e8c7d75ac3f3da44e933ab709ba32f4b2bfeb",
+      "normalized_sha256": "7f21fb9312d1b66110af69e3612e8c7d75ac3f3da44e933ab709ba32f4b2bfeb",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+        "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/"
+      ],
+      "initial_main": true,
+      "article_sections": 7,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/jason.webp",
+        "/media/vice-city.webp",
+        "/media/feature-phone.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+        "en": "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "4f174c0620e0518734e3da87e327cf2b1bb33c4fce6bebca2e6d5609500d5523",
+      "normalized_sha256": "4f174c0620e0518734e3da87e327cf2b1bb33c4fce6bebca2e6d5609500d5523",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+        "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-fight.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+        "en": "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+        "x-default": "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "c6ca054e51f08a471333b9cc6ea92671242f0118c91722d0c2ed90527d044d1b",
+      "normalized_sha256": "c6ca054e51f08a471333b9cc6ea92671242f0118c91722d0c2ed90527d044d1b",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+        "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/",
+        "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/"
+      ],
+      "initial_main": true,
+      "article_sections": 5,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-safehouse-exterior.webp",
+        "/media/feature-phone.webp",
+        "/media/feature-safehouse-kayak.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+        "en": "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/",
+        "x-default": "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "6a74f4faa17faa9970f42bc37f942b7cd46ce7a8ec8c764a5976f019ac34e279",
+      "normalized_sha256": "6a74f4faa17faa9970f42bc37f942b7cd46ce7a8ec8c764a5976f019ac34e279",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+        "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+        "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-driver.webp",
+        "/media/feature-boats.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+        "en": "https://fansgta.com/en/guides/gta-6-door-safe-codes/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/",
+        "x-default": "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "08b7ba083f9b21a5ab2d1de3334bd5896d112bbf5ed8916c9649cb757069193b",
+      "normalized_sha256": "08b7ba083f9b21a5ab2d1de3334bd5896d112bbf5ed8916c9649cb757069193b",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+        "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-safehouse-exterior.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/codes/verifier-codes-gta-6/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+        "en": "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+        "fr": "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+        "x-default": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "3bca42ae7b56471c1be25e31a7e42408698b320442a56ac1cee686bfb1f913b6",
+      "normalized_sha256": "3bca42ae7b56471c1be25e31a7e42408698b320442a56ac1cee686bfb1f913b6",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+        "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+        "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/"
+      ],
+      "initial_main": true,
+      "article_sections": 7,
+      "figures": 3,
+      "h3": 3,
+      "image_sources": [
+        "/media/jason.webp",
+        "/media/vice-city.webp",
+        "/media/feature-phone.webp"
+      ]
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/es/trucos/verificar-trucos-gta-6/": [
+      "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+      "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+      "https://fansgta.com/es/guias/gta-6-paracaidas-helicopteros-vuelo/",
+      "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+      "https://fansgta.com/es/trucos/",
+      "https://fansgta.com/es/trucos/gta-5-todos-trucos-codigos/",
+      "https://fansgta.com/es/trucos/todos-trucos-gta-juegos-nuevos-antiguos/",
+      "https://fansgta.com/es/trucos/trucos-gta-1-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-2-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-3-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-4-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-advance-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-chinatown-wars-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-liberty-city-stories-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-london-1961-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-london-1969-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-online-codigos-dinero-limites/",
+      "https://fansgta.com/es/trucos/trucos-gta-san-andreas-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-the-ballad-of-gay-tony-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-the-lost-and-damned-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-vice-city-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/trucos-gta-vice-city-stories-codigos-plataformas/",
+      "https://fansgta.com/es/trucos/verificar-trucos-gta-6/"
+    ],
+    "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/": [
+      "https://fansgta.com/en/cheats/",
+      "https://fansgta.com/en/cheats/all-gta-cheats-newest-to-oldest/",
+      "https://fansgta.com/en/cheats/gta-1-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-2-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-3-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-4-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-5-all-cheats-codes/",
+      "https://fansgta.com/en/cheats/gta-advance-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-chinatown-wars-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-liberty-city-stories-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-london-1961-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-london-1969-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-online-cheats-money-codes-limits/",
+      "https://fansgta.com/en/cheats/gta-san-andreas-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-the-ballad-of-gay-tony-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-the-lost-and-damned-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-vice-city-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/gta-vice-city-stories-cheats-codes-platforms/",
+      "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+      "https://fansgta.com/en/guides/gta-6-door-safe-codes/",
+      "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+      "https://fansgta.com/en/guides/gta-6-parachuting-helicopters-flight/",
+      "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/"
+    ],
+    "https://fansgta.com/fr/codes/verifier-codes-gta-6/": [
+      "https://fansgta.com/fr/codes/",
+      "https://fansgta.com/fr/codes/codes-gta-1-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-2-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-3-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-4-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-advance-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-chinatown-wars-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-liberty-city-stories-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-london-1961-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-london-1969-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-online-argent-limites/",
+      "https://fansgta.com/fr/codes/codes-gta-san-andreas-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-the-ballad-of-gay-tony-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-the-lost-and-damned-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-vice-city-plateformes/",
+      "https://fansgta.com/fr/codes/codes-gta-vice-city-stories-plateformes/",
+      "https://fansgta.com/fr/codes/gta-5-tous-codes-triche/",
+      "https://fansgta.com/fr/codes/tous-codes-gta-du-plus-recent-au-plus-ancien/",
+      "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+      "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/",
+      "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/",
+      "https://fansgta.com/fr/guides/gta-6-parachute-helicopteres-vol/",
+      "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/"
+    ],
+    "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/",
+      "https://fansgta.com/es/guias/gta-6-collectors-box-incluye-juego/",
+      "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+      "https://fansgta.com/es/noticias/gta-6-ahorrar-5000-dolares-mark-tilbury-calculo/",
+      "https://fansgta.com/es/trucos/verificar-trucos-gta-6/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-collectors-box-does-it-include-game/",
+      "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/",
+      "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+      "https://fansgta.com/en/news/gta-6-save-5000-dollars-mark-tilbury-maths/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/gta-6-economiser-5000-dollars-mark-tilbury-calcul/",
+      "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-coffret-collector-jeu-inclus/",
+      "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/",
+      "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/"
+    ],
+    "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/",
+      "https://fansgta.com/es/guias/gta-6-crossplay-ps5-xbox-juego-cruzado/",
+      "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+      "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+      "https://fansgta.com/es/trucos/verificar-trucos-gta-6/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-crossplay-ps5-xbox-cross-progression/",
+      "https://fansgta.com/en/guides/gta-6-door-safe-codes/",
+      "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+      "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/",
+      "https://fansgta.com/fr/guides/gta-6-crossplay-ps5-xbox-jeu-progression-croises/",
+      "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/",
+      "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/"
+    ],
+    "https://fansgta.com/es/guias/codigos-puertas-cajas-fuertes-gta-6/": [
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/ganar-dinero-gta-6-metodos-progreso/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-door-safe-codes/": [
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-earn-money-methods-progression/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-codes-portes-coffres-forts/": [
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-gagner-argent-methodes-progression/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/guardar-partida-gta-6-manual-autoguardado/",
+      "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/",
+      "https://fansgta.com/es/noticias/gta-6-piloto-dibujo-trayectoria-vuelo-ocho-horas/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-save-game-manual-autosave/",
+      "https://fansgta.com/en/guides/prepare-console-account-launch/",
+      "https://fansgta.com/en/news/gta-6-pilot-flight-path-art-eight-hours/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/gta-6-pilote-dessin-trajectoire-vol-huit-heures/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-sauvegarder-partie-manuelle-automatique/",
+      "https://fansgta.com/fr/guides/preparer-console-compte-sortie/"
+    ]
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/es/trucos/verificar-trucos-gta-6/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/cheats/verify-gta-6-cheat-codes/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/codes/verifier-codes-gta-6/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ]
 }

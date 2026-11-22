@@ -1,6 +1,6 @@
 # Tanda manual — 21 de noviembre de 2026
 
-Estado: validated-awaiting-production.
+Estado: published-and-publicly-verified.
 
 Cinco temas y quince versiones completas ES/EN/FR: cuatro guías nuevas y una actualización de la página equivalente de trucos. Se mantienen las tres URLs de esa página y su publicación original del 27 de octubre. La fecha nueva corresponde al 21 de noviembre, America/New_York; las comprobaciones se registran en UTC.
 
@@ -14,7 +14,10 @@ La selección utiliza publicaciones originales actuales y señales cualitativas.
 - 553 archivos existentes, 22 críticos y tres bundles CSS/JS conservados por hash.
 - Tres figuras por artículo con material oficial, ALT, pies y créditos traducidos; diez originales de Rockstar comprobados frente a los WebP existentes. La fotografía no se presenta como prueba propia de códigos, menús o ingresos.
 - 25 casos locales aprobados en escritorio, móvil y tablet, con las quince versiones seleccionadas.
-- Publicación y verificación de URLs públicas pendientes; aún no se afirma que el contenido nuevo esté en producción.
+- Producción canónica confirmada en Cloudflare; 747 canónicas y las quince versiones seleccionadas responden HTTP 200.
+- 735 HTML no legales coinciden con el release tras retirar solamente el beacon exacto conocido; las 12 páginas legales reciben controles HTTP/metadatos por la transformación de correo existente.
+- 301 recursos coinciden con el release; nueve casos públicos de navegador aprueban 45 escenarios de artículo/tamaño, 135 decodificaciones de imágenes y 45 cambios de idioma.
+- Las tres solicitudes con User-Agent declarado de Googlebot no equivalen a IPs reales de Google ni a inspección privada en Search Console.
 
 Los SDK de proveedores publicitarios y analítica se simulan únicamente durante las pruebas de navegador. No se certifican creatividades reales, eventos, Safari o dispositivos físicos. La publicidad, diseño, idiomas, consentimiento, seguridad y otros proyectos no se modifican.
 
