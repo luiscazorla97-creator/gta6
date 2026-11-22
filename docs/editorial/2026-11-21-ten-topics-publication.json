@@ -1,6 +1,6 @@
 {
-  "state": "validated-awaiting-production",
-  "checked_at_utc": "2026-11-22T01:10:39.688383+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-22T01:19:53.912290+00:00",
   "manual_batch": true,
   "new_topics": 10,
   "updated_topics": 0,
@@ -120,8 +120,1342 @@
   "browser": {
     "local_cases": 25,
     "engine": "Cloud Chromium desktop/mobile/tablet emulation.",
-    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only; no own-origin replacement or real creative/Analytics certification."
+    "provider_fixtures": "Adsterra, AdSense and GTM provider hosts only; no own-origin replacement or real creative/Analytics certification.",
+    "production_cases": 9,
+    "production_article_viewport_scenarios": 90,
+    "production_image_decodes": 180,
+    "production_language_changes": 90,
+    "errors": 0
   },
   "indexing": "HTTP, initial HTML and indexability are checked; actual Google indexing, traffic, rankings and universal real-Googlebot access are not established.",
-  "proof_commit_policy": "Save documentary evidence only after all 1085 runtime files are confirmed identical; no second deployment for those records."
+  "proof_commit_policy": "Save documentary evidence only after all 1085 runtime files are confirmed identical; no second deployment for those records.",
+  "runtime_commit": {
+    "sha": "53ecd20c7ca37d3056edad3d1d3501aa87f24a9b",
+    "tree": "e3920e43d41c14ca5e83c7e927d2a80c8b3a3b89",
+    "parent": "a560cdc4d5fdb2e5361b597f1dbfa6c4f8d4856c"
+  },
+  "cloudflare": {
+    "checked_at_utc": "2026-11-22T01:19:53.408152+00:00",
+    "status": 200,
+    "production_branch": "main",
+    "build_command": "npm run build:release",
+    "canonical": {
+      "id": "006429be-9447-4fa4-829b-f765000b904e",
+      "environment": "production",
+      "url": "https://006429be.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-22T01:16:50.559201Z",
+        "ended_on": "2026-11-22T01:17:09.809927Z",
+        "status": "success"
+      },
+      "commit": "53ecd20c7ca37d3056edad3d1d3501aa87f24a9b"
+    },
+    "deployment": {
+      "id": "006429be-9447-4fa4-829b-f765000b904e",
+      "environment": "production",
+      "url": "https://006429be.fansgta.pages.dev",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-22T01:16:50.559201Z",
+        "ended_on": "2026-11-22T01:17:09.809927Z",
+        "status": "success"
+      },
+      "commit": "53ecd20c7ca37d3056edad3d1d3501aa87f24a9b"
+    }
+  },
+  "public_summary": {
+    "started_at_utc": "2026-11-22T01:17:27.931053+00:00",
+    "finished_at_utc": "2026-11-22T01:18:30.075879+00:00",
+    "canonical_URLs": 777,
+    "article_versions": 738,
+    "selected_versions": 30,
+    "status": {
+      "200": 777
+    },
+    "locales": {
+      "es": 259,
+      "en": 259,
+      "fr": 259
+    },
+    "resources_checked": 301,
+    "issues": 0,
+    "matched_release_HTML": 765,
+    "matched_article_versions": 738,
+    "legal_pages_HTTP_and_metadata_only": 12,
+    "beacon_sha256": "b352af4704b12ae2d29fada74722af0f001d62fafdd88de0c748bbfe5893c434",
+    "method": "Normal canonical HTTPS GETs through inherited managed proxy with default TLS trust. At most five concurrent requests, no retries; stop submitting on HTTP429. HTML compares to the frozen release after at most one exact pinned Cloudflare beacon. Twelve existing email-transformed legal pages receive HTTP/meta checks only. Static resources compare decoded entity bytes.",
+    "Googlebot_limit": "Declared User-Agent from the cloud executor, not verified Google IPs or private Search Console URL Inspection; no indexing or universal real-bot-access claim.",
+    "sitemap_selected_URLs_unique": true
+  },
+  "public_verification_sha256": "2526fd014d92a485b9e5fec0c2e2957b8b3dc2638c41e1128e362cb879f87ad1",
+  "selected_article_details": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/",
+        "en": "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "42b510ef31d4ba29b0f07f9ae99ac59ee850f5d2946e511d77c1d1bed3bb4101",
+      "normalized_sha256": "42b510ef31d4ba29b0f07f9ae99ac59ee850f5d2946e511d77c1d1bed3bb4101",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-launch-gallery-duo.webp",
+        "/media/vice-city.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/",
+        "en": "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "8c81442579f75ebbb1a58a64fd0ddfb0b52ffe3bf344b424b397facf5ac8fcdc",
+      "normalized_sha256": "8c81442579f75ebbb1a58a64fd0ddfb0b52ffe3bf344b424b397facf5ac8fcdc",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+        "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+        "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-boats.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+        "en": "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "377183b809a58acb51c3f4affea3dfda7f485dc8ae96ed1c3350fa765f2213d6",
+      "normalized_sha256": "377183b809a58acb51c3f4affea3dfda7f485dc8ae96ed1c3350fa765f2213d6",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+        "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-shop-robbery.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+        "en": "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+        "x-default": "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "20b02f21246e39dad9fac4b91d9da7acfaa27ff8391f39a7b141e0bc88bc5436",
+      "normalized_sha256": "20b02f21246e39dad9fac4b91d9da7acfaa27ff8391f39a7b141e0bc88bc5436",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+        "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+        "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/"
+      ],
+      "initial_main": true,
+      "article_sections": 5,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+        "en": "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "54489ea611157eb743c98bd70c71a59446c76e173ea2fb606560e11b3607fc4c",
+      "normalized_sha256": "54489ea611157eb743c98bd70c71a59446c76e173ea2fb606560e11b3607fc4c",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+        "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+        "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/jason.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/",
+        "en": "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/",
+        "fr": "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/",
+        "x-default": "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "91482a5830969ca163fb179713d0aa984e13c2428e7d1929def204e2bed3f6c9",
+      "normalized_sha256": "91482a5830969ca163fb179713d0aa984e13c2428e7d1929def204e2bed3f6c9",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-helicopter.webp",
+        "/media/feature-phone.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+        "en": "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/",
+        "fr": "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/",
+        "x-default": "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "c5946416c255ea67fd1317f66f1df370d877f41100c5ccade3419b3b9c9ed537",
+      "normalized_sha256": "c5946416c255ea67fd1317f66f1df370d877f41100c5ccade3419b3b9c9ed537",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-safehouse-exterior.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+        "en": "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "717cff5027af7de64a9459061066e117a918a9920650dba75ccf43f17ee4630a",
+      "normalized_sha256": "717cff5027af7de64a9459061066e117a918a9920650dba75ccf43f17ee4630a",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+        "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-fight.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/",
+        "en": "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "cc8bf0dfc4eee38279c556ce776654d4c41cc945b7bee2117a8dcd69eaf9c90d",
+      "normalized_sha256": "cc8bf0dfc4eee38279c556ce776654d4c41cc945b7bee2117a8dcd69eaf9c90d",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-diving.webp",
+        "/media/feature-hunters.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/",
+      "status": 200,
+      "locale": "es",
+      "canonical": [
+        "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/",
+        "en": "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/",
+        "fr": "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/",
+        "x-default": "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "a3126e80b7c49912124270f92c69778b074c2e2fa44d10e3d31fa353c73eb29e",
+      "normalized_sha256": "a3126e80b7c49912124270f92c69778b074c2e2fa44d10e3d31fa353c73eb29e",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+        "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-safehouse-kayak.webp",
+        "/media/feature-phone.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/",
+        "en": "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "35c4eb95d6efe7b68d9e5d8495aa9e5594409d48e92ee13cd8458a86f8b6deab",
+      "normalized_sha256": "35c4eb95d6efe7b68d9e5d8495aa9e5594409d48e92ee13cd8458a86f8b6deab",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-launch-gallery-duo.webp",
+        "/media/vice-city.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+        "en": "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+        "x-default": "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "aee4bee637ce203349ad297c66a0ba919d07a9f15568a14fb39fcd40c4717fc4",
+      "normalized_sha256": "aee4bee637ce203349ad297c66a0ba919d07a9f15568a14fb39fcd40c4717fc4",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+        "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+        "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/"
+      ],
+      "initial_main": true,
+      "article_sections": 5,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-masks-buy-equip/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+        "en": "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "6bb7c1bdf28d76bf99ab97dc6fd61df9aa2b7bf3ca372fd8cc174da2e32a362a",
+      "normalized_sha256": "6bb7c1bdf28d76bf99ab97dc6fd61df9aa2b7bf3ca372fd8cc174da2e32a362a",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+        "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+        "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/jason.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+        "en": "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "3de38b36859c0fdb67d13ca0baba575c7332cddd5fedbd22fd6dcc52c7e98697",
+      "normalized_sha256": "3de38b36859c0fdb67d13ca0baba575c7332cddd5fedbd22fd6dcc52c7e98697",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+        "https://fansgta.com/en/guides/gta-6-masks-buy-equip/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-shop-robbery.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/",
+        "en": "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "98e7687e38fc94dc031e9a7425687cb6fb2f67dbdfab6a50fde03c12495c07bc",
+      "normalized_sha256": "98e7687e38fc94dc031e9a7425687cb6fb2f67dbdfab6a50fde03c12495c07bc",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+        "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+        "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-boats.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+        "en": "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "44fa0e9c911f1df526c9d260946047690cec8499d5ef3424b032cfe21df0f403",
+      "normalized_sha256": "44fa0e9c911f1df526c9d260946047690cec8499d5ef3424b032cfe21df0f403",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+        "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-fight.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/",
+        "en": "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/",
+        "fr": "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/",
+        "x-default": "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "fc13a9ca8e1c3e871991414369131be97a45f94674daa73370c073f987d77a1a",
+      "normalized_sha256": "fc13a9ca8e1c3e871991414369131be97a45f94674daa73370c073f987d77a1a",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-helicopter.webp",
+        "/media/feature-phone.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/",
+        "en": "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "fb7fb2bf5ff1881fb8ff94937250b504e134c890c5c7ba30e30e58840669bb4a",
+      "normalized_sha256": "fb7fb2bf5ff1881fb8ff94937250b504e134c890c5c7ba30e30e58840669bb4a",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-diving.webp",
+        "/media/feature-hunters.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/",
+        "en": "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/",
+        "fr": "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/",
+        "x-default": "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "0d298e1d0c884bd0d686edeb76cee70a1fbc667113dc5bd83dd8a35923cac771",
+      "normalized_sha256": "0d298e1d0c884bd0d686edeb76cee70a1fbc667113dc5bd83dd8a35923cac771",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/",
+        "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-safehouse-kayak.webp",
+        "/media/feature-phone.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/",
+      "status": 200,
+      "locale": "en",
+      "canonical": [
+        "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+        "en": "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/",
+        "fr": "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/",
+        "x-default": "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "aa84c3633c262b526105b024935e1d0b4a20a5006bd019e93b3e0823c9f0e2e2",
+      "normalized_sha256": "aa84c3633c262b526105b024935e1d0b4a20a5006bd019e93b3e0823c9f0e2e2",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-safehouse-exterior.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/",
+        "en": "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/",
+        "fr": "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/",
+        "x-default": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "eb8e5b1581a22cd40ebcbfe5694ff19910fda56a27dcabadcc74f9696954ca1e",
+      "normalized_sha256": "eb8e5b1581a22cd40ebcbfe5694ff19910fda56a27dcabadcc74f9696954ca1e",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-launch-gallery-duo.webp",
+        "/media/vice-city.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+        "en": "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+        "x-default": "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "a6e52a4212d514b7c228cebc832414d9a4e23d211b28d0b71a8d25a17d382586",
+      "normalized_sha256": "a6e52a4212d514b7c228cebc832414d9a4e23d211b28d0b71a8d25a17d382586",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+        "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+        "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/"
+      ],
+      "initial_main": true,
+      "article_sections": 5,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+        "en": "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "af14638849af3d72b1120fe1452a9820245a03d86e2d458816fa148488ef60f8",
+      "normalized_sha256": "af14638849af3d72b1120fe1452a9820245a03d86e2d458816fa148488ef60f8",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+        "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-aiming.webp",
+        "/media/feature-shop-robbery.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+        "en": "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "1d5884bb50cffbb20a4c2e6016ecd3baae058502b7b02a67f93377a4fb9e9fe7",
+      "normalized_sha256": "1d5884bb50cffbb20a4c2e6016ecd3baae058502b7b02a67f93377a4fb9e9fe7",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+        "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+        "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/jason.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/",
+        "en": "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/",
+        "fr": "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/",
+        "x-default": "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "3d951a77cff24cd3b9c6e1bb285ca60b30a1879c286d110bde9022fa72576874",
+      "normalized_sha256": "3d951a77cff24cd3b9c6e1bb285ca60b30a1879c286d110bde9022fa72576874",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-helicopter.webp",
+        "/media/feature-phone.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+        "en": "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "c8455c60d3c69d714c72a8c97c66476a2872ebd52783694798d8495dc53aa908",
+      "normalized_sha256": "c8455c60d3c69d714c72a8c97c66476a2872ebd52783694798d8495dc53aa908",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+        "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-fight.webp",
+        "/media/feature-driver.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/",
+        "en": "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "47890941942df27bec91b5735c8629baa49348d551a4dfbcd75bb1bc79cc8443",
+      "normalized_sha256": "47890941942df27bec91b5735c8629baa49348d551a4dfbcd75bb1bc79cc8443",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+        "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+        "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/"
+      ],
+      "initial_main": true,
+      "article_sections": 6,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-shop-robbery.webp",
+        "/media/feature-boats.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+        "en": "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/",
+        "fr": "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/",
+        "x-default": "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "7ded09be5b6c428563f1db945f090936d9fa12ad884da51fc76dd70204644754",
+      "normalized_sha256": "7ded09be5b6c428563f1db945f090936d9fa12ad884da51fc76dd70204644754",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-couple.webp",
+        "/media/feature-safehouse-exterior.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/",
+        "en": "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/",
+        "fr": "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/",
+        "x-default": "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "cd1ad602d2af40fcd3780fa94c8fd3ff03c16c254e91472a31cf2159fe88e4e4",
+      "normalized_sha256": "cd1ad602d2af40fcd3780fa94c8fd3ff03c16c254e91472a31cf2159fe88e4e4",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/",
+        "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-safehouse-kayak.webp",
+        "/media/feature-phone.webp"
+      ]
+    },
+    {
+      "url": "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/",
+      "status": 200,
+      "locale": "fr",
+      "canonical": [
+        "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/"
+      ],
+      "hreflang": {
+        "es": "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/",
+        "en": "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/",
+        "fr": "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/",
+        "x-default": "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/"
+      },
+      "robots": [
+        "index,follow,max-image-preview:large"
+      ],
+      "release_sha256": "2f20f124324a9ded17a07821b15d04eb617d92a9bb9ed6b35b808ab0f192be43",
+      "normalized_sha256": "2f20f124324a9ded17a07821b15d04eb617d92a9bb9ed6b35b808ab0f192be43",
+      "matches_release": true,
+      "legal_HTTP_meta_only": false,
+      "article": true,
+      "issues": [],
+      "links_to_selected": [
+        "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/"
+      ],
+      "initial_main": true,
+      "article_sections": 4,
+      "figures": 2,
+      "h3": 3,
+      "image_sources": [
+        "/media/feature-diving.webp",
+        "/media/feature-hunters.webp"
+      ]
+    }
+  ],
+  "inbound_links": {
+    "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/noticias/",
+      "https://fansgta.com/es/noticias/gta-6-39-imagenes-galeria-lanzamiento-rockstar/",
+      "https://fansgta.com/es/noticias/gta-6-zelnick-retrasos-calidad-rockstar/",
+      "https://fansgta.com/es/noticias/trailers-gta-6-como-analizarlos/"
+    ],
+    "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/news/",
+      "https://fansgta.com/en/news/gta-6-39-new-screenshots-rockstar-launch-gallery/",
+      "https://fansgta.com/en/news/gta-6-trailers-how-to-analyse/",
+      "https://fansgta.com/en/news/gta-6-zelnick-delays-quality-rockstar/"
+    ],
+    "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/actualites/",
+      "https://fansgta.com/fr/actualites/bandes-annonces-gta-6-comment-analyser/",
+      "https://fansgta.com/fr/actualites/gta-6-39-nouvelles-images-galerie-lancement-rockstar/",
+      "https://fansgta.com/fr/actualites/gta-6-zelnick-reports-qualite-rockstar/"
+    ],
+    "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+      "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+      "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/",
+      "https://fansgta.com/es/guias/preparar-consola-cuenta-lanzamiento/",
+      "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/",
+      "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+      "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+      "https://fansgta.com/en/guides/prepare-console-account-launch/",
+      "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/",
+      "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+      "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/",
+      "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+      "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/",
+      "https://fansgta.com/fr/guides/preparer-console-compte-sortie/",
+      "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/": [
+      "https://fansgta.com/es/",
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+      "https://fansgta.com/es/guias/gta-6-armas-inventario-rueda-maletero/",
+      "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/",
+      "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/": [
+      "https://fansgta.com/en/",
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+      "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/",
+      "https://fansgta.com/en/guides/gta-6-masks-buy-equip/",
+      "https://fansgta.com/en/guides/gta-6-weapons-inventory-wheel-car-trunk/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/": [
+      "https://fansgta.com/fr/",
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-armes-inventaire-roue-coffre/",
+      "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+      "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/",
+      "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/": [
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+      "https://fansgta.com/es/guias/donde-comprar-reservar-descargar-gta-6/",
+      "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/",
+      "https://fansgta.com/es/guias/gta-6-recuperar-armas-perdidas-propiedad/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-masks-buy-equip/": [
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+      "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/",
+      "https://fansgta.com/en/guides/gta-6-recover-lost-owned-weapons/",
+      "https://fansgta.com/en/guides/where-to-buy-preorder-download-gta-6/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/": [
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+      "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/",
+      "https://fansgta.com/fr/guides/gta-6-recuperer-armes-perdues-propriete/",
+      "https://fansgta.com/fr/guides/ou-acheter-precommander-telecharger-gta-6/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/": [
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/gta-6-mascaras-comprar-equipar/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/": [
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-masks-buy-equip/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/": [
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-masques-acheter-equiper/"
+    ],
+    "https://fansgta.com/es/vehiculos/gta-6-base-militar-tanque-caza/": [
+      "https://fansgta.com/es/vehiculos/",
+      "https://fansgta.com/es/vehiculos/vehiculos-gta-6-verificar-fichas/"
+    ],
+    "https://fansgta.com/en/vehicles/gta-6-military-base-tank-fighter-jet/": [
+      "https://fansgta.com/en/vehicles/",
+      "https://fansgta.com/en/vehicles/gta-6-vehicles-check-listings/"
+    ],
+    "https://fansgta.com/fr/vehicules/gta-6-base-militaire-char-chasseur/": [
+      "https://fansgta.com/fr/vehicules/",
+      "https://fansgta.com/fr/vehicules/vehicules-gta-6-verifier-fiches/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/": [
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/chaleco-antibalas-gta-6-comprar-equipar/",
+      "https://fansgta.com/es/guias/gta-6-peristas-vender-botin-cobrar/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/": [
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-body-armor-buy-equip-refill/",
+      "https://fansgta.com/en/guides/gta-6-fences-sell-loot-get-paid/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/": [
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-gilet-pare-balles-acheter-equiper/",
+      "https://fansgta.com/fr/guides/gta-6-receleurs-vendre-butin-paiement/"
+    ],
+    "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/": [
+      "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/",
+      "https://fansgta.com/es/guias/gta-6-dinero-misiones-historia-atracos-edge/",
+      "https://fansgta.com/es/guias/gta-6-xbox-guardados-nube-sincronizacion/",
+      "https://fansgta.com/es/misiones/",
+      "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/",
+      "https://fansgta.com/es/misiones/gta-6-misiones-rutas-alternativas-libertad/",
+      "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/"
+    ],
+    "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/": [
+      "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/",
+      "https://fansgta.com/en/guides/gta-6-money-story-missions-heists-edge/",
+      "https://fansgta.com/en/guides/gta-6-xbox-cloud-saves-sync/",
+      "https://fansgta.com/en/missions/",
+      "https://fansgta.com/en/missions/avoid-spoilers-mission-guides/",
+      "https://fansgta.com/en/missions/gta-6-missions-alternative-routes-freedom/",
+      "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/"
+    ],
+    "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/": [
+      "https://fansgta.com/fr/guides/gta-6-argent-missions-histoire-braquages-edge/",
+      "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/",
+      "https://fansgta.com/fr/guides/gta-6-xbox-sauvegardes-cloud-synchronisation/",
+      "https://fansgta.com/fr/missions/",
+      "https://fansgta.com/fr/missions/eviter-spoilers-guides-missions/",
+      "https://fansgta.com/fr/missions/gta-6-missions-itineraires-alternatifs-liberte/",
+      "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/"
+    ],
+    "https://fansgta.com/es/guias/gta-6-desafios-consultar-progreso-organizar/": [
+      "https://fansgta.com/es/guias/",
+      "https://fansgta.com/es/guias/gta-6-modo-facil-ayudas-dificultad/",
+      "https://fansgta.com/es/guias/gta-6-primeras-horas-consejos/",
+      "https://fansgta.com/es/guias/gta-6-xbox-quick-resume-comprobar-desactivar/",
+      "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/",
+      "https://fansgta.com/es/vehiculos/vehiculos-gta-6-verificar-fichas/"
+    ],
+    "https://fansgta.com/en/guides/gta-6-challenges-check-track-progress/": [
+      "https://fansgta.com/en/guides/",
+      "https://fansgta.com/en/guides/gta-6-easy-mode-difficulty-assists/",
+      "https://fansgta.com/en/guides/gta-6-first-hours-beginner-tips/",
+      "https://fansgta.com/en/guides/gta-6-xbox-quick-resume-check-disable/",
+      "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/",
+      "https://fansgta.com/en/vehicles/gta-6-vehicles-check-listings/"
+    ],
+    "https://fansgta.com/fr/guides/gta-6-defis-consulter-suivre-progression/": [
+      "https://fansgta.com/fr/guides/",
+      "https://fansgta.com/fr/guides/gta-6-mode-facile-aides-difficulte/",
+      "https://fansgta.com/fr/guides/gta-6-premieres-heures-conseils/",
+      "https://fansgta.com/fr/guides/gta-6-xbox-quick-resume-verifier-desactiver/",
+      "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/",
+      "https://fansgta.com/fr/vehicules/vehicules-gta-6-verifier-fiches/"
+    ],
+    "https://fansgta.com/es/misiones/gta-6-siguiente-mision-no-aparece-explora-leonida/": [
+      "https://fansgta.com/es/misiones/",
+      "https://fansgta.com/es/misiones/evitar-spoilers-guias-misiones/",
+      "https://fansgta.com/es/misiones/gta-6-repetir-misiones-partidas-actividades/",
+      "https://fansgta.com/es/noticias/gta-6-ocho-anos-desarrollo-proximo-juego-rockstar/"
+    ],
+    "https://fansgta.com/en/missions/gta-6-next-mission-not-showing-explore-leonida/": [
+      "https://fansgta.com/en/missions/",
+      "https://fansgta.com/en/missions/avoid-spoilers-mission-guides/",
+      "https://fansgta.com/en/missions/gta-6-replay-missions-saves-activities/",
+      "https://fansgta.com/en/news/gta-6-eight-years-development-next-rockstar-game/"
+    ],
+    "https://fansgta.com/fr/missions/gta-6-prochaine-mission-introuvable-explorer-leonida/": [
+      "https://fansgta.com/fr/actualites/gta-6-huit-ans-developpement-prochain-jeu-rockstar/",
+      "https://fansgta.com/fr/missions/",
+      "https://fansgta.com/fr/missions/eviter-spoilers-guides-missions/",
+      "https://fansgta.com/fr/missions/gta-6-rejouer-missions-sauvegardes-activites/"
+    ]
+  },
+  "Googlebot_declared_User_Agent_checks": [
+    {
+      "url": "https://fansgta.com/es/noticias/gta-6-ventas-lanzamiento-cifras-rockstar/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/en/news/gta-6-launch-sales-rockstar-figures/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    },
+    {
+      "url": "https://fansgta.com/fr/actualites/gta-6-ventes-lancement-chiffres-rockstar/",
+      "status": 200,
+      "matches_release": true,
+      "issues": []
+    }
+  ]
 }

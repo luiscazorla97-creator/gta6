@@ -1,6 +1,6 @@
 {
-  "state": "validated-awaiting-production",
-  "checked_at_utc": "2026-11-22T01:10:39.688383+00:00",
+  "state": "published-and-publicly-verified",
+  "checked_at_utc": "2026-11-22T01:19:53.912290+00:00",
   "manual_authorization": {
     "client_date": "2026-11-21",
     "timezone": "America/New_York",
@@ -651,7 +651,7 @@
     "existing_review_notices": 42,
     "new_review_notices": 0,
     "preservation": {
-      "checked_at_utc": "2026-11-22T01:08:13.455Z",
+      "checked_at_utc": "2026-11-22T01:11:19.621Z",
       "manual_batch": true,
       "selected_topics": 10,
       "updated_topics": 0,
@@ -703,6 +703,9 @@
       "errors": 0
     },
     "browser_local_cases": 25,
-    "provider_fixture_scope": "Provider hosts only in browser checks. Own-origin delivery is real; no real creative, Analytics receipt, Safari or physical-device certification."
+    "provider_fixture_scope": "Provider hosts only in browser checks. Own-origin delivery is real; no real creative, Analytics receipt, Safari or physical-device certification.",
+    "production_browser_cases": 9,
+    "public_issues": 0,
+    "public_verification_sha256": "2526fd014d92a485b9e5fec0c2e2957b8b3dc2638c41e1128e362cb879f87ad1"
   }
 }

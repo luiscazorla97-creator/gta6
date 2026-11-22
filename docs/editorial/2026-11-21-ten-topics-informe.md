@@ -1,6 +1,6 @@
 # Diez artículos adicionales — 21 de noviembre de 2026
 
-Estado: validated-awaiting-production.
+Estado: published-and-publicly-verified.
 
 Diez temas nuevos y treinta versiones completas ES/EN/FR. Se clasifican en Noticias, Guías, Misiones y Vehículos. Las fechas de publicación corresponden al 21 de noviembre en America/New_York; las comprobaciones se registran en UTC. La selección utiliza fuentes actuales y señales cualitativas, sin inventar volúmenes, posiciones o garantías de indexación.
 
@@ -12,7 +12,10 @@ Diez temas nuevos y treinta versiones completas ES/EN/FR. Se clasifican en Notic
 - 559 archivos existentes, 22 críticos y tres bundles CSS/JS conservados por hash.
 - Dos figuras por artículo con imágenes oficiales WebP, ALT, pies y créditos traducidos; quince originales comprobados. Las fotografías son contexto promocional, sin representar pruebas propias de menús o mecánicas.
 - 25 casos locales aprobados en escritorio, móvil y tablet, sobre las treinta versiones seleccionadas.
-- Publicación y verificación pública pendientes; aún no se afirma disponibilidad del contenido nuevo en producción.
+- Producción canónica confirmada en Cloudflare: 777 canónicas y las treinta versiones seleccionadas responden HTTP200.
+- 765 HTML no legales coinciden con el release tras retirar solo el beacon exacto conocido; 12 páginas legales reciben controles HTTP/metadatos por la transformación de correo existente.
+- 301 recursos coinciden con el release y nueve casos públicos de navegador aprueban 90 escenarios, 180 decodificaciones de imágenes y 90 cambios de idioma.
+- Tres solicitudes con User-Agent declarado de Googlebot no equivalen a IPs reales de Google ni a inspección privada en Search Console.
 
 Las pruebas de navegador simulan únicamente los SDK de proveedores de anuncios y analítica. No certifican creatividades reales, eventos, Safari ni dispositivos físicos. Publicidad, diseño, idiomas, consentimiento, seguridad y otros proyectos se conservan.
 
