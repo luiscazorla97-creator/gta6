@@ -579,5 +579,215 @@
     "Chromium cloud viewports do not certify Safari or physical devices.",
     "Provider SDK fixtures in browser tests do not certify real ad creatives or Analytics receipt.",
     "No automation, advertisement, security, subscription or other-project changes."
-  ]
+  ],
+  "deployment": {
+    "runtimeCommit": "d8a02c3a2ac750590056814001213f6fe3a0ba75",
+    "id": "2e3e4826-e864-4dff-9276-00d860402c30",
+    "url": "https://2e3e4826.fansgta.pages.dev",
+    "environment": "production",
+    "stage": {
+      "name": "deploy",
+      "started_on": "2026-11-23T01:43:00.873114Z",
+      "ended_on": "2026-11-23T01:43:24.321504Z",
+      "status": "success"
+    },
+    "commit": "d8a02c3a2ac750590056814001213f6fe3a0ba75",
+    "canonicalId": "2e3e4826-e864-4dff-9276-00d860402c30",
+    "canonicalCommit": "d8a02c3a2ac750590056814001213f6fe3a0ba75"
+  },
+  "productionVerification": {
+    "public": {
+      "canonicalUrls": 792,
+      "articleVersions": 753,
+      "htmlExact": 780,
+      "legalHttpMetadata": 12,
+      "resources": 301,
+      "issues": 0,
+      "initialPropagationObservation": {
+        "htmlMismatches": 1,
+        "sameClientRecheck": "Exact release HTML and sitemap, without query variations, cache bypass, purge or security changes.",
+        "recheckedAtUTC": "2026-11-23T01:47:01.024301+00:00"
+      }
+    },
+    "selectedPublicUrls": [
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-auriculares-musica-podcasts-a-pie/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "2d51303c9ca7f0a2a0dab8723b00bdef4ef487f7e0884ebd6bee2f21ce881e14",
+        "bytes": 298591,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/es/misiones/gta-6-reparar-casa-jason-cuatro-tareas/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "e32e3d3ac61109776e7d57b3f6f69cb69dc780de5c9ae2a45cb991d0105b7f9a",
+        "bytes": 299001,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/es/vehiculos/gta-6-conduccion-automatica-activar-controles/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "004e369627cac22c56cf188afb9efbcca085df3c87a98179c3621c51f05dca8c",
+        "bytes": 301197,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-tesoros-kenton-detector-naufragios/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "9b04f50921bd8d7db4428791a1956c205b7702032c3813a675000f0122d0edd0",
+        "bytes": 300205,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/es/guias/gta-6-cartas-coleccionables-conjuntos-vender/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "f392ee198f5a1ba822e2dae71e58a9332fbee777f5ed4311f0b1bbf8a8de505f",
+        "bytes": 299066,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-headphones-music-podcasts-on-foot/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "9d59450baeec10a6dacb6142803ba0cc5e460e05ff9e285a75f789d215f9ac70",
+        "bytes": 294513,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/en/missions/gta-6-repair-jason-house-four-jobs/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "0c177211053b9f03602f1d94aa1491a178e3b8aebf99a1d1b1d048e0cbc2c46d",
+        "bytes": 295112,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/en/vehicles/gta-6-auto-drive-enable-controls/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "31f3f3163f2e80235f6436e7aa4a76976bd7904e4463090adb7aa9e7a3c4a26f",
+        "bytes": 297152,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-kenton-treasures-detector-shipwrecks/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "c4c5fc7d241a3d9206f42814d9acb526ff4a1308a17645bbb37dfb7e877befc2",
+        "bytes": 296329,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/en/guides/gta-6-collectible-cards-sets-sell/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "0fe6e6e81a0aa690e98d2596b8c97a8af2db92ba11e6c1acf1e80052ae031e9f",
+        "bytes": 294930,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-ecouteurs-musique-podcasts-a-pied/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "1a2f17b0dc9d2a42cd21fa2172b7c2129ccef7d63b2e4a14de122547e4c1464f",
+        "bytes": 299029,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/fr/missions/gta-6-reparer-maison-jason-quatre-travaux/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "0fab6701090d3f7c552869decb011128fea7f73983c0dfe3f230cc54ea0255f1",
+        "bytes": 299561,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/fr/vehicules/gta-6-conduite-automatique-activer-commandes/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "1fe4e6d844f6f3f453982ac89d6a5e1c3bef394ad5efc30e6657b71f2889ba23",
+        "bytes": 301744,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-tresors-kenton-detecteur-epaves/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "5a07e20fb9c8db4282a2943fe5a28259092887bffd615f2bb155e5bdcfd24c61",
+        "bytes": 300860,
+        "exactReleaseHtml": true
+      },
+      {
+        "url": "https://fansgta.com/fr/guides/gta-6-cartes-collection-ensembles-vendre/",
+        "status": 200,
+        "kind": "html",
+        "sha256": "95fde69eb2899f5d9c954cd2b177beee7cf7b6e1ca5247aaa0d0c2a2c9e3f0a7",
+        "bytes": 299524,
+        "exactReleaseHtml": true
+      }
+    ],
+    "publicVerificationSha256": "e632c70014a2d0c15566f0d2b05c46945e53ed7d62ae0ef9ae25688dda76df24",
+    "productionBrowser": {
+      "cases": 9,
+      "executions": 10,
+      "documentedInitialRevalidation": {
+        "initialStats": {
+          "startTime": "2026-11-23T01:43:50.790Z",
+          "duration": 57867.223,
+          "expected": 8,
+          "skipped": 0,
+          "unexpected": 1,
+          "flaky": 0
+        },
+        "rerunStats": {
+          "startTime": "2026-11-23T01:46:56.803Z",
+          "duration": 16984.322,
+          "expected": 1,
+          "skipped": 0,
+          "unexpected": 0,
+          "flaky": 0
+        },
+        "reason": "Initial Spanish desktop request did not yet contain the new sitemap entry. After same-client normal sitemap revalidation matched release, only that case was repeated.",
+        "initialReportSha256": "1e471dd15e691af9261ec82966821ce6447231509976549d5fee4c592b0ae315",
+        "rerunReportSha256": "bd3b54d83e97ed1687d0f62b429678179ca64f12c6fb09346c8bd82b406e86a0",
+        "uniqueFinalCases": 9,
+        "executions": 10
+      },
+      "articleViewportLanguageScenarios": 45,
+      "imageDecodes": 90,
+      "languageSwitches": 45,
+      "unexpected": 0
+    },
+    "declaredGooglebotDiagnostics": [
+      {
+        "url": "https://fansgta.com/es/",
+        "declaredUserAgent": "Googlebot",
+        "status": 200,
+        "headIndexable": true
+      },
+      {
+        "url": "https://fansgta.com/en/",
+        "declaredUserAgent": "Googlebot",
+        "status": 200,
+        "headIndexable": true
+      },
+      {
+        "url": "https://fansgta.com/fr/",
+        "declaredUserAgent": "Googlebot",
+        "status": 200,
+        "headIndexable": true
+      }
+    ],
+    "limitations": [
+      "Declared Googlebot user-agent tests are not evidence of requests from Google-owned IPs or Google indexing.",
+      "Browser fixtures simulate only provider SDKs, not own-origin content or images. They do not certify real creatives or Analytics receipt.",
+      "Chromium cloud viewports do not certify Safari or physical devices."
+    ]
+  },
+  "status": "published-and-publicly-verified"
 }
