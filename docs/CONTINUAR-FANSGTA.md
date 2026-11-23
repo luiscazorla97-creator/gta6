@@ -662,6 +662,6 @@ Publicada y verificada en producción. Cinco temas nuevos y quince versiones ES/
 
 ## Tanda manual — 2026-11-23
 
-Petición manual vigente de diez guías de misiones, treinta versiones ES/EN/FR, preparadas y comprobadas localmente; publicación pública pendiente. No modifica la programación diaria finalizada el 19 de noviembre.
+Petición manual de diez guías de misiones, treinta versiones ES/EN/FR, publicada y verificada públicamente. Commit de contenido `5ae74cf3327444daa59da4b5b3a24276bf432ea2`; despliegue canónico `c7612375-43cd-4407-989b-a6d4a6c73852`. Las treinta versiones son 200 e idénticas a la compilación; 822 URLs canónicas y 301 recursos comprobados, 25 casos locales y 9 públicos de navegador aprobados. Los tres fallos franceses iniciales por reconstrucción local y sus repeticiones están conservados en los registros. No modifica la programación diaria finalizada el 19 de noviembre.
 
 Registros: [investigación](editorial/2026-11-23-ten-money-missions-research.json), [publicación](editorial/2026-11-23-ten-money-missions-publication.json) e [informe](editorial/2026-11-23-ten-money-missions-informe.md). Conservar los artículos anteriores, publicidad, consentimiento y recursos del sitio. No prometer indexación ni posiciones en Google.

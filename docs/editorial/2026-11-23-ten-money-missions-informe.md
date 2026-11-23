@@ -1,12 +1,12 @@
 # Tanda manual de misiones — 23 de noviembre de 2026
 
-Estado: preparada; publicación pública pendiente de comprobación. Diez guías nuevas, treinta versiones completas, sección Misiones. La automatización diaria finalizada el 19 de noviembre no cambia.
+Estado: publicada y verificada en fansgta.com. Diez guías nuevas, treinta versiones completas, sección Misiones. La automatización diaria finalizada el 19 de noviembre no cambia.
 
 Se revisaron las 251 entradas anteriores y sus 753 traducciones, las fuentes actuales y la procedencia de las imágenes oficiales. Títulos, descripciones, rutas, ALT y preguntas están localizados. No se atribuyen volúmenes de Google ni posiciones garantizadas. Las diferencias entre fuentes quedan indicadas dentro de las guías.
 
 Compilación de producción y verificación estática aprobadas: 261 temas, 783 versiones y 822 URLs canónicas. Cero errores editoriales; los 42 avisos de revisión corresponden a contenido anterior. El contenido anterior, los 571 archivos protegidos y los tres recursos JS/CSS permanecen sin cambios.
 
-## Páginas preparadas, todavía pendientes de verificación pública
+## Páginas publicadas y verificadas
 
 | Tema | Español | English | Français |
 |---|---|---|---|
@@ -33,3 +33,13 @@ Compilación de producción y verificación estática aprobadas: 261 temas, 783 
 ## Pruebas de navegador locales
 
 25 casos lógicos aprobados, 90 escenarios de artículo/idioma/tamaño, 180 imágenes decodificadas y 90 cambios de idioma. Tres casos franceses coincidieron con una reconstrucción local; se conservaron sus fallos iniciales y se repitieron únicamente esos tres con la compilación fija, todos aprobados (28 ejecuciones totales). No se modificaron los criterios. Los SDK externos se simularon; las imágenes editoriales y las páginas se cargaron realmente.
+
+## Publicación comprobada
+
+Commit de contenido `5ae74cf3327444daa59da4b5b3a24276bf432ea2`. Despliegue canónico de producción `c7612375-43cd-4407-989b-a6d4a6c73852`, rama `main`, con `npm run build:release`; verificado el 2026-11-23T12:06:20.902127-05:00.
+
+Comprobadas 822 URLs canónicas y 301 recursos: 1.123 respuestas correctas. Las treinta páginas nuevas devolvieron 200 y coincidieron con el HTML de producción. Se compararon exactamente 810 HTML tras retirar como máximo una única etiqueta de Cloudflare de 367 bytes, identificada por SHA-256; las doce páginas legales con correo transformado se verificaron por estado HTTP y metadatos. No se reescribió arbitrariamente el HTML para hacer coincidir las pruebas.
+
+Nueve casos públicos de navegador aprobados: 90 escenarios de artículo/idioma/tamaño, 180 imágenes decodificadas y 90 cambios de idioma. Se comprobaron canonical, hreflang recíproco, sitemap, contenido inicial, referencias internas, ausencia de desbordamientos, consentimiento y presencia única de los scripts conservados. Los SDK externos se simularon; no se certifica entrega de anuncios reales ni recepción de Analytics.
+
+No se cambiaron artículos anteriores, URLs, recursos de diseño, anuncios, seguridad ni programación automática. La indexación efectiva y las posiciones siguen dependiendo de Google. Este registro documental no requiere otro despliegue si conserva los 1.130 archivos de producción idénticos.
