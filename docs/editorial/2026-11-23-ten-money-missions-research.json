@@ -1,0 +1,931 @@
+{
+  "status": "validated-awaiting-production",
+  "scope": {
+    "mode": "manual",
+    "topics": 10,
+    "versions": 30,
+    "date": "2026-11-23",
+    "timezone": "America/New_York",
+    "automaticSchedule": "Unchanged; the schedule ended November 19 inclusive. This is a newly authorized ten-topic manual batch."
+  },
+  "baseline": {
+    "githubMain": "078928a8aad87dc4a023cd288a40caeadf50a170",
+    "tree": "b7bad7ad792bc395307a355146c6ea4633fbe103",
+    "cloudflare": {
+      "branch": "main",
+      "build": "npm run build:release",
+      "id": "2e3e4826-e864-4dff-9276-00d860402c30",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-23T01:43:00.873114Z",
+        "ended_on": "2026-11-23T01:43:24.321504Z",
+        "status": "success"
+      },
+      "commit": "d8a02c3a2ac750590056814001213f6fe3a0ba75"
+    },
+    "liveHtmlMatched": true,
+    "normalization": "At most one exact 367-byte Cloudflare beacon pinned by SHA-256; no arbitrary HTML rewriting."
+  },
+  "interest": {
+    "signals": "Current post-launch mission walkthrough coverage checked November 23 and practical query results; qualitative evidence only.",
+    "googleVolumeOrRank": "Unavailable; no ranking or volume claimed."
+  },
+  "deduplication": {
+    "catalogueCompared": 251,
+    "localizedUrlsCompared": 753,
+    "comparison": "All existing titles, translated intents and relevant complete nearby bodies were inspected. Separate named mission completion/payment intents; preserve general money, replay, safe-code, car-theft and hunting guides.",
+    "decisions": [
+      {
+        "id": "gta6-afternoon-delight-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121"
+        ]
+      },
+      {
+        "id": "gta6-lab-fees-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121",
+          "gta6-door-safe-codes-20261121",
+          "gta6-house-repairs-20261122"
+        ]
+      },
+      {
+        "id": "gta6-daily-driver-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121",
+          "gta6-car-theft-tools-20261030"
+        ]
+      },
+      {
+        "id": "gta6-clean-up-donnie-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121"
+        ]
+      },
+      {
+        "id": "gta6-donnies-lost-drugs-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121"
+        ]
+      },
+      {
+        "id": "gta6-slam-dunk-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121"
+        ]
+      },
+      {
+        "id": "gta6-hit-avery-pawn-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121",
+          "gta6-fences-buyers-20261121",
+          "gta6-door-safe-codes-20261121"
+        ]
+      },
+      {
+        "id": "gta6-thrillbillies-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121"
+        ]
+      },
+      {
+        "id": "gta6-twist-wrist-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121"
+        ]
+      },
+      {
+        "id": "gta6-skunk-ape-20261123",
+        "decision": "New named mission guide; preserve all existing content and URLs.",
+        "nearbyIds": [
+          "gta6-earn-money-20261121",
+          "gta6-mission-replay-20261121",
+          "gta6-hunting-20261101"
+        ]
+      }
+    ]
+  },
+  "review": {
+    "snapshotSha256": "ae30d29d818c484ee2f2b49d6e0b6afe29cc2437f2305d1ba24d8a4ab121c91d",
+    "sourceDiscrepancyIds": [
+      "gta6-daily-driver-20261123",
+      "gta6-twist-wrist-20261123",
+      "gta6-skunk-ape-20261123"
+    ],
+    "languageReview": "Complete Spanish, English and French versions; individually localized titles, slugs, descriptions, captions, alt text, FAQs and internal navigation.",
+    "derivationBudget": "Cumulative across all three versions, repeated lead/title headings and source labels; closely corresponding Lost Drugs works share one allowance. Raw fetched articles and annotated prose ledger remain private.",
+    "wordCounts": {
+      "lab-boom": 174,
+      "lab-vgc": 147,
+      "lab-pp": 143,
+      "clean-beebom": 170,
+      "clean-pp": 193,
+      "clean-vgc": 134,
+      "lost-pp": 197,
+      "daily-vgc": 189,
+      "daily-pp": 183,
+      "daily-boom": 152,
+      "slam-vgc": 188,
+      "slam-boom": 197,
+      "slam-pp": 166,
+      "avery-vgc": 174,
+      "avery-pp": 188,
+      "avery-boom": 190,
+      "mud-coffee": 179,
+      "mud-vgc": 170,
+      "mud-pp": 140,
+      "vicki-vgc": 167,
+      "vicki-boom": 183,
+      "vicki-pp": 151,
+      "billy-vgc": 193,
+      "billy-leonida": 191,
+      "billy-pp": 192,
+      "skunk-push": 163,
+      "skunk-gr": 186,
+      "skunk-pp": 172,
+      "gallery": 150
+    },
+    "bodyStyle": "Focused task-specific walkthroughs with requirements, steps, payment conditions, practical comparison advice and FAQs; no SEO word-count padding."
+  },
+  "sources": {
+    "lab-pp": {
+      "url": "https://www.powerpyx.com/gta-6-lab-fees-collect-brians-rent-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-lab-fees-collect-brians-rent-walkthrough/",
+      "status": 200,
+      "sha256": "7fcfb55164d40627540c2f1460cdc109259df58ef23d38fd038be26eeb837c0a",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 143,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "lab-vgc": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-lab-fees-mission-walkthrough/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-lab-fees-mission-walkthrough/",
+      "status": 200,
+      "sha256": "bb1e9be9f249b81f3713264b6fc8d1fc7c3e24e1024888412955f45f4375464d",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-18T13:32:14+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-18T13:32:14+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 147,
+      "publishedUse": true
+    },
+    "clean-pp": {
+      "url": "https://www.powerpyx.com/gta-6-clean-up-after-donnie-donnies-drop-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-clean-up-after-donnie-donnies-drop-walkthrough/",
+      "status": 200,
+      "sha256": "fe9e73ca02e4b5dc018e7843579884a1aa2eb00883aaaa38f484f31d1dcd6a2c",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 193,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "clean-vgc": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-clean-up-after-donnie-mission-walkthrough/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-clean-up-after-donnie-mission-walkthrough/",
+      "status": 200,
+      "sha256": "824765e5598189ed6434bff565e540326b1f76894c88e726635a876d03579e71",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-18T17:33:56+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-18T17:33:56+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 134,
+      "publishedUse": true
+    },
+    "lost-pp": {
+      "url": "https://www.powerpyx.com/gta-6-donnies-lost-drugs-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-donnies-lost-drugs-walkthrough/",
+      "status": 200,
+      "sha256": "9abc17c58f2af1b7a99ef0c7ec5817278b1d197eaecb2024e0b5bd1e778b92e6",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 197,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "lost-base": {
+      "url": "https://www.gtabase.com/gta-6/missions/donnies-lost-drugs",
+      "resolved": "https://www.gtabase.com/gta-6/missions/donnies-lost-drugs",
+      "status": 200,
+      "sha256": "df90cec31466ce610b483f27e10d3193b839fcb2fc69617a52064438c25a83e8",
+      "dates": [
+        [
+          "dateModified",
+          "2026-11-22T11:10:32Z"
+        ],
+        [
+          "datePublished",
+          "2026-11-18T11:18:52Z"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": "Shared with lost-pp, jointly below 200; not an extra budget.",
+      "publishedUse": true
+    },
+    "daily-pp": {
+      "url": "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/",
+      "status": 200,
+      "sha256": "7ebbe05854911040bd96f68dbd7b85c9a72d12782e36797a31b96197f5076ffd",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 183,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "daily-vgc": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-daily-driver-mission-walkthrough/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-daily-driver-mission-walkthrough/",
+      "status": 200,
+      "sha256": "947a5353b6abef5cd75211555596d4d2d60082a95f118bff9d5ef8cd3d77b6f3",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-19T23:47:06+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-19T23:47:06+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 189,
+      "publishedUse": true
+    },
+    "daily-boom": {
+      "url": "https://www.gtaboom.com/gta-6-daily-driver-walkthrough-d470",
+      "resolved": "https://www.gtaboom.com/gta-6-daily-driver-walkthrough-d470",
+      "status": 200,
+      "sha256": "4377e99c0aad8bef4222284d5cbdaea6f6a7383066f83e8cd3ac558e07622c84",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-22T18:16:36.657+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 152,
+      "publishedUse": true
+    },
+    "slam-pp": {
+      "url": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
+      "status": 200,
+      "sha256": "67bdc834407176fd0ecfe7da22c65a009541c1f28e99f758f839ea3524bf2dd1",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 166,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "slam-vgc": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-slam-dunk-mission-walkthrough/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-slam-dunk-mission-walkthrough/",
+      "status": 200,
+      "sha256": "759df21cf0b8d76ac990ec9339b1136b9de9802a70f1aca2d09307a9fbad34de",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-20T18:45:30+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-20T18:45:30+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 188,
+      "publishedUse": true
+    },
+    "avery-pp": {
+      "url": "https://www.powerpyx.com/gta-6-hit-avery-pawn-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-hit-avery-pawn-walkthrough/",
+      "status": 200,
+      "sha256": "cb0e6285b7c8389c1f6ca00cd7d7889d50927af1e1685aa43b58f8609c244f3d",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 188,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "avery-vgc": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
+      "status": 200,
+      "sha256": "ec1c676c960637b678311f1a7a87574348b1e44bebed0dae1c3840fb5d6631db",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-21T20:41:28+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-21T20:41:28+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 174,
+      "publishedUse": true
+    },
+    "mud-pp": {
+      "url": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
+      "status": 200,
+      "sha256": "66c51794a52fb10c148aa66bb6d732f1a3182e33392e8ef65c494dbf48acbe93",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 140,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "mud-vgc": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-thrillbillies-walkthrough/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-thrillbillies-walkthrough/",
+      "status": 200,
+      "sha256": "e0e37372d38925b726f73bd5e293c6336c5fca7813484255efaceb5bf7d92084",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-21T01:47:58+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-21T01:47:58+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 170,
+      "publishedUse": true
+    },
+    "vicki-pp": {
+      "url": "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/",
+      "status": 200,
+      "sha256": "6cfd278e166465b3d10a2ef493a05a4cfcee689b4d45abfd7d96a83d7b490d70",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 151,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "vicki-vgc": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-afternoon-delight-walkthrough-safe-code-jasons-dance-choice-and-rewards/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-afternoon-delight-walkthrough-safe-code-jasons-dance-choice-and-rewards/",
+      "status": 200,
+      "sha256": "29540970d14b943436fc17c4afacf5a1c104dcfac81d1e3dddf8e3ff27c742f1",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-21T00:22:54+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-21T00:29:14+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 167,
+      "publishedUse": true
+    },
+    "billy-pp": {
+      "url": "https://www.powerpyx.com/gta-6-twist-wrist-smash-grab-join-billy-on-a-job-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-twist-wrist-smash-grab-join-billy-on-a-job-walkthrough/",
+      "status": 200,
+      "sha256": "9509795f20571903e93c9b4d1470c07e0e2e7e46ad083e1619955b03196951e4",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 192,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "billy-vgc": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-twist-wrist-smash-grab-walkthrough/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-twist-wrist-smash-grab-walkthrough/",
+      "status": 200,
+      "sha256": "93be7ab21668d567e7a6282e6045a296f78f3d3df51f9ad6d11e6ae2909bc4ed",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-21T01:49:27+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-21T01:49:27+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 193,
+      "publishedUse": true
+    },
+    "billy-leonida": {
+      "url": "https://theleonida.com/guides/gta-6-twist-wrist-smash-grab-walkthrough",
+      "resolved": "https://theleonida.com/guides/gta-6-twist-wrist-smash-grab-walkthrough",
+      "status": 200,
+      "sha256": "58c554aeffc3200c5a0accf6749a96da9bfcafd9a0c910b159342c3d40d981eb",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-21T00:00:00-05:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-21T00:00:00-05:00"
+        ],
+        [
+          "datePublished",
+          "2026-11-19"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 191,
+      "publishedUse": true
+    },
+    "skunk-pp": {
+      "url": "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/",
+      "resolved": "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/",
+      "status": 200,
+      "sha256": "1bd8fb583c043680574ca01e6076e93f858462145573941a1d5872c096f373d0",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 172,
+      "publishedUse": true,
+      "dateEvidence": "Displayed November 18, 2026 in current search/open result; no JSON-LD date exposed in fetched HTML."
+    },
+    "skunk-push": {
+      "url": "https://www.pushsquare.com/guides/gta-6-search-for-the-skunk-ape-kirk-skunk-apeology-101-walkthrough",
+      "resolved": "https://www.pushsquare.com/guides/gta-6-search-for-the-skunk-ape-kirk-skunk-apeology-101-walkthrough",
+      "status": 200,
+      "sha256": "583abb06838ae22a3a7c1f4b602f7b0a1e3dadd5a593ebc27da9a7d1ec4c3fd3",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-19T21:25:00+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-23T14:41:02+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 163,
+      "publishedUse": true
+    },
+    "skunk-gr": {
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bigfoot-skunk-ape-mr-mangrove/",
+      "resolved": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bigfoot-skunk-ape-mr-mangrove/",
+      "status": 200,
+      "sha256": "3c048ecf46bb32db0e4c15e4b733701efb9ae654b7c5299c5e8aef018fdadb28",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-20T15:16:03+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-20T15:16:03+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 186,
+      "publishedUse": true
+    },
+    "gallery": {
+      "url": "https://www.rockstargames.com/VI/media",
+      "resolved": "https://www.rockstargames.com/VI/media",
+      "status": 200,
+      "sha256": "16dc541efda5b83b4517b6dc23fce72d5092bf089c0fa8f30b9391a44fc57873",
+      "dates": [],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 150,
+      "publishedUse": true
+    },
+    "lab-boom": {
+      "url": "https://www.gtaboom.com/gta-6-lab-fees-mission-walkthrough-a2c7",
+      "resolved": "https://www.gtaboom.com/gta-6-lab-fees-mission-walkthrough-a2c7",
+      "status": 200,
+      "sha256": "83262adb9f12fb16ae1a3be8a3526eada5c90ce63df9ce417fd95e8a007fb64c",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-18T17:21:59.084+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 174,
+      "publishedUse": true
+    },
+    "clean-beebom": {
+      "url": "https://beebom.com/gta-6-clean-up-after-donnie-mission/",
+      "resolved": "https://beebom.com/gta-6-clean-up-after-donnie-mission/",
+      "status": 200,
+      "sha256": "092595573efc23dd4efae3c109b93753956469cca93f80151ad3f4d483540065",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-21T12:50:36+05:30"
+        ],
+        [
+          "dateModified",
+          "2026-11-21T12:50:40+05:30"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 170,
+      "publishedUse": true
+    },
+    "slam-boom": {
+      "url": "https://www.gtaboom.com/gta-6-slam-dunk-walkthrough-db1e",
+      "resolved": "https://www.gtaboom.com/gta-6-slam-dunk-walkthrough-db1e",
+      "status": 200,
+      "sha256": "4d8abb492e26940319bfb718871568733917347d9259e36a53adaaa7da814ca6",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-22T18:18:03.765+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 197,
+      "publishedUse": true
+    },
+    "avery-boom": {
+      "url": "https://www.gtaboom.com/gta-6-avery-pawn-robbery-guide-55b9",
+      "resolved": "https://www.gtaboom.com/gta-6-avery-pawn-robbery-guide-55b9",
+      "status": 200,
+      "sha256": "0e1cc768b6c14dc5ee944843d81bb3a80dd7942c517a8b9eecc0993f14d72577",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-22T17:35:16.713+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 190,
+      "publishedUse": true
+    },
+    "vicki-boom": {
+      "url": "https://www.gtaboom.com/gta-6-afternoon-delight-walkthrough-25b8",
+      "resolved": "https://www.gtaboom.com/gta-6-afternoon-delight-walkthrough-25b8",
+      "status": 200,
+      "sha256": "8757c9cc0416416b91dfe6a2872a95bde4bd164e8fc24e8edd7a1a26971a8c88",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-22T18:19:12.464+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 183,
+      "publishedUse": true
+    },
+    "mud-coffee": {
+      "url": "https://www.videogameschronicle.com/guide/gta-6-coffee-break-walkthrough/",
+      "resolved": "https://www.videogameschronicle.com/guide/gta-6-coffee-break-walkthrough/",
+      "status": 200,
+      "sha256": "06566b68376b31c01dc845994bc847072b483f63528cda752025f967cc9ed426",
+      "dates": [
+        [
+          "datePublished",
+          "2026-11-20T23:12:41+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-20T23:12:41+00:00"
+        ]
+      ],
+      "wordCap": 200,
+      "checkedDateNY": "2026-11-23",
+      "derivedWordsAllLanguages": 179,
+      "publishedUse": true
+    }
+  },
+  "media": {
+    "checkedDateNY": "2026-11-23",
+    "uses": 20,
+    "uniqueAssets": 17,
+    "assets": {
+      "brian-heder": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Brian_Heder_01.0r.ute88os9k-.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "f38e956240503c1ffe220b78d4814a1d95e6a453cc53f99a09f5a689bafacd1a",
+        "webpSha256": "e6c76c618f950ca8aead17bb73cc760a664d395ca98bdf59660e4e5d92a26a5d",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 1.6396,
+        "rights": "Official promotional download/share gallery; copyright reserved, no unrestricted licence asserted."
+      },
+      "feature-bike": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "6f06847e2173385df416ef162e1dfbb9f6270bfcc7bf0e080f02a4803d7473b3",
+        "webpSha256": "21877f3ec04c980ee67bf19e860a0a4c8493e27a86d3c5d6e06b10498e20a827",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.83159,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "feature-boats": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "5f2226e90602403ac0b8feea520a501c2872015627456448c0be85768d5ef7ae",
+        "webpSha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.71848,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "feature-couple": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_02.0uig00eojlokf.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "d3664044aae19090d554ae98ac3257b809409c0e9d04d168e969281d652c020c",
+        "webpSha256": "362655c31782832dc2c7e0e1eb24698f0e7e3a10371135b4aebcdf0883309399",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 1.59181,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "feature-diving": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_04.0hce1rw1s8pd9.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "800b091c1c69e2885c71d7278aac0fae9f1284c6bdedf6e08a5dbab298c9e0c3",
+        "webpSha256": "d19fbc12ac07fcea5814e5dc2ce5f8af9971cb8420dddd91b84bf83707674c2f",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.23081,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "feature-driver": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+        "webpSha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 1.44131,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "feature-fight": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_01.0a7yqvewctkfp.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "f79d4a251166dbf99efce8cd9c3198d28b2c829373413c8f98621e61dc6e361c",
+        "webpSha256": "e637b9c9897c0334099b20b4018e6a8c8af133fe7e5d70bc2e010a041856c5a9",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 1.42112,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "feature-forest-wildlife": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_05.0_~vto-o2zxok.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "531c700304fbea3fb25e78d90d3a8c50d1ac7f157b76888be891e78c53bde78a",
+        "webpSha256": "823504ce9ad23baf3a2135f61ac505d7c580217b2bc83efbd2717e087ca6fc1a",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 3.05202,
+        "rights": "Authentic GTA VI promotional screenshot in the official download/share gallery, visually inspected; editorial illustration, copyright reserved. No gameplay testing or unrestricted licence asserted."
+      },
+      "feature-launch-gallery-bridge": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/launch-gallery",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "f0725fd61298ccfe7de30328ecf1651f7455eaf122a0b2f66031b819dd45d0e1",
+        "webpSha256": "203790573d8a61de0b0ff8f59a501de98359934ebea6257f4e87cf149ce5f94a",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 3.1997,
+        "rights": "Official promotional download/share gallery; copyright reserved, no unrestricted licence asserted."
+      },
+      "feature-mountain": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Mount_Kalaga_National_Park_04.0e1sxnp1mln2u.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "2b973cf17237cec6f6729ea939f15bc9b8f056eab12598be79b0bd5201187679",
+        "webpSha256": "a6e1256ebd32f34788286bb3fe11f98feb1d0203c60a0885ddc6ad059d1970a9",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 3.43345,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "feature-safehouse-enduro": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "b51017c4fd8cb6045f91472aea10d73ae776dfcf3b0368db2369ea5b4fd16701",
+        "webpSha256": "114ea8ec0d9a67ca935455640820edb01dae4bfa041d699e7923b01c639db861",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 3.14799,
+        "rights": "Authentic GTA VI promotional screenshot in the official download/share gallery, visually inspected; editorial illustration, copyright reserved. No gameplay testing or unrestricted licence asserted."
+      },
+      "feature-shop-robbery": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_04.0m7i~huzhskdw.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "7b4cc077e1dcd5251bd5a3b9f46fb88528a41a280e448e5eb5c2cf1282e4e96c",
+        "webpSha256": "42501ae068402276538e3835425d71ce62c97a585b2c10a3e794e1e00bb716c6",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 1.67092,
+        "rights": "Authentic official GTA VI promotional screenshot from Rockstar download/share gallery, visually inspected, resized/re-encoded only for original credited editorial commentary. Rights reserved; no unrestricted licence claimed. Not AI, mods, leaks, GTA V or an edited decorative hero layer."
+      },
+      "grassrivers": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_05.0.dx9~67tljry.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "6549fce7cebcb03dd43385f73f1c0d3748d5b819de3c7b0577645630e7958be5",
+        "webpSha256": "de4d9cb3af1737921eed1605de62a01658e6bdcca1b7baf1768b76e65e62dfd6",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 3.5095,
+        "rights": "Official promotional download/share gallery; copyright reserved, no unrestricted licence asserted."
+      },
+      "leonida-keys": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+        "webpSha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.81983,
+        "rights": "Official promotional download/share gallery; copyright reserved, no unrestricted licence asserted."
+      },
+      "region-grassrivers-02": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Grassrivers_02.0teqs5xe2pem1.jpg",
+        "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "89574ed17bfc0c6aaae59c25813644c2bcfad2b777739ecb855b23692b841858",
+        "webpSha256": "90c7c5ec23d38a0b007a762e11442133739ea98acfe95b4b30e8e85350207b7e",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.66446,
+        "rights": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+      },
+      "region-port-gellhorn-02": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_02.00e7cz6lwrup-.jpg",
+        "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "a4d4d56a5fa127fcf6afdc8fedd2f6ef190799ca9275e5c5b0fcb0e127238cee",
+        "webpSha256": "bc3008887d8e4b05a1ecdf85874bc027672ab5262904567497c572082b0a5ace",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.20053,
+        "rights": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+      },
+      "region-port-gellhorn-03": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_03.00c2b0eh7sm~q.jpg",
+        "sourcePage": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "d089452a5a3e0de069daf8191351be45d5407c64fd894dd9570f2cc5fb607a75",
+        "webpSha256": "cd0a6bb53d473d817c8eae264bfb170b7034c6dd6c25a7ccbfeafb9b1eaaf173",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 1.55958,
+        "rights": "Official promotional image used with credit in original editorial commentary. Rockstar official media offers download/share; copyright reserved, no unrestricted licence claimed."
+      }
+    },
+    "inspection": "All 19 candidates inspected in a contact sheet; full Port Gellhorn interior inspected and descriptive ALT narrowed to visible people. Only 17 unmodified official assets selected.",
+    "rightsContext": "Fresh official Rockstar media gallery and original downloadable/shareable assets checked. Existing credited editorial illustrations only; copyright remains reserved."
+  },
+  "validation": {
+    "releaseBuild": true,
+    "static": {
+      "html": 827,
+      "internalLinks": 37247,
+      "structuredData": 1628,
+      "canonicalUrls": 822,
+      "articleVersions": 783
+    },
+    "editorial": {
+      "topics": 261,
+      "errors": 0,
+      "existingReviewNotices": 42,
+      "newReviewNotices": 0
+    },
+    "preservation": {
+      "oldArticles": 251,
+      "oldLocalizedUrls": 753,
+      "protectedFiles": 571,
+      "unchangedAssets": 3,
+      "newTopics": 10,
+      "newVersions": 30,
+      "totalTopics": 261,
+      "totalVersions": 783,
+      "approvedSnapshot": "ae30d29d818c484ee2f2b49d6e0b6afe29cc2437f2305d1ba24d8a4ab121c91d"
+    },
+    "localBrowser": {
+      "logicalCases": 25,
+      "logicalPassed": 25,
+      "logicalFailed": 0,
+      "executions": 28,
+      "initialPassed": 22,
+      "initialFailed": 3,
+      "targetedRechecksPassed": 3,
+      "articleLocaleViewportScenarios": 90,
+      "decodedEditorialImages": 180,
+      "languageSwitches": 90,
+      "history": "Three French cases overlapped a local dist rebuild and received incomplete preview files. Only those three were repeated after the release was complete; all passed. No check was weakened.",
+      "reports": {
+        "local-initial-tests.json": "675b944f7ca44754272dc92fcccf5f594d9e48c3a0a09ff5a57ebb2851249ced",
+        "local-fr-recheck-tests.json": "35c7c768c7e202f2529d7ef133d449daf25f67c3583da8d13289b855d6198251"
+      },
+      "providerFixtures": "Only third-party SDK origins; actual local editorial images and complete HTML checked."
+    }
+  },
+  "limits": [
+    "No Google Trends volumes, query rankings or Search Console receipt available; no most-searched, fast-indexing or position guarantee.",
+    "Sources are attributed third-party walkthroughs, not independent console playtesting by FansGTA. Publication and source-check dates are distinguished.",
+    "Different reported outcomes remain attributed and unresolved; no hourly farm, guaranteed reward, universal variable code or real-money earnings asserted.",
+    "Images are official promotional illustrations, not FansGTA captures of the described missions. Copyright reserved; no unrestricted licence asserted.",
+    "Browser advertising/Analytics fixtures check integration and navigation only; they do not prove real creative delivery or Analytics event receipt.",
+    "This newly authorized manual batch does not restart or modify the daily schedule whose last authorized date was November 19 inclusive."
+  ]
+}

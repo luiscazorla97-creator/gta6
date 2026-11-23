@@ -658,3 +658,10 @@ Publicados y verificados en producción. Diez temas nuevos y treinta versiones E
 ## Tanda manual — 2026-11-22
 
 Publicada y verificada en producción. Cinco temas nuevos y quince versiones ES/EN/FR; catálogo 251 temas/753 versiones. Los 246 artículos anteriores y 738 URLs, publicidad, diseño, consentimiento e idiomas se conservan. Runtime `d8a02c3a2ac750590056814001213f6fe3a0ba75`; Cloudflare `2e3e4826-e864-4dff-9276-00d860402c30`, deploy/success y canónico coincidente. Verificación pública: 792 canónicas/753 versiones, 301 recursos, cero incidencias; 25 pruebas locales y 9 públicas, con SDK externos simulados solo en navegador. Evidencia e informe: docs/editorial/2026-11-22-five-topics-{research.json,publication.json,informe.md}. No se prometen búsquedas, indexación ni posiciones. El commit de evidencia mantiene 1.100 archivos de runtime idénticos. Esta tanda manual no modifica ni amplía la tarea diaria, cuyo límite fue el 19 de noviembre de 2026 inclusive, America/New_York.
+
+
+## Tanda manual — 2026-11-23
+
+Petición manual vigente de diez guías de misiones, treinta versiones ES/EN/FR, preparadas y comprobadas localmente; publicación pública pendiente. No modifica la programación diaria finalizada el 19 de noviembre.
+
+Registros: [investigación](editorial/2026-11-23-ten-money-missions-research.json), [publicación](editorial/2026-11-23-ten-money-missions-publication.json) e [informe](editorial/2026-11-23-ten-money-missions-informe.md). Conservar los artículos anteriores, publicidad, consentimiento y recursos del sitio. No prometer indexación ni posiciones en Google.
