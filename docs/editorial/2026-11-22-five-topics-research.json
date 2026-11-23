@@ -1,0 +1,583 @@
+{
+  "scope": {
+    "mode": "manual",
+    "topics": 5,
+    "versions": 15,
+    "date": "2026-11-22",
+    "timezone": "America/New_York",
+    "automaticSchedule": "Unchanged; its final authorized date remains November 19, 2026 inclusive."
+  },
+  "baseline": {
+    "githubMain": "ff9102725c40d94e39e3e107dfe42ecc853081e9",
+    "tree": "5132364945b3447e15e6882702f7d5fd76c22a80",
+    "cloudflare": {
+      "branch": "main",
+      "build": "npm run build:release",
+      "id": "006429be-9447-4fa4-829b-f765000b904e",
+      "stage": {
+        "name": "deploy",
+        "started_on": "2026-11-22T01:16:50.559201Z",
+        "ended_on": "2026-11-22T01:17:09.809927Z",
+        "status": "success"
+      },
+      "commit": "53ecd20c7ca37d3056edad3d1d3501aa87f24a9b"
+    },
+    "liveHtmlMatched": true,
+    "normalization": "At most one exact 367-byte Cloudflare beacon pinned by SHA-256; no arbitrary HTML rewriting."
+  },
+  "interest": {
+    "signals": "Fresh post-launch guide coverage dated November 18–22 and specific practical query results; qualitative evidence only.",
+    "googleVolumeOrRank": "Unavailable; no volume, ranking or most-searched claim.",
+    "indexing": "No Google indexing or position guarantee."
+  },
+  "deduplication": {
+    "catalogueCompared": 246,
+    "localizedUrlsCompared": 738,
+    "comparison": "Intent and complete nearby article bodies, not title matching alone.",
+    "decisions": [
+      {
+        "id": "gta6-headphones-20261122",
+        "decision": "New practical intent; retain all earlier content and URLs.",
+        "nearbyIds": [
+          "gta-6-radio-music",
+          "gta6-interest-phone-20261031",
+          "gta6-ps5-3d-audio-settings-20261112"
+        ]
+      },
+      {
+        "id": "gta6-house-repairs-20261122",
+        "decision": "New practical intent; retain all earlier content and URLs.",
+        "nearbyIds": [
+          "gta6-safehouses-20261101",
+          "gta6-jason-lucia-relationship-20261030"
+        ]
+      },
+      {
+        "id": "gta6-auto-drive-20261122",
+        "decision": "New practical intent; retain all earlier content and URLs.",
+        "nearbyIds": [
+          "gta6-interest-driving-20261031",
+          "gta6-ryde-me-20261101"
+        ]
+      },
+      {
+        "id": "gta6-kenton-treasures-20261122",
+        "decision": "New practical intent; retain all earlier content and URLs.",
+        "nearbyIds": [
+          "gta6-interest-underwater-20261031",
+          "gta6-earn-money-20261121"
+        ]
+      },
+      {
+        "id": "gta6-collectible-cards-20261122",
+        "decision": "New practical intent; retain all earlier content and URLs.",
+        "nearbyIds": [
+          "gta6-challenge-tracker-20261121",
+          "cheats-check"
+        ]
+      }
+    ]
+  },
+  "review": {
+    "approvedBatchSha256": "3522e078c92650e07348af17a5fd0d614d27137e4e3e54939329b4b6f0702b12",
+    "method": "Solo fact, translation, media and source-use review; no delegated work.",
+    "sourceWordsJointAcrossAllFifteenVersions": {
+      "headphones-shack": 191,
+      "headphones-gr": 161,
+      "podcasts-vgc": 170,
+      "gallery": 75,
+      "repairs-show": 189,
+      "repairs-vgc": 173,
+      "repairs-base": 173,
+      "auto-gi": 182,
+      "auto-beebom": 163,
+      "auto-insider": 165,
+      "auto-base": 184,
+      "kenton-pp": 188,
+      "kenton-space": 168,
+      "kenton-boom": 197,
+      "kenton-push": 173,
+      "cards-biglead": 191,
+      "cards-push": 176,
+      "cards-pp": 177
+    },
+    "counting": "Conservative combined accounting includes title/meta repetition, lead/body alias, headings/TOC, localized slugs, references and credits. Mirrors and translations share an original-work budget. No long quotations.",
+    "privateEvidence": "Raw HTML, extracted source text, annotated attribution ledger and review snapshot kept outside the repository."
+  },
+  "sources": [
+    {
+      "id": "headphones-shack",
+      "url": "https://www.shacknews.com/article/151414/how-to-get-headphones-gta6",
+      "httpStatus": 200,
+      "sha256": "e0a650be9351b4039e75de3ebc42f2643ce320d9390fd24084b1a9ecae1e6fb1",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-18T12:42:00-08:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-18T12:40:29-08:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 191
+    },
+    {
+      "id": "headphones-gr",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+      "httpStatus": 200,
+      "sha256": "4c5817e263df557b35741d8acf4f0b882a79c6a47cb467c68134777143cb9929",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-19T00:00:00+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-19T00:00:00+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 161
+    },
+    {
+      "id": "podcasts-vgc",
+      "url": "https://www.videogameschronicle.com/guide/gta-6-podcasts-explained-how-to-listen-to-podcasts-in-gta-6/",
+      "httpStatus": 200,
+      "sha256": "ec5e13cbb40447428f99594ede33b802e4854ae9fb6abb1bf3f157154f730695",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-19T09:17:53+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-19T09:17:53+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 170
+    },
+    {
+      "id": "gallery",
+      "url": "https://www.rockstargames.com/VI/media",
+      "httpStatus": 200,
+      "sha256": "1ea9ba7016bdc56aa8b3fd5ee9809fa578ea11450e9dcb496100df844106aeed",
+      "sourceDates": [],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 75
+    },
+    {
+      "id": "repairs-show",
+      "url": "https://showgamer.com/en/guides/7793-kak-otremontirovat-dom-dzheysona-v-gta-6-vse-4-mesta-dlya-remonta",
+      "httpStatus": 200,
+      "sha256": "ab8ecad3d34435b981e565442d8952524f9bb58f5130ecf120557cf88c48d36d",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-18T00:00:00+03:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-21T00:00:00+03:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 189
+    },
+    {
+      "id": "repairs-vgc",
+      "url": "https://www.videogameschronicle.com/guide/gta-6-jasons-house-how-to-fix-all-projects-around-jasons-house/",
+      "httpStatus": 200,
+      "sha256": "33725626eb4e3b8fe6b35975f5d110a0f6fda67d0f32e85ac04fe66058387f58",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-19T00:35:31+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-19T12:52:45+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 173
+    },
+    {
+      "id": "repairs-base",
+      "url": "https://www.gtabase.com/gta-6/articles/how-to-repair-jasons-house-in-gta-6",
+      "httpStatus": 200,
+      "sha256": "175f43cdb6b5d2f083f7e393a47bec1f7f1222751b6e249c56941f6a5d3da115",
+      "sourceDates": [
+        [
+          "dateModified",
+          "2026-11-19T16:52:08Z"
+        ],
+        [
+          "datePublished",
+          "2026-11-19T08:33:00Z"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 173
+    },
+    {
+      "id": "auto-gi",
+      "url": "https://gameinformer.com/tips/2026/11/19/grand-theft-auto-vis-auto-drive-is-a-beautiful-and-free-version-of-hands-free",
+      "httpStatus": 200,
+      "sha256": "295e26812549b9b8ed504456d27bc3ba212a404f213c1739e7c98894c9a5b56f",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-19T18:49:00-0600"
+        ],
+        [
+          "dateModified",
+          "2026-11-20T08:33:00-0600"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 182
+    },
+    {
+      "id": "auto-beebom",
+      "url": "https://beebom.com/how-to-auto-drive-in-gta-6/",
+      "httpStatus": 200,
+      "sha256": "4131954a30f389457ecbf60076667417989b41064927f8bc3f85925604a7a562",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-19T03:36:46+05:30"
+        ],
+        [
+          "dateModified",
+          "2026-11-19T03:36:49+05:30"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 163
+    },
+    {
+      "id": "auto-insider",
+      "url": "https://insider-gaming.com/how-to-enable-auto-drive-in-gta-6-cinematic-view-speed-options-and-more/",
+      "httpStatus": 200,
+      "sha256": "e7ed3f4a674615070d62b9994d69aa0afa906181e7ac9ec46ca2c2a9df493f68",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-20T10:29:29+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-20T18:52:26+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 165
+    },
+    {
+      "id": "auto-base",
+      "url": "https://www.gtabase.com/gta-6/articles/how-to-auto-drive-in-gta-6",
+      "httpStatus": 200,
+      "sha256": "48d224fcd6011bede57997b53d9e247f972382641c19aee564ae76ef287d5c94",
+      "sourceDates": [
+        [
+          "dateModified",
+          "2026-11-20T21:45:38Z"
+        ],
+        [
+          "datePublished",
+          "2026-11-20T21:24:23Z"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 184
+    },
+    {
+      "id": "kenton-pp",
+      "url": "https://www.powerpyx.com/gta-6-island-dreams-work-for-kenton-walkthrough/",
+      "httpStatus": 200,
+      "sha256": "cc38ac48c63cfa49e14390117bbb0e2ad912fb64a760fdc5313eb38a2280128e",
+      "sourceDates": [],
+      "displayDateWhenNoMachineDate": "2026-11-18",
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 188
+    },
+    {
+      "id": "kenton-space",
+      "url": "https://space4games.com/en/games-en/gta-6-diving-metal-detector-gold-doubloons-kenton-guide/",
+      "httpStatus": 200,
+      "sha256": "45d7c00c6225d02973f97d99ac44406b6f865bfb4442b1d1591f112644c9ede1",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-20T18:59:00+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-21T19:14:00+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 168
+    },
+    {
+      "id": "kenton-boom",
+      "url": "https://www.gtaboom.com/gta-6-treasure-hunting-2b73/",
+      "httpStatus": 200,
+      "sha256": "d981e2885129b137813235cdf41704e395bf7087b42569c22531d28aa9a2c937",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-19T04:30:26.239+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 197
+    },
+    {
+      "id": "kenton-push",
+      "url": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures",
+      "httpStatus": 200,
+      "sha256": "8ed26df4a7a40cf6504f254f654221901f4809926109f11c5af44b910c0c8f0c",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-18T22:00:00+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-20T17:25:06+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 173
+    },
+    {
+      "id": "cards-biglead",
+      "url": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "httpStatus": 200,
+      "sha256": "6631cc12d5428e8da6d5d1d4327e5ad2a172164f376259f82ace2d78e6618ffe",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-18T12:44:50+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-20T08:55:05+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 191
+    },
+    {
+      "id": "cards-push",
+      "url": "https://www.pushsquare.com/guides/gta-6-collectible-card-locations",
+      "httpStatus": 200,
+      "sha256": "2a03eb3cdec3002b2f1b3868f3103fd8436e4f1092fe79fea6d9cc7ba2070d20",
+      "sourceDates": [
+        [
+          "datePublished",
+          "2026-11-18T22:00:00+00:00"
+        ],
+        [
+          "dateModified",
+          "2026-11-20T21:05:00+00:00"
+        ]
+      ],
+      "displayDateWhenNoMachineDate": null,
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 176
+    },
+    {
+      "id": "cards-pp",
+      "url": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations",
+      "httpStatus": 200,
+      "sha256": "41181723223fea6d4bcafbfd1a0f3fd1de452d743aa1b0a35fd49ea877fd5924",
+      "sourceDates": [],
+      "displayDateWhenNoMachineDate": "2026-11-18",
+      "checkedDateNY": "2026-11-22",
+      "wordCap": 200,
+      "jointUsedWords": 177
+    }
+  ],
+  "media": {
+    "officialGallery": "https://www.rockstargames.com/VI/media",
+    "copyright": "Rockstar Games; official promotional download/share gallery used for credited editorial context. Copyright reserved; no unrestricted licence asserted.",
+    "uses": 10,
+    "uniqueFiles": 9,
+    "optimizedExistingWebP": true,
+    "checks": {
+      "music": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/hero-background-ultrawide.14kyfs_8tksd8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "2d90d15104f191cde43bc37334c1a7959a7e3c9d5c56cfde44f28b0c80f7af07",
+        "webpSha256": "dd7cff4ced509fc7391c601db5eb72fa5c0c635ba2189fb8426414b8db8fe8cf",
+        "width": 1600,
+        "height": 686,
+        "meanRgbDifference": 3.45264,
+        "rights": "Official promotional gallery download/share context; copyright reserved, no unrestricted license asserted."
+      },
+      "vice-city": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "6401a9b2a5068cef29cc9ed5edc8e7a179feff4f909de4dae41ce06553983cc6",
+        "webpSha256": "d14a9843fefdf871faf44da43784b44893f5d37f0096a294cd73090f0a50e016",
+        "width": 1600,
+        "height": 900,
+        "meanRgbDifference": 2.2957,
+        "rights": "Official promotional gallery download/share context; copyright reserved, no unrestricted license asserted."
+      },
+      "feature-safehouse-exterior": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "4999851a6bbfebc0ace0281480c1f81ae600e2c17e5539de5f5f61043484b8d6",
+        "webpSha256": "4d372fe168cdfd65303a05752ea33240c707fd9a8c4ea9376926e4b3a743bdef",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 3.52708,
+        "rights": "Authentic GTA VI promotional screenshot in the official download/share gallery, visually inspected; editorial illustration, copyright reserved. No gameplay testing or unrestricted licence asserted."
+      },
+      "feature-safehouse-kayak": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_03.0c9.qtpdi.tf..jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "757f16540da983d22da4093b7a7207c8678a47a1e582a767fc5ab568be7471e5",
+        "webpSha256": "22d82a82162528d5b9763926e48a17805e8c56f3f6eea0d7297ae46d07ba55f0",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.27328,
+        "rights": "Authentic GTA VI promotional screenshot in the official download/share gallery, visually inspected; editorial illustration, copyright reserved. No gameplay testing or unrestricted licence asserted."
+      },
+      "feature-driver": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_06.1035xf1yo78.b.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "47e8316ea52a23cc873525ea0b88eb2d584eb4548bec117314035a453e854c7c",
+        "webpSha256": "61845921e57e4951e5bebe43bca1623498d1994c276f28111a60e575f7f6e834",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 1.44131,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "leonida-keys": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_01.0zgz7tveur6y8.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "90bb51136148ee7c4c44750e54fb77cf1cb9790c584e904e0c5839094769e2e1",
+        "webpSha256": "36f6327c1d1c98779cc1e42aa458dad4b2ebadedf061403597db0dd06556345d",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.81983,
+        "rights": "Official promotional gallery download/share context; copyright reserved, no unrestricted license asserted."
+      },
+      "feature-diving": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_04.0hce1rw1s8pd9.jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "800b091c1c69e2885c71d7278aac0fae9f1284c6bdedf6e08a5dbab298c9e0c3",
+        "webpSha256": "d19fbc12ac07fcea5814e5dc2ce5f8af9971cb8420dddd91b84bf83707674c2f",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.23081,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "feature-boats": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Keys_05.0yerhvjhto-h..jpg?imwidth=1400",
+        "sourcePage": "https://www.rockstargames.com/VI/media/screenshots",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "5f2226e90602403ac0b8feea520a501c2872015627456448c0be85768d5ef7ae",
+        "webpSha256": "199651988d08f95d8a9954f58d86a67150394547bf47d5aacc3fae69a9b32df1",
+        "width": 1400,
+        "height": 788,
+        "meanRgbDifference": 2.71848,
+        "rights": "Authentic official promotional screenshot from Rockstar download/share gallery, resized/re-encoded only for original credited editorial commentary. Copyright reserved; no unrestricted licence claimed. Not AI, mods, leaked footage or GTA V."
+      },
+      "lucia": {
+        "url": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?imwidth=1600",
+        "sourcePage": "https://www.rockstargames.com/VI/media",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "originalSha256": "ad421602f8ef60d32cad4106ab830463cb3a0aa1019897bf808b3fb918723f5c",
+        "webpSha256": "821798811ad06469a003039c3c2bd1bdf6e5d9c2678fa212bf91c4b918f6cfff",
+        "width": 1600,
+        "height": 900,
+        "meanRgbDifference": 1.59097,
+        "rights": "Official promotional gallery download/share context; copyright reserved, no unrestricted license asserted."
+      }
+    }
+  },
+  "validation": {
+    "releaseBuild": true,
+    "staticVerifier": true,
+    "editorialErrors": 0,
+    "preExistingReviewNotices": 42,
+    "newReviewNotices": 0,
+    "localTests": 25,
+    "localArticleViewportLanguageScenarios": 45,
+    "localImageDecodes": 90,
+    "localLanguageSwitches": 45,
+    "preservation": {
+      "oldArticles": 246,
+      "oldLocalizedUrls": 738,
+      "protectedFiles": 565,
+      "unchangedAssets": 3,
+      "newTopics": 5,
+      "newVersions": 15,
+      "totalTopics": 251,
+      "totalVersions": 753,
+      "approvedSnapshot": "3522e078c92650e07348af17a5fd0d614d27137e4e3e54939329b4b6f0702b12"
+    }
+  },
+  "limits": [
+    "Qualitative source/query signals do not establish a Google popularity ranking.",
+    "Chromium cloud viewports do not certify Safari or physical devices.",
+    "Provider SDK fixtures in browser tests do not certify real ad creatives or Analytics receipt.",
+    "No automation, advertisement, security, subscription or other-project changes."
+  ]
+}

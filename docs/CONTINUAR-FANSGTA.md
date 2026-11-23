@@ -654,3 +654,7 @@ Publicada y verificada en producción. Cinco temas y quince versiones ES/EN/FR: 
 ## Diez artículos adicionales — 2026-11-21
 
 Publicados y verificados en producción. Diez temas nuevos y treinta versiones ES/EN/FR en sus secciones correspondientes. Catálogo 246 temas/738 versiones. Los 236 artículos anteriores y 708 URLs, publicidad, diseño, idiomas, consentimiento y seguridad se conservan. Investigación, deduplicación y evidencia: docs/editorial/2026-11-21-ten-topics-{research.json,publication.json,informe.md}. No se prometen volúmenes, posiciones o indexación. Esta tanda manual no amplía ni cambia la tarea diaria, cuyo límite fue el 19 de noviembre de 2026 inclusive, America/New_York.
+
+## Tanda manual — 2026-11-22
+
+Cinco temas nuevos y quince versiones ES/EN/FR preparados y validados. Catálogo 251 temas/753 versiones. Los 246 artículos anteriores y 738 URLs, publicidad, diseño, consentimiento e idiomas se conservan. Evidencia e informe: docs/editorial/2026-11-22-five-topics-{research.json,publication.json,informe.md}. No se prometen búsquedas, indexación ni posiciones. Publicación pendiente. Esta tanda manual no modifica ni amplía la tarea diaria, cuyo límite fue el 19 de noviembre de 2026 inclusive, America/New_York.

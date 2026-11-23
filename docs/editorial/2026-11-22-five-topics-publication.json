@@ -1,0 +1,110 @@
+{
+  "status": "validated-awaiting-production",
+  "scope": "Manual request: five new topics, fifteen complete localized versions.",
+  "dateNY": "2026-11-22",
+  "timezone": "America/New_York",
+  "baselineCommit": "ff9102725c40d94e39e3e107dfe42ecc853081e9",
+  "articles": [
+    {
+      "id": "gta6-headphones-20261122",
+      "category": "guides",
+      "published": "2026-11-22",
+      "titles": [
+        "Auriculares en GTA 6: música y podcasts a pie",
+        "GTA 6 headphones: music and podcasts on foot",
+        "Écouteurs dans GTA 6 : musique et podcasts à pied"
+      ],
+      "paths": [
+        "/es/guias/gta-6-auriculares-musica-podcasts-a-pie/",
+        "/en/guides/gta-6-headphones-music-podcasts-on-foot/",
+        "/fr/guides/gta-6-ecouteurs-musique-podcasts-a-pied/"
+      ]
+    },
+    {
+      "id": "gta6-house-repairs-20261122",
+      "category": "missions",
+      "published": "2026-11-22",
+      "titles": [
+        "Casa de Jason en GTA 6: cómo repararla",
+        "Jason’s house in GTA 6: how to repair it",
+        "Maison de Jason dans GTA 6 : comment la réparer"
+      ],
+      "paths": [
+        "/es/misiones/gta-6-reparar-casa-jason-cuatro-tareas/",
+        "/en/missions/gta-6-repair-jason-house-four-jobs/",
+        "/fr/missions/gta-6-reparer-maison-jason-quatre-travaux/"
+      ]
+    },
+    {
+      "id": "gta6-auto-drive-20261122",
+      "category": "vehicles",
+      "published": "2026-11-22",
+      "titles": [
+        "Conducción automática en GTA 6: cómo activarla",
+        "GTA 6 Auto Drive: how to enable it",
+        "Conduite automatique dans GTA 6 : comment l’activer"
+      ],
+      "paths": [
+        "/es/vehiculos/gta-6-conduccion-automatica-activar-controles/",
+        "/en/vehicles/gta-6-auto-drive-enable-controls/",
+        "/fr/vehicules/gta-6-conduite-automatique-activer-commandes/"
+      ]
+    },
+    {
+      "id": "gta6-kenton-treasures-20261122",
+      "category": "guides",
+      "published": "2026-11-22",
+      "titles": [
+        "Tesoros de Kenton en GTA 6: detector y naufragios",
+        "Kenton’s treasures in GTA 6: detector and shipwrecks",
+        "Trésors de Kenton dans GTA 6 : détecteur et épaves"
+      ],
+      "paths": [
+        "/es/guias/gta-6-tesoros-kenton-detector-naufragios/",
+        "/en/guides/gta-6-kenton-treasures-detector-shipwrecks/",
+        "/fr/guides/gta-6-tresors-kenton-detecteur-epaves/"
+      ]
+    },
+    {
+      "id": "gta6-collectible-cards-20261122",
+      "category": "guides",
+      "published": "2026-11-22",
+      "titles": [
+        "Cartas de GTA 6: conjuntos, progreso y venta",
+        "GTA 6 cards: sets, progress and selling",
+        "Cartes de GTA 6 : ensembles, progression et vente"
+      ],
+      "paths": [
+        "/es/guias/gta-6-cartas-coleccionables-conjuntos-vender/",
+        "/en/guides/gta-6-collectible-cards-sets-sell/",
+        "/fr/guides/gta-6-cartes-collection-ensembles-vendre/"
+      ]
+    }
+  ],
+  "catalogue": {
+    "topics": 251,
+    "articleVersions": 753,
+    "canonicalUrls": 792
+  },
+  "checks": {
+    "release": true,
+    "static": true,
+    "localTests": 25,
+    "preservation": {
+      "oldArticles": 246,
+      "oldLocalizedUrls": 738,
+      "protectedFiles": 565,
+      "unchangedAssets": 3,
+      "newTopics": 5,
+      "newVersions": 15,
+      "totalTopics": 251,
+      "totalVersions": 753,
+      "approvedSnapshot": "3522e078c92650e07348af17a5fd0d614d27137e4e3e54939329b4b6f0702b12"
+    }
+  },
+  "limits": [
+    "No Google indexing or ranking guarantee.",
+    "Cloudflare publication and public URL verification still pending.",
+    "Advertising, Analytics consent, design and expired daily schedule remain unchanged."
+  ]
+}
